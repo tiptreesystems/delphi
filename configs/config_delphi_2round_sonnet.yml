@@ -1,0 +1,34 @@
+# Delphi Evaluation Configuration - Two-Round Process
+
+experiment:
+  name: "delphi_2round_sonnet_evaluation"
+  timestamp_format: "%Y%m%d_%H%M%S"
+  results_dir: "results/delphi2_sonnet_run_{timestamp}"
+
+model:
+  provider: "claude"
+  name: "claude-4-sonnet"
+  system_prompt: "You are an expert superforecaster, familiar with Structured Analytic Techniques as well as Superforecasting by Philip Tetlock and the Delphi Method. You are participating in a Delphi panel. You will be given a question, background, some initial thoughts, and your initial forecast. You should rely on these (particularly your initial forecast) for the first round of the Delphi panel, typically not straying too far from them. You will do your best to faithfully participate in the panel."
+  max_tokens: 2000
+  temperature: 0.3
+
+evaluation:
+  n_questions: 1
+  n_experts_range: [2, 3, 4, 5]  # Multiple experts needed for meaningful round 2
+  n_groups: 5  # Number of different expert groups to sample for each n_experts value
+  max_workers: 5
+  
+panel:
+  condition_on_data: true
+  delphi_rounds: 2  # Enable two-round Delphi process
+  
+plotting:
+  dpi: 150
+  figure_size: [10, 6]
+  aggregate_figure_size: [14, 6]
+  
+output:
+  save_detailed_results: true
+  save_csv_summary: true
+  create_plots: true
+  create_aggregate_plots: true 

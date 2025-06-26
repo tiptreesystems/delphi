@@ -1,0 +1,33 @@
+# Delphi Evaluation Configuration - Quick Test
+
+experiment:
+  name: "delphi_quick_test"
+  timestamp_format: "%Y%m%d_%H%M%S"
+  results_dir: "results/test_{timestamp}"
+
+model:
+  provider: "claude"
+  name: "claude-4-haiku"  # Fast and cheap model
+  system_prompt: "You are an expert forecaster. Analyze questions carefully and provide calibrated probability estimates."
+  max_tokens: 1000
+  temperature: 0.3
+
+evaluation:
+  n_questions: 3  # Very few questions for testing
+  n_experts_range: [1, 2]  # Minimal expert range
+  max_workers: 2  # Low parallelization for debugging
+  
+panel:
+  condition_on_data: true
+  delphi_rounds: 1  # Single round for quick testing
+  
+plotting:
+  dpi: 100  # Lower quality for faster generation
+  figure_size: [8, 5]
+  aggregate_figure_size: [12, 5]
+  
+output:
+  save_detailed_results: true
+  save_csv_summary: true
+  create_plots: true
+  create_aggregate_plots: true 

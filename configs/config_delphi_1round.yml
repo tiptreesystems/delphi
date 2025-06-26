@@ -1,0 +1,33 @@
+# Delphi Evaluation Configuration - Two-Round Process
+
+experiment:
+  name: "delphi_1round_evaluation"
+  timestamp_format: "%Y%m%d_%H%M%S"
+  results_dir: "results/delphi2_run_{timestamp}"
+
+model:
+  provider: "claude"
+  name: "claude-4-haiku"
+  system_prompt: "You are an expert superforecaster skilled at making calibrated probability estimates. You carefully analyze available information, consider base rates, and avoid overconfidence. You think in concrete probabilities rather than vague terms."
+  max_tokens: 2000
+  temperature: 0.3
+
+evaluation:
+  n_questions: 50
+  n_experts_range: [2, 4, 8, 16, 32]  # Multiple experts needed for meaningful round 2
+  max_workers: 4
+  
+panel:
+  condition_on_data: true
+  delphi_rounds: 2  # Enable two-round Delphi process
+  
+plotting:
+  dpi: 150
+  figure_size: [10, 6]
+  aggregate_figure_size: [14, 6]
+  
+output:
+  save_detailed_results: true
+  save_csv_summary: true
+  create_plots: true
+  create_aggregate_plots: true 

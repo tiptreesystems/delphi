@@ -1,0 +1,143 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+
+# Images (keep only the ones you want to track)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Output directories
+output/
+results/
+cache/
+tmp/
+
+# Model files
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+models/
+
+# Secrets and credentials
+*.pem
+*.key
+secrets/
+credentials/
+
+# Project-specific results directories
+results/
+results copy/
+visualizations/
+*_run_*/
+*_run_*
+
+# Partial and detailed results
+partial_results.json
+detailed_results.json
+summary_results.csv
+run.log
+
+# Statistical and analysis outputs
+statistical_summary.txt
+*_summary.txt
+*_analysis.txt
+
+# Profiler outputs
+user_profiles.json
+forecaster_analysis.json
+forecaster_report.json
+
+# Configuration backups
+*.yml.bak
+*.yaml.bak
+config.*.bak
+
+# Large data files
+2024-*.json
+*resolution_set.json
+*.ForecastBench.*.json
+
+# Matplotlib font cache
+.matplotlib/
+matplotlib/
+
+# Rate limit and retry logs
+rate_limit.log
+retry.log 
