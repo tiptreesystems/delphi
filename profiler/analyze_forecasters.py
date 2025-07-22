@@ -21,7 +21,7 @@ class ForecasterAnalyzer:
         """Create a comprehensive dataframe of all forecasters and their predictions"""
         rows = []
         
-        for question_id, forecasts in self.loader.forecasts.items():
+        for question_id, forecasts in self.loader.super_forecasts.items():
             question = self.loader.get_question(question_id)
             if not question:
                 continue

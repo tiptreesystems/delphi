@@ -153,7 +153,7 @@ class DelphiPanel:
         
         # Get all unique user IDs that have both profiles and forecasts
         all_user_ids = set()
-        for forecasts in loader.forecasts.values():
+        for forecasts in loader.super_forecasts.values():
             for forecast in forecasts:
                 if forecast.user_id in user_profiles:
                     all_user_ids.add(forecast.user_id)
@@ -182,8 +182,8 @@ class DelphiPanel:
             raise ValueError(f"Question {question_id} not found")
         
         # Get all forecasts for this question
-        question_forecasts = self.loader.get_forecasts(question_id)
-        
+        question_forecasts = self.loader.get_super_forecasts(question_id)
+
         # Find experts who have forecasts with reasoning for this specific question
         available_experts = []
         expert_forecasts = {}
@@ -343,7 +343,7 @@ if __name__ == "__main__":
     print(f"\nQuestion: {sample.question}\n")
     
     # Show human forecasts if available
-    human_forecasts = loader.get_forecasts(sample.id)
+    human_forecasts = loader.get_super_forecasts(sample.id)
     if human_forecasts:
         human_avg = sum(f.forecast for f in human_forecasts) / len(human_forecasts)
         print(f"Human forecasts average: {human_avg:.3f} (n={len(human_forecasts)})")

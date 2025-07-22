@@ -23,8 +23,8 @@ class UserProfiler:
     def get_all_user_forecasts(self) -> Dict[str, List[Tuple[str, Question, Forecast, float, float]]]:
         """Get all forecasts organized by user_id with question info and comparative statistics"""
         user_forecasts = defaultdict(list)
-        
-        for question_id, forecasts in self.loader.forecasts.items():
+
+        for question_id, forecasts in self.loader.super_forecasts.items():
             question = self.loader.get_question(question_id)
             if not question or not forecasts:
                 continue

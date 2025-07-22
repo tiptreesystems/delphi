@@ -52,12 +52,14 @@ class ForecastDataLoader:
         self.data_dir = Path(data_dir)
         self.questions: Dict[str, Question] = {}
         self.resolutions: Dict[str, Resolution] = {}
-        self.forecasts: Dict[str, List[Forecast]] = {}
-        
+        self.super_forecasts: Dict[str, List[Forecast]] = {}
+        self.public_forecasts: Dict[str, List[Forecast]] = {}
+
         self._load_questions()
         self._load_resolutions()
-        self._load_forecasts()
-    
+        self._load_super_forecasts()
+        self._load_public_forecasts()
+
     def _load_questions(self):
         question_file = self.data_dir / "2024-07-21-human.json"
         if question_file.exists():
@@ -86,17 +88,28 @@ class ForecastDataLoader:
                                 resolution.resolution_date > existing.resolution_date):
                                 self.resolutions[res_id] = resolution
     
-    def _load_forecasts(self):
+    def _load_super_forecasts(self):
         forecast_file = self.data_dir / "2024-07-21.ForecastBench.human_super_individual.json"
         if forecast_file.exists():
             with open(forecast_file, 'r') as f:
                 data = json.load(f)
                 for f_data in data['forecasts']:
                     forecast = Forecast(**f_data)
-                    if forecast.id not in self.forecasts:
-                        self.forecasts[forecast.id] = []
-                    self.forecasts[forecast.id].append(forecast)
+                    if forecast.id not in self.super_forecasts:
+                        self.super_forecasts[forecast.id] = []
+                    self.super_forecasts[forecast.id].append(forecast)
     
+    def _load_public_forecasts(self):
+        public_forecast_file = self.data_dir / "2024-07-21.ForecastBench.human_public_individual.json"
+        if public_forecast_file.exists():
+            with open(public_forecast_file, 'r') as f:
+                data = json.load(f)
+                for f_data in data['forecasts']:
+                    forecast = Forecast(**f_data)
+                    if forecast.id not in self.public_forecasts:
+                        self.public_forecasts[forecast.id] = []
+                    self.public_forecasts[forecast.id].append(forecast)
+
     def get_question(self, question_id: str) -> Optional[Question]:
         return self.questions.get(question_id)
     
@@ -119,9 +132,12 @@ class ForecastDataLoader:
     
     def get_resolution(self, question_id: str) -> Optional[Resolution]:
         return self.resolutions.get(question_id)
-    
-    def get_forecasts(self, question_id: str) -> List[Forecast]:
-        return self.forecasts.get(question_id, [])
+
+    def get_super_forecasts(self, question_id: str) -> List[Forecast]:
+        return self.super_forecasts.get(question_id, [])
+
+    def get_public_forecasts(self, question_id: str) -> List[Forecast]:
+        return self.public_forecasts.get(question_id, [])
     
     def get_question_with_forecasts(self, question_id: str) -> Optional[Dict]:
         question = self.get_question(question_id)
@@ -131,7 +147,8 @@ class ForecastDataLoader:
         return {
             'question': question,
             'resolution': self.get_resolution(question_id),
-            'forecasts': self.get_forecasts(question_id),
+            'forecasts': self.get_super_forecasts(question_id),
+            'public_forecasts': self.get_public_forecasts(question_id),
             'is_resolved': self.is_resolved(question_id)
         }
     
@@ -153,10 +170,10 @@ class ForecastDataLoader:
         total_questions = len(self.questions)
         resolved_count = len(self.get_resolved_questions())
         unresolved_count = len(self.get_unresolved_questions())
-        
-        total_forecasts = sum(len(forecasts) for forecasts in self.forecasts.values())
-        questions_with_forecasts = len(self.forecasts)
-        
+
+        total_forecasts = sum(len(forecasts) for forecasts in self.super_forecasts.values())
+        questions_with_forecasts = len(self.super_forecasts)
+
         return {
             'total_questions': total_questions,
             'resolved_questions': resolved_count,
@@ -174,8 +191,8 @@ class ForecastDataLoader:
         total_urls = 0
         search_counts = []
         url_counts = []
-        
-        for forecast_list in self.forecasts.values():
+
+        for forecast_list in self.super_forecasts.values():
             for forecast in forecast_list:
                 total_forecasts += 1
                 
@@ -231,7 +248,11 @@ if __name__ == "__main__":
         print(f"  Question: {sample.question}")
         print(f"  Resolved: {loader.is_resolved(sample.id)}")
         
-        forecasts = loader.get_forecasts(sample.id)
-        if forecasts:
-            print(f"  Number of forecasts: {len(forecasts)}")
-            print(f"  Average forecast: {sum(f.forecast for f in forecasts) / len(forecasts):.3f}") 
+        super_forecasts = loader.get_super_forecasts(sample.id)
+        public_forecasts = loader.get_public_forecasts(sample.id)
+        if super_forecasts:
+            print(f"  Number of super forecasts: {len(super_forecasts)}")
+            print(f"  Average super forecast: {sum(f.forecast for f in super_forecasts) / len(super_forecasts):.3f}")
+        if public_forecasts:
+            print(f"  Number of public forecasts: {len(public_forecasts)}")
+            print(f"  Average public forecast: {sum(f.forecast for f in public_forecasts) / len(public_forecasts):.3f}")
