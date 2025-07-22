@@ -147,7 +147,7 @@ class ForecastDataLoader:
         return {
             'question': question,
             'resolution': self.get_resolution(question_id),
-            'forecasts': self.get_super_forecasts(question_id),
+            'super_forecasts': self.get_super_forecasts(question_id),
             'public_forecasts': self.get_public_forecasts(question_id),
             'is_resolved': self.is_resolved(question_id)
         }
