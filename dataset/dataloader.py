@@ -43,8 +43,8 @@ class Forecast:
     reasoning: str
     direction: Optional[str]
     user_id: str
-    searches: Optional[List[str]]
-    consulted_urls: Optional[List[str]]
+    searches: Optional[List[str]] = None
+    consulted_urls: Optional[List[str]] = None
 
 
 class ForecastDataLoader:
