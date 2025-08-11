@@ -132,6 +132,12 @@ class ForecastDataLoader:
     def get_all_questions(self) -> List[Question]:
         return list(self.questions.values())
 
+    def get_same_topic_questions(self, question_id: str) -> List[Question]:
+        question = self.get_question(question_id)
+        if not question or not question.topic:
+            return []
+        return [q for q in self.questions.values() if q.id != question_id and q.topic == question.topic]
+
     def search_questions(self, keyword: str) -> List[Question]:
         keyword_lower = keyword.lower()
         results = []
@@ -204,6 +210,9 @@ class ForecastDataLoader:
         resolved_ids = {res_id for res_id, res in self.resolutions.items() if res.resolved}
         return [q for q_id, q in self.questions.items() if q_id not in resolved_ids]
 
+    def get_questions_with_topics(self) -> List[Question]:
+        return [q for q in self.questions.values() if q.topic is not None and isinstance(q.resolution_dates, list)] # TODO: improve resolution date handling
+
     def get_statistics(self) -> Dict:
         total_questions = len(self.questions)
         resolved_count = len(self.get_resolved_questions())
@@ -262,6 +271,21 @@ class ForecastDataLoader:
             'max_urls': max(url_counts) if url_counts else 0
         }
 
+    def get_all_topics(self) -> List[str]:
+        topics = set()
+        for question in self.questions.values():
+            if question.topic:
+                topics.add(question.topic)
+        return sorted(topics)
+
+    def get_topic_related_users(self, topic: str) -> Dict[str, int]:
+        user_forecast_count = {}
+        for question in self.questions.values():
+            if question.topic == topic:
+                for forecast in self.super_forecasts.get(question.id, []):
+                    if forecast.user_id not in user_forecast_count:
+                        user_forecast_count[forecast.user_id] = 0
+                    user_forecast_count[forecast.user_id] += 1
 
 if __name__ == "__main__":
     loader = ForecastDataLoader()
