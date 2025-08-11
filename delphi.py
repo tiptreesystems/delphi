@@ -7,6 +7,7 @@ import random
 import json
 import dotenv
 import numpy as np
+import asyncio
 
 dotenv.load_dotenv()
 
@@ -44,7 +45,8 @@ class Expert:
         self.config = config or {}
         self.conversation_manager = ConversationManager(llm)
 
-    def forecast(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> float:
+    async def forecast(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> float:
+
         # Add the user's actual forecast for this question if available
         prior_forecast_info = ""
         if conditioning_forecast:
@@ -65,7 +67,8 @@ class Expert:
         )
         temperature = self.config.get('temperature', 0.3)
         self.conversation_manager.messages.clear()
-        response = self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature).strip()
+        response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
+        response = response.strip()
 
         # Extract the final probability after "FINAL PROBABILITY:"
         match = re.search(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE)
@@ -80,6 +83,44 @@ class Expert:
             return max(0.0, min(1.0, prob))
 
         # Fallback if no valid number found
+        return 0.5
+
+    async def forecast_with_examples_in_context(self, question: Question, examples: List[Tuple[Question, Forecast]]) -> float:
+        examples_text = ""
+
+        for i, (ex_q, ex_f) in enumerate(examples):
+            examples_text += (
+                f"Example {i+1}:\n"
+                f"Question: {ex_q.question}\n"
+                f"Background: {ex_q.background}\n"
+                f"Resolution criteria: {ex_q.resolution_criteria}\n"
+                f"Forecast: {ex_f.forecast}\n"
+                f"Rationale: {ex_f.reasoning}\n"
+                f"FINAL PROBABILITY: {ex_f.forecast}\n\n"
+            )
+
+        examples_text += "--------------------------------\n\n"
+
+        prompt = (
+            f"{examples_text}"
+            f"Now consider the following question and provide your forecast.\n\n"
+            f"Question: {question.question}\n"
+            f"Background: {question.background}\n"
+            f"Resolution criteria: {question.resolution_criteria}\n"
+            f"URL: {question.url}\n"
+            f"Market freeze value: {question.freeze_datetime_value}\n"
+            f"You may reason through the problem, but you MUST end your response with:\n"
+            f"FINAL PROBABILITY: [your decimal number between 0 and 1]"
+        )
+
+        self.conversation_manager.messages.clear()
+        temperature = self.config.get('temperature', 0.3)
+        response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
+        response = response.strip()
+
+        match = re.search(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE)
+        if match:
+            return float(match.group(1))
         return 0.5
 
     def generate_round_1_response(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> str:
