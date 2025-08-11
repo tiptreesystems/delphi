@@ -6,38 +6,39 @@ import anthropic
 import openai
 import time
 import logging
+import inspect
 
 
-def retry_with_exponential_backoff(
-    func,
-    initial_delay: float = 1,
-    exponential_base: float = 2,
-    jitter: bool = True,
-    max_retries: int = 5,
-    errors: tuple = (anthropic.RateLimitError, openai.RateLimitError)
-):
-    """Retry a function with exponential backoff."""
-    def wrapper(*args, **kwargs):
-        num_retries = 0
-        delay = initial_delay
+# def retry_with_exponential_backoff(
+#     func,
+#     initial_delay: float = 1,
+#     exponential_base: float = 2,
+#     jitter: bool = True,
+#     max_retries: int = 5,
+#     errors: tuple = (anthropic.RateLimitError, openai.RateLimitError)
+# ):
+#     """Retry a function with exponential backoff."""
+#     def wrapper(*args, **kwargs):
+#         num_retries = 0
+#         delay = initial_delay
 
-        while True:
-            try:
-                return func(*args, **kwargs)
-            except errors as e:
-                num_retries += 1
+#         while True:
+#             try:
+#                 return func(*args, **kwargs)
+#             except errors as e:
+#                 num_retries += 1
 
-                if num_retries > max_retries:
-                    raise Exception(f"Maximum number of retries ({max_retries}) exceeded.") from e
+#                 if num_retries > max_retries:
+#                     raise Exception(f"Maximum number of retries ({max_retries}) exceeded.") from e
 
-                delay *= exponential_base * (1 + jitter * (0.1 * (2 * (0.5 - time.time() % 1))))
+#                 delay *= exponential_base * (1 + jitter * (0.1 * (2 * (0.5 - time.time() % 1))))
 
-                logging.warning(f"Rate limit hit. Retrying in {delay:.2f} seconds... (attempt {num_retries}/{max_retries})")
-                time.sleep(delay)
-            except Exception as e:
-                raise e
+#                 logging.warning(f"Rate limit hit. Retrying in {delay:.2f} seconds... (attempt {num_retries}/{max_retries})")
+#                 time.sleep(delay)
+#             except Exception as e:
+#                 raise e
 
-    return wrapper
+#     return wrapper
 
 
 class LLMProvider(Enum):
@@ -81,7 +82,7 @@ class ClaudeLLM(BaseLLM):
         self.model = model
 
     def generate(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.7, **kwargs) -> str:
-        @retry_with_exponential_backoff
+        # @retry_with_exponential_backoff
         def _generate():
             response = self.client.messages.create(
                 model=self.model,
@@ -113,13 +114,13 @@ class ClaudeLLM(BaseLLM):
 class OpenAILLM(BaseLLM):
     def __init__(self, api_key: Optional[str] = None, system_prompt: Optional[str] = None, model: str = LLMModel.GPT_4O.value):
         super().__init__(api_key or os.getenv("OPENAI_API_KEY"), system_prompt)
-        self.client = openai.OpenAI(api_key=self.api_key)
+        self.client = openai.AsyncOpenAI(api_key=self.api_key)
         self.model = model
 
-    def generate(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.7, **kwargs) -> str:
-        @retry_with_exponential_backoff
-        def _generate():
-            response = self.client.chat.completions.create(
+    async def generate(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.7, **kwargs) -> str:
+        # @retry_with_exponential_backoff
+        async def _generate():
+            response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": self.system_prompt},
@@ -187,13 +188,13 @@ class ConversationManager:
     def add_message(self, role: str, content: str):
         self.messages.append({"role": role, "content": content})
 
-    def generate_response(self, user_input: str, **kwargs) -> str:
+    async def generate_response(self, user_input: str, **kwargs) -> str:
         self.add_message("user", user_input)
 
-        @retry_with_exponential_backoff
-        def _generate():
+        # @retry_with_exponential_backoff
+        async def _generate():
             if isinstance(self.llm, ClaudeLLM):
-                response = self.llm.client.messages.create(
+                response = await self.llm.client.messages.create(
                     model=self.llm.model,
                     system=self.llm.system_prompt,
                     messages=self.messages,
@@ -202,13 +203,13 @@ class ConversationManager:
                 return response.content[0].text if response.content else ""
             else:
                 messages = [{"role": "system", "content": self.llm.system_prompt}] + self.messages
-                response = self.llm.client.chat.completions.create(
+                response = await self.llm.client.chat.completions.create(
                     model=self.llm.model,
                     messages=messages,
                     **kwargs
                 )
                 return response.choices[0].message.content
 
-        content = _generate()
+        content = await _generate()
         self.add_message("assistant", content)
         return content
