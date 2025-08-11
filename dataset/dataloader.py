@@ -191,7 +191,7 @@ class ForecastDataLoader:
         return {
             'question': question,
             'resolution': self.get_resolution(question_id),
-            'super_forecasts': self.get_super_forecasts(question_id),
+            'super_forecasts': self.get_super_forecasts(question_id=question_id),
             'public_forecasts': self.get_public_forecasts(question_id),
             'is_resolved': self.is_resolved(question_id)
         }
@@ -310,8 +310,8 @@ if __name__ == "__main__":
         print(f"  Question: {sample.question}")
         print(f"  Resolved: {loader.is_resolved(sample.id)}")
 
-        super_forecasts = loader.get_super_forecasts(sample.id)
-        public_forecasts = loader.get_public_forecasts(sample.id)
+        super_forecasts = loader.get_super_forecasts(question_id=sample.id)
+        public_forecasts = loader.get_public_forecasts(question_id=sample.id)
         if super_forecasts:
             print(f"  Number of super forecasts: {len(super_forecasts)}")
             print(f"  Average super forecast: {sum(f.forecast for f in super_forecasts) / len(super_forecasts):.3f}")
