@@ -62,13 +62,27 @@ class ForecastDataLoader:
         self._load_public_forecasts()
 
     def _load_questions(self):
-        question_file = self.data_dir / "2024-07-21-human.json"
+        nomic_csv_path = self.data_dir.parent / "nomic" / "Prediction Market Questions_250721-213003.csv" #TODO: convert to json
         if question_file.exists():
             with open(question_file, 'r') as f:
                 data = json.load(f)
                 for q_data in data['questions']:
                     question = Question(**q_data)
+                    self._add_topic(question)
                     self.questions[question.id] = question
+
+    def _add_topic(self, question: Question):
+        if not hasattr(self, '_nomic_df'):
+            nomic_csv_path = self.data_dir.parent / "nomic" / "Prediction Market Questions_250721-213003.csv"
+            if nomic_csv_path.exists():
+                self._nomic_df = pd.read_csv(nomic_csv_path)
+            else:
+                self._nomic_df = None
+
+        if self._nomic_df is not None:
+            row = self._nomic_df[self._nomic_df['id'] == question.id]
+            if not row.empty and 'Nomic Topic: broad' in row.columns:
+                question.topic = row.iloc[0]['Nomic Topic: broad']
 
     def _load_resolutions(self):
         resolution_file = self.data_dir / "2024-07-21_resolution_set.json"
