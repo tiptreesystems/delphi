@@ -186,7 +186,7 @@ class ForecastDataLoader:
     def get_question_with_forecasts(self, question_id: str) -> Optional[Dict]:
         question = self.get_question(question_id)
         if not question:
-            return None
+            print("Question not found:", question_id)
 
         return {
             'question': question,
