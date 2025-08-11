@@ -320,7 +320,7 @@ class DelphiPanel:
 
                 print(f"Expert {user_id}: Using their actual forecast of {user_forecast_for_question.forecast} with reasoning")
 
-                expert_forecast = expert.forecast(question, user_forecast_for_question)
+                expert_forecast = expert.forecast(question, user_forecast_for_question) # only used for reasoning
                 result["individual_forecasts"].append(expert_forecast)
                 result["expert_details"].append({
                     "expert_id": user_id,
