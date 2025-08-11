@@ -68,7 +68,7 @@ class ForecastDataLoader:
                 for q_data in data['questions']:
                     question = Question(**q_data)
                     self.questions[question.id] = question
-    
+
     def _load_resolutions(self):
         resolution_file = self.data_dir / "2024-07-21_resolution_set.json"
         if resolution_file.exists():
@@ -78,16 +78,16 @@ class ForecastDataLoader:
                     resolution = Resolution(**r_data)
                     if isinstance(resolution.id, str):
                         existing = self.resolutions.get(resolution.id)
-                        if (existing is None or 
+                        if (existing is None or
                             resolution.resolution_date > existing.resolution_date):
                             self.resolutions[resolution.id] = resolution
                     elif isinstance(resolution.id, list):
                         for res_id in resolution.id:
                             existing = self.resolutions.get(res_id)
-                            if (existing is None or 
+                            if (existing is None or
                                 resolution.resolution_date > existing.resolution_date):
                                 self.resolutions[res_id] = resolution
-    
+
     def _load_super_forecasts(self):
         forecast_file = self.data_dir / "2024-07-21.ForecastBench.human_super_individual.json"
         if forecast_file.exists():
@@ -98,7 +98,7 @@ class ForecastDataLoader:
                     if forecast.id not in self.super_forecasts:
                         self.super_forecasts[forecast.id] = []
                     self.super_forecasts[forecast.id].append(forecast)
-    
+
     def _load_public_forecasts(self):
         public_forecast_file = self.data_dir / "2024-07-21.ForecastBench.human_public_individual.json"
         if public_forecast_file.exists():
@@ -112,24 +112,24 @@ class ForecastDataLoader:
 
     def get_question(self, question_id: str) -> Optional[Question]:
         return self.questions.get(question_id)
-    
+
     def get_all_questions(self) -> List[Question]:
         return list(self.questions.values())
-    
+
     def search_questions(self, keyword: str) -> List[Question]:
         keyword_lower = keyword.lower()
         results = []
         for question in self.questions.values():
-            if (keyword_lower in question.question.lower() or 
+            if (keyword_lower in question.question.lower() or
                 keyword_lower in question.background.lower() or
                 keyword_lower in question.resolution_criteria.lower()):
                 results.append(question)
         return results
-    
+
     def is_resolved(self, question_id: str) -> bool:
         resolution = self.resolutions.get(question_id)
         return resolution.resolved if resolution else False
-    
+
     def get_resolution(self, question_id: str) -> Optional[Resolution]:
         return self.resolutions.get(question_id)
 
@@ -138,12 +138,12 @@ class ForecastDataLoader:
 
     def get_public_forecasts(self, question_id: str) -> List[Forecast]:
         return self.public_forecasts.get(question_id, [])
-    
+
     def get_question_with_forecasts(self, question_id: str) -> Optional[Dict]:
         question = self.get_question(question_id)
         if not question:
             return None
-        
+
         return {
             'question': question,
             'resolution': self.get_resolution(question_id),
@@ -151,21 +151,21 @@ class ForecastDataLoader:
             'public_forecasts': self.get_public_forecasts(question_id),
             'is_resolved': self.is_resolved(question_id)
         }
-    
+
     def sample_random_question(self) -> Optional[Question]:
         import random
         if self.questions:
             return random.choice(list(self.questions.values()))
         return None
-    
+
     def get_resolved_questions(self) -> List[Question]:
         resolved_ids = {res_id for res_id, res in self.resolutions.items() if res.resolved}
         return [q for q_id, q in self.questions.items() if q_id in resolved_ids]
-    
+
     def get_unresolved_questions(self) -> List[Question]:
         resolved_ids = {res_id for res_id, res in self.resolutions.items() if res.resolved}
         return [q for q_id, q in self.questions.items() if q_id not in resolved_ids]
-    
+
     def get_statistics(self) -> Dict:
         total_questions = len(self.questions)
         resolved_count = len(self.get_resolved_questions())
@@ -182,7 +182,7 @@ class ForecastDataLoader:
             'questions_with_forecasts': questions_with_forecasts,
             'average_forecasts_per_question': total_forecasts / questions_with_forecasts if questions_with_forecasts > 0 else 0
         }
-    
+
     def get_search_and_url_statistics(self) -> Dict:
         total_forecasts = 0
         forecasts_with_searches = 0
@@ -195,19 +195,19 @@ class ForecastDataLoader:
         for forecast_list in self.super_forecasts.values():
             for forecast in forecast_list:
                 total_forecasts += 1
-                
+
                 if forecast.searches:
                     forecasts_with_searches += 1
                     search_count = len(forecast.searches)
                     total_searches += search_count
                     search_counts.append(search_count)
-                
+
                 if forecast.consulted_urls:
                     forecasts_with_urls += 1
                     url_count = len(forecast.consulted_urls)
                     total_urls += url_count
                     url_counts.append(url_count)
-        
+
         return {
             'total_forecasts': total_forecasts,
             'forecasts_with_searches': forecasts_with_searches,
@@ -227,12 +227,12 @@ class ForecastDataLoader:
 
 if __name__ == "__main__":
     loader = ForecastDataLoader()
-    
+
     print("Dataset Statistics:")
     stats = loader.get_statistics()
     for key, value in stats.items():
         print(f"  {key}: {value}")
-    
+
     print("\nSearch and URL Statistics:")
     search_stats = loader.get_search_and_url_statistics()
     for key, value in search_stats.items():
@@ -240,14 +240,14 @@ if __name__ == "__main__":
             print(f"  {key}: {value:.2f}")
         else:
             print(f"  {key}: {value}")
-    
+
     print("\nSample Question:")
     sample = loader.sample_random_question()
     if sample:
         print(f"  ID: {sample.id}")
         print(f"  Question: {sample.question}")
         print(f"  Resolved: {loader.is_resolved(sample.id)}")
-        
+
         super_forecasts = loader.get_super_forecasts(sample.id)
         public_forecasts = loader.get_public_forecasts(sample.id)
         if super_forecasts:
