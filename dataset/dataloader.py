@@ -133,8 +133,30 @@ class ForecastDataLoader:
     def get_resolution(self, question_id: str) -> Optional[Resolution]:
         return self.resolutions.get(question_id)
 
-    def get_super_forecasts(self, question_id: str) -> List[Forecast]:
-        return self.super_forecasts.get(question_id, [])
+    def get_super_forecasts(
+        self,
+        *, # make sure to use keyword arguments
+        question_id: Optional[str] = None,
+        resolution_date: Optional[str] = None,
+        user_id: Optional[str] = None,
+        topic: Optional[str] = None
+    ) -> List[Forecast]:
+        if question_id is not None:
+            forecasts = self.super_forecasts.get(question_id, [])
+        else:
+            # Flatten all forecasts if question_id is not provided
+            forecasts = [f for flist in self.super_forecasts.values() for f in flist]
+        if resolution_date is not None:
+            forecasts = [f for f in forecasts if f.resolution_date == resolution_date]
+        if user_id is not None:
+            forecasts = [f for f in forecasts if f.user_id == user_id]
+        if topic is not None:
+            # Filter forecasts by topic using the question's topic
+            forecasts = [
+                f for f in forecasts
+                if (q := self.questions.get(f.id)) is not None and q.topic == topic
+            ]
+        return forecasts
 
     def get_public_forecasts(self, question_id: str) -> List[Forecast]:
         return self.public_forecasts.get(question_id, [])
