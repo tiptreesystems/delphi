@@ -22,6 +22,7 @@ class Question:
     source_intro: str
     combination_of: str
     resolution_dates: str
+    topic: Optional[str] = None
 
 
 @dataclass
