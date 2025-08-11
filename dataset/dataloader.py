@@ -49,7 +49,7 @@ class Forecast:
 
 
 class ForecastDataLoader:
-    def __init__(self, data_dir: str = "data"):
+    def __init__(self, data_dir: str = "datasets"):
         self.data_dir = Path(data_dir)
         self.questions: Dict[str, Question] = {}
         self.resolutions: Dict[str, Resolution] = {}
@@ -62,6 +62,7 @@ class ForecastDataLoader:
         self._load_public_forecasts()
 
     def _load_questions(self):
+        question_file = self.data_dir / "question_sets" / "2024-07-21-human.json"
         nomic_csv_path = self.data_dir.parent / "nomic" / "Prediction Market Questions_250721-213003.csv" #TODO: convert to json
         if question_file.exists():
             with open(question_file, 'r') as f:
@@ -85,7 +86,7 @@ class ForecastDataLoader:
                 question.topic = row.iloc[0]['Nomic Topic: broad']
 
     def _load_resolutions(self):
-        resolution_file = self.data_dir / "2024-07-21_resolution_set.json"
+        resolution_file = self.data_dir / "resolution_sets" / "2024-07-21_resolution_set.json"
         if resolution_file.exists():
             with open(resolution_file, 'r') as f:
                 data = json.load(f)
@@ -104,7 +105,7 @@ class ForecastDataLoader:
                                 self.resolutions[res_id] = resolution
 
     def _load_super_forecasts(self):
-        forecast_file = self.data_dir / "2024-07-21.ForecastBench.human_super_individual.json"
+        forecast_file = self.data_dir / "forecast_sets" / "2024-07-21" / "2024-07-21.ForecastBench.human_super_individual.json"
         if forecast_file.exists():
             with open(forecast_file, 'r') as f:
                 data = json.load(f)
@@ -115,7 +116,7 @@ class ForecastDataLoader:
                     self.super_forecasts[forecast.id].append(forecast)
 
     def _load_public_forecasts(self):
-        public_forecast_file = self.data_dir / "2024-07-21.ForecastBench.human_public_individual.json"
+        public_forecast_file = self.data_dir / "forecast_sets" / "2024-07-21" / "2024-07-21.ForecastBench.human_public_individual.json"
         if public_forecast_file.exists():
             with open(public_forecast_file, 'r') as f:
                 data = json.load(f)
