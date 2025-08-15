@@ -115,6 +115,7 @@ class Expert:
 
         self.conversation_manager.messages.clear()
         temperature = self.config.get('temperature', 0.3)
+        self.conversation_manager.messages.clear()
         response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
         response = response.strip()
 
