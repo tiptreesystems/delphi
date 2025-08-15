@@ -54,6 +54,7 @@ class LLMModel(Enum):
 
     # OpenAI models
     GPT_4O = "gpt-4o"
+    GPT_4O_2024_05_13 = "gpt-4o-2024-05-13" #snapshot to avoid memory leaks
     GPT_4O_MINI = "gpt-4o-mini"
     O3_MINI = "o3-mini"
     O3 = "o3"
