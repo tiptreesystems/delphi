@@ -140,4 +140,7 @@ matplotlib/
 
 # Rate limit and retry logs
 rate_limit.log
-retry.log 
+retry.log
+
+
+outputs_bak
