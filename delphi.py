@@ -119,9 +119,16 @@ class Expert:
         response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
         response = response.strip()
 
-        match = re.search(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE)
+        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
+        match = matches[-1] if matches else None
         if match:
             return float(match.group(1))
+
+        # Fallback: try to find any number at the end of the response
+        numbers = re.findall(r'0?\.\d+|1\.0|0|1', response)
+        if numbers:
+            prob = float(numbers[-1])  # Take the last number found
+            return max(0.0, min(1.0, prob))
         return 0.5
 
     def generate_round_1_response(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> str:
