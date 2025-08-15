@@ -534,10 +534,10 @@ if __name__ == "__main__":
     print(f"\nQuestion: {sample.question}\n")
 
     # Show human forecasts if available
-    human_forecasts = loader.get_super_forecasts(sample.id)
+    human_forecasts = loader.get_super_forecasts(question_id=sample.id)
     if human_forecasts:
         human_avg = sum(f.forecast for f in human_forecasts) / len(human_forecasts)
-        print(f"Human forecasts average: {human_avg:.3f} (n={len(human_forecasts)})")
+        print(f"Superforecasts average: {human_avg:.3f} (n={len(human_forecasts)})")
 
     # Show resolution if available
     resolution = loader.get_resolution(sample.id)
@@ -562,4 +562,3 @@ if __name__ == "__main__":
             print(f"\n{len(result['round2_responses'])} Round 2 responses stored")
     except Exception as e:
         print(f"Error: {e}")
-
