@@ -4,6 +4,7 @@ from typing import Dict, List, Optional, Union
 from dataclasses import dataclass, field
 from datetime import datetime
 import pandas as pd
+from collections import defaultdict
 
 @dataclass
 class Question:
@@ -49,7 +50,7 @@ class Forecast:
 
 
 class ForecastDataLoader:
-    def __init__(self, data_dir: str = "datasets"):
+    def __init__(self, data_dir: str = "dataset/datasets"):
         self.data_dir = Path(data_dir)
         self.questions: Dict[str, Question] = {}
         self.resolutions: Dict[str, Resolution] = {}
@@ -87,22 +88,31 @@ class ForecastDataLoader:
 
     def _load_resolutions(self):
         resolution_file = self.data_dir / "resolution_sets" / "2024-07-21_resolution_set.json"
+        grouped = defaultdict(list)
+
         if resolution_file.exists():
             with open(resolution_file, 'r') as f:
                 data = json.load(f)
-                for r_data in data['resolutions']:
-                    resolution = Resolution(**r_data)
-                    if isinstance(resolution.id, str):
-                        existing = self.resolutions.get(resolution.id)
-                        if (existing is None or
-                            resolution.resolution_date > existing.resolution_date):
-                            self.resolutions[resolution.id] = resolution
-                    elif isinstance(resolution.id, list):
-                        for res_id in resolution.id:
-                            existing = self.resolutions.get(res_id)
-                            if (existing is None or
-                                resolution.resolution_date > existing.resolution_date):
-                                self.resolutions[res_id] = resolution
+
+            for r in data.get('resolutions', []):
+                ids = r['id'] if isinstance(r['id'], list) else [r['id']]
+                directions = r.get('direction')
+
+                for i, qid in enumerate(ids):
+                    # make a per-question entry
+                    r_item = dict(r)
+                    r_item['id'] = qid
+                    if isinstance(directions, list):
+                        r_item['direction'] = directions[i]
+                    resolution = Resolution(**r_item)
+                    grouped[qid].append(resolution)
+
+            # sort each list by resolution_date (ascending)
+            for qid in grouped:
+                grouped[qid].sort(key=lambda res: res.resolution_date)
+
+        self.resolutions = grouped
+        return grouped
 
     def _load_super_forecasts(self):
         forecast_file = self.data_dir / "forecast_sets" / "2024-07-21" / "2024-07-21.ForecastBench.human_super_individual.json"
@@ -148,12 +158,25 @@ class ForecastDataLoader:
                 results.append(question)
         return results
 
-    def is_resolved(self, question_id: str) -> bool:
-        resolution = self.resolutions.get(question_id)
-        return resolution.resolved if resolution else False
+    def is_resolved(self, question_id: str, resolution_date: str) -> bool:
+        """Return True if the given question_id has a resolution on the given date and it is resolved."""
+        resolutions = self.resolutions.get(question_id)
+        if not resolutions:
+            return False
+        for res in resolutions:
+            if str(res.resolution_date) == resolution_date:
+                return bool(res.resolved)
+        return False
 
-    def get_resolution(self, question_id: str) -> Optional[Resolution]:
-        return self.resolutions.get(question_id)
+    def get_resolution(self, question_id: str, resolution_date: str) -> Optional[Resolution]:
+        """Return the Resolution for a given question_id and resolution_date (string)."""
+        resolutions = self.resolutions.get(question_id)
+        if not resolutions:
+            return None
+        for res in resolutions:
+            if str(res.resolution_date) == resolution_date:
+                return res
+        return None
 
     def get_super_forecasts(
         self,
@@ -180,21 +203,43 @@ class ForecastDataLoader:
             ]
         return forecasts
 
-    def get_public_forecasts(self, question_id: str) -> List[Forecast]:
-        return self.public_forecasts.get(question_id, [])
+    def get_public_forecasts(
+        self,
+        *, # make sure to use keyword arguments
+        question_id: Optional[str] = None,
+        resolution_date: Optional[str] = None,
+        user_id: Optional[str] = None,
+        topic: Optional[str] = None
+    ) -> List[Forecast]:
+        if question_id is not None:
+            forecasts = self.public_forecasts.get(question_id, [])
+        else:
+            # Flatten all forecasts if question_id is not provided
+            forecasts = [f for flist in self.public_forecasts.values() for f in flist]
+        if resolution_date is not None:
+            forecasts = [f for f in forecasts if f.resolution_date == resolution_date]
+        if user_id is not None:
+            forecasts = [f for f in forecasts if f.user_id == user_id]
+        if topic is not None:
+            # Filter forecasts by topic using the question's topic
+            forecasts = [
+                f for f in forecasts
+                if (q := self.questions.get(f.id)) is not None and q.topic == topic
+            ]
+        return forecasts
 
-    def get_question_with_forecasts(self, question_id: str) -> Optional[Dict]:
-        question = self.get_question(question_id)
-        if not question:
-            print("Question not found:", question_id)
+    # def get_question_with_forecasts(self, question_id: str) -> Optional[Dict]:
+    #     question = self.get_question(question_id)
+    #     if not question:
+    #         print("Question not found:", question_id)
 
-        return {
-            'question': question,
-            'resolution': self.get_resolution(question_id),
-            'super_forecasts': self.get_super_forecasts(question_id=question_id),
-            'public_forecasts': self.get_public_forecasts(question_id),
-            'is_resolved': self.is_resolved(question_id)
-        }
+    #     return {
+    #         'question': question,
+    #         'resolution': self.get_resolution(question_id),
+    #         'super_forecasts': self.get_super_forecasts(question_id=question_id),
+    #         'public_forecasts': self.get_public_forecasts(question_id),
+    #         'is_resolved': self.is_resolved(question_id)
+    #     }
 
     def sample_random_question(self) -> Optional[Question]:
         import random
@@ -286,6 +331,13 @@ class ForecastDataLoader:
                     if forecast.user_id not in user_forecast_count:
                         user_forecast_count[forecast.user_id] = 0
                     user_forecast_count[forecast.user_id] += 1
+
+    def get_topic(self, question_id: str) -> Optional[str]:
+        question = self.get_question(question_id)
+        if question and question.topic:
+            return question.topic
+        return None
+
 
 if __name__ == "__main__":
     loader = ForecastDataLoader()
