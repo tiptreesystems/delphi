@@ -171,6 +171,19 @@ class Expert:
         # Fallback if no valid number found
         return 0.5, response
 
+    async def get_forecast_update(self, input_message) -> float:
+        """Get a response without clearing the conversation, used after feedback."""
+        if not self.conversation_manager.messages:
+            raise RuntimeError("No conversation history found. Cannot update forecast without prior context.")
+        response = await self.conversation_manager.generate_response(input_message, max_tokens=800, temperature=self.config.get('temperature', 0.3))
+        response = response.strip()
+        # Extract the last occurrence of "FINAL PROBABILITY:"
+        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
+        match = matches[-1] if matches else None
+        if match:
+            return float(match.group(1)), response
+        return 0.5, response
+
     def get_last_response(self) -> Optional[str]:
         """
         Returns the content of the most recent assistant message in the conversation,
