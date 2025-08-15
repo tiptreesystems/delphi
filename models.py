@@ -188,6 +188,13 @@ class ConversationManager:
     def add_message(self, role: str, content: str):
         self.messages.append({"role": role, "content": content})
 
+    def add_messages(self, messages: List[Dict[str, str]]):
+        for message in messages:
+            if "role" in message and "content" in message:
+                self.add_message(message["role"], message["content"])
+            else:
+                raise ValueError("Each message must contain 'role' and 'content' keys.")
+
     async def generate_response(self, user_input: str, **kwargs) -> str:
         self.add_message("user", user_input)
 
