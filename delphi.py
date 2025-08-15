@@ -70,11 +70,10 @@ class Expert:
         response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
         response = response.strip()
 
-        # Extract the final probability after "FINAL PROBABILITY:"
-        match = re.search(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE)
+        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
+        match = matches[-1] if matches else None
         if match:
-            prob = float(match.group(1))
-            return max(0.0, min(1.0, prob))  # Clamp to [0,1]
+            return float(match.group(1))
 
         # Fallback: try to find any number at the end of the response
         numbers = re.findall(r'0?\.\d+|1\.0|0|1', response)
