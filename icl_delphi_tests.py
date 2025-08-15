@@ -22,7 +22,7 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 
-from initial_icl_tests import run_all_forecasts_with_examples, sample_questions_by_topic
+from icl_initial_forecasts import run_all_forecasts_with_examples, sample_questions_by_topic
 
 import numpy as np
 import debugpy

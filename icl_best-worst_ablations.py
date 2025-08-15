@@ -45,7 +45,7 @@ import debugpy
 # debugpy.wait_for_client()
 # print("Debugger attached.")
 
-from initial_icl_tests import run_all_forecasts_with_examples, run_all_forecasts_baseline
+from icl_initial_forecasts import run_all_forecasts_with_examples, run_all_forecasts_baseline
 
 # Set all random seeds for reproducibility
 
