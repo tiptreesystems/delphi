@@ -373,7 +373,7 @@ class DelphiPanel:
             raise ValueError(f"Question {question_id} not found")
 
         # Get all forecasts for this question
-        question_forecasts = self.loader.get_super_forecasts(question_id)
+        question_forecasts = self.loader.get_super_forecasts(question_id=question_id)
 
         # Find experts who have forecasts with reasoning for this specific question
         available_experts = []
