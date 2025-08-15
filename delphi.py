@@ -171,6 +171,18 @@ class Expert:
         # Fallback if no valid number found
         return 0.5, response
 
+    def get_last_response(self) -> Optional[str]:
+        """
+        Returns the content of the most recent assistant message in the conversation,
+        or None if there is no assistant message.
+        """
+        if not self.conversation_manager.messages:
+            return None
+        for msg in reversed(self.conversation_manager.messages):
+            if msg.get("role") == "assistant":
+                return msg
+        return None
+
 
 class DelphiPanel:
     def __init__(
