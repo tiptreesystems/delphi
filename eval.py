@@ -29,7 +29,7 @@ def process_single_question(
 ) -> Optional[Dict]:
     """Process a single question and return metrics."""
     # Get human forecasts
-    human_forecasts = loader.get_super_forecasts(question_id)
+    human_forecasts = loader.get_super_forecasts(question_id=question_id)
     human_values = [f.forecast for f in human_forecasts]
 
     # Get resolution
