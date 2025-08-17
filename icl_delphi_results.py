@@ -39,18 +39,18 @@ import json
 import os
 import re
 import pickle
+import yaml
 from typing import List, Dict, Any, Optional
 from dataset.dataloader import ForecastDataLoader
 
 import numpy as np
 import matplotlib.pyplot as plt
-
-import numpy as np
-import debugpy
-print("Waiting for debugger attach...")
-debugpy.listen(5679)
-debugpy.wait_for_client()
-print("Debugger attached.")
+if "williaar" in __file__:
+    import debugpy
+    print("Waiting for debugger attach...")
+    debugpy.listen(5679)
+    debugpy.wait_for_client()
+    print("Debugger attached.")
 
 # Optional fallback in case some rounds only stored raw text responses
 _PROB_PAT = re.compile(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', re.IGNORECASE)
@@ -103,20 +103,51 @@ def compute_brier_score(prob: float, outcome: int) -> float:
     """Brier score for a binary outcome in {0,1}."""
     return (prob - outcome) ** 2
 
-def parse_delphi_log_filename(filename: str) -> Tuple[str, str]:
+def parse_delphi_log_filename(filename: str, file_pattern: str) -> Tuple[str, str]:
     """
-    Parse "delphi_log_<question_id>_<YYYY-MM-DD>.json" -> (question_id, date).
-    Safe against '_' within the question_id.
+    Parse filename based on the config pattern like "prompt_comparison_high_variance_{question_id}_{resolution_date}.json"
+    Returns (question_id, date).
     """
     base = os.path.basename(filename)
     stem, _ = os.path.splitext(base)
-    if not stem.startswith("delphi_log_"):
-        raise ValueError(f"Unexpected filename format: {filename}")
-    parts = stem[len("delphi_log_"):].split("_")
-    if len(parts) < 2:
-        raise ValueError(f"Cannot parse <question_id> and <date> from: {filename}")
-    question_id = "_".join(parts[:-1])
-    date_str = parts[-1]
+    
+    # Find the prefix before {question_id}
+    prefix_end = file_pattern.find('{question_id}')
+    if prefix_end == -1:
+        raise ValueError(f"Pattern {file_pattern} must contain {{question_id}}")
+    
+    prefix = file_pattern[:prefix_end]
+    
+    # Remove the prefix from the filename
+    if not stem.startswith(prefix):
+        raise ValueError(f"Filename {filename} doesn't match pattern {file_pattern}")
+    
+    remainder = stem[len(prefix):]
+    
+    # The date pattern is YYYY-MM-DD, find it in the remainder
+    # Look for pattern like 2025-07-21
+    import re
+    date_pattern = r'\d{4}-\d{2}-\d{2}'
+    date_matches = re.findall(date_pattern, remainder)
+    
+    if not date_matches:
+        raise ValueError(f"Cannot find date in filename: {filename}")
+    
+    # Take the last date match as the resolution date
+    date_str = date_matches[-1]
+    
+    # The question_id is everything before the last occurrence of _YYYY-MM-DD
+    # Find the position of the date in the remainder
+    date_pos = remainder.rfind('_' + date_str)
+    if date_pos == -1:
+        # Date might be directly attached without underscore
+        date_pos = remainder.rfind(date_str)
+        if date_pos == -1:
+            raise ValueError(f"Cannot parse question_id and date from: {filename}")
+        question_id = remainder[:date_pos].rstrip('_')
+    else:
+        question_id = remainder[:date_pos]
+    
     return question_id, date_str
 
 def median_by_probability(probs: List[float]) -> Optional[float]:
@@ -235,16 +266,34 @@ def aggregate_llm_rounds_across_questions(
     return {r: average_across_questions(vals) for r, vals in accumulator.items()}
 
 
-if __name__ == "__main__":
+def load_experiment_config(config_path: str) -> dict:
+    """Load experiment configuration from YAML file."""
+    with open(config_path, 'r') as f:
+        return yaml.safe_load(f)
 
+if __name__ == "__main__":
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="Analyze Delphi experiment results")
+    parser.add_argument("config_path", help="Path to experiment configuration YAML file")
+    args = parser.parse_args()
+    
+    # Load configuration
+    config = load_experiment_config(args.config_path)
+    
     # 0) Setup
     loader = ForecastDataLoader()
-    results_dir = "outputs_initial_delphi"
+    results_dir = config['experiment']['output_dir']
+    initial_forecasts_dir = config['experiment']['initial_forecasts_dir']
 
+    # Use the file pattern from config to identify log files
+    file_pattern = config['output']['file_pattern']
+    # Extract the prefix from the pattern up to {question_id}
+    pattern_prefix = file_pattern.split('{')[0]  # Gets everything before first {
+    
     delphi_logs = [
         os.path.join(results_dir, f)
         for f in os.listdir(results_dir)
-        if f.startswith("delphi_log") and f.endswith(".json")
+        if f.startswith(pattern_prefix) and f.endswith(".json")
     ]
 
     # Storage for per-question outputs
@@ -252,7 +301,7 @@ if __name__ == "__main__":
 
     # 1) Process each Delphi log (i.e., each question)
     for delphi_log_file in delphi_logs:
-        question_id, resolution_date = parse_delphi_log_filename(delphi_log_file)
+        question_id, resolution_date = parse_delphi_log_filename(delphi_log_file, file_pattern)
 
         # 1a) Ground truth outcome
         resolution = loader.get_resolution(question_id=question_id, resolution_date=resolution_date)
@@ -275,8 +324,12 @@ if __name__ == "__main__":
         )
 
         # 1c) LLM (per round): median-by-prob -> Brier
-        with open(delphi_log_file, "r") as f:
-            delphi_log = json.load(f)
+        try:
+            with open(delphi_log_file, "r") as f:
+                delphi_log = json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"Warning: Could not parse JSON file {delphi_log_file}: {e}")
+            continue
 
         llm_median_by_round = compute_llm_median_brier_by_round(
             delphi_log=delphi_log,
@@ -284,7 +337,7 @@ if __name__ == "__main__":
         )
 
         # load no-example baseline forecasts
-        no_example_file = os.path.join('outputs_initial_forecasts', f"collected_fcasts_no_examples_{resolution_date}_{question_id}.pkl")
+        no_example_file = os.path.join(initial_forecasts_dir, f"collected_fcasts_no_examples_{resolution_date}_{question_id}.pkl")
         if not os.path.exists(no_example_file):
             print(f"Warning: No no-example forecasts found for {question_id} at {no_example_file}")
             no_example_data = {}

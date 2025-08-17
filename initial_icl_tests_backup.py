@@ -35,10 +35,10 @@ import openai
 import textwrap
 import matplotlib.pyplot as plt
 
-config_path = "/home/williaar/projects/delphi/configs/config_openai.yml"
+config_path = "./configs/config_openai.yml"
 config = load_config(config_path)
 
-resolutions_path = "/home/williaar/projects/delphi/dataset/datasets/resolution_sets/2024-07-21_resolution_set.json"
+resolutions_path = "./dataset/datasets/resolution_sets/2024-07-21_resolution_set.json"
 
 
 provider = LLMProvider.OPENAI

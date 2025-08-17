@@ -2,7 +2,7 @@ from delphi import Expert
 from models import LLMFactory, LLMProvider, LLMModel
 from dataset.dataloader import Question, Forecast, Resolution, ForecastDataLoader
 
-from eval import load_config
+# load_config import removed - using local load_experiment_config instead
 import os
 from collections import defaultdict
 
@@ -16,6 +16,9 @@ import numpy as np
 
 from dotenv import load_dotenv
 load_dotenv()
+
+import argparse
+import yaml
 
 import debugpy
 # print("Waiting for debugger attach...")
@@ -35,26 +38,26 @@ import openai
 import textwrap
 import matplotlib.pyplot as plt
 
-config_path = "/home/williaar/projects/delphi/configs/config_openai.yml"
-config = load_config(config_path)
+def load_experiment_config(config_path: str = './configs/config_openai.yml') -> dict:
+    """Load experiment configuration from YAML file."""
+    with open(config_path, 'r') as f:
+        return yaml.safe_load(f)
 
-resolutions_path = "/home/williaar/projects/delphi/dataset/datasets/resolution_sets/2024-07-21_resolution_set.json"
+# Default config path - will be overridden by command line argument
+default_config_path = "./configs/config_openai.yml"
+config = None  # Will be loaded in main
 
+resolutions_path = "./dataset/datasets/resolution_sets/2024-07-21_resolution_set.json"
 
-provider = LLMProvider.OPENAI
-model = LLMModel.GPT_4O_2024_05_13
-personalized_system_prompt = (
-    "You are a helpful assistant with expertise in forecasting and decision-making."
-)
+# These will be set from config in main
+provider = None
+model = None
+personalized_system_prompt = None
+llm = None
 
-openai_key = os.getenv("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = openai_key
-
-llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
-
-# get questions that have a topic
-loader = ForecastDataLoader()
-questions_with_topic = loader.get_questions_with_topics()
+# Loader will be initialized after config is loaded
+loader = None
+questions_with_topic = None
 
 forecast_due_date = "2024-07-21"  # Example date, adjust as needed
 selected_resolution_date = "2025-07-21"
@@ -170,6 +173,8 @@ async def _run_specs(
     retries: int = 5,
     base_backoff_s: int = 10,
     n_samples: int = 1,
+    config: dict = None,
+    llm = None,
 ) -> List[Dict[str, Any]]:
     """
     Execute TaskSpecs and return normalized records:
@@ -189,7 +194,18 @@ async def _run_specs(
 
     async def _call_one(spec: TaskSpec) -> Dict[str, Any]:
         async with sem:
-            expert = Expert(llm, user_profile=None, config=config.get("model", {}))
+            # Use expert config from the loaded configuration
+            if config:
+                expert_config = config.get("model", {}).get("expert", config.get("model", {}))
+            else:
+                expert_config = {}
+            
+            # Use provided llm or try to get from globals
+            expert_llm = llm if llm is not None else globals().get('llm')
+            if expert_llm is None:
+                raise ValueError("LLM instance not provided and not found in globals")
+
+            expert = Expert(expert_llm, user_profile=None, config=expert_config)
 
             q_instance = copy.copy(spec.question)
             q_instance.resolution_date = selected_resolution_date
@@ -236,8 +252,8 @@ async def _run_specs(
 async def run_all_forecasts_with_examples(
     sampled_questions,
     *,
-    loader=loader,
-    selected_resolution_date: str = selected_resolution_date,
+    loader=None,
+    selected_resolution_date: str = None,
     min_examples: int = 1,
     max_examples: int = 5,
     concurrency: int = 5,
@@ -245,10 +261,22 @@ async def run_all_forecasts_with_examples(
     retries: int = 5,
     base_backoff_s: int = 10,
     n_samples: int = 1,
+    config: dict = None,
+    llm = None,
 ):
     """
     PRODUCES: one record per (question, superforecaster).
     """
+    # Use provided values or fall back to globals/defaults
+    if loader is None:
+        loader = globals().get('loader') or ForecastDataLoader()
+    if selected_resolution_date is None:
+        selected_resolution_date = globals().get('selected_resolution_date', '2025-07-21')
+    if config is None:
+        config = globals().get('config', {})
+    if llm is None:
+        llm = globals().get('llm')
+        
     specs = build_specs_with_examples(
         sampled_questions,
         loader=loader,
@@ -264,21 +292,33 @@ async def run_all_forecasts_with_examples(
         retries=retries,
         base_backoff_s=base_backoff_s,
         n_samples=n_samples,
+        config=config,
+        llm=llm,
     )
 
 async def run_all_forecasts_baseline(
     sampled_questions,
     *,
-    selected_resolution_date: str = selected_resolution_date,
+    selected_resolution_date: str = None,
     concurrency: int = 5,
     timeout_s: int = 300,
     retries: int = 10,
     base_backoff_s: int = 10,
-    n_samples: int = n_samples,
+    n_samples: int = 5,
+    config: dict = None,
+    llm = None,
 ):
     """
     PRODUCES: one record per question (no SF id).
     """
+    # Use provided values or fall back to globals/defaults
+    if selected_resolution_date is None:
+        selected_resolution_date = globals().get('selected_resolution_date', '2025-07-21')
+    if config is None:
+        config = globals().get('config', {})
+    if llm is None:
+        llm = globals().get('llm')
+        
     specs = build_specs_baseline(sampled_questions)
     return await _run_specs(
         specs,
@@ -288,6 +328,8 @@ async def run_all_forecasts_baseline(
         retries=retries,
         base_backoff_s=base_backoff_s,
         n_samples=n_samples,
+        config=config,
+        llm=llm,
     )
 
 def sample_questions_by_topic(questions, n_per_topic=None, seed=42):
@@ -296,7 +338,6 @@ def sample_questions_by_topic(questions, n_per_topic=None, seed=42):
     topic_to_questions = defaultdict(list)
 
     shuffled_questions = random.sample(questions, len(questions))
-
     for topic in unique_topics:
         topic_questions = [q for q in shuffled_questions if q.topic == topic]
         if n_per_topic is None:
@@ -313,8 +354,62 @@ def sample_questions_by_topic(questions, n_per_topic=None, seed=42):
     return sampled_questions
 
 if __name__ == "__main__":
-
-    sampled_questions = sample_questions_by_topic(questions_with_topic, n_per_topic=3)
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="Run initial forecasts with ICL")
+    parser.add_argument(
+        "config_path", 
+        nargs="?",  # Optional argument
+        default=default_config_path,
+        help="Path to experiment configuration YAML file"
+    )
+    args = parser.parse_args()
+    
+    # Load configuration
+    config = load_experiment_config(args.config_path)
+    print(f"Loaded configuration from: {args.config_path}")
+    
+    # Setup model based on configuration
+    model_config = config.get('model', {})
+    
+    # Determine provider and model from config
+    provider_str = model_config.get('provider', 'openai').lower()
+    if provider_str == 'openai':
+        provider = LLMProvider.OPENAI
+        model = LLMModel.GPT_4O_2024_05_13
+        api_key = os.getenv(config.get('api', {}).get('openai', {}).get('api_key_env', 'OPENAI_API_KEY'))
+        os.environ["OPENAI_API_KEY"] = api_key
+    elif provider_str == 'groq':
+        provider = LLMProvider.GROQ
+        # Map model name to enum
+        model_name = model_config.get('name', 'deepseek-r1-distill-llama-70b')
+        if 'deepseek-r1-distill-llama-70b' in model_name:
+            model = LLMModel.GROQ_DEEPSEEK_R1_DISTILL_70B
+        else:
+            # Fallback to a default Groq model
+            model = LLMModel.GROQ_DEEPSEEK_R1_DISTILL_70B
+        api_key = os.getenv(config.get('api', {}).get('groq', {}).get('api_key_env', 'GROQ_API_KEY'))
+        os.environ["GROQ_API_KEY"] = api_key
+    else:
+        raise ValueError(f"Unsupported provider: {provider_str}")
+    
+    personalized_system_prompt = model_config.get(
+        'system_prompt',
+        "You are a helpful assistant with expertise in forecasting and decision-making."
+    )
+    
+    # Create LLM instance
+    llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
+    
+    # Initialize data loader and get questions
+    loader = ForecastDataLoader()
+    questions_with_topic = loader.get_questions_with_topics()
+    
+    # Get sampling configuration
+    data_config = config.get('data', {})
+    sampling_config = data_config.get('sampling', {})
+    n_per_topic = sampling_config.get('n_per_topic', 3)
+    
+    sampled_questions = sample_questions_by_topic(questions_with_topic, n_per_topic=n_per_topic)
 
     # Remove questions that do not have a resolution on the selected date
     sampled_questions = [
@@ -359,7 +454,6 @@ if __name__ == "__main__":
         f for f in pkl_files
         if f.startswith("collected_fcasts_no_examples") and f"{selected_resolution_date}" in f
     ]
-
 
 
     loaded_fcasts_with_examples = {}

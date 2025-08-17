@@ -1,0 +1,73 @@
+# Prompt Technique Comparison: Base Rate Focused
+# Tests the effectiveness of base rate and reference class forecasting prompts
+
+# Experiment settings
+experiment:
+  seed: 42  # Random seed for reproducibility
+  output_dir: "outputs_prompt_comparison_base_rate"
+  initial_forecasts_dir: "outputs_initial_forecasts"
+
+# Model configuration - using consistent model for fair comparison
+model:
+  provider: "groq"
+  name: "openai/gpt-oss-20b"  # Using best performer from previous experiment
+  system_prompt: "You are a helpful assistant with expertise in forecasting and decision-making."
+  
+  # Expert-specific settings
+  expert:
+    temperature: 0.3
+    max_tokens: 6000
+    prompt_version: "base_rate_focused"  # Use base rate focused prompt
+    
+  # Mediator-specific settings
+  mediator:
+    model: "openai/gpt-oss-20b"
+    temperature: 0.2
+    max_tokens: 6000
+    feedback_max_tokens: 6000
+    feedback_temperature: 0.2
+
+# Delphi panel configuration
+delphi:
+  n_rounds: 3  # Number of Delphi rounds
+  n_experts: 5  # Maximum number of experts per panel
+  expert_selection: "random"  # How to select experts when more than n_experts available
+
+# Data configuration
+data:
+  resolution_date: "2025-07-21"  # Date for which to get resolutions
+  
+  # Question sampling
+  sampling:
+    method: "random"  # Options: by_topic, random, first
+    n_per_topic: 2  # Number of questions per topic (for by_topic method)
+    n_questions: 20  # Total number of questions to sample (for random/first methods)
+    
+  # Filter criteria
+  filters:
+    require_resolution: true  # Only include questions with resolutions on resolution_date
+
+# Processing configuration
+processing:
+  skip_existing: true  # Skip if output file already exists
+
+# API configuration  
+api:
+  groq:
+    api_key_env: "GROQ_API_KEY"  # Environment variable name for Groq API key
+
+# Debugging configuration
+debug:
+  enabled: false  # Enable debug mode (for debugpy attachment)
+  debugpy_port: 5679  # Port for debugpy attachment
+  breakpoint_on_start: false  # Add breakpoint at start of execution
+
+# Output configuration
+output:
+  # File naming pattern - available variables: {question_id}, {resolution_date}
+  file_pattern: "prompt_comparison_base_rate_{question_id}_{resolution_date}.json"
+  
+  # What to save in output files
+  save:
+    conversation_histories: true  # Include full conversation histories
+    example_pairs: true  # Include the example pairs used for each expert

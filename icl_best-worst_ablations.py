@@ -54,7 +54,7 @@ random.seed(SEED)
 np.random.seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
-config_path = '/home/williaar/projects/delphi/configs/config_openai.yml'
+config_path = './configs/config_openai.yml'
 config = load_config(config_path)
 
 

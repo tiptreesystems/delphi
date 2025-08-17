@@ -2,41 +2,18 @@ import os
 from typing import List, Tuple, Optional, Dict
 from models import LLMFactory, LLMProvider, LLMModel, BaseLLM, ConversationManager
 from dataset.dataloader import ForecastDataLoader, Question, Forecast
-import re
 import random
 import json
 import dotenv
 import numpy as np
 import asyncio
+from prompt_loader import load_prompt, get_prompt_loader
+from probability_parser import extract_final_probability, extract_final_probability_with_retry
 
 dotenv.load_dotenv()
 
-delphi_round_1_prompt = """
-Delphi Round 1 — Expert Elicitation Survey
-
-1. Ranking & Priorities
-1.1 Rank the top 5 drivers that will influence the focal question (1 = strongest).
-1.2 Which single driver is most overlooked by other experts? (max 50 words)
-
-2. Early-Warning Indicators
-List up to 3 observable signals that would make you revise any probability by ≥15 pp.
-
-3. Risk & Uncertainty
-3.1 What is the main "unknown unknown" you worry about? (max 50 words)
-3.2 Probability that a black-swan event (>3 σ impact) occurs before the horizon: ___ %
-
-4. Conditional Forecast (counterfactual)
-"If [critical assumption] fails, what is your revised probability for the focal outcome?" ___ %
-
-5. Key Forecasts (repeat table for each statement)
-#Forecast StatementYour Probability (%)90% CI (low–high)2-Sentence RationaleKey Assumptions (bullets)Sources / URLs5.1………………
-(Add rows as needed.)
-
-Submission
-Return the completed table and answers. Your identity will be anonymized; only aggregated statistics and rationales (paraphrased) will be shared with the panel.
-
-Be concise and to the point.
-"""
+# Load prompts
+prompt_loader = get_prompt_loader()
 
 class Expert:
     def __init__(self, llm: BaseLLM, user_profile: Optional[dict] = None, config: Optional[dict] = None):
@@ -44,8 +21,22 @@ class Expert:
         self.user_profile = user_profile
         self.config = config or {}
         self.conversation_manager = ConversationManager(llm)
+        self.token_warnings = []  # Track token usage warnings
+        self.retry_count = 0  # Track retries for token issues
 
-    async def forecast(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> float:
+    def _check_token_usage(self):
+        """Check for token usage issues from the LLM and log warnings."""
+        if hasattr(self.llm, 'last_usage') and self.llm.last_usage:
+            usage = self.llm.last_usage
+            if 'error' in usage:
+                self.token_warnings.append(f"LLM error: {usage['error']}")
+            elif 'completion_tokens' in usage:
+                completion = usage['completion_tokens']
+                max_requested = usage.get('max_tokens_requested', 0)
+                if completion >= max_requested * 0.95:
+                    self.token_warnings.append(f"Hit token limit: {completion}/{max_requested}")
+
+    async def forecast(self, question: Question, conditioning_forecast: Optional[Forecast] = None, seed: Optional[int] = None) -> float:
 
         # Add the user's actual forecast for this question if available
         prior_forecast_info = ""
@@ -53,36 +44,58 @@ class Expert:
             prior_forecast_info = (
                 f"Some of your notes on this question are: {conditioning_forecast.reasoning}\n"
             )
-
-        prompt = (
-            f"Based on the following question, analyze it carefully and provide your probability estimate.\n\n"
-            f"Question: {question.question}\n"
-            f"Background: {question.background}\n"
-            f"Resolution criteria: {question.resolution_criteria}\n"
-            f"URL: {question.url}\n"
-            f"Market freeze value: {question.freeze_datetime_value}\n"
-            f"{prior_forecast_info}\n"
-            f"You may reason through the problem, but you MUST end your response with:\n"
-            f"FINAL PROBABILITY: [your decimal number between 0 and 1]"
+        # Get prompt version from config, default to 'v1'
+        prompt_version = self.config.get('prompt_version', 'v1')
+        
+        prompt = load_prompt(
+            'expert_forecast',
+            prompt_version,
+            question=question.question,
+            background=question.background,
+            resolution_criteria=question.resolution_criteria,
+            url=question.url,
+            freeze_datetime_value=question.freeze_datetime_value,
+            prior_forecast_info=prior_forecast_info
         )
         temperature = self.config.get('temperature', 0.3)
         self.conversation_manager.messages.clear()
-        response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
+        
+        # Pass seed if provided for deterministic outputs
+        kwargs = {'max_tokens': 500, 'temperature': temperature}
+        if seed is not None:
+            kwargs['seed'] = seed
+            
+        response = await self.conversation_manager.generate_response(prompt, **kwargs)
         response = response.strip()
+        
+        # Check for token usage issues
+        self._check_token_usage()
+        
+        # Check if response is incomplete (potential token limit issue)
+        if len(response) < 50 or not response.endswith(('.', '!', '?')):
+            print(f"⚠️  WARNING: Response may be truncated due to token limits: '{response[:100]}...'")
+            self.token_warnings.append(f"Potentially truncated response: {len(response)} chars")
+            
+            # Retry with higher token limit if we haven't already
+            if self.retry_count < 2 and 'max_tokens' in kwargs and kwargs['max_tokens'] < 8000:
+                self.retry_count += 1
+                print(f"🔄 Retrying with increased token limit (attempt {self.retry_count})...")
+                kwargs['max_tokens'] = min(kwargs['max_tokens'] * 1.5, 8000)
+                return await self.forecast(question, conditioning_forecast, seed)
 
-        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
-        match = matches[-1] if matches else None
-        if match:
-            return float(match.group(1))
+        prob = await extract_final_probability_with_retry(
+            response, 
+            self.conversation_manager, 
+            max_retries=1
+        )
+        if prob != -1:
+            self.retry_count = 0  # Reset retry count on success
+            return prob
 
-        # Fallback: try to find any number at the end of the response
-        numbers = re.findall(r'0?\.\d+|1\.0|0|1', response)
-        if numbers:
-            prob = float(numbers[-1])  # Take the last number found
-            return max(0.0, min(1.0, prob))
-
-        # Fallback if no valid number found
-        return 0.5
+        # Fallback if no valid number found - this suggests a real issue
+        print(f"❌ No valid probability found in response. Response: '{response[:200]}...'")
+        self.token_warnings.append(f"No valid probability found in response of {len(response)} chars")
+        return -1
 
     async def forecast_with_examples_in_context(self, question: Question, examples: List[Tuple[Question, Forecast]]) -> float:
         examples_text = ""
@@ -100,43 +113,52 @@ class Expert:
 
         examples_text += "--------------------------------\n\n"
 
-        prompt = (
-            f"{examples_text}"
-            f"Now consider the following question and provide your forecast.\n\n"
-            f"Question: {question.question}\n"
-            f"Background: {question.background}\n"
-            f"Resolution criteria: {question.resolution_criteria}\n"
-            f"URL: {question.url}\n"
-            f"Market freeze value: {question.freeze_datetime_value}\n"
-            f"You may reason through the problem, but you MUST end your response with:\n"
-            f"FINAL PROBABILITY: [your decimal number between 0 and 1]"
+        prompt = load_prompt(
+            'expert_forecast',
+            'v1_with_examples',
+            examples_text=examples_text,
+            question=question.question,
+            background=question.background,
+            resolution_criteria=question.resolution_criteria,
+            url=question.url,
+            freeze_datetime_value=question.freeze_datetime_value,
+            freeze_datetime_value_explanation=question.freeze_datetime_value_explanation
         )
 
         temperature = self.config.get('temperature', 0.3)
         self.conversation_manager.messages.clear()
-        response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
+        response = await self.conversation_manager.generate_response(prompt, max_tokens=self.config.get('max_tokens', 500), temperature=temperature)
         response = response.strip()
+        # Check for token usage issues
+        self._check_token_usage()
+        print(f"Examples response: {response}")
 
-        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
-        match = matches[-1] if matches else None
-        if match:
-            return float(match.group(1))
+        prob = await extract_final_probability_with_retry(
+            response, 
+            self.conversation_manager, 
+            max_retries=3
+        )
 
-        # Fallback: try to find any number at the end of the response
-        numbers = re.findall(r'0?\.\d+|1\.0|0|1', response)
-        if numbers:
-            prob = float(numbers[-1])  # Take the last number found
-            return max(0.0, min(1.0, prob))
-        return 0.5
+        if prob != -1:
+            return prob
+            
+        print(f"❌ No valid probability in examples response: '{response[:200]}...'")
+        return -1
 
     def generate_round_1_response(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> str:
-        prompt = (
-            f"Here is the question, background, and resolution criteria. You should now think about it and fill out the Delphi Round 1 Expert Elicitation Survey.\n\n"
-            f"Question: {question.question}\n"
-            f"Background: {question.background}\n"
-            f"Resolution criteria: {question.resolution_criteria}\n"
-            f"Your forecast: {conditioning_forecast.forecast}. You should argue for this forecast and justify it using the data and your expertise unless you have a good reason to revise it.\n" if conditioning_forecast else ""
-            f"{delphi_round_1_prompt}\n\n"
+        conditioning_forecast_text = (
+            f"Your forecast: {conditioning_forecast.forecast}. You should argue for this forecast and justify it using the data and your expertise unless you have a good reason to revise it.\n"
+            if conditioning_forecast else ""
+        )
+        delphi_survey = load_prompt('delphi_survey', 'v1')
+        prompt = load_prompt(
+            'expert_round1',
+            'v1',
+            question=question.question,
+            background=question.background,
+            resolution_criteria=question.resolution_criteria,
+            conditioning_forecast_text=conditioning_forecast_text,
+            delphi_round_1_prompt=delphi_survey
         )
         max_tokens = self.config.get('max_tokens', 2000)
         temperature = self.config.get('temperature', 0.3)
@@ -146,49 +168,38 @@ class Expert:
 
     def forecast_with_round1_context(self, question: Question, round1_responses: str, conditioning_forecast: Optional[Forecast] = None) -> Tuple[float, str]:
         """Make a forecast after seeing other experts' Round 1 responses."""
-        prompt = (
-            f"You may now review other experts' assessments and update your beliefs based on them and your own expertise.\n\n"
-            f"Question: {question.question}\n"
-            f"Background: {question.background}\n"
-            f"Resolution criteria: {question.resolution_criteria}\n"
-            f"URL: {question.url}\n"
-            f"EXPERTS' ROUND 1 ASSESSMENTS:\n"
-            f"{round1_responses}\n\n"
-            f"--------------------------------\n"
-            f"After considering the other experts' perspectives, think through your reasoning and provide your final probability estimate.\n"
-            f"You may reason through the problem, but you MUST end your response with:\n"
-            f"FINAL PROBABILITY: [your decimal number between 0 and 1]"
+        prompt = load_prompt(
+            'expert_round2',
+            'v1',
+            question=question.question,
+            background=question.background,
+            resolution_criteria=question.resolution_criteria,
+            url=question.url,
+            round1_responses=round1_responses
         )
         temperature = self.config.get('temperature', 0.3)
         response = self.conversation_manager.generate_response(prompt, max_tokens=800, temperature=temperature).strip()
-
-        # Extract the final probability after "FINAL PROBABILITY:"
-        match = re.search(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE)
-        if match:
-            prob = float(match.group(1))
-            return max(0.0, min(1.0, prob)), response  # Return both probability and response
-
-        # Fallback: try to find any number at the end of the response
-        numbers = re.findall(r'0?\.\d+|1\.0|0|1', response)
-        if numbers:
-            prob = float(numbers[-1])  # Take the last number found
-            return max(0.0, min(1.0, prob)), response
-
-        # Fallback if no valid number found
-        return 0.5, response
+        prob = extract_final_probability(response)
+        return prob, response  # Return both probability and response
 
     async def get_forecast_update(self, input_message) -> float:
         """Get a response without clearing the conversation, used after feedback."""
         if not self.conversation_manager.messages:
             raise RuntimeError("No conversation history found. Cannot update forecast without prior context.")
-        response = await self.conversation_manager.generate_response(input_message, max_tokens=800, temperature=self.config.get('temperature', 0.3))
+        
+        response = await self.conversation_manager.generate_response(input_message, max_tokens=self.config.get('max_tokens', 800), temperature=self.config.get('temperature', 0.3))
         response = response.strip()
-        # Extract the last occurrence of "FINAL PROBABILITY:"
-        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
-        match = matches[-1] if matches else None
-        if match:
-            return float(match.group(1)), response
-        return 0.5, response
+        # Extract the final probability
+        # prob = extract_final_probability(response)
+        prob = await extract_final_probability_with_retry(
+            response, 
+            self.conversation_manager, 
+            max_retries=1
+        )
+
+        if prob != -1:
+            return prob, response
+        return -1, response
 
     def get_last_response(self) -> Optional[str]:
         """
@@ -215,11 +226,10 @@ class Mediator:
         self.llm = llm
         self.config = config or {}
         self.conversation_manager = ConversationManager(llm)
+        default_mediator_prompt = load_prompt('mediator_system', 'v1')
         self.system_prompt = self.config.get(
             "system_prompt",
-            "You are the Delphi mediator. Summarize areas of agreement and disagreement, "
-            "identify key cruxes, and suggest what evidence or reasoning would most change minds. "
-            "Be concise and neutral."
+            default_mediator_prompt
         )
         self.max_tokens = self.config.get("feedback_max_tokens", 800)
         self.temperature = self.config.get("feedback_temperature", 0.2)
@@ -256,8 +266,9 @@ class Mediator:
     # ---- feedback ----
     def start_round(self, *, round_idx: int, question: Question, extra_context: Optional[str] = None) -> None:
         """Append a new round header + question context without clearing prior messages."""
-        # Seed a system message once if none exists yet
-        if not any(m["role"] == "system" for m in self.conversation_manager.messages):
+        # Seed a system message once if none exists yet (but not for Claude, which handles system separately)
+        from models import ClaudeLLM
+        if not isinstance(self.llm, ClaudeLLM) and not any(m["role"] == "system" for m in self.conversation_manager.messages):
             self.conversation_manager.add_message(role="system", content=self.system_prompt)
 
         header = [f"=== DELPHI ROUND {round_idx} ==="]
@@ -289,28 +300,38 @@ class Mediator:
         if reset:
             self.conversation_manager.messages.clear()
 
-        # Ensure there is a system message
-        if not any(m["role"] == "system" for m in self.conversation_manager.messages):
+        # Ensure there is a system message (but not for Claude, which handles system separately)
+        from models import ClaudeLLM
+        if not isinstance(self.llm, ClaudeLLM) and not any(m["role"] == "system" for m in self.conversation_manager.messages):
             self.conversation_manager.add_message(role="system", content=self.system_prompt)
 
         # Append expert messages for this turn (anonymized, deterministic order)
         if self.expert_messages:
+            # messages = []
+            # for eid in sorted(self.expert_messages.keys()):
+            #     message = self.expert_messages[eid]
+            #     content = message['content'] if isinstance(message, dict) else message
+            #     messages.append(f"[EXPERT {eid}] {content}\n\n")
+
+            # self.conversation_manager.add_message(
+            #     role="user",
+            #     content=f"Here are the messages from the experts: {''.join(messages)}"
+            # )
             for eid in sorted(self.expert_messages.keys()):
+                message = self.expert_messages[eid]
+                content = message['content'] if isinstance(message, dict) else message
+
                 self.conversation_manager.add_message(
                     role="user",
-                    content=f"[EXPERT {eid}] {self.expert_messages[eid]}"
+                    content=f"[EXPERT {eid}] {content}"
                 )
 
         # Append the mediator synthesis request (annotate round if provided)
         prefix = f"(Round {round_idx}) " if round_idx is not None else ""
-        mediator_request = (
-            f"{prefix}Synthesize the above into a concise feedback memo for all experts.\n"
-            "Structure:\n"
-            "1) Consensus (if any)\n"
-            "2) Points of disagreement & cruxes\n"
-            "3) Evidence/analyses that would most shift views\n"
-            "4) Actionable next steps for the next Delphi round\n"
-            "Keep it under ~300 words."
+        mediator_request = load_prompt(
+            'mediator_feedback',
+            'v1',
+            prefix=prefix
         )
         self.conversation_manager.add_message(role="user", content=mediator_request)
 
@@ -329,14 +350,19 @@ class DelphiPanel:
         n_experts: int = 3,
         provider: LLMProvider = LLMProvider.OPENAI,
         model: LLMModel = LLMModel.GPT_4O,
-        system_prompt: str = "You are an expert superforecaster, familiar with Structured Analytic Techniques as well as Superforecasting by Philip Tetlock and the Delphi Method. You have the following profile:\n"
-        f"You are participating in a Delphi panel. You will be given a question, background, some initial thoughts, and your initial forecast. You should rely on these (particularly your initial forecast) for the first round of the Delphi panel, typically not straying too far from them. You will do your best to faithfully participate in the panel.",
+        system_prompt: Optional[str] = None,
         condition_on_data: bool = True,
         config: Optional[dict] = None
     ):
         self.loader = loader
         self.condition_on_data = condition_on_data
         self.config = config or {}
+        
+        # Load default system prompt if not provided
+        if system_prompt is None:
+            base_template = load_prompt('expert_system', 'v1')
+            # Use just the base part without the user_profile placeholder for default
+            system_prompt = base_template.replace('{user_profile}', '')
 
         # Load user profiles
         with open('user_profiles.json', 'r') as f:
@@ -357,17 +383,16 @@ class DelphiPanel:
             user_profile = user_profiles[user_id]
 
             # Create personalized system prompt that includes the user profile
-            personalized_system_prompt = (
-                f"{system_prompt}\n\n"
-                f" You should embody the following profile:\n"
-                f"{user_profile['expertise_profile']}\n"
+            expert_system_template = load_prompt('expert_system', 'v1')
+            personalized_system_prompt = expert_system_template.format(
+                user_profile=f" You should embody the following profile:\n{user_profile['expertise_profile']}\n"
             )
 
             llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
             expert = Expert(llm, user_profile=user_profile, config=self.config.get('model', {}))
             self.expert_pool[user_id] = expert
 
-    def forecast_question(self, question_id: str) -> dict:
+    async def forecast_question(self, question_id: str) -> dict:
         question = self.loader.get_question(question_id)
         if not question:
             raise ValueError(f"Question {question_id} not found")
@@ -389,7 +414,7 @@ class DelphiPanel:
         if not available_experts:
             print(f"No experts found with reasoning for question {question_id[:8]}...")
             return {
-                "aggregate": 0.5,
+                "aggregate": -1,
                 "individual_forecasts": [],
                 "selected_experts": [],
                 "round1_responses": [],
@@ -470,7 +495,7 @@ class DelphiPanel:
 
                 print(f"Expert {user_id}: Using their actual forecast of {user_forecast_for_question.forecast} with reasoning")
 
-                expert_forecast = expert.forecast(question, user_forecast_for_question) # only used for reasoning
+                expert_forecast = await expert.forecast(question, user_forecast_for_question) # only used for reasoning
                 result["individual_forecasts"].append(expert_forecast)
                 result["expert_details"].append({
                     "expert_id": user_id,
@@ -504,14 +529,14 @@ class DelphiPanel:
 
         return result
 
-    def forecast_all_questions(self):
+    async def forecast_all_questions(self):
         results = {}
         for q in self.loader.get_all_questions():
-            results[q.id] = self.forecast_question(q.id)
+            results[q.id] = await self.forecast_question(q.id)
         return results
 
 
-if __name__ == "__main__":
+async def main():
     loader = ForecastDataLoader()
 
     # Create panel with conditioning on human forecaster data
@@ -545,7 +570,7 @@ if __name__ == "__main__":
         print(f"Actual resolution: {resolution.resolved_to}")
 
     try:
-        result = panel.forecast_question(sample.id)
+        result = await panel.forecast_question(sample.id)
         print(f"\nAI Panel forecasts: {[f'{f:.3f}' for f in result['individual_forecasts']]}")
         print(f"AI Panel aggregate: {result['aggregate']:.3f}")
 
@@ -562,3 +587,7 @@ if __name__ == "__main__":
             print(f"\n{len(result['round2_responses'])} Round 2 responses stored")
     except Exception as e:
         print(f"Error: {e}")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
