@@ -9,7 +9,7 @@ model:
   provider: "claude"  # Options: openai, claude, anthropic
   name: "claude-4-haiku"  # Options: gpt-4o, gpt-4o-mini, claude-4-haiku, claude-4-sonnet, claude-4-opus
   system_prompt: "You are an expert superforecaster skilled at making calibrated probability estimates. You carefully analyze available information, consider base rates, and avoid overconfidence. You think in concrete probabilities rather than vague terms."
-  max_tokens: 2000
+  max_tokens: 6000
   temperature: 0.3
 
 evaluation:

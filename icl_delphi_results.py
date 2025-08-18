@@ -45,12 +45,6 @@ from dataset.dataloader import ForecastDataLoader
 
 import numpy as np
 import matplotlib.pyplot as plt
-if "williaar" in __file__:
-    import debugpy
-    print("Waiting for debugger attach...")
-    debugpy.listen(5679)
-    debugpy.wait_for_client()
-    print("Debugger attached.")
 
 # Optional fallback in case some rounds only stored raw text responses
 _PROB_PAT = re.compile(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', re.IGNORECASE)

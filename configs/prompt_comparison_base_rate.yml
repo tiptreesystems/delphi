@@ -5,7 +5,7 @@
 experiment:
   seed: 42  # Random seed for reproducibility
   output_dir: "outputs_prompt_comparison_base_rate"
-  initial_forecasts_dir: "outputs_initial_forecasts"
+  initial_forecasts_dir: "outputs_prompt_comparison_base_rate_initial"
 
 # Model configuration - using consistent model for fair comparison
 model:

@@ -5,7 +5,7 @@
 experiment:
   seed: 42  # Random seed for reproducibility
   output_dir: "outputs_prompt_comparison_opinionated"
-  initial_forecasts_dir: "outputs_initial_forecasts"
+  initial_forecasts_dir: "outputs_prompt_comparison_opinionated_initial"
 
 # Model configuration - using consistent model for fair comparison
 model:
@@ -24,7 +24,7 @@ model:
     model: "openai/gpt-oss-20b"
     temperature: 0.2
     max_tokens: 6000
-    feedback_max_tokens: 4000
+    feedback_max_tokens: 6000
     feedback_temperature: 0.2
 
 # Delphi panel configuration

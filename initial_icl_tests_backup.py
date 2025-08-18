@@ -1,8 +1,8 @@
+import yaml
 from delphi import Expert
 from models import LLMFactory, LLMProvider, LLMModel
 from dataset.dataloader import ForecastDataLoader
 
-from eval import load_config
 import os
 from collections import defaultdict
 
@@ -36,6 +36,12 @@ import textwrap
 import matplotlib.pyplot as plt
 
 config_path = "./configs/config_openai.yml"
+
+def load_config(config_path: str = "configs/config.yml") -> dict:
+    """Load configuration from YAML file."""
+    with open(config_path, 'r') as f:
+        return yaml.safe_load(f)
+
 config = load_config(config_path)
 
 resolutions_path = "./dataset/datasets/resolution_sets/2024-07-21_resolution_set.json"

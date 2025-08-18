@@ -20,19 +20,10 @@ load_dotenv()
 import argparse
 import yaml
 
-import debugpy
-# print("Waiting for debugger attach...")
-# debugpy.listen(5679)
-# debugpy.wait_for_client()
-# print("Debugger attached.")
-
-# Set all random seeds for reproducibility
-
 SEED = 42
 random.seed(SEED)
 np.random.seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
-
 
 import openai
 import textwrap
@@ -245,7 +236,6 @@ async def _run_specs(
                 "full_conversation": expert.conversation_manager.messages,
                 "examples_used": spec.examples or [],
             }
-
     return await asyncio.gather(*(_call_one(s) for s in specs), return_exceptions=True)
 
 
@@ -417,7 +407,9 @@ if __name__ == "__main__":
         if loader.get_resolution(question_id=q.id, resolution_date=selected_resolution_date) is not None
     ]
 
-
+    print('Collecting forecasts with examples...')
+    print(f'{len(sampled_questions)} questions to collect forecasts for')
+    print(sampled_questions)
     for q in sampled_questions:
         if os.path.exists(f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.pkl'):
             print(f"Pickle for question {q.id} already exists, skipping.")

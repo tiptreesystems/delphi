@@ -24,20 +24,7 @@ class Expert:
         self.token_warnings = []  # Track token usage warnings
         self.retry_count = 0  # Track retries for token issues
 
-    def _check_token_usage(self):
-        """Check for token usage issues from the LLM and log warnings."""
-        if hasattr(self.llm, 'last_usage') and self.llm.last_usage:
-            usage = self.llm.last_usage
-            if 'error' in usage:
-                self.token_warnings.append(f"LLM error: {usage['error']}")
-            elif 'completion_tokens' in usage:
-                completion = usage['completion_tokens']
-                max_requested = usage.get('max_tokens_requested', 0)
-                if completion >= max_requested * 0.95:
-                    self.token_warnings.append(f"Hit token limit: {completion}/{max_requested}")
-
     async def forecast(self, question: Question, conditioning_forecast: Optional[Forecast] = None, seed: Optional[int] = None) -> float:
-
         # Add the user's actual forecast for this question if available
         prior_forecast_info = ""
         if conditioning_forecast:
@@ -68,21 +55,6 @@ class Expert:
         response = await self.conversation_manager.generate_response(prompt, **kwargs)
         response = response.strip()
         
-        # Check for token usage issues
-        self._check_token_usage()
-        
-        # Check if response is incomplete (potential token limit issue)
-        if len(response) < 50 or not response.endswith(('.', '!', '?')):
-            print(f"⚠️  WARNING: Response may be truncated due to token limits: '{response[:100]}...'")
-            self.token_warnings.append(f"Potentially truncated response: {len(response)} chars")
-            
-            # Retry with higher token limit if we haven't already
-            if self.retry_count < 2 and 'max_tokens' in kwargs and kwargs['max_tokens'] < 8000:
-                self.retry_count += 1
-                print(f"🔄 Retrying with increased token limit (attempt {self.retry_count})...")
-                kwargs['max_tokens'] = min(kwargs['max_tokens'] * 1.5, 8000)
-                return await self.forecast(question, conditioning_forecast, seed)
-
         prob = await extract_final_probability_with_retry(
             response, 
             self.conversation_manager, 
@@ -130,8 +102,6 @@ class Expert:
         response = await self.conversation_manager.generate_response(prompt, max_tokens=self.config.get('max_tokens', 500), temperature=temperature)
         response = response.strip()
         # Check for token usage issues
-        self._check_token_usage()
-        print(f"Examples response: {response}")
 
         prob = await extract_final_probability_with_retry(
             response, 
@@ -144,43 +114,6 @@ class Expert:
             
         print(f"❌ No valid probability in examples response: '{response[:200]}...'")
         return -1
-
-    def generate_round_1_response(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> str:
-        conditioning_forecast_text = (
-            f"Your forecast: {conditioning_forecast.forecast}. You should argue for this forecast and justify it using the data and your expertise unless you have a good reason to revise it.\n"
-            if conditioning_forecast else ""
-        )
-        delphi_survey = load_prompt('delphi_survey', 'v1')
-        prompt = load_prompt(
-            'expert_round1',
-            'v1',
-            question=question.question,
-            background=question.background,
-            resolution_criteria=question.resolution_criteria,
-            conditioning_forecast_text=conditioning_forecast_text,
-            delphi_round_1_prompt=delphi_survey
-        )
-        max_tokens = self.config.get('max_tokens', 2000)
-        temperature = self.config.get('temperature', 0.3)
-        self.conversation_manager.messages.clear()
-        response = self.conversation_manager.generate_response(prompt, max_tokens=max_tokens, temperature=temperature).strip()
-        return response
-
-    def forecast_with_round1_context(self, question: Question, round1_responses: str, conditioning_forecast: Optional[Forecast] = None) -> Tuple[float, str]:
-        """Make a forecast after seeing other experts' Round 1 responses."""
-        prompt = load_prompt(
-            'expert_round2',
-            'v1',
-            question=question.question,
-            background=question.background,
-            resolution_criteria=question.resolution_criteria,
-            url=question.url,
-            round1_responses=round1_responses
-        )
-        temperature = self.config.get('temperature', 0.3)
-        response = self.conversation_manager.generate_response(prompt, max_tokens=800, temperature=temperature).strip()
-        prob = extract_final_probability(response)
-        return prob, response  # Return both probability and response
 
     async def get_forecast_update(self, input_message) -> float:
         """Get a response without clearing the conversation, used after feedback."""
@@ -281,6 +214,8 @@ class Mediator:
             q_block += f"URL: {question.url}\n"
         if getattr(question, "freeze_datetime_value", None):
             q_block += f"MARKET FREEZE VALUE: {question.freeze_datetime_value}\n"
+        if getattr(question, "freeze_datetime_value_explanation", None):
+            q_block += f"MARKET FREEZE VALUE EXPLANATION: {question.freeze_datetime_value_explanation}\n"
         if extra_context:
             q_block += f"\nADDITIONAL CONTEXT:\n{extra_context}\n"
 

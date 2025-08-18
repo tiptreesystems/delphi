@@ -14,11 +14,11 @@ Note:
 """
 
 
+import yaml
 from delphi import Expert
 from models import LLMFactory, LLMProvider, LLMModel
 from dataset.dataloader import Question, Forecast, Resolution, ForecastDataLoader
 
-from eval import load_config
 import os
 import shutil
 from collections import defaultdict
@@ -55,6 +55,12 @@ np.random.seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
 config_path = './configs/config_openai.yml'
+
+def load_config(config_path: str = "configs/config.yml") -> dict:
+    """Load configuration from YAML file."""
+    with open(config_path, 'r') as f:
+        return yaml.safe_load(f)
+
 config = load_config(config_path)
 
 

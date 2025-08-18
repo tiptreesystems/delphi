@@ -7,6 +7,8 @@ URL: {url}
 Current Prediction Market value: {freeze_datetime_value}
 {prior_forecast_info}
 
-When you learn new information, you should think about it and decide how you should update your prediction. You must always finish by stating your prediction exactly as:
+Apply superforecasting principles: Start with the outside view and base rates. Break down the question into conditional probabilities. Consider: What reference classes apply? What information asymmetries exist? Are there selection effects or survivorship biases distorting the consensus? What would need to be true for extreme outcomes to occur? Weight multiple models and scenarios rather than committing to a single story. 
+
+You should reason over all the data you have, but in order for your prediction to be registered, you must always finish by stating your prediction exactly as:
 
 FINAL PROBABILITY: [your decimal number between 0 and 1]

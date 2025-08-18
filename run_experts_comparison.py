@@ -55,6 +55,16 @@ EXPERT_COMPARISON_CONFIGS = [
         "config_file": "configs/experts_comparison_deepseek_r1.yml",
         "provider": "groq"
     },
+        {
+        "name": "Claude 3.7 Sonnet",
+        "config_file": "configs/experts_comparison_claude37_sonnet.yml",
+        "provider": "anthropic"
+    },
+    {
+        "name": "GPT-4o",
+        "config_file": "configs/experts_comparison_gpt_4o.yml",
+        "provider": "openai"
+    },
     {
         "name": "O3 (2025-04-16)",
         "config_file": "configs/experts_comparison_o3.yml",
@@ -70,11 +80,6 @@ EXPERT_COMPARISON_CONFIGS = [
         "config_file": "configs/experts_comparison_o1.yml",
         "provider": "openai"
     },
-    {
-        "name": "Claude 3.7 Sonnet",
-        "config_file": "configs/experts_comparison_claude37_sonnet.yml",
-        "provider": "anthropic"
-    }
 ]
 
 def check_api_keys():
@@ -136,30 +141,36 @@ def run_experiment(config, experiment_script="icl_delphi_tests.py", dry_run=Fals
     try:
         start_time = time.time()
         
-        # Run the experiment
+        # Run the experiment with direct output (no capture)
+        print("🔄 Starting experiment...")
+        print("=" * 60)
+        
+        # Set environment for unbuffered output
+        env = os.environ.copy()
+        env['PYTHONUNBUFFERED'] = '1'
+        
+        # Run with direct output to terminal
         result = subprocess.run(
-            [sys.executable, experiment_script, config_file],
-            capture_output=True,
-            text=True,
-            timeout=3600  # 1 hour timeout per experiment
+            [sys.executable, '-u', experiment_script, config_file],
+            env=env,
+            timeout=3600  # 1 hour timeout
         )
+        
+        print("=" * 60)
+        return_code = result.returncode
         
         end_time = time.time()
         duration = end_time - start_time
         
-        if result.returncode == 0:
+        if return_code == 0:
             print(f"✅ Experiment completed successfully in {duration:.1f}s")
-            if result.stdout:
-                print("📝 Output:")
-                print(result.stdout)
             return True
         else:
-            print(f"❌ Experiment failed with return code {result.returncode}")
-            print("📝 Error output:")
-            print(result.stderr)
+            print(f"❌ Experiment failed with return code {return_code}")
             return False
             
     except subprocess.TimeoutExpired:
+        print("=" * 60)
         print(f"⏰ Experiment timed out after 1 hour")
         return False
     except Exception as e:

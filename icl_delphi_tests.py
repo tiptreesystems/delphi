@@ -117,13 +117,10 @@ def get_llm_from_config(config: dict):
     model_map = {
         'gpt-4o-2024-05-13': LLMModel.GPT_4O_2024_05_13,
         'gpt-4o': LLMModel.GPT_4O,
-        'claude-3-sonnet': LLMModel.CLAUDE_3_5_SONNET,
         'openai/gpt-oss-20b': LLMModel.GROQ_GPT_OSS_20B,
         'openai/gpt-oss-120b': LLMModel.GROQ_GPT_OSS_120B,
         'llama-3.3-70b-versatile': LLMModel.GROQ_LLAMA_3_3_70B,
         'llama-3.1-70b-versatile': LLMModel.GROQ_LLAMA_3_1_70B,
-        'mixtral-8x7b-32768': LLMModel.GROQ_MIXTRAL_8X7B,
-        # New models for expert comparison
         'meta-llama/llama-4-maverick-17b-128e-instruct': LLMModel.GROQ_LLAMA_4_MAVERICK_17B,
         'qwen/qwen3-32b': LLMModel.GROQ_QWEN3_32B,
         'deepseek-r1-distill-llama-70b': LLMModel.GROQ_DEEPSEEK_R1_DISTILL_70B,

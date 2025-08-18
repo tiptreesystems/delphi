@@ -1,31 +1,29 @@
-# Delphi Experiment Configuration for Groq
-# This configuration uses Groq's fast inference with reasoning models
+# Expert Comparison: gpt-4o-2024-05-13 (OpenAI)
+# This configuration is part of the expert model comparison study
 
 # Experiment settings
 experiment:
   seed: 42  # Random seed for reproducibility
-  output_dir: "outputs_oss_120b_3ktokens"
-  initial_forecasts_dir: "outputs_oss_120b_3ktokens"
+  output_dir: "outputs_experts_comparison_4o"
+  initial_forecasts_dir: "outputs_experts_comparison_4o_initial"
 
 # Model configuration
 model:
-  provider: "groq"  # Using Groq for fast inference
-  name: "openai/gpt-oss-20b"  # Groq's reasoning model
+  provider: "openai"
+  name: "gpt-4o-2024-05-13"
   system_prompt: "You are a helpful assistant with expertise in forecasting and decision-making."
   
   # Expert-specific settings (overrides base model settings)
   expert:
     temperature: 0.3
-    max_tokens: 3000
-    reasoning_effort: "medium"  # For GPT-OSS model
+    max_tokens: 6000
     
   # Mediator-specific settings (overrides base model settings)
   mediator:
-    model: "openai/gpt-oss-120b"
+    model: "gpt-4o-2024-05-13"
     temperature: 0.2
-    max_tokens: 3000
-    reasoning_effort: "medium"  # More reasoning for synthesis
-    feedback_max_tokens: 3000
+    max_tokens: 6000
+    feedback_max_tokens: 6000
     feedback_temperature: 0.2
 
 # Delphi panel configuration
@@ -54,8 +52,8 @@ processing:
 
 # API configuration  
 api:
-  groq:
-    api_key_env: "GROQ_API_KEY"  # Environment variable name for Groq API key
+  openai:
+    api_key_env: "OPENAI_API_KEY"  # Environment variable name for API key
 
 # Debugging configuration
 debug:
@@ -66,7 +64,7 @@ debug:
 # Output configuration
 output:
   # File naming pattern - available variables: {question_id}, {resolution_date}
-  file_pattern: "groq_delphi_log_{question_id}_{resolution_date}.json"
+  file_pattern: "experts_comparison_4o_{question_id}_{resolution_date}.json"
   
   # What to save in output files
   save:

@@ -5,7 +5,7 @@
 experiment:
   seed: 42  # Random seed for reproducibility
   output_dir: "outputs_initial_delphi"
-  initial_forecasts_dir: "outputs_initial_forecasts"
+  initial_forecasts_dir: "outputs_delphi_experiment_initial"
 
 # Model configuration
 model:
@@ -16,13 +16,13 @@ model:
   # Expert-specific settings (overrides base model settings)
   expert:
     temperature: 0.3
-    max_tokens: 500
+    max_tokens: 6000
     
   # Mediator-specific settings (overrides base model settings)
   mediator:
     temperature: 0.2
-    max_tokens: 800
-    feedback_max_tokens: 800
+    max_tokens: 6000
+    feedback_max_tokens: 6000
     feedback_temperature: 0.2
 
 # Delphi panel configuration
