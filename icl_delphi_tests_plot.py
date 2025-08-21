@@ -16,29 +16,36 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 import debugpy
-# print("Waiting for debugger attach...")
-# debugpy.listen(5679)
-# debugpy.wait_for_client()
-# print("Debugger attached.")
+print("Waiting for debugger attach...")
+debugpy.listen(5679)
+debugpy.wait_for_client()
+print("Debugger attached.")
 
 
 import os
+import textwrap
 
-output_dir = os.path.join("outputs_initial_delphi", "forecast_evolutions")
+output_dir = "outputs_initial_delphi_flexible_retry_test_set_forecast_evolutions"
+
 
 def parse_delphi_log_filename(filename: str):
     """
     Given a filename like:
-        delphi_log_<unique_id>_<YYYY-MM-DD>.json
+        delphi_log_with_examples_<unique_id>_<YYYY-MM-DD>.json
+        delphi_log_no_examples_<unique_id>_<YYYY-MM-DD>.json
     return (unique_id, date_str)
     """
     base = os.path.basename(filename)
     name, _ = os.path.splitext(base)
 
-    # Remove the leading "delphi_log_"
-    if not name.startswith("delphi_log_"):
+    if name.startswith("delphi_log_with_examples_"):
+        prefix = "delphi_log_with_examples_"
+    elif name.startswith("delphi_log_no_examples_"):
+        prefix = "delphi_log_no_examples_"
+    else:
         raise ValueError(f"Unexpected filename format: {filename}")
-    parts = name[len("delphi_log_"):].split("_")
+
+    parts = name[len(prefix):].split("_")
     if len(parts) < 2:
         raise ValueError(f"Cannot parse unique_id and date from: {filename}")
 
@@ -97,6 +104,7 @@ def _collect_round_probs(delphi_log: Dict[str, Any]) -> Dict[int, List[float]]:
 
 def plot_distribution_by_round(
     round_probs: Dict[int, List[float]],
+    real_superforecaster_forecasts: List[float],
     title: str = "Delphi: Distribution of Forecasts by Round",
     save_path: Optional[str] = None,
     show_points: bool = True,
@@ -104,6 +112,7 @@ def plot_distribution_by_round(
 ) -> None:
     """
     Makes a violin plot across rounds, with optional jittered points and per-round medians.
+    Adds real superforecaster forecasts as dots on the right edge of the plot.
     """
     if not round_probs:
         raise ValueError("No round probabilities found to plot.")
@@ -114,9 +123,12 @@ def plot_distribution_by_round(
     fig, ax = plt.subplots(figsize=(10, 5))
 
     # Violin plot of distributions
-    parts = ax.violinplot(data, positions=rounds, showmeans=False, showextrema=False, showmedians=False)
+    parts = ax.violinplot(
+        data, positions=rounds,
+        showmeans=False, showextrema=False, showmedians=False
+    )
 
-    # Style violins lightly (no explicit colors per instruction; use default)
+    # Style violins lightly
     for pc in parts['bodies']:
         pc.set_alpha(0.4)
 
@@ -134,18 +146,35 @@ def plot_distribution_by_round(
         for x, d in zip(rounds, data):
             if not d:
                 continue
-            jitter = (rng.random(len(d)) - 0.5) * 0.15  # small horizontal jitter
+            jitter = (rng.random(len(d)) - 0.5) * 0.15
             ax.scatter(np.full(len(d), x) + jitter, d, s=18, alpha=0.7)
 
-    if resolution:
-        # The resolution is a probability between 0 and 1, so plot it as a horizontal line
-        ax.axhline(resolution.resolved_to, color='red', linestyle='--', label=f"Resolution: {resolution.resolved_to:.2f}")
+    # --- Add real superforecaster forecasts as dots (to the right of the violins) ---
+    if real_superforecaster_forecasts:
+        x_pos = max(rounds) + 1.2  # place them just to the right of last round
+        jitter = (np.random.default_rng(123).random(len(real_superforecaster_forecasts)) - 0.5) * 0.15
+        ax.scatter(
+            np.full(len(real_superforecaster_forecasts), x_pos) + jitter,
+            real_superforecaster_forecasts,
+            s=30, c="black", marker="x", label="Superforecasters"
+        )
+        # Extend x ticks and add label
+        ax.set_xticks(rounds + [x_pos])
+        ax.set_xticklabels([str(r) for r in rounds] + ["Superforecasters"])
 
-    ax.set_title(title)
+    # Wrap the title if it's too long
+    wrapped_title = "\n".join(textwrap.wrap(title, width=120))
+    ax.set_title(wrapped_title)
     ax.set_xlabel("Round")
     ax.set_ylabel("Probability")
-    ax.set_xticks(rounds)
-    ax.set_ylim(-0.02, 1.02)
+    ax.set_ylim(0, 1)
+
+    if resolution:
+        if resolution.resolved_to == 1:
+            plt.suptitle("Resolved: YES ↑", color='green', fontsize=14, fontweight='bold')
+        elif resolution.resolved_to == 0:
+            plt.suptitle("Resolved: NO ↓", color='red', fontsize=14, fontweight='bold')
+
     ax.grid(True, axis='y', linestyle='--', alpha=0.4)
     ax.legend(loc='best')
 
@@ -155,41 +184,68 @@ def plot_distribution_by_round(
         plt.savefig(save_path, dpi=200)
     else:
         plt.show()
-
 def main():
     parser = argparse.ArgumentParser(description="Plot evolution of Delphi forecast distributions across rounds.")
-    parser.add_argument("--log", required=True, help="Path to a delphi_log_...json file.")
+    parser.add_argument("--logdir", required=True, help="Directory containing delphi_log_...json files.")
+    parser.add_argument("--output-dir", default=output_dir, help="Directory to save output plots.")
     parser.add_argument("--title", default=None, help="Custom plot title.")
     parser.add_argument("--no-points", action="store_true", help="Disable showing individual expert points.")
     args = parser.parse_args()
 
-    with open(args.log, "r") as f:
-        delphi_log = json.load(f)
 
-    # Build output directory and filename from the JSON log path
-    json_basename = os.path.splitext(os.path.basename(args.log))[0]  # e.g., delphi_log_qid_date
-    os.makedirs(output_dir, exist_ok=True)
-    out_path = os.path.join(output_dir, f"{json_basename}.png")
+    resolution_date = '2025-07-21'
 
-    round_probs = _collect_round_probs(delphi_log)
+    logdir = args.logdir
+    json_files = [f for f in os.listdir(logdir) if f.startswith("delphi_log_") and f.endswith(".json")]
+    if not json_files:
+        print(f"No delphi_log_*.json files found in {logdir}")
+        return
 
-
-    question_id, resolution_date = parse_delphi_log_filename(args.log)  # Ensure the filename is valid
-
+    os.makedirs(args.output_dir, exist_ok=True)
     loader = ForecastDataLoader()
 
-    resolution = loader.get_resolution(question_id=question_id, resolution_date=resolution_date)
+    for json_file in json_files:
+        json_path = os.path.join(logdir, json_file)
+        with open(json_path, "r") as f:
+            delphi_log = json.load(f)
 
-    title = args.title or f"Delphi: Distribution of Forecasts by Round (Q={delphi_log.get('question', 'unknown')})"
-    plot_distribution_by_round(
-        round_probs,
-        title=title,
-        save_path=out_path,
-        show_points=not args.no_points,
-        resolution=resolution
-    )
+        json_basename = os.path.splitext(os.path.basename(json_file))[0]
+        out_path = os.path.join(args.output_dir, f"{json_basename}.png")
 
-    print(f"Plot saved to {out_path}")
+        round_probs = _collect_round_probs(delphi_log)
+
+        sf_ids = delphi_log['rounds'][0]['experts'].keys()
+        qid = delphi_log.get('question', None)
+
+        real_superforecaster_forecast_objects = [
+            loader.get_super_forecasts(question_id=qid, user_id=sf_id, resolution_date=resolution_date)[0]
+            for sf_id in sf_ids
+        ]
+
+        real_superforecaster_forecasts = [
+            obj.forecast for obj in real_superforecaster_forecast_objects
+        ]
+
+        try:
+            question_id, resolution_date = parse_delphi_log_filename(json_file)
+            resolution = loader.get_resolution(question_id=question_id, resolution_date=resolution_date)
+        except Exception as e:
+            print(f"Skipping {json_file}: {e}")
+            continue
+
+        question = loader.get_question(question_id=qid)
+        title = args.title or f"{question.question} \n\n topic: {question.topic}"
+
+        plot_distribution_by_round(
+            round_probs,
+            real_superforecaster_forecasts=real_superforecaster_forecasts,
+            title=title,
+            save_path=out_path,
+            show_points=not args.no_points,
+            resolution=resolution
+        )
+
+        print(f"Plot saved to {out_path}")
 
 if __name__ == "__main__":
     main()

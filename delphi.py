@@ -38,6 +38,39 @@ Return the completed table and answers. Your identity will be anonymized; only a
 Be concise and to the point.
 """
 
+MAX_TOKENS = 1000
+
+_NUMBER_RE = re.compile(r"""
+    final \s* probability
+    \s*[:\-]?\s*
+    (?:`|\*{1,2}|")?      # optional fence/formatting
+    (                     # capture the value
+        (?:0(?:\.\d+)?|1(?:\.0+)?)   # strict 0–1 decimal
+        | \d{1,3}\s?%                # or a percentage (fallback)
+    )
+""", re.IGNORECASE | re.VERBOSE)
+
+def _extract_prob(text: str) -> Optional[float]:
+    cand = None
+    for m in _NUMBER_RE.finditer(text):
+        cand = m.group(1)  # keep last occurrence
+    if not cand:
+        return None
+    cand = cand.strip().rstrip(".,;)")
+    if cand.endswith("%"):
+        try:
+            v = float(cand[:-1].strip()) / 100.0
+            return max(0.0, min(1.0, v))
+        except ValueError:
+            return None
+    try:
+        v = float(cand)
+        return v if 0.0 <= v <= 1.0 else None
+    except ValueError:
+        return None
+
+
+
 class Expert:
     def __init__(self, llm: BaseLLM, user_profile: Optional[dict] = None, config: Optional[dict] = None):
         self.llm = llm
@@ -67,22 +100,12 @@ class Expert:
         )
         temperature = self.config.get('temperature', 0.3)
         self.conversation_manager.messages.clear()
-        response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
+        response = await self.conversation_manager.generate_response(prompt, max_tokens=MAX_TOKENS, temperature=temperature)
         response = response.strip()
 
-        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
-        match = matches[-1] if matches else None
-        if match:
-            return float(match.group(1))
+        prob = _extract_prob(response)
+        return prob
 
-        # Fallback: try to find any number at the end of the response
-        numbers = re.findall(r'0?\.\d+|1\.0|0|1', response)
-        if numbers:
-            prob = float(numbers[-1])  # Take the last number found
-            return max(0.0, min(1.0, prob))
-
-        # Fallback if no valid number found
-        return 0.5
 
     async def forecast_with_examples_in_context(self, question: Question, examples: List[Tuple[Question, Forecast]]) -> float:
         examples_text = ""
@@ -114,20 +137,11 @@ class Expert:
 
         temperature = self.config.get('temperature', 0.3)
         self.conversation_manager.messages.clear()
-        response = await self.conversation_manager.generate_response(prompt, max_tokens=500, temperature=temperature)
+        response = await self.conversation_manager.generate_response(prompt, max_tokens=MAX_TOKENS, temperature=temperature)
         response = response.strip()
 
-        matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
-        match = matches[-1] if matches else None
-        if match:
-            return float(match.group(1))
-
-        # Fallback: try to find any number at the end of the response
-        numbers = re.findall(r'0?\.\d+|1\.0|0|1', response)
-        if numbers:
-            prob = float(numbers[-1])  # Take the last number found
-            return max(0.0, min(1.0, prob))
-        return 0.5
+        prob = _extract_prob(response)
+        return prob
 
     def generate_round_1_response(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> str:
         prompt = (

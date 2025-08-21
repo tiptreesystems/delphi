@@ -27,9 +27,6 @@ from icl_initial_forecasts import run_all_forecasts_with_examples, sample_questi
 
 import numpy as np
 import psutil
-import sys
-import argparse
-import debugpy
 
 def _is_debugpy_running(port=5679):
     """Check if debugpy is already listening on the given port."""
@@ -43,14 +40,42 @@ def _is_debugpy_running(port=5679):
     return False
 
 if not _is_debugpy_running():
-
+    import debugpy
     print("Waiting for debugger attach...")
     debugpy.listen(5679)
     debugpy.wait_for_client()
     print("Debugger attached.")
 # Set all random seeds for reproducibility
 
+SEED = 42
+random.seed(SEED)
+np.random.seed(SEED)
+os.environ["PYTHONHASHSEED"] = str(SEED)
 
+config_path = '/home/williaar/projects/delphi/configs/test_configs/icl_delphi_test_set.yml'
+config = load_config(config_path)
+
+provider = LLMProvider.OPENAI
+model = LLMModel.GPT_4O_2024_05_13
+personalized_system_prompt = "You are a helpful assistant with expertise in forecasting and decision-making."
+
+openai_key = os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"] = openai_key
+
+llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
+
+# get questions that have a topic
+loader = ForecastDataLoader()
+questions_with_topic = loader.get_questions_with_topics()
+
+forecast_due_date = config.get("forecast_due_date", "2024-07-21")
+selected_resolution_date = config.get("selected_resolution_date", "2025-07-21")
+
+n_rounds = config.get("n_rounds", 3)
+
+initial_forecasts_path = config.get("initial_forecasts_path", "outputs_initial_forecasts_flexible_retry")
+
+output_dir = 'outputs_initial_delphi_flexible_retry_no_examples_test_set'
 
 
 _NUMBER_RE = re.compile(r"""
@@ -93,6 +118,7 @@ def _extract_prob(text: str) -> float:
 
 
 def load_forecasts_no_examples():
+
     question_ids = config.get("question_ids", None)
 
     sampled_questions = [
@@ -117,15 +143,11 @@ def load_forecasts_no_examples():
     llmcasts_by_qid = defaultdict(lambda: defaultdict(list))
     for qid, payloads in loaded_llmcasts.items():
         for p in payloads:
-            llmcasts_by_qid[qid].append(p)
+            llmcasts_by_qid[qid] = p
 
-    # Convert nested default dicts to plain dicts and return
-    llmcasts_by_qid = {qid: dict(sfid_map) for qid, sfid_map in llmcasts_by_qid.items()}
     return questions, llmcasts_by_qid
 
 def load_forecasts_with_examples():
-    # sampled_questions = sample_questions_by_topic(questions_with_topic, n_per_topic=3)
-
     question_ids = config.get("question_ids", None)
 
     sampled_questions = [
@@ -198,90 +220,32 @@ def load_llm_forecasts_from_pickle(sampled_questions, with_examples: bool = True
     return loaded_llmcasts
 
 
-
 if __name__ == "__main__":
 
-
-
-    parser = argparse.ArgumentParser(description="Run Delphi ICL tests.")
-    parser.add_argument("--config", type=str, default="/home/williaar/projects/delphi/configs/test_configs/icl_delphi_test_set.yml",
-                        help="Path to the config YAML file.")
-    args = parser.parse_args()
-
-    config_path = args.config
-    config = load_config(config_path)
-
-    provider = LLMProvider.OPENAI
-    model = LLMModel.GPT_4O_2024_05_13
-    personalized_system_prompt = "You are a helpful assistant with expertise in forecasting and decision-making."
-
-    openai_key = os.getenv("OPENAI_API_KEY")
-    os.environ["OPENAI_API_KEY"] = openai_key
-
-    llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
-
-    # get questions that have a topic
-    loader = ForecastDataLoader()
-    questions_with_topic = loader.get_questions_with_topics()
-
-    forecast_due_date = config.get("forecast_due_date", "2024-07-21")
-    selected_resolution_date = config.get("selected_resolution_date", "2025-07-21")
-
-    n_rounds = config.get("n_rounds", 3)
-    n_experts = config.get("n_experts", 5)
-
-    SEED = config.get("seed")
-    random.seed(SEED)
-    np.random.seed(SEED)
-    os.environ["PYTHONHASHSEED"] = str(SEED)
-
-
-    initial_forecasts_path = config.get("initial_forecasts_path", "outputs_initial_forecasts_flexible_retry")
-    initial_forecast_path = os.path.join(initial_forecasts_path, f"{SEED}")
-
-    output_dir = config.get("output_dir", "outputs_initial_delphi_flexible_retry")
-    output_dir = os.path.join(output_dir, f"{SEED}")
-
     # Load initial forecasts from files
-    questions, llmcasts_by_qid_sfid, examples_used_by_qid_sfid = load_forecasts_with_examples()
+    questions, llmcasts_by_qid = load_forecasts_no_examples()
 
     os.makedirs(output_dir, exist_ok=True)
 
     for question in questions:
 
-        output_file = os.path.join(output_dir, f"delphi_log_with_examples_{question.id}_{selected_resolution_date}.json")
+        output_file = os.path.join(output_dir, f"delphi_log_no_examples_{question.id}_{selected_resolution_date}.json")
         if os.path.exists(output_file):
             print(f"Skipping {output_file} (already exists)")
             continue
 
-        llmcasts_by_sfid = llmcasts_by_qid_sfid[question.id]
-        examples_used = examples_used_by_qid_sfid.get(question.id, {})
+        llmcasts = llmcasts_by_qid[question.id]
 
         # Each superforecaster gets their own expert instance
-        experts = {sfid: Expert(llm, config=config.get('model', {})) for sfid in llmcasts_by_sfid.keys()}
+        experts = {
+            sample_id: Expert(llm, config=config.get('model', {}))
+            for sample_id in range(len(llmcasts['full_conversation']))
+        }
 
-        # Populate the experts with their initial forecasts
-        # We take the median of the sample forecasts for each superforecaster
-        for sfid, payload in llmcasts_by_sfid.items():
-            # Reajusting code for new data structures
-            # pairs are just zipped (prob, full_conversation) for "forecasts" and "full_conversation", both of which are lists
-            inner_payload = payload[0]
-            forecasts = inner_payload['forecasts']
-            full_conversations = inner_payload['full_conversation']
+        for idx, convo in enumerate(llmcasts['full_conversation']):
+            experts[idx].conversation_manager.add_messages(convo)
 
-            forecast_convo_pairs = list(zip(forecasts, full_conversations))
-
-            forecast_convo_pairs.sort(key=lambda x: x[0])
-            median_llmcast, median_convo = forecast_convo_pairs[len(forecast_convo_pairs) // 2]
-
-            experts[sfid].conversation_manager.add_messages(median_convo)
-
-        # Take n_experts random superforecasters if more than n_experts
-        if len(experts) > n_experts:
-            selected_sfs = random.Random(SEED).sample(list(experts.keys()), n_experts)
-            experts = {sfid: experts[sfid] for sfid in selected_sfs}
-
-        print(f"Running Delphi for question {question.id} with {len(experts)} out of {len(list(llmcasts_by_sfid.keys()))} experts")
+        print(f"Running Delphi (no examples) for question {question.id} with {len(experts)} experts")
 
 
         # Instantiate the Delphi mediator
@@ -296,9 +260,9 @@ if __name__ == "__main__":
 
         # Round 0: capture initial expert responses (text + parsed prob)
         initial_expert_entries = {}
-        for sfid, expert in experts.items():
+        for expert_id, expert in experts.items():
             resp = expert.get_last_response()
-            initial_expert_entries[sfid] = {
+            initial_expert_entries[expert_id] = {
                 "prob": _extract_prob(resp['content']),
                 "response": resp,
             }
@@ -331,10 +295,10 @@ if __name__ == "__main__":
 
             # experts update; store numeric prob + full response
             round_expert_entries = {}
-            for sfid, expert in experts.items():
+            for expert_id, expert in experts.items():
                 prob, response = asyncio.run(expert.get_forecast_update(broadcast_msg))
                 # prob comes from your Expert; still store parsed prob defensively from the text
-                round_expert_entries[sfid] = {
+                round_expert_entries[expert_id] = {
                     "prob": max(0.0, min(1.0, float(prob))) if isinstance(prob, (int, float)) else _extract_prob(response),
                     "response": response,
                 }
