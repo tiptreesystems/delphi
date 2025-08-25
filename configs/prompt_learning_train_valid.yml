@@ -1,0 +1,64 @@
+# Sequential Prompt Learning with Batched Updates and Epochs
+# Implements: multi-epoch training with batched prompt updates
+
+# Experiment settings
+experiment:
+  seed: 42
+  output_dir: "results/prompt_learning_train_valid"
+  initial_forecasts_dir: "initial_forecasts"
+  
+  # Reuse existing initial forecasts if available
+  reuse_initial_forecasts:
+    enabled: false
+  
+# Model configuration
+model:
+  provider: "groq"
+  name: "openai/gpt-oss-120b"
+  
+  # Expert settings
+  expert:
+    provider: "groq"
+    model: "openai/gpt-oss-120b"
+    temperature: 0.3
+    max_tokens: 6000
+    prompt_version: "v1"
+    
+  # Mediator settings (if used)
+  mediator:
+    provider: "groq"
+    model: "openai/gpt-oss-120b"
+    temperature: 0.2
+    max_tokens: 6000
+
+  learner:
+    provider: "groq"
+    model: "openai/gpt-oss-120b"
+    temperature: 0.2
+    max_tokens: 6000
+
+# Training configuration
+training:
+  n_epochs: 5  # Number of training epochs
+  batch_size: 15  # Number of questions per batch before prompt update
+  valid_ratio: 0.2  # 20% validation set
+  early_stopping_patience: 2  # Stop if no improvement for 2 epochs
+  
+# Data configuration  
+data:
+  resolution_date: "2025-07-21"
+  
+  # Use the train set (formerly TUNE questions)
+  sampling:
+    method: "train"  # Uses TRAIN_QUESTION_IDS as training set
+    
+  # Filter criteria
+  filters:
+    require_resolution: true
+
+# API configuration  
+api:
+  openai:
+    api_key_env: "OPENAI_API_KEY"
+  groq:
+    api_key_env: "GROQ_API_KEY"

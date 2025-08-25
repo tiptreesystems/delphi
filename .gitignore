@@ -1,3 +1,6 @@
+results/
+outputs/
+sweep_results/
 # Python
 __pycache__/
 *.py[cod]
@@ -114,12 +117,12 @@ detailed_results.json
 summary_results.csv
 run.log
 
-# Statistical and analysis outputs
+# Statistical and analysis results
 statistical_summary.txt
 *_summary.txt
 *_analysis.txt
 
-# Profiler outputs
+# Profiler results
 user_profiles.json
 forecaster_analysis.json
 forecaster_report.json
@@ -143,4 +146,4 @@ rate_limit.log
 retry.log
 
 
-outputs_bak
+results_bak

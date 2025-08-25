@@ -1,0 +1,93 @@
+# Genetic Prompt Evolution - Mediator Optimization
+# Configuration for evolving mediator prompts using full Delphi process
+
+experiment:
+  name: "genetic_evolution_mediator"
+  seed: 42
+  output_dir: "results/genetic_evolution_mediator"
+  initial_forecasts_dir: "initial_forecasts"
+  
+  # Reuse existing initial forecasts if available
+  reuse_initial_forecasts:
+    enabled: false
+  
+data:
+  resolution_date: "2025-07-21"
+  sampling:
+    method: "train"  
+  filters:
+    require_resolution: true
+
+model:
+  provider: "groq"
+  name: "openai/gpt-oss-20b"
+  
+  expert:
+    model: "openai/gpt-oss-20b"
+    temperature: 0.2
+    max_tokens: 6000
+    system_prompt: "Forecast the probability of the event by following this structured approach:**\n\n1. **Restate the event and benchmark** \u2013 clearly define what is being asked and the reference point against which it will be measured.  \n2. **Compute the historical base rate (reference class)** \u2013 gather the relevant past data, calculate the prior probability of the event occurring, and note any relevant thresholds.  \n3. **Identify key influencing factors** \u2013 list the main drivers that could shift the probability, rate their current influence (high/medium/low), and note any recent changes.  \n4. **Apply Bayesian updating** \u2013 combine the prior with the evidence from step\u202f3 to produce a posterior probability.  \n5. **Present the final probability** \u2013 give a decimal between 0 and 1, a brief justification of the estimate, and any assumptions or sensitivity notes.  \n\nMake sure each step is explicitly shown and the reasoning is concise yet complete. You must always conclude with:\n\n```\nFINAL PROBABILITY: [decimal between 0 and 1]\n```" 
+  
+  mediator:
+    model: "openai/gpt-oss-20b"
+    temperature: 0.2
+    max_tokens: 6000
+  
+  learner:
+    model: "openai/gpt-oss-20b"
+    temperature: 0.2    
+    max_tokens: 6000
+
+evolution:
+  population_size: 6
+  max_generations: 15
+  elitism_size: 2
+  tournament_size: 3
+  initial_mutation_rate: 0.5
+  
+  fitness:
+    use_delphi_evaluation: true
+    optimize_component: "mediator"       # OPTIMIZE MEDIATOR PROMPTS
+    length_penalty_weight: 0.05
+    target_length: 120
+    superforecaster_examples_file: null
+    include_reasoning: true
+    include_examples: false
+    n_examples: 3
+  
+  # Mediator-specific seed prompts
+  seed_prompts:
+    - "Analyze the expert forecasts and provide structured feedback to improve accuracy."
+    - "Review the predictions and highlight key considerations that may have been overlooked."
+    - "Synthesize the expert opinions and identify areas where reasoning could be strengthened."
+    - "Examine the forecasts for potential biases and suggest more calibrated approaches."
+    - "Provide constructive feedback to help experts refine their probability estimates."
+    - "Guide the experts toward better-calibrated predictions through targeted questions."
+
+delphi:
+  n_rounds: 3              # More rounds to see mediator impact
+  n_experts: 4
+  expert_selection: "random"
+  expert_selection_seed: 42
+
+training:
+  valid_ratio: 0.3
+  validation_batch_size: 8      # Larger for more reliable evaluation
+
+processing:
+  skip_existing: false
+  max_concurrent: 1             # Sequential for mediator evaluation
+  max_concurrent_mutations: 2
+  retry_attempts: 2
+
+output:
+  save:
+    conversation_histories: false
+    example_pairs: false
+  file_pattern: "genetic_mediator_{question_id}_{resolution_date}.json"
+
+api:
+  openai:
+    api_key_env: "OPENAI_API_KEY"
+  groq:
+    api_key_env: "GROQ_API_KEY"

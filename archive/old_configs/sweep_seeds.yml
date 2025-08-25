@@ -1,0 +1,8 @@
+# Seed sweep configuration
+# This configuration sweeps over different seed values for reproducibility testing
+# Use this with a base config that has sampling.method: "single" and sampling.question_id set
+
+parameters:
+  - name: seed
+    path: experiment.seed
+    values: [42, 43]

@@ -1,0 +1,81 @@
+# Genetic Prompt Evolution Configuration
+# Example configuration for evolving forecasting prompts using genetic algorithms
+
+experiment:
+  name: "genetic_evolution_example"
+  seed: 42
+  output_dir: "results/genetic_evolution_example"
+  initial_forecasts_dir: "initial_forecasts"
+  
+  # Reuse existing initial forecasts if available
+  reuse_initial_forecasts:
+    enabled: false
+  
+data:
+  resolution_date: "2025-07-21"
+  sampling:
+    method: "train"  
+  filters:
+    require_resolution: true
+
+model:
+  provider: "groq"      # LLM provider
+  name: "openai/gpt-oss-20b"          # Default model
+  
+  expert:
+    name: "openai/gpt-oss-20b"        # Use faster model for evolution
+    temperature: 0.2
+    max_tokens: 6000
+    prompt_version: "v1"
+  
+  learner:
+    name: "openai/gpt-oss-20b"        # Model used for LLM-based mutations
+    temperature: 0.2    
+    max_tokens: 6000
+
+# Genetic algorithm configuration
+evolution:
+  population_size: 4         # Number of prompts in population
+  max_generations: 25         # Maximum generations (set lower for faster testing)
+  elitism_size: 2            # Top prompts preserved each generation
+  tournament_size: 3         # Tournament selection size
+  initial_mutation_rate: 0.5 # Starting mutation probability
+  
+  # Fitness evaluation settings
+  fitness:
+    length_penalty_weight: 0.1        # Penalty for very long/short prompts (0.0 to disable)
+    target_length: 100                 # Target prompt length in tokens
+    superforecaster_examples_file: null  # Path to JSON file with superforecaster examples (optional)
+    include_reasoning: true           # Include superforecaster reasoning template
+    include_examples: false           # Include ICL examples (set true if you have examples file)
+    n_examples: 3                    # Number of ICL examples to include
+  
+  # Optional: Custom seed prompts (if not provided, defaults will be used)
+  seed_prompts:
+    - "Forecast the probability by analyzing base rates and key factors systematically."
+    - "Predict the outcome using structured reasoning and historical context."
+    - "Estimate likelihood through careful analysis of available information."
+    - "Assess probability by considering multiple perspectives and data sources."
+    # - "Determine forecast using evidence-based reasoning and calibrated thinking."
+    # - "Apply forecasting principles to predict this event's probability."
+    # - "Use analytical framework to estimate the likelihood of this outcome."
+    # - "Consider base rates, trends, and specific factors to forecast probability."
+
+# Training configuration  
+training:
+  valid_ratio: 0.3              # Fraction of data for validation
+  validation_batch_size: 8      # Questions per fitness evaluation (smaller = faster)
+
+# Processing options
+processing:
+  skip_existing: false          # Whether to skip if results already exist
+  max_concurrent: 3            # Maximum concurrent LLM calls
+  max_concurrent_mutations: 3   # Maximum concurrent mutations per generation
+  retry_attempts: 2            # Retries for failed predictions
+
+# API configuration  
+api:
+  openai:
+    api_key_env: "OPENAI_API_KEY"
+  groq:
+    api_key_env: "GROQ_API_KEY"

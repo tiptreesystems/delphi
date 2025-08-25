@@ -1,0 +1,7 @@
+# Temperature sweep configuration
+# This configuration sweeps over different temperature values for the expert model
+
+parameters:
+  - name: temperature
+    path: model.expert.temperature
+    values: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]

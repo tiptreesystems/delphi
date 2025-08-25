@@ -1,0 +1,58 @@
+# Baseline evaluation with no prompt learning
+# This runs validation without any learned prompt to establish baseline performance
+
+# Experiment settings
+experiment:
+  seed: 42
+  output_dir: "results/prompt_learning_baseline"
+  initial_forecasts_dir: "initial_forecasts"
+  
+  # Reuse existing initial forecasts if available
+  reuse_initial_forecasts:
+    enabled: false
+  
+# Model configuration
+model:
+  provider: "groq"
+  name: "openai/gpt-oss-120b"
+  
+  # Expert settings
+  expert:
+    provider: "groq"
+    model: "openai/gpt-oss-120b"
+    temperature: 0.3
+    max_tokens: 6000
+    prompt_version: "v1"
+    
+  # Mediator settings (if used)
+  mediator:
+    provider: "groq"
+    name: "openai/gpt-oss-120b"
+    temperature: 0.2
+    max_tokens: 6000
+
+# Training configuration - set to 0 epochs for baseline
+training:
+  n_epochs: 0  # NO TRAINING - just baseline evaluation
+  batch_size: 10  # Not used when n_epochs = 0
+  valid_ratio: 0.2  # 20% validation set
+  early_stopping_patience: 0  # Not used when n_epochs = 0
+  
+# Data configuration  
+data:
+  resolution_date: "2025-07-21"
+  
+  # Use the train set (formerly TUNE questions)
+  sampling:
+    method: "train"  # Uses TRAIN_QUESTION_IDS as training set
+    
+  # Filter criteria
+  filters:
+    require_resolution: true
+
+# API configuration  
+api:
+  openai:
+    api_key_env: "OPENAI_API_KEY"
+  groq:
+    api_key_env: "GROQ_API_KEY"

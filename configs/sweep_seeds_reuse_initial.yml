@@ -1,0 +1,7 @@
+# Seed sweep configuration for reusing the same initial forecasts
+# This runs multiple seeds on the same set of initial forecasts for fair comparison
+
+parameters:
+  - name: seed
+    path: experiment.seed
+    values: [42, 123, 456, 789, 101, 202, 303, 404, 505, 606]

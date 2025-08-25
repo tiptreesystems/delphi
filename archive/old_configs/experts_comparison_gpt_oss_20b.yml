@@ -1,0 +1,88 @@
+# Expert Comparison: openai/gpt-oss-20b (Groq)
+# This configuration is part of the expert model comparison study
+
+# Experiment settings
+experiment:
+  seed: 45  # Random seed for reproducibility
+  output_dir: "results/experts_comparison_gpt_oss_20b"
+  initial_forecasts_dir: "results/experts_comparison_gpt_oss_20b_initial"
+  
+  # Configuration for reusing existing initial forecasts
+  reuse_initial_forecasts:
+    enabled: true
+    source_dir: "auto"  # Automatically find the latest initial forecasts directory
+
+# Model configuration
+model:
+  provider: "groq"
+  name: "openai/gpt-oss-20b"
+  system_prompt: "You are a superforecaster. Take a bold, distinctive position. Avoid consensus thinking and consider extreme scenarios. \n\nWhen making a prediction, you should write one or more paragraphs in prose that present your analysis, but you must always conclude with:\n\n```\nFINAL PROBABILITY: [decimal between 0 and 1]\n```" 
+  
+  expert:
+    provider: "groq"
+    model: "openai/gpt-oss-20b"
+    temperature: 0.3
+    max_tokens: 6000
+    reasoning_effort: "medium"
+    
+  mediator:
+    provider: "groq"
+    model: "openai/gpt-oss-20b"
+    temperature: 0.2
+    max_tokens: 6000
+    reasoning_effort: "medium"
+    feedback_max_tokens: 6000
+    feedback_temperature: 0.2
+
+# Delphi panel configuration
+delphi:
+  n_rounds: 3  # Number of Delphi rounds
+  n_experts: 5  # Maximum number of experts per panel
+  expert_selection: "random"  # How to select experts when more than n_experts available
+  expert_selection_seed: 42  # Fixed seed for expert selection (independent of experiment seed)
+
+# Data configuration
+data:
+  resolution_date: "2025-07-21"  # Date for which to get resolutions
+  
+  # # Question sampling
+  # Sampling configuration - this will be based on what's available in the reused forecasts
+  sampling:
+    method: "evaluation"  # Special method for reusing
+
+  # sampling:
+  #   method: "first"  # Options: by_topic, random, first
+  #   n_per_topic: 2  # Number of questions per topic (for by_topic method)
+  #   n_questions: 5 # Total number of questions to sample (for random/first methods)
+  # sampling:
+  #   method: "single"
+  #   question_id: "b70970a0440d1b7dedde9220fb60ffe3f2ed8b00ef12b45341772046caa12092"
+  
+  # Filter criteria
+  filters:
+    require_resolution: true  # Only include questions with resolutions on resolution_date
+
+# Processing configuration
+processing:
+  skip_existing: true  # Skip if output file already exists
+
+# API configuration  
+api:
+  groq:
+    api_key_env: "GROQ_API_KEY"  # Environment variable name for Groq API key
+
+# Debugging configuration
+debug:
+  enabled: false  # Enable debug mode (for debugpy attachment)
+  debugpy_port: 5679  # Port for debugpy attachment
+  breakpoint_on_start: false  # Add breakpoint at start of execution
+
+# Output configuration
+output:
+  # File naming pattern - available variables: {question_id}, {resolution_date}
+  file_pattern: "experts_comparison_gpt_oss_20b_{question_id}_{resolution_date}.json"
+  
+  # What to save in output files
+  save:
+    conversation_histories: true  # Include full conversation histories
+    example_pairs: true  # Include the example pairs used for each expert
