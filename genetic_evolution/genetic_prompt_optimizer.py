@@ -204,6 +204,7 @@ class GeneticPromptOptimizer:
             enhanced_prompts = self.prepare_prompts_for_evaluation(current_prompts)
             
             # Evaluate fitness
+            breakpoint()
             base_fitness_scores = await self.evaluation_function(enhanced_prompts, validation_batch)
        
             # Apply length penalties

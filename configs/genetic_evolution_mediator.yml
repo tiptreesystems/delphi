@@ -19,21 +19,22 @@ data:
     require_resolution: true
 
 model:
-  provider: "groq"
-  name: "openai/gpt-oss-20b"
-  
   expert:
+    provider: "groq"
     model: "openai/gpt-oss-20b"
     temperature: 0.2
     max_tokens: 6000
-    system_prompt: "Forecast the probability of the event by following this structured approach:**\n\n1. **Restate the event and benchmark** \u2013 clearly define what is being asked and the reference point against which it will be measured.  \n2. **Compute the historical base rate (reference class)** \u2013 gather the relevant past data, calculate the prior probability of the event occurring, and note any relevant thresholds.  \n3. **Identify key influencing factors** \u2013 list the main drivers that could shift the probability, rate their current influence (high/medium/low), and note any recent changes.  \n4. **Apply Bayesian updating** \u2013 combine the prior with the evidence from step\u202f3 to produce a posterior probability.  \n5. **Present the final probability** \u2013 give a decimal between 0 and 1, a brief justification of the estimate, and any assumptions or sensitivity notes.  \n\nMake sure each step is explicitly shown and the reasoning is concise yet complete. You must always conclude with:\n\n```\nFINAL PROBABILITY: [decimal between 0 and 1]\n```" 
+    system_prompt_name: "expert_system"
+    system_prompt_version: "v1"
   
   mediator:
+    provider: "groq"
     model: "openai/gpt-oss-20b"
     temperature: 0.2
     max_tokens: 6000
   
   learner:
+    provider: "groq"
     model: "openai/gpt-oss-20b"
     temperature: 0.2    
     max_tokens: 6000

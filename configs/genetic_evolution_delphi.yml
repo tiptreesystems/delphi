@@ -20,22 +20,22 @@ data:
     require_resolution: true
 
 model:
-  provider: "groq"      # LLM provider
-  name: "openai/gpt-oss-20b"          # Default model
-  
   expert:
-    name: "openai/gpt-oss-20b"        # Expert model
+    provider: "groq"
+    model: "openai/gpt-oss-20b"        # Expert model
     temperature: 0.2
     max_tokens: 6000
     prompt_version: "v1"
   
   mediator:
-    name: "openai/gpt-oss-20b"        # Mediator model
+    provider: "groq"
+    model: "openai/gpt-oss-20b"        # Mediator model
     temperature: 0.2
     max_tokens: 6000
   
   learner:
-    name: "openai/gpt-oss-20b"        # Model used for LLM-based mutations
+    provider: "groq"
+    model: "openai/gpt-oss-20b"        # Model used for LLM-based mutations
     temperature: 0.2    
     max_tokens: 6000
 

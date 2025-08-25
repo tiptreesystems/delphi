@@ -113,7 +113,6 @@ async def mutate(candidate: PromptCandidate, llm: BaseLLM) -> PromptCandidate:
             mutation_type=mutation_type
         )
     
-    
     # Use the LLM to generate the mutation
     response = await llm.generate(
         mutation_prompt,

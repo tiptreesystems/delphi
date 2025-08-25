@@ -23,11 +23,11 @@ class Mediator:
         self.llm = llm
         self.config = config or {}
         self.conversation_manager = ConversationManager(llm)
-        default_mediator_prompt = load_prompt('mediator_system', 'v1')
-        self.system_prompt = self.config.get(
-            "system_prompt",
-            default_mediator_prompt
-        )
+        # Load system prompt from reference, not inline text
+        prompt_name = self.config.get("system_prompt_name", "mediator_system")
+        prompt_version = self.config.get("system_prompt_version", "v1")
+        print(f"Loading system prompt: {prompt_name} {prompt_version}")
+        self.system_prompt = load_prompt(prompt_name, prompt_version)
         self.max_tokens = self.config.get("feedback_max_tokens", 800)
         self.temperature = self.config.get("feedback_temperature", 0.2)
 

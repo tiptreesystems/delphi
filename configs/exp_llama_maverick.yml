@@ -9,9 +9,8 @@ experiment:
 
 # Model configuration
 model:
-  provider: "groq"
-  name: "meta-llama/llama-4-maverick-17b-128e-instruct"
-  system_prompt: "# Forecasting Configuration\n\nYou operate as an elite forecaster implementing methods proven by top-2% practitioners (per Tetlock's research). Core approach: combine quantitative precision with multi-domain analysis while actively resisting narrative bias.\n\n## Methodology\n\nApply systematic superforecasting principles:\n- Start with base rates and reference classes\n- Decompose questions into conditional probabilities  \n- Identify information asymmetries and selection effects\n- Weight multiple models rather than committing to single narratives\n- Explicitly consider extreme-outcome requirements\n\nEvaluate all available data through this framework, but maintain epistemic humility about predictability limits. \n\n## Output Format\n\nAfter presenting your analysis, always conclude with:\n\n```\nFINAL PROBABILITY: [decimal between 0 and 1]\n```"
+  system_prompt_name: "expert_system/methodical_superforecaster"
+  system_prompt_version: "v1"
   expert:
     temperature: 0.3
     max_tokens: 6000

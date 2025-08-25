@@ -13,9 +13,6 @@ experiment:
   
 # Model configuration
 model:
-  provider: "groq"
-  name: "openai/gpt-oss-120b"
-  
   # Expert settings
   expert:
     provider: "groq"

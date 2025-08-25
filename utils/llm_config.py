@@ -3,6 +3,7 @@ Shared LLM configuration utilities to avoid circular imports.
 """
 
 from utils.models import LLMProvider, LLMModel, LLMFactory
+from utils.prompt_loader import load_prompt
 
 
 def get_llm_from_config(config: dict, role: str = None):
@@ -11,22 +12,42 @@ def get_llm_from_config(config: dict, role: str = None):
     
     Args:
         config: Configuration dictionary
-        role: Optional role ('expert' or 'mediator') to get role-specific config
+        role: Optional role ('expert', 'mediator', or 'learner') to get role-specific config
     """
     model_config = config['model'].copy()
     
-    # If a role is specified and there's a role-specific config, merge it
-    if role and role in model_config:
+    # If a role is specified, use role-specific config (now required)
+    if role:
+        if role not in model_config:
+            raise ValueError(f"Role '{role}' not found in model configuration. Must specify configuration for each component.")
         role_config = model_config[role]
-        # Override base config with role-specific settings
-        if 'provider' in role_config:
-            model_config['provider'] = role_config['provider']
-        if 'model' in role_config:
-            model_config['name'] = role_config['model']
-        elif 'name' in role_config:
-            model_config['name'] = role_config['name']
+        # Role config must have provider and model
+        if 'provider' not in role_config:
+            raise ValueError(f"'provider' is required in model.{role} configuration")
+        if 'model' not in role_config and 'name' not in role_config:
+            raise ValueError(f"'model' or 'name' is required in model.{role} configuration")
+        
+        model_config['provider'] = role_config['provider']
+        model_config['name'] = role_config.get('model', role_config.get('name'))
+        
+        # Handle system prompt references
         if 'system_prompt' in role_config:
+            # For backward compatibility, warn if inline prompt is used
+            import warnings
+            warnings.warn(
+                f"Inline system_prompt in config for {role} is deprecated. "
+                "Use 'system_prompt_name' and 'system_prompt_version' instead.",
+                DeprecationWarning
+            )
             model_config['system_prompt'] = role_config['system_prompt']
+        elif 'system_prompt_name' in role_config:
+            # Load prompt from reference
+            prompt_name = role_config['system_prompt_name']
+            prompt_version = role_config.get('system_prompt_version', 'v1')
+            model_config['system_prompt'] = load_prompt(prompt_name, prompt_version)
+    else:
+        # No role specified - this should not be used anymore
+        raise ValueError("Role must be specified when getting LLM from config. Use 'expert', 'mediator', or 'learner'.")
     
     # Map string provider to enum
     provider_map = {

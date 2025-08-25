@@ -1,0 +1,102 @@
+# Genetic Evolution Configuration for Mediator Optimization
+# Optimizes for smooth improvement across Delphi rounds
+
+# Experiment settings
+experiment:
+  seed: 42
+  output_dir: "results/genetic_evolution_mediator_smooth"
+  initial_forecasts_dir: "results/experts_comparison_gpt_oss_20b_initial"
+
+# Model configuration
+model:
+  # Expert model (uses fixed prompts during evolution)
+  expert:
+    provider: "groq"
+    model: "openai/gpt-oss-20b"
+    system_prompt_name: "expert_system"
+    system_prompt_version: "v1"
+    temperature: 0.3
+    max_tokens: 6000
+    
+  # Mediator model (what we're optimizing)
+  mediator:
+    provider: "groq"
+    model: "openai/gpt-oss-20b"
+    temperature: 0.2
+    max_tokens: 6000
+    feedback_max_tokens: 6000
+    feedback_temperature: 0.2
+    
+  # Learner model (for mutations)
+  learner:
+    provider: "groq"
+    model: "openai/gpt-oss-20b"
+    temperature: 0.7
+    max_tokens: 6000
+
+# Genetic evolution configuration
+evolution:
+  population_size: 8
+  max_generations: 20
+  elitism_size: 2
+  tournament_size: 3
+  initial_mutation_rate: 0.5
+  
+  # Fitness evaluation configuration
+  fitness:
+    # Use Delphi evaluation with smooth improvement metric
+    use_delphi_evaluation: true
+    use_smooth_improvement: true
+    optimize_component: "mediator"  # We're optimizing the mediator
+    
+    # Smooth improvement weights
+    variance_weight: 0.3  # Penalty for variance across rounds
+    smoothness_weight: 0.2  # Reward for smooth progression
+    improvement_weight: 0.5  # Reward for total improvement
+    
+    # Other fitness parameters
+    length_penalty_weight: 0.05  # Small penalty for overly long prompts
+    target_length: 100  # Target prompt length in words
+    include_reasoning: true
+    include_examples: false
+    n_examples: 3
+
+# Delphi configuration for evaluation
+delphi:
+  n_rounds: 3  # Number of Delphi rounds
+  n_experts: 5  # Number of experts per panel
+  expert_selection: "random"
+
+# Training configuration
+training:
+  valid_ratio: 0.3
+  validation_batch_size: 5  # Small batch for faster evolution
+
+# Processing configuration
+processing:
+  max_concurrent_mutations: 3
+  skip_existing: false
+
+# Data configuration
+data:
+  resolution_date: "2025-07-21"
+  
+  # Question sampling
+  sampling:
+    method: "evaluation"
+    
+  # Filter criteria
+  filters:
+    require_resolution: true
+
+# Seed prompts for mediator evolution
+evolution:
+  seed_prompts:
+    - "Analyze expert forecasts systematically. Identify areas of disagreement and guide experts toward better calibration through constructive feedback."
+    - "Review predictions for consistency and logical coherence. Highlight overlooked factors and encourage experts to refine their probability estimates."
+    - "Synthesize expert opinions by finding common ground. Address divergent views and facilitate convergence through targeted questions."
+    - "Examine forecasts for potential biases and overconfidence. Provide balanced feedback that promotes more accurate probability assessments."
+    - "Guide experts toward improved predictions by identifying weak reasoning. Encourage consideration of base rates and alternative scenarios."
+    - "Facilitate productive discussion by highlighting key uncertainties. Help experts calibrate their confidence levels appropriately."
+    - "Analyze the distribution of predictions and identify outliers. Encourage experts to justify extreme positions or moderate their estimates."
+    - "Promote iterative refinement by providing structured feedback on reasoning quality. Focus on improving forecast accuracy across rounds."

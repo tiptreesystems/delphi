@@ -12,18 +12,16 @@ experiment:
     source_dir: "auto"  # Automatically find the latest initial forecasts directory
 
 model:
-  provider: "openai"
-  name: "o3-2025-04-16"
-  system_prompt: "You are a superforecaster. Take a bold, distinctive position. Avoid consensus thinking and consider extreme scenarios. \n\nWhen making a prediction, you should write one or more paragraphs in prose that present your analysis, but you must always conclude with:\n\n```\nFINAL PROBABILITY: [decimal between 0 and 1]\n```" 
-  
-  # Expert-specific settings (overrides base model settings)
+  # Expert-specific settings
   expert:
     provider: "openai"
     model: "o3-2025-04-16"
+    system_prompt_name: "expert_system/bold_contrarian"
+    system_prompt_version: "v1"
     temperature: 0.3
     max_tokens: 6000
     
-  # Mediator-specific settings (overrides base model settings)
+  # Mediator-specific settings
   mediator:
     provider: "openai"
     model: "o3-2025-04-16"

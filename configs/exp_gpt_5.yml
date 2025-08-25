@@ -9,18 +9,16 @@ experiment:
 
 # Model configuration
 model:
-  provider: "openai"
-  name: "gpt-5-2025-08-07"
-  system_prompt: "You are a superforecaster. Take a bold, distinctive position. Avoid consensus thinking and consider extreme scenarios. \n\nWhen making a prediction, you should write one or more paragraphs in prose that present your analysis, but you must always conclude with:\n\n```\nFINAL PROBABILITY: [decimal between 0 and 1]\n```" 
-  
-  # Expert-specific settings (overrides base model settings)
+  # Expert-specific settings
   expert:
     provider: "openai"
     model: "gpt-5-2025-08-07"
+    system_prompt_name: "expert_system/bold_contrarian"
+    system_prompt_version: "v1"
     temperature: 0.3
     max_tokens: 6000
     
-  # Mediator-specific settings (overrides base model settings)
+  # Mediator-specific settings
   mediator:
     provider: "openai"
     model: "gpt-5-2025-08-07"
@@ -42,7 +40,6 @@ data:
   # Question sampling
   sampling:
     method: "evaluation"  # Special method for reusing
-
     
   # Filter criteria
   filters:
