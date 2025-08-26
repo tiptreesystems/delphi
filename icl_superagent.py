@@ -27,6 +27,7 @@ from icl_initial_forecasts import run_all_forecasts_with_examples, sample_questi
 
 import numpy as np
 import psutil
+import argparse
 
 def _is_debugpy_running(port=5679):
     """Check if debugpy is already listening on the given port."""
@@ -39,43 +40,14 @@ def _is_debugpy_running(port=5679):
             continue
     return False
 
-# if not _is_debugpy_running():
-#     import debugpy
-#     print("Waiting for debugger attach...")
-#     debugpy.listen(5679)
-#     debugpy.wait_for_client()
-#     print("Debugger attached.")
-# # Set all random seeds for reproducibility
+if not _is_debugpy_running():
+    import debugpy
+    print("Waiting for debugger attach...")
+    debugpy.listen(5679)
+    debugpy.wait_for_client()
+    print("Debugger attached.")
+# Set all random seeds for reproducibility
 
-SEED = 42
-random.seed(SEED)
-np.random.seed(SEED)
-os.environ["PYTHONHASHSEED"] = str(SEED)
-
-config_path = '/home/williaar/projects/delphi/configs/test_configs/icl_delphi_test_set.yml'
-config = load_config(config_path)
-
-provider = LLMProvider.OPENAI
-model = LLMModel.GPT_4O_2024_05_13
-personalized_system_prompt = "You are a helpful assistant with expertise in forecasting and decision-making."
-
-openai_key = os.getenv("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = openai_key
-
-llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
-
-# get questions that have a topic
-loader = ForecastDataLoader()
-questions_with_topic = loader.get_questions_with_topics()
-
-forecast_due_date = "2024-07-21"
-selected_resolution_date = '2025-07-21'
-
-n_rounds = 3
-
-previous_forecasts_path = "outputs_initial_forecasts_flexible_retry_test_set"
-
-output_dir = 'outputs_superagent_delphi_forecasts_flexible_retry_test_set'
 
 
 _NUMBER_RE = re.compile(r"""
@@ -189,7 +161,7 @@ def load_llm_forecasts_from_pickle(sampled_questions, with_examples: bool = True
     return loaded_llmcasts
 
 
-def get_initial_super_forecasts(selected_resolution_date, questions, examples_flattened_per_question):
+def get_initial_super_forecasts(selected_resolution_date, questions, qid_to_examples):
 
     # Try to load forecasts from file if they exist, otherwise run and save them
     forecasts_file = os.path.join(output_dir, f"superagent_initial_forecasts_{selected_resolution_date}.pkl")
@@ -204,7 +176,7 @@ def get_initial_super_forecasts(selected_resolution_date, questions, examples_fl
 
     forecasts = asyncio.run(run_all_forecasts_single_forecaster_with_per_question_examples(
         sampled_questions=questions,
-        qid_to_examples=examples_flattened_per_question,
+        qid_to_examples=qid_to_examples,
         selected_resolution_date=selected_resolution_date,
     ))
 
@@ -215,6 +187,42 @@ def get_initial_super_forecasts(selected_resolution_date, questions, examples_fl
     return forecasts
 
 if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description="Run Delphi ICL Superagent")
+    parser.add_argument("config", type=str,
+                        help="Path to the config YAML file")
+    args = parser.parse_args()
+    config_path = args.config
+    config = load_config(config_path)
+
+    SEED = config['seed']
+    random.seed(SEED)
+    np.random.seed(SEED)
+    os.environ["PYTHONHASHSEED"] = str(SEED)
+
+
+    provider = config['model']['provider']
+    model = config['model']['name']
+    personalized_system_prompt = config['model']['system_prompt']
+
+    openai_key = os.getenv("OPENAI_API_KEY")
+    os.environ["OPENAI_API_KEY"] = openai_key
+
+    llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
+
+    # get questions that have a topic
+    loader = ForecastDataLoader()
+
+    forecast_due_date = config['forecast_due_date']
+    selected_resolution_date = config['selected_resolution_date']
+
+    n_rounds = config['n_rounds']
+    n_experts = config['n_experts']
+
+    previous_forecasts_path = config['initial_forecasts_path']
+
+    output_dir = 'outputs_superagent_delphi_forecasts_flexible_retry_test_set_o3'
+    output_dir = os.path.join(output_dir, f"seed_{SEED}")
 
     # Load initial forecasts from files
     questions, llmcasts_by_qid_sfid, examples_used_by_qid_sfid = load_forecasts_with_examples()
@@ -230,38 +238,47 @@ if __name__ == "__main__":
         examples_used = examples_used_by_qid_sfid.get(question.id, {})
 
         # Each superforecaster gets their own expert instance
-        experts = {sfid: Expert(llm, config=config.get('model', {})) for sfid in llmcasts_by_sfid.keys()}
 
         # Populate the experts with their initial forecasts
         # We take the median of the sample forecasts for each superforecaster
 
-        # Take 5 random superforecasters if more than 5
-        if len(experts) > 5:
-            selected_sfs = random.Random(SEED).sample(list(experts.keys()), 5)
-            experts = {sfid: experts[sfid] for sfid in selected_sfs}
+        # Take n_experts random superforecasters if more than n_experts
+        if len(llmcasts_by_sfid.keys()) > n_experts:
+            selected_sfs = random.Random(SEED).sample(list(llmcasts_by_sfid.keys()), n_experts)
             examples_used = {sfid: examples_used.get(sfid, []) for sfid in selected_sfs}
 
-        print(f"Running Delphi for question {question.id} with {len(experts)} experts")
+        print(f"Running Superagent for question {question.id}")
 
         # Flatten all examples used across all superforecasters for this question, dedupe by question_id
+
+        example_objects_by_sfid = {}
+
+        for sfid in examples_used.keys():
+            example_ids = examples_used[sfid][0]
+            example_questions = [loader.get_question(id) for id in example_ids]
+            example_forecasts = [loader.get_super_forecasts(
+                question_id=qid, resolution_date=selected_resolution_date, user_id=sfid)[0] for qid in example_ids]
+
+            zipped_examples = list(zip(example_questions, example_forecasts))
+            example_objects_by_sfid[sfid] = zipped_examples
+
+        # Flatten all examples used across all superforecasters for this question
         all_examples = []
-        for sf_examples in examples_used.values():
-            for ex_list in sf_examples:
-                all_examples.extend(ex_list)
+        for sfid, examples in example_objects_by_sfid.items():
+            all_examples.extend(examples)
+
         # Deduplicate by question_id
+        deduped_examples =[]
         seen_qids = set()
-        examples_used_flattened = []
         for ex in all_examples:
             qid = ex[0].id
             if qid and qid not in seen_qids:
                 seen_qids.add(qid)
-            examples_used_flattened.append(ex)
+            deduped_examples.append(ex)
 
-        examples_flattened_per_question[question.id] = examples_used_flattened
+        examples_flattened_per_question[question.id] = deduped_examples
 
-    del experts
-
-    forecasts = get_initial_super_forecasts(selected_resolution_date, questions, examples_flattened_per_question)
+    forecasts = get_initial_super_forecasts(selected_resolution_date, questions, qid_to_examples=examples_flattened_per_question)
 
     for question in questions:
 
