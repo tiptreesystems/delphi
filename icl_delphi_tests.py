@@ -30,6 +30,7 @@ import psutil
 import sys
 import argparse
 import debugpy
+from pathlib import Path
 
 def _is_debugpy_running(port=5679):
     """Check if debugpy is already listening on the given port."""
@@ -124,7 +125,6 @@ def load_forecasts_no_examples():
     return questions, llmcasts_by_qid
 
 def load_forecasts_with_examples():
-    # sampled_questions = sample_questions_by_topic(questions_with_topic, n_per_topic=3)
 
     question_ids = config.get("question_ids", None)
 
@@ -197,32 +197,81 @@ def load_llm_forecasts_from_pickle(sampled_questions, with_examples: bool = True
             loaded_llmcasts[qid] = [q for q in pickle.load(f)]
     return loaded_llmcasts
 
+def convert_pkl_to_json(pkl_path: str, json_path: str) -> None:
+    """
+    Convert a pickle file containing a list of dicts into a JSON file.
+    For the 'examples_used' key, only keep the Question.id values.
+
+    Parameters
+    ----------
+    pkl_path : str
+        Path to the pickle file.
+    json_path : str
+        Path to save the JSON file.
+    """
+    # Load pickle
+    with open(pkl_path, "rb") as f:
+        data = pickle.load(f)
+
+    # Transform
+    converted = []
+    for entry in data:
+        new_entry = entry.copy()
+        if "examples_used" in new_entry:
+            # Replace list of (Question, Forecast) tuples with list of Question.id
+            new_entry["examples_used"] = [
+                q.id for (q, _forecast) in new_entry["examples_used"]
+            ]
+        converted.append(new_entry)
+
+    # Save as JSON
+    with open(json_path, "w") as f:
+        json.dump(converted, f, indent=2)
+
+
+
+def batch_convert_pickles(input_dir: str, output_dir: str) -> None:
+    """
+    Convert all pickle files in a directory to JSON using convert_pkl_to_json.
+    Saves outputs into a parallel directory.
+
+    Parameters
+    ----------
+    input_dir : str
+        Directory containing .pkl files.
+    output_dir : str
+        Directory to save converted .json files.
+    """
+    input_path = Path(input_dir)
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    for pkl_file in input_path.glob("*.pkl"):
+        json_file = output_path / (pkl_file.stem + ".json")
+        convert_pkl_to_json(str(pkl_file), str(json_file))
+        print(f"Converted {pkl_file.name} -> {json_file.name}")
+
 
 
 if __name__ == "__main__":
 
-
-
     parser = argparse.ArgumentParser(description="Run Delphi ICL tests.")
-    parser.add_argument("--config", type=str, default="/home/williaar/projects/delphi/configs/test_configs/icl_delphi_test_set.yml",
-                        help="Path to the config YAML file.")
+    parser.add_argument("config", type=str, help="Path to the config YAML file.")
     args = parser.parse_args()
 
     config_path = args.config
     config = load_config(config_path)
 
-    provider = LLMProvider.OPENAI
-    model = LLMModel.GPT_4O_2024_05_13
-    personalized_system_prompt = "You are a helpful assistant with expertise in forecasting and decision-making."
+    provider = config['model']['provider']
+    model = config['model']['name']
+    personalized_system_prompt = config['model']['system_prompt']
+    llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
 
     openai_key = os.getenv("OPENAI_API_KEY")
     os.environ["OPENAI_API_KEY"] = openai_key
 
-    llm = LLMFactory.create_llm(provider, model, system_prompt=personalized_system_prompt)
-
     # get questions that have a topic
     loader = ForecastDataLoader()
-    questions_with_topic = loader.get_questions_with_topics()
 
     forecast_due_date = config.get("forecast_due_date", "2024-07-21")
     selected_resolution_date = config.get("selected_resolution_date", "2025-07-21")
@@ -240,7 +289,7 @@ if __name__ == "__main__":
     initial_forecast_path = os.path.join(initial_forecasts_path, f"{SEED}")
 
     output_dir = config.get("output_dir", "outputs_initial_delphi_flexible_retry")
-    output_dir = os.path.join(output_dir, f"{SEED}")
+    output_dir = os.path.join(output_dir, f"seed_{SEED}")
 
     # Load initial forecasts from files
     questions, llmcasts_by_qid_sfid, examples_used_by_qid_sfid = load_forecasts_with_examples()
