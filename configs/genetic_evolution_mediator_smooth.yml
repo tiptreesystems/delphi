@@ -31,13 +31,13 @@ model:
   learner:
     provider: "groq"
     model: "openai/gpt-oss-20b"
-    temperature: 0.7
+    temperature: 0.2
     max_tokens: 6000
 
 # Genetic evolution configuration
 evolution:
   population_size: 8
-  max_generations: 20
+  max_generations: 3
   elitism_size: 2
   tournament_size: 3
   initial_mutation_rate: 0.5
@@ -60,6 +60,17 @@ evolution:
     include_reasoning: true
     include_examples: false
     n_examples: 3
+    
+  # Seed prompts for mediator evolution
+  seed_prompts:
+    - "Analyze expert forecasts systematically. Identify areas of disagreement and guide experts toward better calibration through constructive feedback."
+    - "Review predictions for consistency and logical coherence. Highlight overlooked factors and encourage experts to refine their probability estimates."
+    - "Synthesize expert opinions by finding common ground. Address divergent views and facilitate convergence through targeted questions."
+    - "Examine forecasts for potential biases and overconfidence. Provide balanced feedback that promotes more accurate probability assessments."
+    - "Guide experts toward improved predictions by identifying weak reasoning. Encourage consideration of base rates and alternative scenarios."
+    - "Facilitate productive discussion by highlighting key uncertainties. Help experts calibrate their confidence levels appropriately."
+    - "Analyze the distribution of predictions and identify outliers. Encourage experts to justify extreme positions or moderate their estimates."
+    - "Promote iterative refinement by providing structured feedback on reasoning quality. Focus on improving forecast accuracy across rounds."
 
 # Delphi configuration for evaluation
 delphi:
@@ -70,7 +81,7 @@ delphi:
 # Training configuration
 training:
   valid_ratio: 0.3
-  validation_batch_size: 5  # Small batch for faster evolution
+  validation_batch_size: 3  # Small batch for faster evolution
 
 # Processing configuration
 processing:
@@ -83,20 +94,15 @@ data:
   
   # Question sampling
   sampling:
-    method: "evaluation"
+    method: "train"
     
   # Filter criteria
   filters:
     require_resolution: true
 
-# Seed prompts for mediator evolution
-evolution:
-  seed_prompts:
-    - "Analyze expert forecasts systematically. Identify areas of disagreement and guide experts toward better calibration through constructive feedback."
-    - "Review predictions for consistency and logical coherence. Highlight overlooked factors and encourage experts to refine their probability estimates."
-    - "Synthesize expert opinions by finding common ground. Address divergent views and facilitate convergence through targeted questions."
-    - "Examine forecasts for potential biases and overconfidence. Provide balanced feedback that promotes more accurate probability assessments."
-    - "Guide experts toward improved predictions by identifying weak reasoning. Encourage consideration of base rates and alternative scenarios."
-    - "Facilitate productive discussion by highlighting key uncertainties. Help experts calibrate their confidence levels appropriately."
-    - "Analyze the distribution of predictions and identify outliers. Encourage experts to justify extreme positions or moderate their estimates."
-    - "Promote iterative refinement by providing structured feedback on reasoning quality. Focus on improving forecast accuracy across rounds."
+
+output:
+  save:
+    conversation_histories: false
+    example_pairs: false
+  file_pattern: "genetic_mediator_{question_id}_{resolution_date}.json"

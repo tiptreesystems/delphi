@@ -48,7 +48,8 @@ class GeneticPromptOptimizer:
         population_config: Optional[Dict[str, Any]] = None,
         fitness_config: Optional[FitnessConfig] = None,
         log_dir: Optional[str] = None,
-        max_concurrent_mutations: int = 5
+        max_concurrent_mutations: int = 5,
+        component_type: str = 'expert'
     ):
         """
         Initialize the genetic prompt optimizer.
@@ -59,16 +60,19 @@ class GeneticPromptOptimizer:
             fitness_config: Configuration for fitness evaluation
             log_dir: Directory for logging results
             max_concurrent_mutations: Maximum concurrent mutations per generation
+            component_type: Type of component being optimized ('expert' or 'mediator')
         """
         self.llm = llm
         self.fitness_config = fitness_config or FitnessConfig()
         self.max_concurrent_mutations = max_concurrent_mutations
+        self.component_type = component_type
         
         # Initialize population with default config
         pop_config = population_config or {}
         self.population = PromptPopulation(**pop_config)
-        # Pass concurrency setting to population
+        # Pass concurrency setting and component type to population
         self.population.max_concurrent_mutations = max_concurrent_mutations
+        self.population.component_type = component_type
         
         # Logging setup
         self.log_dir = Path(log_dir) if log_dir else Path("genetic_evolution_logs")
@@ -143,8 +147,12 @@ class GeneticPromptOptimizer:
             prompts: Raw prompt texts
             
         Returns:
-            Enhanced prompts with superforecaster context
+            Enhanced prompts with superforecaster context (only for expert prompts)
         """
+        # Don't enhance mediator prompts with superforecaster context
+        if self.component_type == 'mediator':
+            return prompts
+            
         if not self.fitness_config.superforecaster_manager:
             return prompts
         
@@ -204,7 +212,6 @@ class GeneticPromptOptimizer:
             enhanced_prompts = self.prepare_prompts_for_evaluation(current_prompts)
             
             # Evaluate fitness
-            breakpoint()
             base_fitness_scores = await self.evaluation_function(enhanced_prompts, validation_batch)
        
             # Apply length penalties

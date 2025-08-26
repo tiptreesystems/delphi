@@ -116,6 +116,7 @@ def finalize_delphi_log(delphi_log: Dict, config: Dict, mediator, experts: Dict,
     Returns:
         Updated Delphi log with optional additions
     """
+    
     if config['output']['save']['conversation_histories']:
         delphi_log["histories"] = {
             "mediator": list(mediator.conversation_manager.messages),

@@ -28,6 +28,7 @@ class Mediator:
         prompt_version = self.config.get("system_prompt_version", "v1")
         print(f"Loading system prompt: {prompt_name} {prompt_version}")
         self.system_prompt = load_prompt(prompt_name, prompt_version)
+        print(f"  Loaded prompt first 100 chars: {self.system_prompt[:100]}...")
         self.max_tokens = self.config.get("feedback_max_tokens", 800)
         self.temperature = self.config.get("feedback_temperature", 0.2)
 

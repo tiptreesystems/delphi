@@ -106,7 +106,8 @@ class GeneticEvolutionPipeline:
             population_config=population_config,
             fitness_config=fitness_config_obj,
             log_dir=str(self.output_dir),
-            max_concurrent_mutations=self.max_concurrent_mutations
+            max_concurrent_mutations=self.max_concurrent_mutations,
+            component_type=self.optimize_component
         )
         
         # Results storage
@@ -165,8 +166,6 @@ Now apply these strategies to the following question:
         Creates temporary prompt files and uses existing prompt version system.
         """
         from delphi_runner import initialize_experts, run_delphi_rounds, select_experts
-        import tempfile
-        import os
         
         resolution_date = self.config['data']['resolution_date']
         fitness_scores = []
@@ -177,6 +176,10 @@ Now apply these strategies to the following question:
         
         for i, prompt in enumerate(prompts):
             print(f"  Evaluating prompt {i+1}/{len(prompts)} via Delphi: {prompt[:50]}...")
+            
+            # Debug: Check if base config has mediator with provider
+            if i == 0:  # Only print once
+                print(f"DEBUG: Base config mediator keys: {list(self.config.get('model', {}).get('mediator', {}).keys())}")
             
             # Create temporary prompt file for this evolved prompt
             temp_prompt_id = f"evolved_{i}"
@@ -189,145 +192,155 @@ Now apply these strategies to the following question:
             
             # Test prompt on each validation question using full Delphi
             for question in validation_batch:
-                try:
-                    # Create config that uses the evolved prompt
-                    eval_config = {
-                        **self.config,
-                        'delphi': {
-                            **self.config.get('delphi', {}),
-                            'n_rounds': 2,  # Shorter for faster evaluation
-                            'n_experts': min(3, self.config.get('delphi', {}).get('n_experts', 5))
+                # Create config that uses the evolved prompt
+                eval_config = {
+                    **self.config,
+                    'delphi': {
+                        **self.config.get('delphi', {}),
+                        'n_rounds': 2,  # Shorter for faster evaluation
+                        'n_experts': min(3, self.config.get('delphi', {}).get('n_experts', 5))
+                    }
+                }
+                
+                # Ensure model config has provider and name for backward compatibility
+                if 'provider' not in eval_config['model']:
+                    # Use mediator's provider as default (since we're optimizing mediator)
+                    if 'mediator' in eval_config['model'] and 'provider' in eval_config['model']['mediator']:
+                        eval_config['model']['provider'] = eval_config['model']['mediator']['provider']
+                        eval_config['model']['name'] = eval_config['model']['mediator'].get('model', '')
+                    elif 'expert' in eval_config['model'] and 'provider' in eval_config['model']['expert']:
+                        eval_config['model']['provider'] = eval_config['model']['expert']['provider']
+                        eval_config['model']['name'] = eval_config['model']['expert'].get('model', '')
+                
+                # Configure which component uses the evolved prompt
+                if self.optimize_component == 'expert':
+                    eval_config['model'] = {
+                        **eval_config['model'],
+                        'expert': {
+                            **eval_config['model'].get('expert', {}),
+                            'system_prompt_name': f'expert_system/{temp_prompt_id}',
+                            'system_prompt_version': 'v1'
                         }
                     }
-                    
-                    # Configure which component uses the evolved prompt
-                    if self.optimize_component == 'expert':
-                        eval_config['model'] = {
-                            **eval_config['model'],
-                            'expert': {
-                                **eval_config['model'].get('expert', {}),
-                                'system_prompt_name': f'expert_system/{temp_prompt_id}',
-                                'system_prompt_version': 'v1'
-                            }
+                elif self.optimize_component == 'mediator':
+                    # Ensure mediator config has all required fields
+                    existing_mediator = eval_config['model'].get('mediator', {})
+                    eval_config['model'] = {
+                        **eval_config['model'],
+                        'mediator': {
+                            **existing_mediator,
+                            'system_prompt_name': temp_prompt_id,
+                            'system_prompt_version': 'md'
                         }
-                    elif self.optimize_component == 'mediator':
-                        eval_config['model'] = {
-                            **eval_config['model'],
-                            'mediator': {
-                                **eval_config['model'].get('mediator', {}),
-                                'system_prompt_name': temp_prompt_id,
-                                'system_prompt_version': 'md'
-                            }
+                    }
+                    # Debug: verify mediator config has provider
+                    if 'provider' not in eval_config['model']['mediator']:
+                        print(f"WARNING: mediator config missing provider. Config keys: {list(eval_config['model']['mediator'].keys())}")
+                        print(f"Full mediator config: {eval_config['model']['mediator']}")
+                else:  # both
+                    eval_config['model'] = {
+                        **eval_config['model'],
+                        'expert': {
+                            **eval_config['model'].get('expert', {}),
+                            'system_prompt_name': f'expert_system/{temp_prompt_id}',
+                            'system_prompt_version': 'v1'
+                        },
+                        'mediator': {
+                            **eval_config['model'].get('mediator', {}),
+                            'system_prompt_name': temp_prompt_id,
+                            'system_prompt_version': 'md'
                         }
-                    else:  # both
-                        eval_config['model'] = {
-                            **eval_config['model'],
-                            'expert': {
-                                **eval_config['model'].get('expert', {}),
-                                'system_prompt_name': f'expert_system/{temp_prompt_id}',
-                                'system_prompt_version': 'v1'
-                            },
-                            'mediator': {
-                                **eval_config['model'].get('mediator', {}),
-                                'system_prompt_name': temp_prompt_id,
-                                'system_prompt_version': 'md'
-                            }
-                        }
-                    
-                    # Load real initial forecasts for this question if available
-                    initial_forecasts_path = self.config['experiment']['initial_forecasts_dir']
-                    
-                    # Try to load existing forecasts
-                    from utils.forecast_loader import load_pickled_forecasts
-                    _, llmcasts_by_qid_sfid, _ = load_pickled_forecasts(
-                        initial_forecasts_path, resolution_date, self.loader
-                    )
-                    
-                    # Get forecasts for this specific question
-                    llmcasts_for_question = llmcasts_by_qid_sfid.get(question.id, {})
-                    
-                    if llmcasts_for_question:
-                        # Use real forecasts but limit to evaluation size
-                        limited_llmcasts = {}
-                        for sfid, forecasts in list(llmcasts_for_question.items())[:eval_config['delphi']['n_experts']]:
-                            limited_llmcasts[sfid] = forecasts
-                        llmcasts_by_sfid = limited_llmcasts
-                    else:
-                        # No existing forecasts - generate minimal ones for evaluation
-                        print(f"    No existing forecasts found, generating minimal ones for evaluation")
-                        llmcasts_by_sfid = await self._generate_minimal_forecasts(question, eval_config)
+                    }
                 
-                    
-                    # Initialize experts and run Delphi with evolved prompts
-                    llm = get_llm_from_config(eval_config, role='expert')
-                    experts = initialize_experts(llmcasts_by_sfid, eval_config, llm)
-                    experts = select_experts(experts, eval_config)
+                # Load real initial forecasts for this question if available
+                initial_forecasts_path = self.config['experiment']['initial_forecasts_dir']
+                
+                # Try to load existing forecasts
+                from utils.forecast_loader import load_pickled_forecasts
+                _, llmcasts_by_qid_sfid, _ = load_pickled_forecasts(
+                    initial_forecasts_path, resolution_date, self.loader
+                )
+                
+                # Get forecasts for this specific question
+                llmcasts_for_question = llmcasts_by_qid_sfid.get(question.id, {})
+                
+                if llmcasts_for_question:
+                    # Use real forecasts but limit to evaluation size
+                    limited_llmcasts = {}
+                    for sfid, forecasts in list(llmcasts_for_question.items())[:eval_config['delphi']['n_experts']]:
+                        limited_llmcasts[sfid] = forecasts
+                    llmcasts_by_sfid = limited_llmcasts
+                else:
+                    # No existing forecasts - generate minimal ones for evaluation
+                    print(f"    No existing forecasts found, generating minimal ones for evaluation")
+                    llmcasts_by_sfid = await self._generate_minimal_forecasts(question, eval_config)
+            
+                
+                # Initialize experts and run Delphi with evolved prompts
+                llm = get_llm_from_config(eval_config, role='expert')
+                experts = initialize_experts(llmcasts_by_sfid, eval_config, llm)
+                experts = select_experts(experts, eval_config)
 
-                    # Run Delphi rounds with evolved prompt configuration
-                    delphi_log = await run_delphi_rounds(question, experts, eval_config, {})
+                # Run Delphi rounds with evolved prompt configuration
+                delphi_log = await run_delphi_rounds(question, experts, eval_config, {})
+                
+                # Get ground truth
+                resolution = self.loader.get_resolution(question.id, resolution_date)
+                if resolution and resolution.resolved:
+                    actual_outcome = resolution.resolved_to
                     
-                    # Get ground truth
-                    resolution = self.loader.get_resolution(question.id, resolution_date)
-                    if resolution and resolution.resolved:
-                        actual_outcome = resolution.resolved_to
+                    if self.use_smooth_improvement:
+                        # Use smooth improvement fitness
+                        fitness_score, metrics = evaluate_prompt_smooth_improvement(delphi_log, actual_outcome)
                         
-                        if self.use_smooth_improvement:
-                            # Use smooth improvement fitness
-                            fitness_score, metrics = evaluate_prompt_smooth_improvement(delphi_log, actual_outcome)
-                            
-                            print(f"      Q{question.id[:8]}: improvement={metrics['total_improvement']:.3f}, "
-                                  f"variance={metrics['improvement_variance']:.3f}, smoothness={metrics['smoothness']:.3f}, "
-                                  f"fitness={fitness_score:.4f}")
-                            
-                            # Create trace with improvement details
-                            rounds_trace = []
-                            for i, (brier, imp) in enumerate(zip(metrics['median_briers_by_round'], 
-                                                                 [0] + metrics['improvements_by_round'])):
-                                rounds_trace.append(f"R{i+1}: Brier={brier:.3f}, Δ={imp:+.3f}")
-                            
-                            prompt_traces.append(
-                                f"Question: {question.question[:60]}...\n"
-                                f"Rounds: {' → '.join(rounds_trace)}\n"
-                                f"Total Improvement: {metrics['total_improvement']:.3f}, "
-                                f"Smoothness: {metrics['smoothness']:.3f}"
-                            )
-                        else:
-                            # Original fitness calculation
-                            final_round = delphi_log['rounds'][-1]
-                            final_probs = [expert['prob'] for expert in final_round['experts'].values()]
-                            pred_prob = np.median(final_probs)
-                            
-                            # Calculate Brier score (lower is better, so we negate it for fitness)
-                            brier_score = (pred_prob - actual_outcome) ** 2
-                            fitness_score = 1.0 - brier_score  # Convert to fitness (higher is better)
-                            
-                            print(f"      Q{question.id[:8]}: pred={pred_prob:.3f}, actual={actual_outcome:.1f}, brier={brier_score:.4f}, fitness={fitness_score:.4f}")
-                            
-                            # Create trace
-                            rounds_trace = []
-                            for round_data in delphi_log['rounds']:
-                                round_probs = [exp['prob'] for exp in round_data['experts'].values()]
-                                rounds_trace.append(f"Round {round_data['round']}: {np.median(round_probs):.3f}")
-                            
-                            prompt_traces.append(
-                                f"Question: {question.question[:60]}...\n"
-                                f"Rounds: {' → '.join(rounds_trace)}\n"
-                                f"Final: {pred_prob:.3f} vs Actual: {actual_outcome:.3f} (Brier: {brier_score:.3f})"
-                            )
+                        print(f"      Q{question.id[:8]}: improvement={metrics['total_improvement']:.3f}, "
+                                f"variance={metrics['improvement_variance']:.3f}, smoothness={metrics['smoothness']:.3f}, "
+                                f"fitness={fitness_score:.4f}")
                         
-                        total_score += fitness_score
-                        valid_predictions += 1
+                        # Create trace with improvement details
+                        rounds_trace = []
+                        for i, (brier, imp) in enumerate(zip(metrics['median_briers_by_round'], 
+                                                                [0] + metrics['improvements_by_round'])):
+                            rounds_trace.append(f"R{i+1}: Brier={brier:.3f}, Δ={imp:+.3f}")
                         
-                        # Track for summary
+                        prompt_traces.append(
+                            f"Question: {question.question[:60]}...\n"
+                            f"Rounds: {' → '.join(rounds_trace)}\n"
+                            f"Total Improvement: {metrics['total_improvement']:.3f}, "
+                            f"Smoothness: {metrics['smoothness']:.3f}"
+                        )
+                    else:
+                        # Original fitness calculation
                         final_round = delphi_log['rounds'][-1]
                         final_probs = [expert['prob'] for expert in final_round['experts'].values()]
                         pred_prob = np.median(final_probs)
-                        abs_errors.append(abs(pred_prob - actual_outcome))
-                            
-                except Exception as e:
-                    print(f"    Error evaluating question {question.id}: {e}")
-                    continue
-            
+                        
+                        # Calculate Brier score (lower is better, so we negate it for fitness)
+                        brier_score = (pred_prob - actual_outcome) ** 2
+                        fitness_score = 1.0 - brier_score  # Convert to fitness (higher is better)
+                        
+                        print(f"      Q{question.id[:8]}: pred={pred_prob:.3f}, actual={actual_outcome:.1f}, brier={brier_score:.4f}, fitness={fitness_score:.4f}")
+                        
+                        # Create trace
+                        rounds_trace = []
+                        for round_data in delphi_log['rounds']:
+                            round_probs = [exp['prob'] for exp in round_data['experts'].values()]
+                            rounds_trace.append(f"Round {round_data['round']}: {np.median(round_probs):.3f}")
+                        
+                        prompt_traces.append(
+                            f"Question: {question.question[:60]}...\n"
+                            f"Rounds: {' → '.join(rounds_trace)}\n"
+                            f"Final: {pred_prob:.3f} vs Actual: {actual_outcome:.3f} (Brier: {brier_score:.3f})"
+                        )
+                    
+                    total_score += fitness_score
+                    valid_predictions += 1
+                    
+                    # Track for summary
+                    final_round = delphi_log['rounds'][-1]
+                    final_probs = [expert['prob'] for expert in final_round['experts'].values()]
+                    pred_prob = np.median(final_probs)
+                    abs_errors.append(abs(pred_prob - actual_outcome))
             # Clean up temporary prompt file
             self._cleanup_temp_prompt_file(temp_prompt_id)
             
@@ -385,7 +398,6 @@ Now apply these strategies to the following question:
         """Clean up temporary prompt file after evaluation."""
         from pathlib import Path
         import shutil
-        import os
         
         if self.optimize_component == 'expert' or self.optimize_component == 'both':
             temp_dir = Path(f"prompts/expert_system/{temp_id}")

@@ -242,7 +242,7 @@ class PromptPopulation:
             offspring = []
             for op in operations:
                 if op[0] == 'mutate':
-                    offspring.append(await mutate(op[1], llm=None))
+                    offspring.append(await mutate(op[1], llm=None, component_type=getattr(self, 'component_type', 'expert')))
                 else:
                     offspring.append(crossover(op[1], op[2]))
         
@@ -270,7 +270,7 @@ class PromptPopulation:
             if op[0] == 'mutate':
                 # Create mutation task
                 parent = op[1]
-                task = mutate(parent, llm=llm)
+                task = mutate(parent, llm=llm, component_type=getattr(self, 'component_type', 'expert'))
                 mutation_tasks.append(task)
             else:
                 # Execute crossover immediately (no LLM needed)

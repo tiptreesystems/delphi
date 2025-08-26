@@ -83,23 +83,30 @@ def single_point_crossover(parent1: PromptCandidate, parent2: PromptCandidate) -
     return child
 
 
-async def mutate(candidate: PromptCandidate, llm: BaseLLM) -> PromptCandidate:
+async def mutate(candidate: PromptCandidate, llm: BaseLLM, component_type: str = 'expert') -> PromptCandidate:
     """
     Mutate a prompt candidate using LLM-based mutations.
     
     Args:
         candidate: The prompt candidate to mutate
         llm: Language model to use for mutations
+        component_type: Type of component being optimized ('expert' or 'mediator')
         
     Returns:
         Mutated prompt candidate
     """
+    # Select appropriate mutation prompt based on component type
+    if component_type == 'mediator':
+        prompt_prefix = 'mutation_mediator'
+    else:
+        prompt_prefix = 'mutation'
+    
     if candidate.reasoning_traces or candidate.performance_summary:
         traces_text = "\n\n".join((candidate.reasoning_traces or [])[:3])
         perf_text = candidate.performance_summary or ""
         mutation_prompt = load_prompt(
             'genetic_evolution',
-            'mutation_with_context',
+            f'{prompt_prefix}_with_context',
             current_prompt=candidate.text,
             performance_summary=perf_text,
             reasoning_traces=traces_text
@@ -108,7 +115,7 @@ async def mutate(candidate: PromptCandidate, llm: BaseLLM) -> PromptCandidate:
         mutation_type = random.choice(['rephrase', 'add_detail', 'simplify', 'change_focus'])
         mutation_prompt = load_prompt(
             'genetic_evolution',
-            'mutation_basic',
+            f'{prompt_prefix}_basic',
             current_prompt=candidate.text,
             mutation_type=mutation_type
         )

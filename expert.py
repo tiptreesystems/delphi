@@ -9,7 +9,6 @@ from utils.prompt_loader import load_prompt
 class Expert:
     def __init__(self, llm: BaseLLM, user_profile: Optional[dict] = None, config: Optional[dict] = None):
         self.llm = llm
-        print(f"Expert initialized with: {llm.system_prompt}")
         self.user_profile = user_profile
         self.config = config or {}
         self.conversation_manager = ConversationManager(llm)
