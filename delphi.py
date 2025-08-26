@@ -38,7 +38,7 @@ Return the completed table and answers. Your identity will be anonymized; only a
 Be concise and to the point.
 """
 
-MAX_TOKENS = 1000
+MAX_TOKENS = 8192
 
 _NUMBER_RE = re.compile(r"""
     final \s* probability
@@ -77,6 +77,9 @@ class Expert:
         self.user_profile = user_profile
         self.config = config or {}
         self.conversation_manager = ConversationManager(llm)
+        self.system_prompt = "You are a superforecaster. Take a bold, distinctive position. Avoid consensus thinking and consider extreme scenarios. \n\nWhen making a prediction, you should write one or more paragraphs in prose that present your analysis, but you must always conclude with:\n\n```\nFINAL PROBABILITY: [decimal between 0 and 1]\n```"
+        if not any(m["role"] == "system" for m in self.conversation_manager.messages):
+            self.conversation_manager.add_message(role="system", content=self.system_prompt)
 
     async def forecast(self, question: Question, conditioning_forecast: Optional[Forecast] = None) -> float:
 
@@ -100,7 +103,10 @@ class Expert:
         )
         temperature = self.config.get('temperature', 0.3)
         self.conversation_manager.messages.clear()
-        response = await self.conversation_manager.generate_response(prompt, max_tokens=MAX_TOKENS, temperature=temperature)
+        if 'o3' in self.llm.model:
+            response = await self.conversation_manager.generate_response(prompt, max_completion_tokens=MAX_TOKENS)
+        else:
+            response = await self.conversation_manager.generate_response(prompt, max_tokens=MAX_TOKENS, temperature=temperature)
         response = response.strip()
 
         prob = _extract_prob(response)
@@ -137,7 +143,10 @@ class Expert:
 
         temperature = self.config.get('temperature', 0.3)
         self.conversation_manager.messages.clear()
-        response = await self.conversation_manager.generate_response(prompt, max_tokens=MAX_TOKENS, temperature=temperature)
+        if 'o3' in self.llm.model:
+            response = await self.conversation_manager.generate_response(prompt, max_completion_tokens=MAX_TOKENS)
+        else:
+            response = await self.conversation_manager.generate_response(prompt, max_tokens=MAX_TOKENS, temperature=temperature)
         response = response.strip()
 
         prob = _extract_prob(response)
@@ -195,7 +204,10 @@ class Expert:
         """Get a response without clearing the conversation, used after feedback."""
         if not self.conversation_manager.messages:
             raise RuntimeError("No conversation history found. Cannot update forecast without prior context.")
-        response = await self.conversation_manager.generate_response(input_message, max_tokens=800, temperature=self.config.get('temperature', 0.3))
+        if 'o3' in self.llm.model:
+            response = await self.conversation_manager.generate_response(input_message, max_completion_tokens=MAX_TOKENS)
+        else:
+            response = await self.conversation_manager.generate_response(input_message, max_tokens=MAX_TOKENS, temperature=self.config.get('temperature', 0.3))
         response = response.strip()
         # Extract the last occurrence of "FINAL PROBABILITY:"
         matches = list(re.finditer(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', response, re.IGNORECASE))
@@ -235,7 +247,7 @@ class Mediator:
             "identify key cruxes, and suggest what evidence or reasoning would most change minds. "
             "Be concise and neutral."
         )
-        self.max_tokens = self.config.get("feedback_max_tokens", 800)
+        self.max_tokens = self.config.get("feedback_max_tokens", 8912)
         self.temperature = self.config.get("feedback_temperature", 0.2)
 
         # Local store of messages (expert_id -> text)
