@@ -52,9 +52,9 @@ debugpy.listen(5679)
 debugpy.wait_for_client()
 print("Debugger attached.")
 
-results_dir_with_examples = "outputs_initial_delphi_flexible_retry_test_set"
+results_dir_with_examples = "/home/williaar/projects/delphi/outputs_initial_delphi_flexible_retry_test_set_per_seed_o3/seed_1"
 results_dir_no_examples = "outputs_initial_delphi_flexible_retry_no_examples_test_set"
-super_agent_dir_with_examples = "outputs_superagent_delphi_forecasts_flexible_retry_test_set"
+super_agent_dir_with_examples = "/home/williaar/projects/delphi/outputs_superagent_delphi_forecasts_flexible_retry_test_set_o3/seed_1"
 results_dir_with_1_expert = "outputs_initial_delphi_flexible_retry_1_experts_test_set"
 results_dir_with_2_experts = "outputs_initial_delphi_flexible_retry_2_experts_test_set"
 results_dir_with_3_experts = "outputs_initial_delphi_flexible_retry_3_experts_test_set"
@@ -344,6 +344,7 @@ if __name__ == "__main__":
         (logs_with_examples_map[key], logs_no_examples_map[key], logs_super_agent_map[key], logs_one_expert_map[key], logs_two_experts_map[key], logs_three_experts_map[key], logs_ten_experts_map[key])
         for key in logs_with_examples_map.keys() & logs_no_examples_map.keys() & logs_super_agent_map.keys() & logs_one_expert_map.keys() & logs_two_experts_map.keys() & logs_three_experts_map.keys() & logs_ten_experts_map.keys()
     ]
+    print("number of matched logs:", len(matched_logs))
 
     # Storage for per-question outputs
     per_question_results: Dict[str, Dict[str, Any]] = {}
@@ -465,12 +466,13 @@ if __name__ == "__main__":
             },
         }
 
-        print(f"Results for question {question_id}:")
+        # print(f"Results for question {question_id}:")
         sf = per_question_results[question_id]["sf"]
-        llm = per_question_results[question_id]["llm"]["median_by_round"]
-        print(f"  superforecaster_prob: {sf['median_prob']}")
-        print(f"  superforecaster_brier: {sf['median_brier']}")
-        print(f"  llm_median_by_round_3: {json.dumps(llm_median_brier_by_round_with_examples[3], indent=2)}")
+        llm = per_question_results[question_id]["llm"]
+        # print(f"  superforecaster_prob: {sf['median_prob']}")
+        # print(f"  superforecaster_brier: {sf['median_brier']}")
+        # print(f"  superagent_by_round_3: {json.dumps(llm['median_by_round_superagent'][3], indent=2)}")
+        # print(f"  llm_median_by_round_3: {json.dumps(llm['median_by_round'][3], indent=2)}")
         # print(f"  llm_median_by_round_prob: {json.dumps(llm_median_prob_by_round_with_examples, indent=2)}")
 
     # 2) Aggregate across questions
