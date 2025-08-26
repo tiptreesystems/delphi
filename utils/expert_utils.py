@@ -44,9 +44,9 @@ def create_delphi_log(question, config: dict, seed: int, selected_resolution_dat
             "n_rounds": config['delphi']['n_rounds'],
             "n_experts": config['delphi']['n_experts'],
             "resolution_date": selected_resolution_date,
-            "model_provider": config['model']['provider'],
-            "model_name": config['model']['name'],
+            "expert_model_provider": config['model']['expert']['provider'],
             "expert_model_name": config['model']['expert']['model'],
+            "mediator_model_provider": config['model']['mediator']['provider'],
             "mediator_model_name": config['model']['mediator']['model']
         },
         "rounds": [],
