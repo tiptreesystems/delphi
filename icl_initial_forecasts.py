@@ -68,7 +68,7 @@ import openai
 import textwrap
 import matplotlib.pyplot as plt
 
-config_path = "/home/williaar/projects/delphi/configs/test_configs/icl_delphi_test_set.yml"
+config_path = "/home/williaar/projects/delphi/configs/test_configs/icl_delphi_test_set_o3.yml"
 config = load_config(config_path)
 
 resolutions_path = "/home/williaar/projects/delphi/dataset/datasets/resolution_sets/2024-07-21_resolution_set.json"
@@ -79,13 +79,11 @@ random.seed(SEED)
 np.random.seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
+n_samples = config['n_samples']
 
-
-provider = LLMProvider.OPENAI
-model = LLMModel.GPT_4O_2024_05_13
-personalized_system_prompt = (
-    "You are a helpful assistant with expertise in forecasting and decision-making."
-)
+provider = config['model']['provider']
+model = config['model']['name']
+personalized_system_prompt = config['model']['system_prompt']
 
 openai_key = os.getenv("OPENAI_API_KEY")
 os.environ["OPENAI_API_KEY"] = openai_key
@@ -107,7 +105,7 @@ if not os.path.exists(initial_forecasts_path):
 if not os.path.exists(output_plots_dir):
     os.makedirs(output_plots_dir)
 
-n_samples = 5
+
 
 
 class SubjectType(str, Enum):
@@ -308,7 +306,7 @@ async def _run_specs(
                 "mode": "with_examples" if spec.examples else "no_examples",
                 "forecasts": [f for f in all_forecasts if f is not None],
                 "full_conversation": messages_per_sample,
-                "examples_used": spec.examples or [],
+                "examples_used": [q.id for q, _ in spec.examples] if spec.examples else []
             }
 
             return return_dict
@@ -445,7 +443,7 @@ async def run_all_forecasts_single_forecaster_with_per_question_examples(
     timeout_s: int = 300,
     retries: int = 5,
     base_backoff_s: int = 10,
-    n_samples: int = 5,
+    n_samples: int = n_samples,
     batch_size: int = 1,
     pattern: Optional[re.Pattern] = None,
 ) -> List[Dict[str, Any]]:
