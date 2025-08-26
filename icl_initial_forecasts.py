@@ -1,6 +1,7 @@
 import argparse
 import asyncio
 import copy
+import json
 import os
 import pickle
 import random
@@ -15,10 +16,20 @@ from dotenv import load_dotenv
 from analyze.utils import analyze_forecast_results
 from dataset.dataloader import Forecast, ForecastDataLoader, Question
 from expert import Expert
-from utils.forecast_loader import load_forecast_pickles
+# from utils.forecast_loader import load_forecast_pickles
+from utils.forecast_loader import load_forecast_jsons
 from utils.llm_config import get_llm_from_config
 from utils.sampling import sample_questions_by_topic
 from utils.utils import load_experiment_config
+
+from convert_pickles_to_json import convert_pkl_to_json, batch_convert_pickles
+
+import debugpy
+
+if not debugpy.is_client_connected():
+    debugpy.listen(("localhost", 5679))
+    print("Waiting for debugger attach...")
+    debugpy.wait_for_client()
 
 load_dotenv()
 
@@ -188,7 +199,7 @@ async def _run_specs(
                 "mode": "with_examples" if spec.examples else "no_examples",
                 "forecasts": forecasts,
                 "full_conversation": expert.conversation_manager.messages,
-                "examples_used": spec.examples or [],
+                "examples_used": [q.id for q, _ in spec.examples] if spec.examples else [],
             }
     return await asyncio.gather(*(_call_one(s) for s in specs), return_exceptions=True)
 
@@ -292,12 +303,19 @@ def generate_forecasts_for_questions(sampled_questions, selected_resolution_date
     print(sampled_questions)
     
     for q in sampled_questions:
+
+        json_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{q.id}.json'
+        json_path = os.path.join(initial_forecasts_path, json_filename)
+        if os.path.exists(json_path):
+            print(f"JSON for question {q.id} ({forecast_type}) already exists, skipping.")
+            continue
+
         pickle_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{q.id}.pkl'
         pickle_path = os.path.join(initial_forecasts_path, pickle_filename)
         
         if os.path.exists(pickle_path):
-            print(f"Pickle for question {q.id} ({forecast_type}) already exists, skipping.")
-            continue
+            print(f"Pickle for question {q.id} ({forecast_type}) already exists, converting to json.")
+            convert_pkl_to_json(pickle_path, json_path)
             
         print(f"Collecting {forecast_type} forecasts for question {q.id}...")
         
@@ -316,8 +334,8 @@ def generate_forecasts_for_questions(sampled_questions, selected_resolution_date
                 config=config
             ))
             
-        with open(pickle_path, 'wb') as f:
-            pickle.dump(results, f)
+        with open(json_path, 'w') as f:
+            json.dump(results, f)
         print(f"Collected {forecast_type} forecasts for question {q.id}.")
 
 
@@ -377,7 +395,7 @@ def run_initial_forecast_experiment(config_path=None):
     )
     
     # Load and analyze results
-    loaded_with_examples, loaded_no_examples = load_forecast_pickles(initial_forecasts_path, selected_resolution_date)
+    loaded_with_examples, loaded_no_examples = load_forecast_jsons(initial_forecasts_path, selected_resolution_date, loader)
     
     sf_aggregate, q_aggregate, qid_to_label = analyze_forecast_results(
         sampled_questions, loaded_with_examples, loaded_no_examples,

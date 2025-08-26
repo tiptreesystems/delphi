@@ -327,13 +327,13 @@ if __name__ == "__main__":
         )
 
         # load no-example baseline forecasts
-        no_example_file = os.path.join(initial_forecasts_dir, f"collected_fcasts_no_examples_{resolution_date}_{question_id}.pkl")
+        no_example_file = os.path.join(initial_forecasts_dir, f"collected_fcasts_no_examples_{resolution_date}_{question_id}.json")
         if not os.path.exists(no_example_file):
             print(f"Warning: No no-example forecasts found for {question_id} at {no_example_file}")
             no_example_data = {}
         else:
-            with open(no_example_file, 'rb') as f:
-                no_example_data = pickle.load(f)[0]
+            with open(no_example_file, 'r') as f:
+                no_example_data = json.load(f)
         no_example_probs = no_example_data.get("forecasts", {})
         no_example_median_prob = median_by_probability(no_example_probs)
         no_example_brier = None

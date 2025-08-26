@@ -57,7 +57,7 @@ def analyze_forecast_results(sampled_questions, loaded_fcasts_with_examples, loa
 
         # Collect data for each superforecaster
         for payload in sf_payloads:
-            sfid = payload.get("superforecaster_id", "unknown_sfid")
+            sfid = payload.get("subject_id", "unknown_sfid")
             gt_val = _safe_super_gt(qid, sfid)
             if gt_val is None:
                 continue
