@@ -2,6 +2,7 @@ import os
 from typing import Optional, Dict, Any, List, Union
 from enum import Enum
 from abc import ABC, abstractmethod
+from groq import Groq
 import anthropic
 import openai
 import time
@@ -44,13 +45,16 @@ import inspect
 class LLMProvider(Enum):
     CLAUDE = "claude"
     OPENAI = "openai"
+    GROQ = "groq"
 
 
 class LLMModel(Enum):
     # Claude models
     CLAUDE_4_SONNET = "claude-sonnet-4-20250514"
+    CLAUDE_3_5_SONNET = "claude-3-5-sonnet-20240620-v1:0"
     CLAUDE_4_OPUS = "claude-opus-4-20250514"
     CLAUDE_4_HAIKU = "claude-3-5-haiku-latest"
+    CLAUDE_3_7_SONNET = "claude-3-7-sonnet-20250219"
 
     # OpenAI models
     GPT_4O = "gpt-4o"
@@ -58,7 +62,19 @@ class LLMModel(Enum):
     GPT_4O_MINI = "gpt-4o-mini"
     O3_MINI = "o3-mini"
     O3 = "o3"
+    O3_2025_04_16 = "o3-2025-04-16"
+    GPT_5_2025_08_07 = "gpt-5-2025-08-07"
+    O1_2024_12_17 = "o1-2024-12-17"
 
+    # Groq models (OpenAI-compatible models hosted on Groq)
+    GROQ_GPT_OSS_20B = "openai/gpt-oss-20b"
+    GROQ_GPT_OSS_120B = "openai/gpt-oss-120b"
+    GROQ_LLAMA_3_3_70B = "llama-3.3-70b-versatile"
+    GROQ_LLAMA_3_1_70B = "llama-3.1-70b-versatile"
+    GROQ_MIXTRAL_8X7B = "mixtral-8x7b-32768"
+    GROQ_LLAMA_4_MAVERICK_17B = "meta-llama/llama-4-maverick-17b-128e-instruct"
+    GROQ_QWEN3_32B = "qwen/qwen3-32b"
+    GROQ_DEEPSEEK_R1_DISTILL_70B = "deepseek-r1-distill-llama-70b"
 
 
 
@@ -151,6 +167,91 @@ class OpenAILLM(BaseLLM):
             if chunk.choices[0].delta.content:
                 yield chunk.choices[0].delta.content
 
+class GroqLLM(BaseLLM):
+    def __init__(self, api_key: Optional[str] = None, system_prompt: Optional[str] = None, model: str = LLMModel.GROQ_LLAMA_3_3_70B.value):
+        super().__init__(api_key or os.getenv("GROQ_API_KEY"), system_prompt)
+        self.client = Groq(api_key=self.api_key)
+        self.model = model
+        self.reasoning_effort = "medium"  # Default reasoning effort for models that support it
+        self.last_usage = {}  # Track token usage from last request
+
+    async def generate(self, prompt: str, max_tokens: int = 8192, temperature: float = 0.7, **kwargs) -> str:
+        # Note: Groq uses synchronous API, but we wrap it in async for compatibility
+        # Build parameters dict
+        create_params = {
+            'model': self.model,
+            'messages': [
+                {"role": "system", "content": self.system_prompt},
+                {"role": "user", "content": prompt}
+            ],
+            'max_completion_tokens': max_tokens,
+            'temperature': temperature,
+        }
+
+        # Add seed if provided for deterministic outputs
+        if 'seed' in kwargs:
+            create_params['seed'] = kwargs['seed']
+
+        # Add reasoning effort for models that support it
+        if 'gpt-oss' in self.model and kwargs.get('reasoning_effort'):
+            create_params['reasoning_effort'] = kwargs.get('reasoning_effort', self.reasoning_effort)
+
+        # Add any other kwargs except reasoning_effort and seed (already handled)
+        for k, v in kwargs.items():
+            if k not in ['reasoning_effort', 'seed']:
+                create_params[k] = v
+
+        try:
+            response = self.client.chat.completions.create(**create_params)
+
+            # Log token usage for monitoring
+            if hasattr(response, 'usage') and response.usage:
+                usage = response.usage
+                completion_tokens = usage.completion_tokens
+                prompt_tokens = usage.prompt_tokens
+                total_tokens = usage.total_tokens
+
+                # Store usage info for retrieval
+                self.last_usage = {
+                    'prompt_tokens': prompt_tokens,
+                    'completion_tokens': completion_tokens,
+                    'total_tokens': total_tokens,
+                    'max_tokens_requested': max_tokens
+                }
+
+                # Warn if we're approaching token limits
+                if completion_tokens >= max_tokens * 0.95:
+                    print(f"⚠️  WARNING: Response used {completion_tokens}/{max_tokens} tokens (95%+ of limit). Consider increasing max_tokens.")
+                elif completion_tokens >= max_tokens * 0.8:
+                    print(f"🔶 NOTICE: Response used {completion_tokens}/{max_tokens} tokens (80%+ of limit).")
+
+                # Log token usage
+                print(f"📊 Token usage - Prompt: {prompt_tokens}, Completion: {completion_tokens}, Total: {total_tokens}")
+
+            return response.choices[0].message.content
+
+        except Exception as e:
+            # Store error info
+            self.last_usage = {'error': str(e)}
+            print(f"❌ Error during generation: {e}")
+            raise
+
+    def generate_stream(self, prompt: str, max_tokens: int = 8192, temperature: float = 0.7, **kwargs):
+        stream = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": self.system_prompt},
+                {"role": "user", "content": prompt}
+            ],
+            max_completion_tokens=max_tokens,
+            temperature=temperature,
+            reasoning_effort=kwargs.get('reasoning_effort', self.reasoning_effort) if 'gpt-oss' in self.model else None,
+            stream=True,
+            **{k: v for k, v in kwargs.items() if k != 'reasoning_effort'}
+        )
+        for chunk in stream:
+            if chunk.choices[0].delta.content:
+                yield chunk.choices[0].delta.content
 
 class LLMFactory:
     @staticmethod
@@ -177,6 +278,13 @@ class LLMFactory:
                 model = model.value
             return OpenAILLM(api_key=api_key, system_prompt=system_prompt, model=model)
 
+        elif provider == LLMProvider.GROQ:
+            if model is None:
+                model = LLMModel.GROQ_LLAMA_3_3_70B.value
+            elif isinstance(model, LLMModel):
+                model = model.value
+            return GroqLLM(api_key=api_key, system_prompt=system_prompt, model=model)
+
         else:
             raise ValueError(f"Unsupported provider: {provider}")
 
@@ -202,20 +310,70 @@ class ConversationManager:
         # @retry_with_exponential_backoff
         async def _generate():
             if isinstance(self.llm, ClaudeLLM):
-                response = await self.llm.client.messages.create(
+                 # Filter out system messages for Claude API (system prompt is passed separately)
+                claude_messages = [msg for msg in self.messages if msg.get("role") != "system"]
+                response = self.llm.client.messages.create(
                     model=self.llm.model,
                     system=self.llm.system_prompt,
-                    messages=self.messages,
+                    messages=claude_messages,
                     **kwargs
                 )
                 return response.content[0].text if response.content else ""
+            elif isinstance(self.llm, GroqLLM):
+                # Groq uses synchronous API but we handle it here
+                messages = [{"role": "system", "content": self.llm.system_prompt}] + self.messages
+
+                # Build parameters dict
+                create_params = {
+                    'model': self.llm.model,
+                    'messages': messages,
+                    'max_completion_tokens': kwargs.get('max_tokens', 8192),
+                    'temperature': kwargs.get('temperature', 0.7),
+                }
+
+                # Add seed if provided for deterministic outputs
+                if 'seed' in kwargs:
+                    create_params['seed'] = kwargs['seed']
+
+                # Add any other kwargs except those already handled
+                for k, v in kwargs.items():
+                    if k not in ['max_tokens', 'temperature', 'seed', 'reasoning_effort']:
+                        create_params[k] = v
+
+                response = self.llm.client.chat.completions.create(**create_params)
+                return response.choices[0].message.content
             else:
                 messages = [{"role": "system", "content": self.llm.system_prompt}] + self.messages
-                response = await self.llm.client.chat.completions.create(
-                    model=self.llm.model,
-                    messages=messages,
-                    **kwargs
-                )
+
+                # Check if this is an o1 or o3 model that requires max_completion_tokens
+                if isinstance(self.llm, OpenAILLM) and (self.llm.model.startswith('o1') or self.llm.model.startswith('o3') or self.llm.model.startswith('gpt-5')):
+                    # o1 and o3 models require max_completion_tokens instead of max_tokens
+                    create_params = {
+                        'model': self.llm.model,
+                        'messages': messages,
+                    }
+
+                    # Make a copy of kwargs to avoid modifying the original
+                    kwargs_copy = kwargs.copy()
+
+                    # Convert max_tokens to max_completion_tokens for o1/o3 models
+                    if 'max_tokens' in kwargs_copy:
+                        create_params['max_completion_tokens'] = kwargs_copy.pop('max_tokens')
+
+                    # Remove temperature as it's not supported by o1/o3 models
+                    if 'temperature' in kwargs_copy:
+                        kwargs_copy.pop('temperature')
+
+                    # Add remaining kwargs
+                    create_params.update(kwargs_copy)
+
+                    response = await self.llm.client.chat.completions.create(**create_params)
+                else:
+                    response = await self.llm.client.chat.completions.create(
+                        model=self.llm.model,
+                        messages=messages,
+                        **kwargs
+                    )
                 return response.choices[0].message.content
 
         content = await _generate()
