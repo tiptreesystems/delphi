@@ -256,11 +256,12 @@ Now apply these strategies to the following question:
                 initial_forecasts_path = self.config['experiment']['initial_forecasts_dir']
                 
                 # Try to load existing forecasts
-                from utils.forecast_loader import load_pickled_forecasts
-                _, llmcasts_by_qid_sfid, _ = load_pickled_forecasts(
-                    initial_forecasts_path, resolution_date, self.loader
+                from utils.forecast_loader import load_forecasts
+                llm = get_llm_from_config(eval_config, role='expert')
+                _, llmcasts_by_qid_sfid, _ = await load_forecasts(
+                    self.config, self.loader, llm
                 )
-                
+
                 # Get forecasts for this specific question
                 llmcasts_for_question = llmcasts_by_qid_sfid.get(question.id, {})
                 
