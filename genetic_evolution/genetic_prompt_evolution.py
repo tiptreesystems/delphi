@@ -305,72 +305,72 @@ Now apply these strategies to the following question:
 
                 # Get ground truth
                 resolution = self.loader.get_resolution(question.id, resolution_date)
-                    actual_outcome = resolution.resolved_to
+                actual_outcome = resolution.resolved_to
 
-                    if self.use_smooth_improvement:
-                        # Use smooth improvement fitness
-                        fitness_score, metrics = evaluate_prompt_smooth_improvement(delphi_log, actual_outcome)
+                if self.use_smooth_improvement:
+                    # Use smooth improvement fitness
+                    fitness_score, metrics = evaluate_prompt_smooth_improvement(delphi_log, actual_outcome)
                     question_metrics[question.id] = metrics
-                        print(f"      Q{question.id[:8]}: improvement={metrics['total_improvement']:.3f}, "
-                                f"variance={metrics['improvement_variance']:.3f}, smoothness={metrics['smoothness']:.3f}, "
-                                f"fitness={fitness_score:.4f}")
+                    print(f"      Q{question.id[:8]}: improvement={metrics['total_improvement']:.3f}, "
+                            f"variance={metrics['improvement_variance']:.3f}, smoothness={metrics['smoothness']:.3f}, "
+                            f"fitness={fitness_score:.4f}")
 
-                        # Create trace with improvement details
-                        rounds_trace = []
-                        for i, (brier, imp) in enumerate(zip(metrics['median_briers_by_round'],
-                                                                [0] + metrics['improvements_by_round'])):
-                            rounds_trace.append(f"R{i+1}: Brier={brier:.3f}, Δ={imp:+.3f}")
+                    # Create trace with improvement details
+                    rounds_trace = []
+                    for i, (brier, imp) in enumerate(zip(metrics['median_briers_by_round'],
+                                                            [0] + metrics['improvements_by_round'])):
+                        rounds_trace.append(f"R{i+1}: Brier={brier:.3f}, Δ={imp:+.3f}")
 
-                        prompt_traces.append(
-                            f"Question: {question.question[:60]}...\n"
-                            f"Rounds: {' → '.join(rounds_trace)}\n"
-                            f"Total Improvement: {metrics['total_improvement']:.3f}, "
-                            f"Smoothness: {metrics['smoothness']:.3f}"
-                        )
-                    else:
-                        # Original fitness calculation
-                        final_round = delphi_log['rounds'][-1]
-                        final_probs = [expert['prob'] for expert in final_round['experts'].values()]
-                        pred_prob = np.median(final_probs)
-
-                        # Calculate Brier score (lower is better, so we negate it for fitness)
-                        brier_score = (pred_prob - actual_outcome) ** 2
-                        fitness_score = 1.0 - brier_score  # Convert to fitness (higher is better)
-
-                        print(f"      Q{question.id[:8]}: pred={pred_prob:.3f}, actual={actual_outcome:.1f}, brier={brier_score:.4f}, fitness={fitness_score:.4f}")
-
-                        # Create trace
-                        rounds_trace = []
-                        for round_data in delphi_log['rounds']:
-                            round_probs = [exp['prob'] for exp in round_data['experts'].values()]
-                            rounds_trace.append(f"Round {round_data['round']}: {np.median(round_probs):.3f}")
-
-                        prompt_traces.append(
-                            f"Question: {question.question[:60]}...\n"
-                            f"Rounds: {' → '.join(rounds_trace)}\n"
-                            f"Final: {pred_prob:.3f} vs Actual: {actual_outcome:.3f} (Brier: {brier_score:.3f})"
-                        )
-
-                    total_score += fitness_score
-                    valid_predictions += 1
-
-                    # Track for summary
+                    prompt_traces.append(
+                        f"Question: {question.question[:60]}...\n"
+                        f"Rounds: {' → '.join(rounds_trace)}\n"
+                        f"Total Improvement: {metrics['total_improvement']:.3f}, "
+                        f"Smoothness: {metrics['smoothness']:.3f}"
+                    )
+                else:
+                    # Original fitness calculation
                     final_round = delphi_log['rounds'][-1]
                     final_probs = [expert['prob'] for expert in final_round['experts'].values()]
                     pred_prob = np.median(final_probs)
-                    abs_errors.append(abs(pred_prob - actual_outcome))
-                    briers.append((pred_prob - actual_outcome) ** 2)
-                    super_forecasts =  self.loader.get_super_forecasts(question_id=question.id, resolution_date=resolution_date)
-                    super_forecast_values = [sf.forecast for sf in super_forecasts]
-                    median_superforecast = np.median(super_forecast_values)
-                    median_superforecast_brier = (median_superforecast - actual_outcome) ** 2
-                    median_superforecast_briers.append(median_superforecast_brier)
+
+                    # Calculate Brier score (lower is better, so we negate it for fitness)
+                    brier_score = (pred_prob - actual_outcome) ** 2
+                    fitness_score = 1.0 - brier_score  # Convert to fitness (higher is better)
+
+                    print(f"      Q{question.id[:8]}: pred={pred_prob:.3f}, actual={actual_outcome:.1f}, brier={brier_score:.4f}, fitness={fitness_score:.4f}")
+
+                    # Create trace
+                    rounds_trace = []
+                    for round_data in delphi_log['rounds']:
+                        round_probs = [exp['prob'] for exp in round_data['experts'].values()]
+                        rounds_trace.append(f"Round {round_data['round']}: {np.median(round_probs):.3f}")
+
+                    prompt_traces.append(
+                        f"Question: {question.question[:60]}...\n"
+                        f"Rounds: {' → '.join(rounds_trace)}\n"
+                        f"Final: {pred_prob:.3f} vs Actual: {actual_outcome:.3f} (Brier: {brier_score:.3f})"
+                    )
+
+                total_score += fitness_score
+                valid_predictions += 1
+
+                # Track for summary
+                final_round = delphi_log['rounds'][-1]
+                final_probs = [expert['prob'] for expert in final_round['experts'].values()]
+                pred_prob = np.median(final_probs)
+                abs_errors.append(abs(pred_prob - actual_outcome))
+                briers.append((pred_prob - actual_outcome) ** 2)
+                super_forecasts =  self.loader.get_super_forecasts(question_id=question.id, resolution_date=resolution_date)
+                super_forecast_values = [sf.forecast for sf in super_forecasts]
+                median_superforecast = np.median(super_forecast_values)
+                median_superforecast_brier = (median_superforecast - actual_outcome) ** 2
+                median_superforecast_briers.append(median_superforecast_brier)
                 public_forecasts =  self.loader.get_public_forecasts(question_id=question.id, resolution_date=resolution_date)
                 public_forecast_values = [pf.forecast for pf in public_forecasts]
                 median_public_forecast = np.median(public_forecast_values)
                 median_public_brier = (median_public_forecast - actual_outcome) ** 2
                 median_public_briers.append(median_public_brier)
-                    print(f"        Superforecaster median: {median_superforecast:.3f}, pred_prob: {pred_prob:.3f}, actual: {actual_outcome:.1f}")
+                print(f"        Superforecaster median: {median_superforecast:.3f}, pred_prob: {pred_prob:.3f}, actual: {actual_outcome:.1f}")
 
             all_abs_errors[temp_prompt_id].extend(abs_errors)
             all_briers[temp_prompt_id].extend(briers)
@@ -764,64 +764,64 @@ Now apply these strategies to the following question:
 
         if not self.use_delphi_evaluation:
             for i, question in enumerate(test_questions):
-            try:
-                # Get prediction with best evolved prompt
-                pred_prob, reasoning = await self.run_expert_with_prompt(
-                    question, self.best_prompt, resolution_date
-                )
+                try:
+                    # Get prediction with best evolved prompt
+                    pred_prob, reasoning = await self.run_expert_with_prompt(
+                        question, self.best_prompt, resolution_date
+                    )
 
-                superforecaster_forecasts = self.loader.get_super_forecasts(question_id=question.id, resolution_date=resolution_date)
-                sf_values = [sf.forecast for sf in superforecaster_forecasts]
-                sf_median = np.median(sf_values)
+                    superforecaster_forecasts = self.loader.get_super_forecasts(question_id=question.id, resolution_date=resolution_date)
+                    sf_values = [sf.forecast for sf in superforecaster_forecasts]
+                    sf_median = np.median(sf_values)
 
-                # Get ground truth
-                resolution = self.loader.get_resolution(question.id, resolution_date)
-                if resolution and resolution.resolved:
-                    actual_outcome = resolution.resolved_to
-                    error = abs(pred_prob - actual_outcome)
-                    errors.append(error)
+                    # Get ground truth
+                    resolution = self.loader.get_resolution(question.id, resolution_date)
+                    if resolution and resolution.resolved:
+                        actual_outcome = resolution.resolved_to
+                        error = abs(pred_prob - actual_outcome)
+                        errors.append(error)
 
-                    predictions.append({
-                        'question_id': question.id,
-                        'question': question.question,
-                        'topic': question.topic,
-                        'predicted_prob': pred_prob,
-                        'superforecaster_median': sf_median,
-                        'actual_outcome': actual_outcome,
-                        'error': error,
-                        'reasoning': reasoning
-                    })
+                        predictions.append({
+                            'question_id': question.id,
+                            'question': question.question,
+                            'topic': question.topic,
+                            'predicted_prob': pred_prob,
+                            'superforecaster_median': sf_median,
+                            'actual_outcome': actual_outcome,
+                            'error': error,
+                            'reasoning': reasoning
+                        })
 
                         print(f"  [{i+1:3d}/{len(test_questions)}] {question.question[:40]}... "
-                          f"Pred: {pred_prob:.2f},  SF Median: {sf_median:.2f}, Actual: {actual_outcome:.2f}, Error: {error:.3f}, Brier: {(pred_prob - actual_outcome)**2:.3f}, SF Brier: {(sf_median - actual_outcome)**2:.3f}")
+                            f"Pred: {pred_prob:.2f},  SF Median: {sf_median:.2f}, Actual: {actual_outcome:.2f}, Error: {error:.3f}, Brier: {(pred_prob - actual_outcome)**2:.3f}, SF Brier: {(sf_median - actual_outcome)**2:.3f}")
 
-            except Exception as e:
+                except Exception as e:
                     print(f"  [{i+1:3d}/{len(test_questions)}] Error: {e}")
-                continue
+                    continue
 
-        if errors:
-            mean_error = np.mean(errors)
-            std_error = np.std(errors)
-            brier_score = np.mean([(p['predicted_prob'] - p['actual_outcome'])**2 for p in predictions])
-            sf_brier_score = np.mean([(p['superforecaster_median'] - p['actual_outcome'])**2 for p in predictions])
+            if errors:
+                mean_error = np.mean(errors)
+                std_error = np.std(errors)
+                brier_score = np.mean([(p['predicted_prob'] - p['actual_outcome'])**2 for p in predictions])
+                sf_brier_score = np.mean([(p['superforecaster_median'] - p['actual_outcome'])**2 for p in predictions])
 
-            print(f"\nFinal Validation Results:")
-            print(f"  Questions evaluated: {len(predictions)}")
-            print(f"  Mean absolute error: {mean_error:.3f} ± {std_error:.3f}")
-            print(f"  Brier score: {brier_score:.3f}")
-            print(f"  Superforecaster median Brier score: {sf_brier_score:.3f}")
+                print(f"\nFinal Validation Results:")
+                print(f"  Questions evaluated: {len(predictions)}")
+                print(f"  Mean absolute error: {mean_error:.3f} ± {std_error:.3f}")
+                print(f"  Brier score: {brier_score:.3f}")
+                print(f"  Superforecaster median Brier score: {sf_brier_score:.3f}")
 
-            # Store results
-            self.evolution_results['final_validation'] = {
-                'mean_absolute_error': mean_error,
-                'std_error': std_error,
-                'brier_score': brier_score,
-                'superforecaster_brier_score': sf_brier_score,
-                'predictions': predictions,
-                'questions_evaluated': len(predictions)
-            }
-        else:
-            print("  No valid predictions made!")
+                # Store results
+                self.evolution_results['final_validation'] = {
+                    'mean_absolute_error': mean_error,
+                    'std_error': std_error,
+                    'brier_score': brier_score,
+                    'superforecaster_brier_score': sf_brier_score,
+                    'predictions': predictions,
+                    'questions_evaluated': len(predictions)
+                }
+            else:
+                print("  No valid predictions made!")
 
         else:
             # Evaluate using full Delphi process with best prompt
