@@ -762,6 +762,7 @@ Now apply these strategies to the following question:
             print(f"  Questions evaluated: {len(predictions)}")
             print(f"  Mean absolute error: {mean_error:.3f} ± {std_error:.3f}")
             print(f"  Brier score: {brier_score:.3f}")
+            print(f"  Superforecaster median Brier score: {sf_brier_score:.3f}")
 
             # Store results
             self.evolution_results['final_validation'] = {
