@@ -5,6 +5,8 @@ from collections import defaultdict
 
 import numpy as np
 
+from pytorch_lightning import seed_everything
+
 
 # Training set question IDs - All resolved questions by 2025-07-21, excluding evaluation set (69 total)
 TRAIN_QUESTION_IDS = {
@@ -131,7 +133,7 @@ def sample_questions_by_topic(questions, n_per_topic=None, seed=42):
     random.seed(seed)
     unique_topics = set(q.topic for q in questions)
     topic_to_questions = defaultdict(list)
-    
+
     shuffled_questions = random.sample(questions, len(questions))
     for topic in unique_topics:
         topic_questions = [q for q in shuffled_questions if q.topic == topic]
@@ -149,83 +151,91 @@ def sample_questions_by_topic(questions, n_per_topic=None, seed=42):
     return sampled_questions
 
 def sample_questions(config: dict, questions_with_topic: List, loader) -> List:
-    """Sample questions based on the configuration."""    
+    """Sample questions based on the configuration."""
     sampling_config = config['data']['sampling']
     experiment_config = config['experiment']
     selected_resolution_date = config['data']['resolution_date']
     initial_forecasts_path = experiment_config['initial_forecasts_dir']
     reuse_config = experiment_config.get('reuse_initial_forecasts', {})
-    
     seed = experiment_config['seed']
-    random.seed(seed)
-    np.random.seed(seed)
+    seed_everything(seed)
     print(f"Set random seed to {seed} before question sampling")
-    
+
     method = sampling_config['method']
-    
+
     if method == 'by_topic':
         n_per_topic = sampling_config['n_per_topic']
         sampled_questions = sample_questions_by_topic(
-            questions_with_topic, 
+            questions_with_topic,
             n_per_topic=n_per_topic,
             seed=seed
         )
         print(f"Sampling method: by_topic ({n_per_topic} per topic)")
-        
+
     elif method == 'random':
         n_questions = sampling_config.get('n_questions', 10)
         sampled_questions = random.sample(questions_with_topic, min(n_questions, len(questions_with_topic)))
         print(f"Sampling method: random ({n_questions} questions)")
-        
+
     elif method == 'train' or method == 'tune':
         # 'tune' kept for backward compatibility
         sampled_questions = _handle_predefined_questions(
-            TRAIN_QUESTION_IDS, questions_with_topic, reuse_config, 
+            TRAIN_QUESTION_IDS, questions_with_topic, reuse_config,
             initial_forecasts_path, selected_resolution_date, config, "train"
         )
-        
+
+    elif method == 'train_small':
+        n_per_topic = sampling_config.get('n_per_topic', 2)
+        all_train_questions = [q for q in questions_with_topic if q.id in TRAIN_QUESTION_IDS]
+        sampled_questions = sample_questions_by_topic(
+            all_train_questions,
+            n_per_topic=n_per_topic,
+            seed=seed
+        )
+        print(f"Sampling method: train_small ({n_per_topic} per topic from training set, total {len(sampled_questions)} questions)")
+
     elif method == 'evaluation':
         sampled_questions = _handle_predefined_questions(
-            EVALUATION_QUESTION_IDS, questions_with_topic, reuse_config, 
+            EVALUATION_QUESTION_IDS, questions_with_topic, reuse_config,
             initial_forecasts_path, selected_resolution_date, config, "evaluation"
         )
-        
+
     elif method == 'evolution_evaluation':
         sampled_questions = _handle_predefined_questions(
-            EVOLUTION_EVALUATION_QUESTION_IDS, questions_with_topic, reuse_config, 
+            EVOLUTION_EVALUATION_QUESTION_IDS, questions_with_topic, reuse_config,
             initial_forecasts_path, selected_resolution_date, config, "evolution_evaluation"
         )
-        
+
     elif method == 'single':
         question_id = sampling_config.get('question_id')
         if not question_id:
             raise ValueError("For 'single' sampling method, 'question_id' must be specified in sampling config")
-        
+
         matching_questions = [q for q in questions_with_topic if q.id == question_id]
         if not matching_questions:
             raise ValueError(f"No question found with ID: {question_id}")
-        
+
         sampled_questions = matching_questions
         print(f"Sampling method: single (question ID: {question_id})")
-        
+
     elif method == 'first':
         n_questions = sampling_config.get('n_questions', 10)
         sampled_questions = questions_with_topic[:n_questions]
         print(f"Sampling method: first ({n_questions} questions)")
-        
+
     elif method == 'from_initial_forecasts':
         sampled_questions = _handle_from_initial_forecasts(
-            sampling_config, reuse_config, initial_forecasts_path, 
+            sampling_config, reuse_config, initial_forecasts_path,
             selected_resolution_date, questions_with_topic, config, seed
         )
-        
+
     else:
         n_questions = sampling_config.get('n_questions', 10)
         sampled_questions = questions_with_topic[:n_questions]
         print(f"Sampling method: default ({n_questions} questions)")
-    
+
     print(f"Questions after initial sampling: {len(sampled_questions)}")
-    
+
     if config['data']['filters']['require_resolution']:
         before_filter = len(sampled_questions)
         sampled_questions = [
@@ -233,76 +243,76 @@ def sample_questions(config: dict, questions_with_topic: List, loader) -> List:
             if loader.get_resolution(question_id=q.id, resolution_date=selected_resolution_date) is not None
         ]
         print(f"Questions after resolution filter: {len(sampled_questions)} (filtered out {before_filter - len(sampled_questions)})")
-    
+
     return sampled_questions
 
 
-def _handle_predefined_questions(include_ids, questions_with_topic, reuse_config, 
+def _handle_predefined_questions(include_ids, questions_with_topic, reuse_config,
                                 initial_forecasts_path, selected_resolution_date, config, method_name):
     """Handle tune and evaluation question sampling."""
     if reuse_config.get('enabled', False):
         if os.path.exists(initial_forecasts_path):
             pkl_files = [
                 f for f in os.listdir(initial_forecasts_path)
-                if f.startswith("collected_fcasts_with_examples") and f.endswith(".pkl") and f"{selected_resolution_date}" in f
+                if f.startswith("collected_fcasts_with_examples") and f.endswith(".json") and f"{selected_resolution_date}" in f
             ]
-            existing_question_ids = [fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".pkl")] for fname in pkl_files]
+            existing_question_ids = [fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".json")] for fname in pkl_files]
             available_eval_ids = [id for id in include_ids if id in existing_question_ids]
         else:
             available_eval_ids = []
-        
+
         if len(available_eval_ids) == len(include_ids):
             sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
             print(f"Sampling method: {method_name} ({len(sampled_questions)} questions from existing initial forecasts)")
         else:
             missing_ids = [id for id in include_ids if id not in available_eval_ids]
             print(f"Missing initial forecasts for {len(missing_ids)} {method_name} questions, generating...")
-            
+
             sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
-            
+
             if not sampled_questions:
                 raise ValueError(f"No questions found matching the {method_name} include_ids")
-            
+
             missing_questions = [q for q in sampled_questions if q.id in missing_ids]
             if missing_questions:
                 from utils.forecast_loader import generate_initial_forecasts_for_questions
                 generate_initial_forecasts_for_questions(missing_questions, initial_forecasts_path, config, selected_resolution_date)
-            
+
             print(f"Sampling method: {method_name} ({len(sampled_questions)} questions, generated {len(missing_questions)} new initial forecasts)")
     else:
         sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
-        
+
         if not sampled_questions:
             raise ValueError(f"No questions found matching the {method_name} include_ids")
-        
+
         print(f"Sampling method: {method_name} ({len(sampled_questions)} questions from predefined list, no reuse)")
-    
+
     return sampled_questions
 
 
-def _handle_from_initial_forecasts(sampling_config, reuse_config, initial_forecasts_path, 
+def _handle_from_initial_forecasts(sampling_config, reuse_config, initial_forecasts_path,
                                   selected_resolution_date, questions_with_topic, config, seed):
-    """Handle from_initial_forecasts sampling method."""    
+    """Handle from_initial_forecasts sampling method."""
     if not reuse_config.get('enabled', False):
         raise ValueError("'from_initial_forecasts' sampling method requires reuse_initial_forecasts.enabled=true")
-    
+
     if os.path.exists(initial_forecasts_path):
         pkl_files = [
             f for f in os.listdir(initial_forecasts_path)
-            if f.startswith("collected_fcasts_with_examples") and f.endswith(".pkl") and f"{selected_resolution_date}" in f
+            if f.startswith("collected_fcasts_with_examples") and f.endswith(".json") and f"{selected_resolution_date}" in f
         ]
     else:
         pkl_files = []
-    
+
     n_questions = sampling_config.get('n_questions', 10)
     n_per_topic = sampling_config.get('n_per_topic', None)
-    
+
     if pkl_files:
-        question_ids = [fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".pkl")] for fname in pkl_files]
+        question_ids = [fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".json")] for fname in pkl_files]
         if len(question_ids) >= n_questions:
             sorted_question_ids = sorted(question_ids)
             available_questions = [q for q in questions_with_topic if q.id in sorted_question_ids]
-            
+
             if n_per_topic is not None:
                 sampled_questions = sample_questions_by_topic(
                     available_questions,
@@ -343,6 +353,5 @@ def _handle_from_initial_forecasts(sampling_config, reuse_config, initial_foreca
         from utils.forecast_loader import generate_initial_forecasts_for_questions
         generate_initial_forecasts_for_questions(sampled_questions, initial_forecasts_path, config, selected_resolution_date)
         print(f"Sampling method: from_initial_forecasts ({len(sampled_questions)} questions, generated new initial forecasts)")
-    
-    return sampled_questions
 
+    return sampled_questions
