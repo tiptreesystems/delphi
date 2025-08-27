@@ -225,19 +225,37 @@ class OpenAILLM(BaseLLM):
     async def generate(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.7, **kwargs) -> str:
         # @retry_with_exponential_backoff
         async def _generate():
-            response = await self.client.chat.completions.create(
-                model=self.model,
-                messages=[
+
+            if (self.model.startswith('o1') or self.model.startswith('o3') or self.model.startswith('gpt-5')):
+                # o1 and o3 models require max_completion_tokens instead of max_tokens
+                create_params = {
+                    'model': self.model,
+                    'messages': [
                     {"role": "system", "content": self.system_prompt},
                     {"role": "user", "content": prompt}
                 ],
-                max_tokens=max_tokens,
-                temperature=temperature,
-                **kwargs
-            )
-            return response.choices[0].message.content
+                "max_completion_tokens": max_tokens,
+                }
 
-        return _generate()
+                response = await self.client.chat.completions.create(**create_params)
+                return response.choices[0].message.content
+
+            else:
+                response = await self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": self.system_prompt},
+                        {"role": "user", "content": prompt}
+                    ],
+                    max_tokens=max_tokens,
+                    temperature=temperature,
+                    **kwargs
+                )
+                return response.choices[0].message.content
+
+        return await _generate()
+
+
 
     def generate_stream(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.7, **kwargs):
         stream = self.client.chat.completions.create(
