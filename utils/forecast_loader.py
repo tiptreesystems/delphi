@@ -36,13 +36,18 @@ def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, 
         print(f"  📊 Generating initial forecasts for question {question.id[:8]}...")
 
         try:
-            pickle_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{q.id}.pkl'
+            pickle_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{question.id}.pkl'
             pickle_path = os.path.join(initial_forecasts_path, pickle_filename)
 
             if os.path.exists(pickle_path):
-                print(f"Pickle for question {q.id} ({forecast_type}) already exists, converting to json.")
+                print(f"Pickle for question {question.id} ({forecast_type}) already exists, converting to json.")
                 convert_pkl_to_json(pickle_path, json_path)
                 continue
+
+            json_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{question.id}.json'
+            json_path = os.path.join(initial_forecasts_path, json_filename)
+            if os.path.exists(json_path) and config['reuse_initial_forecasts']['enabled']:
+                print(f"JSON for question {question.id} already exists, skipping.")
 
             results = asyncio.run(run_all_forecasts_with_examples(
                 [question],
@@ -52,8 +57,6 @@ def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, 
                 llm=llm
             ))
 
-            json_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{question.id}.json'
-            json_path = os.path.join(initial_forecasts_path, json_filename)
             with open(json_path, 'w') as f:
                 json.dump(results, f)
             print(f"  ✅ Saved initial forecasts for question {question.id[:8]} to {json_filename}")
@@ -66,44 +69,57 @@ def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, 
     print(f"✅ Initial forecasts generation completed in {initial_forecasts_path}")
 
 
-def find_matching_initial_forecasts_dir(current_config: dict) -> str:
-    """
-    Find an initial forecasts directory that matches the current configuration
-    (ignoring seed differences). Returns the path to the initial forecasts directory.
-    """
-    results_path = Path("results")
-    if not results_path.exists():
-        return None
+# def find_matching_initial_forecasts_dir(current_config: dict) -> str:
+#     """
+#     Find an initial forecasts directory that matches the current configuration
+#     (ignoring seed differences). Returns the path to the initial forecasts directory.
+#     """
+#     results_path = Path("results")
+#     if not results_path.exists():
+#         return None
 
-    target_model = current_config.get('model', {}).get('name', '')
-    target_n_experts = current_config.get('delphi', {}).get('n_experts', 0)
+#     target_model = current_config.get('model', {}).get('name', '')
+#     target_n_experts = current_config.get('delphi', {}).get('n_experts', 0)
 
-    sweep_dirs = sorted([d for d in results_path.iterdir() if d.is_dir()],
-                       key=lambda x: x.name, reverse=True)
-    for sweep_dir in sweep_dirs:
-        config_files = list(sweep_dir.glob("config_*.yml"))
+#     configs_dir = Path("configs")
+#     config_files = list(configs_dir.glob("*.yml"))
 
-        for config_file in config_files:
-            with open(config_file, 'r') as f:
-                other_config = yaml.safe_load(f)
+#     sweep_dirs = sorted([d for d in results_path.iterdir() if d.is_dir()],
+#                        key=lambda x: x.name, reverse=True)
+#     for sweep_dir in sweep_dirs:
+#         config_files = list(sweep_dir.glob("*.yml"))
 
-            other_model = other_config.get('model', {}).get('name', '')
-            other_n_experts = other_config.get('delphi', {}).get('n_experts', 0)
+#         for config_file in config_files:
+#             with open(config_file, 'r') as f:
+#                 other_config = yaml.safe_load(f)
+#                 # have to add name here for backward compatibility
+#                 if 'mediator' in other_config['model'] and 'provider' in other_config['model']['mediator']:
+#                     print('Adding missing model name to config for backward compatibility')
+#                     other_config['model']['provider'] = other_config['model']['mediator']['provider']
+#                     other_config['model']['name'] = other_config['model']['mediator'].get('model', '')
+#                 elif 'expert' in other_config['model'] and 'provider' in other_config['model']['expert']:
+#                     print('Adding missing model name to config for backward compatibility')
+#                     other_config['model']['provider'] = other_config['model']['expert']['provider']
+#                     other_config['model']['name'] = other_config['model']['expert'].get('model', '')
 
-            if (other_model == target_model and
-                other_n_experts == target_n_experts):
 
-                config_base = config_file.stem.replace('config_', '')
-                possible_initial_dir = sweep_dir / f"results_{config_base}_initial"
-                if possible_initial_dir.exists():
-                    pkl_files = list(possible_initial_dir.glob("*.pkl"))
-                    if pkl_files:
-                        print(f"🔍 Found matching initial forecasts in: {possible_initial_dir}")
-                        print(f"    (matched config: {config_file.name})")
-                        return str(possible_initial_dir)
+#             other_model = other_config.get('model', {}).get('name', '')
+#             other_n_experts = other_config.get('delphi', {}).get('n_experts', 0)
 
-    print("❌ No matching initial forecasts directory found")
-    return None
+#             if (other_model == target_model and
+#                 other_n_experts == target_n_experts):
+
+#                 config_base = config_file.stem.replace('config_', '')
+#                 possible_initial_dir = sweep_dir / f"results_{config_base}_initial"
+#                 if possible_initial_dir.exists():
+#                     pkl_files = list(possible_initial_dir.glob("*.pkl"))
+#                     if pkl_files:
+#                         print(f"🔍 Found matching initial forecasts in: {possible_initial_dir}")
+#                         print(f"    (matched config: {config_file.name})")
+#                         return str(possible_initial_dir)
+
+#     print("❌ No matching initial forecasts directory found")
+#     return None
 
 
 def load_pickled_forecasts(initial_forecasts_path: str, selected_resolution_date: str, loader) -> Tuple[List, Dict, Dict]:
@@ -221,7 +237,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
     if reuse_config.get('enabled', False):
         source_dir = reuse_config.get('source_dir', 'auto')
         if source_dir == 'auto':
-            source_dir = find_matching_initial_forecasts_dir(config)
+            source_dir = config.get('experiment', {}).get('initial_forecasts_dir', None)
 
         if source_dir and os.path.exists(source_dir):
             print(f"🔄 Reusing initial forecasts from: {source_dir}")
@@ -236,15 +252,22 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
     sampled_questions = sample_questions(config, questions_with_topic, loader)
 
     # Generate initial forecasts if not reusing
-    if not reuse_config.get('enabled', False):
+    if reuse_config.get('enabled', False):
+        print(f"📁 Skipping initial forecast collection (reusing from {initial_forecasts_path})")
+        for q in sampled_questions:
+            json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
+            if not os.path.exists(json_path):
+                print("Running generation of missing initial forecasts...")
+                results = await run_all_forecasts_with_examples(
+                    [q], loader=loader, selected_resolution_date=selected_resolution_date,
+                    config=config, llm=llm
+                )
+                with open(json_path, 'w') as f:
+                    json.dump(results, f)
+    else:
         os.makedirs(initial_forecasts_path, exist_ok=True)
         from icl_initial_forecasts import run_all_forecasts_with_examples
         for q in sampled_questions:
-            json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
-            if os.path.exists(json_path) and config['processing']['skip_existing']:
-                print(f"JSON for question {q.id} already exists, skipping.")
-                continue
-
             print(f"Collecting forecasts for question {q.id}...")
             results = await run_all_forecasts_with_examples(
                 [q], loader=loader, selected_resolution_date=selected_resolution_date,
@@ -252,8 +275,6 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
             )
             with open(json_path, 'w') as f:
                 json.dump(results, f)
-    else:
-        print(f"📁 Skipping initial forecast collection (reusing from {initial_forecasts_path})")
 
     # Load and return the forecasts
     # TODO: filter by loaded_fcasts_no_examples.keys() as well?
