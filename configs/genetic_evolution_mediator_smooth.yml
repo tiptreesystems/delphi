@@ -7,6 +7,9 @@ experiment:
   output_dir: "results/genetic_evolution_mediator_smooth"
   initial_forecasts_dir: "results/experts_comparison_gpt_oss_20b_initial"
 
+  reuse_initial_forecasts:
+    enabled: true
+
 # Model configuration
 model:
   # Expert model (uses fixed prompts during evolution)
@@ -58,7 +61,7 @@ evolution:
     length_penalty_weight: 0.05  # Small penalty for overly long prompts
     target_length: 100  # Target prompt length in words
     include_reasoning: true
-    include_examples: false
+    include_examples: true
     n_examples: 3
     
   # Seed prompts for mediator evolution
@@ -86,7 +89,7 @@ training:
 # Processing configuration
 processing:
   max_concurrent_mutations: 3
-  skip_existing: false
+  skip_existing: true
 
 # Data configuration
 data:
@@ -94,7 +97,8 @@ data:
   
   # Question sampling
   sampling:
-    method: "train"
+    method: "train_small"
+    n_per_topic: 2 # min 2 for train and valid
     
   # Filter criteria
   filters:

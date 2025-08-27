@@ -9,7 +9,7 @@ experiment:
   
   # Configuration for reusing existing initial forecasts
   reuse_initial_forecasts:
-    enabled: false
+    enabled: true
 
 # Model configuration
 model:

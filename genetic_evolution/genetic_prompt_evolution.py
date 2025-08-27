@@ -166,7 +166,7 @@ Now apply these strategies to the following question:
 
         return prob, response
 
-    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question]) -> List[float]:
+    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False) -> List[float]:
         """
         Evaluate fitness using full Delphi process with evolved prompts.
         Creates temporary prompt files and uses existing prompt version system.
@@ -177,6 +177,12 @@ Now apply these strategies to the following question:
         fitness_scores = []
         all_traces: List[str] = []
         all_perf_summaries: List[str] = []
+        all_abs_errors: Dict[str, List[float]] = defaultdict(list)
+        all_briers: Dict[str, List[float]] = defaultdict(list)
+        all_median_superforecast_briers: Dict[str, List[float]] = defaultdict(list)
+        all_median_public_briers: Dict[str, List[float]] = defaultdict(list)
+        all_delphi_logs: Dict[str, List[Dict]] = defaultdict(list)
+        all_question_metrics: Dict[str, List[Dict]] = defaultdict(list)
 
         print(f"Evaluating {len(prompts)} prompts using full Delphi process on {len(validation_batch)} questions...")
 
@@ -188,7 +194,7 @@ Now apply these strategies to the following question:
                 print(f"DEBUG: Base config mediator keys: {list(self.config.get('model', {}).get('mediator', {}).keys())}")
 
             # Create temporary prompt file for this evolved prompt
-            temp_prompt_id = f"evolved_{i}"
+            temp_prompt_id = f"evolved_{i}" if not is_final else "best_evolved"
             self._create_temp_prompt_file(prompt, temp_prompt_id)
 
             total_score = 0.0
@@ -196,7 +202,10 @@ Now apply these strategies to the following question:
             abs_errors: List[float] = []
             briers: List[float] = []
             median_superforecast_briers: List[float] = []
+            median_public_briers: List[float] = []
             prompt_traces: List[str] = []
+            delphi_logs: List[Dict] = []
+            question_metrics: Dict = {}
 
             # Test prompt on each validation question using full Delphi
             for question in validation_batch:
@@ -292,16 +301,16 @@ Now apply these strategies to the following question:
 
                 # Run Delphi rounds with evolved prompt configuration
                 delphi_log = await run_delphi_rounds(question, experts, eval_config, {})
+                delphi_logs.append(delphi_log)
 
                 # Get ground truth
                 resolution = self.loader.get_resolution(question.id, resolution_date)
-                if resolution and resolution.resolved:
                     actual_outcome = resolution.resolved_to
 
                     if self.use_smooth_improvement:
                         # Use smooth improvement fitness
                         fitness_score, metrics = evaluate_prompt_smooth_improvement(delphi_log, actual_outcome)
-
+                    question_metrics[question.id] = metrics
                         print(f"      Q{question.id[:8]}: improvement={metrics['total_improvement']:.3f}, "
                                 f"variance={metrics['improvement_variance']:.3f}, smoothness={metrics['smoothness']:.3f}, "
                                 f"fitness={fitness_score:.4f}")
@@ -356,7 +365,20 @@ Now apply these strategies to the following question:
                     median_superforecast = np.median(super_forecast_values)
                     median_superforecast_brier = (median_superforecast - actual_outcome) ** 2
                     median_superforecast_briers.append(median_superforecast_brier)
+                public_forecasts =  self.loader.get_public_forecasts(question_id=question.id, resolution_date=resolution_date)
+                public_forecast_values = [pf.forecast for pf in public_forecasts]
+                median_public_forecast = np.median(public_forecast_values)
+                median_public_brier = (median_public_forecast - actual_outcome) ** 2
+                median_public_briers.append(median_public_brier)
                     print(f"        Superforecaster median: {median_superforecast:.3f}, pred_prob: {pred_prob:.3f}, actual: {actual_outcome:.1f}")
+
+            all_abs_errors[temp_prompt_id].extend(abs_errors)
+            all_briers[temp_prompt_id].extend(briers)
+            all_median_superforecast_briers[temp_prompt_id].extend(median_superforecast_briers)
+            all_median_public_briers[temp_prompt_id].extend(median_public_briers)
+            all_delphi_logs[temp_prompt_id].extend(delphi_logs)
+            all_question_metrics[temp_prompt_id] = question_metrics
+
             # Clean up temporary prompt file
             self._cleanup_temp_prompt_file(temp_prompt_id)
 
@@ -385,14 +407,38 @@ Now apply these strategies to the following question:
             all_perf_summaries.append(batch_summary)
             all_traces.append("\n\n".join(prompt_traces[-3:]))
 
+        # give final summary if is_final
+        if is_final:
+            print(f"\nFinal performance summary for best prompt:")
+            best_prompt_id = list(all_abs_errors.keys())[0]
+            abs_errors = all_abs_errors[best_prompt_id]
+            briers = all_briers[best_prompt_id]
+            median_sf_briers = all_median_superforecast_briers[best_prompt_id]
+            delphi_logs = all_delphi_logs[best_prompt_id]
+            median_public_briers = all_median_public_briers[best_prompt_id]
+
+            if abs_errors:
+                abs_avg_error = float(np.mean(abs_errors))
+                avg_brier = float(np.mean(briers))
+                summary = f"Prompt {best_prompt_id}:\n  Number of predictions: {len(abs_errors)}\n  Average absolute error: {abs_avg_error:.3f}\n  Average Brier score: {avg_brier:.3f}"
+                if median_sf_briers:
+                    avg_median_sf_brier = float(np.mean(median_sf_briers))
+                    summary += f"\n  Average median superforecaster brier: {avg_median_sf_brier:.3f}"
+                if median_public_briers:
+                    avg_median_public_brier = float(np.mean(median_public_briers))
+                    summary += f"\n  Average median public forecaster brier: {avg_median_public_brier:.3f}"
+                print(summary)
+            else:
+                print(f"Prompt {best_prompt_id}: No valid predictions.")
+
+
         # Attach traces to population
         try:
             self.optimizer.population.attach_reasoning_traces(all_traces)
             self.optimizer.population.attach_performance_summaries(all_perf_summaries)
         except Exception:
             pass
-
-        return fitness_scores
+        return fitness_scores, (all_delphi_logs, all_abs_errors, all_briers, all_median_superforecast_briers, all_median_public_briers, all_question_metrics)
 
     def _create_temp_prompt_file(self, prompt: str, temp_id: str):
         """Create a temporary prompt file for evolved prompt evaluation."""
@@ -587,7 +633,7 @@ Now apply these strategies to the following question:
         # Split into train and validation
         valid_ratio = self.config.get('training', {}).get('valid_ratio', 0.3)
         seed = self.config['experiment']['seed']
-        _, valid_questions = split_train_valid(sampled_questions, valid_ratio, seed)
+        test_questions, valid_questions = split_train_valid(sampled_questions, valid_ratio, seed)
 
         # Use a subset of validation questions for fitness evaluation to speed up evolution
         batch_size = min(self.validation_batch_size, len(valid_questions))
@@ -651,9 +697,9 @@ Now apply these strategies to the following question:
         print(f"  Final mutation rate: {self.evolution_results['final_mutation_rate']:.3f}")
         print(f"{'='*80}")
 
-        # Evaluate best prompt on full validation set
-        print(f"\nEvaluating best prompt on full validation set ({len(valid_questions)} questions)...")
-        await self.evaluate_final_performance(valid_questions)
+        # Evaluate best prompt on full test set
+        print(f"\nEvaluating best prompt on full test set ({len(test_questions)} questions)...")
+        await self.evaluate_final_performance(test_questions)
 
         # Save results
         self.save_results()
@@ -707,16 +753,17 @@ Now apply these strategies to the following question:
         # Take only what we need for population size
         return seed_prompts[:self.population_size]
 
-    async def evaluate_final_performance(self, validation_questions: List[Question]):
-        """Evaluate the best evolved prompt on the full validation set."""
+    async def evaluate_final_performance(self, test_questions: List[Question]):
+        """Evaluate the best evolved prompt on the full test set."""
         resolution_date = self.config['data']['resolution_date']
 
         predictions = []
         errors = []
 
-        print(f"Testing best prompt on {len(validation_questions)} validation questions...")
+        print(f"Testing best prompt on {len(test_questions)} test questions...")
 
-        for i, question in enumerate(validation_questions):
+        if not self.use_delphi_evaluation:
+            for i, question in enumerate(test_questions):
             try:
                 # Get prediction with best evolved prompt
                 pred_prob, reasoning = await self.run_expert_with_prompt(
@@ -745,11 +792,11 @@ Now apply these strategies to the following question:
                         'reasoning': reasoning
                     })
 
-                    print(f"  [{i+1:3d}/{len(validation_questions)}] {question.question[:40]}... "
+                        print(f"  [{i+1:3d}/{len(test_questions)}] {question.question[:40]}... "
                           f"Pred: {pred_prob:.2f},  SF Median: {sf_median:.2f}, Actual: {actual_outcome:.2f}, Error: {error:.3f}, Brier: {(pred_prob - actual_outcome)**2:.3f}, SF Brier: {(sf_median - actual_outcome)**2:.3f}")
 
             except Exception as e:
-                print(f"  [{i+1:3d}/{len(validation_questions)}] Error: {e}")
+                    print(f"  [{i+1:3d}/{len(test_questions)}] Error: {e}")
                 continue
 
         if errors:
@@ -775,6 +822,39 @@ Now apply these strategies to the following question:
             }
         else:
             print("  No valid predictions made!")
+
+        else:
+            # Evaluate using full Delphi process with best prompt
+            print("Evaluating best prompt using full Delphi process...")
+            delphi_fitness_scores, logs_and_metrics = await self.evaluate_prompt_fitness_delphi(
+                [self.best_prompt], test_questions, is_final=True
+            )
+            all_delphi_logs, all_abs_errors, all_briers, all_median_sf_briers, all_median_public_briers, all_question_metrics = logs_and_metrics
+            best_prompt_id = list(all_abs_errors.keys())[0]
+            delphi_logs = all_delphi_logs[best_prompt_id]
+            abs_errors = all_abs_errors[best_prompt_id]
+            briers = all_briers[best_prompt_id]
+            median_sf_briers = all_median_sf_briers[best_prompt_id]
+            median_public_briers = all_median_public_briers[best_prompt_id]
+            question_metrics = all_question_metrics[best_prompt_id]
+
+            if delphi_fitness_scores:
+                avg_fitness = delphi_fitness_scores[0]
+                print(f"  Average Delphi fitness on test set: {avg_fitness:.3f}")
+                self.evolution_results['final_validation'] = {
+                    'delphi_fitness': avg_fitness,
+                    'num_questions': len(test_questions),
+                    'questions_evaluated': [q.id for q in test_questions],
+                    'mean_absolute_error': float(np.mean(abs_errors)) if abs_errors else None,
+                    'std_error': float(np.std(abs_errors)) if abs_errors else None,
+                    'brier_score': float(np.mean(briers)) if briers else None,
+                    'superforecaster_brier_score': float(np.mean(median_sf_briers)) if median_sf_briers else None,
+                    'public_brier_score': float(np.mean(median_public_briers)) if median_public_briers else None,
+                    'predictions': delphi_logs,
+                    'metrics_by_question': question_metrics
+                }
+            else:
+                print("  No valid Delphi fitness scores obtained!")
 
     def save_results(self):
         """Save evolution results and best prompt."""
