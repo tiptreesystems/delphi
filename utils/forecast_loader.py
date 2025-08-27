@@ -14,43 +14,55 @@ from utils.llm_config import get_llm_from_config
 from utils.sampling import sample_questions
 import json
 
-def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, config, resolution_date):
+
+from convert_pickles_to_json import convert_pkl_to_json
+
+def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, config, selected_resolution_date, with_examples=True):
     """Generate initial forecasts for the given questions and save them to the specified path."""
     os.makedirs(initial_forecasts_path, exist_ok=True)
-    
+    forecast_type = 'with_examples' if with_examples else 'no_examples'
     initial_config = copy.deepcopy(config)
     initial_config['experiment']['seed'] = 42
-    
+
     print(f"🔧 Generating initial forecasts for {len(questions)} questions using fixed seed 42...")
-    
+
     from dataset.dataloader import ForecastDataLoader
     from icl_initial_forecasts import run_all_forecasts_with_examples
-    
+
     loader = ForecastDataLoader()
     llm = get_llm_from_config(initial_config)
-    
+
     for question in questions:
         print(f"  📊 Generating initial forecasts for question {question.id[:8]}...")
-        
+
         try:
+            pickle_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{q.id}.pkl'
+            pickle_path = os.path.join(initial_forecasts_path, pickle_filename)
+
+            if os.path.exists(pickle_path):
+                print(f"Pickle for question {q.id} ({forecast_type}) already exists, converting to json.")
+                convert_pkl_to_json(pickle_path, json_path)
+                continue
+
             results = asyncio.run(run_all_forecasts_with_examples(
                 [question],
                 loader=loader,
-                selected_resolution_date=resolution_date,
+                selected_resolution_date=selected_resolution_date,
                 config=initial_config,
                 llm=llm
             ))
-            
-            pickle_filename = f'collected_fcasts_with_examples_{resolution_date}_{question.id}.pkl'
-            pickle_path = os.path.join(initial_forecasts_path, pickle_filename)
-            with open(pickle_path, 'wb') as f:
-                pickle.dump(results, f)
-            print(f"  ✅ Saved initial forecasts for question {question.id[:8]} to {pickle_filename}")
-            
+
+            json_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{question.id}.json'
+            json_path = os.path.join(initial_forecasts_path, json_filename)
+            with open(json_path, 'w') as f:
+                json.dump(results, f)
+            print(f"  ✅ Saved initial forecasts for question {question.id[:8]} to {json_filename}")
+
+
         except Exception as e:
             print(f"  ❌ Failed to generate initial forecasts for question {question.id[:8]}: {e}")
             continue
-    
+
     print(f"✅ Initial forecasts generation completed in {initial_forecasts_path}")
 
 
@@ -62,25 +74,25 @@ def find_matching_initial_forecasts_dir(current_config: dict) -> str:
     results_path = Path("results")
     if not results_path.exists():
         return None
-    
+
     target_model = current_config.get('model', {}).get('name', '')
     target_n_experts = current_config.get('delphi', {}).get('n_experts', 0)
-    
+
     sweep_dirs = sorted([d for d in results_path.iterdir() if d.is_dir()],
                        key=lambda x: x.name, reverse=True)
     for sweep_dir in sweep_dirs:
         config_files = list(sweep_dir.glob("config_*.yml"))
-        
+
         for config_file in config_files:
             with open(config_file, 'r') as f:
                 other_config = yaml.safe_load(f)
-            
+
             other_model = other_config.get('model', {}).get('name', '')
             other_n_experts = other_config.get('delphi', {}).get('n_experts', 0)
-            
-            if (other_model == target_model and 
+
+            if (other_model == target_model and
                 other_n_experts == target_n_experts):
-                
+
                 config_base = config_file.stem.replace('config_', '')
                 possible_initial_dir = sweep_dir / f"results_{config_base}_initial"
                 if possible_initial_dir.exists():
@@ -89,7 +101,7 @@ def find_matching_initial_forecasts_dir(current_config: dict) -> str:
                         print(f"🔍 Found matching initial forecasts in: {possible_initial_dir}")
                         print(f"    (matched config: {config_file.name})")
                         return str(possible_initial_dir)
-                    
+
     print("❌ No matching initial forecasts directory found")
     return None
 
@@ -100,13 +112,13 @@ def load_pickled_forecasts(initial_forecasts_path: str, selected_resolution_date
         f for f in os.listdir(f"{initial_forecasts_path}/")
         if f.startswith("collected_fcasts_with_examples") and f.endswith(".pkl") and f"{selected_resolution_date}" in f
     ]
-    
+
     loaded_llmcasts = {}
     for fname in pkl_files:
         qid = fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".pkl")]
         with open(f"{initial_forecasts_path}/{fname}", "rb") as f:
             loaded_llmcasts[qid] = [q for q in pickle.load(f)]
-    
+
     questions = []
     for qid, payloads in loaded_llmcasts.items():
         if payloads:
@@ -115,7 +127,7 @@ def load_pickled_forecasts(initial_forecasts_path: str, selected_resolution_date
                 questions.append(question_obj)
             else:
                 print(f"Warning: Could not find Question object for ID {qid}")
-    
+
     llmcasts_by_qid_sfid = defaultdict(lambda: defaultdict(list))
     for qid, payloads in loaded_llmcasts.items():
         for i, p in enumerate(payloads):
@@ -127,9 +139,9 @@ def load_pickled_forecasts(initial_forecasts_path: str, selected_resolution_date
                         'full_conversation': p.get('full_conversation', []),
                         'examples_used': p.get('examples_used', [])
                     })
-    
+
     print(f"Loaded forecasts for {len(llmcasts_by_qid_sfid)} questions with experts")
-    
+
     example_pairs_by_qid_sfid = defaultdict(lambda: defaultdict(list))
     for qid, payloads in loaded_llmcasts.items():
         for p in payloads:
@@ -137,45 +149,12 @@ def load_pickled_forecasts(initial_forecasts_path: str, selected_resolution_date
             if sfid is not None:
                 example_pairs = p.get("examples_used", [])
                 example_pairs_by_qid_sfid[qid][sfid].append(example_pairs)
-    
+
     llmcasts_by_qid_sfid = {qid: dict(sfid_map) for qid, sfid_map in llmcasts_by_qid_sfid.items()}
     example_pairs_by_qid_sfid = {qid: dict(sfid_map) for qid, sfid_map in example_pairs_by_qid_sfid.items()}
-    
+
     return questions, llmcasts_by_qid_sfid, example_pairs_by_qid_sfid
 
-
-# def load_forecast_pickles(initial_forecasts_path, selected_resolution_date):
-#     """Load all forecast pickle files and return them organized by type."""
-#     pkl_files = [
-#         f for f in os.listdir(initial_forecasts_path)
-#         if f.startswith("collected_fcasts") and f.endswith(".pkl") and f"{selected_resolution_date}" in f
-#     ]
-
-#     # Split pkl files into with_examples and no_examples
-#     with_examples_files = [
-#         f for f in pkl_files
-#         if f.startswith("collected_fcasts_with_examples") and f"{selected_resolution_date}" in f
-#     ]
-#     no_examples_files = [
-#         f for f in pkl_files
-#         if f.startswith("collected_fcasts_no_examples") and f"{selected_resolution_date}" in f
-#     ]
-
-#     # Load with_examples forecasts
-#     loaded_fcasts_with_examples = {}
-#     for fname in with_examples_files:
-#         qid = fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".pkl")]
-#         with open(os.path.join(initial_forecasts_path, fname), "rb") as f:
-#             loaded_fcasts_with_examples[qid] = [q for q in pickle.load(f)]
-
-#     # Load no_examples forecasts
-#     loaded_fcasts_no_examples = {}
-#     for fname in no_examples_files:
-#         qid = fname[len(f"collected_fcasts_no_examples_{selected_resolution_date}_"): -len(".pkl")]
-#         with open(os.path.join(initial_forecasts_path, fname), "rb") as f:
-#             loaded_fcasts_no_examples[qid] = [q for q in pickle.load(f)]
-
-#     return loaded_fcasts_with_examples, loaded_fcasts_no_examples
 
 def load_forecast_jsons(initial_forecasts_path: str, selected_resolution_date: str, loader: ForecastDataLoader) -> Tuple[Dict, Dict]:
     """Load JSON forecast files from the specified directory."""
@@ -254,14 +233,13 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
     # Get and sample questions
     questions_with_topic = loader.get_questions_with_topics()
     print(f"Total questions available: {len(questions_with_topic)}")
-    sampled_questions = sample_questions(config, questions_with_topic, loader)[0:1]
+    sampled_questions = sample_questions(config, questions_with_topic, loader)
 
     # Generate initial forecasts if not reusing
     if not reuse_config.get('enabled', False):
         os.makedirs(initial_forecasts_path, exist_ok=True)
         from icl_initial_forecasts import run_all_forecasts_with_examples
         for q in sampled_questions:
-            # pickle_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.pkl'
             json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
             if os.path.exists(json_path) and config['processing']['skip_existing']:
                 print(f"JSON for question {q.id} already exists, skipping.")
