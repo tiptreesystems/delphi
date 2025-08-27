@@ -31,6 +31,9 @@ if not debugpy.is_client_connected():
     print("Waiting for debugger attach...")
     debugpy.wait_for_client()
 
+
+from utils.sampling import (TRAIN_QUESTION_IDS, EVALUATION_QUESTION_IDS, EVOLUTION_EVALUATION_QUESTION_IDS,)
+
 load_dotenv()
 
 
@@ -94,6 +97,14 @@ def _collect_example_forecasts(sampled_questions, loader, selected_date, *, min_
                 resolution_date=selected_date,
                 topic=q.topic,
             )
+
+            # Remove forecasts for the target question and any in EVALUATION_QUESTION_IDS or EVOLUTION_EVALUATION_QUESTION_IDS
+            forecasts = [
+                f for f in forecasts
+                if getattr(f, "id", None) != q.id
+                and getattr(f, "id", None) not in EVALUATION_QUESTION_IDS
+                and getattr(f, "id", None) not in EVOLUTION_EVALUATION_QUESTION_IDS
+            ]
 
             example_pairs = []
             for f in forecasts:
