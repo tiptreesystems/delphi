@@ -17,6 +17,7 @@ import random
 
 from dataset.dataloader import ForecastDataLoader, Question
 from expert import Expert
+from utils.forecast_loader import load_forecasts
 from utils.llm_config import get_llm_from_config
 from utils.probability_parser import extract_final_probability_with_retry
 from utils.prompt_loader import load_prompt
@@ -273,7 +274,6 @@ Now apply these strategies to the following question:
                 initial_forecasts_path = self.config['experiment']['initial_forecasts_dir']
 
                 # Try to load existing forecasts
-                from utils.forecast_loader import load_forecasts
                 llm = get_llm_from_config(eval_config, role='expert')
                 _, llmcasts_by_qid_sfid, _ = await load_forecasts(
                     self.config, self.loader, llm
@@ -633,7 +633,7 @@ Now apply these strategies to the following question:
         # Split into train and validation
         valid_ratio = self.config.get('training', {}).get('valid_ratio', 0.3)
         seed = self.config['experiment']['seed']
-        test_questions, valid_questions = split_train_valid(sampled_questions, valid_ratio, seed)
+        valid_questions, test_questions = split_train_valid(sampled_questions, valid_ratio, seed)
 
         # Use a subset of validation questions for fitness evaluation to speed up evolution
         batch_size = min(self.validation_batch_size, len(valid_questions))

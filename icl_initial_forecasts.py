@@ -16,8 +16,6 @@ from dotenv import load_dotenv
 from analyze.utils import analyze_forecast_results
 from dataset.dataloader import Forecast, ForecastDataLoader, Question
 from expert import Expert
-# from utils.forecast_loader import load_forecast_pickles
-from utils.forecast_loader import load_forecast_jsons
 from utils.llm_config import get_llm_from_config
 from utils.sampling import sample_questions_by_topic
 from utils.utils import load_experiment_config
@@ -406,6 +404,7 @@ def run_initial_forecast_experiment(config_path=None):
     )
     
     # Load and analyze results
+    from utils.forecast_loader import load_forecast_jsons
     loaded_with_examples, loaded_no_examples = load_forecast_jsons(initial_forecasts_path, selected_resolution_date, loader)
     
     sf_aggregate, q_aggregate, qid_to_label = analyze_forecast_results(

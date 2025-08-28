@@ -14,6 +14,9 @@ from utils.llm_config import get_llm_from_config
 from utils.sampling import sample_questions
 import json
 
+from dataset.dataloader import ForecastDataLoader
+from icl_initial_forecasts import run_all_forecasts_with_examples
+
 
 from convert_pickles_to_json import convert_pkl_to_json
 
@@ -26,8 +29,6 @@ def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, 
 
     print(f"🔧 Generating initial forecasts for {len(questions)} questions using fixed seed 42...")
 
-    from dataset.dataloader import ForecastDataLoader
-    from icl_initial_forecasts import run_all_forecasts_with_examples
 
     loader = ForecastDataLoader()
     llm = get_llm_from_config(initial_config)
@@ -258,12 +259,14 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
             json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
             if not os.path.exists(json_path):
                 print("Running generation of missing initial forecasts...")
+                from icl_initial_forecasts import run_all_forecasts_with_examples
                 results = await run_all_forecasts_with_examples(
                     [q], loader=loader, selected_resolution_date=selected_resolution_date,
                     config=config, llm=llm
                 )
                 with open(json_path, 'w') as f:
                     json.dump(results, f)
+                    print(f"Saved initial forecasts for question {q.id} at {json_path}")
     else:
         os.makedirs(initial_forecasts_path, exist_ok=True)
         from icl_initial_forecasts import run_all_forecasts_with_examples
