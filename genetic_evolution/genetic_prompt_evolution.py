@@ -298,7 +298,7 @@ class GeneticEvolutionPipeline:
         Evaluate fitness using full Delphi process with evolved prompts.
         Creates temporary prompt files and uses existing prompt version system.
         """
-        def _create_temp_prompt_file(self, prompt: str, temp_id: str):
+        def _create_temp_prompt_file(prompt: str, temp_id: str):
             """Create a temporary prompt file for evolved prompt evaluation."""
             from pathlib import Path
 
@@ -320,7 +320,7 @@ class GeneticEvolutionPipeline:
                 with open(temp_file, 'w') as f:
                     f.write(prompt)
 
-        def _cleanup_temp_prompt_file(self, temp_id: str):
+        def _cleanup_temp_prompt_file(temp_id: str):
             """Clean up temporary prompt file after evaluation."""
             from pathlib import Path
             import shutil
@@ -335,7 +335,7 @@ class GeneticEvolutionPipeline:
                 if temp_dir.exists():
                     shutil.rmtree(temp_dir)
 
-        async def _generate_minimal_forecasts(self, question, config):
+        async def _generate_minimal_forecasts(question, config):
             """Generate minimal initial forecasts for evaluation when none exist."""
             from utils.prompt_loader import load_prompt
 
@@ -405,7 +405,7 @@ class GeneticEvolutionPipeline:
 
             return llmcasts_by_sfid
 
-        from delphi_runner import initialize_experts, run_delphi_rounds, select_experts
+        from runners.delphi_runner import initialize_experts, run_delphi_rounds, select_experts
 
         resolution_date = self.config['data']['resolution_date']
         fitness_scores = []
@@ -429,7 +429,7 @@ class GeneticEvolutionPipeline:
 
             # Create temporary prompt file for this evolved prompt
             temp_prompt_id = f"evolved_{i}" if not is_final else "best_evolved"
-            self._create_temp_prompt_file(prompt, temp_prompt_id)
+            _create_temp_prompt_file(prompt, temp_prompt_id)
 
             total_score = 0.0
             valid_predictions = 0
@@ -524,7 +524,7 @@ class GeneticEvolutionPipeline:
                 else:
                     # No existing forecasts - generate minimal ones for evaluation
                     print(f"    No existing forecasts found, generating minimal ones for evaluation")
-                    llmcasts_by_sfid = await self._generate_minimal_forecasts(question, eval_config)
+                    llmcasts_by_sfid = await _generate_minimal_forecasts(question, eval_config)
 
 
                 # Initialize experts and run Delphi with evolved prompts
@@ -613,7 +613,7 @@ class GeneticEvolutionPipeline:
             all_question_metrics[temp_prompt_id] = question_metrics
 
             # Clean up temporary prompt file
-            self._cleanup_temp_prompt_file(temp_prompt_id)
+            _cleanup_temp_prompt_file(temp_prompt_id)
 
             # Calculate average fitness for this prompt
             if valid_predictions > 0:
