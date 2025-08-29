@@ -16,7 +16,7 @@ from collections import defaultdict
 import random
 
 from dataset.dataloader import ForecastDataLoader, Question
-from expert import Expert
+from agents.expert import Expert
 from utils.forecast_loader import load_forecasts
 from utils.llm_config import get_llm_from_config
 from utils.probability_parser import extract_final_probability_with_retry

@@ -15,12 +15,12 @@ from dotenv import load_dotenv
 
 from analyze.utils import analyze_forecast_results
 from dataset.dataloader import Forecast, ForecastDataLoader, Question
-from expert import Expert
+from agents.expert import Expert
 from utils.llm_config import get_llm_from_config
 from utils.sampling import sample_questions_by_topic
 from utils.utils import load_experiment_config
 
-from convert_pickles_to_json import convert_pkl_to_json, batch_convert_pickles
+from utils.convert_pickles_to_json import convert_pkl_to_json, batch_convert_pickles
 
 import debugpy
 
@@ -237,14 +237,14 @@ async def run_all_forecasts_with_examples(
         loader = ForecastDataLoader()
     if config is None:
         config = {}
-    
+
     # Get dates from config if not provided
     data_config = config.get('data', {})
     if selected_resolution_date is None:
         selected_resolution_date = data_config.get('resolution_date', '2025-07-21')
     if forecast_due_date is None:
         forecast_due_date = data_config.get('forecast_due_date', '2024-07-21')
-        
+
     specs = build_specs_with_examples(
         sampled_questions,
         loader=loader,
@@ -282,14 +282,14 @@ async def run_all_forecasts_baseline(
     # Use provided values or fall back to config/defaults
     if config is None:
         config = {}
-    
+
     # Get dates from config if not provided
     data_config = config.get('data', {})
     if selected_resolution_date is None:
         selected_resolution_date = data_config.get('resolution_date', '2025-07-21')
     if forecast_due_date is None:
         forecast_due_date = data_config.get('forecast_due_date', '2024-07-21')
-        
+
     specs = build_specs_baseline(sampled_questions)
     return await _run_specs(
         specs,
@@ -303,14 +303,14 @@ async def run_all_forecasts_baseline(
         config=config,
     )
 
-def generate_forecasts_for_questions(sampled_questions, selected_resolution_date, initial_forecasts_path, 
+def generate_forecasts_for_questions(sampled_questions, selected_resolution_date, initial_forecasts_path,
                                     forecast_due_date="2024-07-21", config=None, with_examples=True):
     """Generate forecasts (with or without examples) for a list of questions."""
     forecast_type = "with_examples" if with_examples else "no_examples"
     print(f'Collecting forecasts {forecast_type}...')
     print(f'{len(sampled_questions)} questions to collect forecasts for')
     print(sampled_questions)
-    
+
     for q in sampled_questions:
 
         json_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{q.id}.json'
@@ -321,16 +321,16 @@ def generate_forecasts_for_questions(sampled_questions, selected_resolution_date
 
         pickle_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{q.id}.pkl'
         pickle_path = os.path.join(initial_forecasts_path, pickle_filename)
-        
+
         if os.path.exists(pickle_path):
             print(f"Pickle for question {q.id} ({forecast_type}) already exists, converting to json.")
             convert_pkl_to_json(pickle_path, json_path)
-            
+
         print(f"Collecting {forecast_type} forecasts for question {q.id}...")
-        
+
         if with_examples:
             results = asyncio.run(run_all_forecasts_with_examples(
-                [q], 
+                [q],
                 selected_resolution_date=selected_resolution_date,
                 forecast_due_date=forecast_due_date,
                 config=config
@@ -342,7 +342,7 @@ def generate_forecasts_for_questions(sampled_questions, selected_resolution_date
                 forecast_due_date=forecast_due_date,
                 config=config
             ))
-            
+
         with open(json_path, 'w') as f:
             json.dump(results, f)
         print(f"Collected {forecast_type} forecasts for question {q.id}.")
@@ -352,16 +352,16 @@ def run_initial_forecast_experiment(config_path=None):
     """Main runner function for initial forecast generation and analysis."""
     config = load_experiment_config(config_path)
     print(f"Loaded configuration from: {config_path}")
-    
+
     # Get configuration values
     data_config = config.get('data', {})
     experiment_config = config.get('experiment', {})
-    
+
     # Extract dates and paths from config
     selected_resolution_date = data_config.get('resolution_date', '2025-07-21')
     forecast_due_date = data_config.get('forecast_due_date', '2024-07-21')
     initial_forecasts_path = experiment_config.get('initial_forecasts_dir', 'results_initial_forecasts')
-    
+
     # Set random seed
     seed = experiment_config.get('seed')
     random.seed(seed)
@@ -371,51 +371,51 @@ def run_initial_forecast_experiment(config_path=None):
     # Initialize data loader
     loader = ForecastDataLoader()
     questions_with_topic = loader.get_questions_with_topics()
-    
+
     # Get sampling configuration
     sampling_config = data_config.get('sampling', {})
     n_per_topic = sampling_config.get('n_per_topic', 3)
-    
+
     # Sample questions
     sampled_questions = sample_questions_by_topic(questions_with_topic, n_per_topic=n_per_topic)
     print(f"Sampled {len(sampled_questions)} questions")
-    
+
     # Filter questions with resolutions
     sampled_questions = [
         q for q in sampled_questions
         if loader.get_resolution(question_id=q.id, resolution_date=selected_resolution_date) is not None
     ]
     print(f"Filtered to {len(sampled_questions)} questions with resolutions")
-    
+
     # Ensure output directory exists
     if not os.path.exists(initial_forecasts_path):
         os.makedirs(initial_forecasts_path)
-    
+
     # Generate forecasts with examples
     generate_forecasts_for_questions(
         sampled_questions, selected_resolution_date, initial_forecasts_path,
         forecast_due_date=forecast_due_date, config=config, with_examples=True
     )
-    
+
     # Generate baseline forecasts (no examples)
     generate_forecasts_for_questions(
         sampled_questions, selected_resolution_date, initial_forecasts_path,
         forecast_due_date=forecast_due_date, config=config, with_examples=False
     )
-    
+
     # Load and analyze results
     from utils.forecast_loader import load_forecast_jsons
     loaded_with_examples, loaded_no_examples = load_forecast_jsons(initial_forecasts_path, selected_resolution_date, loader)
-    
+
     sf_aggregate, q_aggregate, qid_to_label = analyze_forecast_results(
         sampled_questions, loaded_with_examples, loaded_no_examples,
         loader, selected_resolution_date, forecast_due_date
     )
-    
+
     print(f"\nAnalysis complete:")
     print(f"  - Analyzed {len(q_aggregate)} questions")
     print(f"  - Found data for {len(sf_aggregate)} superforecasters")
-    
+
     return {
         'sampled_questions': sampled_questions,
         'loaded_with_examples': loaded_with_examples,
@@ -430,7 +430,7 @@ if __name__ == "__main__":
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Run initial forecasts with ICL")
     parser.add_argument(
-        "config_path", 
+        "config_path",
         nargs="?",  # Optional argument
         default='',
         help="Path to experiment configuration YAML file"

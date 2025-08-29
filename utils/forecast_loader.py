@@ -15,10 +15,10 @@ from utils.sampling import sample_questions
 import json
 
 from dataset.dataloader import ForecastDataLoader
-from icl_initial_forecasts import run_all_forecasts_with_examples
+from agents.icl_initial_forecasts import run_all_forecasts_with_examples
 
 
-from convert_pickles_to_json import convert_pkl_to_json
+from utils.convert_pickles_to_json import convert_pkl_to_json
 
 def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, config, selected_resolution_date, with_examples=True):
     """Generate initial forecasts for the given questions and save them to the specified path."""
@@ -259,7 +259,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
             json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
             if not os.path.exists(json_path):
                 print("Running generation of missing initial forecasts...")
-                from icl_initial_forecasts import run_all_forecasts_with_examples
+                from agents.icl_initial_forecasts import run_all_forecasts_with_examples
                 results = await run_all_forecasts_with_examples(
                     [q], loader=loader, selected_resolution_date=selected_resolution_date,
                     config=config, llm=llm
@@ -269,7 +269,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
                     print(f"Saved initial forecasts for question {q.id} at {json_path}")
     else:
         os.makedirs(initial_forecasts_path, exist_ok=True)
-        from icl_initial_forecasts import run_all_forecasts_with_examples
+        from agents.icl_initial_forecasts import run_all_forecasts_with_examples
         for q in sampled_questions:
             print(f"Collecting forecasts for question {q.id}...")
             results = await run_all_forecasts_with_examples(
