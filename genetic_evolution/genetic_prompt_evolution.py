@@ -27,6 +27,7 @@ from utils.superforecaster_utils import get_superforecaster_manager
 from genetic_evolution import GeneticPromptOptimizer, FitnessConfig
 from genetic_evolution.fitness_smooth_improvement import evaluate_prompt_smooth_improvement, calculate_delphi_fitness
 
+
 # import debugpy
 # if not debugpy.is_client_connected():
 #     debugpy.listen(5679)
@@ -37,15 +38,34 @@ from genetic_evolution.fitness_smooth_improvement import evaluate_prompt_smooth_
 class GeneticEvolutionPipeline:
     """Pipeline for genetic prompt evolution integrated with Delphi forecasting system."""
 
-    def __init__(self, config_path: str):
+    def __init__(self, config_path: str, dry_run: bool = False):
         self.config = yaml.safe_load(open(config_path))
+        self.dry_run = dry_run
         self.loader = ForecastDataLoader()
 
         # Initialize models
-        self.expert = Expert(
-            llm=get_llm_from_config(self.config, 'expert'),
-            config=self.config['model'].get('expert', {})
-        )
+        if self.dry_run:
+            # Use a lightweight in-process Dummy LLM for zero-network runs
+            from utils.models import BaseLLM
+
+            class DummyLLM(BaseLLM):
+                async def generate(self, prompt: str, max_tokens: int = 512, temperature: float = 0.0, **kwargs) -> str:
+                    text = (prompt or "").strip().replace("\n", " ")
+                    return f"[DRY-RUN MUTATION] {text[:200]}"
+
+                def generate_stream(self, prompt: str, max_tokens: int = 512, temperature: float = 0.0, **kwargs):
+                    if False:
+                        yield ""
+
+            dummy_llm = DummyLLM(system_prompt="")
+            self.expert = Expert(llm=dummy_llm, config=self.config['model'].get('expert', {}))
+            optimizer_llm = dummy_llm
+        else:
+            self.expert = Expert(
+                llm=get_llm_from_config(self.config, 'expert'),
+                config=self.config['model'].get('expert', {})
+            )
+            optimizer_llm = get_llm_from_config(self.config, 'learner')
 
         # Genetic algorithm configuration
         evolution_config = self.config.get('evolution', {})
@@ -109,7 +129,7 @@ class GeneticEvolutionPipeline:
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
         self.optimizer = GeneticPromptOptimizer(
-            llm=get_llm_from_config(self.config, 'learner'),
+            llm=optimizer_llm,
             population_config=population_config,
             fitness_config=fitness_config_obj,
             log_dir=str(self.output_dir),
@@ -122,56 +142,264 @@ class GeneticEvolutionPipeline:
         self.best_prompt = ""
         self.evolution_results = {}
 
-    async def run_expert_with_prompt(self, question: Question, prompt: str,
-                                   resolution_date: str) -> Tuple[float, str]:
-        """Run expert with a specific prompt."""
+    async def run_evolution(self):
+        """Run the genetic evolution process."""
 
-        # Get base question prompt
-        base_prompt = load_prompt(
-            'expert_forecast',
-            'v1',
-            question=question.question,
-            background=question.background,
-            resolution_criteria=question.resolution_criteria,
-            url=question.url,
-            freeze_datetime_value=question.freeze_datetime_value,
-            prior_forecast_info=""
-        )
+        print(f"\n{'='*80}")
+        print("GENETIC PROMPT EVOLUTION")
+        print(f"{'='*80}")
 
-        # Combine evolved prompt with question
-        if prompt.strip():
-            full_prompt = f"""{prompt}
+        # Get and prepare data, Split into train and validation
+        # Use a subset of validation questions for fitness evaluation to speed up evolution
+        all_questions = self.loader.get_questions_with_topics()
+        sampled_questions = sample_questions(self.config, all_questions, self.loader)
 
----
+        valid_ratio = self.config.get('training', {}).get('valid_ratio', 0.3)
+        seed = self.config['experiment']['seed']
+        train_questions, valid_questions = split_train_valid(sampled_questions, valid_ratio, seed)
 
-Now apply these strategies to the following question:
+        batch_size = min(self.validation_batch_size, len(train_questions))
+        self.validation_questions = random.sample(train_questions, batch_size)
 
-{base_prompt}"""
+        print(f"\nEvolution Configuration:")
+        print(f"  Population size: {self.population_size}")
+        print(f"  Max generations: {self.max_generations}")
+        print(f"  Elitism size: {self.elitism_size}")
+        print(f"  Tournament size: {self.tournament_size}")
+        print(f"  Initial mutation rate: {self.initial_mutation_rate}")
+        print(f"  Length penalty weight: {self.length_penalty_weight}")
+        print(f"  Validation batch size: {len(self.validation_questions)}")
+        print(f"  Include superforecaster reasoning: {self.include_reasoning}")
+        print(f"  Include superforecaster examples: {self.include_examples}")
+
+        if self.superforecaster_manager:
+            stats = self.superforecaster_manager.get_statistics()
+            print(f"  Superforecaster examples loaded: {stats['total_examples']}")
+            print(f"  Superforecaster topics: {stats.get('topics', [])}")
+
+        # Create seed prompts
+        seed_prompts = self.create_seed_prompts()
+        print(f"\nSeed prompts ({len(seed_prompts)}):")
+        for i, prompt in enumerate(seed_prompts, 1):
+            print(f"  {i}. {prompt}")
+
+        # Set evaluation function based on configuration
+        if self.dry_run:
+            print("Using DRY-RUN evaluator (no external calls).")
+            self.optimizer.set_evaluation_function(
+                lambda prompts, _: self._dry_run_evaluate(prompts)
+            )
+        elif self.use_delphi_evaluation:
+            print(f"Using Delphi-based fitness evaluation (optimizing: {self.optimize_component})")
+            if self.use_smooth_improvement:
+                print(f"  Fitness metric: Smooth improvement (variance_weight={self.variance_weight}, "
+                      f"smoothness_weight={self.smoothness_weight}, improvement_weight={self.improvement_weight})")
+            self.optimizer.set_evaluation_function(
+                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.validation_questions)
+            )
         else:
-            full_prompt = base_prompt
+            print("Using simple expert-based fitness evaluation")
+            self.optimizer.set_evaluation_function(
+                lambda prompts, _: self.evaluate_prompt_fitness(prompts, self.validation_questions)
+            )
 
-        # Get prediction
-        self.expert.conversation_manager.messages.clear()
-        temperature = self.config['model'].get('expert', {}).get('temperature', 0.3)
-        response = await self.expert.conversation_manager.generate_response(
-            full_prompt,
-            max_tokens=self.config['model'].get('expert', {}).get('max_tokens', 6000),
-            temperature=temperature
+        # Run evolution
+        print(f"\nStarting genetic evolution...")
+        print(f"{'='*80}")
+
+        self.evolution_results = await self.optimizer.evolve(
+            seed_prompts=seed_prompts,
+            validation_batch=self.validation_questions,
+            max_generations=self.max_generations,
+            save_every=5
         )
 
-        prob = await extract_final_probability_with_retry(
-            response,
-            self.expert.conversation_manager,
-            max_retries=3
-        )
+        # Get best prompt
+        self.best_prompt = self.optimizer.get_best_prompt()
 
-        return prob, response
+        print(f"\n{'='*80}")
+        print("EVOLUTION COMPLETED")
+        print(f"  Total generations: {self.evolution_results['total_generations']}")
+        print(f"  Best fitness: {self.evolution_results['best_fitness']:.3f}")
+        print(f"  Final mutation rate: {self.evolution_results['final_mutation_rate']:.3f}")
+        print(f"{'='*80}")
 
-    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False) -> List[float]:
+        if not self.dry_run:
+            # Evaluate best prompt on full validation set
+            print(f"\nEvaluating best prompt on full validation set of ({len(valid_questions)} questions)...")
+            await self.evaluate_final_performance(valid_questions)
+
+            # Also evaluate on evolution test set
+            evolution_test_questions = sample_questions(self.config, all_questions, self.loader, method_override='evolution_evaluation')
+            print(f"\nEvaluating best prompt on separate test set of ({len(evolution_test_questions)} questions...)")
+            await self.evaluate_final_performance(evolution_test_questions)
+        else:
+            print("\nDRY-RUN: Skipping final validation and test evaluations.")
+
+        # Save results
+        self.save_results()
+
+    def create_seed_prompts(self) -> List[str]:
+        """Create initial seed prompts for evolution."""
+        evolution_config = self.config.get('evolution', {})
+
+        # Check if custom seed prompts are provided
+        if 'seed_prompts' in evolution_config:
+            return evolution_config['seed_prompts']
+
+        # Create different seed prompts based on what we're optimizing
+        if self.optimize_component == 'mediator':
+            # Mediator-focused seed prompts
+            seed_prompts = [
+                "Analyze the expert forecasts and provide structured feedback to improve accuracy.",
+                "Review the predictions and highlight key considerations that may have been overlooked.",
+                "Synthesize the expert opinions and identify areas where reasoning could be strengthened.",
+                "Examine the forecasts for potential biases and suggest more calibrated approaches.",
+                "Provide constructive feedback to help experts refine their probability estimates.",
+                "Guide the experts toward better-calibrated predictions through targeted questions.",
+                "Identify inconsistencies in reasoning and promote convergence on well-justified forecasts.",
+                "Facilitate expert discussion by highlighting important factors and evidence."
+            ]
+        elif self.optimize_component == 'both':
+            # Mixed prompts for both expert and mediator
+            seed_prompts = [
+                "Apply systematic forecasting principles with structured reasoning and expert feedback.",
+                "Use analytical thinking for predictions while facilitating constructive expert discussion.",
+                "Combine careful probability estimation with effective synthesis of multiple viewpoints.",
+                "Balance individual forecasting skills with collaborative refinement processes.",
+                "Integrate base rate analysis with expert consensus-building techniques.",
+                "Apply both predictive reasoning and mediative guidance for optimal outcomes.",
+                "Use evidence-based forecasting enhanced by structured expert collaboration.",
+                "Combine systematic analysis with effective expert feedback mechanisms."
+            ]
+        else:
+            # Expert-focused seed prompts (default)
+            seed_prompts = [
+                "Forecast the probability of this event occurring by considering base rates and key factors.",
+                "Predict the outcome by systematically analyzing the question and available information.",
+                "Estimate the likelihood by examining historical patterns and current conditions.",
+                "Assess the probability using structured forecasting principles and careful reasoning.",
+                "Determine the forecast by applying systematic analysis and probabilistic thinking.",
+                "Consider base rates, reference classes, and specific factors to predict the probability.",
+                "Use analytical reasoning and historical context to forecast the outcome.",
+                "Apply forecasting best practices to estimate the probability of this event."
+            ]
+
+        # Take only what we need for population size
+        return seed_prompts[:self.population_size]
+
+    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False) -> Tuple[List[float], Tuple]:
         """
         Evaluate fitness using full Delphi process with evolved prompts.
         Creates temporary prompt files and uses existing prompt version system.
         """
+        def _create_temp_prompt_file(self, prompt: str, temp_id: str):
+            """Create a temporary prompt file for evolved prompt evaluation."""
+            from pathlib import Path
+
+            if self.optimize_component == 'expert' or self.optimize_component == 'both':
+                # Create temporary expert system prompt directory and file
+                prompt_dir = Path(f"prompts/expert_system/{temp_id}")
+                prompt_dir.mkdir(parents=True, exist_ok=True)
+
+                temp_file = prompt_dir / "v1.md"
+                with open(temp_file, 'w') as f:
+                    f.write(prompt)
+
+            if self.optimize_component == 'mediator' or self.optimize_component == 'both':
+                # Create temporary mediator system prompt directory and file
+                prompt_dir = Path(f"prompts/{temp_id}")
+                prompt_dir.mkdir(parents=True, exist_ok=True)
+
+                temp_file = prompt_dir / "md.md"
+                with open(temp_file, 'w') as f:
+                    f.write(prompt)
+
+        def _cleanup_temp_prompt_file(self, temp_id: str):
+            """Clean up temporary prompt file after evaluation."""
+            from pathlib import Path
+            import shutil
+
+            if self.optimize_component == 'expert' or self.optimize_component == 'both':
+                temp_dir = Path(f"prompts/expert_system/{temp_id}")
+                if temp_dir.exists():
+                    shutil.rmtree(temp_dir)
+
+            if self.optimize_component == 'mediator' or self.optimize_component == 'both':
+                temp_dir = Path(f"prompts/{temp_id}")
+                if temp_dir.exists():
+                    shutil.rmtree(temp_dir)
+
+        async def _generate_minimal_forecasts(self, question, config):
+            """Generate minimal initial forecasts for evaluation when none exist."""
+            from utils.prompt_loader import load_prompt
+
+            n_experts = config['delphi']['n_experts']
+            llm = get_llm_from_config(config, role='expert')
+
+            # Generate simple initial forecasts
+            llmcasts_by_sfid = {}
+
+            for i in range(n_experts):
+                sfid = f"eval_expert_{i}"
+
+                # Create a basic forecast prompt
+                prompt = load_prompt(
+                    'expert_forecast',
+                    config['model'].get('expert', {}).get('prompt_version', 'v1'),
+                    question=question.question,
+                    background=question.background,
+                    resolution_criteria=question.resolution_criteria,
+                    url=question.url,
+                    freeze_datetime_value=question.freeze_datetime_value,
+                    prior_forecast_info=""
+                )
+
+                # Generate a single forecast
+                try:
+                    response = await llm.generate(
+                        prompt,
+                        max_tokens=config['model'].get('expert', {}).get('max_tokens', 6000),
+                        temperature=config['model'].get('expert', {}).get('temperature', 0.3)
+                    )
+
+                    # Ensure the response has a valid FINAL PROBABILITY
+                    from utils.probability_parser import extract_final_probability
+                    prob = extract_final_probability(response)
+
+                    if prob == -1:
+                        print("=" * 40)
+                        print("=" * 40)
+                        print("=" * 40)
+                        print("FALLBACK: No valid FINAL PROBABILITY found in expert response.")
+                        print("=" * 40)
+                        print("=" * 40)
+                        print("=" * 40)
+                        # LLM didn't generate valid probability, append one
+                        fallback_prob = 0.3 + (i * 0.15)  # Spread experts across 0.3-0.75
+                        response += f"\n\nFINAL PROBABILITY: {fallback_prob:.2f}"
+
+                    # Create conversation structure expected by initialize_experts
+                    llmcasts_by_sfid[sfid] = [{
+                        'full_conversation': [
+                            {'role': 'user', 'content': prompt},
+                            {'role': 'assistant', 'content': response}
+                        ]
+                    }]
+
+                except Exception as e:
+                    print(f"    Warning: Failed to generate forecast for expert {i}: {e}")
+                    # Fallback to a simple mock forecast with guaranteed valid probability
+                    fallback_prob = 0.3 + (i * 0.15)
+                    llmcasts_by_sfid[sfid] = [{
+                        'full_conversation': [
+                            {'role': 'user', 'content': f"Forecast for: {question.question}"},
+                            {'role': 'assistant', 'content': f"Based on the available information, I estimate the probability at approximately {fallback_prob:.2f}.\n\nFINAL PROBABILITY: {fallback_prob:.2f}"}
+                        ]
+                    }]
+
+            return llmcasts_by_sfid
+
         from delphi_runner import initialize_experts, run_delphi_rounds, select_experts
 
         resolution_date = self.config['data']['resolution_date']
@@ -424,9 +652,13 @@ Now apply these strategies to the following question:
                 if median_sf_briers:
                     avg_median_sf_brier = float(np.mean(median_sf_briers))
                     summary += f"\n  Average median superforecaster brier: {avg_median_sf_brier:.3f}"
+                    median_median_sf_brier = float(np.median(median_sf_briers))
+                    summary += f"\n  Median Brier of median superforecaster scores: {median_median_sf_brier:.3f}"
                 if median_public_briers:
                     avg_median_public_brier = float(np.mean(median_public_briers))
                     summary += f"\n  Average median public forecaster brier: {avg_median_public_brier:.3f}"
+                    median_median_public_brier = float(np.median(median_public_briers))
+                    summary += f"\n  Median Brier of median public forecaster scores: {median_median_public_brier:.3f}"
                 print(summary)
             else:
                 print(f"Prompt {best_prompt_id}: No valid predictions.")
@@ -439,113 +671,6 @@ Now apply these strategies to the following question:
         except Exception:
             pass
         return fitness_scores, (all_delphi_logs, all_abs_errors, all_briers, all_median_superforecast_briers, all_median_public_briers, all_question_metrics)
-
-    def _create_temp_prompt_file(self, prompt: str, temp_id: str):
-        """Create a temporary prompt file for evolved prompt evaluation."""
-        from pathlib import Path
-
-        if self.optimize_component == 'expert' or self.optimize_component == 'both':
-            # Create temporary expert system prompt directory and file
-            prompt_dir = Path(f"prompts/expert_system/{temp_id}")
-            prompt_dir.mkdir(parents=True, exist_ok=True)
-
-            temp_file = prompt_dir / "v1.md"
-            with open(temp_file, 'w') as f:
-                f.write(prompt)
-
-        if self.optimize_component == 'mediator' or self.optimize_component == 'both':
-            # Create temporary mediator system prompt directory and file
-            prompt_dir = Path(f"prompts/{temp_id}")
-            prompt_dir.mkdir(parents=True, exist_ok=True)
-
-            temp_file = prompt_dir / "md.md"
-            with open(temp_file, 'w') as f:
-                f.write(prompt)
-
-    def _cleanup_temp_prompt_file(self, temp_id: str):
-        """Clean up temporary prompt file after evaluation."""
-        from pathlib import Path
-        import shutil
-
-        if self.optimize_component == 'expert' or self.optimize_component == 'both':
-            temp_dir = Path(f"prompts/expert_system/{temp_id}")
-            if temp_dir.exists():
-                shutil.rmtree(temp_dir)
-
-        if self.optimize_component == 'mediator' or self.optimize_component == 'both':
-            temp_dir = Path(f"prompts/{temp_id}")
-            if temp_dir.exists():
-                shutil.rmtree(temp_dir)
-
-    async def _generate_minimal_forecasts(self, question, config):
-        """Generate minimal initial forecasts for evaluation when none exist."""
-        from utils.prompt_loader import load_prompt
-
-        n_experts = config['delphi']['n_experts']
-        llm = get_llm_from_config(config, role='expert')
-
-        # Generate simple initial forecasts
-        llmcasts_by_sfid = {}
-
-        for i in range(n_experts):
-            sfid = f"eval_expert_{i}"
-
-            # Create a basic forecast prompt
-            prompt = load_prompt(
-                'expert_forecast',
-                config['model'].get('expert', {}).get('prompt_version', 'v1'),
-                question=question.question,
-                background=question.background,
-                resolution_criteria=question.resolution_criteria,
-                url=question.url,
-                freeze_datetime_value=question.freeze_datetime_value,
-                prior_forecast_info=""
-            )
-
-            # Generate a single forecast
-            try:
-                response = await llm.generate(
-                    prompt,
-                    max_tokens=config['model'].get('expert', {}).get('max_tokens', 6000),
-                    temperature=config['model'].get('expert', {}).get('temperature', 0.3)
-                )
-
-                # Ensure the response has a valid FINAL PROBABILITY
-                from utils.probability_parser import extract_final_probability
-                prob = extract_final_probability(response)
-
-                if prob == -1:
-                    print("=" * 40)
-                    print("=" * 40)
-                    print("=" * 40)
-                    print("FALLBACK: No valid FINAL PROBABILITY found in expert response.")
-                    print("=" * 40)
-                    print("=" * 40)
-                    print("=" * 40)
-                    # LLM didn't generate valid probability, append one
-                    fallback_prob = 0.3 + (i * 0.15)  # Spread experts across 0.3-0.75
-                    response += f"\n\nFINAL PROBABILITY: {fallback_prob:.2f}"
-
-                # Create conversation structure expected by initialize_experts
-                llmcasts_by_sfid[sfid] = [{
-                    'full_conversation': [
-                        {'role': 'user', 'content': prompt},
-                        {'role': 'assistant', 'content': response}
-                    ]
-                }]
-
-            except Exception as e:
-                print(f"    Warning: Failed to generate forecast for expert {i}: {e}")
-                # Fallback to a simple mock forecast with guaranteed valid probability
-                fallback_prob = 0.3 + (i * 0.15)
-                llmcasts_by_sfid[sfid] = [{
-                    'full_conversation': [
-                        {'role': 'user', 'content': f"Forecast for: {question.question}"},
-                        {'role': 'assistant', 'content': f"Based on the available information, I estimate the probability at approximately {fallback_prob:.2f}.\n\nFINAL PROBABILITY: {fallback_prob:.2f}"}
-                    ]
-                }]
-
-        return llmcasts_by_sfid
 
     async def evaluate_prompt_fitness(self, prompts: List[str], validation_batch: List[Question]) -> List[float]:
         """
@@ -619,139 +744,59 @@ Now apply these strategies to the following question:
             pass
         return fitness_scores
 
-    async def run_evolution(self):
-        """Run the genetic evolution process."""
+    async def _dry_run_evaluate(self, prompts: List[str], validation_batch: Optional[List[Question]] = None):
+        """Deterministic, no-LLM fitness for smoke testing pipeline wiring."""
+        target = self.target_length if hasattr(self, 'target_length') else 100
+        def score(p: str) -> float:
+            n = len((p or "").split())
+            return max(0.0, 1.0 - abs(n - target) / max(target, 1))
+        scores = [score(p) for p in prompts]
+        return scores, {}
 
-        print(f"\n{'='*80}")
-        print("GENETIC PROMPT EVOLUTION")
-        print(f"{'='*80}")
+    async def run_expert_with_prompt(self, question: Question, prompt: str,
+                                   resolution_date: str) -> Tuple[float, str]:
+        """Run expert with a specific prompt."""
 
-        # Get and prepare data
-        all_questions = self.loader.get_questions_with_topics()
-        sampled_questions = sample_questions(self.config, all_questions, self.loader)
-
-        # Split into train and validation
-        valid_ratio = self.config.get('training', {}).get('valid_ratio', 0.3)
-        seed = self.config['experiment']['seed']
-        valid_questions, test_questions = split_train_valid(sampled_questions, valid_ratio, seed)
-
-        # Use a subset of validation questions for fitness evaluation to speed up evolution
-        batch_size = min(self.validation_batch_size, len(valid_questions))
-        self.validation_questions = random.sample(valid_questions, batch_size)
-
-        print(f"\nEvolution Configuration:")
-        print(f"  Population size: {self.population_size}")
-        print(f"  Max generations: {self.max_generations}")
-        print(f"  Elitism size: {self.elitism_size}")
-        print(f"  Tournament size: {self.tournament_size}")
-        print(f"  Initial mutation rate: {self.initial_mutation_rate}")
-        print(f"  Length penalty weight: {self.length_penalty_weight}")
-        print(f"  Validation batch size: {len(self.validation_questions)}")
-        print(f"  Include superforecaster reasoning: {self.include_reasoning}")
-        print(f"  Include superforecaster examples: {self.include_examples}")
-
-        if self.superforecaster_manager:
-            stats = self.superforecaster_manager.get_statistics()
-            print(f"  Superforecaster examples loaded: {stats['total_examples']}")
-            print(f"  Superforecaster topics: {stats.get('topics', [])}")
-
-        # Create seed prompts
-        seed_prompts = self.create_seed_prompts()
-        print(f"\nSeed prompts ({len(seed_prompts)}):")
-        for i, prompt in enumerate(seed_prompts, 1):
-            print(f"  {i}. {prompt}")
-
-        # Set evaluation function based on configuration
-        if self.use_delphi_evaluation:
-            print(f"Using Delphi-based fitness evaluation (optimizing: {self.optimize_component})")
-            if self.use_smooth_improvement:
-                print(f"  Fitness metric: Smooth improvement (variance_weight={self.variance_weight}, "
-                      f"smoothness_weight={self.smoothness_weight}, improvement_weight={self.improvement_weight})")
-            self.optimizer.set_evaluation_function(
-                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.validation_questions)
-            )
-        else:
-            print("Using simple expert-based fitness evaluation")
-            self.optimizer.set_evaluation_function(
-                lambda prompts, _: self.evaluate_prompt_fitness(prompts, self.validation_questions)
-            )
-
-        # Run evolution
-        print(f"\nStarting genetic evolution...")
-        print(f"{'='*80}")
-
-        self.evolution_results = await self.optimizer.evolve(
-            seed_prompts=seed_prompts,
-            validation_batch=self.validation_questions,
-            max_generations=self.max_generations,
-            save_every=5
+        # Get base question prompt
+        base_prompt = load_prompt(
+            'expert_forecast',
+            'v1',
+            question=question.question,
+            background=question.background,
+            resolution_criteria=question.resolution_criteria,
+            url=question.url,
+            freeze_datetime_value=question.freeze_datetime_value,
+            prior_forecast_info=""
         )
 
-        # Get best prompt
-        self.best_prompt = self.optimizer.get_best_prompt()
+        # Combine evolved prompt with question
+        if prompt.strip():
+            full_prompt = f"""{prompt}
 
-        print(f"\n{'='*80}")
-        print("EVOLUTION COMPLETED")
-        print(f"  Total generations: {self.evolution_results['total_generations']}")
-        print(f"  Best fitness: {self.evolution_results['best_fitness']:.3f}")
-        print(f"  Final mutation rate: {self.evolution_results['final_mutation_rate']:.3f}")
-        print(f"{'='*80}")
+---
 
-        # Evaluate best prompt on full test set
-        print(f"\nEvaluating best prompt on full test set ({len(test_questions)} questions)...")
-        await self.evaluate_final_performance(test_questions)
+Now apply these strategies to the following question:
 
-        # Save results
-        self.save_results()
-
-    def create_seed_prompts(self) -> List[str]:
-        """Create initial seed prompts for evolution."""
-        evolution_config = self.config.get('evolution', {})
-
-        # Check if custom seed prompts are provided
-        if 'seed_prompts' in evolution_config:
-            return evolution_config['seed_prompts']
-
-        # Create different seed prompts based on what we're optimizing
-        if self.optimize_component == 'mediator':
-            # Mediator-focused seed prompts
-            seed_prompts = [
-                "Analyze the expert forecasts and provide structured feedback to improve accuracy.",
-                "Review the predictions and highlight key considerations that may have been overlooked.",
-                "Synthesize the expert opinions and identify areas where reasoning could be strengthened.",
-                "Examine the forecasts for potential biases and suggest more calibrated approaches.",
-                "Provide constructive feedback to help experts refine their probability estimates.",
-                "Guide the experts toward better-calibrated predictions through targeted questions.",
-                "Identify inconsistencies in reasoning and promote convergence on well-justified forecasts.",
-                "Facilitate expert discussion by highlighting important factors and evidence."
-            ]
-        elif self.optimize_component == 'both':
-            # Mixed prompts for both expert and mediator
-            seed_prompts = [
-                "Apply systematic forecasting principles with structured reasoning and expert feedback.",
-                "Use analytical thinking for predictions while facilitating constructive expert discussion.",
-                "Combine careful probability estimation with effective synthesis of multiple viewpoints.",
-                "Balance individual forecasting skills with collaborative refinement processes.",
-                "Integrate base rate analysis with expert consensus-building techniques.",
-                "Apply both predictive reasoning and mediative guidance for optimal outcomes.",
-                "Use evidence-based forecasting enhanced by structured expert collaboration.",
-                "Combine systematic analysis with effective expert feedback mechanisms."
-            ]
+{base_prompt}"""
         else:
-            # Expert-focused seed prompts (default)
-            seed_prompts = [
-                "Forecast the probability of this event occurring by considering base rates and key factors.",
-                "Predict the outcome by systematically analyzing the question and available information.",
-                "Estimate the likelihood by examining historical patterns and current conditions.",
-                "Assess the probability using structured forecasting principles and careful reasoning.",
-                "Determine the forecast by applying systematic analysis and probabilistic thinking.",
-                "Consider base rates, reference classes, and specific factors to predict the probability.",
-                "Use analytical reasoning and historical context to forecast the outcome.",
-                "Apply forecasting best practices to estimate the probability of this event."
-            ]
+            full_prompt = base_prompt
 
-        # Take only what we need for population size
-        return seed_prompts[:self.population_size]
+        # Get prediction
+        self.expert.conversation_manager.messages.clear()
+        temperature = self.config['model'].get('expert', {}).get('temperature', 0.3)
+        response = await self.expert.conversation_manager.generate_response(
+            full_prompt,
+            max_tokens=self.config['model'].get('expert', {}).get('max_tokens', 6000),
+            temperature=temperature
+        )
+
+        prob = await extract_final_probability_with_retry(
+            response,
+            self.expert.conversation_manager,
+            max_retries=3
+        )
+
+        return prob, response
 
     async def evaluate_final_performance(self, test_questions: List[Question]):
         """Evaluate the best evolved prompt on the full test set."""
@@ -774,6 +819,10 @@ Now apply these strategies to the following question:
                     sf_values = [sf.forecast for sf in superforecaster_forecasts]
                     sf_median = np.median(sf_values)
 
+                    public_forecasts = self.loader.get_public_forecasts(question_id=question.id, resolution_date=resolution_date)
+                    public_values = [pf.forecast for pf in public_forecasts]
+                    public_median = np.median(public_values) if public_values else None
+
                     # Get ground truth
                     resolution = self.loader.get_resolution(question.id, resolution_date)
                     if resolution and resolution.resolved:
@@ -787,6 +836,7 @@ Now apply these strategies to the following question:
                             'topic': question.topic,
                             'predicted_prob': pred_prob,
                             'superforecaster_median': sf_median,
+                            'public_median': public_median,
                             'actual_outcome': actual_outcome,
                             'error': error,
                             'reasoning': reasoning
@@ -803,7 +853,11 @@ Now apply these strategies to the following question:
                 mean_error = np.mean(errors)
                 std_error = np.std(errors)
                 brier_score = np.mean([(p['predicted_prob'] - p['actual_outcome'])**2 for p in predictions])
+                median_brier_score = np.median([(p['predicted_prob'] - p['actual_outcome'])**2 for p in predictions])
                 sf_brier_score = np.mean([(p['superforecaster_median'] - p['actual_outcome'])**2 for p in predictions])
+                median_sf_brier_score = np.median([(p['superforecaster_median'] - p['actual_outcome'])**2 for p in predictions])
+                public_brier_score = np.mean([(p['public_median'] - p['actual_outcome'])**2 for p in predictions])
+                median_public_brier_score = np.median([(p['public_median'] - p['actual_outcome'])**2 for p in predictions])
 
                 print(f"\nFinal Validation Results:")
                 print(f"  Questions evaluated: {len(predictions)}")
@@ -890,15 +944,15 @@ Now apply these strategies to the following question:
 
 
 async def main():
-    """Main entry point."""
     import argparse
 
     parser = argparse.ArgumentParser(description='Genetic Prompt Evolution for Delphi Forecasting')
     parser.add_argument('--config', type=str, required=True,
                        help='Path to YAML configuration file')
+    parser.add_argument('--dry-run', action='store_true', help='Run without external LLM/network calls')
     args = parser.parse_args()
 
-    pipeline = GeneticEvolutionPipeline(args.config)
+    pipeline = GeneticEvolutionPipeline(args.config, dry_run=args.dry_run)
     await pipeline.run_evolution()
 
 
