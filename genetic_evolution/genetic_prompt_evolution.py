@@ -163,9 +163,6 @@ class GeneticEvolutionPipeline:
         seed = self.config['experiment']['seed']
         train_questions, valid_questions = split_train_valid(sampled_questions, valid_ratio, seed)
 
-        batch_size = min(self.validation_batch_size, len(train_questions))
-        self.validation_questions = random.sample(train_questions, batch_size)
-
         print(f"\nEvolution Configuration:")
         print(f"  Population size: {self.population_size}")
         print(f"  Max generations: {self.max_generations}")
@@ -173,7 +170,6 @@ class GeneticEvolutionPipeline:
         print(f"  Tournament size: {self.tournament_size}")
         print(f"  Initial mutation rate: {self.initial_mutation_rate}")
         print(f"  Length penalty weight: {self.length_penalty_weight}")
-        print(f"  Validation batch size: {len(self.validation_questions)}")
         print(f"  Include superforecaster reasoning: {self.include_reasoning}")
         print(f"  Include superforecaster examples: {self.include_examples}")
 
@@ -188,10 +184,20 @@ class GeneticEvolutionPipeline:
         for i, prompt in enumerate(seed_prompts, 1):
             print(f"  {i}. {prompt}")
 
-        # Set evaluation function based on configuration
+        # Prepare train/validation batches
+        # Use a subset of training for speed; use full validation set for selection
+        batch_size = min(self.validation_batch_size, len(train_questions))
+        self.train_batch = random.sample(train_questions, batch_size)
+        self.validation_questions = valid_questions
+        print(f"\nData splits:")
+        print(f"  Train batch size (for guidance): {len(self.train_batch)} of {len(train_questions)}")
+        print(f"  Validation size (for selection): {len(self.validation_questions)}")
+
+        # Set evaluation functions based on configuration
         if self.dry_run:
             print("Using DRY-RUN evaluator (no external calls).")
-            self.optimizer.set_evaluation_function(
+            self.optimizer.set_evaluation_functions(
+                lambda prompts, _: self._dry_run_evaluate(prompts),
                 lambda prompts, _: self._dry_run_evaluate(prompts)
             )
         elif self.use_delphi_evaluation:
@@ -199,13 +205,16 @@ class GeneticEvolutionPipeline:
             if self.use_smooth_improvement:
                 print(f"  Fitness metric: Smooth improvement (variance_weight={self.variance_weight}, "
                       f"smoothness_weight={self.smoothness_weight}, improvement_weight={self.improvement_weight})")
-            self.optimizer.set_evaluation_function(
-                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.validation_questions)
+            # Train evaluation attaches traces; validation evaluation does not
+            self.optimizer.set_evaluation_functions(
+                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.train_batch, attach_traces=True),
+                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.validation_questions, attach_traces=False)
             )
         else:
             print("Using simple expert-based fitness evaluation")
-            self.optimizer.set_evaluation_function(
-                lambda prompts, _: self.evaluate_prompt_fitness(prompts, self.validation_questions)
+            self.optimizer.set_evaluation_functions(
+                lambda prompts, _: self.evaluate_prompt_fitness(prompts, self.train_batch, attach_traces=True),
+                lambda prompts, _: self.evaluate_prompt_fitness(prompts, self.validation_questions, attach_traces=False)
             )
 
         # Run evolution
@@ -214,7 +223,8 @@ class GeneticEvolutionPipeline:
 
         self.evolution_results = await self.optimizer.evolve(
             seed_prompts=seed_prompts,
-            validation_batch=self.validation_questions,
+            train_batch=self.train_batch,
+            val_batch=self.validation_questions,
             max_generations=self.max_generations,
             save_every=5
         )
@@ -293,7 +303,7 @@ class GeneticEvolutionPipeline:
         # Take only what we need for population size
         return seed_prompts[:self.population_size]
 
-    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False) -> Tuple[List[float], Tuple]:
+    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False, attach_traces: bool = True) -> Tuple[List[float], Tuple]:
         """
         Evaluate fitness using full Delphi process with evolved prompts.
         Creates temporary prompt files and uses existing prompt version system.
@@ -670,14 +680,15 @@ class GeneticEvolutionPipeline:
 
 
         # Attach traces to population
-        try:
-            self.optimizer.population.attach_reasoning_traces(all_traces)
-            self.optimizer.population.attach_performance_summaries(all_perf_summaries)
-        except Exception:
-            pass
+        if attach_traces:
+            try:
+                self.optimizer.population.attach_reasoning_traces(all_traces)
+                self.optimizer.population.attach_performance_summaries(all_perf_summaries)
+            except Exception:
+                pass
         return fitness_scores, (all_delphi_logs, all_abs_errors, all_briers, all_median_superforecast_briers, all_median_public_briers, all_question_metrics)
 
-    async def evaluate_prompt_fitness(self, prompts: List[str], validation_batch: List[Question]) -> List[float]:
+    async def evaluate_prompt_fitness(self, prompts: List[str], validation_batch: List[Question], attach_traces: bool = True) -> List[float]:
         """
         Evaluate fitness of prompts by testing on validation questions.
         This is the core fitness function for the genetic algorithm.
@@ -742,11 +753,12 @@ class GeneticEvolutionPipeline:
             all_perf_summaries.append(batch_summary)
             all_traces.append("\n\n".join(prompt_traces[-3:]))
 
-        try:
-            self.optimizer.population.attach_reasoning_traces(all_traces)
-            self.optimizer.population.attach_performance_summaries(all_perf_summaries)
-        except Exception:
-            pass
+        if attach_traces:
+            try:
+                self.optimizer.population.attach_reasoning_traces(all_traces)
+                self.optimizer.population.attach_performance_summaries(all_perf_summaries)
+            except Exception:
+                pass
         return fitness_scores
 
     async def _dry_run_evaluate(self, prompts: List[str], validation_batch: Optional[List[Question]] = None):

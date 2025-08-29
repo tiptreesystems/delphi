@@ -21,6 +21,9 @@ class PromptCandidate:
     parent_ids: Tuple[int, ...] = ()
     reasoning_traces: Optional[List[str]] = None
     performance_summary: Optional[str] = None
+    # Auxiliary fitness tracking for train/validation
+    train_fitness: float = 0.0
+    val_fitness: float = 0.0
 
 
 def tokenize_prompt(prompt: str) -> List[str]:

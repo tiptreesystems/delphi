@@ -32,7 +32,7 @@ class FitnessConfig:
 class GeneticPromptOptimizer:
     """
     Genetic algorithm optimizer for evolving prompts to maximize forecasting performance.
-    
+
     Features:
     - Population-based evolution with elitism
     - Tournament selection, crossover, and mutation
@@ -41,7 +41,7 @@ class GeneticPromptOptimizer:
     - Support for superforecaster reasoning and ICL examples
     - Comprehensive logging and statistics tracking
     """
-    
+
     def __init__(
         self,
         llm: BaseLLM,
@@ -53,7 +53,7 @@ class GeneticPromptOptimizer:
     ):
         """
         Initialize the genetic prompt optimizer.
-        
+
         Args:
             llm: Language model for evaluation
             population_config: Configuration for population management
@@ -66,68 +66,70 @@ class GeneticPromptOptimizer:
         self.fitness_config = fitness_config or FitnessConfig()
         self.max_concurrent_mutations = max_concurrent_mutations
         self.component_type = component_type
-        
+
         # Initialize population with default config
         pop_config = population_config or {}
         self.population = PromptPopulation(**pop_config)
         # Pass concurrency setting and component type to population
         self.population.max_concurrent_mutations = max_concurrent_mutations
         self.population.component_type = component_type
-        
+
         # Logging setup
         self.log_dir = Path(log_dir) if log_dir else Path("genetic_evolution_logs")
         self.log_dir.mkdir(exist_ok=True)
-        
+
         # Setup logger
         self.logger = logging.getLogger(f"genetic_optimizer_{id(self)}")
         self.logger.setLevel(logging.INFO)
-        
+
         # File handler
         log_file = self.log_dir / f"evolution_{self.population.generation}.log"
         file_handler = logging.FileHandler(log_file)
         file_handler.setLevel(logging.INFO)
-        
+
         # Console handler
         console_handler = logging.StreamHandler()
         console_handler.setLevel(logging.INFO)
-        
+
         # Formatter
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         file_handler.setFormatter(formatter)
         console_handler.setFormatter(formatter)
-        
+
         self.logger.addHandler(file_handler)
         self.logger.addHandler(console_handler)
-        
-        # Evaluation function (to be set by user)
-        self.evaluation_function: Optional[Callable] = None
-        
-    def set_evaluation_function(self, eval_func: Callable[[List[str]], List[float]]) -> None:
-        """
-        Set the function used to evaluate prompt fitness.
-        
-        Args:
-            eval_func: Function that takes list of prompts and returns list of fitness scores
-        """
-        self.evaluation_function = eval_func
-        
+
+        # Evaluation functions (to be set by user)
+        self.train_evaluation_function: Optional[Callable] = None
+        self.val_evaluation_function: Optional[Callable] = None
+
+    def set_evaluation_function(self, eval_func: Callable) -> None:
+        """Backward-compatible single evaluation setter (uses same for train/val)."""
+        self.train_evaluation_function = eval_func
+        self.val_evaluation_function = eval_func
+
+    def set_evaluation_functions(self, train_eval_func: Callable, val_eval_func: Callable) -> None:
+        """Set separate training and validation evaluation functions."""
+        self.train_evaluation_function = train_eval_func
+        self.val_evaluation_function = val_eval_func
+
     def calculate_fitness_with_penalty(self, base_fitness: float, prompt: str) -> float:
         """
         Calculate fitness with optional length penalty.
-        
+
         Args:
             base_fitness: Base fitness score from task performance
             prompt: Prompt text for length calculation
-            
+
         Returns:
             Final fitness score with length penalty applied
         """
         if self.fitness_config.length_penalty_weight == 0.0:
             return base_fitness
-            
+
         # Simple token count (split on whitespace)
         prompt_length = len(prompt.split())
-        
+
         if self.fitness_config.target_length is None:
             # Penalty for overly long prompts (generic penalty)
             length_penalty = max(0, (prompt_length - 100) * 0.01)  # Penalty after 100 tokens
@@ -135,30 +137,30 @@ class GeneticPromptOptimizer:
             # Penalty based on deviation from target length
             target = self.fitness_config.target_length
             length_penalty = abs(prompt_length - target) * 0.01
-            
+
         final_fitness = base_fitness - (self.fitness_config.length_penalty_weight * length_penalty)
         return final_fitness
-        
+
     def prepare_prompts_for_evaluation(self, prompts: List[str]) -> List[str]:
         """
         Prepare prompts for evaluation by adding superforecaster context if configured.
-        
+
         Args:
             prompts: Raw prompt texts
-            
+
         Returns:
             Enhanced prompts with superforecaster context (only for expert prompts)
         """
         # Don't enhance mediator prompts with superforecaster context
         if self.component_type == 'mediator':
             return prompts
-            
+
         if not self.fitness_config.superforecaster_manager:
             return prompts
-        
+
         enhanced_prompts = []
         manager = self.fitness_config.superforecaster_manager
-        
+
         for prompt in prompts:
             enhanced_prompt = manager.enhance_prompt(
                 prompt,
@@ -167,129 +169,150 @@ class GeneticPromptOptimizer:
                 n_examples=self.fitness_config.n_examples
             )
             enhanced_prompts.append(enhanced_prompt)
-            
+
         return enhanced_prompts
-        
+
     async def evolve(
         self,
         seed_prompts: List[str],
-        validation_batch: Any,
+        train_batch: Any,
+        val_batch: Any,
         max_generations: int = 40,
         save_every: int = 5
     ) -> Dict[str, Any]:
         """
         Run the genetic algorithm to evolve prompts.
-        
+
         Args:
             seed_prompts: Initial prompt population
             validation_batch: Validation data for fitness evaluation
             max_generations: Maximum number of generations to run
             save_every: Save progress every N generations
-            
+
         Returns:
             Dictionary with evolution results and statistics
         """
-        if not self.evaluation_function:
-            raise ValueError("Evaluation function not set. Use set_evaluation_function() first.")
-            
+        if not (self.train_evaluation_function and self.val_evaluation_function):
+            raise ValueError("Evaluation functions not set. Use set_evaluation_functions() first.")
+
         self.logger.info(f"Starting genetic evolution with {len(seed_prompts)} seed prompts")
         self.logger.info(f"Population size: {self.population.population_size}")
         self.logger.info(f"Max generations: {max_generations}")
-        
+
         # Initialize population
         self.population.initialize_population(seed_prompts)
         # Evolution loop
-        
+
         while not self.population.should_terminate(max_generations):
             generation_start_time = asyncio.get_event_loop().time()
-            
+
             self.logger.info(f"Generation {self.population.generation}")
-            
+
             # Get current prompts
             current_prompts = self.population.get_current_prompts()
-            
+
             # Prepare prompts with superforecaster context
             enhanced_prompts = self.prepare_prompts_for_evaluation(current_prompts)
-            
-            # Evaluate fitness
-            base_fitness_scores, _ = await self.evaluation_function(enhanced_prompts, validation_batch)
-       
-            # Apply length penalties
-            final_fitness_scores = []
-            for base_fitness, prompt in zip(base_fitness_scores, current_prompts):
-                final_fitness = self.calculate_fitness_with_penalty(base_fitness, prompt)
-                final_fitness_scores.append(final_fitness)
-            
-            # Update population fitness
-            self.population.evaluate_fitness(final_fitness_scores)
-            
+
+            # Evaluate training fitness (for guidance/traces)
+            train_result = await self.train_evaluation_function(enhanced_prompts, train_batch)
+            if isinstance(train_result, tuple) and len(train_result) >= 1:
+                base_train_fitness_scores = train_result[0]
+            else:
+                base_train_fitness_scores = train_result
+
+            # Evaluate validation fitness (for selection/retention)
+            val_result = await self.val_evaluation_function(enhanced_prompts, val_batch)
+            if isinstance(val_result, tuple) and len(val_result) >= 1:
+                base_val_fitness_scores = val_result[0]
+            else:
+                base_val_fitness_scores = val_result
+
+            # Apply length penalties to both
+            train_fitness_scores = []
+            val_fitness_scores = []
+            for bt, bv, prompt in zip(base_train_fitness_scores, base_val_fitness_scores, current_prompts):
+                train_fitness_scores.append(self.calculate_fitness_with_penalty(bt, prompt))
+                val_fitness_scores.append(self.calculate_fitness_with_penalty(bv, prompt))
+
+            # Attach auxiliary fitness and update selection fitness (validation)
+            self.population.attach_aux_fitness(train_fitness_scores, val_fitness_scores)
+            self.population.evaluate_fitness(val_fitness_scores)
+
             # Log generation statistics
             best_candidate = self.population.get_best_candidate()
             if best_candidate:
-                self.logger.info(f"Best fitness: {best_candidate.fitness:.4f}")
+                # Log both curves
+                best_train = max([c.train_fitness for c in self.population.population]) if self.population.population else 0.0
+                best_val = best_candidate.fitness
+                self.logger.info(f"Best fitness (train): {best_train:.4f}")
+                self.logger.info(f"Best fitness (val): {best_val:.4f}")
                 self.logger.info(f"Best prompt: {best_candidate.text[:100]}...")
-                
+
             self.logger.info(f"Mutation rate: {self.population.mutation_rate:.3f}")
             self.logger.info(f"Generations without improvement: {self.population.generations_without_improvement}")
-            
+
             # Save progress periodically
             if self.population.generation % save_every == 0:
                 await self.save_progress()
-                
+
             # Evolve to next generation
             await self.population.evolve_generation(self.llm)
-            
+
             generation_time = asyncio.get_event_loop().time() - generation_start_time
             self.logger.info(f"Generation {self.population.generation-1} completed in {generation_time:.2f}s")
-            
         # Final logging
         self.logger.info("Evolution completed!")
         final_summary = self.population.get_evolution_summary()
         best_candidate = self.population.get_best_candidate()
         actual_best_fitness = best_candidate.fitness if best_candidate else final_summary['best_fitness']
-        
+
         self.logger.info(f"Total generations: {final_summary['total_generations']}")
         self.logger.info(f"Best final fitness: {actual_best_fitness:.4f}")
-        
+
         # Save final results
         await self.save_final_results()
-        
+
         return final_summary
-        
+
     async def save_progress(self) -> None:
         """Save current evolution progress to files."""
         progress_file = self.log_dir / f"progress_gen_{self.population.generation}.json"
-        
+
         summary = self.population.get_evolution_summary()
         summary['current_population'] = [
             {
                 'text': candidate.text,
-                'fitness': candidate.fitness,
+                'fitness': candidate.fitness,  # selection (validation)
+                'train_fitness': getattr(candidate, 'train_fitness', None),
+                'val_fitness': getattr(candidate, 'val_fitness', None),
                 'generation': candidate.generation
             }
             for candidate in self.population.population
         ]
-        
+
         with open(progress_file, 'w') as f:
             json.dump(summary, f, indent=2)
-            
+
         self.logger.info(f"Progress saved to {progress_file}")
-        
+
     async def save_final_results(self) -> None:
         """Save final evolution results."""
         results_file = self.log_dir / "final_results.json"
-        
+
         summary = self.population.get_evolution_summary()
         summary['final_population'] = [
             {
                 'text': candidate.text,
                 'fitness': candidate.fitness,
+                'train_fitness': getattr(candidate, 'train_fitness', None),
+                'val_fitness': getattr(candidate, 'val_fitness', None),
                 'generation': candidate.generation,
                 'parent_ids': candidate.parent_ids
             }
             for candidate in self.population.population
         ]
-        
+
         # Add configuration info
         summary['config'] = {
             'population_size': self.population.population_size,
@@ -305,12 +328,12 @@ class GeneticPromptOptimizer:
                 'n_examples': self.fitness_config.n_examples
             }
         }
-        
+
         with open(results_file, 'w') as f:
             json.dump(summary, f, indent=2)
-            
+
         self.logger.info(f"Final results saved to {results_file}")
-        
+
     def get_best_prompt(self) -> Optional[str]:
         """Get the best prompt from the final population."""
         best_candidate = self.population.get_best_candidate()

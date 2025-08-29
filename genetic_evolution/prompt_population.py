@@ -25,6 +25,11 @@ class GenerationStats:
     fitness_std: float
     best_prompt: str
     mutation_rate: float
+    # Extended: track train/validation curves separately
+    train_best_fitness: float = 0.0
+    train_mean_fitness: float = 0.0
+    val_best_fitness: float = 0.0
+    val_mean_fitness: float = 0.0
 
 
 class PromptPopulation:
@@ -73,6 +78,8 @@ class PromptPopulation:
         self.generation = 0
         self.mutation_rate = initial_mutation_rate
         self.best_fitness_history: List[float] = []
+        self.train_best_fitness_history: List[float] = []
+        self.val_best_fitness_history: List[float] = []
         self.generations_without_improvement = 0
         self.generation_stats: List[GenerationStats] = []
         
@@ -132,6 +139,15 @@ class PromptPopulation:
         
         for candidate, fitness in zip(self.population, fitness_scores):
             candidate.fitness = fitness
+            candidate.val_fitness = fitness
+
+    def attach_aux_fitness(self, train_fitness_scores: List[float], val_fitness_scores: List[float]) -> None:
+        """Attach auxiliary train/val fitness scores to candidates without affecting selection."""
+        if not self.population:
+            return
+        for cand, tr, va in zip(self.population, train_fitness_scores, val_fitness_scores):
+            cand.train_fitness = tr
+            cand.val_fitness = va
             
     def get_current_prompts(self) -> List[str]:
         """Get the current population prompts as strings."""
@@ -162,13 +178,18 @@ class PromptPopulation:
         # Sort population by fitness (descending)
         self.population.sort(key=lambda x: x.fitness, reverse=True)
         
-        # Track fitness progress
-        best_fitness = self.population[0].fitness
-        self.best_fitness_history.append(best_fitness)
+        # Track fitness progress (selection uses validation fitness stored in candidate.fitness)
+        best_val_fitness = self.population[0].fitness
+        self.best_fitness_history.append(best_val_fitness)
+        # Also track train/val best curves
+        train_list = [getattr(c, 'train_fitness', 0.0) for c in self.population]
+        val_list = [getattr(c, 'val_fitness', c.fitness) for c in self.population]
+        self.train_best_fitness_history.append(max(train_list) if train_list else 0.0)
+        self.val_best_fitness_history.append(max(val_list) if val_list else 0.0)
         
         # Check for improvement
         if (len(self.best_fitness_history) > 1 and 
-            best_fitness <= self.best_fitness_history[-2]):
+            best_val_fitness <= self.best_fitness_history[-2]):
             self.generations_without_improvement += 1
         else:
             self.generations_without_improvement = 0
@@ -183,6 +204,9 @@ class PromptPopulation:
             
         # Record generation statistics
         fitnesses = [c.fitness for c in self.population]
+        # Compute means for train/val
+        train_mean = sum(train_list)/len(train_list) if train_list else 0.0
+        val_mean = sum(val_list)/len(val_list) if val_list else 0.0
         stats = GenerationStats(
             generation=self.generation,
             best_fitness=max(fitnesses),
@@ -190,7 +214,11 @@ class PromptPopulation:
             worst_fitness=min(fitnesses),
             fitness_std=(sum((f - sum(fitnesses)/len(fitnesses))**2 for f in fitnesses) / len(fitnesses))**0.5,
             best_prompt=self.population[0].text,
-            mutation_rate=self.mutation_rate
+            mutation_rate=self.mutation_rate,
+            train_best_fitness=max(train_list) if train_list else 0.0,
+            train_mean_fitness=train_mean,
+            val_best_fitness=max(val_list) if val_list else 0.0,
+            val_mean_fitness=val_mean
         )
         self.generation_stats.append(stats)
         
@@ -353,5 +381,7 @@ class PromptPopulation:
             'best_fitness': best.fitness if best else 0.0,
             'best_prompt': best.text if best else "",
             'fitness_history': self.best_fitness_history,
+            'train_best_fitness_history': self.train_best_fitness_history,
+            'val_best_fitness_history': self.val_best_fitness_history,
             'generation_stats': [asdict(stats) for stats in self.generation_stats]
         }
