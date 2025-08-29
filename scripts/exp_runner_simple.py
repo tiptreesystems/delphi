@@ -6,6 +6,7 @@ import argparse
 import signal
 import threading
 import yaml
+import tempfile
 
 
 def _pump(src, sinks):
@@ -39,6 +40,12 @@ def main():
         help="Working directory for the target process. Defaults to current directory.",
     )
     parser.add_argument(
+        "--seed",
+        type=int,
+        default=None,
+        help="Override experiment.seed in the provided --config (from passthrough args). Also appends 'seed_<n>' to output_dir.",
+    )
+    parser.add_argument(
         "args",
         nargs=argparse.REMAINDER,
         help="Additional args passed through to the target script (everything after '--').",
@@ -67,18 +74,65 @@ def main():
             break
 
     output_dir_from_config: Path | None = None
+    tmp_cfg_path: Path | None = None
+    tmp_dir_ctx = None
     if config_path is not None:
         cfg_p = Path(config_path)
         if cfg_p.exists():
             try:
                 with cfg_p.open("r", encoding="utf-8") as f:
                     cfg = yaml.safe_load(f) or {}
-                out_dir_str = (
-                    cfg.get("experiment", {}).get("output_dir")
-                    or cfg.get("experiment", {}).get("output_path")
-                )
-                if out_dir_str:
-                    output_dir_from_config = Path(out_dir_str)
+
+                # If seed override requested, write a temp config with updated seed and output_dir
+                if args.seed is not None:
+                    if "experiment" not in cfg:
+                        cfg["experiment"] = {}
+                    cfg["experiment"]["seed"] = int(args.seed)
+                    out_dir_str = (
+                        cfg["experiment"].get("output_dir")
+                        or cfg["experiment"].get("output_path")
+                    )
+                    if out_dir_str:
+                        # Append seed subfolder to keep runs separate
+                        out_with_seed = Path(out_dir_str) / f"seed_{args.seed}"
+                        cfg["experiment"]["output_dir"] = str(out_with_seed)
+                        output_dir_from_config = out_with_seed
+                    # Create temp config and swap in passthrough args
+                    tmp_dir_ctx = tempfile.TemporaryDirectory()
+                    tmp_cfg_path = Path(tmp_dir_ctx.name) / f"config_seed_{args.seed}.yaml"
+                    with tmp_cfg_path.open("w", encoding="utf-8") as tf:
+                        yaml.safe_dump(cfg, tf, sort_keys=False, default_flow_style=False, allow_unicode=True)
+                    # Replace --config in extra with temp path
+                    new_extra = []
+                    skip_next = False
+                    replaced = False
+                    for i, a in enumerate(extra):
+                        if skip_next:
+                            skip_next = False
+                            continue
+                        if a == "--config" and i + 1 < len(extra):
+                            new_extra.extend(["--config", str(tmp_cfg_path)])
+                            skip_next = True
+                            replaced = True
+                            continue
+                        if a.startswith("--config="):
+                            new_extra.append(f"--config={tmp_cfg_path}")
+                            replaced = True
+                            continue
+                        new_extra.append(a)
+                    if not replaced:
+                        # If no --config found, append one
+                        new_extra.extend(["--config", str(tmp_cfg_path)])
+                    extra = new_extra
+                else:
+                    # No seed override; just use output_dir for log placement
+                    out_dir_str = (
+                        cfg.get("experiment", {}).get("output_dir")
+                        or cfg.get("experiment", {}).get("output_path")
+                    )
+                    if out_dir_str:
+                        output_dir_from_config = Path(out_dir_str)
+                if output_dir_from_config is not None:
                     output_dir_from_config.mkdir(parents=True, exist_ok=True)
             except Exception:
                 pass
@@ -132,6 +186,10 @@ def main():
                 proc.kill()
                 ret = proc.wait()
         t.join()
+
+    # Cleanup temp config directory if used
+    if tmp_dir_ctx is not None:
+        tmp_dir_ctx.cleanup()
 
     if ret != 0:
         print(f"EXIT CODE {ret} (see {log_path})", file=sys.stderr)
