@@ -914,30 +914,49 @@ Now apply these strategies to the following question:
         """Save evolution results and best prompt."""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
+        # In dry-run, keep artifacts separate and clearly marked
+        if self.dry_run:
+            out_dir = self.output_dir / "dry_run"
+            out_dir.mkdir(parents=True, exist_ok=True)
+            suffix = "_DRYRUN"
+        else:
+            out_dir = self.output_dir
+            suffix = ""
+
+        # Defensive: ensure best_prompt is a string
+        best_prompt_text = self.best_prompt or ""
+
         # Save best prompt
-        best_prompt_path = self.output_dir / f"best_evolved_prompt_{timestamp}.md"
+        best_prompt_path = out_dir / f"best_evolved_prompt_{timestamp}{suffix}.md"
         with open(best_prompt_path, 'w') as f:
-            f.write(f"# Best Evolved Prompt\n\n")
+            f.write("# Best Evolved Prompt\n\n")
+            if self.dry_run:
+                f.write("Mode: DRY RUN (no external calls)\n")
             f.write(f"Generated: {timestamp}\n")
             f.write(f"Fitness: {self.evolution_results.get('best_fitness', 0.0):.3f}\n")
             f.write(f"Generations: {self.evolution_results.get('total_generations', 0)}\n\n")
             f.write("## Prompt\n\n")
-            f.write(self.best_prompt)
+            f.write(best_prompt_text)
 
         # Save complete results
-        results_path = self.output_dir / f"genetic_evolution_results_{timestamp}.json"
+        results_path = out_dir / f"genetic_evolution_results_{timestamp}{suffix}.json"
         complete_results = {
             'config': self.config,
             'timestamp': timestamp,
             'evolution_results': self.evolution_results,
-            'best_prompt': self.best_prompt,
-            'superforecaster_stats': self.superforecaster_manager.get_statistics() if self.superforecaster_manager else {}
+            'best_prompt': best_prompt_text,
+            'dry_run': self.dry_run,
         }
+        # Only include heavy stats when not in dry run (optional, but cleaner)
+        if not self.dry_run:
+            complete_results['superforecaster_stats'] = (
+                self.superforecaster_manager.get_statistics() if self.superforecaster_manager else {}
+            )
 
         with open(results_path, 'w') as f:
             json.dump(complete_results, f, indent=2)
 
-        print(f"\nResults saved:")
+        print("\nResults saved:")
         print(f"  Best prompt: {best_prompt_path}")
         print(f"  Complete results: {results_path}")
         print(f"  Evolution logs: {self.output_dir}")
