@@ -252,42 +252,42 @@ def sample_questions(config: dict, questions_with_topic: List, loader, method_ov
 def _handle_predefined_questions(include_ids, questions_with_topic, reuse_config,
                                 initial_forecasts_path, selected_resolution_date, config, method_name):
     """Handle tune and evaluation question sampling."""
-    if reuse_config.get('enabled', False):
-        if os.path.exists(initial_forecasts_path):
-            pkl_files = [
-                f for f in os.listdir(initial_forecasts_path)
-                if f.startswith("collected_fcasts_with_examples") and f.endswith(".json") and f"{selected_resolution_date}" in f
-            ]
-            existing_question_ids = [fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".json")] for fname in pkl_files]
-            available_eval_ids = [id for id in include_ids if id in existing_question_ids]
-        else:
-            available_eval_ids = []
+    # if reuse_config.get('enabled', False):
+    #     if os.path.exists(initial_forecasts_path):
+    #         pkl_files = [
+    #             f for f in os.listdir(initial_forecasts_path)
+    #             if f.startswith("collected_fcasts_with_examples") and f.endswith(".json") and f"{selected_resolution_date}" in f
+    #         ]
+    #         existing_question_ids = [fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".json")] for fname in pkl_files]
+    #         available_eval_ids = [id for id in include_ids if id in existing_question_ids]
+    #     else:
+    #         available_eval_ids = []
 
-        if len(available_eval_ids) == len(include_ids):
-            sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
-            print(f"Sampling method: {method_name} ({len(sampled_questions)} questions from existing initial forecasts)")
-        else:
-            missing_ids = [id for id in include_ids if id not in available_eval_ids]
-            print(f"Missing initial forecasts for {len(missing_ids)} {method_name} questions, generating...")
+    #     if len(available_eval_ids) == len(include_ids):
+    #         sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
+    #         print(f"Sampling method: {method_name} ({len(sampled_questions)} questions from existing initial forecasts)")
+    #     else:
+    #         missing_ids = [id for id in include_ids if id not in available_eval_ids]
+    #         print(f"Missing initial forecasts for {len(missing_ids)} {method_name} questions, generating...")
 
-            sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
+    #         sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
 
-            if not sampled_questions:
-                raise ValueError(f"No questions found matching the {method_name} include_ids")
+    #         if not sampled_questions:
+    #             raise ValueError(f"No questions found matching the {method_name} include_ids")
 
-            missing_questions = [q for q in sampled_questions if q.id in missing_ids]
-            if missing_questions:
-                from utils.forecast_loader import generate_initial_forecasts_for_questions
-                generate_initial_forecasts_for_questions(missing_questions, initial_forecasts_path, config, selected_resolution_date)
+    #         missing_questions = [q for q in sampled_questions if q.id in missing_ids]
+    #         if missing_questions:
+    #             from utils.forecast_loader import generate_initial_forecasts_for_questions
+    #             generate_initial_forecasts_for_questions(missing_questions, initial_forecasts_path, config, selected_resolution_date)
 
-            print(f"Sampling method: {method_name} ({len(sampled_questions)} questions, generated {len(missing_questions)} new initial forecasts)")
-    else:
-        sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
+    #         print(f"Sampling method: {method_name} ({len(sampled_questions)} questions, generated {len(missing_questions)} new initial forecasts)")
+    # else:
+    sampled_questions = [q for q in questions_with_topic if q.id in include_ids]
 
-        if not sampled_questions:
-            raise ValueError(f"No questions found matching the {method_name} include_ids")
+    if not sampled_questions:
+        raise ValueError(f"No questions found matching the {method_name} include_ids")
 
-        print(f"Sampling method: {method_name} ({len(sampled_questions)} questions from predefined list, no reuse)")
+    print(f"Sampling method: {method_name} ({len(sampled_questions)} questions from predefined list, no reuse)")
 
     return sampled_questions
 
