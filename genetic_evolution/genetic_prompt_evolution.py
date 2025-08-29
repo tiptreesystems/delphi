@@ -124,15 +124,20 @@ class GeneticEvolutionPipeline:
             n_examples=self.n_examples
         )
 
-        # Create output directory
+        # Create output directory; in dry-run, route logs to a subfolder
         self.output_dir = Path(self.config['experiment']['output_dir'])
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        if self.dry_run:
+            self.log_dir = self.output_dir / "dry_run"
+            self.log_dir.mkdir(parents=True, exist_ok=True)
+        else:
+            self.log_dir = self.output_dir
 
         self.optimizer = GeneticPromptOptimizer(
             llm=optimizer_llm,
             population_config=population_config,
             fitness_config=fitness_config_obj,
-            log_dir=str(self.output_dir),
+            log_dir=str(self.log_dir),
             max_concurrent_mutations=self.max_concurrent_mutations,
             component_type=self.optimize_component
         )
@@ -959,7 +964,8 @@ Now apply these strategies to the following question:
         print("\nResults saved:")
         print(f"  Best prompt: {best_prompt_path}")
         print(f"  Complete results: {results_path}")
-        print(f"  Evolution logs: {self.output_dir}")
+        # Log directory reflects dry-run routing
+        print(f"  Evolution logs: {self.log_dir}")
 
 
 async def main():
