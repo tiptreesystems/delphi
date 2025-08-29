@@ -1,4 +1,11 @@
-# run_many.py
+"""
+Overnight experiment runner (updated):
+- Runs a target script with uv across multiple seeds
+- Writes per-seed temp configs
+- Logs to the experiment's output_dir from the config
+- Supports passing extra args to the target after '--'
+"""
+
 import sys
 import subprocess
 from pathlib import Path
@@ -7,30 +14,10 @@ import tempfile
 import copy
 import signal
 import threading
-
-import yaml  # pip install pyyaml
-
-
-# =========================
-# Configuration (edit these)
-# =========================
-SCRIPT = Path("/home/williaar/projects/delphi/run_genetic_evolution.py")  # the script you want to run
-CONFIG = Path("/home/williaar/projects/delphi/configs/genetic_evolution_mediator_smooth_o3_full.yml")  # base config
-SEEDS = [1, 2, 3, 4, 5]  # seeds to run
-timestamp_all = datetime.now().strftime("%Y%m%d_%H%M%S")
-LOG_DIR = Path(
-    f"/home/williaar/projects/delphi/results/genetic_evolution_mediator_smooth_40_o3/logs/{timestamp_all}/"
-)
-
-# If your script uses a different CLI, change this factory to build the command.
-# For example, Hydra or argparse might expect "--config", "--cfg", or "-c", etc.
-def build_cmd(tmp_cfg_path: Path):
-    return ["uv", "run", str(SCRIPT), "--config", str(tmp_cfg_path)]
+import argparse
+import yaml
 
 
-# =========================
-# Utilities
-# =========================
 def read_yaml(p: Path) -> dict:
     with p.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f)
@@ -38,13 +25,7 @@ def read_yaml(p: Path) -> dict:
 
 def write_yaml(p: Path, data: dict) -> None:
     with p.open("w", encoding="utf-8") as f:
-        yaml.safe_dump(
-            data,
-            f,
-            sort_keys=False,
-            default_flow_style=False,
-            allow_unicode=True,
-        )
+        yaml.safe_dump(data, f, sort_keys=False, default_flow_style=False, allow_unicode=True)
 
 
 def set_nested(d: dict, path, value):
@@ -57,29 +38,79 @@ def set_nested(d: dict, path, value):
 
 
 def _pump(src, sinks):
-    """Copy bytes from src (a pipe) to each sink (binary file-like), line-buffered."""
     for chunk in iter(lambda: src.readline(8192), b""):
         for s in sinks:
             s.write(chunk)
             s.flush()
 
 
-# =========================
-# Main
-# =========================
+def _filter_config_args(args_list: list[str]) -> list[str]:
+    """Remove any --config occurrences from passthrough args; we provide our own."""
+    out = []
+    skip_next = False
+    for i, a in enumerate(args_list):
+        if skip_next:
+            skip_next = False
+            continue
+        if a == "--config":
+            skip_next = True
+            continue
+        if a.startswith("--config="):
+            continue
+        out.append(a)
+    return out
+
+
 def main():
-    if not SCRIPT.exists():
-        print(f"Script not found: {SCRIPT}", file=sys.stderr)
+    parser = argparse.ArgumentParser(description="Run a script across seeds via 'uv run' and tee output to logs.")
+    parser.add_argument("--script", type=Path, required=True, help="Path to Python script to run with 'uv run'")
+    parser.add_argument("--config", type=Path, required=True, help="Base YAML config path")
+    parser.add_argument("--seeds", type=int, nargs="+", default=[1, 2, 3, 4, 5], help="List of integer seeds")
+    parser.add_argument("--cwd", type=Path, default=None, help="Working directory for the process. Defaults to current.")
+    parser.add_argument("args", nargs=argparse.REMAINDER, help="Extra args to pass to the target script after '--'.")
+
+    args = parser.parse_args()
+
+    script_path: Path = args.script
+    config_path: Path = args.config
+    seeds: list[int] = args.seeds
+
+    if not script_path.exists():
+        print(f"Script not found: {script_path}", file=sys.stderr)
         sys.exit(1)
-    if not CONFIG.exists():
-        print(f"Config not found: {CONFIG}", file=sys.stderr)
+    if not config_path.exists():
+        print(f"Config not found: {config_path}", file=sys.stderr)
         sys.exit(1)
 
-    LOG_DIR.mkdir(parents=True, exist_ok=True)
-    base_cfg = read_yaml(CONFIG)
+    base_cfg = read_yaml(config_path)
+    out_dir_str = (
+        base_cfg.get("experiment", {}).get("output_dir")
+        or base_cfg.get("experiment", {}).get("output_path")
+    )
+    if not out_dir_str:
+        print("Config missing experiment.output_dir; cannot determine log directory.", file=sys.stderr)
+        sys.exit(1)
+    output_dir = Path(out_dir_str)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    for seed in SEEDS:
-        # 1) make a temp config with the seed override
+    # Group logs under output_dir/logs/<timestamp>
+    timestamp_all = datetime.now().strftime("%Y%m%d_%H%M%S")
+    logs_dir = output_dir / "logs" / timestamp_all
+    logs_dir.mkdir(parents=True, exist_ok=True)
+
+    # Passthrough args after '--', without any '--config' payload
+    extra = []
+    if args.args:
+        extra = [a for a in args.args if a != "--"]
+        extra = _filter_config_args(extra)
+
+    script_abs = script_path.resolve()
+    run_cwd = args.cwd.resolve() if args.cwd is not None else None
+    if run_cwd is not None and not run_cwd.exists():
+        print(f"Working directory not found: {run_cwd}", file=sys.stderr)
+        sys.exit(1)
+
+    for seed in seeds:
         cfg_copy = copy.deepcopy(base_cfg)
         set_nested(cfg_copy, ["experiment", "seed"], int(seed))
 
@@ -87,35 +118,28 @@ def main():
             tmp_cfg_path = Path(td) / f"config_seed_{seed}.yaml"
             write_yaml(tmp_cfg_path, cfg_copy)
 
-            # 2) build log filename (per-seed, per-run timestamp)
             run_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-            log_name = f"{SCRIPT.stem}_seed{seed}_{run_ts}.log"
-            log_path = LOG_DIR / log_name
+            log_path = logs_dir / f"{script_path.stem}_seed{seed}_{run_ts}.log"
 
-            # 3) construct command
-            cmd = build_cmd(tmp_cfg_path)
+            cmd = ["uv", "run", str(script_abs), "--config", str(tmp_cfg_path)] + extra
 
             print(f"[seed {seed}] Running: {' '.join(cmd)}")
             print(f"[seed {seed}] Logging -> {log_path}")
 
-            # 4) run the job, tee stdout+stderr to both file and console; handle Ctrl-C
             with log_path.open("wb") as logf:
                 proc = subprocess.Popen(
                     cmd,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.STDOUT,
-                    cwd=str(SCRIPT.parent) if str(SCRIPT.parent) != "" else None,
+                    cwd=str(run_cwd) if run_cwd is not None else None,
                     bufsize=1,
-                    text=False,  # read bytes; we pump as bytes
+                    text=False,
                 )
-                t = threading.Thread(
-                    target=_pump, args=(proc.stdout, [logf, sys.stdout.buffer]), daemon=True
-                )
+                t = threading.Thread(target=_pump, args=(proc.stdout, [logf, sys.stdout.buffer]), daemon=True)
                 t.start()
                 try:
                     ret = proc.wait()
                 except KeyboardInterrupt:
-                    # Propagate SIGINT to child; wait a bit; then kill if needed
                     proc.send_signal(signal.SIGINT)
                     try:
                         ret = proc.wait(timeout=10)
