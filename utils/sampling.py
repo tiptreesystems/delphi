@@ -150,7 +150,7 @@ def sample_questions_by_topic(questions, n_per_topic=None, seed=42):
     sampled_questions = [q for qs in topic_to_questions.values() for q in qs]
     return sampled_questions
 
-def sample_questions(config: dict, questions_with_topic: List, loader) -> List:
+def sample_questions(config: dict, questions_with_topic: List, loader, method_override=None) -> List:
     """Sample questions based on the configuration."""
     sampling_config = config['data']['sampling']
     experiment_config = config['experiment']
@@ -160,7 +160,9 @@ def sample_questions(config: dict, questions_with_topic: List, loader) -> List:
     seed = experiment_config['seed']
     seed_everything(seed)
     print(f"Set random seed to {seed} before question sampling")
-
+    if method_override is not None:
+        sampling_config['method'] = method_override
+        print(f"Overriding sampling method to: {method_override}")
     method = sampling_config['method']
 
     if method == 'by_topic':
