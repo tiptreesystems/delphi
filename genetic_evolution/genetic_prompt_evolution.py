@@ -303,7 +303,7 @@ class GeneticEvolutionPipeline:
         # Take only what we need for population size
         return seed_prompts[:self.population_size]
 
-    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False, attach_traces: bool = True) -> Tuple[List[float], Tuple]:
+    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False, attach_traces: bool = True):
         """
         Evaluate fitness using full Delphi process with evolved prompts.
         Creates temporary prompt files and uses existing prompt version system.
@@ -430,6 +430,7 @@ class GeneticEvolutionPipeline:
 
         print(f"Evaluating {len(prompts)} prompts using full Delphi process on {len(validation_batch)} questions...")
 
+        per_prompt_metrics: List[Dict] = []
         for i, prompt in enumerate(prompts):
             print(f"  Evaluating prompt {i+1}/{len(prompts)} via Delphi: {prompt[:50]}...")
 
@@ -650,6 +651,40 @@ class GeneticEvolutionPipeline:
             all_perf_summaries.append(batch_summary)
             all_traces.append("\n\n".join(prompt_traces[-3:]))
 
+            # Build per-prompt metric summary
+            metrics_dict = {
+                'num_questions': valid_predictions,
+                'mean_abs_error': float(np.mean(abs_errors)) if abs_errors else None,
+                'mean_brier': float(np.mean(briers)) if briers else None,
+                'sf_mean_brier': float(np.mean(median_superforecast_briers)) if median_superforecast_briers else None,
+                'public_mean_brier': float(np.mean(median_public_briers)) if median_public_briers else None,
+            }
+
+            # Compute smooth improvement metrics from Delphi logs
+            try:
+                outcomes = {}
+                for qid, qm in all_question_metrics[temp_prompt_id].items():
+                    if qm.get('actual_outcome') is not None:
+                        outcomes[qid] = qm['actual_outcome']
+                if delphi_logs and outcomes:
+                    delphi_metrics = calculate_delphi_fitness(
+                        delphi_logs,
+                        outcomes,
+                        variance_weight=self.variance_weight,
+                        smoothness_weight=self.smoothness_weight,
+                        improvement_weight=self.improvement_weight,
+                    )
+                    metrics_dict.update({
+                        'delphi_total_improvement': float(delphi_metrics.total_improvement),
+                        'delphi_improvement_variance': float(delphi_metrics.improvement_variance),
+                        'delphi_smoothness': float(delphi_metrics.smoothness_score),
+                        'delphi_fitness': float(delphi_metrics.fitness),
+                    })
+            except Exception:
+                pass
+
+            per_prompt_metrics.append(metrics_dict)
+
         # give final summary if is_final
         if is_final:
             print(f"\nFinal performance summary for best prompt:")
@@ -686,9 +721,9 @@ class GeneticEvolutionPipeline:
                 self.optimizer.population.attach_performance_summaries(all_perf_summaries)
             except Exception:
                 pass
-        return fitness_scores, (all_delphi_logs, all_abs_errors, all_briers, all_median_superforecast_briers, all_median_public_briers, all_question_metrics)
+        return fitness_scores, per_prompt_metrics
 
-    async def evaluate_prompt_fitness(self, prompts: List[str], validation_batch: List[Question], attach_traces: bool = True) -> List[float]:
+    async def evaluate_prompt_fitness(self, prompts: List[str], validation_batch: List[Question], attach_traces: bool = True):
         """
         Evaluate fitness of prompts by testing on validation questions.
         This is the core fitness function for the genetic algorithm.
@@ -700,6 +735,7 @@ class GeneticEvolutionPipeline:
 
         print(f"Evaluating {len(prompts)} prompts on {len(validation_batch)} validation questions...")
 
+        per_prompt_metrics: List[Dict] = []
         for i, prompt in enumerate(prompts):
             print(f"  Evaluating prompt {i+1}/{len(prompts)}: {prompt[:50]}...")
 
@@ -753,13 +789,21 @@ class GeneticEvolutionPipeline:
             all_perf_summaries.append(batch_summary)
             all_traces.append("\n\n".join(prompt_traces[-3:]))
 
+            # Per-prompt metrics
+            metrics_dict = {
+                'num_questions': valid_predictions,
+                'mean_abs_error': float(np.mean(abs_errors)) if abs_errors else None,
+                'mean_brier': float(np.mean([(de)**2 for de in dir_errors])) if dir_errors else None,
+            }
+            per_prompt_metrics.append(metrics_dict)
+
         if attach_traces:
             try:
                 self.optimizer.population.attach_reasoning_traces(all_traces)
                 self.optimizer.population.attach_performance_summaries(all_perf_summaries)
             except Exception:
                 pass
-        return fitness_scores
+        return fitness_scores, per_prompt_metrics
 
     async def _dry_run_evaluate(self, prompts: List[str], validation_batch: Optional[List[Question]] = None):
         """Deterministic, no-LLM fitness for smoke testing pipeline wiring."""
@@ -897,32 +941,18 @@ Now apply these strategies to the following question:
         else:
             # Evaluate using full Delphi process with best prompt
             print("Evaluating best prompt using full Delphi process...")
-            delphi_fitness_scores, logs_and_metrics = await self.evaluate_prompt_fitness_delphi(
+            delphi_fitness_scores, metrics_list = await self.evaluate_prompt_fitness_delphi(
                 [self.best_prompt], test_questions, is_final=True
             )
-            all_delphi_logs, all_abs_errors, all_briers, all_median_sf_briers, all_median_public_briers, all_question_metrics = logs_and_metrics
-            best_prompt_id = list(all_abs_errors.keys())[0]
-            delphi_logs = all_delphi_logs[best_prompt_id]
-            abs_errors = all_abs_errors[best_prompt_id]
-            briers = all_briers[best_prompt_id]
-            median_sf_briers = all_median_sf_briers[best_prompt_id]
-            median_public_briers = all_median_public_briers[best_prompt_id]
-            question_metrics = all_question_metrics[best_prompt_id]
-
             if delphi_fitness_scores:
                 avg_fitness = delphi_fitness_scores[0]
+                metrics = metrics_list[0] if metrics_list else {}
                 print(f"  Average Delphi fitness on test set: {avg_fitness:.3f}")
                 self.evolution_results['final_validation'] = {
                     'delphi_fitness': avg_fitness,
                     'num_questions': len(test_questions),
                     'questions_evaluated': [q.id for q in test_questions],
-                    'mean_absolute_error': float(np.mean(abs_errors)) if abs_errors else None,
-                    'std_error': float(np.std(abs_errors)) if abs_errors else None,
-                    'brier_score': float(np.mean(briers)) if briers else None,
-                    'superforecaster_brier_score': float(np.mean(median_sf_briers)) if median_sf_briers else None,
-                    'public_brier_score': float(np.mean(median_public_briers)) if median_public_briers else None,
-                    'predictions': delphi_logs,
-                    'metrics_by_question': question_metrics
+                    **metrics,
                 }
             else:
                 print("  No valid Delphi fitness scores obtained!")

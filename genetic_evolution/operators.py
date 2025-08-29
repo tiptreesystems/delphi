@@ -24,6 +24,9 @@ class PromptCandidate:
     # Auxiliary fitness tracking for train/validation
     train_fitness: float = 0.0
     val_fitness: float = 0.0
+    # Optional per-candidate metric summaries (brier, abs error, etc.)
+    train_metrics: Optional[dict] = None
+    val_metrics: Optional[dict] = None
 
 
 def tokenize_prompt(prompt: str) -> List[str]:

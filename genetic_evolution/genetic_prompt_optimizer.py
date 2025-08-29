@@ -216,17 +216,13 @@ class GeneticPromptOptimizer:
 
             # Evaluate training fitness (for guidance/traces)
             train_result = await self.train_evaluation_function(enhanced_prompts, train_batch)
-            if isinstance(train_result, tuple) and len(train_result) >= 1:
-                base_train_fitness_scores = train_result[0]
-            else:
-                base_train_fitness_scores = train_result
+            base_train_fitness_scores = train_result[0] if isinstance(train_result, tuple) else train_result
+            train_metrics_list = train_result[1] if isinstance(train_result, tuple) and len(train_result) > 1 else [{} for _ in enhanced_prompts]
 
             # Evaluate validation fitness (for selection/retention)
             val_result = await self.val_evaluation_function(enhanced_prompts, val_batch)
-            if isinstance(val_result, tuple) and len(val_result) >= 1:
-                base_val_fitness_scores = val_result[0]
-            else:
-                base_val_fitness_scores = val_result
+            base_val_fitness_scores = val_result[0] if isinstance(val_result, tuple) else val_result
+            val_metrics_list = val_result[1] if isinstance(val_result, tuple) and len(val_result) > 1 else [{} for _ in enhanced_prompts]
 
             # Apply length penalties to both
             train_fitness_scores = []
@@ -237,7 +233,27 @@ class GeneticPromptOptimizer:
 
             # Attach auxiliary fitness and update selection fitness (validation)
             self.population.attach_aux_fitness(train_fitness_scores, val_fitness_scores)
+            self.population.attach_candidate_metrics(train_metrics_list, val_metrics_list)
             self.population.evaluate_fitness(val_fitness_scores)
+
+            # Aggregate metrics for generation-level logging
+            def aggregate(metrics_list):
+                agg_mean = {}
+                agg_best = {}
+                # Filter numeric keys
+                keys = set().union(*[m.keys() for m in metrics_list]) if metrics_list else set()
+                for k in keys:
+                    vals = [m[k] for m in metrics_list if isinstance(m.get(k), (int, float))]
+                    if not vals:
+                        continue
+                    agg_mean[f"{k}_mean"] = float(sum(vals) / len(vals))
+                    agg_best[f"{k}_best"] = float(max(vals))
+                agg_mean.update(agg_best)
+                return agg_mean
+
+            train_agg = aggregate(train_metrics_list)
+            val_agg = aggregate(val_metrics_list)
+            self.population.set_pending_generation_metrics(train_agg, val_agg)
 
             # Log generation statistics
             best_candidate = self.population.get_best_candidate()
@@ -248,6 +264,15 @@ class GeneticPromptOptimizer:
                 self.logger.info(f"Best fitness (train): {best_train:.4f}")
                 self.logger.info(f"Best fitness (val): {best_val:.4f}")
                 self.logger.info(f"Best prompt: {best_candidate.text[:100]}...")
+            # Brief metric logging
+            if 'mean_brier_mean' in train_agg or 'mean_brier_mean' in val_agg:
+                tb = train_agg.get('mean_brier_mean')
+                vb = val_agg.get('mean_brier_mean')
+                self.logger.info(f"Mean Brier (train/val): {tb if tb is not None else 'NA'} / {vb if vb is not None else 'NA'}")
+            if 'delphi_total_improvement_mean' in train_agg or 'delphi_total_improvement_mean' in val_agg:
+                ti_t = train_agg.get('delphi_total_improvement_mean')
+                ti_v = val_agg.get('delphi_total_improvement_mean')
+                self.logger.info(f"Delphi total improvement (train/val): {ti_t if ti_t is not None else 'NA'} / {ti_v if ti_v is not None else 'NA'}")
 
             self.logger.info(f"Mutation rate: {self.population.mutation_rate:.3f}")
             self.logger.info(f"Generations without improvement: {self.population.generations_without_improvement}")
@@ -286,6 +311,8 @@ class GeneticPromptOptimizer:
                 'fitness': candidate.fitness,  # selection (validation)
                 'train_fitness': getattr(candidate, 'train_fitness', None),
                 'val_fitness': getattr(candidate, 'val_fitness', None),
+                'train_metrics': getattr(candidate, 'train_metrics', None),
+                'val_metrics': getattr(candidate, 'val_metrics', None),
                 'generation': candidate.generation
             }
             for candidate in self.population.population
@@ -307,6 +334,8 @@ class GeneticPromptOptimizer:
                 'fitness': candidate.fitness,
                 'train_fitness': getattr(candidate, 'train_fitness', None),
                 'val_fitness': getattr(candidate, 'val_fitness', None),
+                'train_metrics': getattr(candidate, 'train_metrics', None),
+                'val_metrics': getattr(candidate, 'val_metrics', None),
                 'generation': candidate.generation,
                 'parent_ids': candidate.parent_ids
             }

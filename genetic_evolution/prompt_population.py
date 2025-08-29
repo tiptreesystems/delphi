@@ -30,6 +30,9 @@ class GenerationStats:
     train_mean_fitness: float = 0.0
     val_best_fitness: float = 0.0
     val_mean_fitness: float = 0.0
+    # Optional aggregated metric summaries for this generation
+    train_metrics: Optional[Dict[str, float]] = None
+    val_metrics: Optional[Dict[str, float]] = None
 
 
 class PromptPopulation:
@@ -82,6 +85,9 @@ class PromptPopulation:
         self.val_best_fitness_history: List[float] = []
         self.generations_without_improvement = 0
         self.generation_stats: List[GenerationStats] = []
+        # Pending metrics injected by optimizer before stats capture
+        self._pending_train_metrics: Optional[Dict[str, float]] = None
+        self._pending_val_metrics: Optional[Dict[str, float]] = None
         
         # Concurrency control
         self.max_concurrent_mutations = 5  # Default, can be overridden
@@ -164,6 +170,19 @@ class PromptPopulation:
             return
         for candidate, summary in zip(self.population, summaries):
             candidate.performance_summary = summary
+
+    def attach_candidate_metrics(self, train_metrics_list: List[Dict[str, Any]], val_metrics_list: List[Dict[str, Any]]) -> None:
+        """Attach per-candidate metric summaries for train/val."""
+        if not self.population:
+            return
+        for cand, trm, vam in zip(self.population, train_metrics_list, val_metrics_list):
+            cand.train_metrics = trm
+            cand.val_metrics = vam
+
+    def set_pending_generation_metrics(self, train_metrics: Dict[str, float], val_metrics: Dict[str, float]) -> None:
+        """Set aggregated train/val metrics for inclusion in GenerationStats."""
+        self._pending_train_metrics = train_metrics
+        self._pending_val_metrics = val_metrics
         
     async def evolve_generation(self, llm=None) -> None:
         """
@@ -218,9 +237,15 @@ class PromptPopulation:
             train_best_fitness=max(train_list) if train_list else 0.0,
             train_mean_fitness=train_mean,
             val_best_fitness=max(val_list) if val_list else 0.0,
-            val_mean_fitness=val_mean
+            val_mean_fitness=val_mean,
+            # Pass through any aggregated metrics (optimizer fills these)
+            **({'train_metrics': self._pending_train_metrics} if self._pending_train_metrics else {}),
+            **({'val_metrics': self._pending_val_metrics} if self._pending_val_metrics else {})
         )
         self.generation_stats.append(stats)
+        # Clear pending metrics after recording
+        self._pending_train_metrics = None
+        self._pending_val_metrics = None
         
         # Create next generation
         new_population = []

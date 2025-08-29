@@ -9,7 +9,7 @@ from pytorch_lightning import seed_everything
 
 
 # Training set question IDs - All resolved questions by 2025-07-21, excluding evaluation set (69 total)
-TRAIN_QUESTION_IDS = {
+TRAIN_QUESTION_IDS_WITH_EVOLVE_EVAL = {
     '1a0426c8b3d715290f3ad93dae8dfc9f84d6f6e38ea1fd4d20f11496049204b5',
     '1b12215032357c20078f36029eca8e2c67788d7834cba572d712b7d769a288ee',
     '1d9b2c247a0f16b0531b5fc49bfed62658a4e7c10dc8bd6fee98fb5ff57cf8c0',
@@ -127,6 +127,8 @@ EVOLUTION_EVALUATION_QUESTION_IDS = [
     'CLX',
     '4204aec5ff81b3d331f27141b072979d838ed95bcd0de36e887ca9a70523060a'
 ]
+
+TRAIN_QUESTION_IDS = list(TRAIN_QUESTION_IDS_WITH_EVOLVE_EVAL - set(EVALUATION_QUESTION_IDS) - set(EVOLUTION_EVALUATION_QUESTION_IDS))
 
 
 def sample_questions_by_topic(questions, n_per_topic=None, seed=42):
