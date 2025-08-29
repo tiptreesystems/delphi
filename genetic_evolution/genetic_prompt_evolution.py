@@ -8,6 +8,7 @@ It integrates with the existing pipeline and provides an evolutionary alternativ
 import asyncio
 import json
 import yaml
+import uuid
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -124,9 +125,13 @@ class GeneticEvolutionPipeline:
             n_examples=self.n_examples
         )
 
-        # Create output directory; in dry-run, route logs to a subfolder
-        self.output_dir = Path(self.config['experiment']['output_dir'])
+        # Create timestamped, unique run directory under the configured output_dir
+        self.base_output_dir = Path(self.config['experiment']['output_dir'])
+        self.run_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.run_id = f"{self.run_timestamp}_{uuid.uuid4().hex[:6]}"
+        self.output_dir = self.base_output_dir / self.run_id
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        # In dry-run, route artifacts to a subfolder
         if self.dry_run:
             self.log_dir = self.output_dir / "dry_run"
             self.log_dir.mkdir(parents=True, exist_ok=True)
@@ -438,9 +443,40 @@ class GeneticEvolutionPipeline:
             if i == 0:  # Only print once
                 print(f"DEBUG: Base config mediator keys: {list(self.config.get('model', {}).get('mediator', {}).keys())}")
 
-            # Create temporary prompt file for this evolved prompt
-            temp_prompt_id = f"evolved_{i}" if not is_final else "best_evolved"
+            # Create a stable identifier that captures generation and prompt content
+            try:
+                import hashlib
+                gen_idx = getattr(self.optimizer.population, 'generation', 0)
+                prompt_hash = hashlib.sha1((prompt or '').encode('utf-8')).hexdigest()[:8]
+            except Exception:
+                gen_idx = getattr(self.optimizer.population, 'generation', 0)
+                prompt_hash = f"i{i}"
+
+            # Create temporary prompt file for this evolved prompt (for runtime only)
+            # Prefix with a run-specific path to avoid cross-run collisions
+            temp_prompt_suffix = (
+                f"evolved_g{gen_idx}_i{i}_{prompt_hash}" if not is_final
+                else f"best_evolved_g{gen_idx}_{prompt_hash}"
+            )
+            temp_prompt_id = f"_evolution/{self.run_id}/{temp_prompt_suffix}"
             _create_temp_prompt_file(prompt, temp_prompt_id)
+
+            # Also persist the evolved prompt and logs under a generation-aware directory
+            prompt_log_base = (
+                self.log_dir
+                / "evolved_prompts"
+                / f"gen_{gen_idx:03d}"
+                / f"cand_{i:02d}_{prompt_hash}"
+            )
+            delphi_logs_dir = prompt_log_base / "delphi_logs"
+            prompt_log_base.mkdir(parents=True, exist_ok=True)
+            delphi_logs_dir.mkdir(parents=True, exist_ok=True)
+            # Save the prompt text so it can be inspected later
+            try:
+                with open(prompt_log_base / "prompt.md", "w", encoding="utf-8") as pf:
+                    pf.write(prompt)
+            except Exception as e:
+                print(f"    Warning: failed to write prompt log for {temp_prompt_id}: {e}")
 
             total_score = 0.0
             valid_predictions = 0
@@ -546,6 +582,14 @@ class GeneticEvolutionPipeline:
                 # Run Delphi rounds with evolved prompt configuration
                 delphi_log = await run_delphi_rounds(question, experts, eval_config, {})
                 delphi_logs.append(delphi_log)
+
+                # Persist the per-question Delphi log for this prompt
+                try:
+                    qlog_path = delphi_logs_dir / f"{question.id}.json"
+                    with open(qlog_path, "w", encoding="utf-8") as qf:
+                        json.dump(delphi_log, qf, indent=2)
+                except Exception as e:
+                    print(f"    Warning: failed to write Delphi log for question {question.id}: {e}")
 
                 # Get ground truth
                 resolution = self.loader.get_resolution(question.id, resolution_date)
@@ -961,14 +1005,9 @@ Now apply these strategies to the following question:
         """Save evolution results and best prompt."""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-        # In dry-run, keep artifacts separate and clearly marked
-        if self.dry_run:
-            out_dir = self.output_dir / "dry_run"
-            out_dir.mkdir(parents=True, exist_ok=True)
-            suffix = "_DRYRUN"
-        else:
-            out_dir = self.output_dir
-            suffix = ""
+        # Use the log_dir (timestamped, and includes dry_run when applicable)
+        out_dir = self.log_dir
+        suffix = "_DRYRUN" if self.dry_run else ""
 
         # Defensive: ensure best_prompt is a string
         best_prompt_text = self.best_prompt or ""
@@ -990,6 +1029,9 @@ Now apply these strategies to the following question:
         complete_results = {
             'config': self.config,
             'timestamp': timestamp,
+            'run_timestamp': getattr(self, 'run_timestamp', timestamp),
+            'run_dir': str(self.log_dir),
+            'run_id': getattr(self, 'run_id', None),
             'evolution_results': self.evolution_results,
             'best_prompt': best_prompt_text,
             'dry_run': self.dry_run,
