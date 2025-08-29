@@ -31,7 +31,7 @@ def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, 
 
 
     loader = ForecastDataLoader()
-    llm = get_llm_from_config(initial_config)
+    llm = get_llm_from_config(initial_config, role='expert')
 
     for question in questions:
         print(f"  📊 Generating initial forecasts for question {question.id[:8]}...")
