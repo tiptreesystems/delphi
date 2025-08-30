@@ -16,6 +16,8 @@ import signal
 import threading
 import argparse
 import yaml
+import re
+import shutil
 
 
 def read_yaml(p: Path) -> dict:
@@ -152,6 +154,32 @@ def main():
                 print(f"[seed {seed}] EXIT CODE {ret} (see {log_path})", file=sys.stderr)
             else:
                 print(f"[seed {seed}] Done.")
+
+            # Move the per-seed log into the exact run_dir printed by the pipeline
+            try:
+                if log_path.exists():
+                    run_dir = None
+                    with log_path.open('r', encoding='utf-8', errors='ignore') as lf:
+                        for line in lf:
+                            m = re.search(r"Evolution logs:\s*(.*)$", line.strip())
+                            if m:
+                                candidate = Path(m.group(1)).expanduser()
+                                if candidate.exists() and candidate.is_dir():
+                                    run_dir = candidate
+                    if run_dir is not None:
+                        dest = run_dir / log_path.name
+                        try:
+                            shutil.move(str(log_path), str(dest))
+                            print(f"[seed {seed}] Moved log to run_dir: {dest}")
+                        except Exception:
+                            try:
+                                dest.write_bytes(log_path.read_bytes())
+                                log_path.unlink(missing_ok=True)
+                                print(f"[seed {seed}] Moved log to run_dir (copy): {dest}")
+                            except Exception:
+                                print(f"[seed {seed}] Note: intended to move log to {dest}, but copy failed.")
+            except Exception:
+                pass
 
 
 if __name__ == "__main__":

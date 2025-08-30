@@ -34,9 +34,15 @@ TOTAL_GENERATIONS_RE = re.compile(r"Total generations:\s*(\d+)")
 BEST_FITNESS_RE = re.compile(r"Best fitness:\s*([\-+]?\d+(?:\.\d+)?)")
 FINAL_MUT_RATE_RE = re.compile(r"Final mutation rate:\s*([\-+]?\d+(?:\.\d+)?)")
 
-# Phase markers
-VALIDATION_PHASE_RE = re.compile(r"Evaluating best prompt on full validation set", re.IGNORECASE)
-EVALUATION_PHASE_RE = re.compile(r"Evaluating best prompt on full evaluation set", re.IGNORECASE)
+# Phase marker (generic). Examples it should match:
+# - "Evaluating best prompt on validation set of (NN questions)..."
+# - "Evaluating best prompt on full validation set of (NN questions)..."
+# - "Evaluating best prompt on separate test set of (NN questions...)"
+# - "Evaluating best prompt on evolution test set of (NN questions...)"
+PHASE_SWITCH_RE = re.compile(
+    r"Evaluating best prompt on\s+(.*?)\s+of\s*\(\d+\s+questions",
+    re.IGNORECASE,
+)
 
 FIELDS_IN_RECORD = (
     "prompt",
@@ -127,14 +133,17 @@ def parse_log(path: Path) -> Dict[str, Any]:
             line = raw_line.rstrip("\n")
 
             # ---- phase switching ----
-            if VALIDATION_PHASE_RE.search(line):
+            pm = PHASE_SWITCH_RE.search(line)
+            if pm:
+                phrase = pm.group(1).strip().lower()
                 flush_current()
-                current_section = "validation"
-                continue
-
-            if EVALUATION_PHASE_RE.search(line):
-                flush_current()
-                current_section = "evaluation"
+                if "valid" in phrase:
+                    current_section = "validation"
+                elif "test" in phrase:
+                    current_section = "evaluation"
+                else:
+                    # Unknown phrase; keep prior section
+                    pass
                 continue
 
             # ---- evolution summary detection ----

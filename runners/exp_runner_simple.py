@@ -6,6 +6,8 @@ import argparse
 import signal
 import threading
 import yaml
+import re
+import shutil
 import tempfile
 
 
@@ -190,6 +192,32 @@ def main():
     # Cleanup temp config directory if used
     if tmp_dir_ctx is not None:
         tmp_dir_ctx.cleanup()
+
+    # Attempt to move the runner log into the exact run_dir printed by the pipeline
+    try:
+        if log_path.exists():
+            run_dir = None
+            with log_path.open('r', encoding='utf-8', errors='ignore') as lf:
+                for line in lf:
+                    m = re.search(r"Evolution logs:\s*(.*)$", line.strip())
+                    if m:
+                        candidate = Path(m.group(1)).expanduser()
+                        if candidate.exists() and candidate.is_dir():
+                            run_dir = candidate
+            if run_dir is not None:
+                dest = run_dir / log_path.name
+                try:
+                    shutil.move(str(log_path), str(dest))
+                    print(f"Moved log to run_dir: {dest}")
+                except Exception:
+                    try:
+                        dest.write_bytes(log_path.read_bytes())
+                        log_path.unlink(missing_ok=True)
+                        print(f"Moved log to run_dir (copy): {dest}")
+                    except Exception:
+                        print(f"Note: intended to move log to {dest}, but copy failed.")
+    except Exception:
+        pass
 
     if ret != 0:
         print(f"EXIT CODE {ret} (see {log_path})", file=sys.stderr)
