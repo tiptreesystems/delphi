@@ -95,7 +95,7 @@ class GeneticEvolutionPipeline:
 
         # Training configuration
         training_config = self.config.get('training', {})
-        self.validation_batch_size = training_config.get('validation_batch_size', 10)
+        self.validation_batch_size = training_config.get('validation_batch_size', 50)
 
         # Processing configuration
         processing_config = self.config.get('processing', {})
@@ -224,8 +224,8 @@ class GeneticEvolutionPipeline:
                       f"smoothness_weight={self.smoothness_weight}, improvement_weight={self.improvement_weight})")
             # Train evaluation attaches traces; validation evaluation does not
             self.optimizer.set_evaluation_functions(
-                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.train_batch, attach_traces=True),
-                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.validation_questions, attach_traces=False)
+                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.train_batch, attach_traces=True, split_label="train"),
+                lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.validation_questions, attach_traces=False, split_label="val")
             )
         else:
             print("Using simple expert-based fitness evaluation")
@@ -257,13 +257,13 @@ class GeneticEvolutionPipeline:
         print(f"{'='*80}")
 
         if not self.dry_run:
-            # Evaluate best prompt on full validation set
-            print(f"\nEvaluating best prompt on full validation set of ({len(valid_questions)} questions)...")
+            # Evaluate best prompt on validation set
+            print(f"\nEvaluating best prompt on validation set of ({len(valid_questions)} questions)...")
             await self.evaluate_final_performance(valid_questions)
 
             # Also evaluate on evolution test set
             evolution_test_questions = sample_questions(self.config, all_questions, self.loader, method_override='evolution_evaluation')
-            print(f"\nEvaluating best prompt on separate test set of ({len(evolution_test_questions)} questions...)")
+            print(f"\nEvaluating best prompt on evolution test set of ({len(evolution_test_questions)} questions...)")
             await self.evaluate_final_performance(evolution_test_questions)
         else:
             print("\nDRY-RUN: Skipping final validation and test evaluations.")
@@ -320,7 +320,7 @@ class GeneticEvolutionPipeline:
         # Take only what we need for population size
         return seed_prompts[:self.population_size]
 
-    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False, attach_traces: bool = True):
+    async def evaluate_prompt_fitness_delphi(self, prompts: List[str], validation_batch: List[Question], is_final: bool = False, attach_traces: bool = True, split_label: str = "val"):
         """
         Evaluate fitness using full Delphi process with evolved prompts.
         Creates temporary prompt files and uses existing prompt version system.
@@ -480,7 +480,7 @@ class GeneticEvolutionPipeline:
                 / f"gen_{gen_idx:03d}"
                 / f"cand_{i:02d}_{prompt_hash}"
             )
-            delphi_logs_dir = prompt_log_base / "delphi_logs"
+            delphi_logs_dir = prompt_log_base / "delphi_logs" / split_label
             prompt_log_base.mkdir(parents=True, exist_ok=True)
             delphi_logs_dir.mkdir(parents=True, exist_ok=True)
             # Save the prompt text so it can be inspected later
@@ -521,6 +521,12 @@ class GeneticEvolutionPipeline:
                     elif 'expert' in eval_config['model'] and 'provider' in eval_config['model']['expert']:
                         eval_config['model']['provider'] = eval_config['model']['expert']['provider']
                         eval_config['model']['name'] = eval_config['model']['expert'].get('model', '')
+
+                # Always include full conversation histories in Delphi logs
+                try:
+                    eval_config.setdefault('output', {}).setdefault('save', {})
+                except Exception:
+                    pass
 
                 # Configure which component uses the evolved prompt
                 if self.optimize_component == 'expert':
@@ -690,7 +696,7 @@ class GeneticEvolutionPipeline:
 
             fitness_scores.append(avg_fitness)
             avg_brier = 1.0 - avg_fitness if valid_predictions > 0 else 1.0
-            print(f"    Delphi fitness: {avg_fitness:.3f} (from {valid_predictions} questions, avg_brier: {avg_brier:.4f})")
+            print(f"    Delphi fitness: {avg_fitness:.3f} (from {valid_predictions} questions")
 
             # Performance summary
             if abs_errors:
@@ -998,7 +1004,7 @@ Now apply these strategies to the following question:
             # Evaluate using full Delphi process with best prompt
             print("Evaluating best prompt using full Delphi process...")
             delphi_fitness_scores, metrics_list = await self.evaluate_prompt_fitness_delphi(
-                [self.best_prompt], test_questions, is_final=True
+                [self.best_prompt], test_questions, is_final=True, split_label="test"
             )
             if delphi_fitness_scores:
                 avg_fitness = delphi_fitness_scores[0]
