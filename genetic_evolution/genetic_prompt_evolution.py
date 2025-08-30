@@ -138,6 +138,18 @@ class GeneticEvolutionPipeline:
         else:
             self.log_dir = self.output_dir
 
+        # Persist a copy of the effective configuration used for this run
+        try:
+            cfg_out = self.log_dir / "config_used.yml"
+            with open(cfg_out, 'w', encoding='utf-8') as f:
+                yaml.safe_dump(self.config, f, sort_keys=False, default_flow_style=False, allow_unicode=True)
+            # Also place a copy at output_dir/config_used to meet path requirement
+            cfg_out_root = self.output_dir / "config_used"
+            with open(cfg_out_root, 'w', encoding='utf-8') as f:
+                yaml.safe_dump(self.config, f, sort_keys=False, default_flow_style=False, allow_unicode=True)
+        except Exception as e:
+            print(f"Warning: failed to write config_used.yml: {e}")
+
         self.optimizer = GeneticPromptOptimizer(
             llm=optimizer_llm,
             population_config=population_config,
