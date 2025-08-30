@@ -239,7 +239,8 @@ class GeneticPromptOptimizer:
             # Aggregate metrics for generation-level logging
             def aggregate(metrics_list):
                 agg_mean = {}
-                agg_best = {}
+                agg_lowest = {}
+                agg_highest = {}
                 # Filter numeric keys
                 keys = set().union(*[m.keys() for m in metrics_list]) if metrics_list else set()
                 for k in keys:
@@ -247,8 +248,10 @@ class GeneticPromptOptimizer:
                     if not vals:
                         continue
                     agg_mean[f"{k}_mean"] = float(sum(vals) / len(vals))
-                    agg_best[f"{k}_best"] = float(max(vals))
-                agg_mean.update(agg_best)
+                    agg_lowest[f"{k}_lowest"] = float(min(vals))
+                    agg_highest[f"{k}_highest"] = float(max(vals))
+                agg_mean.update(agg_lowest)
+                agg_mean.update(agg_highest)
                 return agg_mean
 
             train_agg = aggregate(train_metrics_list)
