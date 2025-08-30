@@ -38,11 +38,11 @@ class GenerationStats:
 class PromptPopulation:
     """
     Manages a population of prompt candidates for genetic evolution.
-    
+
     Implements elitism, tournament selection, crossover, and mutation
     with adaptive mutation rate based on fitness stagnation.
     """
-    
+
     def __init__(
         self,
         population_size: int = 8,
@@ -56,10 +56,10 @@ class PromptPopulation:
     ):
         """
         Initialize the prompt population.
-        
+
         Args:
             population_size: Number of prompts in population (default: 8)
-            elitism_size: Number of top prompts to carry forward (default: 2)  
+            elitism_size: Number of top prompts to carry forward (default: 2)
             tournament_size: Size of tournament selection (default: 3)
             initial_mutation_rate: Starting mutation rate (default: 0.5)
             mutation_rate_increase: Amount to increase mutation rate (default: 0.1)
@@ -75,7 +75,7 @@ class PromptPopulation:
         self.max_mutation_rate = max_mutation_rate
         self.stagnation_threshold = stagnation_threshold
         self.max_stagnation = max_stagnation
-        
+
         # State
         self.population: List[PromptCandidate] = []
         self.generation = 0
@@ -88,19 +88,19 @@ class PromptPopulation:
         # Pending metrics injected by optimizer before stats capture
         self._pending_train_metrics: Optional[Dict[str, float]] = None
         self._pending_val_metrics: Optional[Dict[str, float]] = None
-        
+
         # Concurrency control
         self.max_concurrent_mutations = 5  # Default, can be overridden
-        
+
     def initialize_population(self, seed_prompts: List[str]) -> None:
         """
         Initialize the population with seed prompts.
-        
+
         Args:
             seed_prompts: List of initial prompt strings
         """
         self.population = []
-        
+
         # Use provided seed prompts
         for i, prompt in enumerate(seed_prompts[:self.population_size]):
             candidate = PromptCandidate(
@@ -109,7 +109,7 @@ class PromptPopulation:
                 generation=0
             )
             self.population.append(candidate)
-        
+
         # If we need more prompts, create variations of existing ones
         while len(self.population) < self.population_size:
             base_prompt = random.choice(seed_prompts)
@@ -122,27 +122,27 @@ class PromptPopulation:
                 base_prompt  # Include original as fallback
             ]
             variation = random.choice(variations)
-            
+
             candidate = PromptCandidate(
                 text=variation,
                 fitness=0.0,
                 generation=0
             )
             self.population.append(candidate)
-        
+
         # Ensure we have exactly the right size
         self.population = self.population[:self.population_size]
-        
+
     def evaluate_fitness(self, fitness_scores: List[float]) -> None:
         """
         Assign fitness scores to the current population.
-        
+
         Args:
             fitness_scores: List of fitness scores for each candidate
         """
         if len(fitness_scores) != len(self.population):
             raise ValueError(f"Expected {len(self.population)} fitness scores, got {len(fitness_scores)}")
-        
+
         for candidate, fitness in zip(self.population, fitness_scores):
             candidate.fitness = fitness
             candidate.val_fitness = fitness
@@ -154,11 +154,11 @@ class PromptPopulation:
         for cand, tr, va in zip(self.population, train_fitness_scores, val_fitness_scores):
             cand.train_fitness = tr
             cand.val_fitness = va
-            
+
     def get_current_prompts(self) -> List[str]:
         """Get the current population prompts as strings."""
         return [candidate.text for candidate in self.population]
-        
+
     def attach_reasoning_traces(self, traces: List[str]) -> None:
         if not self.population or not traces:
             return
@@ -183,20 +183,20 @@ class PromptPopulation:
         """Set aggregated train/val metrics for inclusion in GenerationStats."""
         self._pending_train_metrics = train_metrics
         self._pending_val_metrics = val_metrics
-        
+
     async def evolve_generation(self, llm=None) -> None:
         """
         Evolve the population by one generation using genetic operators.
-        
+
         Args:
             llm: Language model for LLM-based mutations (optional)
         """
         if not self.population:
             raise ValueError("Population not initialized")
-            
+
         # Sort population by fitness (descending)
         self.population.sort(key=lambda x: x.fitness, reverse=True)
-        
+
         # Track fitness progress (selection uses validation fitness stored in candidate.fitness)
         best_val_fitness = self.population[0].fitness
         self.best_fitness_history.append(best_val_fitness)
@@ -205,14 +205,14 @@ class PromptPopulation:
         val_list = [getattr(c, 'val_fitness', c.fitness) for c in self.population]
         self.train_best_fitness_history.append(max(train_list) if train_list else 0.0)
         self.val_best_fitness_history.append(max(val_list) if val_list else 0.0)
-        
+
         # Check for improvement
-        if (len(self.best_fitness_history) > 1 and 
+        if (len(self.best_fitness_history) > 1 and
             best_val_fitness <= self.best_fitness_history[-2]):
             self.generations_without_improvement += 1
         else:
             self.generations_without_improvement = 0
-            
+
         # Adaptive mutation rate
         if (self.generations_without_improvement >= self.stagnation_threshold and
             self.mutation_rate < self.max_mutation_rate):
@@ -220,7 +220,7 @@ class PromptPopulation:
                 self.max_mutation_rate,
                 self.mutation_rate + self.mutation_rate_increase
             )
-            
+
         # Record generation statistics
         fitnesses = [c.fitness for c in self.population]
         # Compute means for train/val
@@ -246,10 +246,10 @@ class PromptPopulation:
         # Clear pending metrics after recording
         self._pending_train_metrics = None
         self._pending_val_metrics = None
-        
+
         # Create next generation
         new_population = []
-        
+
         # Elitism: copy top performers
         for i in range(self.elitism_size):
             elite = PromptCandidate(
@@ -261,12 +261,12 @@ class PromptPopulation:
                 performance_summary=self.population[i].performance_summary
             )
             new_population.append(elite)
-            
+
         # Fill remaining slots with offspring
         # Determine operations needed for remaining slots
         remaining_slots = self.population_size - len(new_population)
         operations = []
-        
+
         for _ in range(remaining_slots):
             if random.random() < self.mutation_rate:
                 # Mutation operation
@@ -277,16 +277,16 @@ class PromptPopulation:
                 parent1 = tournament_selection(self.population, self.tournament_size)
                 parent2 = tournament_selection(self.population, self.tournament_size)
                 operations.append(('crossover', parent1, parent2))
-        
+
         # Execute operations in parallel
         if llm and operations:
             mutation_count = sum(1 for op in operations if op[0] == 'mutate')
             if mutation_count > 1:
                 print(f"  Running {mutation_count} mutations in parallel (max_concurrent: {self.max_concurrent_mutations})")
-            
+
             start_time = time.time()
             offspring = await self._execute_operations_parallel(operations, llm)
-            
+
             if mutation_count > 1:
                 elapsed = time.time() - start_time
                 print(f"  Parallel mutations completed in {elapsed:.2f}s")
@@ -298,27 +298,27 @@ class PromptPopulation:
                     offspring.append(await mutate(op[1], llm=None, component_type=getattr(self, 'component_type', 'expert')))
                 else:
                     offspring.append(crossover(op[1], op[2]))
-        
+
         new_population.extend(offspring)
-            
+
         self.population = new_population
         self.generation += 1
-    
+
     async def _execute_operations_parallel(self, operations: List, llm) -> List[PromptCandidate]:
         """
         Execute genetic operations (mutations and crossovers) in parallel.
-        
+
         Args:
             operations: List of operations to execute
             llm: Language model for mutations
-            
+
         Returns:
             List of offspring candidates
         """
         # Separate mutations and crossovers
         mutation_tasks = []
         crossover_results = []
-        
+
         for op in operations:
             if op[0] == 'mutate':
                 # Create mutation task
@@ -330,13 +330,13 @@ class PromptPopulation:
                 parent1, parent2 = op[1], op[2]
                 offspring = crossover(parent1, parent2)
                 crossover_results.append(offspring)
-        
+
         # Execute all mutations in parallel
         if mutation_tasks:
             try:
                 # Use asyncio.gather with concurrency limit to avoid overwhelming the API
                 max_concurrent = self.max_concurrent_mutations
-                
+
                 if len(mutation_tasks) <= max_concurrent:
                     # Run all tasks at once if within limit
                     mutation_results = await asyncio.gather(*mutation_tasks, return_exceptions=True)
@@ -347,7 +347,7 @@ class PromptPopulation:
                         batch = mutation_tasks[i:i + max_concurrent]
                         batch_results = await asyncio.gather(*batch, return_exceptions=True)
                         mutation_results.extend(batch_results)
-                
+
                 # Handle exceptions and failed mutations
                 successful_mutations = []
                 for result in mutation_results:
@@ -357,7 +357,7 @@ class PromptPopulation:
                         continue
                     else:
                         successful_mutations.append(result)
-                
+
             except Exception as e:
                 print(f"Parallel mutation failed: {e}")
                 # Fallback to sequential mutations
@@ -371,31 +371,31 @@ class PromptPopulation:
                         continue
         else:
             successful_mutations = []
-        
+
         # Combine all results
         all_offspring = crossover_results + successful_mutations
-        
+
         return all_offspring
-        
+
     def should_terminate(self, max_generations: int = 40) -> bool:
         """
         Check if evolution should terminate.
-        
+
         Args:
             max_generations: Maximum number of generations
-            
+
         Returns:
             True if evolution should terminate
         """
-        return (self.generation >= max_generations or 
+        return (self.generation >= max_generations or
                 self.generations_without_improvement >= self.max_stagnation)
-                
+
     def get_best_candidate(self) -> Optional[PromptCandidate]:
         """Get the best candidate from the current population."""
         if not self.population:
             return None
         return max(self.population, key=lambda x: x.fitness)
-        
+
     def get_evolution_summary(self) -> Dict[str, Any]:
         """Get a summary of the evolution process."""
         best = self.get_best_candidate()
