@@ -58,14 +58,14 @@ def setup_environment(config: dict):
     os.environ["PYTHONHASHSEED"] = str(seed)
 
     # Setup debugging if enabled
-    if config.get('debug', {}).get('enabled', False):
-        # check if "williaar" is in the file path for this file
-        if "williaar" in __file__:
-            import debugpy
-            print(f"Waiting for debugger attach on port {config['debug']['debugpy_port']}...")
-            debugpy.listen(config['debug']['debugpy_port'])
-            debugpy.wait_for_client()
-            print("Debugger attached.")
+    # if config.get('debug', {}).get('enabled', False):
+    #     # check if "williaar" is in the file path for this file
+    #     if "williaar" in __file__:
+    #         import debugpy
+    #         print(f"Waiting for debugger attach on port {config['debug']['debugpy_port']}...")
+    #         debugpy.listen(config['debug']['debugpy_port'])
+    #         debugpy.wait_for_client()
+    #         print("Debugger attached.")
 
     if config.get('debug', {}).get('breakpoint_on_start', False):
         breakpoint()
