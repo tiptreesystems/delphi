@@ -26,7 +26,11 @@ from utils.sampling import sample_questions
 from utils.utils import split_train_valid
 from utils.superforecaster_utils import get_superforecaster_manager
 from genetic_evolution import GeneticPromptOptimizer, FitnessConfig
-from genetic_evolution.fitness_smooth_improvement import evaluate_prompt_smooth_improvement, calculate_delphi_fitness
+from genetic_evolution.fitness_smooth_improvement import (
+    evaluate_prompt_smooth_improvement,
+    calculate_delphi_fitness,
+)
+import importlib
 
 
 # import debugpy
@@ -93,6 +97,17 @@ class GeneticEvolutionPipeline:
         self.smoothness_weight = fitness_config.get('smoothness_weight', 0.2)
         self.improvement_weight = fitness_config.get('improvement_weight', 0.5)
 
+        # Optional: override per-question smooth improvement evaluator
+        # Default remains `evaluate_prompt_smooth_improvement`.
+        self.smooth_improvement_eval_fn_name = (
+            fitness_config.get('smooth_improvement_eval_fn')
+            or fitness_config.get('smooth_improvement_function')
+            or 'evaluate_prompt_smooth_improvement'
+        )
+        self._delphi_per_question_evaluator = self._resolve_smooth_improvement_function(
+            self.smooth_improvement_eval_fn_name
+        )
+
         # Training configuration
         training_config = self.config.get('training', {})
         self.validation_batch_size = training_config.get('validation_batch_size', 50)
@@ -150,19 +165,69 @@ class GeneticEvolutionPipeline:
         except Exception as e:
             print(f"Warning: failed to write config_used.yml: {e}")
 
+        # Optional monitoring parameters
+        monitor_params = self.config.get('evolution', {}).get('monitor', {})
+
         self.optimizer = GeneticPromptOptimizer(
             llm=optimizer_llm,
             population_config=population_config,
             fitness_config=fitness_config_obj,
             log_dir=str(self.log_dir),
             max_concurrent_mutations=self.max_concurrent_mutations,
-            component_type=self.optimize_component
+            component_type=self.optimize_component,
+            monitor_params=monitor_params
         )
 
         # Results storage
         self.validation_questions = []
         self.best_prompt = ""
         self.evolution_results = {}
+
+    def _resolve_smooth_improvement_function(self, fn_name: str):
+        """Resolve a callable by name for per-question Delphi evaluation.
+
+        Resolution order:
+        1) genetic_evolution.fitness_smooth_improvement.<fn_name>
+        2) Any module in the `genetic_evolution` package exposing <fn_name>
+        Fallback to `evaluate_prompt_smooth_improvement` if not found.
+        """
+        # Fast-path: default
+        if not fn_name or fn_name == 'evaluate_prompt_smooth_improvement':
+            return evaluate_prompt_smooth_improvement
+
+        # 1) Try fitness_smooth_improvement first
+        try:
+            mod = importlib.import_module('genetic_evolution.fitness_smooth_improvement')
+            cand = getattr(mod, fn_name, None)
+            if callable(cand):
+                print(f"Using custom smooth-improvement evaluator: {fn_name} (from fitness_smooth_improvement)")
+                return cand
+        except Exception:
+            pass
+
+        # 2) Search other modules in genetic_evolution package
+        try:
+            pkg = importlib.import_module('genetic_evolution')
+            pkg_path = Path(pkg.__file__).parent
+            for py_file in pkg_path.glob('*.py'):
+                name = py_file.stem
+                if name.startswith('__'):
+                    continue
+                try:
+                    mod = importlib.import_module(f'genetic_evolution.{name}')
+                    cand = getattr(mod, fn_name, None)
+                    if callable(cand):
+                        print(f"Using custom smooth-improvement evaluator: {fn_name} (from genetic_evolution.{name})")
+                        return cand
+                except Exception:
+                    continue
+        except Exception:
+            pass
+
+        print(
+            f"Warning: evaluator '{fn_name}' not found; falling back to evaluate_prompt_smooth_improvement"
+        )
+        return evaluate_prompt_smooth_improvement
 
     async def run_evolution(self):
         """Run the genetic evolution process."""
@@ -220,8 +285,11 @@ class GeneticEvolutionPipeline:
         elif self.use_delphi_evaluation:
             print(f"Using Delphi-based fitness evaluation (optimizing: {self.optimize_component})")
             if self.use_smooth_improvement:
-                print(f"  Fitness metric: Smooth improvement (variance_weight={self.variance_weight}, "
-                      f"smoothness_weight={self.smoothness_weight}, improvement_weight={self.improvement_weight})")
+                print(
+                    f"  Fitness metric: Smooth improvement (variance_weight={self.variance_weight}, "
+                    f"smoothness_weight={self.smoothness_weight}, improvement_weight={self.improvement_weight})\n"
+                    f"  Evaluator: {getattr(self._delphi_per_question_evaluator, '__name__', 'unknown')}"
+                )
             # Train evaluation attaches traces; validation evaluation does not
             self.optimizer.set_evaluation_functions(
                 lambda prompts, _: self.evaluate_prompt_fitness_delphi(prompts, self.train_batch, attach_traces=True, split_label="train"),
@@ -614,25 +682,44 @@ class GeneticEvolutionPipeline:
                 actual_outcome = resolution.resolved_to
 
                 if self.use_smooth_improvement:
-                    # Use smooth improvement fitness
-                    fitness_score, metrics = evaluate_prompt_smooth_improvement(delphi_log, actual_outcome)
+                    # Use smooth improvement fitness (configurable evaluator)
+                    fitness_score, metrics = self._delphi_per_question_evaluator(delphi_log, actual_outcome)
                     question_metrics[question.id] = metrics
-                    print(f"      Q{question.id[:8]}: improvement={metrics['total_improvement']:.3f}, "
-                            f"variance={metrics['improvement_variance']:.3f}, smoothness={metrics['smoothness']:.3f}, "
-                            f"fitness={fitness_score:.4f}")
+                    # Be robust to custom metric keys
+                    _tot_imp = metrics.get('total_improvement')
+                    _var = metrics.get('improvement_variance')
+                    _smooth = metrics.get('smoothness') or metrics.get('smoothness_score')
+                    if _tot_imp is not None and _var is not None and _smooth is not None:
+                        print(
+                            f"      Q{question.id[:8]}: improvement={_tot_imp:.3f}, "
+                            f"variance={_var:.3f}, smoothness={_smooth:.3f}, "
+                            f"fitness={fitness_score:.4f}"
+                        )
+                    else:
+                        print(
+                            f"      Q{question.id[:8]}: custom fitness={fitness_score:.4f}"
+                        )
 
-                    # Create trace with improvement details
+                    # Create trace with improvement details if available
                     rounds_trace = []
-                    for i, (brier, imp) in enumerate(zip(metrics['median_briers_by_round'],
-                                                            [0] + metrics['improvements_by_round'])):
-                        rounds_trace.append(f"R{i+1}: Brier={brier:.3f}, Δ={imp:+.3f}")
+                    median_briers = metrics.get('median_briers_by_round') or []
+                    improvements_by_round = metrics.get('improvements_by_round') or []
+                    for i, (brier, imp) in enumerate(
+                        zip(median_briers, [0] + list(improvements_by_round))
+                    ):
+                        try:
+                            rounds_trace.append(f"R{i+1}: Brier={float(brier):.3f}, Δ={float(imp):+.3f}")
+                        except Exception:
+                            pass
 
-                    prompt_traces.append(
-                        f"Question: {question.question[:60]}...\n"
-                        f"Rounds: {' → '.join(rounds_trace)}\n"
-                        f"Total Improvement: {metrics['total_improvement']:.3f}, "
-                        f"Smoothness: {metrics['smoothness']:.3f}"
-                    )
+                    if rounds_trace:
+                        ti = _tot_imp if _tot_imp is not None else 0.0
+                        sm = _smooth if _smooth is not None else 0.0
+                        prompt_traces.append(
+                            f"Question: {question.question[:60]}...\n"
+                            f"Rounds: {' → '.join(rounds_trace)}\n"
+                            f"Total Improvement: {ti:.3f}, Smoothness: {sm:.3f}"
+                        )
                 else:
                     # Original fitness calculation
                     final_round = delphi_log['rounds'][-1]
