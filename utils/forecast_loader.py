@@ -273,6 +273,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
         os.makedirs(initial_forecasts_path, exist_ok=True)
         from runners.icl_initial_forecasts import run_all_forecasts_with_examples
         for q in sampled_questions:
+            json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
             print(f"Collecting forecasts for question {q.id}...")
             results = await run_all_forecasts_with_examples(
                 [q], loader=loader, selected_resolution_date=selected_resolution_date,
