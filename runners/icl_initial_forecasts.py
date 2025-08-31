@@ -22,12 +22,11 @@ from utils.utils import load_experiment_config
 
 from utils.convert_pickles_to_json import convert_pkl_to_json, batch_convert_pickles
 
-import debugpy
-
-if not debugpy.is_client_connected():
-    debugpy.listen(("localhost", 5679))
-    print("Waiting for debugger attach...")
-    debugpy.wait_for_client()
+# import debugpy
+# if not debugpy.is_client_connected():
+#     debugpy.listen(("localhost", 5679))
+#     print("Waiting for debugger attach...")
+#     debugpy.wait_for_client()
 
 
 from utils.sampling import (TRAIN_QUESTION_IDS, EVALUATION_QUESTION_IDS, EVOLUTION_EVALUATION_QUESTION_IDS,)
