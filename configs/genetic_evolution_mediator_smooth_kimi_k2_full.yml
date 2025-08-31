@@ -1,0 +1,100 @@
+# Genetic Evolution Configuration for Mediator Optimization (Kimi K2 via Groq)
+
+experiment:
+  seed: 42
+  output_dir: "results/genetic_evolution_mediator_smooth_kimi_k2"
+  initial_forecasts_dir: "results/experts_comparison_kimi_k2"
+
+  reuse_initial_forecasts:
+    enabled: true
+
+model:
+  # Expert model (uses fixed prompts during evolution)
+  expert:
+    provider: "groq"
+    model: "moonshotai/kimi-k2-instruct"
+    system_prompt_name: "expert_system"
+    system_prompt_version: "v1"
+    temperature: 0.3
+    max_tokens: 4096
+
+  # Mediator model (what we're optimizing)
+  mediator:
+    provider: "groq"
+    model: "moonshotai/kimi-k2-instruct"
+    temperature: 0.2
+    max_tokens: 6000
+    feedback_max_tokens: 6000
+    feedback_temperature: 0.2
+
+  # Learner model (for LLM-driven mutations)
+  learner:
+    provider: "groq"
+    model: "moonshotai/kimi-k2-instruct"
+    temperature: 0.2
+    max_tokens: 6000
+
+evolution:
+  population_size: 8
+  max_generations: 5
+  elitism_size: 2
+  tournament_size: 3
+  initial_mutation_rate: 0.5
+
+  # Optional run-time monitors (see optimizer)
+  monitor:
+    gap_threshold: 0.2
+    gap_patience: 5
+    early_stop_by_gap: false
+
+  fitness:
+    use_delphi_evaluation: true
+    use_smooth_improvement: true
+    optimize_component: "mediator"
+
+    variance_weight: 0.3
+    smoothness_weight: 0.2
+    improvement_weight: 0.5
+
+    length_penalty_weight: 0.05
+    target_length: 100
+    include_reasoning: true
+    include_examples: true
+    n_examples: 3
+
+  seed_prompts:
+    - "Review predictions for consistency and logical coherence. Highlight overlooked factors and encourage experts to refine their probability estimates."
+    - "Analyze expert forecasts systematically. Identify areas of disagreement and guide experts toward better calibration through constructive feedback."
+    - "Review predictions for consistency and logical coherence. Highlight overlooked factors and encourage experts to refine their probability estimates."
+    - "Synthesize expert opinions by finding common ground. Address divergent views and facilitate convergence through targeted questions."
+    - "Examine forecasts for potential biases and overconfidence. Provide balanced feedback that promotes more accurate probability assessments."
+    - "Guide experts toward improved predictions by identifying weak reasoning. Encourage consideration of base rates and alternative scenarios."
+    - "Facilitate productive discussion by highlighting key uncertainties. Help experts calibrate their confidence levels appropriately."
+    - "Analyze the distribution of predictions and identify outliers. Encourage experts to justify extreme positions or moderate their estimates."
+
+delphi:
+  n_rounds: 3
+  n_experts: 5
+  expert_selection: "random"
+
+training:
+  valid_ratio: 0.3
+  validation_batch_size: 21
+
+processing:
+  max_concurrent_mutations: 3
+  skip_existing: true
+
+data:
+  resolution_date: "2025-07-21"
+  sampling:
+    method: "train"
+  filters:
+    require_resolution: true
+
+output:
+  save:
+    conversation_histories: true
+    example_pairs: true
+  file_pattern: "genetic_mediator_{question_id}_{resolution_date}.json"
+
