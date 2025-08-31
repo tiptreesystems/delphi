@@ -269,3 +269,108 @@ def evaluate_prompt_smooth_improvement(delphi_log: Dict, actual_outcome: float) 
     }
     
     return fitness, detailed_metrics
+
+
+def evaluate_prompt_smooth_improvement_v2(delphi_log: Dict, actual_outcome: float) -> Tuple[float, Dict]:
+    """
+    Calibrated evaluator with wider dynamic range and richer diagnostics.
+
+    Improvements over the baseline evaluator:
+    - Uses a Brier skill score vs a naive 0.5 baseline to reward absolute
+      forecast quality (not just improvement).
+    - Rewards earlier improvements via normalized area-under-improvement.
+    - Includes monotonicity and smoothness for consistency.
+    - Returns a richer metrics dict for analysis and dashboards.
+
+    Args:
+        delphi_log: Delphi result dictionary for a single question
+        actual_outcome: Ground truth (0 or 1)
+
+    Returns:
+        Tuple of (fitness_score in [0,1], detailed_metrics)
+    """
+    rounds = delphi_log.get('rounds', [])
+    if not rounds:
+        return 0.0, {'error': 'No rounds found'}
+
+    round_metrics: List[RoundMetrics] = []
+    improvements: List[float] = []
+    median_briers: List[float] = []
+    prev_median = None
+
+    for round_data in rounds:
+        experts = round_data.get('experts', {})
+        if not experts:
+            continue
+        predictions = [expert['prob'] for expert in experts.values()]
+        metrics = calculate_round_metrics(predictions, actual_outcome, round_data['round'], prev_median)
+        round_metrics.append(metrics)
+        median_briers.append(metrics.median_brier)
+        if metrics.improvement_from_prev is not None:
+            improvements.append(metrics.improvement_from_prev)
+        prev_median = metrics.median_brier
+
+    if not median_briers:
+        return 0.0, {'error': 'No usable rounds'}
+
+    # Core quantities
+    initial_brier = float(median_briers[0])
+    final_brier = float(median_briers[-1])
+    total_improvement = float(max(0.0, initial_brier - final_brier))
+    rel_improvement = float(total_improvement / (initial_brier + 1e-6))  # 0..1 typically
+    rel_improvement = float(np.clip(rel_improvement, 0.0, 1.0))
+
+    # Absolute quality via Brier skill score vs naive 0.5 forecast (baseline brier=0.25)
+    baseline_brier = 0.25
+    skill = (baseline_brier - final_brier) / baseline_brier  # 1.0 best, 0.0 baseline, <0 worse than baseline
+    skill_component = float(np.clip(skill, 0.0, 1.0))
+
+    # Area-under-improvement: reward earlier gains (normalize by max possible area)
+    # Area = sum over rounds of (initial_brier - brier_r), r>=2
+    if len(median_briers) > 1:
+        area = sum(max(0.0, initial_brier - b) for b in median_briers[1:])
+        max_area = initial_brier * (len(median_briers) - 1)
+        area_norm = float(area / (max_area + 1e-6))
+        area_norm = float(np.clip(area_norm, 0.0, 1.0))
+    else:
+        area_norm = 0.0
+
+    # Consistency and smoothness
+    if len(improvements) > 0:
+        monotonicity = float(sum(1 for imp in improvements if imp >= 0) / len(improvements))
+        smoothness = float(calculate_smoothness(improvements))
+        improvement_variance = float(np.var(improvements))
+    else:
+        monotonicity = 1.0
+        smoothness = 1.0
+        improvement_variance = 0.0
+
+    # Combine components with weights chosen to widen dynamic range
+    # - skill_component captures absolute forecast quality
+    # - rel_improvement + area_norm capture progress and timing
+    # - monotonicity + smoothness reward consistency
+    fitness_raw = (
+        0.35 * skill_component +
+        0.25 * rel_improvement +
+        0.20 * area_norm +
+        0.10 * monotonicity +
+        0.10 * smoothness
+    )
+    fitness = float(np.clip(fitness_raw, 0.0, 1.0))
+
+    detailed_metrics = {
+        'initial_median_brier': initial_brier,
+        'final_median_brier': final_brier,
+        'total_improvement': total_improvement,
+        'relative_improvement': rel_improvement,
+        'area_under_improvement': area_norm,
+        'improvement_variance': improvement_variance,
+        'monotonicity': monotonicity,
+        'smoothness': smoothness,
+        'skill_component': skill_component,
+        'median_briers_by_round': median_briers,
+        'improvements_by_round': [float(i) for i in improvements],
+        'fitness': fitness,
+    }
+
+    return fitness, detailed_metrics
