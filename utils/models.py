@@ -65,7 +65,7 @@ class LLMModel(Enum):
     O3_2025_04_16 = "o3-2025-04-16"
     GPT_5_2025_08_07 = "gpt-5-2025-08-07"
     O1_2024_12_17 = "o1-2024-12-17"
-    
+
     # Groq models (OpenAI-compatible models hosted on Groq)
     GROQ_GPT_OSS_20B = "openai/gpt-oss-20b"
     GROQ_GPT_OSS_120B = "openai/gpt-oss-120b"
@@ -75,6 +75,7 @@ class LLMModel(Enum):
     GROQ_LLAMA_4_MAVERICK_17B = "meta-llama/llama-4-maverick-17b-128e-instruct"
     GROQ_QWEN3_32B = "qwen/qwen3-32b"
     GROQ_DEEPSEEK_R1_DISTILL_70B = "deepseek-r1-distill-llama-70b"
+    GROQ_KIMI_K2_INSTRUCT = "moonshotai/kimi-k2-instruct"
 
 
 
@@ -149,30 +150,30 @@ class GroqLLM(BaseLLM):
             'max_completion_tokens': max_tokens,
             'temperature': temperature,
         }
-        
+
         # Add seed if provided for deterministic results
         if 'seed' in kwargs:
             create_params['seed'] = kwargs['seed']
-            
+
         # Add reasoning effort for models that support it
         if 'gpt-oss' in self.model and kwargs.get('reasoning_effort'):
             create_params['reasoning_effort'] = kwargs.get('reasoning_effort', self.reasoning_effort)
-            
+
         # Add any other kwargs except reasoning_effort and seed (already handled)
         for k, v in kwargs.items():
             if k not in ['reasoning_effort', 'seed']:
                 create_params[k] = v
-        
+
         try:
             response = self.client.chat.completions.create(**create_params)
-            
+
             # Log token usage for monitoring
             if hasattr(response, 'usage') and response.usage:
                 usage = response.usage
                 completion_tokens = usage.completion_tokens
                 prompt_tokens = usage.prompt_tokens
                 total_tokens = usage.total_tokens
-                
+
                 # Store usage info for retrieval
                 self.last_usage = {
                     'prompt_tokens': prompt_tokens,
@@ -180,18 +181,18 @@ class GroqLLM(BaseLLM):
                     'total_tokens': total_tokens,
                     'max_tokens_requested': max_tokens
                 }
-                
+
                 # Warn if we're approaching token limits
                 if completion_tokens >= max_tokens * 0.95:
                     print(f"⚠️  WARNING: Response used {completion_tokens}/{max_tokens} tokens (95%+ of limit). Consider increasing max_tokens.")
                 elif completion_tokens >= max_tokens * 0.8:
                     print(f"🔶 NOTICE: Response used {completion_tokens}/{max_tokens} tokens (80%+ of limit).")
-                    
+
                 # Log token usage
                 print(f"📊 Token usage - Prompt: {prompt_tokens}, Completion: {completion_tokens}, Total: {total_tokens}")
-            
+
             return response.choices[0].message.content
-            
+
         except Exception as e:
             # Store error info
             self.last_usage = {'error': str(e)}
@@ -298,7 +299,7 @@ class LLMFactory:
             elif isinstance(model, LLMModel):
                 model = model.value
             return OpenAILLM(api_key=api_key, system_prompt=system_prompt, model=model)
-        
+
         elif provider == LLMProvider.GROQ:
             if model is None:
                 model = LLMModel.GROQ_LLAMA_3_3_70B.value
@@ -348,7 +349,7 @@ class ConversationManager:
                     elif isinstance(self.llm, GroqLLM):
                         # Groq uses synchronous API but we handle it here
                         messages = [{"role": "system", "content": self.llm.system_prompt}] + self.messages
-                        
+
                         # Build parameters dict
                         create_params = {
                             'model': self.llm.model,
@@ -356,21 +357,21 @@ class ConversationManager:
                             'max_completion_tokens': kwargs.get('max_tokens', 8192),
                             'temperature': kwargs.get('temperature', 0.7),
                         }
-                        
+
                         # Add seed if provided for deterministic results
                         if 'seed' in kwargs:
                             create_params['seed'] = kwargs['seed']
-                            
+
                         # Add any other kwargs except those already handled
                         for k, v in kwargs.items():
                             if k not in ['max_tokens', 'temperature', 'seed', 'reasoning_effort']:
                                 create_params[k] = v
-                        
+
                         response = self.llm.client.chat.completions.create(**create_params)
                         return response.choices[0].message.content
                     else:
                         messages = [{"role": "system", "content": self.llm.system_prompt}] + self.messages
-                        
+
                         # Check if this is an o1 or o3 model that requires max_completion_tokens
                         if isinstance(self.llm, OpenAILLM) and (self.llm.model.startswith('o1') or self.llm.model.startswith('o3') or self.llm.model.startswith('gpt-5')):
                             # o1 and o3 models require max_completion_tokens instead of max_tokens
@@ -378,21 +379,21 @@ class ConversationManager:
                                 'model': self.llm.model,
                                 'messages': messages,
                             }
-                            
+
                             # Make a copy of kwargs to avoid modifying the original
                             kwargs_copy = kwargs.copy()
-                            
+
                             # Convert max_tokens to max_completion_tokens for o1/o3 models
                             if 'max_tokens' in kwargs_copy:
                                 create_params['max_completion_tokens'] = kwargs_copy.pop('max_tokens')
-                            
+
                             # Remove temperature as it's not supported by o1/o3 models
                             if 'temperature' in kwargs_copy:
                                 kwargs_copy.pop('temperature')
-                            
+
                             # Add remaining kwargs
                             create_params.update(kwargs_copy)
-                            
+
                             response = await self.llm.client.chat.completions.create(**create_params)
                         else:
                             response = await self.llm.client.chat.completions.create(
@@ -401,7 +402,7 @@ class ConversationManager:
                                 **kwargs
                             )
                         return response.choices[0].message.content
-                        
+
                 except Exception as e:
                     # Check if it's a rate limit error
                     is_rate_limit = (
@@ -409,7 +410,7 @@ class ConversationManager:
                     ) or (
                         hasattr(e, '__class__') and 'RateLimitError' in str(e.__class__.__name__)
                     )
-                    
+
                     if is_rate_limit and attempt < max_retries - 1:
                         # Extract wait time from error message if available
                         wait_time_match = re.search(r'try again in ([\d.]+)\s*(ms|s)', str(e).lower())
@@ -420,14 +421,14 @@ class ConversationManager:
                         else:
                             # Use exponential backoff if no specific wait time found
                             wait_time = base_backoff * (2 ** attempt)
-                        
+
                         print(f"⏳ Rate limit hit (attempt {attempt + 1}/{max_retries}). Waiting {wait_time:.1f}s...")
                         await asyncio.sleep(wait_time)
                         continue
                     else:
                         # Re-raise if not a rate limit error or max retries exceeded
                         raise e
-            
+
             # This should never be reached due to the raise in the except block
             raise Exception("Max retries exceeded")
 
