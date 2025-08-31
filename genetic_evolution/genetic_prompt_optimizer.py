@@ -7,6 +7,8 @@ and optional length penalties.
 
 import asyncio
 import logging
+import csv
+import time
 from typing import List, Dict, Any, Optional, Callable
 from dataclasses import dataclass
 import json
@@ -49,7 +51,8 @@ class GeneticPromptOptimizer:
         fitness_config: Optional[FitnessConfig] = None,
         log_dir: Optional[str] = None,
         max_concurrent_mutations: int = 5,
-        component_type: str = 'expert'
+        component_type: str = 'expert',
+        monitor_params: Optional[Dict[str, Any]] = None
     ):
         """
         Initialize the genetic prompt optimizer.
@@ -102,6 +105,18 @@ class GeneticPromptOptimizer:
         # Evaluation functions (to be set by user)
         self.train_evaluation_function: Optional[Callable] = None
         self.val_evaluation_function: Optional[Callable] = None
+
+        # Monitoring setup (CSV + JSONL and gap alerts)
+        self.monitor_csv_path = self.log_dir / "monitor.csv"
+        self.monitor_jsonl_path = self.log_dir / "monitor.jsonl"
+        self._monitor_csv_initialized = False
+        self._gap_breach_streak = 0
+        self._monitor_metric_keys: Optional[List[str]] = None  # dynamic metric columns (base names)
+        self.monitor_params = monitor_params or {}
+        # Defaults: warn on sustained gap > 0.2 for 5 gens; do not early-stop by default
+        self.gap_threshold: float = float(self.monitor_params.get('gap_threshold', 0.2))
+        self.gap_patience: int = int(self.monitor_params.get('gap_patience', 5))
+        self.early_stop_by_gap: bool = bool(self.monitor_params.get('early_stop_by_gap', False))
 
     def set_evaluation_function(self, eval_func: Callable) -> None:
         """Backward-compatible single evaluation setter (uses same for train/val)."""
@@ -260,10 +275,10 @@ class GeneticPromptOptimizer:
 
             # Log generation statistics
             best_candidate = self.population.get_best_candidate()
+            best_train = max([c.train_fitness for c in self.population.population]) if self.population.population else 0.0
+            best_val = best_candidate.fitness if best_candidate else 0.0
             if best_candidate:
                 # Log both curves
-                best_train = max([c.train_fitness for c in self.population.population]) if self.population.population else 0.0
-                best_val = best_candidate.fitness
                 self.logger.info(f"Best fitness (train): {best_train:.4f}")
                 self.logger.info(f"Best fitness (val): {best_val:.4f}")
                 self.logger.info(f"Best prompt: {best_candidate.text[:100]}...")
@@ -276,6 +291,92 @@ class GeneticPromptOptimizer:
                 ti_t = train_agg.get('delphi_total_improvement_mean')
                 ti_v = val_agg.get('delphi_total_improvement_mean')
                 self.logger.info(f"Delphi total improvement (train/val): {ti_t if ti_t is not None else 'NA'} / {ti_v if ti_v is not None else 'NA'}")
+
+            # Monitoring: compute means, gap and append CSV/JSONL; optional gap early-stop
+            mean_train = float(sum(train_fitness_scores)/len(train_fitness_scores)) if train_fitness_scores else 0.0
+            mean_val = float(sum(val_fitness_scores)/len(val_fitness_scores)) if val_fitness_scores else 0.0
+            gap = float(best_train - best_val)
+            if gap > self.gap_threshold:
+                self._gap_breach_streak += 1
+            else:
+                self._gap_breach_streak = 0
+            if self._gap_breach_streak >= self.gap_patience:
+                self.logger.warning(
+                    f"Generalization gap > {self.gap_threshold:.3f} for {self._gap_breach_streak} generations"
+                )
+                if self.early_stop_by_gap:
+                    self.logger.warning("Early stopping due to sustained generalization gap.")
+                    break
+
+            # Prepare aggregated means for CSV/JSONL (only *_mean keys)
+            train_means = {k: v for k, v in train_agg.items() if k.endswith('_mean')}
+            val_means = {k: v for k, v in val_agg.items() if k.endswith('_mean')}
+
+            # Derive stable metric base names from keys like 'mean_brier_mean' -> 'mean_brier'
+            if self._monitor_metric_keys is None:
+                metric_bases = set()
+                for k in list(train_means.keys()) + list(val_means.keys()):
+                    if k.endswith('_mean'):
+                        metric_bases.add(k[:-5])
+                self._monitor_metric_keys = sorted(metric_bases)
+
+            # Append monitoring CSV
+            try:
+                if not self._monitor_csv_initialized:
+                    with self.monitor_csv_path.open('w', newline='') as cf:
+                        writer = csv.writer(cf)
+                        header = ['generation','best_train','mean_train','best_val','mean_val','gap','mutation_rate']
+                        # Add dynamic metric columns for train/val means
+                        for base in self._monitor_metric_keys or []:
+                            header.append(f'train_{base}')
+                        for base in self._monitor_metric_keys or []:
+                            header.append(f'val_{base}')
+                        header.append('timestamp')
+                        writer.writerow(header)
+                    self._monitor_csv_initialized = True
+                with self.monitor_csv_path.open('a', newline='') as cf:
+                    writer = csv.writer(cf)
+                    row = [
+                        self.population.generation,
+                        f"{best_train:.6f}", f"{mean_train:.6f}",
+                        f"{best_val:.6f}", f"{mean_val:.6f}",
+                        f"{gap:.6f}", f"{self.population.mutation_rate:.6f}",
+                    ]
+                    # Serialize dynamic train means in header order
+                    for base in self._monitor_metric_keys or []:
+                        key = f"{base}_mean"
+                        val = train_means.get(key)
+                        row.append(f"{val:.6f}" if isinstance(val, (int, float)) else "")
+                    # Serialize dynamic val means
+                    for base in self._monitor_metric_keys or []:
+                        key = f"{base}_mean"
+                        val = val_means.get(key)
+                        row.append(f"{val:.6f}" if isinstance(val, (int, float)) else "")
+                    row.append(int(time.time()))
+                    writer.writerow(row)
+            except Exception:
+                pass
+
+            # Append monitoring JSONL
+            try:
+                entry = {
+                    'generation': self.population.generation,
+                    'best_train': best_train,
+                    'mean_train': mean_train,
+                    'best_val': best_val,
+                    'mean_val': mean_val,
+                    'gap': gap,
+                    'mutation_rate': self.population.mutation_rate,
+                    'train_agg': train_agg,
+                    'val_agg': val_agg,
+                    'train_means': train_means,
+                    'val_means': val_means,
+                    'timestamp': int(time.time()),
+                }
+                with self.monitor_jsonl_path.open('a', encoding='utf-8') as jf:
+                    jf.write(json.dumps(entry) + "\n")
+            except Exception:
+                pass
 
             self.logger.info(f"Mutation rate: {self.population.mutation_rate:.3f}")
             self.logger.info(f"Generations without improvement: {self.population.generations_without_improvement}")
