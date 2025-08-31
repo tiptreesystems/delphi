@@ -9,13 +9,13 @@ from utils.prompt_loader import load_prompt
 def get_llm_from_config(config: dict, role: str = None):
     """
     Create LLM instance from configuration.
-    
+
     Args:
         config: Configuration dictionary
         role: Optional role ('expert', 'mediator', or 'learner') to get role-specific config
     """
     model_config = config['model'].copy()
-    
+
     # If a role is specified, use role-specific config (now required)
     if role:
         if role not in model_config:
@@ -26,10 +26,10 @@ def get_llm_from_config(config: dict, role: str = None):
             raise ValueError(f"'provider' is required in model.{role} configuration")
         if 'model' not in role_config and 'name' not in role_config:
             raise ValueError(f"'model' or 'name' is required in model.{role} configuration")
-        
+
         model_config['provider'] = role_config['provider']
         model_config['name'] = role_config.get('model', role_config.get('name'))
-        
+
         # Handle system prompt references
         if 'system_prompt' in role_config:
             # For backward compatibility, warn if inline prompt is used
@@ -48,7 +48,7 @@ def get_llm_from_config(config: dict, role: str = None):
     else:
         # No role specified - this should not be used anymore
         raise ValueError("Role must be specified when getting LLM from config. Use 'expert', 'mediator', or 'learner'.")
-    
+
     # Map string provider to enum
     provider_map = {
         'openai': LLMProvider.OPENAI,
@@ -57,13 +57,14 @@ def get_llm_from_config(config: dict, role: str = None):
         'groq': LLMProvider.GROQ,
     }
     provider = provider_map.get(model_config['provider'].lower())
-    
+
     # Map model name to enum (you may need to extend this)
     model_map = {
         'gpt-4o-2024-05-13': LLMModel.GPT_4O_2024_05_13,
         'gpt-4o': LLMModel.GPT_4O,
         'openai/gpt-oss-20b': LLMModel.GROQ_GPT_OSS_20B,
         'openai/gpt-oss-120b': LLMModel.GROQ_GPT_OSS_120B,
+        'moonshotai/kimi-k2-instruct': LLMModel.GROQ_KIMI_K2_INSTRUCT,
         'llama-3.3-70b-versatile': LLMModel.GROQ_LLAMA_3_3_70B,
         'llama-3.1-70b-versatile': LLMModel.GROQ_LLAMA_3_1_70B,
         'meta-llama/llama-4-maverick-17b-128e-instruct': LLMModel.GROQ_LLAMA_4_MAVERICK_17B,
@@ -74,8 +75,8 @@ def get_llm_from_config(config: dict, role: str = None):
         'o1-2024-12-17': LLMModel.O1_2024_12_17,
         'claude-3-7-sonnet-20250219': LLMModel.CLAUDE_3_7_SONNET,
     }
-    model = model_map.get(model_config['name'].lower(), LLMModel.GPT_4O_2024_05_13)
-    
+    model = model_map.get(model_config['name'].lower())
+
     system_prompt = model_config.get('system_prompt', '')
-    
+
     return LLMFactory.create_llm(provider, model, system_prompt=system_prompt)
