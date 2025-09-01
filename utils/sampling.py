@@ -160,9 +160,11 @@ def sample_questions(base_config: dict, questions_with_topic: List, loader, meth
     sampling_config = config['data']['sampling']
     experiment_config = config['experiment']
     selected_resolution_date = config['data']['resolution_date']
-    initial_forecasts_path = experiment_config['initial_forecasts_dir']
+    base_initial_dir = experiment_config['initial_forecasts_dir']
     reuse_config = experiment_config.get('reuse_initial_forecasts', {})
     seed = experiment_config['seed']
+    # Use seed-specific directory for initial forecasts
+    initial_forecasts_path = os.path.join(base_initial_dir, f"seed_{seed}")
     seed_everything(seed)
     print(f"Set random seed to {seed} before question sampling")
 
@@ -345,7 +347,19 @@ def _handle_from_initial_forecasts(sampling_config, reuse_config, initial_foreca
             else:
                 sampled_questions = questions_with_topic[:n_questions]
             from utils.forecast_loader import generate_initial_forecasts_for_questions
-            generate_initial_forecasts_for_questions(sampled_questions, initial_forecasts_path, config, selected_resolution_date)
+            reuse_cfg = (config.get('experiment', {}) or {}).get('reuse_initial_forecasts', {})
+            with_examples_flag = (
+                reuse_cfg.get('with_examples')
+                if isinstance(reuse_cfg, dict) and 'with_examples' in reuse_cfg
+                else (config.get('initial_forecasts', {}) or {}).get('with_examples', True)
+            )
+            generate_initial_forecasts_for_questions(
+                sampled_questions,
+                initial_forecasts_path,
+                config,
+                selected_resolution_date,
+                with_examples=with_examples_flag,
+            )
             print(f"Sampling method: from_initial_forecasts ({len(sampled_questions)} questions, generated new initial forecasts)")
     else:
         print(f"No initial forecasts found, generating new initial forecasts...")
@@ -360,7 +374,19 @@ def _handle_from_initial_forecasts(sampling_config, reuse_config, initial_foreca
             sampled_questions = questions_with_topic[:n_questions]
             print(f"Generating new initial forecasts for {n_questions} questions...")
         from utils.forecast_loader import generate_initial_forecasts_for_questions
-        generate_initial_forecasts_for_questions(sampled_questions, initial_forecasts_path, config, selected_resolution_date)
+        reuse_cfg = (config.get('experiment', {}) or {}).get('reuse_initial_forecasts', {})
+        with_examples_flag = (
+            reuse_cfg.get('with_examples')
+            if isinstance(reuse_cfg, dict) and 'with_examples' in reuse_cfg
+            else (config.get('initial_forecasts', {}) or {}).get('with_examples', True)
+        )
+        generate_initial_forecasts_for_questions(
+            sampled_questions,
+            initial_forecasts_path,
+            config,
+            selected_resolution_date,
+            with_examples=with_examples_flag,
+        )
         print(f"Sampling method: from_initial_forecasts ({len(sampled_questions)} questions, generated new initial forecasts)")
 
     return sampled_questions

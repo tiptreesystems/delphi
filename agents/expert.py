@@ -39,7 +39,7 @@ class Expert:
         self.conversation_manager.messages.clear()
 
         # Pass seed if provided for deterministic results
-        kwargs = {'max_tokens': 500, 'temperature': temperature}
+        kwargs = {'max_tokens': self.config.get('max_tokens', 500), 'temperature': temperature}
         if seed is not None:
             kwargs['seed'] = seed
 

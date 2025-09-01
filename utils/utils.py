@@ -82,37 +82,37 @@ def setup_environment(config: dict):
 
 def split_train_valid(questions, valid_ratio: float = 0.2, seed: int = 42) -> Tuple[List, List]:
     """Split questions into train and validation sets with stratification by topic."""
-    
+
     # Set seed for reproducibility
     random.seed(seed)
-    
+
     # Group questions by topic
     topic_questions = defaultdict(list)
     for q in questions:
         topic = q.topic if q.topic else 'unknown'
         topic_questions[topic].append(q)
-    
+
     train_questions = []
     valid_questions = []
-    
+
     # Split each topic proportionally
     for topic, topic_qs in topic_questions.items():
         n_valid = max(1, int(len(topic_qs) * valid_ratio))
         n_train = len(topic_qs) - n_valid
-        
+
         # Shuffle within topic for random split
         shuffled = topic_qs.copy()
         random.shuffle(shuffled)
-        
+
         train_questions.extend(shuffled[:n_train])
         valid_questions.extend(shuffled[n_train:])
-    
+
     # Shuffle final lists
     random.shuffle(train_questions)
     random.shuffle(valid_questions)
-    
+
     print(f"\nData split (stratified by topic):")
     print(f"  Training set: {len(train_questions)} questions")
     print(f"  Validation set: {len(valid_questions)} questions")
-    
+
     return train_questions, valid_questions

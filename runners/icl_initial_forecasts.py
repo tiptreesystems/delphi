@@ -37,6 +37,7 @@ load_dotenv()
 class SubjectType(str, Enum):
     SUPERFORECASTER = "superforecaster"
     BASELINE = "baseline"   # no-examples, no SF id
+    AGGREGATED = "aggregated"  # one expert using all SF examples
 
 @dataclass
 class TaskSpec:
@@ -66,6 +67,122 @@ def build_specs_with_examples(
                 subject_id=sf_id,
                 examples=pairs[:max_examples],
             ))
+    return specs
+
+def build_specs_aggregated(
+    sampled_questions,
+    *,
+    loader,
+    date: str,
+    min_examples: int = 1,
+    max_examples: Optional[int] = None,
+    config: Optional[Dict[str, Any]] = None,
+) -> List[TaskSpec]:
+    """One TaskSpec per question aggregating examples across SFs.
+
+    Parity mode (default true): mimic a K×M setup by
+    - selecting K SFs using the same seed/ordering as the multi-expert run
+    - taking up to M examples per selected SF
+    - aggregating their examples (deduped by (question_id, user_id))
+
+    If parity=false: aggregate across all SFs, optionally capped by max_examples.
+    """
+    from typing import Dict as _Dict, Any as _Any
+    specs: List[TaskSpec] = []
+
+    if config is None:
+        config = {}
+    init_cfg = (config.get('initial_forecasts') or {})
+    delphi_cfg = (config.get('delphi') or {})
+    exp_cfg = (config.get('experiment') or {})
+
+    parity = bool(init_cfg.get('parity', True))
+    parity_source = (init_cfg.get('parity_source') or 'from_initial_forecasts') if parity else 'none'
+    # How many experts to mirror (K) and examples per SF (M)
+    parity_n_experts = int(init_cfg.get('parity_n_experts', 3))
+    parity_per_sf_examples = int(init_cfg.get('parity_per_sf_examples', init_cfg.get('max_examples', 3)))
+    # Seed to match expert selection
+    parity_seed = int(delphi_cfg.get('expert_selection_seed', exp_cfg.get('seed', 42)))
+
+    # Build all example pairs per SF for each question
+    all_examples = _collect_example_forecasts(sampled_questions, loader, date, min_examples=1, max_examples=9999)
+
+    import random as _random
+    import os as _os
+    import json as _json
+    for q in sampled_questions:
+        sf_map = all_examples.get(q.id, {})  # {sf_id: [(Q,F), ...]}
+        if not sf_map:
+            continue
+
+        if parity:
+            agg_pairs: List[Tuple["Question", "Forecast"]] = []
+            selected_sf_ids: List[str] = []
+
+            if parity_source == 'from_delphi_logs':
+                # Read exact selected SF IDs from a paired Delphi run's logs
+                delphi_out_dir = init_cfg.get('parity_delphi_output_dir') or exp_cfg.get('output_dir')
+                seed_val = exp_cfg.get('seed', None)
+                if seed_val is not None:
+                    delphi_out_dir = _os.path.join(delphi_out_dir, f"seed_{int(seed_val)}")
+                if delphi_out_dir and _os.path.isdir(delphi_out_dir):
+                    fname = f"delphi_eval_{q.id}_{date}.json"
+                    fpath = _os.path.join(delphi_out_dir, fname)
+                    try:
+                        with open(fpath, 'r', encoding='utf-8') as f:
+                            log = _json.load(f)
+                        rounds = log.get('rounds') or []
+                        if rounds:
+                            experts_map = rounds[0].get('experts') or {}
+                            selected_sf_ids = list(experts_map.keys())
+                    except Exception:
+                        selected_sf_ids = []
+                # Fallback to deterministic if logs missing
+                if not selected_sf_ids:
+                    candidate_sf_ids = [sf_id for sf_id, pairs in sf_map.items() if len(pairs) >= min_examples]
+                    rng = _random.Random(parity_seed)
+                    k = min(parity_n_experts, len(candidate_sf_ids))
+                    selected_sf_ids = rng.sample(candidate_sf_ids, k)
+
+            else:
+                # from_initial_forecasts (deterministic selection mirroring Delphi)
+                candidate_sf_ids = [sf_id for sf_id, pairs in sf_map.items() if len(pairs) >= min_examples]
+                if not candidate_sf_ids:
+                    continue
+                rng = _random.Random(parity_seed)
+                k = min(parity_n_experts, len(candidate_sf_ids))
+                selected_sf_ids = rng.sample(candidate_sf_ids, k)
+
+            # Aggregate with per-SF cap M
+            for sf_id in selected_sf_ids:
+                pairs = sf_map.get(sf_id, [])[:parity_per_sf_examples]
+                agg_pairs.extend(pairs)
+        else:
+            # Non-parity: union of all SF examples
+            agg_pairs = []
+            for pairs in sf_map.values():
+                agg_pairs.extend(pairs)
+
+        # Deduplicate by (question_id, user_id)
+        seen = set()
+        deduped: List[Tuple["Question", "Forecast"]] = []
+        for ex_q, ex_f in agg_pairs:
+            key = (getattr(ex_q, 'id', None), getattr(ex_f, 'user_id', None))
+            if key not in seen:
+                seen.add(key)
+                deduped.append((ex_q, ex_f))
+
+        if len(deduped) < min_examples:
+            continue
+        if max_examples is not None:
+            deduped = deduped[:max_examples]
+
+        specs.append(TaskSpec(
+            question=q,
+            subject_type=SubjectType.AGGREGATED,
+            subject_id="agg",
+            examples=deduped,
+        ))
     return specs
 
 def _collect_example_forecasts(sampled_questions, loader, selected_date, *, min_examples=1, max_examples=5):
@@ -199,6 +316,17 @@ async def _run_specs(
 
             forecasts = await asyncio.gather(*(_sample_once() for _ in range(n_samples)))
             print(f"forecasts: {forecasts}")
+            # Include richer example references when available for downstream reconstruction
+            examples_used_pairs = []
+            if spec.examples:
+                for q_obj, f_obj in spec.examples:
+                    try:
+                        examples_used_pairs.append({
+                            "question_id": getattr(q_obj, 'id', None),
+                            "user_id": getattr(f_obj, 'user_id', None),
+                        })
+                    except Exception:
+                        pass
             return {
                 "question_id": spec.question.id,
                 "subject_type": spec.subject_type.value,
@@ -208,6 +336,7 @@ async def _run_specs(
                 "forecasts": forecasts,
                 "full_conversation": expert.conversation_manager.messages,
                 "examples_used": [q.id for q, _ in spec.examples] if spec.examples else [],
+                "examples_used_pairs": examples_used_pairs,
             }
     return await asyncio.gather(*(_call_one(s) for s in specs), return_exceptions=True)
 
@@ -250,6 +379,54 @@ async def run_all_forecasts_with_examples(
         date=selected_resolution_date,
         min_examples=min_examples,
         max_examples=max_examples,
+    )
+    return await _run_specs(
+        specs,
+        selected_resolution_date=selected_resolution_date,
+        forecast_due_date=forecast_due_date,
+        concurrency=concurrency,
+        timeout_s=timeout_s,
+        retries=retries,
+        base_backoff_s=base_backoff_s,
+        n_samples=n_samples,
+        config=config,
+    )
+
+async def run_all_forecasts_aggregated_examples(
+    sampled_questions,
+    *,
+    loader=None,
+    selected_resolution_date: str = None,
+    forecast_due_date: str = None,
+    min_examples: int = 1,
+    max_examples: int = None,
+    concurrency: int = 5,
+    timeout_s: int = 300,
+    retries: int = 5,
+    base_backoff_s: int = 10,
+    n_samples: int = 1,
+    config: dict = None,
+    llm = None,
+):
+    """PRODUCES: one record per question with aggregated examples across SFs."""
+    if loader is None:
+        loader = ForecastDataLoader()
+    if config is None:
+        config = {}
+
+    data_config = config.get('data', {})
+    if selected_resolution_date is None:
+        selected_resolution_date = data_config.get('resolution_date', '2025-07-21')
+    if forecast_due_date is None:
+        forecast_due_date = data_config.get('forecast_due_date', '2024-07-21')
+
+    specs = build_specs_aggregated(
+        sampled_questions,
+        loader=loader,
+        date=selected_resolution_date,
+        min_examples=min_examples,
+        max_examples=max_examples,
+        config=config,
     )
     return await _run_specs(
         specs,

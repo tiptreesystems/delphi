@@ -327,12 +327,12 @@ class GeneticEvolutionPipeline:
         if not self.dry_run:
             # Evaluate best prompt on validation set
             print(f"\nEvaluating best prompt on validation set of ({len(valid_questions)} questions)...")
-            await self.evaluate_final_performance(valid_questions)
+            await self.evaluate_final_performance(valid_questions, split_label="val")
 
             # Also evaluate on evolution test set
             evolution_test_questions = sample_questions(self.config, all_questions, self.loader, method_override='evolution_evaluation')
             print(f"\nEvaluating best prompt on evolution test set of ({len(evolution_test_questions)} questions...)")
-            await self.evaluate_final_performance(evolution_test_questions)
+            await self.evaluate_final_performance(evolution_test_questions, split_label="test")
         else:
             print("\nDRY-RUN: Skipping final validation and test evaluations.")
 
@@ -568,82 +568,83 @@ class GeneticEvolutionPipeline:
             delphi_logs: List[Dict] = []
             question_metrics: Dict = {}
 
-            # Test prompt on each validation question using full Delphi
-            for question in validation_batch:
-                # Create config that uses the evolved prompt
-                eval_config = {
-                    **self.config,
-                    'delphi': {
-                        **self.config.get('delphi', {}),
-                        'n_rounds': 2,  # Shorter for faster evaluation
-                        'n_experts': min(3, self.config.get('delphi', {}).get('n_experts', 5))
+            # Create config that uses the evolved prompt
+            eval_config = {
+                **self.config,
+                'delphi': {
+                    **self.config.get('delphi', {}),
+                    'n_rounds': 2,  # Shorter for faster evaluation
+                    'n_experts': min(3, self.config.get('delphi', {}).get('n_experts', 5))
+                }
+            }
+
+            # Ensure model config has provider and name for backward compatibility
+            if 'provider' not in eval_config['model']:
+                # Use mediator's provider as default (since we're optimizing mediator)
+                if 'mediator' in eval_config['model'] and 'provider' in eval_config['model']['mediator']:
+                    eval_config['model']['provider'] = eval_config['model']['mediator']['provider']
+                    eval_config['model']['name'] = eval_config['model']['mediator'].get('model', '')
+                elif 'expert' in eval_config['model'] and 'provider' in eval_config['model']['expert']:
+                    eval_config['model']['provider'] = eval_config['model']['expert']['provider']
+                    eval_config['model']['name'] = eval_config['model']['expert'].get('model', '')
+
+            # Always include full conversation histories in Delphi logs
+            try:
+                eval_config.setdefault('output', {}).setdefault('save', {})
+            except Exception:
+                pass
+
+            # Configure which component uses the evolved prompt
+            if self.optimize_component == 'expert':
+                eval_config['model'] = {
+                    **eval_config['model'],
+                    'expert': {
+                        **eval_config['model'].get('expert', {}),
+                        'system_prompt_name': f'expert_system/{temp_prompt_id}',
+                        'system_prompt_version': 'v1'
+                    }
+                }
+            elif self.optimize_component == 'mediator':
+                # Ensure mediator config has all required fields
+                existing_mediator = eval_config['model'].get('mediator', {})
+                eval_config['model'] = {
+                    **eval_config['model'],
+                    'mediator': {
+                        **existing_mediator,
+                        'system_prompt_name': temp_prompt_id,
+                        'system_prompt_version': 'md'
+                    }
+                }
+                # Debug: verify mediator config has provider
+                if 'provider' not in eval_config['model']['mediator']:
+                    print(f"WARNING: mediator config missing provider. Config keys: {list(eval_config['model']['mediator'].keys())}")
+                    print(f"Full mediator config: {eval_config['model']['mediator']}")
+            else:  # both
+                eval_config['model'] = {
+                    **eval_config['model'],
+                    'expert': {
+                        **eval_config['model'].get('expert', {}),
+                        'system_prompt_name': f'expert_system/{temp_prompt_id}',
+                        'system_prompt_version': 'v1'
+                    },
+                    'mediator': {
+                        **eval_config['model'].get('mediator', {}),
+                        'system_prompt_name': temp_prompt_id,
+                        'system_prompt_version': 'md'
                     }
                 }
 
-                # Ensure model config has provider and name for backward compatibility
-                if 'provider' not in eval_config['model']:
-                    # Use mediator's provider as default (since we're optimizing mediator)
-                    if 'mediator' in eval_config['model'] and 'provider' in eval_config['model']['mediator']:
-                        eval_config['model']['provider'] = eval_config['model']['mediator']['provider']
-                        eval_config['model']['name'] = eval_config['model']['mediator'].get('model', '')
-                    elif 'expert' in eval_config['model'] and 'provider' in eval_config['model']['expert']:
-                        eval_config['model']['provider'] = eval_config['model']['expert']['provider']
-                        eval_config['model']['name'] = eval_config['model']['expert'].get('model', '')
+            # Load real initial forecasts for this question if available
+            initial_forecasts_path = self.config['experiment']['initial_forecasts_dir']
 
-                # Always include full conversation histories in Delphi logs
-                try:
-                    eval_config.setdefault('output', {}).setdefault('save', {})
-                except Exception:
-                    pass
+            # Try to load existing forecasts
+            llm = get_llm_from_config(eval_config, role='expert')
+            _, llmcasts_by_qid_sfid, _ = await load_forecasts(
+                self.config, self.loader, llm
+            )
 
-                # Configure which component uses the evolved prompt
-                if self.optimize_component == 'expert':
-                    eval_config['model'] = {
-                        **eval_config['model'],
-                        'expert': {
-                            **eval_config['model'].get('expert', {}),
-                            'system_prompt_name': f'expert_system/{temp_prompt_id}',
-                            'system_prompt_version': 'v1'
-                        }
-                    }
-                elif self.optimize_component == 'mediator':
-                    # Ensure mediator config has all required fields
-                    existing_mediator = eval_config['model'].get('mediator', {})
-                    eval_config['model'] = {
-                        **eval_config['model'],
-                        'mediator': {
-                            **existing_mediator,
-                            'system_prompt_name': temp_prompt_id,
-                            'system_prompt_version': 'md'
-                        }
-                    }
-                    # Debug: verify mediator config has provider
-                    if 'provider' not in eval_config['model']['mediator']:
-                        print(f"WARNING: mediator config missing provider. Config keys: {list(eval_config['model']['mediator'].keys())}")
-                        print(f"Full mediator config: {eval_config['model']['mediator']}")
-                else:  # both
-                    eval_config['model'] = {
-                        **eval_config['model'],
-                        'expert': {
-                            **eval_config['model'].get('expert', {}),
-                            'system_prompt_name': f'expert_system/{temp_prompt_id}',
-                            'system_prompt_version': 'v1'
-                        },
-                        'mediator': {
-                            **eval_config['model'].get('mediator', {}),
-                            'system_prompt_name': temp_prompt_id,
-                            'system_prompt_version': 'md'
-                        }
-                    }
-
-                # Load real initial forecasts for this question if available
-                initial_forecasts_path = self.config['experiment']['initial_forecasts_dir']
-
-                # Try to load existing forecasts
-                llm = get_llm_from_config(eval_config, role='expert')
-                _, llmcasts_by_qid_sfid, _ = await load_forecasts(
-                    self.config, self.loader, llm
-                )
+            # Test prompt on each validation question using full Delphi
+            for question in validation_batch:
 
                 # Get forecasts for this specific question
                 llmcasts_for_question = llmcasts_by_qid_sfid.get(question.id, {})
@@ -656,8 +657,7 @@ class GeneticEvolutionPipeline:
                     llmcasts_by_sfid = limited_llmcasts
                 else:
                     # No existing forecasts - generate minimal ones for evaluation
-                    print(f"    No existing forecasts found, generating minimal ones for evaluation")
-                    llmcasts_by_sfid = await _generate_minimal_forecasts(question, eval_config)
+                    raise AssertionError("No existing forecasts found")
 
 
                 # Initialize experts and run Delphi with evolved prompts
@@ -1008,14 +1008,14 @@ Now apply these strategies to the following question:
 
         return prob, response
 
-    async def evaluate_final_performance(self, test_questions: List[Question]):
+    async def evaluate_final_performance(self, test_questions: List[Question], split_label: str = "test"):
         """Evaluate the best evolved prompt on the full test set."""
         resolution_date = self.config['data']['resolution_date']
 
         predictions = []
         errors = []
 
-        print(f"Testing best prompt on {len(test_questions)} test questions...")
+        print(f"Testing best prompt on {len(test_questions)} {split_label} questions...")
 
         if not self.use_delphi_evaluation:
             for i, question in enumerate(test_questions):
@@ -1089,9 +1089,9 @@ Now apply these strategies to the following question:
 
         else:
             # Evaluate using full Delphi process with best prompt
-            print("Evaluating best prompt using full Delphi process...")
+            print(f"Evaluating best prompt using full Delphi process ({split_label})...")
             delphi_fitness_scores, metrics_list = await self.evaluate_prompt_fitness_delphi(
-                [self.best_prompt], test_questions, is_final=True, split_label="test"
+                [self.best_prompt], test_questions, is_final=True, split_label=split_label
             )
             if delphi_fitness_scores:
                 avg_fitness = delphi_fitness_scores[0]

@@ -15,28 +15,37 @@ from utils.sampling import sample_questions
 import json
 
 from dataset.dataloader import ForecastDataLoader
-from runners.icl_initial_forecasts import run_all_forecasts_with_examples
+from runners.icl_initial_forecasts import (
+    run_all_forecasts_with_examples,
+    run_all_forecasts_baseline,
+    run_all_forecasts_aggregated_examples,
+)
 
 
 from utils.convert_pickles_to_json import convert_pkl_to_json
 
 def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, config, selected_resolution_date, with_examples=True):
-    """Generate initial forecasts for the given questions and save them to the specified path."""
+    """Generate initial forecasts for the given questions and save them to the specified path.
+
+    Respects `with_examples` to generate either ICL (with examples) or baseline (no examples) forecasts.
+    """
     os.makedirs(initial_forecasts_path, exist_ok=True)
     forecast_type = 'with_examples' if with_examples else 'no_examples'
     initial_config = copy.deepcopy(config)
     initial_config['experiment']['seed'] = 42
 
-    print(f"🔧 Generating initial forecasts for {len(questions)} questions using fixed seed 42...")
-
+    print(f"🔧 Generating initial forecasts for {len(questions)} questions using fixed seed 42 ({forecast_type})...")
 
     loader = ForecastDataLoader()
     llm = get_llm_from_config(initial_config, role='expert')
 
     for question in questions:
-        print(f"  📊 Generating initial forecasts for question {question.id[:8]}...")
+        print(f"  📊 Generating initial {forecast_type} forecasts for question {question.id[:8]}...")
 
         try:
+            json_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{question.id}.json'
+            json_path = os.path.join(initial_forecasts_path, json_filename)
+
             pickle_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{question.id}.pkl'
             pickle_path = os.path.join(initial_forecasts_path, pickle_filename)
 
@@ -45,23 +54,32 @@ def generate_initial_forecasts_for_questions(questions, initial_forecasts_path, 
                 convert_pkl_to_json(pickle_path, json_path)
                 continue
 
-            json_filename = f'collected_fcasts_{forecast_type}_{selected_resolution_date}_{question.id}.json'
-            json_path = os.path.join(initial_forecasts_path, json_filename)
-            if os.path.exists(json_path) and config['reuse_initial_forecasts']['enabled']:
-                print(f"JSON for question {question.id} already exists, skipping.")
+            if os.path.exists(json_path):
+                print(f"JSON for question {question.id} ({forecast_type}) already exists, skipping.")
+                continue
 
-            results = asyncio.run(run_all_forecasts_with_examples(
-                [question],
-                loader=loader,
-                selected_resolution_date=selected_resolution_date,
-                config=initial_config,
-                llm=llm
-            ))
+            if with_examples:
+                results = asyncio.run(
+                    run_all_forecasts_with_examples(
+                        [question],
+                        loader=loader,
+                        selected_resolution_date=selected_resolution_date,
+                        config=initial_config,
+                        llm=llm,
+                    )
+                )
+            else:
+                results = asyncio.run(
+                    run_all_forecasts_baseline(
+                        [question],
+                        selected_resolution_date=selected_resolution_date,
+                        config=initial_config,
+                    )
+                )
 
             with open(json_path, 'w') as f:
                 json.dump(results, f)
             print(f"  ✅ Saved initial forecasts for question {question.id[:8]} to {json_filename}")
-
 
         except Exception as e:
             print(f"  ❌ Failed to generate initial forecasts for question {question.id[:8]}: {e}")
@@ -182,9 +200,13 @@ def load_forecast_jsons(initial_forecasts_path: str, selected_resolution_date: s
     ]
 
     # Split json files into with_examples and no_examples
-    with_examples_files = [
+    aggregated_files = [
         f for f in json_files
-        if f.startswith("collected_fcasts_with_examples") and f"{selected_resolution_date}" in f
+        if f.startswith("collected_fcasts_with_examples_aggregated_") and f"{selected_resolution_date}" in f
+    ]
+    with_examples_per_sf_files = [
+        f for f in json_files
+        if f.startswith("collected_fcasts_with_examples_") and not f.startswith("collected_fcasts_with_examples_aggregated_") and f"{selected_resolution_date}" in f
     ]
     no_examples_files = [
         f for f in json_files
@@ -193,17 +215,49 @@ def load_forecast_jsons(initial_forecasts_path: str, selected_resolution_date: s
 
     # Load with_examples forecasts
     loaded_fcasts_with_examples = {}
-    for fname in with_examples_files:
+    for fname in with_examples_per_sf_files:
         qid = fname[len(f"collected_fcasts_with_examples_{selected_resolution_date}_"): -len(".json")]
         with open(os.path.join(initial_forecasts_path, fname), "r") as f:
-            loaded_fcasts_with_examples[qid] = [q for q in json.load(f)]
+            loaded_fcasts_with_examples.setdefault(qid, [])
+            loaded_fcasts_with_examples[qid].extend([q for q in json.load(f)])
+    for fname in aggregated_files:
+        qid = fname[len(f"collected_fcasts_with_examples_aggregated_{selected_resolution_date}_"): -len(".json")]
+        with open(os.path.join(initial_forecasts_path, fname), "r") as f:
+            loaded_fcasts_with_examples.setdefault(qid, [])
+            loaded_fcasts_with_examples[qid].extend([q for q in json.load(f)])
 
     # replace the examples_used, which current contains question ids, with a list of (Question, Forecast) tuples
     # by looking up the Question object from the loader
     for qid, forecasts in loaded_fcasts_with_examples.items():
         for forecast_entry in forecasts:
+            # Prefer reconstructing exact (question, forecast) using stored pairs
+            if "examples_used_pairs" in forecast_entry and forecast_entry["examples_used_pairs"]:
+                pairs = []
+                for pair in forecast_entry["examples_used_pairs"]:
+                    ex_qid = pair.get("question_id")
+                    ex_uid = pair.get("user_id")
+                    if ex_qid is None or ex_uid is None:
+                        continue
+                    q_obj = loader.get_question(ex_qid)
+                    # Find the exact forecast object for that question+user
+                    forecasts_found = loader.get_super_forecasts(question_id=ex_qid, user_id=ex_uid, resolution_date=selected_resolution_date)
+                    f_obj = forecasts_found[0] if forecasts_found else None
+                    if q_obj and f_obj:
+                        pairs.append((q_obj, f_obj))
+                if pairs:
+                    forecast_entry["examples_used"] = pairs
+                    continue
+
+            # Backward-compatible path: attach the same SF forecast to all example questions
             superforecaster_id = forecast_entry.get("subject_id")
-            superforecast = loader.get_super_forecasts(question_id=qid, user_id=superforecaster_id, resolution_date=selected_resolution_date)[0]
+            try:
+                sf_list = loader.get_super_forecasts(question_id=qid, user_id=superforecaster_id, resolution_date=selected_resolution_date)
+                superforecast = sf_list[0] if sf_list else None
+            except Exception:
+                superforecast = None
+            if superforecast is None:
+                # If we cannot resolve a matching superforecast (e.g. aggregated), keep IDs
+                continue
             if "examples_used" in forecast_entry:
                 example_ids = forecast_entry["examples_used"]
                 example_tuples = []
@@ -231,21 +285,38 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
     experiment_config = config['experiment']
 
     selected_resolution_date = data_config['resolution_date']
-    initial_forecasts_path = experiment_config['initial_forecasts_dir']
+    base_initial_dir = experiment_config['initial_forecasts_dir']
+    seed = experiment_config.get('seed', None)
+    seeded_initial_dir = (
+        os.path.join(base_initial_dir, f"seed_{seed}") if seed is not None else base_initial_dir
+    )
+    initial_forecasts_path = seeded_initial_dir
+    os.makedirs(initial_forecasts_path, exist_ok=True)
 
     # Determine if we're reusing existing forecasts
     reuse_config = experiment_config.get('reuse_initial_forecasts', {})
-    if reuse_config.get('enabled', False):
-        source_dir = reuse_config.get('source_dir', 'auto')
-        if source_dir == 'auto':
-            source_dir = config.get('experiment', {}).get('initial_forecasts_dir', None)
-
-        if source_dir and os.path.exists(source_dir):
-            print(f"🔄 Reusing initial forecasts from: {source_dir}")
-            initial_forecasts_path = source_dir
-        else:
-            print(f"🔍 No matching forecasts found. Generating new ones in: {initial_forecasts_path}")
-            reuse_config['enabled'] = False  # Disable reuse to trigger generation
+    # Determine whether to use with_examples or no_examples forecasts
+    # Prefer explicit flag under experiment.reuse_initial_forecasts, else look under initial_forecasts
+    with_examples_flag = (
+        reuse_config.get('with_examples')
+        if isinstance(reuse_config, dict) and 'with_examples' in reuse_config
+        else (config.get('initial_forecasts', {}) or {}).get('with_examples')
+    )
+    if with_examples_flag is None:
+        with_examples_flag = True  # default to with_examples for backward compatibility
+    # Examples mode (only relevant when with_examples=True)
+    initial_cfg = (config or {}).get('initial_forecasts', {})
+    examples_mode = (initial_cfg.get('examples_mode') or 'per_sf') if with_examples_flag else 'none'
+    if examples_mode not in ['per_sf', 'aggregated', 'none']:
+        examples_mode = 'per_sf'
+    forecast_type = 'with_examples' if with_examples_flag else 'no_examples'
+    # Filename prefix (distinct for aggregated)
+    if with_examples_flag and examples_mode == 'aggregated':
+        fname_prefix = 'collected_fcasts_with_examples_aggregated'
+    elif with_examples_flag:
+        fname_prefix = 'collected_fcasts_with_examples'
+    else:
+        fname_prefix = 'collected_fcasts_no_examples'
 
     # Get and sample questions
     questions_with_topic = loader.get_questions_with_topics()
@@ -254,58 +325,195 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
 
     # Generate initial forecasts if not reusing
     if reuse_config.get('enabled', False):
-        print(f"📁 Reusing initial forecasts from {initial_forecasts_path}")
+        print(f"📁 Reusing initial forecasts [{forecast_type}] (seeded dir: {initial_forecasts_path})")
+        os.makedirs(initial_forecasts_path, exist_ok=True)
         for q in sampled_questions:
-            json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
-            if not os.path.exists(json_path):
-                print(f"Generating missing initial forecasts for question {q.id} at {json_path}...")
-                from runners.icl_initial_forecasts import run_all_forecasts_with_examples
+            filename = f'{fname_prefix}_{selected_resolution_date}_{q.id}.json'
+            json_path_seeded = os.path.join(initial_forecasts_path, filename)
+            if os.path.exists(json_path_seeded):
+                continue
+            # If not in seeded dir, try base dir and copy over
+            json_path_base = os.path.join(base_initial_dir, filename)
+            if os.path.exists(json_path_base):
+                try:
+                    with open(json_path_base, 'r') as rf:
+                        data = json.load(rf)
+                    with open(json_path_seeded, 'w') as wf:
+                        json.dump(data, wf)
+                    print(f"🔁 Copied initial forecasts for {q.id} from base to seed dir")
+                    continue
+                except Exception as e:
+                    print(f"⚠️  Failed to copy from base dir for {q.id}: {e}; regenerating...")
+            # Generate missing
+            print(f"Generating missing initial forecasts [{forecast_type}/{examples_mode}] for question {q.id} at {json_path_seeded}...")
+            init_cfg = (config or {}).get('initial_forecasts', {})
+            if with_examples_flag and examples_mode == 'aggregated':
+                results = await run_all_forecasts_aggregated_examples(
+                    [q], loader=loader, selected_resolution_date=selected_resolution_date,
+                    config=config,
+                    min_examples=init_cfg.get('min_examples', 1),
+                    max_examples=init_cfg.get('max_examples', None),
+                    concurrency=init_cfg.get('concurrency', 5),
+                    timeout_s=init_cfg.get('timeout_s', 300),
+                    retries=init_cfg.get('retries', 5),
+                    base_backoff_s=init_cfg.get('base_backoff_s', 10),
+                    n_samples=init_cfg.get('n_samples', 1),
+                )
+            elif with_examples_flag:
                 results = await run_all_forecasts_with_examples(
                     [q], loader=loader, selected_resolution_date=selected_resolution_date,
-                    config=config, llm=llm
+                    config=config, llm=llm,
+                    min_examples=init_cfg.get('min_examples', 1),
+                    max_examples=init_cfg.get('max_examples', 5),
+                    concurrency=init_cfg.get('concurrency', 5),
+                    timeout_s=init_cfg.get('timeout_s', 300),
+                    retries=init_cfg.get('retries', 5),
+                    base_backoff_s=init_cfg.get('base_backoff_s', 10),
+                    n_samples=init_cfg.get('n_samples', 1),
                 )
-                with open(json_path, 'w') as f:
-                    json.dump(results, f)
-                    print(f"Saved initial forecasts for question {q.id} at {json_path}")
+            else:
+                results = await run_all_forecasts_baseline(
+                    [q], selected_resolution_date=selected_resolution_date,
+                    concurrency=init_cfg.get('concurrency', 5),
+                    timeout_s=init_cfg.get('timeout_s', 300),
+                    retries=init_cfg.get('retries', 5),
+                    base_backoff_s=init_cfg.get('base_backoff_s', 10),
+                    n_samples=init_cfg.get('n_samples', 1),
+                    config=config,
+                )
+            with open(json_path_seeded, 'w') as f:
+                json.dump(results, f)
+                print(f"Saved initial forecasts for question {q.id} at {json_path_seeded}")
     else:
-        print(f"📁 Generating initial forecasts in: {initial_forecasts_path}")
+        print(f"📁 Generating initial forecasts [{forecast_type}/{examples_mode}] in: {initial_forecasts_path}")
         print(f" WARNING: This will overwrite any existing forecasts in this directory!")
         os.makedirs(initial_forecasts_path, exist_ok=True)
-        from runners.icl_initial_forecasts import run_all_forecasts_with_examples
+        init_cfg = (config or {}).get('initial_forecasts', {})
         for q in sampled_questions:
-            json_path = f'{initial_forecasts_path}/collected_fcasts_with_examples_{selected_resolution_date}_{q.id}.json'
-            print(f"Collecting forecasts for question {q.id}...")
-            results = await run_all_forecasts_with_examples(
-                [q], loader=loader, selected_resolution_date=selected_resolution_date,
-                config=config, llm=llm
-            )
+            json_path = f'{initial_forecasts_path}/{fname_prefix}_{selected_resolution_date}_{q.id}.json'
+            print(f"Collecting {forecast_type}/{examples_mode} forecasts for question {q.id}...")
+            if with_examples_flag and examples_mode == 'aggregated':
+                results = await run_all_forecasts_aggregated_examples(
+                    [q], loader=loader, selected_resolution_date=selected_resolution_date,
+                    config=config,
+                    min_examples=init_cfg.get('min_examples', 1),
+                    max_examples=init_cfg.get('max_examples', None),
+                    concurrency=init_cfg.get('concurrency', 5),
+                    timeout_s=init_cfg.get('timeout_s', 300),
+                    retries=init_cfg.get('retries', 5),
+                    base_backoff_s=init_cfg.get('base_backoff_s', 10),
+                    n_samples=init_cfg.get('n_samples', 1),
+                )
+            elif with_examples_flag:
+                results = await run_all_forecasts_with_examples(
+                    [q], loader=loader, selected_resolution_date=selected_resolution_date,
+                    config=config, llm=llm,
+                    min_examples=init_cfg.get('min_examples', 1),
+                    max_examples=init_cfg.get('max_examples', 5),
+                    concurrency=init_cfg.get('concurrency', 5),
+                    timeout_s=init_cfg.get('timeout_s', 300),
+                    retries=init_cfg.get('retries', 5),
+                    base_backoff_s=init_cfg.get('base_backoff_s', 10),
+                    n_samples=init_cfg.get('n_samples', 1),
+                )
+            else:
+                results = await run_all_forecasts_baseline(
+                    [q], selected_resolution_date=selected_resolution_date,
+                    concurrency=init_cfg.get('concurrency', 5),
+                    timeout_s=init_cfg.get('timeout_s', 300),
+                    retries=init_cfg.get('retries', 5),
+                    base_backoff_s=init_cfg.get('base_backoff_s', 10),
+                    n_samples=init_cfg.get('n_samples', 1),
+                    config=config,
+                )
             with open(json_path, 'w') as f:
                 json.dump(results, f)
 
     # Load and return the forecasts
-    # TODO: filter by loaded_fcasts_no_examples.keys() as well?
     loaded_fcasts_with_examples, loaded_fcasts_no_examples = load_forecast_jsons(initial_forecasts_path, selected_resolution_date, loader)
+    # Fallback: if none loaded from seed dir, try base dir (backward compatibility)
+    if with_examples_flag and not loaded_fcasts_with_examples:
+        try:
+            print(f"ℹ️  No forecasts found in seeded dir; trying base dir {base_initial_dir}")
+            loaded_fcasts_with_examples, loaded_fcasts_no_examples = load_forecast_jsons(base_initial_dir, selected_resolution_date, loader)
+        except Exception:
+            pass
+    if (not with_examples_flag) and (not loaded_fcasts_no_examples):
+        try:
+            print(f"ℹ️  No forecasts found in seeded dir; trying base dir {base_initial_dir}")
+            loaded_fcasts_with_examples, loaded_fcasts_no_examples = load_forecast_jsons(base_initial_dir, selected_resolution_date, loader)
+        except Exception:
+            pass
 
-    # make loaded_fcasts_with_examples doubly nested by qid and sfid
+    # Build nested mapping by qid and sfid depending on forecast type
     llmcasts_by_qid_sfid = defaultdict(lambda: defaultdict(list))
-    for qid, payloads in loaded_fcasts_with_examples.items():
-        for p in payloads:
-            sfid = p.get("subject_id")
-            if sfid is not None:
-                llmcasts_by_qid_sfid[qid][sfid].append({
-                    'forecast': p.get('forecasts', []),
-                    'full_conversation': p.get('full_conversation', []),
-                    'examples_used': p.get('examples_used', [])
-                })
+    if with_examples_flag:
+        # Filter payloads by examples_mode
+        filtered_with_examples = {}
+        for qid, payloads in loaded_fcasts_with_examples.items():
+            if examples_mode == 'aggregated':
+                filtered = [p for p in payloads if (p.get('subject_type') == 'aggregated' or p.get('subject_id') in ('agg', 'aggregated'))]
+            else:
+                filtered = [p for p in payloads if p.get('subject_type') in (None, 'superforecaster') and p.get('subject_id') not in ('agg', 'aggregated')]
+            if filtered:
+                filtered_with_examples[qid] = filtered
 
-    questions = [q for q in sampled_questions if q.id in loaded_fcasts_with_examples]
+        for qid, payloads in filtered_with_examples.items():
+            for p in payloads:
+                sfid = p.get("subject_id")
+                if sfid is not None:
+                    llmcasts_by_qid_sfid[qid][sfid].append({
+                        'forecast': p.get('forecasts', []),
+                        'full_conversation': p.get('full_conversation', []),
+                        'examples_used': p.get('examples_used', [])
+                    })
+        questions = [q for q in sampled_questions if q.id in filtered_with_examples]
 
-    example_pairs_by_qid_sfid = defaultdict(lambda: defaultdict(list))
-    for qid, payloads in loaded_fcasts_with_examples.items():
-        for p in payloads:
-            sfid = p.get("subject_id")
-            if sfid is not None:
-                example_pairs = p.get("examples_used", [])
-                example_pairs_by_qid_sfid[qid][sfid].append(example_pairs)
+        example_pairs_by_qid_sfid = defaultdict(lambda: defaultdict(list))
+        for qid, payloads in filtered_with_examples.items():
+            for p in payloads:
+                sfid = p.get("subject_id")
+                if sfid is not None:
+                    example_pairs = p.get("examples_used", [])
+                    example_pairs_by_qid_sfid[qid][sfid].append(example_pairs)
+    else:
+        # Baseline: create multiple synthetic experts per question from independent samples
+        desired_n_experts = int((config.get('delphi') or {}).get('n_experts', 1))
+        for qid, payloads in loaded_fcasts_no_examples.items():
+            for p in payloads:
+                full_conv = p.get('full_conversation', []) or []
+                initial_message = full_conv[0] if full_conv else {"role": "user", "content": "Provide a probability. FINAL PROBABILITY: 0.5"}
+
+                # Collect assistant messages and align with forecasts list
+                assistant_msgs = [m for m in full_conv if isinstance(m, dict) and m.get('role') == 'assistant']
+                forecast_list = p.get('forecasts', []) or []
+                available = max(len(assistant_msgs), len(forecast_list))
+                if available == 0:
+                    # Nothing usable; skip
+                    continue
+                k = min(desired_n_experts, available)
+
+                for i in range(k):
+                    # Build a minimal conversation: initial + one assistant sample
+                    if i < len(assistant_msgs):
+                        sample_msg = assistant_msgs[i]
+                    else:
+                        prob_val = forecast_list[i] if i < len(forecast_list) else 0.5
+                        sample_msg = {"role": "assistant", "content": f"FINAL PROBABILITY: {prob_val}"}
+
+                    conv_i = [initial_message, sample_msg]
+                    prob_i = [forecast_list[i]] if i < len(forecast_list) else []
+
+                    llmcasts_by_qid_sfid[qid][f'baseline_{i}'].append({
+                        'forecast': prob_i,
+                        'full_conversation': conv_i,
+                        'examples_used': [],
+                    })
+
+        questions = [q for q in sampled_questions if q.id in loaded_fcasts_no_examples]
+        example_pairs_by_qid_sfid = defaultdict(lambda: defaultdict(list))
+        for qid, sf_map in llmcasts_by_qid_sfid.items():
+            for sfid in sf_map.keys():
+                example_pairs_by_qid_sfid[qid][sfid].append([])
 
     return questions, llmcasts_by_qid_sfid, example_pairs_by_qid_sfid

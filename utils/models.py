@@ -330,7 +330,7 @@ class ConversationManager:
         if add_to_history:
             self.add_message(input_message_type, user_input)
 
-        async def _generate_with_retry(max_retries=5, base_backoff=1.0):
+        async def _generate_with_retry(max_retries=10, base_backoff=2.0):
             import asyncio
             import re
 

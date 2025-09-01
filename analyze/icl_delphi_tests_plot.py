@@ -16,6 +16,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from utils.utils import load_experiment_config
+# Robustly load question ID sets even if utils.py shadows the utils package
+try:
+    from utils.sampling import (
+        TRAIN_QUESTION_IDS,
+        EVALUATION_QUESTION_IDS,
+        EVOLUTION_EVALUATION_QUESTION_IDS,
+    )
+except Exception:
+    import importlib.util as _ilu
+    from pathlib import Path as _Path
+    _root = _Path(__file__).resolve().parents[1]
+    _sampling_fp = _root / 'utils' / 'sampling.py'
+    _spec = _ilu.spec_from_file_location('project_utils_sampling', str(_sampling_fp))
+    _mod = _ilu.module_from_spec(_spec)
+    assert _spec and _spec.loader, f"Cannot load sampling module at {_sampling_fp}"
+    _spec.loader.exec_module(_mod)
+    TRAIN_QUESTION_IDS = set(getattr(_mod, 'TRAIN_QUESTION_IDS', []))
+    EVALUATION_QUESTION_IDS = set(getattr(_mod, 'EVALUATION_QUESTION_IDS', []))
+    EVOLUTION_EVALUATION_QUESTION_IDS = set(getattr(_mod, 'EVOLUTION_EVALUATION_QUESTION_IDS', []))
 
 def parse_delphi_log_filename(filename: str, file_pattern: str):
     """
@@ -163,29 +182,45 @@ def main():
     parser.add_argument("--log", required=True, help="Path to a delphi_log_...json file or directory containing JSON files.")
     parser.add_argument("--title", default=None, help="Custom plot title.")
     parser.add_argument("--no-points", action="store_true", help="Disable showing individual expert points.")
+    parser.add_argument("--set", default='auto', choices=['auto', 'train', 'eval', 'evolution_eval'], help='Override YAML sampling method: choose question set explicitly')
     args = parser.parse_args()
     
     # Load configuration
     config = load_experiment_config(args.config_path)
     output_dir = os.path.join(config['experiment']['output_dir'], "forecast_evolutions")
     
+    # Build allowed question-id set based on sampling method
+    sampling_method = (config.get('data', {}).get('sampling', {}) or {}).get('method')
+    allowed_qids = None
+    set_name = 'auto'
+    if args.set != 'auto':
+        set_name = args.set
+        if args.set == 'train':
+            from utils.sampling import TRAIN_QUESTION_IDS
+            allowed_qids = set(TRAIN_QUESTION_IDS)
+        elif args.set == 'eval':
+            allowed_qids = set(EVALUATION_QUESTION_IDS)
+        elif args.set == 'evolution_eval':
+            allowed_qids = set(EVOLUTION_EVALUATION_QUESTION_IDS)
+    else:
+        if sampling_method == 'evaluation':
+            allowed_qids = set(EVALUATION_QUESTION_IDS)
+            set_name = 'eval'
+        elif sampling_method == 'evolution_evaluation':
+            allowed_qids = set(EVOLUTION_EVALUATION_QUESTION_IDS)
+            set_name = 'evolution_eval'
+
     # Check if args.log is a directory or file
     if os.path.isdir(args.log):
-        # Process all JSON files in the directory
+        # Process all JSON files in the directory recursively (to support set subfolders)
         file_pattern = config['output']['file_pattern']
-        # Extract the prefix before {question_id} to match actual files
         prefix_end = file_pattern.find('{question_id}')
-        if prefix_end != -1:
-            pattern_prefix = file_pattern[:prefix_end]
-        else:
-            # Fallback: use the pattern without the template variables
-            pattern_prefix = file_pattern.split('_')[0]
-        
-        json_files = [
-            os.path.join(args.log, f)
-            for f in os.listdir(args.log)
-            if f.startswith(pattern_prefix) and f.endswith(".json")
-        ]
+        pattern_prefix = file_pattern[:prefix_end] if prefix_end != -1 else file_pattern.split('_')[0]
+        json_files = []
+        for root, _, files in os.walk(args.log):
+            for f in files:
+                if f.endswith('.json') and f.startswith(pattern_prefix):
+                    json_files.append(os.path.join(root, f))
         
         if not json_files:
             print(f"No matching JSON files found in directory: {args.log}")
@@ -194,13 +229,29 @@ def main():
         print(f"Found {len(json_files)} JSON files to process")
         
         for json_file in json_files:
-            process_single_file(json_file, config, output_dir, args)
+            # Filter by sampling-method question set if configured
+            try:
+                qid, _ = parse_delphi_log_filename(json_file, file_pattern)
+                if allowed_qids is not None and qid not in allowed_qids:
+                    continue
+            except Exception:
+                pass
+            # Place outputs under set-specific subfolder for clarity
+            process_single_file(json_file, config, os.path.join(output_dir, f"set_{set_name}"), args)
     else:
         # Process single file
         if not os.path.exists(args.log):
             print(f"Error: File not found: {args.log}")
             return
-        process_single_file(args.log, config, output_dir, args)
+        # Filter single file as well
+        try:
+            qid, _ = parse_delphi_log_filename(args.log, config['output']['file_pattern'])
+            if allowed_qids is not None and qid not in allowed_qids:
+                print(f"Skipping file not in sampling set: {args.log}")
+                return
+        except Exception:
+            pass
+        process_single_file(args.log, config, os.path.join(output_dir, f"set_{set_name}"), args)
 
 def process_single_file(json_file_path, config, output_dir, args):
     """Process a single JSON file and create a plot."""

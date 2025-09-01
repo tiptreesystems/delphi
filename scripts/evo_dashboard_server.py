@@ -18,10 +18,13 @@ from typing import Dict, Any, List
 from flask import Flask, jsonify, request, Response
 import logging
 import traceback
+import yaml
+import numpy as np
 
 
 app = Flask(__name__)
-RUN_DIR: Path | None = None  # May be a seed dir or a run dir
+RUN_DIR: Path | None = None  # Currently selected run dir (timestamp folder or similar)
+RUNS_ROOT: Path | None = None  # Root to discover selectable runs (defaults near RUN_DIR)
 
 
 def _is_run_dir(p: Path) -> bool:
@@ -46,6 +49,26 @@ def _pick_latest_child_run(p: Path) -> Path | None:
     if markers:
         return max(markers, key=lambda d: d.stat().st_mtime)
     return None
+
+
+def _discover_runs(root: Path) -> list[Path]:
+    """Recursively find run-like directories beneath root.
+
+    Heuristic: directories containing monitor.csv or evolved_prompts (or dry_run variants),
+    or having config_used/config_used.yml marker files.
+    """
+    runs: list[Path] = []
+    if not root.exists() or not root.is_dir():
+        return runs
+    for d in root.rglob('*'):
+        try:
+            if d.is_dir() and _is_run_dir(d):
+                runs.append(d)
+        except Exception:
+            continue
+    # De-duplicate nested picks: keep deepest paths
+    runs_sorted = sorted(set(runs), key=lambda p: (len(p.parts), p.as_posix()))
+    return runs_sorted
 
 
 def require_run_dir() -> Path:
@@ -116,6 +139,83 @@ def api_summary():
         'metric_bases': sorted(bases),
     }
     return jsonify(resp)
+
+
+@app.get('/api/runs')
+def api_runs():
+    """List selectable run directories under the configured root.
+
+    Returns list of objects: { path, label, mtime }
+    """
+    global RUNS_ROOT
+    base = RUNS_ROOT or (RUN_DIR.parent if RUN_DIR else Path('results'))
+    # If base itself is a run dir, prefer its parent
+    if _is_run_dir(base):
+        base = base.parent
+    found = _discover_runs(base)
+    import re
+    ts_re = re.compile(r"^(\d{8})_(\d{6})(?:_.+)?$")
+    def _ts_val(seg: str) -> int | None:
+        m = ts_re.match(seg)
+        if not m:
+            return None
+        try:
+            return int(m.group(1) + m.group(2))  # YYYYMMDDHHMMSS
+        except Exception:
+            return None
+
+    def _label_sort_key(label: str):
+        # Sort path segments alphabetically, except timestamp-like segments
+        # which sort by recency (newest first).
+        try:
+            parts = Path(label).parts
+        except Exception:
+            parts = tuple(str(label).split('/'))
+        key = []
+        for seg in parts:
+            ts = _ts_val(seg)
+            if ts is not None:
+                key.append((1, -ts, ''))  # Timestamp: sort by descending ts
+            else:
+                key.append((0, 0, seg.lower()))  # Text: alphabetical
+        return tuple(key)
+
+    items = []
+    for p in found:
+        try:
+            rel = p.relative_to(base)
+        except Exception:
+            rel = p.name
+        items.append({
+            'path': str(p.resolve()),
+            'label': str(rel),
+            'mtime': p.stat().st_mtime,
+        })
+    # Sort by path parts alpha, but timestamp segments by recency
+    items.sort(key=lambda x: _label_sort_key(x['label']))
+    return jsonify({'root': str(base.resolve()), 'runs': items, 'current': str(require_run_dir().resolve())})
+
+
+@app.post('/api/select_run')
+def api_select_run():
+    """Select current run directory by absolute path from /api/runs."""
+    data = request.get_json(silent=True) or {}
+    path = data.get('path') or request.args.get('path')
+    if not path:
+        return jsonify({'error': 'missing_path'}), 400
+    p = Path(path).resolve()
+    if not p.exists():
+        return jsonify({'error': 'not_found', 'path': str(p)}), 404
+    # Accept both run dir and parents that contain runs (auto-pick latest child)
+    chosen = p
+    if not _is_run_dir(chosen):
+        child = _pick_latest_child_run(chosen)
+        if child is None:
+            return jsonify({'error': 'no_run_under_path', 'path': str(p)}), 400
+        chosen = child
+    global RUN_DIR
+    RUN_DIR = chosen
+    return jsonify({'ok': True, 'run_dir': str(RUN_DIR)})
 
 
 @app.get('/api/health')
@@ -214,6 +314,27 @@ def api_delphi():
         return jsonify({'error': f'Not found: {path}'}), 404
     with path.open('r', encoding='utf-8') as f:
         obj = json.load(f)
+    # Attach resolution info for convenience in the UI
+    try:
+        qid_eff = obj.get('question_id') or qid
+        # Prefer resolution_date in the log, else from config_used
+        res_date = (obj.get('config', {}) or {}).get('resolution_date')
+        if not res_date:
+            cfg = _read_config_used(run)
+            res_date = ((cfg.get('data', {}) or {}).get('resolution_date'))
+        if qid_eff and res_date:
+            from dataset.dataloader import ForecastDataLoader
+            loader = ForecastDataLoader()
+            res = loader.get_resolution(qid_eff, res_date)
+            if res is not None:
+                obj['_resolution'] = {
+                    'date': res_date,
+                    'resolved': bool(getattr(res, 'resolved', False)),
+                    'actual_outcome': float(getattr(res, 'resolved_to', 0.0)),
+                    'direction': getattr(res, 'direction', None),
+                }
+    except Exception:
+        pass
     return jsonify(obj)
 
 
@@ -231,6 +352,152 @@ def api_prompt():
     if not path.exists():
         return Response("", mimetype='text/plain')
     return Response(path.read_text(encoding='utf-8'), mimetype='text/plain')
+
+
+def _read_config_used(run: Path) -> dict:
+    for name in ('config_used.yml', 'config_used'):
+        f = run / name
+        if f.exists():
+            try:
+                return yaml.safe_load(f.read_text(encoding='utf-8'))
+            except Exception:
+                continue
+    # Try dry_run subdir
+    for name in ('config_used.yml', 'config_used'):
+        f = run / 'dry_run' / name
+        if f.exists():
+            try:
+                return yaml.safe_load(f.read_text(encoding='utf-8'))
+            except Exception:
+                continue
+    return {}
+
+
+def _iter_delphi_logs(run: Path, split: str, gen: int | None = None, cand: str | None = None):
+    base = run / 'evolved_prompts'
+    if not base.exists():
+        alt = run / 'dry_run' / 'evolved_prompts'
+        if alt.exists():
+            base = alt
+    if not base.exists():
+        return
+    gen_dirs = [base / f'gen_{gen:03d}'] if gen is not None else [d for d in base.iterdir() if d.is_dir() and d.name.startswith('gen_')]
+    for gdir in gen_dirs:
+        if not gdir.exists():
+            continue
+        cand_dirs = [gdir / cand] if cand else [d for d in gdir.iterdir() if d.is_dir() and d.name.startswith('cand_')]
+        for cdir in cand_dirs:
+            sdir = cdir / 'delphi_logs' / split
+            if not sdir.exists():
+                continue
+            for fp in sdir.glob('*.json'):
+                yield fp
+
+
+def _compute_avg_brier_by_round(run: Path, split: str, gen: int | None = None, cand: str | None = None):
+    """Compute average Brier per round using median-of-experts each round.
+
+    Also computes baseline Briers: median superforecaster and median public forecast
+    per question (static across rounds), averaged across questions.
+    """
+    cfg = _read_config_used(run)
+    resolution_date = (((cfg or {}).get('data') or {}).get('resolution_date'))
+    if not resolution_date:
+        # Try nested shape
+        resolution_date = (cfg.get('data', {}) or {}).get('resolution_date')
+    # Lazy import to avoid heavy startup
+    from dataset.dataloader import ForecastDataLoader
+    loader = ForecastDataLoader()
+
+    sums: dict[int, float] = {}
+    counts: dict[int, int] = {}
+    seen_qids: set[str] = set()  # unique questions processed for baselines
+    sf_sum = 0.0
+    sf_n = 0
+    public_sum = 0.0
+    public_n = 0
+
+    for fp in _iter_delphi_logs(run, split, gen, cand):
+        try:
+            obj = json.loads(fp.read_text(encoding='utf-8'))
+        except Exception:
+            continue
+        qid = obj.get('question_id') or fp.stem
+        try:
+            res = loader.get_resolution(qid, resolution_date)
+            if not res or not getattr(res, 'resolved', False):
+                continue
+            actual = float(res.resolved_to)
+        except Exception:
+            continue
+        rounds = obj.get('rounds') or []
+        if not rounds:
+            continue
+        # Baselines (one per unique question)
+        if qid not in seen_qids:
+            seen_qids.add(qid)
+            try:
+                sfs = loader.get_super_forecasts(question_id=qid, resolution_date=resolution_date)
+                if sfs:
+                    sf_median = float(np.median([float(f.forecast) for f in sfs]))
+                    sf_sum += (sf_median - actual) ** 2
+                    sf_n += 1
+            except Exception:
+                pass
+            try:
+                pubs = loader.get_public_forecasts(question_id=qid, resolution_date=resolution_date)
+                if pubs:
+                    public_median = float(np.median([float(f.forecast) for f in pubs]))
+                    public_sum += (public_median - actual) ** 2
+                    public_n += 1
+            except Exception:
+                pass
+        for idx, rd in enumerate(rounds):
+            experts = rd.get('experts') or {}
+            if not experts:
+                continue
+            probs = [float(v.get('prob')) for v in experts.values() if v is not None and isinstance(v.get('prob'), (int, float))]
+            if not probs:
+                continue
+            pred = float(np.median(probs))
+            brier = (pred - actual) ** 2
+            sums[idx] = sums.get(idx, 0.0) + brier
+            counts[idx] = counts.get(idx, 0) + 1
+
+    rounds_sorted = sorted(sums.keys())
+    avg = [sums[i] / max(counts.get(i, 1), 1) for i in rounds_sorted]
+    sf_avg = (sf_sum / sf_n) if sf_n > 0 else None
+    public_avg = (public_sum / public_n) if public_n > 0 else None
+    return {
+        'rounds': rounds_sorted,
+        'avg_brier': avg,
+        'n_questions': len(seen_qids),
+        'sf_avg_brier': sf_avg,
+        'public_avg_brier': public_avg,
+    }
+
+
+@app.get('/api/avg_brier_rounds')
+def api_avg_brier_rounds():
+    run = require_run_dir()
+    split = request.args.get('split', 'val')
+    gen = request.args.get('gen')
+    cand = request.args.get('cand')
+    gen_i = int(gen) if gen is not None else None
+    data = _compute_avg_brier_by_round(run, split, gen_i, cand)
+    return jsonify({'split': split, **data})
+
+
+@app.get('/api/avg_brier_rounds_all')
+def api_avg_brier_rounds_all():
+    run = require_run_dir()
+    gen = request.args.get('gen')
+    cand = request.args.get('cand')
+    gen_i = int(gen) if gen is not None else None
+    out = {}
+    for split in ('train', 'val', 'test'):
+        out[split] = _compute_avg_brier_by_round(run, split, gen_i, cand)
+    return jsonify(out)
 
 
 INDEX_HTML = """
@@ -259,6 +526,15 @@ INDEX_HTML = """
   </head>
   <body>
     <h2>Evolution Dashboard</h2>
+    <div class="row">
+      <div class="card" style="max-width: 100%">
+        <h3>Run</h3>
+        <label>Run Directory</label>
+        <select id="runSelect" style="min-width: 420px;"></select>
+        <button id="switchRunBtn">Load Run</button>
+        <span id="runRootLabel" style="margin-left:12px;color:#666;font-size:12px;"></span>
+      </div>
+    </div>
     <div id="errorBox" class="error"></div>
     <div class="row">
       <div class="card">
@@ -293,6 +569,7 @@ INDEX_HTML = """
         <div class="row">
           <div class="card">
             <h4>Expert Probabilities</h4>
+            <div id="resolutionInfo" style="margin-bottom:6px;font-size:12px;color:#555;"></div>
             <canvas id="delphiChart"></canvas>
           </div>
           <div class="card">
@@ -306,12 +583,26 @@ INDEX_HTML = """
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="card">
+        <h3>Avg Brier by Round</h3>
+        <div>
+          <label>Split:</label>
+          <label><input type="checkbox" id="chkTrain" checked> train</label>
+          <label><input type="checkbox" id="chkVal" checked> val</label>
+          <label><input type="checkbox" id="chkTest" checked> test</label>
+          <button id="refreshBrierBtn">Refresh</button>
+        </div>
+        <canvas id="avgBrierChart"></canvas>
+      </div>
+    </div>
 
     <script>
       const summaryCtx = document.getElementById('summaryChart').getContext('2d');
       const metricsCtx = document.getElementById('metricsChart').getContext('2d');
       const delphiCtx = document.getElementById('delphiChart').getContext('2d');
-      let summaryChart, metricsChart, delphiChart;
+      const avgBrierCtx = document.getElementById('avgBrierChart').getContext('2d');
+      let summaryChart, metricsChart, delphiChart, avgBrierChart;
 
       async function fetchJSON(url) {
         const r = await fetch(url);
@@ -367,6 +658,40 @@ INDEX_HTML = """
           });
         } catch (e) {
           showError('Failed to load summary: ' + (e?.message || e));
+        }
+      }
+
+      async function loadRuns() {
+        try {
+          const r = await fetchJSON('/api/runs');
+          const select = document.getElementById('runSelect');
+          const rootLbl = document.getElementById('runRootLabel');
+          select.innerHTML = '';
+          rootLbl.textContent = `root: ${r.root}`;
+          (r.runs || []).forEach(item => {
+            const opt = document.createElement('option');
+            opt.value = item.path; opt.textContent = item.label;
+            if (item.path === r.current) opt.selected = true;
+            select.appendChild(opt);
+          });
+        } catch (e) {
+          console.warn('Failed to load runs', e);
+        }
+      }
+
+      async function switchRun() {
+        try {
+          const sel = document.getElementById('runSelect');
+          const path = sel.value;
+          if (!path) return;
+          await fetch('/api/select_run', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ path }) });
+          // Reload all visuals for new run
+          await loadSummary();
+          await populateExplorer();
+          await loadAvgBrierRounds();
+          showError('');
+        } catch (e) {
+          showError('Failed to switch run: ' + (e?.message || e));
         }
       }
 
@@ -444,6 +769,18 @@ INDEX_HTML = """
           });
           if (delphiChart) delphiChart.destroy();
           delphiChart = new Chart(delphiCtx, { type: 'line', data: { labels: xs, datasets }, options: { responsive: true, animation: false } });
+          // Show resolution info if available
+          const rinfo = document.getElementById('resolutionInfo');
+          if (rinfo) {
+            const meta = log?._resolution || {};
+            if (meta && meta.actual_outcome != null) {
+              const val = Number(meta.actual_outcome);
+              const date = meta.date || '';
+              rinfo.textContent = `Resolution${date ? ' ('+date+')' : ''}: ${val.toFixed(2)}`;
+            } else {
+              rinfo.textContent = 'Resolution: (unknown)';
+            }
+          }
           // Load prompt text
           const promptResp = await fetch(`/api/prompt?gen=${gen}&cand=${encodeURIComponent(cand)}`);
           document.getElementById('promptText').textContent = await promptResp.text();
@@ -510,11 +847,50 @@ INDEX_HTML = """
         }
       }
 
+      async function loadAvgBrierRounds() {
+        try {
+          const r = await fetchJSON('/api/avg_brier_rounds_all');
+          const showTrain = document.getElementById('chkTrain').checked;
+          const showVal = document.getElementById('chkVal').checked;
+          const showTest = document.getElementById('chkTest').checked;
+          const datasets = [];
+          const xs = (r.val?.rounds || r.train?.rounds || r.test?.rounds || []).map(i => `R${(i??0)+1}`);
+          function add(split, color) {
+            const obj = r[split]; if (!obj) return;
+            datasets.push({ label: `${split} (n=${obj.n_questions||0})`, data: obj.avg_brier || [], borderColor: color, tension: 0.2 });
+            // Baselines: SF and Public (flat across rounds)
+            const n = xs.length;
+            if (obj.sf_avg_brier != null) {
+              const arr = Array(n).fill(obj.sf_avg_brier);
+              datasets.push({ label: `${split} SF median`, data: arr, borderColor: color, borderDash: [6,4], tension: 0.0 });
+            }
+            if (obj.public_avg_brier != null) {
+              const arr = Array(n).fill(obj.public_avg_brier);
+              datasets.push({ label: `${split} Public median`, data: arr, borderColor: color, borderDash: [2,3], tension: 0.0 });
+            }
+          }
+          if (showTrain) add('train', 'blue');
+          if (showVal) add('val', 'orange');
+          if (showTest) add('test', 'green');
+          if (avgBrierChart) avgBrierChart.destroy();
+          avgBrierChart = new Chart(avgBrierCtx, { type: 'line', data: { labels: xs, datasets }, options: { responsive: true, animation: false, scales: { y: { reverse: false, title: { display: true, text: 'Avg Brier (lower is better)' } } } } });
+        } catch (e) {
+          showError('Failed to load avg brier by round: ' + (e?.message || e));
+        }
+      }
+
       // Init
       (async () => {
+        await loadRuns();
         await loadSummary();
         await populateExplorer();
+        await loadAvgBrierRounds();
         document.getElementById('metricsSelect').addEventListener('change', loadMetrics);
+        document.getElementById('switchRunBtn').addEventListener('click', switchRun);
+        document.getElementById('refreshBrierBtn').addEventListener('click', loadAvgBrierRounds);
+        document.getElementById('chkTrain').addEventListener('change', loadAvgBrierRounds);
+        document.getElementById('chkVal').addEventListener('change', loadAvgBrierRounds);
+        document.getElementById('chkTest').addEventListener('change', loadAvgBrierRounds);
       })();
     </script>
   </body>
@@ -530,7 +906,8 @@ def index():
 
 def main():
     parser = argparse.ArgumentParser(description='Evolution Flask dashboard')
-    parser.add_argument('--run-dir', type=Path, required=True, help='Path to a timestamp_uuid run directory')
+    parser.add_argument('--run-dir', type=Path, required=True, help='Path to a run directory or its parent (seed dir)')
+    parser.add_argument('--runs-root', type=Path, default=None, help='Root folder to discover selectable runs (defaults near --run-dir)')
     parser.add_argument('--host', type=str, default='127.0.0.1')
     parser.add_argument('--port', type=int, default=5000)
     args = parser.parse_args()
@@ -546,7 +923,16 @@ def main():
             print(f"Auto-selected latest run dir: {picked}")
             RUN_DIR = picked
 
+    # Configure root for run discovery
+    global RUNS_ROOT
+    if args.runs_root is not None:
+        RUNS_ROOT = args.runs_root.resolve()
+    else:
+        # If given a run dir, use its parent; if a seed/base, use itself
+        RUNS_ROOT = RUN_DIR.parent if _is_run_dir(RUN_DIR) else RUN_DIR
+
     print(f"Serving dashboard for run: {RUN_DIR}")
+    print(f"Runs root: {RUNS_ROOT}")
     print(f"Open http://{args.host}:{args.port}")
     app.run(host=args.host, port=args.port, debug=False)
 

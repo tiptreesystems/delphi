@@ -47,6 +47,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from utils.utils import load_experiment_config
+# Robustly load question ID sets even if utils.py shadows the utils package
+try:
+    from utils.sampling import (
+        TRAIN_QUESTION_IDS,
+        EVALUATION_QUESTION_IDS,
+        EVOLUTION_EVALUATION_QUESTION_IDS,
+    )
+except Exception:
+    import importlib.util as _ilu
+    from pathlib import Path as _Path
+    _root = _Path(__file__).resolve().parents[1]
+    _sampling_fp = _root / 'utils' / 'sampling.py'
+    _spec = _ilu.spec_from_file_location('project_utils_sampling', str(_sampling_fp))
+    _mod = _ilu.module_from_spec(_spec)
+    assert _spec and _spec.loader, f"Cannot load sampling module at {_sampling_fp}"
+    _spec.loader.exec_module(_mod)
+    TRAIN_QUESTION_IDS = set(getattr(_mod, 'TRAIN_QUESTION_IDS', []))
+    EVALUATION_QUESTION_IDS = set(getattr(_mod, 'EVALUATION_QUESTION_IDS', []))
+    EVOLUTION_EVALUATION_QUESTION_IDS = set(getattr(_mod, 'EVOLUTION_EVALUATION_QUESTION_IDS', []))
 
 # Optional fallback in case some rounds only stored raw text responses
 _PROB_PAT = re.compile(r'FINAL PROBABILITY:\s*(0?\.\d+|1\.0|0|1)', re.IGNORECASE)
@@ -265,6 +284,7 @@ if __name__ == "__main__":
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Analyze Delphi experiment results")
     parser.add_argument("config_path", help="Path to experiment configuration YAML file")
+    parser.add_argument("--set", default='auto', choices=['auto', 'train', 'eval', 'evolution_eval'], help='Override YAML sampling method: choose question set explicitly')
     args = parser.parse_args()
     
     # Load configuration
@@ -280,18 +300,39 @@ if __name__ == "__main__":
     # Extract the prefix from the pattern up to {question_id}
     pattern_prefix = file_pattern.split('{')[0]  # Gets everything before first {
     
-    delphi_logs = [
-        os.path.join(results_dir, f)
-        for f in os.listdir(results_dir)
-        if f.startswith(pattern_prefix) and f.endswith(".json")
-    ]
+    # Recursively gather logs under results_dir to support set subfolders (train/eval/evolution_eval)
+    delphi_logs = []
+    for root, _, files in os.walk(results_dir):
+        for f in files:
+            if f.endswith('.json') and f.startswith(pattern_prefix):
+                delphi_logs.append(os.path.join(root, f))
 
     # Storage for per-question results
     per_question_results: Dict[str, Dict[str, Any]] = {}
 
+    # Sampling-method filtering: restrict to the configured question set
+    sampling_method = (config.get('data', {}).get('sampling', {}) or {}).get('method')
+    allowed_qids = None
+    if args.set != 'auto':
+        if args.set == 'train':
+            allowed_qids = set(TRAIN_QUESTION_IDS)
+        elif args.set == 'eval':
+            allowed_qids = set(EVALUATION_QUESTION_IDS)
+        elif args.set == 'evolution_eval':
+            allowed_qids = set(EVOLUTION_EVALUATION_QUESTION_IDS)
+    else:
+        if sampling_method == 'evaluation':
+            allowed_qids = set(EVALUATION_QUESTION_IDS)
+        elif sampling_method == 'evolution_evaluation':
+            allowed_qids = set(EVOLUTION_EVALUATION_QUESTION_IDS)
+        elif sampling_method in ('train', 'train_small'):
+            allowed_qids = set(TRAIN_QUESTION_IDS)
+
     # 1) Process each Delphi log (i.e., each question)
     for delphi_log_file in delphi_logs:
         question_id, resolution_date = parse_delphi_log_filename(delphi_log_file, file_pattern)
+        if allowed_qids is not None and question_id not in allowed_qids:
+            continue
 
         # 1a) Ground truth outcome
         resolution = loader.get_resolution(question_id=question_id, resolution_date=resolution_date)
