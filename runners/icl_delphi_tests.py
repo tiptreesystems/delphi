@@ -16,19 +16,19 @@ from utils.sampling import (
     EVALUATION_QUESTION_IDS,
     EVOLUTION_EVALUATION_QUESTION_IDS,
 )
-
-load_dotenv()
 import asyncio
 import yaml
 import tempfile
 
-import debugpy
-
+# import debugpy
 # if not debugpy.is_client_connected():
 #     print("Waiting for debugger attach...")
 #     debugpy.listen(5679)
 #     debugpy.wait_for_client()
 #     print("Debugger attached.")
+
+load_dotenv()
+
 
 
 async def run_delphi_experiment(config: dict):
