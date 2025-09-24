@@ -118,7 +118,6 @@ def select_experts(experts: Dict[str, Expert], config: dict) -> Dict[str, Expert
 
     elif config["delphi"]["expert_selection"] == "identical":
         # Select a single expert to duplicate
-        import copy
 
         seed = config["experiment"]["seed"]
         expert_selection_seed = config["delphi"].get("expert_selection_seed", seed)
