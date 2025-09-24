@@ -3,7 +3,10 @@ from typing import Optional, List, Tuple
 from dataset.dataloader import Question, Forecast
 from utils.models import BaseLLM, ConversationManager
 from utils.probability_parser import extract_final_probability_with_retry
-from utils.prompt_loader import load_prompt
+from utils.prompt_formatters import (
+    build_base_forecast_prompt,
+    build_in_context_forecast_prompt,
+)
 import copy
 
 
@@ -27,22 +30,12 @@ class Expert:
         conditioning_forecast: Optional[Forecast] = None,
         seed: Optional[int] = None,
     ) -> float:
-        # Add the user's actual forecast for this question if available
-        prior_forecast_info = ""
-        if conditioning_forecast:
-            prior_forecast_info = f"Some of your notes on this question are: {conditioning_forecast.reasoning}\n"
-        # Get prompt version from config, default to 'v1'
+        # Render prompt via shared formatter
         prompt_version = self.config.get("prompt_version", "v1")
-
-        prompt = load_prompt(
-            "expert_forecast",
-            prompt_version,
-            question=question.question,
-            background=question.background,
-            resolution_criteria=question.resolution_criteria,
-            url=question.url,
-            freeze_datetime_value=question.freeze_datetime_value,
-            prior_forecast_info=prior_forecast_info,
+        prompt = build_base_forecast_prompt(
+            question,
+            prompt_version=prompt_version,
+            conditioning_forecast=conditioning_forecast,
         )
         temperature = self.config.get("temperature", 0.3)
         self.conversation_manager.messages.clear()
@@ -73,39 +66,8 @@ class Expert:
     async def forecast_with_examples_in_context(
         self, question: Question, examples: List[Tuple[Question, Forecast]]
     ) -> float:
-        # Build examples section with clear structure
-        examples_text = "REFERENCE EXAMPLES OF EXPERT FORECASTS:\n" + "=" * 60 + "\n\n"
-
-        for i, (ex_q, ex_f) in enumerate(examples):
-            examples_text += (
-                f"[EXAMPLE {i + 1}]\n"
-                f"Question: {ex_q.question}\n"
-                f"Background: {ex_q.background}\n"
-                f"Resolution: {ex_q.resolution_criteria}\n"
-                f"Analysis: {ex_f.reasoning}\n"
-                f"Probability: {ex_f.forecast}\n"
-                f"{'-' * 40}\n\n"
-            )
-
-        # Clear transition to the target question
-        target_section = (
-            "\n" + "=" * 60 + "\n"
-            "YOUR TASK - PROVIDE FORECAST FOR THIS QUESTION:\n" + "=" * 60 + "\n\n"
-            f"Question: {question.question}\n"
-            f"Background: {question.background}\n"
-            f"Resolution: {question.resolution_criteria}\n"
-            f"URL: {question.url}\n"
-            f"Freeze value: {question.freeze_datetime_value}\n"
-            f"Freeze value explanation: {question.freeze_datetime_value_explanation}\n\n"
-        )
-
-        # Explicit instructions for output
-        instructions = (
-            "Based on the examples above, provide your forecast concluding with:\n"
-            "FINAL PROBABILITY: [decimal between 0 and 1]"
-        )
-
-        prompt = examples_text + target_section + instructions
+        # Build prompt using shared formatter (preserves existing structure)
+        prompt = build_in_context_forecast_prompt(question, examples)
 
         temperature = self.config.get("temperature", 0.3)
         self.conversation_manager.messages.clear()
@@ -116,8 +78,7 @@ class Expert:
         )
         response = response.strip()
 
-        # Check for token usage issues
-
+        # Parse probability
         prob = await extract_final_probability_with_retry(
             response, self.conversation_manager, max_retries=3
         )
