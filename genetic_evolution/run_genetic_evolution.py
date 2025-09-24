@@ -9,7 +9,7 @@ and includes utilities for comparing results.
 import asyncio
 import argparse
 from pathlib import Path
-from utils.utils import load_experiment_config, setup_environment
+from utils.utils import load_typed_experiment_config, setup_environment
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -19,7 +19,7 @@ async def run_evolution_experiment(config_path: str):
     """Run a single evolution experiment."""
     from genetic_evolution.genetic_prompt_evolution import GeneticEvolutionPipeline
 
-    config = load_experiment_config(config_path)
+    config = load_typed_experiment_config(config_path)
     setup_environment(config)
     print(f"\n{'=' * 80}")
     print(f"Running evolution experiment: {config_path}")

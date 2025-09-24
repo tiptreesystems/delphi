@@ -27,27 +27,26 @@ from utils.sampling import sample_questions
 from utils.utils import split_train_valid
 from prompt_learning import PromptLearner, PredictionRecord
 
+from utils.config_types import RootConfig, load_typed_experiment_config
+
 
 class SequentialLearningPipeline:
     """Pipeline for sequential prompt learning with epochs and batched updates."""
 
     def __init__(self, config_path: str):
-        self.config = yaml.safe_load(open(config_path))
+        self.config = load_typed_experiment_config(config_path)
         self.loader = ForecastDataLoader()
 
         # Initialize models
         self.expert = Expert(
             llm=get_llm_from_config(self.config, "expert"),
-            config=self.config["model"].get("expert", {}),
+            config=self.config.model.expert,
         )
 
         # Initialize prompt learner
-        prompt_version = (
-            self.config["model"].get("expert", {}).get("prompt_version", "v1")
-        )
         self.expert_prompt_learner = PromptLearner(
             llm=get_llm_from_config(self.config, "learner"),
-            prompt_version=prompt_version,
+            prompt_version=self.config.model.expert.system_prompt_version or "v1",
             role="expert",
         )
 
