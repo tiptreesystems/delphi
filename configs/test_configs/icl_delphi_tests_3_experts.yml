@@ -1,0 +1,82 @@
+experiment:
+  name: "delphi_evaluation_openai"
+  timestamp_format: "%Y%m%d_%H%M%S"
+  results_dir: "results/openai_run_{timestamp}"
+
+model:
+  provider: "openai"
+  name: "o3-2025-04-16" # Options: gpt-4o, gpt-4o-mini
+  system_prompt: "You are an expert forecaster. Analyze questions carefully and provide calibrated probability estimates."
+  max_tokens: 2000
+  temperature: 0.3
+
+evaluation:
+  n_questions: 20
+  n_experts_range: [1, 3, 5]
+  max_workers: 8
+
+panel:
+  condition_on_data: true
+  delphi_rounds: 1 # Single round (default)
+
+plotting:
+  dpi: 300
+  figure_size: [12, 8]
+  aggregate_figure_size: [16, 8]
+
+output:
+  save_detailed_results: true
+  save_csv_summary: true
+  create_plots: true
+  create_aggregate_plots: true
+
+forecast_due_date: "2024-07-21"
+selected_resolution_date: "2025-07-21"
+
+n_rounds: 3
+n_experts: 3
+
+seed: 42
+
+initial_forecasts_path: "outputs_initial_forecasts_flexible_retry_test_set_per_seed"
+
+output_dir: "outputs_initial_delphi_flexible_retry_3_experts_test_set_per_seed"
+
+question_ids:
+  [
+    "LULU",
+    "DECK",
+    "CTAS",
+    "CZR",
+    "KMB",
+    "NASDAQ100",
+    "DTB1YR",
+    "TMBACBW027SBOG",
+    "DTB3",
+    "DTB4WK",
+    "3d8c7edc8a70211d39a3e4827f448e5908cd5e98dbbb1e3d7501c7761a877788",
+    "7de1da056e3c1cf3e02778d4631cd6d10a716795d083dd2f64d3988d10b27848",
+    "0c20162bae6257b7fcaa67c009a710e82f0faad0ce168d775b2bc3524121f83a",
+    "d9c14625f757e5fb87a7bdfe5154170e6fd569a1bb4b215cf1fb50e704bdc739",
+    "b48c0a80ed5a62b128815b699b93d3d167bf2a3265058028871320c0a5c85913",
+    "27e948952d66a749e55f37f9cb63036955768951570c627c3f16ec378df057f9",
+    "3c37fef353460bfd130fde0117638badaee913ee8c79b8cdf4c35e2c5710126a",
+    "cfecaf75abdfe4be7627c5e61a5d7c88541a74fbf3f030dd0b3b81e3f456e655",
+    "b70970a0440d1b7dedde9220fb60ffe3f2ed8b00ef12b45341772046caa12092",
+    "4c98ccd0d64f8cad6896b50e8131b7173dcc95e40e1492413d69a7bf75d3328c",
+    "meteofrance_TEMPERATURE_celsius.07015.D",
+    "meteofrance_TEMPERATURE_celsius.07607.D",
+    "meteofrance_TEMPERATURE_celsius.07577.D",
+    "meteofrance_TEMPERATURE_celsius.07481.D",
+    "meteofrance_TEMPERATURE_celsius.78925.D",
+    "WYNN",
+    "RJF",
+    "GLW",
+    "HUM",
+    "FANG",
+    "cf373450466c71a49a7f2e82e176b66198255960bb1cf71d1721cd258d0c2b81",
+    "2cab1958b1bd726695b512f3fa260e0b2ad5dbeadc5c5e1bc5b35104733c57fc",
+    "2f9337f5d2cc530629386a651bc047c7b76cb3d2fa3222a2fca72a8a7a20e7b2",
+    "5f484517610914d8596bbc5302f164a81bb62bab27d481137fe178bc7a038ed8",
+    "917240d03f7e16595c3decf76c8e905081ffcc59d16c50f0128332abd87516ee",
+  ]

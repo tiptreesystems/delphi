@@ -1,0 +1,61 @@
+# Evaluation-only config: run Delphi on the evolution_evaluation test set (Kimi K2)
+
+experiment:
+  seed: 42
+  output_dir: results/evolution_evaluation/kimi_k2
+  initial_forecasts_dir: results/experts_comparison_kimi_k2
+  reuse_initial_forecasts:
+    enabled: true
+
+model:
+  # Expert model (fixed prompts)
+  expert:
+    provider: groq
+    model: moonshotai/kimi-k2-instruct
+    system_prompt_name: frequency_based
+    system_prompt_version: v1
+    temperature: 0.3
+    max_tokens: 4096
+
+  # Mediator model (drives Delphi rounds)
+  mediator:
+    provider: groq
+    model: moonshotai/kimi-k2-instruct
+    temperature: 0.2
+    max_tokens: 6000
+    feedback_max_tokens: 6000
+    feedback_temperature: 0.2
+
+delphi:
+  n_rounds: 3
+  n_experts: 5
+  expert_selection: random
+  expert_selection_seed: 42
+
+processing:
+  skip_existing: true
+
+data:
+  resolution_date: '2025-07-21'
+  sampling:
+    method: evolution_evaluation
+  filters:
+    require_resolution: true
+
+# Initial forecasts (ICL) generation/controls
+initial_forecasts:
+  # Example selection
+  min_examples: 1
+  max_examples: 5
+  # Runtime
+  concurrency: 5
+  timeout_s: 300
+  retries: 5
+  base_backoff_s: 10
+  n_samples: 1
+
+output:
+  save:
+    conversation_histories: true
+    example_pairs: true
+  file_pattern: delphi_eval_{question_id}_{resolution_date}.json

@@ -1,0 +1,55 @@
+# Evaluation-only config: run Delphi on the evaluation test set (GPT-4o, no in-context examples)
+
+experiment:
+  seed: 42
+  output_dir: results/evolution_evaluation/gpt_4o_expert_system_mediator_evolved_3_experts_no_examples_no_system_prompt
+  initial_forecasts_dir: results/experts_comparison_gpt_4o
+  reuse_initial_forecasts:
+    enabled: true
+    with_examples: false
+
+model:
+  expert:
+    provider: openai
+    model: gpt-4o
+    temperature: 0.3
+    max_tokens: 4096
+  mediator:
+    provider: openai
+    model: gpt-4o
+    temperature: 0.2
+    max_tokens: 6000
+    feedback_max_tokens: 6000
+    feedback_temperature: 0.2
+
+delphi:
+  n_rounds: 3
+  n_experts: 3
+  expert_selection: random
+  expert_selection_seed: 42
+
+processing:
+  skip_existing: true
+
+data:
+  resolution_date: '2025-07-21'
+  sampling:
+    method: evaluation
+  filters:
+    require_resolution: true
+
+initial_forecasts:
+  min_examples: 1
+  max_examples: 3
+  concurrency: 5
+  timeout_s: 300
+  retries: 10
+  base_backoff_s: 10
+  n_samples: 3
+
+output:
+  save:
+    conversation_histories: true
+    example_pairs: true
+  file_pattern: delphi_eval_{question_id}_{resolution_date}.json
+

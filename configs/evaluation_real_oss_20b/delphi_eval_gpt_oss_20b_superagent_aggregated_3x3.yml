@@ -1,0 +1,61 @@
+# Evaluation-only config: single "superagent" ablation using aggregated examples (20B)
+
+experiment:
+  seed: 42
+  output_dir: results/evolution_evaluation/gpt_oss_20b_superagent_mediator_evolved_aggregated_3x3
+  initial_forecasts_dir: results/experts_comparison_gpt_oss_20b_aggregated_3x3
+  reuse_initial_forecasts:
+    enabled: true
+    with_examples: true
+
+model:
+  expert:
+    provider: groq
+    model: openai/gpt-oss-20b
+    temperature: 0.3
+    max_tokens: 4096
+  mediator:
+    provider: groq
+    model: openai/gpt-oss-20b
+    temperature: 0.2
+    max_tokens: 6000
+    feedback_max_tokens: 6000
+    feedback_temperature: 0.2
+
+delphi:
+  n_rounds: 3
+  n_experts: 1
+  expert_selection: random
+  expert_selection_seed: 42
+
+processing:
+  skip_existing: true
+
+data:
+  resolution_date: '2025-07-21'
+  sampling:
+    method: evaluation
+  filters:
+    require_resolution: true
+
+initial_forecasts:
+  examples_mode: aggregated
+  parity: true
+  parity_source: from_delphi_logs
+  parity_delphi_output_dir: results/evolution_evaluation/gpt_oss_20b_expert_system_mediator_evolved_3_experts_3_examples
+  parity_n_experts: 3
+  parity_per_sf_examples: 3
+  min_examples: 1
+  max_examples: 9
+  concurrency: 5
+  timeout_s: 300
+  retries: 10
+  base_backoff_s: 10
+  n_samples: 1
+
+output:
+  save:
+    conversation_histories: true
+    example_pairs: true
+  file_pattern: delphi_eval_{question_id}_{resolution_date}.json
+

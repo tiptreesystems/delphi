@@ -152,11 +152,6 @@ outputs_bak/
 
 python/
 
-result_zips/
-
-plots_old/
-
-outputs_old/
 
 archive/
 
@@ -165,3 +160,7 @@ archive/
 .ruff_cache/
 
 results_extra/
+
+shell_launchers
+
+prompts/_evolution/

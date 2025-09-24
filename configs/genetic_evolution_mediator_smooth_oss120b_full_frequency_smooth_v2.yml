@@ -40,7 +40,7 @@ model:
 # Genetic evolution configuration
 evolution:
   population_size: 8
-  max_generations: 5
+  max_generations: 3
   elitism_size: 2
   tournament_size: 3
   initial_mutation_rate: 0.5
