@@ -27,7 +27,9 @@ def read_yaml(p: Path) -> dict:
 
 def write_yaml(p: Path, data: dict) -> None:
     with p.open("w", encoding="utf-8") as f:
-        yaml.safe_dump(data, f, sort_keys=False, default_flow_style=False, allow_unicode=True)
+        yaml.safe_dump(
+            data, f, sort_keys=False, default_flow_style=False, allow_unicode=True
+        )
 
 
 def set_nested(d: dict, path, value):
@@ -64,12 +66,36 @@ def _filter_config_args(args_list: list[str]) -> list[str]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run a script across seeds via 'uv run' and tee output to logs.")
-    parser.add_argument("--script", type=Path, required=True, help="Path to Python script to run with 'uv run'")
-    parser.add_argument("--config", type=Path, required=True, help="Base YAML config path")
-    parser.add_argument("--seeds", type=int, nargs="+", default=[1, 2, 3, 4, 5], help="List of integer seeds")
-    parser.add_argument("--cwd", type=Path, default=None, help="Working directory for the process. Defaults to current.")
-    parser.add_argument("args", nargs=argparse.REMAINDER, help="Extra args to pass to the target script after '--'.")
+    parser = argparse.ArgumentParser(
+        description="Run a script across seeds via 'uv run' and tee output to logs."
+    )
+    parser.add_argument(
+        "--script",
+        type=Path,
+        required=True,
+        help="Path to Python script to run with 'uv run'",
+    )
+    parser.add_argument(
+        "--config", type=Path, required=True, help="Base YAML config path"
+    )
+    parser.add_argument(
+        "--seeds",
+        type=int,
+        nargs="+",
+        default=[1, 2, 3, 4, 5],
+        help="List of integer seeds",
+    )
+    parser.add_argument(
+        "--cwd",
+        type=Path,
+        default=None,
+        help="Working directory for the process. Defaults to current.",
+    )
+    parser.add_argument(
+        "args",
+        nargs=argparse.REMAINDER,
+        help="Extra args to pass to the target script after '--'.",
+    )
 
     args = parser.parse_args()
 
@@ -85,12 +111,14 @@ def main():
         sys.exit(1)
 
     base_cfg = read_yaml(config_path)
-    out_dir_str = (
-        base_cfg.get("experiment", {}).get("output_dir")
-        or base_cfg.get("experiment", {}).get("output_path")
-    )
+    out_dir_str = base_cfg.get("experiment", {}).get("output_dir") or base_cfg.get(
+        "experiment", {}
+    ).get("output_path")
     if not out_dir_str:
-        print("Config missing experiment.output_dir; cannot determine log directory.", file=sys.stderr)
+        print(
+            "Config missing experiment.output_dir; cannot determine log directory.",
+            file=sys.stderr,
+        )
         sys.exit(1)
     output_dir = Path(out_dir_str)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -137,7 +165,11 @@ def main():
                     bufsize=1,
                     text=False,
                 )
-                t = threading.Thread(target=_pump, args=(proc.stdout, [logf, sys.stdout.buffer]), daemon=True)
+                t = threading.Thread(
+                    target=_pump,
+                    args=(proc.stdout, [logf, sys.stdout.buffer]),
+                    daemon=True,
+                )
                 t.start()
                 try:
                     ret = proc.wait()
@@ -151,7 +183,9 @@ def main():
                 t.join()
 
             if ret != 0:
-                print(f"[seed {seed}] EXIT CODE {ret} (see {log_path})", file=sys.stderr)
+                print(
+                    f"[seed {seed}] EXIT CODE {ret} (see {log_path})", file=sys.stderr
+                )
             else:
                 print(f"[seed {seed}] Done.")
 
@@ -159,7 +193,7 @@ def main():
             try:
                 if log_path.exists():
                     run_dir = None
-                    with log_path.open('r', encoding='utf-8', errors='ignore') as lf:
+                    with log_path.open("r", encoding="utf-8", errors="ignore") as lf:
                         for line in lf:
                             m = re.search(r"Evolution logs:\s*(.*)$", line.strip())
                             if m:
@@ -175,9 +209,13 @@ def main():
                             try:
                                 dest.write_bytes(log_path.read_bytes())
                                 log_path.unlink(missing_ok=True)
-                                print(f"[seed {seed}] Moved log to run_dir (copy): {dest}")
+                                print(
+                                    f"[seed {seed}] Moved log to run_dir (copy): {dest}"
+                                )
                             except Exception:
-                                print(f"[seed {seed}] Note: intended to move log to {dest}, but copy failed.")
+                                print(
+                                    f"[seed {seed}] Note: intended to move log to {dest}, but copy failed."
+                                )
             except Exception:
                 pass
 

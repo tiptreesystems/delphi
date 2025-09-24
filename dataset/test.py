@@ -9,7 +9,9 @@ target_id = "TPkEjiNb1wVCIGFnPcDD"
 matching = [f["forecast"] for f in data["forecasts"] if f["id"] == target_id]
 
 average = sum(matching) / len(matching) if matching else None
-median = statistics.median([f["forecast"] for f in data["forecasts"] if f["id"] == "TPkEjiNb1wVCIGFnPcDD"])
+median = statistics.median(
+    [f["forecast"] for f in data["forecasts"] if f["id"] == "TPkEjiNb1wVCIGFnPcDD"]
+)
 
 print(f"Found {len(matching)} forecasts for ID {target_id}")
 print(f"Average forecast: {average}")

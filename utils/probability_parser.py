@@ -6,7 +6,7 @@ from text responses, handling various formatting styles including markdown.
 """
 
 import re
-from typing import Optional, Protocol, Awaitable
+from typing import Optional, Protocol
 
 # Unified regex for FINAL PROBABILITY with optional markdown and scientific notation
 # Matches: 0.75, .5, 1, 1.0, 5e-05, 1e-3, 2E-1, etc.
@@ -50,7 +50,6 @@ def extract_final_probability(text: str) -> float:
         except ValueError:
             pass
 
-
     # No valid probability found
     return -1
 
@@ -87,15 +86,14 @@ def extract_final_probability_with_context(text: str) -> tuple[float, Optional[s
 
 class LLMRetryProtocol(Protocol):
     """Protocol for LLM objects that can retry generating responses."""
+
     async def generate_response(self, message: str, **kwargs) -> str:
         """Generate a response from the LLM."""
         ...
 
 
 async def extract_final_probability_with_retry(
-    text: str,
-    llm_retry_func: Optional[LLMRetryProtocol] = None,
-    max_retries: int = 1
+    text: str, llm_retry_func: Optional[LLMRetryProtocol] = None, max_retries: int = 1
 ) -> float:
     """
     Extract final probability with retry mechanism if parsing fails.
@@ -118,14 +116,14 @@ async def extract_final_probability_with_retry(
     if llm_retry_func is None or max_retries <= 0:
         return -1
 
-    retry_message = "Please provide your probability estimate like 'FINAL PROBABILITY: 0.75'\n\n"
+    retry_message = (
+        "Please provide your probability estimate like 'FINAL PROBABILITY: 0.75'\n\n"
+    )
 
     for attempt in range(max_retries):
         try:
             retry_response = await llm_retry_func.generate_response(
-                retry_message,
-                max_tokens=100,
-                temperature=0.1
+                retry_message, max_tokens=100, temperature=0.1
             )
 
             # Try to parse the retry response

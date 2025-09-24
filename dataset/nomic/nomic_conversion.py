@@ -11,6 +11,6 @@ with jsonlines.open("nomic_upload.jsonl", "w") as writer:
             "text": f"{q['question']} {q['background']}".strip(),
             "source": q.get("source", ""),
             "url": q.get("url", ""),
-            "probability": q.get("freeze_datetime_value", None)
+            "probability": q.get("freeze_datetime_value", None),
         }
         writer.write(item)

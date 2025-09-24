@@ -19,20 +19,20 @@ def make_json_serializable(obj):
 
     if obj is None:
         return None
-    elif hasattr(obj, '__dict__'):
+    elif hasattr(obj, "__dict__"):
         # Convert objects with attributes
-        if hasattr(obj, 'id') and hasattr(obj, 'question'):  # Question object
+        if hasattr(obj, "id") and hasattr(obj, "question"):  # Question object
             return {
-                'question_id': str(obj.id),
-                'question_text': str(obj.question),
-                'question_background': str(getattr(obj, 'background', '')),
-                'type': 'question'
+                "question_id": str(obj.id),
+                "question_text": str(obj.question),
+                "question_background": str(getattr(obj, "background", "")),
+                "type": "question",
             }
         else:
             # Try to convert other objects to dict
             try:
                 return {k: make_json_serializable(v) for k, v in obj.__dict__.items()}
-            except:
+            except Exception:
                 return str(obj)
     elif isinstance(obj, (list, tuple)):
         return [make_json_serializable(item) for item in obj]
@@ -43,16 +43,18 @@ def make_json_serializable(obj):
         return str(obj)
 
 
-def load_experiment_config(config_path: str = './configs/delphi_experiment.yml') -> dict:
+def load_experiment_config(
+    config_path: str = "./configs/delphi_experiment.yml",
+) -> dict:
     """Load experiment configuration from YAML file."""
-    with open(config_path, 'r') as f:
+    with open(config_path, "r") as f:
         return yaml.safe_load(f)
 
 
 def setup_environment(config: dict):
     """Setup environment based on configuration."""
     # Set random seeds
-    seed = config['experiment']['seed']
+    seed = config["experiment"]["seed"]
     random.seed(seed)
     np.random.seed(seed)
     os.environ["PYTHONHASHSEED"] = str(seed)
@@ -67,20 +69,22 @@ def setup_environment(config: dict):
     #         debugpy.wait_for_client()
     #         print("Debugger attached.")
 
-    if config.get('debug', {}).get('breakpoint_on_start', False):
+    if config.get("debug", {}).get("breakpoint_on_start", False):
         breakpoint()
 
     # Setup API keys
-    api_config = config.get('api', {})
-    if 'openai' in api_config:
-        openai_key = os.getenv(api_config['openai']['api_key_env'])
+    api_config = config.get("api", {})
+    if "openai" in api_config:
+        openai_key = os.getenv(api_config["openai"]["api_key_env"])
         os.environ["OPENAI_API_KEY"] = openai_key
-    if 'groq' in api_config:
-        groq_key = os.getenv(api_config['groq']['api_key_env'])
+    if "groq" in api_config:
+        groq_key = os.getenv(api_config["groq"]["api_key_env"])
         os.environ["GROQ_API_KEY"] = groq_key
 
 
-def split_train_valid(questions, valid_ratio: float = 0.2, seed: int = 42) -> Tuple[List, List]:
+def split_train_valid(
+    questions, valid_ratio: float = 0.2, seed: int = 42
+) -> Tuple[List, List]:
     """Split questions into train and validation sets with stratification by topic."""
 
     # Set seed for reproducibility
@@ -89,7 +93,7 @@ def split_train_valid(questions, valid_ratio: float = 0.2, seed: int = 42) -> Tu
     # Group questions by topic
     topic_questions = defaultdict(list)
     for q in questions:
-        topic = q.topic if q.topic else 'unknown'
+        topic = q.topic if q.topic else "unknown"
         topic_questions[topic].append(q)
 
     train_questions = []
@@ -111,7 +115,7 @@ def split_train_valid(questions, valid_ratio: float = 0.2, seed: int = 42) -> Tu
     random.shuffle(train_questions)
     random.shuffle(valid_questions)
 
-    print(f"\nData split (stratified by topic):")
+    print("\nData split (stratified by topic):")
     print(f"  Training set: {len(train_questions)} questions")
     print(f"  Validation set: {len(valid_questions)} questions")
 

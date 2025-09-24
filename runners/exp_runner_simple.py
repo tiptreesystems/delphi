@@ -90,10 +90,9 @@ def main():
                     if "experiment" not in cfg:
                         cfg["experiment"] = {}
                     cfg["experiment"]["seed"] = int(args.seed)
-                    out_dir_str = (
-                        cfg["experiment"].get("output_dir")
-                        or cfg["experiment"].get("output_path")
-                    )
+                    out_dir_str = cfg["experiment"].get("output_dir") or cfg[
+                        "experiment"
+                    ].get("output_path")
                     if out_dir_str:
                         # Append seed subfolder to keep runs separate
                         out_with_seed = Path(out_dir_str) / f"seed_{args.seed}"
@@ -101,9 +100,17 @@ def main():
                         output_dir_from_config = out_with_seed
                     # Create temp config and swap in passthrough args
                     tmp_dir_ctx = tempfile.TemporaryDirectory()
-                    tmp_cfg_path = Path(tmp_dir_ctx.name) / f"config_seed_{args.seed}.yaml"
+                    tmp_cfg_path = (
+                        Path(tmp_dir_ctx.name) / f"config_seed_{args.seed}.yaml"
+                    )
                     with tmp_cfg_path.open("w", encoding="utf-8") as tf:
-                        yaml.safe_dump(cfg, tf, sort_keys=False, default_flow_style=False, allow_unicode=True)
+                        yaml.safe_dump(
+                            cfg,
+                            tf,
+                            sort_keys=False,
+                            default_flow_style=False,
+                            allow_unicode=True,
+                        )
                     # Replace --config in extra with temp path
                     new_extra = []
                     skip_next = False
@@ -128,10 +135,9 @@ def main():
                     extra = new_extra
                 else:
                     # No seed override; just use output_dir for log placement
-                    out_dir_str = (
-                        cfg.get("experiment", {}).get("output_dir")
-                        or cfg.get("experiment", {}).get("output_path")
-                    )
+                    out_dir_str = cfg.get("experiment", {}).get(
+                        "output_dir"
+                    ) or cfg.get("experiment", {}).get("output_path")
                     if out_dir_str:
                         output_dir_from_config = Path(out_dir_str)
                 if output_dir_from_config is not None:
@@ -176,7 +182,9 @@ def main():
             bufsize=1,
             text=False,
         )
-        t = threading.Thread(target=_pump, args=(proc.stdout, [logf, sys.stdout.buffer]), daemon=True)
+        t = threading.Thread(
+            target=_pump, args=(proc.stdout, [logf, sys.stdout.buffer]), daemon=True
+        )
         t.start()
         try:
             ret = proc.wait()
@@ -197,7 +205,7 @@ def main():
     try:
         if log_path.exists():
             run_dir = None
-            with log_path.open('r', encoding='utf-8', errors='ignore') as lf:
+            with log_path.open("r", encoding="utf-8", errors="ignore") as lf:
                 for line in lf:
                     m = re.search(r"Evolution logs:\s*(.*)$", line.strip())
                     if m:

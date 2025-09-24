@@ -7,6 +7,7 @@ Launch:
 
 Then open http://127.0.0.1:5000 in your browser.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -24,16 +25,18 @@ import numpy as np
 
 app = Flask(__name__)
 RUN_DIR: Path | None = None  # Currently selected run dir (timestamp folder or similar)
-RUNS_ROOT: Path | None = None  # Root to discover selectable runs (defaults near RUN_DIR)
+RUNS_ROOT: Path | None = (
+    None  # Root to discover selectable runs (defaults near RUN_DIR)
+)
 
 
 def _is_run_dir(p: Path) -> bool:
     # A run dir has monitor.csv or evolved_prompts (optionally under dry_run)
     return (
-        (p / 'monitor.csv').exists() or
-        (p / 'evolved_prompts').exists() or
-        (p / 'dry_run' / 'monitor.csv').exists() or
-        (p / 'dry_run' / 'evolved_prompts').exists()
+        (p / "monitor.csv").exists()
+        or (p / "evolved_prompts").exists()
+        or (p / "dry_run" / "monitor.csv").exists()
+        or (p / "dry_run" / "evolved_prompts").exists()
     )
 
 
@@ -45,7 +48,12 @@ def _pick_latest_child_run(p: Path) -> Path | None:
     if candidates:
         return max(candidates, key=lambda d: d.stat().st_mtime)
     # Fallback: pick subdirs containing a marker file
-    markers = [d for d in p.iterdir() if d.is_dir() and ((d / 'config_used').exists() or (d / 'config_used.yml').exists())]
+    markers = [
+        d
+        for d in p.iterdir()
+        if d.is_dir()
+        and ((d / "config_used").exists() or (d / "config_used.yml").exists())
+    ]
     if markers:
         return max(markers, key=lambda d: d.stat().st_mtime)
     return None
@@ -60,7 +68,7 @@ def _discover_runs(root: Path) -> list[Path]:
     runs: list[Path] = []
     if not root.exists() or not root.is_dir():
         return runs
-    for d in root.rglob('*'):
+    for d in root.rglob("*"):
         try:
             if d.is_dir() and _is_run_dir(d):
                 runs.append(d)
@@ -91,19 +99,21 @@ def _log_request_info():
 @app.errorhandler(Exception)
 def _handle_exception(e: Exception):
     logging.exception("Unhandled exception at %s: %s", request.path, e)
-    return jsonify({
-        'error': 'server_error',
-        'message': str(e),
-        'path': request.path,
-        'trace': traceback.format_exc().splitlines()[-6:],
-    }), 500
+    return jsonify(
+        {
+            "error": "server_error",
+            "message": str(e),
+            "path": request.path,
+            "trace": traceback.format_exc().splitlines()[-6:],
+        }
+    ), 500
 
 
 def read_monitor_csv(path: Path) -> Dict[str, List[float]]:
     data: Dict[str, List[float]] = {}
     if not path.exists():
         return data
-    with path.open('r', newline='') as f:
+    with path.open("r", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
             for k, v in row.items():
@@ -112,49 +122,51 @@ def read_monitor_csv(path: Path) -> Dict[str, List[float]]:
                 try:
                     data[k].append(float(v))
                 except Exception:
-                    data[k].append(float('nan'))
+                    data[k].append(float("nan"))
     return data
 
 
-@app.get('/api/summary')
+@app.get("/api/summary")
 def api_summary():
     run = require_run_dir()
     # Prefer direct monitor.csv, else dry_run/monitor.csv
-    mon_path = run / 'monitor.csv'
+    mon_path = run / "monitor.csv"
     if not mon_path.exists():
-        alt = run / 'dry_run' / 'monitor.csv'
+        alt = run / "dry_run" / "monitor.csv"
         if alt.exists():
             mon_path = alt
     mon = read_monitor_csv(mon_path)
     # Derive available dynamic metric bases
     bases = set()
     for k in mon.keys():
-        if k.startswith('train_'):
-            bases.add(k[len('train_'):])
-        if k.startswith('val_'):
-            bases.add(k[len('val_'):])
+        if k.startswith("train_"):
+            bases.add(k[len("train_") :])
+        if k.startswith("val_"):
+            bases.add(k[len("val_") :])
     resp = {
-        'columns': list(mon.keys()),
-        'data': mon,
-        'metric_bases': sorted(bases),
+        "columns": list(mon.keys()),
+        "data": mon,
+        "metric_bases": sorted(bases),
     }
     return jsonify(resp)
 
 
-@app.get('/api/runs')
+@app.get("/api/runs")
 def api_runs():
     """List selectable run directories under the configured root.
 
     Returns list of objects: { path, label, mtime }
     """
     global RUNS_ROOT
-    base = RUNS_ROOT or (RUN_DIR.parent if RUN_DIR else Path('results'))
+    base = RUNS_ROOT or (RUN_DIR.parent if RUN_DIR else Path("results"))
     # If base itself is a run dir, prefer its parent
     if _is_run_dir(base):
         base = base.parent
     found = _discover_runs(base)
     import re
+
     ts_re = re.compile(r"^(\d{8})_(\d{6})(?:_.+)?$")
+
     def _ts_val(seg: str) -> int | None:
         m = ts_re.match(seg)
         if not m:
@@ -170,12 +182,12 @@ def api_runs():
         try:
             parts = Path(label).parts
         except Exception:
-            parts = tuple(str(label).split('/'))
+            parts = tuple(str(label).split("/"))
         key = []
         for seg in parts:
             ts = _ts_val(seg)
             if ts is not None:
-                key.append((1, -ts, ''))  # Timestamp: sort by descending ts
+                key.append((1, -ts, ""))  # Timestamp: sort by descending ts
             else:
                 key.append((0, 0, seg.lower()))  # Text: alphabetical
         return tuple(key)
@@ -186,227 +198,257 @@ def api_runs():
             rel = p.relative_to(base)
         except Exception:
             rel = p.name
-        items.append({
-            'path': str(p.resolve()),
-            'label': str(rel),
-            'mtime': p.stat().st_mtime,
-        })
+        items.append(
+            {
+                "path": str(p.resolve()),
+                "label": str(rel),
+                "mtime": p.stat().st_mtime,
+            }
+        )
     # Sort by path parts alpha, but timestamp segments by recency
-    items.sort(key=lambda x: _label_sort_key(x['label']))
-    return jsonify({'root': str(base.resolve()), 'runs': items, 'current': str(require_run_dir().resolve())})
+    items.sort(key=lambda x: _label_sort_key(x["label"]))
+    return jsonify(
+        {
+            "root": str(base.resolve()),
+            "runs": items,
+            "current": str(require_run_dir().resolve()),
+        }
+    )
 
 
-@app.post('/api/select_run')
+@app.post("/api/select_run")
 def api_select_run():
     """Select current run directory by absolute path from /api/runs."""
     data = request.get_json(silent=True) or {}
-    path = data.get('path') or request.args.get('path')
+    path = data.get("path") or request.args.get("path")
     if not path:
-        return jsonify({'error': 'missing_path'}), 400
+        return jsonify({"error": "missing_path"}), 400
     p = Path(path).resolve()
     if not p.exists():
-        return jsonify({'error': 'not_found', 'path': str(p)}), 404
+        return jsonify({"error": "not_found", "path": str(p)}), 404
     # Accept both run dir and parents that contain runs (auto-pick latest child)
     chosen = p
     if not _is_run_dir(chosen):
         child = _pick_latest_child_run(chosen)
         if child is None:
-            return jsonify({'error': 'no_run_under_path', 'path': str(p)}), 400
+            return jsonify({"error": "no_run_under_path", "path": str(p)}), 400
         chosen = child
     global RUN_DIR
     RUN_DIR = chosen
-    return jsonify({'ok': True, 'run_dir': str(RUN_DIR)})
+    return jsonify({"ok": True, "run_dir": str(RUN_DIR)})
 
 
-@app.get('/api/health')
+@app.get("/api/health")
 def api_health():
     run = require_run_dir()
     data = {
-        'run_dir': str(run),
-        'has_monitor': (run / 'monitor.csv').exists(),
-        'has_monitor_dry': (run / 'dry_run' / 'monitor.csv').exists(),
-        'has_evolved_prompts': (run / 'evolved_prompts').exists(),
-        'has_evolved_prompts_dry': (run / 'dry_run' / 'evolved_prompts').exists(),
+        "run_dir": str(run),
+        "has_monitor": (run / "monitor.csv").exists(),
+        "has_monitor_dry": (run / "dry_run" / "monitor.csv").exists(),
+        "has_evolved_prompts": (run / "evolved_prompts").exists(),
+        "has_evolved_prompts_dry": (run / "dry_run" / "evolved_prompts").exists(),
     }
     logging.info("Health: %s", data)
     return jsonify(data)
 
 
-@app.get('/api/generations')
+@app.get("/api/generations")
 def api_generations():
     run = require_run_dir()
-    base = run / 'evolved_prompts'
+    base = run / "evolved_prompts"
     if not base.exists():
-        dr = run / 'dry_run' / 'evolved_prompts'
+        dr = run / "dry_run" / "evolved_prompts"
         if dr.exists():
             base = dr
     gens = []
     if base.exists():
         for p in base.iterdir():
-            if p.is_dir() and p.name.startswith('gen_'):
+            if p.is_dir() and p.name.startswith("gen_"):
                 try:
-                    gens.append(int(p.name.split('_')[1]))
+                    gens.append(int(p.name.split("_")[1]))
                 except Exception:
                     pass
     gens.sort()
-    return jsonify({'generations': gens})
+    return jsonify({"generations": gens})
 
 
-@app.get('/api/candidates')
+@app.get("/api/candidates")
 def api_candidates():
     run = require_run_dir()
-    gen = int(request.args.get('gen', '0'))
-    base = run / 'evolved_prompts'
+    gen = int(request.args.get("gen", "0"))
+    base = run / "evolved_prompts"
     if not base.exists():
-        dr = run / 'dry_run' / 'evolved_prompts'
+        dr = run / "dry_run" / "evolved_prompts"
         if dr.exists():
             base = dr
-    gen_dir = base / f'gen_{gen:03d}'
+    gen_dir = base / f"gen_{gen:03d}"
     cands = []
     if gen_dir.exists():
-        cands = [p.name for p in gen_dir.iterdir() if p.is_dir() and p.name.startswith('cand_')]
+        cands = [
+            p.name
+            for p in gen_dir.iterdir()
+            if p.is_dir() and p.name.startswith("cand_")
+        ]
         cands.sort()
-    return jsonify({'candidates': cands})
+    return jsonify({"candidates": cands})
 
 
-@app.get('/api/questions')
+@app.get("/api/questions")
 def api_questions():
     run = require_run_dir()
-    gen = int(request.args.get('gen', '0'))
-    cand = request.args.get('cand') or ''
-    split = request.args.get('split', 'val')
-    base = run / 'evolved_prompts'
+    gen = int(request.args.get("gen", "0"))
+    cand = request.args.get("cand") or ""
+    split = request.args.get("split", "val")
+    base = run / "evolved_prompts"
     if not base.exists():
-        dr = run / 'dry_run' / 'evolved_prompts'
+        dr = run / "dry_run" / "evolved_prompts"
         if dr.exists():
             base = dr
-    split_dir = base / f'gen_{gen:03d}' / cand / 'delphi_logs' / split
+    split_dir = base / f"gen_{gen:03d}" / cand / "delphi_logs" / split
     items = []
     if split_dir.exists():
-        for p in split_dir.glob('*.json'):
+        for p in split_dir.glob("*.json"):
             try:
-                with p.open('r', encoding='utf-8') as f:
+                with p.open("r", encoding="utf-8") as f:
                     obj = json.load(f)
-                items.append({
-                    'question_id': p.stem,
-                    'question_text': (obj.get('question_text') or '')[:160]
-                })
+                items.append(
+                    {
+                        "question_id": p.stem,
+                        "question_text": (obj.get("question_text") or "")[:160],
+                    }
+                )
             except Exception:
-                items.append({'question_id': p.stem, 'question_text': ''})
-    items.sort(key=lambda x: x['question_id'])
-    return jsonify({'questions': items})
+                items.append({"question_id": p.stem, "question_text": ""})
+    items.sort(key=lambda x: x["question_id"])
+    return jsonify({"questions": items})
 
 
-@app.get('/api/delphi')
+@app.get("/api/delphi")
 def api_delphi():
     run = require_run_dir()
-    gen = int(request.args.get('gen', '0'))
-    cand = request.args.get('cand') or ''
-    split = request.args.get('split', 'val')
-    qid = request.args.get('question_id') or ''
-    base = run / 'evolved_prompts'
+    gen = int(request.args.get("gen", "0"))
+    cand = request.args.get("cand") or ""
+    split = request.args.get("split", "val")
+    qid = request.args.get("question_id") or ""
+    base = run / "evolved_prompts"
     if not base.exists():
-        dr = run / 'dry_run' / 'evolved_prompts'
+        dr = run / "dry_run" / "evolved_prompts"
         if dr.exists():
             base = dr
-    path = base / f'gen_{gen:03d}' / cand / 'delphi_logs' / split / f'{qid}.json'
+    path = base / f"gen_{gen:03d}" / cand / "delphi_logs" / split / f"{qid}.json"
     if not path.exists():
-        return jsonify({'error': f'Not found: {path}'}), 404
-    with path.open('r', encoding='utf-8') as f:
+        return jsonify({"error": f"Not found: {path}"}), 404
+    with path.open("r", encoding="utf-8") as f:
         obj = json.load(f)
     # Attach resolution info for convenience in the UI
     try:
-        qid_eff = obj.get('question_id') or qid
+        qid_eff = obj.get("question_id") or qid
         # Prefer resolution_date in the log, else from config_used
-        res_date = (obj.get('config', {}) or {}).get('resolution_date')
+        res_date = (obj.get("config", {}) or {}).get("resolution_date")
         if not res_date:
             cfg = _read_config_used(run)
-            res_date = ((cfg.get('data', {}) or {}).get('resolution_date'))
+            res_date = (cfg.get("data", {}) or {}).get("resolution_date")
         if qid_eff and res_date:
             from dataset.dataloader import ForecastDataLoader
+
             loader = ForecastDataLoader()
             res = loader.get_resolution(qid_eff, res_date)
             if res is not None:
-                obj['_resolution'] = {
-                    'date': res_date,
-                    'resolved': bool(getattr(res, 'resolved', False)),
-                    'actual_outcome': float(getattr(res, 'resolved_to', 0.0)),
-                    'direction': getattr(res, 'direction', None),
+                obj["_resolution"] = {
+                    "date": res_date,
+                    "resolved": bool(getattr(res, "resolved", False)),
+                    "actual_outcome": float(getattr(res, "resolved_to", 0.0)),
+                    "direction": getattr(res, "direction", None),
                 }
     except Exception:
         pass
     return jsonify(obj)
 
 
-@app.get('/api/prompt')
+@app.get("/api/prompt")
 def api_prompt():
     run = require_run_dir()
-    gen = int(request.args.get('gen', '0'))
-    cand = request.args.get('cand') or ''
-    base = run / 'evolved_prompts'
+    gen = int(request.args.get("gen", "0"))
+    cand = request.args.get("cand") or ""
+    base = run / "evolved_prompts"
     if not base.exists():
-        dr = run / 'dry_run' / 'evolved_prompts'
+        dr = run / "dry_run" / "evolved_prompts"
         if dr.exists():
             base = dr
-    path = base / f'gen_{gen:03d}' / cand / 'prompt.md'
+    path = base / f"gen_{gen:03d}" / cand / "prompt.md"
     if not path.exists():
-        return Response("", mimetype='text/plain')
-    return Response(path.read_text(encoding='utf-8'), mimetype='text/plain')
+        return Response("", mimetype="text/plain")
+    return Response(path.read_text(encoding="utf-8"), mimetype="text/plain")
 
 
 def _read_config_used(run: Path) -> dict:
-    for name in ('config_used.yml', 'config_used'):
+    for name in ("config_used.yml", "config_used"):
         f = run / name
         if f.exists():
             try:
-                return yaml.safe_load(f.read_text(encoding='utf-8'))
+                return yaml.safe_load(f.read_text(encoding="utf-8"))
             except Exception:
                 continue
     # Try dry_run subdir
-    for name in ('config_used.yml', 'config_used'):
-        f = run / 'dry_run' / name
+    for name in ("config_used.yml", "config_used"):
+        f = run / "dry_run" / name
         if f.exists():
             try:
-                return yaml.safe_load(f.read_text(encoding='utf-8'))
+                return yaml.safe_load(f.read_text(encoding="utf-8"))
             except Exception:
                 continue
     return {}
 
 
-def _iter_delphi_logs(run: Path, split: str, gen: int | None = None, cand: str | None = None):
-    base = run / 'evolved_prompts'
+def _iter_delphi_logs(
+    run: Path, split: str, gen: int | None = None, cand: str | None = None
+):
+    base = run / "evolved_prompts"
     if not base.exists():
-        alt = run / 'dry_run' / 'evolved_prompts'
+        alt = run / "dry_run" / "evolved_prompts"
         if alt.exists():
             base = alt
     if not base.exists():
         return
-    gen_dirs = [base / f'gen_{gen:03d}'] if gen is not None else [d for d in base.iterdir() if d.is_dir() and d.name.startswith('gen_')]
+    gen_dirs = (
+        [base / f"gen_{gen:03d}"]
+        if gen is not None
+        else [d for d in base.iterdir() if d.is_dir() and d.name.startswith("gen_")]
+    )
     for gdir in gen_dirs:
         if not gdir.exists():
             continue
-        cand_dirs = [gdir / cand] if cand else [d for d in gdir.iterdir() if d.is_dir() and d.name.startswith('cand_')]
+        cand_dirs = (
+            [gdir / cand]
+            if cand
+            else [
+                d for d in gdir.iterdir() if d.is_dir() and d.name.startswith("cand_")
+            ]
+        )
         for cdir in cand_dirs:
-            sdir = cdir / 'delphi_logs' / split
+            sdir = cdir / "delphi_logs" / split
             if not sdir.exists():
                 continue
-            for fp in sdir.glob('*.json'):
+            for fp in sdir.glob("*.json"):
                 yield fp
 
 
-def _compute_avg_brier_by_round(run: Path, split: str, gen: int | None = None, cand: str | None = None):
+def _compute_avg_brier_by_round(
+    run: Path, split: str, gen: int | None = None, cand: str | None = None
+):
     """Compute average Brier per round using median-of-experts each round.
 
     Also computes baseline Briers: median superforecaster and median public forecast
     per question (static across rounds), averaged across questions.
     """
     cfg = _read_config_used(run)
-    resolution_date = (((cfg or {}).get('data') or {}).get('resolution_date'))
+    resolution_date = ((cfg or {}).get("data") or {}).get("resolution_date")
     if not resolution_date:
         # Try nested shape
-        resolution_date = (cfg.get('data', {}) or {}).get('resolution_date')
+        resolution_date = (cfg.get("data", {}) or {}).get("resolution_date")
     # Lazy import to avoid heavy startup
     from dataset.dataloader import ForecastDataLoader
+
     loader = ForecastDataLoader()
 
     sums: dict[int, float] = {}
@@ -419,25 +461,27 @@ def _compute_avg_brier_by_round(run: Path, split: str, gen: int | None = None, c
 
     for fp in _iter_delphi_logs(run, split, gen, cand):
         try:
-            obj = json.loads(fp.read_text(encoding='utf-8'))
+            obj = json.loads(fp.read_text(encoding="utf-8"))
         except Exception:
             continue
-        qid = obj.get('question_id') or fp.stem
+        qid = obj.get("question_id") or fp.stem
         try:
             res = loader.get_resolution(qid, resolution_date)
-            if not res or not getattr(res, 'resolved', False):
+            if not res or not getattr(res, "resolved", False):
                 continue
             actual = float(res.resolved_to)
         except Exception:
             continue
-        rounds = obj.get('rounds') or []
+        rounds = obj.get("rounds") or []
         if not rounds:
             continue
         # Baselines (one per unique question)
         if qid not in seen_qids:
             seen_qids.add(qid)
             try:
-                sfs = loader.get_super_forecasts(question_id=qid, resolution_date=resolution_date)
+                sfs = loader.get_super_forecasts(
+                    question_id=qid, resolution_date=resolution_date
+                )
                 if sfs:
                     sf_median = float(np.median([float(f.forecast) for f in sfs]))
                     sf_sum += (sf_median - actual) ** 2
@@ -445,7 +489,9 @@ def _compute_avg_brier_by_round(run: Path, split: str, gen: int | None = None, c
             except Exception:
                 pass
             try:
-                pubs = loader.get_public_forecasts(question_id=qid, resolution_date=resolution_date)
+                pubs = loader.get_public_forecasts(
+                    question_id=qid, resolution_date=resolution_date
+                )
                 if pubs:
                     public_median = float(np.median([float(f.forecast) for f in pubs]))
                     public_sum += (public_median - actual) ** 2
@@ -453,10 +499,14 @@ def _compute_avg_brier_by_round(run: Path, split: str, gen: int | None = None, c
             except Exception:
                 pass
         for idx, rd in enumerate(rounds):
-            experts = rd.get('experts') or {}
+            experts = rd.get("experts") or {}
             if not experts:
                 continue
-            probs = [float(v.get('prob')) for v in experts.values() if v is not None and isinstance(v.get('prob'), (int, float))]
+            probs = [
+                float(v.get("prob"))
+                for v in experts.values()
+                if v is not None and isinstance(v.get("prob"), (int, float))
+            ]
             if not probs:
                 continue
             pred = float(np.median(probs))
@@ -469,33 +519,33 @@ def _compute_avg_brier_by_round(run: Path, split: str, gen: int | None = None, c
     sf_avg = (sf_sum / sf_n) if sf_n > 0 else None
     public_avg = (public_sum / public_n) if public_n > 0 else None
     return {
-        'rounds': rounds_sorted,
-        'avg_brier': avg,
-        'n_questions': len(seen_qids),
-        'sf_avg_brier': sf_avg,
-        'public_avg_brier': public_avg,
+        "rounds": rounds_sorted,
+        "avg_brier": avg,
+        "n_questions": len(seen_qids),
+        "sf_avg_brier": sf_avg,
+        "public_avg_brier": public_avg,
     }
 
 
-@app.get('/api/avg_brier_rounds')
+@app.get("/api/avg_brier_rounds")
 def api_avg_brier_rounds():
     run = require_run_dir()
-    split = request.args.get('split', 'val')
-    gen = request.args.get('gen')
-    cand = request.args.get('cand')
+    split = request.args.get("split", "val")
+    gen = request.args.get("gen")
+    cand = request.args.get("cand")
     gen_i = int(gen) if gen is not None else None
     data = _compute_avg_brier_by_round(run, split, gen_i, cand)
-    return jsonify({'split': split, **data})
+    return jsonify({"split": split, **data})
 
 
-@app.get('/api/avg_brier_rounds_all')
+@app.get("/api/avg_brier_rounds_all")
 def api_avg_brier_rounds_all():
     run = require_run_dir()
-    gen = request.args.get('gen')
-    cand = request.args.get('cand')
+    gen = request.args.get("gen")
+    cand = request.args.get("cand")
     gen_i = int(gen) if gen is not None else None
     out = {}
-    for split in ('train', 'val', 'test'):
+    for split in ("train", "val", "test"):
         out[split] = _compute_avg_brier_by_round(run, split, gen_i, cand)
     return jsonify(out)
 
@@ -898,24 +948,34 @@ INDEX_HTML = """
 """
 
 
-@app.get('/')
+@app.get("/")
 def index():
     # Serve the single-page dashboard
-    return Response(INDEX_HTML, mimetype='text/html')
+    return Response(INDEX_HTML, mimetype="text/html")
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Evolution Flask dashboard')
-    parser.add_argument('--run-dir', type=Path, required=True, help='Path to a run directory or its parent (seed dir)')
-    parser.add_argument('--runs-root', type=Path, default=None, help='Root folder to discover selectable runs (defaults near --run-dir)')
-    parser.add_argument('--host', type=str, default='127.0.0.1')
-    parser.add_argument('--port', type=int, default=5000)
+    parser = argparse.ArgumentParser(description="Evolution Flask dashboard")
+    parser.add_argument(
+        "--run-dir",
+        type=Path,
+        required=True,
+        help="Path to a run directory or its parent (seed dir)",
+    )
+    parser.add_argument(
+        "--runs-root",
+        type=Path,
+        default=None,
+        help="Root folder to discover selectable runs (defaults near --run-dir)",
+    )
+    parser.add_argument("--host", type=str, default="127.0.0.1")
+    parser.add_argument("--port", type=int, default=5000)
     args = parser.parse_args()
 
     global RUN_DIR
     RUN_DIR = args.run_dir.resolve()
     if not RUN_DIR.exists():
-        raise SystemExit(f'Run dir not found: {RUN_DIR}')
+        raise SystemExit(f"Run dir not found: {RUN_DIR}")
     # If a seed or base dir was given, auto-pick the latest child run dir
     if not _is_run_dir(RUN_DIR):
         picked = _pick_latest_child_run(RUN_DIR)
@@ -937,5 +997,5 @@ def main():
     app.run(host=args.host, port=args.port, debug=False)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

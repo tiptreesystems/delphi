@@ -1,6 +1,7 @@
 import asyncio
 import random
 from typing import Dict, Any
+import statistics
 
 from agents.mediator import Mediator
 from agents.expert import Expert
@@ -10,16 +11,15 @@ from utils.expert_utils import (
     create_delphi_log,
     add_initial_round,
     add_round_to_log,
-    finalize_delphi_log
+    finalize_delphi_log,
 )
 
 
 def initialize_experts(llmcasts_by_sfid: Dict, config: dict, llm) -> Dict[str, Expert]:
     """Initialize experts with their initial forecasts."""
-    model_config = config['model'].get('expert', config['model'])
+    model_config = config["model"].get("expert", config["model"])
     experts = {
-        sfid: Expert(llm, config=model_config)
-        for sfid in llmcasts_by_sfid.keys()
+        sfid: Expert(llm, config=model_config) for sfid in llmcasts_by_sfid.keys()
     }
     for sfid, payload_list in llmcasts_by_sfid.items():
         if not payload_list:
@@ -29,7 +29,7 @@ def initialize_experts(llmcasts_by_sfid: Dict, config: dict, llm) -> Dict[str, E
             )
 
         payload = payload_list[0]
-        full_conversation = payload.get('full_conversation', [])
+        full_conversation = payload.get("full_conversation", [])
 
         if not full_conversation:
             raise ValueError(
@@ -65,11 +65,8 @@ def initialize_experts(llmcasts_by_sfid: Dict, config: dict, llm) -> Dict[str, E
             )
 
         # Fix role if missing or incorrect
-        if median_message.get('role') != 'assistant':
-            median_message = {
-                **median_message,
-                'role': 'assistant'
-            }
+        if median_message.get("role") != "assistant":
+            median_message = {**median_message, "role": "assistant"}
 
         conversation = [initial_message, median_message]
         experts[sfid].conversation_manager.add_messages(conversation)
@@ -84,7 +81,7 @@ def initialize_experts(llmcasts_by_sfid: Dict, config: dict, llm) -> Dict[str, E
 
         # Verify the expert has at least one assistant message
         has_assistant_msg = any(
-            msg.get('role') == 'assistant'
+            msg.get("role") == "assistant"
             for msg in expert.conversation_manager.messages
         )
 
@@ -107,22 +104,40 @@ def initialize_experts(llmcasts_by_sfid: Dict, config: dict, llm) -> Dict[str, E
 
 def select_experts(experts: Dict[str, Expert], config: dict) -> Dict[str, Expert]:
     """Select experts based on configuration."""
-    max_experts = config['delphi']['n_experts']
+    max_experts = config["delphi"]["n_experts"]
 
     if len(experts) <= max_experts:
         return experts
 
-    if config['delphi']['expert_selection'] == 'random':
-        seed = config['experiment']['seed']
-        expert_selection_seed = config['delphi'].get('expert_selection_seed', seed)
+    if config["delphi"]["expert_selection"] == "random":
+        seed = config["experiment"]["seed"]
+        expert_selection_seed = config["delphi"].get("expert_selection_seed", seed)
         expert_rng = random.Random(expert_selection_seed)
         selected_sfs = expert_rng.sample(list(experts.keys()), max_experts)
         return {sfid: experts[sfid] for sfid in selected_sfs}
 
+    elif config["delphi"]["expert_selection"] == "identical":
+        # Select a single expert to duplicate
+        import copy
+
+        seed = config["experiment"]["seed"]
+        expert_selection_seed = config["delphi"].get("expert_selection_seed", seed)
+        expert_rng = random.Random(expert_selection_seed)
+        selected_sfid = expert_rng.choice(list(experts.keys()))
+        original = experts[selected_sfid]
+        # Include the original first, then create duplicates to reach max_experts total
+        new_experts = {selected_sfid: original}
+        for i in range(1, max_experts):
+            new_experts[f"{selected_sfid}_copy{i}"] = original.duplicate()
+        experts = new_experts
+        return experts
+
     return experts
 
 
-async def _run_expert_updates(experts: Dict[str, Expert], feedback_message: str) -> Dict[str, Dict]:
+async def _run_expert_updates(
+    experts: Dict[str, Expert], feedback_message: str
+) -> Dict[str, Dict]:
     """Run expert updates in parallel."""
     tasks = {
         sfid: expert.get_forecast_update(feedback_message)
@@ -136,23 +151,26 @@ async def _run_expert_updates(experts: Dict[str, Expert], feedback_message: str)
     }
 
 
-async def run_delphi_rounds(question, experts: Dict[str, Expert], config: dict, example_pairs: Dict) -> Dict[str, Any]:
+async def run_delphi_rounds(
+    question, experts: Dict[str, Expert], config: dict, example_pairs: Dict
+) -> Dict[str, Any]:
     """Run the Delphi rounds for a single question."""
     # Setup
-    mediator_config = config['model'].get('mediator', config['model'])
-    mediator_llm = get_llm_from_config(config, role='mediator')
+    mediator_config = config["model"].get("mediator", config["model"])
+    mediator_llm = get_llm_from_config(config, role="mediator")
     mediator = Mediator(mediator_llm, config=mediator_config)
 
     # Initialize log
     delphi_log = create_delphi_log(
-        question, config,
-        config['experiment']['seed'],
-        config['data']['resolution_date']
+        question,
+        config,
+        config["experiment"]["seed"],
+        config["data"]["resolution_date"],
     )
     add_initial_round(delphi_log, experts)
 
     # Core Delphi loop
-    for round_idx in range(config['delphi']['n_rounds']):
+    for round_idx in range(config["delphi"]["n_rounds"]):
         # Prepare mediator with previous round's responses
         mediator.start_round(round_idx=round_idx, question=question)
         expert_messages = {
@@ -162,6 +180,60 @@ async def run_delphi_rounds(question, experts: Dict[str, Expert], config: dict, 
         mediator.receive_messages(expert_messages)
 
         # Generate feedback and get expert updates
+        # optional feedback type handling (defaults to mediator behavior)
+        feedback_type = config["delphi"].get("feedback_type", "mediator")
+
+        if feedback_type not in {"mediator", "all_to_all", "median"}:
+            raise ValueError(f"Unknown delphi.feedback_type: {feedback_type}")
+
+        # If no feedback is desired, monkeypatch mediator.generate_feedback to return an empty string
+        if feedback_type == "none":
+            raise NotImplementedError(
+                "delphi.feedback_type 'none' is not implemented. This should not be possible."
+            )
+
+        # If aggregate feedback is requested, try to compute a simple aggregate (median) from previous probs
+        elif feedback_type == "median":
+            probs = []
+            for entry in delphi_log["rounds"][-1]["experts"].values():
+                p = entry.get("prob")
+                if isinstance(p, (int, float)):
+                    probs.append(p)
+                else:
+                    try:
+                        probs.append(float(p))
+                    except Exception:
+                        continue
+
+            if probs:
+                median_p = statistics.median(probs)
+
+                async def _aggregate_feedback():
+                    return f"Aggregated median probability: {median_p:.4f}"
+
+                mediator.generate_feedback = _aggregate_feedback
+
+        elif feedback_type == "all_to_all":
+            # Concatenate all expert assistant messages and broadcast the combined text to all experts,
+            # but anonymize expert IDs (deterministically).
+            anonymized_labels = {
+                sfid: f"Expert {i + 1}"
+                for i, sfid in enumerate(sorted(expert_messages.keys()))
+            }
+
+            parts = []
+            for sfid, msg in expert_messages.items():
+                label = anonymized_labels.get(sfid, "Expert")
+                content = msg.get("content", "")
+                parts.append(f"{label} response:\n{content}")
+
+            concatenated = "\n\n".join(parts)
+
+            async def _all_to_all_feedback():
+                return f"Here are all expert messages:\n\n{concatenated}"
+
+            mediator.generate_feedback = _all_to_all_feedback
+
         feedback_message = await mediator.generate_feedback()
         expert_updates = await _run_expert_updates(experts, feedback_message)
 

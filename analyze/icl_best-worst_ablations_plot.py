@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 from dataset.dataloader import ForecastDataLoader
 import debugpy
+
 print("Waiting for debugger attach...")
 debugpy.listen(5679)
 debugpy.wait_for_client()
@@ -17,10 +18,14 @@ print("Debugger attached.")
 
 
 loader = ForecastDataLoader()
+
+
 # ----------------------------
 # 1) Loader (uses your format)
 # ----------------------------
-def load_results(dirpath: str) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dict[str, Any]]]:
+def load_results(
+    dirpath: str,
+) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dict[str, Any]]]:
     """
     Loads results from files named:
       questionId_date_forecasterID_{type}.json
@@ -31,11 +36,13 @@ def load_results(dirpath: str) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dic
     single_best_feedback = defaultdict(dict)
 
     for filename in os.listdir(dirpath):
-        if not filename.endswith('.json'):
+        if not filename.endswith(".json"):
             continue
 
         name_without_ext = filename[:-5]  # remove ".json"
-        parts = name_without_ext.rsplit('_', 3)  # question_id, date, forecaster_id, feedback_type
+        parts = name_without_ext.rsplit(
+            "_", 3
+        )  # question_id, date, forecaster_id, feedback_type
         if len(parts) != 4:
             # tolerate older underscore style by normalizing after split
             # or just skip malformed files
@@ -43,15 +50,15 @@ def load_results(dirpath: str) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dic
             continue
 
         question_id, date_str, forecaster_id, feedback_type = parts
-        feedback_type = feedback_type.replace('_', '-')  # normalize old->new
+        feedback_type = feedback_type.replace("_", "-")  # normalize old->new
 
         path = os.path.join(dirpath, filename)
-        with open(path, 'r', encoding='utf-8') as f:
+        with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        if feedback_type == 'both-best-worst-feedback':
+        if feedback_type == "both-best-worst-feedback":
             both_best_worst_feedback[question_id][forecaster_id] = data
-        elif feedback_type == 'single-best-feedback':
+        elif feedback_type == "single-best-feedback":
             single_best_feedback[question_id][forecaster_id] = data
 
         else:
@@ -105,9 +112,14 @@ def dicts_to_dataframe(
 
     # Ensure numeric columns
     for col in [
-        "resolution", "original_forecast", "updated_forecast",
-        "improvement", "original_error", "updated_error",
-        "best_forecast", "worst_forecast"
+        "resolution",
+        "original_forecast",
+        "updated_forecast",
+        "improvement",
+        "original_error",
+        "updated_error",
+        "best_forecast",
+        "worst_forecast",
     ]:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce")
@@ -117,7 +129,8 @@ def dicts_to_dataframe(
         needs_impr = df["improvement"].isna()
         if "updated_forecast" in df.columns and "original_forecast" in df.columns:
             df.loc[needs_impr, "improvement"] = (
-                df.loc[needs_impr, "updated_forecast"] - df.loc[needs_impr, "original_forecast"]
+                df.loc[needs_impr, "updated_forecast"]
+                - df.loc[needs_impr, "original_forecast"]
             )
 
     return df
@@ -134,25 +147,29 @@ def add_diag(ax):
     # add y=x diagonal within current axes limits
     lims = [
         np.nanmin([ax.get_xlim(), ax.get_ylim()]),
-        np.nanmax([ax.get_xlim(), ax.get_ylim()])
+        np.nanmax([ax.get_xlim(), ax.get_ylim()]),
     ]
     ax.plot(lims, lims)
     ax.set_xlim(lims)
     ax.set_ylim(lims)
 
+
 # --- Helpers for per-type suites and cross-type comparisons ---
+
 
 def _add_diag(ax):
     lims = [
         np.nanmin([ax.get_xlim(), ax.get_ylim()]),
-        np.nanmax([ax.get_xlim(), ax.get_ylim()])
+        np.nanmax([ax.get_xlim(), ax.get_ylim()]),
     ]
     ax.plot(lims, lims)
     ax.set_xlim(lims)
     ax.set_ylim(lims)
 
+
 def _ensure_dir(p):
     os.makedirs(p, exist_ok=True)
+
 
 def plot_suite_for(df_sub: pd.DataFrame, tag: str, out_dir: str):
     """Produce the per-dict plots for a subset df_sub; tag is 'both' or 'single'."""
@@ -213,12 +230,18 @@ def plot_suite_for(df_sub: pd.DataFrame, tag: str, out_dir: str):
         width = 0.35  # half-width for side-by-side boxes
 
         for i, topic in enumerate(topic_order):
-            sub_both = df_sub[(df_sub["topic"] == topic) & (df_sub["feedback_type"] == "both-best-worst-feedback")]["improvement"].dropna()
-            sub_single_best = df_sub[(df_sub["topic"] == topic) & (df_sub["feedback_type"] == "single-best-feedback")]["improvement"].dropna()
+            sub_both = df_sub[
+                (df_sub["topic"] == topic)
+                & (df_sub["feedback_type"] == "both-best-worst-feedback")
+            ]["improvement"].dropna()
+            sub_single_best = df_sub[
+                (df_sub["topic"] == topic)
+                & (df_sub["feedback_type"] == "single-best-feedback")
+            ]["improvement"].dropna()
             if sub_both.empty and sub_single_best.empty:
                 continue
             # Positioning: both on left, single on right
-            positions.extend([i - width/2, i + width/2])
+            positions.extend([i - width / 2, i + width / 2])
             box_data.extend([sub_both, sub_single_best])
             labels.extend([f"{topic}\n(both)", f"{topic}\n(single best)"])
 
@@ -227,7 +250,9 @@ def plot_suite_for(df_sub: pd.DataFrame, tag: str, out_dir: str):
         plt.title("Improvement by Topic and Feedback Type")
         plt.ylabel("Improvement")
         fig.tight_layout()
-        fig.savefig(os.path.join(out_dir, f"{tag}_05_improvement_by_topic.png"), dpi=150)
+        fig.savefig(
+            os.path.join(out_dir, f"{tag}_05_improvement_by_topic.png"), dpi=150
+        )
         plt.close(fig)
 
     # 5) Updated forecast by resolution
@@ -235,13 +260,25 @@ def plot_suite_for(df_sub: pd.DataFrame, tag: str, out_dir: str):
         fig = plt.figure()
         true_mask = df_sub["resolution"] == 1
         false_mask = df_sub["resolution"] == 0
-        plt.hist(df_sub.loc[true_mask, "updated_forecast"].dropna(), bins=30, alpha=0.5, label="Resolved = 1")
-        plt.hist(df_sub.loc[false_mask, "updated_forecast"].dropna(), bins=30, alpha=0.5, label="Resolved = 0")
+        plt.hist(
+            df_sub.loc[true_mask, "updated_forecast"].dropna(),
+            bins=30,
+            alpha=0.5,
+            label="Resolved = 1",
+        )
+        plt.hist(
+            df_sub.loc[false_mask, "updated_forecast"].dropna(),
+            bins=30,
+            alpha=0.5,
+            label="Resolved = 0",
+        )
         plt.title(f"[{tag}] Updated Forecasts by Resolution")
         plt.xlabel("Updated Forecast")
         plt.ylabel("Count")
         plt.legend()
-        fig.savefig(os.path.join(out_dir, f"{tag}_05_updated_by_resolution.png"), dpi=150)
+        fig.savefig(
+            os.path.join(out_dir, f"{tag}_05_updated_by_resolution.png"), dpi=150
+        )
         plt.close(fig)
 
     # 6) Best-vs-worst spread
@@ -253,14 +290,21 @@ def plot_suite_for(df_sub: pd.DataFrame, tag: str, out_dir: str):
             plt.title(f"[{tag}] Best vs Worst Superforecast Spread (worst - best)")
             plt.xlabel("Spread")
             plt.ylabel("Count")
-            fig.savefig(os.path.join(out_dir, f"{tag}_06_best_worst_spread.png"), dpi=150)
+            fig.savefig(
+                os.path.join(out_dir, f"{tag}_06_best_worst_spread.png"), dpi=150
+            )
             plt.close(fig)
 
     # 7) Time trend (weekly mean improvement)
     if {"forecast_due_date", "improvement"} <= set(df_sub.columns):
         sub = df_sub[["forecast_due_date", "improvement"]].dropna()
         if not sub.empty:
-            sub = sub.sort_values("forecast_due_date").set_index("forecast_due_date").resample("W").mean(numeric_only=True)
+            sub = (
+                sub.sort_values("forecast_due_date")
+                .set_index("forecast_due_date")
+                .resample("W")
+                .mean(numeric_only=True)
+            )
             if not sub.empty:
                 fig = plt.figure()
                 plt.plot(sub.index, sub["improvement"])
@@ -268,8 +312,12 @@ def plot_suite_for(df_sub: pd.DataFrame, tag: str, out_dir: str):
                 plt.xlabel("Week")
                 plt.ylabel("Mean Improvement")
                 fig.autofmt_xdate()
-                fig.savefig(os.path.join(out_dir, f"{tag}_07_improvement_time_trend.png"), dpi=150)
+                fig.savefig(
+                    os.path.join(out_dir, f"{tag}_07_improvement_time_trend.png"),
+                    dpi=150,
+                )
                 plt.close(fig)
+
 
 def plot_comparisons(df: pd.DataFrame, out_dir: str):
     """Direct comparisons between both dicts (overlay/side-by-side)."""
@@ -286,13 +334,15 @@ def plot_comparisons(df: pd.DataFrame, out_dir: str):
         plt.xlabel("Improvement")
         plt.ylabel("Count")
         plt.legend()
-        fig.savefig(os.path.join(out_dir, "cmp_01_improvement_hist_overlay.png"), dpi=150)
+        fig.savefig(
+            os.path.join(out_dir, "cmp_01_improvement_hist_overlay.png"), dpi=150
+        )
         plt.close(fig)
 
     # B) ECDF of improvement (lines)
     def ecdf(x):
         x = np.sort(np.asarray(x))
-        y = np.arange(1, len(x)+1) / len(x) if len(x) else np.array([])
+        y = np.arange(1, len(x) + 1) / len(x) if len(x) else np.array([])
         return x, y
 
     ax = a["improvement"].dropna()
@@ -317,15 +367,27 @@ def plot_comparisons(df: pd.DataFrame, out_dir: str):
         sub_a = a[list(needed)].dropna()
         sub_b = b[list(needed)].dropna()
         if not sub_a.empty:
-            plt.scatter(sub_a["original_error"], sub_a["updated_error"], s=12, label="both-best-worst")
+            plt.scatter(
+                sub_a["original_error"],
+                sub_a["updated_error"],
+                s=12,
+                label="both-best-worst",
+            )
         if not sub_b.empty:
-            plt.scatter(sub_b["original_error"], sub_b["updated_error"], s=12, label="single-best")
+            plt.scatter(
+                sub_b["original_error"],
+                sub_b["updated_error"],
+                s=12,
+                label="single-best",
+            )
         _add_diag(plt.gca())
         plt.title("Error Reduction Comparison")
         plt.xlabel("Original Error")
         plt.ylabel("Updated Error")
         plt.legend()
-        fig.savefig(os.path.join(out_dir, "cmp_03_error_reduction_overlay.png"), dpi=150)
+        fig.savefig(
+            os.path.join(out_dir, "cmp_03_error_reduction_overlay.png"), dpi=150
+        )
         plt.close(fig)
 
     # D) Time trend overlay (weekly mean improvement)
@@ -335,7 +397,12 @@ def plot_comparisons(df: pd.DataFrame, out_dir: str):
         for label, sub in [("both-best-worst", a), ("single-best", b)]:
             sub = sub[["forecast_due_date", "improvement"]].dropna()
             if not sub.empty:
-                sub = sub.sort_values("forecast_due_date").set_index("forecast_due_date").resample("W").mean(numeric_only=True)
+                sub = (
+                    sub.sort_values("forecast_due_date")
+                    .set_index("forecast_due_date")
+                    .resample("W")
+                    .mean(numeric_only=True)
+                )
                 if not sub.empty:
                     plt.plot(sub.index, sub["improvement"], label=label)
                     plotted = True
@@ -360,6 +427,7 @@ def plot_comparisons(df: pd.DataFrame, out_dir: str):
         fig.savefig(os.path.join(out_dir, "cmp_05_improvement_boxplot.png"), dpi=150)
         plt.close(fig)
 
+
 # --------------------------
 # 4) Plotting entry-point
 # --------------------------
@@ -368,8 +436,14 @@ def make_plots(results_path: str, out_dir: str = "results_ablation_forecasts_plo
     df = dicts_to_dataframe(both, single_best)
 
     # Per-dict suites
-    plot_suite_for(df[df["feedback_type"] == "both-best-worst-feedback"], tag="both", out_dir=out_dir)
-    plot_suite_for(df[df["feedback_type"] == "single-best-feedback"],    tag="single", out_dir=out_dir)
+    plot_suite_for(
+        df[df["feedback_type"] == "both-best-worst-feedback"],
+        tag="both",
+        out_dir=out_dir,
+    )
+    plot_suite_for(
+        df[df["feedback_type"] == "single-best-feedback"], tag="single", out_dir=out_dir
+    )
 
     # Direct comparisons
     plot_comparisons(df, out_dir=out_dir)
@@ -411,8 +485,13 @@ def make_plots(results_path: str, out_dir: str = "results_ablation_forecasts_plo
     # choose up to 20 most frequent questions for readability
     q_counts = df["question_id"].value_counts().head(20).index.tolist()
     sub = df[df["question_id"].isin(q_counts)]
-    groups = [grp["improvement"].dropna().values for _, grp in sub.groupby("question_id")]
-    labels = [str(q)[:10] + "…" if len(str(q)) > 11 else str(q) for q in sub.groupby("question_id").groups.keys()]
+    groups = [
+        grp["improvement"].dropna().values for _, grp in sub.groupby("question_id")
+    ]
+    labels = [
+        str(q)[:10] + "…" if len(str(q)) > 11 else str(q)
+        for q in sub.groupby("question_id").groups.keys()
+    ]
 
     if len(groups) >= 2:
         fig = plt.figure()
@@ -422,9 +501,10 @@ def make_plots(results_path: str, out_dir: str = "results_ablation_forecasts_plo
         plt.ylabel("Improvement")
         plt.xticks(rotation=45, ha="right")
         fig.tight_layout()
-        fig.savefig(os.path.join(out_dir, "04_improvement_by_question_boxplot.png"), dpi=150)
+        fig.savefig(
+            os.path.join(out_dir, "04_improvement_by_question_boxplot.png"), dpi=150
+        )
         plt.close(fig)
-
 
     print(f"Saved plots to: {os.path.abspath(out_dir)}")
 

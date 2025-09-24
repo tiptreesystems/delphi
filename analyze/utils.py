@@ -3,8 +3,14 @@ from collections import defaultdict
 import numpy as np
 
 
-def analyze_forecast_results(sampled_questions, loaded_fcasts_with_examples, loaded_fcasts_no_examples,
-                            loader, selected_resolution_date, forecast_due_date):
+def analyze_forecast_results(
+    sampled_questions,
+    loaded_fcasts_with_examples,
+    loaded_fcasts_no_examples,
+    loader,
+    selected_resolution_date,
+    forecast_due_date,
+):
     """Analyze forecast results and compute aggregate statistics."""
     rng = np.random.default_rng(42)
     sf_aggregate = defaultdict(list)
@@ -14,9 +20,15 @@ def analyze_forecast_results(sampled_questions, loaded_fcasts_with_examples, loa
     def _extract_forecasts_from_payload(payload):
         """Extract forecasts from various payload formats."""
         if isinstance(payload, dict):
-            if "forecast" in payload and isinstance(payload["forecast"], dict) and "forecasts" in payload["forecast"]:
+            if (
+                "forecast" in payload
+                and isinstance(payload["forecast"], dict)
+                and "forecasts" in payload["forecast"]
+            ):
                 return payload["forecast"]["forecasts"]
-            if "forecasts" in payload and isinstance(payload["forecasts"], (list, tuple)):
+            if "forecasts" in payload and isinstance(
+                payload["forecasts"], (list, tuple)
+            ):
                 return payload["forecasts"]
         if isinstance(payload, (list, tuple)):
             return payload
@@ -28,7 +40,7 @@ def analyze_forecast_results(sampled_questions, loaded_fcasts_with_examples, loa
             gt = loader.get_super_forecasts(
                 question_id=qid_,
                 user_id=sfid_,
-                resolution_date=selected_resolution_date
+                resolution_date=selected_resolution_date,
             )
             if gt:
                 val = getattr(gt[0], "forecast", gt[0])
@@ -79,7 +91,9 @@ def analyze_forecast_results(sampled_questions, loaded_fcasts_with_examples, loa
 
         # Store question label
         if qid not in qid_to_label:
-            pretty = q.question.replace("{resolution_date}", selected_resolution_date).replace("{forecast_due_date}", forecast_due_date)
+            pretty = q.question.replace(
+                "{resolution_date}", selected_resolution_date
+            ).replace("{forecast_due_date}", forecast_due_date)
             qid_to_label[qid] = pretty[:80] + ("…" if len(pretty) > 80 else "")
 
     return sf_aggregate, q_aggregate, qid_to_label

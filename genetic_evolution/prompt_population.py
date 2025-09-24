@@ -11,13 +11,19 @@ from typing import List, Optional, Dict, Any
 from dataclasses import dataclass, asdict
 import json
 
-from genetic_evolution.operators import PromptCandidate, tournament_selection, crossover, mutate
+from genetic_evolution.operators import (
+    PromptCandidate,
+    tournament_selection,
+    crossover,
+    mutate,
+)
 from utils.prompt_loader import load_prompt
 
 
 @dataclass
 class GenerationStats:
     """Statistics for a generation of prompt evolution."""
+
     generation: int
     best_fitness: float
     mean_fitness: float
@@ -52,7 +58,7 @@ class PromptPopulation:
         mutation_rate_increase: float = 0.1,
         max_mutation_rate: float = 0.9,
         stagnation_threshold: int = 4,
-        max_stagnation: int = 8
+        max_stagnation: int = 8,
     ):
         """
         Initialize the prompt population.
@@ -102,12 +108,8 @@ class PromptPopulation:
         self.population = []
 
         # Use provided seed prompts
-        for i, prompt in enumerate(seed_prompts[:self.population_size]):
-            candidate = PromptCandidate(
-                text=prompt,
-                fitness=0.0,
-                generation=0
-            )
+        for i, prompt in enumerate(seed_prompts[: self.population_size]):
+            candidate = PromptCandidate(text=prompt, fitness=0.0, generation=0)
             self.population.append(candidate)
 
         # If we need more prompts, create variations of existing ones
@@ -119,19 +121,15 @@ class PromptPopulation:
                 f"{base_prompt} Consider all factors.",
                 f"Systematically {base_prompt.lower()}",
                 f"{base_prompt} Think step by step.",
-                base_prompt  # Include original as fallback
+                base_prompt,  # Include original as fallback
             ]
             variation = random.choice(variations)
 
-            candidate = PromptCandidate(
-                text=variation,
-                fitness=0.0,
-                generation=0
-            )
+            candidate = PromptCandidate(text=variation, fitness=0.0, generation=0)
             self.population.append(candidate)
 
         # Ensure we have exactly the right size
-        self.population = self.population[:self.population_size]
+        self.population = self.population[: self.population_size]
 
     def evaluate_fitness(self, fitness_scores: List[float]) -> None:
         """
@@ -141,17 +139,23 @@ class PromptPopulation:
             fitness_scores: List of fitness scores for each candidate
         """
         if len(fitness_scores) != len(self.population):
-            raise ValueError(f"Expected {len(self.population)} fitness scores, got {len(fitness_scores)}")
+            raise ValueError(
+                f"Expected {len(self.population)} fitness scores, got {len(fitness_scores)}"
+            )
 
         for candidate, fitness in zip(self.population, fitness_scores):
             candidate.fitness = fitness
             candidate.val_fitness = fitness
 
-    def attach_aux_fitness(self, train_fitness_scores: List[float], val_fitness_scores: List[float]) -> None:
+    def attach_aux_fitness(
+        self, train_fitness_scores: List[float], val_fitness_scores: List[float]
+    ) -> None:
         """Attach auxiliary train/val fitness scores to candidates without affecting selection."""
         if not self.population:
             return
-        for cand, tr, va in zip(self.population, train_fitness_scores, val_fitness_scores):
+        for cand, tr, va in zip(
+            self.population, train_fitness_scores, val_fitness_scores
+        ):
             cand.train_fitness = tr
             cand.val_fitness = va
 
@@ -171,15 +175,23 @@ class PromptPopulation:
         for candidate, summary in zip(self.population, summaries):
             candidate.performance_summary = summary
 
-    def attach_candidate_metrics(self, train_metrics_list: List[Dict[str, Any]], val_metrics_list: List[Dict[str, Any]]) -> None:
+    def attach_candidate_metrics(
+        self,
+        train_metrics_list: List[Dict[str, Any]],
+        val_metrics_list: List[Dict[str, Any]],
+    ) -> None:
         """Attach per-candidate metric summaries for train/val."""
         if not self.population:
             return
-        for cand, trm, vam in zip(self.population, train_metrics_list, val_metrics_list):
+        for cand, trm, vam in zip(
+            self.population, train_metrics_list, val_metrics_list
+        ):
             cand.train_metrics = trm
             cand.val_metrics = vam
 
-    def set_pending_generation_metrics(self, train_metrics: Dict[str, float], val_metrics: Dict[str, float]) -> None:
+    def set_pending_generation_metrics(
+        self, train_metrics: Dict[str, float], val_metrics: Dict[str, float]
+    ) -> None:
         """Set aggregated train/val metrics for inclusion in GenerationStats."""
         self._pending_train_metrics = train_metrics
         self._pending_val_metrics = val_metrics
@@ -201,37 +213,44 @@ class PromptPopulation:
         best_val_fitness = self.population[0].fitness
         self.best_fitness_history.append(best_val_fitness)
         # Also track train/val best curves
-        train_list = [getattr(c, 'train_fitness', 0.0) for c in self.population]
-        val_list = [getattr(c, 'val_fitness', c.fitness) for c in self.population]
+        train_list = [getattr(c, "train_fitness", 0.0) for c in self.population]
+        val_list = [getattr(c, "val_fitness", c.fitness) for c in self.population]
         self.train_best_fitness_history.append(max(train_list) if train_list else 0.0)
         self.val_best_fitness_history.append(max(val_list) if val_list else 0.0)
 
         # Check for improvement
-        if (len(self.best_fitness_history) > 1 and
-            best_val_fitness <= self.best_fitness_history[-2]):
+        if (
+            len(self.best_fitness_history) > 1
+            and best_val_fitness <= self.best_fitness_history[-2]
+        ):
             self.generations_without_improvement += 1
         else:
             self.generations_without_improvement = 0
 
         # Adaptive mutation rate
-        if (self.generations_without_improvement >= self.stagnation_threshold and
-            self.mutation_rate < self.max_mutation_rate):
+        if (
+            self.generations_without_improvement >= self.stagnation_threshold
+            and self.mutation_rate < self.max_mutation_rate
+        ):
             self.mutation_rate = min(
-                self.max_mutation_rate,
-                self.mutation_rate + self.mutation_rate_increase
+                self.max_mutation_rate, self.mutation_rate + self.mutation_rate_increase
             )
 
         # Record generation statistics
         fitnesses = [c.fitness for c in self.population]
         # Compute means for train/val
-        train_mean = sum(train_list)/len(train_list) if train_list else 0.0
-        val_mean = sum(val_list)/len(val_list) if val_list else 0.0
+        train_mean = sum(train_list) / len(train_list) if train_list else 0.0
+        val_mean = sum(val_list) / len(val_list) if val_list else 0.0
         stats = GenerationStats(
             generation=self.generation,
             best_fitness=max(fitnesses),
             mean_fitness=sum(fitnesses) / len(fitnesses),
             worst_fitness=min(fitnesses),
-            fitness_std=(sum((f - sum(fitnesses)/len(fitnesses))**2 for f in fitnesses) / len(fitnesses))**0.5,
+            fitness_std=(
+                sum((f - sum(fitnesses) / len(fitnesses)) ** 2 for f in fitnesses)
+                / len(fitnesses)
+            )
+            ** 0.5,
             best_prompt=self.population[0].text,
             mutation_rate=self.mutation_rate,
             train_best_fitness=max(train_list) if train_list else 0.0,
@@ -239,8 +258,16 @@ class PromptPopulation:
             val_best_fitness=max(val_list) if val_list else 0.0,
             val_mean_fitness=val_mean,
             # Pass through any aggregated metrics (optimizer fills these)
-            **({'train_metrics': self._pending_train_metrics} if self._pending_train_metrics else {}),
-            **({'val_metrics': self._pending_val_metrics} if self._pending_val_metrics else {})
+            **(
+                {"train_metrics": self._pending_train_metrics}
+                if self._pending_train_metrics
+                else {}
+            ),
+            **(
+                {"val_metrics": self._pending_val_metrics}
+                if self._pending_val_metrics
+                else {}
+            ),
         )
         self.generation_stats.append(stats)
         # Clear pending metrics after recording
@@ -258,7 +285,7 @@ class PromptPopulation:
                 generation=self.generation + 1,
                 parent_ids=(id(self.population[i]),),
                 reasoning_traces=self.population[i].reasoning_traces,
-                performance_summary=self.population[i].performance_summary
+                performance_summary=self.population[i].performance_summary,
             )
             new_population.append(elite)
 
@@ -271,18 +298,20 @@ class PromptPopulation:
             if random.random() < self.mutation_rate:
                 # Mutation operation
                 parent = tournament_selection(self.population, self.tournament_size)
-                operations.append(('mutate', parent))
+                operations.append(("mutate", parent))
             else:
                 # Crossover operation
                 parent1 = tournament_selection(self.population, self.tournament_size)
                 parent2 = tournament_selection(self.population, self.tournament_size)
-                operations.append(('crossover', parent1, parent2))
+                operations.append(("crossover", parent1, parent2))
 
         # Execute operations in parallel
         if llm and operations:
-            mutation_count = sum(1 for op in operations if op[0] == 'mutate')
+            mutation_count = sum(1 for op in operations if op[0] == "mutate")
             if mutation_count > 1:
-                print(f"  Running {mutation_count} mutations in parallel (max_concurrent: {self.max_concurrent_mutations})")
+                print(
+                    f"  Running {mutation_count} mutations in parallel (max_concurrent: {self.max_concurrent_mutations})"
+                )
 
             start_time = time.time()
             offspring = await self._execute_operations_parallel(operations, llm)
@@ -294,8 +323,14 @@ class PromptPopulation:
             # Fallback to sequential if no LLM
             offspring = []
             for op in operations:
-                if op[0] == 'mutate':
-                    offspring.append(await mutate(op[1], llm=None, component_type=getattr(self, 'component_type', 'expert')))
+                if op[0] == "mutate":
+                    offspring.append(
+                        await mutate(
+                            op[1],
+                            llm=None,
+                            component_type=getattr(self, "component_type", "expert"),
+                        )
+                    )
                 else:
                     offspring.append(crossover(op[1], op[2]))
 
@@ -304,7 +339,9 @@ class PromptPopulation:
         self.population = new_population
         self.generation += 1
 
-    async def _execute_operations_parallel(self, operations: List, llm) -> List[PromptCandidate]:
+    async def _execute_operations_parallel(
+        self, operations: List, llm
+    ) -> List[PromptCandidate]:
         """
         Execute genetic operations (mutations and crossovers) in parallel.
 
@@ -320,10 +357,14 @@ class PromptPopulation:
         crossover_results = []
 
         for op in operations:
-            if op[0] == 'mutate':
+            if op[0] == "mutate":
                 # Create mutation task
                 parent = op[1]
-                task = mutate(parent, llm=llm, component_type=getattr(self, 'component_type', 'expert'))
+                task = mutate(
+                    parent,
+                    llm=llm,
+                    component_type=getattr(self, "component_type", "expert"),
+                )
                 mutation_tasks.append(task)
             else:
                 # Execute crossover immediately (no LLM needed)
@@ -339,13 +380,17 @@ class PromptPopulation:
 
                 if len(mutation_tasks) <= max_concurrent:
                     # Run all tasks at once if within limit
-                    mutation_results = await asyncio.gather(*mutation_tasks, return_exceptions=True)
+                    mutation_results = await asyncio.gather(
+                        *mutation_tasks, return_exceptions=True
+                    )
                 else:
                     # Run in batches if too many tasks
                     mutation_results = []
                     for i in range(0, len(mutation_tasks), max_concurrent):
-                        batch = mutation_tasks[i:i + max_concurrent]
-                        batch_results = await asyncio.gather(*batch, return_exceptions=True)
+                        batch = mutation_tasks[i : i + max_concurrent]
+                        batch_results = await asyncio.gather(
+                            *batch, return_exceptions=True
+                        )
                         mutation_results.extend(batch_results)
 
                 # Handle exceptions and failed mutations
@@ -387,8 +432,10 @@ class PromptPopulation:
         Returns:
             True if evolution should terminate
         """
-        return (self.generation >= max_generations or
-                self.generations_without_improvement >= self.max_stagnation)
+        return (
+            self.generation >= max_generations
+            or self.generations_without_improvement >= self.max_stagnation
+        )
 
     def get_best_candidate(self) -> Optional[PromptCandidate]:
         """Get the best candidate from the current population."""
@@ -400,13 +447,13 @@ class PromptPopulation:
         """Get a summary of the evolution process."""
         best = self.get_best_candidate()
         return {
-            'total_generations': self.generation,
-            'final_mutation_rate': self.mutation_rate,
-            'generations_without_improvement': self.generations_without_improvement,
-            'best_fitness': best.fitness if best else 0.0,
-            'best_prompt': best.text if best else "",
-            'fitness_history': self.best_fitness_history,
-            'train_best_fitness_history': self.train_best_fitness_history,
-            'val_best_fitness_history': self.val_best_fitness_history,
-            'generation_stats': [asdict(stats) for stats in self.generation_stats]
+            "total_generations": self.generation,
+            "final_mutation_rate": self.mutation_rate,
+            "generations_without_improvement": self.generations_without_improvement,
+            "best_fitness": best.fitness if best else 0.0,
+            "best_prompt": best.text if best else "",
+            "fitness_history": self.best_fitness_history,
+            "train_best_fitness_history": self.train_best_fitness_history,
+            "val_best_fitness_history": self.val_best_fitness_history,
+            "generation_stats": [asdict(stats) for stats in self.generation_stats],
         }

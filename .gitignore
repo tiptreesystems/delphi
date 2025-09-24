@@ -149,3 +149,19 @@ retry.log
 results_bak
 
 outputs_bak/
+
+python/
+
+result_zips/
+
+plots_old/
+
+outputs_old/
+
+archive/
+
+.vscode/
+
+.ruff_cache/
+
+results_extra/

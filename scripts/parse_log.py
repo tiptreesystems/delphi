@@ -5,6 +5,7 @@ Parse a .log of repeating prompt/question/metrics blocks and output JSON grouped
 Usage:
   python parse_log_to_json.py --log path/to/file.log --out parsed.json
 """
+
 from __future__ import annotations
 
 import argparse
@@ -14,6 +15,7 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 import debugpy
+
 print("Waiting for debugger attach...")
 debugpy.listen(5679)
 debugpy.wait_for_client()
@@ -65,15 +67,17 @@ def maybe_float(x: str) -> float | None:
         return None
 
 
-def flush_record(groups: Dict[str, List[Dict[str, Any]]],
-                 gen_key: str,
-                 rec: Dict[str, Any]) -> None:
+def flush_record(
+    groups: Dict[str, List[Dict[str, Any]]], gen_key: str, rec: Dict[str, Any]
+) -> None:
     """Append record to groups[gen_key] if it has the minimum expected fields."""
     if not rec:
         return
     # Require at least question + fitness line OR superforecaster line
     has_q = bool(rec.get("question"))
-    has_any_metrics = any(k in rec for k in ("improvement", "variance", "smoothness", "fitness"))
+    has_any_metrics = any(
+        k in rec for k in ("improvement", "variance", "smoothness", "fitness")
+    )
     has_sf = all(k in rec for k in ("superforecaster_median", "pred_prob", "actual"))
 
     if has_q and (has_any_metrics or has_sf):
@@ -99,11 +103,14 @@ def parse_log(path: Path) -> Dict[str, Any]:
       }
     """
     out: Dict[str, Any] = {
-        "evolution": {"generations": {}, "summary": {
-            "total_generations": None,
-            "best_fitness": None,
-            "final_mutation_rate": None
-        }}
+        "evolution": {
+            "generations": {},
+            "summary": {
+                "total_generations": None,
+                "best_fitness": None,
+                "final_mutation_rate": None,
+            },
+        }
     }
 
     # --- parsing state ---
@@ -123,7 +130,9 @@ def parse_log(path: Path) -> Dict[str, Any]:
             key = current_section
             out.setdefault(key, [])
             # Reuse the same schema/cleaning as evolution records
-            cleaned = {k: current_record[k] for k in FIELDS_IN_RECORD if k in current_record}
+            cleaned = {
+                k: current_record[k] for k in FIELDS_IN_RECORD if k in current_record
+            }
             if cleaned:
                 out[key].append(cleaned)
         current_record = {}
@@ -157,11 +166,15 @@ def parse_log(path: Path) -> Dict[str, Any]:
                     continue
                 m = BEST_FITNESS_RE.search(line)
                 if m:
-                    out["evolution"]["summary"]["best_fitness"] = maybe_float(m.group(1))
+                    out["evolution"]["summary"]["best_fitness"] = maybe_float(
+                        m.group(1)
+                    )
                     continue
                 m = FINAL_MUT_RATE_RE.search(line)
                 if m:
-                    out["evolution"]["summary"]["final_mutation_rate"] = maybe_float(m.group(1))
+                    out["evolution"]["summary"]["final_mutation_rate"] = maybe_float(
+                        m.group(1)
+                    )
                     continue
                 # End summary block once we hit a blank line after header region
                 if not line.strip():
@@ -203,7 +216,11 @@ def parse_log(path: Path) -> Dict[str, Any]:
                                 current_record[k] = fv
                 continue
 
-            if ("improvement=" in line) or ("smoothness=" in line) or ("fitness=" in line):
+            if (
+                ("improvement=" in line)
+                or ("smoothness=" in line)
+                or ("fitness=" in line)
+            ):
                 for k, v in KV_RE.findall(line):
                     if k in ("improvement", "variance", "smoothness", "fitness"):
                         fv = maybe_float(v)
@@ -223,14 +240,19 @@ def parse_log(path: Path) -> Dict[str, Any]:
 
     # Sort evolution generations numerically
     gens = out["evolution"]["generations"]
+
     def gen_sort_key(k: str):
         try:
             return int(k)
         except ValueError:
             return float("inf")
-    out["evolution"]["generations"] = {k: gens[k] for k in sorted(gens.keys(), key=gen_sort_key)}
+
+    out["evolution"]["generations"] = {
+        k: gens[k] for k in sorted(gens.keys(), key=gen_sort_key)
+    }
 
     return out
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -238,7 +260,7 @@ def main():
     ap.add_argument("--indent", type=int, default=2, help="Indent for JSON output")
     args = ap.parse_args()
 
-    args.out = args.log.with_suffix('.json')
+    args.out = args.log.with_suffix(".json")
 
     data = parse_log(args.log)
 
@@ -247,16 +269,18 @@ def main():
         json.dump(data, f, indent=args.indent)
 
     # Nice summary line
-    evo_gen_counts = {g: len(v) for g, v in data.get("evolution", {}).get("generations", {}).items()}
+    evo_gen_counts = {
+        g: len(v) for g, v in data.get("evolution", {}).get("generations", {}).items()
+    }
     n_val = len(data.get("validation", []))
     n_eval = len(data.get("evaluation", []))
     print(
-        "Wrote", args.out,
+        "Wrote",
+        args.out,
         f"| evolution generations: {evo_gen_counts}",
         f"| validation records: {n_val}",
-        f"| evaluation records: {n_eval}"
+        f"| evaluation records: {n_eval}",
     )
-
 
 
 if __name__ == "__main__":

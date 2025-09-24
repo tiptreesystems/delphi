@@ -2,6 +2,7 @@ import pickle
 import json
 from pathlib import Path
 
+
 def convert_pkl_to_json(pkl_path: str, json_path: str) -> None:
     """
     Convert a pickle file containing a list of dicts into a JSON file.
@@ -32,7 +33,6 @@ def convert_pkl_to_json(pkl_path: str, json_path: str) -> None:
     # Save as JSON
     with open(json_path, "w") as f:
         json.dump(converted, f, indent=2)
-
 
 
 def batch_convert_pickles(input_dir: str, output_dir: str) -> None:
@@ -86,6 +86,7 @@ def crawl_and_convert_outputs_initial_forecasts(root: str | None = None) -> None
         print(f"Converting pickles in: {d} -> {out_dir}")
         batch_convert_pickles(str(d), str(out_dir))
 
+
 if __name__ == "__main__":
     import argparse
     import os
@@ -101,4 +102,6 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    crawl_and_convert_outputs_initial_forecasts(os.getcwd() if args.root is None else args.root)
+    crawl_and_convert_outputs_initial_forecasts(
+        os.getcwd() if args.root is None else args.root
+    )
