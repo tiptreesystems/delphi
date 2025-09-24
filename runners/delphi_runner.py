@@ -14,10 +14,14 @@ from utils.expert_utils import (
     finalize_delphi_log,
 )
 
+from utils.config_types import RootConfig
 
-def initialize_experts(llmcasts_by_sfid: Dict, config: dict, llm) -> Dict[str, Expert]:
+
+def initialize_experts(
+    llmcasts_by_sfid: Dict, config: RootConfig, llm
+) -> Dict[str, Expert]:
     """Initialize experts with their initial forecasts."""
-    model_config = config["model"].get("expert", config["model"])
+    model_config = config.model.expert or config.model
     experts = {
         sfid: Expert(llm, config=model_config) for sfid in llmcasts_by_sfid.keys()
     }
@@ -102,26 +106,27 @@ def initialize_experts(llmcasts_by_sfid: Dict, config: dict, llm) -> Dict[str, E
     return experts
 
 
-def select_experts(experts: Dict[str, Expert], config: dict) -> Dict[str, Expert]:
+def select_experts(
+    experts: Dict[str, Expert],
+    config: RootConfig,
+) -> Dict[str, Expert]:
     """Select experts based on configuration."""
-    max_experts = config["delphi"]["n_experts"]
+    max_experts = (config.delphi or {}).get("n_experts", len(experts))
 
     if len(experts) <= max_experts:
         return experts
 
-    if config["delphi"]["expert_selection"] == "random":
-        seed = config["experiment"]["seed"]
-        expert_selection_seed = config["delphi"].get("expert_selection_seed", seed)
-        expert_rng = random.Random(expert_selection_seed)
-        selected_sfs = expert_rng.sample(list(experts.keys()), max_experts)
-        return {sfid: experts[sfid] for sfid in selected_sfs}
+    seed = config.experiment.seed
+    expert_selection_seed = (config.delphi or {}).get("expert_selection_seed", seed)
+    expert_rng = random.Random(expert_selection_seed)
 
-    elif config["delphi"]["expert_selection"] == "identical":
+    selection = (config.delphi or {}).get("expert_selection", "random")
+    if selection == "random":
+        selected_sfids = expert_rng.sample(list(experts.keys()), max_experts)
+        return {sfid: experts[sfid] for sfid in selected_sfids}
+
+    elif selection == "identical":
         # Select a single expert to duplicate
-
-        seed = config["experiment"]["seed"]
-        expert_selection_seed = config["delphi"].get("expert_selection_seed", seed)
-        expert_rng = random.Random(expert_selection_seed)
         selected_sfid = expert_rng.choice(list(experts.keys()))
         original = experts[selected_sfid]
         # Include the original first, then create duplicates to reach max_experts total
@@ -151,25 +156,28 @@ async def _run_expert_updates(
 
 
 async def run_delphi_rounds(
-    question, experts: Dict[str, Expert], config: dict, example_pairs: Dict
+    question,
+    experts: Dict[str, Expert],
+    config: RootConfig,
+    example_pairs: Dict,
 ) -> Dict[str, Any]:
     """Run the Delphi rounds for a single question."""
     # Setup
-    mediator_config = config["model"].get("mediator", config["model"])
+    mediator_config = config.model.mediator or config.model
     mediator_llm = get_llm_from_config(config, role="mediator")
-    mediator = Mediator(mediator_llm, config=mediator_config)
+    mediator = Mediator(mediator_llm, config=mediator_config or {})
 
     # Initialize log
     delphi_log = create_delphi_log(
         question,
         config,
-        config["experiment"]["seed"],
-        config["data"]["resolution_date"],
+        config.experiment.seed,
+        config.data.resolution_date,
     )
     add_initial_round(delphi_log, experts)
 
     # Core Delphi loop
-    for round_idx in range(config["delphi"]["n_rounds"]):
+    for round_idx in range((config.delphi or {}).get("n_rounds", 0)):
         # Prepare mediator with previous round's responses
         mediator.start_round(round_idx=round_idx, question=question)
         expert_messages = {
@@ -180,7 +188,7 @@ async def run_delphi_rounds(
 
         # Generate feedback and get expert updates
         # optional feedback type handling (defaults to mediator behavior)
-        feedback_type = config["delphi"].get("feedback_type", "mediator")
+        feedback_type = (config.delphi or {}).get("feedback_type", "mediator")
 
         if feedback_type not in {"mediator", "all_to_all", "median"}:
             raise ValueError(f"Unknown delphi.feedback_type: {feedback_type}")

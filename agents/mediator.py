@@ -5,6 +5,8 @@ import dotenv
 from utils.prompt_loader import load_prompt, get_prompt_loader
 from utils.models import ClaudeLLM
 
+from utils.config_types import ModelRoleConfig
+
 dotenv.load_dotenv()
 
 # Load prompts
@@ -26,18 +28,18 @@ class Mediator:
     - crafts a single feedback memo
     """
 
-    def __init__(self, llm: BaseLLM, config: Optional[dict] = None):
+    def __init__(self, llm: BaseLLM, config: ModelRoleConfig = None):
         self.llm = llm
         self.config = config or {}
         self.conversation_manager = ConversationManager(llm)
         # Load system prompt from reference, not inline text
-        prompt_name = self.config.get("system_prompt_name", "mediator_system")
-        prompt_version = self.config.get("system_prompt_version", "v1")
+        prompt_name = self.config.system_prompt_name or "mediator_system"
+        prompt_version = self.config.system_prompt_version or "v1"
         print(f"Loading system prompt: {prompt_name} {prompt_version}")
         self.system_prompt = load_prompt(prompt_name, prompt_version)
         print(f"  Loaded prompt first 100 chars: {self.system_prompt[:100]}...")
-        self.max_tokens = self.config.get("feedback_max_tokens", 800)
-        self.temperature = self.config.get("feedback_temperature", 0.2)
+        self.max_tokens = self.config.feedback_max_tokens or 800
+        self.temperature = self.config.feedback_temperature or 0.2
 
         # Local store of messages (expert_id -> text)
         self.expert_messages: Dict[str, str] = {}

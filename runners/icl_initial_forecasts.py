@@ -3,7 +3,6 @@ import asyncio
 import copy
 import json
 import os
-import pickle
 import random
 from dataclasses import dataclass
 from enum import Enum
@@ -18,9 +17,11 @@ from dataset.dataloader import Forecast, ForecastDataLoader, Question
 from agents.expert import Expert
 from utils.llm_config import get_llm_from_config
 from utils.sampling import sample_questions_by_topic
-from utils.utils import load_experiment_config
+from utils.config_types import load_typed_experiment_config
 
-from utils.convert_pickles_to_json import convert_pkl_to_json, batch_convert_pickles
+from utils.convert_pickles_to_json import convert_pkl_to_json
+
+from utils.config_types import RootConfig
 
 # import debugpy
 # if not debugpy.is_client_connected():
@@ -30,7 +31,7 @@ from utils.convert_pickles_to_json import convert_pkl_to_json, batch_convert_pic
 
 
 from utils.sampling import (
-    TRAIN_QUESTION_IDS,
+    # TRAIN_QUESTION_IDS,
     EVALUATION_QUESTION_IDS,
     EVOLUTION_EVALUATION_QUESTION_IDS,
 )
@@ -92,7 +93,7 @@ def build_specs_aggregated(
     date: str,
     min_examples: int = 1,
     max_examples: Optional[int] = None,
-    config: Optional[Dict[str, Any]] = None,
+    config: Optional[RootConfig] = None,
 ) -> List[TaskSpec]:
     """One TaskSpec per question aggregating examples across SFs.
 
@@ -103,17 +104,16 @@ def build_specs_aggregated(
 
     If parity=false: aggregate across all SFs, optionally capped by max_examples.
     """
-    from typing import Dict as _Dict, Any as _Any
 
     specs: List[TaskSpec] = []
 
     if config is None:
-        config = {}
-    init_cfg = config.get("initial_forecasts") or {}
-    delphi_cfg = config.get("delphi") or {}
-    exp_cfg = config.get("experiment") or {}
+        config = RootConfig()
+    init_cfg = config.initial_forecasts or {}
+    delphi_cfg = config.delphi or {}
+    exp_cfg = config.experiment or {}
 
-    parity = bool(init_cfg.get("parity", True))
+    parity = bool(config.initial_forecasts.get("parity", True))
     parity_source = (
         (init_cfg.get("parity_source") or "from_initial_forecasts")
         if parity
@@ -132,10 +132,6 @@ def build_specs_aggregated(
         sampled_questions, loader, date, min_examples=1, max_examples=9999
     )
 
-    import random as _random
-    import os as _os
-    import json as _json
-
     for q in sampled_questions:
         sf_map = all_examples.get(q.id, {})  # {sf_id: [(Q,F), ...]}
         if not sf_map:
@@ -152,15 +148,15 @@ def build_specs_aggregated(
                 ) or exp_cfg.get("output_dir")
                 seed_val = exp_cfg.get("seed", None)
                 if seed_val is not None:
-                    delphi_out_dir = _os.path.join(
+                    delphi_out_dir = os.path.join(
                         delphi_out_dir, f"seed_{int(seed_val)}"
                     )
-                if delphi_out_dir and _os.path.isdir(delphi_out_dir):
+                if delphi_out_dir and os.path.isdir(delphi_out_dir):
                     fname = f"delphi_eval_{q.id}_{date}.json"
-                    fpath = _os.path.join(delphi_out_dir, fname)
+                    fpath = os.path.join(delphi_out_dir, fname)
                     try:
                         with open(fpath, "r", encoding="utf-8") as f:
-                            log = _json.load(f)
+                            log = json.load(f)
                         rounds = log.get("rounds") or []
                         if rounds:
                             experts_map = rounds[0].get("experts") or {}
@@ -174,7 +170,7 @@ def build_specs_aggregated(
                         for sf_id, pairs in sf_map.items()
                         if len(pairs) >= min_examples
                     ]
-                    rng = _random.Random(parity_seed)
+                    rng = random.Random(parity_seed)
                     k = min(parity_n_experts, len(candidate_sf_ids))
                     selected_sf_ids = rng.sample(candidate_sf_ids, k)
 
@@ -187,7 +183,7 @@ def build_specs_aggregated(
                 ]
                 if not candidate_sf_ids:
                     continue
-                rng = _random.Random(parity_seed)
+                rng = random.Random(parity_seed)
                 k = min(parity_n_experts, len(candidate_sf_ids))
                 selected_sf_ids = rng.sample(candidate_sf_ids, k)
 
@@ -303,7 +299,7 @@ async def _run_specs(
     retries: int = 5,
     base_backoff_s: int = 10,
     n_samples: int = 1,
-    config: dict = None,
+    config: RootConfig = None,
 ) -> List[Dict[str, Any]]:
     """
     Execute TaskSpecs and return normalized records:
@@ -326,13 +322,7 @@ async def _run_specs(
             # Use provided llm or create one from config
             expert_llm = get_llm_from_config(config, role="expert")
             # Get expert config for other settings (temperature, etc.)
-            if config:
-                expert_config = config.get("model", {}).get(
-                    "expert", config.get("model", {})
-                )
-            else:
-                expert_config = {}
-            expert = Expert(expert_llm, user_profile=None, config=expert_config)
+            expert = Expert(expert_llm, user_profile=None, config=config.model.expert)
             q_instance = copy.copy(spec.question)
             q_instance.resolution_date = selected_resolution_date
             q_instance.question = q_instance.question.replace(
@@ -354,7 +344,7 @@ async def _run_specs(
                 for attempt in range(1, retries + 1):
                     try:
                         return await _one_try()
-                    except openai.RateLimitError as e:
+                    except openai.RateLimitError:
                         if attempt < retries:
                             sleep_t = base_backoff_s * (2 ** (attempt - 1))
                             print(
@@ -414,7 +404,7 @@ async def run_all_forecasts_with_examples(
     retries: int = 5,
     base_backoff_s: int = 10,
     n_samples: int = 1,
-    config: dict = None,
+    config: RootConfig,
     llm=None,
 ):
     """
@@ -424,14 +414,13 @@ async def run_all_forecasts_with_examples(
     if loader is None:
         loader = ForecastDataLoader()
     if config is None:
-        config = {}
+        config = RootConfig()
 
     # Get dates from config if not provided
-    data_config = config.get("data", {})
     if selected_resolution_date is None:
-        selected_resolution_date = data_config.get("resolution_date", "2025-07-21")
+        selected_resolution_date = config.data.resolution_date or "2025-07-21"
     if forecast_due_date is None:
-        forecast_due_date = data_config.get("forecast_due_date", "2024-07-21")
+        forecast_due_date = config.data.forecast_due_date or "2024-07-21"
 
     specs = build_specs_with_examples(
         sampled_questions,
@@ -466,20 +455,20 @@ async def run_all_forecasts_aggregated_examples(
     retries: int = 5,
     base_backoff_s: int = 10,
     n_samples: int = 1,
-    config: dict = None,
+    config: RootConfig = None,
     llm=None,
 ):
     """PRODUCES: one record per question with aggregated examples across SFs."""
     if loader is None:
         loader = ForecastDataLoader()
     if config is None:
-        config = {}
+        config = RootConfig()
 
-    data_config = config.get("data", {})
+    data_config = config.data
     if selected_resolution_date is None:
-        selected_resolution_date = data_config.get("resolution_date", "2025-07-21")
+        selected_resolution_date = data_config.resolution_date or "2025-07-21"
     if forecast_due_date is None:
-        forecast_due_date = data_config.get("forecast_due_date", "2024-07-21")
+        forecast_due_date = data_config.forecast_due_date or "2024-07-21"
 
     specs = build_specs_aggregated(
         sampled_questions,
@@ -516,7 +505,7 @@ async def run_all_forecasts_shared_examples(
     base_backoff_s: int = 10,
     n_samples: int = 1,
     n_experts: Optional[int] = None,
-    config: dict = None,
+    config: RootConfig = None,
     llm=None,
 ):
     """
@@ -526,18 +515,18 @@ async def run_all_forecasts_shared_examples(
     if loader is None:
         loader = ForecastDataLoader()
     if config is None:
-        config = {}
+        config = RootConfig()
 
-    data_config = config.get("data", {})
+    data_config = config.data
     if selected_resolution_date is None:
-        selected_resolution_date = data_config.get("resolution_date", "2025-07-21")
+        selected_resolution_date = data_config.resolution_date or "2025-07-21"
     if forecast_due_date is None:
-        forecast_due_date = data_config.get("forecast_due_date", "2024-07-21")
+        forecast_due_date = data_config.forecast_due_date or "2024-07-21"
 
     # Determine number of experts from config if not provided
     if n_experts is None:
         try:
-            n_experts = int((config.get("delphi") or {}).get("n_experts", 1))
+            n_experts = int((config.delphi or {}).get("n_experts", 1))
         except Exception:
             n_experts = 1
 
@@ -681,7 +670,7 @@ def generate_forecasts_for_questions(
 
 def run_initial_forecast_experiment(config_path=None):
     """Main runner function for initial forecast generation and analysis."""
-    config = load_experiment_config(config_path)
+    config = load_typed_experiment_config(config_path)
     print(f"Loaded configuration from: {config_path}")
 
     # Get configuration values
@@ -766,7 +755,7 @@ def run_initial_forecast_experiment(config_path=None):
         forecast_due_date,
     )
 
-    print(f"\nAnalysis complete:")
+    print("\nAnalysis complete:")
     print(f"  - Analyzed {len(q_aggregate)} questions")
     print(f"  - Found data for {len(sf_aggregate)} superforecasters")
 

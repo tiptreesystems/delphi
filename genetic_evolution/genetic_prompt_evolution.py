@@ -76,14 +76,12 @@ class GeneticEvolutionPipeline:
                         yield ""
 
             dummy_llm = DummyLLM(system_prompt="")
-            self.expert = Expert(
-                llm=dummy_llm, config=self.config["model"].get("expert", {})
-            )
+            self.expert = Expert(llm=dummy_llm, config=self.config.model.expert or {})
             optimizer_llm = dummy_llm
         else:
             self.expert = Expert(
                 llm=get_llm_from_config(self.config, "expert"),
-                config=self.config["model"].get("expert", {}),
+                config=self.config.model.expert or {},
             )
             optimizer_llm = get_llm_from_config(self.config, "learner")
 

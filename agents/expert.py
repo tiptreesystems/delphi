@@ -31,20 +31,17 @@ class Expert:
         seed: Optional[int] = None,
     ) -> float:
         # Render prompt via shared formatter
-        prompt_version = self.config.get("prompt_version", "v1")
+        prompt_version = self._cfg_get("prompt_version", "v1")
         prompt = build_base_forecast_prompt(
             question,
             prompt_version=prompt_version,
             conditioning_forecast=conditioning_forecast,
         )
-        temperature = self.config.get("temperature", 0.3)
+        temperature = self._cfg_get("temperature", 0.3)
         self.conversation_manager.messages.clear()
 
         # Pass seed if provided for deterministic results
-        kwargs = {
-            "max_tokens": self.config.get("max_tokens", 500),
-            "temperature": temperature,
-        }
+        kwargs = {"max_tokens": self._cfg_get("max_tokens", 500), "temperature": temperature}
         if seed is not None:
             kwargs["seed"] = seed
 
@@ -69,11 +66,11 @@ class Expert:
         # Build prompt using shared formatter (preserves existing structure)
         prompt = build_in_context_forecast_prompt(question, examples)
 
-        temperature = self.config.get("temperature", 0.3)
+        temperature = self._cfg_get("temperature", 0.3)
         self.conversation_manager.messages.clear()
         response = await self.conversation_manager.generate_response(
             prompt,
-            max_tokens=self.config.get("max_tokens", 500),
+            max_tokens=self._cfg_get("max_tokens", 500),
             temperature=temperature,
         )
         response = response.strip()
@@ -94,8 +91,8 @@ class Expert:
         response = await self.conversation_manager.generate_response(
             input_message,
             input_message_type="user",
-            max_tokens=self.config.get("max_tokens", 800),
-            temperature=self.config.get("temperature", 0.3),
+            max_tokens=self._cfg_get("max_tokens", 800),
+            temperature=self._cfg_get("temperature", 0.3),
         )
         response = response.strip()
         prob = await extract_final_probability_with_retry(
@@ -142,3 +139,10 @@ class Expert:
             setattr(new.conversation_manager, attr, copy.deepcopy(value))
 
         return new
+
+    def _cfg_get(self, key: str, default):
+        c = self.config
+        try:
+            return c.get(key, default)  # dict-like
+        except AttributeError:
+            return getattr(c, key, default)

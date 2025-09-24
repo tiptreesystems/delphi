@@ -5,7 +5,9 @@ from typing import List, Tuple
 from collections import defaultdict
 
 import numpy as np
-import yaml
+import debugpy
+
+from utils.config_types import RootConfig
 
 
 def make_json_serializable(obj):
@@ -43,43 +45,39 @@ def make_json_serializable(obj):
         return str(obj)
 
 
-def load_experiment_config(
-    config_path: str = "./configs/delphi_experiment.yml",
-) -> dict:
-    """Load experiment configuration from YAML file."""
-    with open(config_path, "r") as f:
-        return yaml.safe_load(f)
-
-
-def setup_environment(config: dict):
+def setup_environment(config: RootConfig):
     """Setup environment based on configuration."""
     # Set random seeds
-    seed = config["experiment"]["seed"]
+    seed = config.experiment.seed
     random.seed(seed)
     np.random.seed(seed)
     os.environ["PYTHONHASHSEED"] = str(seed)
 
     # Setup debugging if enabled
-    # if config.get('debug', {}).get('enabled', False):
+    # if config.debug.enabled:
     #     # check if "williaar" is in the file path for this file
     #     if "williaar" in __file__:
     #         import debugpy
-    #         print(f"Waiting for debugger attach on port {config['debug']['debugpy_port']}...")
-    #         debugpy.listen(config['debug']['debugpy_port'])
+    #         print(f"Waiting for debugger attach on port {config.debug.port}...")
+    #         debugpy.listen(config.debug.port)
     #         debugpy.wait_for_client()
     #         print("Debugger attached.")
 
-    if config.get("debug", {}).get("breakpoint_on_start", False):
+    if config.debug.enabled:
+        if not debugpy.is_client_connected():
+            print("Waiting for debugger attach...")
+            debugpy.listen(config.debug.port)
+            debugpy.wait_for_client()
+            print("Debugger attached.")
+
+    if config.debug.breakpoint_on_start:
         breakpoint()
 
     # Setup API keys
-    api_config = config.get("api", {})
-    if "openai" in api_config:
-        openai_key = os.getenv(api_config["openai"]["api_key_env"])
-        os.environ["OPENAI_API_KEY"] = openai_key
-    if "groq" in api_config:
-        groq_key = os.getenv(api_config["groq"]["api_key_env"])
-        os.environ["GROQ_API_KEY"] = groq_key
+    if config.api.openai:
+        os.environ["OPENAI_API_KEY"] = os.getenv(config.api.openai.api_key_env)
+    if config.api.groq:
+        os.environ["GROQ_API_KEY"] = os.getenv(config.api.groq.api_key_env)
 
 
 def split_train_valid(

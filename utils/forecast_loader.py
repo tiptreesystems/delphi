@@ -18,6 +18,7 @@ from runners.icl_initial_forecasts import (
     run_all_forecasts_shared_examples,
 )
 
+from utils.config_types import RootConfig
 
 from utils.convert_pickles_to_json import convert_pkl_to_json
 
@@ -25,7 +26,7 @@ from utils.convert_pickles_to_json import convert_pkl_to_json
 def generate_initial_forecasts_for_questions(
     questions,
     initial_forecasts_path,
-    config,
+    config: RootConfig,
     selected_resolution_date,
     with_examples=True,
 ):
@@ -36,7 +37,7 @@ def generate_initial_forecasts_for_questions(
     os.makedirs(initial_forecasts_path, exist_ok=True)
     forecast_type = "with_examples" if with_examples else "no_examples"
     initial_config = copy.deepcopy(config)
-    initial_config["experiment"]["seed"] = 42
+    initial_config.experiment.seed = 42
 
     print(
         f"🔧 Generating initial forecasts for {len(questions)} questions using fixed seed 42 ({forecast_type})..."
@@ -102,59 +103,6 @@ def generate_initial_forecasts_for_questions(
             continue
 
     print(f"✅ Initial forecasts generation completed in {initial_forecasts_path}")
-
-
-# def find_matching_initial_forecasts_dir(current_config: dict) -> str:
-#     """
-#     Find an initial forecasts directory that matches the current configuration
-#     (ignoring seed differences). Returns the path to the initial forecasts directory.
-#     """
-#     results_path = Path("results")
-#     if not results_path.exists():
-#         return None
-
-#     target_model = current_config.get('model', {}).get('name', '')
-#     target_n_experts = current_config.get('delphi', {}).get('n_experts', 0)
-
-#     configs_dir = Path("configs")
-#     config_files = list(configs_dir.glob("*.yml"))
-
-#     sweep_dirs = sorted([d for d in results_path.iterdir() if d.is_dir()],
-#                        key=lambda x: x.name, reverse=True)
-#     for sweep_dir in sweep_dirs:
-#         config_files = list(sweep_dir.glob("*.yml"))
-
-#         for config_file in config_files:
-#             with open(config_file, 'r') as f:
-#                 other_config = yaml.safe_load(f)
-#                 # have to add name here for backward compatibility
-#                 if 'mediator' in other_config['model'] and 'provider' in other_config['model']['mediator']:
-#                     print('Adding missing model name to config for backward compatibility')
-#                     other_config['model']['provider'] = other_config['model']['mediator']['provider']
-#                     other_config['model']['name'] = other_config['model']['mediator'].get('model', '')
-#                 elif 'expert' in other_config['model'] and 'provider' in other_config['model']['expert']:
-#                     print('Adding missing model name to config for backward compatibility')
-#                     other_config['model']['provider'] = other_config['model']['expert']['provider']
-#                     other_config['model']['name'] = other_config['model']['expert'].get('model', '')
-
-
-#             other_model = other_config.get('model', {}).get('name', '')
-#             other_n_experts = other_config.get('delphi', {}).get('n_experts', 0)
-
-#             if (other_model == target_model and
-#                 other_n_experts == target_n_experts):
-
-#                 config_base = config_file.stem.replace('config_', '')
-#                 possible_initial_dir = sweep_dir / f"results_{config_base}_initial"
-#                 if possible_initial_dir.exists():
-#                     pkl_files = list(possible_initial_dir.glob("*.pkl"))
-#                     if pkl_files:
-#                         print(f"🔍 Found matching initial forecasts in: {possible_initial_dir}")
-#                         print(f"    (matched config: {config_file.name})")
-#                         return str(possible_initial_dir)
-
-#     print("❌ No matching initial forecasts directory found")
-#     return None
 
 
 def load_pickled_forecasts(
@@ -364,14 +312,12 @@ def load_forecast_jsons(
     return loaded_fcasts_with_examples, loaded_fcasts_no_examples
 
 
-async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
+async def load_forecasts(config: RootConfig, loader: ForecastDataLoader, llm=None):
     """Load initial forecasts based on configuration."""
-    data_config = config["data"]
-    experiment_config = config["experiment"]
 
-    selected_resolution_date = data_config["resolution_date"]
-    base_initial_dir = experiment_config["initial_forecasts_dir"]
-    seed = experiment_config.get("seed", None)
+    selected_resolution_date = config.data.resolution_date
+    base_initial_dir = config.experiment.initial_forecasts_dir
+    seed = config.experiment.seed or None
     seeded_initial_dir = (
         os.path.join(base_initial_dir, f"seed_{seed}")
         if seed is not None
@@ -380,22 +326,17 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
     initial_forecasts_path = seeded_initial_dir
     os.makedirs(initial_forecasts_path, exist_ok=True)
 
-    # Determine if we're reusing existing forecasts
-    reuse_config = experiment_config.get("reuse_initial_forecasts", {})
     # Determine whether to use with_examples or no_examples forecasts
-    # Prefer explicit flag under experiment.reuse_initial_forecasts, else look under initial_forecasts
+    rif = config.experiment.reuse_initial_forecasts
     with_examples_flag = (
-        reuse_config.get("with_examples")
-        if isinstance(reuse_config, dict) and "with_examples" in reuse_config
-        else (config.get("initial_forecasts", {}) or {}).get("with_examples")
+        rif.with_examples
+        if rif.with_examples is not None
+        else (config.initial_forecasts or {}).get("with_examples")
     )
     if with_examples_flag is None:
         with_examples_flag = True  # default to with_examples for backward compatibility
     # Examples mode (only relevant when with_examples=True)
-    initial_cfg = (config or {}).get("initial_forecasts", {})
-    examples_mode = (
-        (initial_cfg.get("examples_mode") or "per_sf") if with_examples_flag else "none"
-    )
+    examples_mode = (config.initial_forecasts or {}).get("examples_mode", "per_sf") if with_examples_flag else "none"
     if examples_mode not in ["per_sf", "aggregated", "shared", "none"]:
         examples_mode = "per_sf"
     forecast_type = "with_examples" if with_examples_flag else "no_examples"
@@ -415,7 +356,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
     sampled_questions = sample_questions(config, questions_with_topic, loader)
 
     # Generate initial forecasts if not reusing
-    if reuse_config.get("enabled", False):
+    if config.experiment.reuse_initial_forecasts.enabled:
         print(
             f"📁 Reusing initial forecasts [{forecast_type}] (seeded dir: {initial_forecasts_path})"
         )
@@ -445,7 +386,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
             print(
                 f"Generating missing initial forecasts [{forecast_type}/{examples_mode}] for question {q.id} at {json_path_seeded}..."
             )
-            init_cfg = (config or {}).get("initial_forecasts", {})
+            init_cfg = config.initial_forecasts or {}
             if with_examples_flag and examples_mode == "aggregated":
                 results = await run_all_forecasts_aggregated_examples(
                     [q],
@@ -473,7 +414,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
                     retries=init_cfg.get("retries", 5),
                     base_backoff_s=init_cfg.get("base_backoff_s", 10),
                     n_samples=init_cfg.get("n_samples", 1),
-                    n_experts=(config.get("delphi") or {}).get("n_experts", 1),
+                    n_experts=(config.delphi or {}).get("n_experts", 1),
                 )
             elif with_examples_flag:
                 results = await run_all_forecasts_with_examples(
@@ -512,7 +453,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
         )
         print(" WARNING: This will overwrite any existing forecasts in this directory!")
         os.makedirs(initial_forecasts_path, exist_ok=True)
-        init_cfg = (config or {}).get("initial_forecasts", {})
+        init_cfg = config.initial_forecasts or {}
         for q in sampled_questions:
             json_path = f"{initial_forecasts_path}/{fname_prefix}_{selected_resolution_date}_{q.id}.json"
             print(
@@ -545,7 +486,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
                     retries=init_cfg.get("retries", 5),
                     base_backoff_s=init_cfg.get("base_backoff_s", 10),
                     n_samples=init_cfg.get("n_samples", 1),
-                    n_experts=(config.get("delphi") or {}).get("n_experts", 1),
+                    n_experts=(config.delphi or {}).get("n_experts", 1),
                 )
             elif with_examples_flag:
                 results = await run_all_forecasts_with_examples(
@@ -649,7 +590,7 @@ async def load_forecasts(config: dict, loader: ForecastDataLoader, llm=None):
                     example_pairs_by_qid_sfid[qid][sfid].append(example_pairs)
     else:
         # Baseline: create multiple synthetic experts per question from independent samples
-        desired_n_experts = int((config.get("delphi") or {}).get("n_experts", 1))
+        desired_n_experts = (config.delphi or {}).get("n_experts", 1)
         for qid, payloads in loaded_fcasts_no_examples.items():
             for p in payloads:
                 full_conv = p.get("full_conversation", []) or []

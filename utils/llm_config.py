@@ -2,70 +2,40 @@
 Shared LLM configuration utilities to avoid circular imports.
 """
 
+from typing import Optional
 from utils.models import LLMProvider, LLMModel, LLMFactory
 from utils.prompt_loader import load_prompt
+from utils.config_types import RootConfig
 
 
-def get_llm_from_config(config: dict, role: str = None):
+def get_llm_from_config(config: RootConfig, role: str):
     """
-    Create LLM instance from configuration.
-
-    Args:
-        config: Configuration dictionary
-        role: Optional role ('expert', 'mediator', or 'learner') to get role-specific config
+    Create LLM instance from typed configuration for a specific role.
     """
-    model_config = config["model"].copy()
+    if not isinstance(config, RootConfig):
+        raise TypeError("get_llm_from_config expects a typed RootConfig")
 
-    # If a role is specified, use role-specific config (now required)
-    if role:
-        if role not in model_config:
-            raise ValueError(
-                f"Role '{role}' not found in model configuration. Must specify configuration for each component."
-            )
-        role_config = model_config[role]
-        # Role config must have provider and model
-        if "provider" not in role_config:
-            raise ValueError(f"'provider' is required in model.{role} configuration")
-        if "model" not in role_config and "name" not in role_config:
-            raise ValueError(
-                f"'model' or 'name' is required in model.{role} configuration"
-            )
+    # Extract role-specific model settings
+    role_cfg = getattr(config.model, role, None)
+    if role_cfg is None:
+        raise ValueError(f"Role '{role}' not configured under model.*")
 
-        model_config["provider"] = role_config["provider"]
-        model_config["name"] = role_config.get("model", role_config.get("name"))
+    if not role_cfg.provider:
+        raise ValueError(f"'provider' is required in model.{role} configuration")
+    name: Optional[str] = role_cfg.model or getattr(role_cfg, "name", None)
+    if not name:
+        raise ValueError(f"'model' (or 'name') is required in model.{role}")
 
-        # Handle system prompt references
-        if "system_prompt" in role_config:
-            # For backward compatibility, warn if inline prompt is used
-            import warnings
-
-            warnings.warn(
-                f"Inline system_prompt in config for {role} is deprecated. "
-                "Use 'system_prompt_name' and 'system_prompt_version' instead.",
-                DeprecationWarning,
-            )
-            model_config["system_prompt"] = role_config["system_prompt"]
-        elif "system_prompt_name" in role_config:
-            # Load prompt from reference
-            prompt_name = role_config["system_prompt_name"]
-            prompt_version = role_config.get("system_prompt_version", "v1")
-            model_config["system_prompt"] = load_prompt(prompt_name, prompt_version)
-    else:
-        # No role specified - this should not be used anymore
-        raise ValueError(
-            "Role must be specified when getting LLM from config. Use 'expert', 'mediator', or 'learner'."
-        )
-
-    # Map string provider to enum
+    # Provider mapping
     provider_map = {
         "openai": LLMProvider.OPENAI,
         "claude": LLMProvider.CLAUDE,
         "anthropic": LLMProvider.CLAUDE,
         "groq": LLMProvider.GROQ,
     }
-    provider = provider_map.get(model_config["provider"].lower())
+    provider = provider_map.get(role_cfg.provider.lower())
 
-    # Map model name to enum (you may need to extend this)
+    # Model mapping to enum if known; else keep string
     model_map = {
         "gpt-4o-2024-05-13": LLMModel.GPT_4O_2024_05_13,
         "gpt-4o": LLMModel.GPT_4O,
@@ -82,8 +52,12 @@ def get_llm_from_config(config: dict, role: str = None):
         "o1-2024-12-17": LLMModel.O1_2024_12_17,
         "claude-3-7-sonnet-20250219": LLMModel.CLAUDE_3_7_SONNET,
     }
-    model = model_map.get(model_config["name"].lower())
+    model = model_map.get(name.lower(), name)
 
-    system_prompt = model_config.get("system_prompt", "")
+    # System prompt resolution
+    system_prompt = role_cfg.system_prompt or ""
+    if not system_prompt and role_cfg.system_prompt_name:
+        prompt_version = role_cfg.system_prompt_version or "v1"
+        system_prompt = load_prompt(role_cfg.system_prompt_name, prompt_version)
 
     return LLMFactory.create_llm(provider, model, system_prompt=system_prompt)

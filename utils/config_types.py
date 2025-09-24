@@ -47,7 +47,17 @@ class ExperimentConfig:
     @staticmethod
     def from_dict(d: Optional[Dict[str, Any]]) -> "ExperimentConfig":
         d = d or {}
-        extras = {k: v for k, v in d.items() if k not in {"seed", "output_dir", "initial_forecasts_dir", "reuse_initial_forecasts"}}
+        extras = {
+            k: v
+            for k, v in d.items()
+            if k
+            not in {
+                "seed",
+                "output_dir",
+                "initial_forecasts_dir",
+                "reuse_initial_forecasts",
+            }
+        }
         return ExperimentConfig(
             seed=int(d.get("seed", 42)),
             output_dir=d.get("output_dir") or d.get("output_path"),
@@ -148,7 +158,11 @@ class DataConfig:
     @staticmethod
     def from_dict(d: Optional[Dict[str, Any]]) -> "DataConfig":
         d = d or {}
-        extras = {k: v for k, v in d.items() if k not in {"resolution_date", "sampling", "filters"}}
+        extras = {
+            k: v
+            for k, v in d.items()
+            if k not in {"resolution_date", "sampling", "filters"}
+        }
         return DataConfig(
             resolution_date=str(d.get("resolution_date", "")),
             forecast_due_date=d.get("forecast_due_date"),
@@ -167,7 +181,9 @@ class ProcessingConfig:
     def from_dict(d: Optional[Dict[str, Any]]) -> "ProcessingConfig":
         d = d or {}
         extras = {k: v for k, v in d.items() if k != "skip_existing"}
-        return ProcessingConfig(skip_existing=bool(d.get("skip_existing", True)), extras=extras)
+        return ProcessingConfig(
+            skip_existing=bool(d.get("skip_existing", True)), extras=extras
+        )
 
 
 @dataclass
@@ -179,7 +195,11 @@ class OutputSaveConfig:
     @staticmethod
     def from_dict(d: Optional[Dict[str, Any]]) -> "OutputSaveConfig":
         d = d or {}
-        extras = {k: v for k, v in d.items() if k not in {"conversation_histories", "example_pairs"}}
+        extras = {
+            k: v
+            for k, v in d.items()
+            if k not in {"conversation_histories", "example_pairs"}
+        }
         return OutputSaveConfig(
             conversation_histories=bool(d.get("conversation_histories", True)),
             example_pairs=bool(d.get("example_pairs", True)),
@@ -198,7 +218,11 @@ class OutputConfig:
         d = d or {}
         extras = {k: v for k, v in d.items() if k not in {"file_pattern", "save"}}
         return OutputConfig(
-            file_pattern=str(d.get("file_pattern", "delphi_eval_{question_id}_{resolution_date}.json")),
+            file_pattern=str(
+                d.get(
+                    "file_pattern", "delphi_eval_{question_id}_{resolution_date}.json"
+                )
+            ),
             save=OutputSaveConfig.from_dict(d.get("save")),
             extras=extras,
         )
@@ -227,10 +251,39 @@ class ApiConfig:
     def from_dict(d: Optional[Dict[str, Any]]) -> "ApiConfig":
         d = d or {}
         return ApiConfig(
-            openai=ApiProviderConfig.from_dict(d.get("openai")) if d.get("openai") else None,
+            openai=ApiProviderConfig.from_dict(d.get("openai"))
+            if d.get("openai")
+            else None,
             groq=ApiProviderConfig.from_dict(d.get("groq")) if d.get("groq") else None,
-            anthropic=ApiProviderConfig.from_dict(d.get("anthropic")) if d.get("anthropic") else None,
-            extras={k: v for k, v in d.items() if k not in {"openai", "groq", "anthropic"}},
+            anthropic=ApiProviderConfig.from_dict(d.get("anthropic"))
+            if d.get("anthropic")
+            else None,
+            extras={
+                k: v for k, v in d.items() if k not in {"openai", "groq", "anthropic"}
+            },
+        )
+
+
+@dataclass
+class DebugConfig:
+    enabled: bool = False
+    breakpoint_on_start: bool = False
+    port: int = 5679
+    extras: Dict[str, Any] = field(default_factory=dict)
+
+    @staticmethod
+    def from_dict(d: Optional[Dict[str, Any]]) -> "DebugConfig":
+        d = d or {}
+        extras = {
+            k: v
+            for k, v in d.items()
+            if k not in {"enabled", "breakpoint_on_start", "port"}
+        }
+        return DebugConfig(
+            enabled=bool(d.get("enabled", False)),
+            breakpoint_on_start=bool(d.get("breakpoint_on_start", False)),
+            port=int(d.get("port", 5679)),
+            extras=extras,
         )
 
 
@@ -244,7 +297,7 @@ class RootConfig:
     api: ApiConfig = field(default_factory=ApiConfig)
     output: OutputConfig = field(default_factory=OutputConfig)
     initial_forecasts: Dict[str, Any] = field(default_factory=dict)
-    debug: Dict[str, Any] = field(default_factory=dict)
+    debug: DebugConfig = field(default_factory=DebugConfig)
     extras: Dict[str, Any] = field(default_factory=dict)
 
     @staticmethod
@@ -270,7 +323,7 @@ class RootConfig:
             api=ApiConfig.from_dict(d.get("api")),
             output=OutputConfig.from_dict(d.get("output")),
             initial_forecasts=d.get("initial_forecasts") or {},
-            debug=d.get("debug") or {},
+            debug=DebugConfig.from_dict(d.get("debug")),
             extras={k: v for k, v in d.items() if k not in known},
         )
 
@@ -357,11 +410,17 @@ def to_legacy_dict(cfg: RootConfig) -> Dict[str, Any]:
     out["delphi"] = cfg.delphi or {}
     out["data"] = {
         "resolution_date": cfg.data.resolution_date,
-        "sampling": {"method": cfg.data.sampling.method, **(cfg.data.sampling.extras or {})},
+        "sampling": {
+            "method": cfg.data.sampling.method,
+            **(cfg.data.sampling.extras or {}),
+        },
         "filters": cfg.data.filters or {},
         **(cfg.data.extras or {}),
     }
-    out["processing"] = {"skip_existing": cfg.processing.skip_existing, **(cfg.processing.extras or {})}
+    out["processing"] = {
+        "skip_existing": cfg.processing.skip_existing,
+        **(cfg.processing.extras or {}),
+    }
     out["api"] = _api_to_dict(cfg.api)
     out["output"] = {
         "file_pattern": cfg.output.file_pattern,

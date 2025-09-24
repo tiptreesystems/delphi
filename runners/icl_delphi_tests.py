@@ -11,7 +11,8 @@ from runners.delphi_runner import initialize_experts, run_delphi_rounds, select_
 from utils.forecast_loader import load_forecasts
 from utils.logs import save_delphi_log
 from utils.llm_config import get_llm_from_config
-from utils.utils import load_experiment_config, setup_environment
+from utils.config_types import RootConfig, load_typed_experiment_config
+from utils.utils import setup_environment
 from utils.sampling import (
     EVALUATION_QUESTION_IDS,
     EVOLUTION_EVALUATION_QUESTION_IDS,
@@ -20,18 +21,11 @@ import asyncio
 import yaml
 import tempfile
 
-# import debugpy
-# if not debugpy.is_client_connected():
-#     print("Waiting for debugger attach...")
-#     debugpy.listen(5679)
-#     debugpy.wait_for_client()
-#     print("Debugger attached.")
 
 load_dotenv()
 
 
-
-async def run_delphi_experiment(config: dict):
+async def run_delphi_experiment(config: RootConfig):
     """Run the Delphi experiment based on configuration."""
     # Setup environment
     setup_environment(config)
@@ -47,15 +41,19 @@ async def run_delphi_experiment(config: dict):
 
     # Get configuration values
     # Seed-scoped output directory: <base>/seed_<seed>
-    output_dir = config["experiment"]["output_dir"]
+    output_dir = config.experiment.output_dir
+    if not output_dir:
+        raise ValueError("experiment.output_dir must be specified in the config")
     try:
-        seed_val = config.get("experiment", {}).get("seed", None)
+        seed_val = config.experiment.seed
         if seed_val is not None:
             output_dir = os.path.join(output_dir, f"seed_{int(seed_val)}")
 
     except Exception:
         pass
-    selected_resolution_date = config["data"]["resolution_date"]
+    selected_resolution_date = config.data.resolution_date
+    if not selected_resolution_date:
+        raise ValueError("data.resolution_date must be specified in the config")
 
     os.makedirs(output_dir, exist_ok=True)
     # Detect set subdirs (eval/evolution_eval) to support organized outputs
@@ -71,9 +69,7 @@ async def run_delphi_experiment(config: dict):
     # Choose save_dir: if set subdirs exist, route to one matching sampling method
     save_dir = output_dir
     if set_subdirs:
-        sampling_method = (config.get("data", {}).get("sampling", {}) or {}).get(
-            "method"
-        )
+        sampling_method = config.data.sampling.method
         target = None
         if sampling_method == "evaluation":
             target = "eval"
@@ -87,7 +83,7 @@ async def run_delphi_experiment(config: dict):
 
     # Process each question
     for question in questions:
-        output_pattern = config["output"]["file_pattern"]
+        output_pattern = config.output.file_pattern
         output_file = os.path.join(
             save_dir,
             output_pattern.format(
@@ -96,7 +92,7 @@ async def run_delphi_experiment(config: dict):
         )
 
         # Check for existing logs across set subdirs (if present)
-        if config["processing"]["skip_existing"]:
+        if config.processing.skip_existing:
             file_name = output_pattern.format(
                 question_id=question.id, resolution_date=selected_resolution_date
             )
@@ -131,7 +127,7 @@ async def run_delphi_experiment(config: dict):
 
     # After generation, compute metrics by scanning logs matching the sampling method's question set
     per_question = []
-    sampling_method = (config.get("data", {}).get("sampling", {}) or {}).get("method")
+    sampling_method = config.data.sampling.method
     allowed_qids = None
     if sampling_method == "evaluation":
         allowed_qids = set(EVALUATION_QUESTION_IDS)
@@ -330,7 +326,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.seed is not None:
-        with open(args.config_path, "r") as f:
+        with open(args.config_path, "r", encoding="utf-8") as f:
             config_data = yaml.safe_load(f)
         if "experiment" not in config_data:
             config_data["experiment"] = {}
@@ -340,8 +336,8 @@ if __name__ == "__main__":
         yaml.safe_dump(config_data, tmp_config)
         tmp_config.close()
         args.config_path = tmp_config.name
-    # Load configuration
-    config = load_experiment_config(args.config_path)
+    # Load configuration (typed + raw for legacy helpers)
+    typed_config = load_typed_experiment_config(args.config_path)
 
     # Run experiment
-    asyncio.run(run_delphi_experiment(config))
+    asyncio.run(run_delphi_experiment(typed_config))

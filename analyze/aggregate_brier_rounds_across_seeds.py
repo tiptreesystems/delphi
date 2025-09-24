@@ -74,6 +74,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from dataset.dataloader import ForecastDataLoader
+from utils.config_types import load_typed_experiment_config
 
 # Robustly load question ID sets even if utils.py shadows the utils package
 try:
@@ -97,12 +98,6 @@ except Exception:
         getattr(_mod, "EVOLUTION_EVALUATION_QUESTION_IDS", [])
     )
 import yaml
-
-
-def load_experiment_config(config_path: str) -> dict:
-    """Lightweight YAML loader to avoid import path/package conflicts."""
-    with open(config_path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
 
 
 def parse_delphi_log_filename(filename: str, file_pattern: str) -> Tuple[str, str]:
@@ -484,7 +479,7 @@ def main():
     ap.add_argument("--verbose", action="store_true", help="Verbose logging")
     args = ap.parse_args()
 
-    cfg = load_experiment_config(args.config)
+    cfg = load_typed_experiment_config(args.config)
     base_dir = Path(args.base_dir or cfg["experiment"]["output_dir"])
     file_pattern = cfg["output"]["file_pattern"]
     # Sampling-method alignment or CLI override

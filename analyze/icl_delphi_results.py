@@ -46,7 +46,7 @@ from dataset.dataloader import ForecastDataLoader
 import numpy as np
 import matplotlib.pyplot as plt
 
-from utils.utils import load_experiment_config
+from utils.config_types import load_typed_experiment_config
 
 # Robustly load question ID sets even if utils.py shadows the utils package
 try:
@@ -313,7 +313,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Load configuration
-    config = load_experiment_config(args.config_path)
+    config = load_typed_experiment_config(args.config_path)
 
     # 0) Setup
     loader = ForecastDataLoader()

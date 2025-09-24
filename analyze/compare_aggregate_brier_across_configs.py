@@ -30,7 +30,7 @@ from typing import Dict, List, Tuple, Any, Optional
 
 import numpy as np
 import matplotlib.pyplot as plt
-import yaml
+from utils.config_types import load_typed_experiment_config
 
 # Robustly load question ID sets even if utils.py shadows the utils package
 try:
@@ -53,11 +53,6 @@ except Exception:
     EVOLUTION_EVALUATION_QUESTION_IDS = set(
         getattr(_mod, "EVOLUTION_EVALUATION_QUESTION_IDS", [])
     )
-
-
-def load_experiment_config(config_path: str) -> dict:
-    with open(config_path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
 
 
 def parse_delphi_log_filename(filename: str, file_pattern: str) -> Tuple[str, str]:
@@ -388,7 +383,7 @@ def main():
     )
     args = ap.parse_args()
 
-    cfgs = [load_experiment_config(p) for p in args.configs]
+    cfgs = [load_typed_experiment_config(p) for p in args.configs]
     labels = args.labels or [Path(p).stem for p in args.configs]
     if len(labels) != len(cfgs):
         raise ValueError("Number of labels must match number of configs")

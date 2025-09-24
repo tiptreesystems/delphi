@@ -3,6 +3,7 @@
 from typing import Dict, List, Optional
 from utils.probability_parser import extract_final_probability
 from utils.utils import make_json_serializable
+from utils.config_types import RootConfig
 
 
 def find_median_forecast(
@@ -29,7 +30,10 @@ def find_median_forecast(
 
 
 def create_delphi_log(
-    question, config: dict, seed: int, selected_resolution_date: str
+    question,
+    config: RootConfig,
+    seed: int,
+    selected_resolution_date: str,
 ) -> Dict:
     """Create the initial structure for a Delphi log.
 
@@ -49,13 +53,13 @@ def create_delphi_log(
         "question_url": getattr(question, "url", ""),
         "config": {
             "seed": seed,
-            "n_rounds": config["delphi"]["n_rounds"],
-            "n_experts": config["delphi"]["n_experts"],
+            "n_rounds": (config.delphi or {}).get("n_rounds"),
+            "n_experts": (config.delphi or {}).get("n_experts"),
             "resolution_date": selected_resolution_date,
-            "expert_model_provider": config["model"]["expert"]["provider"],
-            "expert_model_name": config["model"]["expert"]["model"],
-            "mediator_model_provider": config["model"]["mediator"]["provider"],
-            "mediator_model_name": config["model"]["mediator"]["model"],
+            "expert_model_provider": config.model.expert.provider,
+            "expert_model_name": config.model.expert.model,
+            "mediator_model_provider": config.model.mediator.provider,
+            "mediator_model_name": config.model.mediator.model,
         },
         "rounds": [],
         "histories": None,
@@ -112,7 +116,7 @@ def create_expert_entry(expert, sfid: str) -> Dict:
 
 def finalize_delphi_log(
     delphi_log: Dict,
-    config: Dict,
+    config: RootConfig,
     mediator,
     experts: Dict,
     example_pairs: Optional[Dict] = None,
@@ -129,8 +133,7 @@ def finalize_delphi_log(
     Returns:
         Updated Delphi log with optional additions
     """
-
-    if config["output"]["save"]["conversation_histories"]:
+    if config.output.save.conversation_histories:
         delphi_log["histories"] = {
             "mediator": list(mediator.conversation_manager.messages),
             "experts": {
@@ -139,7 +142,7 @@ def finalize_delphi_log(
             },
         }
 
-    if config["output"]["save"]["example_pairs"] and example_pairs:
+    if config.output.save.example_pairs and example_pairs:
         try:
             delphi_log["example_pairs"] = make_json_serializable(example_pairs)
         except Exception:
