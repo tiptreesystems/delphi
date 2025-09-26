@@ -327,6 +327,64 @@ class RootConfig:
             extras={k: v for k, v in d.items() if k not in known},
         )
 
+    def to_legacy_dict(self) -> Dict[str, Any]:
+        """Convert typed RootConfig to the legacy nested dict layout."""
+        model_dict = {
+            "expert": _role_to_dict(self.model.expert),
+            "mediator": _role_to_dict(self.model.mediator),
+        }
+        model_dict.update(self.model.extras or {})
+
+        out: Dict[str, Any] = {
+            "experiment": _compact(
+                {
+                    "seed": self.experiment.seed,
+                    "output_dir": self.experiment.output_dir,
+                    "initial_forecasts_dir": self.experiment.initial_forecasts_dir,
+                }
+            )
+        }
+        # reuse_initial_forecasts
+        rif = self.experiment.reuse_initial_forecasts
+        out["experiment"]["reuse_initial_forecasts"] = _compact(
+            {
+                "enabled": rif.enabled,
+                "source_dir": rif.source_dir,
+                "with_examples": rif.with_examples,
+                **(rif.extras or {}),
+            }
+        )
+
+        out["model"] = model_dict
+        out["delphi"] = self.delphi or {}
+        out["data"] = {
+            "resolution_date": self.data.resolution_date,
+            "sampling": {
+                "method": self.data.sampling.method,
+                **(self.data.sampling.extras or {}),
+            },
+            "filters": self.data.filters or {},
+            **(self.data.extras or {}),
+        }
+        out["processing"] = {
+            "skip_existing": self.processing.skip_existing,
+            **(self.processing.extras or {}),
+        }
+        out["api"] = _api_to_dict(self.api)
+        out["output"] = {
+            "file_pattern": self.output.file_pattern,
+            "save": {
+                "conversation_histories": self.output.save.conversation_histories,
+                "example_pairs": self.output.save.example_pairs,
+                **(self.output.save.extras or {}),
+            },
+            **(self.output.extras or {}),
+        }
+        out["initial_forecasts"] = self.initial_forecasts or {}
+        out["debug"] = self.debug or {}
+        out.update(self.extras or {})
+        return out
+
 
 def load_typed_experiment_config(path: str) -> RootConfig:
     """Load YAML config into typed RootConfig without altering existing loaders."""
@@ -376,62 +434,3 @@ def _api_to_dict(api: ApiConfig) -> Dict[str, Any]:
         data["anthropic"] = prov_to_dict(api.anthropic)
     data.update(api.extras or {})
     return data
-
-
-def to_legacy_dict(cfg: RootConfig) -> Dict[str, Any]:
-    """Convert typed RootConfig to the legacy nested dict layout."""
-    model_dict = {
-        "expert": _role_to_dict(cfg.model.expert),
-        "mediator": _role_to_dict(cfg.model.mediator),
-    }
-    model_dict.update(cfg.model.extras or {})
-
-    out: Dict[str, Any] = {
-        "experiment": _compact(
-            {
-                "seed": cfg.experiment.seed,
-                "output_dir": cfg.experiment.output_dir,
-                "initial_forecasts_dir": cfg.experiment.initial_forecasts_dir,
-            }
-        )
-    }
-    # reuse_initial_forecasts
-    rif = cfg.experiment.reuse_initial_forecasts
-    out["experiment"]["reuse_initial_forecasts"] = _compact(
-        {
-            "enabled": rif.enabled,
-            "source_dir": rif.source_dir,
-            "with_examples": rif.with_examples,
-            **(rif.extras or {}),
-        }
-    )
-
-    out["model"] = model_dict
-    out["delphi"] = cfg.delphi or {}
-    out["data"] = {
-        "resolution_date": cfg.data.resolution_date,
-        "sampling": {
-            "method": cfg.data.sampling.method,
-            **(cfg.data.sampling.extras or {}),
-        },
-        "filters": cfg.data.filters or {},
-        **(cfg.data.extras or {}),
-    }
-    out["processing"] = {
-        "skip_existing": cfg.processing.skip_existing,
-        **(cfg.processing.extras or {}),
-    }
-    out["api"] = _api_to_dict(cfg.api)
-    out["output"] = {
-        "file_pattern": cfg.output.file_pattern,
-        "save": {
-            "conversation_histories": cfg.output.save.conversation_histories,
-            "example_pairs": cfg.output.save.example_pairs,
-            **(cfg.output.save.extras or {}),
-        },
-        **(cfg.output.extras or {}),
-    }
-    out["initial_forecasts"] = cfg.initial_forecasts or {}
-    out["debug"] = cfg.debug or {}
-    out.update(cfg.extras or {})
-    return out

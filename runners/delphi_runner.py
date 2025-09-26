@@ -177,7 +177,7 @@ async def run_delphi_rounds(
     add_initial_round(delphi_log, experts)
 
     # Core Delphi loop
-    for round_idx in range((config.delphi or {}).get("n_rounds", 0)):
+    for round_idx in range((config.delphi or {}).get("n_rounds", 1)):
         # Prepare mediator with previous round's responses
         mediator.start_round(round_idx=round_idx, question=question)
         expert_messages = {
