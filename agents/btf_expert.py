@@ -5,11 +5,11 @@ import copy
 from typing import Optional, List, Union
 from datetime import datetime, timedelta
 
+from .BTFQuestion import BTFQuestion
 from dataset.dataloader import Question
 from utils.models import BaseLLM, ConversationManager
 
 from .btf_utils import (
-    BTFQuestion,
     BTFForecastResult,
     generate_search_queries,
     gather_evidence,
@@ -42,7 +42,9 @@ class BTFExpert:
         self.llm = llm
         self.user_profile = user_profile
         self.config = config or {}
-        self.conversation_manager = ConversationManager(llm) if llm is not None else None
+        self.conversation_manager = (
+            ConversationManager(llm) if llm is not None else None
+        )
 
         # Diagnostics similar to Expert
         self.token_warnings: List[str] = []
@@ -89,7 +91,8 @@ class BTFExpert:
         evidence = await gather_evidence(
             queries,
             question,
-            date_cutoff_start=question.date_cutoff_start or (question.present_date - timedelta(days=365)),
+            date_cutoff_start=question.date_cutoff_start
+            or (question.present_date - timedelta(days=365)),
             date_cutoff_end=question.date_cutoff_end,
         )
         forecast = await make_forecast(question, evidence)
@@ -131,7 +134,9 @@ class BTFExpert:
         )
         return new
 
-    def _ensure_btf_question(self, question: Union[Question, BTFQuestion]) -> BTFQuestion:
+    def _ensure_btf_question(
+        self, question: Union[Question, BTFQuestion]
+    ) -> BTFQuestion:
         if isinstance(question, BTFQuestion):
             return question
         return self._to_btf_question(question)

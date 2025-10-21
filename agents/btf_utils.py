@@ -12,6 +12,10 @@ import random
 from dotenv import load_dotenv
 import asyncio
 
+from utils.prompt_formatters import build_evidence_extraction_prompt
+from utils.prompt_formatters import build_search_query_prompt
+from utils.prompt_formatters import build_btf_forecast_prompt
+
 load_dotenv()
 
 RETROSEARCH_API_TOKEN = os.getenv("RETROSEARCH_API_TOKEN")
@@ -72,6 +76,14 @@ class BTFSearchResult(BaseModel):
     content: str
 
 
+class BTFSearchFact(BaseModel):
+    """A single search result with extracted facts."""
+
+    title: str
+    url: str
+    fact: str
+
+
 class BTFForecastResult(BaseModel):
     """Complete forecast result with all associated data."""
 
@@ -80,6 +92,7 @@ class BTFForecastResult(BaseModel):
     probability: float
     reasoning: str
     search_results: list[BTFSearchResult]
+    extracted_facts: list[BTFSearchFact]
     resolution: str
     scoring_weight: float
     brier_score: float
@@ -145,13 +158,14 @@ async def call_anthropic_llm[T: BaseModel](
         return content
 
 
-async def search(
+async def get_retrosearch_results(
     query: str,
     date_cutoff_start: datetime,
     date_cutoff_end: datetime,
     max_results: int = 10,
 ) -> list[dict[str, Any]]:
-    """Search for content with optional date filtering."""
+    """Search for content with optional date filtering.
+    Returns list of results, but does not include page content."""
 
     headers = {
         "Authorization": f"Bearer {RETROSEARCH_API_TOKEN}",
@@ -181,7 +195,7 @@ async def search(
         return result.get("organic_results", [])
 
 
-async def get_page(
+async def get_result_content(
     url: str,
     date_cutoff_start: datetime,
     date_cutoff_end: datetime,
@@ -257,7 +271,7 @@ def load_questions_from_csv(
 
 async def extract_evidence_from_page(
     search_result: BTFSearchResult, question: BTFQuestion, max_facts: int = 5
-) -> list[BTFSearchResult]:
+) -> list[BTFSearchFact]:
     """Extract key facts from a web page that are relevant to the forecasting question.
 
     Args:
@@ -272,55 +286,20 @@ async def extract_evidence_from_page(
     # Limit content to avoid token limits
     content = search_result.content[:65535]
 
-    prompt = dedent(
-        f"""You are an expert research assistant helping to forecast the outcome of a question.
-
-        <question>
-        {question.question}
-        </question>
-
-        <background>
-        {question.background}
-        </background>
-
-        <resolution_criteria>
-        {question.resolution_criteria}
-        </resolution_criteria>
-
-        <web_page_content>
-        {content}
-        </web_page_content>
-
-        From the web page content above, extract the most relevant facts that could help answer the forecasting question.
-
-        Focus on:
-        - Specific data points, statistics, or measurements
-        - Recent developments or announcements
-        - Expert opinions or official statements
-        - Trends or patterns that relate to the question
-
-        Provide your reasoning for why these facts are relevant, then list exactly {max_facts} facts.
-        Each fact should be:
-        - Concise (1-2 sentences maximum)
-        - Specific and actionable for forecasting
-        - Directly related to the question
-
-        If the page contains fewer than {max_facts} relevant facts, provide as many as you can find.
-        """
-    )
+    prompt = build_evidence_extraction_prompt(question, max_facts, content)
 
     try:
         result = await call_anthropic_llm(prompt, BTFEvidenceExtraction)
 
-        # Create BTFSearchResult objects for each extracted fact
+        # Create BTFSearchFact objects for each extracted fact
         extracted_facts = []
         for fact in result.facts[:max_facts]:
             if fact.strip():  # Only include non-empty facts
                 extracted_facts.append(
-                    BTFSearchResult(
+                    BTFSearchFact(
                         title=search_result.title,
                         url=search_result.url,
-                        content=fact.strip(),
+                        fact=fact.strip(),
                     )
                 )
 
@@ -338,39 +317,46 @@ async def extract_evidence_from_page(
 async def generate_search_queries(question: BTFQuestion) -> list[str]:
     """Generate search queries for a given question."""
 
-    prompt = dedent(
-        f"""You are a research assistant helping to forecast the outcome of a question.
-
-        <question>
-        {question.question}
-        </question>
-
-        <background>
-        {question.background}
-        </background>
-
-        <resolution_criteria>
-        {question.resolution_criteria}
-        </resolution_criteria>
-
-        <fine-print>
-        {question.fine_print}
-        </fine-print>
-
-        Today's date is {question.present_date}.
-
-        Generate exactly 3 Google search queries that would help gather relevant information to forecast this question.
-        The queries should be:
-        1. Specific and targeted to the question
-        2. Designed to find recent, relevant information
-        3. Diverse in approach to cover different aspects of the question
-
-        Also, provide a brief explanation of your reasoning for selecting these queries.
-        """
-    )
+    prompt = build_search_query_prompt(question)
 
     result = await call_anthropic_llm(prompt, BTFSearchQueries)
     return result.queries
+
+
+async def fetch_search_results(query, date_cutoff_start, date_cutoff_end):
+    try:
+        logger.debug(f"Searching for: {query}")
+        search_results = await get_retrosearch_results(
+            query,
+            max_results=5,
+            date_cutoff_start=date_cutoff_start,
+            date_cutoff_end=date_cutoff_end,
+        )
+        return query, search_results
+    except Exception as e:
+        logger.warning(f"Search failed for query '{query}': {e}")
+        return query, []
+
+
+async def fetch_page_content(result, date_cutoff_start, date_cutoff_end):
+    try:
+        content = await get_result_content(
+            result.get("link", ""),
+            date_cutoff_start=date_cutoff_start,
+            date_cutoff_end=date_cutoff_end,
+        )
+        if content:
+            content = content[:5000] + "..." if len(content) > 5000 else content
+            search_result = BTFSearchResult(
+                title=result.get("title", "No title"),
+                url=result.get("link", ""),
+                content=content,
+            )
+            logger.debug(f"Successfully fetched: {search_result.title}")
+            return search_result
+    except Exception as e:
+        logger.warning(f"Failed to fetch page {result.get('link', '')}: {e}")
+    return None
 
 
 async def gather_evidence(
@@ -378,54 +364,25 @@ async def gather_evidence(
     question: BTFQuestion,
     date_cutoff_start: datetime,
     date_cutoff_end: datetime,
-) -> list[BTFSearchResult]:
+) -> list[BTFSearchFact]:
     """Gather evidence by searching and reading pages."""
 
     all_results = []
 
-    async def fetch_search_results(query):
-        try:
-            logger.debug(f"Searching for: {query}")
-            search_results = await search(
-                query,
-                max_results=5,
-                date_cutoff_start=date_cutoff_start,
-                date_cutoff_end=date_cutoff_end,
-            )
-            return query, search_results
-        except Exception as e:
-            logger.warning(f"Search failed for query '{query}': {e}")
-            return query, []
-
-    async def fetch_page_content(result):
-        try:
-            content = await get_page(
-                result.get("link", ""),
-                date_cutoff_start=date_cutoff_start,
-                date_cutoff_end=date_cutoff_end,
-            )
-            if content:
-                content = content[:5000] + "..." if len(content) > 5000 else content
-                search_result = BTFSearchResult(
-                    title=result.get("title", "No title"),
-                    url=result.get("link", ""),
-                    content=content,
-                )
-                logger.debug(f"Successfully fetched: {search_result.title}")
-                return search_result
-        except Exception as e:
-            logger.warning(f"Failed to fetch page {result.get('link', '')}: {e}")
-        return None
-
     # Gather all search results concurrently
-    search_tasks = [fetch_search_results(query) for query in queries]
+    search_tasks = [
+        fetch_search_results(query, date_cutoff_start, date_cutoff_end)
+        for query in queries
+    ]
     search_results_per_query = await asyncio.gather(*search_tasks)
 
     # Gather all page fetches concurrently for top 3 results per query
     page_tasks = []
     for _, search_results in search_results_per_query:
         for result in search_results[:3]:
-            page_tasks.append(fetch_page_content(result))
+            page_tasks.append(
+                fetch_page_content(result, date_cutoff_start, date_cutoff_end)
+            )
 
     page_contents = await asyncio.gather(*page_tasks)
 
@@ -450,7 +407,7 @@ async def gather_evidence(
 
 
 async def make_forecast(
-    question: BTFQuestion, evidence: list[BTFSearchResult]
+    question: BTFQuestion, evidence: list[BTFSearchFact]
 ) -> BTFProbabilisticForecast:
     """Make a probabilistic forecast based on the question and evidence."""
 
@@ -466,7 +423,7 @@ async def make_forecast(
                 {result.url}
                 </url>
                 <content>
-                {result.content}
+                {result.fact}
                 </content>
             </item>
             """
@@ -475,40 +432,7 @@ async def make_forecast(
         ]
     )
 
-    prompt = dedent(
-        f"""You are an expert forecaster. Based on the information provided, you need to make a probabilistic forecast.
-
-        <question>
-        {question.question}
-        </question>
-
-        <background>
-        {question.background}
-        </background>
-
-        <resolution-criteria>
-        {question.resolution_criteria}
-        </resolution-criteria>
-
-        <fine-print>
-        {question.fine_print}
-        </fine-print>
-
-        <evidence>
-        {evidence_text}
-        </evidence>
-
-        Today's date is {question.present_date}.
-
-        Based on this information, provide:
-        1. A probability (between 0.0 and 1.0) that this question will resolve YES
-        2. A brief explanation of your reasoning and any calculation used to formulate
-           this probability
-
-        Be thoughtful and analytical. Consider both supporting and contradicting evidence.
-        Always provide probabilities as decimals between 0.0 and 1.0 (e.g., 0.65 for 65% chance).
-        Be calibrated in your forecasts - if you say 70%, you should be right about 70% of the time."""
-    )
+    prompt = build_btf_forecast_prompt(question, evidence_text)
 
     result = await call_anthropic_llm(prompt, BTFProbabilisticForecast)
 

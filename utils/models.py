@@ -1,3 +1,4 @@
+import json
 import os
 from typing import Optional, Dict, List, Union
 from enum import Enum
@@ -5,6 +6,8 @@ from abc import ABC, abstractmethod
 import anthropic
 import openai
 from groq import Groq
+from pydantic import BaseModel
+from textwrap import dedent
 
 # def retry_with_exponential_backoff(
 #     func,
@@ -367,8 +370,24 @@ class ConversationManager:
         user_input: str,
         add_to_history: bool = True,
         input_message_type: str = "user",
+        response_model: Optional[BaseModel] = None,
         **kwargs,
     ) -> str:
+        if response_model:
+            schema = response_model.model_json_schema()
+            user_input = dedent(
+                f"""{user_input}
+
+                Please format your response as a single valid JSON object that matches this schema's *fields*:
+                {json.dumps(schema["properties"], indent=2)}
+
+                Rules:
+                - The JSON object must include all required fields: {schema.get("required", [])}.
+                - Do not include the schema itself, only the field values.
+                - Do not include markdown code fences (like ```json), or any text before or after the JSON.
+                - Return exactly one JSON object, nothing else.
+                """
+            )
         if add_to_history:
             self.add_message(input_message_type, user_input)
 
@@ -462,7 +481,17 @@ class ConversationManager:
                             response = await self.llm.client.chat.completions.create(
                                 model=self.llm.model, messages=messages, **kwargs
                             )
-                        return response.choices[0].message.content
+
+                        content = response.choices[0].message.content
+                        if response_model:
+                            # Clean up JSON response
+                            content = content.strip()
+                            if content.startswith("```json"):
+                                content = content[7:-3]
+                            elif content.startswith("```"):
+                                content = content[3:-3]
+
+                        return content
 
                 except Exception as e:
                     # Check if it's a rate limit error
