@@ -17,6 +17,7 @@ from utils.prompt_formatters import (
 )
 from utils.probability_parser import extract_final_probability_with_retry
 
+
 import asyncio
 from agents.btf_utils import (
     BTFQuestion,
@@ -125,14 +126,14 @@ class HybridBTFExpert:
         conditioning_forecast=None,
         seed: Optional[int] = None,
     ) -> float:
-        result = await self.forecast_with_details(
+        result = await self.retrieve_then_forecast(
             question,
             conditioning_forecast=conditioning_forecast,
             seed=seed,
         )
         return result.probability
 
-    async def forecast_with_details(
+    async def retrieve_then_forecast(
         self,
         question: Union[Question, BTFQuestion, str],
         conditioning_forecast=None,

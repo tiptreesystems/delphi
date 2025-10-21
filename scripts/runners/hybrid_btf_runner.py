@@ -9,6 +9,12 @@ from typing import Optional, Union
 from agents.hybrid_btf_expert import HybridBTFExpert
 from agents.btf_utils import load_questions_from_csv
 from utils.models import LLMFactory, LLMModel
+import logging
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
 
 import debugpy
 
@@ -78,7 +84,7 @@ def parse_args() -> argparse.Namespace:
         help="Destination JSONL file for forecasts.",
     )
     parser.add_argument(
-        "--verbose",
+        "--not-verbose",
         action="store_true",
         help="Print progress for each question.",
     )
@@ -169,15 +175,20 @@ async def run(args: argparse.Namespace) -> None:
 
     for idx, question in enumerate(questions, start=1):
         expert.conversation_manager.messages.clear()
-        forecast = await expert.forecast_with_details(question)
+        forecast = await expert.retrieve_then_forecast(question)
         results.append(forecast)
-        if args.verbose:
+        logger.info(f"New forecast completed: {json.dumps(forecast.as_dict())}")
+        verbose = not args.not_verbose
+        if verbose:
+            print("=" * 80)
             print(
                 f"[{idx}/{total}] {question.id}: "
+                f"question='{question.text}' \n "
                 f"p_yes={forecast.probability:.3f} "
                 f"queries={len(forecast.queries)} "
                 f"evidence={len(forecast.evidence)}"
             )
+            print("=" * 80)
 
     output_target = args.output or _build_default_output()
     # If a file path was provided (e.g. .json or .jsonl) use a directory named after that file's stem,
