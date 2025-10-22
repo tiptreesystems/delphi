@@ -2,24 +2,22 @@ from __future__ import annotations
 
 import copy
 import json
-from dataclasses import dataclass, field
+import math
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Union, Callable, Awaitable
+from typing import Any, Dict, List, Optional, Union, Callable, Awaitable, Tuple
 
 from agents.btf_tools import register_btf_tools
-from agents.btf_utils import BTFQuestion
+from agents.btf_utils import (
+    BTFQuestion,
+    BTFForecastResult,
+    BTFSearchResult,
+    BTFSearchFact,
+    calculate_brier_score,
+    calculate_weighted_brier_score,
+)
 from utils.models import BaseLLM, ConversationManager
 from utils.prompt_loader import load_prompt
 from utils.probability_parser import extract_final_probability_with_retry
-
-
-@dataclass
-class BTFForecast:
-    question_id: str
-    probability: float
-    response: str
-    tool_outputs: List[Dict[str, Any]] = field(default_factory=list)
-    messages: List[Dict[str, Any]] = field(default_factory=list)
 
 
 class BTFAgent:
@@ -54,7 +52,7 @@ class BTFAgent:
         tool_executor: Optional[
             Callable[[str, Dict[str, Any], str], Awaitable[Any]]
         ] = None,
-    ) -> BTFForecast:
+    ) -> BTFForecastResult:
         btf_question = self._ensure_question(question)
         self.conversation_manager.clear_messages()
         prompt = self._build_prompt(btf_question, prior_forecast_info)
@@ -79,11 +77,33 @@ class BTFAgent:
             max_retries=self.probability_retry_count,
         )
 
-        return BTFForecast(
+        tool_outputs, search_results, extracted_facts = self._collect_tool_data()
+
+        raw_resolution = (btf_question.resolution or "unknown").strip() or "unknown"
+        normalized_resolution = raw_resolution.lower()
+        if 0.0 <= probability <= 1.0 and normalized_resolution in {"yes", "no"}:
+            brier_score = calculate_brier_score(probability, normalized_resolution)
+            weighted_brier = calculate_weighted_brier_score(
+                probability,
+                normalized_resolution,
+                btf_question.scoring_weight,
+            )
+        else:
+            brier_score = math.nan
+            weighted_brier = math.nan
+
+        return BTFForecastResult(
             question_id=btf_question.id,
+            question=btf_question.question,
             probability=probability,
-            response=response_text,
-            tool_outputs=self._collect_tool_outputs(),
+            reasoning=response_text,
+            search_results=search_results,
+            extracted_facts=extracted_facts,
+            resolution=raw_resolution,
+            scoring_weight=btf_question.scoring_weight,
+            brier_score=brier_score,
+            weighted_brier_score=weighted_brier,
+            tool_outputs=tool_outputs,
             messages=copy.deepcopy(self.conversation_manager.messages),
         )
 
@@ -113,8 +133,16 @@ class BTFAgent:
             date_cutoff_end=date_cutoff_end,
         )
 
-    def _collect_tool_outputs(self) -> List[Dict[str, Any]]:
+    def _collect_tool_data(
+        self,
+    ) -> Tuple[
+        List[Dict[str, Any]],
+        List[BTFSearchResult],
+        List[BTFSearchFact],
+    ]:
         outputs: List[Dict[str, Any]] = []
+        search_results: List[BTFSearchResult] = []
+        extracted_facts: List[BTFSearchFact] = []
         for message in self.conversation_manager.messages:
             if message.get("role") != "tool":
                 continue
@@ -136,7 +164,71 @@ class BTFAgent:
                     "tool_call_id": message.get("tool_call_id"),
                 }
             )
-        return outputs
+            self._harvest_structured_tool_data(
+                message.get("name"),
+                parsed_content,
+                search_results,
+                extracted_facts,
+            )
+        return outputs, search_results, extracted_facts
+
+    def _harvest_structured_tool_data(
+        self,
+        tool_name: Optional[str],
+        content: Any,
+        search_results: List[BTFSearchResult],
+        extracted_facts: List[BTFSearchFact],
+    ) -> None:
+        if not tool_name or content is None:
+            return
+
+        if tool_name == "btf_fetch_page_content":
+            if isinstance(content, dict):
+                url = str(content.get("url") or "")
+                text = str(content.get("content") or "")
+                title = str(content.get("title") or url or "Page content")
+                if url or text:
+                    search_results.append(
+                        BTFSearchResult(title=title, url=url, content=text)
+                    )
+        elif tool_name == "btf_retro_search":
+            if isinstance(content, dict):
+                for item in content.get("results", []):
+                    if isinstance(item, dict):
+                        title = str(item.get("title") or "Search result")
+                        url = str(item.get("link") or item.get("url") or "")
+                        snippet = str(
+                            item.get("snippet")
+                            or item.get("description")
+                            or item.get("content")
+                            or ""
+                        )
+                        search_results.append(
+                            BTFSearchResult(title=title, url=url, content=snippet)
+                        )
+        elif tool_name == "btf_extract_evidence":
+            if isinstance(content, dict):
+                facts_data = content.get("facts", [])
+                source_title = str(content.get("title") or "Evidence")
+                source_url = str(content.get("url") or content.get("source_url") or "")
+                for fact_item in facts_data:
+                    if isinstance(fact_item, dict):
+                        fact_title = str(fact_item.get("title") or source_title)
+                        fact_url = str(fact_item.get("url") or source_url)
+                        fact_text = str(
+                            fact_item.get("fact") or fact_item.get("content") or ""
+                        )
+                        extracted_facts.append(
+                            BTFSearchFact(
+                                title=fact_title, url=fact_url, fact=fact_text
+                            )
+                        )
+                    elif isinstance(fact_item, str):
+                        extracted_facts.append(
+                            BTFSearchFact(
+                                title=source_title, url=source_url, fact=fact_item
+                            )
+                        )
 
     @staticmethod
     def _ensure_question(question: Union[BTFQuestion, Dict[str, Any]]) -> BTFQuestion:
@@ -211,4 +303,4 @@ class BTFAgent:
         return str(value)
 
 
-__all__ = ["BTFAgent", "BTFForecast"]
+__all__ = ["BTFAgent"]

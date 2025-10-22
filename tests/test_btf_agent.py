@@ -108,7 +108,9 @@ class BTFAgentTestCase(unittest.IsolatedAsyncioTestCase):
             date_cutoff_end=now,
         )
 
-        async def fake_generate_search_queries(btf_question: BTFQuestion):
+        async def fake_generate_search_queries(
+            btf_question: BTFQuestion, max_queries: int = 5, add_to_history=False
+        ):
             self.assertEqual(btf_question.present_date, self.question.present_date)
             self.assertEqual(
                 btf_question.date_cutoff_end, self.question.date_cutoff_end
@@ -189,7 +191,16 @@ class BTFAgentTestCase(unittest.IsolatedAsyncioTestCase):
                         "question": self.question.question,
                         "max_queries": 2,
                     },
-                )
+                ),
+                FakeToolCall(
+                    "btf_retro_search",
+                    {
+                        "query": "climate agreement 2024 outlook",
+                        "max_results": 2,
+                        "date_cutoff_start": self.question.date_cutoff_start.isoformat(),
+                        "date_cutoff_end": self.question.date_cutoff_end.isoformat(),
+                    },
+                ),
             ]
         )
         final_message = FakeMessage(
@@ -204,7 +215,7 @@ class BTFAgentTestCase(unittest.IsolatedAsyncioTestCase):
         result = await agent.forecast(self.question)
 
         self.assertAlmostEqual(result.probability, 0.42, places=3)
-        self.assertTrue(result.response.endswith("FINAL PROBABILITY: 0.42"))
+        self.assertTrue(result.reasoning.endswith("FINAL PROBABILITY: 0.42"))
 
         tool_names = [entry["name"] for entry in result.tool_outputs]
         self.assertIn("btf_generate_search_queries", tool_names)

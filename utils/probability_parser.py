@@ -11,9 +11,12 @@ from typing import Optional, Protocol
 # Unified regex for FINAL PROBABILITY with optional markdown and scientific notation
 # Matches: 0.75, .5, 1, 1.0, 5e-05, 1e-3, 2E-1, etc.
 PROB_RE = re.compile(
-    r"\*{0,2}FINAL PROBABILITY:\*{0,2}\s*"  # label with optional ** or *
-    r"([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)",
-    re.IGNORECASE,
+    r"(?ixm)"  # flags first: ignorecase, verbose, multiline
+    r"(?:\*{1,3}\s*)?"  # optional leading *, **, ***
+    r"final[ \t*_`]*probability"
+    r"(?:[\s`*]*[:=~\-–—]?[\s`*]*)"  # separator (colon/equals/tilde/dash) possibly inside/outside emphasis
+    r"(?P<value>[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)"  # number
+    r"\s*%?"  # optional percent
 )
 
 
@@ -116,9 +119,7 @@ async def extract_final_probability_with_retry(
     if llm_retry_func is None or max_retries <= 0:
         return -1
 
-    retry_message = (
-        "Please provide your probability estimate like 'FINAL PROBABILITY: 0.75'\n\n"
-    )
+    retry_message = "Please provide your probability estimate like 'FINAL PROBABILITY: [A decimal between 0 and 1]'\n\n"
 
     for attempt in range(max_retries):
         try:
@@ -140,14 +141,17 @@ async def extract_final_probability_with_retry(
 if __name__ == "__main__":
     # Test cases
     test_cases = [
-        "FINAL PROBABILITY: 0.75",
-        "**FINAL PROBABILITY:** 0.545",
-        "*FINAL PROBABILITY:* 0.25",
-        "The answer is clear.\n\n**FINAL PROBABILITY:** 0.37",
-        "No probability here",
-        "Random number 0.85 but no final probability",
         "FINAL PROBABILITY: 1.0",
         "FINAL PROBABILITY: 0",
+        "FINAL PROBABILITY: 0.75",
+        "**FINAL PROBABILITY:** 0.545",
+        "**FINAL PROBABILITY**: 0.545",
+        "**FINAL ** PROBABILITY**: 0.545",
+        "*FINAL PROBABILITY:* 0.25",
+        "The answer is clear.\n\n**FINAL PROBABILITY:** 0.37",
+        # These should fail
+        "No probability here",
+        "Random number 0.85 but no final probability",
     ]
 
     print("Testing probability extraction:")

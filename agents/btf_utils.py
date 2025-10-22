@@ -1,13 +1,20 @@
+from __future__ import annotations
+
+import math
+from dataclasses import dataclass, field
+from datetime import datetime
+from typing import Dict, List, Optional, Union
+
 import os
 import json
 import httpx
-from datetime import datetime
 from typing import Any
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import logging
 import csv
 from textwrap import dedent
 import random
+import re
 
 from dotenv import load_dotenv
 import asyncio
@@ -15,6 +22,7 @@ import asyncio
 from utils.prompt_formatters import build_evidence_extraction_prompt
 from utils.prompt_formatters import build_search_query_prompt
 from utils.prompt_formatters import build_btf_forecast_prompt
+from utils.models import ConversationManager
 
 load_dotenv()
 
@@ -91,12 +99,67 @@ class BTFForecastResult(BaseModel):
     question: str
     probability: float
     reasoning: str
-    search_results: list[BTFSearchResult]
-    extracted_facts: list[BTFSearchFact]
-    resolution: str
-    scoring_weight: float
-    brier_score: float
-    weighted_brier_score: float
+    search_results: List[BTFSearchResult] = Field(default_factory=list)
+    extracted_facts: List[BTFSearchFact] = Field(default_factory=list)
+    resolution: str = "unknown"
+    scoring_weight: float = 1.0
+    brier_score: float = float("nan")
+    weighted_brier_score: float = float("nan")
+    tool_outputs: List[Dict[str, Any]] = Field(default_factory=list)
+    messages: List[Dict[str, Any]] = Field(default_factory=list)
+
+
+@dataclass
+class HybridForecastResult:
+    """Container for hybrid expert outputs."""
+
+    question_id: str
+    question: str
+    probability: float
+    response: str
+    search_results: List[BTFSearchResult] = field(default_factory=list)
+    evidence: List[BTFSearchFact] = field(default_factory=list)
+    queries: List[str] = field(default_factory=list)
+    resolution: Optional[str] = None
+    scoring_weight: float = 1.0
+    brier_score: float = math.nan
+    weighted_brier_score: float = math.nan
+    generated_at: datetime = field(default_factory=datetime.utcnow)
+    metadata: Dict[str, Union[str, float, int, dict, list]] = field(
+        default_factory=dict
+    )
+
+    def to_btfforecast(self) -> BTFForecastResult:
+        """Return a BTFForecastResult for compatibility with existing tooling."""
+
+        return BTFForecastResult(
+            question_id=self.question_id,
+            question=self.question,
+            probability=self.probability,
+            reasoning=self.response,
+            search_results=list(self.search_results),
+            extracted_facts=list(self.evidence),
+            resolution=self.resolution or "unknown",
+            scoring_weight=self.scoring_weight,
+            brier_score=self.brier_score,
+            weighted_brier_score=self.weighted_brier_score,
+        )
+
+    def as_dict(self) -> dict:
+        return {
+            "question_id": self.question_id,
+            "question": self.question,
+            "probability": self.probability,
+            "response": self.response,
+            "evidence": [result.model_dump() for result in self.evidence],
+            "queries": list(self.queries),
+            "resolution": self.resolution,
+            "scoring_weight": self.scoring_weight,
+            "brier_score": self.brier_score,
+            "weighted_brier_score": self.weighted_brier_score,
+            "generated_at": self.generated_at.isoformat(),
+            "metadata": self.metadata,
+        }
 
 
 async def call_anthropic_llm[T: BaseModel](
@@ -314,13 +377,119 @@ async def extract_evidence_from_page(
         return [search_result]
 
 
-async def generate_search_queries(question: BTFQuestion) -> list[str]:
+async def generate_search_queries_narrow(question: BTFQuestion) -> list[str]:
     """Generate search queries for a given question."""
 
     prompt = build_search_query_prompt(question)
 
     result = await call_anthropic_llm(prompt, BTFSearchQueries)
     return result.queries
+
+
+async def generate_search_queries(
+    conversation_manager: ConversationManager,
+    question: BTFQuestion,
+    *,
+    max_queries: Optional[int] = None,
+    temperature: float = 0.3,
+    max_tokens: int = 512,
+    add_to_history: bool = True,
+    run_tools: bool = False,
+) -> List[str]:
+    """Generate search queries for a given question using the provided LLM.
+
+    Args:
+        conversation_manager: Conversation manager that wraps the target LLM.
+        question: Forecasting question to build queries for.
+        max_queries: Optional cap on the number of queries returned (defaults to 3).
+        temperature: Sampling temperature when calling the LLM.
+        max_tokens: Maximum tokens an LLM response may use.
+        add_to_history: Whether to persist the prompt/response to the conversation log.
+        run_tools: Whether tool calls are permitted during query generation.
+    """
+
+    if conversation_manager is None:
+        raise ValueError("A ConversationManager instance is required to generate queries.")
+
+    if max_queries is None:
+        query_limit: Optional[int] = 3
+    else:
+        try:
+            requested = int(max_queries)
+        except (TypeError, ValueError):
+            requested = 3
+        if requested <= 0:
+            query_limit = None
+        else:
+            query_limit = requested
+
+    prompt = build_search_query_prompt(question)
+
+    effective_max_tokens = (
+        max_tokens if isinstance(max_tokens, int) and max_tokens > 0 else 512
+    )
+
+    raw_response = await conversation_manager.generate_response(
+        prompt,
+        add_to_history=add_to_history,
+        include_history=False,
+        response_model=BTFSearchQueries,
+        max_tokens=effective_max_tokens,
+        temperature=temperature,
+        run_tools=run_tools,
+    )
+
+    queries: List[str] = []
+    if isinstance(raw_response, BTFSearchQueries):
+        queries = raw_response.queries
+    else:
+        response_text = (
+            raw_response if isinstance(raw_response, str) else str(raw_response)
+        )
+        try:
+            structured = BTFSearchQueries.model_validate_json(response_text)
+            queries = structured.queries
+        except Exception:
+            queries = _parse_queries_from_text(response_text)
+
+    cleaned: List[str] = []
+    seen: set[str] = set()
+    for query in queries:
+        candidate = query.strip()
+        if not candidate or candidate.lower().startswith("reasoning"):
+            continue
+        if candidate in seen:
+            continue
+        cleaned.append(candidate)
+        seen.add(candidate)
+        if query_limit is not None and len(cleaned) >= query_limit:
+            break
+
+    return cleaned
+
+
+def _parse_queries_from_text(raw_response: str) -> List[str]:
+    """Fallback parser to extract queries from unconstrained text output."""
+    queries: List[str] = []
+
+    quoted = re.findall(r'"([^"]+)"', raw_response)
+    for match in quoted:
+        candidate = match.strip()
+        if candidate:
+            queries.append(candidate)
+    if queries:
+        return queries
+
+    for line in raw_response.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if line.lower().startswith("reasoning"):
+            continue
+        line = re.sub(r"^[\d\-\*\.)\s]+", "", line)
+        if line:
+            queries.append(line)
+    return queries
 
 
 async def fetch_search_results(query, date_cutoff_start, date_cutoff_end):
@@ -455,7 +624,7 @@ async def produce_forecast_for_question(
 
         # Step 1: Generate search queries
         logger.debug("Generating search queries...")
-        queries = await generate_search_queries(question)
+        queries = await generate_search_queries_narrow(question)
         logger.debug(f"Generated {len(queries)} search queries")
 
         # Step 2: Gather evidence

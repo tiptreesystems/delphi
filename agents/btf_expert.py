@@ -11,7 +11,7 @@ from utils.models import BaseLLM, ConversationManager
 
 from .btf_utils import (
     BTFForecastResult,
-    generate_search_queries,
+    generate_search_queries_narrow,
     gather_evidence,
     make_forecast,
     calculate_brier_score,
@@ -87,7 +87,7 @@ class BTFExpert:
 
     async def forecast_btf_question(self, question: BTFQuestion) -> BTFForecastResult:
         """Convenience: full BTF pipeline for an already-structured BTF question."""
-        queries = await generate_search_queries(question)
+        queries = await generate_search_queries_narrow(question)
         evidence = await gather_evidence(
             queries,
             question,

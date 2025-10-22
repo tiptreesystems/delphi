@@ -8,7 +8,8 @@ from agents.btf_utils import (
     BTFSearchFact,
     BTFSearchResult,
     extract_evidence_from_page,
-    generate_search_queries,
+    generate_search_queries as _generate_search_queries_with_manager,
+    generate_search_queries_narrow,
     get_retrosearch_results,
     get_result_content,
 )
@@ -16,6 +17,32 @@ from agents.tools.tools import Tool
 
 if TYPE_CHECKING:  # pragma: no cover
     from utils.models import ConversationManager
+
+
+_CONVERSATION_MANAGER: Optional["ConversationManager"] = None
+
+
+async def generate_search_queries(
+    question: BTFQuestion,
+    *,
+    max_queries: Optional[int] = None,
+    add_to_history: bool = False,
+) -> List[str]:
+    """Generate search queries using the configured conversation manager when available."""
+
+    if _CONVERSATION_MANAGER is None:
+        queries = await generate_search_queries_narrow(question)
+        if isinstance(max_queries, int) and max_queries > 0:
+            return queries[:max_queries]
+        return queries
+
+    return await _generate_search_queries_with_manager(
+        _CONVERSATION_MANAGER,
+        question,
+        max_queries=max_queries,
+        add_to_history=add_to_history,
+        run_tools=False,
+    )
 
 
 def _parse_datetime(
@@ -97,18 +124,27 @@ async def btf_generate_search_queries(
         resolved_at=resolved_at,
     )
 
-    queries = await generate_search_queries(btf_question)
-    limited_queries = queries[:max_queries] if max_queries > 0 else queries
+    queries = await generate_search_queries(
+        btf_question,
+        max_queries=max_queries,
+        add_to_history=False,
+    )
+
+    limited_queries = (
+        queries[:max_queries]
+        if isinstance(max_queries, int) and max_queries > 0
+        else queries
+    )
     return {"question_id": question_id, "queries": limited_queries}
 
 
-async def btf_retro_search(
+async def btf_retro_search_urls(
     query: str,
     date_cutoff_start: Optional[str] = None,
     date_cutoff_end: Optional[str] = None,
     max_results: int = 5,
 ) -> Dict[str, Any]:
-    """Retrieve current web results for a query using the RetroSearch service."""
+    """Retrieve current web result urls for a query using the RetroSearch service."""
     end_dt = _parse_datetime(date_cutoff_end)
     start_dt = _parse_datetime(date_cutoff_start)
 
@@ -122,7 +158,7 @@ async def btf_retro_search(
     return {"query": query, "results": results}
 
 
-async def btf_fetch_page_content(
+async def btf_fetch_url_content(
     url: str,
     date_cutoff_start: Optional[str] = None,
     date_cutoff_end: Optional[str] = None,
@@ -214,8 +250,8 @@ def get_btf_tools(include_query_generator: bool = True) -> List[Tool]:
     """Return the suite of BTF-specific tools exposed for agentic forecasting."""
 
     tools: List[Tool] = [
-        Tool.from_function(btf_retro_search),
-        Tool.from_function(btf_fetch_page_content),
+        Tool.from_function(btf_retro_search_urls),
+        Tool.from_function(btf_fetch_url_content),
         Tool.from_function(btf_extract_evidence),
     ]
     if include_query_generator:
@@ -230,15 +266,19 @@ def register_btf_tools(
 ) -> None:
     """Register the BTF tool suite on an existing ConversationManager."""
 
+    global _CONVERSATION_MANAGER
+    _CONVERSATION_MANAGER = manager
+
     manager.register_tools(
         get_btf_tools(include_query_generator=include_query_generator)
     )
 
 
 __all__ = [
+    "generate_search_queries",
     "btf_generate_search_queries",
-    "btf_retro_search",
-    "btf_fetch_page_content",
+    "btf_retro_search_urls",
+    "btf_fetch_url_content",
     "btf_extract_evidence",
     "get_btf_tools",
     "register_btf_tools",

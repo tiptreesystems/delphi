@@ -1,6 +1,7 @@
 import json
 import os
 import inspect
+import logging
 from typing import Optional, Dict, List, Union, Callable, Awaitable, Any
 from enum import Enum
 from abc import ABC, abstractmethod
@@ -9,6 +10,9 @@ import openai
 from groq import Groq
 from pydantic import BaseModel
 from textwrap import dedent
+
+
+logger = logging.getLogger(__name__)
 
 # def retry_with_exponential_backoff(
 #     func,
@@ -360,6 +364,26 @@ class ConversationManager:
         ] = {}  # name -> {"schema": dict, "handler": Callable}
         self._tool_schemas: List[Dict[str, Any]] = []
 
+    @staticmethod
+    def _preview(value: Any, limit: int = 400) -> str:
+        if value is None:
+            return "None"
+        if isinstance(value, str):
+            cleaned = value.strip()
+            return cleaned[:limit] + ("…" if len(cleaned) > limit else "")
+        try:
+            serialized = json.dumps(value, default=str)
+        except TypeError:
+            serialized = str(value)
+        return serialized[:limit] + ("…" if len(serialized) > limit else "")
+
+    def _log_message(self, message: Dict[str, Any], *, prefix: str) -> None:
+        role = message.get("role", "unknown")
+        preview = self._preview(message.get("content"))
+        extras = {k: v for k, v in message.items() if k not in {"role", "content"}}
+        extras_json = json.dumps(extras, default=str) if extras else ""
+        logger.info("%s role=%s content=%s extras=%s", prefix, role, preview, extras_json)
+
     def add_message(
         self, role: str, content: Optional[str], **kwargs
     ) -> Dict[str, Any]:
@@ -368,6 +392,7 @@ class ConversationManager:
             if value is not None:
                 message[key] = value
         self.messages.append(message)
+        self._log_message(message, prefix="conversation.add")
         return message
 
     def add_messages(self, messages: List[Dict[str, Any]]):
@@ -380,6 +405,8 @@ class ConversationManager:
             self.add_message(role, content, **extras)
 
     def clear_messages(self):
+        if self.messages:
+            logger.info("conversation.clear count=%s", len(self.messages))
         self.messages.clear()
 
     def register_tool(
@@ -444,6 +471,7 @@ class ConversationManager:
         response_model: Optional[BaseModel] = None,
         *,
         run_tools: bool = True,
+        include_history: bool = True,
         max_tool_iterations: int = 5,
         tool_choice: Optional[Union[str, Dict[str, Any]]] = None,
         tool_executor: Optional[
@@ -460,6 +488,7 @@ class ConversationManager:
             input_message_type: Role for the incoming message (defaults to 'user').
             response_model: Optional Pydantic model guiding structured outputs.
             run_tools: When True, automatically executes tool calls returned by the model.
+            include_history: When False, ignores existing conversation history during this call.
             max_tool_iterations: Guardrail for recursive tool execution loops.
             tool_choice: Optional explicit tool selection passed to the OpenAI-compatible API.
             tool_executor: Optional override for executing tool calls; receives (name, arguments, call_id).
@@ -484,15 +513,35 @@ class ConversationManager:
                 """
             )
 
-        original_messages = None
-        if not add_to_history:
+        if add_to_history and not include_history:
+            raise ValueError(
+                "Cannot add to history when include_history is False; this call would discard new messages."
+            )
+
+        prior_history_count = len(self.messages)
+
+        original_messages: Optional[List[Dict[str, Any]]] = None
+        if not include_history:
             original_messages = list(self.messages)
+            self.messages = []
+        elif not add_to_history:
+            original_messages = list(self.messages)
+
+        response_model_name = getattr(response_model, "__name__", None) if response_model else None
+        logger.info(
+            "conversation.generate start run_tools=%s response_model=%s history=%s",
+            run_tools,
+            response_model_name,
+            prior_history_count,
+        )
 
         if add_to_history:
             self.add_message(input_message_type, user_input)
         else:
             # Still provide context for the LLM without mutating the original history
-            self.messages.append({"role": input_message_type, "content": user_input})
+            temp_message = {"role": input_message_type, "content": user_input}
+            self.messages.append(temp_message)
+            self._log_message(temp_message, prefix="conversation.temp_add")
 
         async def _generate_with_retry(max_retries=10, base_backoff=2.0):
             import asyncio
@@ -501,7 +550,7 @@ class ConversationManager:
             for attempt in range(max_retries):
                 try:
                     if isinstance(self.llm, ClaudeLLM):
-                        if self._tool_schemas:
+                        if run_tools and self._tool_schemas:
                             raise NotImplementedError(
                                 "Tool calls are not yet supported for Claude models in ConversationManager."
                             )
@@ -516,6 +565,10 @@ class ConversationManager:
                             **kwargs,
                         )
                         text = response.content[0].text if response.content else ""
+                        logger.info(
+                            "conversation.llm_response provider=claude tool_calls=False content=%s",
+                            self._preview(text),
+                        )
                         return {"role": "assistant", "content": text}
                     elif isinstance(self.llm, GroqLLM):
                         # Groq uses synchronous API but we handle it here
@@ -531,7 +584,7 @@ class ConversationManager:
                             "temperature": kwargs.get("temperature", 0.7),
                         }
 
-                        if self._tool_schemas:
+                        if run_tools and self._tool_schemas:
                             create_params["tools"] = self._tool_schemas
                             if tool_choice is not None:
                                 create_params["tool_choice"] = tool_choice
@@ -554,6 +607,13 @@ class ConversationManager:
                             **create_params
                         )
                         message = response.choices[0].message
+                        preview = self._preview(getattr(message, "content", None))
+                        has_tool_calls = bool(getattr(message, "tool_calls", None))
+                        logger.info(
+                            "conversation.llm_response provider=groq tool_calls=%s content=%s",
+                            has_tool_calls,
+                            preview,
+                        )
                         return self._normalize_assistant_message(
                             message, response_model=response_model
                         )
@@ -598,7 +658,7 @@ class ConversationManager:
                             create_params.update(
                                 {"model": self.llm.model, "messages": messages}
                             )
-                            if self._tool_schemas:
+                            if run_tools and self._tool_schemas:
                                 create_params["tools"] = self._tool_schemas
                                 if tool_choice is not None:
                                     create_params["tool_choice"] = tool_choice
@@ -607,6 +667,13 @@ class ConversationManager:
                             )
 
                         message = response.choices[0].message
+                        preview = self._preview(getattr(message, "content", None))
+                        has_tool_calls = bool(getattr(message, "tool_calls", None))
+                        logger.info(
+                            "conversation.llm_response provider=openai tool_calls=%s content=%s",
+                            has_tool_calls,
+                            preview,
+                        )
                         return self._normalize_assistant_message(
                             message, response_model=response_model
                         )
@@ -633,8 +700,10 @@ class ConversationManager:
                             # Use exponential backoff if no specific wait time found
                             wait_time = base_backoff * (2**attempt)
 
-                        print(
-                            f"⏳ Rate limit hit (attempt {attempt + 1}/{max_retries}). Waiting {wait_time:.1f}s..."
+                        logger.warning(
+                            "Rate limit encountered attempt=%s wait=%.1fs",
+                            attempt + 1,
+                            wait_time,
                         )
                         await asyncio.sleep(wait_time)
                         continue
@@ -673,12 +742,20 @@ class ConversationManager:
                     continue
 
                 final_content = content or ""
+                logger.info(
+                    "conversation.generate complete tool_calls_executed=%s final_content=%s",
+                    tool_iterations,
+                    self._preview(final_content),
+                )
                 break
 
             return final_content
         finally:
-            if not add_to_history and original_messages is not None:
+            if original_messages is not None:
                 self.messages = original_messages
+            logger.info(
+                "conversation.generate end history=%s", len(self.messages)
+            )
 
     def _refresh_tool_schemas(self):
         self._tool_schemas = [
@@ -778,12 +855,24 @@ class ConversationManager:
             except json.JSONDecodeError:
                 arguments = {"raw_arguments": arguments_json}
 
+            logger.info(
+                "conversation.tool_call start name=%s id=%s args=%s",
+                name,
+                tool_call_id,
+                self._preview(arguments),
+            )
             if tool_executor is not None:
                 result = await tool_executor(name, arguments, tool_call_id)
             else:
                 result = await self._invoke_registered_tool(name, arguments)
 
             content = self._format_tool_result(result)
+            logger.info(
+                "conversation.tool_call result name=%s id=%s content=%s",
+                name,
+                tool_call_id,
+                self._preview(content),
+            )
             self.add_message(
                 "tool",
                 content,

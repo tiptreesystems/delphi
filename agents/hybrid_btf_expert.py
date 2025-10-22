@@ -24,7 +24,8 @@ from agents.btf_utils import (
     BTFSearchQueries,
     BTFSearchResult,
     BTFSearchFact,
-    BTFForecastResult,
+    # BTFForecastResult,
+    HybridForecastResult,
     BTFEvidenceExtraction,
     calculate_brier_score,
     calculate_weighted_brier_score,
@@ -32,58 +33,6 @@ from agents.btf_utils import (
     fetch_search_results,
     fetch_page_content,
 )
-
-
-@dataclass
-class HybridForecastResult:
-    """Container for hybrid expert outputs."""
-
-    question_id: str
-    question: str
-    probability: float
-    response: str
-    search_results: List[BTFSearchResult] = field(default_factory=list)
-    evidence: List[BTFSearchFact] = field(default_factory=list)
-    queries: List[str] = field(default_factory=list)
-    resolution: Optional[str] = None
-    scoring_weight: float = 1.0
-    brier_score: float = math.nan
-    weighted_brier_score: float = math.nan
-    generated_at: datetime = field(default_factory=datetime.utcnow)
-    metadata: Dict[str, Union[str, float, int, dict, list]] = field(
-        default_factory=dict
-    )
-
-    def to_btfforecast(self) -> BTFForecastResult:
-        """Return a BTFForecastResult for compatibility with existing tooling."""
-
-        return BTFForecastResult(
-            question_id=self.question_id,
-            question=self.question,
-            probability=self.probability,
-            reasoning=self.response,
-            search_results=self.evidence,
-            resolution=self.resolution or "unknown",
-            scoring_weight=self.scoring_weight,
-            brier_score=self.brier_score,
-            weighted_brier_score=self.weighted_brier_score,
-        )
-
-    def as_dict(self) -> dict:
-        return {
-            "question_id": self.question_id,
-            "question": self.question,
-            "probability": self.probability,
-            "response": self.response,
-            "evidence": [result.model_dump() for result in self.evidence],
-            "queries": list(self.queries),
-            "resolution": self.resolution,
-            "scoring_weight": self.scoring_weight,
-            "brier_score": self.brier_score,
-            "weighted_brier_score": self.weighted_brier_score,
-            "generated_at": self.generated_at.isoformat(),
-            "metadata": self.metadata,
-        }
 
 
 class HybridBTFExpert:
