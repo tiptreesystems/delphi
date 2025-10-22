@@ -1,6 +1,7 @@
 import json
 import os
-from typing import Optional, Dict, List, Union
+import inspect
+from typing import Optional, Dict, List, Union, Callable, Awaitable, Any
 from enum import Enum
 from abc import ABC, abstractmethod
 import anthropic
@@ -353,17 +354,87 @@ class LLMFactory:
 class ConversationManager:
     def __init__(self, llm: BaseLLM):
         self.llm = llm
-        self.messages: List[Dict[str, str]] = []
+        self.messages: List[Dict[str, Any]] = []
+        self._registered_tools: Dict[
+            str, Dict[str, Any]
+        ] = {}  # name -> {"schema": dict, "handler": Callable}
+        self._tool_schemas: List[Dict[str, Any]] = []
 
-    def add_message(self, role: str, content: str):
-        self.messages.append({"role": role, "content": content})
+    def add_message(
+        self, role: str, content: Optional[str], **kwargs
+    ) -> Dict[str, Any]:
+        message = {"role": role, "content": content}
+        for key, value in kwargs.items():
+            if value is not None:
+                message[key] = value
+        self.messages.append(message)
+        return message
 
-    def add_messages(self, messages: List[Dict[str, str]]):
+    def add_messages(self, messages: List[Dict[str, Any]]):
         for message in messages:
-            if "role" in message and "content" in message:
-                self.add_message(message["role"], message["content"])
+            role = message.get("role")
+            if role is None:
+                raise ValueError("Each message must contain a 'role'.")
+            content = message.get("content")
+            extras = {k: v for k, v in message.items() if k not in {"role", "content"}}
+            self.add_message(role, content, **extras)
+
+    def clear_messages(self):
+        self.messages.clear()
+
+    def register_tool(
+        self,
+        name: str,
+        handler: Callable[..., Awaitable[Any]],
+        schema: Dict[str, Any],
+    ):
+        if not inspect.iscoroutinefunction(handler):
+            raise ValueError(f"Tool '{name}' handler must be async.")
+        if schema.get("type") != "function":
+            raise ValueError("Tool schema must follow the OpenAI function schema.")
+        function_block = schema.get("function") or {}
+        if function_block.get("name") and function_block["name"] != name:
+            raise ValueError(
+                f"Tool schema name '{function_block['name']}' does not match registered name '{name}'."
+            )
+        self._registered_tools[name] = {"schema": schema, "handler": handler}
+        self._refresh_tool_schemas()
+
+    def register_tool_object(self, tool: Any):
+        schema = tool.generate_openai_schema()
+        self.register_tool(tool.name, tool.__call__, schema)
+
+    def register_tools(
+        self,
+        tools: List[Dict[str, Any] | Any],
+    ):
+        for tool in tools:
+            if hasattr(tool, "generate_openai_schema") and hasattr(tool, "__call__"):
+                self.register_tool_object(tool)
+            elif isinstance(tool, dict):
+                name = (
+                    tool.get("function", {}).get("name")
+                    or tool.get("name")
+                    or tool.get("id")
+                )
+                handler = tool.get("handler")
+                schema = tool.get("schema") or tool
+                if name is None or handler is None:
+                    raise ValueError(
+                        "Dict-based tool registration requires 'name', 'handler', and 'schema'."
+                    )
+                self.register_tool(name, handler, schema)
             else:
-                raise ValueError("Each message must contain 'role' and 'content' keys.")
+                raise ValueError(
+                    "Each tool must either be a Tool-like object or a dict with schema/handler."
+                )
+
+    def clear_tools(self):
+        self._registered_tools.clear()
+        self._tool_schemas.clear()
+
+    def list_tool_schemas(self) -> List[Dict[str, Any]]:
+        return list(self._tool_schemas)
 
     async def generate_response(
         self,
@@ -371,8 +442,32 @@ class ConversationManager:
         add_to_history: bool = True,
         input_message_type: str = "user",
         response_model: Optional[BaseModel] = None,
+        *,
+        run_tools: bool = True,
+        max_tool_iterations: int = 5,
+        tool_choice: Optional[Union[str, Dict[str, Any]]] = None,
+        tool_executor: Optional[
+            Callable[[str, Dict[str, Any], str], Awaitable[Any]]
+        ] = None,
         **kwargs,
     ) -> str:
+        """
+        Generate an assistant response, optionally executing tool calls.
+
+        Args:
+            user_input: Latest user message to append to the conversation.
+            add_to_history: When False, leaves ConversationManager state untouched after completion.
+            input_message_type: Role for the incoming message (defaults to 'user').
+            response_model: Optional Pydantic model guiding structured outputs.
+            run_tools: When True, automatically executes tool calls returned by the model.
+            max_tool_iterations: Guardrail for recursive tool execution loops.
+            tool_choice: Optional explicit tool selection passed to the OpenAI-compatible API.
+            tool_executor: Optional override for executing tool calls; receives (name, arguments, call_id).
+            **kwargs: Forwarded to the underlying chat completion API.
+
+        Returns:
+            The assistant's textual response (empty string if model omits content).
+        """
         if response_model:
             schema = response_model.model_json_schema()
             user_input = dedent(
@@ -388,8 +483,16 @@ class ConversationManager:
                 - Return exactly one JSON object, nothing else.
                 """
             )
+
+        original_messages = None
+        if not add_to_history:
+            original_messages = list(self.messages)
+
         if add_to_history:
             self.add_message(input_message_type, user_input)
+        else:
+            # Still provide context for the LLM without mutating the original history
+            self.messages.append({"role": input_message_type, "content": user_input})
 
         async def _generate_with_retry(max_retries=10, base_backoff=2.0):
             import asyncio
@@ -398,6 +501,10 @@ class ConversationManager:
             for attempt in range(max_retries):
                 try:
                     if isinstance(self.llm, ClaudeLLM):
+                        if self._tool_schemas:
+                            raise NotImplementedError(
+                                "Tool calls are not yet supported for Claude models in ConversationManager."
+                            )
                         # Filter out system messages for Claude API (system prompt is passed separately)
                         claude_messages = [
                             msg for msg in self.messages if msg.get("role") != "system"
@@ -408,7 +515,8 @@ class ConversationManager:
                             messages=claude_messages,
                             **kwargs,
                         )
-                        return response.content[0].text if response.content else ""
+                        text = response.content[0].text if response.content else ""
+                        return {"role": "assistant", "content": text}
                     elif isinstance(self.llm, GroqLLM):
                         # Groq uses synchronous API but we handle it here
                         messages = [
@@ -422,6 +530,11 @@ class ConversationManager:
                             "max_completion_tokens": kwargs.get("max_tokens", 8192),
                             "temperature": kwargs.get("temperature", 0.7),
                         }
+
+                        if self._tool_schemas:
+                            create_params["tools"] = self._tool_schemas
+                            if tool_choice is not None:
+                                create_params["tool_choice"] = tool_choice
 
                         # Add seed if provided for deterministic results
                         if "seed" in kwargs:
@@ -440,7 +553,10 @@ class ConversationManager:
                         response = self.llm.client.chat.completions.create(
                             **create_params
                         )
-                        return response.choices[0].message.content
+                        message = response.choices[0].message
+                        return self._normalize_assistant_message(
+                            message, response_model=response_model
+                        )
                     else:
                         messages = [
                             {"role": "system", "content": self.llm.system_prompt}
@@ -478,20 +594,22 @@ class ConversationManager:
                                 **create_params
                             )
                         else:
+                            create_params = dict(kwargs)
+                            create_params.update(
+                                {"model": self.llm.model, "messages": messages}
+                            )
+                            if self._tool_schemas:
+                                create_params["tools"] = self._tool_schemas
+                                if tool_choice is not None:
+                                    create_params["tool_choice"] = tool_choice
                             response = await self.llm.client.chat.completions.create(
-                                model=self.llm.model, messages=messages, **kwargs
+                                **create_params
                             )
 
-                        content = response.choices[0].message.content
-                        if response_model:
-                            # Clean up JSON response
-                            content = content.strip()
-                            if content.startswith("```json"):
-                                content = content[7:-3]
-                            elif content.startswith("```"):
-                                content = content[3:-3]
-
-                        return content
+                        message = response.choices[0].message
+                        return self._normalize_assistant_message(
+                            message, response_model=response_model
+                        )
 
                 except Exception as e:
                     # Check if it's a rate limit error
@@ -527,7 +645,148 @@ class ConversationManager:
             # This should never be reached due to the raise in the except block
             raise Exception("Max retries exceeded")
 
-        content = await _generate_with_retry()
-        if add_to_history:
-            self.add_message("assistant", content)
-        return content
+        try:
+            tool_iterations = 0
+            final_content: Optional[str] = None
+
+            while True:
+                assistant_message = await _generate_with_retry()
+                tool_calls = assistant_message.get("tool_calls")
+                content = assistant_message.get("content")
+
+                stored_message = self.add_message(
+                    "assistant",
+                    content,
+                    **({"tool_calls": tool_calls} if tool_calls else {}),
+                )
+
+                if tool_calls and run_tools:
+                    await self._execute_tool_calls(
+                        tool_calls,
+                        tool_executor=tool_executor,
+                    )
+                    tool_iterations += 1
+                    if tool_iterations >= max_tool_iterations:
+                        raise RuntimeError(
+                            "Maximum tool iterations exceeded without final assistant response."
+                        )
+                    continue
+
+                final_content = content or ""
+                break
+
+            return final_content
+        finally:
+            if not add_to_history and original_messages is not None:
+                self.messages = original_messages
+
+    def _refresh_tool_schemas(self):
+        self._tool_schemas = [
+            registered["schema"] for registered in self._registered_tools.values()
+        ]
+
+    def _normalize_assistant_message(
+        self, message: Any, response_model: Optional[BaseModel] = None
+    ) -> Dict[str, Any]:
+        content = getattr(message, "content", None)
+        if isinstance(content, list):
+            text_parts = []
+            for part in content:
+                text = getattr(part, "text", None)
+                if text is not None:
+                    text_parts.append(text)
+                elif isinstance(part, dict) and part.get("type") == "text":
+                    text_parts.append(part.get("text", ""))
+            content = "".join(text_parts) if text_parts else None
+
+        if isinstance(content, str) and response_model:
+            cleaned = content.strip()
+            if cleaned.startswith("```json"):
+                cleaned = cleaned[7:-3]
+            elif cleaned.startswith("```") and cleaned.endswith("```"):
+                cleaned = cleaned[3:-3]
+            content = cleaned
+
+        normalized: Dict[str, Any] = {"role": getattr(message, "role", "assistant")}
+        normalized["content"] = content
+
+        tool_calls = getattr(message, "tool_calls", None)
+        if tool_calls:
+            normalized["tool_calls"] = []
+            for call in tool_calls:
+                function = getattr(call, "function", None) or {}
+                normalized["tool_calls"].append(
+                    {
+                        "id": getattr(call, "id", None),
+                        "type": getattr(call, "type", "function"),
+                        "function": {
+                            "name": getattr(function, "name", None)
+                            if not isinstance(function, dict)
+                            else function.get("name"),
+                            "arguments": getattr(function, "arguments", "{}")
+                            if not isinstance(function, dict)
+                            else function.get("arguments", "{}"),
+                        },
+                    }
+                )
+        return normalized
+
+    def _format_tool_result(self, result: Any) -> str:
+        if isinstance(result, BaseModel):
+            return result.model_dump_json()
+        if isinstance(result, (dict, list)):
+            return json.dumps(result)
+        if isinstance(result, str):
+            return result
+        if result is None:
+            return "null"
+        try:
+            return json.dumps(result)
+        except TypeError:
+            return str(result)
+
+    async def _invoke_registered_tool(
+        self, name: str, arguments: Dict[str, Any]
+    ) -> Any:
+        registered = self._registered_tools.get(name)
+        if registered is None:
+            raise ValueError(
+                f"Tool '{name}' is not registered with ConversationManager."
+            )
+        handler = registered["handler"]
+        return await handler(**arguments)
+
+    async def _execute_tool_calls(
+        self,
+        tool_calls: List[Dict[str, Any]],
+        *,
+        tool_executor: Optional[
+            Callable[[str, Dict[str, Any], str], Awaitable[Any]]
+        ] = None,
+    ):
+        for call in tool_calls:
+            function_block = call.get("function", {}) if isinstance(call, dict) else {}
+            name = function_block.get("name")
+            arguments_json = function_block.get("arguments", "{}")
+            tool_call_id = call.get("id")
+
+            if not name:
+                raise ValueError("Tool call is missing a function name.")
+
+            try:
+                arguments = json.loads(arguments_json) if arguments_json else {}
+            except json.JSONDecodeError:
+                arguments = {"raw_arguments": arguments_json}
+
+            if tool_executor is not None:
+                result = await tool_executor(name, arguments, tool_call_id)
+            else:
+                result = await self._invoke_registered_tool(name, arguments)
+
+            content = self._format_tool_result(result)
+            self.add_message(
+                "tool",
+                content,
+                name=name,
+                tool_call_id=tool_call_id,
+            )
