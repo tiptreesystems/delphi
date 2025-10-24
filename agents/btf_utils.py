@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import math
+import hashlib
 from dataclasses import dataclass, field
 from datetime import datetime
+from pathlib import Path
 from typing import Dict, List, Optional, Union
 
 import os
@@ -26,12 +28,14 @@ from utils.models import ConversationManager
 
 load_dotenv()
 
+CONTENT_CACHE_DIR = Path(os.getenv("BTF_CONTENT_CACHE_DIR", "cache/btf_content"))
+
 RETROSEARCH_API_TOKEN = os.getenv("RETROSEARCH_API_TOKEN")
 RETROSEARCH_URL = os.getenv("RETROSEARCH_URL")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 
-DEFAULT_QUESTIONS_LIMIT = int(os.getenv("BTF_QUESTIONS_LIMIT", "0"))
+# DEFAULT_QUESTIONS_LIMIT = int(os.getenv("BTF_QUESTIONS_LIMIT", "0"))
 
 
 # Configure logging
@@ -101,6 +105,7 @@ class BTFForecastResult(BaseModel):
     reasoning: str
     search_results: List[BTFSearchResult] = Field(default_factory=list)
     extracted_facts: List[BTFSearchFact] = Field(default_factory=list)
+    fetched_url_content_count: int = 0
     resolution: str = "unknown"
     scoring_weight: float = 1.0
     brier_score: float = float("nan")
@@ -242,39 +247,91 @@ async def get_retrosearch_results(
         "date_cutoff_end": date_cutoff_end.isoformat(),
     }
 
-    async with httpx.AsyncClient(timeout=20) as client:
-        response = await client.post(
-            f"{RETROSEARCH_URL}/search",
-            headers=headers,
-            json=params,
-        )
-        if response.status_code != 200:
-            error_text = response.text
-            raise Exception(
-                f"Search failed with status {response.status_code}: {error_text}"
-            )
+    max_attempts = int(os.getenv("RETROSEARCH_MAX_RETRIES", "3"))
+    max_attempts = max(max_attempts, 1)
+    backoff = float(os.getenv("RETROSEARCH_RETRY_BACKOFF", "2.0"))
 
-        result = response.json()
-        return result.get("organic_results", [])
+    last_error: Exception | None = None
+    for attempt in range(max_attempts):
+        try:
+            async with httpx.AsyncClient(timeout=20) as client:
+                response = await client.post(
+                    f"{RETROSEARCH_URL}/search",
+                    headers=headers,
+                    json=params,
+                )
+                if response.status_code != 200:
+                    error_text = response.text
+                    raise Exception(
+                        f"Search failed with status {response.status_code}: {error_text}"
+                    )
+
+                result = response.json()
+                return result.get("organic_results", [])
+        except (
+            httpx.ReadTimeout,
+            httpx.ConnectTimeout,
+            httpx.RemoteProtocolError,
+        ) as exc:
+            last_error = exc
+            if attempt == max_attempts - 1:
+                break
+            delay = backoff**attempt
+            logger.warning(
+                "RetroSearch read timeout (attempt %s/%s) for query '%s'; retrying in %.1fs",
+                attempt + 1,
+                max_attempts,
+                query,
+                delay,
+            )
+            await asyncio.sleep(delay)
+        except Exception as exc:
+            last_error = exc
+            break
+
+    assert last_error is not None
+    raise last_error
 
 
 async def get_result_content(
     url: str,
-    date_cutoff_start: datetime,
-    date_cutoff_end: datetime,
-) -> str:
-    """Get page content with optional date filtering."""
+    date_cutoff_start: datetime | None,
+    date_cutoff_end: datetime | None,
+) -> dict[str, Any]:
+    """Get page content with optional date filtering.
+
+    Returns a dictionary containing the full content, word count metadata,
+    and whether the content was truncated for snippet generation.
+    """
+
+    cache_key = _make_content_cache_key(url, date_cutoff_start, date_cutoff_end)
+    cached = _read_cached_payload(cache_key)
+    if cached is not None:
+        logger.debug("Content cache hit for %s", url)
+        cached.setdefault("cache_key", cache_key)
+        content = cached.get("content", "")
+        if not cached.get("snippet") and content:
+            snippet = _build_snippet(content)
+            cached["snippet"] = snippet
+            cached.setdefault("snippet_word_count", _word_count(snippet))
+            if cached.get("snippet_truncated") is None:
+                cached["snippet_truncated"] = len(content) > len(snippet)
+        if cached.get("word_count") is None and content:
+            cached["word_count"] = _word_count(content)
+        cached.setdefault("snippet_word_count", 0)
+        cached.setdefault("snippet_truncated", False)
+        return cached
 
     headers = {
         "Authorization": f"Bearer {RETROSEARCH_API_TOKEN}",
         "Content-Type": "application/json",
     }
 
-    params = {
-        "url": url,
-        "date_cutoff_end": date_cutoff_end.isoformat(),
-        "date_cutoff_start": date_cutoff_start.isoformat(),
-    }
+    params: dict[str, Any] = {"url": url}
+    if date_cutoff_end is not None:
+        params["date_cutoff_end"] = date_cutoff_end.isoformat()
+    if date_cutoff_start is not None:
+        params["date_cutoff_start"] = date_cutoff_start.isoformat()
 
     async with httpx.AsyncClient(timeout=20) as client:
         response = await client.post(
@@ -290,12 +347,104 @@ async def get_result_content(
 
         result = response.json()
         if result.get("status") == "success":
-            return result.get("content", "")
-        else:
-            raise Exception(
-                f"Failed to fetch page {url}: {result.get('error', 'Unknown error')}"
+            content = result.get("content", "")
+            snippet = _build_snippet(content)
+            payload = {
+                "url": url,
+                "date_cutoff_start": _iso_or_none(date_cutoff_start),
+                "date_cutoff_end": _iso_or_none(date_cutoff_end),
+                "cached_at": datetime.utcnow().isoformat(),
+                "content": content,
+                "word_count": _word_count(content),
+                "snippet": snippet,
+                "snippet_word_count": _word_count(snippet),
+                "snippet_truncated": len(content) > len(snippet),
+                "cache_key": cache_key,
+            }
+            _write_cached_content(
+                cache_key,
+                payload,
             )
-            return ""
+            return payload
+        else:
+            logger.warning(
+                f"get_result_content() Failed to fetch content for URL {url}: {result.get('error')}"
+            )
+            return {
+                "url": url,
+                "content": "",
+                "word_count": 0,
+                "snippet": "",
+                "snippet_word_count": 0,
+                "snippet_truncated": False,
+                "cache_key": cache_key,
+            }
+
+
+def _iso_or_none(value: datetime | None) -> Optional[str]:
+    if value is None:
+        return None
+    if isinstance(value, datetime):
+        return value.isoformat()
+    return str(value)
+
+
+def _make_content_cache_key(
+    url: str, date_cutoff_start: datetime | None, date_cutoff_end: datetime | None
+) -> str:
+    key_payload = json.dumps(
+        {
+            "url": url,
+            "start": _iso_or_none(date_cutoff_start),
+            "end": _iso_or_none(date_cutoff_end),
+        },
+        sort_keys=True,
+    )
+    return hashlib.sha256(key_payload.encode("utf-8")).hexdigest()
+
+
+def _get_cache_path(cache_key: str) -> Path:
+    return CONTENT_CACHE_DIR / f"{cache_key}.json"
+
+
+def _read_cached_payload(cache_key: str) -> Optional[dict[str, Any]]:
+    path = _get_cache_path(cache_key)
+    try:
+        with path.open("r", encoding="utf-8") as stream:
+            payload = json.load(stream)
+        return payload
+    except FileNotFoundError:
+        return None
+    except Exception as exc:
+        logger.debug("Failed to read cache %s: %s", path, exc)
+        return None
+
+
+def _write_cached_content(cache_key: str, payload: dict[str, Any]) -> None:
+    try:
+        CONTENT_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        path = _get_cache_path(cache_key)
+        tmp_path = path.with_suffix(".tmp")
+        with tmp_path.open("w", encoding="utf-8") as stream:
+            json.dump(payload, stream, ensure_ascii=False)
+        tmp_path.replace(path)
+    except Exception as exc:
+        logger.warning("Failed to write content cache for key %s: %s", cache_key, exc)
+
+
+def _word_count(text: str) -> int:
+    if not text:
+        return 0
+    return len(text.split())
+
+
+def _build_snippet(content: str, max_chars: int = 2500) -> str:
+    if not content:
+        return ""
+    if len(content) <= max_chars:
+        return content
+    trimmed = content[:max_chars].rstrip()
+    return trimmed + "…"
 
 
 def load_questions_from_csv(
@@ -319,8 +468,8 @@ def load_questions_from_csv(
         questions = [BTFQuestion.model_validate(row) for row in reader]
 
     effective_limit = limit
-    if effective_limit is None and DEFAULT_QUESTIONS_LIMIT > 0:
-        effective_limit = DEFAULT_QUESTIONS_LIMIT
+    if effective_limit is None:
+        effective_limit = len(questions)
 
     if effective_limit is not None and effective_limit > 0:
         count = min(effective_limit, len(questions))
@@ -332,7 +481,7 @@ def load_questions_from_csv(
     return questions
 
 
-async def extract_evidence_from_page(
+async def extract_evidence_from_page_narrow(
     search_result: BTFSearchResult, question: BTFQuestion, max_facts: int = 5
 ) -> list[BTFSearchFact]:
     """Extract key facts from a web page that are relevant to the forecasting question.
@@ -377,6 +526,87 @@ async def extract_evidence_from_page(
         return [search_result]
 
 
+async def extract_evidence_from_page(
+    conversation_manager: ConversationManager,
+    search_result: BTFSearchResult,
+    question: BTFQuestion,
+    *,
+    max_facts: int = 5,
+    add_to_history: bool = False,
+    run_tools: bool = False,
+    temperature: float = 0.0,
+    max_tokens: int = 1024,
+) -> List[BTFSearchFact]:
+    """Extract key facts from a web page using the provided conversation manager.
+
+    Args:
+        conversation_manager: Conversation manager that wraps the target LLM.
+        search_result: The search result containing the page content.
+        question: The forecasting question for context.
+        max_facts: Maximum number of facts to extract.
+        add_to_history: Whether to persist the prompt/response to the conversation log.
+        run_tools: Whether tool calls are permitted during extraction.
+        temperature: Sampling temperature when calling the LLM.
+        max_tokens: Maximum tokens an LLM response may use.
+    """
+
+    if conversation_manager is None:
+        raise ValueError(
+            "A ConversationManager instance is required to extract evidence."
+        )
+
+    content = search_result.content[:65535]
+    prompt = build_evidence_extraction_prompt(question, max_facts, content)
+
+    effective_max_tokens = (
+        max_tokens if isinstance(max_tokens, int) and max_tokens > 0 else 1024
+    )
+
+    raw_response = await conversation_manager.generate_response(
+        prompt,
+        add_to_history=add_to_history,
+        include_history=False,
+        response_model=BTFEvidenceExtraction,
+        max_tokens=effective_max_tokens,
+        temperature=temperature,
+        run_tools=run_tools,
+    )
+
+    facts: List[str] = []
+    if isinstance(raw_response, BTFEvidenceExtraction):
+        facts = raw_response.facts
+    else:
+        response_text = (
+            raw_response if isinstance(raw_response, str) else str(raw_response)
+        )
+        try:
+            structured = BTFEvidenceExtraction.model_validate_json(response_text)
+            facts = structured.facts
+        except Exception:
+            facts = _parse_facts_from_text(response_text)
+
+    structured_facts: List[BTFSearchFact] = []
+    for fact in facts:
+        candidate = fact.strip()
+        if not candidate:
+            continue
+        structured_facts.append(
+            BTFSearchFact(
+                title=search_result.title,
+                url=search_result.url,
+                fact=candidate,
+            )
+        )
+        if len(structured_facts) >= max_facts:
+            break
+
+    if not structured_facts:
+        # Mirror narrow behavior by returning original page when no facts are produced.
+        return [search_result]
+
+    return structured_facts
+
+
 async def generate_search_queries_narrow(question: BTFQuestion) -> list[str]:
     """Generate search queries for a given question."""
 
@@ -409,7 +639,9 @@ async def generate_search_queries(
     """
 
     if conversation_manager is None:
-        raise ValueError("A ConversationManager instance is required to generate queries.")
+        raise ValueError(
+            "A ConversationManager instance is required to generate queries."
+        )
 
     if max_queries is None:
         query_limit: Optional[int] = 3
@@ -492,6 +724,45 @@ def _parse_queries_from_text(raw_response: str) -> List[str]:
     return queries
 
 
+def _parse_facts_from_text(raw_response: str) -> List[str]:
+    """Fallback parser to extract fact snippets from unconstrained text output."""
+    facts: List[str] = []
+
+    # First look for JSON-like enumerations within brackets
+    try:
+        parsed = json.loads(raw_response)
+        if isinstance(parsed, dict):
+            candidates = parsed.get("facts") or parsed.get("items") or []
+            if isinstance(candidates, list):
+                for item in candidates:
+                    if isinstance(item, str):
+                        candidate = item.strip()
+                        if candidate:
+                            facts.append(candidate)
+        elif isinstance(parsed, list):
+            for item in parsed:
+                if isinstance(item, str):
+                    candidate = item.strip()
+                    if candidate:
+                        facts.append(candidate)
+        if facts:
+            return facts
+    except Exception:
+        pass
+
+    for line in raw_response.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if stripped.lower().startswith("reasoning"):
+            continue
+        stripped = re.sub(r"^[\d\-\*\.)\s]+", "", stripped)
+        if stripped:
+            facts.append(stripped)
+
+    return facts
+
+
 async def fetch_search_results(query, date_cutoff_start, date_cutoff_end):
     try:
         logger.debug(f"Searching for: {query}")
@@ -509,11 +780,12 @@ async def fetch_search_results(query, date_cutoff_start, date_cutoff_end):
 
 async def fetch_page_content(result, date_cutoff_start, date_cutoff_end):
     try:
-        content = await get_result_content(
+        payload = await get_result_content(
             result.get("link", ""),
             date_cutoff_start=date_cutoff_start,
             date_cutoff_end=date_cutoff_end,
         )
+        content = payload.get("content", "") if isinstance(payload, dict) else str(payload or "")
         if content:
             content = content[:5000] + "..." if len(content) > 5000 else content
             search_result = BTFSearchResult(
@@ -563,7 +835,9 @@ async def gather_evidence(
     # Extract evidence from all pages concurrently using the new function
     extraction_tasks = []
     for search_result in all_results:
-        extraction_tasks.append(extract_evidence_from_page(search_result, question))
+        extraction_tasks.append(
+            extract_evidence_from_page_narrow(search_result, question)
+        )
 
     extracted_results = await asyncio.gather(*extraction_tasks)
 

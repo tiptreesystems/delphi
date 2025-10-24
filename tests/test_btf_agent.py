@@ -138,7 +138,19 @@ class BTFAgentTestCase(unittest.IsolatedAsyncioTestCase):
         ):
             self.assertEqual(date_cutoff_start, self.question.date_cutoff_start)
             self.assertEqual(date_cutoff_end, self.question.date_cutoff_end)
-            return "Content describing the likelihood of an agreement."
+            content = "Content describing the likelihood of an agreement."
+            snippet = content[:100]
+            return {
+                "url": url,
+                "content": content,
+                "word_count": len(content.split()),
+                "snippet": snippet,
+                "snippet_word_count": len(snippet.split()),
+                "snippet_truncated": len(snippet) < len(content),
+                "date_cutoff_start": date_cutoff_start.isoformat(),
+                "date_cutoff_end": date_cutoff_end.isoformat(),
+                "cached_at": datetime.utcnow().isoformat(),
+            }
 
         async def fake_extract_evidence_from_page(
             search_result: BTFSearchResult, *_args, **_kwargs
@@ -193,7 +205,7 @@ class BTFAgentTestCase(unittest.IsolatedAsyncioTestCase):
                     },
                 ),
                 FakeToolCall(
-                    "btf_retro_search",
+                    "btf_retro_search_urls",
                     {
                         "query": "climate agreement 2024 outlook",
                         "max_results": 2,
@@ -216,6 +228,7 @@ class BTFAgentTestCase(unittest.IsolatedAsyncioTestCase):
 
         self.assertAlmostEqual(result.probability, 0.42, places=3)
         self.assertTrue(result.reasoning.endswith("FINAL PROBABILITY: 0.42"))
+        self.assertEqual(result.fetched_url_content_count, 0)
 
         tool_names = [entry["name"] for entry in result.tool_outputs]
         self.assertIn("btf_generate_search_queries", tool_names)

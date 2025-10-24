@@ -77,7 +77,12 @@ class BTFAgent:
             max_retries=self.probability_retry_count,
         )
 
-        tool_outputs, search_results, extracted_facts = self._collect_tool_data()
+        (
+            tool_outputs,
+            search_results,
+            extracted_facts,
+            fetched_url_count,
+        ) = self._collect_tool_data()
 
         raw_resolution = (btf_question.resolution or "unknown").strip() or "unknown"
         normalized_resolution = raw_resolution.lower()
@@ -99,6 +104,7 @@ class BTFAgent:
             reasoning=response_text,
             search_results=search_results,
             extracted_facts=extracted_facts,
+            fetched_url_count=fetched_url_count,
             resolution=raw_resolution,
             scoring_weight=btf_question.scoring_weight,
             brier_score=brier_score,
@@ -139,10 +145,12 @@ class BTFAgent:
         List[Dict[str, Any]],
         List[BTFSearchResult],
         List[BTFSearchFact],
+        int,
     ]:
         outputs: List[Dict[str, Any]] = []
         search_results: List[BTFSearchResult] = []
         extracted_facts: List[BTFSearchFact] = []
+        fetched_urls: set[str] = set()
         for message in self.conversation_manager.messages:
             if message.get("role") != "tool":
                 continue
@@ -156,21 +164,28 @@ class BTFAgent:
             else:
                 parsed_content = raw_content
 
+            tool_name = message.get("name")
+
             outputs.append(
                 {
-                    "name": message.get("name"),
+                    "name": tool_name,
                     "content": parsed_content,
                     "raw": raw_content,
                     "tool_call_id": message.get("tool_call_id"),
                 }
             )
+            if tool_name == "btf_fetch_url_content":
+                if isinstance(parsed_content, dict):
+                    url_value = parsed_content.get("url")
+                    if url_value:
+                        fetched_urls.add(str(url_value))
             self._harvest_structured_tool_data(
-                message.get("name"),
+                tool_name,
                 parsed_content,
                 search_results,
                 extracted_facts,
             )
-        return outputs, search_results, extracted_facts
+        return outputs, search_results, extracted_facts, len(fetched_urls)
 
     def _harvest_structured_tool_data(
         self,
@@ -182,16 +197,20 @@ class BTFAgent:
         if not tool_name or content is None:
             return
 
-        if tool_name == "btf_fetch_page_content":
+        if tool_name in {"btf_fetch_page_content", "btf_fetch_url_content"}:
             if isinstance(content, dict):
                 url = str(content.get("url") or "")
-                text = str(content.get("content") or "")
+                text = str(
+                    content.get("snippet")
+                    or content.get("content")
+                    or ""
+                )
                 title = str(content.get("title") or url or "Page content")
                 if url or text:
                     search_results.append(
                         BTFSearchResult(title=title, url=url, content=text)
                     )
-        elif tool_name == "btf_retro_search":
+        elif tool_name in {"btf_retro_search", "btf_retro_search_urls"}:
             if isinstance(content, dict):
                 for item in content.get("results", []):
                     if isinstance(item, dict):
@@ -272,7 +291,7 @@ class BTFAgent:
 
         enriched = dict(arguments)
         for key, value in self._question_context_map(question).items():
-            if key in allowed_params and key not in enriched and value is not None:
+            if key in allowed_params and value is not None:
                 enriched[key] = value
         return enriched
 

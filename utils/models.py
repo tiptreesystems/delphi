@@ -382,7 +382,9 @@ class ConversationManager:
         preview = self._preview(message.get("content"))
         extras = {k: v for k, v in message.items() if k not in {"role", "content"}}
         extras_json = json.dumps(extras, default=str) if extras else ""
-        logger.info("%s role=%s content=%s extras=%s", prefix, role, preview, extras_json)
+        logger.info(
+            "%s role=%s content=%s extras=%s", prefix, role, preview, extras_json
+        )
 
     def add_message(
         self, role: str, content: Optional[str], **kwargs
@@ -472,7 +474,7 @@ class ConversationManager:
         *,
         run_tools: bool = True,
         include_history: bool = True,
-        max_tool_iterations: int = 5,
+        max_tool_iterations: int = 15,
         tool_choice: Optional[Union[str, Dict[str, Any]]] = None,
         tool_executor: Optional[
             Callable[[str, Dict[str, Any], str], Awaitable[Any]]
@@ -527,7 +529,9 @@ class ConversationManager:
         elif not add_to_history:
             original_messages = list(self.messages)
 
-        response_model_name = getattr(response_model, "__name__", None) if response_model else None
+        response_model_name = (
+            getattr(response_model, "__name__", None) if response_model else None
+        )
         logger.info(
             "conversation.generate start run_tools=%s response_model=%s history=%s",
             run_tools,
@@ -753,9 +757,7 @@ class ConversationManager:
         finally:
             if original_messages is not None:
                 self.messages = original_messages
-            logger.info(
-                "conversation.generate end history=%s", len(self.messages)
-            )
+            logger.info("conversation.generate end history=%s", len(self.messages))
 
     def _refresh_tool_schemas(self):
         self._tool_schemas = [
@@ -853,7 +855,7 @@ class ConversationManager:
             try:
                 arguments = json.loads(arguments_json) if arguments_json else {}
             except json.JSONDecodeError:
-                arguments = {"raw_arguments": arguments_json}
+                raise ValueError("Tool call arguments are not valid JSON.")
 
             logger.info(
                 "conversation.tool_call start name=%s id=%s args=%s",

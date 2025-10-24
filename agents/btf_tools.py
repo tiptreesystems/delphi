@@ -7,7 +7,8 @@ from agents.btf_utils import (
     BTFQuestion,
     BTFSearchFact,
     BTFSearchResult,
-    extract_evidence_from_page,
+    extract_evidence_from_page as _extract_evidence_with_manager,
+    extract_evidence_from_page_narrow,
     generate_search_queries as _generate_search_queries_with_manager,
     generate_search_queries_narrow,
     get_retrosearch_results,
@@ -40,6 +41,32 @@ async def generate_search_queries(
         _CONVERSATION_MANAGER,
         question,
         max_queries=max_queries,
+        add_to_history=add_to_history,
+        run_tools=False,
+    )
+
+
+async def extract_evidence_from_page(
+    search_result: BTFSearchResult,
+    question: BTFQuestion,
+    *,
+    max_facts: int = 5,
+    add_to_history: bool = False,
+) -> List[BTFSearchFact]:
+    """Extract evidence using the configured conversation manager when available."""
+
+    if _CONVERSATION_MANAGER is None:
+        return await extract_evidence_from_page_narrow(
+            search_result=search_result,
+            question=question,
+            max_facts=max_facts,
+        )
+
+    return await _extract_evidence_with_manager(
+        _CONVERSATION_MANAGER,
+        search_result,
+        question,
+        max_facts=max_facts,
         add_to_history=add_to_history,
         run_tools=False,
     )
@@ -95,8 +122,8 @@ def _build_question(
 
 
 async def btf_generate_search_queries(
-    question_id: str,
-    question: str,
+    question_id: str = "",
+    question: str = "",
     background: str = "",
     resolution_criteria: str = "",
     fine_print: str = "",
@@ -109,6 +136,11 @@ async def btf_generate_search_queries(
     max_queries: int = 5,
 ) -> Dict[str, Any]:
     """Generate focused search queries for the provided forecasting question context."""
+
+    if not question_id:
+        raise ValueError("`question_id` must be provided for btf_generate_search_queries.")
+    if not question:
+        raise ValueError("`question` must be provided for btf_generate_search_queries.")
 
     btf_question = _build_question(
         question_id=question_id,
@@ -160,6 +192,7 @@ async def btf_retro_search_urls(
 
 async def btf_fetch_url_content(
     url: str,
+    *,
     date_cutoff_start: Optional[str] = None,
     date_cutoff_end: Optional[str] = None,
 ) -> Dict[str, Any]:
@@ -168,12 +201,44 @@ async def btf_fetch_url_content(
     end_dt = _parse_datetime(date_cutoff_end)
     start_dt = _parse_datetime(date_cutoff_start)
 
-    content = await get_result_content(
+    payload = await get_result_content(
         url=url,
         date_cutoff_start=start_dt,
         date_cutoff_end=end_dt,
     )
-    return {"url": url, "content": content}
+    content = payload.get("content", "")
+    snippet = payload.get("snippet")
+    if not snippet:
+        snippet = content[:2500].rstrip()
+        if len(content) > len(snippet):
+            snippet += "…"
+    word_count = payload.get("word_count")
+    if word_count is None:
+        word_count = len(content.split())
+    snippet_word_count = payload.get("snippet_word_count")
+    if snippet_word_count is None:
+        snippet_word_count = len(snippet.split())
+    truncated = payload.get("snippet_truncated")
+    if truncated is None:
+        truncated = len(payload.get("content", "")) > len(snippet)
+
+    if truncated and word_count and snippet_word_count is not None:
+        snippet = (
+            f"{snippet}\n\n[Truncated preview: showing {snippet_word_count} "
+            f"words out of ~{word_count}. Full content available via "
+            f"`btf_extract_evidence`.]"
+        )
+
+    return {
+        "url": url,
+        "snippet": snippet,
+        "word_count": word_count,
+        "snippet_word_count": snippet_word_count,
+        "snippet_truncated": truncated,
+        "date_cutoff_start": payload.get("date_cutoff_start"),
+        "date_cutoff_end": payload.get("date_cutoff_end"),
+        "cached_at": payload.get("cached_at"),
+    }
 
 
 def _normalize_fact_payload(items: Iterable[Any]) -> List[Dict[str, Any]]:
@@ -197,11 +262,12 @@ def _normalize_fact_payload(items: Iterable[Any]) -> List[Dict[str, Any]]:
 
 
 async def btf_extract_evidence(
-    question_id: str,
-    question: str,
-    content: str,
     url: str,
-    title: str = "",
+    *,
+    content: Optional[str] = None,
+    title: Optional[str] = None,
+    question_id: str = "",
+    question: str = "",
     background: str = "",
     resolution_criteria: str = "",
     fine_print: str = "",
@@ -214,6 +280,13 @@ async def btf_extract_evidence(
     max_facts: int = 5,
 ) -> Dict[str, Any]:
     """Extract decision-relevant facts from page content for a forecasting question."""
+
+    if not url:
+        raise ValueError("`url` must be provided for btf_extract_evidence.")
+    if not question:
+        raise ValueError("`question` must be provided for btf_extract_evidence.")
+    if not question_id:
+        raise ValueError("`question_id` must be provided for btf_extract_evidence.")
 
     btf_question = _build_question(
         question_id=question_id,
@@ -229,15 +302,25 @@ async def btf_extract_evidence(
         resolved_at=resolved_at,
     )
 
+    end_dt = _parse_datetime(date_cutoff_end)
+    start_dt = _parse_datetime(date_cutoff_start)
+    page_payload = await get_result_content(
+        url=url,
+        date_cutoff_start=start_dt,
+        date_cutoff_end=end_dt,
+    )
+    page_content = page_payload.get("content", "")
+
     search_result = BTFSearchResult(
         title=title or url,
         url=url,
-        content=content,
+        content=page_content or "",
     )
     facts = await extract_evidence_from_page(
-        search_result=search_result,
-        question=btf_question,
+        search_result,
+        btf_question,
         max_facts=max_facts,
+        add_to_history=False,
     )
     return {
         "question_id": question_id,
