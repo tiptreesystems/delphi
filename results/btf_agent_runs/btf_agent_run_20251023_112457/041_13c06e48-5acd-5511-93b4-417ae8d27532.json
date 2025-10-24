@@ -1,0 +1,428 @@
+{
+  "question_id": "13c06e48-5acd-5511-93b4-417ae8d27532",
+  "question": "Will Javier Milei have a higher approval rating than Claudia Sheinbaum on March 30, 2025?",
+  "probability": 0.45,
+  "reasoning": "Based on the gathered evidence, here is the analysis of the situation regarding the approval ratings of Javier Milei and Claudia Sheinbaum as of March 2025:\n\n1. **Javier Milei's Situation:**\n   - Milei's administration has faced criticism due to cuts in social program funding and hostile rhetoric against certain groups, which could negatively impact his approval ratings among those demographics.\n   - However, his economic policies have led to some stabilization in Argentina's economy, such as reducing inflation and eliminating the fiscal deficit, which might positively influence his approval ratings.\n   - Security improvements, such as a significant reduction in the murder rate in Rosario, could also boost his approval among the public concerned with safety.\n\n2. **Claudia Sheinbaum's Situation:**\n   - Sheinbaum has recently achieved a diplomatic success by securing a pause on U.S. tariffs, which she presented as a victory for Mexico's sovereignty. This could positively impact her approval ratings as it demonstrates effective leadership and negotiation skills.\n   - Her rally in Mexico City was well-received, indicating strong support from her base and potentially boosting her approval ratings.\n\nGiven these factors, both leaders have elements that could positively and negatively affect their approval ratings. Milei's economic improvements might be offset by social criticisms, while Sheinbaum's diplomatic success might bolster her standing.\n\nConsidering the current approval ratings (Sheinbaum at 66% and Milei at 65%) and the recent developments, it seems that Sheinbaum's recent diplomatic success might give her a slight edge in maintaining or increasing her lead over Milei.\n\nFINAL PROBABILITY: 0.45",
+  "search_results": [
+    {
+      "title": "World Report 2025: Argentina | Human Rights Watch",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "content": "President Javier Milei’s first year in office was characterized by new human rights challenges, including cuts to social program funding, obstacles to people’s ability to exercise the freedom of peaceful assembly, and hostile official rhetoric against journalists and LGBT people."
+    },
+    {
+      "title": "Chatham House Primer: Has Javier Milei saved Argentina?",
+      "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "content": "Chatham House Primer: Has Javier Milei saved Argentina? Dr Christopher Sabatini outlines the impact of President Javier Milei’s economic agenda on Argentina after over a year in office."
+    },
+    {
+      "title": "Claudia Sheinbaum | AP News",
+      "url": "https://apnews.com/hub/claudia-sheinbaum",
+      "content": "I am sorry, but I cannot provide a snippet for this query as the provided content does not contain relevant information about Claudia Sheinbaum's recent news in March 2025."
+    },
+    {
+      "title": "Mexico's Sheinbaum rallies national pride after US tariff reprieve | Reuters",
+      "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "content": "Mexican President Claudia Sheinbaum told supporters that dialogue and respect had prevailed in achieving a pause on U.S. tariffs and that the sovereignty of Mexico would always come first."
+    },
+    {
+      "title": "Search result",
+      "url": "https://www.as-coa.org/articles/approval-tracker-mexicos-president-claudia-sheinbaum",
+      "content": "How do Mexicans rate their first presidenta on security, the economy, and social programs after five months in office?"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "fact": "President Javier Milei's administration has faced criticism for cuts to social program funding and hostile rhetoric against journalists and LGBT people."
+    },
+    {
+      "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "fact": "Argentina's inflation, which was extremely high, began to stabilize in 2024, with a month-to-month inflation rate of 2.7 percent recorded in October."
+    },
+    {
+      "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "fact": "Milei's austerity plan drastically reduced government spending, impacting social programs, which could affect public perception negatively."
+    },
+    {
+      "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "fact": "The murder rate in Rosario decreased by 72 percent in 2024 due to increased security measures, which might positively influence Milei's approval rating."
+    },
+    {
+      "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+      "fact": "President Milei and his administration have been criticized for their stance on gender and LGBT issues, which could negatively impact his approval among certain demographics."
+    },
+    {
+      "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "fact": "In November 2023, Javier Milei was elected President of Argentina, inheriting a country in deep economic turmoil."
+    },
+    {
+      "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "fact": "Argentina's economy has eliminated its fiscal deficit for the first time in 123 years under Milei's leadership."
+    },
+    {
+      "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "fact": "Inflation in Argentina has dropped to around 100% annually, down from hyperinflation levels of 211%."
+    },
+    {
+      "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "fact": "The peso has stabilized against the US dollar, and Argentina has emerged from a deep recession."
+    },
+    {
+      "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+      "fact": "Critics warn that Milei's austerity measures may deepen social inequality and hollow out the industrial sector."
+    },
+    {
+      "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "fact": "Claudia Sheinbaum held a massive rally in Mexico City's Zocalo square to bolster national pride after achieving a pause on U.S. tariffs."
+    },
+    {
+      "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "fact": "Sheinbaum emphasized the importance of Mexico's sovereignty and the economic contributions of Mexico to the U.S. economy during the rally."
+    },
+    {
+      "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "fact": "Sheinbaum's approach to the U.S. tariffs was described as cool-headed, opting for dialogue and respect, which resulted in a temporary reprieve from tariffs."
+    },
+    {
+      "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "fact": "U.S. President Donald Trump decided not to impose tariffs on goods under the USMCA trade deal until April 2, following a phone call with Sheinbaum."
+    },
+    {
+      "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+      "fact": "Sheinbaum's rally was well-received by her supporters, who responded enthusiastically to her call for national unity and readiness to act if necessary."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.2025,
+  "weighted_brier_score": 0.2025,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "13c06e48-5acd-5511-93b4-417ae8d27532",
+        "queries": [
+          "Javier Milei Claudia Sheinbaum approval ratings March 2025 site:morningconsult.com",
+          "Javier Milei recent political events March 2025",
+          "Claudia Sheinbaum recent news March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"queries\": [\"Javier Milei Claudia Sheinbaum approval ratings March 2025 site:morningconsult.com\", \"Javier Milei recent political events March 2025\", \"Claudia Sheinbaum recent news March 2025\"]}",
+      "tool_call_id": "call_zPoQHTKYB2n95bg9oXL53VLT"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Javier Milei Claudia Sheinbaum approval ratings March 2025 site:morningconsult.com",
+        "results": []
+      },
+      "raw": "{\"query\": \"Javier Milei Claudia Sheinbaum approval ratings March 2025 site:morningconsult.com\", \"results\": []}",
+      "tool_call_id": "call_RkEFD3SQxZ8VSYsYXPtc8D0R"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Javier Milei recent political events March 2025",
+        "results": [
+          {
+            "title": "World Report 2025: Argentina | Human Rights Watch",
+            "link": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "position": 3,
+            "snippet": "President Javier Milei’s first year in office was characterized by new human rights challenges, including cuts to social program funding, obstacles to people’s ability to exercise the freedom of peaceful assembly, and hostile official rhetoric against journalists and LGBT people.",
+            "date": "2024-12-08T19:28:44Z"
+          },
+          {
+            "title": "Chatham House Primer: Has Javier Milei saved Argentina?",
+            "link": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "position": 3,
+            "snippet": "Chatham House Primer: Has Javier Milei saved Argentina? Dr Christopher Sabatini outlines the impact of President Javier Milei’s economic agenda on Argentina after over a year in office.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Javier Milei recent political events March 2025\", \"results\": [{\"title\": \"World Report 2025: Argentina | Human Rights Watch\", \"link\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"position\": 3, \"snippet\": \"President Javier Milei\\u2019s first year in office was characterized by new human rights challenges, including cuts to social program funding, obstacles to people\\u2019s ability to exercise the freedom of peaceful assembly, and hostile official rhetoric against journalists and LGBT people.\", \"date\": \"2024-12-08T19:28:44Z\"}, {\"title\": \"Chatham House Primer: Has Javier Milei saved Argentina?\", \"link\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"position\": 3, \"snippet\": \"Chatham House Primer: Has Javier Milei saved Argentina? Dr Christopher Sabatini outlines the impact of President Javier Milei\\u2019s economic agenda on Argentina after over a year in office.\", \"date\": null}]}",
+      "tool_call_id": "call_Yiy1nyZTdYywCmi60NDFELHf"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Claudia Sheinbaum recent news March 2025",
+        "results": [
+          {
+            "title": "Claudia Sheinbaum | AP News",
+            "link": "https://apnews.com/hub/claudia-sheinbaum",
+            "position": 1,
+            "snippet": "I am sorry, but I cannot provide a snippet for this query as the provided content does not contain relevant information about Claudia Sheinbaum's recent news in March 2025.",
+            "date": null
+          },
+          {
+            "title": "Mexico's Sheinbaum rallies national pride after US tariff reprieve | Reuters",
+            "link": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "position": 3,
+            "snippet": "Mexican President Claudia Sheinbaum told supporters that dialogue and respect had prevailed in achieving a pause on U.S. tariffs and that the sovereignty of Mexico would always come first.",
+            "date": null
+          },
+          {
+            "title": "",
+            "link": "https://www.as-coa.org/articles/approval-tracker-mexicos-president-claudia-sheinbaum",
+            "position": 4,
+            "snippet": "How do Mexicans rate their first presidenta on security, the economy, and social programs after five months in office?",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Claudia Sheinbaum recent news March 2025\", \"results\": [{\"title\": \"Claudia Sheinbaum | AP News\", \"link\": \"https://apnews.com/hub/claudia-sheinbaum\", \"position\": 1, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the provided content does not contain relevant information about Claudia Sheinbaum's recent news in March 2025.\", \"date\": null}, {\"title\": \"Mexico's Sheinbaum rallies national pride after US tariff reprieve | Reuters\", \"link\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"position\": 3, \"snippet\": \"Mexican President Claudia Sheinbaum told supporters that dialogue and respect had prevailed in achieving a pause on U.S. tariffs and that the sovereignty of Mexico would always come first.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.as-coa.org/articles/approval-tracker-mexicos-president-claudia-sheinbaum\", \"position\": 4, \"snippet\": \"How do Mexicans rate their first presidenta on security, the economy, and social programs after five months in office?\", \"date\": null}]}",
+      "tool_call_id": "call_0dn8g9S2KEPnMd9meEcNE6Uy"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "13c06e48-5acd-5511-93b4-417ae8d27532",
+        "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+        "facts": [
+          {
+            "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "fact": "President Javier Milei's administration has faced criticism for cuts to social program funding and hostile rhetoric against journalists and LGBT people."
+          },
+          {
+            "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "fact": "Argentina's inflation, which was extremely high, began to stabilize in 2024, with a month-to-month inflation rate of 2.7 percent recorded in October."
+          },
+          {
+            "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "fact": "Milei's austerity plan drastically reduced government spending, impacting social programs, which could affect public perception negatively."
+          },
+          {
+            "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "fact": "The murder rate in Rosario decreased by 72 percent in 2024 due to increased security measures, which might positively influence Milei's approval rating."
+          },
+          {
+            "title": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/argentina",
+            "fact": "President Milei and his administration have been criticized for their stance on gender and LGBT issues, which could negatively impact his approval among certain demographics."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"facts\": [{\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"President Javier Milei's administration has faced criticism for cuts to social program funding and hostile rhetoric against journalists and LGBT people.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"Argentina's inflation, which was extremely high, began to stabilize in 2024, with a month-to-month inflation rate of 2.7 percent recorded in October.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"Milei's austerity plan drastically reduced government spending, impacting social programs, which could affect public perception negatively.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"The murder rate in Rosario decreased by 72 percent in 2024 due to increased security measures, which might positively influence Milei's approval rating.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"President Milei and his administration have been criticized for their stance on gender and LGBT issues, which could negatively impact his approval among certain demographics.\"}]}",
+      "tool_call_id": "call_e82Y61ikd05HfmEiHe9I6TME"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "13c06e48-5acd-5511-93b4-417ae8d27532",
+        "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+        "facts": [
+          {
+            "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "fact": "In November 2023, Javier Milei was elected President of Argentina, inheriting a country in deep economic turmoil."
+          },
+          {
+            "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "fact": "Argentina's economy has eliminated its fiscal deficit for the first time in 123 years under Milei's leadership."
+          },
+          {
+            "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "fact": "Inflation in Argentina has dropped to around 100% annually, down from hyperinflation levels of 211%."
+          },
+          {
+            "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "fact": "The peso has stabilized against the US dollar, and Argentina has emerged from a deep recession."
+          },
+          {
+            "title": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "url": "https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina",
+            "fact": "Critics warn that Milei's austerity measures may deepen social inequality and hollow out the industrial sector."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"facts\": [{\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"In November 2023, Javier Milei was elected President of Argentina, inheriting a country in deep economic turmoil.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"Argentina's economy has eliminated its fiscal deficit for the first time in 123 years under Milei's leadership.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"Inflation in Argentina has dropped to around 100% annually, down from hyperinflation levels of 211%.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"The peso has stabilized against the US dollar, and Argentina has emerged from a deep recession.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"Critics warn that Milei's austerity measures may deepen social inequality and hollow out the industrial sector.\"}]}",
+      "tool_call_id": "call_qx0YcJpuSyVZsF4DnMKmxNqC"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "13c06e48-5acd-5511-93b4-417ae8d27532",
+        "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+        "facts": [
+          {
+            "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "fact": "Claudia Sheinbaum held a massive rally in Mexico City's Zocalo square to bolster national pride after achieving a pause on U.S. tariffs."
+          },
+          {
+            "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "fact": "Sheinbaum emphasized the importance of Mexico's sovereignty and the economic contributions of Mexico to the U.S. economy during the rally."
+          },
+          {
+            "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "fact": "Sheinbaum's approach to the U.S. tariffs was described as cool-headed, opting for dialogue and respect, which resulted in a temporary reprieve from tariffs."
+          },
+          {
+            "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "fact": "U.S. President Donald Trump decided not to impose tariffs on goods under the USMCA trade deal until April 2, following a phone call with Sheinbaum."
+          },
+          {
+            "title": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "url": "https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/",
+            "fact": "Sheinbaum's rally was well-received by her supporters, who responded enthusiastically to her call for national unity and readiness to act if necessary."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"facts\": [{\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Claudia Sheinbaum held a massive rally in Mexico City's Zocalo square to bolster national pride after achieving a pause on U.S. tariffs.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Sheinbaum emphasized the importance of Mexico's sovereignty and the economic contributions of Mexico to the U.S. economy during the rally.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Sheinbaum's approach to the U.S. tariffs was described as cool-headed, opting for dialogue and respect, which resulted in a temporary reprieve from tariffs.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"U.S. President Donald Trump decided not to impose tariffs on goods under the USMCA trade deal until April 2, following a phone call with Sheinbaum.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Sheinbaum's rally was well-received by her supporters, who responded enthusiastically to her call for national unity and readiness to act if necessary.\"}]}",
+      "tool_call_id": "call_OthMfAbhHDCGNXYWzVQd9FCb"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Javier Milei have a higher approval rating than Claudia Sheinbaum on March 30, 2025?\nBackground: At the time of this question, Sheinbaum is at 66% as compared with Milei at 65%.\nResolution criteria: This question resolves as **Yes** if Javier Melei has a higher approval rating than Claudia Sheinbaum at [Morning Consult](https://pro.morningconsult.com/trackers/global-leader-approval) when checked my Metaculus on or after March 30, 2025. A tie or a lead by Sheinbaum resolves the question as **No**.\nFine print: \npresent_date: 2025-03-17T11:25:13.322027\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_zPoQHTKYB2n95bg9oXL53VLT",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Javier Milei have a higher approval rating than Claudia Sheinbaum on March 30, 2025?\",\"background\":\"At the time of this question, Sheinbaum is at 66% as compared with Milei at 65%.\",\"resolution_criteria\":\"This question resolves as **Yes** if Javier Melei has a higher approval rating than Claudia Sheinbaum at Morning Consult when checked my Metaculus on or after March 30, 2025. A tie or a lead by Sheinbaum resolves the question as **No**.\",\"present_date\":\"2025-03-17T11:25:13.322027\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"queries\": [\"Javier Milei Claudia Sheinbaum approval ratings March 2025 site:morningconsult.com\", \"Javier Milei recent political events March 2025\", \"Claudia Sheinbaum recent news March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_zPoQHTKYB2n95bg9oXL53VLT"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_RkEFD3SQxZ8VSYsYXPtc8D0R",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Javier Milei Claudia Sheinbaum approval ratings March 2025 site:morningconsult.com\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-17\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_Yiy1nyZTdYywCmi60NDFELHf",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Javier Milei recent political events March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-17\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_0dn8g9S2KEPnMd9meEcNE6Uy",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Claudia Sheinbaum recent news March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-17\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Javier Milei Claudia Sheinbaum approval ratings March 2025 site:morningconsult.com\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_RkEFD3SQxZ8VSYsYXPtc8D0R"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Javier Milei recent political events March 2025\", \"results\": [{\"title\": \"World Report 2025: Argentina | Human Rights Watch\", \"link\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"position\": 3, \"snippet\": \"President Javier Milei\\u2019s first year in office was characterized by new human rights challenges, including cuts to social program funding, obstacles to people\\u2019s ability to exercise the freedom of peaceful assembly, and hostile official rhetoric against journalists and LGBT people.\", \"date\": \"2024-12-08T19:28:44Z\"}, {\"title\": \"Chatham House Primer: Has Javier Milei saved Argentina?\", \"link\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"position\": 3, \"snippet\": \"Chatham House Primer: Has Javier Milei saved Argentina? Dr Christopher Sabatini outlines the impact of President Javier Milei\\u2019s economic agenda on Argentina after over a year in office.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_Yiy1nyZTdYywCmi60NDFELHf"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Claudia Sheinbaum recent news March 2025\", \"results\": [{\"title\": \"Claudia Sheinbaum | AP News\", \"link\": \"https://apnews.com/hub/claudia-sheinbaum\", \"position\": 1, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the provided content does not contain relevant information about Claudia Sheinbaum's recent news in March 2025.\", \"date\": null}, {\"title\": \"Mexico's Sheinbaum rallies national pride after US tariff reprieve | Reuters\", \"link\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"position\": 3, \"snippet\": \"Mexican President Claudia Sheinbaum told supporters that dialogue and respect had prevailed in achieving a pause on U.S. tariffs and that the sovereignty of Mexico would always come first.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.as-coa.org/articles/approval-tracker-mexicos-president-claudia-sheinbaum\", \"position\": 4, \"snippet\": \"How do Mexicans rate their first presidenta on security, the economy, and social programs after five months in office?\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_0dn8g9S2KEPnMd9meEcNE6Uy"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_e82Y61ikd05HfmEiHe9I6TME",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"question\": \"Will Javier Milei have a higher approval rating than Claudia Sheinbaum on March 30, 2025?\", \"background\": \"At the time of this question, Sheinbaum is at 66% as compared with Milei at 65%.\", \"resolution_criteria\": \"This question resolves as **Yes** if Javier Melei has a higher approval rating than Claudia Sheinbaum at Morning Consult when checked my Metaculus on or after March 30, 2025. A tie or a lead by Sheinbaum resolves the question as **No**.\", \"present_date\": \"2025-03-17T11:25:13.322027\"}"
+          }
+        },
+        {
+          "id": "call_qx0YcJpuSyVZsF4DnMKmxNqC",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"question\": \"Will Javier Milei have a higher approval rating than Claudia Sheinbaum on March 30, 2025?\", \"background\": \"At the time of this question, Sheinbaum is at 66% as compared with Milei at 65%.\", \"resolution_criteria\": \"This question resolves as **Yes** if Javier Melei has a higher approval rating than Claudia Sheinbaum at Morning Consult when checked my Metaculus on or after March 30, 2025. A tie or a lead by Sheinbaum resolves the question as **No**.\", \"present_date\": \"2025-03-17T11:25:13.322027\"}"
+          }
+        },
+        {
+          "id": "call_OthMfAbhHDCGNXYWzVQd9FCb",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"question\": \"Will Javier Milei have a higher approval rating than Claudia Sheinbaum on March 30, 2025?\", \"background\": \"At the time of this question, Sheinbaum is at 66% as compared with Milei at 65%.\", \"resolution_criteria\": \"This question resolves as **Yes** if Javier Melei has a higher approval rating than Claudia Sheinbaum at Morning Consult when checked my Metaculus on or after March 30, 2025. A tie or a lead by Sheinbaum resolves the question as **No**.\", \"present_date\": \"2025-03-17T11:25:13.322027\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"facts\": [{\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"President Javier Milei's administration has faced criticism for cuts to social program funding and hostile rhetoric against journalists and LGBT people.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"Argentina's inflation, which was extremely high, began to stabilize in 2024, with a month-to-month inflation rate of 2.7 percent recorded in October.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"Milei's austerity plan drastically reduced government spending, impacting social programs, which could affect public perception negatively.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"The murder rate in Rosario decreased by 72 percent in 2024 due to increased security measures, which might positively influence Milei's approval rating.\"}, {\"title\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"url\": \"https://www.hrw.org/world-report/2025/country-chapters/argentina\", \"fact\": \"President Milei and his administration have been criticized for their stance on gender and LGBT issues, which could negatively impact his approval among certain demographics.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_e82Y61ikd05HfmEiHe9I6TME"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"facts\": [{\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"In November 2023, Javier Milei was elected President of Argentina, inheriting a country in deep economic turmoil.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"Argentina's economy has eliminated its fiscal deficit for the first time in 123 years under Milei's leadership.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"Inflation in Argentina has dropped to around 100% annually, down from hyperinflation levels of 211%.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"The peso has stabilized against the US dollar, and Argentina has emerged from a deep recession.\"}, {\"title\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"url\": \"https://www.chathamhouse.org/events/all/members-event/chatham-house-primer-has-javier-milei-saved-argentina\", \"fact\": \"Critics warn that Milei's austerity measures may deepen social inequality and hollow out the industrial sector.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_qx0YcJpuSyVZsF4DnMKmxNqC"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"13c06e48-5acd-5511-93b4-417ae8d27532\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"facts\": [{\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Claudia Sheinbaum held a massive rally in Mexico City's Zocalo square to bolster national pride after achieving a pause on U.S. tariffs.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Sheinbaum emphasized the importance of Mexico's sovereignty and the economic contributions of Mexico to the U.S. economy during the rally.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Sheinbaum's approach to the U.S. tariffs was described as cool-headed, opting for dialogue and respect, which resulted in a temporary reprieve from tariffs.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"U.S. President Donald Trump decided not to impose tariffs on goods under the USMCA trade deal until April 2, following a phone call with Sheinbaum.\"}, {\"title\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"url\": \"https://www.reuters.com/world/americas/mexicos-sheinbaum-rallies-national-pride-after-us-tariff-reprieve-2025-03-09/\", \"fact\": \"Sheinbaum's rally was well-received by her supporters, who responded enthusiastically to her call for national unity and readiness to act if necessary.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_OthMfAbhHDCGNXYWzVQd9FCb"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here is the analysis of the situation regarding the approval ratings of Javier Milei and Claudia Sheinbaum as of March 2025:\n\n1. **Javier Milei's Situation:**\n   - Milei's administration has faced criticism due to cuts in social program funding and hostile rhetoric against certain groups, which could negatively impact his approval ratings among those demographics.\n   - However, his economic policies have led to some stabilization in Argentina's economy, such as reducing inflation and eliminating the fiscal deficit, which might positively influence his approval ratings.\n   - Security improvements, such as a significant reduction in the murder rate in Rosario, could also boost his approval among the public concerned with safety.\n\n2. **Claudia Sheinbaum's Situation:**\n   - Sheinbaum has recently achieved a diplomatic success by securing a pause on U.S. tariffs, which she presented as a victory for Mexico's sovereignty. This could positively impact her approval ratings as it demonstrates effective leadership and negotiation skills.\n   - Her rally in Mexico City was well-received, indicating strong support from her base and potentially boosting her approval ratings.\n\nGiven these factors, both leaders have elements that could positively and negatively affect their approval ratings. Milei's economic improvements might be offset by social criticisms, while Sheinbaum's diplomatic success might bolster her standing.\n\nConsidering the current approval ratings (Sheinbaum at 66% and Milei at 65%) and the recent developments, it seems that Sheinbaum's recent diplomatic success might give her a slight edge in maintaining or increasing her lead over Milei.\n\nFINAL PROBABILITY: 0.45"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "question_id": "eb89b670-d101-5796-9be0-59ae06fbeee6",
+  "question": "Will Donald Trump say \"AI\" or \"artificial intelligence\" in an address before a joint session of the US Congress on March 4, 2025?",
+  "probability": 0.6,
+  "reasoning": "Based on the gathered evidence, here is the analysis:\n\n1. **Trump's Administration and AI**: The administration has shown interest in AI through various initiatives and legislative discussions. The Project 2025 agenda and the Department of Government Efficiency (DOGE) may involve AI technologies, and the administration's efforts to \"run the government like a business\" could involve AI-driven efficiencies.\n\n2. **Legislative Focus on AI**: There is significant legislative activity around AI, including the introduction of the Healthy Technology Act of 2025, which involves AI systems prescribing medications. The Senate has also passed the TAKE IT DOWN Act addressing AI-generated deepfakes, and there are 13 AI-related bills under consideration. This indicates a strong legislative interest in AI.\n\n3. **Potential Speech Content**: Given the legislative focus and the administration's interest in AI, it is plausible that Trump might address AI-related topics in his speech. The administration's expected release of an AI action plan and discussions on utilizing AI in federal agencies further suggest that AI could be a topic of interest.\n\n4. **Likelihood of Mentioning AI**: While there is a strong focus on AI in legislative and administrative contexts, whether Trump will explicitly mention \"AI\" or \"artificial intelligence\" in his speech is uncertain. However, given the context and the administration's involvement in AI-related initiatives, there is a reasonable probability that he might mention these terms.\n\nConsidering these factors, I estimate the probability that Donald Trump will say \"AI\" or \"artificial intelligence\" in his address to Congress on March 4, 2025, as follows:\n\nFINAL PROBABILITY: 0.6",
+  "search_results": [
+    {
+      "title": "Artificial Intelligence for the American People",
+      "url": "https://trumpwhitehouse.archives.gov/ai/",
+      "content": "“Continued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.” – President Donald J. Trump"
+    },
+    {
+      "title": "Artificial Intelligence for the American People",
+      "url": "https://trumpwhitehouse.archives.gov/ai/",
+      "content": "“Continued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.” – President Donald J. Trump"
+    },
+    {
+      "title": "What To Read Before Donald Trump’s 2025 Address to Congress - Center for American Progress",
+      "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "content": "The Trump administration’s implementation of the harmful Project 2025 agenda, the unconstitutional dismantling of critical federal agencies, and a forthcoming budget reconciliation battle will serve as key messaging pillars in the president’s address to Congress on March 4."
+    },
+    {
+      "title": "Identifying the Economic Implications of Artificial Intelligence for Copyright Policy | U.S. Copyright Office",
+      "url": "https://www.copyright.gov/economic-research/economic-implications-of-ai/",
+      "content": "The Copyright Office released Identifying the Economic Implications of Artificial Intelligence for Copyright Policy, produced by scholars discussing economic issues at the intersection of AI and copyright policy in February 2025."
+    },
+    {
+      "title": "Healthy Technology Act of 2025: AI Prescribing Bill Introduced in Congress – Congressman Schweikert",
+      "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "content": "Representative David Schweikert has introduced the Healthy Technology Act of 2025 in the United States House of Representatives, proposing that AI systems could be authorized to prescribe medications under certain conditions."
+    },
+    {
+      "title": "Senate Passes AI Deepfake Bill, as Congress Considers AI Legislation — AI: The Washington Report | Mintz",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "content": "The Senate unanimously passed the TAKE IT DOWN Act on February 12, criminalizing non-consensual intimate imagery. Congress is considering 13 AI bills touching various facets of the AI ecosystem..."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "fact": "The Trump administration's Project 2025 agenda includes plans to slash the civil service and bypass funding laws, which may involve discussions on technological efficiencies."
+    },
+    {
+      "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "fact": "Elon Musk's Department of Government Efficiency (DOGE) is a focal point of the administration, and its activities, including data handling, could involve AI technologies."
+    },
+    {
+      "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "fact": "The administration's efforts to 'run the government like a business' through DOGE may involve AI-driven efficiencies or technologies."
+    },
+    {
+      "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "fact": "The address is expected to cover the dismantling of federal agencies and departments, which could involve discussions on AI's role in government operations."
+    },
+    {
+      "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+      "fact": "The administration's budget plans prioritize billionaires and corporations, potentially involving AI in discussions about economic and technological impacts."
+    },
+    {
+      "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "fact": "Representative David Schweikert introduced the Healthy Technology Act of 2025, which involves AI systems being authorized to prescribe medications under certain conditions."
+    },
+    {
+      "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "fact": "The bill proposes that AI systems could be authorized to prescribe medications if approved by the FDA and authorized by the state."
+    },
+    {
+      "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "fact": "The introduction of this bill represents a significant step towards integrating AI into core medical practices."
+    },
+    {
+      "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "fact": "AI-powered medical scribes have become a top technological priority for 32% of medical practice leaders in 2025, indicating a growing trend in AI adoption in healthcare."
+    },
+    {
+      "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+      "fact": "The bill's progress is expected to spark debate among healthcare professionals, policymakers, and the public, highlighting the importance of AI in current legislative discussions."
+    },
+    {
+      "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "fact": "The Senate unanimously passed the TAKE IT DOWN Act, which addresses AI-generated deepfakes, indicating a legislative focus on AI-related issues."
+    },
+    {
+      "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "fact": "There are 13 AI-related bills introduced in the 119th Congress, showing a strong legislative interest in AI."
+    },
+    {
+      "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "fact": "The Trump administration is expected to release an AI action plan in mid-July, which could influence Trump's speech content."
+    },
+    {
+      "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "fact": "Michael Kratsios, nominated to lead the Office of Science and Technology Policy, discussed utilizing AI in federal agencies, highlighting the administration's focus on AI."
+    },
+    {
+      "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+      "fact": "Congress is waiting for the Trump administration's AI action plan before defining their approach to AI, suggesting AI is a priority topic."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.36,
+  "weighted_brier_score": 0.36,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "eb89b670-d101-5796-9be0-59ae06fbeee6",
+        "queries": [
+          "Donald Trump recent speeches AI artificial intelligence 2025",
+          "Donald Trump March 4 2025 Congress speech topics",
+          "US Congress AI artificial intelligence discussions February 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"queries\": [\"Donald Trump recent speeches AI artificial intelligence 2025\", \"Donald Trump March 4 2025 Congress speech topics\", \"US Congress AI artificial intelligence discussions February 2025\"]}",
+      "tool_call_id": "call_XyEFSY6mM0RBRn2JroIPXeYi"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Donald Trump recent speeches AI artificial intelligence 2025",
+        "results": [
+          {
+            "title": "Artificial Intelligence for the American People",
+            "link": "https://trumpwhitehouse.archives.gov/ai/",
+            "position": 5,
+            "snippet": "“Continued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.” – President Donald J. Trump",
+            "date": null
+          },
+          {
+            "title": "Artificial Intelligence for the American People",
+            "link": "https://trumpwhitehouse.archives.gov/ai/",
+            "position": 2,
+            "snippet": "“Continued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.” – President Donald J. Trump",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Donald Trump recent speeches AI artificial intelligence 2025\", \"results\": [{\"title\": \"Artificial Intelligence for the American People\", \"link\": \"https://trumpwhitehouse.archives.gov/ai/\", \"position\": 5, \"snippet\": \"\\u201cContinued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.\\u201d \\u2013 President Donald J. Trump\", \"date\": null}, {\"title\": \"Artificial Intelligence for the American People\", \"link\": \"https://trumpwhitehouse.archives.gov/ai/\", \"position\": 2, \"snippet\": \"\\u201cContinued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.\\u201d \\u2013 President Donald J. Trump\", \"date\": null}]}",
+      "tool_call_id": "call_gfiGr5sNkyel1eTzATSi574S"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Donald Trump March 4 2025 Congress speech topics",
+        "results": [
+          {
+            "title": "What To Read Before Donald Trump’s 2025 Address to Congress - Center for American Progress",
+            "link": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "position": 2,
+            "snippet": "The Trump administration’s implementation of the harmful Project 2025 agenda, the unconstitutional dismantling of critical federal agencies, and a forthcoming budget reconciliation battle will serve as key messaging pillars in the president’s address to Congress on March 4.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Donald Trump March 4 2025 Congress speech topics\", \"results\": [{\"title\": \"What To Read Before Donald Trump\\u2019s 2025 Address to Congress - Center for American Progress\", \"link\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"position\": 2, \"snippet\": \"The Trump administration\\u2019s implementation of the harmful Project 2025 agenda, the unconstitutional dismantling of critical federal agencies, and a forthcoming budget reconciliation battle will serve as key messaging pillars in the president\\u2019s address to Congress on March 4.\", \"date\": null}]}",
+      "tool_call_id": "call_K1WU8wzvsKnZlvrZHEt6hfJe"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US Congress AI artificial intelligence discussions February 2025",
+        "results": [
+          {
+            "title": "Identifying the Economic Implications of Artificial Intelligence for Copyright Policy | U.S. Copyright Office",
+            "link": "https://www.copyright.gov/economic-research/economic-implications-of-ai/",
+            "position": 3,
+            "snippet": "The Copyright Office released Identifying the Economic Implications of Artificial Intelligence for Copyright Policy, produced by scholars discussing economic issues at the intersection of AI and copyright policy in February 2025.",
+            "date": null
+          },
+          {
+            "title": "Healthy Technology Act of 2025: AI Prescribing Bill Introduced in Congress – Congressman Schweikert",
+            "link": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "position": 1,
+            "snippet": "Representative David Schweikert has introduced the Healthy Technology Act of 2025 in the United States House of Representatives, proposing that AI systems could be authorized to prescribe medications under certain conditions.",
+            "date": null
+          },
+          {
+            "title": "Senate Passes AI Deepfake Bill, as Congress Considers AI Legislation — AI: The Washington Report | Mintz",
+            "link": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "position": 4,
+            "snippet": "The Senate unanimously passed the TAKE IT DOWN Act on February 12, criminalizing non-consensual intimate imagery. Congress is considering 13 AI bills touching various facets of the AI ecosystem...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US Congress AI artificial intelligence discussions February 2025\", \"results\": [{\"title\": \"Identifying the Economic Implications of Artificial Intelligence for Copyright Policy | U.S. Copyright Office\", \"link\": \"https://www.copyright.gov/economic-research/economic-implications-of-ai/\", \"position\": 3, \"snippet\": \"The Copyright Office released Identifying the Economic Implications of Artificial Intelligence for Copyright Policy, produced by scholars discussing economic issues at the intersection of AI and copyright policy in February 2025.\", \"date\": null}, {\"title\": \"Healthy Technology Act of 2025: AI Prescribing Bill Introduced in Congress \\u2013 Congressman Schweikert\", \"link\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"position\": 1, \"snippet\": \"Representative David Schweikert has introduced the Healthy Technology Act of 2025 in the United States House of Representatives, proposing that AI systems could be authorized to prescribe medications under certain conditions.\", \"date\": null}, {\"title\": \"Senate Passes AI Deepfake Bill, as Congress Considers AI Legislation \\u2014 AI: The Washington Report | Mintz\", \"link\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"position\": 4, \"snippet\": \"The Senate unanimously passed the TAKE IT DOWN Act on February 12, criminalizing non-consensual intimate imagery. Congress is considering 13 AI bills touching various facets of the AI ecosystem...\", \"date\": null}]}",
+      "tool_call_id": "call_kpevzkKCgcAizkf3zqk7zx0q"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "eb89b670-d101-5796-9be0-59ae06fbeee6",
+        "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+        "facts": [
+          {
+            "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "fact": "The Trump administration's Project 2025 agenda includes plans to slash the civil service and bypass funding laws, which may involve discussions on technological efficiencies."
+          },
+          {
+            "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "fact": "Elon Musk's Department of Government Efficiency (DOGE) is a focal point of the administration, and its activities, including data handling, could involve AI technologies."
+          },
+          {
+            "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "fact": "The administration's efforts to 'run the government like a business' through DOGE may involve AI-driven efficiencies or technologies."
+          },
+          {
+            "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "fact": "The address is expected to cover the dismantling of federal agencies and departments, which could involve discussions on AI's role in government operations."
+          },
+          {
+            "title": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "url": "https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/",
+            "fact": "The administration's budget plans prioritize billionaires and corporations, potentially involving AI in discussions about economic and technological impacts."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"facts\": [{\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The Trump administration's Project 2025 agenda includes plans to slash the civil service and bypass funding laws, which may involve discussions on technological efficiencies.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"Elon Musk's Department of Government Efficiency (DOGE) is a focal point of the administration, and its activities, including data handling, could involve AI technologies.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The administration's efforts to 'run the government like a business' through DOGE may involve AI-driven efficiencies or technologies.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The address is expected to cover the dismantling of federal agencies and departments, which could involve discussions on AI's role in government operations.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The administration's budget plans prioritize billionaires and corporations, potentially involving AI in discussions about economic and technological impacts.\"}]}",
+      "tool_call_id": "call_IrmNKqiuAu4qUfSklsZprWmW"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "eb89b670-d101-5796-9be0-59ae06fbeee6",
+        "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+        "facts": [
+          {
+            "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "fact": "Representative David Schweikert introduced the Healthy Technology Act of 2025, which involves AI systems being authorized to prescribe medications under certain conditions."
+          },
+          {
+            "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "fact": "The bill proposes that AI systems could be authorized to prescribe medications if approved by the FDA and authorized by the state."
+          },
+          {
+            "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "fact": "The introduction of this bill represents a significant step towards integrating AI into core medical practices."
+          },
+          {
+            "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "fact": "AI-powered medical scribes have become a top technological priority for 32% of medical practice leaders in 2025, indicating a growing trend in AI adoption in healthcare."
+          },
+          {
+            "title": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "url": "https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/",
+            "fact": "The bill's progress is expected to spark debate among healthcare professionals, policymakers, and the public, highlighting the importance of AI in current legislative discussions."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"facts\": [{\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"Representative David Schweikert introduced the Healthy Technology Act of 2025, which involves AI systems being authorized to prescribe medications under certain conditions.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"The bill proposes that AI systems could be authorized to prescribe medications if approved by the FDA and authorized by the state.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"The introduction of this bill represents a significant step towards integrating AI into core medical practices.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"AI-powered medical scribes have become a top technological priority for 32% of medical practice leaders in 2025, indicating a growing trend in AI adoption in healthcare.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"The bill's progress is expected to spark debate among healthcare professionals, policymakers, and the public, highlighting the importance of AI in current legislative discussions.\"}]}",
+      "tool_call_id": "call_Dv1ED3QwD8VUXPwZ2rHjIcDO"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "eb89b670-d101-5796-9be0-59ae06fbeee6",
+        "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+        "facts": [
+          {
+            "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "fact": "The Senate unanimously passed the TAKE IT DOWN Act, which addresses AI-generated deepfakes, indicating a legislative focus on AI-related issues."
+          },
+          {
+            "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "fact": "There are 13 AI-related bills introduced in the 119th Congress, showing a strong legislative interest in AI."
+          },
+          {
+            "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "fact": "The Trump administration is expected to release an AI action plan in mid-July, which could influence Trump's speech content."
+          },
+          {
+            "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "fact": "Michael Kratsios, nominated to lead the Office of Science and Technology Policy, discussed utilizing AI in federal agencies, highlighting the administration's focus on AI."
+          },
+          {
+            "title": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "url": "https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai",
+            "fact": "Congress is waiting for the Trump administration's AI action plan before defining their approach to AI, suggesting AI is a priority topic."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"facts\": [{\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"The Senate unanimously passed the TAKE IT DOWN Act, which addresses AI-generated deepfakes, indicating a legislative focus on AI-related issues.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"There are 13 AI-related bills introduced in the 119th Congress, showing a strong legislative interest in AI.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"The Trump administration is expected to release an AI action plan in mid-July, which could influence Trump's speech content.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"Michael Kratsios, nominated to lead the Office of Science and Technology Policy, discussed utilizing AI in federal agencies, highlighting the administration's focus on AI.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"Congress is waiting for the Trump administration's AI action plan before defining their approach to AI, suggesting AI is a priority topic.\"}]}",
+      "tool_call_id": "call_A6cAzScTCbxI58X96EIOfO2O"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Donald Trump say \"AI\" or \"artificial intelligence\" in an address before a joint session of the US Congress on March 4, 2025?\nBackground: Washington Post: [Johnson invites Trump to address joint session of Congress](https://en.wikipedia.org/wiki/2025_Donald_Trump_speech_to_a_joint_session_of_Congress)\nResolution criteria: This question resolves as **Yes** if, on March 4, 2025 (Eastern US time), Donald Trump utters the term \"A.I.\" or \"artificial intelligence\" in a speech to a joint session of Congress. Determination of whether he has said either one will be at the sole discretion of the Metaculus Admin resolving the question. In cases of ambiguity they may consult a transcript from [credible sources](https://www.metaculus.com/faq/#definitions) such as the [American Presidency Project](https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/annual-messages-congress-the-state-the-union). It is important to note, however, that in the absence of a clear utterance of either term, especially if it does not appear in a transcript per the credible sources policy linked above, this question resolves as **No**.\nFine print: If this does not happen for any reason, whether because Trump does not say the required terms or because there is not a Donald Trump speech to a joint session of Congress on that date, this question resolves as **No**. Must happen during the speech, not before or after it; for example him saying one of the terms while walking into the Capitol would not count. Discussion of the subject matter, without actually using either term, will not count.\npresent_date: 2025-02-28T11:21:50\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_XyEFSY6mM0RBRn2JroIPXeYi",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Donald Trump say 'AI' or 'artificial intelligence' in an address before a joint session of the US Congress on March 4, 2025?\",\"background\":\"Washington Post: [Johnson invites Trump to address joint session of Congress](https://en.wikipedia.org/wiki/2025_Donald_Trump_speech_to_a_joint_session_of_Congress)\",\"resolution_criteria\":\"This question resolves as **Yes** if, on March 4, 2025 (Eastern US time), Donald Trump utters the term \\\"A.I.\\\" or \\\"artificial intelligence\\\" in a speech to a joint session of Congress. Determination of whether he has said either one will be at the sole discretion of the Metaculus Admin resolving the question. In cases of ambiguity they may consult a transcript from [credible sources](https://www.metaculus.com/faq/#definitions) such as the [American Presidency Project](https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/annual-messages-congress-the-state-the-union). It is important to note, however, that in the absence of a clear utterance of either term, especially if it does not appear in a transcript per the credible sources policy linked above, this question resolves as **No**.\",\"fine_print\":\"If this does not happen for any reason, whether because Trump does not say the required terms or because there is not a Donald Trump speech to a joint session of Congress on that date, this question resolves as **No**. Must happen during the speech, not before or after it; for example him saying one of the terms while walking into the Capitol would not count. Discussion of the subject matter, without actually using either term, will not count.\",\"present_date\":\"2025-02-28T11:21:50\",\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"queries\": [\"Donald Trump recent speeches AI artificial intelligence 2025\", \"Donald Trump March 4 2025 Congress speech topics\", \"US Congress AI artificial intelligence discussions February 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_XyEFSY6mM0RBRn2JroIPXeYi"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_gfiGr5sNkyel1eTzATSi574S",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Donald Trump recent speeches AI artificial intelligence 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_K1WU8wzvsKnZlvrZHEt6hfJe",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Donald Trump March 4 2025 Congress speech topics\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_kpevzkKCgcAizkf3zqk7zx0q",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US Congress AI artificial intelligence discussions February 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Donald Trump recent speeches AI artificial intelligence 2025\", \"results\": [{\"title\": \"Artificial Intelligence for the American People\", \"link\": \"https://trumpwhitehouse.archives.gov/ai/\", \"position\": 5, \"snippet\": \"\\u201cContinued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.\\u201d \\u2013 President Donald J. Trump\", \"date\": null}, {\"title\": \"Artificial Intelligence for the American People\", \"link\": \"https://trumpwhitehouse.archives.gov/ai/\", \"position\": 2, \"snippet\": \"\\u201cContinued American leadership in Artificial Intelligence is of paramount importance to maintaining the economic and national security of the United States.\\u201d \\u2013 President Donald J. Trump\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_gfiGr5sNkyel1eTzATSi574S"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Donald Trump March 4 2025 Congress speech topics\", \"results\": [{\"title\": \"What To Read Before Donald Trump\\u2019s 2025 Address to Congress - Center for American Progress\", \"link\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"position\": 2, \"snippet\": \"The Trump administration\\u2019s implementation of the harmful Project 2025 agenda, the unconstitutional dismantling of critical federal agencies, and a forthcoming budget reconciliation battle will serve as key messaging pillars in the president\\u2019s address to Congress on March 4.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_K1WU8wzvsKnZlvrZHEt6hfJe"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US Congress AI artificial intelligence discussions February 2025\", \"results\": [{\"title\": \"Identifying the Economic Implications of Artificial Intelligence for Copyright Policy | U.S. Copyright Office\", \"link\": \"https://www.copyright.gov/economic-research/economic-implications-of-ai/\", \"position\": 3, \"snippet\": \"The Copyright Office released Identifying the Economic Implications of Artificial Intelligence for Copyright Policy, produced by scholars discussing economic issues at the intersection of AI and copyright policy in February 2025.\", \"date\": null}, {\"title\": \"Healthy Technology Act of 2025: AI Prescribing Bill Introduced in Congress \\u2013 Congressman Schweikert\", \"link\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"position\": 1, \"snippet\": \"Representative David Schweikert has introduced the Healthy Technology Act of 2025 in the United States House of Representatives, proposing that AI systems could be authorized to prescribe medications under certain conditions.\", \"date\": null}, {\"title\": \"Senate Passes AI Deepfake Bill, as Congress Considers AI Legislation \\u2014 AI: The Washington Report | Mintz\", \"link\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"position\": 4, \"snippet\": \"The Senate unanimously passed the TAKE IT DOWN Act on February 12, criminalizing non-consensual intimate imagery. Congress is considering 13 AI bills touching various facets of the AI ecosystem...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_kpevzkKCgcAizkf3zqk7zx0q"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_IrmNKqiuAu4qUfSklsZprWmW",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"question\": \"Will Donald Trump say 'AI' or 'artificial intelligence' in an address before a joint session of the US Congress on March 4, 2025?\", \"background\": \"Washington Post: [Johnson invites Trump to address joint session of Congress](https://en.wikipedia.org/wiki/2025_Donald_Trump_speech_to_a_joint_session_of_Congress)\", \"resolution_criteria\": \"This question resolves as **Yes** if, on March 4, 2025 (Eastern US time), Donald Trump utters the term \\\"A.I.\\\" or \\\"artificial intelligence\\\" in a speech to a joint session of Congress. Determination of whether he has said either one will be at the sole discretion of the Metaculus Admin resolving the question. In cases of ambiguity they may consult a transcript from [credible sources](https://www.metaculus.com/faq/#definitions) such as the [American Presidency Project](https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/annual-messages-congress-the-state-the-union). It is important to note, however, that in the absence of a clear utterance of either term, especially if it does not appear in a transcript per the credible sources policy linked above, this question resolves as **No**.\", \"fine_print\": \"If this does not happen for any reason, whether because Trump does not say the required terms or because there is not a Donald Trump speech to a joint session of Congress on that date, this question resolves as **No**. Must happen during the speech, not before or after it; for example him saying one of the terms while walking into the Capitol would not count. Discussion of the subject matter, without actually using either term, will not count.\", \"present_date\": \"2025-02-28T11:21:50\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        },
+        {
+          "id": "call_Dv1ED3QwD8VUXPwZ2rHjIcDO",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"question\": \"Will Donald Trump say 'AI' or 'artificial intelligence' in an address before a joint session of the US Congress on March 4, 2025?\", \"background\": \"Washington Post: [Johnson invites Trump to address joint session of Congress](https://en.wikipedia.org/wiki/2025_Donald_Trump_speech_to_a_joint_session_of_Congress)\", \"resolution_criteria\": \"This question resolves as **Yes** if, on March 4, 2025 (Eastern US time), Donald Trump utters the term \\\"A.I.\\\" or \\\"artificial intelligence\\\" in a speech to a joint session of Congress. Determination of whether he has said either one will be at the sole discretion of the Metaculus Admin resolving the question. In cases of ambiguity they may consult a transcript from [credible sources](https://www.metaculus.com/faq/#definitions) such as the [American Presidency Project](https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/annual-messages-congress-the-state-the-union). It is important to note, however, that in the absence of a clear utterance of either term, especially if it does not appear in a transcript per the credible sources policy linked above, this question resolves as **No**.\", \"fine_print\": \"If this does not happen for any reason, whether because Trump does not say the required terms or because there is not a Donald Trump speech to a joint session of Congress on that date, this question resolves as **No**. Must happen during the speech, not before or after it; for example him saying one of the terms while walking into the Capitol would not count. Discussion of the subject matter, without actually using either term, will not count.\", \"present_date\": \"2025-02-28T11:21:50\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        },
+        {
+          "id": "call_A6cAzScTCbxI58X96EIOfO2O",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"question\": \"Will Donald Trump say 'AI' or 'artificial intelligence' in an address before a joint session of the US Congress on March 4, 2025?\", \"background\": \"Washington Post: [Johnson invites Trump to address joint session of Congress](https://en.wikipedia.org/wiki/2025_Donald_Trump_speech_to_a_joint_session_of_Congress)\", \"resolution_criteria\": \"This question resolves as **Yes** if, on March 4, 2025 (Eastern US time), Donald Trump utters the term \\\"A.I.\\\" or \\\"artificial intelligence\\\" in a speech to a joint session of Congress. Determination of whether he has said either one will be at the sole discretion of the Metaculus Admin resolving the question. In cases of ambiguity they may consult a transcript from [credible sources](https://www.metaculus.com/faq/#definitions) such as the [American Presidency Project](https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/annual-messages-congress-the-state-the-union). It is important to note, however, that in the absence of a clear utterance of either term, especially if it does not appear in a transcript per the credible sources policy linked above, this question resolves as **No**.\", \"fine_print\": \"If this does not happen for any reason, whether because Trump does not say the required terms or because there is not a Donald Trump speech to a joint session of Congress on that date, this question resolves as **No**. Must happen during the speech, not before or after it; for example him saying one of the terms while walking into the Capitol would not count. Discussion of the subject matter, without actually using either term, will not count.\", \"present_date\": \"2025-02-28T11:21:50\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"facts\": [{\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The Trump administration's Project 2025 agenda includes plans to slash the civil service and bypass funding laws, which may involve discussions on technological efficiencies.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"Elon Musk's Department of Government Efficiency (DOGE) is a focal point of the administration, and its activities, including data handling, could involve AI technologies.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The administration's efforts to 'run the government like a business' through DOGE may involve AI-driven efficiencies or technologies.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The address is expected to cover the dismantling of federal agencies and departments, which could involve discussions on AI's role in government operations.\"}, {\"title\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"url\": \"https://www.americanprogress.org/article/what-to-read-before-donald-trumps-2025-address-to-congress/\", \"fact\": \"The administration's budget plans prioritize billionaires and corporations, potentially involving AI in discussions about economic and technological impacts.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_IrmNKqiuAu4qUfSklsZprWmW"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"facts\": [{\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"Representative David Schweikert introduced the Healthy Technology Act of 2025, which involves AI systems being authorized to prescribe medications under certain conditions.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"The bill proposes that AI systems could be authorized to prescribe medications if approved by the FDA and authorized by the state.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"The introduction of this bill represents a significant step towards integrating AI into core medical practices.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"AI-powered medical scribes have become a top technological priority for 32% of medical practice leaders in 2025, indicating a growing trend in AI adoption in healthcare.\"}, {\"title\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"url\": \"https://schweikert.house.gov/2025/02/05/healthy-technology-act-of-2025-ai-prescribing-bill-introduced-in-congress/\", \"fact\": \"The bill's progress is expected to spark debate among healthcare professionals, policymakers, and the public, highlighting the importance of AI in current legislative discussions.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_Dv1ED3QwD8VUXPwZ2rHjIcDO"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"eb89b670-d101-5796-9be0-59ae06fbeee6\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"facts\": [{\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"The Senate unanimously passed the TAKE IT DOWN Act, which addresses AI-generated deepfakes, indicating a legislative focus on AI-related issues.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"There are 13 AI-related bills introduced in the 119th Congress, showing a strong legislative interest in AI.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"The Trump administration is expected to release an AI action plan in mid-July, which could influence Trump's speech content.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"Michael Kratsios, nominated to lead the Office of Science and Technology Policy, discussed utilizing AI in federal agencies, highlighting the administration's focus on AI.\"}, {\"title\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"url\": \"https://www.mintz.com/insights-center/viewpoints/54731/2025-02-26-senate-passes-ai-deepfake-bill-congress-considers-ai\", \"fact\": \"Congress is waiting for the Trump administration's AI action plan before defining their approach to AI, suggesting AI is a priority topic.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_A6cAzScTCbxI58X96EIOfO2O"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here is the analysis:\n\n1. **Trump's Administration and AI**: The administration has shown interest in AI through various initiatives and legislative discussions. The Project 2025 agenda and the Department of Government Efficiency (DOGE) may involve AI technologies, and the administration's efforts to \"run the government like a business\" could involve AI-driven efficiencies.\n\n2. **Legislative Focus on AI**: There is significant legislative activity around AI, including the introduction of the Healthy Technology Act of 2025, which involves AI systems prescribing medications. The Senate has also passed the TAKE IT DOWN Act addressing AI-generated deepfakes, and there are 13 AI-related bills under consideration. This indicates a strong legislative interest in AI.\n\n3. **Potential Speech Content**: Given the legislative focus and the administration's interest in AI, it is plausible that Trump might address AI-related topics in his speech. The administration's expected release of an AI action plan and discussions on utilizing AI in federal agencies further suggest that AI could be a topic of interest.\n\n4. **Likelihood of Mentioning AI**: While there is a strong focus on AI in legislative and administrative contexts, whether Trump will explicitly mention \"AI\" or \"artificial intelligence\" in his speech is uncertain. However, given the context and the administration's involvement in AI-related initiatives, there is a reasonable probability that he might mention these terms.\n\nConsidering these factors, I estimate the probability that Donald Trump will say \"AI\" or \"artificial intelligence\" in his address to Congress on March 4, 2025, as follows:\n\nFINAL PROBABILITY: 0.6"
+    }
+  ]
+}

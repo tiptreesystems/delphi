@@ -1,0 +1,681 @@
+{
+  "question_id": "efeaa633-e4b9-57ab-b834-d9ae055a754f",
+  "question": "Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be greater than 0.70 on March 31, 2025?",
+  "probability": 0.75,
+  "reasoning": "Based on the gathered evidence, here are the key insights relevant to the question of whether the highest average win rate shown at the Chatbot Arena LLM Leaderboard will be greater than 0.70 on March 31, 2025:\n\n1. **Current Performance**: The current highest Arena Elo rating is 1404, held by GPT-4.5-Preview. While Elo ratings are not directly equivalent to win rates, they indicate a strong competitive performance among models.\n\n2. **Advancements in LLMs**: The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration. This suggests that LLMs are continuing to improve in their capabilities, which could potentially lead to higher win rates.\n\n3. **Predictions and Trends**: Experts predict that LLMs will continue to evolve with better knowledge injection techniques and become more data- and energy-efficient. This ongoing improvement in LLM technology could contribute to higher win rates.\n\n4. **Diverse Capabilities**: Models like DeepSeek-R1 and Claude 3.7 Sonnet show strong performance in complex tasks such as mathematics, code generation, and web development. This diversity in capabilities could enhance their overall win rates against other models.\n\nConsidering these factors, the probability that the highest average win rate shown at the Chatbot Arena LLM Leaderboard will be greater than 0.70 on March 31, 2025, seems reasonably high. The continuous advancements in LLM capabilities and the strong performance metrics observed suggest a favorable outcome.\n\nFINAL PROBABILITY: 0.75",
+  "search_results": [
+    {
+      "title": "Chatbot Arena | OpenLM.ai",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "content": "The Chatbot Arena leaderboard features models like Command A (03-2025), GPT-4.5-Preview, and Gemini-2.0-Flash-Thinking-Exp-01-21, ranked by Arena Elo and other benchmarks."
+    },
+    {
+      "title": "SEAL LLM Leaderboards: Expert-Driven Private Evaluations",
+      "url": "https://scale.com/leaderboard",
+      "content": "Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)..."
+    },
+    {
+      "title": "Chatbot Arena Rankings 2025 - Which is the Best AI Chatbot?",
+      "url": "https://sybrid.com/resources/blog/the-best-ai-chatbot/",
+      "content": "Stay updated with the latest AI chatbot rankings from Chatbot Arena. Compare top LLMs like Qwen, DeepSeek, and GPT-4 to find the best for your needs!"
+    },
+    {
+      "title": "SEAL LLM Leaderboards: Expert-Driven Private Evaluations",
+      "url": "https://scale.com/leaderboard",
+      "content": "Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)..."
+    },
+    {
+      "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "content": "Explore the top 9 LLMs making waves in the AI world as of March 2025, including GPT-4.5 released in February 2025 and DeepSeek-R1, which set new benchmarks for innovation."
+    },
+    {
+      "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+      "url": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+      "content": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations."
+    },
+    {
+      "title": "6 Best LLMs Today: Large Language Models Compared",
+      "url": "https://www.eweek.com/artificial-intelligence/best-large-language-models/",
+      "content": "Check out our complete list of the best LLMs, including GPT-4, Falcon, Llama 3.1, Cohere, Gemini, and Claude 3.5, to take your AI software to a new level."
+    },
+    {
+      "title": "25 of the best large language models in 2025",
+      "url": "https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models",
+      "content": "Large language models are driving AI hype in 2025. Learn which ones to follow. The latest iteration of the Claude LLM is the Claude 3.5 Sonnet, which understands nuance better than earlier versions."
+    },
+    {
+      "title": "What Are Large Language Models (LLMs)? | IBM",
+      "url": "https://www.ibm.com/think/topics/large-language-models",
+      "content": "Large language models (LLMs) are AI systems trained on vast amounts of data, capable of understanding and generating human language for various tasks. They are revolutionizing applications from chatbots to content generation and code assistance."
+    },
+    {
+      "title": "The Future of Large Language Models in 2025",
+      "url": "https://research.aimultiple.com/future-of-large-language-models/",
+      "content": "Future trends of large language models in 2025 include fact-checking with real-time data integration, synthetic training data, sparse expertise, and integration into enterprise workflows..."
+    },
+    {
+      "title": "AI on AI: Popular Large Language Models Weigh In on What’s Next for AI in 2025 | College of Computing",
+      "url": "https://www.cc.gatech.edu/news/ai-ai-popular-large-language-models-weigh-whats-next-ai-2025",
+      "content": "We queried three popular large language models (LLM) to get their perspectives on what AI breakthroughs might be in the cards for this year. Comparing responses from different LLMs can reveal unique insights..."
+    },
+    {
+      "title": "2025 AI Business Predictions: PwC",
+      "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html",
+      "content": "In 2025, expect significant advancements in AI quality, accuracy, and capability, leading to exponential growth. Your choice of large language model (LLM) won't matter as much, as there will be many good options everyone will be using..."
+    },
+    {
+      "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "content": "Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve..."
+    },
+    {
+      "title": "65 Expert Predictions on 2025 AI Legal Tech, Regulation",
+      "url": "https://natlawreview.com/article/what-expect-2025-ai-legal-tech-and-regulation-65-expert-predictions",
+      "content": "I predict that Congress will let the cases play out in court before Congress steps in. Still, Congress will likely monitor this situation in 2025 because an adverse ruling for AI companies could significantly impair the LLM training and development process..."
+    },
+    {
+      "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+      "url": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+      "content": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn how LLMs work and their key milestones..."
+    },
+    {
+      "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "content": "Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve..."
+    },
+    {
+      "title": "AI Agents in 2025: Expectations vs. Reality | IBM",
+      "url": "https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality",
+      "content": "“More and better agents” are on the way, predicts Time. “Autonomous ‘agents’ and profitability are likely to dominate the artificial intelligence agenda,” reports Reuters."
+    },
+    {
+      "title": "https://openlm.ai/chatbot-arena/",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "content": "---\ntitle: Chatbot Arena\ndescription: OpenLM.ai\nsitename: https://openlm.ai/chatbot-arena/\ndate: 2025-03-20\n---\nThis leaderboard is based on the following benchmarks.\n\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model’s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\n\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\n\n**Best Open LM**\n\n| Model | Arena Elo | MMLU | License |\n|---|---|---|---|\n|\n\n`1360`\n\n`90.8`\n\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\n\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\n\n`88.5`\n\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\n\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\n\n`86`\n\n**Full Leaderboard**\n\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\n|---|---|---|---|---|---|---|---|---|\n| 🥇\n|\n\n`1404`\n\n`1414`\n\n`92.7`\n\n`9871`\n\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\n\n`1406`\n\n`1269`\n\n`9871`\n\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\n\n`1365`\n\n`1278`\n\n`22004`\n\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\n\n`1380`\n\n`1241`\n\n`19963`\n\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\n\n`1366`\n\n`1279`\n\n`21831`\n\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\n\n`1369`\n\n`90.8`\n\n`12224`\n\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\n\n`1353`\n\n`1257`\n\n`22526`\n\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\n\n`1360`\n\n`1232`\n\n`90.4`\n\n`91.8`\n\n`24350`\n\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341…\n\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "content": "---\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\nauthor: Author No items found\nurl: https://www.shakudo.io/blog/top-9-large-language-models\nhostname: shakudo.io\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\nsitename: shakudo.io\ndate: 2025-03-01\n---\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\n\n## Introduction\n\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\n\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business’s unique requirements.\n\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\n\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\n\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,…\n\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "content": "---\ntitle: UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\nauthor: UneeQ Staff\nurl: https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\nhostname: digitalhumans.com\ndescription: What's next for the hottest ticket in tech? Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond.\nsitename: digitalhumans.com\ndate: 2024-11-11\n---\nLarge language models (LLMs) are a [hot topic at the moment](https://www.digitalhumans.com/blog/how-chatgpt-bard-and-other-llms-are-signaling-an-evolution-for-ai-digital-humans), which is hardly surprising given how quickly ChatGPT, Claude, and many others have captured the public's attention.\n\nBut even before the current LLM hype cycle was in full swing, our team was experimenting and trying to unearth the technology's potential.\n\nIt means we’ve been working with LLMs in [our digital humans](https://www.digitalhumans.com/) for many years: building tools like [Synapse](https://www.digitalhumans.com/synapse) to help make conversations more brand-safe and relevant, and [Synanim](https://www.digitalhumans.com/synanim) to make conversations more accessible and fun.\n\nSo we thought we'd ask some of our in-house experts to look into their crystal balls and predict what's next for LLMs in 2025 and beyond.\n\nHere's how they think these generative AI models will evolve:\n\n**LLMs must move beyond the math to be creative**\n\n*Tyler Merritt, Field CTO*\n\nLLMs are still largely constrained to the logical sector. That means we try to solve everything with math and numbers. But there's still a lot we don't understand about the human brain, and it's clear to me that math is not the right language to describe feelings like nostalgia or the creative process.\n\nCreativity happens when we mix experience with new insights, inspiring us to think about things in a way we've never done before. So language models are inevitably going to struggle if they're simply using math to describe things that we already know. How will we come up with a model that can replicate creativity?\n\nPerhaps an injection of randomness is what's needed. Start throwing models curveballs and see what the results are. For example, what happens if we feed random, dissociated content into models at various points – will they start to behave as if they're having ideas of their own? Will the models feel more creativ…\n\n[Truncated preview: showing 354 words out of ~1626. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "Chatbot Arena",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The current highest Arena Elo rating is 1404, held by GPT-4.5-Preview."
+    },
+    {
+      "title": "Chatbot Arena",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The leaderboard uses a crowdsourced, randomized battle platform with over 2.8 million user votes to compute Elo ratings."
+    },
+    {
+      "title": "Chatbot Arena",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The leaderboard has transitioned from an online Elo rating system to the Bradley-Terry model, which assumes a fixed but unknown pairwise win-rate."
+    },
+    {
+      "title": "Chatbot Arena",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The highest MMLU score on the leaderboard is 92.7, associated with the GPT-4.5-Preview model."
+    },
+    {
+      "title": "Chatbot Arena",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The leaderboard includes a variety of models with different capabilities, such as coding and vision, which may influence their overall win rates."
+    },
+    {
+      "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration."
+    },
+    {
+      "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "DeepSeek-R1, ranked fourth on Chatbot Arena, is a 671B parameter model with superior performance in complex tasks such as mathematics and code generation."
+    },
+    {
+      "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications."
+    },
+    {
+      "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving."
+    },
+    {
+      "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development."
+    },
+    {
+      "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "fact": "LLMs are expected to evolve with better knowledge injection techniques, such as Retrieval-Augmented Generation (RAG), to improve accuracy and reliability."
+    },
+    {
+      "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "fact": "There is an expectation that LLMs will become more data- and energy-efficient, allowing for more sophisticated models."
+    },
+    {
+      "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "fact": "Experts predict that LLMs will have more diverse training data, including non-English sources, which could reduce bias and improve performance."
+    },
+    {
+      "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "fact": "The interaction with LLMs is expected to become more voice-based, potentially enhancing user experience and satisfaction."
+    },
+    {
+      "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+      "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+      "fact": "LLMs are anticipated to have clear utility and remain relevant, suggesting continued investment and development in their capabilities."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.5625,
+  "weighted_brier_score": 0.28125,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "efeaa633-e4b9-57ab-b834-d9ae055a754f",
+        "queries": [
+          "Chatbot Arena LLM Leaderboard March 2025 updates",
+          "recent advancements in large language models 2025",
+          "expert predictions on LLM performance 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"queries\": [\"Chatbot Arena LLM Leaderboard March 2025 updates\", \"recent advancements in large language models 2025\", \"expert predictions on LLM performance 2025\"]}",
+      "tool_call_id": "call_qCfBCL4uSmcoVIXKI824HnZt"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Chatbot Arena LLM Leaderboard March 2025 updates",
+        "results": [
+          {
+            "title": "Chatbot Arena | OpenLM.ai",
+            "link": "https://openlm.ai/chatbot-arena/",
+            "position": 1,
+            "snippet": "The Chatbot Arena leaderboard features models like Command A (03-2025), GPT-4.5-Preview, and Gemini-2.0-Flash-Thinking-Exp-01-21, ranked by Arena Elo and other benchmarks.",
+            "date": null
+          },
+          {
+            "title": "SEAL LLM Leaderboards: Expert-Driven Private Evaluations",
+            "link": "https://scale.com/leaderboard",
+            "position": 5,
+            "snippet": "Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)...",
+            "date": null
+          },
+          {
+            "title": "Chatbot Arena Rankings 2025 - Which is the Best AI Chatbot?",
+            "link": "https://sybrid.com/resources/blog/the-best-ai-chatbot/",
+            "position": 2,
+            "snippet": "Stay updated with the latest AI chatbot rankings from Chatbot Arena. Compare top LLMs like Qwen, DeepSeek, and GPT-4 to find the best for your needs!",
+            "date": null
+          },
+          {
+            "title": "SEAL LLM Leaderboards: Expert-Driven Private Evaluations",
+            "link": "https://scale.com/leaderboard",
+            "position": 3,
+            "snippet": "Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Chatbot Arena LLM Leaderboard March 2025 updates\", \"results\": [{\"title\": \"Chatbot Arena | OpenLM.ai\", \"link\": \"https://openlm.ai/chatbot-arena/\", \"position\": 1, \"snippet\": \"The Chatbot Arena leaderboard features models like Command A (03-2025), GPT-4.5-Preview, and Gemini-2.0-Flash-Thinking-Exp-01-21, ranked by Arena Elo and other benchmarks.\", \"date\": null}, {\"title\": \"SEAL LLM Leaderboards: Expert-Driven Private Evaluations\", \"link\": \"https://scale.com/leaderboard\", \"position\": 5, \"snippet\": \"Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)...\", \"date\": null}, {\"title\": \"Chatbot Arena Rankings 2025 - Which is the Best AI Chatbot?\", \"link\": \"https://sybrid.com/resources/blog/the-best-ai-chatbot/\", \"position\": 2, \"snippet\": \"Stay updated with the latest AI chatbot rankings from Chatbot Arena. Compare top LLMs like Qwen, DeepSeek, and GPT-4 to find the best for your needs!\", \"date\": null}, {\"title\": \"SEAL LLM Leaderboards: Expert-Driven Private Evaluations\", \"link\": \"https://scale.com/leaderboard\", \"position\": 3, \"snippet\": \"Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)...\", \"date\": null}]}",
+      "tool_call_id": "call_2P2pqd4wX1JsSoTUqAMkVrru"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "recent advancements in large language models 2025",
+        "results": [
+          {
+            "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+            "link": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "position": 1,
+            "snippet": "Explore the top 9 LLMs making waves in the AI world as of March 2025, including GPT-4.5 released in February 2025 and DeepSeek-R1, which set new benchmarks for innovation.",
+            "date": null
+          },
+          {
+            "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+            "link": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+            "position": 2,
+            "snippet": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations.",
+            "date": null
+          },
+          {
+            "title": "6 Best LLMs Today: Large Language Models Compared",
+            "link": "https://www.eweek.com/artificial-intelligence/best-large-language-models/",
+            "position": 5,
+            "snippet": "Check out our complete list of the best LLMs, including GPT-4, Falcon, Llama 3.1, Cohere, Gemini, and Claude 3.5, to take your AI software to a new level.",
+            "date": null
+          },
+          {
+            "title": "25 of the best large language models in 2025",
+            "link": "https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models",
+            "position": 2,
+            "snippet": "Large language models are driving AI hype in 2025. Learn which ones to follow. The latest iteration of the Claude LLM is the Claude 3.5 Sonnet, which understands nuance better than earlier versions.",
+            "date": null
+          },
+          {
+            "title": "What Are Large Language Models (LLMs)? | IBM",
+            "link": "https://www.ibm.com/think/topics/large-language-models",
+            "position": 3,
+            "snippet": "Large language models (LLMs) are AI systems trained on vast amounts of data, capable of understanding and generating human language for various tasks. They are revolutionizing applications from chatbots to content generation and code assistance.",
+            "date": null
+          },
+          {
+            "title": "The Future of Large Language Models in 2025",
+            "link": "https://research.aimultiple.com/future-of-large-language-models/",
+            "position": 4,
+            "snippet": "Future trends of large language models in 2025 include fact-checking with real-time data integration, synthetic training data, sparse expertise, and integration into enterprise workflows...",
+            "date": null
+          },
+          {
+            "title": "AI on AI: Popular Large Language Models Weigh In on What’s Next for AI in 2025 | College of Computing",
+            "link": "https://www.cc.gatech.edu/news/ai-ai-popular-large-language-models-weigh-whats-next-ai-2025",
+            "position": 5,
+            "snippet": "We queried three popular large language models (LLM) to get their perspectives on what AI breakthroughs might be in the cards for this year. Comparing responses from different LLMs can reveal unique insights...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"recent advancements in large language models 2025\", \"results\": [{\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"link\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"position\": 1, \"snippet\": \"Explore the top 9 LLMs making waves in the AI world as of March 2025, including GPT-4.5 released in February 2025 and DeepSeek-R1, which set new benchmarks for innovation.\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 2, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations.\", \"date\": null}, {\"title\": \"6 Best LLMs Today: Large Language Models Compared\", \"link\": \"https://www.eweek.com/artificial-intelligence/best-large-language-models/\", \"position\": 5, \"snippet\": \"Check out our complete list of the best LLMs, including GPT-4, Falcon, Llama 3.1, Cohere, Gemini, and Claude 3.5, to take your AI software to a new level.\", \"date\": null}, {\"title\": \"25 of the best large language models in 2025\", \"link\": \"https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models\", \"position\": 2, \"snippet\": \"Large language models are driving AI hype in 2025. Learn which ones to follow. The latest iteration of the Claude LLM is the Claude 3.5 Sonnet, which understands nuance better than earlier versions.\", \"date\": null}, {\"title\": \"What Are Large Language Models (LLMs)? | IBM\", \"link\": \"https://www.ibm.com/think/topics/large-language-models\", \"position\": 3, \"snippet\": \"Large language models (LLMs) are AI systems trained on vast amounts of data, capable of understanding and generating human language for various tasks. They are revolutionizing applications from chatbots to content generation and code assistance.\", \"date\": null}, {\"title\": \"The Future of Large Language Models in 2025\", \"link\": \"https://research.aimultiple.com/future-of-large-language-models/\", \"position\": 4, \"snippet\": \"Future trends of large language models in 2025 include fact-checking with real-time data integration, synthetic training data, sparse expertise, and integration into enterprise workflows...\", \"date\": null}, {\"title\": \"AI on AI: Popular Large Language Models Weigh In on What\\u2019s Next for AI in 2025 | College of Computing\", \"link\": \"https://www.cc.gatech.edu/news/ai-ai-popular-large-language-models-weigh-whats-next-ai-2025\", \"position\": 5, \"snippet\": \"We queried three popular large language models (LLM) to get their perspectives on what AI breakthroughs might be in the cards for this year. Comparing responses from different LLMs can reveal unique insights...\", \"date\": null}]}",
+      "tool_call_id": "call_y9AwXQMHXIRDKnxvQKgZtzGj"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "expert predictions on LLM performance 2025",
+        "results": [
+          {
+            "title": "2025 AI Business Predictions: PwC",
+            "link": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html",
+            "position": 3,
+            "snippet": "In 2025, expect significant advancements in AI quality, accuracy, and capability, leading to exponential growth. Your choice of large language model (LLM) won't matter as much, as there will be many good options everyone will be using...",
+            "date": null
+          },
+          {
+            "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+            "link": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+            "position": 5,
+            "snippet": "Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve...",
+            "date": null
+          },
+          {
+            "title": "65 Expert Predictions on 2025 AI Legal Tech, Regulation",
+            "link": "https://natlawreview.com/article/what-expect-2025-ai-legal-tech-and-regulation-65-expert-predictions",
+            "position": 1,
+            "snippet": "I predict that Congress will let the cases play out in court before Congress steps in. Still, Congress will likely monitor this situation in 2025 because an adverse ruling for AI companies could significantly impair the LLM training and development process...",
+            "date": null
+          },
+          {
+            "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+            "link": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+            "position": 1,
+            "snippet": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn how LLMs work and their key milestones...",
+            "date": null
+          },
+          {
+            "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+            "link": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+            "position": 2,
+            "snippet": "Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve...",
+            "date": null
+          },
+          {
+            "title": "AI Agents in 2025: Expectations vs. Reality | IBM",
+            "link": "https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality",
+            "position": 4,
+            "snippet": "“More and better agents” are on the way, predicts Time. “Autonomous ‘agents’ and profitability are likely to dominate the artificial intelligence agenda,” reports Reuters.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"expert predictions on LLM performance 2025\", \"results\": [{\"title\": \"2025 AI Business Predictions: PwC\", \"link\": \"https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html\", \"position\": 3, \"snippet\": \"In 2025, expect significant advancements in AI quality, accuracy, and capability, leading to exponential growth. Your choice of large language model (LLM) won't matter as much, as there will be many good options everyone will be using...\", \"date\": null}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"link\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"position\": 5, \"snippet\": \"Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve...\", \"date\": null}, {\"title\": \"65 Expert Predictions on 2025 AI Legal Tech, Regulation\", \"link\": \"https://natlawreview.com/article/what-expect-2025-ai-legal-tech-and-regulation-65-expert-predictions\", \"position\": 1, \"snippet\": \"I predict that Congress will let the cases play out in court before Congress steps in. Still, Congress will likely monitor this situation in 2025 because an adverse ruling for AI companies could significantly impair the LLM training and development process...\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 1, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn how LLMs work and their key milestones...\", \"date\": null}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"link\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"position\": 2, \"snippet\": \"Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve...\", \"date\": null}, {\"title\": \"AI Agents in 2025: Expectations vs. Reality | IBM\", \"link\": \"https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality\", \"position\": 4, \"snippet\": \"\\u201cMore and better agents\\u201d are on the way, predicts Time. \\u201cAutonomous \\u2018agents\\u2019 and profitability are likely to dominate the artificial intelligence agenda,\\u201d reports Reuters.\", \"date\": null}]}",
+      "tool_call_id": "call_0v7XW2ihjLFxNiQyqchhUdhL"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://openlm.ai/chatbot-arena/",
+        "snippet": "---\ntitle: Chatbot Arena\ndescription: OpenLM.ai\nsitename: https://openlm.ai/chatbot-arena/\ndate: 2025-03-20\n---\nThis leaderboard is based on the following benchmarks.\n\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model’s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\n\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\n\n**Best Open LM**\n\n| Model | Arena Elo | MMLU | License |\n|---|---|---|---|\n|\n\n`1360`\n\n`90.8`\n\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\n\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\n\n`88.5`\n\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\n\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\n\n`86`\n\n**Full Leaderboard**\n\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\n|---|---|---|---|---|---|---|---|---|\n| 🥇\n|\n\n`1404`\n\n`1414`\n\n`92.7`\n\n`9871`\n\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\n\n`1406`\n\n`1269`\n\n`9871`\n\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\n\n`1365`\n\n`1278`\n\n`22004`\n\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\n\n`1380`\n\n`1241`\n\n`19963`\n\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\n\n`1366`\n\n`1279`\n\n`21831`\n\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\n\n`1369`\n\n`90.8`\n\n`12224`\n\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\n\n`1353`\n\n`1257`\n\n`22526`\n\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\n\n`1360`\n\n`1232`\n\n`90.4`\n\n`91.8`\n\n`24350`\n\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341…\n\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1456,
+        "snippet_word_count": 159,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T12:40:09.688189",
+        "date_cutoff_end": "2025-03-24T12:40:09.688189",
+        "cached_at": "2025-10-24T02:59:03.722349"
+      },
+      "raw": "{\"url\": \"https://openlm.ai/chatbot-arena/\", \"snippet\": \"---\\ntitle: Chatbot Arena\\ndescription: OpenLM.ai\\nsitename: https://openlm.ai/chatbot-arena/\\ndate: 2025-03-20\\n---\\nThis leaderboard is based on the following benchmarks.\\n\\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model\\u2019s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\\n\\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\\n\\n**Best Open LM**\\n\\n| Model | Arena Elo | MMLU | License |\\n|---|---|---|---|\\n|\\n\\n`1360`\\n\\n`90.8`\\n\\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\\n\\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\\n\\n`88.5`\\n\\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\\n\\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\\n\\n`86`\\n\\n**Full Leaderboard**\\n\\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\\n|---|---|---|---|---|---|---|---|---|\\n| \\ud83e\\udd47\\n|\\n\\n`1404`\\n\\n`1414`\\n\\n`92.7`\\n\\n`9871`\\n\\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\\n\\n`1406`\\n\\n`1269`\\n\\n`9871`\\n\\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\\n\\n`1365`\\n\\n`1278`\\n\\n`22004`\\n\\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\\n\\n`1380`\\n\\n`1241`\\n\\n`19963`\\n\\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\\n\\n`1366`\\n\\n`1279`\\n\\n`21831`\\n\\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\\n\\n`1369`\\n\\n`90.8`\\n\\n`12224`\\n\\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\\n\\n`1353`\\n\\n`1257`\\n\\n`22526`\\n\\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\\n\\n`1360`\\n\\n`1232`\\n\\n`90.4`\\n\\n`91.8`\\n\\n`24350`\\n\\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341\\u2026\\n\\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1456, \"snippet_word_count\": 159, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T12:40:09.688189\", \"date_cutoff_end\": \"2025-03-24T12:40:09.688189\", \"cached_at\": \"2025-10-24T02:59:03.722349\"}",
+      "tool_call_id": "call_pBOjbK0QQTtDsBfOckpWmalN"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+        "snippet": "---\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\nauthor: Author No items found\nurl: https://www.shakudo.io/blog/top-9-large-language-models\nhostname: shakudo.io\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\nsitename: shakudo.io\ndate: 2025-03-01\n---\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\n\n## Introduction\n\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\n\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business’s unique requirements.\n\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\n\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\n\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,…\n\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1952,
+        "snippet_word_count": 346,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T12:40:09.688189",
+        "date_cutoff_end": "2025-03-24T12:40:09.688189",
+        "cached_at": "2025-10-24T03:27:20.786313"
+      },
+      "raw": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"snippet\": \"---\\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\\nauthor: Author No items found\\nurl: https://www.shakudo.io/blog/top-9-large-language-models\\nhostname: shakudo.io\\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\\nsitename: shakudo.io\\ndate: 2025-03-01\\n---\\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\\n\\n## Introduction\\n\\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\\n\\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business\\u2019s unique requirements.\\n\\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\\n\\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\\n\\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,\\u2026\\n\\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1952, \"snippet_word_count\": 346, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T12:40:09.688189\", \"date_cutoff_end\": \"2025-03-24T12:40:09.688189\", \"cached_at\": \"2025-10-24T03:27:20.786313\"}",
+      "tool_call_id": "call_jrNijMVppyg7opCGRJFz82eM"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+        "snippet": "---\ntitle: UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\nauthor: UneeQ Staff\nurl: https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\nhostname: digitalhumans.com\ndescription: What's next for the hottest ticket in tech? Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond.\nsitename: digitalhumans.com\ndate: 2024-11-11\n---\nLarge language models (LLMs) are a [hot topic at the moment](https://www.digitalhumans.com/blog/how-chatgpt-bard-and-other-llms-are-signaling-an-evolution-for-ai-digital-humans), which is hardly surprising given how quickly ChatGPT, Claude, and many others have captured the public's attention.\n\nBut even before the current LLM hype cycle was in full swing, our team was experimenting and trying to unearth the technology's potential.\n\nIt means we’ve been working with LLMs in [our digital humans](https://www.digitalhumans.com/) for many years: building tools like [Synapse](https://www.digitalhumans.com/synapse) to help make conversations more brand-safe and relevant, and [Synanim](https://www.digitalhumans.com/synanim) to make conversations more accessible and fun.\n\nSo we thought we'd ask some of our in-house experts to look into their crystal balls and predict what's next for LLMs in 2025 and beyond.\n\nHere's how they think these generative AI models will evolve:\n\n**LLMs must move beyond the math to be creative**\n\n*Tyler Merritt, Field CTO*\n\nLLMs are still largely constrained to the logical sector. That means we try to solve everything with math and numbers. But there's still a lot we don't understand about the human brain, and it's clear to me that math is not the right language to describe feelings like nostalgia or the creative process.\n\nCreativity happens when we mix experience with new insights, inspiring us to think about things in a way we've never done before. So language models are inevitably going to struggle if they're simply using math to describe things that we already know. How will we come up with a model that can replicate creativity?\n\nPerhaps an injection of randomness is what's needed. Start throwing models curveballs and see what the results are. For example, what happens if we feed random, dissociated content into models at various points – will they start to behave as if they're having ideas of their own? Will the models feel more creativ…\n\n[Truncated preview: showing 354 words out of ~1626. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1626,
+        "snippet_word_count": 354,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T12:40:09.688189",
+        "date_cutoff_end": "2025-03-24T12:40:09.688189",
+        "cached_at": "2025-10-24T16:20:36.889267"
+      },
+      "raw": "{\"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"snippet\": \"---\\ntitle: UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\\nauthor: UneeQ Staff\\nurl: https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\\nhostname: digitalhumans.com\\ndescription: What's next for the hottest ticket in tech? Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond.\\nsitename: digitalhumans.com\\ndate: 2024-11-11\\n---\\nLarge language models (LLMs) are a [hot topic at the moment](https://www.digitalhumans.com/blog/how-chatgpt-bard-and-other-llms-are-signaling-an-evolution-for-ai-digital-humans), which is hardly surprising given how quickly ChatGPT, Claude, and many others have captured the public's attention.\\n\\nBut even before the current LLM hype cycle was in full swing, our team was experimenting and trying to unearth the technology's potential.\\n\\nIt means we\\u2019ve been working with LLMs in [our digital humans](https://www.digitalhumans.com/) for many years: building tools like [Synapse](https://www.digitalhumans.com/synapse) to help make conversations more brand-safe and relevant, and [Synanim](https://www.digitalhumans.com/synanim) to make conversations more accessible and fun.\\n\\nSo we thought we'd ask some of our in-house experts to look into their crystal balls and predict what's next for LLMs in 2025 and beyond.\\n\\nHere's how they think these generative AI models will evolve:\\n\\n**LLMs must move beyond the math to be creative**\\n\\n*Tyler Merritt, Field CTO*\\n\\nLLMs are still largely constrained to the logical sector. That means we try to solve everything with math and numbers. But there's still a lot we don't understand about the human brain, and it's clear to me that math is not the right language to describe feelings like nostalgia or the creative process.\\n\\nCreativity happens when we mix experience with new insights, inspiring us to think about things in a way we've never done before. So language models are inevitably going to struggle if they're simply using math to describe things that we already know. How will we come up with a model that can replicate creativity?\\n\\nPerhaps an injection of randomness is what's needed. Start throwing models curveballs and see what the results are. For example, what happens if we feed random, dissociated content into models at various points \\u2013 will they start to behave as if they're having ideas of their own? Will the models feel more creativ\\u2026\\n\\n[Truncated preview: showing 354 words out of ~1626. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1626, \"snippet_word_count\": 354, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T12:40:09.688189\", \"date_cutoff_end\": \"2025-03-24T12:40:09.688189\", \"cached_at\": \"2025-10-24T16:20:36.889267\"}",
+      "tool_call_id": "call_1ckdfzmv1sExTVZBY8LWrh4B"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "efeaa633-e4b9-57ab-b834-d9ae055a754f",
+        "url": "https://openlm.ai/chatbot-arena/",
+        "facts": [
+          {
+            "title": "Chatbot Arena",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The current highest Arena Elo rating is 1404, held by GPT-4.5-Preview."
+          },
+          {
+            "title": "Chatbot Arena",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The leaderboard uses a crowdsourced, randomized battle platform with over 2.8 million user votes to compute Elo ratings."
+          },
+          {
+            "title": "Chatbot Arena",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The leaderboard has transitioned from an online Elo rating system to the Bradley-Terry model, which assumes a fixed but unknown pairwise win-rate."
+          },
+          {
+            "title": "Chatbot Arena",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The highest MMLU score on the leaderboard is 92.7, associated with the GPT-4.5-Preview model."
+          },
+          {
+            "title": "Chatbot Arena",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The leaderboard includes a variety of models with different capabilities, such as coding and vision, which may influence their overall win rates."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"facts\": [{\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The current highest Arena Elo rating is 1404, held by GPT-4.5-Preview.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The leaderboard uses a crowdsourced, randomized battle platform with over 2.8 million user votes to compute Elo ratings.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The leaderboard has transitioned from an online Elo rating system to the Bradley-Terry model, which assumes a fixed but unknown pairwise win-rate.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The highest MMLU score on the leaderboard is 92.7, associated with the GPT-4.5-Preview model.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The leaderboard includes a variety of models with different capabilities, such as coding and vision, which may influence their overall win rates.\"}]}",
+      "tool_call_id": "call_bljazA5fnnVYCFOSeCRnJtwm"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "efeaa633-e4b9-57ab-b834-d9ae055a754f",
+        "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+        "facts": [
+          {
+            "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration."
+          },
+          {
+            "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "DeepSeek-R1, ranked fourth on Chatbot Arena, is a 671B parameter model with superior performance in complex tasks such as mathematics and code generation."
+          },
+          {
+            "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications."
+          },
+          {
+            "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving."
+          },
+          {
+            "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"facts\": [{\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"DeepSeek-R1, ranked fourth on Chatbot Arena, is a 671B parameter model with superior performance in complex tasks such as mathematics and code generation.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development.\"}]}",
+      "tool_call_id": "call_ohxIX3fGia4o6gHYtlHmguqF"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "efeaa633-e4b9-57ab-b834-d9ae055a754f",
+        "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+        "facts": [
+          {
+            "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+            "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+            "fact": "LLMs are expected to evolve with better knowledge injection techniques, such as Retrieval-Augmented Generation (RAG), to improve accuracy and reliability."
+          },
+          {
+            "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+            "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+            "fact": "There is an expectation that LLMs will become more data- and energy-efficient, allowing for more sophisticated models."
+          },
+          {
+            "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+            "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+            "fact": "Experts predict that LLMs will have more diverse training data, including non-English sources, which could reduce bias and improve performance."
+          },
+          {
+            "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+            "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+            "fact": "The interaction with LLMs is expected to become more voice-based, potentially enhancing user experience and satisfaction."
+          },
+          {
+            "title": "UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions",
+            "url": "https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions",
+            "fact": "LLMs are anticipated to have clear utility and remain relevant, suggesting continued investment and development in their capabilities."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"facts\": [{\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"LLMs are expected to evolve with better knowledge injection techniques, such as Retrieval-Augmented Generation (RAG), to improve accuracy and reliability.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"There is an expectation that LLMs will become more data- and energy-efficient, allowing for more sophisticated models.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"Experts predict that LLMs will have more diverse training data, including non-English sources, which could reduce bias and improve performance.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"The interaction with LLMs is expected to become more voice-based, potentially enhancing user experience and satisfaction.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"LLMs are anticipated to have clear utility and remain relevant, suggesting continued investment and development in their capabilities.\"}]}",
+      "tool_call_id": "call_l8Sm0iU2D7EnLVQOFAYDxi0r"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be greater than 0.70 on March 31, 2025?\nBackground: UC Berkeley: [An Open Platform for Evaluating LLMs by Human Preference](https://sky.cs.berkeley.edu/project/chatbot-arena/)\nResolution criteria: This question resolves as YES if the value shown for the highest win rate displayed at the [Chatbot Arena LLM Leaderboard](https://lmarena.ai/?leaderboard) on March 31, 2025 is greater than 0.70. The win rate is expressed in decimals.\nFine print: This refers to the win rate displayed under \"Figure 2: Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\" or a substantially similar methodology. For reference, on December 25, 2024, this value was 0.61 for Gemini-2.0-Flash-Thinking-Exp-1219. In case of multiple win rates being displayed under different methodologies, the resolution will use the one most similar to the \"Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\" that is being displayed at the time of this question's creation.\npresent_date: 2025-03-23T12:40:09.688189\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_qCfBCL4uSmcoVIXKI824HnZt",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be greater than 0.70 on March 31, 2025?\",\"background\":\"UC Berkeley: [An Open Platform for Evaluating LLMs by Human Preference](https://sky.cs.berkeley.edu/project/chatbot-arena/)\",\"resolution_criteria\":\"This question resolves as YES if the value shown for the highest win rate displayed at the [Chatbot Arena LLM Leaderboard](https://lmarena.ai/?leaderboard) on March 31, 2025 is greater than 0.70. The win rate is expressed in decimals.\",\"fine_print\":\"This refers to the win rate displayed under \\\"Figure 2: Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" or a substantially similar methodology. For reference, on December 25, 2024, this value was 0.61 for Gemini-2.0-Flash-Thinking-Exp-1219. In case of multiple win rates being displayed under different methodologies, the resolution will use the one most similar to the \\\"Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" that is being displayed at the time of this question's creation.\",\"present_date\":\"2025-03-23T12:40:09.688189\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"queries\": [\"Chatbot Arena LLM Leaderboard March 2025 updates\", \"recent advancements in large language models 2025\", \"expert predictions on LLM performance 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_qCfBCL4uSmcoVIXKI824HnZt"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_2P2pqd4wX1JsSoTUqAMkVrru",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Chatbot Arena LLM Leaderboard March 2025 updates\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_y9AwXQMHXIRDKnxvQKgZtzGj",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"recent advancements in large language models 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_0v7XW2ihjLFxNiQyqchhUdhL",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"expert predictions on LLM performance 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Chatbot Arena LLM Leaderboard March 2025 updates\", \"results\": [{\"title\": \"Chatbot Arena | OpenLM.ai\", \"link\": \"https://openlm.ai/chatbot-arena/\", \"position\": 1, \"snippet\": \"The Chatbot Arena leaderboard features models like Command A (03-2025), GPT-4.5-Preview, and Gemini-2.0-Flash-Thinking-Exp-01-21, ranked by Arena Elo and other benchmarks.\", \"date\": null}, {\"title\": \"SEAL LLM Leaderboards: Expert-Driven Private Evaluations\", \"link\": \"https://scale.com/leaderboard\", \"position\": 5, \"snippet\": \"Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)...\", \"date\": null}, {\"title\": \"Chatbot Arena Rankings 2025 - Which is the Best AI Chatbot?\", \"link\": \"https://sybrid.com/resources/blog/the-best-ai-chatbot/\", \"position\": 2, \"snippet\": \"Stay updated with the latest AI chatbot rankings from Chatbot Arena. Compare top LLMs like Qwen, DeepSeek, and GPT-4 to find the best for your needs!\", \"date\": null}, {\"title\": \"SEAL LLM Leaderboards: Expert-Driven Private Evaluations\", \"link\": \"https://scale.com/leaderboard\", \"position\": 3, \"snippet\": \"Claude 3.7 Sonnet Thinking (February 2025), GPT-4.5 Preview (February 2025), Claude 3.7 Sonnet (February 2025), Gemini 2.0 Flash Thinking (January 2025), Claude 3.5 Sonnet (October 2024)...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_2P2pqd4wX1JsSoTUqAMkVrru"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"recent advancements in large language models 2025\", \"results\": [{\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"link\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"position\": 1, \"snippet\": \"Explore the top 9 LLMs making waves in the AI world as of March 2025, including GPT-4.5 released in February 2025 and DeepSeek-R1, which set new benchmarks for innovation.\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 2, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations.\", \"date\": null}, {\"title\": \"6 Best LLMs Today: Large Language Models Compared\", \"link\": \"https://www.eweek.com/artificial-intelligence/best-large-language-models/\", \"position\": 5, \"snippet\": \"Check out our complete list of the best LLMs, including GPT-4, Falcon, Llama 3.1, Cohere, Gemini, and Claude 3.5, to take your AI software to a new level.\", \"date\": null}, {\"title\": \"25 of the best large language models in 2025\", \"link\": \"https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models\", \"position\": 2, \"snippet\": \"Large language models are driving AI hype in 2025. Learn which ones to follow. The latest iteration of the Claude LLM is the Claude 3.5 Sonnet, which understands nuance better than earlier versions.\", \"date\": null}, {\"title\": \"What Are Large Language Models (LLMs)? | IBM\", \"link\": \"https://www.ibm.com/think/topics/large-language-models\", \"position\": 3, \"snippet\": \"Large language models (LLMs) are AI systems trained on vast amounts of data, capable of understanding and generating human language for various tasks. They are revolutionizing applications from chatbots to content generation and code assistance.\", \"date\": null}, {\"title\": \"The Future of Large Language Models in 2025\", \"link\": \"https://research.aimultiple.com/future-of-large-language-models/\", \"position\": 4, \"snippet\": \"Future trends of large language models in 2025 include fact-checking with real-time data integration, synthetic training data, sparse expertise, and integration into enterprise workflows...\", \"date\": null}, {\"title\": \"AI on AI: Popular Large Language Models Weigh In on What\\u2019s Next for AI in 2025 | College of Computing\", \"link\": \"https://www.cc.gatech.edu/news/ai-ai-popular-large-language-models-weigh-whats-next-ai-2025\", \"position\": 5, \"snippet\": \"We queried three popular large language models (LLM) to get their perspectives on what AI breakthroughs might be in the cards for this year. Comparing responses from different LLMs can reveal unique insights...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_y9AwXQMHXIRDKnxvQKgZtzGj"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"expert predictions on LLM performance 2025\", \"results\": [{\"title\": \"2025 AI Business Predictions: PwC\", \"link\": \"https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html\", \"position\": 3, \"snippet\": \"In 2025, expect significant advancements in AI quality, accuracy, and capability, leading to exponential growth. Your choice of large language model (LLM) won't matter as much, as there will be many good options everyone will be using...\", \"date\": null}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"link\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"position\": 5, \"snippet\": \"Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve...\", \"date\": null}, {\"title\": \"65 Expert Predictions on 2025 AI Legal Tech, Regulation\", \"link\": \"https://natlawreview.com/article/what-expect-2025-ai-legal-tech-and-regulation-65-expert-predictions\", \"position\": 1, \"snippet\": \"I predict that Congress will let the cases play out in court before Congress steps in. Still, Congress will likely monitor this situation in 2025 because an adverse ruling for AI companies could significantly impair the LLM training and development process...\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 1, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn how LLMs work and their key milestones...\", \"date\": null}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"link\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"position\": 2, \"snippet\": \"Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond. Here's how they think these generative AI models will evolve...\", \"date\": null}, {\"title\": \"AI Agents in 2025: Expectations vs. Reality | IBM\", \"link\": \"https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality\", \"position\": 4, \"snippet\": \"\\u201cMore and better agents\\u201d are on the way, predicts Time. \\u201cAutonomous \\u2018agents\\u2019 and profitability are likely to dominate the artificial intelligence agenda,\\u201d reports Reuters.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_0v7XW2ihjLFxNiQyqchhUdhL"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_pBOjbK0QQTtDsBfOckpWmalN",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://openlm.ai/chatbot-arena/\"}"
+          }
+        },
+        {
+          "id": "call_jrNijMVppyg7opCGRJFz82eM",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\"}"
+          }
+        },
+        {
+          "id": "call_1ckdfzmv1sExTVZBY8LWrh4B",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://openlm.ai/chatbot-arena/\", \"snippet\": \"---\\ntitle: Chatbot Arena\\ndescription: OpenLM.ai\\nsitename: https://openlm.ai/chatbot-arena/\\ndate: 2025-03-20\\n---\\nThis leaderboard is based on the following benchmarks.\\n\\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model\\u2019s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\\n\\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\\n\\n**Best Open LM**\\n\\n| Model | Arena Elo | MMLU | License |\\n|---|---|---|---|\\n|\\n\\n`1360`\\n\\n`90.8`\\n\\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\\n\\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\\n\\n`88.5`\\n\\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\\n\\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\\n\\n`86`\\n\\n**Full Leaderboard**\\n\\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\\n|---|---|---|---|---|---|---|---|---|\\n| \\ud83e\\udd47\\n|\\n\\n`1404`\\n\\n`1414`\\n\\n`92.7`\\n\\n`9871`\\n\\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\\n\\n`1406`\\n\\n`1269`\\n\\n`9871`\\n\\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\\n\\n`1365`\\n\\n`1278`\\n\\n`22004`\\n\\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\\n\\n`1380`\\n\\n`1241`\\n\\n`19963`\\n\\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\\n\\n`1366`\\n\\n`1279`\\n\\n`21831`\\n\\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\\n\\n`1369`\\n\\n`90.8`\\n\\n`12224`\\n\\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\\n\\n`1353`\\n\\n`1257`\\n\\n`22526`\\n\\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\\n\\n`1360`\\n\\n`1232`\\n\\n`90.4`\\n\\n`91.8`\\n\\n`24350`\\n\\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341\\u2026\\n\\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1456, \"snippet_word_count\": 159, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T12:40:09.688189\", \"date_cutoff_end\": \"2025-03-24T12:40:09.688189\", \"cached_at\": \"2025-10-24T02:59:03.722349\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_pBOjbK0QQTtDsBfOckpWmalN"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"snippet\": \"---\\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\\nauthor: Author No items found\\nurl: https://www.shakudo.io/blog/top-9-large-language-models\\nhostname: shakudo.io\\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\\nsitename: shakudo.io\\ndate: 2025-03-01\\n---\\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\\n\\n## Introduction\\n\\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\\n\\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business\\u2019s unique requirements.\\n\\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\\n\\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\\n\\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,\\u2026\\n\\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1952, \"snippet_word_count\": 346, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T12:40:09.688189\", \"date_cutoff_end\": \"2025-03-24T12:40:09.688189\", \"cached_at\": \"2025-10-24T03:27:20.786313\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_jrNijMVppyg7opCGRJFz82eM"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"snippet\": \"---\\ntitle: UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\\nauthor: UneeQ Staff\\nurl: https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\\nhostname: digitalhumans.com\\ndescription: What's next for the hottest ticket in tech? Our experts give their predictions on where ChatGPT and other LLMs could be heading in 2025 and beyond.\\nsitename: digitalhumans.com\\ndate: 2024-11-11\\n---\\nLarge language models (LLMs) are a [hot topic at the moment](https://www.digitalhumans.com/blog/how-chatgpt-bard-and-other-llms-are-signaling-an-evolution-for-ai-digital-humans), which is hardly surprising given how quickly ChatGPT, Claude, and many others have captured the public's attention.\\n\\nBut even before the current LLM hype cycle was in full swing, our team was experimenting and trying to unearth the technology's potential.\\n\\nIt means we\\u2019ve been working with LLMs in [our digital humans](https://www.digitalhumans.com/) for many years: building tools like [Synapse](https://www.digitalhumans.com/synapse) to help make conversations more brand-safe and relevant, and [Synanim](https://www.digitalhumans.com/synanim) to make conversations more accessible and fun.\\n\\nSo we thought we'd ask some of our in-house experts to look into their crystal balls and predict what's next for LLMs in 2025 and beyond.\\n\\nHere's how they think these generative AI models will evolve:\\n\\n**LLMs must move beyond the math to be creative**\\n\\n*Tyler Merritt, Field CTO*\\n\\nLLMs are still largely constrained to the logical sector. That means we try to solve everything with math and numbers. But there's still a lot we don't understand about the human brain, and it's clear to me that math is not the right language to describe feelings like nostalgia or the creative process.\\n\\nCreativity happens when we mix experience with new insights, inspiring us to think about things in a way we've never done before. So language models are inevitably going to struggle if they're simply using math to describe things that we already know. How will we come up with a model that can replicate creativity?\\n\\nPerhaps an injection of randomness is what's needed. Start throwing models curveballs and see what the results are. For example, what happens if we feed random, dissociated content into models at various points \\u2013 will they start to behave as if they're having ideas of their own? Will the models feel more creativ\\u2026\\n\\n[Truncated preview: showing 354 words out of ~1626. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1626, \"snippet_word_count\": 354, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T12:40:09.688189\", \"date_cutoff_end\": \"2025-03-24T12:40:09.688189\", \"cached_at\": \"2025-10-24T16:20:36.889267\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_1ckdfzmv1sExTVZBY8LWrh4B"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_bljazA5fnnVYCFOSeCRnJtwm",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://openlm.ai/chatbot-arena/\", \"content\": null, \"title\": \"Chatbot Arena\", \"question\": \"Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be greater than 0.70 on March 31, 2025?\", \"background\": \"UC Berkeley: [An Open Platform for Evaluating LLMs by Human Preference](https://sky.cs.berkeley.edu/project/chatbot-arena/)\", \"resolution_criteria\": \"This question resolves as YES if the value shown for the highest win rate displayed at the [Chatbot Arena LLM Leaderboard](https://lmarena.ai/?leaderboard) on March 31, 2025 is greater than 0.70. The win rate is expressed in decimals.\", \"fine_print\": \"This refers to the win rate displayed under \\\"Figure 2: Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" or a substantially similar methodology. For reference, on December 25, 2024, this value was 0.61 for Gemini-2.0-Flash-Thinking-Exp-1219. In case of multiple win rates being displayed under different methodologies, the resolution will use the one most similar to the \\\"Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" that is being displayed at the time of this question's creation.\", \"present_date\": \"2025-03-23T12:40:09.688189\"}"
+          }
+        },
+        {
+          "id": "call_ohxIX3fGia4o6gHYtlHmguqF",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"content\": null, \"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"question\": \"Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be greater than 0.70 on March 31, 2025?\", \"background\": \"UC Berkeley: [An Open Platform for Evaluating LLMs by Human Preference](https://sky.cs.berkeley.edu/project/chatbot-arena/)\", \"resolution_criteria\": \"This question resolves as YES if the value shown for the highest win rate displayed at the [Chatbot Arena LLM Leaderboard](https://lmarena.ai/?leaderboard) on March 31, 2025 is greater than 0.70. The win rate is expressed in decimals.\", \"fine_print\": \"This refers to the win rate displayed under \\\"Figure 2: Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" or a substantially similar methodology. For reference, on December 25, 2024, this value was 0.61 for Gemini-2.0-Flash-Thinking-Exp-1219. In case of multiple win rates being displayed under different methodologies, the resolution will use the one most similar to the \\\"Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" that is being displayed at the time of this question's creation.\", \"present_date\": \"2025-03-23T12:40:09.688189\"}"
+          }
+        },
+        {
+          "id": "call_l8Sm0iU2D7EnLVQOFAYDxi0r",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"content\": null, \"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"question\": \"Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be greater than 0.70 on March 31, 2025?\", \"background\": \"UC Berkeley: [An Open Platform for Evaluating LLMs by Human Preference](https://sky.cs.berkeley.edu/project/chatbot-arena/)\", \"resolution_criteria\": \"This question resolves as YES if the value shown for the highest win rate displayed at the [Chatbot Arena LLM Leaderboard](https://lmarena.ai/?leaderboard) on March 31, 2025 is greater than 0.70. The win rate is expressed in decimals.\", \"fine_print\": \"This refers to the win rate displayed under \\\"Figure 2: Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" or a substantially similar methodology. For reference, on December 25, 2024, this value was 0.61 for Gemini-2.0-Flash-Thinking-Exp-1219. In case of multiple win rates being displayed under different methodologies, the resolution will use the one most similar to the \\\"Average Win Rate Against All Other Models (Assuming Uniform Sampling and No Ties)\\\" that is being displayed at the time of this question's creation.\", \"present_date\": \"2025-03-23T12:40:09.688189\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"facts\": [{\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The current highest Arena Elo rating is 1404, held by GPT-4.5-Preview.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The leaderboard uses a crowdsourced, randomized battle platform with over 2.8 million user votes to compute Elo ratings.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The leaderboard has transitioned from an online Elo rating system to the Bradley-Terry model, which assumes a fixed but unknown pairwise win-rate.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The highest MMLU score on the leaderboard is 92.7, associated with the GPT-4.5-Preview model.\"}, {\"title\": \"Chatbot Arena\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The leaderboard includes a variety of models with different capabilities, such as coding and vision, which may influence their overall win rates.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_bljazA5fnnVYCFOSeCRnJtwm"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"facts\": [{\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"DeepSeek-R1, ranked fourth on Chatbot Arena, is a 671B parameter model with superior performance in complex tasks such as mathematics and code generation.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving.\"}, {\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_ohxIX3fGia4o6gHYtlHmguqF"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"efeaa633-e4b9-57ab-b834-d9ae055a754f\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"facts\": [{\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"LLMs are expected to evolve with better knowledge injection techniques, such as Retrieval-Augmented Generation (RAG), to improve accuracy and reliability.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"There is an expectation that LLMs will become more data- and energy-efficient, allowing for more sophisticated models.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"Experts predict that LLMs will have more diverse training data, including non-English sources, which could reduce bias and improve performance.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"The interaction with LLMs is expected to become more voice-based, potentially enhancing user experience and satisfaction.\"}, {\"title\": \"UneeQ Blog | What will the future hold for large language models? Our experts make their 2025 predictions\", \"url\": \"https://www.digitalhumans.com/blog/what-will-the-future-hold-for-large-language-models-our-experts-make-their-2025-llm-predictions\", \"fact\": \"LLMs are anticipated to have clear utility and remain relevant, suggesting continued investment and development in their capabilities.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_l8Sm0iU2D7EnLVQOFAYDxi0r"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key insights relevant to the question of whether the highest average win rate shown at the Chatbot Arena LLM Leaderboard will be greater than 0.70 on March 31, 2025:\n\n1. **Current Performance**: The current highest Arena Elo rating is 1404, held by GPT-4.5-Preview. While Elo ratings are not directly equivalent to win rates, they indicate a strong competitive performance among models.\n\n2. **Advancements in LLMs**: The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration. This suggests that LLMs are continuing to improve in their capabilities, which could potentially lead to higher win rates.\n\n3. **Predictions and Trends**: Experts predict that LLMs will continue to evolve with better knowledge injection techniques and become more data- and energy-efficient. This ongoing improvement in LLM technology could contribute to higher win rates.\n\n4. **Diverse Capabilities**: Models like DeepSeek-R1 and Claude 3.7 Sonnet show strong performance in complex tasks such as mathematics, code generation, and web development. This diversity in capabilities could enhance their overall win rates against other models.\n\nConsidering these factors, the probability that the highest average win rate shown at the Chatbot Arena LLM Leaderboard will be greater than 0.70 on March 31, 2025, seems reasonably high. The continuous advancements in LLM capabilities and the strong performance metrics observed suggest a favorable outcome.\n\nFINAL PROBABILITY: 0.75"
+    }
+  ]
+}

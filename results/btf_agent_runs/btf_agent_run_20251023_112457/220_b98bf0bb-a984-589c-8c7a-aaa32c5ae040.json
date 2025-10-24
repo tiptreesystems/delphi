@@ -1,0 +1,212 @@
+{
+  "question_id": "b98bf0bb-a984-589c-8c7a-aaa32c5ae040",
+  "question": "Will Cathy Harris still be listed as chairing the Merit Systems Protection Board on March 31, 2025?",
+  "probability": 0.7,
+  "reasoning": "I was unable to find specific recent information regarding Cathy Harris's status as the chair of the Merit Systems Protection Board (MSPB) as of March 2025. The search did not yield any direct results about her current status or any official announcements regarding changes in leadership at the MSPB.\n\nHowever, the \"Political Appointee Tracker\" by the Partnership for Public Service and The Washington Post tracks nominees for critical leadership roles, including those requiring Senate confirmation. This resource could potentially provide updates on any changes in political appointments, but the content fetched did not specifically mention Cathy Harris or any changes related to her position.\n\nGiven the lack of specific information indicating a change in her status, and assuming no significant events have occurred to suggest otherwise, I would estimate the probability that Cathy Harris will still be listed as chairing the MSPB on March 31, 2025, to be moderately high.\n\nFINAL PROBABILITY: 0.7",
+  "search_results": [
+    {
+      "title": "U.S. Merit Systems Protection Board",
+      "url": "https://www.mspb.gov/",
+      "content": "MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices."
+    },
+    {
+      "title": "U.S. Merit Systems Protection Board",
+      "url": "https://www.mspb.gov/",
+      "content": "MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices. The MSPB's primary function is to protect Federal merit systems against partisan political and other prohibited personnel practices."
+    },
+    {
+      "title": "Political Appointee Tracker • Partnership for Public Service",
+      "url": "https://ourpublicservice.org/performance-measures/political-appointee-tracker/",
+      "content": "The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation..."
+    },
+    {
+      "title": "https://ourpublicservice.org/performance-measures/political-appointee-tracker/",
+      "url": "https://ourpublicservice.org/performance-measures/political-appointee-tracker/",
+      "content": "---\ntitle: Political Appointee Tracker\nauthor: Page\nurl: https://ourpublicservice.org/performance-measures/political-appointee-tracker/\nhostname: ourpublicservice.org\ndescription: The Partnership for Public Service is a nonprofit, nonpartisan organization that strives for a better government and a stronger democracy.\nsitename: Partnership for Public Service\ndate: 2025-01-08\n---\nPolitical Appointee Tracker The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation, including Cabinet secretaries, chief financial officers, general counsels and ambassadors. The tracker provides the most comprehensive data and analysis about the political appointments process and provides the public with up-to-date information about the nomination and confirmation status of nominees for critical roles in the federal government. The information also provides historical comparisons to the previous administration and data illustrations that reveal key confirmation and nomination trends. Our Experts"
+    }
+  ],
+  "extracted_facts": [],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.48999999999999994,
+  "weighted_brier_score": 0.48999999999999994,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "b98bf0bb-a984-589c-8c7a-aaa32c5ae040",
+        "queries": [
+          "Cathy Harris Merit Systems Protection Board March 2025",
+          "Merit Systems Protection Board official announcements 2025",
+          "US government appointments Merit Systems Protection Board 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"b98bf0bb-a984-589c-8c7a-aaa32c5ae040\", \"queries\": [\"Cathy Harris Merit Systems Protection Board March 2025\", \"Merit Systems Protection Board official announcements 2025\", \"US government appointments Merit Systems Protection Board 2025\"]}",
+      "tool_call_id": "call_lMOT7FYyp3a3ruOAcgpjkYKJ"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Cathy Harris Merit Systems Protection Board March 2025",
+        "results": []
+      },
+      "raw": "{\"query\": \"Cathy Harris Merit Systems Protection Board March 2025\", \"results\": []}",
+      "tool_call_id": "call_moVvP4ie774PpDqgCK1qAAll"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Merit Systems Protection Board official announcements 2025",
+        "results": [
+          {
+            "title": "U.S. Merit Systems Protection Board",
+            "link": "https://www.mspb.gov/",
+            "position": 2,
+            "snippet": "MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Merit Systems Protection Board official announcements 2025\", \"results\": [{\"title\": \"U.S. Merit Systems Protection Board\", \"link\": \"https://www.mspb.gov/\", \"position\": 2, \"snippet\": \"MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices.\", \"date\": null}]}",
+      "tool_call_id": "call_xHdkZ8JtRQb3b1VZmWopvIIz"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US government appointments Merit Systems Protection Board 2025",
+        "results": [
+          {
+            "title": "U.S. Merit Systems Protection Board",
+            "link": "https://www.mspb.gov/",
+            "position": 1,
+            "snippet": "MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices. The MSPB's primary function is to protect Federal merit systems against partisan political and other prohibited personnel practices.",
+            "date": null
+          },
+          {
+            "title": "Political Appointee Tracker • Partnership for Public Service",
+            "link": "https://ourpublicservice.org/performance-measures/political-appointee-tracker/",
+            "position": 1,
+            "snippet": "The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation...",
+            "date": "2025-01-08T17:48:08Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US government appointments Merit Systems Protection Board 2025\", \"results\": [{\"title\": \"U.S. Merit Systems Protection Board\", \"link\": \"https://www.mspb.gov/\", \"position\": 1, \"snippet\": \"MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices. The MSPB's primary function is to protect Federal merit systems against partisan political and other prohibited personnel practices.\", \"date\": null}, {\"title\": \"Political Appointee Tracker \\u2022 Partnership for Public Service\", \"link\": \"https://ourpublicservice.org/performance-measures/political-appointee-tracker/\", \"position\": 1, \"snippet\": \"The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation...\", \"date\": \"2025-01-08T17:48:08Z\"}]}",
+      "tool_call_id": "call_VWyuB3E2aGwrN7XD0iD2s3vP"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://ourpublicservice.org/performance-measures/political-appointee-tracker/",
+        "snippet": "---\ntitle: Political Appointee Tracker\nauthor: Page\nurl: https://ourpublicservice.org/performance-measures/political-appointee-tracker/\nhostname: ourpublicservice.org\ndescription: The Partnership for Public Service is a nonprofit, nonpartisan organization that strives for a better government and a stronger democracy.\nsitename: Partnership for Public Service\ndate: 2025-01-08\n---\nPolitical Appointee Tracker The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation, including Cabinet secretaries, chief financial officers, general counsels and ambassadors. The tracker provides the most comprehensive data and analysis about the political appointments process and provides the public with up-to-date information about the nomination and confirmation status of nominees for critical roles in the federal government. The information also provides historical comparisons to the previous administration and data illustrations that reveal key confirmation and nomination trends. Our Experts",
+        "word_count": 152,
+        "snippet_word_count": 152,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-08T22:06:18.369685",
+        "date_cutoff_end": "2025-03-09T22:06:18.369685",
+        "cached_at": "2025-10-24T07:11:47.684402"
+      },
+      "raw": "{\"url\": \"https://ourpublicservice.org/performance-measures/political-appointee-tracker/\", \"snippet\": \"---\\ntitle: Political Appointee Tracker\\nauthor: Page\\nurl: https://ourpublicservice.org/performance-measures/political-appointee-tracker/\\nhostname: ourpublicservice.org\\ndescription: The Partnership for Public Service is a nonprofit, nonpartisan organization that strives for a better government and a stronger democracy.\\nsitename: Partnership for Public Service\\ndate: 2025-01-08\\n---\\nPolitical Appointee Tracker The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation, including Cabinet secretaries, chief financial officers, general counsels and ambassadors. The tracker provides the most comprehensive data and analysis about the political appointments process and provides the public with up-to-date information about the nomination and confirmation status of nominees for critical roles in the federal government. The information also provides historical comparisons to the previous administration and data illustrations that reveal key confirmation and nomination trends. Our Experts\", \"word_count\": 152, \"snippet_word_count\": 152, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-08T22:06:18.369685\", \"date_cutoff_end\": \"2025-03-09T22:06:18.369685\", \"cached_at\": \"2025-10-24T07:11:47.684402\"}",
+      "tool_call_id": "call_OhE96Ym9Vs25wfFUCpuoWd61"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Cathy Harris still be listed as chairing the Merit Systems Protection Board on March 31, 2025?\nBackground: The Hill: [Federal judge reinstates employee appeals board member fired by Trump](https://thehill.com/regulation/court-battles/5151616-federal-judge-orders-reinstatement-of-merit-systems-protection-board-member/)\nResolution criteria: This question resolves as **Yes** if Cathy A. Harris is listed as chairman of the board or equivalent (as she is listed on February 18, 2025) of the U.S. Merit Systems Protection Board (MSPB) at [this link](https://www.mspb.gov/about/members.htm) when accessed by Metaculus on or after April 1, 2025 when accessed by Metaculus.\nFine print: \npresent_date: 2025-03-08T22:06:18.369685\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_lMOT7FYyp3a3ruOAcgpjkYKJ",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Cathy Harris still be listed as chairing the Merit Systems Protection Board on March 31, 2025?\",\"background\":\"The Hill: [Federal judge reinstates employee appeals board member fired by Trump](https://thehill.com/regulation/court-battles/5151616-federal-judge-orders-reinstatement-of-merit-systems-protection-board-member/)\",\"resolution_criteria\":\"This question resolves as **Yes** if Cathy A. Harris is listed as chairman of the board or equivalent (as she is listed on February 18, 2025) of the U.S. Merit Systems Protection Board (MSPB) at [this link](https://www.mspb.gov/about/members.htm) when accessed by Metaculus on or after April 1, 2025 when accessed by Metaculus.\",\"fine_print\":\"\",\"present_date\":\"2025-03-08T22:06:18.369685\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"b98bf0bb-a984-589c-8c7a-aaa32c5ae040\", \"queries\": [\"Cathy Harris Merit Systems Protection Board March 2025\", \"Merit Systems Protection Board official announcements 2025\", \"US government appointments Merit Systems Protection Board 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_lMOT7FYyp3a3ruOAcgpjkYKJ"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_moVvP4ie774PpDqgCK1qAAll",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Cathy Harris Merit Systems Protection Board March 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-08\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_xHdkZ8JtRQb3b1VZmWopvIIz",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Merit Systems Protection Board official announcements 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-08\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_VWyuB3E2aGwrN7XD0iD2s3vP",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US government appointments Merit Systems Protection Board 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-08\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Cathy Harris Merit Systems Protection Board March 2025\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_moVvP4ie774PpDqgCK1qAAll"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Merit Systems Protection Board official announcements 2025\", \"results\": [{\"title\": \"U.S. Merit Systems Protection Board\", \"link\": \"https://www.mspb.gov/\", \"position\": 2, \"snippet\": \"MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_xHdkZ8JtRQb3b1VZmWopvIIz"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US government appointments Merit Systems Protection Board 2025\", \"results\": [{\"title\": \"U.S. Merit Systems Protection Board\", \"link\": \"https://www.mspb.gov/\", \"position\": 1, \"snippet\": \"MSPB Mission: To protect the Merit System Principles and promote an effective Federal workforce free of Prohibited Personnel Practices. The MSPB's primary function is to protect Federal merit systems against partisan political and other prohibited personnel practices.\", \"date\": null}, {\"title\": \"Political Appointee Tracker \\u2022 Partnership for Public Service\", \"link\": \"https://ourpublicservice.org/performance-measures/political-appointee-tracker/\", \"position\": 1, \"snippet\": \"The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation...\", \"date\": \"2025-01-08T17:48:08Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_VWyuB3E2aGwrN7XD0iD2s3vP"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_OhE96Ym9Vs25wfFUCpuoWd61",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\":\"https://ourpublicservice.org/performance-measures/political-appointee-tracker/\",\"date_cutoff_start\":\"2025-01-01\",\"date_cutoff_end\":\"2025-03-08\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://ourpublicservice.org/performance-measures/political-appointee-tracker/\", \"snippet\": \"---\\ntitle: Political Appointee Tracker\\nauthor: Page\\nurl: https://ourpublicservice.org/performance-measures/political-appointee-tracker/\\nhostname: ourpublicservice.org\\ndescription: The Partnership for Public Service is a nonprofit, nonpartisan organization that strives for a better government and a stronger democracy.\\nsitename: Partnership for Public Service\\ndate: 2025-01-08\\n---\\nPolitical Appointee Tracker The Partnership for Public Service and The Washington Post track nominees for roughly 800 critical leadership roles. Launched in 2016, the political appointee tracker has been following roughly 800 of the more than 1,300 political appointed positions that require Senate confirmation, including Cabinet secretaries, chief financial officers, general counsels and ambassadors. The tracker provides the most comprehensive data and analysis about the political appointments process and provides the public with up-to-date information about the nomination and confirmation status of nominees for critical roles in the federal government. The information also provides historical comparisons to the previous administration and data illustrations that reveal key confirmation and nomination trends. Our Experts\", \"word_count\": 152, \"snippet_word_count\": 152, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-08T22:06:18.369685\", \"date_cutoff_end\": \"2025-03-09T22:06:18.369685\", \"cached_at\": \"2025-10-24T07:11:47.684402\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_OhE96Ym9Vs25wfFUCpuoWd61"
+    },
+    {
+      "role": "assistant",
+      "content": "I was unable to find specific recent information regarding Cathy Harris's status as the chair of the Merit Systems Protection Board (MSPB) as of March 2025. The search did not yield any direct results about her current status or any official announcements regarding changes in leadership at the MSPB.\n\nHowever, the \"Political Appointee Tracker\" by the Partnership for Public Service and The Washington Post tracks nominees for critical leadership roles, including those requiring Senate confirmation. This resource could potentially provide updates on any changes in political appointments, but the content fetched did not specifically mention Cathy Harris or any changes related to her position.\n\nGiven the lack of specific information indicating a change in her status, and assuming no significant events have occurred to suggest otherwise, I would estimate the probability that Cathy Harris will still be listed as chairing the MSPB on March 31, 2025, to be moderately high.\n\nFINAL PROBABILITY: 0.7"
+    }
+  ]
+}

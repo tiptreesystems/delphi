@@ -1,0 +1,390 @@
+{
+  "question_id": "f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3",
+  "question": "Will Mike Johnson cease to be Speaker of the US House of Representatives before April 1, 2025?",
+  "probability": 0.4,
+  "reasoning": "Based on the information gathered:\n\n1. **Leadership Challenges**: Mike Johnson is facing internal challenges within the Republican Party. A motion to vacate has been filed by Marjorie Taylor Greene, which indicates a potential challenge to his leadership. However, some Republicans are hesitant to support this motion due to concerns it could lead to a Democratic Speaker.\n\n2. **Support and Influence**: Despite the challenges, Johnson has the public support of Donald Trump, which could help him maintain his position given Trump's influence within the GOP. Johnson is also actively involved in fundraising efforts, which bolsters his standing within the party.\n\n3. **Internal Divisions**: The Republican Party is experiencing internal divisions, with some members frustrated over Johnson's handling of certain issues. This division could affect his ability to maintain the Speaker position.\n\n4. **Precedent of Vulnerability**: The removal of Kevin McCarthy as Speaker in a similar situation highlights the vulnerability of the Speaker's position to internal party conflicts.\n\nConsidering these factors, while there is a significant challenge to Johnson's leadership, the hesitation among some Republicans to support the motion to vacate, along with Trump's support, suggests that Johnson might still retain his position. However, the situation remains precarious.\n\nFINAL PROBABILITY: 0.4",
+  "search_results": [
+    {
+      "title": "Latest News | U.S. Congressman Mike Johnson",
+      "url": "https://mikejohnson.house.gov/news/",
+      "content": "Today in the Rayburn Room of the U.S. Capitol, Speaker Johnson hosted President Donald Trump and Taoiseach Micheal Martin for the annual Friends of Ireland Luncheon, a St. Patrick’s Day tradition..."
+    },
+    {
+      "title": "Johnson reflects on challenges as speaker, eyes majority",
+      "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "content": "Speaker Mike Johnson faces an uncertain future, with his leadership in question regardless of success or failure, as he works to save the House GOP."
+    },
+    {
+      "title": "Mike Johnson - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mike_Johnson",
+      "content": "On October 25, 2023, after Speaker Kevin McCarthy was ousted from the position, Johnson was elected to replace him."
+    },
+    {
+      "title": "Mike Johnson asks House colleagues to back him for another term - Live Updates - POLITICO",
+      "url": "https://www.politico.com/live-updates/2024/11/06/2024-election-results-live-coverage-updates-analysis/control-of-the-house-00188094",
+      "content": "Speaker Mike Johnson is asking his House GOP conference to back him for a second term, even before the House majority has been officially called. Johnson says he is “ready to take the field with all of you\"..."
+    },
+    {
+      "title": "Johnson’s future speakership could hinge on the spending fight - POLITICO",
+      "url": "https://www.politico.com/news/2024/09/09/mike-johnson-future-spending-fight-00177620",
+      "content": "The speaker is embracing conservative priorities on the upcoming funding battle just weeks before he’ll potentially need their support to keep his gavel..."
+    },
+    {
+      "title": "What's next now that Speaker Mike Johnson is facing a motion to vacate from Marjorie Taylor Greene | AP News",
+      "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "content": "House Speaker Mike Johnson is at risk of the same conservative revolt that took down his predecessor. Marjorie Taylor Greene filed a motion to vacate that would remove Johnson from office if approved..."
+    },
+    {
+      "title": "Mike Johnson Blindsided by Republican's Resignation - Newsweek",
+      "url": "https://www.newsweek.com/mike-johnson-blindsided-republican-ken-buck-resignation-1878516",
+      "content": "House Speaker Mike Johnson said he \"didn't know\" of Representative Ken Buck's resignation plans. Johnson was reportedly caught by surprise by the announcement."
+    },
+    {
+      "title": "Mike Johnson - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mike_Johnson",
+      "content": "I am sorry, but I cannot provide a snippet about Mike Johnson's resignation rumors as the provided text does not contain this information."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "fact": "Mike Johnson has been actively traveling and fundraising to support GOP candidates, indicating his commitment to maintaining the GOP majority in the House."
+    },
+    {
+      "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "fact": "Johnson's future as Speaker is uncertain, with many Republicans believing he wouldn't be elected to leadership if the GOP loses the majority."
+    },
+    {
+      "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "fact": "Johnson has faced internal challenges, with 11 Republicans previously voting against tabling an effort to oust him, raising questions about his support within the party."
+    },
+    {
+      "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "fact": "Donald Trump has publicly supported Johnson, which could help him maintain his position given Trump's influence within the GOP."
+    },
+    {
+      "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+      "fact": "Johnson has been involved in significant fundraising efforts, raising $27.5 million for campaign committees and candidates, which could bolster his standing within the party."
+    },
+    {
+      "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "fact": "Marjorie Taylor Greene has filed a motion to vacate against Speaker Mike Johnson, indicating a potential challenge to his leadership."
+    },
+    {
+      "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "fact": "The motion to vacate can be triggered by a single member and requires a simple majority of the House to pass."
+    },
+    {
+      "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "fact": "Some Republicans, including those who previously supported ousting McCarthy, are hesitant to support Greene's motion against Johnson, fearing it could lead to a Democratic Speaker."
+    },
+    {
+      "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "fact": "The Republican Party is experiencing internal divisions, with some members frustrated over Johnson's handling of issues like Ukraine funding."
+    },
+    {
+      "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+      "fact": "The removal of Kevin McCarthy as Speaker in a similar situation highlights the vulnerability of the Speaker's position to internal party conflicts."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.16000000000000003,
+  "weighted_brier_score": 0.16000000000000003,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3",
+        "queries": [
+          "Mike Johnson Speaker of the House news March 2025",
+          "Mike Johnson Speaker of the House leadership challenge",
+          "Mike Johnson Speaker of the House resignation rumors"
+        ]
+      },
+      "raw": "{\"question_id\": \"f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3\", \"queries\": [\"Mike Johnson Speaker of the House news March 2025\", \"Mike Johnson Speaker of the House leadership challenge\", \"Mike Johnson Speaker of the House resignation rumors\"]}",
+      "tool_call_id": "call_MEgPK0HzYotNLoDfkqvXFbok"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Mike Johnson Speaker of the House news March 2025",
+        "results": [
+          {
+            "title": "Latest News | U.S. Congressman Mike Johnson",
+            "link": "https://mikejohnson.house.gov/news/",
+            "position": 3,
+            "snippet": "Today in the Rayburn Room of the U.S. Capitol, Speaker Johnson hosted President Donald Trump and Taoiseach Micheal Martin for the annual Friends of Ireland Luncheon, a St. Patrick’s Day tradition...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Mike Johnson Speaker of the House news March 2025\", \"results\": [{\"title\": \"Latest News | U.S. Congressman Mike Johnson\", \"link\": \"https://mikejohnson.house.gov/news/\", \"position\": 3, \"snippet\": \"Today in the Rayburn Room of the U.S. Capitol, Speaker Johnson hosted President Donald Trump and Taoiseach Micheal Martin for the annual Friends of Ireland Luncheon, a St. Patrick\\u2019s Day tradition...\", \"date\": null}]}",
+      "tool_call_id": "call_OmFK70xe9ZLUThY2uxFDs4Zt"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Mike Johnson Speaker of the House leadership challenge",
+        "results": [
+          {
+            "title": "Johnson reflects on challenges as speaker, eyes majority",
+            "link": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "position": 3,
+            "snippet": "Speaker Mike Johnson faces an uncertain future, with his leadership in question regardless of success or failure, as he works to save the House GOP.",
+            "date": null
+          },
+          {
+            "title": "Mike Johnson - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Mike_Johnson",
+            "position": 4,
+            "snippet": "On October 25, 2023, after Speaker Kevin McCarthy was ousted from the position, Johnson was elected to replace him.",
+            "date": null
+          },
+          {
+            "title": "Mike Johnson asks House colleagues to back him for another term - Live Updates - POLITICO",
+            "link": "https://www.politico.com/live-updates/2024/11/06/2024-election-results-live-coverage-updates-analysis/control-of-the-house-00188094",
+            "position": 1,
+            "snippet": "Speaker Mike Johnson is asking his House GOP conference to back him for a second term, even before the House majority has been officially called. Johnson says he is “ready to take the field with all of you\"...",
+            "date": null
+          },
+          {
+            "title": "Johnson’s future speakership could hinge on the spending fight - POLITICO",
+            "link": "https://www.politico.com/news/2024/09/09/mike-johnson-future-spending-fight-00177620",
+            "position": 5,
+            "snippet": "The speaker is embracing conservative priorities on the upcoming funding battle just weeks before he’ll potentially need their support to keep his gavel...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Mike Johnson Speaker of the House leadership challenge\", \"results\": [{\"title\": \"Johnson reflects on challenges as speaker, eyes majority\", \"link\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"position\": 3, \"snippet\": \"Speaker Mike Johnson faces an uncertain future, with his leadership in question regardless of success or failure, as he works to save the House GOP.\", \"date\": null}, {\"title\": \"Mike Johnson - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Mike_Johnson\", \"position\": 4, \"snippet\": \"On October 25, 2023, after Speaker Kevin McCarthy was ousted from the position, Johnson was elected to replace him.\", \"date\": null}, {\"title\": \"Mike Johnson asks House colleagues to back him for another term - Live Updates - POLITICO\", \"link\": \"https://www.politico.com/live-updates/2024/11/06/2024-election-results-live-coverage-updates-analysis/control-of-the-house-00188094\", \"position\": 1, \"snippet\": \"Speaker Mike Johnson is asking his House GOP conference to back him for a second term, even before the House majority has been officially called. Johnson says he is \\u201cready to take the field with all of you\\\"...\", \"date\": null}, {\"title\": \"Johnson\\u2019s future speakership could hinge on the spending fight - POLITICO\", \"link\": \"https://www.politico.com/news/2024/09/09/mike-johnson-future-spending-fight-00177620\", \"position\": 5, \"snippet\": \"The speaker is embracing conservative priorities on the upcoming funding battle just weeks before he\\u2019ll potentially need their support to keep his gavel...\", \"date\": null}]}",
+      "tool_call_id": "call_OQzxbaSOszFdQYKLhYg2h3fH"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Mike Johnson Speaker of the House resignation rumors",
+        "results": [
+          {
+            "title": "What's next now that Speaker Mike Johnson is facing a motion to vacate from Marjorie Taylor Greene | AP News",
+            "link": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "position": 4,
+            "snippet": "House Speaker Mike Johnson is at risk of the same conservative revolt that took down his predecessor. Marjorie Taylor Greene filed a motion to vacate that would remove Johnson from office if approved...",
+            "date": null
+          },
+          {
+            "title": "Mike Johnson Blindsided by Republican's Resignation - Newsweek",
+            "link": "https://www.newsweek.com/mike-johnson-blindsided-republican-ken-buck-resignation-1878516",
+            "position": 1,
+            "snippet": "House Speaker Mike Johnson said he \"didn't know\" of Representative Ken Buck's resignation plans. Johnson was reportedly caught by surprise by the announcement.",
+            "date": null
+          },
+          {
+            "title": "Mike Johnson - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Mike_Johnson",
+            "position": 3,
+            "snippet": "I am sorry, but I cannot provide a snippet about Mike Johnson's resignation rumors as the provided text does not contain this information.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Mike Johnson Speaker of the House resignation rumors\", \"results\": [{\"title\": \"What's next now that Speaker Mike Johnson is facing a motion to vacate from Marjorie Taylor Greene | AP News\", \"link\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"position\": 4, \"snippet\": \"House Speaker Mike Johnson is at risk of the same conservative revolt that took down his predecessor. Marjorie Taylor Greene filed a motion to vacate that would remove Johnson from office if approved...\", \"date\": null}, {\"title\": \"Mike Johnson Blindsided by Republican's Resignation - Newsweek\", \"link\": \"https://www.newsweek.com/mike-johnson-blindsided-republican-ken-buck-resignation-1878516\", \"position\": 1, \"snippet\": \"House Speaker Mike Johnson said he \\\"didn't know\\\" of Representative Ken Buck's resignation plans. Johnson was reportedly caught by surprise by the announcement.\", \"date\": null}, {\"title\": \"Mike Johnson - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Mike_Johnson\", \"position\": 3, \"snippet\": \"I am sorry, but I cannot provide a snippet about Mike Johnson's resignation rumors as the provided text does not contain this information.\", \"date\": null}]}",
+      "tool_call_id": "call_3QNd2hmDfBI1FQeTMAY2HAM8"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3",
+        "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+        "facts": [
+          {
+            "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "fact": "Mike Johnson has been actively traveling and fundraising to support GOP candidates, indicating his commitment to maintaining the GOP majority in the House."
+          },
+          {
+            "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "fact": "Johnson's future as Speaker is uncertain, with many Republicans believing he wouldn't be elected to leadership if the GOP loses the majority."
+          },
+          {
+            "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "fact": "Johnson has faced internal challenges, with 11 Republicans previously voting against tabling an effort to oust him, raising questions about his support within the party."
+          },
+          {
+            "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "fact": "Donald Trump has publicly supported Johnson, which could help him maintain his position given Trump's influence within the GOP."
+          },
+          {
+            "title": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "url": "https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/",
+            "fact": "Johnson has been involved in significant fundraising efforts, raising $27.5 million for campaign committees and candidates, which could bolster his standing within the party."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"facts\": [{\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Mike Johnson has been actively traveling and fundraising to support GOP candidates, indicating his commitment to maintaining the GOP majority in the House.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Johnson's future as Speaker is uncertain, with many Republicans believing he wouldn't be elected to leadership if the GOP loses the majority.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Johnson has faced internal challenges, with 11 Republicans previously voting against tabling an effort to oust him, raising questions about his support within the party.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Donald Trump has publicly supported Johnson, which could help him maintain his position given Trump's influence within the GOP.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Johnson has been involved in significant fundraising efforts, raising $27.5 million for campaign committees and candidates, which could bolster his standing within the party.\"}]}",
+      "tool_call_id": "call_DPJC7Y2nwWRsiYYFcvqYA4DL"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3",
+        "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+        "facts": [
+          {
+            "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "fact": "Marjorie Taylor Greene has filed a motion to vacate against Speaker Mike Johnson, indicating a potential challenge to his leadership."
+          },
+          {
+            "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "fact": "The motion to vacate can be triggered by a single member and requires a simple majority of the House to pass."
+          },
+          {
+            "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "fact": "Some Republicans, including those who previously supported ousting McCarthy, are hesitant to support Greene's motion against Johnson, fearing it could lead to a Democratic Speaker."
+          },
+          {
+            "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "fact": "The Republican Party is experiencing internal divisions, with some members frustrated over Johnson's handling of issues like Ukraine funding."
+          },
+          {
+            "title": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "url": "https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9",
+            "fact": "The removal of Kevin McCarthy as Speaker in a similar situation highlights the vulnerability of the Speaker's position to internal party conflicts."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"facts\": [{\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"Marjorie Taylor Greene has filed a motion to vacate against Speaker Mike Johnson, indicating a potential challenge to his leadership.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"The motion to vacate can be triggered by a single member and requires a simple majority of the House to pass.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"Some Republicans, including those who previously supported ousting McCarthy, are hesitant to support Greene's motion against Johnson, fearing it could lead to a Democratic Speaker.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"The Republican Party is experiencing internal divisions, with some members frustrated over Johnson's handling of issues like Ukraine funding.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"The removal of Kevin McCarthy as Speaker in a similar situation highlights the vulnerability of the Speaker's position to internal party conflicts.\"}]}",
+      "tool_call_id": "call_43nj65F2iSk3FBy9TBT2L4Pw"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Mike Johnson cease to be Speaker of the US House of Representatives before April 1, 2025?\nBackground: ABC News: ['Total dumpster fire': Republicans fume over speaker's spending plan days from shutdown deadline](https://abc7.com/post/republicans-fume-speaker-mike-johnsons-spending-plan-days-shutdown-deadline/15668588/)\nResolution criteria: This question resolves as **Yes** if, before April 1, 2025, Mike Johnson has ceased to be Speaker of the US House of Representatives. Otherwise, this question resolves as **No**.\nFine print: \npresent_date: 2025-03-17T19:44:28.157458\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_MEgPK0HzYotNLoDfkqvXFbok",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Mike Johnson cease to be Speaker of the US House of Representatives before April 1, 2025?\",\"background\":\"ABC News: ['Total dumpster fire': Republicans fume over speaker's spending plan days from shutdown deadline](https://abc7.com/post/republicans-fume-speaker-mike-johnsons-spending-plan-days-shutdown-deadline/15668588/)\",\"resolution_criteria\":\"This question resolves as **Yes** if, before April 1, 2025, Mike Johnson has ceased to be Speaker of the US House of Representatives. Otherwise, this question resolves as **No**.\",\"present_date\":\"2025-03-17T19:44:28.157458\",\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3\", \"queries\": [\"Mike Johnson Speaker of the House news March 2025\", \"Mike Johnson Speaker of the House leadership challenge\", \"Mike Johnson Speaker of the House resignation rumors\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_MEgPK0HzYotNLoDfkqvXFbok"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_OmFK70xe9ZLUThY2uxFDs4Zt",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Mike Johnson Speaker of the House news March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-17\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_OQzxbaSOszFdQYKLhYg2h3fH",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Mike Johnson Speaker of the House leadership challenge\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-17\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_3QNd2hmDfBI1FQeTMAY2HAM8",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Mike Johnson Speaker of the House resignation rumors\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-17\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Mike Johnson Speaker of the House news March 2025\", \"results\": [{\"title\": \"Latest News | U.S. Congressman Mike Johnson\", \"link\": \"https://mikejohnson.house.gov/news/\", \"position\": 3, \"snippet\": \"Today in the Rayburn Room of the U.S. Capitol, Speaker Johnson hosted President Donald Trump and Taoiseach Micheal Martin for the annual Friends of Ireland Luncheon, a St. Patrick\\u2019s Day tradition...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_OmFK70xe9ZLUThY2uxFDs4Zt"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Mike Johnson Speaker of the House leadership challenge\", \"results\": [{\"title\": \"Johnson reflects on challenges as speaker, eyes majority\", \"link\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"position\": 3, \"snippet\": \"Speaker Mike Johnson faces an uncertain future, with his leadership in question regardless of success or failure, as he works to save the House GOP.\", \"date\": null}, {\"title\": \"Mike Johnson - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Mike_Johnson\", \"position\": 4, \"snippet\": \"On October 25, 2023, after Speaker Kevin McCarthy was ousted from the position, Johnson was elected to replace him.\", \"date\": null}, {\"title\": \"Mike Johnson asks House colleagues to back him for another term - Live Updates - POLITICO\", \"link\": \"https://www.politico.com/live-updates/2024/11/06/2024-election-results-live-coverage-updates-analysis/control-of-the-house-00188094\", \"position\": 1, \"snippet\": \"Speaker Mike Johnson is asking his House GOP conference to back him for a second term, even before the House majority has been officially called. Johnson says he is \\u201cready to take the field with all of you\\\"...\", \"date\": null}, {\"title\": \"Johnson\\u2019s future speakership could hinge on the spending fight - POLITICO\", \"link\": \"https://www.politico.com/news/2024/09/09/mike-johnson-future-spending-fight-00177620\", \"position\": 5, \"snippet\": \"The speaker is embracing conservative priorities on the upcoming funding battle just weeks before he\\u2019ll potentially need their support to keep his gavel...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_OQzxbaSOszFdQYKLhYg2h3fH"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Mike Johnson Speaker of the House resignation rumors\", \"results\": [{\"title\": \"What's next now that Speaker Mike Johnson is facing a motion to vacate from Marjorie Taylor Greene | AP News\", \"link\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"position\": 4, \"snippet\": \"House Speaker Mike Johnson is at risk of the same conservative revolt that took down his predecessor. Marjorie Taylor Greene filed a motion to vacate that would remove Johnson from office if approved...\", \"date\": null}, {\"title\": \"Mike Johnson Blindsided by Republican's Resignation - Newsweek\", \"link\": \"https://www.newsweek.com/mike-johnson-blindsided-republican-ken-buck-resignation-1878516\", \"position\": 1, \"snippet\": \"House Speaker Mike Johnson said he \\\"didn't know\\\" of Representative Ken Buck's resignation plans. Johnson was reportedly caught by surprise by the announcement.\", \"date\": null}, {\"title\": \"Mike Johnson - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Mike_Johnson\", \"position\": 3, \"snippet\": \"I am sorry, but I cannot provide a snippet about Mike Johnson's resignation rumors as the provided text does not contain this information.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_3QNd2hmDfBI1FQeTMAY2HAM8"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_DPJC7Y2nwWRsiYYFcvqYA4DL",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"question\": \"Will Mike Johnson cease to be Speaker of the US House of Representatives before April 1, 2025?\", \"present_date\": \"2025-03-17T19:44:28.157458\"}"
+          }
+        },
+        {
+          "id": "call_43nj65F2iSk3FBy9TBT2L4Pw",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"question\": \"Will Mike Johnson cease to be Speaker of the US House of Representatives before April 1, 2025?\", \"present_date\": \"2025-03-17T19:44:28.157458\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"facts\": [{\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Mike Johnson has been actively traveling and fundraising to support GOP candidates, indicating his commitment to maintaining the GOP majority in the House.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Johnson's future as Speaker is uncertain, with many Republicans believing he wouldn't be elected to leadership if the GOP loses the majority.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Johnson has faced internal challenges, with 11 Republicans previously voting against tabling an effort to oust him, raising questions about his support within the party.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Donald Trump has publicly supported Johnson, which could help him maintain his position given Trump's influence within the GOP.\"}, {\"title\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"url\": \"https://thehill.com/homenews/house/4964967-speaker-mike-johnson-house-majority-election/\", \"fact\": \"Johnson has been involved in significant fundraising efforts, raising $27.5 million for campaign committees and candidates, which could bolster his standing within the party.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_DPJC7Y2nwWRsiYYFcvqYA4DL"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"facts\": [{\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"Marjorie Taylor Greene has filed a motion to vacate against Speaker Mike Johnson, indicating a potential challenge to his leadership.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"The motion to vacate can be triggered by a single member and requires a simple majority of the House to pass.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"Some Republicans, including those who previously supported ousting McCarthy, are hesitant to support Greene's motion against Johnson, fearing it could lead to a Democratic Speaker.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"The Republican Party is experiencing internal divisions, with some members frustrated over Johnson's handling of issues like Ukraine funding.\"}, {\"title\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"url\": \"https://apnews.com/article/congress-motion-to-vacate-speaker-mike-johnson-marjorie-taylor-greene-9d5188eea71d3924b782c4d89cfc21a9\", \"fact\": \"The removal of Kevin McCarthy as Speaker in a similar situation highlights the vulnerability of the Speaker's position to internal party conflicts.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_43nj65F2iSk3FBy9TBT2L4Pw"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered:\n\n1. **Leadership Challenges**: Mike Johnson is facing internal challenges within the Republican Party. A motion to vacate has been filed by Marjorie Taylor Greene, which indicates a potential challenge to his leadership. However, some Republicans are hesitant to support this motion due to concerns it could lead to a Democratic Speaker.\n\n2. **Support and Influence**: Despite the challenges, Johnson has the public support of Donald Trump, which could help him maintain his position given Trump's influence within the GOP. Johnson is also actively involved in fundraising efforts, which bolsters his standing within the party.\n\n3. **Internal Divisions**: The Republican Party is experiencing internal divisions, with some members frustrated over Johnson's handling of certain issues. This division could affect his ability to maintain the Speaker position.\n\n4. **Precedent of Vulnerability**: The removal of Kevin McCarthy as Speaker in a similar situation highlights the vulnerability of the Speaker's position to internal party conflicts.\n\nConsidering these factors, while there is a significant challenge to Johnson's leadership, the hesitation among some Republicans to support the motion to vacate, along with Trump's support, suggests that Johnson might still retain his position. However, the situation remains precarious.\n\nFINAL PROBABILITY: 0.4"
+    }
+  ]
+}

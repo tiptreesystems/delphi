@@ -1,0 +1,859 @@
+{
+  "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+  "question": "Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?",
+  "probability": 0.1,
+  "reasoning": "Based on the gathered evidence, here is the analysis:\n\n1. **Current Leaderboard Status**:\n   - As of March 20, 2025, the highest-ranked model on the Chatbot Arena is GPT-4.5-Preview with an Arena Elo score of 1404. The next best model is Gemini-2.0-Flash-Thinking-Exp-01-21 with an Arena Elo score of 1398. The o3-mini-high model has an Arena Elo score of 1325, and o3-mini has an Arena Elo score of 1304. There are no current scores for the main o3 model.\n\n2. **Community Predictions**:\n   - On Metaculus, the community prediction suggests that the difference between the Arena Score of o3 and the next best model will be -30, indicating a strong expectation that o3 will outperform other models by a significant margin. The lower bound of the prediction is less than -30, and the upper quartile is -24.83, showing a consensus that o3 will have a substantial lead.\n\n3. **Probabilities from Other Sources**:\n   - According to Manifold, xAI is leading the Chatbot Arena Leaderboard with a 90% probability of having the best AI model at the end of March 2025. OpenAI has a 4% probability, suggesting that other models are currently favored over OpenAI's models.\n\nGiven the current leaderboard scores and the community's strong expectation that o3 will outperform other models by a significant margin, it seems unlikely that the difference between the Arena Score of o3 and the next best model will be less than 5.0 on April 5, 2025. The current scores of o3-mini and o3-mini-high are significantly lower than the top-ranked models, and there is no score for the main o3 model yet.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Chatbot Arena | OpenLM.ai",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "content": "o3-mini-high 1325, o3-mini 1304, and Command A (03-2025) 1312 are listed in the full leaderboard with their respective Arena Elo scores."
+    },
+    {
+      "title": "What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?",
+      "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "content": "What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025? This question is closed for predictions..."
+    },
+    {
+      "title": "Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "content": "Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025..."
+    },
+    {
+      "title": "Your guide to AI: March 2025 - by Nathan Benaich",
+      "url": "https://nathanbenaich.substack.com/p/your-guide-to-ai-march-2025",
+      "content": "Information about o3 model performance and Chatbot Arena in March 2025 is not available in the provided content."
+    },
+    {
+      "title": "Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "content": "Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025..."
+    },
+    {
+      "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "content": "The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision."
+    },
+    {
+      "title": "Best 39 Large Language Models (LLMs) in 2025",
+      "url": "https://explodingtopics.com/blog/list-of-llms",
+      "content": "Top LLMs in February 2025 include GPT-4.5, Claude 3.7 Sonnet, Grok-3, Gemini 2.0 Flash-Lite, and Gemini 2.0 Pro, all scheduled for release in February 2025."
+    },
+    {
+      "title": "25 of the best large language models in 2025",
+      "url": "https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models",
+      "content": "The latest iteration of the Claude LLM is the Claude 3.5 Sonnet. It understands nuance, humor and complex instructions better than earlier versions of the LLM. In October 2024, Claude added a computer-use AI tool..."
+    },
+    {
+      "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+      "url": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+      "content": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development..."
+    },
+    {
+      "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+      "url": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+      "content": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development..."
+    },
+    {
+      "title": "Most powerful LLMs (Large Language Models)",
+      "url": "https://codingscape.com/blog/most-powerful-llms-large-language-models",
+      "content": "Anthropic released Claude 3.7 Sonnet to outperform GPT-4o and Claude is a consistent favorite for advanced coding tasks and reliable enterprise tools. Not public, 200k tokens, 8,192 tokens, Apr 2024, High intelligence and balanced performance for complex tasks."
+    },
+    {
+      "title": "LLM Leaderboard 2025",
+      "url": "https://www.vellum.ai/llm-leaderboard",
+      "content": "LLM Leaderboard 2025: This AI leaderboard shows comparison of capabilities, price and context window for leading commercial and open-source LLMs, based on benchmark data from 2024."
+    },
+    {
+      "title": "Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?",
+      "url": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+      "content": "Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025? Community Prediction 40% (30% - 53%)"
+    },
+    {
+      "title": "Chatbot Arena | OpenLM.ai",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "content": "Chatbot Arena leaderboard features models like GPT-4.5-Preview, Gemini-2.0-Flash-Thinking-Exp-01-21, and ChatGPT-4o-latest (2025-01-29), showing their Arena Elo and other benchmark scores..."
+    },
+    {
+      "title": "The Best AI Chatbots & LLMs of Q1 2025: Rankings & Data",
+      "url": "https://www.upmarket.co/blog/the-best-ai-chatbots-llms-of-q1-2025-complete-comparison-guide-and-research-firm-ranks/",
+      "content": "We’ll finish with some predictions of what we expect to see from the AI race in 2025, including launches from Mistral, Anthropic, and xAI."
+    },
+    {
+      "title": "AI by AI Weekly Top 5: 02.17-23, 2025 – Champaign Magazine",
+      "url": "https://champaignmagazine.com/2025/02/24/ai-by-ai-weekly-top-5-02-17-23-2025/",
+      "content": "The Chatbot Arena is a crowdsourced, anonymous, head-to-head evaluation platform where users vote on which model performs better in prompts. The leaderboard ranks models based on these user preferences..."
+    },
+    {
+      "title": "The Top Artificial Intelligence Trends | IBM",
+      "url": "https://www.ibm.com/think/insights/artificial-intelligence-trends",
+      "content": "I am sorry, but I cannot provide a snippet for this query as the provided content does not contain information about Chatbot Arena leaderboard trends."
+    },
+    {
+      "title": "https://openlm.ai/chatbot-arena/",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "content": "---\ntitle: Chatbot Arena\ndescription: OpenLM.ai\nsitename: https://openlm.ai/chatbot-arena/\ndate: 2025-03-20\n---\nThis leaderboard is based on the following benchmarks.\n\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model’s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\n\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\n\n**Best Open LM**\n\n| Model | Arena Elo | MMLU | License |\n|---|---|---|---|\n|\n\n`1360`\n\n`90.8`\n\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\n\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\n\n`88.5`\n\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\n\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\n\n`86`\n\n**Full Leaderboard**\n\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\n|---|---|---|---|---|---|---|---|---|\n| 🥇\n|\n\n`1404`\n\n`1414`\n\n`92.7`\n\n`9871`\n\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\n\n`1406`\n\n`1269`\n\n`9871`\n\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\n\n`1365`\n\n`1278`\n\n`22004`\n\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\n\n`1380`\n\n`1241`\n\n`19963`\n\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\n\n`1366`\n\n`1279`\n\n`21831`\n\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\n\n`1369`\n\n`90.8`\n\n`12224`\n\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\n\n`1353`\n\n`1257`\n\n`22526`\n\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\n\n`1360`\n\n`1232`\n\n`90.4`\n\n`91.8`\n\n`24350`\n\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341…\n\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "content": "---\ntitle: What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\nsitename: Metaculus\ndate: 2025-01-24\n---\nQuestion\n\n# What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\n\nTotal Forecasters90\n\nCommunity Prediction\n\n-30\n\n(-30 - -24.8)\n\n### Make a Prediction\n\nCDF\n\nThis question is closed for predictions, and is waiting to be resolved\n\n| Lower bound | community | My Prediction |\n| <-30 | 66.7% | — |\n| Quartiles | ||\n| lower 25% | <-30 | — |\n| median | <-30 | — |\n| upper 75% | -24.83 | — |\n| Upper bound | ||\n| >30 | 1.9% | — |\n\nAuthors:\n\nOpened:Jan 24, 2025\n\nClosed:Mar 15, 2025\n\nScheduled resolution:Apr 5, 2025\n\nSpot Scoring Time:Feb 3, 2025\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Jan 24, 2025\n\nClosed:Mar 15, 2025\n\nScheduled resolution:Apr 5, 2025\n\nSpot Scoring Time:Feb 3, 2025"
+    },
+    {
+      "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "content": "---\ntitle: Which company has best AI model end of March? (Chatbot Arena Leaderboard)\nurl: https://manifold.markets/Bayesian/which-company-has-best-ai-model-end?play=true\nhostname: manifold.markets\ndescription: Resolution is based on the chatbot arena LLM leaderboard (https://lmarena.ai), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET. See also: (https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-I0QsydsZuz?play=true)(https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-0CRdhqptRl?play=true)\nsitename: Manifold\ndate: 2025-03-31\n---\nWhich company has best AI model end of March? (Chatbot Arena Leaderboard)\n\n122\n\n1kṀ460kApr 1\n\n90%\n\nxAI\n\n4%\n\nOpenAI\n\n3%\n\nGoogle\n\n1%\n\n1%\n\nDeepSeek\n\nResolution is based on the chatbot arena LLM leaderboard ([https://lmarena.ai](https://lmarena.ai)), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET.\n\nSee also:\n\nThis question is managed and resolved by Manifold.\n\nGet\n\n1,000\n\nto start trading!Sort by:\n\nOh sorry I misread that as \"before March\".\n\nHere's a question in case one of these appears tomorrow: [https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true](https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true)\n\n## Related questions\n\n## Related questions\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2027?\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2028?\n\n\nWill a company other than OpenAI, xAI, and Google top the Chatbot Arena Leaderboard in 2025?\n\n73% chance\n\n\nUntil what date will an Google model hold the top position in the Chatbot Arena? (>=week)\n\n\nWhich company has best AI model end of April? (Chatbot Arena Leaderboard)\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2026?\n\n\nWhich companies will achieve a higher ELO rating than OpenAI on ChatBot Arena in 2025? ( >= week)\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2025?\n\n\nWhich company has best AI model end of May? (Chatbot Arena Leaderboard)\n\n\nWhich of the following companies will release AI models in March?"
+    },
+    {
+      "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "content": "---\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\nauthor: Author No items found\nurl: https://www.shakudo.io/blog/top-9-large-language-models\nhostname: shakudo.io\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\nsitename: shakudo.io\ndate: 2025-03-01\n---\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\n\n## Introduction\n\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\n\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business’s unique requirements.\n\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\n\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\n\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,…\n\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+      "url": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+      "content": "---\ntitle: Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\nsitename: Metaculus\ndate: 2025-01-10\n---\nQuestion\n\n# Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\n\nTotal Forecasters1277\n\nCommunity Prediction\n\n40%\n\n(30% - 53%)\n\n### Make a Prediction\n\nAuthors:\n\nOpened:Jan 10, 2025\n\nCloses:Dec 30, 2025\n\nScheduled resolution:Dec 31, 2025\n\nSpot Scoring Time:Feb 1, 2025\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Jan 10, 2025\n\nCloses:Dec 30, 2025\n\nScheduled resolution:Dec 31, 2025\n\nSpot Scoring Time:Feb 1, 2025"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://openlm.ai/chatbot-arena/",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "As of March 20, 2025, the highest-ranked model is GPT-4.5-Preview with an Arena Elo score of 1404."
+    },
+    {
+      "title": "https://openlm.ai/chatbot-arena/",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The o3-mini-high model has an Arena Elo score of 1325, which is significantly lower than the top-ranked model."
+    },
+    {
+      "title": "https://openlm.ai/chatbot-arena/",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The next best model after GPT-4.5-Preview is Gemini-2.0-Flash-Thinking-Exp-01-21 with an Arena Elo score of 1398."
+    },
+    {
+      "title": "https://openlm.ai/chatbot-arena/",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "The o3-mini model has an Arena Elo score of 1304, which is also lower than the top-ranked models."
+    },
+    {
+      "title": "https://openlm.ai/chatbot-arena/",
+      "url": "https://openlm.ai/chatbot-arena/",
+      "fact": "There are no current scores for the main o3 model, only for the o3-mini and o3-mini-high versions."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "fact": "The community prediction on Metaculus is that the difference between the Arena Score of o3 and the next best model will be -30, indicating a strong expectation that o3 will outperform other models by a significant margin."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "fact": "The lower bound of the community prediction is less than -30, suggesting that a majority of forecasters believe o3 will have a substantial lead over the next best model."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "fact": "The upper quartile of the community prediction is -24.83, which still indicates a significant expected lead for o3 over other models."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "fact": "Only 1.9% of the community predicts that the difference will be greater than 30, showing a strong consensus that o3 will outperform other models by a large margin."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+      "fact": "The question on Metaculus was closed for predictions on March 15, 2025, indicating that the community's expectations are based on information available up to that date."
+    },
+    {
+      "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "fact": "As of the end of March 2025, xAI is leading the Chatbot Arena Leaderboard with a 90% probability of having the best AI model."
+    },
+    {
+      "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "fact": "OpenAI has a 4% probability of having the best AI model at the end of March 2025, according to the leaderboard predictions."
+    },
+    {
+      "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "fact": "Google has a 3% probability of having the best AI model at the end of March 2025."
+    },
+    {
+      "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "fact": "DeepSeek has a 1% probability of having the best AI model at the end of March 2025."
+    },
+    {
+      "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+      "fact": "The leaderboard predictions suggest that a company other than OpenAI, xAI, and Google has a 1% probability of having the best AI model at the end of March 2025."
+    },
+    {
+      "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration."
+    },
+    {
+      "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "DeepSeek-R1, ranked fourth on Chatbot Arena as of January 2025, is a 671B parameter model with strong reasoning capabilities and is 30 times more cost-efficient than OpenAI-o1."
+    },
+    {
+      "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications."
+    },
+    {
+      "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving."
+    },
+    {
+      "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+      "fact": "Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+      "url": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+      "fact": "The community prediction for OpenAI topping the Chatbot Arena Leaderboard on December 31, 2025, is 40% (with a range of 30% - 53%)."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.5,
+  "brier_score": 0.81,
+  "weighted_brier_score": 0.405,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+        "queries": [
+          "o3 model performance Chatbot Arena March 2025",
+          "upcoming large language models April 2025",
+          "Chatbot Arena leaderboard trends 2025 predictions"
+        ]
+      },
+      "raw": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"queries\": [\"o3 model performance Chatbot Arena March 2025\", \"upcoming large language models April 2025\", \"Chatbot Arena leaderboard trends 2025 predictions\"]}",
+      "tool_call_id": "call_3PK9mwflKwrRBYo0CafyCCp4"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "o3 model performance Chatbot Arena March 2025",
+        "results": [
+          {
+            "title": "Chatbot Arena | OpenLM.ai",
+            "link": "https://openlm.ai/chatbot-arena/",
+            "position": 1,
+            "snippet": "o3-mini-high 1325, o3-mini 1304, and Command A (03-2025) 1312 are listed in the full leaderboard with their respective Arena Elo scores.",
+            "date": null
+          },
+          {
+            "title": "What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?",
+            "link": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "position": 2,
+            "snippet": "What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025? This question is closed for predictions...",
+            "date": null
+          },
+          {
+            "title": "Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold",
+            "link": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "position": 4,
+            "snippet": "Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025...",
+            "date": null
+          },
+          {
+            "title": "Your guide to AI: March 2025 - by Nathan Benaich",
+            "link": "https://nathanbenaich.substack.com/p/your-guide-to-ai-march-2025",
+            "position": 5,
+            "snippet": "Information about o3 model performance and Chatbot Arena in March 2025 is not available in the provided content.",
+            "date": null
+          },
+          {
+            "title": "Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold",
+            "link": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "position": 2,
+            "snippet": "Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"o3 model performance Chatbot Arena March 2025\", \"results\": [{\"title\": \"Chatbot Arena | OpenLM.ai\", \"link\": \"https://openlm.ai/chatbot-arena/\", \"position\": 1, \"snippet\": \"o3-mini-high 1325, o3-mini 1304, and Command A (03-2025) 1312 are listed in the full leaderboard with their respective Arena Elo scores.\", \"date\": null}, {\"title\": \"What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\", \"link\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"position\": 2, \"snippet\": \"What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025? This question is closed for predictions...\", \"date\": null}, {\"title\": \"Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold\", \"link\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"position\": 4, \"snippet\": \"Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025...\", \"date\": null}, {\"title\": \"Your guide to AI: March 2025 - by Nathan Benaich\", \"link\": \"https://nathanbenaich.substack.com/p/your-guide-to-ai-march-2025\", \"position\": 5, \"snippet\": \"Information about o3 model performance and Chatbot Arena in March 2025 is not available in the provided content.\", \"date\": null}, {\"title\": \"Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold\", \"link\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"position\": 2, \"snippet\": \"Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025...\", \"date\": null}]}",
+      "tool_call_id": "call_w2DeGgoRi2LUD7Th6M7VFcrp"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "upcoming large language models April 2025",
+        "results": [
+          {
+            "title": "Top 9 Large Language Models as of March 2025 | Shakudo",
+            "link": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "position": 1,
+            "snippet": "The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.",
+            "date": null
+          },
+          {
+            "title": "Best 39 Large Language Models (LLMs) in 2025",
+            "link": "https://explodingtopics.com/blog/list-of-llms",
+            "position": 2,
+            "snippet": "Top LLMs in February 2025 include GPT-4.5, Claude 3.7 Sonnet, Grok-3, Gemini 2.0 Flash-Lite, and Gemini 2.0 Pro, all scheduled for release in February 2025.",
+            "date": "2024-05-15T22:03:00Z"
+          },
+          {
+            "title": "25 of the best large language models in 2025",
+            "link": "https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models",
+            "position": 3,
+            "snippet": "The latest iteration of the Claude LLM is the Claude 3.5 Sonnet. It understands nuance, humor and complex instructions better than earlier versions of the LLM. In October 2024, Claude added a computer-use AI tool...",
+            "date": null
+          },
+          {
+            "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+            "link": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+            "position": 5,
+            "snippet": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development...",
+            "date": null
+          },
+          {
+            "title": "Large Language Models: What You Need to Know in 2025 | HatchWorks AI",
+            "link": "https://hatchworks.com/blog/gen-ai/large-language-models-guide/",
+            "position": 1,
+            "snippet": "Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development...",
+            "date": null
+          },
+          {
+            "title": "Most powerful LLMs (Large Language Models)",
+            "link": "https://codingscape.com/blog/most-powerful-llms-large-language-models",
+            "position": 2,
+            "snippet": "Anthropic released Claude 3.7 Sonnet to outperform GPT-4o and Claude is a consistent favorite for advanced coding tasks and reliable enterprise tools. Not public, 200k tokens, 8,192 tokens, Apr 2024, High intelligence and balanced performance for complex tasks.",
+            "date": null
+          },
+          {
+            "title": "LLM Leaderboard 2025",
+            "link": "https://www.vellum.ai/llm-leaderboard",
+            "position": 5,
+            "snippet": "LLM Leaderboard 2025: This AI leaderboard shows comparison of capabilities, price and context window for leading commercial and open-source LLMs, based on benchmark data from 2024.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"upcoming large language models April 2025\", \"results\": [{\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"link\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"position\": 1, \"snippet\": \"The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\", \"date\": null}, {\"title\": \"Best 39 Large Language Models (LLMs) in 2025\", \"link\": \"https://explodingtopics.com/blog/list-of-llms\", \"position\": 2, \"snippet\": \"Top LLMs in February 2025 include GPT-4.5, Claude 3.7 Sonnet, Grok-3, Gemini 2.0 Flash-Lite, and Gemini 2.0 Pro, all scheduled for release in February 2025.\", \"date\": \"2024-05-15T22:03:00Z\"}, {\"title\": \"25 of the best large language models in 2025\", \"link\": \"https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models\", \"position\": 3, \"snippet\": \"The latest iteration of the Claude LLM is the Claude 3.5 Sonnet. It understands nuance, humor and complex instructions better than earlier versions of the LLM. In October 2024, Claude added a computer-use AI tool...\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 5, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development...\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 1, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development...\", \"date\": null}, {\"title\": \"Most powerful LLMs (Large Language Models)\", \"link\": \"https://codingscape.com/blog/most-powerful-llms-large-language-models\", \"position\": 2, \"snippet\": \"Anthropic released Claude 3.7 Sonnet to outperform GPT-4o and Claude is a consistent favorite for advanced coding tasks and reliable enterprise tools. Not public, 200k tokens, 8,192 tokens, Apr 2024, High intelligence and balanced performance for complex tasks.\", \"date\": null}, {\"title\": \"LLM Leaderboard 2025\", \"link\": \"https://www.vellum.ai/llm-leaderboard\", \"position\": 5, \"snippet\": \"LLM Leaderboard 2025: This AI leaderboard shows comparison of capabilities, price and context window for leading commercial and open-source LLMs, based on benchmark data from 2024.\", \"date\": null}]}",
+      "tool_call_id": "call_xfyCIpPHVTOVMxfbVUwReKxi"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Chatbot Arena leaderboard trends 2025 predictions",
+        "results": [
+          {
+            "title": "Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?",
+            "link": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+            "position": 1,
+            "snippet": "Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025? Community Prediction 40% (30% - 53%)",
+            "date": null
+          },
+          {
+            "title": "Chatbot Arena | OpenLM.ai",
+            "link": "https://openlm.ai/chatbot-arena/",
+            "position": 2,
+            "snippet": "Chatbot Arena leaderboard features models like GPT-4.5-Preview, Gemini-2.0-Flash-Thinking-Exp-01-21, and ChatGPT-4o-latest (2025-01-29), showing their Arena Elo and other benchmark scores...",
+            "date": null
+          },
+          {
+            "title": "The Best AI Chatbots & LLMs of Q1 2025: Rankings & Data",
+            "link": "https://www.upmarket.co/blog/the-best-ai-chatbots-llms-of-q1-2025-complete-comparison-guide-and-research-firm-ranks/",
+            "position": 1,
+            "snippet": "We’ll finish with some predictions of what we expect to see from the AI race in 2025, including launches from Mistral, Anthropic, and xAI.",
+            "date": "2025-02-14T21:29:17Z"
+          },
+          {
+            "title": "AI by AI Weekly Top 5: 02.17-23, 2025 – Champaign Magazine",
+            "link": "https://champaignmagazine.com/2025/02/24/ai-by-ai-weekly-top-5-02-17-23-2025/",
+            "position": 4,
+            "snippet": "The Chatbot Arena is a crowdsourced, anonymous, head-to-head evaluation platform where users vote on which model performs better in prompts. The leaderboard ranks models based on these user preferences...",
+            "date": "2025-02-25T04:03:30Z"
+          },
+          {
+            "title": "The Top Artificial Intelligence Trends | IBM",
+            "link": "https://www.ibm.com/think/insights/artificial-intelligence-trends",
+            "position": 5,
+            "snippet": "I am sorry, but I cannot provide a snippet for this query as the provided content does not contain information about Chatbot Arena leaderboard trends.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Chatbot Arena leaderboard trends 2025 predictions\", \"results\": [{\"title\": \"Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\", \"link\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"position\": 1, \"snippet\": \"Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025? Community Prediction 40% (30% - 53%)\", \"date\": null}, {\"title\": \"Chatbot Arena | OpenLM.ai\", \"link\": \"https://openlm.ai/chatbot-arena/\", \"position\": 2, \"snippet\": \"Chatbot Arena leaderboard features models like GPT-4.5-Preview, Gemini-2.0-Flash-Thinking-Exp-01-21, and ChatGPT-4o-latest (2025-01-29), showing their Arena Elo and other benchmark scores...\", \"date\": null}, {\"title\": \"The Best AI Chatbots & LLMs of Q1 2025: Rankings & Data\", \"link\": \"https://www.upmarket.co/blog/the-best-ai-chatbots-llms-of-q1-2025-complete-comparison-guide-and-research-firm-ranks/\", \"position\": 1, \"snippet\": \"We\\u2019ll finish with some predictions of what we expect to see from the AI race in 2025, including launches from Mistral, Anthropic, and xAI.\", \"date\": \"2025-02-14T21:29:17Z\"}, {\"title\": \"AI by AI Weekly Top 5: 02.17-23,\\u00a02025 \\u2013 Champaign Magazine\", \"link\": \"https://champaignmagazine.com/2025/02/24/ai-by-ai-weekly-top-5-02-17-23-2025/\", \"position\": 4, \"snippet\": \"The Chatbot Arena is a crowdsourced, anonymous, head-to-head evaluation platform where users vote on which model performs better in prompts. The leaderboard ranks models based on these user preferences...\", \"date\": \"2025-02-25T04:03:30Z\"}, {\"title\": \"The Top Artificial Intelligence Trends | IBM\", \"link\": \"https://www.ibm.com/think/insights/artificial-intelligence-trends\", \"position\": 5, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the provided content does not contain information about Chatbot Arena leaderboard trends.\", \"date\": null}]}",
+      "tool_call_id": "call_wuyz9h0wfIahOvYZU8RhcKVr"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://openlm.ai/chatbot-arena/",
+        "snippet": "---\ntitle: Chatbot Arena\ndescription: OpenLM.ai\nsitename: https://openlm.ai/chatbot-arena/\ndate: 2025-03-20\n---\nThis leaderboard is based on the following benchmarks.\n\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model’s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\n\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\n\n**Best Open LM**\n\n| Model | Arena Elo | MMLU | License |\n|---|---|---|---|\n|\n\n`1360`\n\n`90.8`\n\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\n\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\n\n`88.5`\n\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\n\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\n\n`86`\n\n**Full Leaderboard**\n\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\n|---|---|---|---|---|---|---|---|---|\n| 🥇\n|\n\n`1404`\n\n`1414`\n\n`92.7`\n\n`9871`\n\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\n\n`1406`\n\n`1269`\n\n`9871`\n\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\n\n`1365`\n\n`1278`\n\n`22004`\n\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\n\n`1380`\n\n`1241`\n\n`19963`\n\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\n\n`1366`\n\n`1279`\n\n`21831`\n\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\n\n`1369`\n\n`90.8`\n\n`12224`\n\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\n\n`1353`\n\n`1257`\n\n`22526`\n\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\n\n`1360`\n\n`1232`\n\n`90.4`\n\n`91.8`\n\n`24350`\n\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341…\n\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1456,
+        "snippet_word_count": 159,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-25T23:00:02.063086",
+        "date_cutoff_end": "2025-03-26T23:00:02.063086",
+        "cached_at": "2025-10-24T04:36:30.053981"
+      },
+      "raw": "{\"url\": \"https://openlm.ai/chatbot-arena/\", \"snippet\": \"---\\ntitle: Chatbot Arena\\ndescription: OpenLM.ai\\nsitename: https://openlm.ai/chatbot-arena/\\ndate: 2025-03-20\\n---\\nThis leaderboard is based on the following benchmarks.\\n\\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model\\u2019s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\\n\\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\\n\\n**Best Open LM**\\n\\n| Model | Arena Elo | MMLU | License |\\n|---|---|---|---|\\n|\\n\\n`1360`\\n\\n`90.8`\\n\\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\\n\\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\\n\\n`88.5`\\n\\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\\n\\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\\n\\n`86`\\n\\n**Full Leaderboard**\\n\\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\\n|---|---|---|---|---|---|---|---|---|\\n| \\ud83e\\udd47\\n|\\n\\n`1404`\\n\\n`1414`\\n\\n`92.7`\\n\\n`9871`\\n\\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\\n\\n`1406`\\n\\n`1269`\\n\\n`9871`\\n\\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\\n\\n`1365`\\n\\n`1278`\\n\\n`22004`\\n\\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\\n\\n`1380`\\n\\n`1241`\\n\\n`19963`\\n\\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\\n\\n`1366`\\n\\n`1279`\\n\\n`21831`\\n\\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\\n\\n`1369`\\n\\n`90.8`\\n\\n`12224`\\n\\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\\n\\n`1353`\\n\\n`1257`\\n\\n`22526`\\n\\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\\n\\n`1360`\\n\\n`1232`\\n\\n`90.4`\\n\\n`91.8`\\n\\n`24350`\\n\\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341\\u2026\\n\\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1456, \"snippet_word_count\": 159, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:30.053981\"}",
+      "tool_call_id": "call_CtJy62oaMBq2mA8nuFQcwSGQ"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+        "snippet": "---\ntitle: What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\nsitename: Metaculus\ndate: 2025-01-24\n---\nQuestion\n\n# What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\n\nTotal Forecasters90\n\nCommunity Prediction\n\n-30\n\n(-30 - -24.8)\n\n### Make a Prediction\n\nCDF\n\nThis question is closed for predictions, and is waiting to be resolved\n\n| Lower bound | community | My Prediction |\n| <-30 | 66.7% | — |\n| Quartiles | ||\n| lower 25% | <-30 | — |\n| median | <-30 | — |\n| upper 75% | -24.83 | — |\n| Upper bound | ||\n| >30 | 1.9% | — |\n\nAuthors:\n\nOpened:Jan 24, 2025\n\nClosed:Mar 15, 2025\n\nScheduled resolution:Apr 5, 2025\n\nSpot Scoring Time:Feb 3, 2025\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Jan 24, 2025\n\nClosed:Mar 15, 2025\n\nScheduled resolution:Apr 5, 2025\n\nSpot Scoring Time:Feb 3, 2025",
+        "word_count": 171,
+        "snippet_word_count": 171,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-25T23:00:02.063086",
+        "date_cutoff_end": "2025-03-26T23:00:02.063086",
+        "cached_at": "2025-10-24T04:36:30.510743"
+      },
+      "raw": "{\"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"snippet\": \"---\\ntitle: What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\\nsitename: Metaculus\\ndate: 2025-01-24\\n---\\nQuestion\\n\\n# What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\\n\\nTotal Forecasters90\\n\\nCommunity Prediction\\n\\n-30\\n\\n(-30 - -24.8)\\n\\n### Make a Prediction\\n\\nCDF\\n\\nThis question is closed for predictions, and is waiting to be resolved\\n\\n| Lower bound | community | My Prediction |\\n| <-30 | 66.7% | \\u2014 |\\n| Quartiles | ||\\n| lower 25% | <-30 | \\u2014 |\\n| median | <-30 | \\u2014 |\\n| upper 75% | -24.83 | \\u2014 |\\n| Upper bound | ||\\n| >30 | 1.9% | \\u2014 |\\n\\nAuthors:\\n\\nOpened:Jan 24, 2025\\n\\nClosed:Mar 15, 2025\\n\\nScheduled resolution:Apr 5, 2025\\n\\nSpot Scoring Time:Feb 3, 2025\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Jan 24, 2025\\n\\nClosed:Mar 15, 2025\\n\\nScheduled resolution:Apr 5, 2025\\n\\nSpot Scoring Time:Feb 3, 2025\", \"word_count\": 171, \"snippet_word_count\": 171, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:30.510743\"}",
+      "tool_call_id": "call_WipXHqPbM1udQuKjDCISsArI"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+        "snippet": "---\ntitle: Which company has best AI model end of March? (Chatbot Arena Leaderboard)\nurl: https://manifold.markets/Bayesian/which-company-has-best-ai-model-end?play=true\nhostname: manifold.markets\ndescription: Resolution is based on the chatbot arena LLM leaderboard (https://lmarena.ai), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET. See also: (https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-I0QsydsZuz?play=true)(https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-0CRdhqptRl?play=true)\nsitename: Manifold\ndate: 2025-03-31\n---\nWhich company has best AI model end of March? (Chatbot Arena Leaderboard)\n\n122\n\n1kṀ460kApr 1\n\n90%\n\nxAI\n\n4%\n\nOpenAI\n\n3%\n\nGoogle\n\n1%\n\n1%\n\nDeepSeek\n\nResolution is based on the chatbot arena LLM leaderboard ([https://lmarena.ai](https://lmarena.ai)), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET.\n\nSee also:\n\nThis question is managed and resolved by Manifold.\n\nGet\n\n1,000\n\nto start trading!Sort by:\n\nOh sorry I misread that as \"before March\".\n\nHere's a question in case one of these appears tomorrow: [https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true](https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true)\n\n## Related questions\n\n## Related questions\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2027?\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2028?\n\n\nWill a company other than OpenAI, xAI, and Google top the Chatbot Arena Leaderboard in 2025?\n\n73% chance\n\n\nUntil what date will an Google model hold the top position in the Chatbot Arena? (>=week)\n\n\nWhich company has best AI model end of April? (Chatbot Arena Leaderboard)\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2026?\n\n\nWhich companies will achieve a higher ELO rating than OpenAI on ChatBot Arena in 2025? ( >= week)\n\n\nWhich Companies will top Chatbot Arena Leaderboard in 2025?\n\n\nWhich company has best AI model end of May? (Chatbot Arena Leaderboard)\n\n\nWhich of the following companies will release AI models in March?",
+        "word_count": 293,
+        "snippet_word_count": 293,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-25T23:00:02.063086",
+        "date_cutoff_end": "2025-03-26T23:00:02.063086",
+        "cached_at": "2025-10-24T04:36:30.951963"
+      },
+      "raw": "{\"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"snippet\": \"---\\ntitle: Which company has best AI model end of March? (Chatbot Arena Leaderboard)\\nurl: https://manifold.markets/Bayesian/which-company-has-best-ai-model-end?play=true\\nhostname: manifold.markets\\ndescription: Resolution is based on the chatbot arena LLM leaderboard (https://lmarena.ai), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET. See also: (https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-I0QsydsZuz?play=true)(https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-0CRdhqptRl?play=true)\\nsitename: Manifold\\ndate: 2025-03-31\\n---\\nWhich company has best AI model end of March? (Chatbot Arena Leaderboard)\\n\\n122\\n\\n1k\\u1e40460kApr 1\\n\\n90%\\n\\nxAI\\n\\n4%\\n\\nOpenAI\\n\\n3%\\n\\nGoogle\\n\\n1%\\n\\n1%\\n\\nDeepSeek\\n\\nResolution is based on the chatbot arena LLM leaderboard ([https://lmarena.ai](https://lmarena.ai)), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET.\\n\\nSee also:\\n\\nThis question is managed and resolved by Manifold.\\n\\nGet\\n\\n1,000\\n\\nto start trading!Sort by:\\n\\nOh sorry I misread that as \\\"before March\\\".\\n\\nHere's a question in case one of these appears tomorrow: [https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true](https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true)\\n\\n## Related questions\\n\\n## Related questions\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2027?\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2028?\\n\\n\\nWill a company other than OpenAI, xAI, and Google top the Chatbot Arena Leaderboard in 2025?\\n\\n73% chance\\n\\n\\nUntil what date will an Google model hold the top position in the Chatbot Arena? (>=week)\\n\\n\\nWhich company has best AI model end of April? (Chatbot Arena Leaderboard)\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2026?\\n\\n\\nWhich companies will achieve a higher ELO rating than OpenAI on ChatBot Arena in 2025? ( >= week)\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2025?\\n\\n\\nWhich company has best AI model end of May? (Chatbot Arena Leaderboard)\\n\\n\\nWhich of the following companies will release AI models in March?\", \"word_count\": 293, \"snippet_word_count\": 293, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:30.951963\"}",
+      "tool_call_id": "call_qi2z9m6R66WzbQpNHKb71pq5"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+        "snippet": "---\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\nauthor: Author No items found\nurl: https://www.shakudo.io/blog/top-9-large-language-models\nhostname: shakudo.io\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\nsitename: shakudo.io\ndate: 2025-03-01\n---\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\n\n## Introduction\n\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\n\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business’s unique requirements.\n\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\n\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\n\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,…\n\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1952,
+        "snippet_word_count": 346,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-25T23:00:02.063086",
+        "date_cutoff_end": "2025-03-26T23:00:02.063086",
+        "cached_at": "2025-10-24T04:36:31.482420"
+      },
+      "raw": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"snippet\": \"---\\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\\nauthor: Author No items found\\nurl: https://www.shakudo.io/blog/top-9-large-language-models\\nhostname: shakudo.io\\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\\nsitename: shakudo.io\\ndate: 2025-03-01\\n---\\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\\n\\n## Introduction\\n\\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\\n\\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business\\u2019s unique requirements.\\n\\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\\n\\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\\n\\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,\\u2026\\n\\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1952, \"snippet_word_count\": 346, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:31.482420\"}",
+      "tool_call_id": "call_GzawASeSak0L1i80fxxuucoE"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+        "snippet": "---\ntitle: Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\nsitename: Metaculus\ndate: 2025-01-10\n---\nQuestion\n\n# Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\n\nTotal Forecasters1277\n\nCommunity Prediction\n\n40%\n\n(30% - 53%)\n\n### Make a Prediction\n\nAuthors:\n\nOpened:Jan 10, 2025\n\nCloses:Dec 30, 2025\n\nScheduled resolution:Dec 31, 2025\n\nSpot Scoring Time:Feb 1, 2025\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Jan 10, 2025\n\nCloses:Dec 30, 2025\n\nScheduled resolution:Dec 31, 2025\n\nSpot Scoring Time:Feb 1, 2025",
+        "word_count": 79,
+        "snippet_word_count": 79,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-25T23:00:02.063086",
+        "date_cutoff_end": "2025-03-26T23:00:02.063086",
+        "cached_at": "2025-10-24T04:36:31.966325"
+      },
+      "raw": "{\"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"snippet\": \"---\\ntitle: Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\\nsitename: Metaculus\\ndate: 2025-01-10\\n---\\nQuestion\\n\\n# Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\\n\\nTotal Forecasters1277\\n\\nCommunity Prediction\\n\\n40%\\n\\n(30% - 53%)\\n\\n### Make a Prediction\\n\\nAuthors:\\n\\nOpened:Jan 10, 2025\\n\\nCloses:Dec 30, 2025\\n\\nScheduled resolution:Dec 31, 2025\\n\\nSpot Scoring Time:Feb 1, 2025\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Jan 10, 2025\\n\\nCloses:Dec 30, 2025\\n\\nScheduled resolution:Dec 31, 2025\\n\\nSpot Scoring Time:Feb 1, 2025\", \"word_count\": 79, \"snippet_word_count\": 79, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:31.966325\"}",
+      "tool_call_id": "call_bU8IDsZGSVMjRcvM3NNyQwc8"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+        "url": "https://openlm.ai/chatbot-arena/",
+        "facts": [
+          {
+            "title": "https://openlm.ai/chatbot-arena/",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "As of March 20, 2025, the highest-ranked model is GPT-4.5-Preview with an Arena Elo score of 1404."
+          },
+          {
+            "title": "https://openlm.ai/chatbot-arena/",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The o3-mini-high model has an Arena Elo score of 1325, which is significantly lower than the top-ranked model."
+          },
+          {
+            "title": "https://openlm.ai/chatbot-arena/",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The next best model after GPT-4.5-Preview is Gemini-2.0-Flash-Thinking-Exp-01-21 with an Arena Elo score of 1398."
+          },
+          {
+            "title": "https://openlm.ai/chatbot-arena/",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "The o3-mini model has an Arena Elo score of 1304, which is also lower than the top-ranked models."
+          },
+          {
+            "title": "https://openlm.ai/chatbot-arena/",
+            "url": "https://openlm.ai/chatbot-arena/",
+            "fact": "There are no current scores for the main o3 model, only for the o3-mini and o3-mini-high versions."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"facts\": [{\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"As of March 20, 2025, the highest-ranked model is GPT-4.5-Preview with an Arena Elo score of 1404.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The o3-mini-high model has an Arena Elo score of 1325, which is significantly lower than the top-ranked model.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The next best model after GPT-4.5-Preview is Gemini-2.0-Flash-Thinking-Exp-01-21 with an Arena Elo score of 1398.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The o3-mini model has an Arena Elo score of 1304, which is also lower than the top-ranked models.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"There are no current scores for the main o3 model, only for the o3-mini and o3-mini-high versions.\"}]}",
+      "tool_call_id": "call_91QsFrPwt4IgTtYvBVYLE0pV"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+        "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+        "facts": [
+          {
+            "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "fact": "The community prediction on Metaculus is that the difference between the Arena Score of o3 and the next best model will be -30, indicating a strong expectation that o3 will outperform other models by a significant margin."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "fact": "The lower bound of the community prediction is less than -30, suggesting that a majority of forecasters believe o3 will have a substantial lead over the next best model."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "fact": "The upper quartile of the community prediction is -24.83, which still indicates a significant expected lead for o3 over other models."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "fact": "Only 1.9% of the community predicts that the difference will be greater than 30, showing a strong consensus that o3 will outperform other models by a large margin."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "url": "https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/",
+            "fact": "The question on Metaculus was closed for predictions on March 15, 2025, indicating that the community's expectations are based on information available up to that date."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The community prediction on Metaculus is that the difference between the Arena Score of o3 and the next best model will be -30, indicating a strong expectation that o3 will outperform other models by a significant margin.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The lower bound of the community prediction is less than -30, suggesting that a majority of forecasters believe o3 will have a substantial lead over the next best model.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The upper quartile of the community prediction is -24.83, which still indicates a significant expected lead for o3 over other models.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"Only 1.9% of the community predicts that the difference will be greater than 30, showing a strong consensus that o3 will outperform other models by a large margin.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The question on Metaculus was closed for predictions on March 15, 2025, indicating that the community's expectations are based on information available up to that date.\"}]}",
+      "tool_call_id": "call_CXenRFZB1c2KXwXgrDEJ5Mj6"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+        "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+        "facts": [
+          {
+            "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "fact": "As of the end of March 2025, xAI is leading the Chatbot Arena Leaderboard with a 90% probability of having the best AI model."
+          },
+          {
+            "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "fact": "OpenAI has a 4% probability of having the best AI model at the end of March 2025, according to the leaderboard predictions."
+          },
+          {
+            "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "fact": "Google has a 3% probability of having the best AI model at the end of March 2025."
+          },
+          {
+            "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "fact": "DeepSeek has a 1% probability of having the best AI model at the end of March 2025."
+          },
+          {
+            "title": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "url": "https://manifold.markets/Bayesian/which-company-has-best-ai-model-end",
+            "fact": "The leaderboard predictions suggest that a company other than OpenAI, xAI, and Google has a 1% probability of having the best AI model at the end of March 2025."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"facts\": [{\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"As of the end of March 2025, xAI is leading the Chatbot Arena Leaderboard with a 90% probability of having the best AI model.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"OpenAI has a 4% probability of having the best AI model at the end of March 2025, according to the leaderboard predictions.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"Google has a 3% probability of having the best AI model at the end of March 2025.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"DeepSeek has a 1% probability of having the best AI model at the end of March 2025.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"The leaderboard predictions suggest that a company other than OpenAI, xAI, and Google has a 1% probability of having the best AI model at the end of March 2025.\"}]}",
+      "tool_call_id": "call_T9ayYT1F03v0TeGBIuA7Uo2f"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+        "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+        "facts": [
+          {
+            "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration."
+          },
+          {
+            "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "DeepSeek-R1, ranked fourth on Chatbot Arena as of January 2025, is a 671B parameter model with strong reasoning capabilities and is 30 times more cost-efficient than OpenAI-o1."
+          },
+          {
+            "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications."
+          },
+          {
+            "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving."
+          },
+          {
+            "title": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+            "fact": "Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"facts\": [{\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"DeepSeek-R1, ranked fourth on Chatbot Arena as of January 2025, is a 671B parameter model with strong reasoning capabilities and is 30 times more cost-efficient than OpenAI-o1.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development.\"}]}",
+      "tool_call_id": "call_YEoT8hvetIgDJsxMHEjDxutV"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+        "url": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+        "facts": [
+          {
+            "title": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+            "url": "https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/",
+            "fact": "The community prediction for OpenAI topping the Chatbot Arena Leaderboard on December 31, 2025, is 40% (with a range of 30% - 53%)."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"fact\": \"The community prediction for OpenAI topping the Chatbot Arena Leaderboard on December 31, 2025, is 40% (with a range of 30% - 53%).\"}]}",
+      "tool_call_id": "call_oQutopOQNF4HuO5Vu3PWnL3l"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?\nBackground: [Chatbot Arena](https://lmarena.ai/) (previously hosted on [https://lmsys.org/)](https://lmsys.org/\\)) is a [benchmarking platform](https://lmsys.org/blog/2023-05-03-arena/) for large language models (LLMs). It uses an [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system) similar to the one used in chess to rank LLMs by their capabilities. Rankings are based on user ratings of different LLM systems. Besides general rankings, Chatbot Arena has added various more narrow categories, such as Hard Prompts, Instruction Following, or Math.\n\n[o3](https://openai.com/index/early-access-for-safety-testing/) is the latest model developed by OpenAI, announced on the \"12th day of OpenAI\" on December 20, 2024. Is is a successor to [o1](https://openai.com/o1/), a series of models [trained](https://openai.com/index/learning-to-reason-with-llms/) to use chain of thought to solve complex problems. [According to OpenAI](https://www.youtube.com/watch?v=SKBG1sqdyIU), o3 performs significantly better in math, coding, and various other benchmarks than all currently released models. o3-mini, a more efficient but potentially less intelligent version of o3, is planned to be released in late January or early February 2025.\nResolution criteria: This question will resolve as YES if the Arena Score for the highest-ranked version of o3 minus the Arena Score for the highest-ranked non-o3 model in the Overall category at the [Chatbot Arena](https://lmarena.ai/) Leaderboard as of April 5, 2025 is less than 5.0. If no o3 version is scored on Chatbot Arena on April 5, 2025, this question will be **annulled**.\nFine print: * The Style Control filter will not be used.\n* Any o3 version qualifies, including o3-mini, o3-preview or any other model which includes \"o3\" in its name.\n* If the top model on the leaderboard is not an o3 version, this question will resolve as a negative number.\npresent_date: 2025-03-25T23:00:02.063086\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_3PK9mwflKwrRBYo0CafyCCp4",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?\",\"background\":\"Chatbot Arena (previously hosted on https://lmsys.org/) is a benchmarking platform for large language models (LLMs). It uses an Elo rating system similar to the one used in chess to rank LLMs by their capabilities. Rankings are based on user ratings of different LLM systems. Besides general rankings, Chatbot Arena has added various more narrow categories, such as Hard Prompts, Instruction Following, or Math. o3 is the latest model developed by OpenAI, announced on the \\\"12th day of OpenAI\\\" on December 20, 2024. Is is a successor to o1, a series of models trained to use chain of thought to solve complex problems. According to OpenAI, o3 performs significantly better in math, coding, and various other benchmarks than all currently released models. o3-mini, a more efficient but potentially less intelligent version of o3, is planned to be released in late January or early February 2025.\",\"resolution_criteria\":\"This question will resolve as YES if the Arena Score for the highest-ranked version of o3 minus the Arena Score for the highest-ranked non-o3 model in the Overall category at the Chatbot Arena Leaderboard as of April 5, 2025 is less than 5.0. If no o3 version is scored on Chatbot Arena on April 5, 2025, this question will be annulled.\",\"fine_print\":\"* The Style Control filter will not be used.\\n* Any o3 version qualifies, including o3-mini, o3-preview or any other model which includes \\\"o3\\\" in its name.\\n* If the top model on the leaderboard is not an o3 version, this question will resolve as a negative number.\",\"present_date\":\"2025-03-25T23:00:02.063086\",\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"queries\": [\"o3 model performance Chatbot Arena March 2025\", \"upcoming large language models April 2025\", \"Chatbot Arena leaderboard trends 2025 predictions\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_3PK9mwflKwrRBYo0CafyCCp4"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_w2DeGgoRi2LUD7Th6M7VFcrp",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"o3 model performance Chatbot Arena March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_xfyCIpPHVTOVMxfbVUwReKxi",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"upcoming large language models April 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_wuyz9h0wfIahOvYZU8RhcKVr",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Chatbot Arena leaderboard trends 2025 predictions\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"o3 model performance Chatbot Arena March 2025\", \"results\": [{\"title\": \"Chatbot Arena | OpenLM.ai\", \"link\": \"https://openlm.ai/chatbot-arena/\", \"position\": 1, \"snippet\": \"o3-mini-high 1325, o3-mini 1304, and Command A (03-2025) 1312 are listed in the full leaderboard with their respective Arena Elo scores.\", \"date\": null}, {\"title\": \"What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\", \"link\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"position\": 2, \"snippet\": \"What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025? This question is closed for predictions...\", \"date\": null}, {\"title\": \"Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold\", \"link\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"position\": 4, \"snippet\": \"Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025...\", \"date\": null}, {\"title\": \"Your guide to AI: March 2025 - by Nathan Benaich\", \"link\": \"https://nathanbenaich.substack.com/p/your-guide-to-ai-march-2025\", \"position\": 5, \"snippet\": \"Information about o3 model performance and Chatbot Arena in March 2025 is not available in the provided content.\", \"date\": null}, {\"title\": \"Which company has best AI model end of March? (Chatbot Arena Leaderboard) | Manifold\", \"link\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"position\": 2, \"snippet\": \"Resolution is based on the chatbot arena LLM leaderboard, specifically the company with the highest Arena Score in the Overall category without filters, at the end of March 31, 2025...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_w2DeGgoRi2LUD7Th6M7VFcrp"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"upcoming large language models April 2025\", \"results\": [{\"title\": \"Top 9 Large Language Models as of March 2025 | Shakudo\", \"link\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"position\": 1, \"snippet\": \"The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\", \"date\": null}, {\"title\": \"Best 39 Large Language Models (LLMs) in 2025\", \"link\": \"https://explodingtopics.com/blog/list-of-llms\", \"position\": 2, \"snippet\": \"Top LLMs in February 2025 include GPT-4.5, Claude 3.7 Sonnet, Grok-3, Gemini 2.0 Flash-Lite, and Gemini 2.0 Pro, all scheduled for release in February 2025.\", \"date\": \"2024-05-15T22:03:00Z\"}, {\"title\": \"25 of the best large language models in 2025\", \"link\": \"https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models\", \"position\": 3, \"snippet\": \"The latest iteration of the Claude LLM is the Claude 3.5 Sonnet. It understands nuance, humor and complex instructions better than earlier versions of the LLM. In October 2024, Claude added a computer-use AI tool...\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 5, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development...\", \"date\": null}, {\"title\": \"Large Language Models: What You Need to Know in 2025 | HatchWorks AI\", \"link\": \"https://hatchworks.com/blog/gen-ai/large-language-models-guide/\", \"position\": 1, \"snippet\": \"Explore the latest on large language models in 2025 with our guide on their capabilities, advancements, and limitations. Learn about key milestones in LLM development...\", \"date\": null}, {\"title\": \"Most powerful LLMs (Large Language Models)\", \"link\": \"https://codingscape.com/blog/most-powerful-llms-large-language-models\", \"position\": 2, \"snippet\": \"Anthropic released Claude 3.7 Sonnet to outperform GPT-4o and Claude is a consistent favorite for advanced coding tasks and reliable enterprise tools. Not public, 200k tokens, 8,192 tokens, Apr 2024, High intelligence and balanced performance for complex tasks.\", \"date\": null}, {\"title\": \"LLM Leaderboard 2025\", \"link\": \"https://www.vellum.ai/llm-leaderboard\", \"position\": 5, \"snippet\": \"LLM Leaderboard 2025: This AI leaderboard shows comparison of capabilities, price and context window for leading commercial and open-source LLMs, based on benchmark data from 2024.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_xfyCIpPHVTOVMxfbVUwReKxi"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Chatbot Arena leaderboard trends 2025 predictions\", \"results\": [{\"title\": \"Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\", \"link\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"position\": 1, \"snippet\": \"Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025? Community Prediction 40% (30% - 53%)\", \"date\": null}, {\"title\": \"Chatbot Arena | OpenLM.ai\", \"link\": \"https://openlm.ai/chatbot-arena/\", \"position\": 2, \"snippet\": \"Chatbot Arena leaderboard features models like GPT-4.5-Preview, Gemini-2.0-Flash-Thinking-Exp-01-21, and ChatGPT-4o-latest (2025-01-29), showing their Arena Elo and other benchmark scores...\", \"date\": null}, {\"title\": \"The Best AI Chatbots & LLMs of Q1 2025: Rankings & Data\", \"link\": \"https://www.upmarket.co/blog/the-best-ai-chatbots-llms-of-q1-2025-complete-comparison-guide-and-research-firm-ranks/\", \"position\": 1, \"snippet\": \"We\\u2019ll finish with some predictions of what we expect to see from the AI race in 2025, including launches from Mistral, Anthropic, and xAI.\", \"date\": \"2025-02-14T21:29:17Z\"}, {\"title\": \"AI by AI Weekly Top 5: 02.17-23,\\u00a02025 \\u2013 Champaign Magazine\", \"link\": \"https://champaignmagazine.com/2025/02/24/ai-by-ai-weekly-top-5-02-17-23-2025/\", \"position\": 4, \"snippet\": \"The Chatbot Arena is a crowdsourced, anonymous, head-to-head evaluation platform where users vote on which model performs better in prompts. The leaderboard ranks models based on these user preferences...\", \"date\": \"2025-02-25T04:03:30Z\"}, {\"title\": \"The Top Artificial Intelligence Trends | IBM\", \"link\": \"https://www.ibm.com/think/insights/artificial-intelligence-trends\", \"position\": 5, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the provided content does not contain information about Chatbot Arena leaderboard trends.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_wuyz9h0wfIahOvYZU8RhcKVr"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_CtJy62oaMBq2mA8nuFQcwSGQ",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://openlm.ai/chatbot-arena/\"}"
+          }
+        },
+        {
+          "id": "call_WipXHqPbM1udQuKjDCISsArI",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\"}"
+          }
+        },
+        {
+          "id": "call_qi2z9m6R66WzbQpNHKb71pq5",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\"}"
+          }
+        },
+        {
+          "id": "call_GzawASeSak0L1i80fxxuucoE",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\"}"
+          }
+        },
+        {
+          "id": "call_bU8IDsZGSVMjRcvM3NNyQwc8",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://openlm.ai/chatbot-arena/\", \"snippet\": \"---\\ntitle: Chatbot Arena\\ndescription: OpenLM.ai\\nsitename: https://openlm.ai/chatbot-arena/\\ndate: 2025-03-20\\n---\\nThis leaderboard is based on the following benchmarks.\\n\\n[Chatbot Arena](https://lmarena.ai)- a crowdsourced, randomized battle platform for large language models (LLMs). We use 2.8M+ user votes to compute Elo ratings.[MMLU](https://arxiv.org/abs/2009.03300)- a test to measure a model\\u2019s multitask accuracy on 57 tasks.[Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto)- an automatic evaluation tool for instruction-tuned LLMs.\\n\\n| [Vote](https://lmarena.ai) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |\\n\\n**Best Open LM**\\n\\n| Model | Arena Elo | MMLU | License |\\n|---|---|---|---|\\n|\\n\\n`1360`\\n\\n`90.8`\\n\\n[Gemma-3-27B-it](https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001)`1341`\\n\\n[DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)`1318`\\n\\n`88.5`\\n\\n[QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)`1310`\\n\\n[Llama-3.3-Nemotron-Super-49B-v1](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1)`1294`\\n\\n`86`\\n\\n**Full Leaderboard**\\n\\n| Model | Arena Elo | Coding | Vision | Arena Hard | MMLU | Votes | Organization | License |\\n|---|---|---|---|---|---|---|---|---|\\n| \\ud83e\\udd47\\n|\\n\\n`1404`\\n\\n`1414`\\n\\n`92.7`\\n\\n`9871`\\n\\n[GPT-4.5-Preview](https://openai.com/index/introducing-gpt-4-5/)`1398`\\n\\n`1406`\\n\\n`1269`\\n\\n`9871`\\n\\n[Gemini-2.0-Flash-Thinking-Exp-01-21](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-thinking-exp-01-21)`1382`\\n\\n`1365`\\n\\n`1278`\\n\\n`22004`\\n\\n[Gemini-2.0-Pro-Exp-02-05](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05)`1379`\\n\\n`1380`\\n\\n`1241`\\n\\n`19963`\\n\\n[ChatGPT-4o-latest (2025-01-29)](https://help.openai.com/en/articles/9624314-model-release-notes)`1374`\\n\\n`1366`\\n\\n`1279`\\n\\n`21831`\\n\\n[DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)`1360`\\n\\n`1369`\\n\\n`90.8`\\n\\n`12224`\\n\\n[Gemini-2.0-Flash-Exp](https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.0-flash-exp)`1355`\\n\\n`1353`\\n\\n`1257`\\n\\n`22526`\\n\\n[o1-2024-12-17](https://openai.com/index/o1-and-new-tools-for-developers/)`1351`\\n\\n`1360`\\n\\n`1232`\\n\\n`90.4`\\n\\n`91.8`\\n\\n`24350`\\n\\n[Gemma-3-27B-it](http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it)`1341\\u2026\\n\\n[Truncated preview: showing 159 words out of ~1456. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1456, \"snippet_word_count\": 159, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:30.053981\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_CtJy62oaMBq2mA8nuFQcwSGQ"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"snippet\": \"---\\ntitle: What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\\nsitename: Metaculus\\ndate: 2025-01-24\\n---\\nQuestion\\n\\n# What will be the difference between the Arena Score of o3 and the next best model on Chatbot Arena, on April 5, 2025?\\n\\nTotal Forecasters90\\n\\nCommunity Prediction\\n\\n-30\\n\\n(-30 - -24.8)\\n\\n### Make a Prediction\\n\\nCDF\\n\\nThis question is closed for predictions, and is waiting to be resolved\\n\\n| Lower bound | community | My Prediction |\\n| <-30 | 66.7% | \\u2014 |\\n| Quartiles | ||\\n| lower 25% | <-30 | \\u2014 |\\n| median | <-30 | \\u2014 |\\n| upper 75% | -24.83 | \\u2014 |\\n| Upper bound | ||\\n| >30 | 1.9% | \\u2014 |\\n\\nAuthors:\\n\\nOpened:Jan 24, 2025\\n\\nClosed:Mar 15, 2025\\n\\nScheduled resolution:Apr 5, 2025\\n\\nSpot Scoring Time:Feb 3, 2025\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Jan 24, 2025\\n\\nClosed:Mar 15, 2025\\n\\nScheduled resolution:Apr 5, 2025\\n\\nSpot Scoring Time:Feb 3, 2025\", \"word_count\": 171, \"snippet_word_count\": 171, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:30.510743\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_WipXHqPbM1udQuKjDCISsArI"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"snippet\": \"---\\ntitle: Which company has best AI model end of March? (Chatbot Arena Leaderboard)\\nurl: https://manifold.markets/Bayesian/which-company-has-best-ai-model-end?play=true\\nhostname: manifold.markets\\ndescription: Resolution is based on the chatbot arena LLM leaderboard (https://lmarena.ai), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET. See also: (https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-I0QsydsZuz?play=true)(https://manifold.markets/embed/Bayesian/which-company-has-best-ai-model-end-0CRdhqptRl?play=true)\\nsitename: Manifold\\ndate: 2025-03-31\\n---\\nWhich company has best AI model end of March? (Chatbot Arena Leaderboard)\\n\\n122\\n\\n1k\\u1e40460kApr 1\\n\\n90%\\n\\nxAI\\n\\n4%\\n\\nOpenAI\\n\\n3%\\n\\nGoogle\\n\\n1%\\n\\n1%\\n\\nDeepSeek\\n\\nResolution is based on the chatbot arena LLM leaderboard ([https://lmarena.ai](https://lmarena.ai)), specifically the company with the highest Arena Score in the Overall category without filters (without style control or show deprecated), at the end of March 31, 2025 11:59PM ET.\\n\\nSee also:\\n\\nThis question is managed and resolved by Manifold.\\n\\nGet\\n\\n1,000\\n\\nto start trading!Sort by:\\n\\nOh sorry I misread that as \\\"before March\\\".\\n\\nHere's a question in case one of these appears tomorrow: [https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true](https://manifold.markets/MalachiteEagle/will-there-be-a-new-and-smart-anony?play=true)\\n\\n## Related questions\\n\\n## Related questions\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2027?\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2028?\\n\\n\\nWill a company other than OpenAI, xAI, and Google top the Chatbot Arena Leaderboard in 2025?\\n\\n73% chance\\n\\n\\nUntil what date will an Google model hold the top position in the Chatbot Arena? (>=week)\\n\\n\\nWhich company has best AI model end of April? (Chatbot Arena Leaderboard)\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2026?\\n\\n\\nWhich companies will achieve a higher ELO rating than OpenAI on ChatBot Arena in 2025? ( >= week)\\n\\n\\nWhich Companies will top Chatbot Arena Leaderboard in 2025?\\n\\n\\nWhich company has best AI model end of May? (Chatbot Arena Leaderboard)\\n\\n\\nWhich of the following companies will release AI models in March?\", \"word_count\": 293, \"snippet_word_count\": 293, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:30.951963\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_qi2z9m6R66WzbQpNHKb71pq5"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"snippet\": \"---\\ntitle: Top 9 Large Language Models as of March 2025 | Shakudo\\nauthor: Author No items found\\nurl: https://www.shakudo.io/blog/top-9-large-language-models\\nhostname: shakudo.io\\ndescription: Explore the top 9 LLMs making waves in the AI world and what each of them excel at\\nsitename: shakudo.io\\ndate: 2025-03-01\\n---\\n[Whitepaper](https://www.shakudo.io/blog-categories/white-paper)\\n\\n## Introduction\\n\\nIf we had to choose one word to describe the rapid evolution of AI today, it would probably be something along the lines of *explosive*. As predicted by the [ Market Research Future ](https://springsapps.com/knowledge/large-language-model-statistics-and-numbers-2024)report, the large language model (LLM) market in North America alone is expected to reach $105.5 billion by 2030. The exponential growth of AI tools combined with access to massive troves of text data has opened gates for better and more advanced content generation than we had ever hoped. Yet, such rapid expansion also makes it harder than ever to navigate and select the right tools among the diverse LLM models available.\\n\\nThe goal of this post is to keep you, the AI enthusiast and professional, up-to-date with current trends and essential innovations in the field. Below, we highlighted the top 9 LLMs that we think are currently making waves in the industry, each with distinct capabilities and specialized strengths, excelling in areas such as natural language processing, code synthesis, few-shot learning, or scalability. While we believe there is no one-size-fits-all LLM for every use case, we hope that this list can help you identify the most current and well-suited LLM model that meets your business\\u2019s unique requirements.\\n\\n[1. GPT](https://help.openai.com/en/articles/9624314-model-release-notes)\\n\\nOur list kicks off with OpenAI's Generative Pre-trained Transformer (GPT) models, which have consistently exceeded their previous capabilities with each new release. The latest GPT-4.5, released in February 2025, offers enhanced natural language processing capabilities and web search integration, while its predecessors GPT-4o and GPT-4o mini excel in multimodal processing across text, voice, and vision.\\n\\nWhile GPT-4.5 demonstrates remarkable improvements in natural language processing, reduced hallucinations, and more natural interactions, other models in the ecosystem serve distinct purposes: smaller models like o3-mini and o3-mini-high have shown superior performance in math, science, and logical reasoning,\\u2026\\n\\n[Truncated preview: showing 346 words out of ~1952. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1952, \"snippet_word_count\": 346, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:31.482420\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_GzawASeSak0L1i80fxxuucoE"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"snippet\": \"---\\ntitle: Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\\nsitename: Metaculus\\ndate: 2025-01-10\\n---\\nQuestion\\n\\n# Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?\\n\\nTotal Forecasters1277\\n\\nCommunity Prediction\\n\\n40%\\n\\n(30% - 53%)\\n\\n### Make a Prediction\\n\\nAuthors:\\n\\nOpened:Jan 10, 2025\\n\\nCloses:Dec 30, 2025\\n\\nScheduled resolution:Dec 31, 2025\\n\\nSpot Scoring Time:Feb 1, 2025\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Jan 10, 2025\\n\\nCloses:Dec 30, 2025\\n\\nScheduled resolution:Dec 31, 2025\\n\\nSpot Scoring Time:Feb 1, 2025\", \"word_count\": 79, \"snippet_word_count\": 79, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-25T23:00:02.063086\", \"date_cutoff_end\": \"2025-03-26T23:00:02.063086\", \"cached_at\": \"2025-10-24T04:36:31.966325\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_bU8IDsZGSVMjRcvM3NNyQwc8"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_91QsFrPwt4IgTtYvBVYLE0pV",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://openlm.ai/chatbot-arena/\", \"question\": \"Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?\", \"background\": \"Chatbot Arena (previously hosted on https://lmsys.org/) is a benchmarking platform for large language models (LLMs). It uses an Elo rating system similar to the one used in chess to rank LLMs by their capabilities. Rankings are based on user ratings of different LLM systems. Besides general rankings, Chatbot Arena has added various more narrow categories, such as Hard Prompts, Instruction Following, or Math. o3 is the latest model developed by OpenAI, announced on the \\\"12th day of OpenAI\\\" on December 20, 2024. Is is a successor to o1, a series of models trained to use chain of thought to solve complex problems. According to OpenAI, o3 performs significantly better in math, coding, and various other benchmarks than all currently released models. o3-mini, a more efficient but potentially less intelligent version of o3, is planned to be released in late January or early February 2025.\", \"resolution_criteria\": \"This question will resolve as YES if the Arena Score for the highest-ranked version of o3 minus the Arena Score for the highest-ranked non-o3 model in the Overall category at the Chatbot Arena Leaderboard as of April 5, 2025 is less than 5.0. If no o3 version is scored on Chatbot Arena on April 5, 2025, this question will be annulled.\", \"fine_print\": \"* The Style Control filter will not be used.\\n* Any o3 version qualifies, including o3-mini, o3-preview or any other model which includes \\\"o3\\\" in its name.\\n* If the top model on the leaderboard is not an o3 version, this question will resolve as a negative number.\", \"present_date\": \"2025-03-25T23:00:02.063086\"}"
+          }
+        },
+        {
+          "id": "call_CXenRFZB1c2KXwXgrDEJ5Mj6",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"question\": \"Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?\", \"background\": \"Chatbot Arena (previously hosted on https://lmsys.org/) is a benchmarking platform for large language models (LLMs). It uses an Elo rating system similar to the one used in chess to rank LLMs by their capabilities. Rankings are based on user ratings of different LLM systems. Besides general rankings, Chatbot Arena has added various more narrow categories, such as Hard Prompts, Instruction Following, or Math. o3 is the latest model developed by OpenAI, announced on the \\\"12th day of OpenAI\\\" on December 20, 2024. Is is a successor to o1, a series of models trained to use chain of thought to solve complex problems. According to OpenAI, o3 performs significantly better in math, coding, and various other benchmarks than all currently released models. o3-mini, a more efficient but potentially less intelligent version of o3, is planned to be released in late January or early February 2025.\", \"resolution_criteria\": \"This question will resolve as YES if the Arena Score for the highest-ranked version of o3 minus the Arena Score for the highest-ranked non-o3 model in the Overall category at the Chatbot Arena Leaderboard as of April 5, 2025 is less than 5.0. If no o3 version is scored on Chatbot Arena on April 5, 2025, this question will be annulled.\", \"fine_print\": \"* The Style Control filter will not be used.\\n* Any o3 version qualifies, including o3-mini, o3-preview or any other model which includes \\\"o3\\\" in its name.\\n* If the top model on the leaderboard is not an o3 version, this question will resolve as a negative number.\", \"present_date\": \"2025-03-25T23:00:02.063086\"}"
+          }
+        },
+        {
+          "id": "call_T9ayYT1F03v0TeGBIuA7Uo2f",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"question\": \"Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?\", \"background\": \"Chatbot Arena (previously hosted on https://lmsys.org/) is a benchmarking platform for large language models (LLMs). It uses an Elo rating system similar to the one used in chess to rank LLMs by their capabilities. Rankings are based on user ratings of different LLM systems. Besides general rankings, Chatbot Arena has added various more narrow categories, such as Hard Prompts, Instruction Following, or Math. o3 is the latest model developed by OpenAI, announced on the \\\"12th day of OpenAI\\\" on December 20, 2024. Is is a successor to o1, a series of models trained to use chain of thought to solve complex problems. According to OpenAI, o3 performs significantly better in math, coding, and various other benchmarks than all currently released models. o3-mini, a more efficient but potentially less intelligent version of o3, is planned to be released in late January or early February 2025.\", \"resolution_criteria\": \"This question will resolve as YES if the Arena Score for the highest-ranked version of o3 minus the Arena Score for the highest-ranked non-o3 model in the Overall category at the Chatbot Arena Leaderboard as of April 5, 2025 is less than 5.0. If no o3 version is scored on Chatbot Arena on April 5, 2025, this question will be annulled.\", \"fine_print\": \"* The Style Control filter will not be used.\\n* Any o3 version qualifies, including o3-mini, o3-preview or any other model which includes \\\"o3\\\" in its name.\\n* If the top model on the leaderboard is not an o3 version, this question will resolve as a negative number.\", \"present_date\": \"2025-03-25T23:00:02.063086\"}"
+          }
+        },
+        {
+          "id": "call_YEoT8hvetIgDJsxMHEjDxutV",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"question\": \"Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?\", \"background\": \"Chatbot Arena (previously hosted on https://lmsys.org/) is a benchmarking platform for large language models (LLMs). It uses an Elo rating system similar to the one used in chess to rank LLMs by their capabilities. Rankings are based on user ratings of different LLM systems. Besides general rankings, Chatbot Arena has added various more narrow categories, such as Hard Prompts, Instruction Following, or Math. o3 is the latest model developed by OpenAI, announced on the \\\"12th day of OpenAI\\\" on December 20, 2024. Is is a successor to o1, a series of models trained to use chain of thought to solve complex problems. According to OpenAI, o3 performs significantly better in math, coding, and various other benchmarks than all currently released models. o3-mini, a more efficient but potentially less intelligent version of o3, is planned to be released in late January or early February 2025.\", \"resolution_criteria\": \"This question will resolve as YES if the Arena Score for the highest-ranked version of o3 minus the Arena Score for the highest-ranked non-o3 model in the Overall category at the Chatbot Arena Leaderboard as of April 5, 2025 is less than 5.0. If no o3 version is scored on Chatbot Arena on April 5, 2025, this question will be annulled.\", \"fine_print\": \"* The Style Control filter will not be used.\\n* Any o3 version qualifies, including o3-mini, o3-preview or any other model which includes \\\"o3\\\" in its name.\\n* If the top model on the leaderboard is not an o3 version, this question will resolve as a negative number.\", \"present_date\": \"2025-03-25T23:00:02.063086\"}"
+          }
+        },
+        {
+          "id": "call_oQutopOQNF4HuO5Vu3PWnL3l",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"question\": \"Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?\", \"background\": \"Chatbot Arena (previously hosted on https://lmsys.org/) is a benchmarking platform for large language models (LLMs). It uses an Elo rating system similar to the one used in chess to rank LLMs by their capabilities. Rankings are based on user ratings of different LLM systems. Besides general rankings, Chatbot Arena has added various more narrow categories, such as Hard Prompts, Instruction Following, or Math. o3 is the latest model developed by OpenAI, announced on the \\\"12th day of OpenAI\\\" on December 20, 2024. Is is a successor to o1, a series of models trained to use chain of thought to solve complex problems. According to OpenAI, o3 performs significantly better in math, coding, and various other benchmarks than all currently released models. o3-mini, a more efficient but potentially less intelligent version of o3, is planned to be released in late January or early February 2025.\", \"resolution_criteria\": \"This question will resolve as YES if the Arena Score for the highest-ranked version of o3 minus the Arena Score for the highest-ranked non-o3 model in the Overall category at the Chatbot Arena Leaderboard as of April 5, 2025 is less than 5.0. If no o3 version is scored on Chatbot Arena on April 5, 2025, this question will be annulled.\", \"fine_print\": \"* The Style Control filter will not be used.\\n* Any o3 version qualifies, including o3-mini, o3-preview or any other model which includes \\\"o3\\\" in its name.\\n* If the top model on the leaderboard is not an o3 version, this question will resolve as a negative number.\", \"present_date\": \"2025-03-25T23:00:02.063086\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"facts\": [{\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"As of March 20, 2025, the highest-ranked model is GPT-4.5-Preview with an Arena Elo score of 1404.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The o3-mini-high model has an Arena Elo score of 1325, which is significantly lower than the top-ranked model.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The next best model after GPT-4.5-Preview is Gemini-2.0-Flash-Thinking-Exp-01-21 with an Arena Elo score of 1398.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"The o3-mini model has an Arena Elo score of 1304, which is also lower than the top-ranked models.\"}, {\"title\": \"https://openlm.ai/chatbot-arena/\", \"url\": \"https://openlm.ai/chatbot-arena/\", \"fact\": \"There are no current scores for the main o3 model, only for the o3-mini and o3-mini-high versions.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_91QsFrPwt4IgTtYvBVYLE0pV"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The community prediction on Metaculus is that the difference between the Arena Score of o3 and the next best model will be -30, indicating a strong expectation that o3 will outperform other models by a significant margin.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The lower bound of the community prediction is less than -30, suggesting that a majority of forecasters believe o3 will have a substantial lead over the next best model.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The upper quartile of the community prediction is -24.83, which still indicates a significant expected lead for o3 over other models.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"Only 1.9% of the community predicts that the difference will be greater than 30, showing a strong consensus that o3 will outperform other models by a large margin.\"}, {\"title\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"url\": \"https://www.metaculus.com/questions/31852/chatbot-score-difference-between-o3-and-other-models/\", \"fact\": \"The question on Metaculus was closed for predictions on March 15, 2025, indicating that the community's expectations are based on information available up to that date.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_CXenRFZB1c2KXwXgrDEJ5Mj6"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"facts\": [{\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"As of the end of March 2025, xAI is leading the Chatbot Arena Leaderboard with a 90% probability of having the best AI model.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"OpenAI has a 4% probability of having the best AI model at the end of March 2025, according to the leaderboard predictions.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"Google has a 3% probability of having the best AI model at the end of March 2025.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"DeepSeek has a 1% probability of having the best AI model at the end of March 2025.\"}, {\"title\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"url\": \"https://manifold.markets/Bayesian/which-company-has-best-ai-model-end\", \"fact\": \"The leaderboard predictions suggest that a company other than OpenAI, xAI, and Google has a 1% probability of having the best AI model at the end of March 2025.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_T9ayYT1F03v0TeGBIuA7Uo2f"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"facts\": [{\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"The latest GPT-4.5 model, released in February 2025, offers enhanced natural language processing capabilities and web search integration.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"DeepSeek-R1, ranked fourth on Chatbot Arena as of January 2025, is a 671B parameter model with strong reasoning capabilities and is 30 times more cost-efficient than OpenAI-o1.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Qwen2.5-Max, released in early 2025, utilizes Mixture-of-Experts architecture and has a 32K token context window, making it suitable for various enterprise applications.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Grok 3, launched in February 2025, introduces advanced reasoning capabilities and features like 'Think' and 'Big Brain' modes for enhanced problem-solving.\"}, {\"title\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"url\": \"https://www.shakudo.io/blog/top-9-large-language-models\", \"fact\": \"Claude 3.7 Sonnet, released by Anthropic, integrates multiple reasoning approaches and shows strong improvements in coding and front-end web development.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_YEoT8hvetIgDJsxMHEjDxutV"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"50fb89de-60af-52e3-abd0-4c05bcb159e3\", \"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"url\": \"https://www.metaculus.com/questions/31326/openai-liderara-chatbot-arena-a-finales-de-2025/\", \"fact\": \"The community prediction for OpenAI topping the Chatbot Arena Leaderboard on December 31, 2025, is 40% (with a range of 30% - 53%).\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_oQutopOQNF4HuO5Vu3PWnL3l"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here is the analysis:\n\n1. **Current Leaderboard Status**:\n   - As of March 20, 2025, the highest-ranked model on the Chatbot Arena is GPT-4.5-Preview with an Arena Elo score of 1404. The next best model is Gemini-2.0-Flash-Thinking-Exp-01-21 with an Arena Elo score of 1398. The o3-mini-high model has an Arena Elo score of 1325, and o3-mini has an Arena Elo score of 1304. There are no current scores for the main o3 model.\n\n2. **Community Predictions**:\n   - On Metaculus, the community prediction suggests that the difference between the Arena Score of o3 and the next best model will be -30, indicating a strong expectation that o3 will outperform other models by a significant margin. The lower bound of the prediction is less than -30, and the upper quartile is -24.83, showing a consensus that o3 will have a substantial lead.\n\n3. **Probabilities from Other Sources**:\n   - According to Manifold, xAI is leading the Chatbot Arena Leaderboard with a 90% probability of having the best AI model at the end of March 2025. OpenAI has a 4% probability, suggesting that other models are currently favored over OpenAI's models.\n\nGiven the current leaderboard scores and the community's strong expectation that o3 will outperform other models by a significant margin, it seems unlikely that the difference between the Arena Score of o3 and the next best model will be less than 5.0 on April 5, 2025. The current scores of o3-mini and o3-mini-high are significantly lower than the top-ranked models, and there is no score for the main o3 model yet.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

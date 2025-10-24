@@ -1,0 +1,369 @@
+{
+  "question_id": "fd14feda-e55e-5c1c-a1f1-ccfa0a64cd0a",
+  "question": "Will the number of confirmed cases in the Texas measles outbreak be between 250 and 500 (inclusive) by April 7, 2025?",
+  "probability": 0.7,
+  "reasoning": "Based on the latest information from the Texas Department of State Health Services, as of March 25, 2025, there have been 327 confirmed cases of measles in Texas since late January. The outbreak is primarily affecting the South Plains and Panhandle regions of Texas. Given the highly contagious nature of measles, additional cases are likely to occur in the outbreak area and surrounding communities.\n\nConsidering the current number of cases (327) and the likelihood of additional cases occurring due to the contagious nature of the disease, it seems plausible that the number of confirmed cases could reach or exceed 500 by April 7, 2025. However, the question specifically asks if the number will be between 250 and 500 (inclusive).\n\nGiven that the current number is already 327 and the trend suggests more cases are expected, the probability that the number of cases will remain between 250 and 500 by the resolution date is moderate to high. However, if the outbreak continues to grow rapidly, there is a risk that the number could exceed 500.\n\nFINAL PROBABILITY: 0.7",
+  "search_results": [
+    {
+      "title": "Measles Outbreak – March 25, 2025 | Texas DSHS",
+      "url": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+      "content": "The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January."
+    },
+    {
+      "title": "Texas measles outbreak 2025: 18 new cases reported in West Texas | FOX 4 Dallas-Fort Worth",
+      "url": "https://www.fox4news.com/news/texas-measles-outbreak-2025-18-new-cases-reported-west-texas",
+      "content": "The Texas Department of State Health Services reported 18 new cases of measles in the state on Tuesday."
+    },
+    {
+      "title": "Texas measles outbreak 2025: State reports 20 new cases as total nears 300 infections | FOX 4 Dallas-Fort Worth",
+      "url": "https://www.fox4news.com/news/texas-measles-cases-outbreak-2025-march-18-update",
+      "content": "Health officials on Tuesday said an addition 20 cases of measles have been reported in Texas, driving the state's total to nearly 300 infections."
+    },
+    {
+      "title": "2025 Measles Outbreaks: Resources and Updates for Local Health Departments - NACCHO",
+      "url": "https://www.naccho.org/blog/articles/2025-measles-outbreaks-resources-and-updates-for-local-health-departments",
+      "content": "As of March 7, Texas and New Mexico have reported 208 confirmed cases associated with this outbreak (198 in Texas and 10 in New Mexico). More cases are expected as this outbreak continues to expand rapidly."
+    },
+    {
+      "title": "Texas measles cases rise to 327 | The Texas Tribune",
+      "url": "https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/",
+      "content": "The number of measles cases has risen to 327 as the historical outbreak continues to rage on in West Texas and one new county, Lamb, reported its first case, according to state officials on Tuesday."
+    },
+    {
+      "title": "Measles Outbreak – March 25, 2025 | Texas DSHS",
+      "url": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+      "content": "The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. As of March 25, 2025, 327 cases have been identified since late January."
+    },
+    {
+      "title": "Texas is poised to make measles a national epidemic | The Texas Tribune",
+      "url": "https://www.texastribune.org/2025/03/21/texas-measles-vaccine-new-mexico-oklahoma-us/",
+      "content": "Public health experts say Texas needs better messaging on vaccinations and quarantining and more people conducting contact tracing to contain the spread of measles."
+    },
+    {
+      "title": "Texas measles outbreak 2025: More new cases detected in West Texas | FOX 4 Dallas-Fort Worth",
+      "url": "https://www.fox4news.com/news/texas-measles-outbreak-2025-update-march-3",
+      "content": "Texas health officials say they expect to see measles case numbers grow in the coming days and weeks. More new cases detected in West Texas."
+    },
+    {
+      "title": "Texas measles outbreak: What you need to know | The Texas Tribune",
+      "url": "https://www.texastribune.org/series/texas-measles-outbreak/",
+      "content": "Texas is experiencing its largest measles outbreak in 30 years, primarily affecting the South Plains region. A child has died and several people have been hospitalized by the extremely contagious disease..."
+    },
+    {
+      "title": "U.S. records most measles cases in single year since record 2019 wave - CBS News",
+      "url": "https://www.cbsnews.com/news/measles-outbreak-2025-most-cases-since-2019/",
+      "content": "Most cases have been from an outbreak in Texas and New Mexico, the CDC says."
+    },
+    {
+      "title": "RFK Jr.'s response to a deadly measles outbreak has doctors worried : NPR",
+      "url": "https://www.npr.org/2025/03/07/nx-s1-5320352/measles-rfk-west-texas-outbreak",
+      "content": "Two people have died in a measles outbreak that spread from West Texas into New Mexico. Doctors are concerned RFK Jr.'s messaging is missing the mark, emphasizing vitamin A over vaccination."
+    },
+    {
+      "title": "2025 Southwest United States measles outbreak - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak",
+      "content": "In March, cases linked to the outbreak were announced in Oklahoma and the Mexican state of Chihuahua. The outbreak has infected hundreds of individuals, hospitalized more than 20, and killed two..."
+    },
+    {
+      "title": "Measles Outbreak – March 25, 2025 | Texas DSHS",
+      "url": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+      "content": "Due to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities."
+    },
+    {
+      "title": "2025 Southwest United States measles outbreak - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak",
+      "content": "In January 2025, cases of measles began to break out in Texas and neighboring states, spreading to New Mexico and Oklahoma by March. The outbreak has infected hundreds..."
+    },
+    {
+      "title": "Texas measles cases rise to 327 | The Texas Tribune",
+      "url": "https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/",
+      "content": "The Texas Department of State Health Services is warning residents in the outbreak area and surrounding communities that because measles is highly contagious more cases are expected."
+    },
+    {
+      "title": "Map shows measles cases across U.S. - CBS News",
+      "url": "https://www.cbsnews.com/news/measles-outbreak-us-map/",
+      "content": "CBS News is tracking a outbreak of measles in West Texas that has led to the death of a child, and a growing number of cases around the country..."
+    },
+    {
+      "title": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+      "url": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+      "content": "---\ntitle: Measles Outbreak – March 25, 2025\nurl: https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\nhostname: texas.gov\nsitename: dshs.texas.gov\ndate: 2025-03-25\n---\n# Measles Outbreak – March 25, 2025\n\nThe Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January. Forty of the patients have been hospitalized.\n\nThere has been one fatality in a school-aged child who lived in the outbreak area. The child was not vaccinated and had no known underlying conditions.\n\nDue to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities. DSHS is working with local health departments to investigate the outbreak.\n\n**We will post updates on Tuesdays and Fridays.**\n\n| County | Cases |\n|---|---|\n| Cochran | 7 |\n| Dallam | 6 |\n| Dawson | 13 |\n| Ector | 2 |\n| Gaines | 226 |\n| Garza | 1 |\n| Hale | 1 |\n| Hockley | 1 |\n| Lamar | 5 |\n| Lamb | 1 |\n| Lubbock | 10 |\n| Lynn | 1 |\n| Martin | 3 |\n| Terry | 37 |\n| Yoakum | 13 |\nTotal |\n327 |\n\nAll data is provisional and subject to change.\n\n| 0 - 4 years | 5 - 17 years | 18+ years | Pending |\n|---|---|---|---|\n| 105 | 140 | 63 | 19 |\n\n| Unvaccinated/Unknown | 325 |\n| Vaccinated: 1 dose | 0 |\n| Vaccinated: 2+ doses | 2 |\n\n- Note: The unvaccinated/unknown category includes people with no documented doses of measles vaccine more than 14 days before symptom onset.\n\nAfter additional investigation into the details of individual measles cases, DSHS has determined that three cases previously classified as vaccinated were not vaccinated cases. Two of those cases got their vaccine doses one to two days before their symptoms started, after they had been exposed to the virus. It takes the body about 14 days after vaccination to develop immunity to measles, so people aren’t considered vaccinated until that 14-day period has passed.\n\nDSHS has determined that the third case was a Lubbock County resident who had a vaccine reaction rather than a measles infection based on the results of [MeVA testing](https://www.cdc.gov/measles/php/laboratories/genetic-analysis.html#cdc_generic_section_7-identification-of-measles-vaccine-reactions), which detected the vaccine strain. This case has been removed from the case count entirely. The measles vaccine can occasionally cause a reaction with a rash and fever that mimic measles, but it is not…\n\n[Truncated preview: showing 428 words out of ~703. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.5283208335737187,
+  "brier_score": 0.09000000000000002,
+  "weighted_brier_score": 0.0475488750216347,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "fd14feda-e55e-5c1c-a1f1-ccfa0a64cd0a",
+        "queries": [
+          "Texas Department of Health measles outbreak update March 2025",
+          "Texas measles outbreak March 2025 news",
+          "Texas measles outbreak prediction April 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"fd14feda-e55e-5c1c-a1f1-ccfa0a64cd0a\", \"queries\": [\"Texas Department of Health measles outbreak update March 2025\", \"Texas measles outbreak March 2025 news\", \"Texas measles outbreak prediction April 2025\"]}",
+      "tool_call_id": "call_Wo19WhzDIbl5N4W447Oj59xe"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Texas Department of Health measles outbreak update March 2025",
+        "results": [
+          {
+            "title": "Measles Outbreak – March 25, 2025 | Texas DSHS",
+            "link": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+            "position": 1,
+            "snippet": "The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January.",
+            "date": null
+          },
+          {
+            "title": "Texas measles outbreak 2025: 18 new cases reported in West Texas | FOX 4 Dallas-Fort Worth",
+            "link": "https://www.fox4news.com/news/texas-measles-outbreak-2025-18-new-cases-reported-west-texas",
+            "position": 2,
+            "snippet": "The Texas Department of State Health Services reported 18 new cases of measles in the state on Tuesday.",
+            "date": null
+          },
+          {
+            "title": "Texas measles outbreak 2025: State reports 20 new cases as total nears 300 infections | FOX 4 Dallas-Fort Worth",
+            "link": "https://www.fox4news.com/news/texas-measles-cases-outbreak-2025-march-18-update",
+            "position": 4,
+            "snippet": "Health officials on Tuesday said an addition 20 cases of measles have been reported in Texas, driving the state's total to nearly 300 infections.",
+            "date": null
+          },
+          {
+            "title": "2025 Measles Outbreaks: Resources and Updates for Local Health Departments - NACCHO",
+            "link": "https://www.naccho.org/blog/articles/2025-measles-outbreaks-resources-and-updates-for-local-health-departments",
+            "position": 5,
+            "snippet": "As of March 7, Texas and New Mexico have reported 208 confirmed cases associated with this outbreak (198 in Texas and 10 in New Mexico). More cases are expected as this outbreak continues to expand rapidly.",
+            "date": null
+          },
+          {
+            "title": "Texas measles cases rise to 327 | The Texas Tribune",
+            "link": "https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/",
+            "position": 3,
+            "snippet": "The number of measles cases has risen to 327 as the historical outbreak continues to rage on in West Texas and one new county, Lamb, reported its first case, according to state officials on Tuesday.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Texas Department of Health measles outbreak update March 2025\", \"results\": [{\"title\": \"Measles Outbreak \\u2013 March 25, 2025 | Texas DSHS\", \"link\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"position\": 1, \"snippet\": \"The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January.\", \"date\": null}, {\"title\": \"Texas measles outbreak 2025: 18 new cases reported in West Texas | FOX 4 Dallas-Fort Worth\", \"link\": \"https://www.fox4news.com/news/texas-measles-outbreak-2025-18-new-cases-reported-west-texas\", \"position\": 2, \"snippet\": \"The Texas Department of State Health Services reported 18 new cases of measles in the state on Tuesday.\", \"date\": null}, {\"title\": \"Texas measles outbreak 2025: State reports 20 new cases as total nears 300 infections | FOX 4 Dallas-Fort Worth\", \"link\": \"https://www.fox4news.com/news/texas-measles-cases-outbreak-2025-march-18-update\", \"position\": 4, \"snippet\": \"Health officials on Tuesday said an addition 20 cases of measles have been reported in Texas, driving the state's total to nearly 300 infections.\", \"date\": null}, {\"title\": \"2025 Measles Outbreaks: Resources and Updates for Local Health Departments - NACCHO\", \"link\": \"https://www.naccho.org/blog/articles/2025-measles-outbreaks-resources-and-updates-for-local-health-departments\", \"position\": 5, \"snippet\": \"As of March 7, Texas and New Mexico have reported 208 confirmed cases associated with this outbreak (198 in Texas and 10 in New Mexico). More cases are expected as this outbreak continues to expand rapidly.\", \"date\": null}, {\"title\": \"Texas measles cases rise to 327 | The Texas Tribune\", \"link\": \"https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/\", \"position\": 3, \"snippet\": \"The number of measles cases has risen to 327 as the historical outbreak continues to rage on in West Texas and one new county, Lamb, reported its first case, according to state officials on Tuesday.\", \"date\": null}]}",
+      "tool_call_id": "call_AR92chqdP0rafigprSujirgj"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Texas measles outbreak March 2025 news",
+        "results": [
+          {
+            "title": "Measles Outbreak – March 25, 2025 | Texas DSHS",
+            "link": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+            "position": 1,
+            "snippet": "The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. As of March 25, 2025, 327 cases have been identified since late January.",
+            "date": null
+          },
+          {
+            "title": "Texas is poised to make measles a national epidemic | The Texas Tribune",
+            "link": "https://www.texastribune.org/2025/03/21/texas-measles-vaccine-new-mexico-oklahoma-us/",
+            "position": 2,
+            "snippet": "Public health experts say Texas needs better messaging on vaccinations and quarantining and more people conducting contact tracing to contain the spread of measles.",
+            "date": null
+          },
+          {
+            "title": "Texas measles outbreak 2025: More new cases detected in West Texas | FOX 4 Dallas-Fort Worth",
+            "link": "https://www.fox4news.com/news/texas-measles-outbreak-2025-update-march-3",
+            "position": 5,
+            "snippet": "Texas health officials say they expect to see measles case numbers grow in the coming days and weeks. More new cases detected in West Texas.",
+            "date": null
+          },
+          {
+            "title": "Texas measles outbreak: What you need to know | The Texas Tribune",
+            "link": "https://www.texastribune.org/series/texas-measles-outbreak/",
+            "position": 1,
+            "snippet": "Texas is experiencing its largest measles outbreak in 30 years, primarily affecting the South Plains region. A child has died and several people have been hospitalized by the extremely contagious disease...",
+            "date": null
+          },
+          {
+            "title": "U.S. records most measles cases in single year since record 2019 wave - CBS News",
+            "link": "https://www.cbsnews.com/news/measles-outbreak-2025-most-cases-since-2019/",
+            "position": 3,
+            "snippet": "Most cases have been from an outbreak in Texas and New Mexico, the CDC says.",
+            "date": null
+          },
+          {
+            "title": "RFK Jr.'s response to a deadly measles outbreak has doctors worried : NPR",
+            "link": "https://www.npr.org/2025/03/07/nx-s1-5320352/measles-rfk-west-texas-outbreak",
+            "position": 4,
+            "snippet": "Two people have died in a measles outbreak that spread from West Texas into New Mexico. Doctors are concerned RFK Jr.'s messaging is missing the mark, emphasizing vitamin A over vaccination.",
+            "date": null
+          },
+          {
+            "title": "2025 Southwest United States measles outbreak - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak",
+            "position": 5,
+            "snippet": "In March, cases linked to the outbreak were announced in Oklahoma and the Mexican state of Chihuahua. The outbreak has infected hundreds of individuals, hospitalized more than 20, and killed two...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Texas measles outbreak March 2025 news\", \"results\": [{\"title\": \"Measles Outbreak \\u2013 March 25, 2025 | Texas DSHS\", \"link\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"position\": 1, \"snippet\": \"The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. As of March 25, 2025, 327 cases have been identified since late January.\", \"date\": null}, {\"title\": \"Texas is poised to make measles a national epidemic | The Texas Tribune\", \"link\": \"https://www.texastribune.org/2025/03/21/texas-measles-vaccine-new-mexico-oklahoma-us/\", \"position\": 2, \"snippet\": \"Public health experts say Texas needs better messaging on vaccinations and quarantining and more people conducting contact tracing to contain the spread of measles.\", \"date\": null}, {\"title\": \"Texas measles outbreak 2025: More new cases detected in West Texas | FOX 4 Dallas-Fort Worth\", \"link\": \"https://www.fox4news.com/news/texas-measles-outbreak-2025-update-march-3\", \"position\": 5, \"snippet\": \"Texas health officials say they expect to see measles case numbers grow in the coming days and weeks. More new cases detected in West Texas.\", \"date\": null}, {\"title\": \"Texas measles outbreak: What you need to know | The Texas Tribune\", \"link\": \"https://www.texastribune.org/series/texas-measles-outbreak/\", \"position\": 1, \"snippet\": \"Texas is experiencing its largest measles outbreak in 30 years, primarily affecting the South Plains region. A child has died and several people have been hospitalized by the extremely contagious disease...\", \"date\": null}, {\"title\": \"U.S. records most measles cases in single year since record 2019 wave - CBS News\", \"link\": \"https://www.cbsnews.com/news/measles-outbreak-2025-most-cases-since-2019/\", \"position\": 3, \"snippet\": \"Most cases have been from an outbreak in Texas and New Mexico, the CDC says.\", \"date\": null}, {\"title\": \"RFK Jr.'s response to a deadly measles outbreak has doctors worried : NPR\", \"link\": \"https://www.npr.org/2025/03/07/nx-s1-5320352/measles-rfk-west-texas-outbreak\", \"position\": 4, \"snippet\": \"Two people have died in a measles outbreak that spread from West Texas into New Mexico. Doctors are concerned RFK Jr.'s messaging is missing the mark, emphasizing vitamin A over vaccination.\", \"date\": null}, {\"title\": \"2025 Southwest United States measles outbreak - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak\", \"position\": 5, \"snippet\": \"In March, cases linked to the outbreak were announced in Oklahoma and the Mexican state of Chihuahua. The outbreak has infected hundreds of individuals, hospitalized more than 20, and killed two...\", \"date\": null}]}",
+      "tool_call_id": "call_XuBpYdERE191crtCdzN8xwkE"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Texas measles outbreak prediction April 2025",
+        "results": [
+          {
+            "title": "Measles Outbreak – March 25, 2025 | Texas DSHS",
+            "link": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+            "position": 1,
+            "snippet": "Due to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities.",
+            "date": null
+          },
+          {
+            "title": "2025 Southwest United States measles outbreak - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak",
+            "position": 4,
+            "snippet": "In January 2025, cases of measles began to break out in Texas and neighboring states, spreading to New Mexico and Oklahoma by March. The outbreak has infected hundreds...",
+            "date": null
+          },
+          {
+            "title": "Texas measles cases rise to 327 | The Texas Tribune",
+            "link": "https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/",
+            "position": 2,
+            "snippet": "The Texas Department of State Health Services is warning residents in the outbreak area and surrounding communities that because measles is highly contagious more cases are expected.",
+            "date": null
+          },
+          {
+            "title": "Map shows measles cases across U.S. - CBS News",
+            "link": "https://www.cbsnews.com/news/measles-outbreak-us-map/",
+            "position": 5,
+            "snippet": "CBS News is tracking a outbreak of measles in West Texas that has led to the death of a child, and a growing number of cases around the country...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Texas measles outbreak prediction April 2025\", \"results\": [{\"title\": \"Measles Outbreak \\u2013 March 25, 2025 | Texas DSHS\", \"link\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"position\": 1, \"snippet\": \"Due to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities.\", \"date\": null}, {\"title\": \"2025 Southwest United States measles outbreak - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak\", \"position\": 4, \"snippet\": \"In January 2025, cases of measles began to break out in Texas and neighboring states, spreading to New Mexico and Oklahoma by March. The outbreak has infected hundreds...\", \"date\": null}, {\"title\": \"Texas measles cases rise to 327 | The Texas Tribune\", \"link\": \"https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/\", \"position\": 2, \"snippet\": \"The Texas Department of State Health Services is warning residents in the outbreak area and surrounding communities that because measles is highly contagious more cases are expected.\", \"date\": null}, {\"title\": \"Map shows measles cases across U.S. - CBS News\", \"link\": \"https://www.cbsnews.com/news/measles-outbreak-us-map/\", \"position\": 5, \"snippet\": \"CBS News is tracking a outbreak of measles in West Texas that has led to the death of a child, and a growing number of cases around the country...\", \"date\": null}]}",
+      "tool_call_id": "call_kYnmDkGHdmBC9HT0u97G5gSU"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025",
+        "snippet": "---\ntitle: Measles Outbreak – March 25, 2025\nurl: https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\nhostname: texas.gov\nsitename: dshs.texas.gov\ndate: 2025-03-25\n---\n# Measles Outbreak – March 25, 2025\n\nThe Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January. Forty of the patients have been hospitalized.\n\nThere has been one fatality in a school-aged child who lived in the outbreak area. The child was not vaccinated and had no known underlying conditions.\n\nDue to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities. DSHS is working with local health departments to investigate the outbreak.\n\n**We will post updates on Tuesdays and Fridays.**\n\n| County | Cases |\n|---|---|\n| Cochran | 7 |\n| Dallam | 6 |\n| Dawson | 13 |\n| Ector | 2 |\n| Gaines | 226 |\n| Garza | 1 |\n| Hale | 1 |\n| Hockley | 1 |\n| Lamar | 5 |\n| Lamb | 1 |\n| Lubbock | 10 |\n| Lynn | 1 |\n| Martin | 3 |\n| Terry | 37 |\n| Yoakum | 13 |\nTotal |\n327 |\n\nAll data is provisional and subject to change.\n\n| 0 - 4 years | 5 - 17 years | 18+ years | Pending |\n|---|---|---|---|\n| 105 | 140 | 63 | 19 |\n\n| Unvaccinated/Unknown | 325 |\n| Vaccinated: 1 dose | 0 |\n| Vaccinated: 2+ doses | 2 |\n\n- Note: The unvaccinated/unknown category includes people with no documented doses of measles vaccine more than 14 days before symptom onset.\n\nAfter additional investigation into the details of individual measles cases, DSHS has determined that three cases previously classified as vaccinated were not vaccinated cases. Two of those cases got their vaccine doses one to two days before their symptoms started, after they had been exposed to the virus. It takes the body about 14 days after vaccination to develop immunity to measles, so people aren’t considered vaccinated until that 14-day period has passed.\n\nDSHS has determined that the third case was a Lubbock County resident who had a vaccine reaction rather than a measles infection based on the results of [MeVA testing](https://www.cdc.gov/measles/php/laboratories/genetic-analysis.html#cdc_generic_section_7-identification-of-measles-vaccine-reactions), which detected the vaccine strain. This case has been removed from the case count entirely. The measles vaccine can occasionally cause a reaction with a rash and fever that mimic measles, but it is not…\n\n[Truncated preview: showing 428 words out of ~703. Full content available via `btf_extract_evidence`.]",
+        "word_count": 703,
+        "snippet_word_count": 428,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T17:55:02.786717",
+        "date_cutoff_end": "2025-03-27T17:55:02.786717",
+        "cached_at": "2025-10-24T04:48:36.008586"
+      },
+      "raw": "{\"url\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"snippet\": \"---\\ntitle: Measles Outbreak \\u2013 March 25, 2025\\nurl: https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\\nhostname: texas.gov\\nsitename: dshs.texas.gov\\ndate: 2025-03-25\\n---\\n# Measles Outbreak \\u2013 March 25, 2025\\n\\nThe Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January. Forty of the patients have been hospitalized.\\n\\nThere has been one fatality in a school-aged child who lived in the outbreak area. The child was not vaccinated and had no known underlying conditions.\\n\\nDue to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities. DSHS is working with local health departments to investigate the outbreak.\\n\\n**We will post updates on Tuesdays and Fridays.**\\n\\n| County | Cases |\\n|---|---|\\n| Cochran | 7 |\\n| Dallam | 6 |\\n| Dawson | 13 |\\n| Ector | 2 |\\n| Gaines | 226 |\\n| Garza | 1 |\\n| Hale | 1 |\\n| Hockley | 1 |\\n| Lamar | 5 |\\n| Lamb | 1 |\\n| Lubbock | 10 |\\n| Lynn | 1 |\\n| Martin | 3 |\\n| Terry | 37 |\\n| Yoakum | 13 |\\nTotal |\\n327 |\\n\\nAll data is provisional and subject to change.\\n\\n| 0 - 4 years | 5 - 17 years | 18+ years | Pending |\\n|---|---|---|---|\\n| 105 | 140 | 63 | 19 |\\n\\n| Unvaccinated/Unknown | 325 |\\n| Vaccinated: 1 dose | 0 |\\n| Vaccinated: 2+ doses | 2 |\\n\\n- Note: The unvaccinated/unknown category includes people with no documented doses of measles vaccine more than 14 days before symptom onset.\\n\\nAfter additional investigation into the details of individual measles cases, DSHS has determined that three cases previously classified as vaccinated were not vaccinated cases. Two of those cases got their vaccine doses one to two days before their symptoms started, after they had been exposed to the virus. It takes the body about 14 days after vaccination to develop immunity to measles, so people aren\\u2019t considered vaccinated until that 14-day period has passed.\\n\\nDSHS has determined that the third case was a Lubbock County resident who had a vaccine reaction rather than a measles infection based on the results of [MeVA testing](https://www.cdc.gov/measles/php/laboratories/genetic-analysis.html#cdc_generic_section_7-identification-of-measles-vaccine-reactions), which detected the vaccine strain. This case has been removed from the case count entirely. The measles vaccine can occasionally cause a reaction with a rash and fever that mimic measles, but it is not\\u2026\\n\\n[Truncated preview: showing 428 words out of ~703. Full content available via `btf_extract_evidence`.]\", \"word_count\": 703, \"snippet_word_count\": 428, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T17:55:02.786717\", \"date_cutoff_end\": \"2025-03-27T17:55:02.786717\", \"cached_at\": \"2025-10-24T04:48:36.008586\"}",
+      "tool_call_id": "call_sEYXIjaxNeVTG98demoa5lE5"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the number of confirmed cases in the Texas measles outbreak be between 250 and 500 (inclusive) by April 7, 2025?\nBackground: As of February 28, 2025, Texas is experiencing its largest measles outbreak [since 1992](https://www.reuters.com/business/healthcare-pharmaceuticals/measles-death-texas-puts-kennedys-vaccine-views-test-2025-02-27/), with a total of [146 cases](https://www.dshs.texas.gov/news-alerts/measles-outbreak-feb-28-2025) confirmed. 20 patients have been hospitalised and one has died, being the first measles death in the US since 2015. The outbreak [started](https://www.usatoday.com/story/news/health/2025/02/25/texas-measles-outbreak-spread-rural-america/79624727007/) in a Mennonite community in Gaines County, which has among the [lowest vaccination rates](https://cbsaustin.com/news/local/texas-leaders-quiet-amid-the-biggest-measles-outbreak-in-decades-gaines-county-republicans-democrats-children-lubbock-community-pandemic-vaccines) in the country, but has already [crossed state lines](https://www.houstonchronicle.com/health/article/hotez-texas-measles-outbreak-20190069.php) into New Mexico.\nResolution criteria: This question will resolve as YES if the number of measles cases reported by the Texas Department of Health and Human Services as of April 6, 2025 is between 250 and 500 (inclusive). Otherwise, it will resolve as NO.\nFine print: This will resolve based on the latest announcement or update by DSHS Texas, if that announcement has been published after March 31, 2025. If no such update has been published, this question might resolve based on a CDC announcement, provided that has been published after March 31, 2025. Otherwise, this question will be **annulled**.\npresent_date: 2025-03-26T17:55:02.786717\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Wo19WhzDIbl5N4W447Oj59xe",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the number of confirmed cases in the Texas measles outbreak be between 250 and 500 (inclusive) by April 7, 2025?\",\"background\":\"As of February 28, 2025, Texas is experiencing its largest measles outbreak since 1992, with a total of 146 cases confirmed. 20 patients have been hospitalised and one has died, being the first measles death in the US since 2015. The outbreak started in a Mennonite community in Gaines County, which has among the lowest vaccination rates in the country, but has already crossed state lines into New Mexico.\",\"resolution_criteria\":\"This question will resolve as YES if the number of measles cases reported by the Texas Department of Health and Human Services as of April 6, 2025 is between 250 and 500 (inclusive). Otherwise, it will resolve as NO.\",\"fine_print\":\"This will resolve based on the latest announcement or update by DSHS Texas, if that announcement has been published after March 31, 2025. If no such update has been published, this question might resolve based on a CDC announcement, provided that has been published after March 31, 2025. Otherwise, this question will be annulled.\",\"present_date\":\"2025-03-26T17:55:02.786717\",\"date_cutoff_start\":\"2025-02-28\",\"date_cutoff_end\":\"2025-04-06\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"fd14feda-e55e-5c1c-a1f1-ccfa0a64cd0a\", \"queries\": [\"Texas Department of Health measles outbreak update March 2025\", \"Texas measles outbreak March 2025 news\", \"Texas measles outbreak prediction April 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_Wo19WhzDIbl5N4W447Oj59xe"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_AR92chqdP0rafigprSujirgj",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Texas Department of Health measles outbreak update March 2025\", \"date_cutoff_start\": \"2025-02-28\", \"date_cutoff_end\": \"2025-04-06\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_XuBpYdERE191crtCdzN8xwkE",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Texas measles outbreak March 2025 news\", \"date_cutoff_start\": \"2025-02-28\", \"date_cutoff_end\": \"2025-04-06\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_kYnmDkGHdmBC9HT0u97G5gSU",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Texas measles outbreak prediction April 2025\", \"date_cutoff_start\": \"2025-02-28\", \"date_cutoff_end\": \"2025-04-06\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Texas Department of Health measles outbreak update March 2025\", \"results\": [{\"title\": \"Measles Outbreak \\u2013 March 25, 2025 | Texas DSHS\", \"link\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"position\": 1, \"snippet\": \"The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January.\", \"date\": null}, {\"title\": \"Texas measles outbreak 2025: 18 new cases reported in West Texas | FOX 4 Dallas-Fort Worth\", \"link\": \"https://www.fox4news.com/news/texas-measles-outbreak-2025-18-new-cases-reported-west-texas\", \"position\": 2, \"snippet\": \"The Texas Department of State Health Services reported 18 new cases of measles in the state on Tuesday.\", \"date\": null}, {\"title\": \"Texas measles outbreak 2025: State reports 20 new cases as total nears 300 infections | FOX 4 Dallas-Fort Worth\", \"link\": \"https://www.fox4news.com/news/texas-measles-cases-outbreak-2025-march-18-update\", \"position\": 4, \"snippet\": \"Health officials on Tuesday said an addition 20 cases of measles have been reported in Texas, driving the state's total to nearly 300 infections.\", \"date\": null}, {\"title\": \"2025 Measles Outbreaks: Resources and Updates for Local Health Departments - NACCHO\", \"link\": \"https://www.naccho.org/blog/articles/2025-measles-outbreaks-resources-and-updates-for-local-health-departments\", \"position\": 5, \"snippet\": \"As of March 7, Texas and New Mexico have reported 208 confirmed cases associated with this outbreak (198 in Texas and 10 in New Mexico). More cases are expected as this outbreak continues to expand rapidly.\", \"date\": null}, {\"title\": \"Texas measles cases rise to 327 | The Texas Tribune\", \"link\": \"https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/\", \"position\": 3, \"snippet\": \"The number of measles cases has risen to 327 as the historical outbreak continues to rage on in West Texas and one new county, Lamb, reported its first case, according to state officials on Tuesday.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_AR92chqdP0rafigprSujirgj"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Texas measles outbreak March 2025 news\", \"results\": [{\"title\": \"Measles Outbreak \\u2013 March 25, 2025 | Texas DSHS\", \"link\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"position\": 1, \"snippet\": \"The Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. As of March 25, 2025, 327 cases have been identified since late January.\", \"date\": null}, {\"title\": \"Texas is poised to make measles a national epidemic | The Texas Tribune\", \"link\": \"https://www.texastribune.org/2025/03/21/texas-measles-vaccine-new-mexico-oklahoma-us/\", \"position\": 2, \"snippet\": \"Public health experts say Texas needs better messaging on vaccinations and quarantining and more people conducting contact tracing to contain the spread of measles.\", \"date\": null}, {\"title\": \"Texas measles outbreak 2025: More new cases detected in West Texas | FOX 4 Dallas-Fort Worth\", \"link\": \"https://www.fox4news.com/news/texas-measles-outbreak-2025-update-march-3\", \"position\": 5, \"snippet\": \"Texas health officials say they expect to see measles case numbers grow in the coming days and weeks. More new cases detected in West Texas.\", \"date\": null}, {\"title\": \"Texas measles outbreak: What you need to know | The Texas Tribune\", \"link\": \"https://www.texastribune.org/series/texas-measles-outbreak/\", \"position\": 1, \"snippet\": \"Texas is experiencing its largest measles outbreak in 30 years, primarily affecting the South Plains region. A child has died and several people have been hospitalized by the extremely contagious disease...\", \"date\": null}, {\"title\": \"U.S. records most measles cases in single year since record 2019 wave - CBS News\", \"link\": \"https://www.cbsnews.com/news/measles-outbreak-2025-most-cases-since-2019/\", \"position\": 3, \"snippet\": \"Most cases have been from an outbreak in Texas and New Mexico, the CDC says.\", \"date\": null}, {\"title\": \"RFK Jr.'s response to a deadly measles outbreak has doctors worried : NPR\", \"link\": \"https://www.npr.org/2025/03/07/nx-s1-5320352/measles-rfk-west-texas-outbreak\", \"position\": 4, \"snippet\": \"Two people have died in a measles outbreak that spread from West Texas into New Mexico. Doctors are concerned RFK Jr.'s messaging is missing the mark, emphasizing vitamin A over vaccination.\", \"date\": null}, {\"title\": \"2025 Southwest United States measles outbreak - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak\", \"position\": 5, \"snippet\": \"In March, cases linked to the outbreak were announced in Oklahoma and the Mexican state of Chihuahua. The outbreak has infected hundreds of individuals, hospitalized more than 20, and killed two...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_XuBpYdERE191crtCdzN8xwkE"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Texas measles outbreak prediction April 2025\", \"results\": [{\"title\": \"Measles Outbreak \\u2013 March 25, 2025 | Texas DSHS\", \"link\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"position\": 1, \"snippet\": \"Due to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities.\", \"date\": null}, {\"title\": \"2025 Southwest United States measles outbreak - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/2025_Southwest_United_States_measles_outbreak\", \"position\": 4, \"snippet\": \"In January 2025, cases of measles began to break out in Texas and neighboring states, spreading to New Mexico and Oklahoma by March. The outbreak has infected hundreds...\", \"date\": null}, {\"title\": \"Texas measles cases rise to 327 | The Texas Tribune\", \"link\": \"https://www.texastribune.org/2025/02/18/texas-measles-outbreak-climbs/\", \"position\": 2, \"snippet\": \"The Texas Department of State Health Services is warning residents in the outbreak area and surrounding communities that because measles is highly contagious more cases are expected.\", \"date\": null}, {\"title\": \"Map shows measles cases across U.S. - CBS News\", \"link\": \"https://www.cbsnews.com/news/measles-outbreak-us-map/\", \"position\": 5, \"snippet\": \"CBS News is tracking a outbreak of measles in West Texas that has led to the death of a child, and a growing number of cases around the country...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_kYnmDkGHdmBC9HT0u97G5gSU"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_sEYXIjaxNeVTG98demoa5lE5",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\":\"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\",\"date_cutoff_start\":\"2025-02-28\",\"date_cutoff_end\":\"2025-04-06\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\", \"snippet\": \"---\\ntitle: Measles Outbreak \\u2013 March 25, 2025\\nurl: https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025\\nhostname: texas.gov\\nsitename: dshs.texas.gov\\ndate: 2025-03-25\\n---\\n# Measles Outbreak \\u2013 March 25, 2025\\n\\nThe Texas Department of State Health Services is reporting an outbreak of measles in the South Plains and Panhandle regions of Texas. At this time, 327 cases have been identified since late January. Forty of the patients have been hospitalized.\\n\\nThere has been one fatality in a school-aged child who lived in the outbreak area. The child was not vaccinated and had no known underlying conditions.\\n\\nDue to the highly contagious nature of this disease, additional cases are likely to occur in the outbreak area and the surrounding communities. DSHS is working with local health departments to investigate the outbreak.\\n\\n**We will post updates on Tuesdays and Fridays.**\\n\\n| County | Cases |\\n|---|---|\\n| Cochran | 7 |\\n| Dallam | 6 |\\n| Dawson | 13 |\\n| Ector | 2 |\\n| Gaines | 226 |\\n| Garza | 1 |\\n| Hale | 1 |\\n| Hockley | 1 |\\n| Lamar | 5 |\\n| Lamb | 1 |\\n| Lubbock | 10 |\\n| Lynn | 1 |\\n| Martin | 3 |\\n| Terry | 37 |\\n| Yoakum | 13 |\\nTotal |\\n327 |\\n\\nAll data is provisional and subject to change.\\n\\n| 0 - 4 years | 5 - 17 years | 18+ years | Pending |\\n|---|---|---|---|\\n| 105 | 140 | 63 | 19 |\\n\\n| Unvaccinated/Unknown | 325 |\\n| Vaccinated: 1 dose | 0 |\\n| Vaccinated: 2+ doses | 2 |\\n\\n- Note: The unvaccinated/unknown category includes people with no documented doses of measles vaccine more than 14 days before symptom onset.\\n\\nAfter additional investigation into the details of individual measles cases, DSHS has determined that three cases previously classified as vaccinated were not vaccinated cases. Two of those cases got their vaccine doses one to two days before their symptoms started, after they had been exposed to the virus. It takes the body about 14 days after vaccination to develop immunity to measles, so people aren\\u2019t considered vaccinated until that 14-day period has passed.\\n\\nDSHS has determined that the third case was a Lubbock County resident who had a vaccine reaction rather than a measles infection based on the results of [MeVA testing](https://www.cdc.gov/measles/php/laboratories/genetic-analysis.html#cdc_generic_section_7-identification-of-measles-vaccine-reactions), which detected the vaccine strain. This case has been removed from the case count entirely. The measles vaccine can occasionally cause a reaction with a rash and fever that mimic measles, but it is not\\u2026\\n\\n[Truncated preview: showing 428 words out of ~703. Full content available via `btf_extract_evidence`.]\", \"word_count\": 703, \"snippet_word_count\": 428, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T17:55:02.786717\", \"date_cutoff_end\": \"2025-03-27T17:55:02.786717\", \"cached_at\": \"2025-10-24T04:48:36.008586\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_sEYXIjaxNeVTG98demoa5lE5"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the latest information from the Texas Department of State Health Services, as of March 25, 2025, there have been 327 confirmed cases of measles in Texas since late January. The outbreak is primarily affecting the South Plains and Panhandle regions of Texas. Given the highly contagious nature of measles, additional cases are likely to occur in the outbreak area and surrounding communities.\n\nConsidering the current number of cases (327) and the likelihood of additional cases occurring due to the contagious nature of the disease, it seems plausible that the number of confirmed cases could reach or exceed 500 by April 7, 2025. However, the question specifically asks if the number will be between 250 and 500 (inclusive).\n\nGiven that the current number is already 327 and the trend suggests more cases are expected, the probability that the number of cases will remain between 250 and 500 by the resolution date is moderate to high. However, if the outbreak continues to grow rapidly, there is a risk that the number could exceed 500.\n\nFINAL PROBABILITY: 0.7"
+    }
+  ]
+}

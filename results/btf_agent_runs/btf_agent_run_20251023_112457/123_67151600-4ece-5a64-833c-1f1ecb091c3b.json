@@ -1,0 +1,492 @@
+{
+  "question_id": "67151600-4ece-5a64-833c-1f1ecb091c3b",
+  "question": "Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?",
+  "probability": 0.7,
+  "reasoning": "Based on the gathered evidence, here is the analysis of Tesla's Q1 2025 vehicle deliveries:\n\n1. **Analyst Consensus**: The consensus among analysts is that Tesla will deliver approximately 418,000 vehicles in Q1 2025, which is above the 400,000 threshold. This suggests a year-over-year improvement and indicates that deliveries might not fall below 400,000. However, there are factors that could affect this outcome.\n\n2. **Prediction Markets**: Kalshi, a prediction market, forecasts 359,000 deliveries for Q1 2025. Similarly, the Metaculus community prediction is 356,000 deliveries, with a range of 350,000 to 369,000. Both predictions are below 400,000, indicating a significant probability that deliveries will be less than 400,000.\n\n3. **Impact of Protests and Political Involvement**: The \"Tesla Takedown\" movement and Elon Musk's political involvement have led to protests and vandalism, potentially affecting Tesla's operations and deliveries. However, the impact on sales is debated, with some polls suggesting limited effect.\n\n4. **Regional Sales Trends**: Sales in Europe and China have seen significant declines, with European sales down by as much as 50% and Chinese sales nearly halved. This could contribute to lower overall delivery numbers.\n\n5. **Stock Market and Analyst Sentiment**: Tesla's stock has dropped significantly, reflecting pessimism about sales. UBS Global Research expects a 5% decline in deliveries for the quarter compared to the previous year.\n\nConsidering these factors, there is substantial evidence suggesting that Tesla's Q1 2025 deliveries may indeed fall below 400,000 vehicles, despite some analyst predictions to the contrary. The prediction markets and regional sales declines weigh heavily towards a lower delivery number.\n\nFINAL PROBABILITY: 0.7",
+  "search_results": [
+    {
+      "title": "A neutral look at Tesla’s upcoming Q1 2025 vehicle deliveries",
+      "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "content": "Analyst consensus for Tesla’s Q1 2025 deliveries currently stands at 418,000 vehicles, suggesting an 8.06% year-over-year improvement..."
+    },
+    {
+      "title": "Tesla deliveries expected to go down to levels not seen in more than 2 years | Electrek",
+      "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "content": "Tesla deliveries are expected to decrease this quarter to levels not seen in more than two years. Prediction markets predict Tesla will deliver 359,000 vehicles in Q1 2025..."
+    },
+    {
+      "title": "How politics are affecting Musk’s Tesla brand | PBS News",
+      "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "content": "In recent days, Tesla showrooms in the U.S. have been besieged by protesters, its vehicles vandalized on the street. Analysts at UBS Global Research expect deliveries to fall 5 percent in the first quarter..."
+    },
+    {
+      "title": "What will the total number of Tesla vehicle deliveries be for Q1 2025?",
+      "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "content": "What will the total number of Tesla vehicle deliveries be for Q1 2025? The community prediction is 356k deliveries, with a range of 350k - 369k."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "fact": "Analyst consensus for Tesla's Q1 2025 deliveries stands at 418,000 vehicles, suggesting a year-over-year improvement of 8.06% from Q1 2024."
+    },
+    {
+      "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "fact": "Tesla's transition from the Model Y classic to the new Model Y is expected to temporarily reduce deliveries, impacting Q1 2025 numbers."
+    },
+    {
+      "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "fact": "Tesla's sales in China and Europe have been lower in January and February 2025 compared to the previous year, but registrations have picked up with the new Model Y's domestic deliveries."
+    },
+    {
+      "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "fact": "The 'Tesla Takedown' movement plans 500 protests in 277 stores and Superchargers, potentially affecting Tesla's operations and deliveries."
+    },
+    {
+      "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+      "fact": "Elon Musk's political involvement is polarizing, but its impact on Tesla's vehicle sales may not be as significant as critics suggest, according to a German poll showing over 70% of respondents would still buy a Tesla."
+    },
+    {
+      "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "fact": "Kalshi, a major prediction market, predicts that Tesla will deliver 359,000 vehicles in Q1 2025."
+    },
+    {
+      "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "fact": "This predicted delivery figure represents a 27% decrease quarter-over-quarter from Q4 2024."
+    },
+    {
+      "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "fact": "Tesla's sales in Europe are reported to be down by as much as 50% this quarter."
+    },
+    {
+      "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "fact": "Sales in China, Tesla's most important market, are slightly down year-over-year."
+    },
+    {
+      "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+      "fact": "The US market is described as opaque, with its performance being a potential difference maker for the quarter."
+    },
+    {
+      "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "fact": "Tesla's stock has plummeted 45 percent in 2025, reflecting newfound pessimism as sales crater around the globe."
+    },
+    {
+      "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "fact": "Tesla sales are falling precipitously in California, the company's biggest U.S. market."
+    },
+    {
+      "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "fact": "Tesla sales plunged 45 percent in Europe in January, even as overall electric vehicle sales rose."
+    },
+    {
+      "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "fact": "The latest auto sales figures from China show that Tesla sales there have been nearly halved from February a year ago."
+    },
+    {
+      "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+      "fact": "UBS Global Research expects Tesla deliveries to fall 5 percent in the first quarter and full year compared to the same periods for 2024."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "fact": "The community prediction for Tesla's Q1 2025 vehicle deliveries is 356,000."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "fact": "The lower bound of the community prediction is 350,000 deliveries."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "fact": "The upper bound of the community prediction is 369,000 deliveries."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "fact": "The probability of deliveries being less than 350,000 is 35.6%."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+      "fact": "The probability of deliveries exceeding 500,000 is only 0.3%."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.5,
+  "brier_score": 0.09000000000000002,
+  "weighted_brier_score": 0.04500000000000001,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "67151600-4ece-5a64-833c-1f1ecb091c3b",
+        "queries": [
+          "Tesla Q1 2025 delivery forecast",
+          "Impact of protests on Tesla vehicle deliveries 2025",
+          "Analyst predictions for Tesla Q1 2025 deliveries"
+        ]
+      },
+      "raw": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"queries\": [\"Tesla Q1 2025 delivery forecast\", \"Impact of protests on Tesla vehicle deliveries 2025\", \"Analyst predictions for Tesla Q1 2025 deliveries\"]}",
+      "tool_call_id": "call_gqf6d3OY5rHdvsotRl0TTnRe"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Tesla Q1 2025 delivery forecast",
+        "results": [
+          {
+            "title": "A neutral look at Tesla’s upcoming Q1 2025 vehicle deliveries",
+            "link": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "position": 1,
+            "snippet": "Analyst consensus for Tesla’s Q1 2025 deliveries currently stands at 418,000 vehicles, suggesting an 8.06% year-over-year improvement...",
+            "date": "2025-03-20T15:00:00Z"
+          },
+          {
+            "title": "Tesla deliveries expected to go down to levels not seen in more than 2 years | Electrek",
+            "link": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "position": 3,
+            "snippet": "Tesla deliveries are expected to decrease this quarter to levels not seen in more than two years. Prediction markets predict Tesla will deliver 359,000 vehicles in Q1 2025...",
+            "date": "2025-02-21T15:22:07Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Tesla Q1 2025 delivery forecast\", \"results\": [{\"title\": \"A neutral look at Tesla\\u2019s upcoming Q1 2025 vehicle deliveries\", \"link\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"position\": 1, \"snippet\": \"Analyst consensus for Tesla\\u2019s Q1 2025 deliveries currently stands at 418,000 vehicles, suggesting an 8.06% year-over-year improvement...\", \"date\": \"2025-03-20T15:00:00Z\"}, {\"title\": \"Tesla deliveries expected to go down to levels not seen in more than 2 years | Electrek\", \"link\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"position\": 3, \"snippet\": \"Tesla deliveries are expected to decrease this quarter to levels not seen in more than two years. Prediction markets predict Tesla will deliver 359,000 vehicles in Q1 2025...\", \"date\": \"2025-02-21T15:22:07Z\"}]}",
+      "tool_call_id": "call_XDrGCMU6Y6U2g5GsXCNKS3og"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Impact of protests on Tesla vehicle deliveries 2025",
+        "results": [
+          {
+            "title": "How politics are affecting Musk’s Tesla brand | PBS News",
+            "link": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "position": 5,
+            "snippet": "In recent days, Tesla showrooms in the U.S. have been besieged by protesters, its vehicles vandalized on the street. Analysts at UBS Global Research expect deliveries to fall 5 percent in the first quarter...",
+            "date": "2025-03-11T17:41:07Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Impact of protests on Tesla vehicle deliveries 2025\", \"results\": [{\"title\": \"How politics are affecting Musk\\u2019s Tesla brand | PBS News\", \"link\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"position\": 5, \"snippet\": \"In recent days, Tesla showrooms in the U.S. have been besieged by protesters, its vehicles vandalized on the street. Analysts at UBS Global Research expect deliveries to fall 5 percent in the first quarter...\", \"date\": \"2025-03-11T17:41:07Z\"}]}",
+      "tool_call_id": "call_HTS3PBDR18X0qFITjTFCOmYr"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Analyst predictions for Tesla Q1 2025 deliveries",
+        "results": [
+          {
+            "title": "What will the total number of Tesla vehicle deliveries be for Q1 2025?",
+            "link": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "position": 4,
+            "snippet": "What will the total number of Tesla vehicle deliveries be for Q1 2025? The community prediction is 356k deliveries, with a range of 350k - 369k.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Analyst predictions for Tesla Q1 2025 deliveries\", \"results\": [{\"title\": \"What will the total number of Tesla vehicle deliveries be for Q1 2025?\", \"link\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"position\": 4, \"snippet\": \"What will the total number of Tesla vehicle deliveries be for Q1 2025? The community prediction is 356k deliveries, with a range of 350k - 369k.\", \"date\": null}]}",
+      "tool_call_id": "call_4t9XtBu88uHvdYYc8zhyG1jv"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "67151600-4ece-5a64-833c-1f1ecb091c3b",
+        "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+        "facts": [
+          {
+            "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "fact": "Analyst consensus for Tesla's Q1 2025 deliveries stands at 418,000 vehicles, suggesting a year-over-year improvement of 8.06% from Q1 2024."
+          },
+          {
+            "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "fact": "Tesla's transition from the Model Y classic to the new Model Y is expected to temporarily reduce deliveries, impacting Q1 2025 numbers."
+          },
+          {
+            "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "fact": "Tesla's sales in China and Europe have been lower in January and February 2025 compared to the previous year, but registrations have picked up with the new Model Y's domestic deliveries."
+          },
+          {
+            "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "fact": "The 'Tesla Takedown' movement plans 500 protests in 277 stores and Superchargers, potentially affecting Tesla's operations and deliveries."
+          },
+          {
+            "title": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "url": "https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/",
+            "fact": "Elon Musk's political involvement is polarizing, but its impact on Tesla's vehicle sales may not be as significant as critics suggest, according to a German poll showing over 70% of respondents would still buy a Tesla."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"facts\": [{\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Analyst consensus for Tesla's Q1 2025 deliveries stands at 418,000 vehicles, suggesting a year-over-year improvement of 8.06% from Q1 2024.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Tesla's transition from the Model Y classic to the new Model Y is expected to temporarily reduce deliveries, impacting Q1 2025 numbers.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Tesla's sales in China and Europe have been lower in January and February 2025 compared to the previous year, but registrations have picked up with the new Model Y's domestic deliveries.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"The 'Tesla Takedown' movement plans 500 protests in 277 stores and Superchargers, potentially affecting Tesla's operations and deliveries.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Elon Musk's political involvement is polarizing, but its impact on Tesla's vehicle sales may not be as significant as critics suggest, according to a German poll showing over 70% of respondents would still buy a Tesla.\"}]}",
+      "tool_call_id": "call_DNCd2LuGMkLeAafbexadWxhD"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "67151600-4ece-5a64-833c-1f1ecb091c3b",
+        "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+        "facts": [
+          {
+            "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "fact": "Kalshi, a major prediction market, predicts that Tesla will deliver 359,000 vehicles in Q1 2025."
+          },
+          {
+            "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "fact": "This predicted delivery figure represents a 27% decrease quarter-over-quarter from Q4 2024."
+          },
+          {
+            "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "fact": "Tesla's sales in Europe are reported to be down by as much as 50% this quarter."
+          },
+          {
+            "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "fact": "Sales in China, Tesla's most important market, are slightly down year-over-year."
+          },
+          {
+            "title": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "url": "https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/",
+            "fact": "The US market is described as opaque, with its performance being a potential difference maker for the quarter."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"facts\": [{\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"Kalshi, a major prediction market, predicts that Tesla will deliver 359,000 vehicles in Q1 2025.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"This predicted delivery figure represents a 27% decrease quarter-over-quarter from Q4 2024.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"Tesla's sales in Europe are reported to be down by as much as 50% this quarter.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"Sales in China, Tesla's most important market, are slightly down year-over-year.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"The US market is described as opaque, with its performance being a potential difference maker for the quarter.\"}]}",
+      "tool_call_id": "call_qbUn90SrvEZ3dNEf1a7sUpk7"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "67151600-4ece-5a64-833c-1f1ecb091c3b",
+        "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+        "facts": [
+          {
+            "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "fact": "Tesla's stock has plummeted 45 percent in 2025, reflecting newfound pessimism as sales crater around the globe."
+          },
+          {
+            "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "fact": "Tesla sales are falling precipitously in California, the company's biggest U.S. market."
+          },
+          {
+            "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "fact": "Tesla sales plunged 45 percent in Europe in January, even as overall electric vehicle sales rose."
+          },
+          {
+            "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "fact": "The latest auto sales figures from China show that Tesla sales there have been nearly halved from February a year ago."
+          },
+          {
+            "title": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "url": "https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand",
+            "fact": "UBS Global Research expects Tesla deliveries to fall 5 percent in the first quarter and full year compared to the same periods for 2024."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"facts\": [{\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"Tesla's stock has plummeted 45 percent in 2025, reflecting newfound pessimism as sales crater around the globe.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"Tesla sales are falling precipitously in California, the company's biggest U.S. market.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"Tesla sales plunged 45 percent in Europe in January, even as overall electric vehicle sales rose.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"The latest auto sales figures from China show that Tesla sales there have been nearly halved from February a year ago.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"UBS Global Research expects Tesla deliveries to fall 5 percent in the first quarter and full year compared to the same periods for 2024.\"}]}",
+      "tool_call_id": "call_rmlsXNGkuELjlMvbPHSeFHa9"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "67151600-4ece-5a64-833c-1f1ecb091c3b",
+        "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+        "facts": [
+          {
+            "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "fact": "The community prediction for Tesla's Q1 2025 vehicle deliveries is 356,000."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "fact": "The lower bound of the community prediction is 350,000 deliveries."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "fact": "The upper bound of the community prediction is 369,000 deliveries."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "fact": "The probability of deliveries being less than 350,000 is 35.6%."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "url": "https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/",
+            "fact": "The probability of deliveries exceeding 500,000 is only 0.3%."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The community prediction for Tesla's Q1 2025 vehicle deliveries is 356,000.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The lower bound of the community prediction is 350,000 deliveries.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The upper bound of the community prediction is 369,000 deliveries.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The probability of deliveries being less than 350,000 is 35.6%.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The probability of deliveries exceeding 500,000 is only 0.3%.\"}]}",
+      "tool_call_id": "call_lXcMTsigg0K2CoeSk1gHZ0Rt"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?\nBackground: [Tesla](https://en.wikipedia.org/wiki/Tesla,_Inc.), the [second largest](https://www.fool.com/research/largest-ev-companies/) electric vehicle (EV) company in the world, has seen [significant sales growth](https://www.statista.com/statistics/502208/tesla-quarterly-vehicle-deliveries/) in recent years. However, Tesla reported its [first decline in annual vehicle deliveries](https://www.cnbc.com/2025/01/02/tesla-tsla-q4-2024-vehicle-delivery-and-production-numbers.html) in 2024. Despite the annual decline during 2024, the fourth quarter of 2024 saw its largest number of deliveries, [reporting](https://ir.tesla.com/press-release/tesla-fourth-quarter-2024-production-deliveries-and-deployments) 495,570 cars delivered.\n\nHowever, some analysts [think](https://x.com/TroyTeslike/status/1894654134730530882) that Tesla CEO [Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk)'s recent political involvement with President Donald Trump and the [Department of Government Efficiency](https://en.wikipedia.org/wiki/Department_of_Government_Efficiency) (DOGE) may harm Tesla's delivery prospects. [Reports](https://www.teslarati.com/tesla-stores-vehicles-chargers-vandalism-protests/#google_vignette) of protests against Tesla and Tesla vehicles being vandalized and defaced have gone viral on social media.\n\nTesla [typically reports](https://ir.tesla.com/press) quarterly deliveries ahead of its full earnings, usually on the second day of the following quarter.\nResolution criteria: This question will resolve as YES if Tesla's total vehicle deliveries for Q1 2025 are less than 400,000 vehicles, and NO otherwise, based on figures [reported by Tesla](https://ir.tesla.com/press). For example, [for Q4 2024](https://ir.tesla.com/press-release/tesla-fourth-quarter-2024-production-deliveries-and-deployments) the equivalent number was 495,570.\nFine print: * If the delivery figures for Q1 2025 are not published by Tesla before April 7, 2025, this question will be **annulled**.\npresent_date: 2025-03-25T14:10:39.109542\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_gqf6d3OY5rHdvsotRl0TTnRe",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?\",\"background\":\"Tesla, the second largest electric vehicle (EV) company in the world, has seen significant sales growth in recent years. However, Tesla reported its first decline in annual vehicle deliveries in 2024. Despite the annual decline during 2024, the fourth quarter of 2024 saw its largest number of deliveries, reporting 495,570 cars delivered. However, some analysts think that Tesla CEO Elon Musk's recent political involvement with President Donald Trump and the Department of Government Efficiency (DOGE) may harm Tesla's delivery prospects. Reports of protests against Tesla and Tesla vehicles being vandalized and defaced have gone viral on social media. Tesla typically reports quarterly deliveries ahead of its full earnings, usually on the second day of the following quarter.\",\"resolution_criteria\":\"This question will resolve as YES if Tesla's total vehicle deliveries for Q1 2025 are less than 400,000 vehicles, and NO otherwise, based on figures reported by Tesla.\",\"present_date\":\"2025-03-25T14:10:39.109542\",\"date_cutoff_start\":\"2025-01-01\",\"date_cutoff_end\":\"2025-03-25\",\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"queries\": [\"Tesla Q1 2025 delivery forecast\", \"Impact of protests on Tesla vehicle deliveries 2025\", \"Analyst predictions for Tesla Q1 2025 deliveries\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_gqf6d3OY5rHdvsotRl0TTnRe"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_XDrGCMU6Y6U2g5GsXCNKS3og",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Tesla Q1 2025 delivery forecast\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_HTS3PBDR18X0qFITjTFCOmYr",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Impact of protests on Tesla vehicle deliveries 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_4t9XtBu88uHvdYYc8zhyG1jv",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Analyst predictions for Tesla Q1 2025 deliveries\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Tesla Q1 2025 delivery forecast\", \"results\": [{\"title\": \"A neutral look at Tesla\\u2019s upcoming Q1 2025 vehicle deliveries\", \"link\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"position\": 1, \"snippet\": \"Analyst consensus for Tesla\\u2019s Q1 2025 deliveries currently stands at 418,000 vehicles, suggesting an 8.06% year-over-year improvement...\", \"date\": \"2025-03-20T15:00:00Z\"}, {\"title\": \"Tesla deliveries expected to go down to levels not seen in more than 2 years | Electrek\", \"link\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"position\": 3, \"snippet\": \"Tesla deliveries are expected to decrease this quarter to levels not seen in more than two years. Prediction markets predict Tesla will deliver 359,000 vehicles in Q1 2025...\", \"date\": \"2025-02-21T15:22:07Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_XDrGCMU6Y6U2g5GsXCNKS3og"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Impact of protests on Tesla vehicle deliveries 2025\", \"results\": [{\"title\": \"How politics are affecting Musk\\u2019s Tesla brand | PBS News\", \"link\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"position\": 5, \"snippet\": \"In recent days, Tesla showrooms in the U.S. have been besieged by protesters, its vehicles vandalized on the street. Analysts at UBS Global Research expect deliveries to fall 5 percent in the first quarter...\", \"date\": \"2025-03-11T17:41:07Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_HTS3PBDR18X0qFITjTFCOmYr"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Analyst predictions for Tesla Q1 2025 deliveries\", \"results\": [{\"title\": \"What will the total number of Tesla vehicle deliveries be for Q1 2025?\", \"link\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"position\": 4, \"snippet\": \"What will the total number of Tesla vehicle deliveries be for Q1 2025? The community prediction is 356k deliveries, with a range of 350k - 369k.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_4t9XtBu88uHvdYYc8zhyG1jv"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_DNCd2LuGMkLeAafbexadWxhD",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"question\": \"Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?\", \"background\": \"Tesla, the second largest electric vehicle (EV) company in the world, has seen significant sales growth in recent years. However, Tesla reported its first decline in annual vehicle deliveries in 2024. Despite the annual decline during 2024, the fourth quarter of 2024 saw its largest number of deliveries, reporting 495,570 cars delivered. However, some analysts think that Tesla CEO Elon Musk's recent political involvement with President Donald Trump and the Department of Government Efficiency (DOGE) may harm Tesla's delivery prospects. Reports of protests against Tesla and Tesla vehicles being vandalized and defaced have gone viral on social media. Tesla typically reports quarterly deliveries ahead of its full earnings, usually on the second day of the following quarter.\", \"resolution_criteria\": \"This question will resolve as YES if Tesla's total vehicle deliveries for Q1 2025 are less than 400,000 vehicles, and NO otherwise, based on figures reported by Tesla.\", \"present_date\": \"2025-03-25T14:10:39.109542\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-25\"}"
+          }
+        },
+        {
+          "id": "call_qbUn90SrvEZ3dNEf1a7sUpk7",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"question\": \"Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?\", \"background\": \"Tesla, the second largest electric vehicle (EV) company in the world, has seen significant sales growth in recent years. However, Tesla reported its first decline in annual vehicle deliveries in 2024. Despite the annual decline during 2024, the fourth quarter of 2024 saw its largest number of deliveries, reporting 495,570 cars delivered. However, some analysts think that Tesla CEO Elon Musk's recent political involvement with President Donald Trump and the Department of Government Efficiency (DOGE) may harm Tesla's delivery prospects. Reports of protests against Tesla and Tesla vehicles being vandalized and defaced have gone viral on social media. Tesla typically reports quarterly deliveries ahead of its full earnings, usually on the second day of the following quarter.\", \"resolution_criteria\": \"This question will resolve as YES if Tesla's total vehicle deliveries for Q1 2025 are less than 400,000 vehicles, and NO otherwise, based on figures reported by Tesla.\", \"present_date\": \"2025-03-25T14:10:39.109542\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-25\"}"
+          }
+        },
+        {
+          "id": "call_rmlsXNGkuELjlMvbPHSeFHa9",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"question\": \"Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?\", \"background\": \"Tesla, the second largest electric vehicle (EV) company in the world, has seen significant sales growth in recent years. However, Tesla reported its first decline in annual vehicle deliveries in 2024. Despite the annual decline during 2024, the fourth quarter of 2024 saw its largest number of deliveries, reporting 495,570 cars delivered. However, some analysts think that Tesla CEO Elon Musk's recent political involvement with President Donald Trump and the Department of Government Efficiency (DOGE) may harm Tesla's delivery prospects. Reports of protests against Tesla and Tesla vehicles being vandalized and defaced have gone viral on social media. Tesla typically reports quarterly deliveries ahead of its full earnings, usually on the second day of the following quarter.\", \"resolution_criteria\": \"This question will resolve as YES if Tesla's total vehicle deliveries for Q1 2025 are less than 400,000 vehicles, and NO otherwise, based on figures reported by Tesla.\", \"present_date\": \"2025-03-25T14:10:39.109542\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-25\"}"
+          }
+        },
+        {
+          "id": "call_lXcMTsigg0K2CoeSk1gHZ0Rt",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"question\": \"Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?\", \"background\": \"Tesla, the second largest electric vehicle (EV) company in the world, has seen significant sales growth in recent years. However, Tesla reported its first decline in annual vehicle deliveries in 2024. Despite the annual decline during 2024, the fourth quarter of 2024 saw its largest number of deliveries, reporting 495,570 cars delivered. However, some analysts think that Tesla CEO Elon Musk's recent political involvement with President Donald Trump and the Department of Government Efficiency (DOGE) may harm Tesla's delivery prospects. Reports of protests against Tesla and Tesla vehicles being vandalized and defaced have gone viral on social media. Tesla typically reports quarterly deliveries ahead of its full earnings, usually on the second day of the following quarter.\", \"resolution_criteria\": \"This question will resolve as YES if Tesla's total vehicle deliveries for Q1 2025 are less than 400,000 vehicles, and NO otherwise, based on figures reported by Tesla.\", \"present_date\": \"2025-03-25T14:10:39.109542\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-25\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"facts\": [{\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Analyst consensus for Tesla's Q1 2025 deliveries stands at 418,000 vehicles, suggesting a year-over-year improvement of 8.06% from Q1 2024.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Tesla's transition from the Model Y classic to the new Model Y is expected to temporarily reduce deliveries, impacting Q1 2025 numbers.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Tesla's sales in China and Europe have been lower in January and February 2025 compared to the previous year, but registrations have picked up with the new Model Y's domestic deliveries.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"The 'Tesla Takedown' movement plans 500 protests in 277 stores and Superchargers, potentially affecting Tesla's operations and deliveries.\"}, {\"title\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"url\": \"https://www.teslarati.com/tesla-q1-2025-vehicle-deliveries-neutral-analysis/\", \"fact\": \"Elon Musk's political involvement is polarizing, but its impact on Tesla's vehicle sales may not be as significant as critics suggest, according to a German poll showing over 70% of respondents would still buy a Tesla.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_DNCd2LuGMkLeAafbexadWxhD"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"facts\": [{\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"Kalshi, a major prediction market, predicts that Tesla will deliver 359,000 vehicles in Q1 2025.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"This predicted delivery figure represents a 27% decrease quarter-over-quarter from Q4 2024.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"Tesla's sales in Europe are reported to be down by as much as 50% this quarter.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"Sales in China, Tesla's most important market, are slightly down year-over-year.\"}, {\"title\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"url\": \"https://electrek.co/2025/02/21/tesla-deliveries-expected-to-go-down-to-levels-not-seen-in-more-than-2-years/\", \"fact\": \"The US market is described as opaque, with its performance being a potential difference maker for the quarter.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_qbUn90SrvEZ3dNEf1a7sUpk7"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"facts\": [{\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"Tesla's stock has plummeted 45 percent in 2025, reflecting newfound pessimism as sales crater around the globe.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"Tesla sales are falling precipitously in California, the company's biggest U.S. market.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"Tesla sales plunged 45 percent in Europe in January, even as overall electric vehicle sales rose.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"The latest auto sales figures from China show that Tesla sales there have been nearly halved from February a year ago.\"}, {\"title\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"url\": \"https://www.pbs.org/newshour/politics/how-politics-are-affecting-musks-tesla-brand\", \"fact\": \"UBS Global Research expects Tesla deliveries to fall 5 percent in the first quarter and full year compared to the same periods for 2024.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_rmlsXNGkuELjlMvbPHSeFHa9"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"67151600-4ece-5a64-833c-1f1ecb091c3b\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The community prediction for Tesla's Q1 2025 vehicle deliveries is 356,000.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The lower bound of the community prediction is 350,000 deliveries.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The upper bound of the community prediction is 369,000 deliveries.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The probability of deliveries being less than 350,000 is 35.6%.\"}, {\"title\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"url\": \"https://www.metaculus.com/questions/35589/tesla-deliveries-for-q1-2025/\", \"fact\": \"The probability of deliveries exceeding 500,000 is only 0.3%.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_lXcMTsigg0K2CoeSk1gHZ0Rt"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here is the analysis of Tesla's Q1 2025 vehicle deliveries:\n\n1. **Analyst Consensus**: The consensus among analysts is that Tesla will deliver approximately 418,000 vehicles in Q1 2025, which is above the 400,000 threshold. This suggests a year-over-year improvement and indicates that deliveries might not fall below 400,000. However, there are factors that could affect this outcome.\n\n2. **Prediction Markets**: Kalshi, a prediction market, forecasts 359,000 deliveries for Q1 2025. Similarly, the Metaculus community prediction is 356,000 deliveries, with a range of 350,000 to 369,000. Both predictions are below 400,000, indicating a significant probability that deliveries will be less than 400,000.\n\n3. **Impact of Protests and Political Involvement**: The \"Tesla Takedown\" movement and Elon Musk's political involvement have led to protests and vandalism, potentially affecting Tesla's operations and deliveries. However, the impact on sales is debated, with some polls suggesting limited effect.\n\n4. **Regional Sales Trends**: Sales in Europe and China have seen significant declines, with European sales down by as much as 50% and Chinese sales nearly halved. This could contribute to lower overall delivery numbers.\n\n5. **Stock Market and Analyst Sentiment**: Tesla's stock has dropped significantly, reflecting pessimism about sales. UBS Global Research expects a 5% decline in deliveries for the quarter compared to the previous year.\n\nConsidering these factors, there is substantial evidence suggesting that Tesla's Q1 2025 deliveries may indeed fall below 400,000 vehicles, despite some analyst predictions to the contrary. The prediction markets and regional sales declines weigh heavily towards a lower delivery number.\n\nFINAL PROBABILITY: 0.7"
+    }
+  ]
+}

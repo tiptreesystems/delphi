@@ -1,0 +1,669 @@
+{
+  "question_id": "cfa1b9a0-93d2-5521-b802-b9a0a8ce673d",
+  "question": "Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than 70 on March 31, 2025?",
+  "probability": 1.0,
+  "reasoning": "Based on the information gathered:\n\n1. **Just Security Tracker**: As of March 20, 2025, the Just Security tracker lists 132 cases against the Trump Administration, with 2 of these cases closed. This indicates a high level of legal activity and suggests that the number of lawsuits is well above the threshold of 70 required for the question to resolve as YES.\n\n2. **AP News**: The AP News tracker mentions \"dozens\" of lawsuits filed against the Trump Administration's executive actions, which aligns with the notion of significant legal challenges but does not provide a specific count.\n\n3. **New York Times**: The New York Times lists numerous lawsuits against the Trump Administration, covering a wide range of issues. The presence of ongoing appeals and recent developments in high-profile cases further supports the idea of a substantial number of legal challenges.\n\nGiven the confirmation from the Just Security tracker that the number of lawsuits is 132, which is well above the threshold of 70, the probability that the number of lawsuits will be greater than 70 by March 31, 2025, is extremely high.\n\nFINAL PROBABILITY: 1.0",
+  "search_results": [
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "content": "Just Security's public resource tracks legal challenges to the Trump administration's executive orders and actions. The tracker was last updated March 20, 2025, and includes cases filed in March 2025..."
+    },
+    {
+      "title": "Collection: Coverage of Trump Administration’s Executive Actions",
+      "url": "https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/",
+      "content": "Tracker: Legal Challenges to Trump Administration Actions. Just Security is covering key developments, including in concise “What Just Happened” expert explainers, legal and policy analysis, and more."
+    },
+    {
+      "title": "Tracking the Trump Administration’s Harmful Executive Actions | Congressman Steve Cohen",
+      "url": "http://cohen.house.gov/TrumpAdminTracker",
+      "content": "Tracking the Trump Administration’s Harmful Executive Actions. The Trump Administration has acted illegally and unconstitutionally... Congressman Cohen strongly opposes this action, which he believes is an unlawful attempt to centralize power."
+    },
+    {
+      "title": "Just Security - A Forum on Law, Rights, and U.S. National Security",
+      "url": "https://www.justsecurity.org/",
+      "content": "The Trump Administration’s Recent Removals to El Salvador Violate the Prohibition on Transfer to Torture. Journalists Who Took Risks for US-Funded Broadcasters Threatened Anew by Trump Shutdown."
+    },
+    {
+      "title": "Trump Trackers - U.S. Government Information - LibGuides at University of California San Diego",
+      "url": "https://ucsd.libguides.com/usgov/trumptrackers",
+      "content": "Tracks regulatory and litigation actions related to clean energy deployment and environmental protection..."
+    },
+    {
+      "title": "Trump's 2025 Executive Orders | Holland & Knight",
+      "url": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+      "content": "Holland & Knight's Public Policy & Regulation team is actively monitoring and reviewing President Trump's executive orders and other actions. This chart provides brief overviews of the numerous orders published by the Trump Administration."
+    },
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "content": "President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances..."
+    },
+    {
+      "title": "Tracking the lawsuits against Donald Trump's executive actions | AP News",
+      "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "content": "Dozens of lawsuits have been filed during President Donald Trump’s second administration. The suits challenge his executive orders as well as actions taken by his administration..."
+    },
+    {
+      "title": "Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "content": "The administration is appealing a Supreme Court ruling in Dellinger v. Bessent. Unions sued over firings, and a judge temporarily halted the dismantling of the Consumer Financial Protection Bureau."
+    },
+    {
+      "title": "Tracking the Trump Administration’s Harmful Executive Actions | Congressman Steve Cohen",
+      "url": "http://cohen.house.gov/TrumpAdminTracker",
+      "content": "On February 8, amid ongoing legal challenges, a federal judge temporarily blocked Musk and DOGE’s access to these payment systems after 19 state Attorneys General sued the Trump Administration."
+    },
+    {
+      "title": "Executive and Regulatory Actions Under the Second Trump Administration | NAFSA",
+      "url": "https://www.nafsa.org/executive-and-regulatory-actions-trump2admin",
+      "content": "Executive and regulatory actions by the President and federal agencies related to international education during the Trump-Vance administration (January 20, 2025 - January 20, 2029)..."
+    },
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "content": "President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply..."
+    },
+    {
+      "title": "Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "content": "Dellinger v. Bessent President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff..."
+    },
+    {
+      "title": "Tracking regulatory changes in the second Trump administration",
+      "url": "https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/",
+      "content": "This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more."
+    },
+    {
+      "title": "Trump's 2025 Executive Orders | Holland & Knight",
+      "url": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+      "content": "This executive order issues a regulatory freeze on all executive departments and agencies to review pending and existing laws and regulations. The freeze mandates that unpublished rules be withdrawn and unenacted rules be delayed."
+    },
+    {
+      "title": "2025 Administration Actions: Key Executive Orders and Policies",
+      "url": "https://www.ncsl.org/in-dc/2025-administration-actions-key-executive-orders-and-policies",
+      "content": "The Office of Civil Rights (OCR) intends to apply the Supreme Court's decision in SFFA v. Harvard to recipients of federal funding for education programs, potentially leading to loss of funding."
+    },
+    {
+      "title": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "content": "---\ntitle: Litigation Tracker: Legal Challenges to Trump Administration Actions\nauthor: Just Security\nurl: https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\nhostname: justsecurity.org\ndescription: A public resource tracking the legal challenges to the Trump administration's executive orders and actions.\nsitename: Just Security\ndate: 2025-03-20\ncategories: ['Courts', 'Executive Branch', 'Litigation']\n---\nThis public resource tracks legal challenges to Trump administration actions. If you think we are missing anything, you can email us at [lte@justsecurity.org](mailto:lte@justsecurity.org). Special thanks to *Just Security* Student Staff Editors Anna Braverman, Isaac Buck, Rick Da, Charlotte Kahan, and Jeremy Venook, and to Matthew Fouracre and Nour Soubani.\n\nThe Tracker is part of the [Collection: Just Security’s Coverage of the Trump Administration’s Executive Actions](https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/). Readers may also be interested in [signing up](https://www.justsecurity.org/early-edition-signup/) for our free Early Edition roundup of news and our end-of-day newsletter with *Just Security* articles from the day (We respect your privacy. We do not use your email address for any other purpose except to automatically send you the requested email.)\n\n*The Tracker was first published on Jan. 29, 2025 and is continually updated. Last updated March 20, 2025.*\n\nTotal number of cases tracked: 132 (including 2 closed cases)\n\n\nTopic | Executive Action | Case Name | Complaint | Date Filed | Case Summary | Last Update |\n|---|---|---|---|---|---|---|\n| Immigration and Citizenship | Executive Action: Alien Enemies Act removals (\n|\nJ.G.G. v. Trump |\n\nCase No. 1:25-cv-00766\n\n(D.C. Cir\n\n[No. 25-5067](https://www.courtlistener.com/docket/69742127/jgg-v-donald-trump/))\n\n[Habeas petition](https://storage.courtlistener.com/recap/gov.uscourts.dcd.278436/gov.uscourts.dcd.278436.1.0.pdf)**Overview:***President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances, and the judge provisionally agreed issuing a temporary block to any removals until further hearings.*\n\n**Summary:**On Mar. 14, President Trump signed a[Proclamation](https://www.whitehouse.gov/preside…\n\n[Truncated preview: showing 299 words out of ~10545. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "content": "---\ntitle: Tracking the lawsuits against Donald Trump's executive actions\nurl: https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\nhostname: apnews.com\ndescription: Dozens of lawsuits have been filed during President Donald Trump’s second administration. The suits challenge his executive orders as well as actions taken by his administration, including Elon Musk’s Department of Government Efficiency or DOGE. The courts have agreed to block the president in a number of cases, and the administration is seeking appeals as well.\nsitename: AP News\ndate: 2025-02-21\ncategories: ['Politics']\ntags: ['U.S. News', 'U.S. News']\n---\nWorld\nU.S.\nPolitics\nSports\nEntertainment\nBusiness\nScience\nFact Check\nNewsletters\nDonate\nCabinet confirmations\nPresidential promises\nTracking lawsuits\nCREDITS\nDesign and development by Humera Lodhi, Linda Gorman and Eunice Esomonu. Reporting and resarch by Mike Catalini and Lindsay Whitehurst."
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "content": "---\ntitle: Tracking the Lawsuits Against Trump’s Agenda\nauthor: Alex Lemonides; Seamus Hughes; Mattathias Schwartz; Lazaro Gamio\nurl: https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\nhostname: nytimes.com\ndescription: Follow the lawsuits and rulings that are challenging President Trump's executive orders.\nsitename: The New York Times\ndate: 2025-02-12\ncategories: ['U.S.']\ntags: ['Trump, Donald J', 'Suits and Litigation (Civil)', 'Presidential Power (US)', 'Musk, Elon', 'Federal Courts (US)', 'Storming of the US Capitol (Jan, 2021)', 'Citizenship and Naturalization']\n---\n### Civil servant firings\n\nThe administration has summarily fired or put on leave thousands of federal employees. Court orders have reversed the firings of two government watchdog officials.\n\nOne of these cases, Dellinger v. Bessent, is the first legal challenge that the administration has appealed to the Supreme Court. In that appeal, the Supreme Court [issued a preliminary ruling](https://www.nytimes.com/2025/02/21/us/politics/supreme-court-trump-special-counsel.html) siding against the administration.\n\nIn another case, a federal judge temporarily halted the dismantling of the Consumer Financial Protection Bureau, the independent federal agency created after the 2008 financial crisis to shield people from fraud and abuse by lenders and financial firms.\n\n- Preliminary Supreme Court ruling · Feb. 21\n**Dellinger v. Bessent** President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff, but suggested it would return to the matter soon.\n\nAn order from Judge Amy Berman Jackson, an Obama appointee, temporarily blocked the firing, but appellate judges sided with the adminstration, removing Dellinger from his position. Dellinger tried to drop the suit, but the administration’s lawyers want it to continue.\n\n- Preliminary injunction · March 13\n**American Federation of Government Employees, AFL-CIO v. U.S. Office of Personnel Management** The Office of Personnel Management ordered federal agencies to fire tens of thousands of federal employees. A coalition of unions sued. Judge William Alsup, a Clinton appointee, temporarily reversed the terminations. Later, he directed six agencies to reinstate any probationary employees who had been terminated improperly.\n\n- Appeal · March 6\n**Wilcox v. Trump** President Trump tried to fire Gwynne Wilcox, a D…\n\n[Truncated preview: showing 340 words out of ~3597. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "fact": "The total number of cases tracked against the Trump Administration is 132 as of March 20, 2025."
+    },
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "fact": "The tracker was first published on January 29, 2025, and is continually updated."
+    },
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "fact": "There are 2 closed cases among the 132 tracked."
+    },
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "fact": "The tracker includes a wide range of legal challenges, including those related to immigration, birthright citizenship, and sanctuary cities."
+    },
+    {
+      "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+      "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+      "fact": "Recent updates include multiple lawsuits filed in February and March 2025, indicating ongoing legal activity."
+    },
+    {
+      "title": "Tracking the lawsuits against Donald Trump's executive actions",
+      "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "fact": "The web page mentions that dozens of lawsuits have been filed during President Donald Trump’s second administration."
+    },
+    {
+      "title": "Tracking the lawsuits against Donald Trump's executive actions",
+      "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "fact": "The lawsuits challenge executive orders and actions taken by the Trump Administration."
+    },
+    {
+      "title": "Tracking the lawsuits against Donald Trump's executive actions",
+      "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "fact": "The courts have agreed to block the president in a number of cases, indicating ongoing legal challenges."
+    },
+    {
+      "title": "Tracking the lawsuits against Donald Trump's executive actions",
+      "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "fact": "The administration is seeking appeals in response to some of these legal challenges."
+    },
+    {
+      "title": "Tracking the lawsuits against Donald Trump's executive actions",
+      "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+      "fact": "The page does not provide an exact number of lawsuits, but the use of 'dozens' suggests a significant number, potentially approaching or exceeding 70."
+    },
+    {
+      "title": "Tracking the Lawsuits Against Trump’s Agenda",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "fact": "The web page lists numerous lawsuits against the Trump Administration, covering areas such as civil servant firings, budget freezes, birthright citizenship, and more."
+    },
+    {
+      "title": "Tracking the Lawsuits Against Trump’s Agenda",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "fact": "Several lawsuits are currently in the appeal stage, indicating ongoing legal challenges that could contribute to the total count."
+    },
+    {
+      "title": "Tracking the Lawsuits Against Trump’s Agenda",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "fact": "The content mentions specific cases with recent developments, such as preliminary injunctions and temporary restraining orders, showing active litigation."
+    },
+    {
+      "title": "Tracking the Lawsuits Against Trump’s Agenda",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "fact": "The lawsuits cover a wide range of issues, including immigration, trans rights, and climate policy, suggesting a broad scope of legal challenges."
+    },
+    {
+      "title": "Tracking the Lawsuits Against Trump’s Agenda",
+      "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+      "fact": "The presence of high-profile cases, such as those involving birthright citizenship and the Department of Government Efficiency, indicates significant legal opposition to the administration's actions."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.4643856189774724,
+  "brier_score": 0.0,
+  "weighted_brier_score": 0.0,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "cfa1b9a0-93d2-5521-b802-b9a0a8ce673d",
+        "queries": [
+          "Just Security Trump Administration lawsuits tracker March 2025",
+          "recent lawsuits against Trump Administration March 2025",
+          "future predictions legal challenges Trump Administration 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"queries\": [\"Just Security Trump Administration lawsuits tracker March 2025\", \"recent lawsuits against Trump Administration March 2025\", \"future predictions legal challenges Trump Administration 2025\"]}",
+      "tool_call_id": "call_DNyWfAfjc2opvohvRYyPMUN3"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Just Security Trump Administration lawsuits tracker March 2025",
+        "results": [
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "link": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "position": 1,
+            "snippet": "Just Security's public resource tracks legal challenges to the Trump administration's executive orders and actions. The tracker was last updated March 20, 2025, and includes cases filed in March 2025...",
+            "date": null
+          },
+          {
+            "title": "Collection: Coverage of Trump Administration’s Executive Actions",
+            "link": "https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/",
+            "position": 5,
+            "snippet": "Tracker: Legal Challenges to Trump Administration Actions. Just Security is covering key developments, including in concise “What Just Happened” expert explainers, legal and policy analysis, and more.",
+            "date": null
+          },
+          {
+            "title": "Tracking the Trump Administration’s Harmful Executive Actions | Congressman Steve Cohen",
+            "link": "http://cohen.house.gov/TrumpAdminTracker",
+            "position": 3,
+            "snippet": "Tracking the Trump Administration’s Harmful Executive Actions. The Trump Administration has acted illegally and unconstitutionally... Congressman Cohen strongly opposes this action, which he believes is an unlawful attempt to centralize power.",
+            "date": null
+          },
+          {
+            "title": "Just Security - A Forum on Law, Rights, and U.S. National Security",
+            "link": "https://www.justsecurity.org/",
+            "position": 1,
+            "snippet": "The Trump Administration’s Recent Removals to El Salvador Violate the Prohibition on Transfer to Torture. Journalists Who Took Risks for US-Funded Broadcasters Threatened Anew by Trump Shutdown.",
+            "date": null
+          },
+          {
+            "title": "Trump Trackers - U.S. Government Information - LibGuides at University of California San Diego",
+            "link": "https://ucsd.libguides.com/usgov/trumptrackers",
+            "position": 2,
+            "snippet": "Tracks regulatory and litigation actions related to clean energy deployment and environmental protection...",
+            "date": null
+          },
+          {
+            "title": "Trump's 2025 Executive Orders | Holland & Knight",
+            "link": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+            "position": 4,
+            "snippet": "Holland & Knight's Public Policy & Regulation team is actively monitoring and reviewing President Trump's executive orders and other actions. This chart provides brief overviews of the numerous orders published by the Trump Administration.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Just Security Trump Administration lawsuits tracker March 2025\", \"results\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"link\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"position\": 1, \"snippet\": \"Just Security's public resource tracks legal challenges to the Trump administration's executive orders and actions. The tracker was last updated March 20, 2025, and includes cases filed in March 2025...\", \"date\": null}, {\"title\": \"Collection: Coverage of Trump Administration\\u2019s Executive Actions\", \"link\": \"https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/\", \"position\": 5, \"snippet\": \"Tracker: Legal Challenges to Trump Administration Actions. Just Security is covering key developments, including in concise \\u201cWhat Just Happened\\u201d expert explainers, legal and policy analysis, and more.\", \"date\": null}, {\"title\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions | Congressman Steve Cohen\", \"link\": \"http://cohen.house.gov/TrumpAdminTracker\", \"position\": 3, \"snippet\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions. The Trump Administration has acted illegally and unconstitutionally... Congressman Cohen strongly opposes this action, which he believes is an unlawful attempt to centralize power.\", \"date\": null}, {\"title\": \"Just Security - A Forum on Law, Rights, and U.S. National Security\", \"link\": \"https://www.justsecurity.org/\", \"position\": 1, \"snippet\": \"The Trump Administration\\u2019s Recent Removals to El Salvador Violate the Prohibition on Transfer to Torture. Journalists Who Took Risks for US-Funded Broadcasters Threatened Anew by Trump Shutdown.\", \"date\": null}, {\"title\": \"Trump Trackers - U.S. Government Information - LibGuides at University of California San Diego\", \"link\": \"https://ucsd.libguides.com/usgov/trumptrackers\", \"position\": 2, \"snippet\": \"Tracks regulatory and litigation actions related to clean energy deployment and environmental protection...\", \"date\": null}, {\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 4, \"snippet\": \"Holland & Knight's Public Policy & Regulation team is actively monitoring and reviewing President Trump's executive orders and other actions. This chart provides brief overviews of the numerous orders published by the Trump Administration.\", \"date\": null}]}",
+      "tool_call_id": "call_UMkC8uryqAWpWGHmF4yzTCY1"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "recent lawsuits against Trump Administration March 2025",
+        "results": [
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "link": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "position": 1,
+            "snippet": "President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances...",
+            "date": null
+          },
+          {
+            "title": "Tracking the lawsuits against Donald Trump's executive actions | AP News",
+            "link": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+            "position": 3,
+            "snippet": "Dozens of lawsuits have been filed during President Donald Trump’s second administration. The suits challenge his executive orders as well as actions taken by his administration...",
+            "date": null
+          },
+          {
+            "title": "Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times",
+            "link": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+            "position": 4,
+            "snippet": "The administration is appealing a Supreme Court ruling in Dellinger v. Bessent. Unions sued over firings, and a judge temporarily halted the dismantling of the Consumer Financial Protection Bureau.",
+            "date": null
+          },
+          {
+            "title": "Tracking the Trump Administration’s Harmful Executive Actions | Congressman Steve Cohen",
+            "link": "http://cohen.house.gov/TrumpAdminTracker",
+            "position": 5,
+            "snippet": "On February 8, amid ongoing legal challenges, a federal judge temporarily blocked Musk and DOGE’s access to these payment systems after 19 state Attorneys General sued the Trump Administration.",
+            "date": null
+          },
+          {
+            "title": "Executive and Regulatory Actions Under the Second Trump Administration | NAFSA",
+            "link": "https://www.nafsa.org/executive-and-regulatory-actions-trump2admin",
+            "position": 1,
+            "snippet": "Executive and regulatory actions by the President and federal agencies related to international education during the Trump-Vance administration (January 20, 2025 - January 20, 2029)...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"recent lawsuits against Trump Administration March 2025\", \"results\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"link\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"position\": 1, \"snippet\": \"President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances...\", \"date\": null}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions | AP News\", \"link\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"position\": 3, \"snippet\": \"Dozens of lawsuits have been filed during President Donald Trump\\u2019s second administration. The suits challenge his executive orders as well as actions taken by his administration...\", \"date\": null}, {\"title\": \"Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times\", \"link\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"position\": 4, \"snippet\": \"The administration is appealing a Supreme Court ruling in Dellinger v. Bessent. Unions sued over firings, and a judge temporarily halted the dismantling of the Consumer Financial Protection Bureau.\", \"date\": null}, {\"title\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions | Congressman Steve Cohen\", \"link\": \"http://cohen.house.gov/TrumpAdminTracker\", \"position\": 5, \"snippet\": \"On February 8, amid ongoing legal challenges, a federal judge temporarily blocked Musk and DOGE\\u2019s access to these payment systems after 19 state Attorneys General sued the Trump Administration.\", \"date\": null}, {\"title\": \"Executive and Regulatory Actions Under the Second Trump Administration | NAFSA\", \"link\": \"https://www.nafsa.org/executive-and-regulatory-actions-trump2admin\", \"position\": 1, \"snippet\": \"Executive and regulatory actions by the President and federal agencies related to international education during the Trump-Vance administration (January 20, 2025 - January 20, 2029)...\", \"date\": null}]}",
+      "tool_call_id": "call_XJXIRJSw83pE3uJNBIkNRWCV"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "future predictions legal challenges Trump Administration 2025",
+        "results": [
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "link": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "position": 1,
+            "snippet": "President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply...",
+            "date": null
+          },
+          {
+            "title": "Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times",
+            "link": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+            "position": 2,
+            "snippet": "Dellinger v. Bessent President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff...",
+            "date": null
+          },
+          {
+            "title": "Tracking regulatory changes in the second Trump administration",
+            "link": "https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/",
+            "position": 4,
+            "snippet": "This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more.",
+            "date": null
+          },
+          {
+            "title": "Trump's 2025 Executive Orders | Holland & Knight",
+            "link": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+            "position": 2,
+            "snippet": "This executive order issues a regulatory freeze on all executive departments and agencies to review pending and existing laws and regulations. The freeze mandates that unpublished rules be withdrawn and unenacted rules be delayed.",
+            "date": null
+          },
+          {
+            "title": "2025 Administration Actions: Key Executive Orders and Policies",
+            "link": "https://www.ncsl.org/in-dc/2025-administration-actions-key-executive-orders-and-policies",
+            "position": 4,
+            "snippet": "The Office of Civil Rights (OCR) intends to apply the Supreme Court's decision in SFFA v. Harvard to recipients of federal funding for education programs, potentially leading to loss of funding.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"future predictions legal challenges Trump Administration 2025\", \"results\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"link\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"position\": 1, \"snippet\": \"President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply...\", \"date\": null}, {\"title\": \"Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times\", \"link\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"position\": 2, \"snippet\": \"Dellinger v. Bessent President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff...\", \"date\": null}, {\"title\": \"Tracking regulatory changes in the second Trump administration\", \"link\": \"https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/\", \"position\": 4, \"snippet\": \"This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more.\", \"date\": null}, {\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 2, \"snippet\": \"This executive order issues a regulatory freeze on all executive departments and agencies to review pending and existing laws and regulations. The freeze mandates that unpublished rules be withdrawn and unenacted rules be delayed.\", \"date\": null}, {\"title\": \"2025 Administration Actions: Key Executive Orders and Policies\", \"link\": \"https://www.ncsl.org/in-dc/2025-administration-actions-key-executive-orders-and-policies\", \"position\": 4, \"snippet\": \"The Office of Civil Rights (OCR) intends to apply the Supreme Court's decision in SFFA v. Harvard to recipients of federal funding for education programs, potentially leading to loss of funding.\", \"date\": null}]}",
+      "tool_call_id": "call_lCZVq22TsDkvI4iul3LaUbcb"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+        "snippet": "---\ntitle: Litigation Tracker: Legal Challenges to Trump Administration Actions\nauthor: Just Security\nurl: https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\nhostname: justsecurity.org\ndescription: A public resource tracking the legal challenges to the Trump administration's executive orders and actions.\nsitename: Just Security\ndate: 2025-03-20\ncategories: ['Courts', 'Executive Branch', 'Litigation']\n---\nThis public resource tracks legal challenges to Trump administration actions. If you think we are missing anything, you can email us at [lte@justsecurity.org](mailto:lte@justsecurity.org). Special thanks to *Just Security* Student Staff Editors Anna Braverman, Isaac Buck, Rick Da, Charlotte Kahan, and Jeremy Venook, and to Matthew Fouracre and Nour Soubani.\n\nThe Tracker is part of the [Collection: Just Security’s Coverage of the Trump Administration’s Executive Actions](https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/). Readers may also be interested in [signing up](https://www.justsecurity.org/early-edition-signup/) for our free Early Edition roundup of news and our end-of-day newsletter with *Just Security* articles from the day (We respect your privacy. We do not use your email address for any other purpose except to automatically send you the requested email.)\n\n*The Tracker was first published on Jan. 29, 2025 and is continually updated. Last updated March 20, 2025.*\n\nTotal number of cases tracked: 132 (including 2 closed cases)\n\n\nTopic | Executive Action | Case Name | Complaint | Date Filed | Case Summary | Last Update |\n|---|---|---|---|---|---|---|\n| Immigration and Citizenship | Executive Action: Alien Enemies Act removals (\n|\nJ.G.G. v. Trump |\n\nCase No. 1:25-cv-00766\n\n(D.C. Cir\n\n[No. 25-5067](https://www.courtlistener.com/docket/69742127/jgg-v-donald-trump/))\n\n[Habeas petition](https://storage.courtlistener.com/recap/gov.uscourts.dcd.278436/gov.uscourts.dcd.278436.1.0.pdf)**Overview:***President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances, and the judge provisionally agreed issuing a temporary block to any removals until further hearings.*\n\n**Summary:**On Mar. 14, President Trump signed a[Proclamation](https://www.whitehouse.gov/preside…\n\n[Truncated preview: showing 299 words out of ~10545. Full content available via `btf_extract_evidence`.]",
+        "word_count": 10545,
+        "snippet_word_count": 299,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-22T16:56:25.272482",
+        "date_cutoff_end": "2025-03-23T16:56:25.272482",
+        "cached_at": "2025-10-23T19:58:25.909222"
+      },
+      "raw": "{\"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"snippet\": \"---\\ntitle: Litigation Tracker: Legal Challenges to Trump Administration Actions\\nauthor: Just Security\\nurl: https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\\nhostname: justsecurity.org\\ndescription: A public resource tracking the legal challenges to the Trump administration's executive orders and actions.\\nsitename: Just Security\\ndate: 2025-03-20\\ncategories: ['Courts', 'Executive Branch', 'Litigation']\\n---\\nThis public resource tracks legal challenges to Trump administration actions. If you think we are missing anything, you can email us at [lte@justsecurity.org](mailto:lte@justsecurity.org). Special thanks to *Just Security* Student Staff Editors Anna Braverman, Isaac Buck, Rick Da, Charlotte Kahan, and Jeremy Venook, and to Matthew Fouracre and Nour Soubani.\\n\\nThe Tracker is part of the [Collection: Just Security\\u2019s Coverage of the Trump Administration\\u2019s Executive Actions](https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/). Readers may also be interested in [signing up](https://www.justsecurity.org/early-edition-signup/) for our free Early Edition roundup of news and our end-of-day newsletter with *Just Security* articles from the day (We respect your privacy. We do not use your email address for any other purpose except to automatically send you the requested email.)\\n\\n*The Tracker was first published on Jan. 29, 2025 and is continually updated. Last updated March 20, 2025.*\\n\\nTotal number of cases tracked: 132 (including 2 closed cases)\\n\\n\\nTopic | Executive Action | Case Name | Complaint | Date Filed | Case Summary | Last Update |\\n|---|---|---|---|---|---|---|\\n| Immigration and Citizenship | Executive Action: Alien Enemies Act removals (\\n|\\nJ.G.G. v. Trump |\\n\\nCase No. 1:25-cv-00766\\n\\n(D.C. Cir\\n\\n[No. 25-5067](https://www.courtlistener.com/docket/69742127/jgg-v-donald-trump/))\\n\\n[Habeas petition](https://storage.courtlistener.com/recap/gov.uscourts.dcd.278436/gov.uscourts.dcd.278436.1.0.pdf)**Overview:***President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances, and the judge provisionally agreed issuing a temporary block to any removals until further hearings.*\\n\\n**Summary:**On Mar. 14, President Trump signed a[Proclamation](https://www.whitehouse.gov/preside\\u2026\\n\\n[Truncated preview: showing 299 words out of ~10545. Full content available via `btf_extract_evidence`.]\", \"word_count\": 10545, \"snippet_word_count\": 299, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T16:56:25.272482\", \"date_cutoff_end\": \"2025-03-23T16:56:25.272482\", \"cached_at\": \"2025-10-23T19:58:25.909222\"}",
+      "tool_call_id": "call_AgT4tkLGNG9n0TaI7r4GwO2k"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+        "snippet": "---\ntitle: Tracking the lawsuits against Donald Trump's executive actions\nurl: https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\nhostname: apnews.com\ndescription: Dozens of lawsuits have been filed during President Donald Trump’s second administration. The suits challenge his executive orders as well as actions taken by his administration, including Elon Musk’s Department of Government Efficiency or DOGE. The courts have agreed to block the president in a number of cases, and the administration is seeking appeals as well.\nsitename: AP News\ndate: 2025-02-21\ncategories: ['Politics']\ntags: ['U.S. News', 'U.S. News']\n---\nWorld\nU.S.\nPolitics\nSports\nEntertainment\nBusiness\nScience\nFact Check\nNewsletters\nDonate\nCabinet confirmations\nPresidential promises\nTracking lawsuits\nCREDITS\nDesign and development by Humera Lodhi, Linda Gorman and Eunice Esomonu. Reporting and resarch by Mike Catalini and Lindsay Whitehurst.",
+        "word_count": 122,
+        "snippet_word_count": 122,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-22T16:56:25.272482",
+        "date_cutoff_end": "2025-03-23T16:56:25.272482",
+        "cached_at": "2025-10-24T14:28:50.743077"
+      },
+      "raw": "{\"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"snippet\": \"---\\ntitle: Tracking the lawsuits against Donald Trump's executive actions\\nurl: https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\\nhostname: apnews.com\\ndescription: Dozens of lawsuits have been filed during President Donald Trump\\u2019s second administration. The suits challenge his executive orders as well as actions taken by his administration, including Elon Musk\\u2019s Department of Government Efficiency or DOGE. The courts have agreed to block the president in a number of cases, and the administration is seeking appeals as well.\\nsitename: AP News\\ndate: 2025-02-21\\ncategories: ['Politics']\\ntags: ['U.S. News', 'U.S. News']\\n---\\nWorld\\nU.S.\\nPolitics\\nSports\\nEntertainment\\nBusiness\\nScience\\nFact Check\\nNewsletters\\nDonate\\nCabinet confirmations\\nPresidential promises\\nTracking lawsuits\\nCREDITS\\nDesign and development by Humera Lodhi, Linda Gorman and Eunice Esomonu. Reporting and resarch by Mike Catalini and Lindsay Whitehurst.\", \"word_count\": 122, \"snippet_word_count\": 122, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-22T16:56:25.272482\", \"date_cutoff_end\": \"2025-03-23T16:56:25.272482\", \"cached_at\": \"2025-10-24T14:28:50.743077\"}",
+      "tool_call_id": "call_VFyVduhBhQRMmi9XwUpmITXl"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+        "snippet": "---\ntitle: Tracking the Lawsuits Against Trump’s Agenda\nauthor: Alex Lemonides; Seamus Hughes; Mattathias Schwartz; Lazaro Gamio\nurl: https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\nhostname: nytimes.com\ndescription: Follow the lawsuits and rulings that are challenging President Trump's executive orders.\nsitename: The New York Times\ndate: 2025-02-12\ncategories: ['U.S.']\ntags: ['Trump, Donald J', 'Suits and Litigation (Civil)', 'Presidential Power (US)', 'Musk, Elon', 'Federal Courts (US)', 'Storming of the US Capitol (Jan, 2021)', 'Citizenship and Naturalization']\n---\n### Civil servant firings\n\nThe administration has summarily fired or put on leave thousands of federal employees. Court orders have reversed the firings of two government watchdog officials.\n\nOne of these cases, Dellinger v. Bessent, is the first legal challenge that the administration has appealed to the Supreme Court. In that appeal, the Supreme Court [issued a preliminary ruling](https://www.nytimes.com/2025/02/21/us/politics/supreme-court-trump-special-counsel.html) siding against the administration.\n\nIn another case, a federal judge temporarily halted the dismantling of the Consumer Financial Protection Bureau, the independent federal agency created after the 2008 financial crisis to shield people from fraud and abuse by lenders and financial firms.\n\n- Preliminary Supreme Court ruling · Feb. 21\n**Dellinger v. Bessent** President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff, but suggested it would return to the matter soon.\n\nAn order from Judge Amy Berman Jackson, an Obama appointee, temporarily blocked the firing, but appellate judges sided with the adminstration, removing Dellinger from his position. Dellinger tried to drop the suit, but the administration’s lawyers want it to continue.\n\n- Preliminary injunction · March 13\n**American Federation of Government Employees, AFL-CIO v. U.S. Office of Personnel Management** The Office of Personnel Management ordered federal agencies to fire tens of thousands of federal employees. A coalition of unions sued. Judge William Alsup, a Clinton appointee, temporarily reversed the terminations. Later, he directed six agencies to reinstate any probationary employees who had been terminated improperly.\n\n- Appeal · March 6\n**Wilcox v. Trump** President Trump tried to fire Gwynne Wilcox, a D…\n\n[Truncated preview: showing 340 words out of ~3597. Full content available via `btf_extract_evidence`.]",
+        "word_count": 3597,
+        "snippet_word_count": 340,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-22T16:56:25.272482",
+        "date_cutoff_end": "2025-03-23T16:56:25.272482",
+        "cached_at": "2025-10-24T14:28:51.329300"
+      },
+      "raw": "{\"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"snippet\": \"---\\ntitle: Tracking the Lawsuits Against Trump\\u2019s Agenda\\nauthor: Alex Lemonides; Seamus Hughes; Mattathias Schwartz; Lazaro Gamio\\nurl: https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\\nhostname: nytimes.com\\ndescription: Follow the lawsuits and rulings that are challenging President Trump's executive orders.\\nsitename: The New York Times\\ndate: 2025-02-12\\ncategories: ['U.S.']\\ntags: ['Trump, Donald J', 'Suits and Litigation (Civil)', 'Presidential Power (US)', 'Musk, Elon', 'Federal Courts (US)', 'Storming of the US Capitol (Jan, 2021)', 'Citizenship and Naturalization']\\n---\\n### Civil servant firings\\n\\nThe administration has summarily fired or put on leave thousands of federal employees. Court orders have reversed the firings of two government watchdog officials.\\n\\nOne of these cases, Dellinger v. Bessent, is the first legal challenge that the administration has appealed to the Supreme Court. In that appeal, the Supreme Court [issued a preliminary ruling](https://www.nytimes.com/2025/02/21/us/politics/supreme-court-trump-special-counsel.html) siding against the administration.\\n\\nIn another case, a federal judge temporarily halted the dismantling of the Consumer Financial Protection Bureau, the independent federal agency created after the 2008 financial crisis to shield people from fraud and abuse by lenders and financial firms.\\n\\n- Preliminary Supreme Court ruling \\u00b7 Feb. 21\\n**Dellinger v. Bessent** President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff, but suggested it would return to the matter soon.\\n\\nAn order from Judge Amy Berman Jackson, an Obama appointee, temporarily blocked the firing, but appellate judges sided with the adminstration, removing Dellinger from his position. Dellinger tried to drop the suit, but the administration\\u2019s lawyers want it to continue.\\n\\n- Preliminary injunction \\u00b7 March 13\\n**American Federation of Government Employees, AFL-CIO v. U.S. Office of Personnel Management** The Office of Personnel Management ordered federal agencies to fire tens of thousands of federal employees. A coalition of unions sued. Judge William Alsup, a Clinton appointee, temporarily reversed the terminations. Later, he directed six agencies to reinstate any probationary employees who had been terminated improperly.\\n\\n- Appeal \\u00b7 March 6\\n**Wilcox v. Trump** President Trump tried to fire Gwynne Wilcox, a D\\u2026\\n\\n[Truncated preview: showing 340 words out of ~3597. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3597, \"snippet_word_count\": 340, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T16:56:25.272482\", \"date_cutoff_end\": \"2025-03-23T16:56:25.272482\", \"cached_at\": \"2025-10-24T14:28:51.329300\"}",
+      "tool_call_id": "call_ZJPoQFDMHV2r4huUhq6WaJ59"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "cfa1b9a0-93d2-5521-b802-b9a0a8ce673d",
+        "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+        "facts": [
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "fact": "The total number of cases tracked against the Trump Administration is 132 as of March 20, 2025."
+          },
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "fact": "The tracker was first published on January 29, 2025, and is continually updated."
+          },
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "fact": "There are 2 closed cases among the 132 tracked."
+          },
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "fact": "The tracker includes a wide range of legal challenges, including those related to immigration, birthright citizenship, and sanctuary cities."
+          },
+          {
+            "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+            "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/",
+            "fact": "Recent updates include multiple lawsuits filed in February and March 2025, indicating ongoing legal activity."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"facts\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"The total number of cases tracked against the Trump Administration is 132 as of March 20, 2025.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"The tracker was first published on January 29, 2025, and is continually updated.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"There are 2 closed cases among the 132 tracked.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"The tracker includes a wide range of legal challenges, including those related to immigration, birthright citizenship, and sanctuary cities.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"Recent updates include multiple lawsuits filed in February and March 2025, indicating ongoing legal activity.\"}]}",
+      "tool_call_id": "call_Ze74I2iWHNlSyDzBdq7h9jCF"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "cfa1b9a0-93d2-5521-b802-b9a0a8ce673d",
+        "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+        "facts": [
+          {
+            "title": "Tracking the lawsuits against Donald Trump's executive actions",
+            "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+            "fact": "The web page mentions that dozens of lawsuits have been filed during President Donald Trump’s second administration."
+          },
+          {
+            "title": "Tracking the lawsuits against Donald Trump's executive actions",
+            "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+            "fact": "The lawsuits challenge executive orders and actions taken by the Trump Administration."
+          },
+          {
+            "title": "Tracking the lawsuits against Donald Trump's executive actions",
+            "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+            "fact": "The courts have agreed to block the president in a number of cases, indicating ongoing legal challenges."
+          },
+          {
+            "title": "Tracking the lawsuits against Donald Trump's executive actions",
+            "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+            "fact": "The administration is seeking appeals in response to some of these legal challenges."
+          },
+          {
+            "title": "Tracking the lawsuits against Donald Trump's executive actions",
+            "url": "https://apnews.com/projects/trump-executive-order-lawsuit-tracker/",
+            "fact": "The page does not provide an exact number of lawsuits, but the use of 'dozens' suggests a significant number, potentially approaching or exceeding 70."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"facts\": [{\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The web page mentions that dozens of lawsuits have been filed during President Donald Trump\\u2019s second administration.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The lawsuits challenge executive orders and actions taken by the Trump Administration.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The courts have agreed to block the president in a number of cases, indicating ongoing legal challenges.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The administration is seeking appeals in response to some of these legal challenges.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The page does not provide an exact number of lawsuits, but the use of 'dozens' suggests a significant number, potentially approaching or exceeding 70.\"}]}",
+      "tool_call_id": "call_C1i2mouthgjGfKtBptuch3bi"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "cfa1b9a0-93d2-5521-b802-b9a0a8ce673d",
+        "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+        "facts": [
+          {
+            "title": "Tracking the Lawsuits Against Trump’s Agenda",
+            "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+            "fact": "The web page lists numerous lawsuits against the Trump Administration, covering areas such as civil servant firings, budget freezes, birthright citizenship, and more."
+          },
+          {
+            "title": "Tracking the Lawsuits Against Trump’s Agenda",
+            "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+            "fact": "Several lawsuits are currently in the appeal stage, indicating ongoing legal challenges that could contribute to the total count."
+          },
+          {
+            "title": "Tracking the Lawsuits Against Trump’s Agenda",
+            "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+            "fact": "The content mentions specific cases with recent developments, such as preliminary injunctions and temporary restraining orders, showing active litigation."
+          },
+          {
+            "title": "Tracking the Lawsuits Against Trump’s Agenda",
+            "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+            "fact": "The lawsuits cover a wide range of issues, including immigration, trans rights, and climate policy, suggesting a broad scope of legal challenges."
+          },
+          {
+            "title": "Tracking the Lawsuits Against Trump’s Agenda",
+            "url": "https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html",
+            "fact": "The presence of high-profile cases, such as those involving birthright citizenship and the Department of Government Efficiency, indicates significant legal opposition to the administration's actions."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"facts\": [{\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The web page lists numerous lawsuits against the Trump Administration, covering areas such as civil servant firings, budget freezes, birthright citizenship, and more.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"Several lawsuits are currently in the appeal stage, indicating ongoing legal challenges that could contribute to the total count.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The content mentions specific cases with recent developments, such as preliminary injunctions and temporary restraining orders, showing active litigation.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The lawsuits cover a wide range of issues, including immigration, trans rights, and climate policy, suggesting a broad scope of legal challenges.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The presence of high-profile cases, such as those involving birthright citizenship and the Department of Government Efficiency, indicates significant legal opposition to the administration's actions.\"}]}",
+      "tool_call_id": "call_ZyfEv5yD1cp7hpV9l6K9p0Ob"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than 70 on March 31, 2025?\nBackground: [Collection: Just Security’s Coverage of the Trump Administration Executive Actions](https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/) | [Elon Musk: Can someone start a lawsuit counter? How long until we hit triple digits? 🤣🤣](https://x.com/elonmusk/status/1881711703504875596)\nResolution criteria: This question resolves as YES if the number of legal challenges to the Trump Administration listed at [this tracker](https://www.justsecurity.org/107087/tracker-legal-challenges-trump-administration-actions/) when accessed by Metaculus on or after March 31, 2025 is greater than 70. Otherwise, it resolves as NO.\nFine print: \npresent_date: 2025-03-22T16:56:25.272482\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_DNyWfAfjc2opvohvRYyPMUN3",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than 70 on March 31, 2025?\",\"background\":\"Collection: Just Security’s Coverage of the Trump Administration Executive Actions | Elon Musk: Can someone start a lawsuit counter? How long until we hit triple digits? 🤣🤣\",\"resolution_criteria\":\"This question resolves as YES if the number of legal challenges to the Trump Administration listed at this tracker when accessed by Metaculus on or after March 31, 2025 is greater than 70. Otherwise, it resolves as NO.\",\"present_date\":\"2025-03-22T16:56:25.272482\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"queries\": [\"Just Security Trump Administration lawsuits tracker March 2025\", \"recent lawsuits against Trump Administration March 2025\", \"future predictions legal challenges Trump Administration 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_DNyWfAfjc2opvohvRYyPMUN3"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_UMkC8uryqAWpWGHmF4yzTCY1",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Just Security Trump Administration lawsuits tracker March 2025\", \"date_cutoff_end\": \"2025-03-22\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_XJXIRJSw83pE3uJNBIkNRWCV",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"recent lawsuits against Trump Administration March 2025\", \"date_cutoff_end\": \"2025-03-22\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_lCZVq22TsDkvI4iul3LaUbcb",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"future predictions legal challenges Trump Administration 2025\", \"date_cutoff_end\": \"2025-03-22\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Just Security Trump Administration lawsuits tracker March 2025\", \"results\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"link\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"position\": 1, \"snippet\": \"Just Security's public resource tracks legal challenges to the Trump administration's executive orders and actions. The tracker was last updated March 20, 2025, and includes cases filed in March 2025...\", \"date\": null}, {\"title\": \"Collection: Coverage of Trump Administration\\u2019s Executive Actions\", \"link\": \"https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/\", \"position\": 5, \"snippet\": \"Tracker: Legal Challenges to Trump Administration Actions. Just Security is covering key developments, including in concise \\u201cWhat Just Happened\\u201d expert explainers, legal and policy analysis, and more.\", \"date\": null}, {\"title\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions | Congressman Steve Cohen\", \"link\": \"http://cohen.house.gov/TrumpAdminTracker\", \"position\": 3, \"snippet\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions. The Trump Administration has acted illegally and unconstitutionally... Congressman Cohen strongly opposes this action, which he believes is an unlawful attempt to centralize power.\", \"date\": null}, {\"title\": \"Just Security - A Forum on Law, Rights, and U.S. National Security\", \"link\": \"https://www.justsecurity.org/\", \"position\": 1, \"snippet\": \"The Trump Administration\\u2019s Recent Removals to El Salvador Violate the Prohibition on Transfer to Torture. Journalists Who Took Risks for US-Funded Broadcasters Threatened Anew by Trump Shutdown.\", \"date\": null}, {\"title\": \"Trump Trackers - U.S. Government Information - LibGuides at University of California San Diego\", \"link\": \"https://ucsd.libguides.com/usgov/trumptrackers\", \"position\": 2, \"snippet\": \"Tracks regulatory and litigation actions related to clean energy deployment and environmental protection...\", \"date\": null}, {\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 4, \"snippet\": \"Holland & Knight's Public Policy & Regulation team is actively monitoring and reviewing President Trump's executive orders and other actions. This chart provides brief overviews of the numerous orders published by the Trump Administration.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_UMkC8uryqAWpWGHmF4yzTCY1"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"recent lawsuits against Trump Administration March 2025\", \"results\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"link\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"position\": 1, \"snippet\": \"President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances...\", \"date\": null}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions | AP News\", \"link\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"position\": 3, \"snippet\": \"Dozens of lawsuits have been filed during President Donald Trump\\u2019s second administration. The suits challenge his executive orders as well as actions taken by his administration...\", \"date\": null}, {\"title\": \"Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times\", \"link\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"position\": 4, \"snippet\": \"The administration is appealing a Supreme Court ruling in Dellinger v. Bessent. Unions sued over firings, and a judge temporarily halted the dismantling of the Consumer Financial Protection Bureau.\", \"date\": null}, {\"title\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions | Congressman Steve Cohen\", \"link\": \"http://cohen.house.gov/TrumpAdminTracker\", \"position\": 5, \"snippet\": \"On February 8, amid ongoing legal challenges, a federal judge temporarily blocked Musk and DOGE\\u2019s access to these payment systems after 19 state Attorneys General sued the Trump Administration.\", \"date\": null}, {\"title\": \"Executive and Regulatory Actions Under the Second Trump Administration | NAFSA\", \"link\": \"https://www.nafsa.org/executive-and-regulatory-actions-trump2admin\", \"position\": 1, \"snippet\": \"Executive and regulatory actions by the President and federal agencies related to international education during the Trump-Vance administration (January 20, 2025 - January 20, 2029)...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_XJXIRJSw83pE3uJNBIkNRWCV"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"future predictions legal challenges Trump Administration 2025\", \"results\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"link\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"position\": 1, \"snippet\": \"President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply...\", \"date\": null}, {\"title\": \"Trump Administration Lawsuits Tracker: DOGE, Transgender Rights and More - The New York Times\", \"link\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"position\": 2, \"snippet\": \"Dellinger v. Bessent President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff...\", \"date\": null}, {\"title\": \"Tracking regulatory changes in the second Trump administration\", \"link\": \"https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/\", \"position\": 4, \"snippet\": \"This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more.\", \"date\": null}, {\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 2, \"snippet\": \"This executive order issues a regulatory freeze on all executive departments and agencies to review pending and existing laws and regulations. The freeze mandates that unpublished rules be withdrawn and unenacted rules be delayed.\", \"date\": null}, {\"title\": \"2025 Administration Actions: Key Executive Orders and Policies\", \"link\": \"https://www.ncsl.org/in-dc/2025-administration-actions-key-executive-orders-and-policies\", \"position\": 4, \"snippet\": \"The Office of Civil Rights (OCR) intends to apply the Supreme Court's decision in SFFA v. Harvard to recipients of federal funding for education programs, potentially leading to loss of funding.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_lCZVq22TsDkvI4iul3LaUbcb"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_AgT4tkLGNG9n0TaI7r4GwO2k",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"date_cutoff_end\": \"2025-03-22\"}"
+          }
+        },
+        {
+          "id": "call_VFyVduhBhQRMmi9XwUpmITXl",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"date_cutoff_end\": \"2025-03-22\"}"
+          }
+        },
+        {
+          "id": "call_ZJPoQFDMHV2r4huUhq6WaJ59",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"date_cutoff_end\": \"2025-03-22\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"snippet\": \"---\\ntitle: Litigation Tracker: Legal Challenges to Trump Administration Actions\\nauthor: Just Security\\nurl: https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\\nhostname: justsecurity.org\\ndescription: A public resource tracking the legal challenges to the Trump administration's executive orders and actions.\\nsitename: Just Security\\ndate: 2025-03-20\\ncategories: ['Courts', 'Executive Branch', 'Litigation']\\n---\\nThis public resource tracks legal challenges to Trump administration actions. If you think we are missing anything, you can email us at [lte@justsecurity.org](mailto:lte@justsecurity.org). Special thanks to *Just Security* Student Staff Editors Anna Braverman, Isaac Buck, Rick Da, Charlotte Kahan, and Jeremy Venook, and to Matthew Fouracre and Nour Soubani.\\n\\nThe Tracker is part of the [Collection: Just Security\\u2019s Coverage of the Trump Administration\\u2019s Executive Actions](https://www.justsecurity.org/106653/collection-trump-administration-executive-actions/). Readers may also be interested in [signing up](https://www.justsecurity.org/early-edition-signup/) for our free Early Edition roundup of news and our end-of-day newsletter with *Just Security* articles from the day (We respect your privacy. We do not use your email address for any other purpose except to automatically send you the requested email.)\\n\\n*The Tracker was first published on Jan. 29, 2025 and is continually updated. Last updated March 20, 2025.*\\n\\nTotal number of cases tracked: 132 (including 2 closed cases)\\n\\n\\nTopic | Executive Action | Case Name | Complaint | Date Filed | Case Summary | Last Update |\\n|---|---|---|---|---|---|---|\\n| Immigration and Citizenship | Executive Action: Alien Enemies Act removals (\\n|\\nJ.G.G. v. Trump |\\n\\nCase No. 1:25-cv-00766\\n\\n(D.C. Cir\\n\\n[No. 25-5067](https://www.courtlistener.com/docket/69742127/jgg-v-donald-trump/))\\n\\n[Habeas petition](https://storage.courtlistener.com/recap/gov.uscourts.dcd.278436/gov.uscourts.dcd.278436.1.0.pdf)**Overview:***President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances, and the judge provisionally agreed issuing a temporary block to any removals until further hearings.*\\n\\n**Summary:**On Mar. 14, President Trump signed a[Proclamation](https://www.whitehouse.gov/preside\\u2026\\n\\n[Truncated preview: showing 299 words out of ~10545. Full content available via `btf_extract_evidence`.]\", \"word_count\": 10545, \"snippet_word_count\": 299, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T16:56:25.272482\", \"date_cutoff_end\": \"2025-03-23T16:56:25.272482\", \"cached_at\": \"2025-10-23T19:58:25.909222\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_AgT4tkLGNG9n0TaI7r4GwO2k"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"snippet\": \"---\\ntitle: Tracking the lawsuits against Donald Trump's executive actions\\nurl: https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\\nhostname: apnews.com\\ndescription: Dozens of lawsuits have been filed during President Donald Trump\\u2019s second administration. The suits challenge his executive orders as well as actions taken by his administration, including Elon Musk\\u2019s Department of Government Efficiency or DOGE. The courts have agreed to block the president in a number of cases, and the administration is seeking appeals as well.\\nsitename: AP News\\ndate: 2025-02-21\\ncategories: ['Politics']\\ntags: ['U.S. News', 'U.S. News']\\n---\\nWorld\\nU.S.\\nPolitics\\nSports\\nEntertainment\\nBusiness\\nScience\\nFact Check\\nNewsletters\\nDonate\\nCabinet confirmations\\nPresidential promises\\nTracking lawsuits\\nCREDITS\\nDesign and development by Humera Lodhi, Linda Gorman and Eunice Esomonu. Reporting and resarch by Mike Catalini and Lindsay Whitehurst.\", \"word_count\": 122, \"snippet_word_count\": 122, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-22T16:56:25.272482\", \"date_cutoff_end\": \"2025-03-23T16:56:25.272482\", \"cached_at\": \"2025-10-24T14:28:50.743077\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_VFyVduhBhQRMmi9XwUpmITXl"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"snippet\": \"---\\ntitle: Tracking the Lawsuits Against Trump\\u2019s Agenda\\nauthor: Alex Lemonides; Seamus Hughes; Mattathias Schwartz; Lazaro Gamio\\nurl: https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\\nhostname: nytimes.com\\ndescription: Follow the lawsuits and rulings that are challenging President Trump's executive orders.\\nsitename: The New York Times\\ndate: 2025-02-12\\ncategories: ['U.S.']\\ntags: ['Trump, Donald J', 'Suits and Litigation (Civil)', 'Presidential Power (US)', 'Musk, Elon', 'Federal Courts (US)', 'Storming of the US Capitol (Jan, 2021)', 'Citizenship and Naturalization']\\n---\\n### Civil servant firings\\n\\nThe administration has summarily fired or put on leave thousands of federal employees. Court orders have reversed the firings of two government watchdog officials.\\n\\nOne of these cases, Dellinger v. Bessent, is the first legal challenge that the administration has appealed to the Supreme Court. In that appeal, the Supreme Court [issued a preliminary ruling](https://www.nytimes.com/2025/02/21/us/politics/supreme-court-trump-special-counsel.html) siding against the administration.\\n\\nIn another case, a federal judge temporarily halted the dismantling of the Consumer Financial Protection Bureau, the independent federal agency created after the 2008 financial crisis to shield people from fraud and abuse by lenders and financial firms.\\n\\n- Preliminary Supreme Court ruling \\u00b7 Feb. 21\\n**Dellinger v. Bessent** President Trump moved to fire Hampton Dellinger, the head of a government watchdog office. Dellinger is suing for wrongful termination. The Supreme Court sided tentatively with the plaintiff, but suggested it would return to the matter soon.\\n\\nAn order from Judge Amy Berman Jackson, an Obama appointee, temporarily blocked the firing, but appellate judges sided with the adminstration, removing Dellinger from his position. Dellinger tried to drop the suit, but the administration\\u2019s lawyers want it to continue.\\n\\n- Preliminary injunction \\u00b7 March 13\\n**American Federation of Government Employees, AFL-CIO v. U.S. Office of Personnel Management** The Office of Personnel Management ordered federal agencies to fire tens of thousands of federal employees. A coalition of unions sued. Judge William Alsup, a Clinton appointee, temporarily reversed the terminations. Later, he directed six agencies to reinstate any probationary employees who had been terminated improperly.\\n\\n- Appeal \\u00b7 March 6\\n**Wilcox v. Trump** President Trump tried to fire Gwynne Wilcox, a D\\u2026\\n\\n[Truncated preview: showing 340 words out of ~3597. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3597, \"snippet_word_count\": 340, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T16:56:25.272482\", \"date_cutoff_end\": \"2025-03-23T16:56:25.272482\", \"cached_at\": \"2025-10-24T14:28:51.329300\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_ZJPoQFDMHV2r4huUhq6WaJ59"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Ze74I2iWHNlSyDzBdq7h9jCF",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"content\": null, \"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"question\": \"Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than 70 on March 31, 2025?\", \"present_date\": \"2025-03-22T16:56:25.272482\"}"
+          }
+        },
+        {
+          "id": "call_C1i2mouthgjGfKtBptuch3bi",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"content\": null, \"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"question\": \"Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than 70 on March 31, 2025?\", \"present_date\": \"2025-03-22T16:56:25.272482\"}"
+          }
+        },
+        {
+          "id": "call_ZyfEv5yD1cp7hpV9l6K9p0Ob",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"content\": null, \"title\": \"Tracking the Lawsuits Against Trump’s Agenda\", \"question\": \"Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than 70 on March 31, 2025?\", \"present_date\": \"2025-03-22T16:56:25.272482\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"facts\": [{\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"The total number of cases tracked against the Trump Administration is 132 as of March 20, 2025.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"The tracker was first published on January 29, 2025, and is continually updated.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"There are 2 closed cases among the 132 tracked.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"The tracker includes a wide range of legal challenges, including those related to immigration, birthright citizenship, and sanctuary cities.\"}, {\"title\": \"Litigation Tracker: Legal Challenges to Trump Administration Actions\", \"url\": \"https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/\", \"fact\": \"Recent updates include multiple lawsuits filed in February and March 2025, indicating ongoing legal activity.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_Ze74I2iWHNlSyDzBdq7h9jCF"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"facts\": [{\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The web page mentions that dozens of lawsuits have been filed during President Donald Trump\\u2019s second administration.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The lawsuits challenge executive orders and actions taken by the Trump Administration.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The courts have agreed to block the president in a number of cases, indicating ongoing legal challenges.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The administration is seeking appeals in response to some of these legal challenges.\"}, {\"title\": \"Tracking the lawsuits against Donald Trump's executive actions\", \"url\": \"https://apnews.com/projects/trump-executive-order-lawsuit-tracker/\", \"fact\": \"The page does not provide an exact number of lawsuits, but the use of 'dozens' suggests a significant number, potentially approaching or exceeding 70.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_C1i2mouthgjGfKtBptuch3bi"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"cfa1b9a0-93d2-5521-b802-b9a0a8ce673d\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"facts\": [{\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The web page lists numerous lawsuits against the Trump Administration, covering areas such as civil servant firings, budget freezes, birthright citizenship, and more.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"Several lawsuits are currently in the appeal stage, indicating ongoing legal challenges that could contribute to the total count.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The content mentions specific cases with recent developments, such as preliminary injunctions and temporary restraining orders, showing active litigation.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The lawsuits cover a wide range of issues, including immigration, trans rights, and climate policy, suggesting a broad scope of legal challenges.\"}, {\"title\": \"Tracking the Lawsuits Against Trump\\u2019s Agenda\", \"url\": \"https://www.nytimes.com/interactive/2025/us/trump-administration-lawsuits.html\", \"fact\": \"The presence of high-profile cases, such as those involving birthright citizenship and the Department of Government Efficiency, indicates significant legal opposition to the administration's actions.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_ZyfEv5yD1cp7hpV9l6K9p0Ob"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered:\n\n1. **Just Security Tracker**: As of March 20, 2025, the Just Security tracker lists 132 cases against the Trump Administration, with 2 of these cases closed. This indicates a high level of legal activity and suggests that the number of lawsuits is well above the threshold of 70 required for the question to resolve as YES.\n\n2. **AP News**: The AP News tracker mentions \"dozens\" of lawsuits filed against the Trump Administration's executive actions, which aligns with the notion of significant legal challenges but does not provide a specific count.\n\n3. **New York Times**: The New York Times lists numerous lawsuits against the Trump Administration, covering a wide range of issues. The presence of ongoing appeals and recent developments in high-profile cases further supports the idea of a substantial number of legal challenges.\n\nGiven the confirmation from the Just Security tracker that the number of lawsuits is 132, which is well above the threshold of 70, the probability that the number of lawsuits will be greater than 70 by March 31, 2025, is extremely high.\n\nFINAL PROBABILITY: 1.0"
+    }
+  ]
+}

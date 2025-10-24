@@ -1,0 +1,631 @@
+{
+  "question_id": "2b19ffbe-03ee-59f5-b519-98579dd54fd7",
+  "question": "Will the US frac spread count for the week ending March 28, 2025 be 235 or greater?",
+  "probability": 0.2,
+  "reasoning": "Based on the gathered information, here is the analysis regarding the probability of the US frac spread count reaching 235 or greater by the week ending March 28, 2025:\n\n1. **Current Frac Spread Count**: As of March 14, 2025, the total frac spread count is 212. This represents a week-over-week increase of 2 spreads from 210 on March 7, 2025. The count has been increasing gradually since January 31, 2025, when it was 190.\n\n2. **Historical Trends**: The largest recent week-over-week increase was 8 spreads on February 7, 2025. However, the year-over-year change shows a decrease of 57 spreads from 269 on March 14, 2024, indicating a downward trend compared to the previous year.\n\n3. **Factors Influencing Frac Spread Count**: The Drilling Productivity Report notes that rig productivity can become unstable during rapid changes in active rigs and well completions. The number of drilled but uncompleted (DUC) wells has increased slightly, suggesting potential for future completions that could impact the frac spread count.\n\n4. **Oil and Gas Production Trends**: There is a slight upward trend in oil production and a slight decline in gas production. The Permian region, a major contributor to U.S. oil production, saw an increase in production, which could support an increase in frac spreads if demand and economic conditions align.\n\n5. **Economic and Market Conditions**: The frac spread count is a leading indicator of oil production and is influenced by market conditions, oil prices, and demand for oil and gas. Without specific forecasts indicating a significant increase in demand or economic conditions that would drive a rapid increase in frac spreads, the probability of reaching 235 by March 28, 2025, seems low.\n\nGiven the current count of 212 and the gradual increase observed, reaching 235 would require a substantial increase in the coming weeks, which seems unlikely based on current trends and available data.\n\nFINAL PROBABILITY: 0.2",
+  "search_results": [
+    {
+      "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "content": "U.S. Frac Spread Count Data made available by Primary Vision shows that on 03/14/2025, the total frac spreads increased by 2, bringing the total to 212."
+    },
+    {
+      "title": "U.S. Rig Count Data available from Baker Hughes",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "content": "March 14, 2025: Total Rigs 2025 saw 592, with Oil at +1 (487), Gas at -1 (100), and Misc. at 0 (5). The Oil/Gas/Misc. ratio was 82 / 17 / 1."
+    },
+    {
+      "title": "North American Rig Count, Drilling and Frac Spread Count Data",
+      "url": "https://oilprice.com/rig-count",
+      "content": "Frac Spread Count: 212 Updated 14th March"
+    },
+    {
+      "title": "US - Oil Rig Count vs. Frac Spread Count | MacroMicro",
+      "url": "https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "content": "The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production."
+    },
+    {
+      "title": "US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts",
+      "url": "https://ycharts.com/indicators/us_rotary_rigs",
+      "content": "US Rig Count is at a current level of 592.00 as of Mar 14 2025, unchanged from last week and down from one year ago."
+    },
+    {
+      "title": "frac spread count – Infill Thinking",
+      "url": "https://www.infillthinking.com/tag/frac-spread-count/",
+      "content": "Information regarding the US frac spread count for March 2025 is not available in the provided text."
+    },
+    {
+      "title": "US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro",
+      "url": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "content": "The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production."
+    },
+    {
+      "title": "Latest News - Primary Vision",
+      "url": "https://primaryvision.co/latest-news/",
+      "content": "The provided content does not contain information relevant to the query about factors affecting US frac spread count in March 2025."
+    },
+    {
+      "title": "Drilling Productivity Report - U.S. Energy Information Administration (EIA)",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "content": "The DPR metric \"new-well oil/natural gas production per rig\" can become unstable during rapid decreases or increases in rig counts and well completions. Factors like winter weather freeze-offs, extreme flooding, and oil demand contractions can also affect production..."
+    },
+    {
+      "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "content": "U.S. Frac Spread Count for the week of March 14, 2025, shows a total of 212 frac spreads, a +2 change week-over-week and -57 year-over-year."
+    },
+    {
+      "title": "US - Frac Spread Count | Series | MacroMicro",
+      "url": "https://en.macromicro.me/series/17448/us-frac-spread-count",
+      "content": "US - Frac Spread Count | Series | MacroMicro. MacroMicro is committed to consolidating global economic data, while deploying technology to efficiently discover the clues to economic cycles."
+    },
+    {
+      "title": "U.S. Rig Count Data available from Baker Hughes",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "content": "U.S. Rig Count data for March 2025 shows a total of 592 rigs on 03/14/2025, with oil rigs at 487 and gas rigs at 100. The previous week had 592 total rigs as well."
+    },
+    {
+      "title": "Drilling Productivity Report - U.S. Energy Information Administration (EIA)",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "content": "Information on US frac spread count forecast for March 2025 is not available in the provided content."
+    },
+    {
+      "title": "US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts",
+      "url": "https://ycharts.com/indicators/us_rotary_rigs",
+      "content": "US Rig Count is at a current level of 592.00 as of March 14, 2025, unchanged from the previous week."
+    },
+    {
+      "title": "frac spread count – Infill Thinking",
+      "url": "https://www.infillthinking.com/tag/frac-spread-count/",
+      "content": "I am sorry, but I cannot provide a snippet for the US frac spread count forecast for March 2025 as the provided content does not contain this information."
+    },
+    {
+      "title": "US - Oil Rig Count vs. Frac Spread Count | MacroMicro",
+      "url": "https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "content": "The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "content": "---\ntitle: U.S. Frac Spread Count\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\ndate: 2025-03-19\n---\nDate\n\nTotal Frac Spreads\n\nTotal Frac Spreads\n\n(Week/Week)\n\n(Week/Week)\n\nTotal Frac Spreads\n\n(Year/Year)\n\n(Year/Year)\n\n03/14/2025\n\nTotal Frac Spreads\n+2\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n212 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-57 (269)\n\n03/07/2025\n\nTotal Frac Spreads\n-4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 214\n\nTotal Frac Spreads 2025 (Year/Year)\n-53 (263)\n\n02/28/2025\n\nTotal Frac Spreads\n+4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n214 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-58 (272)\n\n02/21/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 203\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (270)\n\n02/14/2025\n\nTotal Frac Spreads\n+5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n203 / 198\n\nTotal Frac Spreads 2025 (Year/Year)\n-61 (264)\n\n02/07/2025\n\nTotal Frac Spreads\n+8\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n198 / 190\n\nTotal Frac Spreads 2025 (Year/Year)\n-62 (260)\n\n01/31/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n190 / 183\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (250)\n\n01/24/2025\n\nTotal Frac Spreads\n-5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n183 / 188\n\nTotal Frac Spreads 2025 (Year/Year)\n-59 (242)\n\n01/17/2025\n\nTotal Frac Spreads\n-7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n188 / 195\n\nTotal Frac Spreads 2025 (Year/Year)\n-47 (235)\n\n01/10/2025\n\nTotal Frac Spreads\n-6\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n195 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-39 (234)\n\n01/03/2025\n\nTotal Frac Spreads\n0\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n201 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-35 (236)"
+    },
+    {
+      "title": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "url": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "content": "---\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\nhostname: macromicro.me\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\nsitename: MacroMicro\ndate: 2025-03-06\n---\nMacroMicro\nSearch...\nFlash Deal\nNotification Center\nLogin\nBenefits Redemption\nMy M-Coins\nPosted by Me\nMy Dashboards\nMember Profile\nSubscribe Now\nLogout\nMenu\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nCharts\nTrader's Insight\nTopics\nETF\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nAbout Us\nContact Us\nCareers\n|\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\n📢 Big insights are coming!\nUnlock free access by Yearly MM Prime\n—Trump, AI, and key market trends.\nAI recommended charts\n/ 500\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nGot it\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\nHome\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\nCharts\nTrader's Insight\nTopics\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSerie…\n\n[Truncated preview: showing 355 words out of ~437. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.eia.gov/petroleum/drilling/",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "content": "---\ntitle: Drilling Productivity Report - U.S. Energy Information Administration (EIA)\nurl: https://www.eia.gov/petroleum/drilling/index.php\nhostname: eia.gov\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\nsitename: U.S. Energy Information Administration (EIA)\ndate: 2025-03-14\ncategories: ['official energy statistics, data, analysis and forecasting']\n---\n**Note:** Beginning June 11, 2024, we will publish the shale gas tight oil production data and *Drilling Productivity Report* data in the [ Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/) (STEO) data tables. These improvements will provide a disaggregated STEO forecast for oil and natural gas production in different regions of the United States.\n\n| New-well oil production per rig barrels/day |\nNew-well gas production per rig thousand cubic feet/day |\n|||||\n|---|---|---|---|---|---|---|\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\n| Anadarko | 717 | 719 | 2 | 4,840 | 4,875 | 35 |\n| Appalachia | 239 | 241 | 2 | 28,465 | 28,643 | 178 |\n| Bakken | 1,745 | 1,747 | 2 | 2,660 | 2,663 | 3 |\n| Eagle Ford | 1,635 | 1,639 | 4 | 6,059 | 6,065 | 6 |\n| Haynesville | 14 | 14 | - | 13,453 | 13,487 | 34 |\n| Niobrara | 1,496 | 1,498 | 2 | 4,622 | 4,678 | 56 |\n| Permian | 1,386 | 1,400 | 14 | 2,536 | 2,547 | 11 |\n| Rig-weighted average | 1,199 | 1,222 | 23 | 5,964 | 5,831 | (133) |\n\n| Oil production thousand barrels/day |\nGas production million cubic feet/day |\n|||||\n|---|---|---|---|---|---|---|\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\n| Anadarko | 382 | 383 | 1 | 6,528 | 6,518 | (10) |\n| Appalachia | 136 | 135 | (1) | 35,967 | 35,791 | (176) |\n| Bakken | 1,313 | 1,313 | - | 3,471 | 3,487 | 16 |\n| Eagle Ford | 1,102 | 1,106 | 4 | 7,344 | 7,323 | (21) |\n| Haynesville | 32 | 32 | - | 15,606 | 15,339 | (267) |\n| Niobrara | 702 | 697 | (5) | 5,359 | 5,344 | (15) |\n| Permian | 6,169 | 6,187 | 18 | 25,250 | 25,393 | 143 |\n| Total | 9,836 | 9,853 | 17 | 99,525 | 99,195 | (330) |\n\n| Drilled but uncompleted wells (DUC) wells |\n|||\n|---|---|---|---|\n| Region | March 2024 | April 2024 | change |\n| Anadarko | 697 | 701 | 4 |\n| Appalachia | 819 | 824 | 5 |\n| Bakken | 322 | 328 | 6 |\n| Eagle Ford | 347 | 345 | (2) |\n| Haynesville | 784 | 791 | 7 |\n| Niobrara | 644 | 628 | (16) |\n| Permian | 891 | 893 | 2 |\n| Total | 4,504 | 4,510 | 6 |\n\nThe *Drilling Productivity Report* (DPR) rig productivity metric…\n\n[Truncated preview: showing 512 words out of ~732. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "As of March 14, 2025, the total frac spreads count is 212."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "The week-over-week change for March 14, 2025, was an increase of 2 spreads."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "The total frac spreads count has been increasing gradually since January 31, 2025, when it was 190."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "The largest recent week-over-week increase was 8 spreads on February 7, 2025."
+    },
+    {
+      "title": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "url": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "fact": "---\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\nhostname: macromicro.me\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\nsitename: MacroMicro\ndate: 2025-03-06\n---\nMacroMicro\nSearch...\nFlash Deal\nNotification Center\nLogin\nBenefits Redemption\nMy M-Coins\nPosted by Me\nMy Dashboards\nMember Profile\nSubscribe Now\nLogout\nMenu\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nCharts\nTrader's Insight\nTopics\nETF\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nAbout Us\nContact Us\nCareers\n|\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\n📢 Big insights are coming!\nUnlock free access by Yearly MM Prime\n—Trump, AI, and key market trends.\nAI recommended charts\n/ 500\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nGot it\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\nHome\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\nCharts\nTrader's Insight\nTopics\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPublic\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nContact Us\nCareers\nShare\nCopy\nCopied\nHelp Center\nNotification Center\nAdd to Personal Collection\nIf the chart doesn't belong to any Personal Collection, you can add it to My Dashboards by directly clicking Sure. The system will categorize it under \"Uncategorized Charts.\""
+    },
+    {
+      "title": "https://www.eia.gov/petroleum/drilling/",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "fact": "The total oil production in the U.S. increased from 9,836 thousand barrels/day in May 2024 to 9,853 thousand barrels/day in June 2024, indicating a slight upward trend in production."
+    },
+    {
+      "title": "https://www.eia.gov/petroleum/drilling/",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "fact": "The total gas production in the U.S. decreased from 99,525 million cubic feet/day in May 2024 to 99,195 million cubic feet/day in June 2024, showing a slight decline in gas production."
+    },
+    {
+      "title": "https://www.eia.gov/petroleum/drilling/",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "fact": "The number of drilled but uncompleted (DUC) wells increased slightly from 4,504 in March 2024 to 4,510 in April 2024, suggesting a stable inventory of wells that could be completed to increase production."
+    },
+    {
+      "title": "https://www.eia.gov/petroleum/drilling/",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "fact": "The Permian region, a major contributor to U.S. oil production, saw an increase in oil production from 6,169 thousand barrels/day in May 2024 to 6,187 thousand barrels/day in June 2024."
+    },
+    {
+      "title": "https://www.eia.gov/petroleum/drilling/",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "fact": "The Drilling Productivity Report notes that the rig productivity metric can become unstable during periods of rapid changes in active rigs and well completions, which could impact the frac spread count."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.430827083453526,
+  "brier_score": 0.04000000000000001,
+  "weighted_brier_score": 0.017233083338141043,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "2b19ffbe-03ee-59f5-b519-98579dd54fd7",
+        "queries": [
+          "US frac spread count March 2025 update",
+          "factors affecting US frac spread count March 2025",
+          "US frac spread count forecast March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"queries\": [\"US frac spread count March 2025 update\", \"factors affecting US frac spread count March 2025\", \"US frac spread count forecast March 2025\"]}",
+      "tool_call_id": "call_x2UGQlkKp1xfz4J64ewDJrc9"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US frac spread count March 2025 update",
+        "results": [
+          {
+            "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+            "link": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "position": 1,
+            "snippet": "U.S. Frac Spread Count Data made available by Primary Vision shows that on 03/14/2025, the total frac spreads increased by 2, bringing the total to 212.",
+            "date": null
+          },
+          {
+            "title": "U.S. Rig Count Data available from Baker Hughes",
+            "link": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "position": 2,
+            "snippet": "March 14, 2025: Total Rigs 2025 saw 592, with Oil at +1 (487), Gas at -1 (100), and Misc. at 0 (5). The Oil/Gas/Misc. ratio was 82 / 17 / 1.",
+            "date": null
+          },
+          {
+            "title": "North American Rig Count, Drilling and Frac Spread Count Data",
+            "link": "https://oilprice.com/rig-count",
+            "position": 3,
+            "snippet": "Frac Spread Count: 212 Updated 14th March",
+            "date": null
+          },
+          {
+            "title": "US - Oil Rig Count vs. Frac Spread Count | MacroMicro",
+            "link": "https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+            "position": 5,
+            "snippet": "The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.",
+            "date": null
+          },
+          {
+            "title": "US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts",
+            "link": "https://ycharts.com/indicators/us_rotary_rigs",
+            "position": 2,
+            "snippet": "US Rig Count is at a current level of 592.00 as of Mar 14 2025, unchanged from last week and down from one year ago.",
+            "date": null
+          },
+          {
+            "title": "frac spread count – Infill Thinking",
+            "link": "https://www.infillthinking.com/tag/frac-spread-count/",
+            "position": 5,
+            "snippet": "Information regarding the US frac spread count for March 2025 is not available in the provided text.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US frac spread count March 2025 update\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 1, \"snippet\": \"U.S. Frac Spread Count Data made available by Primary Vision shows that on 03/14/2025, the total frac spreads increased by 2, bringing the total to 212.\", \"date\": null}, {\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 2, \"snippet\": \"March 14, 2025: Total Rigs 2025 saw 592, with Oil at +1 (487), Gas at -1 (100), and Misc. at 0 (5). The Oil/Gas/Misc. ratio was 82 / 17 / 1.\", \"date\": null}, {\"title\": \"North American Rig Count, Drilling and Frac Spread Count Data\", \"link\": \"https://oilprice.com/rig-count\", \"position\": 3, \"snippet\": \"Frac Spread Count: 212 Updated 14th March\", \"date\": null}, {\"title\": \"US - Oil Rig Count vs. Frac Spread Count | MacroMicro\", \"link\": \"https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 5, \"snippet\": \"The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.\", \"date\": null}, {\"title\": \"US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_rotary_rigs\", \"position\": 2, \"snippet\": \"US Rig Count is at a current level of 592.00 as of Mar 14 2025, unchanged from last week and down from one year ago.\", \"date\": null}, {\"title\": \"frac spread count \\u2013 Infill Thinking\", \"link\": \"https://www.infillthinking.com/tag/frac-spread-count/\", \"position\": 5, \"snippet\": \"Information regarding the US frac spread count for March 2025 is not available in the provided text.\", \"date\": null}]}",
+      "tool_call_id": "call_ZdW5SosToPrL6tamHc42dfSC"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "factors affecting US frac spread count March 2025",
+        "results": [
+          {
+            "title": "US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro",
+            "link": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+            "position": 2,
+            "snippet": "The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.",
+            "date": null
+          },
+          {
+            "title": "Latest News - Primary Vision",
+            "link": "https://primaryvision.co/latest-news/",
+            "position": 4,
+            "snippet": "The provided content does not contain information relevant to the query about factors affecting US frac spread count in March 2025.",
+            "date": "2023-03-28T07:38:42Z"
+          },
+          {
+            "title": "Drilling Productivity Report - U.S. Energy Information Administration (EIA)",
+            "link": "https://www.eia.gov/petroleum/drilling/",
+            "position": 1,
+            "snippet": "The DPR metric \"new-well oil/natural gas production per rig\" can become unstable during rapid decreases or increases in rig counts and well completions. Factors like winter weather freeze-offs, extreme flooding, and oil demand contractions can also affect production...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"factors affecting US frac spread count March 2025\", \"results\": [{\"title\": \"US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\", \"link\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 2, \"snippet\": \"The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.\", \"date\": null}, {\"title\": \"Latest News - Primary Vision\", \"link\": \"https://primaryvision.co/latest-news/\", \"position\": 4, \"snippet\": \"The provided content does not contain information relevant to the query about factors affecting US frac spread count in March 2025.\", \"date\": \"2023-03-28T07:38:42Z\"}, {\"title\": \"Drilling Productivity Report - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/petroleum/drilling/\", \"position\": 1, \"snippet\": \"The DPR metric \\\"new-well oil/natural gas production per rig\\\" can become unstable during rapid decreases or increases in rig counts and well completions. Factors like winter weather freeze-offs, extreme flooding, and oil demand contractions can also affect production...\", \"date\": null}]}",
+      "tool_call_id": "call_4Yq4yMFjNtqZceui4M98sxj2"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US frac spread count forecast March 2025",
+        "results": [
+          {
+            "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+            "link": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "position": 1,
+            "snippet": "U.S. Frac Spread Count for the week of March 14, 2025, shows a total of 212 frac spreads, a +2 change week-over-week and -57 year-over-year.",
+            "date": null
+          },
+          {
+            "title": "US - Frac Spread Count | Series | MacroMicro",
+            "link": "https://en.macromicro.me/series/17448/us-frac-spread-count",
+            "position": 3,
+            "snippet": "US - Frac Spread Count | Series | MacroMicro. MacroMicro is committed to consolidating global economic data, while deploying technology to efficiently discover the clues to economic cycles.",
+            "date": null
+          },
+          {
+            "title": "U.S. Rig Count Data available from Baker Hughes",
+            "link": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "position": 5,
+            "snippet": "U.S. Rig Count data for March 2025 shows a total of 592 rigs on 03/14/2025, with oil rigs at 487 and gas rigs at 100. The previous week had 592 total rigs as well.",
+            "date": null
+          },
+          {
+            "title": "Drilling Productivity Report - U.S. Energy Information Administration (EIA)",
+            "link": "https://www.eia.gov/petroleum/drilling/",
+            "position": 1,
+            "snippet": "Information on US frac spread count forecast for March 2025 is not available in the provided content.",
+            "date": null
+          },
+          {
+            "title": "US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts",
+            "link": "https://ycharts.com/indicators/us_rotary_rigs",
+            "position": 3,
+            "snippet": "US Rig Count is at a current level of 592.00 as of March 14, 2025, unchanged from the previous week.",
+            "date": null
+          },
+          {
+            "title": "frac spread count – Infill Thinking",
+            "link": "https://www.infillthinking.com/tag/frac-spread-count/",
+            "position": 4,
+            "snippet": "I am sorry, but I cannot provide a snippet for the US frac spread count forecast for March 2025 as the provided content does not contain this information.",
+            "date": null
+          },
+          {
+            "title": "US - Oil Rig Count vs. Frac Spread Count | MacroMicro",
+            "link": "https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+            "position": 5,
+            "snippet": "The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US frac spread count forecast March 2025\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 1, \"snippet\": \"U.S. Frac Spread Count for the week of March 14, 2025, shows a total of 212 frac spreads, a +2 change week-over-week and -57 year-over-year.\", \"date\": null}, {\"title\": \"US - Frac Spread Count | Series | MacroMicro\", \"link\": \"https://en.macromicro.me/series/17448/us-frac-spread-count\", \"position\": 3, \"snippet\": \"US - Frac Spread Count | Series | MacroMicro. MacroMicro is committed to consolidating global economic data, while deploying technology to efficiently discover the clues to economic cycles.\", \"date\": null}, {\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 5, \"snippet\": \"U.S. Rig Count data for March 2025 shows a total of 592 rigs on 03/14/2025, with oil rigs at 487 and gas rigs at 100. The previous week had 592 total rigs as well.\", \"date\": null}, {\"title\": \"Drilling Productivity Report - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/petroleum/drilling/\", \"position\": 1, \"snippet\": \"Information on US frac spread count forecast for March 2025 is not available in the provided content.\", \"date\": null}, {\"title\": \"US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_rotary_rigs\", \"position\": 3, \"snippet\": \"US Rig Count is at a current level of 592.00 as of March 14, 2025, unchanged from the previous week.\", \"date\": null}, {\"title\": \"frac spread count \\u2013 Infill Thinking\", \"link\": \"https://www.infillthinking.com/tag/frac-spread-count/\", \"position\": 4, \"snippet\": \"I am sorry, but I cannot provide a snippet for the US frac spread count forecast for March 2025 as the provided content does not contain this information.\", \"date\": null}, {\"title\": \"US - Oil Rig Count vs. Frac Spread Count | MacroMicro\", \"link\": \"https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 5, \"snippet\": \"The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.\", \"date\": null}]}",
+      "tool_call_id": "call_TNoR0B3Puqx7qkvhGEvXBBtP"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+        "snippet": "---\ntitle: U.S. Frac Spread Count\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\ndate: 2025-03-19\n---\nDate\n\nTotal Frac Spreads\n\nTotal Frac Spreads\n\n(Week/Week)\n\n(Week/Week)\n\nTotal Frac Spreads\n\n(Year/Year)\n\n(Year/Year)\n\n03/14/2025\n\nTotal Frac Spreads\n+2\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n212 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-57 (269)\n\n03/07/2025\n\nTotal Frac Spreads\n-4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 214\n\nTotal Frac Spreads 2025 (Year/Year)\n-53 (263)\n\n02/28/2025\n\nTotal Frac Spreads\n+4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n214 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-58 (272)\n\n02/21/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 203\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (270)\n\n02/14/2025\n\nTotal Frac Spreads\n+5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n203 / 198\n\nTotal Frac Spreads 2025 (Year/Year)\n-61 (264)\n\n02/07/2025\n\nTotal Frac Spreads\n+8\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n198 / 190\n\nTotal Frac Spreads 2025 (Year/Year)\n-62 (260)\n\n01/31/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n190 / 183\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (250)\n\n01/24/2025\n\nTotal Frac Spreads\n-5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n183 / 188\n\nTotal Frac Spreads 2025 (Year/Year)\n-59 (242)\n\n01/17/2025\n\nTotal Frac Spreads\n-7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n188 / 195\n\nTotal Frac Spreads 2025 (Year/Year)\n-47 (235)\n\n01/10/2025\n\nTotal Frac Spreads\n-6\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n195 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-39 (234)\n\n01/03/2025\n\nTotal Frac Spreads\n0\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n201 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-35 (236)",
+        "word_count": 254,
+        "snippet_word_count": 254,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-21T19:42:33.739900",
+        "date_cutoff_end": "2025-03-22T19:42:33.739900",
+        "cached_at": "2025-10-23T19:50:47.158307"
+      },
+      "raw": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"snippet\": \"---\\ntitle: U.S. Frac Spread Count\\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\\ndate: 2025-03-19\\n---\\nDate\\n\\nTotal Frac Spreads\\n\\nTotal Frac Spreads\\n\\n(Week/Week)\\n\\n(Week/Week)\\n\\nTotal Frac Spreads\\n\\n(Year/Year)\\n\\n(Year/Year)\\n\\n03/14/2025\\n\\nTotal Frac Spreads\\n+2\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n212 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-57 (269)\\n\\n03/07/2025\\n\\nTotal Frac Spreads\\n-4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 214\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-53 (263)\\n\\n02/28/2025\\n\\nTotal Frac Spreads\\n+4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n214 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-58 (272)\\n\\n02/21/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 203\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (270)\\n\\n02/14/2025\\n\\nTotal Frac Spreads\\n+5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n203 / 198\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-61 (264)\\n\\n02/07/2025\\n\\nTotal Frac Spreads\\n+8\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n198 / 190\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-62 (260)\\n\\n01/31/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n190 / 183\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (250)\\n\\n01/24/2025\\n\\nTotal Frac Spreads\\n-5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n183 / 188\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-59 (242)\\n\\n01/17/2025\\n\\nTotal Frac Spreads\\n-7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n188 / 195\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-47 (235)\\n\\n01/10/2025\\n\\nTotal Frac Spreads\\n-6\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n195 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-39 (234)\\n\\n01/03/2025\\n\\nTotal Frac Spreads\\n0\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n201 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-35 (236)\", \"word_count\": 254, \"snippet_word_count\": 254, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-23T19:50:47.158307\"}",
+      "tool_call_id": "call_2xy5vas6SiHEY5VZmN34DM89"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+        "snippet": "---\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\nhostname: macromicro.me\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\nsitename: MacroMicro\ndate: 2025-03-06\n---\nMacroMicro\nSearch...\nFlash Deal\nNotification Center\nLogin\nBenefits Redemption\nMy M-Coins\nPosted by Me\nMy Dashboards\nMember Profile\nSubscribe Now\nLogout\nMenu\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nCharts\nTrader's Insight\nTopics\nETF\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nAbout Us\nContact Us\nCareers\n|\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\n📢 Big insights are coming!\nUnlock free access by Yearly MM Prime\n—Trump, AI, and key market trends.\nAI recommended charts\n/ 500\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nGot it\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\nHome\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\nCharts\nTrader's Insight\nTopics\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSerie…\n\n[Truncated preview: showing 355 words out of ~437. Full content available via `btf_extract_evidence`.]",
+        "word_count": 437,
+        "snippet_word_count": 355,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-21T19:42:33.739900",
+        "date_cutoff_end": "2025-03-22T19:42:33.739900",
+        "cached_at": "2025-10-24T03:37:58.959734"
+      },
+      "raw": "{\"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"snippet\": \"---\\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\\nhostname: macromicro.me\\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\\nsitename: MacroMicro\\ndate: 2025-03-06\\n---\\nMacroMicro\\nSearch...\\nFlash Deal\\nNotification Center\\nLogin\\nBenefits Redemption\\nMy M-Coins\\nPosted by Me\\nMy Dashboards\\nMember Profile\\nSubscribe Now\\nLogout\\nMenu\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nCharts\\nTrader's Insight\\nTopics\\nETF\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nAbout Us\\nContact Us\\nCareers\\n|\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\n\\ud83d\\udce2 Big insights are coming!\\nUnlock free access by Yearly MM Prime\\n\\u2014Trump, AI, and key market trends.\\nAI recommended charts\\n/ 500\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nGot it\\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\\nHome\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\nCharts\\nTrader's Insight\\nTopics\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSerie\\u2026\\n\\n[Truncated preview: showing 355 words out of ~437. Full content available via `btf_extract_evidence`.]\", \"word_count\": 437, \"snippet_word_count\": 355, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-24T03:37:58.959734\"}",
+      "tool_call_id": "call_ZLAnHPyZ07cB6puAFeuZAkhP"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.eia.gov/petroleum/drilling/",
+        "snippet": "---\ntitle: Drilling Productivity Report - U.S. Energy Information Administration (EIA)\nurl: https://www.eia.gov/petroleum/drilling/index.php\nhostname: eia.gov\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\nsitename: U.S. Energy Information Administration (EIA)\ndate: 2025-03-14\ncategories: ['official energy statistics, data, analysis and forecasting']\n---\n**Note:** Beginning June 11, 2024, we will publish the shale gas tight oil production data and *Drilling Productivity Report* data in the [ Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/) (STEO) data tables. These improvements will provide a disaggregated STEO forecast for oil and natural gas production in different regions of the United States.\n\n| New-well oil production per rig barrels/day |\nNew-well gas production per rig thousand cubic feet/day |\n|||||\n|---|---|---|---|---|---|---|\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\n| Anadarko | 717 | 719 | 2 | 4,840 | 4,875 | 35 |\n| Appalachia | 239 | 241 | 2 | 28,465 | 28,643 | 178 |\n| Bakken | 1,745 | 1,747 | 2 | 2,660 | 2,663 | 3 |\n| Eagle Ford | 1,635 | 1,639 | 4 | 6,059 | 6,065 | 6 |\n| Haynesville | 14 | 14 | - | 13,453 | 13,487 | 34 |\n| Niobrara | 1,496 | 1,498 | 2 | 4,622 | 4,678 | 56 |\n| Permian | 1,386 | 1,400 | 14 | 2,536 | 2,547 | 11 |\n| Rig-weighted average | 1,199 | 1,222 | 23 | 5,964 | 5,831 | (133) |\n\n| Oil production thousand barrels/day |\nGas production million cubic feet/day |\n|||||\n|---|---|---|---|---|---|---|\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\n| Anadarko | 382 | 383 | 1 | 6,528 | 6,518 | (10) |\n| Appalachia | 136 | 135 | (1) | 35,967 | 35,791 | (176) |\n| Bakken | 1,313 | 1,313 | - | 3,471 | 3,487 | 16 |\n| Eagle Ford | 1,102 | 1,106 | 4 | 7,344 | 7,323 | (21) |\n| Haynesville | 32 | 32 | - | 15,606 | 15,339 | (267) |\n| Niobrara | 702 | 697 | (5) | 5,359 | 5,344 | (15) |\n| Permian | 6,169 | 6,187 | 18 | 25,250 | 25,393 | 143 |\n| Total | 9,836 | 9,853 | 17 | 99,525 | 99,195 | (330) |\n\n| Drilled but uncompleted wells (DUC) wells |\n|||\n|---|---|---|---|\n| Region | March 2024 | April 2024 | change |\n| Anadarko | 697 | 701 | 4 |\n| Appalachia | 819 | 824 | 5 |\n| Bakken | 322 | 328 | 6 |\n| Eagle Ford | 347 | 345 | (2) |\n| Haynesville | 784 | 791 | 7 |\n| Niobrara | 644 | 628 | (16) |\n| Permian | 891 | 893 | 2 |\n| Total | 4,504 | 4,510 | 6 |\n\nThe *Drilling Productivity Report* (DPR) rig productivity metric…\n\n[Truncated preview: showing 512 words out of ~732. Full content available via `btf_extract_evidence`.]",
+        "word_count": 732,
+        "snippet_word_count": 512,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-21T19:42:33.739900",
+        "date_cutoff_end": "2025-03-22T19:42:33.739900",
+        "cached_at": "2025-10-24T03:37:59.404875"
+      },
+      "raw": "{\"url\": \"https://www.eia.gov/petroleum/drilling/\", \"snippet\": \"---\\ntitle: Drilling Productivity Report - U.S. Energy Information Administration (EIA)\\nurl: https://www.eia.gov/petroleum/drilling/index.php\\nhostname: eia.gov\\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\\nsitename: U.S. Energy Information Administration (EIA)\\ndate: 2025-03-14\\ncategories: ['official energy statistics, data, analysis and forecasting']\\n---\\n**Note:** Beginning June 11, 2024, we will publish the shale gas tight oil production data and *Drilling Productivity Report* data in the [ Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/) (STEO) data tables. These improvements will provide a disaggregated STEO forecast for oil and natural gas production in different regions of the United States.\\n\\n| New-well oil production per rig barrels/day |\\nNew-well gas production per rig thousand cubic feet/day |\\n|||||\\n|---|---|---|---|---|---|---|\\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\\n| Anadarko | 717 | 719 | 2 | 4,840 | 4,875 | 35 |\\n| Appalachia | 239 | 241 | 2 | 28,465 | 28,643 | 178 |\\n| Bakken | 1,745 | 1,747 | 2 | 2,660 | 2,663 | 3 |\\n| Eagle Ford | 1,635 | 1,639 | 4 | 6,059 | 6,065 | 6 |\\n| Haynesville | 14 | 14 | - | 13,453 | 13,487 | 34 |\\n| Niobrara | 1,496 | 1,498 | 2 | 4,622 | 4,678 | 56 |\\n| Permian | 1,386 | 1,400 | 14 | 2,536 | 2,547 | 11 |\\n| Rig-weighted average | 1,199 | 1,222 | 23 | 5,964 | 5,831 | (133) |\\n\\n| Oil production thousand barrels/day |\\nGas production million cubic feet/day |\\n|||||\\n|---|---|---|---|---|---|---|\\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\\n| Anadarko | 382 | 383 | 1 | 6,528 | 6,518 | (10) |\\n| Appalachia | 136 | 135 | (1) | 35,967 | 35,791 | (176) |\\n| Bakken | 1,313 | 1,313 | - | 3,471 | 3,487 | 16 |\\n| Eagle Ford | 1,102 | 1,106 | 4 | 7,344 | 7,323 | (21) |\\n| Haynesville | 32 | 32 | - | 15,606 | 15,339 | (267) |\\n| Niobrara | 702 | 697 | (5) | 5,359 | 5,344 | (15) |\\n| Permian | 6,169 | 6,187 | 18 | 25,250 | 25,393 | 143 |\\n| Total | 9,836 | 9,853 | 17 | 99,525 | 99,195 | (330) |\\n\\n| Drilled but uncompleted wells (DUC) wells |\\n|||\\n|---|---|---|---|\\n| Region | March 2024 | April 2024 | change |\\n| Anadarko | 697 | 701 | 4 |\\n| Appalachia | 819 | 824 | 5 |\\n| Bakken | 322 | 328 | 6 |\\n| Eagle Ford | 347 | 345 | (2) |\\n| Haynesville | 784 | 791 | 7 |\\n| Niobrara | 644 | 628 | (16) |\\n| Permian | 891 | 893 | 2 |\\n| Total | 4,504 | 4,510 | 6 |\\n\\nThe *Drilling Productivity Report* (DPR) rig productivity metric\\u2026\\n\\n[Truncated preview: showing 512 words out of ~732. Full content available via `btf_extract_evidence`.]\", \"word_count\": 732, \"snippet_word_count\": 512, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-24T03:37:59.404875\"}",
+      "tool_call_id": "call_r3u40WVKgH2eCLIogtemT33K"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "2b19ffbe-03ee-59f5-b519-98579dd54fd7",
+        "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+        "facts": [
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "As of March 14, 2025, the total frac spreads count is 212."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "The week-over-week change for March 14, 2025, was an increase of 2 spreads."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "The total frac spreads count has been increasing gradually since January 31, 2025, when it was 190."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "The largest recent week-over-week increase was 8 spreads on February 7, 2025."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"As of March 14, 2025, the total frac spreads count is 212.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The week-over-week change for March 14, 2025, was an increase of 2 spreads.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The total frac spreads count has been increasing gradually since January 31, 2025, when it was 190.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The largest recent week-over-week increase was 8 spreads on February 7, 2025.\"}]}",
+      "tool_call_id": "call_EIDFeSFeazzon4Kbf6NU2K2o"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "2b19ffbe-03ee-59f5-b519-98579dd54fd7",
+        "url": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+        "facts": [
+          {
+            "title": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+            "url": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+            "content": "---\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\nhostname: macromicro.me\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\nsitename: MacroMicro\ndate: 2025-03-06\n---\nMacroMicro\nSearch...\nFlash Deal\nNotification Center\nLogin\nBenefits Redemption\nMy M-Coins\nPosted by Me\nMy Dashboards\nMember Profile\nSubscribe Now\nLogout\nMenu\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nCharts\nTrader's Insight\nTopics\nETF\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nAbout Us\nContact Us\nCareers\n|\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\n📢 Big insights are coming!\nUnlock free access by Yearly MM Prime\n—Trump, AI, and key market trends.\nAI recommended charts\n/ 500\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nGot it\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\nHome\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\nCharts\nTrader's Insight\nTopics\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPublic\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nContact Us\nCareers\nShare\nCopy\nCopied\nHelp Center\nNotification Center\nAdd to Personal Collection\nIf the chart doesn't belong to any Personal Collection, you can add it to My Dashboards by directly clicking Sure. The system will categorize it under \"Uncategorized Charts.\"",
+            "fact": "---\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\nhostname: macromicro.me\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\nsitename: MacroMicro\ndate: 2025-03-06\n---\nMacroMicro\nSearch...\nFlash Deal\nNotification Center\nLogin\nBenefits Redemption\nMy M-Coins\nPosted by Me\nMy Dashboards\nMember Profile\nSubscribe Now\nLogout\nMenu\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nCharts\nTrader's Insight\nTopics\nETF\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nAbout Us\nContact Us\nCareers\n|\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\n📢 Big insights are coming!\nUnlock free access by Yearly MM Prime\n—Trump, AI, and key market trends.\nAI recommended charts\n/ 500\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nData Download\nData File Format: CSV\nI agree to the\ndata usage terms and conditions\nof MacroMicro\nCancel\nDownload\nGot it\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\nHome\nMacro\nGlobal\nCross-Country Database\nNEW\nUnited States\nChina\nEurope\nJapan\nASEAN\nTaiwan\nEmerging Market\nSectors\nNEW\nIndustry Intelligence Hub\nUS Earnings Database\nComing Soon\nTaiwan Sector Watch\nCharts\nTrader's Insight\nTopics\nETF Screener\nETF Comparator\nStock-ETF Reverse Search\nTrump Watch\nCentral Bank\nCommodities\n13F Filings\nGlobal COT Flow\nTimeline\nVisual\nQuant\nMarket\nForex\nStocks\nETFs\nCommodities\nBonds\nCrypto\nVolatility\nSovereign Debt Default\nAnalysis\nMM Daily\nSpotlight\nBlog\nTool\nSeries\nLine Chart\nExplore\nBar Chart\nStacked Chart\nNEW\nPerformance\nSeasonality\nReturns\nCorrelation\nTimeline\nBacktesting\nAI\nMacroMicroGPT\nBeta\nAcademy\nMacro Academy\nYoutube\nCommunity\nUser Insights\nPublic\nPlans\nSubscription\nEnterprise Solutions\nMore\nBenefits Redemption\nHelp Center\nGetting Started\nPartner Program\nAbout Us\nContact Us\nCareers\nShare\nCopy\nCopied\nHelp Center\nNotification Center\nAdd to Personal Collection\nIf the chart doesn't belong to any Personal Collection, you can add it to My Dashboards by directly clicking Sure. The system will categorize it under \"Uncategorized Charts.\"",
+            "type": "search_result"
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"facts\": [{\"title\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"content\": \"---\\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\\nhostname: macromicro.me\\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\\nsitename: MacroMicro\\ndate: 2025-03-06\\n---\\nMacroMicro\\nSearch...\\nFlash Deal\\nNotification Center\\nLogin\\nBenefits Redemption\\nMy M-Coins\\nPosted by Me\\nMy Dashboards\\nMember Profile\\nSubscribe Now\\nLogout\\nMenu\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nCharts\\nTrader's Insight\\nTopics\\nETF\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nAbout Us\\nContact Us\\nCareers\\n|\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\n\\ud83d\\udce2 Big insights are coming!\\nUnlock free access by Yearly MM Prime\\n\\u2014Trump, AI, and key market trends.\\nAI recommended charts\\n/ 500\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nGot it\\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\\nHome\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\nCharts\\nTrader's Insight\\nTopics\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPublic\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nContact Us\\nCareers\\nShare\\nCopy\\nCopied\\nHelp Center\\nNotification Center\\nAdd to Personal Collection\\nIf the chart doesn't belong to any Personal Collection, you can add it to My Dashboards by directly clicking Sure. The system will categorize it under \\\"Uncategorized Charts.\\\"\", \"fact\": \"---\\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\\nhostname: macromicro.me\\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\\nsitename: MacroMicro\\ndate: 2025-03-06\\n---\\nMacroMicro\\nSearch...\\nFlash Deal\\nNotification Center\\nLogin\\nBenefits Redemption\\nMy M-Coins\\nPosted by Me\\nMy Dashboards\\nMember Profile\\nSubscribe Now\\nLogout\\nMenu\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nCharts\\nTrader's Insight\\nTopics\\nETF\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nAbout Us\\nContact Us\\nCareers\\n|\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\n\\ud83d\\udce2 Big insights are coming!\\nUnlock free access by Yearly MM Prime\\n\\u2014Trump, AI, and key market trends.\\nAI recommended charts\\n/ 500\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nGot it\\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\\nHome\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\nCharts\\nTrader's Insight\\nTopics\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPublic\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nContact Us\\nCareers\\nShare\\nCopy\\nCopied\\nHelp Center\\nNotification Center\\nAdd to Personal Collection\\nIf the chart doesn't belong to any Personal Collection, you can add it to My Dashboards by directly clicking Sure. The system will categorize it under \\\"Uncategorized Charts.\\\"\", \"type\": \"search_result\"}]}",
+      "tool_call_id": "call_tGLyYmU4R6OlmFWNwkrdkqPg"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "2b19ffbe-03ee-59f5-b519-98579dd54fd7",
+        "url": "https://www.eia.gov/petroleum/drilling/",
+        "facts": [
+          {
+            "title": "https://www.eia.gov/petroleum/drilling/",
+            "url": "https://www.eia.gov/petroleum/drilling/",
+            "fact": "The total oil production in the U.S. increased from 9,836 thousand barrels/day in May 2024 to 9,853 thousand barrels/day in June 2024, indicating a slight upward trend in production."
+          },
+          {
+            "title": "https://www.eia.gov/petroleum/drilling/",
+            "url": "https://www.eia.gov/petroleum/drilling/",
+            "fact": "The total gas production in the U.S. decreased from 99,525 million cubic feet/day in May 2024 to 99,195 million cubic feet/day in June 2024, showing a slight decline in gas production."
+          },
+          {
+            "title": "https://www.eia.gov/petroleum/drilling/",
+            "url": "https://www.eia.gov/petroleum/drilling/",
+            "fact": "The number of drilled but uncompleted (DUC) wells increased slightly from 4,504 in March 2024 to 4,510 in April 2024, suggesting a stable inventory of wells that could be completed to increase production."
+          },
+          {
+            "title": "https://www.eia.gov/petroleum/drilling/",
+            "url": "https://www.eia.gov/petroleum/drilling/",
+            "fact": "The Permian region, a major contributor to U.S. oil production, saw an increase in oil production from 6,169 thousand barrels/day in May 2024 to 6,187 thousand barrels/day in June 2024."
+          },
+          {
+            "title": "https://www.eia.gov/petroleum/drilling/",
+            "url": "https://www.eia.gov/petroleum/drilling/",
+            "fact": "The Drilling Productivity Report notes that the rig productivity metric can become unstable during periods of rapid changes in active rigs and well completions, which could impact the frac spread count."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"facts\": [{\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The total oil production in the U.S. increased from 9,836 thousand barrels/day in May 2024 to 9,853 thousand barrels/day in June 2024, indicating a slight upward trend in production.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The total gas production in the U.S. decreased from 99,525 million cubic feet/day in May 2024 to 99,195 million cubic feet/day in June 2024, showing a slight decline in gas production.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The number of drilled but uncompleted (DUC) wells increased slightly from 4,504 in March 2024 to 4,510 in April 2024, suggesting a stable inventory of wells that could be completed to increase production.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The Permian region, a major contributor to U.S. oil production, saw an increase in oil production from 6,169 thousand barrels/day in May 2024 to 6,187 thousand barrels/day in June 2024.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The Drilling Productivity Report notes that the rig productivity metric can become unstable during periods of rapid changes in active rigs and well completions, which could impact the frac spread count.\"}]}",
+      "tool_call_id": "call_e7uWmWmOSJNufIbHEgylTimH"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the US frac spread count for the week ending March 28, 2025 be 235 or greater?\nBackground: For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\nResolution criteria: This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is 235 or greater. Otherwise, it resolves as 'No'.\nFine print: For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\npresent_date: 2025-03-21T19:42:33.739900\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_x2UGQlkKp1xfz4J64ewDJrc9",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the US frac spread count for the week ending March 28, 2025 be 235 or greater?\",\"background\":\"For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\",\"resolution_criteria\":\"This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is 235 or greater. Otherwise, it resolves as 'No'.\",\"fine_print\":\"For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\",\"present_date\":\"2025-03-21T19:42:33.739900\",\"date_cutoff_start\":\"2025-03-01\",\"date_cutoff_end\":\"2025-03-21\",\"max_queries\":3}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"queries\": [\"US frac spread count March 2025 update\", \"factors affecting US frac spread count March 2025\", \"US frac spread count forecast March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_x2UGQlkKp1xfz4J64ewDJrc9"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_ZdW5SosToPrL6tamHc42dfSC",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US frac spread count March 2025 update\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_4Yq4yMFjNtqZceui4M98sxj2",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"factors affecting US frac spread count March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_TNoR0B3Puqx7qkvhGEvXBBtP",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US frac spread count forecast March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US frac spread count March 2025 update\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 1, \"snippet\": \"U.S. Frac Spread Count Data made available by Primary Vision shows that on 03/14/2025, the total frac spreads increased by 2, bringing the total to 212.\", \"date\": null}, {\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 2, \"snippet\": \"March 14, 2025: Total Rigs 2025 saw 592, with Oil at +1 (487), Gas at -1 (100), and Misc. at 0 (5). The Oil/Gas/Misc. ratio was 82 / 17 / 1.\", \"date\": null}, {\"title\": \"North American Rig Count, Drilling and Frac Spread Count Data\", \"link\": \"https://oilprice.com/rig-count\", \"position\": 3, \"snippet\": \"Frac Spread Count: 212 Updated 14th March\", \"date\": null}, {\"title\": \"US - Oil Rig Count vs. Frac Spread Count | MacroMicro\", \"link\": \"https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 5, \"snippet\": \"The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.\", \"date\": null}, {\"title\": \"US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_rotary_rigs\", \"position\": 2, \"snippet\": \"US Rig Count is at a current level of 592.00 as of Mar 14 2025, unchanged from last week and down from one year ago.\", \"date\": null}, {\"title\": \"frac spread count \\u2013 Infill Thinking\", \"link\": \"https://www.infillthinking.com/tag/frac-spread-count/\", \"position\": 5, \"snippet\": \"Information regarding the US frac spread count for March 2025 is not available in the provided text.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_ZdW5SosToPrL6tamHc42dfSC"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"factors affecting US frac spread count March 2025\", \"results\": [{\"title\": \"US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\", \"link\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 2, \"snippet\": \"The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.\", \"date\": null}, {\"title\": \"Latest News - Primary Vision\", \"link\": \"https://primaryvision.co/latest-news/\", \"position\": 4, \"snippet\": \"The provided content does not contain information relevant to the query about factors affecting US frac spread count in March 2025.\", \"date\": \"2023-03-28T07:38:42Z\"}, {\"title\": \"Drilling Productivity Report - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/petroleum/drilling/\", \"position\": 1, \"snippet\": \"The DPR metric \\\"new-well oil/natural gas production per rig\\\" can become unstable during rapid decreases or increases in rig counts and well completions. Factors like winter weather freeze-offs, extreme flooding, and oil demand contractions can also affect production...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_4Yq4yMFjNtqZceui4M98sxj2"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US frac spread count forecast March 2025\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 1, \"snippet\": \"U.S. Frac Spread Count for the week of March 14, 2025, shows a total of 212 frac spreads, a +2 change week-over-week and -57 year-over-year.\", \"date\": null}, {\"title\": \"US - Frac Spread Count | Series | MacroMicro\", \"link\": \"https://en.macromicro.me/series/17448/us-frac-spread-count\", \"position\": 3, \"snippet\": \"US - Frac Spread Count | Series | MacroMicro. MacroMicro is committed to consolidating global economic data, while deploying technology to efficiently discover the clues to economic cycles.\", \"date\": null}, {\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 5, \"snippet\": \"U.S. Rig Count data for March 2025 shows a total of 592 rigs on 03/14/2025, with oil rigs at 487 and gas rigs at 100. The previous week had 592 total rigs as well.\", \"date\": null}, {\"title\": \"Drilling Productivity Report - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/petroleum/drilling/\", \"position\": 1, \"snippet\": \"Information on US frac spread count forecast for March 2025 is not available in the provided content.\", \"date\": null}, {\"title\": \"US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_rotary_rigs\", \"position\": 3, \"snippet\": \"US Rig Count is at a current level of 592.00 as of March 14, 2025, unchanged from the previous week.\", \"date\": null}, {\"title\": \"frac spread count \\u2013 Infill Thinking\", \"link\": \"https://www.infillthinking.com/tag/frac-spread-count/\", \"position\": 4, \"snippet\": \"I am sorry, but I cannot provide a snippet for the US frac spread count forecast for March 2025 as the provided content does not contain this information.\", \"date\": null}, {\"title\": \"US - Oil Rig Count vs. Frac Spread Count | MacroMicro\", \"link\": \"https://en.macromicro.me/charts/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 5, \"snippet\": \"The frac spread count measures the number of crews actively performing hydraulic fracturing of shale in the US, serving as a coincident indicator of drilling and a leading indicator of oil production.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_TNoR0B3Puqx7qkvhGEvXBBtP"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_2xy5vas6SiHEY5VZmN34DM89",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        },
+        {
+          "id": "call_ZLAnHPyZ07cB6puAFeuZAkhP",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        },
+        {
+          "id": "call_r3u40WVKgH2eCLIogtemT33K",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.eia.gov/petroleum/drilling/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"snippet\": \"---\\ntitle: U.S. Frac Spread Count\\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\\ndate: 2025-03-19\\n---\\nDate\\n\\nTotal Frac Spreads\\n\\nTotal Frac Spreads\\n\\n(Week/Week)\\n\\n(Week/Week)\\n\\nTotal Frac Spreads\\n\\n(Year/Year)\\n\\n(Year/Year)\\n\\n03/14/2025\\n\\nTotal Frac Spreads\\n+2\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n212 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-57 (269)\\n\\n03/07/2025\\n\\nTotal Frac Spreads\\n-4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 214\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-53 (263)\\n\\n02/28/2025\\n\\nTotal Frac Spreads\\n+4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n214 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-58 (272)\\n\\n02/21/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 203\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (270)\\n\\n02/14/2025\\n\\nTotal Frac Spreads\\n+5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n203 / 198\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-61 (264)\\n\\n02/07/2025\\n\\nTotal Frac Spreads\\n+8\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n198 / 190\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-62 (260)\\n\\n01/31/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n190 / 183\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (250)\\n\\n01/24/2025\\n\\nTotal Frac Spreads\\n-5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n183 / 188\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-59 (242)\\n\\n01/17/2025\\n\\nTotal Frac Spreads\\n-7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n188 / 195\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-47 (235)\\n\\n01/10/2025\\n\\nTotal Frac Spreads\\n-6\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n195 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-39 (234)\\n\\n01/03/2025\\n\\nTotal Frac Spreads\\n0\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n201 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-35 (236)\", \"word_count\": 254, \"snippet_word_count\": 254, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-23T19:50:47.158307\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_2xy5vas6SiHEY5VZmN34DM89"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"snippet\": \"---\\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\\nhostname: macromicro.me\\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\\nsitename: MacroMicro\\ndate: 2025-03-06\\n---\\nMacroMicro\\nSearch...\\nFlash Deal\\nNotification Center\\nLogin\\nBenefits Redemption\\nMy M-Coins\\nPosted by Me\\nMy Dashboards\\nMember Profile\\nSubscribe Now\\nLogout\\nMenu\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nCharts\\nTrader's Insight\\nTopics\\nETF\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nAbout Us\\nContact Us\\nCareers\\n|\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\n\\ud83d\\udce2 Big insights are coming!\\nUnlock free access by Yearly MM Prime\\n\\u2014Trump, AI, and key market trends.\\nAI recommended charts\\n/ 500\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nGot it\\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\\nHome\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\nCharts\\nTrader's Insight\\nTopics\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSerie\\u2026\\n\\n[Truncated preview: showing 355 words out of ~437. Full content available via `btf_extract_evidence`.]\", \"word_count\": 437, \"snippet_word_count\": 355, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-24T03:37:58.959734\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_ZLAnHPyZ07cB6puAFeuZAkhP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.eia.gov/petroleum/drilling/\", \"snippet\": \"---\\ntitle: Drilling Productivity Report - U.S. Energy Information Administration (EIA)\\nurl: https://www.eia.gov/petroleum/drilling/index.php\\nhostname: eia.gov\\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\\nsitename: U.S. Energy Information Administration (EIA)\\ndate: 2025-03-14\\ncategories: ['official energy statistics, data, analysis and forecasting']\\n---\\n**Note:** Beginning June 11, 2024, we will publish the shale gas tight oil production data and *Drilling Productivity Report* data in the [ Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/) (STEO) data tables. These improvements will provide a disaggregated STEO forecast for oil and natural gas production in different regions of the United States.\\n\\n| New-well oil production per rig barrels/day |\\nNew-well gas production per rig thousand cubic feet/day |\\n|||||\\n|---|---|---|---|---|---|---|\\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\\n| Anadarko | 717 | 719 | 2 | 4,840 | 4,875 | 35 |\\n| Appalachia | 239 | 241 | 2 | 28,465 | 28,643 | 178 |\\n| Bakken | 1,745 | 1,747 | 2 | 2,660 | 2,663 | 3 |\\n| Eagle Ford | 1,635 | 1,639 | 4 | 6,059 | 6,065 | 6 |\\n| Haynesville | 14 | 14 | - | 13,453 | 13,487 | 34 |\\n| Niobrara | 1,496 | 1,498 | 2 | 4,622 | 4,678 | 56 |\\n| Permian | 1,386 | 1,400 | 14 | 2,536 | 2,547 | 11 |\\n| Rig-weighted average | 1,199 | 1,222 | 23 | 5,964 | 5,831 | (133) |\\n\\n| Oil production thousand barrels/day |\\nGas production million cubic feet/day |\\n|||||\\n|---|---|---|---|---|---|---|\\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\\n| Anadarko | 382 | 383 | 1 | 6,528 | 6,518 | (10) |\\n| Appalachia | 136 | 135 | (1) | 35,967 | 35,791 | (176) |\\n| Bakken | 1,313 | 1,313 | - | 3,471 | 3,487 | 16 |\\n| Eagle Ford | 1,102 | 1,106 | 4 | 7,344 | 7,323 | (21) |\\n| Haynesville | 32 | 32 | - | 15,606 | 15,339 | (267) |\\n| Niobrara | 702 | 697 | (5) | 5,359 | 5,344 | (15) |\\n| Permian | 6,169 | 6,187 | 18 | 25,250 | 25,393 | 143 |\\n| Total | 9,836 | 9,853 | 17 | 99,525 | 99,195 | (330) |\\n\\n| Drilled but uncompleted wells (DUC) wells |\\n|||\\n|---|---|---|---|\\n| Region | March 2024 | April 2024 | change |\\n| Anadarko | 697 | 701 | 4 |\\n| Appalachia | 819 | 824 | 5 |\\n| Bakken | 322 | 328 | 6 |\\n| Eagle Ford | 347 | 345 | (2) |\\n| Haynesville | 784 | 791 | 7 |\\n| Niobrara | 644 | 628 | (16) |\\n| Permian | 891 | 893 | 2 |\\n| Total | 4,504 | 4,510 | 6 |\\n\\nThe *Drilling Productivity Report* (DPR) rig productivity metric\\u2026\\n\\n[Truncated preview: showing 512 words out of ~732. Full content available via `btf_extract_evidence`.]\", \"word_count\": 732, \"snippet_word_count\": 512, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-24T03:37:59.404875\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_r3u40WVKgH2eCLIogtemT33K"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_EIDFeSFeazzon4Kbf6NU2K2o",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"content\": \"---\\ntitle: U.S. Frac Spread Count\\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\\ndate: 2025-03-19\\n---\\nDate\\n\\nTotal Frac Spreads\\n\\nTotal Frac Spreads\\n\\n(Week/Week)\\n\\n(Week/Week)\\n\\nTotal Frac Spreads\\n\\n(Year/Year)\\n\\n(Year/Year)\\n\\n03/14/2025\\n\\nTotal Frac Spreads\\n+2\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n212 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-57 (269)\\n\\n03/07/2025\\n\\nTotal Frac Spreads\\n-4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 214\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-53 (263)\\n\\n02/28/2025\\n\\nTotal Frac Spreads\\n+4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n214 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-58 (272)\\n\\n02/21/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 203\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (270)\\n\\n02/14/2025\\n\\nTotal Frac Spreads\\n+5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n203 / 198\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-61 (264)\\n\\n02/07/2025\\n\\nTotal Frac Spreads\\n+8\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n198 / 190\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-62 (260)\\n\\n01/31/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n190 / 183\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (250)\\n\\n01/24/2025\\n\\nTotal Frac Spreads\\n-5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n183 / 188\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-59 (242)\\n\\n01/17/2025\\n\\nTotal Frac Spreads\\n-7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n188 / 195\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-47 (235)\\n\\n01/10/2025\\n\\nTotal Frac Spreads\\n-6\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n195 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-39 (234)\\n\\n01/03/2025\\n\\nTotal Frac Spreads\\n0\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n201 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-35 (236)\", \"question\": \"Will the US frac spread count for the week ending March 28, 2025 be 235 or greater?\", \"background\": \"For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\", \"resolution_criteria\": \"This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is 235 or greater. Otherwise, it resolves as 'No'.\", \"fine_print\": \"For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\", \"present_date\": \"2025-03-21T19:42:33.739900\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_tGLyYmU4R6OlmFWNwkrdkqPg",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"content\": \"---\\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\\nhostname: macromicro.me\\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\\nsitename: MacroMicro\\ndate: 2025-03-06\\n---\\nMacroMicro\\nSearch...\\nFlash Deal\\nNotification Center\\nLogin\\nBenefits Redemption\\nMy M-Coins\\nPosted by Me\\nMy Dashboards\\nMember Profile\\nSubscribe Now\\nLogout\\nMenu\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nCharts\\nTrader's Insight\\nTopics\\nETF\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nAbout Us\\nContact Us\\nCareers\\n|\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\n\\nd83d\\ndce2 Big insights are coming!\\nUnlock free access by Yearly MM Prime\\n\\u0014Trump, AI, and key market trends.\\nAI recommended charts\\n/ 500\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nGot it\\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\\nHome\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\nCharts\\nTrader's Insight\\nTopics\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSerie\\u001e\", \"question\": \"Will the US frac spread count for the week ending March 28, 2025 be 235 or greater?\", \"background\": \"For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\", \"resolution_criteria\": \"This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is 235 or greater. Otherwise, it resolves as 'No'.\", \"fine_print\": \"For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\", \"present_date\": \"2025-03-21T19:42:33.739900\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_e7uWmWmOSJNufIbHEgylTimH",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.eia.gov/petroleum/drilling/\", \"content\": \"---\\ntitle: Drilling Productivity Report - U.S. Energy Information Administration (EIA)\\nurl: https://www.eia.gov/petroleum/drilling/index.php\\nhostname: eia.gov\\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\\nsitename: U.S. Energy Information Administration (EIA)\\ndate: 2025-03-14\\ncategories: ['official energy statistics, data, analysis and forecasting']\\n---\\n**Note:** Beginning June 11, 2024, we will publish the shale gas tight oil production data and *Drilling Productivity Report* data in the [ Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/) (STEO) data tables. These improvements will provide a disaggregated STEO forecast for oil and natural gas production in different regions of the United States.\\n\\n| New-well oil production per rig barrels/day |\\nNew-well gas production per rig thousand cubic feet/day |\\n|||||\\n|---|---|---|---|---|---|---|\\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\\n| Anadarko | 717 | 719 | 2 | 4,840 | 4,875 | 35 |\\n| Appalachia | 239 | 241 | 2 | 28,465 | 28,643 | 178 |\\n| Bakken | 1,745 | 1,747 | 2 | 2,660 | 2,663 | 3 |\\n| Eagle Ford | 1,635 | 1,639 | 4 | 6,059 | 6,065 | 6 |\\n| Haynesville | 14 | 14 | - | 13,453 | 13,487 | 34 |\\n| Niobrara | 1,496 | 1,498 | 2 | 4,622 | 4,678 | 56 |\\n| Permian | 1,386 | 1,400 | 14 | 2,536 | 2,547 | 11 |\\n| Rig-weighted average | 1,199 | 1,222 | 23 | 5,964 | 5,831 | (133) |\\n\\n| Oil production thousand barrels/day |\\nGas production million cubic feet/day |\\n|||||\\n|---|---|---|---|---|---|---|\\n| Region | May 2024 | June 2024 | change | May 2024 | June 2024 | change |\\n| Anadarko | 382 | 383 | 1 | 6,528 | 6,518 | (10) |\\n| Appalachia | 136 | 135 | (1) | 35,967 | 35,791 | (176) |\\n| Bakken | 1,313 | 1,313 | - | 3,471 | 3,487 | 16 |\\n| Eagle Ford | 1,102 | 1,106 | 4 | 7,344 | 7,323 | (21) |\\n| Haynesville | 32 | 32 | - | 15,606 | 15,339 | (267) |\\n| Niobrara | 702 | 697 | (5) | 5,359 | 5,344 | (15) |\\n| Permian | 6,169 | 6,187 | 18 | 25,250 | 25,393 | 143 |\\n| Total | 9,836 | 9,853 | 17 | 99,525 | 99,195 | (330) |\\n\\n| Drilled but uncompleted wells (DUC) wells |\\n|||\\n|---|---|---|---|\\n| Region | March 2024 | April 2024 | change |\\n| Anadarko | 697 | 701 | 4 |\\n| Appalachia | 819 | 824 | 5 |\\n| Bakken | 322 | 328 | 6 |\\n| Eagle Ford | 347 | 345 | (2) |\\n| Haynesville | 784 | 791 | 7 |\\n| Niobrara | 644 | 628 | (16) |\\n| Permian | 891 | 893 | 2 |\\n| Total | 4,504 | 4,510 | 6 |\\n\\nThe *Drilling Productivity Report* (DPR) rig productivity metric\\u001e\", \"question\": \"Will the US frac spread count for the week ending March 28, 2025 be 235 or greater?\", \"background\": \"For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\", \"resolution_criteria\": \"This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is 235 or greater. Otherwise, it resolves as 'No'.\", \"fine_print\": \"For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\", \"present_date\": \"2025-03-21T19:42:33.739900\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"As of March 14, 2025, the total frac spreads count is 212.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The week-over-week change for March 14, 2025, was an increase of 2 spreads.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The total frac spreads count has been increasing gradually since January 31, 2025, when it was 190.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The largest recent week-over-week increase was 8 spreads on February 7, 2025.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_EIDFeSFeazzon4Kbf6NU2K2o"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"facts\": [{\"title\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"url\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"content\": \"---\\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\\nhostname: macromicro.me\\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\\nsitename: MacroMicro\\ndate: 2025-03-06\\n---\\nMacroMicro\\nSearch...\\nFlash Deal\\nNotification Center\\nLogin\\nBenefits Redemption\\nMy M-Coins\\nPosted by Me\\nMy Dashboards\\nMember Profile\\nSubscribe Now\\nLogout\\nMenu\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nCharts\\nTrader's Insight\\nTopics\\nETF\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nAbout Us\\nContact Us\\nCareers\\n|\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\n\\ud83d\\udce2 Big insights are coming!\\nUnlock free access by Yearly MM Prime\\n\\u2014Trump, AI, and key market trends.\\nAI recommended charts\\n/ 500\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nGot it\\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\\nHome\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\nCharts\\nTrader's Insight\\nTopics\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPublic\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nContact Us\\nCareers\\nShare\\nCopy\\nCopied\\nHelp Center\\nNotification Center\\nAdd to Personal Collection\\nIf the chart doesn't belong to any Personal Collection, you can add it to My Dashboards by directly clicking Sure. The system will categorize it under \\\"Uncategorized Charts.\\\"\", \"fact\": \"---\\ntitle: US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\\nurl: https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\\nhostname: macromicro.me\\ndescription: The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US, and serves as a coincident indicator of the number of wells being drilled and a leading indicator of oil production.\\nsitename: MacroMicro\\ndate: 2025-03-06\\n---\\nMacroMicro\\nSearch...\\nFlash Deal\\nNotification Center\\nLogin\\nBenefits Redemption\\nMy M-Coins\\nPosted by Me\\nMy Dashboards\\nMember Profile\\nSubscribe Now\\nLogout\\nMenu\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nCharts\\nTrader's Insight\\nTopics\\nETF\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nAbout Us\\nContact Us\\nCareers\\n|\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\n\\ud83d\\udce2 Big insights are coming!\\nUnlock free access by Yearly MM Prime\\n\\u2014Trump, AI, and key market trends.\\nAI recommended charts\\n/ 500\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nData Download\\nData File Format: CSV\\nI agree to the\\ndata usage terms and conditions\\nof MacroMicro\\nCancel\\nDownload\\nGot it\\nMacroMicaro utilizes OpenAI to enable charts to automatically associate with other relevant charts.\\nHome\\nMacro\\nGlobal\\nCross-Country Database\\nNEW\\nUnited States\\nChina\\nEurope\\nJapan\\nASEAN\\nTaiwan\\nEmerging Market\\nSectors\\nNEW\\nIndustry Intelligence Hub\\nUS Earnings Database\\nComing Soon\\nTaiwan Sector Watch\\nCharts\\nTrader's Insight\\nTopics\\nETF Screener\\nETF Comparator\\nStock-ETF Reverse Search\\nTrump Watch\\nCentral Bank\\nCommodities\\n13F Filings\\nGlobal COT Flow\\nTimeline\\nVisual\\nQuant\\nMarket\\nForex\\nStocks\\nETFs\\nCommodities\\nBonds\\nCrypto\\nVolatility\\nSovereign Debt Default\\nAnalysis\\nMM Daily\\nSpotlight\\nBlog\\nTool\\nSeries\\nLine Chart\\nExplore\\nBar Chart\\nStacked Chart\\nNEW\\nPerformance\\nSeasonality\\nReturns\\nCorrelation\\nTimeline\\nBacktesting\\nAI\\nMacroMicroGPT\\nBeta\\nAcademy\\nMacro Academy\\nYoutube\\nCommunity\\nUser Insights\\nPublic\\nPlans\\nSubscription\\nEnterprise Solutions\\nMore\\nBenefits Redemption\\nHelp Center\\nGetting Started\\nPartner Program\\nAbout Us\\nContact Us\\nCareers\\nShare\\nCopy\\nCopied\\nHelp Center\\nNotification Center\\nAdd to Personal Collection\\nIf the chart doesn't belong to any Personal Collection, you can add it to My Dashboards by directly clicking Sure. The system will categorize it under \\\"Uncategorized Charts.\\\"\", \"type\": \"search_result\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_tGLyYmU4R6OlmFWNwkrdkqPg"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2b19ffbe-03ee-59f5-b519-98579dd54fd7\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"facts\": [{\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The total oil production in the U.S. increased from 9,836 thousand barrels/day in May 2024 to 9,853 thousand barrels/day in June 2024, indicating a slight upward trend in production.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The total gas production in the U.S. decreased from 99,525 million cubic feet/day in May 2024 to 99,195 million cubic feet/day in June 2024, showing a slight decline in gas production.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The number of drilled but uncompleted (DUC) wells increased slightly from 4,504 in March 2024 to 4,510 in April 2024, suggesting a stable inventory of wells that could be completed to increase production.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The Permian region, a major contributor to U.S. oil production, saw an increase in oil production from 6,169 thousand barrels/day in May 2024 to 6,187 thousand barrels/day in June 2024.\"}, {\"title\": \"https://www.eia.gov/petroleum/drilling/\", \"url\": \"https://www.eia.gov/petroleum/drilling/\", \"fact\": \"The Drilling Productivity Report notes that the rig productivity metric can become unstable during periods of rapid changes in active rigs and well completions, which could impact the frac spread count.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_e7uWmWmOSJNufIbHEgylTimH"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered information, here is the analysis regarding the probability of the US frac spread count reaching 235 or greater by the week ending March 28, 2025:\n\n1. **Current Frac Spread Count**: As of March 14, 2025, the total frac spread count is 212. This represents a week-over-week increase of 2 spreads from 210 on March 7, 2025. The count has been increasing gradually since January 31, 2025, when it was 190.\n\n2. **Historical Trends**: The largest recent week-over-week increase was 8 spreads on February 7, 2025. However, the year-over-year change shows a decrease of 57 spreads from 269 on March 14, 2024, indicating a downward trend compared to the previous year.\n\n3. **Factors Influencing Frac Spread Count**: The Drilling Productivity Report notes that rig productivity can become unstable during rapid changes in active rigs and well completions. The number of drilled but uncompleted (DUC) wells has increased slightly, suggesting potential for future completions that could impact the frac spread count.\n\n4. **Oil and Gas Production Trends**: There is a slight upward trend in oil production and a slight decline in gas production. The Permian region, a major contributor to U.S. oil production, saw an increase in production, which could support an increase in frac spreads if demand and economic conditions align.\n\n5. **Economic and Market Conditions**: The frac spread count is a leading indicator of oil production and is influenced by market conditions, oil prices, and demand for oil and gas. Without specific forecasts indicating a significant increase in demand or economic conditions that would drive a rapid increase in frac spreads, the probability of reaching 235 by March 28, 2025, seems low.\n\nGiven the current count of 212 and the gradual increase observed, reaching 235 would require a substantial increase in the coming weeks, which seems unlikely based on current trends and available data.\n\nFINAL PROBABILITY: 0.2"
+    }
+  ]
+}

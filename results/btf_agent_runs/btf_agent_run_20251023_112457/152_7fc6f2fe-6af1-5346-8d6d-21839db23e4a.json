@@ -1,0 +1,450 @@
+{
+  "question_id": "7fc6f2fe-6af1-5346-8d6d-21839db23e4a",
+  "question": "In its March update, will Similarweb report chatgpt.com having a higher rank than wikipedia.org?",
+  "probability": 0.2,
+  "reasoning": "Based on the evidence gathered:\n\n1. **Current Rankings**: As of February 2025, chatgpt.com is ranked below wikipedia.org in the list of most-visited websites. Wikipedia.org is listed before chatgpt.com, indicating a higher position in the rankings.\n\n2. **Traffic Data**: ChatGPT.com receives approximately 4.7 billion visits per month, whereas Wikipedia.org receives approximately 7.09 billion visits per month as of February 2025. This suggests that Wikipedia.org has significantly more traffic than ChatGPT.com.\n\n3. **Growth Trends**: Although ChatGPT's traffic and usage have been growing strongly, it is still behind Wikipedia in terms of total visits.\n\nGiven the current data and trends, it seems unlikely that chatgpt.com will surpass wikipedia.org in the Similarweb rankings by the March 2025 update.\n\nFINAL PROBABILITY: 0.2",
+  "search_results": [
+    {
+      "title": "Search result",
+      "url": "https://www.similarweb.com/top-websites/",
+      "content": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+    },
+    {
+      "title": "List of most-visited websites - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "content": "This is a list of most-visited websites worldwide as of February 2025, along with their change in ranking compared to the previous month. Data is compiled from Similarweb..."
+    },
+    {
+      "title": "Search result",
+      "url": "https://www.similarweb.com/top-websites/trending/",
+      "content": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+    },
+    {
+      "title": "Top Websites in the World - January 2025 Most Visited & Popular Rankings - Semrush | Semrush",
+      "url": "https://www.semrush.com/website/top/",
+      "content": "Get the latest January 2025 website rankings in the World with Semrush: traffic, conversion, and engagement insights. As of January 2025, google.com is the most visited website in the World, attracting 139.95B monthly visits."
+    },
+    {
+      "title": "Search result",
+      "url": "https://www.similarweb.com/top-websites/computers-electronics-and-technology/search-engines/",
+      "content": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+    },
+    {
+      "title": "Number of ChatGPT Users (Feb 2025)",
+      "url": "https://explodingtopics.com/blog/chatgpt-users",
+      "content": "According to January 2025 data, ChatGPT ranks #9 in the world's most visited websites, with approximately 4.7 billion visits in the previous 30 days."
+    },
+    {
+      "title": "chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush",
+      "url": "https://www.semrush.com/website/chatgpt.com/overview/",
+      "content": "chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States."
+    },
+    {
+      "title": "chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush",
+      "url": "https://www.semrush.com/website/chatgpt.com/overview/",
+      "content": "chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States."
+    },
+    {
+      "title": "Google vs. ChatGPT: Traditional Search Still Going Strong | 9Rooftops Marketing Agency | Data-fueled (Digital) Strategy & Performance Creative",
+      "url": "https://www.9rooftops.com/blog/google-vs-chatgpt-traditional-search-still-going-strong/",
+      "content": "Contrary to predictions, traffic to Google Search has not only remained stable but has actually increased since ChatGPT's debut. Google’s traffic grew by 1.4% from May 2023 to May 2024..."
+    },
+    {
+      "title": "List of most-visited websites - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "content": "This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025)."
+    },
+    {
+      "title": "List of most-visited websites - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "content": "This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025)."
+    },
+    {
+      "title": "Search result",
+      "url": "https://www.similarweb.com/website/wikipedia.org/",
+      "content": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+    },
+    {
+      "title": "wikipedia.org Website Traffic, Ranking, Analytics [January 2025] | Semrush",
+      "url": "https://www.semrush.com/website/wikipedia.org/overview/",
+      "content": "On wikipedia.org, visitors mainly come from google.com__Google organic (66.17% of traffic), followed by Direct (18.79%)..."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "fact": "As of February 2025, chatgpt.com is ranked below wikipedia.org in the list of most-visited websites."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "fact": "Wikipedia.org is listed before chatgpt.com in the ranking, indicating a higher position."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "fact": "The data is compiled from Similarweb as of November 2024, suggesting that the rankings are based on recent traffic data."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "fact": "The list does not factor subpages that use the same domain as the parent site, focusing on main domain traffic."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+      "fact": "The ranking list is updated monthly, indicating that changes in website traffic can affect rankings quickly."
+    },
+    {
+      "title": "https://explodingtopics.com/blog/chatgpt-users",
+      "url": "https://explodingtopics.com/blog/chatgpt-users",
+      "fact": "As of January 2025, ChatGPT ranks #9 in the world's most visited websites according to Semrush."
+    },
+    {
+      "title": "https://explodingtopics.com/blog/chatgpt-users",
+      "url": "https://explodingtopics.com/blog/chatgpt-users",
+      "fact": "ChatGPT.com receives approximately 4.7 billion visits per month as of February 2025."
+    },
+    {
+      "title": "https://explodingtopics.com/blog/chatgpt-users",
+      "url": "https://explodingtopics.com/blog/chatgpt-users",
+      "fact": "Wikipedia.org receives approximately 7.09 billion visits per month as of February 2025."
+    },
+    {
+      "title": "https://explodingtopics.com/blog/chatgpt-users",
+      "url": "https://explodingtopics.com/blog/chatgpt-users",
+      "fact": "ChatGPT's traffic and usage have skyrocketed since its launch, indicating a strong growth trend."
+    },
+    {
+      "title": "https://explodingtopics.com/blog/chatgpt-users",
+      "url": "https://explodingtopics.com/blog/chatgpt-users",
+      "fact": "ChatGPT has a bounce rate of 42.35% and each visitor views an average of 2.72 pages per visit."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 1.0,
+  "brier_score": 0.6400000000000001,
+  "weighted_brier_score": 0.6400000000000001,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "7fc6f2fe-6af1-5346-8d6d-21839db23e4a",
+        "queries": [
+          "Similarweb top websites ranking February 2025",
+          "ChatGPT website traffic trends 2025",
+          "Wikipedia website traffic trends 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"7fc6f2fe-6af1-5346-8d6d-21839db23e4a\", \"queries\": [\"Similarweb top websites ranking February 2025\", \"ChatGPT website traffic trends 2025\", \"Wikipedia website traffic trends 2025\"]}",
+      "tool_call_id": "call_9zkE0XFCNsLEf3Tbwbx3icq9"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Similarweb top websites ranking February 2025",
+        "results": [
+          {
+            "title": "",
+            "link": "https://www.similarweb.com/top-websites/",
+            "position": 1,
+            "snippet": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+            "date": null
+          },
+          {
+            "title": "List of most-visited websites - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "position": 2,
+            "snippet": "This is a list of most-visited websites worldwide as of February 2025, along with their change in ranking compared to the previous month. Data is compiled from Similarweb...",
+            "date": null
+          },
+          {
+            "title": "",
+            "link": "https://www.similarweb.com/top-websites/trending/",
+            "position": 3,
+            "snippet": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+            "date": null
+          },
+          {
+            "title": "Top Websites in the World - January 2025 Most Visited & Popular Rankings - Semrush | Semrush",
+            "link": "https://www.semrush.com/website/top/",
+            "position": 5,
+            "snippet": "Get the latest January 2025 website rankings in the World with Semrush: traffic, conversion, and engagement insights. As of January 2025, google.com is the most visited website in the World, attracting 139.95B monthly visits.",
+            "date": null
+          },
+          {
+            "title": "",
+            "link": "https://www.similarweb.com/top-websites/computers-electronics-and-technology/search-engines/",
+            "position": 3,
+            "snippet": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Similarweb top websites ranking February 2025\", \"results\": [{\"title\": \"\", \"link\": \"https://www.similarweb.com/top-websites/\", \"position\": 1, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"List of most-visited websites - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"position\": 2, \"snippet\": \"This is a list of most-visited websites worldwide as of February 2025, along with their change in ranking compared to the previous month. Data is compiled from Similarweb...\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.similarweb.com/top-websites/trending/\", \"position\": 3, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"Top Websites in the World - January 2025 Most Visited & Popular Rankings - Semrush | Semrush\", \"link\": \"https://www.semrush.com/website/top/\", \"position\": 5, \"snippet\": \"Get the latest January 2025 website rankings in the World with Semrush: traffic, conversion, and engagement insights. As of January 2025, google.com is the most visited website in the World, attracting 139.95B monthly visits.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.similarweb.com/top-websites/computers-electronics-and-technology/search-engines/\", \"position\": 3, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}]}",
+      "tool_call_id": "call_KLtRRY3FYn6rdpbKkioTLsl3"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "ChatGPT website traffic trends 2025",
+        "results": [
+          {
+            "title": "Number of ChatGPT Users (Feb 2025)",
+            "link": "https://explodingtopics.com/blog/chatgpt-users",
+            "position": 1,
+            "snippet": "According to January 2025 data, ChatGPT ranks #9 in the world's most visited websites, with approximately 4.7 billion visits in the previous 30 days.",
+            "date": "2024-12-03T20:22:00Z"
+          },
+          {
+            "title": "chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush",
+            "link": "https://www.semrush.com/website/chatgpt.com/overview/",
+            "position": 3,
+            "snippet": "chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States.",
+            "date": null
+          },
+          {
+            "title": "chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush",
+            "link": "https://www.semrush.com/website/chatgpt.com/overview/",
+            "position": 1,
+            "snippet": "chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States.",
+            "date": null
+          },
+          {
+            "title": "Google vs. ChatGPT: Traditional Search Still Going Strong | 9Rooftops Marketing Agency | Data-fueled (Digital) Strategy & Performance Creative",
+            "link": "https://www.9rooftops.com/blog/google-vs-chatgpt-traditional-search-still-going-strong/",
+            "position": 4,
+            "snippet": "Contrary to predictions, traffic to Google Search has not only remained stable but has actually increased since ChatGPT's debut. Google’s traffic grew by 1.4% from May 2023 to May 2024...",
+            "date": "2024-08-13T14:32:27Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"ChatGPT website traffic trends 2025\", \"results\": [{\"title\": \"Number of ChatGPT Users (Feb 2025)\", \"link\": \"https://explodingtopics.com/blog/chatgpt-users\", \"position\": 1, \"snippet\": \"According to January 2025 data, ChatGPT ranks #9 in the world's most visited websites, with approximately 4.7 billion visits in the previous 30 days.\", \"date\": \"2024-12-03T20:22:00Z\"}, {\"title\": \"chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush\", \"link\": \"https://www.semrush.com/website/chatgpt.com/overview/\", \"position\": 3, \"snippet\": \"chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States.\", \"date\": null}, {\"title\": \"chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush\", \"link\": \"https://www.semrush.com/website/chatgpt.com/overview/\", \"position\": 1, \"snippet\": \"chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States.\", \"date\": null}, {\"title\": \"Google vs. ChatGPT: Traditional Search Still Going Strong | 9Rooftops Marketing Agency | Data-fueled (Digital) Strategy & Performance Creative\", \"link\": \"https://www.9rooftops.com/blog/google-vs-chatgpt-traditional-search-still-going-strong/\", \"position\": 4, \"snippet\": \"Contrary to predictions, traffic to Google Search has not only remained stable but has actually increased since ChatGPT's debut. Google\\u2019s traffic grew by 1.4% from May 2023 to May 2024...\", \"date\": \"2024-08-13T14:32:27Z\"}]}",
+      "tool_call_id": "call_be6ewbNkG9gKgLo5XQm1GVnS"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Wikipedia website traffic trends 2025",
+        "results": [
+          {
+            "title": "List of most-visited websites - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "position": 3,
+            "snippet": "This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025).",
+            "date": null
+          },
+          {
+            "title": "List of most-visited websites - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "position": 3,
+            "snippet": "This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025).",
+            "date": null
+          },
+          {
+            "title": "",
+            "link": "https://www.similarweb.com/website/wikipedia.org/",
+            "position": 2,
+            "snippet": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+            "date": null
+          },
+          {
+            "title": "wikipedia.org Website Traffic, Ranking, Analytics [January 2025] | Semrush",
+            "link": "https://www.semrush.com/website/wikipedia.org/overview/",
+            "position": 3,
+            "snippet": "On wikipedia.org, visitors mainly come from google.com__Google organic (66.17% of traffic), followed by Direct (18.79%)...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Wikipedia website traffic trends 2025\", \"results\": [{\"title\": \"List of most-visited websites - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"position\": 3, \"snippet\": \"This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025).\", \"date\": null}, {\"title\": \"List of most-visited websites - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"position\": 3, \"snippet\": \"This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025).\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.similarweb.com/website/wikipedia.org/\", \"position\": 2, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"wikipedia.org Website Traffic, Ranking, Analytics [January 2025] | Semrush\", \"link\": \"https://www.semrush.com/website/wikipedia.org/overview/\", \"position\": 3, \"snippet\": \"On wikipedia.org, visitors mainly come from google.com__Google organic (66.17% of traffic), followed by Direct (18.79%)...\", \"date\": null}]}",
+      "tool_call_id": "call_jH3zOFH2iirX2rhgBlMpGPAj"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "7fc6f2fe-6af1-5346-8d6d-21839db23e4a",
+        "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+        "facts": [
+          {
+            "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "fact": "As of February 2025, chatgpt.com is ranked below wikipedia.org in the list of most-visited websites."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "fact": "Wikipedia.org is listed before chatgpt.com in the ranking, indicating a higher position."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "fact": "The data is compiled from Similarweb as of November 2024, suggesting that the rankings are based on recent traffic data."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "fact": "The list does not factor subpages that use the same domain as the parent site, focusing on main domain traffic."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+            "fact": "The ranking list is updated monthly, indicating that changes in website traffic can affect rankings quickly."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"7fc6f2fe-6af1-5346-8d6d-21839db23e4a\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"facts\": [{\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"As of February 2025, chatgpt.com is ranked below wikipedia.org in the list of most-visited websites.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"Wikipedia.org is listed before chatgpt.com in the ranking, indicating a higher position.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"The data is compiled from Similarweb as of November 2024, suggesting that the rankings are based on recent traffic data.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"The list does not factor subpages that use the same domain as the parent site, focusing on main domain traffic.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"The ranking list is updated monthly, indicating that changes in website traffic can affect rankings quickly.\"}]}",
+      "tool_call_id": "call_aOXWllm9EJ3WXKbkdtdN65dp"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "7fc6f2fe-6af1-5346-8d6d-21839db23e4a",
+        "url": "https://explodingtopics.com/blog/chatgpt-users",
+        "facts": [
+          {
+            "title": "https://explodingtopics.com/blog/chatgpt-users",
+            "url": "https://explodingtopics.com/blog/chatgpt-users",
+            "fact": "As of January 2025, ChatGPT ranks #9 in the world's most visited websites according to Semrush."
+          },
+          {
+            "title": "https://explodingtopics.com/blog/chatgpt-users",
+            "url": "https://explodingtopics.com/blog/chatgpt-users",
+            "fact": "ChatGPT.com receives approximately 4.7 billion visits per month as of February 2025."
+          },
+          {
+            "title": "https://explodingtopics.com/blog/chatgpt-users",
+            "url": "https://explodingtopics.com/blog/chatgpt-users",
+            "fact": "Wikipedia.org receives approximately 7.09 billion visits per month as of February 2025."
+          },
+          {
+            "title": "https://explodingtopics.com/blog/chatgpt-users",
+            "url": "https://explodingtopics.com/blog/chatgpt-users",
+            "fact": "ChatGPT's traffic and usage have skyrocketed since its launch, indicating a strong growth trend."
+          },
+          {
+            "title": "https://explodingtopics.com/blog/chatgpt-users",
+            "url": "https://explodingtopics.com/blog/chatgpt-users",
+            "fact": "ChatGPT has a bounce rate of 42.35% and each visitor views an average of 2.72 pages per visit."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"7fc6f2fe-6af1-5346-8d6d-21839db23e4a\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"facts\": [{\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"As of January 2025, ChatGPT ranks #9 in the world's most visited websites according to Semrush.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"ChatGPT.com receives approximately 4.7 billion visits per month as of February 2025.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"Wikipedia.org receives approximately 7.09 billion visits per month as of February 2025.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"ChatGPT's traffic and usage have skyrocketed since its launch, indicating a strong growth trend.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"ChatGPT has a bounce rate of 42.35% and each visitor views an average of 2.72 pages per visit.\"}]}",
+      "tool_call_id": "call_YfMSzlRuEklJiijVCLdtCzCu"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: In its March update, will Similarweb report chatgpt.com having a higher rank than wikipedia.org?\nBackground: [ChatGPT website traffic hits a new high, ranking sixth in the world](https://www.panewslab.com/en/articledetails/m015gje2.html)\nResolution criteria: This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, chatgpt.com has a higher rank than wikipedia.org at the [Similarweb Top Websites Ranking](https://www.similarweb.com/top-websites/). If wikipedia.org has a higher rank, this question resolves as **No**.\nFine print: When accessing the rankings, ensure it is set to All Categories and Worldwide.\npresent_date: 2025-02-28T11:21:50.495191\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_9zkE0XFCNsLEf3Tbwbx3icq9",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"In its March update, will Similarweb report chatgpt.com having a higher rank than wikipedia.org?\",\"background\":\"ChatGPT website traffic hits a new high, ranking sixth in the world\",\"resolution_criteria\":\"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, chatgpt.com has a higher rank than wikipedia.org at the Similarweb Top Websites Ranking. If wikipedia.org has a higher rank, this question resolves as **No**.\",\"fine_print\":\"When accessing the rankings, ensure it is set to All Categories and Worldwide.\",\"present_date\":\"2025-02-28T11:21:50.495191\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"7fc6f2fe-6af1-5346-8d6d-21839db23e4a\", \"queries\": [\"Similarweb top websites ranking February 2025\", \"ChatGPT website traffic trends 2025\", \"Wikipedia website traffic trends 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_9zkE0XFCNsLEf3Tbwbx3icq9"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_KLtRRY3FYn6rdpbKkioTLsl3",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Similarweb top websites ranking February 2025\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_be6ewbNkG9gKgLo5XQm1GVnS",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"ChatGPT website traffic trends 2025\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_jH3zOFH2iirX2rhgBlMpGPAj",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Wikipedia website traffic trends 2025\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Similarweb top websites ranking February 2025\", \"results\": [{\"title\": \"\", \"link\": \"https://www.similarweb.com/top-websites/\", \"position\": 1, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"List of most-visited websites - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"position\": 2, \"snippet\": \"This is a list of most-visited websites worldwide as of February 2025, along with their change in ranking compared to the previous month. Data is compiled from Similarweb...\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.similarweb.com/top-websites/trending/\", \"position\": 3, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"Top Websites in the World - January 2025 Most Visited & Popular Rankings - Semrush | Semrush\", \"link\": \"https://www.semrush.com/website/top/\", \"position\": 5, \"snippet\": \"Get the latest January 2025 website rankings in the World with Semrush: traffic, conversion, and engagement insights. As of January 2025, google.com is the most visited website in the World, attracting 139.95B monthly visits.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.similarweb.com/top-websites/computers-electronics-and-technology/search-engines/\", \"position\": 3, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_KLtRRY3FYn6rdpbKkioTLsl3"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"ChatGPT website traffic trends 2025\", \"results\": [{\"title\": \"Number of ChatGPT Users (Feb 2025)\", \"link\": \"https://explodingtopics.com/blog/chatgpt-users\", \"position\": 1, \"snippet\": \"According to January 2025 data, ChatGPT ranks #9 in the world's most visited websites, with approximately 4.7 billion visits in the previous 30 days.\", \"date\": \"2024-12-03T20:22:00Z\"}, {\"title\": \"chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush\", \"link\": \"https://www.semrush.com/website/chatgpt.com/overview/\", \"position\": 3, \"snippet\": \"chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States.\", \"date\": null}, {\"title\": \"chatgpt.com Website Traffic, Ranking, Analytics [January 2025] | Semrush\", \"link\": \"https://www.semrush.com/website/chatgpt.com/overview/\", \"position\": 1, \"snippet\": \"chatgpt.com is ranked #16 in US with 4.67B Traffic. January 2025 Traffic Stats show Global Rank: 10, Country Rank: 16 in United States.\", \"date\": null}, {\"title\": \"Google vs. ChatGPT: Traditional Search Still Going Strong | 9Rooftops Marketing Agency | Data-fueled (Digital) Strategy & Performance Creative\", \"link\": \"https://www.9rooftops.com/blog/google-vs-chatgpt-traditional-search-still-going-strong/\", \"position\": 4, \"snippet\": \"Contrary to predictions, traffic to Google Search has not only remained stable but has actually increased since ChatGPT's debut. Google\\u2019s traffic grew by 1.4% from May 2023 to May 2024...\", \"date\": \"2024-08-13T14:32:27Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_be6ewbNkG9gKgLo5XQm1GVnS"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Wikipedia website traffic trends 2025\", \"results\": [{\"title\": \"List of most-visited websites - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"position\": 3, \"snippet\": \"This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025).\", \"date\": null}, {\"title\": \"List of most-visited websites - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"position\": 3, \"snippet\": \"This is a list of most-visited websites worldwide as of February 2025, update. Data is compiled from Similarweb (as of November 2024 update) and Semrush (as of January 2025).\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.similarweb.com/website/wikipedia.org/\", \"position\": 2, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"wikipedia.org Website Traffic, Ranking, Analytics [January 2025] | Semrush\", \"link\": \"https://www.semrush.com/website/wikipedia.org/overview/\", \"position\": 3, \"snippet\": \"On wikipedia.org, visitors mainly come from google.com__Google organic (66.17% of traffic), followed by Direct (18.79%)...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_jH3zOFH2iirX2rhgBlMpGPAj"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_aOXWllm9EJ3WXKbkdtdN65dp",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"question\": \"In its March update, will Similarweb report chatgpt.com having a higher rank than wikipedia.org?\", \"background\": \"ChatGPT website traffic hits a new high, ranking sixth in the world\", \"resolution_criteria\": \"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, chatgpt.com has a higher rank than wikipedia.org at the Similarweb Top Websites Ranking. If wikipedia.org has a higher rank, this question resolves as **No**.\", \"fine_print\": \"When accessing the rankings, ensure it is set to All Categories and Worldwide.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        },
+        {
+          "id": "call_YfMSzlRuEklJiijVCLdtCzCu",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"question\": \"In its March update, will Similarweb report chatgpt.com having a higher rank than wikipedia.org?\", \"background\": \"ChatGPT website traffic hits a new high, ranking sixth in the world\", \"resolution_criteria\": \"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, chatgpt.com has a higher rank than wikipedia.org at the Similarweb Top Websites Ranking. If wikipedia.org has a higher rank, this question resolves as **No**.\", \"fine_print\": \"When accessing the rankings, ensure it is set to All Categories and Worldwide.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"7fc6f2fe-6af1-5346-8d6d-21839db23e4a\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"facts\": [{\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"As of February 2025, chatgpt.com is ranked below wikipedia.org in the list of most-visited websites.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"Wikipedia.org is listed before chatgpt.com in the ranking, indicating a higher position.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"The data is compiled from Similarweb as of November 2024, suggesting that the rankings are based on recent traffic data.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"The list does not factor subpages that use the same domain as the parent site, focusing on main domain traffic.\"}, {\"title\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"url\": \"https://en.wikipedia.org/wiki/List_of_most-visited_websites\", \"fact\": \"The ranking list is updated monthly, indicating that changes in website traffic can affect rankings quickly.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_aOXWllm9EJ3WXKbkdtdN65dp"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"7fc6f2fe-6af1-5346-8d6d-21839db23e4a\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"facts\": [{\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"As of January 2025, ChatGPT ranks #9 in the world's most visited websites according to Semrush.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"ChatGPT.com receives approximately 4.7 billion visits per month as of February 2025.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"Wikipedia.org receives approximately 7.09 billion visits per month as of February 2025.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"ChatGPT's traffic and usage have skyrocketed since its launch, indicating a strong growth trend.\"}, {\"title\": \"https://explodingtopics.com/blog/chatgpt-users\", \"url\": \"https://explodingtopics.com/blog/chatgpt-users\", \"fact\": \"ChatGPT has a bounce rate of 42.35% and each visitor views an average of 2.72 pages per visit.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_YfMSzlRuEklJiijVCLdtCzCu"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the evidence gathered:\n\n1. **Current Rankings**: As of February 2025, chatgpt.com is ranked below wikipedia.org in the list of most-visited websites. Wikipedia.org is listed before chatgpt.com, indicating a higher position in the rankings.\n\n2. **Traffic Data**: ChatGPT.com receives approximately 4.7 billion visits per month, whereas Wikipedia.org receives approximately 7.09 billion visits per month as of February 2025. This suggests that Wikipedia.org has significantly more traffic than ChatGPT.com.\n\n3. **Growth Trends**: Although ChatGPT's traffic and usage have been growing strongly, it is still behind Wikipedia in terms of total visits.\n\nGiven the current data and trends, it seems unlikely that chatgpt.com will surpass wikipedia.org in the Similarweb rankings by the March 2025 update.\n\nFINAL PROBABILITY: 0.2"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "question_id": "2e98724c-4073-5311-b5d6-eafd4b301690",
+  "question": "Will 50% or more of respondents to to Gallup's 2025 survey express sympathies for the the Israelis?",
+  "probability": 0.65,
+  "reasoning": "Based on the evidence gathered, here are some key points regarding American sympathies towards Israelis and Palestinians:\n\n1. **Historical Trends**: Historically, Americans have shown more sympathy towards Israelis than Palestinians. However, the gap has been narrowing. From 2001 to 2019, the gap was 42 percentage points, but it has decreased to 30 points in recent years.\n\n2. **Religious Influence**: The decline in religiosity among Americans, particularly among Protestants who have traditionally been strong supporters of Israel, is contributing to the shift in sympathies. The percentage of Protestants has decreased, while the percentage of Americans with no religious affiliation (who tend to be more sympathetic to Palestinians) has increased significantly.\n\n3. **Demographic Shifts**: Young Americans (18-29) are now roughly evenly divided in their sympathies between Israelis and Palestinians. This demographic shift could influence overall public opinion in the future.\n\n4. **Political Divides**: There is a notable political divide, with Republicans generally showing strong support for Israel, while Democrats are more divided. In 2021, 42% of Democrats sympathized with Israelis, while 39% sympathized with Palestinians.\n\n5. **Overall Favorability**: Despite these shifts, Israel has maintained a favorable image among Americans, with no less than 58% viewing Israel favorably since 2001.\n\nGiven these trends, while the overall favorability towards Israel remains relatively high, the narrowing gap and demographic changes suggest a potential decrease in the percentage of Americans who might express sympathies for Israelis in the upcoming Gallup survey. However, it is still likely that a majority will sympathize with Israelis, though the margin might be closer than in previous years.\n\nFINAL PROBABILITY: 0.65",
+  "search_results": [
+    {
+      "title": "Support for Israel in U.S. Hampered by Declining Religiosity",
+      "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "content": "Gallup’s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians. But as my colleague Jeff Jones summarized in his analysis of recent data, “While Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,” reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians."
+    },
+    {
+      "title": "Israel | Gallup Topic",
+      "url": "https://news.gallup.com/topic/country-isr.aspx",
+      "content": "More Americans continue to disapprove than approve of Israel's military action in Gaza. Israeli Prime Minister Benjamin Netanyahu is viewed unfavorably on balance."
+    },
+    {
+      "title": "Key Trends in U.S. Views on Israel and the Palestinians",
+      "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "content": "Americans have consistently sided with Israelis over Palestinians in the conflict, though Democrats' sympathies have shifted, now leaning equally pro-Palestinian and pro-Israeli..."
+    },
+    {
+      "title": "American Public Attitudes Toward the Israeli-Palestinian Conflict",
+      "url": "https://www.brookings.edu/articles/american-public-attitudes-toward-the-israeli-palestinian-conflict/",
+      "content": "Shibley Telhami conducted a survey on American public attitudes toward the Israeli-Palestinian conflict and found some startling results after peace negotiations collapsed..."
+    },
+    {
+      "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "content": "---\ntitle: Support for Israel in U.S. Hampered by Declining Religiosity\nauthor: Gallup; Inc; Frank Newport\nurl: https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\nhostname: gallup.com\ndescription: Protestants and highly religious Americans, traditionally Israel's most sympathetic supporters, are shrinking in size.\nsitename: Gallup\ndate: 2024-06-21\ncategories: ['Polling Matters']\ntags: ['Israel', 'Palestinian Territory', 'All Gallup Headlines', 'Middle East', 'Politics', 'Polling Matters', 'Religion', 'Religion and Politics', 'Religious Institutions', 'Society and Religion', 'Middle East and North Africa']\n---\nGallup’s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians.\n\nBut as my colleague Jeff Jones [summarized in his analysis of recent data](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx), “While Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,” reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians. Specifically, the attitudinal gap between sympathies for the Israelis and sympathies for the Palestinians has dropped from 42 percentage points in aggregated surveys conducted between 2001-2019 to 30 points over the past five years.\n\nA number of complex factors are behind these changes in sympathies. One of the most interesting relates to shifts in Americans’ religious identities and overall religiosity. These changes, it is reasonable to conclude, have affected public opinion on the Middle Eastern situation. It is these relationships that I’ll explore in this column.\n\nIt’s worth noting that this “sympathies” question involves a forced choice, and thus represents a *relative* measure of sympathy when Americans are asked to choose between the Israelis and the Palestinians. [Other questions asking Americans about their image of the Israelis and the Palestinians](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx) one by one show a recent downturn in the images of both.\n\n**Religion Is Tied to Attitudes Toward the Middle East**\n\nAs I’ve [reviewed previously](https://news.gallup.com/opinion/polling-matters/350435/americans-religion-sympathies-middle-east.aspx), the relationship bet…\n\n[Truncated preview: showing 306 words out of ~1878. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "content": "---\ntitle: Key Trends in U.S. Views on Israel and the Palestinians\nauthor: Gallup; Inc; Lydia Saad\nurl: https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\nhostname: gallup.com\ndescription: Read Gallup's summary of Americans' views on the Israeli-Palestinian conflict in 10 graphs highlighting key trends since 2001, including a notable shift in views among Democrats.\nsitename: Gallup\ndate: 2021-05-28\ncategories: ['Politics']\ntags: ['Israel', 'Palestinian Territory', 'USA', 'All Gallup Headlines', 'Foreign Affairs', 'Middle East', 'Politics', 'World']\n---\n#### Story Highlights\n\n- Israel maintains a much better U.S. image than the Palestinian Authority\n- Democrats' sympathies now divided, while GOP remains strongly pro-Israel\n- Liberal Democrats' views now tilt pro-Palestinian\n\nWASHINGTON, D.C. -- The broad contours of the American public's views on Israel and the Palestinian Authority have been fairly constant this century, but aspects have changed, at least among certain age, party and ideological subgroups.\n\nThe following 10 graphs summarize Gallup's key Israeli-Palestinian trends over the past two decades. The latest results are based on a Feb. 3-18 poll that was conducted before violence erupted in the region in early May. Thus, they provide a backdrop to attitudes ahead of that conflict, rather than reflecting post-conflict attitudes. Additional Gallup analysis of these data is available in [Gallup's March 19 news article](https://news.gallup.com/poll/340331/americans-favor-israel-warming-palestinians.aspx).\n\n**Positive Views of Israel Largely Unchanged**\n\nAmericans' overall impression of Israel has been largely positive, with no less than 58% viewing that nation favorably since 2001.\n\nLine graph. Yearly trend from 2001 to 2021 in the percentage of Americans with a very or mostly favorable view of Israel. Favorability has been high throughout the trend, ranging from 58% to 75%, with the highest figure recorded in 2021.\n\nIsrael's image has remained positive among both party groups over the past two decades, although more positive among Republicans (including independents who lean Republican) than among Democrats (including Democratic leaners). Most recently, 85% of Republicans and 66% of Democrats viewed Israel favorably.\n\nAmericans have also remained more partial to the Israelis' side than to the Palestinians' when asked where their sympathies lie in the Mideast conflict. At no time over the past two decades has Americans' symp…\n\n[Truncated preview: showing 347 words out of ~1819. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "fact": "The attitudinal gap between sympathies for Israelis and Palestinians has narrowed from 42 percentage points (2001-2019) to 30 points in the past five years."
+    },
+    {
+      "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "fact": "Protestants, who are highly sympathetic to Israel, have decreased from 52% of the U.S. population (2000-2019) to about 45% in recent years."
+    },
+    {
+      "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "fact": "The percentage of Americans with no religious identity ('nones'), who are more sympathetic to Palestinians, has risen from 8% (2000-2005) to over 20% today."
+    },
+    {
+      "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "fact": "Young Americans (18-29) have shifted to being roughly evenly divided in their sympathies between Israelis and Palestinians in the past five years."
+    },
+    {
+      "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+      "fact": "Catholics, who are more than twice as likely to sympathize with Israelis, have shown a significant increase in sympathy for Palestinians in the past five years."
+    },
+    {
+      "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "fact": "Since 2001, no less than 58% of Americans have viewed Israel favorably, with 58% sympathizing with Israelis in 2021."
+    },
+    {
+      "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "fact": "In 2021, 25% of Americans sympathized more with Palestinians, the highest recorded in the trend."
+    },
+    {
+      "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "fact": "Democrats' sympathies have shifted, with 42% sympathizing with Israelis and 39% with Palestinians in 2021."
+    },
+    {
+      "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "fact": "Among younger adults (18-34), net sympathy for Israel was +13 points in 2021, indicating a decline compared to older age groups."
+    },
+    {
+      "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+      "fact": "Liberal Democrats in 2021 showed a net sympathy score of -15 for Israel, with 48% sympathizing more with Palestinians."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.42250000000000004,
+  "weighted_brier_score": 0.42250000000000004,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "2e98724c-4073-5311-b5d6-eafd4b301690",
+        "queries": [
+          "Gallup survey trends US sympathies Israelis Palestinians 2020-2024",
+          "US public opinion Israeli-Palestinian conflict 2025",
+          "Expert predictions US sympathies Israelis Palestinians 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"2e98724c-4073-5311-b5d6-eafd4b301690\", \"queries\": [\"Gallup survey trends US sympathies Israelis Palestinians 2020-2024\", \"US public opinion Israeli-Palestinian conflict 2025\", \"Expert predictions US sympathies Israelis Palestinians 2025\"]}",
+      "tool_call_id": "call_eViNc3Eaf2VEDXOzP3HiciJn"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Gallup survey trends US sympathies Israelis Palestinians 2020-2024",
+        "results": [
+          {
+            "title": "Support for Israel in U.S. Hampered by Declining Religiosity",
+            "link": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "position": 4,
+            "snippet": "Gallup’s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians. But as my colleague Jeff Jones summarized in his analysis of recent data, “While Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,” reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians.",
+            "date": "2025-02-24T00:00:00Z"
+          },
+          {
+            "title": "Israel | Gallup Topic",
+            "link": "https://news.gallup.com/topic/country-isr.aspx",
+            "position": 5,
+            "snippet": "More Americans continue to disapprove than approve of Israel's military action in Gaza. Israeli Prime Minister Benjamin Netanyahu is viewed unfavorably on balance.",
+            "date": null
+          },
+          {
+            "title": "Key Trends in U.S. Views on Israel and the Palestinians",
+            "link": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "position": 4,
+            "snippet": "Americans have consistently sided with Israelis over Palestinians in the conflict, though Democrats' sympathies have shifted, now leaning equally pro-Palestinian and pro-Israeli...",
+            "date": "2025-02-26T00:00:00Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Gallup survey trends US sympathies Israelis Palestinians 2020-2024\", \"results\": [{\"title\": \"Support for Israel in U.S. Hampered by Declining Religiosity\", \"link\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"position\": 4, \"snippet\": \"Gallup\\u2019s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians. But as my colleague Jeff Jones summarized in his analysis of recent data, \\u201cWhile Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,\\u201d reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians.\", \"date\": \"2025-02-24T00:00:00Z\"}, {\"title\": \"Israel | Gallup Topic\", \"link\": \"https://news.gallup.com/topic/country-isr.aspx\", \"position\": 5, \"snippet\": \"More Americans continue to disapprove than approve of Israel's military action in Gaza. Israeli Prime Minister Benjamin Netanyahu is viewed unfavorably on balance.\", \"date\": null}, {\"title\": \"Key Trends in U.S. Views on Israel and the Palestinians\", \"link\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"position\": 4, \"snippet\": \"Americans have consistently sided with Israelis over Palestinians in the conflict, though Democrats' sympathies have shifted, now leaning equally pro-Palestinian and pro-Israeli...\", \"date\": \"2025-02-26T00:00:00Z\"}]}",
+      "tool_call_id": "call_VOa5ACb0UJo7SkGvxC4qGRJL"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US public opinion Israeli-Palestinian conflict 2025",
+        "results": [
+          {
+            "title": "American Public Attitudes Toward the Israeli-Palestinian Conflict",
+            "link": "https://www.brookings.edu/articles/american-public-attitudes-toward-the-israeli-palestinian-conflict/",
+            "position": 3,
+            "snippet": "Shibley Telhami conducted a survey on American public attitudes toward the Israeli-Palestinian conflict and found some startling results after peace negotiations collapsed...",
+            "date": "2016-07-29T00:30:24Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US public opinion Israeli-Palestinian conflict 2025\", \"results\": [{\"title\": \"American Public Attitudes Toward the Israeli-Palestinian Conflict\", \"link\": \"https://www.brookings.edu/articles/american-public-attitudes-toward-the-israeli-palestinian-conflict/\", \"position\": 3, \"snippet\": \"Shibley Telhami conducted a survey on American public attitudes toward the Israeli-Palestinian conflict and found some startling results after peace negotiations collapsed...\", \"date\": \"2016-07-29T00:30:24Z\"}]}",
+      "tool_call_id": "call_v0iQZQxT4xFcGMEKPTiHeKgq"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Expert predictions US sympathies Israelis Palestinians 2025",
+        "results": []
+      },
+      "raw": "{\"query\": \"Expert predictions US sympathies Israelis Palestinians 2025\", \"results\": []}",
+      "tool_call_id": "call_p05ia7gwnaHdsCYlw59XkaIr"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+        "snippet": "---\ntitle: Support for Israel in U.S. Hampered by Declining Religiosity\nauthor: Gallup; Inc; Frank Newport\nurl: https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\nhostname: gallup.com\ndescription: Protestants and highly religious Americans, traditionally Israel's most sympathetic supporters, are shrinking in size.\nsitename: Gallup\ndate: 2024-06-21\ncategories: ['Polling Matters']\ntags: ['Israel', 'Palestinian Territory', 'All Gallup Headlines', 'Middle East', 'Politics', 'Polling Matters', 'Religion', 'Religion and Politics', 'Religious Institutions', 'Society and Religion', 'Middle East and North Africa']\n---\nGallup’s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians.\n\nBut as my colleague Jeff Jones [summarized in his analysis of recent data](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx), “While Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,” reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians. Specifically, the attitudinal gap between sympathies for the Israelis and sympathies for the Palestinians has dropped from 42 percentage points in aggregated surveys conducted between 2001-2019 to 30 points over the past five years.\n\nA number of complex factors are behind these changes in sympathies. One of the most interesting relates to shifts in Americans’ religious identities and overall religiosity. These changes, it is reasonable to conclude, have affected public opinion on the Middle Eastern situation. It is these relationships that I’ll explore in this column.\n\nIt’s worth noting that this “sympathies” question involves a forced choice, and thus represents a *relative* measure of sympathy when Americans are asked to choose between the Israelis and the Palestinians. [Other questions asking Americans about their image of the Israelis and the Palestinians](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx) one by one show a recent downturn in the images of both.\n\n**Religion Is Tied to Attitudes Toward the Middle East**\n\nAs I’ve [reviewed previously](https://news.gallup.com/opinion/polling-matters/350435/americans-religion-sympathies-middle-east.aspx), the relationship bet…\n\n[Truncated preview: showing 306 words out of ~1878. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1878,
+        "snippet_word_count": 306,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-01-31T11:21:50.495191",
+        "date_cutoff_end": "2025-03-01T11:21:50.495191",
+        "cached_at": "2025-10-24T04:00:10.960724"
+      },
+      "raw": "{\"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"snippet\": \"---\\ntitle: Support for Israel in U.S. Hampered by Declining Religiosity\\nauthor: Gallup; Inc; Frank Newport\\nurl: https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\\nhostname: gallup.com\\ndescription: Protestants and highly religious Americans, traditionally Israel's most sympathetic supporters, are shrinking in size.\\nsitename: Gallup\\ndate: 2024-06-21\\ncategories: ['Polling Matters']\\ntags: ['Israel', 'Palestinian Territory', 'All Gallup Headlines', 'Middle East', 'Politics', 'Polling Matters', 'Religion', 'Religion and Politics', 'Religious Institutions', 'Society and Religion', 'Middle East and North Africa']\\n---\\nGallup\\u2019s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians.\\n\\nBut as my colleague Jeff Jones [summarized in his analysis of recent data](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx), \\u201cWhile Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,\\u201d reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians. Specifically, the attitudinal gap between sympathies for the Israelis and sympathies for the Palestinians has dropped from 42 percentage points in aggregated surveys conducted between 2001-2019 to 30 points over the past five years.\\n\\nA number of complex factors are behind these changes in sympathies. One of the most interesting relates to shifts in Americans\\u2019 religious identities and overall religiosity. These changes, it is reasonable to conclude, have affected public opinion on the Middle Eastern situation. It is these relationships that I\\u2019ll explore in this column.\\n\\nIt\\u2019s worth noting that this \\u201csympathies\\u201d question involves a forced choice, and thus represents a *relative* measure of sympathy when Americans are asked to choose between the Israelis and the Palestinians. [Other questions asking Americans about their image of the Israelis and the Palestinians](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx) one by one show a recent downturn in the images of both.\\n\\n**Religion Is Tied to Attitudes Toward the Middle East**\\n\\nAs I\\u2019ve [reviewed previously](https://news.gallup.com/opinion/polling-matters/350435/americans-religion-sympathies-middle-east.aspx), the relationship bet\\u2026\\n\\n[Truncated preview: showing 306 words out of ~1878. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1878, \"snippet_word_count\": 306, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T04:00:10.960724\"}",
+      "tool_call_id": "call_vdB2xTFHyfcOdQBY8T19IiDg"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+        "snippet": "---\ntitle: Key Trends in U.S. Views on Israel and the Palestinians\nauthor: Gallup; Inc; Lydia Saad\nurl: https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\nhostname: gallup.com\ndescription: Read Gallup's summary of Americans' views on the Israeli-Palestinian conflict in 10 graphs highlighting key trends since 2001, including a notable shift in views among Democrats.\nsitename: Gallup\ndate: 2021-05-28\ncategories: ['Politics']\ntags: ['Israel', 'Palestinian Territory', 'USA', 'All Gallup Headlines', 'Foreign Affairs', 'Middle East', 'Politics', 'World']\n---\n#### Story Highlights\n\n- Israel maintains a much better U.S. image than the Palestinian Authority\n- Democrats' sympathies now divided, while GOP remains strongly pro-Israel\n- Liberal Democrats' views now tilt pro-Palestinian\n\nWASHINGTON, D.C. -- The broad contours of the American public's views on Israel and the Palestinian Authority have been fairly constant this century, but aspects have changed, at least among certain age, party and ideological subgroups.\n\nThe following 10 graphs summarize Gallup's key Israeli-Palestinian trends over the past two decades. The latest results are based on a Feb. 3-18 poll that was conducted before violence erupted in the region in early May. Thus, they provide a backdrop to attitudes ahead of that conflict, rather than reflecting post-conflict attitudes. Additional Gallup analysis of these data is available in [Gallup's March 19 news article](https://news.gallup.com/poll/340331/americans-favor-israel-warming-palestinians.aspx).\n\n**Positive Views of Israel Largely Unchanged**\n\nAmericans' overall impression of Israel has been largely positive, with no less than 58% viewing that nation favorably since 2001.\n\nLine graph. Yearly trend from 2001 to 2021 in the percentage of Americans with a very or mostly favorable view of Israel. Favorability has been high throughout the trend, ranging from 58% to 75%, with the highest figure recorded in 2021.\n\nIsrael's image has remained positive among both party groups over the past two decades, although more positive among Republicans (including independents who lean Republican) than among Democrats (including Democratic leaners). Most recently, 85% of Republicans and 66% of Democrats viewed Israel favorably.\n\nAmericans have also remained more partial to the Israelis' side than to the Palestinians' when asked where their sympathies lie in the Mideast conflict. At no time over the past two decades has Americans' symp…\n\n[Truncated preview: showing 347 words out of ~1819. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1819,
+        "snippet_word_count": 347,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-01-31T11:21:50.495191",
+        "date_cutoff_end": "2025-03-01T11:21:50.495191",
+        "cached_at": "2025-10-24T04:00:11.498158"
+      },
+      "raw": "{\"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"snippet\": \"---\\ntitle: Key Trends in U.S. Views on Israel and the Palestinians\\nauthor: Gallup; Inc; Lydia Saad\\nurl: https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\\nhostname: gallup.com\\ndescription: Read Gallup's summary of Americans' views on the Israeli-Palestinian conflict in 10 graphs highlighting key trends since 2001, including a notable shift in views among Democrats.\\nsitename: Gallup\\ndate: 2021-05-28\\ncategories: ['Politics']\\ntags: ['Israel', 'Palestinian Territory', 'USA', 'All Gallup Headlines', 'Foreign Affairs', 'Middle East', 'Politics', 'World']\\n---\\n#### Story Highlights\\n\\n- Israel maintains a much better U.S. image than the Palestinian Authority\\n- Democrats' sympathies now divided, while GOP remains strongly pro-Israel\\n- Liberal Democrats' views now tilt pro-Palestinian\\n\\nWASHINGTON, D.C. -- The broad contours of the American public's views on Israel and the Palestinian Authority have been fairly constant this century, but aspects have changed, at least among certain age, party and ideological subgroups.\\n\\nThe following 10 graphs summarize Gallup's key Israeli-Palestinian trends over the past two decades. The latest results are based on a Feb. 3-18 poll that was conducted before violence erupted in the region in early May. Thus, they provide a backdrop to attitudes ahead of that conflict, rather than reflecting post-conflict attitudes. Additional Gallup analysis of these data is available in [Gallup's March 19 news article](https://news.gallup.com/poll/340331/americans-favor-israel-warming-palestinians.aspx).\\n\\n**Positive Views of Israel Largely Unchanged**\\n\\nAmericans' overall impression of Israel has been largely positive, with no less than 58% viewing that nation favorably since 2001.\\n\\nLine graph. Yearly trend from 2001 to 2021 in the percentage of Americans with a very or mostly favorable view of Israel. Favorability has been high throughout the trend, ranging from 58% to 75%, with the highest figure recorded in 2021.\\n\\nIsrael's image has remained positive among both party groups over the past two decades, although more positive among Republicans (including independents who lean Republican) than among Democrats (including Democratic leaners). Most recently, 85% of Republicans and 66% of Democrats viewed Israel favorably.\\n\\nAmericans have also remained more partial to the Israelis' side than to the Palestinians' when asked where their sympathies lie in the Mideast conflict. At no time over the past two decades has Americans' symp\\u2026\\n\\n[Truncated preview: showing 347 words out of ~1819. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1819, \"snippet_word_count\": 347, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T04:00:11.498158\"}",
+      "tool_call_id": "call_hIeJ3awClhIJMCbrXU9qgrcZ"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "2e98724c-4073-5311-b5d6-eafd4b301690",
+        "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+        "facts": [
+          {
+            "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "fact": "The attitudinal gap between sympathies for Israelis and Palestinians has narrowed from 42 percentage points (2001-2019) to 30 points in the past five years."
+          },
+          {
+            "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "fact": "Protestants, who are highly sympathetic to Israel, have decreased from 52% of the U.S. population (2000-2019) to about 45% in recent years."
+          },
+          {
+            "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "fact": "The percentage of Americans with no religious identity ('nones'), who are more sympathetic to Palestinians, has risen from 8% (2000-2005) to over 20% today."
+          },
+          {
+            "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "fact": "Young Americans (18-29) have shifted to being roughly evenly divided in their sympathies between Israelis and Palestinians in the past five years."
+          },
+          {
+            "title": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "url": "https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx",
+            "fact": "Catholics, who are more than twice as likely to sympathize with Israelis, have shown a significant increase in sympathy for Palestinians in the past five years."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"2e98724c-4073-5311-b5d6-eafd4b301690\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"facts\": [{\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"The attitudinal gap between sympathies for Israelis and Palestinians has narrowed from 42 percentage points (2001-2019) to 30 points in the past five years.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"Protestants, who are highly sympathetic to Israel, have decreased from 52% of the U.S. population (2000-2019) to about 45% in recent years.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"The percentage of Americans with no religious identity ('nones'), who are more sympathetic to Palestinians, has risen from 8% (2000-2005) to over 20% today.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"Young Americans (18-29) have shifted to being roughly evenly divided in their sympathies between Israelis and Palestinians in the past five years.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"Catholics, who are more than twice as likely to sympathize with Israelis, have shown a significant increase in sympathy for Palestinians in the past five years.\"}]}",
+      "tool_call_id": "call_hPowTFqvgLXQD9XycTxUBIHY"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "2e98724c-4073-5311-b5d6-eafd4b301690",
+        "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+        "facts": [
+          {
+            "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "fact": "Since 2001, no less than 58% of Americans have viewed Israel favorably, with 58% sympathizing with Israelis in 2021."
+          },
+          {
+            "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "fact": "In 2021, 25% of Americans sympathized more with Palestinians, the highest recorded in the trend."
+          },
+          {
+            "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "fact": "Democrats' sympathies have shifted, with 42% sympathizing with Israelis and 39% with Palestinians in 2021."
+          },
+          {
+            "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "fact": "Among younger adults (18-34), net sympathy for Israel was +13 points in 2021, indicating a decline compared to older age groups."
+          },
+          {
+            "title": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "url": "https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx",
+            "fact": "Liberal Democrats in 2021 showed a net sympathy score of -15 for Israel, with 48% sympathizing more with Palestinians."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"2e98724c-4073-5311-b5d6-eafd4b301690\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"facts\": [{\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Since 2001, no less than 58% of Americans have viewed Israel favorably, with 58% sympathizing with Israelis in 2021.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"In 2021, 25% of Americans sympathized more with Palestinians, the highest recorded in the trend.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Democrats' sympathies have shifted, with 42% sympathizing with Israelis and 39% with Palestinians in 2021.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Among younger adults (18-34), net sympathy for Israel was +13 points in 2021, indicating a decline compared to older age groups.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Liberal Democrats in 2021 showed a net sympathy score of -15 for Israel, with 48% sympathizing more with Palestinians.\"}]}",
+      "tool_call_id": "call_87YhAqT4sw84bjyBPjcHYYZX"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will 50% or more of respondents to to Gallup's 2025 survey express sympathies for the the Israelis?\nBackground: Survey is due to be released in March 2025.\nResolution criteria: This question resolves as **Yes** if 50% or more of respondents to the [Gallup Middle East survey](https://news.gallup.com/poll/1639/middle-east.aspx) choose Israelis in response to the question of who their sympathies more with, the Israelis or more with the Palestinians for 2025.\nFine print: \npresent_date: 2025-02-28T11:21:50.495191\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_eViNc3Eaf2VEDXOzP3HiciJn",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will 50% or more of respondents to Gallup's 2025 survey express sympathies for the Israelis?\",\"background\":\"Survey is due to be released in March 2025.\",\"resolution_criteria\":\"This question resolves as **Yes** if 50% or more of respondents to the Gallup Middle East survey choose Israelis in response to the question of who their sympathies more with, the Israelis or more with the Palestinians for 2025.\",\"fine_print\":\"\",\"present_date\":\"2025-02-28T11:21:50.495191\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2e98724c-4073-5311-b5d6-eafd4b301690\", \"queries\": [\"Gallup survey trends US sympathies Israelis Palestinians 2020-2024\", \"US public opinion Israeli-Palestinian conflict 2025\", \"Expert predictions US sympathies Israelis Palestinians 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_eViNc3Eaf2VEDXOzP3HiciJn"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_VOa5ACb0UJo7SkGvxC4qGRJL",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Gallup survey trends US sympathies Israelis Palestinians 2020-2024\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_v0iQZQxT4xFcGMEKPTiHeKgq",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US public opinion Israeli-Palestinian conflict 2025\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_p05ia7gwnaHdsCYlw59XkaIr",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Expert predictions US sympathies Israelis Palestinians 2025\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Gallup survey trends US sympathies Israelis Palestinians 2020-2024\", \"results\": [{\"title\": \"Support for Israel in U.S. Hampered by Declining Religiosity\", \"link\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"position\": 4, \"snippet\": \"Gallup\\u2019s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians. But as my colleague Jeff Jones summarized in his analysis of recent data, \\u201cWhile Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,\\u201d reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians.\", \"date\": \"2025-02-24T00:00:00Z\"}, {\"title\": \"Israel | Gallup Topic\", \"link\": \"https://news.gallup.com/topic/country-isr.aspx\", \"position\": 5, \"snippet\": \"More Americans continue to disapprove than approve of Israel's military action in Gaza. Israeli Prime Minister Benjamin Netanyahu is viewed unfavorably on balance.\", \"date\": null}, {\"title\": \"Key Trends in U.S. Views on Israel and the Palestinians\", \"link\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"position\": 4, \"snippet\": \"Americans have consistently sided with Israelis over Palestinians in the conflict, though Democrats' sympathies have shifted, now leaning equally pro-Palestinian and pro-Israeli...\", \"date\": \"2025-02-26T00:00:00Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_VOa5ACb0UJo7SkGvxC4qGRJL"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US public opinion Israeli-Palestinian conflict 2025\", \"results\": [{\"title\": \"American Public Attitudes Toward the Israeli-Palestinian Conflict\", \"link\": \"https://www.brookings.edu/articles/american-public-attitudes-toward-the-israeli-palestinian-conflict/\", \"position\": 3, \"snippet\": \"Shibley Telhami conducted a survey on American public attitudes toward the Israeli-Palestinian conflict and found some startling results after peace negotiations collapsed...\", \"date\": \"2016-07-29T00:30:24Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_v0iQZQxT4xFcGMEKPTiHeKgq"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Expert predictions US sympathies Israelis Palestinians 2025\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_p05ia7gwnaHdsCYlw59XkaIr"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_vdB2xTFHyfcOdQBY8T19IiDg",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        },
+        {
+          "id": "call_hIeJ3awClhIJMCbrXU9qgrcZ",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"snippet\": \"---\\ntitle: Support for Israel in U.S. Hampered by Declining Religiosity\\nauthor: Gallup; Inc; Frank Newport\\nurl: https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\\nhostname: gallup.com\\ndescription: Protestants and highly religious Americans, traditionally Israel's most sympathetic supporters, are shrinking in size.\\nsitename: Gallup\\ndate: 2024-06-21\\ncategories: ['Polling Matters']\\ntags: ['Israel', 'Palestinian Territory', 'All Gallup Headlines', 'Middle East', 'Politics', 'Polling Matters', 'Religion', 'Religion and Politics', 'Religious Institutions', 'Society and Religion', 'Middle East and North Africa']\\n---\\nGallup\\u2019s 24-year history of asking each February about Middle East sympathies has consistently shown a much higher level of sympathy for the Israelis than for the Palestinians.\\n\\nBut as my colleague Jeff Jones [summarized in his analysis of recent data](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx), \\u201cWhile Americans have always sympathized more with the Israelis, the gap has narrowed in recent years,\\u201d reflecting a drop in the percentage of Americans saying they are sympathetic to the Israelis and an increase in sympathy for the Palestinians. Specifically, the attitudinal gap between sympathies for the Israelis and sympathies for the Palestinians has dropped from 42 percentage points in aggregated surveys conducted between 2001-2019 to 30 points over the past five years.\\n\\nA number of complex factors are behind these changes in sympathies. One of the most interesting relates to shifts in Americans\\u2019 religious identities and overall religiosity. These changes, it is reasonable to conclude, have affected public opinion on the Middle Eastern situation. It is these relationships that I\\u2019ll explore in this column.\\n\\nIt\\u2019s worth noting that this \\u201csympathies\\u201d question involves a forced choice, and thus represents a *relative* measure of sympathy when Americans are asked to choose between the Israelis and the Palestinians. [Other questions asking Americans about their image of the Israelis and the Palestinians](https://news.gallup.com/poll/611375/americans-views-israel-palestinian-authority-down.aspx) one by one show a recent downturn in the images of both.\\n\\n**Religion Is Tied to Attitudes Toward the Middle East**\\n\\nAs I\\u2019ve [reviewed previously](https://news.gallup.com/opinion/polling-matters/350435/americans-religion-sympathies-middle-east.aspx), the relationship bet\\u2026\\n\\n[Truncated preview: showing 306 words out of ~1878. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1878, \"snippet_word_count\": 306, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T04:00:10.960724\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_vdB2xTFHyfcOdQBY8T19IiDg"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"snippet\": \"---\\ntitle: Key Trends in U.S. Views on Israel and the Palestinians\\nauthor: Gallup; Inc; Lydia Saad\\nurl: https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\\nhostname: gallup.com\\ndescription: Read Gallup's summary of Americans' views on the Israeli-Palestinian conflict in 10 graphs highlighting key trends since 2001, including a notable shift in views among Democrats.\\nsitename: Gallup\\ndate: 2021-05-28\\ncategories: ['Politics']\\ntags: ['Israel', 'Palestinian Territory', 'USA', 'All Gallup Headlines', 'Foreign Affairs', 'Middle East', 'Politics', 'World']\\n---\\n#### Story Highlights\\n\\n- Israel maintains a much better U.S. image than the Palestinian Authority\\n- Democrats' sympathies now divided, while GOP remains strongly pro-Israel\\n- Liberal Democrats' views now tilt pro-Palestinian\\n\\nWASHINGTON, D.C. -- The broad contours of the American public's views on Israel and the Palestinian Authority have been fairly constant this century, but aspects have changed, at least among certain age, party and ideological subgroups.\\n\\nThe following 10 graphs summarize Gallup's key Israeli-Palestinian trends over the past two decades. The latest results are based on a Feb. 3-18 poll that was conducted before violence erupted in the region in early May. Thus, they provide a backdrop to attitudes ahead of that conflict, rather than reflecting post-conflict attitudes. Additional Gallup analysis of these data is available in [Gallup's March 19 news article](https://news.gallup.com/poll/340331/americans-favor-israel-warming-palestinians.aspx).\\n\\n**Positive Views of Israel Largely Unchanged**\\n\\nAmericans' overall impression of Israel has been largely positive, with no less than 58% viewing that nation favorably since 2001.\\n\\nLine graph. Yearly trend from 2001 to 2021 in the percentage of Americans with a very or mostly favorable view of Israel. Favorability has been high throughout the trend, ranging from 58% to 75%, with the highest figure recorded in 2021.\\n\\nIsrael's image has remained positive among both party groups over the past two decades, although more positive among Republicans (including independents who lean Republican) than among Democrats (including Democratic leaners). Most recently, 85% of Republicans and 66% of Democrats viewed Israel favorably.\\n\\nAmericans have also remained more partial to the Israelis' side than to the Palestinians' when asked where their sympathies lie in the Mideast conflict. At no time over the past two decades has Americans' symp\\u2026\\n\\n[Truncated preview: showing 347 words out of ~1819. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1819, \"snippet_word_count\": 347, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T04:00:11.498158\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_hIeJ3awClhIJMCbrXU9qgrcZ"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_hPowTFqvgLXQD9XycTxUBIHY",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"question\": \"Will 50% or more of respondents to Gallup's 2025 survey express sympathies for the Israelis?\", \"background\": \"Survey is due to be released in March 2025.\", \"resolution_criteria\": \"This question resolves as **Yes** if 50% or more of respondents to the Gallup Middle East survey choose Israelis in response to the question of who their sympathies more with, the Israelis or more with the Palestinians for 2025.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        },
+        {
+          "id": "call_87YhAqT4sw84bjyBPjcHYYZX",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"question\": \"Will 50% or more of respondents to Gallup's 2025 survey express sympathies for the Israelis?\", \"background\": \"Survey is due to be released in March 2025.\", \"resolution_criteria\": \"This question resolves as **Yes** if 50% or more of respondents to the Gallup Middle East survey choose Israelis in response to the question of who their sympathies more with, the Israelis or more with the Palestinians for 2025.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2e98724c-4073-5311-b5d6-eafd4b301690\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"facts\": [{\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"The attitudinal gap between sympathies for Israelis and Palestinians has narrowed from 42 percentage points (2001-2019) to 30 points in the past five years.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"Protestants, who are highly sympathetic to Israel, have decreased from 52% of the U.S. population (2000-2019) to about 45% in recent years.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"The percentage of Americans with no religious identity ('nones'), who are more sympathetic to Palestinians, has risen from 8% (2000-2005) to over 20% today.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"Young Americans (18-29) have shifted to being roughly evenly divided in their sympathies between Israelis and Palestinians in the past five years.\"}, {\"title\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"url\": \"https://news.gallup.com/opinion/polling-matters/646214/support-israel-hampered-declining-religiosity.aspx\", \"fact\": \"Catholics, who are more than twice as likely to sympathize with Israelis, have shown a significant increase in sympathy for Palestinians in the past five years.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_hPowTFqvgLXQD9XycTxUBIHY"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2e98724c-4073-5311-b5d6-eafd4b301690\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"facts\": [{\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Since 2001, no less than 58% of Americans have viewed Israel favorably, with 58% sympathizing with Israelis in 2021.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"In 2021, 25% of Americans sympathized more with Palestinians, the highest recorded in the trend.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Democrats' sympathies have shifted, with 42% sympathizing with Israelis and 39% with Palestinians in 2021.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Among younger adults (18-34), net sympathy for Israel was +13 points in 2021, indicating a decline compared to older age groups.\"}, {\"title\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"url\": \"https://news.gallup.com/poll/350393/key-trends-views-israel-palestinians.aspx\", \"fact\": \"Liberal Democrats in 2021 showed a net sympathy score of -15 for Israel, with 48% sympathizing more with Palestinians.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_87YhAqT4sw84bjyBPjcHYYZX"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the evidence gathered, here are some key points regarding American sympathies towards Israelis and Palestinians:\n\n1. **Historical Trends**: Historically, Americans have shown more sympathy towards Israelis than Palestinians. However, the gap has been narrowing. From 2001 to 2019, the gap was 42 percentage points, but it has decreased to 30 points in recent years.\n\n2. **Religious Influence**: The decline in religiosity among Americans, particularly among Protestants who have traditionally been strong supporters of Israel, is contributing to the shift in sympathies. The percentage of Protestants has decreased, while the percentage of Americans with no religious affiliation (who tend to be more sympathetic to Palestinians) has increased significantly.\n\n3. **Demographic Shifts**: Young Americans (18-29) are now roughly evenly divided in their sympathies between Israelis and Palestinians. This demographic shift could influence overall public opinion in the future.\n\n4. **Political Divides**: There is a notable political divide, with Republicans generally showing strong support for Israel, while Democrats are more divided. In 2021, 42% of Democrats sympathized with Israelis, while 39% sympathized with Palestinians.\n\n5. **Overall Favorability**: Despite these shifts, Israel has maintained a favorable image among Americans, with no less than 58% viewing Israel favorably since 2001.\n\nGiven these trends, while the overall favorability towards Israel remains relatively high, the narrowing gap and demographic changes suggest a potential decrease in the percentage of Americans who might express sympathies for Israelis in the upcoming Gallup survey. However, it is still likely that a majority will sympathize with Israelis, though the margin might be closer than in previous years.\n\nFINAL PROBABILITY: 0.65"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "question_id": "c6562be4-fe42-5d1a-81e8-2822ac6c0309",
+  "question": "Will there be exactly 1 artist in the top 10 of the Billboard Artist 100 in the last week of March who is new to the top 10 that week?",
+  "probability": 0.15,
+  "reasoning": "Based on the information gathered:\n\n1. **Billboard Artist 100 Chart (Week of March 22, 2025):**\n   - The current top 10 artists include Lady Gaga, Kendrick Lamar, Morgan Wallen, Sabrina Carpenter, SZA, Drake, Chappell Roan, Tate McRae, Billie Eilish, and Doechii.\n   - Jennie is a re-entry at position 11, indicating a potential rise in popularity.\n\n2. **Metaculus Forecast:**\n   - The probability distribution for new artists entering the top 10 in the last week of March 2025 is as follows:\n     - 0 new artists: 2.1%\n     - 1 new artist: 15.4%\n     - 2 new artists: 36.2%\n     - 3 new artists: 33.4%\n     - 4 new artists: 11.9%\n     - 5 or more new artists: 1%\n\n3. **Emerging Artists Chart (Week of March 22, 2025):**\n   - The top emerging artists include Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, and others.\n   - These artists have not yet broken into the top 10 of the Billboard Artist 100 but are gaining traction.\n\n**Analysis:**\n- The Metaculus forecast suggests a relatively low probability (15.4%) of exactly one new artist entering the top 10 in the last week of March 2025.\n- The current top 10 artists are well-established, and while there are emerging artists, none have shown a significant breakthrough into the top 10 as of the latest available data.\n- The presence of Jennie as a re-entry at position 11 could suggest potential movement, but it does not guarantee exactly one new artist entering the top 10.\n\n**Conclusion:**\nGiven the current data and forecasts, the probability of exactly one new artist entering the top 10 of the Billboard Artist 100 in the last week of March 2025 is relatively low.\n\nFINAL PROBABILITY: 0.15",
+  "search_results": [
+    {
+      "title": "Billboard Hot 100™",
+      "url": "https://www.billboard.com/charts/hot-100/2025-03-22/",
+      "content": "Billboard Hot 100™ Week of March 22, 2025: Luther by Kendrick Lamar & SZA is #1, Die With A Smile by Lady Gaga & Bruno Mars is #2, and Not Like Us by Kendrick Lamar is #3."
+    },
+    {
+      "title": "Billboard Artist 100 | Top Music Artists",
+      "url": "https://www.billboard.com/charts/artist-100/",
+      "content": "Billboard Artist 100 Week of March 22, 2025. See the most popular artists ranked by album and track sales, radio airplay, and streaming activity."
+    },
+    {
+      "title": "Billboard Hot 100 Top 10 Countdown for March 22, 2025: Watch",
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-march-22-2025-billboard-news/",
+      "content": "This is the Billboard Hot 100 top 10 for the week dated March 22. Strong at No. 10 is Teddy Swims. Slipping to nine is Billie Eilish, while Drake is up to eight..."
+    },
+    {
+      "title": "List of Billboard Hot 100 number ones of 2025 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
+      "content": "As of the chart dated March 22, six artists have charted at number one in 2025. Lamar is the only artist to chart two number-one songs this year so far."
+    },
+    {
+      "title": "Billboard Hot 100 Top 10 Countdown for March 8, 2025 | Billboard News",
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-march-8-2025-billboard-news/",
+      "content": "This is the Billboard Hot 100 top 10 for the week dated March 8. Down to 10 is “Squabble Up.” Teddy is back in the top 10 as is Chappell Roan up to eight. “Birds of a Feather” is at seven."
+    },
+    {
+      "title": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?",
+      "url": "https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/",
+      "content": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025..."
+    },
+    {
+      "title": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?",
+      "url": "https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/",
+      "content": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025..."
+    },
+    {
+      "title": "Emerging Artists",
+      "url": "https://www.billboard.com/charts/emerging-artists/",
+      "content": "Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow..."
+    },
+    {
+      "title": "Emerging Artists",
+      "url": "https://www.billboard.com/charts/emerging-artists/",
+      "content": "Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow..."
+    },
+    {
+      "title": "Music Branding Power Players 2025 List",
+      "url": "https://www.billboard.com/p/music-branding-power-players-2025/",
+      "content": "Partnerships with artists are bigger than they have ever been because they give companies the ability to break through the noise, says Marcie Allen. Billboard's 2025 list includes executives who worked with artists like Charli XCX, Victoria Monét, and Megan Thee Stallion..."
+    },
+    {
+      "title": "New Albums in 2025: Calendar of New Music Releases Coming",
+      "url": "https://www.billboard.com/lists/new-albums-2025-calendar-new-music-releases-this-year/",
+      "content": "Billboard’s calendar of 2025 new album releases will be updated regularly as new music is announced. March 7: Jason Isbell, Jennie, Lady Gaga, YoungBoy Never Broke Again..."
+    },
+    {
+      "title": "2025 Albums: New and Upcoming Music Releases",
+      "url": "https://consequence.net/music-albums-released-2025/",
+      "content": "March 2025 brings new albums from artists like Raq baby, Agender, Alabaster DePlume, Alter Bridge, Arny Margret, Atropical, Benmont Tench, Bob James, Bob Mould, and many more..."
+    },
+    {
+      "title": "List of 2025 albums - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_2025_albums",
+      "content": "This content does not contain information about upcoming album releases for March 2025 or their Billboard impact."
+    },
+    {
+      "title": "Billboard Hot 100™",
+      "url": "https://www.billboard.com/charts/hot-100/2025-03-22/",
+      "content": "Billboard Hot 100 Top 10 Countdown For March 22, 2025. THE WEEK’S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY FROM DIGITAL MUSIC SOURCES TRACKED BY LUMINATE..."
+    },
+    {
+      "title": "The New Rock + Metal Albums Out Today",
+      "url": "https://loudwire.com/2025-hard-rock-metal-album-release-calendar/",
+      "content": "March 21, 2025: Aversed - Erasure Of Color, Big Big Train - Bard Re-Release, Bloodywood - Nu Delhi, Cradle Of Filth - The Screaming Of The Valkyries, Pop Evil - What Remains, Rush - Rush 50 Box Set. March 28, 2025: Alien Weaponry - Te Rā, Arch Enemy - Blood Dynasty, Deafheaven - Lonely People With Power, Helloween - March Of Time, Ministry - The Squirrely Years Revisited..."
+    },
+    {
+      "title": "https://www.billboard.com/charts/artist-100/",
+      "url": "https://www.billboard.com/charts/artist-100/",
+      "content": "---\ntitle: Billboard Artist 100\nauthor: Tolsen\nurl: https://www.billboard.com/charts/artist-100/\nhostname: billboard.com\ndescription: THE WEEK’S MOST POPULAR ARTISTS ACROSS ALL GENRES, RANKED BY ALBUM AND TRACK SALES AS PROVIDED BY LUMINATE, RADIO AIRPLAY AUDIENCE IMPRESSIONS AS PROVIDED BY LUMINATE, STREAMING ACTIVITY DATA FROM ONLINE MUSIC SOURCES TRACKED BY LUMINATE.\nsitename: Billboard\ndate: 2014-07-10\n---\n[Skip to main content](https://www.billboard.com#pagetop)\n\n\nLady Gaga\n\nLast week\n\n17Weeks at no. 1\n\n7Weeks on chart\n\n310### Imprint/Promotion Label:\n\nStreamline/Interscope/ICLG\n\nGains In Performance\n\n## Billboard Artist 100\n\nWeek of March 22, 2025\n\n-\n1\n-\n-\n-\n-\n### Lady Gaga\n\n-\n- 17\n- 1\n- 310\n-\n-\n- 17\n- 1\n- 310\n\n\n-\n\n### Imprint/Promotion Label:\n\nStreamline/Interscope/ICLG\n\nGains In Performance\n\n-\n2\n-\n-\n-\n-\n### Kendrick Lamar\n\n- 1\n- 1\n- 480\n-\n- 1\n- 1\n- 480\n\n\n-\n\n### Imprint/Promotion Label:\n\npgLang/Interscope/ICLG\n\n-\n3\n-\n-\n-\n-\n### Morgan Wallen\n\n- 2\n- 1\n- 314\n-\n- 2\n- 1\n- 314\n\n\n-\n\n### Imprint/Promotion Label:\n\nBig Loud/Mercury/Republic\n\n-\n4\n-\n-\n-\n-\n### Sabrina Carpenter\n\n- 4\n- 1\n- 67\n-\n- 4\n- 1\n- 67\n\n\n-\n\n### Imprint/Promotion Label:\n\nIsland/Republic\n\n-\n5\n-\n-\n-\n-\n### SZA\n\n- 5\n- 1\n- 289\n-\n- 5\n- 1\n- 289\n\n\n-\n\n### Imprint/Promotion Label:\n\nTop Dawg/RCA\n\n-\n6\n-\n-\n-\n-\n### Drake\n\n- 6\n- 1\n- 557\n-\n- 6\n- 1\n- 557\n\n\n-\n\n### Imprint/Promotion Label:\n\nOVO Sound/Republic\n\n-\n7\n-\n-\n-\n-\n### Chappell Roan\n\n- 9\n- 1\n- 48\n-\n- 9\n- 1\n- 48\n\n\n-\n\n### Imprint/Promotion Label:\n\nKRA/Amusement/Island/Republic\n\n-\n8\n-\n-\n-\n-\n### Tate McRae\n\n- 3\n- 1\n- 127\n-\n- 3\n- 1\n- 127\n\n\n-\n\n### Imprint/Promotion Label:\n\nRCA\n\n-\n9\n-\n-\n-\n-\n### Billie Eilish\n\n- 7\n- 1\n- 334\n-\n- 7\n- 1\n- 334\n\n\n-\n\n### Imprint/Promotion Label:\n\nDarkroom/Interscope/ICLG\n\n-\n10\n-\n-\n-\n-\n### Doechii\n\n-\n- 23\n- 10\n- 18\n-\n-\n- 23\n- 10\n- 18\n\n\n-\n\n### Imprint/Promotion Label:\n\nTop Dawg/Capitol\n\nGains In Performance\n\n- 11 RE- ENTRY\n-\n- RE- ENTRY\n-\n-\n### JENNIE\n\n-\n- -\n- 11\n- 3\n-\n-\n- -\n- 11\n- 3\n\n\n-\n\n### Imprint/Promotion Label:\n\nOA Entertainment/Columbia\n\nGains In Performance\n\n-\n12\n-\n-\n-\n-\n### Teddy Swims\n\n- 12\n- 3\n- 79\n-\n- 12\n- 3\n- 79\n\n\n-\n\n### Imprint/Promotion Label:\n\nSWIMS Int./Warner\n\n-\n13\n-\n-\n-\n-\n### Bruno Mars\n\n- 10\n- 1\n- 537\n-\n- 10\n- 1\n- 537\n\n\n-\n\n### Imprint/Promotion Label:\n\nAtlantic/AG\n\n-\n14\n-\n-\n-\n-\n### The Weeknd\n\n- 11\n- 1\n- 505\n-\n- 11\n- 1\n- 505\n\n\n-\n\n### Imprint/Promotion Label:\n\nXO/Republic\n\n-\n15\n-\n-\n-\n-\n### Tyler, The Creator\n\n- 14\n- 1\n- 195\n-\n- 14\n- 1\n- 195\n\n\n-\n\n### Imprint/Promotion Label:\n\nColumbia\n\n-\n16\n-\n-\n-\n-\n### Bad Bunny\n\n- 15…\n\n[Truncated preview: showing 522 words out of ~2978. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/",
+      "url": "https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/",
+      "content": "---\ntitle: How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\nsitename: Metaculus\ndate: 2025-02-10\n---\nQuestion\n\n# How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\n\n### Forecast Timeline\n\nTotal Forecasters\n\n**459**### Make a Prediction\n\n| New Artists | My Prediction | Me | ||\n|---|---|---|---|---|\n0 | 2.1% | |||\n1 | 15.4% | |||\n2 | 36.2% | |||\n3 | 33.4% | |||\n4 | 11.9% | |||\n5 or more | 1% | |||\n\nTotal: ?\n\n(? remaining)Authors:\n\nOpened:Feb 10, 2025\n\nCloses:Mar 21, 2025\n\nScheduled resolution:Mar 27, 2025\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Feb 10, 2025\n\nCloses:Mar 21, 2025\n\nScheduled resolution:Mar 27, 2025"
+    },
+    {
+      "title": "https://www.billboard.com/charts/emerging-artists/",
+      "url": "https://www.billboard.com/charts/emerging-artists/",
+      "content": "---\ntitle: Emerging Artists\nauthor: Devops\nurl: https://www.billboard.com/charts/emerging-artists/\nhostname: billboard.com\ndescription: The week's most popular developing artists, using the same formula as the all-encompassing Billboard Artist 100, which measures artist activity across multiple Billboard charts, including the Hot 100, Billboard 200 (The Artist 100 lists the most popular acts, overall, each week.) However, the Emerging Artists chart excludes acts that have notched a top 25 entry on either the Hot 100 or Billboard 200, as well as artists that have achieved two or more top 10s on Billboard's \"Hot\" song genre charts and/or consumption-based \"Top\" album genre rankings.\nsitename: Billboard\ndate: 2017-08-08\n---\n[Skip to main content](https://www.billboard.com#pagetop)\n\n\nAlex Warren\n\nLast week\n\n1Weeks at no. 1\n\n4Weeks on chart\n\n35### Imprint/Promotion Label:\n\nAtlantic/AG\n\nGains In Performance\n\n## Emerging Artists\n\nWeek of March 22, 2025\n\n-\n1\n-\n-\n-\n-\n### Alex Warren\n\n-\n- 1\n- 1\n- 35\n-\n-\n- 1\n- 1\n- 35\n\n\n-\n\n### Imprint/Promotion Label:\n\nAtlantic/AG\n\nGains In Performance\n\n-\n2\n-\n-\n-\n-\n### Zach Top\n\n- 2\n- 1\n- 35\n-\n- 2\n- 1\n- 35\n\n\n-\n\n### Imprint/Promotion Label:\n\nLeo33\n\n-\n3\n-\n-\n-\n-\n### Ella Langley\n\n- 4\n- 1\n- 38\n-\n- 4\n- 1\n- 38\n\n\n-\n\n### Imprint/Promotion Label:\n\nSAWGOD/Columbia\n\n-\n4\n-\n-\n-\n-\n### The Red Clay Strays\n\n- 3\n- 1\n- 69\n-\n- 3\n- 1\n- 69\n\n\n-\n\n### Imprint/Promotion Label:\n\nRed Clay Strays/HBYCO/Thirty Tigers/RCA\n\n-\n5\n-\n-\n-\n-\n### GELO\n\n- 5\n- 3\n- 10\n-\n- 5\n- 3\n- 10\n\n\n-\n\n### Imprint/Promotion Label:\n\nBorn To Ball\n\n-\n6\n-\n-\n-\n-\n### Tucker Wetmore\n\n-\n- 11\n- 1\n- 55\n-\n-\n- 11\n- 1\n- 55\n\n\n-\n\n### Imprint/Promotion Label:\n\nBack Blocks/EMI Nashville/UMGN\n\nGains In Performance\n\n-\n7\n-\n-\n-\n-\n### Leon Thomas\n\n- 6\n- 6\n- 10\n-\n- 6\n- 6\n- 10\n\n\n-\n\n### Imprint/Promotion Label:\n\nEZMNY/Motown/ICLG\n\n-\n8\n-\n-\n-\n-\n### Megan Woods\n\n-\n- 14\n- 8\n- 23\n-\n-\n- 14\n- 8\n- 23\n\n\n-\n\n### Imprint/Promotion Label:\n\nFair Trade\n\nGains In Performance\n\n-\n9\n-\n-\n-\n-\n### Lefty Gunplay\n\n- 7\n- 3\n- 16\n-\n- 7\n- 3\n- 16\n\n\n-\n\n### Imprint/Promotion Label:\n\nOTR\n\n-\n10\n-\n-\n-\n-\n### BossMan Dlow\n\n- 10\n- 1\n- 59\n-\n- 10\n- 1\n- 59\n\n\n-\n\n### Imprint/Promotion Label:\n\nAlamo\n\n-\n11\n-\n-\n-\n-\n### Sam Barber\n\n- 12\n- 11\n- 64\n-\n- 12\n- 11\n- 64\n\n\n-\n\n### Imprint/Promotion Label:\n\nLockeland Springs/Atlantic/AG\n\n-\n12\n-\n-\n-\n-\n### Bhad Bhabie\n\n- 8\n- 5\n- 33\n-\n- 8\n- 5\n- 33\n\n\n-\n\n### Imprint/Promotion Label:\n\nB.H.A.D./Hitmaker\n\n- 13 RE- ENTRY\n-\n- RE- ENTRY\n-\n-\n### Paris Paloma\n\n-\n- -\n- 12\n- 6\n-\n-\n- -\n- 12\n- 6\n\n\n-\n\n### Imprint/Promotion Label:\n\nNettw…\n\n[Truncated preview: showing 515 words out of ~1611. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.4010507031510863,
+  "brier_score": 0.7224999999999999,
+  "weighted_brier_score": 0.28975913302665984,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "c6562be4-fe42-5d1a-81e8-2822ac6c0309",
+        "queries": [
+          "Billboard Artist 100 March 2025 recent charts",
+          "emerging artists March 2025 Billboard predictions",
+          "upcoming album releases March 2025 Billboard impact"
+        ]
+      },
+      "raw": "{\"question_id\": \"c6562be4-fe42-5d1a-81e8-2822ac6c0309\", \"queries\": [\"Billboard Artist 100 March 2025 recent charts\", \"emerging artists March 2025 Billboard predictions\", \"upcoming album releases March 2025 Billboard impact\"]}",
+      "tool_call_id": "call_3HxlWwXtHZp626of7xHlpaa8"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Billboard Artist 100 March 2025 recent charts",
+        "results": [
+          {
+            "title": "Billboard Hot 100™",
+            "link": "https://www.billboard.com/charts/hot-100/2025-03-22/",
+            "position": 1,
+            "snippet": "Billboard Hot 100™ Week of March 22, 2025: Luther by Kendrick Lamar & SZA is #1, Die With A Smile by Lady Gaga & Bruno Mars is #2, and Not Like Us by Kendrick Lamar is #3.",
+            "date": null
+          },
+          {
+            "title": "Billboard Artist 100 | Top Music Artists",
+            "link": "https://www.billboard.com/charts/artist-100/",
+            "position": 2,
+            "snippet": "Billboard Artist 100 Week of March 22, 2025. See the most popular artists ranked by album and track sales, radio airplay, and streaming activity.",
+            "date": null
+          },
+          {
+            "title": "Billboard Hot 100 Top 10 Countdown for March 22, 2025: Watch",
+            "link": "https://www.billboard.com/video/billboard-hot-100-top-10-march-22-2025-billboard-news/",
+            "position": 3,
+            "snippet": "This is the Billboard Hot 100 top 10 for the week dated March 22. Strong at No. 10 is Teddy Swims. Slipping to nine is Billie Eilish, while Drake is up to eight...",
+            "date": null
+          },
+          {
+            "title": "List of Billboard Hot 100 number ones of 2025 - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
+            "position": 5,
+            "snippet": "As of the chart dated March 22, six artists have charted at number one in 2025. Lamar is the only artist to chart two number-one songs this year so far.",
+            "date": null
+          },
+          {
+            "title": "Billboard Hot 100 Top 10 Countdown for March 8, 2025 | Billboard News",
+            "link": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-march-8-2025-billboard-news/",
+            "position": 5,
+            "snippet": "This is the Billboard Hot 100 top 10 for the week dated March 8. Down to 10 is “Squabble Up.” Teddy is back in the top 10 as is Chappell Roan up to eight. “Birds of a Feather” is at seven.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Billboard Artist 100 March 2025 recent charts\", \"results\": [{\"title\": \"Billboard Hot 100\\u2122\", \"link\": \"https://www.billboard.com/charts/hot-100/2025-03-22/\", \"position\": 1, \"snippet\": \"Billboard Hot 100\\u2122 Week of March 22, 2025: Luther by Kendrick Lamar & SZA is #1, Die With A Smile by Lady Gaga & Bruno Mars is #2, and Not Like Us by Kendrick Lamar is #3.\", \"date\": null}, {\"title\": \"Billboard Artist 100 | Top Music Artists\", \"link\": \"https://www.billboard.com/charts/artist-100/\", \"position\": 2, \"snippet\": \"Billboard Artist 100 Week of March 22, 2025. See the most popular artists ranked by album and track sales, radio airplay, and streaming activity.\", \"date\": null}, {\"title\": \"Billboard Hot 100 Top 10 Countdown for March 22, 2025: Watch\", \"link\": \"https://www.billboard.com/video/billboard-hot-100-top-10-march-22-2025-billboard-news/\", \"position\": 3, \"snippet\": \"This is the Billboard Hot 100 top 10 for the week dated March 22. Strong at No. 10 is Teddy Swims. Slipping to nine is Billie Eilish, while Drake is up to eight...\", \"date\": null}, {\"title\": \"List of Billboard Hot 100 number ones of 2025 - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025\", \"position\": 5, \"snippet\": \"As of the chart dated March 22, six artists have charted at number one in 2025. Lamar is the only artist to chart two number-one songs this year so far.\", \"date\": null}, {\"title\": \"Billboard Hot 100 Top 10 Countdown for March 8, 2025 | Billboard News\", \"link\": \"https://www.billboard.com/video/billboard-hot-100-top-10-countdown-march-8-2025-billboard-news/\", \"position\": 5, \"snippet\": \"This is the Billboard Hot 100 top 10 for the week dated March 8. Down to 10 is \\u201cSquabble Up.\\u201d Teddy is back in the top 10 as is Chappell Roan up to eight. \\u201cBirds of a Feather\\u201d is at seven.\", \"date\": null}]}",
+      "tool_call_id": "call_0OF8Uq51jwNAkHccRypAsaWj"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "emerging artists March 2025 Billboard predictions",
+        "results": [
+          {
+            "title": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?",
+            "link": "https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/",
+            "position": 4,
+            "snippet": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025...",
+            "date": null
+          },
+          {
+            "title": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?",
+            "link": "https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/",
+            "position": 1,
+            "snippet": "How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025...",
+            "date": null
+          },
+          {
+            "title": "Emerging Artists",
+            "link": "https://www.billboard.com/charts/emerging-artists/",
+            "position": 4,
+            "snippet": "Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow...",
+            "date": null
+          },
+          {
+            "title": "Emerging Artists",
+            "link": "https://www.billboard.com/charts/emerging-artists/",
+            "position": 1,
+            "snippet": "Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow...",
+            "date": null
+          },
+          {
+            "title": "Music Branding Power Players 2025 List",
+            "link": "https://www.billboard.com/p/music-branding-power-players-2025/",
+            "position": 5,
+            "snippet": "Partnerships with artists are bigger than they have ever been because they give companies the ability to break through the noise, says Marcie Allen. Billboard's 2025 list includes executives who worked with artists like Charli XCX, Victoria Monét, and Megan Thee Stallion...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"emerging artists March 2025 Billboard predictions\", \"results\": [{\"title\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\", \"link\": \"https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/\", \"position\": 4, \"snippet\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025...\", \"date\": null}, {\"title\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\", \"link\": \"https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/\", \"position\": 1, \"snippet\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025...\", \"date\": null}, {\"title\": \"Emerging Artists\", \"link\": \"https://www.billboard.com/charts/emerging-artists/\", \"position\": 4, \"snippet\": \"Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow...\", \"date\": null}, {\"title\": \"Emerging Artists\", \"link\": \"https://www.billboard.com/charts/emerging-artists/\", \"position\": 1, \"snippet\": \"Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow...\", \"date\": null}, {\"title\": \"Music Branding Power Players 2025 List\", \"link\": \"https://www.billboard.com/p/music-branding-power-players-2025/\", \"position\": 5, \"snippet\": \"Partnerships with artists are bigger than they have ever been because they give companies the ability to break through the noise, says Marcie Allen. Billboard's 2025 list includes executives who worked with artists like Charli XCX, Victoria Mon\\u00e9t, and Megan Thee Stallion...\", \"date\": null}]}",
+      "tool_call_id": "call_GqbvWD6qqmIvA4iaC5XyaqDK"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "upcoming album releases March 2025 Billboard impact",
+        "results": [
+          {
+            "title": "New Albums in 2025: Calendar of New Music Releases Coming",
+            "link": "https://www.billboard.com/lists/new-albums-2025-calendar-new-music-releases-this-year/",
+            "position": 1,
+            "snippet": "Billboard’s calendar of 2025 new album releases will be updated regularly as new music is announced. March 7: Jason Isbell, Jennie, Lady Gaga, YoungBoy Never Broke Again...",
+            "date": null
+          },
+          {
+            "title": "2025 Albums: New and Upcoming Music Releases",
+            "link": "https://consequence.net/music-albums-released-2025/",
+            "position": 5,
+            "snippet": "March 2025 brings new albums from artists like Raq baby, Agender, Alabaster DePlume, Alter Bridge, Arny Margret, Atropical, Benmont Tench, Bob James, Bob Mould, and many more...",
+            "date": null
+          },
+          {
+            "title": "List of 2025 albums - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_2025_albums",
+            "position": 3,
+            "snippet": "This content does not contain information about upcoming album releases for March 2025 or their Billboard impact.",
+            "date": null
+          },
+          {
+            "title": "Billboard Hot 100™",
+            "link": "https://www.billboard.com/charts/hot-100/2025-03-22/",
+            "position": 4,
+            "snippet": "Billboard Hot 100 Top 10 Countdown For March 22, 2025. THE WEEK’S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY FROM DIGITAL MUSIC SOURCES TRACKED BY LUMINATE...",
+            "date": null
+          },
+          {
+            "title": "The New Rock + Metal Albums Out Today",
+            "link": "https://loudwire.com/2025-hard-rock-metal-album-release-calendar/",
+            "position": 5,
+            "snippet": "March 21, 2025: Aversed - Erasure Of Color, Big Big Train - Bard Re-Release, Bloodywood - Nu Delhi, Cradle Of Filth - The Screaming Of The Valkyries, Pop Evil - What Remains, Rush - Rush 50 Box Set. March 28, 2025: Alien Weaponry - Te Rā, Arch Enemy - Blood Dynasty, Deafheaven - Lonely People With Power, Helloween - March Of Time, Ministry - The Squirrely Years Revisited...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"upcoming album releases March 2025 Billboard impact\", \"results\": [{\"title\": \"New Albums in 2025: Calendar of New Music Releases Coming\", \"link\": \"https://www.billboard.com/lists/new-albums-2025-calendar-new-music-releases-this-year/\", \"position\": 1, \"snippet\": \"Billboard\\u2019s calendar of 2025 new album releases will be updated regularly as new music is announced. March 7: Jason Isbell, Jennie, Lady Gaga, YoungBoy Never Broke Again...\", \"date\": null}, {\"title\": \"2025 Albums: New and Upcoming Music Releases\", \"link\": \"https://consequence.net/music-albums-released-2025/\", \"position\": 5, \"snippet\": \"March 2025 brings new albums from artists like Raq baby, Agender, Alabaster DePlume, Alter Bridge, Arny Margret, Atropical, Benmont Tench, Bob James, Bob Mould, and many more...\", \"date\": null}, {\"title\": \"List of 2025 albums - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_2025_albums\", \"position\": 3, \"snippet\": \"This content does not contain information about upcoming album releases for March 2025 or their Billboard impact.\", \"date\": null}, {\"title\": \"Billboard Hot 100\\u2122\", \"link\": \"https://www.billboard.com/charts/hot-100/2025-03-22/\", \"position\": 4, \"snippet\": \"Billboard Hot 100 Top 10 Countdown For March 22, 2025. THE WEEK\\u2019S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY FROM DIGITAL MUSIC SOURCES TRACKED BY LUMINATE...\", \"date\": null}, {\"title\": \"The New Rock + Metal Albums Out Today\", \"link\": \"https://loudwire.com/2025-hard-rock-metal-album-release-calendar/\", \"position\": 5, \"snippet\": \"March 21, 2025: Aversed - Erasure Of Color, Big Big Train - Bard Re-Release, Bloodywood - Nu Delhi, Cradle Of Filth - The Screaming Of The Valkyries, Pop Evil - What Remains, Rush - Rush 50 Box Set. March 28, 2025: Alien Weaponry - Te R\\u0101, Arch Enemy - Blood Dynasty, Deafheaven - Lonely People With Power, Helloween - March Of Time, Ministry - The Squirrely Years Revisited...\", \"date\": null}]}",
+      "tool_call_id": "call_31xdsLMzEZWDVeRsjZYKqaAF"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.billboard.com/charts/artist-100/",
+        "snippet": "---\ntitle: Billboard Artist 100\nauthor: Tolsen\nurl: https://www.billboard.com/charts/artist-100/\nhostname: billboard.com\ndescription: THE WEEK’S MOST POPULAR ARTISTS ACROSS ALL GENRES, RANKED BY ALBUM AND TRACK SALES AS PROVIDED BY LUMINATE, RADIO AIRPLAY AUDIENCE IMPRESSIONS AS PROVIDED BY LUMINATE, STREAMING ACTIVITY DATA FROM ONLINE MUSIC SOURCES TRACKED BY LUMINATE.\nsitename: Billboard\ndate: 2014-07-10\n---\n[Skip to main content](https://www.billboard.com#pagetop)\n\n\nLady Gaga\n\nLast week\n\n17Weeks at no. 1\n\n7Weeks on chart\n\n310### Imprint/Promotion Label:\n\nStreamline/Interscope/ICLG\n\nGains In Performance\n\n## Billboard Artist 100\n\nWeek of March 22, 2025\n\n-\n1\n-\n-\n-\n-\n### Lady Gaga\n\n-\n- 17\n- 1\n- 310\n-\n-\n- 17\n- 1\n- 310\n\n\n-\n\n### Imprint/Promotion Label:\n\nStreamline/Interscope/ICLG\n\nGains In Performance\n\n-\n2\n-\n-\n-\n-\n### Kendrick Lamar\n\n- 1\n- 1\n- 480\n-\n- 1\n- 1\n- 480\n\n\n-\n\n### Imprint/Promotion Label:\n\npgLang/Interscope/ICLG\n\n-\n3\n-\n-\n-\n-\n### Morgan Wallen\n\n- 2\n- 1\n- 314\n-\n- 2\n- 1\n- 314\n\n\n-\n\n### Imprint/Promotion Label:\n\nBig Loud/Mercury/Republic\n\n-\n4\n-\n-\n-\n-\n### Sabrina Carpenter\n\n- 4\n- 1\n- 67\n-\n- 4\n- 1\n- 67\n\n\n-\n\n### Imprint/Promotion Label:\n\nIsland/Republic\n\n-\n5\n-\n-\n-\n-\n### SZA\n\n- 5\n- 1\n- 289\n-\n- 5\n- 1\n- 289\n\n\n-\n\n### Imprint/Promotion Label:\n\nTop Dawg/RCA\n\n-\n6\n-\n-\n-\n-\n### Drake\n\n- 6\n- 1\n- 557\n-\n- 6\n- 1\n- 557\n\n\n-\n\n### Imprint/Promotion Label:\n\nOVO Sound/Republic\n\n-\n7\n-\n-\n-\n-\n### Chappell Roan\n\n- 9\n- 1\n- 48\n-\n- 9\n- 1\n- 48\n\n\n-\n\n### Imprint/Promotion Label:\n\nKRA/Amusement/Island/Republic\n\n-\n8\n-\n-\n-\n-\n### Tate McRae\n\n- 3\n- 1\n- 127\n-\n- 3\n- 1\n- 127\n\n\n-\n\n### Imprint/Promotion Label:\n\nRCA\n\n-\n9\n-\n-\n-\n-\n### Billie Eilish\n\n- 7\n- 1\n- 334\n-\n- 7\n- 1\n- 334\n\n\n-\n\n### Imprint/Promotion Label:\n\nDarkroom/Interscope/ICLG\n\n-\n10\n-\n-\n-\n-\n### Doechii\n\n-\n- 23\n- 10\n- 18\n-\n-\n- 23\n- 10\n- 18\n\n\n-\n\n### Imprint/Promotion Label:\n\nTop Dawg/Capitol\n\nGains In Performance\n\n- 11 RE- ENTRY\n-\n- RE- ENTRY\n-\n-\n### JENNIE\n\n-\n- -\n- 11\n- 3\n-\n-\n- -\n- 11\n- 3\n\n\n-\n\n### Imprint/Promotion Label:\n\nOA Entertainment/Columbia\n\nGains In Performance\n\n-\n12\n-\n-\n-\n-\n### Teddy Swims\n\n- 12\n- 3\n- 79\n-\n- 12\n- 3\n- 79\n\n\n-\n\n### Imprint/Promotion Label:\n\nSWIMS Int./Warner\n\n-\n13\n-\n-\n-\n-\n### Bruno Mars\n\n- 10\n- 1\n- 537\n-\n- 10\n- 1\n- 537\n\n\n-\n\n### Imprint/Promotion Label:\n\nAtlantic/AG\n\n-\n14\n-\n-\n-\n-\n### The Weeknd\n\n- 11\n- 1\n- 505\n-\n- 11\n- 1\n- 505\n\n\n-\n\n### Imprint/Promotion Label:\n\nXO/Republic\n\n-\n15\n-\n-\n-\n-\n### Tyler, The Creator\n\n- 14\n- 1\n- 195\n-\n- 14\n- 1\n- 195\n\n\n-\n\n### Imprint/Promotion Label:\n\nColumbia\n\n-\n16\n-\n-\n-\n-\n### Bad Bunny\n\n- 15…\n\n[Truncated preview: showing 522 words out of ~2978. Full content available via `btf_extract_evidence`.]",
+        "word_count": 2978,
+        "snippet_word_count": 522,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T02:54:27.202737"
+      },
+      "raw": "{\"url\": \"https://www.billboard.com/charts/artist-100/\", \"snippet\": \"---\\ntitle: Billboard Artist 100\\nauthor: Tolsen\\nurl: https://www.billboard.com/charts/artist-100/\\nhostname: billboard.com\\ndescription: THE WEEK\\u2019S MOST POPULAR ARTISTS ACROSS ALL GENRES, RANKED BY ALBUM AND TRACK SALES AS PROVIDED BY LUMINATE, RADIO AIRPLAY AUDIENCE IMPRESSIONS AS PROVIDED BY LUMINATE, STREAMING ACTIVITY DATA FROM ONLINE MUSIC SOURCES TRACKED BY LUMINATE.\\nsitename: Billboard\\ndate: 2014-07-10\\n---\\n[Skip to main content](https://www.billboard.com#pagetop)\\n\\n\\nLady Gaga\\n\\nLast week\\n\\n17Weeks at no. 1\\n\\n7Weeks on chart\\n\\n310### Imprint/Promotion Label:\\n\\nStreamline/Interscope/ICLG\\n\\nGains In Performance\\n\\n## Billboard Artist 100\\n\\nWeek of March 22, 2025\\n\\n-\\n1\\n-\\n-\\n-\\n-\\n### Lady Gaga\\n\\n-\\n- 17\\n- 1\\n- 310\\n-\\n-\\n- 17\\n- 1\\n- 310\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nStreamline/Interscope/ICLG\\n\\nGains In Performance\\n\\n-\\n2\\n-\\n-\\n-\\n-\\n### Kendrick Lamar\\n\\n- 1\\n- 1\\n- 480\\n-\\n- 1\\n- 1\\n- 480\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\npgLang/Interscope/ICLG\\n\\n-\\n3\\n-\\n-\\n-\\n-\\n### Morgan Wallen\\n\\n- 2\\n- 1\\n- 314\\n-\\n- 2\\n- 1\\n- 314\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nBig Loud/Mercury/Republic\\n\\n-\\n4\\n-\\n-\\n-\\n-\\n### Sabrina Carpenter\\n\\n- 4\\n- 1\\n- 67\\n-\\n- 4\\n- 1\\n- 67\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nIsland/Republic\\n\\n-\\n5\\n-\\n-\\n-\\n-\\n### SZA\\n\\n- 5\\n- 1\\n- 289\\n-\\n- 5\\n- 1\\n- 289\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nTop Dawg/RCA\\n\\n-\\n6\\n-\\n-\\n-\\n-\\n### Drake\\n\\n- 6\\n- 1\\n- 557\\n-\\n- 6\\n- 1\\n- 557\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nOVO Sound/Republic\\n\\n-\\n7\\n-\\n-\\n-\\n-\\n### Chappell Roan\\n\\n- 9\\n- 1\\n- 48\\n-\\n- 9\\n- 1\\n- 48\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nKRA/Amusement/Island/Republic\\n\\n-\\n8\\n-\\n-\\n-\\n-\\n### Tate McRae\\n\\n- 3\\n- 1\\n- 127\\n-\\n- 3\\n- 1\\n- 127\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nRCA\\n\\n-\\n9\\n-\\n-\\n-\\n-\\n### Billie Eilish\\n\\n- 7\\n- 1\\n- 334\\n-\\n- 7\\n- 1\\n- 334\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nDarkroom/Interscope/ICLG\\n\\n-\\n10\\n-\\n-\\n-\\n-\\n### Doechii\\n\\n-\\n- 23\\n- 10\\n- 18\\n-\\n-\\n- 23\\n- 10\\n- 18\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nTop Dawg/Capitol\\n\\nGains In Performance\\n\\n- 11 RE- ENTRY\\n-\\n- RE- ENTRY\\n-\\n-\\n### JENNIE\\n\\n-\\n- -\\n- 11\\n- 3\\n-\\n-\\n- -\\n- 11\\n- 3\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nOA Entertainment/Columbia\\n\\nGains In Performance\\n\\n-\\n12\\n-\\n-\\n-\\n-\\n### Teddy Swims\\n\\n- 12\\n- 3\\n- 79\\n-\\n- 12\\n- 3\\n- 79\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nSWIMS Int./Warner\\n\\n-\\n13\\n-\\n-\\n-\\n-\\n### Bruno Mars\\n\\n- 10\\n- 1\\n- 537\\n-\\n- 10\\n- 1\\n- 537\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nAtlantic/AG\\n\\n-\\n14\\n-\\n-\\n-\\n-\\n### The Weeknd\\n\\n- 11\\n- 1\\n- 505\\n-\\n- 11\\n- 1\\n- 505\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nXO/Republic\\n\\n-\\n15\\n-\\n-\\n-\\n-\\n### Tyler, The Creator\\n\\n- 14\\n- 1\\n- 195\\n-\\n- 14\\n- 1\\n- 195\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nColumbia\\n\\n-\\n16\\n-\\n-\\n-\\n-\\n### Bad Bunny\\n\\n- 15\\u2026\\n\\n[Truncated preview: showing 522 words out of ~2978. Full content available via `btf_extract_evidence`.]\", \"word_count\": 2978, \"snippet_word_count\": 522, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:54:27.202737\"}",
+      "tool_call_id": "call_YDtCjJrg44RDqF5JcthfTQjF"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/",
+        "snippet": "---\ntitle: How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\nsitename: Metaculus\ndate: 2025-02-10\n---\nQuestion\n\n# How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\n\n### Forecast Timeline\n\nTotal Forecasters\n\n**459**### Make a Prediction\n\n| New Artists | My Prediction | Me | ||\n|---|---|---|---|---|\n0 | 2.1% | |||\n1 | 15.4% | |||\n2 | 36.2% | |||\n3 | 33.4% | |||\n4 | 11.9% | |||\n5 or more | 1% | |||\n\nTotal: ?\n\n(? remaining)Authors:\n\nOpened:Feb 10, 2025\n\nCloses:Mar 21, 2025\n\nScheduled resolution:Mar 27, 2025\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Feb 10, 2025\n\nCloses:Mar 21, 2025\n\nScheduled resolution:Mar 27, 2025",
+        "word_count": 144,
+        "snippet_word_count": 144,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T02:54:27.792592"
+      },
+      "raw": "{\"url\": \"https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/\", \"snippet\": \"---\\ntitle: How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\\nsitename: Metaculus\\ndate: 2025-02-10\\n---\\nQuestion\\n\\n# How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\\n\\n### Forecast Timeline\\n\\nTotal Forecasters\\n\\n**459**### Make a Prediction\\n\\n| New Artists | My Prediction | Me | ||\\n|---|---|---|---|---|\\n0 | 2.1% | |||\\n1 | 15.4% | |||\\n2 | 36.2% | |||\\n3 | 33.4% | |||\\n4 | 11.9% | |||\\n5 or more | 1% | |||\\n\\nTotal: ?\\n\\n(? remaining)Authors:\\n\\nOpened:Feb 10, 2025\\n\\nCloses:Mar 21, 2025\\n\\nScheduled resolution:Mar 27, 2025\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Feb 10, 2025\\n\\nCloses:Mar 21, 2025\\n\\nScheduled resolution:Mar 27, 2025\", \"word_count\": 144, \"snippet_word_count\": 144, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:54:27.792592\"}",
+      "tool_call_id": "call_5P36GUkIawYvX70WF3qS8KPB"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.billboard.com/charts/emerging-artists/",
+        "snippet": "---\ntitle: Emerging Artists\nauthor: Devops\nurl: https://www.billboard.com/charts/emerging-artists/\nhostname: billboard.com\ndescription: The week's most popular developing artists, using the same formula as the all-encompassing Billboard Artist 100, which measures artist activity across multiple Billboard charts, including the Hot 100, Billboard 200 (The Artist 100 lists the most popular acts, overall, each week.) However, the Emerging Artists chart excludes acts that have notched a top 25 entry on either the Hot 100 or Billboard 200, as well as artists that have achieved two or more top 10s on Billboard's \"Hot\" song genre charts and/or consumption-based \"Top\" album genre rankings.\nsitename: Billboard\ndate: 2017-08-08\n---\n[Skip to main content](https://www.billboard.com#pagetop)\n\n\nAlex Warren\n\nLast week\n\n1Weeks at no. 1\n\n4Weeks on chart\n\n35### Imprint/Promotion Label:\n\nAtlantic/AG\n\nGains In Performance\n\n## Emerging Artists\n\nWeek of March 22, 2025\n\n-\n1\n-\n-\n-\n-\n### Alex Warren\n\n-\n- 1\n- 1\n- 35\n-\n-\n- 1\n- 1\n- 35\n\n\n-\n\n### Imprint/Promotion Label:\n\nAtlantic/AG\n\nGains In Performance\n\n-\n2\n-\n-\n-\n-\n### Zach Top\n\n- 2\n- 1\n- 35\n-\n- 2\n- 1\n- 35\n\n\n-\n\n### Imprint/Promotion Label:\n\nLeo33\n\n-\n3\n-\n-\n-\n-\n### Ella Langley\n\n- 4\n- 1\n- 38\n-\n- 4\n- 1\n- 38\n\n\n-\n\n### Imprint/Promotion Label:\n\nSAWGOD/Columbia\n\n-\n4\n-\n-\n-\n-\n### The Red Clay Strays\n\n- 3\n- 1\n- 69\n-\n- 3\n- 1\n- 69\n\n\n-\n\n### Imprint/Promotion Label:\n\nRed Clay Strays/HBYCO/Thirty Tigers/RCA\n\n-\n5\n-\n-\n-\n-\n### GELO\n\n- 5\n- 3\n- 10\n-\n- 5\n- 3\n- 10\n\n\n-\n\n### Imprint/Promotion Label:\n\nBorn To Ball\n\n-\n6\n-\n-\n-\n-\n### Tucker Wetmore\n\n-\n- 11\n- 1\n- 55\n-\n-\n- 11\n- 1\n- 55\n\n\n-\n\n### Imprint/Promotion Label:\n\nBack Blocks/EMI Nashville/UMGN\n\nGains In Performance\n\n-\n7\n-\n-\n-\n-\n### Leon Thomas\n\n- 6\n- 6\n- 10\n-\n- 6\n- 6\n- 10\n\n\n-\n\n### Imprint/Promotion Label:\n\nEZMNY/Motown/ICLG\n\n-\n8\n-\n-\n-\n-\n### Megan Woods\n\n-\n- 14\n- 8\n- 23\n-\n-\n- 14\n- 8\n- 23\n\n\n-\n\n### Imprint/Promotion Label:\n\nFair Trade\n\nGains In Performance\n\n-\n9\n-\n-\n-\n-\n### Lefty Gunplay\n\n- 7\n- 3\n- 16\n-\n- 7\n- 3\n- 16\n\n\n-\n\n### Imprint/Promotion Label:\n\nOTR\n\n-\n10\n-\n-\n-\n-\n### BossMan Dlow\n\n- 10\n- 1\n- 59\n-\n- 10\n- 1\n- 59\n\n\n-\n\n### Imprint/Promotion Label:\n\nAlamo\n\n-\n11\n-\n-\n-\n-\n### Sam Barber\n\n- 12\n- 11\n- 64\n-\n- 12\n- 11\n- 64\n\n\n-\n\n### Imprint/Promotion Label:\n\nLockeland Springs/Atlantic/AG\n\n-\n12\n-\n-\n-\n-\n### Bhad Bhabie\n\n- 8\n- 5\n- 33\n-\n- 8\n- 5\n- 33\n\n\n-\n\n### Imprint/Promotion Label:\n\nB.H.A.D./Hitmaker\n\n- 13 RE- ENTRY\n-\n- RE- ENTRY\n-\n-\n### Paris Paloma\n\n-\n- -\n- 12\n- 6\n-\n-\n- -\n- 12\n- 6\n\n\n-\n\n### Imprint/Promotion Label:\n\nNettw…\n\n[Truncated preview: showing 515 words out of ~1611. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1611,
+        "snippet_word_count": 515,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T14:17:03.745395"
+      },
+      "raw": "{\"url\": \"https://www.billboard.com/charts/emerging-artists/\", \"snippet\": \"---\\ntitle: Emerging Artists\\nauthor: Devops\\nurl: https://www.billboard.com/charts/emerging-artists/\\nhostname: billboard.com\\ndescription: The week's most popular developing artists, using the same formula as the all-encompassing Billboard Artist 100, which measures artist activity across multiple Billboard charts, including the Hot 100, Billboard 200 (The Artist 100 lists the most popular acts, overall, each week.) However, the Emerging Artists chart excludes acts that have notched a top 25 entry on either the Hot 100 or Billboard 200, as well as artists that have achieved two or more top 10s on Billboard's \\\"Hot\\\" song genre charts and/or consumption-based \\\"Top\\\" album genre rankings.\\nsitename: Billboard\\ndate: 2017-08-08\\n---\\n[Skip to main content](https://www.billboard.com#pagetop)\\n\\n\\nAlex Warren\\n\\nLast week\\n\\n1Weeks at no. 1\\n\\n4Weeks on chart\\n\\n35### Imprint/Promotion Label:\\n\\nAtlantic/AG\\n\\nGains In Performance\\n\\n## Emerging Artists\\n\\nWeek of March 22, 2025\\n\\n-\\n1\\n-\\n-\\n-\\n-\\n### Alex Warren\\n\\n-\\n- 1\\n- 1\\n- 35\\n-\\n-\\n- 1\\n- 1\\n- 35\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nAtlantic/AG\\n\\nGains In Performance\\n\\n-\\n2\\n-\\n-\\n-\\n-\\n### Zach Top\\n\\n- 2\\n- 1\\n- 35\\n-\\n- 2\\n- 1\\n- 35\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nLeo33\\n\\n-\\n3\\n-\\n-\\n-\\n-\\n### Ella Langley\\n\\n- 4\\n- 1\\n- 38\\n-\\n- 4\\n- 1\\n- 38\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nSAWGOD/Columbia\\n\\n-\\n4\\n-\\n-\\n-\\n-\\n### The Red Clay Strays\\n\\n- 3\\n- 1\\n- 69\\n-\\n- 3\\n- 1\\n- 69\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nRed Clay Strays/HBYCO/Thirty Tigers/RCA\\n\\n-\\n5\\n-\\n-\\n-\\n-\\n### GELO\\n\\n- 5\\n- 3\\n- 10\\n-\\n- 5\\n- 3\\n- 10\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nBorn To Ball\\n\\n-\\n6\\n-\\n-\\n-\\n-\\n### Tucker Wetmore\\n\\n-\\n- 11\\n- 1\\n- 55\\n-\\n-\\n- 11\\n- 1\\n- 55\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nBack Blocks/EMI Nashville/UMGN\\n\\nGains In Performance\\n\\n-\\n7\\n-\\n-\\n-\\n-\\n### Leon Thomas\\n\\n- 6\\n- 6\\n- 10\\n-\\n- 6\\n- 6\\n- 10\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nEZMNY/Motown/ICLG\\n\\n-\\n8\\n-\\n-\\n-\\n-\\n### Megan Woods\\n\\n-\\n- 14\\n- 8\\n- 23\\n-\\n-\\n- 14\\n- 8\\n- 23\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nFair Trade\\n\\nGains In Performance\\n\\n-\\n9\\n-\\n-\\n-\\n-\\n### Lefty Gunplay\\n\\n- 7\\n- 3\\n- 16\\n-\\n- 7\\n- 3\\n- 16\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nOTR\\n\\n-\\n10\\n-\\n-\\n-\\n-\\n### BossMan Dlow\\n\\n- 10\\n- 1\\n- 59\\n-\\n- 10\\n- 1\\n- 59\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nAlamo\\n\\n-\\n11\\n-\\n-\\n-\\n-\\n### Sam Barber\\n\\n- 12\\n- 11\\n- 64\\n-\\n- 12\\n- 11\\n- 64\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nLockeland Springs/Atlantic/AG\\n\\n-\\n12\\n-\\n-\\n-\\n-\\n### Bhad Bhabie\\n\\n- 8\\n- 5\\n- 33\\n-\\n- 8\\n- 5\\n- 33\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nB.H.A.D./Hitmaker\\n\\n- 13 RE- ENTRY\\n-\\n- RE- ENTRY\\n-\\n-\\n### Paris Paloma\\n\\n-\\n- -\\n- 12\\n- 6\\n-\\n-\\n- -\\n- 12\\n- 6\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nNettw\\u2026\\n\\n[Truncated preview: showing 515 words out of ~1611. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1611, \"snippet_word_count\": 515, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T14:17:03.745395\"}",
+      "tool_call_id": "call_doY9DGA6XQ0447HZreqgyqrO"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will there be exactly 1 artist in the top 10 of the Billboard Artist 100 in the last week of March who is new to the top 10 that week?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\n[Billboard](https://en.wikipedia.org/wiki/Billboard_\\(magazine\\)) is a renowned weekly American music and entertainment magazine. The magazine provides charts that track the most popular songs, albums, and artists in various genres. [Billboard Artist 100](https://www.billboard.com/charts/artist-100/) is a list of 100 artists who are, according to Billboard:\n\n> The week's most popular artists across all genres, ranked by album and track sales as provided by Luminate, radio airplay audience impressions as provided by Luminate, streaming activity data from online music sources traced by Luminate.\n\nAs of January 22, 2025, Taylor Swift is the number one artist, and one artist (Teddy Swims) was ranked below the top 10 the prior week.\n\nBillboard's charts update weekly [each Tuesday morning](https://www.billboard.com/frequently-asked-questions/#:~:text=When%20do%20charts%20update%20each%20week%3F).\nResolution criteria: This question will resolve as YES if exactly 1 artist in the top 10 of the [Billboard Artist 100](https://www.billboard.com/charts/artist-100/) for the week of March 29, 2025, is shown as having a ranking in the \"Last Week\" column of either 11 or greater or was previously unranked. Otherwise, it will resolve as NO.\nFine print: * Previously unranked artists are typically shown using \"-\", but any value besides 1 through 10 in the previous week's ranking will count as the artist being new.\n* The question will resolve when the Billboard Artist 100 ranking for the week of March 29, 2025, is first available and accessed by Metaculus. If the listing for the week of March 29, 2025, is not available before March 31, 2025, the question will be **annulled**.\npresent_date: 2025-03-19T18:44:43.714349\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_3HxlWwXtHZp626of7xHlpaa8",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will there be exactly 1 artist in the top 10 of the Billboard Artist 100 in the last week of March who is new to the top 10 that week?\",\"background\":\"Billboard is a renowned weekly American music and entertainment magazine. The magazine provides charts that track the most popular songs, albums, and artists in various genres. Billboard Artist 100 is a list of 100 artists who are, according to Billboard: The week's most popular artists across all genres, ranked by album and track sales as provided by Luminate, radio airplay audience impressions as provided by Luminate, streaming activity data from online music sources traced by Luminate. As of January 22, 2025, Taylor Swift is the number one artist, and one artist (Teddy Swims) was ranked below the top 10 the prior week. Billboard's charts update weekly each Tuesday morning.\",\"resolution_criteria\":\"This question will resolve as YES if exactly 1 artist in the top 10 of the Billboard Artist 100 for the week of March 29, 2025, is shown as having a ranking in the \\\"Last Week\\\" column of either 11 or greater or was previously unranked. Otherwise, it will resolve as NO.\",\"fine_print\":\"Previously unranked artists are typically shown using \\\"-\\\", but any value besides 1 through 10 in the previous week's ranking will count as the artist being new. The question will resolve when the Billboard Artist 100 ranking for the week of March 29, 2025, is first available and accessed by Metaculus. If the listing for the week of March 29, 2025, is not available before March 31, 2025, the question will be annulled.\",\"present_date\":\"2025-03-19T18:44:43.714349\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c6562be4-fe42-5d1a-81e8-2822ac6c0309\", \"queries\": [\"Billboard Artist 100 March 2025 recent charts\", \"emerging artists March 2025 Billboard predictions\", \"upcoming album releases March 2025 Billboard impact\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_3HxlWwXtHZp626of7xHlpaa8"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_0OF8Uq51jwNAkHccRypAsaWj",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Billboard Artist 100 March 2025 recent charts\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_GqbvWD6qqmIvA4iaC5XyaqDK",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"emerging artists March 2025 Billboard predictions\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_31xdsLMzEZWDVeRsjZYKqaAF",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"upcoming album releases March 2025 Billboard impact\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Billboard Artist 100 March 2025 recent charts\", \"results\": [{\"title\": \"Billboard Hot 100\\u2122\", \"link\": \"https://www.billboard.com/charts/hot-100/2025-03-22/\", \"position\": 1, \"snippet\": \"Billboard Hot 100\\u2122 Week of March 22, 2025: Luther by Kendrick Lamar & SZA is #1, Die With A Smile by Lady Gaga & Bruno Mars is #2, and Not Like Us by Kendrick Lamar is #3.\", \"date\": null}, {\"title\": \"Billboard Artist 100 | Top Music Artists\", \"link\": \"https://www.billboard.com/charts/artist-100/\", \"position\": 2, \"snippet\": \"Billboard Artist 100 Week of March 22, 2025. See the most popular artists ranked by album and track sales, radio airplay, and streaming activity.\", \"date\": null}, {\"title\": \"Billboard Hot 100 Top 10 Countdown for March 22, 2025: Watch\", \"link\": \"https://www.billboard.com/video/billboard-hot-100-top-10-march-22-2025-billboard-news/\", \"position\": 3, \"snippet\": \"This is the Billboard Hot 100 top 10 for the week dated March 22. Strong at No. 10 is Teddy Swims. Slipping to nine is Billie Eilish, while Drake is up to eight...\", \"date\": null}, {\"title\": \"List of Billboard Hot 100 number ones of 2025 - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025\", \"position\": 5, \"snippet\": \"As of the chart dated March 22, six artists have charted at number one in 2025. Lamar is the only artist to chart two number-one songs this year so far.\", \"date\": null}, {\"title\": \"Billboard Hot 100 Top 10 Countdown for March 8, 2025 | Billboard News\", \"link\": \"https://www.billboard.com/video/billboard-hot-100-top-10-countdown-march-8-2025-billboard-news/\", \"position\": 5, \"snippet\": \"This is the Billboard Hot 100 top 10 for the week dated March 8. Down to 10 is \\u201cSquabble Up.\\u201d Teddy is back in the top 10 as is Chappell Roan up to eight. \\u201cBirds of a Feather\\u201d is at seven.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_0OF8Uq51jwNAkHccRypAsaWj"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"emerging artists March 2025 Billboard predictions\", \"results\": [{\"title\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\", \"link\": \"https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/\", \"position\": 4, \"snippet\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025...\", \"date\": null}, {\"title\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\", \"link\": \"https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/\", \"position\": 1, \"snippet\": \"How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week? Forecast Timeline Opened: Feb 10, 2025 Closes: Mar 21, 2025...\", \"date\": null}, {\"title\": \"Emerging Artists\", \"link\": \"https://www.billboard.com/charts/emerging-artists/\", \"position\": 4, \"snippet\": \"Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow...\", \"date\": null}, {\"title\": \"Emerging Artists\", \"link\": \"https://www.billboard.com/charts/emerging-artists/\", \"position\": 1, \"snippet\": \"Emerging Artists Week of March 22, 2025: Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, GELO, Tucker Wetmore, Leon Thomas, Megan Woods, Lefty Gunplay, BossMan Dlow...\", \"date\": null}, {\"title\": \"Music Branding Power Players 2025 List\", \"link\": \"https://www.billboard.com/p/music-branding-power-players-2025/\", \"position\": 5, \"snippet\": \"Partnerships with artists are bigger than they have ever been because they give companies the ability to break through the noise, says Marcie Allen. Billboard's 2025 list includes executives who worked with artists like Charli XCX, Victoria Mon\\u00e9t, and Megan Thee Stallion...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_GqbvWD6qqmIvA4iaC5XyaqDK"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"upcoming album releases March 2025 Billboard impact\", \"results\": [{\"title\": \"New Albums in 2025: Calendar of New Music Releases Coming\", \"link\": \"https://www.billboard.com/lists/new-albums-2025-calendar-new-music-releases-this-year/\", \"position\": 1, \"snippet\": \"Billboard\\u2019s calendar of 2025 new album releases will be updated regularly as new music is announced. March 7: Jason Isbell, Jennie, Lady Gaga, YoungBoy Never Broke Again...\", \"date\": null}, {\"title\": \"2025 Albums: New and Upcoming Music Releases\", \"link\": \"https://consequence.net/music-albums-released-2025/\", \"position\": 5, \"snippet\": \"March 2025 brings new albums from artists like Raq baby, Agender, Alabaster DePlume, Alter Bridge, Arny Margret, Atropical, Benmont Tench, Bob James, Bob Mould, and many more...\", \"date\": null}, {\"title\": \"List of 2025 albums - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_2025_albums\", \"position\": 3, \"snippet\": \"This content does not contain information about upcoming album releases for March 2025 or their Billboard impact.\", \"date\": null}, {\"title\": \"Billboard Hot 100\\u2122\", \"link\": \"https://www.billboard.com/charts/hot-100/2025-03-22/\", \"position\": 4, \"snippet\": \"Billboard Hot 100 Top 10 Countdown For March 22, 2025. THE WEEK\\u2019S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY FROM DIGITAL MUSIC SOURCES TRACKED BY LUMINATE...\", \"date\": null}, {\"title\": \"The New Rock + Metal Albums Out Today\", \"link\": \"https://loudwire.com/2025-hard-rock-metal-album-release-calendar/\", \"position\": 5, \"snippet\": \"March 21, 2025: Aversed - Erasure Of Color, Big Big Train - Bard Re-Release, Bloodywood - Nu Delhi, Cradle Of Filth - The Screaming Of The Valkyries, Pop Evil - What Remains, Rush - Rush 50 Box Set. March 28, 2025: Alien Weaponry - Te R\\u0101, Arch Enemy - Blood Dynasty, Deafheaven - Lonely People With Power, Helloween - March Of Time, Ministry - The Squirrely Years Revisited...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_31xdsLMzEZWDVeRsjZYKqaAF"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_YDtCjJrg44RDqF5JcthfTQjF",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.billboard.com/charts/artist-100/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\"}"
+          }
+        },
+        {
+          "id": "call_5P36GUkIawYvX70WF3qS8KPB",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\"}"
+          }
+        },
+        {
+          "id": "call_doY9DGA6XQ0447HZreqgyqrO",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.billboard.com/charts/emerging-artists/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.billboard.com/charts/artist-100/\", \"snippet\": \"---\\ntitle: Billboard Artist 100\\nauthor: Tolsen\\nurl: https://www.billboard.com/charts/artist-100/\\nhostname: billboard.com\\ndescription: THE WEEK\\u2019S MOST POPULAR ARTISTS ACROSS ALL GENRES, RANKED BY ALBUM AND TRACK SALES AS PROVIDED BY LUMINATE, RADIO AIRPLAY AUDIENCE IMPRESSIONS AS PROVIDED BY LUMINATE, STREAMING ACTIVITY DATA FROM ONLINE MUSIC SOURCES TRACKED BY LUMINATE.\\nsitename: Billboard\\ndate: 2014-07-10\\n---\\n[Skip to main content](https://www.billboard.com#pagetop)\\n\\n\\nLady Gaga\\n\\nLast week\\n\\n17Weeks at no. 1\\n\\n7Weeks on chart\\n\\n310### Imprint/Promotion Label:\\n\\nStreamline/Interscope/ICLG\\n\\nGains In Performance\\n\\n## Billboard Artist 100\\n\\nWeek of March 22, 2025\\n\\n-\\n1\\n-\\n-\\n-\\n-\\n### Lady Gaga\\n\\n-\\n- 17\\n- 1\\n- 310\\n-\\n-\\n- 17\\n- 1\\n- 310\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nStreamline/Interscope/ICLG\\n\\nGains In Performance\\n\\n-\\n2\\n-\\n-\\n-\\n-\\n### Kendrick Lamar\\n\\n- 1\\n- 1\\n- 480\\n-\\n- 1\\n- 1\\n- 480\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\npgLang/Interscope/ICLG\\n\\n-\\n3\\n-\\n-\\n-\\n-\\n### Morgan Wallen\\n\\n- 2\\n- 1\\n- 314\\n-\\n- 2\\n- 1\\n- 314\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nBig Loud/Mercury/Republic\\n\\n-\\n4\\n-\\n-\\n-\\n-\\n### Sabrina Carpenter\\n\\n- 4\\n- 1\\n- 67\\n-\\n- 4\\n- 1\\n- 67\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nIsland/Republic\\n\\n-\\n5\\n-\\n-\\n-\\n-\\n### SZA\\n\\n- 5\\n- 1\\n- 289\\n-\\n- 5\\n- 1\\n- 289\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nTop Dawg/RCA\\n\\n-\\n6\\n-\\n-\\n-\\n-\\n### Drake\\n\\n- 6\\n- 1\\n- 557\\n-\\n- 6\\n- 1\\n- 557\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nOVO Sound/Republic\\n\\n-\\n7\\n-\\n-\\n-\\n-\\n### Chappell Roan\\n\\n- 9\\n- 1\\n- 48\\n-\\n- 9\\n- 1\\n- 48\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nKRA/Amusement/Island/Republic\\n\\n-\\n8\\n-\\n-\\n-\\n-\\n### Tate McRae\\n\\n- 3\\n- 1\\n- 127\\n-\\n- 3\\n- 1\\n- 127\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nRCA\\n\\n-\\n9\\n-\\n-\\n-\\n-\\n### Billie Eilish\\n\\n- 7\\n- 1\\n- 334\\n-\\n- 7\\n- 1\\n- 334\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nDarkroom/Interscope/ICLG\\n\\n-\\n10\\n-\\n-\\n-\\n-\\n### Doechii\\n\\n-\\n- 23\\n- 10\\n- 18\\n-\\n-\\n- 23\\n- 10\\n- 18\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nTop Dawg/Capitol\\n\\nGains In Performance\\n\\n- 11 RE- ENTRY\\n-\\n- RE- ENTRY\\n-\\n-\\n### JENNIE\\n\\n-\\n- -\\n- 11\\n- 3\\n-\\n-\\n- -\\n- 11\\n- 3\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nOA Entertainment/Columbia\\n\\nGains In Performance\\n\\n-\\n12\\n-\\n-\\n-\\n-\\n### Teddy Swims\\n\\n- 12\\n- 3\\n- 79\\n-\\n- 12\\n- 3\\n- 79\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nSWIMS Int./Warner\\n\\n-\\n13\\n-\\n-\\n-\\n-\\n### Bruno Mars\\n\\n- 10\\n- 1\\n- 537\\n-\\n- 10\\n- 1\\n- 537\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nAtlantic/AG\\n\\n-\\n14\\n-\\n-\\n-\\n-\\n### The Weeknd\\n\\n- 11\\n- 1\\n- 505\\n-\\n- 11\\n- 1\\n- 505\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nXO/Republic\\n\\n-\\n15\\n-\\n-\\n-\\n-\\n### Tyler, The Creator\\n\\n- 14\\n- 1\\n- 195\\n-\\n- 14\\n- 1\\n- 195\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nColumbia\\n\\n-\\n16\\n-\\n-\\n-\\n-\\n### Bad Bunny\\n\\n- 15\\u2026\\n\\n[Truncated preview: showing 522 words out of ~2978. Full content available via `btf_extract_evidence`.]\", \"word_count\": 2978, \"snippet_word_count\": 522, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:54:27.202737\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_YDtCjJrg44RDqF5JcthfTQjF"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.metaculus.com/questions/31832/new-artists-in-top-10-billboard-artist-100-march-2025/\", \"snippet\": \"---\\ntitle: How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\\nsitename: Metaculus\\ndate: 2025-02-10\\n---\\nQuestion\\n\\n# How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?\\n\\n### Forecast Timeline\\n\\nTotal Forecasters\\n\\n**459**### Make a Prediction\\n\\n| New Artists | My Prediction | Me | ||\\n|---|---|---|---|---|\\n0 | 2.1% | |||\\n1 | 15.4% | |||\\n2 | 36.2% | |||\\n3 | 33.4% | |||\\n4 | 11.9% | |||\\n5 or more | 1% | |||\\n\\nTotal: ?\\n\\n(? remaining)Authors:\\n\\nOpened:Feb 10, 2025\\n\\nCloses:Mar 21, 2025\\n\\nScheduled resolution:Mar 27, 2025\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Feb 10, 2025\\n\\nCloses:Mar 21, 2025\\n\\nScheduled resolution:Mar 27, 2025\", \"word_count\": 144, \"snippet_word_count\": 144, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:54:27.792592\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_5P36GUkIawYvX70WF3qS8KPB"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.billboard.com/charts/emerging-artists/\", \"snippet\": \"---\\ntitle: Emerging Artists\\nauthor: Devops\\nurl: https://www.billboard.com/charts/emerging-artists/\\nhostname: billboard.com\\ndescription: The week's most popular developing artists, using the same formula as the all-encompassing Billboard Artist 100, which measures artist activity across multiple Billboard charts, including the Hot 100, Billboard 200 (The Artist 100 lists the most popular acts, overall, each week.) However, the Emerging Artists chart excludes acts that have notched a top 25 entry on either the Hot 100 or Billboard 200, as well as artists that have achieved two or more top 10s on Billboard's \\\"Hot\\\" song genre charts and/or consumption-based \\\"Top\\\" album genre rankings.\\nsitename: Billboard\\ndate: 2017-08-08\\n---\\n[Skip to main content](https://www.billboard.com#pagetop)\\n\\n\\nAlex Warren\\n\\nLast week\\n\\n1Weeks at no. 1\\n\\n4Weeks on chart\\n\\n35### Imprint/Promotion Label:\\n\\nAtlantic/AG\\n\\nGains In Performance\\n\\n## Emerging Artists\\n\\nWeek of March 22, 2025\\n\\n-\\n1\\n-\\n-\\n-\\n-\\n### Alex Warren\\n\\n-\\n- 1\\n- 1\\n- 35\\n-\\n-\\n- 1\\n- 1\\n- 35\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nAtlantic/AG\\n\\nGains In Performance\\n\\n-\\n2\\n-\\n-\\n-\\n-\\n### Zach Top\\n\\n- 2\\n- 1\\n- 35\\n-\\n- 2\\n- 1\\n- 35\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nLeo33\\n\\n-\\n3\\n-\\n-\\n-\\n-\\n### Ella Langley\\n\\n- 4\\n- 1\\n- 38\\n-\\n- 4\\n- 1\\n- 38\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nSAWGOD/Columbia\\n\\n-\\n4\\n-\\n-\\n-\\n-\\n### The Red Clay Strays\\n\\n- 3\\n- 1\\n- 69\\n-\\n- 3\\n- 1\\n- 69\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nRed Clay Strays/HBYCO/Thirty Tigers/RCA\\n\\n-\\n5\\n-\\n-\\n-\\n-\\n### GELO\\n\\n- 5\\n- 3\\n- 10\\n-\\n- 5\\n- 3\\n- 10\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nBorn To Ball\\n\\n-\\n6\\n-\\n-\\n-\\n-\\n### Tucker Wetmore\\n\\n-\\n- 11\\n- 1\\n- 55\\n-\\n-\\n- 11\\n- 1\\n- 55\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nBack Blocks/EMI Nashville/UMGN\\n\\nGains In Performance\\n\\n-\\n7\\n-\\n-\\n-\\n-\\n### Leon Thomas\\n\\n- 6\\n- 6\\n- 10\\n-\\n- 6\\n- 6\\n- 10\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nEZMNY/Motown/ICLG\\n\\n-\\n8\\n-\\n-\\n-\\n-\\n### Megan Woods\\n\\n-\\n- 14\\n- 8\\n- 23\\n-\\n-\\n- 14\\n- 8\\n- 23\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nFair Trade\\n\\nGains In Performance\\n\\n-\\n9\\n-\\n-\\n-\\n-\\n### Lefty Gunplay\\n\\n- 7\\n- 3\\n- 16\\n-\\n- 7\\n- 3\\n- 16\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nOTR\\n\\n-\\n10\\n-\\n-\\n-\\n-\\n### BossMan Dlow\\n\\n- 10\\n- 1\\n- 59\\n-\\n- 10\\n- 1\\n- 59\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nAlamo\\n\\n-\\n11\\n-\\n-\\n-\\n-\\n### Sam Barber\\n\\n- 12\\n- 11\\n- 64\\n-\\n- 12\\n- 11\\n- 64\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nLockeland Springs/Atlantic/AG\\n\\n-\\n12\\n-\\n-\\n-\\n-\\n### Bhad Bhabie\\n\\n- 8\\n- 5\\n- 33\\n-\\n- 8\\n- 5\\n- 33\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nB.H.A.D./Hitmaker\\n\\n- 13 RE- ENTRY\\n-\\n- RE- ENTRY\\n-\\n-\\n### Paris Paloma\\n\\n-\\n- -\\n- 12\\n- 6\\n-\\n-\\n- -\\n- 12\\n- 6\\n\\n\\n-\\n\\n### Imprint/Promotion Label:\\n\\nNettw\\u2026\\n\\n[Truncated preview: showing 515 words out of ~1611. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1611, \"snippet_word_count\": 515, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T14:17:03.745395\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_doY9DGA6XQ0447HZreqgyqrO"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered:\n\n1. **Billboard Artist 100 Chart (Week of March 22, 2025):**\n   - The current top 10 artists include Lady Gaga, Kendrick Lamar, Morgan Wallen, Sabrina Carpenter, SZA, Drake, Chappell Roan, Tate McRae, Billie Eilish, and Doechii.\n   - Jennie is a re-entry at position 11, indicating a potential rise in popularity.\n\n2. **Metaculus Forecast:**\n   - The probability distribution for new artists entering the top 10 in the last week of March 2025 is as follows:\n     - 0 new artists: 2.1%\n     - 1 new artist: 15.4%\n     - 2 new artists: 36.2%\n     - 3 new artists: 33.4%\n     - 4 new artists: 11.9%\n     - 5 or more new artists: 1%\n\n3. **Emerging Artists Chart (Week of March 22, 2025):**\n   - The top emerging artists include Alex Warren, Zach Top, Ella Langley, The Red Clay Strays, and others.\n   - These artists have not yet broken into the top 10 of the Billboard Artist 100 but are gaining traction.\n\n**Analysis:**\n- The Metaculus forecast suggests a relatively low probability (15.4%) of exactly one new artist entering the top 10 in the last week of March 2025.\n- The current top 10 artists are well-established, and while there are emerging artists, none have shown a significant breakthrough into the top 10 as of the latest available data.\n- The presence of Jennie as a re-entry at position 11 could suggest potential movement, but it does not guarantee exactly one new artist entering the top 10.\n\n**Conclusion:**\nGiven the current data and forecasts, the probability of exactly one new artist entering the top 10 of the Billboard Artist 100 in the last week of March 2025 is relatively low.\n\nFINAL PROBABILITY: 0.15"
+    }
+  ]
+}

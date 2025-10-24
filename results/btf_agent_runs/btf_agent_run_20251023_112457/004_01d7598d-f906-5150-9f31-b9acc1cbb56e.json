@@ -1,0 +1,477 @@
+{
+  "question_id": "01d7598d-f906-5150-9f31-b9acc1cbb56e",
+  "question": "Will Mahmoud Khalil be deported before April 1, 2025?",
+  "probability": 0.1,
+  "reasoning": "Based on the gathered information, here are the key points relevant to whether Mahmoud Khalil will be deported before April 1, 2025:\n\n1. **Court Orders Blocking Deportation**: Multiple court orders have been issued to block Mahmoud Khalil's deportation pending judicial review. This includes orders from District Judge Jesse Furman and Judge Michael E. Farbiarz, indicating strong legal barriers against immediate deportation.\n\n2. **Strong Legal Support**: Khalil's legal team is supported by prominent organizations such as the ACLU, NYCLU, and the Center for Constitutional Rights. This suggests a robust defense against deportation efforts.\n\n3. **Public and International Attention**: The case has drawn significant public attention, with over three million signatures on a petition for his release and calls from UN experts for his immediate release. This international and public pressure may influence the U.S. government's actions.\n\n4. **Political Context**: The Trump administration has shown interest in deporting individuals involved in pro-Palestinian activism, but the legal and public opposition may outweigh these efforts in the short term.\n\n5. **Current Detention Status**: Khalil remains detained in a Louisiana ICE facility, but his deportation is currently blocked by court orders.\n\nGiven the strong legal barriers, public support, and international attention, it seems unlikely that Mahmoud Khalil will be deported before April 1, 2025.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Detention of Mahmoud Khalil - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "content": "Mahmoud Khalil was detained by ICE on March 8, 2025, and on March 10, a judge ordered that he not be deported pending judicial review of the arrest."
+    },
+    {
+      "title": "U.S. must immediately release Palestinian rights-activist Mahmoud Khalil and stop threats of deportation against foreign residents, say UN experts | OHCHR",
+      "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "content": "The U.S. Government must immediately release Mahmoud Khalil, a U.S. resident, student and Palestinian rights activist detained by Department of Homeland Security (DHS) agents, and stop threatening and harassing foreign students..."
+    },
+    {
+      "title": "Detention of Mahmoud Khalil - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "content": "On March 10, District Judge Jesse Furman ordered that the Trump administration not deport Mahmoud Khalil pending judicial review of the arrest."
+    },
+    {
+      "title": "A Letter From Palestinian Activist Mahmoud Khalil | ACLU",
+      "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "content": "Palestinian activist Mahmoud Khalil details his arrest and detention by DHS, and transfer to an ICE facility in Louisiana, in a letter dictated from detention in March 2025..."
+    },
+    {
+      "title": "AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights",
+      "url": "https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights",
+      "content": "The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs..."
+    },
+    {
+      "title": "Detention of Mahmoud Khalil - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "content": "Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest."
+    },
+    {
+      "title": "NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil | NYSenate.gov",
+      "url": "https://www.nysenate.gov/newsroom/press-releases/2025/kristen-gonzalez/ny-electeds-fight-free-speech-letter-dhs-ice-and",
+      "content": "NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil. On March 19, 2025, elected officials urged the immediate release of Mahmoud Khalil..."
+    },
+    {
+      "title": "AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights",
+      "url": "https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights",
+      "content": "The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs..."
+    },
+    {
+      "title": "Detention of Mahmoud Khalil - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "content": "Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "fact": "On March 10, 2025, District Judge Jesse Furman ordered that the Trump administration not deport Khalil pending judicial review of the arrest."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "fact": "Khalil's legal team includes attorneys from the American Civil Liberties Union and other civil rights organizations, indicating strong legal support against his deportation."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "fact": "The Trump administration has been actively pursuing deportations of individuals involved in pro-Palestinian activism, as evidenced by Executive Order 14188, which targets students involved in anti-Israeli protests."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "fact": "Khalil's case has drawn significant public attention and backlash, with over three million signatures on an online petition calling for his release."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+      "fact": "The legal proceedings have been transferred to New Jersey, where Judge Michael E. Farbiarz ordered that Khalil not be removed from the country pending further court orders."
+    },
+    {
+      "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "fact": "UN experts have called for the immediate release of Mahmoud Khalil and an end to deportation threats against him."
+    },
+    {
+      "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "fact": "Khalil's arrest and pending deportation are part of a broader crackdown on student activism and pro-Palestinian voices in the U.S."
+    },
+    {
+      "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "fact": "The U.S. government has been accused of using deportation as a tool to censor critical voices, which has drawn international criticism."
+    },
+    {
+      "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "fact": "The White House has indicated that Khalil's arrest may be the first of many targeting activists involved in campus demonstrations against Israel."
+    },
+    {
+      "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+      "fact": "UN experts have expressed concern that the U.S. government's actions violate constitutional protections and international obligations regarding freedom of expression and assembly."
+    },
+    {
+      "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "fact": "A court order has been secured to block Mahmoud Khalil's deportation."
+    },
+    {
+      "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "fact": "Mahmoud Khalil is currently detained in a Louisiana ICE facility."
+    },
+    {
+      "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "fact": "His legal team includes the ACLU, NYCLU, and the Center for Constitutional Rights."
+    },
+    {
+      "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "fact": "His detention is argued to be a violation of his constitutional rights, including free speech and due process."
+    },
+    {
+      "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+      "fact": "The case has attracted attention from civil rights organizations, indicating significant legal and public support."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.010000000000000002,
+  "weighted_brier_score": 0.010000000000000002,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "01d7598d-f906-5150-9f31-b9acc1cbb56e",
+        "queries": [
+          "Mahmoud Khalil deportation news March 2025",
+          "Mahmoud Khalil court decision March 2025",
+          "ICE statement Mahmoud Khalil March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"queries\": [\"Mahmoud Khalil deportation news March 2025\", \"Mahmoud Khalil court decision March 2025\", \"ICE statement Mahmoud Khalil March 2025\"]}",
+      "tool_call_id": "call_dpi7JHSOkGt1gmb5hzVKuY1S"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Mahmoud Khalil deportation news March 2025",
+        "results": [
+          {
+            "title": "Detention of Mahmoud Khalil - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "position": 5,
+            "snippet": "Mahmoud Khalil was detained by ICE on March 8, 2025, and on March 10, a judge ordered that he not be deported pending judicial review of the arrest.",
+            "date": null
+          },
+          {
+            "title": "U.S. must immediately release Palestinian rights-activist Mahmoud Khalil and stop threats of deportation against foreign residents, say UN experts | OHCHR",
+            "link": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "position": 2,
+            "snippet": "The U.S. Government must immediately release Mahmoud Khalil, a U.S. resident, student and Palestinian rights activist detained by Department of Homeland Security (DHS) agents, and stop threatening and harassing foreign students...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Mahmoud Khalil deportation news March 2025\", \"results\": [{\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 5, \"snippet\": \"Mahmoud Khalil was detained by ICE on March 8, 2025, and on March 10, a judge ordered that he not be deported pending judicial review of the arrest.\", \"date\": null}, {\"title\": \"U.S. must immediately release Palestinian rights-activist Mahmoud Khalil and stop threats of deportation against foreign residents, say UN experts | OHCHR\", \"link\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"position\": 2, \"snippet\": \"The U.S. Government must immediately release Mahmoud Khalil, a U.S. resident, student and Palestinian rights activist detained by Department of Homeland Security (DHS) agents, and stop threatening and harassing foreign students...\", \"date\": null}]}",
+      "tool_call_id": "call_eIzg5J7FzEMyu3OITMuoPjut"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Mahmoud Khalil court decision March 2025",
+        "results": [
+          {
+            "title": "Detention of Mahmoud Khalil - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "position": 2,
+            "snippet": "On March 10, District Judge Jesse Furman ordered that the Trump administration not deport Mahmoud Khalil pending judicial review of the arrest.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Mahmoud Khalil court decision March 2025\", \"results\": [{\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 2, \"snippet\": \"On March 10, District Judge Jesse Furman ordered that the Trump administration not deport Mahmoud Khalil pending judicial review of the arrest.\", \"date\": null}]}",
+      "tool_call_id": "call_Hz26d0TIweorEA48MGeYpnzi"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "ICE statement Mahmoud Khalil March 2025",
+        "results": [
+          {
+            "title": "A Letter From Palestinian Activist Mahmoud Khalil | ACLU",
+            "link": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "position": 1,
+            "snippet": "Palestinian activist Mahmoud Khalil details his arrest and detention by DHS, and transfer to an ICE facility in Louisiana, in a letter dictated from detention in March 2025...",
+            "date": "2025-03-20T14:37:49Z"
+          },
+          {
+            "title": "AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights",
+            "link": "https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights",
+            "position": 3,
+            "snippet": "The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs...",
+            "date": null
+          },
+          {
+            "title": "Detention of Mahmoud Khalil - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "position": 4,
+            "snippet": "Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest.",
+            "date": null
+          },
+          {
+            "title": "NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil | NYSenate.gov",
+            "link": "https://www.nysenate.gov/newsroom/press-releases/2025/kristen-gonzalez/ny-electeds-fight-free-speech-letter-dhs-ice-and",
+            "position": 2,
+            "snippet": "NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil. On March 19, 2025, elected officials urged the immediate release of Mahmoud Khalil...",
+            "date": null
+          },
+          {
+            "title": "AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights",
+            "link": "https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights",
+            "position": 4,
+            "snippet": "The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs...",
+            "date": null
+          },
+          {
+            "title": "Detention of Mahmoud Khalil - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "position": 5,
+            "snippet": "Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"ICE statement Mahmoud Khalil March 2025\", \"results\": [{\"title\": \"A Letter From Palestinian Activist Mahmoud Khalil | ACLU\", \"link\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"position\": 1, \"snippet\": \"Palestinian activist Mahmoud Khalil details his arrest and detention by DHS, and transfer to an ICE facility in Louisiana, in a letter dictated from detention in March 2025...\", \"date\": \"2025-03-20T14:37:49Z\"}, {\"title\": \"AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights\", \"link\": \"https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights\", \"position\": 3, \"snippet\": \"The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs...\", \"date\": null}, {\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 4, \"snippet\": \"Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest.\", \"date\": null}, {\"title\": \"NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil | NYSenate.gov\", \"link\": \"https://www.nysenate.gov/newsroom/press-releases/2025/kristen-gonzalez/ny-electeds-fight-free-speech-letter-dhs-ice-and\", \"position\": 2, \"snippet\": \"NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil. On March 19, 2025, elected officials urged the immediate release of Mahmoud Khalil...\", \"date\": null}, {\"title\": \"AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights\", \"link\": \"https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights\", \"position\": 4, \"snippet\": \"The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs...\", \"date\": null}, {\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 5, \"snippet\": \"Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest.\", \"date\": null}]}",
+      "tool_call_id": "call_EzVByYtch774KAfRtY7SUnrJ"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "01d7598d-f906-5150-9f31-b9acc1cbb56e",
+        "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+        "facts": [
+          {
+            "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "fact": "On March 10, 2025, District Judge Jesse Furman ordered that the Trump administration not deport Khalil pending judicial review of the arrest."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "fact": "Khalil's legal team includes attorneys from the American Civil Liberties Union and other civil rights organizations, indicating strong legal support against his deportation."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "fact": "The Trump administration has been actively pursuing deportations of individuals involved in pro-Palestinian activism, as evidenced by Executive Order 14188, which targets students involved in anti-Israeli protests."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "fact": "Khalil's case has drawn significant public attention and backlash, with over three million signatures on an online petition calling for his release."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "url": "https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",
+            "fact": "The legal proceedings have been transferred to New Jersey, where Judge Michael E. Farbiarz ordered that Khalil not be removed from the country pending further court orders."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"facts\": [{\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"On March 10, 2025, District Judge Jesse Furman ordered that the Trump administration not deport Khalil pending judicial review of the arrest.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"Khalil's legal team includes attorneys from the American Civil Liberties Union and other civil rights organizations, indicating strong legal support against his deportation.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"The Trump administration has been actively pursuing deportations of individuals involved in pro-Palestinian activism, as evidenced by Executive Order 14188, which targets students involved in anti-Israeli protests.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"Khalil's case has drawn significant public attention and backlash, with over three million signatures on an online petition calling for his release.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"The legal proceedings have been transferred to New Jersey, where Judge Michael E. Farbiarz ordered that Khalil not be removed from the country pending further court orders.\"}]}",
+      "tool_call_id": "call_aiwCXOXDKcc6DGby4DukGUQg"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "01d7598d-f906-5150-9f31-b9acc1cbb56e",
+        "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+        "facts": [
+          {
+            "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "fact": "UN experts have called for the immediate release of Mahmoud Khalil and an end to deportation threats against him."
+          },
+          {
+            "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "fact": "Khalil's arrest and pending deportation are part of a broader crackdown on student activism and pro-Palestinian voices in the U.S."
+          },
+          {
+            "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "fact": "The U.S. government has been accused of using deportation as a tool to censor critical voices, which has drawn international criticism."
+          },
+          {
+            "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "fact": "The White House has indicated that Khalil's arrest may be the first of many targeting activists involved in campus demonstrations against Israel."
+          },
+          {
+            "title": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "url": "https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and",
+            "fact": "UN experts have expressed concern that the U.S. government's actions violate constitutional protections and international obligations regarding freedom of expression and assembly."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"facts\": [{\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"UN experts have called for the immediate release of Mahmoud Khalil and an end to deportation threats against him.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"Khalil's arrest and pending deportation are part of a broader crackdown on student activism and pro-Palestinian voices in the U.S.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"The U.S. government has been accused of using deportation as a tool to censor critical voices, which has drawn international criticism.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"The White House has indicated that Khalil's arrest may be the first of many targeting activists involved in campus demonstrations against Israel.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"UN experts have expressed concern that the U.S. government's actions violate constitutional protections and international obligations regarding freedom of expression and assembly.\"}]}",
+      "tool_call_id": "call_44UTE4y4KBh13XzV5HhULM15"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "01d7598d-f906-5150-9f31-b9acc1cbb56e",
+        "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+        "facts": [
+          {
+            "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "fact": "A court order has been secured to block Mahmoud Khalil's deportation."
+          },
+          {
+            "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "fact": "Mahmoud Khalil is currently detained in a Louisiana ICE facility."
+          },
+          {
+            "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "fact": "His legal team includes the ACLU, NYCLU, and the Center for Constitutional Rights."
+          },
+          {
+            "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "fact": "His detention is argued to be a violation of his constitutional rights, including free speech and due process."
+          },
+          {
+            "title": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "url": "https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil",
+            "fact": "The case has attracted attention from civil rights organizations, indicating significant legal and public support."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"facts\": [{\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"A court order has been secured to block Mahmoud Khalil's deportation.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"Mahmoud Khalil is currently detained in a Louisiana ICE facility.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"His legal team includes the ACLU, NYCLU, and the Center for Constitutional Rights.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"His detention is argued to be a violation of his constitutional rights, including free speech and due process.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"The case has attracted attention from civil rights organizations, indicating significant legal and public support.\"}]}",
+      "tool_call_id": "call_8He669Z0bFK0LWHC91A9DzMt"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Mahmoud Khalil be deported before April 1, 2025?\nBackground: CNN: [Palestinian activist Mahmoud Khalil will remain in ICE detention in Louisiana after first court hearing](https://www.cnn.com/2025/03/12/us/mahmoud-khalil-trump-columbia-university/index.html)\nResolution criteria: This question resolves as **Yes** if the United States deports Mahmoud Khalil before April 1, 2025. For purposes of this question, \"deported\" means Khalil being transported out of the territory of the United States against his will.\nFine print: \npresent_date: 2025-03-24T00:10:28.272573\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_dpi7JHSOkGt1gmb5hzVKuY1S",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Mahmoud Khalil be deported before April 1, 2025?\",\"background\":\"CNN: [Palestinian activist Mahmoud Khalil will remain in ICE detention in Louisiana after first court hearing](https://www.cnn.com/2025/03/12/us/mahmoud-khalil-trump-columbia-university/index.html)\",\"resolution_criteria\":\"This question resolves as **Yes** if the United States deports Mahmoud Khalil before April 1, 2025. For purposes of this question, \\\"deported\\\" means Khalil being transported out of the territory of the United States against his will.\",\"fine_print\":\"\",\"present_date\":\"2025-03-24T00:10:28.272573\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"queries\": [\"Mahmoud Khalil deportation news March 2025\", \"Mahmoud Khalil court decision March 2025\", \"ICE statement Mahmoud Khalil March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_dpi7JHSOkGt1gmb5hzVKuY1S"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_eIzg5J7FzEMyu3OITMuoPjut",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Mahmoud Khalil deportation news March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-24\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_Hz26d0TIweorEA48MGeYpnzi",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Mahmoud Khalil court decision March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-24\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_EzVByYtch774KAfRtY7SUnrJ",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"ICE statement Mahmoud Khalil March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-24\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Mahmoud Khalil deportation news March 2025\", \"results\": [{\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 5, \"snippet\": \"Mahmoud Khalil was detained by ICE on March 8, 2025, and on March 10, a judge ordered that he not be deported pending judicial review of the arrest.\", \"date\": null}, {\"title\": \"U.S. must immediately release Palestinian rights-activist Mahmoud Khalil and stop threats of deportation against foreign residents, say UN experts | OHCHR\", \"link\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"position\": 2, \"snippet\": \"The U.S. Government must immediately release Mahmoud Khalil, a U.S. resident, student and Palestinian rights activist detained by Department of Homeland Security (DHS) agents, and stop threatening and harassing foreign students...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_eIzg5J7FzEMyu3OITMuoPjut"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Mahmoud Khalil court decision March 2025\", \"results\": [{\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 2, \"snippet\": \"On March 10, District Judge Jesse Furman ordered that the Trump administration not deport Mahmoud Khalil pending judicial review of the arrest.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_Hz26d0TIweorEA48MGeYpnzi"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"ICE statement Mahmoud Khalil March 2025\", \"results\": [{\"title\": \"A Letter From Palestinian Activist Mahmoud Khalil | ACLU\", \"link\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"position\": 1, \"snippet\": \"Palestinian activist Mahmoud Khalil details his arrest and detention by DHS, and transfer to an ICE facility in Louisiana, in a letter dictated from detention in March 2025...\", \"date\": \"2025-03-20T14:37:49Z\"}, {\"title\": \"AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights\", \"link\": \"https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights\", \"position\": 3, \"snippet\": \"The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs...\", \"date\": null}, {\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 4, \"snippet\": \"Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest.\", \"date\": null}, {\"title\": \"NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil | NYSenate.gov\", \"link\": \"https://www.nysenate.gov/newsroom/press-releases/2025/kristen-gonzalez/ny-electeds-fight-free-speech-letter-dhs-ice-and\", \"position\": 2, \"snippet\": \"NY Electeds Fight for Free Speech: Letter to DHS, ICE, and Columbia University demanding the release of Mahmoud Khalil. On March 19, 2025, elected officials urged the immediate release of Mahmoud Khalil...\", \"date\": null}, {\"title\": \"AAI Statement: Arrest by ICE of Palestinian Activist Mahmoud Khalil at Columbia University Clear Infringement of First Amendment Rights\", \"link\": \"https://www.aaiusa.org/library/aai-statement-arrest-by-ice-of-palestinian-activist-mahmoud-khalil-at-columbia-university-clear-infringement-of-first-amendment-rights\", \"position\": 4, \"snippet\": \"The arrest by ICE this weekend of Mahmoud Khalil represents a clear violation of First Amendment rights. As a student and activist at Columbia University, Mahmoud was expressing his political beliefs...\", \"date\": null}, {\"title\": \"Detention of Mahmoud Khalil - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"position\": 5, \"snippet\": \"Mahmoud Khalil was detained by ICE agents on March 8, 2025, and a judge ordered on March 10, 2025, that he not be deported pending judicial review of the arrest.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_EzVByYtch774KAfRtY7SUnrJ"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_aiwCXOXDKcc6DGby4DukGUQg",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"question\": \"Will Mahmoud Khalil be deported before April 1, 2025?\", \"background\": \"CNN: [Palestinian activist Mahmoud Khalil will remain in ICE detention in Louisiana after first court hearing](https://www.cnn.com/2025/03/12/us/mahmoud-khalil-trump-columbia-university/index.html)\", \"resolution_criteria\": \"This question resolves as **Yes** if the United States deports Mahmoud Khalil before April 1, 2025. For purposes of this question, \\\"deported\\\" means Khalil being transported out of the territory of the United States against his will.\", \"present_date\": \"2025-03-24T00:10:28.272573\"}"
+          }
+        },
+        {
+          "id": "call_44UTE4y4KBh13XzV5HhULM15",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"question\": \"Will Mahmoud Khalil be deported before April 1, 2025?\", \"background\": \"CNN: [Palestinian activist Mahmoud Khalil will remain in ICE detention in Louisiana after first court hearing](https://www.cnn.com/2025/03/12/us/mahmoud-khalil-trump-columbia-university/index.html)\", \"resolution_criteria\": \"This question resolves as **Yes** if the United States deports Mahmoud Khalil before April 1, 2025. For purposes of this question, \\\"deported\\\" means Khalil being transported out of the territory of the United States against his will.\", \"present_date\": \"2025-03-24T00:10:28.272573\"}"
+          }
+        },
+        {
+          "id": "call_8He669Z0bFK0LWHC91A9DzMt",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"question\": \"Will Mahmoud Khalil be deported before April 1, 2025?\", \"background\": \"CNN: [Palestinian activist Mahmoud Khalil will remain in ICE detention in Louisiana after first court hearing](https://www.cnn.com/2025/03/12/us/mahmoud-khalil-trump-columbia-university/index.html)\", \"resolution_criteria\": \"This question resolves as **Yes** if the United States deports Mahmoud Khalil before April 1, 2025. For purposes of this question, \\\"deported\\\" means Khalil being transported out of the territory of the United States against his will.\", \"present_date\": \"2025-03-24T00:10:28.272573\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"facts\": [{\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"On March 10, 2025, District Judge Jesse Furman ordered that the Trump administration not deport Khalil pending judicial review of the arrest.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"Khalil's legal team includes attorneys from the American Civil Liberties Union and other civil rights organizations, indicating strong legal support against his deportation.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"The Trump administration has been actively pursuing deportations of individuals involved in pro-Palestinian activism, as evidenced by Executive Order 14188, which targets students involved in anti-Israeli protests.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"Khalil's case has drawn significant public attention and backlash, with over three million signatures on an online petition calling for his release.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"url\": \"https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil\", \"fact\": \"The legal proceedings have been transferred to New Jersey, where Judge Michael E. Farbiarz ordered that Khalil not be removed from the country pending further court orders.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_aiwCXOXDKcc6DGby4DukGUQg"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"facts\": [{\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"UN experts have called for the immediate release of Mahmoud Khalil and an end to deportation threats against him.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"Khalil's arrest and pending deportation are part of a broader crackdown on student activism and pro-Palestinian voices in the U.S.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"The U.S. government has been accused of using deportation as a tool to censor critical voices, which has drawn international criticism.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"The White House has indicated that Khalil's arrest may be the first of many targeting activists involved in campus demonstrations against Israel.\"}, {\"title\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"url\": \"https://www.ohchr.org/en/press-releases/2025/03/us-must-immediately-release-palestinian-rights-activist-mahmoud-khalil-and\", \"fact\": \"UN experts have expressed concern that the U.S. government's actions violate constitutional protections and international obligations regarding freedom of expression and assembly.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_44UTE4y4KBh13XzV5HhULM15"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"01d7598d-f906-5150-9f31-b9acc1cbb56e\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"facts\": [{\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"A court order has been secured to block Mahmoud Khalil's deportation.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"Mahmoud Khalil is currently detained in a Louisiana ICE facility.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"His legal team includes the ACLU, NYCLU, and the Center for Constitutional Rights.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"His detention is argued to be a violation of his constitutional rights, including free speech and due process.\"}, {\"title\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"url\": \"https://www.aclu.org/news/free-speech/a-letter-from-palestinian-activist-mahmoud-khalil\", \"fact\": \"The case has attracted attention from civil rights organizations, indicating significant legal and public support.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_8He669Z0bFK0LWHC91A9DzMt"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered information, here are the key points relevant to whether Mahmoud Khalil will be deported before April 1, 2025:\n\n1. **Court Orders Blocking Deportation**: Multiple court orders have been issued to block Mahmoud Khalil's deportation pending judicial review. This includes orders from District Judge Jesse Furman and Judge Michael E. Farbiarz, indicating strong legal barriers against immediate deportation.\n\n2. **Strong Legal Support**: Khalil's legal team is supported by prominent organizations such as the ACLU, NYCLU, and the Center for Constitutional Rights. This suggests a robust defense against deportation efforts.\n\n3. **Public and International Attention**: The case has drawn significant public attention, with over three million signatures on a petition for his release and calls from UN experts for his immediate release. This international and public pressure may influence the U.S. government's actions.\n\n4. **Political Context**: The Trump administration has shown interest in deporting individuals involved in pro-Palestinian activism, but the legal and public opposition may outweigh these efforts in the short term.\n\n5. **Current Detention Status**: Khalil remains detained in a Louisiana ICE facility, but his deportation is currently blocked by court orders.\n\nGiven the strong legal barriers, public support, and international attention, it seems unlikely that Mahmoud Khalil will be deported before April 1, 2025.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

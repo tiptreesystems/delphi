@@ -1,0 +1,633 @@
+{
+  "question_id": "0dfd6670-7cf4-54af-bbf6-f821a7f5aee7",
+  "question": "Will the total market cap of the Magnificent Seven be greater than 18.5 trillion USD on March 28, 2025?",
+  "probability": 0.4,
+  "reasoning": "Based on the gathered evidence, here's a summary of the current situation regarding the Magnificent Seven and the broader market:\n\n1. **Recent Performance**: The Magnificent Seven experienced significant growth in 2024, gaining 63% after a 75% rise the previous year. However, in early 2025, they have encountered challenges, with hedge funds reducing their holdings due to concerns about AI investments and diminishing returns.\n\n2. **Economic and Market Conditions**: The broader market has faced heightened economic uncertainty, partly due to trade policies such as tariffs announced by President Trump. These tariffs have led to significant market volatility, with the S&P 500 and Nasdaq Composite experiencing notable declines.\n\n3. **Forecasts and Expectations**: While the Magnificent Seven are expected to outperform the rest of the S&P 500 by 7 percentage points in 2025, this is the narrowest margin in seven years, indicating a potential slowdown in their dominance. Additionally, earnings growth for the Magnificent Seven in 2025 is expected to be lower than in 2024.\n\n4. **Sector Shifts**: There has been a shift in investor focus towards more defensive sectors like Health Care and Consumer Staples, moving away from the Magnificent Seven.\n\nGiven these factors, the Magnificent Seven's market cap is currently at $17.72 trillion. For it to exceed $18.5 trillion by March 28, 2025, it would require a significant positive shift in market sentiment or performance, which seems challenging given the current economic and market conditions.\n\nFINAL PROBABILITY: 0.4",
+  "search_results": [
+    {
+      "title": "What are the Magnificent 7 stocks? | Fidelity",
+      "url": "https://www.fidelity.com/learning-center/smart-money/magnificent-7-stocks",
+      "content": "The Magnificent 7 stocks all have market capitalizations of about $1 trillion or more, with a few around $3 trillion as of March 2025. Alphabet grew about 500% from March 3, 2015, to March 3, 2025."
+    },
+    {
+      "title": ".MAG7: CNBC Magnificent 7 Index - Stock Price, Quote and News - CNBC",
+      "url": "https://www.cnbc.com/quotes/.MAG7",
+      "content": "CNBC Magnificent 7 Index (.MAG7) stock data for March 16, 2025: Open 290.69, Day High 291.31, Day Low 285.04, Prev Close 294.39."
+    },
+    {
+      "title": "Roundhill Magnificent Seven ETF (MAGS) Stock Historical Prices & Data - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MAGS/history/",
+      "content": "Roundhill Magnificent Seven ETF (MAGS) stock prices in March 2025: Mar 19, 2025: 46.75, Mar 18, 2025: 45.98, Mar 17, 2025: 47.19, Mar 14, 2025: 47.67..."
+    },
+    {
+      "title": "The Magnificent Seven’s Market Cap vs. the S&P 500 | The Motley Fool",
+      "url": "https://www.fool.com/research/magnificent-seven-sp-500/",
+      "content": "The Magnificent Seven stocks had a combined return of 697.6% from the end of 2015 through 2024, significantly outperforming the S&P 500's 178.3% return during that period."
+    },
+    {
+      "title": "Magnificent 7 | PortfoliosLab",
+      "url": "https://portfolioslab.com/portfolio/wv0qmb8bejl7tta5wek1cdk5",
+      "content": "As of Mar 18, 2025, the Magnificent 7 returned -13.42% Year-To-Date and 36.15% of annualized return in the last 10 years."
+    },
+    {
+      "title": "What To Expect from the Magnificent Seven in 2025",
+      "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "content": "Goldman Sachs analysts forecast the group will collectively outperform the “Other 493”—the S&P 500 excluding the Mag Seven—by 7 percentage points this year, the narrowest margin in seven years."
+    },
+    {
+      "title": "The (Not So) Magnificent Seven? | Charles Schwab",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "content": "The Magnificent Seven (Mag7)—Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla—have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance."
+    },
+    {
+      "title": "The (Not So) Magnificent Seven? | Charles Schwab",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "content": "The Magnificent Seven (Mag7)—Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla—have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance."
+    },
+    {
+      "title": "A Closer Look at Magnificent Seven Stocks | Mellon Investments Corporation",
+      "url": "https://www.mellon.com/insights/insights-articles/a-closer-look-at-magnificent-seven-stocks.html",
+      "content": "The combined market cap of the seven at around $12.3 trillion is more than four times the size of the nearly $3 trillion market cap of the Russell 2000® Index."
+    },
+    {
+      "title": "Stock market news for March 3, 2025",
+      "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "content": "Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed. Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market."
+    },
+    {
+      "title": "Review of markets over February 2025\n        \n        \n         | J.P. Morgan Asset Management",
+      "url": "https://am.jpmorgan.com/gb/en/asset-management/per/insights/market-insights/market-updates/monthly-market-review/",
+      "content": "Growing uncertainty about the impact of the US administration’s policy agenda weighed on both corporate and consumer sentiment, and concerns about growth started to re-emerge. Weak US performance dragged on developed market equities..."
+    },
+    {
+      "title": "Stock Market Crashes: A Look at 150 Years of Bear Markets | Morningstar",
+      "url": "https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes",
+      "content": "Though they varied in length and severity, the market always recovered and went on to new highs. This month marks five years since the covid market downturn."
+    },
+    {
+      "title": "Markets News, March 13, 2025: Stocks Plunge Amid Political and Economic Uncertainty; S&P 500 Slides Into Correction for First Time Since 2023",
+      "url": "https://www.investopedia.com/dow-jones-today-03132025-11696062",
+      "content": "Stocks closed sharply lower on Thursday after another volatile trading session as a sell-off fueled by economic and political uncertainty accelerated. The S&P 500 slid into correction..."
+    },
+    {
+      "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "content": "---\ntitle: What To Expect from the Magnificent Seven in 2025\nauthor: Colin Laidley\nurl: https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\nhostname: investopedia.com\ndescription: For a second year in a row, the Magnificent Seven led the market in terms of both earnings growth and stock performance. So what's next for the group of tech stocks?\nsitename: Investopedia\ndate: 2025-01-02\ntags: ['Investopedia,News,Markets News,Stocks & Bond News']\n---\nThe S&P 500 had another banner year in 2024, rising more than 20% for the second straight year, a feat last accomplished in the 1990s. And just like the year before, a small group of stocks accounted for an outsized share of that gain.\n\nThe Magnificent Seven group of large-cap technology companies—Apple ([AAPL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AAPL)), Nvidia ([NVDA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=NVDA)), Microsoft ([MSFT](https://www.investopedia.com/markets/quote?tvwidgetsymbol=MSFT)), Amazon ([AMZN](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AMZN)), Alphabet ([GOOG](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOG))([GOOGL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOGL)), Meta ([META](https://www.investopedia.com/markets/quote?tvwidgetsymbol=META)), and Tesla ([TSLA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=TSLA))— gained 63% in 2024, after rising more than 75% the year before. There were bumps in the road—the group had its [worst day on record](https://www.investopedia.com/why-magnificent-seven-stocks-are-having-their-worst-day-on-record-8683011) in July—but, for the most part, the artificial intelligence (AI) boom continued to boost the stocks of these tech giants.\n\nSo, after two years of market dominance, what’s next for the [Magnificent Seven](https://www.investopedia.com/magnificent-seven-stocks-8402262)?\n\n## Will the Mag 7 Become Less Magnificent?\n\nCumulatively, the Magnificent Seven book more in profit in a single year than most countries’ entire stock markets. And even in America their profits put them head and shoulder above the rest.\n\nWithout the Mag Seven, aggregate S&P 500 earnings per share would have contracted in 2023 rather than grown. The group’s profits continued to lead the index in 2024, accounting for about 75% of S&P 500 earnings growth.\n\nIn 2025, however, growth is expected to broaden out as the…\n\n[Truncated preview: showing 273 words out of ~821. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "content": "---\ntitle: The (Not So) Magnificent Seven?\nauthor: Liz Ann Sonders\nurl: https://www.schwab.com/learn/story/not-so-magnificent-seven\nhostname: schwab.com\ndescription: Heightened economic uncertainty—propelled mainly by trade policy—has unearthed weakness in the equity market, with most pain felt under the market's surface.\nsitename: Schwab Brokerage\ndate: 2025-03-03\n---\nShown below, the Magnificent Seven (Mag7)—Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla—have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\n\n### Meh7?\n\nSource: Charles Schwab, Bloomberg, as of 2/28/2025.\n\nData indexed to 100 (base value=1/1/2025). An index number is a figure reflecting price or quantity compared with a base value. The base value always has an index number of 100. The index number is then expressed as 100 times the ratio to the base value. All corporate names and market data shown above are for illustrative purposes only and are not a recommendation, offer to sell, or a solicitation of an offer to buy any security. Indexes are unmanaged, do not incur management fees, costs and expenses and cannot be invested in directly. **Past performance is no guarantee of future results.**\n\nSeveral dynamics have contributed to this shift in performance dominance, not least being valuation and earnings concerns (more on that below). Hedge funds have been actively reducing their holdings in the group, reflecting concerns about the merits of substantial investments in artificial intelligence (AI) and angst about the associated \"law\" of diminishing returns. As a result, there has been a shift in investors' attention toward more defensive sectors like Health Care, while Financials' strength over the past few months has been undisturbed. We have market perform ratings on Health Care and Consumer Staples, and an outperform rating on Financials (more on sectors below).\n\n## Tariffs taxing confidence\n\nMacro concerns have also led to shifting market leadership trends, including an epic level of uncertainty with regard to Trump Administration policies, including tariffs and DOGE spending cuts. Specific to the former, (fourth-quarter earnings season wound down with Nvidia's earnings release last week) mentions of tariffs on company conference calls has gone parabolic—surpassing levels during the 2018 trade war.\n\nThe economic backdrop has deteriorated as well, with GDPNow from the Atlanta Federal Reserve having…\n\n[Truncated preview: showing 366 words out of ~1451. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "content": "---\ntitle: Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed\nauthor: Alex Harring; Yun Li\nurl: https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\nhostname: cnbc.com\ndescription: Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market.\nsitename: CNBC\ndate: 2025-03-02\ncategories: ['Markets']\ntags: ['Ford Motor Co,General Motors Co,Russell 2000 Index,Super Micro Computer Inc,Broadcom Inc,Howard Lutnick,Economic events,Nasdaq Inc,NVIDIA Corp,Palantir Technologies Inc,Dow Jones Industrial Average,NASDAQ Composite,S&P 500 Index,Microstrategy Inc,Robinhood Markets Inc,Coinbase Global Inc,Canada,Tesla Inc,Morgan Stanley,China,Mexico,Donald Trump,NASDAQ 100 Fut (Mar23),S&P 500 Fut (Mar23),Dow Jones Fut (Mar23),Bitcoin/USD Coin Metrics,Donald J. Trump,Warren Buffett,United States,Markets,Stock markets,Breaking News: Major,Breaking News: Markets,business news', 'Ford Motor Co', 'General Motors Co', 'Russell 2000 Index', 'Super Micro Computer Inc', 'Broadcom Inc', 'Howard Lutnick', 'Economic events', 'Nasdaq Inc', 'NVIDIA Corp', 'Palantir Technologies Inc', 'Dow Jones Industrial Average', 'NASDAQ Composite', 'S&P 500 Index', 'Microstrategy Inc', 'Robinhood Markets Inc', 'Coinbase Global Inc', 'Canada', 'Tesla Inc', 'Morgan Stanley', 'China', 'Mexico', 'Donald Trump', 'NASDAQ 100 Fut (Mar23)', 'S&P 500 Fut (Mar23)', 'Dow Jones Fut (Mar23)', 'Bitcoin/USD Coin Metrics', 'Donald J. Trump', 'Warren Buffett', 'United States', 'Markets', 'Stock markets', 'Breaking News: Major', 'Breaking News: Markets']\n---\nThe [S&P 500](https://www.cnbc.com/quotes/.SPX/) retreated on Monday, extending February's rout and turning red for the year after President [Donald Trump](https://www.cnbc.com/donald-trump/)'s confirmation of forthcoming [tariffs](https://www.cnbc.com/2025/03/03/trump-dashes-hope-for-last-minute-canada-and-mexico-deal-ahead-of-25percent-tariffs.html).\n\nThe broad index fell 1.76% to end at 5,849.72, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%. The [Dow Jones Industrial Average](https://www.cnbc.com/quotes/.DJI/) dropped 649.67 points, or 1.48%, to finish at 43,191.24. The [Nasdaq Composite](https://www.cnbc.com/quotes/NVDA/) slid 2.64% to close at 18,350.19, [weighed down](https://www.cnbc.com#108110107-KllMfAKqK) by [Nvidia](htt…\n\n[Truncated preview: showing 268 words out of ~618. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "fact": "The Magnificent Seven gained 63% in 2024, following a 75% rise the previous year, indicating strong recent performance."
+    },
+    {
+      "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "fact": "In 2025, growth is expected to broaden out, with the Magnificent Seven's share of S&P 500 earnings growth contracting to 33%, suggesting a potential slowdown in their dominance."
+    },
+    {
+      "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "fact": "Goldman Sachs analysts forecast the Magnificent Seven will collectively outperform the rest of the S&P 500 by 7 percentage points in 2025, the narrowest margin in seven years."
+    },
+    {
+      "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "fact": "Nvidia remains a top pick among Wall Street analysts, with strong demand for its next-generation chips expected to fuel growth in 2025."
+    },
+    {
+      "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+      "fact": "Tesla's outlook is uncertain due to potential policy changes, such as the expected end of federal tax credits for electric vehicles, which could impact its market performance."
+    },
+    {
+      "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "fact": "The Magnificent Seven have encountered notable challenges in early 2025, marking a departure from their previous market dominance."
+    },
+    {
+      "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "fact": "Hedge funds have been actively reducing their holdings in the Magnificent Seven, reflecting concerns about AI investments and diminishing returns."
+    },
+    {
+      "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "fact": "U.S. stocks have pulled back due to heightened economic uncertainty, though not yet in correction territory at the index level."
+    },
+    {
+      "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "fact": "Earnings growth for the Magnificent Seven in 2025 is expected to be lower than in 2024, while the rest of the S&P 500 is expected to see higher growth."
+    },
+    {
+      "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+      "fact": "Sector leadership has shifted towards more defensive areas like Health Care and Consumer Staples, away from the Magnificent Seven."
+    },
+    {
+      "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "fact": "The S&P 500 fell 1.76% on March 2, 2025, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%."
+    },
+    {
+      "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "fact": "The Nasdaq Composite, which includes many tech stocks, slid 2.64% on March 2, 2025, weighed down by Nvidia's decline of more than 8%."
+    },
+    {
+      "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "fact": "President Trump announced that 25% tariffs on imports from Mexico and Canada would go into effect on March 3, 2025, with additional tariffs on China to follow."
+    },
+    {
+      "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "fact": "The Nasdaq Composite recorded its worst month since April 2024 with a pullback of about 4% in February 2025."
+    },
+    {
+      "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+      "fact": "Soft economic data for the manufacturing and construction sectors released on March 2, 2025, added to concerns about the state of the U.S. economy."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.16000000000000003,
+  "weighted_brier_score": 0.08000000000000002,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "0dfd6670-7cf4-54af-bbf6-f821a7f5aee7",
+        "queries": [
+          "Magnificent Seven stock performance March 2025",
+          "Magnificent Seven market cap forecast 2025",
+          "recent economic events impacting stock market March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"queries\": [\"Magnificent Seven stock performance March 2025\", \"Magnificent Seven market cap forecast 2025\", \"recent economic events impacting stock market March 2025\"]}",
+      "tool_call_id": "call_JXtaTZsgTcdRbQy4q8DYHPle"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Magnificent Seven stock performance March 2025",
+        "results": [
+          {
+            "title": "What are the Magnificent 7 stocks? | Fidelity",
+            "link": "https://www.fidelity.com/learning-center/smart-money/magnificent-7-stocks",
+            "position": 1,
+            "snippet": "The Magnificent 7 stocks all have market capitalizations of about $1 trillion or more, with a few around $3 trillion as of March 2025. Alphabet grew about 500% from March 3, 2015, to March 3, 2025.",
+            "date": null
+          },
+          {
+            "title": ".MAG7: CNBC Magnificent 7 Index - Stock Price, Quote and News - CNBC",
+            "link": "https://www.cnbc.com/quotes/.MAG7",
+            "position": 3,
+            "snippet": "CNBC Magnificent 7 Index (.MAG7) stock data for March 16, 2025: Open 290.69, Day High 291.31, Day Low 285.04, Prev Close 294.39.",
+            "date": null
+          },
+          {
+            "title": "Roundhill Magnificent Seven ETF (MAGS) Stock Historical Prices & Data - Yahoo Finance",
+            "link": "https://finance.yahoo.com/quote/MAGS/history/",
+            "position": 4,
+            "snippet": "Roundhill Magnificent Seven ETF (MAGS) stock prices in March 2025: Mar 19, 2025: 46.75, Mar 18, 2025: 45.98, Mar 17, 2025: 47.19, Mar 14, 2025: 47.67...",
+            "date": null
+          },
+          {
+            "title": "The Magnificent Seven’s Market Cap vs. the S&P 500 | The Motley Fool",
+            "link": "https://www.fool.com/research/magnificent-seven-sp-500/",
+            "position": 3,
+            "snippet": "The Magnificent Seven stocks had a combined return of 697.6% from the end of 2015 through 2024, significantly outperforming the S&P 500's 178.3% return during that period.",
+            "date": null
+          },
+          {
+            "title": "Magnificent 7 | PortfoliosLab",
+            "link": "https://portfolioslab.com/portfolio/wv0qmb8bejl7tta5wek1cdk5",
+            "position": 5,
+            "snippet": "As of Mar 18, 2025, the Magnificent 7 returned -13.42% Year-To-Date and 36.15% of annualized return in the last 10 years.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Magnificent Seven stock performance March 2025\", \"results\": [{\"title\": \"What are the Magnificent 7 stocks? | Fidelity\", \"link\": \"https://www.fidelity.com/learning-center/smart-money/magnificent-7-stocks\", \"position\": 1, \"snippet\": \"The Magnificent 7 stocks all have market capitalizations of about $1 trillion or more, with a few around $3 trillion as of March 2025. Alphabet grew about 500% from March 3, 2015, to March 3, 2025.\", \"date\": null}, {\"title\": \".MAG7: CNBC Magnificent 7 Index - Stock Price, Quote and News - CNBC\", \"link\": \"https://www.cnbc.com/quotes/.MAG7\", \"position\": 3, \"snippet\": \"CNBC Magnificent 7 Index (.MAG7) stock data for March 16, 2025: Open 290.69, Day High 291.31, Day Low 285.04, Prev Close 294.39.\", \"date\": null}, {\"title\": \"Roundhill Magnificent Seven ETF (MAGS) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/MAGS/history/\", \"position\": 4, \"snippet\": \"Roundhill Magnificent Seven ETF (MAGS) stock prices in March 2025: Mar 19, 2025: 46.75, Mar 18, 2025: 45.98, Mar 17, 2025: 47.19, Mar 14, 2025: 47.67...\", \"date\": null}, {\"title\": \"The Magnificent Seven\\u2019s Market Cap vs. the S&P 500 | The Motley Fool\", \"link\": \"https://www.fool.com/research/magnificent-seven-sp-500/\", \"position\": 3, \"snippet\": \"The Magnificent Seven stocks had a combined return of 697.6% from the end of 2015 through 2024, significantly outperforming the S&P 500's 178.3% return during that period.\", \"date\": null}, {\"title\": \"Magnificent 7 | PortfoliosLab\", \"link\": \"https://portfolioslab.com/portfolio/wv0qmb8bejl7tta5wek1cdk5\", \"position\": 5, \"snippet\": \"As of Mar 18, 2025, the Magnificent 7 returned -13.42% Year-To-Date and 36.15% of annualized return in the last 10 years.\", \"date\": null}]}",
+      "tool_call_id": "call_VxiRYeQzkCvWxn2XJEdmEcYm"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Magnificent Seven market cap forecast 2025",
+        "results": [
+          {
+            "title": "What To Expect from the Magnificent Seven in 2025",
+            "link": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "position": 1,
+            "snippet": "Goldman Sachs analysts forecast the group will collectively outperform the “Other 493”—the S&P 500 excluding the Mag Seven—by 7 percentage points this year, the narrowest margin in seven years.",
+            "date": null
+          },
+          {
+            "title": "The (Not So) Magnificent Seven? | Charles Schwab",
+            "link": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "position": 5,
+            "snippet": "The Magnificent Seven (Mag7)—Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla—have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.",
+            "date": null
+          },
+          {
+            "title": "The (Not So) Magnificent Seven? | Charles Schwab",
+            "link": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "position": 2,
+            "snippet": "The Magnificent Seven (Mag7)—Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla—have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.",
+            "date": null
+          },
+          {
+            "title": "A Closer Look at Magnificent Seven Stocks | Mellon Investments Corporation",
+            "link": "https://www.mellon.com/insights/insights-articles/a-closer-look-at-magnificent-seven-stocks.html",
+            "position": 3,
+            "snippet": "The combined market cap of the seven at around $12.3 trillion is more than four times the size of the nearly $3 trillion market cap of the Russell 2000® Index.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Magnificent Seven market cap forecast 2025\", \"results\": [{\"title\": \"What To Expect from the Magnificent Seven in 2025\", \"link\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"position\": 1, \"snippet\": \"Goldman Sachs analysts forecast the group will collectively outperform the \\u201cOther 493\\u201d\\u2014the S&P 500 excluding the Mag Seven\\u2014by 7 percentage points this year, the narrowest margin in seven years.\", \"date\": null}, {\"title\": \"The (Not So) Magnificent Seven? | Charles Schwab\", \"link\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"position\": 5, \"snippet\": \"The Magnificent Seven (Mag7)\\u2014Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla\\u2014have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\", \"date\": null}, {\"title\": \"The (Not So) Magnificent Seven? | Charles Schwab\", \"link\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"position\": 2, \"snippet\": \"The Magnificent Seven (Mag7)\\u2014Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla\\u2014have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\", \"date\": null}, {\"title\": \"A Closer Look at Magnificent Seven Stocks | Mellon Investments Corporation\", \"link\": \"https://www.mellon.com/insights/insights-articles/a-closer-look-at-magnificent-seven-stocks.html\", \"position\": 3, \"snippet\": \"The combined market cap of the seven at around $12.3 trillion is more than four times the size of the nearly $3 trillion market cap of the Russell 2000\\u00ae Index.\", \"date\": null}]}",
+      "tool_call_id": "call_aJX8O9Gx0dy5siBW1oCj8Lup"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "recent economic events impacting stock market March 2025",
+        "results": [
+          {
+            "title": "Stock market news for March 3, 2025",
+            "link": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "position": 2,
+            "snippet": "Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed. Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market.",
+            "date": "2025-03-02T23:03:48Z"
+          },
+          {
+            "title": "Review of markets over February 2025\n        \n        \n         | J.P. Morgan Asset Management",
+            "link": "https://am.jpmorgan.com/gb/en/asset-management/per/insights/market-insights/market-updates/monthly-market-review/",
+            "position": 3,
+            "snippet": "Growing uncertainty about the impact of the US administration’s policy agenda weighed on both corporate and consumer sentiment, and concerns about growth started to re-emerge. Weak US performance dragged on developed market equities...",
+            "date": null
+          },
+          {
+            "title": "Stock Market Crashes: A Look at 150 Years of Bear Markets | Morningstar",
+            "link": "https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes",
+            "position": 3,
+            "snippet": "Though they varied in length and severity, the market always recovered and went on to new highs. This month marks five years since the covid market downturn.",
+            "date": null
+          },
+          {
+            "title": "Markets News, March 13, 2025: Stocks Plunge Amid Political and Economic Uncertainty; S&P 500 Slides Into Correction for First Time Since 2023",
+            "link": "https://www.investopedia.com/dow-jones-today-03132025-11696062",
+            "position": 4,
+            "snippet": "Stocks closed sharply lower on Thursday after another volatile trading session as a sell-off fueled by economic and political uncertainty accelerated. The S&P 500 slid into correction...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"recent economic events impacting stock market March 2025\", \"results\": [{\"title\": \"Stock market news for March 3, 2025\", \"link\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"position\": 2, \"snippet\": \"Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed. Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market.\", \"date\": \"2025-03-02T23:03:48Z\"}, {\"title\": \"Review of markets over February 2025\\n        \\n        \\n         | J.P. Morgan Asset Management\", \"link\": \"https://am.jpmorgan.com/gb/en/asset-management/per/insights/market-insights/market-updates/monthly-market-review/\", \"position\": 3, \"snippet\": \"Growing uncertainty about the impact of the US administration\\u2019s policy agenda weighed on both corporate and consumer sentiment, and concerns about growth started to re-emerge. Weak US performance dragged on developed market equities...\", \"date\": null}, {\"title\": \"Stock Market Crashes: A Look at 150 Years of Bear Markets | Morningstar\", \"link\": \"https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes\", \"position\": 3, \"snippet\": \"Though they varied in length and severity, the market always recovered and went on to new highs. This month marks five years since the covid market downturn.\", \"date\": null}, {\"title\": \"Markets News, March 13, 2025: Stocks Plunge Amid Political and Economic Uncertainty; S&P 500 Slides Into Correction for First Time Since 2023\", \"link\": \"https://www.investopedia.com/dow-jones-today-03132025-11696062\", \"position\": 4, \"snippet\": \"Stocks closed sharply lower on Thursday after another volatile trading session as a sell-off fueled by economic and political uncertainty accelerated. The S&P 500 slid into correction...\", \"date\": null}]}",
+      "tool_call_id": "call_MyjydzpB2R0YbQ7u4ofFA8xk"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+        "snippet": "---\ntitle: What To Expect from the Magnificent Seven in 2025\nauthor: Colin Laidley\nurl: https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\nhostname: investopedia.com\ndescription: For a second year in a row, the Magnificent Seven led the market in terms of both earnings growth and stock performance. So what's next for the group of tech stocks?\nsitename: Investopedia\ndate: 2025-01-02\ntags: ['Investopedia,News,Markets News,Stocks & Bond News']\n---\nThe S&P 500 had another banner year in 2024, rising more than 20% for the second straight year, a feat last accomplished in the 1990s. And just like the year before, a small group of stocks accounted for an outsized share of that gain.\n\nThe Magnificent Seven group of large-cap technology companies—Apple ([AAPL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AAPL)), Nvidia ([NVDA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=NVDA)), Microsoft ([MSFT](https://www.investopedia.com/markets/quote?tvwidgetsymbol=MSFT)), Amazon ([AMZN](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AMZN)), Alphabet ([GOOG](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOG))([GOOGL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOGL)), Meta ([META](https://www.investopedia.com/markets/quote?tvwidgetsymbol=META)), and Tesla ([TSLA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=TSLA))— gained 63% in 2024, after rising more than 75% the year before. There were bumps in the road—the group had its [worst day on record](https://www.investopedia.com/why-magnificent-seven-stocks-are-having-their-worst-day-on-record-8683011) in July—but, for the most part, the artificial intelligence (AI) boom continued to boost the stocks of these tech giants.\n\nSo, after two years of market dominance, what’s next for the [Magnificent Seven](https://www.investopedia.com/magnificent-seven-stocks-8402262)?\n\n## Will the Mag 7 Become Less Magnificent?\n\nCumulatively, the Magnificent Seven book more in profit in a single year than most countries’ entire stock markets. And even in America their profits put them head and shoulder above the rest.\n\nWithout the Mag Seven, aggregate S&P 500 earnings per share would have contracted in 2023 rather than grown. The group’s profits continued to lead the index in 2024, accounting for about 75% of S&P 500 earnings growth.\n\nIn 2025, however, growth is expected to broaden out as the…\n\n[Truncated preview: showing 273 words out of ~821. Full content available via `btf_extract_evidence`.]",
+        "word_count": 821,
+        "snippet_word_count": 273,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T02:53:12.031197"
+      },
+      "raw": "{\"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"snippet\": \"---\\ntitle: What To Expect from the Magnificent Seven in 2025\\nauthor: Colin Laidley\\nurl: https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\\nhostname: investopedia.com\\ndescription: For a second year in a row, the Magnificent Seven led the market in terms of both earnings growth and stock performance. So what's next for the group of tech stocks?\\nsitename: Investopedia\\ndate: 2025-01-02\\ntags: ['Investopedia,News,Markets News,Stocks & Bond News']\\n---\\nThe S&P 500 had another banner year in 2024, rising more than 20% for the second straight year, a feat last accomplished in the 1990s. And just like the year before, a small group of stocks accounted for an outsized share of that gain.\\n\\nThe Magnificent Seven group of large-cap technology companies\\u2014Apple ([AAPL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AAPL)), Nvidia ([NVDA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=NVDA)), Microsoft ([MSFT](https://www.investopedia.com/markets/quote?tvwidgetsymbol=MSFT)), Amazon ([AMZN](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AMZN)), Alphabet ([GOOG](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOG))([GOOGL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOGL)), Meta ([META](https://www.investopedia.com/markets/quote?tvwidgetsymbol=META)), and Tesla ([TSLA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=TSLA))\\u2014 gained 63% in 2024, after rising more than 75% the year before. There were bumps in the road\\u2014the group had its [worst day on record](https://www.investopedia.com/why-magnificent-seven-stocks-are-having-their-worst-day-on-record-8683011) in July\\u2014but, for the most part, the artificial intelligence (AI) boom continued to boost the stocks of these tech giants.\\n\\nSo, after two years of market dominance, what\\u2019s next for the [Magnificent Seven](https://www.investopedia.com/magnificent-seven-stocks-8402262)?\\n\\n## Will the Mag 7 Become Less Magnificent?\\n\\nCumulatively, the Magnificent Seven book more in profit in a single year than most countries\\u2019 entire stock markets. And even in America their profits put them head and shoulder above the rest.\\n\\nWithout the Mag Seven, aggregate S&P 500 earnings per share would have contracted in 2023 rather than grown. The group\\u2019s profits continued to lead the index in 2024, accounting for about 75% of S&P 500 earnings growth.\\n\\nIn 2025, however, growth is expected to broaden out as the\\u2026\\n\\n[Truncated preview: showing 273 words out of ~821. Full content available via `btf_extract_evidence`.]\", \"word_count\": 821, \"snippet_word_count\": 273, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:53:12.031197\"}",
+      "tool_call_id": "call_SXF79P7UBTSDEHct1Re7QJEW"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+        "snippet": "---\ntitle: The (Not So) Magnificent Seven?\nauthor: Liz Ann Sonders\nurl: https://www.schwab.com/learn/story/not-so-magnificent-seven\nhostname: schwab.com\ndescription: Heightened economic uncertainty—propelled mainly by trade policy—has unearthed weakness in the equity market, with most pain felt under the market's surface.\nsitename: Schwab Brokerage\ndate: 2025-03-03\n---\nShown below, the Magnificent Seven (Mag7)—Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla—have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\n\n### Meh7?\n\nSource: Charles Schwab, Bloomberg, as of 2/28/2025.\n\nData indexed to 100 (base value=1/1/2025). An index number is a figure reflecting price or quantity compared with a base value. The base value always has an index number of 100. The index number is then expressed as 100 times the ratio to the base value. All corporate names and market data shown above are for illustrative purposes only and are not a recommendation, offer to sell, or a solicitation of an offer to buy any security. Indexes are unmanaged, do not incur management fees, costs and expenses and cannot be invested in directly. **Past performance is no guarantee of future results.**\n\nSeveral dynamics have contributed to this shift in performance dominance, not least being valuation and earnings concerns (more on that below). Hedge funds have been actively reducing their holdings in the group, reflecting concerns about the merits of substantial investments in artificial intelligence (AI) and angst about the associated \"law\" of diminishing returns. As a result, there has been a shift in investors' attention toward more defensive sectors like Health Care, while Financials' strength over the past few months has been undisturbed. We have market perform ratings on Health Care and Consumer Staples, and an outperform rating on Financials (more on sectors below).\n\n## Tariffs taxing confidence\n\nMacro concerns have also led to shifting market leadership trends, including an epic level of uncertainty with regard to Trump Administration policies, including tariffs and DOGE spending cuts. Specific to the former, (fourth-quarter earnings season wound down with Nvidia's earnings release last week) mentions of tariffs on company conference calls has gone parabolic—surpassing levels during the 2018 trade war.\n\nThe economic backdrop has deteriorated as well, with GDPNow from the Atlanta Federal Reserve having…\n\n[Truncated preview: showing 366 words out of ~1451. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1451,
+        "snippet_word_count": 366,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T02:53:12.487560"
+      },
+      "raw": "{\"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"snippet\": \"---\\ntitle: The (Not So) Magnificent Seven?\\nauthor: Liz Ann Sonders\\nurl: https://www.schwab.com/learn/story/not-so-magnificent-seven\\nhostname: schwab.com\\ndescription: Heightened economic uncertainty\\u2014propelled mainly by trade policy\\u2014has unearthed weakness in the equity market, with most pain felt under the market's surface.\\nsitename: Schwab Brokerage\\ndate: 2025-03-03\\n---\\nShown below, the Magnificent Seven (Mag7)\\u2014Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla\\u2014have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\\n\\n### Meh7?\\n\\nSource: Charles Schwab, Bloomberg, as of 2/28/2025.\\n\\nData indexed to 100 (base value=1/1/2025). An index number is a figure reflecting price or quantity compared with a base value. The base value always has an index number of 100. The index number is then expressed as 100 times the ratio to the base value. All corporate names and market data shown above are for illustrative purposes only and are not a recommendation, offer to sell, or a solicitation of an offer to buy any security. Indexes are unmanaged, do not incur management fees, costs and expenses and cannot be invested in directly. **Past performance is no guarantee of future results.**\\n\\nSeveral dynamics have contributed to this shift in performance dominance, not least being valuation and earnings concerns (more on that below). Hedge funds have been actively reducing their holdings in the group, reflecting concerns about the merits of substantial investments in artificial intelligence (AI) and angst about the associated \\\"law\\\" of diminishing returns. As a result, there has been a shift in investors' attention toward more defensive sectors like Health Care, while Financials' strength over the past few months has been undisturbed. We have market perform ratings on Health Care and Consumer Staples, and an outperform rating on Financials (more on sectors below).\\n\\n## Tariffs taxing confidence\\n\\nMacro concerns have also led to shifting market leadership trends, including an epic level of uncertainty with regard to Trump Administration policies, including tariffs and DOGE spending cuts. Specific to the former, (fourth-quarter earnings season wound down with Nvidia's earnings release last week) mentions of tariffs on company conference calls has gone parabolic\\u2014surpassing levels during the 2018 trade war.\\n\\nThe economic backdrop has deteriorated as well, with GDPNow from the Atlanta Federal Reserve having\\u2026\\n\\n[Truncated preview: showing 366 words out of ~1451. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1451, \"snippet_word_count\": 366, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:53:12.487560\"}",
+      "tool_call_id": "call_R3XrXBd2lWQLHNhHmSa2qRpj"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+        "snippet": "---\ntitle: Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed\nauthor: Alex Harring; Yun Li\nurl: https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\nhostname: cnbc.com\ndescription: Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market.\nsitename: CNBC\ndate: 2025-03-02\ncategories: ['Markets']\ntags: ['Ford Motor Co,General Motors Co,Russell 2000 Index,Super Micro Computer Inc,Broadcom Inc,Howard Lutnick,Economic events,Nasdaq Inc,NVIDIA Corp,Palantir Technologies Inc,Dow Jones Industrial Average,NASDAQ Composite,S&P 500 Index,Microstrategy Inc,Robinhood Markets Inc,Coinbase Global Inc,Canada,Tesla Inc,Morgan Stanley,China,Mexico,Donald Trump,NASDAQ 100 Fut (Mar23),S&P 500 Fut (Mar23),Dow Jones Fut (Mar23),Bitcoin/USD Coin Metrics,Donald J. Trump,Warren Buffett,United States,Markets,Stock markets,Breaking News: Major,Breaking News: Markets,business news', 'Ford Motor Co', 'General Motors Co', 'Russell 2000 Index', 'Super Micro Computer Inc', 'Broadcom Inc', 'Howard Lutnick', 'Economic events', 'Nasdaq Inc', 'NVIDIA Corp', 'Palantir Technologies Inc', 'Dow Jones Industrial Average', 'NASDAQ Composite', 'S&P 500 Index', 'Microstrategy Inc', 'Robinhood Markets Inc', 'Coinbase Global Inc', 'Canada', 'Tesla Inc', 'Morgan Stanley', 'China', 'Mexico', 'Donald Trump', 'NASDAQ 100 Fut (Mar23)', 'S&P 500 Fut (Mar23)', 'Dow Jones Fut (Mar23)', 'Bitcoin/USD Coin Metrics', 'Donald J. Trump', 'Warren Buffett', 'United States', 'Markets', 'Stock markets', 'Breaking News: Major', 'Breaking News: Markets']\n---\nThe [S&P 500](https://www.cnbc.com/quotes/.SPX/) retreated on Monday, extending February's rout and turning red for the year after President [Donald Trump](https://www.cnbc.com/donald-trump/)'s confirmation of forthcoming [tariffs](https://www.cnbc.com/2025/03/03/trump-dashes-hope-for-last-minute-canada-and-mexico-deal-ahead-of-25percent-tariffs.html).\n\nThe broad index fell 1.76% to end at 5,849.72, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%. The [Dow Jones Industrial Average](https://www.cnbc.com/quotes/.DJI/) dropped 649.67 points, or 1.48%, to finish at 43,191.24. The [Nasdaq Composite](https://www.cnbc.com/quotes/NVDA/) slid 2.64% to close at 18,350.19, [weighed down](https://www.cnbc.com#108110107-KllMfAKqK) by [Nvidia](htt…\n\n[Truncated preview: showing 268 words out of ~618. Full content available via `btf_extract_evidence`.]",
+        "word_count": 618,
+        "snippet_word_count": 268,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T02:53:12.264362"
+      },
+      "raw": "{\"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"snippet\": \"---\\ntitle: Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed\\nauthor: Alex Harring; Yun Li\\nurl: https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\\nhostname: cnbc.com\\ndescription: Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market.\\nsitename: CNBC\\ndate: 2025-03-02\\ncategories: ['Markets']\\ntags: ['Ford Motor Co,General Motors Co,Russell 2000 Index,Super Micro Computer Inc,Broadcom Inc,Howard Lutnick,Economic events,Nasdaq Inc,NVIDIA Corp,Palantir Technologies Inc,Dow Jones Industrial Average,NASDAQ Composite,S&P 500 Index,Microstrategy Inc,Robinhood Markets Inc,Coinbase Global Inc,Canada,Tesla Inc,Morgan Stanley,China,Mexico,Donald Trump,NASDAQ 100 Fut (Mar23),S&P 500 Fut (Mar23),Dow Jones Fut (Mar23),Bitcoin/USD Coin Metrics,Donald J. Trump,Warren Buffett,United States,Markets,Stock markets,Breaking News: Major,Breaking News: Markets,business news', 'Ford Motor Co', 'General Motors Co', 'Russell 2000 Index', 'Super Micro Computer Inc', 'Broadcom Inc', 'Howard Lutnick', 'Economic events', 'Nasdaq Inc', 'NVIDIA Corp', 'Palantir Technologies Inc', 'Dow Jones Industrial Average', 'NASDAQ Composite', 'S&P 500 Index', 'Microstrategy Inc', 'Robinhood Markets Inc', 'Coinbase Global Inc', 'Canada', 'Tesla Inc', 'Morgan Stanley', 'China', 'Mexico', 'Donald Trump', 'NASDAQ 100 Fut (Mar23)', 'S&P 500 Fut (Mar23)', 'Dow Jones Fut (Mar23)', 'Bitcoin/USD Coin Metrics', 'Donald J. Trump', 'Warren Buffett', 'United States', 'Markets', 'Stock markets', 'Breaking News: Major', 'Breaking News: Markets']\\n---\\nThe [S&P 500](https://www.cnbc.com/quotes/.SPX/) retreated on Monday, extending February's rout and turning red for the year after President [Donald Trump](https://www.cnbc.com/donald-trump/)'s confirmation of forthcoming [tariffs](https://www.cnbc.com/2025/03/03/trump-dashes-hope-for-last-minute-canada-and-mexico-deal-ahead-of-25percent-tariffs.html).\\n\\nThe broad index fell 1.76% to end at 5,849.72, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%. The [Dow Jones Industrial Average](https://www.cnbc.com/quotes/.DJI/) dropped 649.67 points, or 1.48%, to finish at 43,191.24. The [Nasdaq Composite](https://www.cnbc.com/quotes/NVDA/) slid 2.64% to close at 18,350.19, [weighed down](https://www.cnbc.com#108110107-KllMfAKqK) by [Nvidia](htt\\u2026\\n\\n[Truncated preview: showing 268 words out of ~618. Full content available via `btf_extract_evidence`.]\", \"word_count\": 618, \"snippet_word_count\": 268, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:53:12.264362\"}",
+      "tool_call_id": "call_MfeWCHilbxp5L7QRAVDm9A1b"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0dfd6670-7cf4-54af-bbf6-f821a7f5aee7",
+        "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+        "facts": [
+          {
+            "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "fact": "The Magnificent Seven gained 63% in 2024, following a 75% rise the previous year, indicating strong recent performance."
+          },
+          {
+            "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "fact": "In 2025, growth is expected to broaden out, with the Magnificent Seven's share of S&P 500 earnings growth contracting to 33%, suggesting a potential slowdown in their dominance."
+          },
+          {
+            "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "fact": "Goldman Sachs analysts forecast the Magnificent Seven will collectively outperform the rest of the S&P 500 by 7 percentage points in 2025, the narrowest margin in seven years."
+          },
+          {
+            "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "fact": "Nvidia remains a top pick among Wall Street analysts, with strong demand for its next-generation chips expected to fuel growth in 2025."
+          },
+          {
+            "title": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "url": "https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203",
+            "fact": "Tesla's outlook is uncertain due to potential policy changes, such as the expected end of federal tax credits for electric vehicles, which could impact its market performance."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"facts\": [{\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"The Magnificent Seven gained 63% in 2024, following a 75% rise the previous year, indicating strong recent performance.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"In 2025, growth is expected to broaden out, with the Magnificent Seven's share of S&P 500 earnings growth contracting to 33%, suggesting a potential slowdown in their dominance.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"Goldman Sachs analysts forecast the Magnificent Seven will collectively outperform the rest of the S&P 500 by 7 percentage points in 2025, the narrowest margin in seven years.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"Nvidia remains a top pick among Wall Street analysts, with strong demand for its next-generation chips expected to fuel growth in 2025.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"Tesla's outlook is uncertain due to potential policy changes, such as the expected end of federal tax credits for electric vehicles, which could impact its market performance.\"}]}",
+      "tool_call_id": "call_lAX6MOGcXbF4bwFp3dL3vtqH"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0dfd6670-7cf4-54af-bbf6-f821a7f5aee7",
+        "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+        "facts": [
+          {
+            "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "fact": "The Magnificent Seven have encountered notable challenges in early 2025, marking a departure from their previous market dominance."
+          },
+          {
+            "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "fact": "Hedge funds have been actively reducing their holdings in the Magnificent Seven, reflecting concerns about AI investments and diminishing returns."
+          },
+          {
+            "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "fact": "U.S. stocks have pulled back due to heightened economic uncertainty, though not yet in correction territory at the index level."
+          },
+          {
+            "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "fact": "Earnings growth for the Magnificent Seven in 2025 is expected to be lower than in 2024, while the rest of the S&P 500 is expected to see higher growth."
+          },
+          {
+            "title": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "url": "https://www.schwab.com/learn/story/not-so-magnificent-seven",
+            "fact": "Sector leadership has shifted towards more defensive areas like Health Care and Consumer Staples, away from the Magnificent Seven."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"facts\": [{\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"The Magnificent Seven have encountered notable challenges in early 2025, marking a departure from their previous market dominance.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"Hedge funds have been actively reducing their holdings in the Magnificent Seven, reflecting concerns about AI investments and diminishing returns.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"U.S. stocks have pulled back due to heightened economic uncertainty, though not yet in correction territory at the index level.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"Earnings growth for the Magnificent Seven in 2025 is expected to be lower than in 2024, while the rest of the S&P 500 is expected to see higher growth.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"Sector leadership has shifted towards more defensive areas like Health Care and Consumer Staples, away from the Magnificent Seven.\"}]}",
+      "tool_call_id": "call_YDu3dsqaiVbtbSNGKnhI6nA7"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0dfd6670-7cf4-54af-bbf6-f821a7f5aee7",
+        "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+        "facts": [
+          {
+            "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "fact": "The S&P 500 fell 1.76% on March 2, 2025, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%."
+          },
+          {
+            "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "fact": "The Nasdaq Composite, which includes many tech stocks, slid 2.64% on March 2, 2025, weighed down by Nvidia's decline of more than 8%."
+          },
+          {
+            "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "fact": "President Trump announced that 25% tariffs on imports from Mexico and Canada would go into effect on March 3, 2025, with additional tariffs on China to follow."
+          },
+          {
+            "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "fact": "The Nasdaq Composite recorded its worst month since April 2024 with a pullback of about 4% in February 2025."
+          },
+          {
+            "title": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "url": "https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html",
+            "fact": "Soft economic data for the manufacturing and construction sectors released on March 2, 2025, added to concerns about the state of the U.S. economy."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"facts\": [{\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"The S&P 500 fell 1.76% on March 2, 2025, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"The Nasdaq Composite, which includes many tech stocks, slid 2.64% on March 2, 2025, weighed down by Nvidia's decline of more than 8%.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"President Trump announced that 25% tariffs on imports from Mexico and Canada would go into effect on March 3, 2025, with additional tariffs on China to follow.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"The Nasdaq Composite recorded its worst month since April 2024 with a pullback of about 4% in February 2025.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"Soft economic data for the manufacturing and construction sectors released on March 2, 2025, added to concerns about the state of the U.S. economy.\"}]}",
+      "tool_call_id": "call_huqjblfVgRRuQe4bUTGl8O6s"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the total market cap of the Magnificent Seven be greater than 18.5 trillion USD on March 28, 2025?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nAs of January 20, 2025, the market caps of the Magnificent Seven in trillions of USD were (according to [CompaniesMarketCap](https://companiesmarketcap.com/)):\n\n* Alphabet: \\$2.407 T ([annual report](https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm))\n* Amazon: \\$2.375 T ([annual report](https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm))\n* Apple: \\$3.458 T ([annual report](https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm))\n* Meta Platforms: \\$1.546 T ([annual report](https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm))\n* Microsoft: \\$3.189 T ([annual report](https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm))\n* Nvidia: \\$3.372 T ([annual report](https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm))\n* Tesla: \\$1.369 T ([annual report](https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm))\n\nTotal market cap: \\$17.72 T\n\nThe total [S\\&P 500 market cap](https://www.slickcharts.com/sp500/marketcap) was \\$50.461 trillion as of January 20, 2025, which means the Magnificent Seven are 35% of the index. This [is up](https://www.nytimes.com/interactive/2024/01/22/business/magnificent-seven-stocks-tech.html) from 29% a year ago. In 2024, the Magnificent Seven [were responsible for](https://www.cnbc.com/2024/12/31/magnificent-7-stocks-responsible-for-more-than-half-of-the-sp-500s-2024-gain.html) over half of the S\\&P 500's gains for the year.&#x20;\n\nFor more information please see:\n\n* Investopedia: [What To Expect from the Magnificent Seven in 2025](https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203)\n* Bank of New York Mellon: [A Closer Look at Magnificent Seven Stocks](https://www.mellon.com/insights/insights-articles/a-closer-look-at-magnificent-seven-stocks.html)\nResolution criteria: This question resolves as YES if the combined market capitalization of the following seven companies is greater than 18.5 trillion USD, according to CompaniesMarketCap.com when accessed by Metaculus after 4:00 PM Eastern on Friday March 28, 2025:\n\n1. Alphabet (Google)\n2. Amazon\n3. Apple\n4. Meta\n5. Microsoft\n6. Nvidia\n7. Tesla\nFine print: * If CompaniesMarketCap is unavailable at the resolution time, Metaculus may use an alternative credible source to resolve the question, for example the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs) (see [example spreadsheet](https://docs.google.com/spreadsheets/d/1v26XkUxLxv5NF26E7n3x7nfcLi9w3kur6v06p1vSnp8/edit?usp=sharing) for data from this source).\n* If the resolution value is below the lower bound or above the upper bound, the question resolves outside the respective bound.\npresent_date: 2025-03-19T18:44:43.714349\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_JXtaTZsgTcdRbQy4q8DYHPle",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the total market cap of the Magnificent Seven be greater than 18.5 trillion USD on March 28, 2025?\",\"background\":\"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\",\"resolution_criteria\":\"This question resolves as YES if the combined market capitalization of the following seven companies is greater than 18.5 trillion USD, according to CompaniesMarketCap.com when accessed by Metaculus after 4:00 PM Eastern on Friday March 28, 2025: Alphabet (Google), Amazon, Apple, Meta, Microsoft, Nvidia, Tesla\",\"present_date\":\"2025-03-19T18:44:43.714349\",\"date_cutoff_start\":\"2025-03-19T18:44:43.714349\",\"max_queries\":3}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"queries\": [\"Magnificent Seven stock performance March 2025\", \"Magnificent Seven market cap forecast 2025\", \"recent economic events impacting stock market March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_JXtaTZsgTcdRbQy4q8DYHPle"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_VxiRYeQzkCvWxn2XJEdmEcYm",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Magnificent Seven stock performance March 2025\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_aJX8O9Gx0dy5siBW1oCj8Lup",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Magnificent Seven market cap forecast 2025\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_MyjydzpB2R0YbQ7u4ofFA8xk",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"recent economic events impacting stock market March 2025\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Magnificent Seven stock performance March 2025\", \"results\": [{\"title\": \"What are the Magnificent 7 stocks? | Fidelity\", \"link\": \"https://www.fidelity.com/learning-center/smart-money/magnificent-7-stocks\", \"position\": 1, \"snippet\": \"The Magnificent 7 stocks all have market capitalizations of about $1 trillion or more, with a few around $3 trillion as of March 2025. Alphabet grew about 500% from March 3, 2015, to March 3, 2025.\", \"date\": null}, {\"title\": \".MAG7: CNBC Magnificent 7 Index - Stock Price, Quote and News - CNBC\", \"link\": \"https://www.cnbc.com/quotes/.MAG7\", \"position\": 3, \"snippet\": \"CNBC Magnificent 7 Index (.MAG7) stock data for March 16, 2025: Open 290.69, Day High 291.31, Day Low 285.04, Prev Close 294.39.\", \"date\": null}, {\"title\": \"Roundhill Magnificent Seven ETF (MAGS) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/MAGS/history/\", \"position\": 4, \"snippet\": \"Roundhill Magnificent Seven ETF (MAGS) stock prices in March 2025: Mar 19, 2025: 46.75, Mar 18, 2025: 45.98, Mar 17, 2025: 47.19, Mar 14, 2025: 47.67...\", \"date\": null}, {\"title\": \"The Magnificent Seven\\u2019s Market Cap vs. the S&P 500 | The Motley Fool\", \"link\": \"https://www.fool.com/research/magnificent-seven-sp-500/\", \"position\": 3, \"snippet\": \"The Magnificent Seven stocks had a combined return of 697.6% from the end of 2015 through 2024, significantly outperforming the S&P 500's 178.3% return during that period.\", \"date\": null}, {\"title\": \"Magnificent 7 | PortfoliosLab\", \"link\": \"https://portfolioslab.com/portfolio/wv0qmb8bejl7tta5wek1cdk5\", \"position\": 5, \"snippet\": \"As of Mar 18, 2025, the Magnificent 7 returned -13.42% Year-To-Date and 36.15% of annualized return in the last 10 years.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_VxiRYeQzkCvWxn2XJEdmEcYm"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Magnificent Seven market cap forecast 2025\", \"results\": [{\"title\": \"What To Expect from the Magnificent Seven in 2025\", \"link\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"position\": 1, \"snippet\": \"Goldman Sachs analysts forecast the group will collectively outperform the \\u201cOther 493\\u201d\\u2014the S&P 500 excluding the Mag Seven\\u2014by 7 percentage points this year, the narrowest margin in seven years.\", \"date\": null}, {\"title\": \"The (Not So) Magnificent Seven? | Charles Schwab\", \"link\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"position\": 5, \"snippet\": \"The Magnificent Seven (Mag7)\\u2014Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla\\u2014have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\", \"date\": null}, {\"title\": \"The (Not So) Magnificent Seven? | Charles Schwab\", \"link\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"position\": 2, \"snippet\": \"The Magnificent Seven (Mag7)\\u2014Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla\\u2014have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\", \"date\": null}, {\"title\": \"A Closer Look at Magnificent Seven Stocks | Mellon Investments Corporation\", \"link\": \"https://www.mellon.com/insights/insights-articles/a-closer-look-at-magnificent-seven-stocks.html\", \"position\": 3, \"snippet\": \"The combined market cap of the seven at around $12.3 trillion is more than four times the size of the nearly $3 trillion market cap of the Russell 2000\\u00ae Index.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_aJX8O9Gx0dy5siBW1oCj8Lup"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"recent economic events impacting stock market March 2025\", \"results\": [{\"title\": \"Stock market news for March 3, 2025\", \"link\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"position\": 2, \"snippet\": \"Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed. Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market.\", \"date\": \"2025-03-02T23:03:48Z\"}, {\"title\": \"Review of markets over February 2025\\n        \\n        \\n         | J.P. Morgan Asset Management\", \"link\": \"https://am.jpmorgan.com/gb/en/asset-management/per/insights/market-insights/market-updates/monthly-market-review/\", \"position\": 3, \"snippet\": \"Growing uncertainty about the impact of the US administration\\u2019s policy agenda weighed on both corporate and consumer sentiment, and concerns about growth started to re-emerge. Weak US performance dragged on developed market equities...\", \"date\": null}, {\"title\": \"Stock Market Crashes: A Look at 150 Years of Bear Markets | Morningstar\", \"link\": \"https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes\", \"position\": 3, \"snippet\": \"Though they varied in length and severity, the market always recovered and went on to new highs. This month marks five years since the covid market downturn.\", \"date\": null}, {\"title\": \"Markets News, March 13, 2025: Stocks Plunge Amid Political and Economic Uncertainty; S&P 500 Slides Into Correction for First Time Since 2023\", \"link\": \"https://www.investopedia.com/dow-jones-today-03132025-11696062\", \"position\": 4, \"snippet\": \"Stocks closed sharply lower on Thursday after another volatile trading session as a sell-off fueled by economic and political uncertainty accelerated. The S&P 500 slid into correction...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_MyjydzpB2R0YbQ7u4ofFA8xk"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_SXF79P7UBTSDEHct1Re7QJEW",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        },
+        {
+          "id": "call_R3XrXBd2lWQLHNhHmSa2qRpj",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        },
+        {
+          "id": "call_MfeWCHilbxp5L7QRAVDm9A1b",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"snippet\": \"---\\ntitle: What To Expect from the Magnificent Seven in 2025\\nauthor: Colin Laidley\\nurl: https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\\nhostname: investopedia.com\\ndescription: For a second year in a row, the Magnificent Seven led the market in terms of both earnings growth and stock performance. So what's next for the group of tech stocks?\\nsitename: Investopedia\\ndate: 2025-01-02\\ntags: ['Investopedia,News,Markets News,Stocks & Bond News']\\n---\\nThe S&P 500 had another banner year in 2024, rising more than 20% for the second straight year, a feat last accomplished in the 1990s. And just like the year before, a small group of stocks accounted for an outsized share of that gain.\\n\\nThe Magnificent Seven group of large-cap technology companies\\u2014Apple ([AAPL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AAPL)), Nvidia ([NVDA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=NVDA)), Microsoft ([MSFT](https://www.investopedia.com/markets/quote?tvwidgetsymbol=MSFT)), Amazon ([AMZN](https://www.investopedia.com/markets/quote?tvwidgetsymbol=AMZN)), Alphabet ([GOOG](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOG))([GOOGL](https://www.investopedia.com/markets/quote?tvwidgetsymbol=GOOGL)), Meta ([META](https://www.investopedia.com/markets/quote?tvwidgetsymbol=META)), and Tesla ([TSLA](https://www.investopedia.com/markets/quote?tvwidgetsymbol=TSLA))\\u2014 gained 63% in 2024, after rising more than 75% the year before. There were bumps in the road\\u2014the group had its [worst day on record](https://www.investopedia.com/why-magnificent-seven-stocks-are-having-their-worst-day-on-record-8683011) in July\\u2014but, for the most part, the artificial intelligence (AI) boom continued to boost the stocks of these tech giants.\\n\\nSo, after two years of market dominance, what\\u2019s next for the [Magnificent Seven](https://www.investopedia.com/magnificent-seven-stocks-8402262)?\\n\\n## Will the Mag 7 Become Less Magnificent?\\n\\nCumulatively, the Magnificent Seven book more in profit in a single year than most countries\\u2019 entire stock markets. And even in America their profits put them head and shoulder above the rest.\\n\\nWithout the Mag Seven, aggregate S&P 500 earnings per share would have contracted in 2023 rather than grown. The group\\u2019s profits continued to lead the index in 2024, accounting for about 75% of S&P 500 earnings growth.\\n\\nIn 2025, however, growth is expected to broaden out as the\\u2026\\n\\n[Truncated preview: showing 273 words out of ~821. Full content available via `btf_extract_evidence`.]\", \"word_count\": 821, \"snippet_word_count\": 273, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:53:12.031197\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_SXF79P7UBTSDEHct1Re7QJEW"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"snippet\": \"---\\ntitle: The (Not So) Magnificent Seven?\\nauthor: Liz Ann Sonders\\nurl: https://www.schwab.com/learn/story/not-so-magnificent-seven\\nhostname: schwab.com\\ndescription: Heightened economic uncertainty\\u2014propelled mainly by trade policy\\u2014has unearthed weakness in the equity market, with most pain felt under the market's surface.\\nsitename: Schwab Brokerage\\ndate: 2025-03-03\\n---\\nShown below, the Magnificent Seven (Mag7)\\u2014Apple, Microsoft, Nvidia, Meta, Alphabet (Google), Amazon, and Tesla\\u2014have encountered notable challenges in the early months of 2025, marking a departure from their previous market dominance.\\n\\n### Meh7?\\n\\nSource: Charles Schwab, Bloomberg, as of 2/28/2025.\\n\\nData indexed to 100 (base value=1/1/2025). An index number is a figure reflecting price or quantity compared with a base value. The base value always has an index number of 100. The index number is then expressed as 100 times the ratio to the base value. All corporate names and market data shown above are for illustrative purposes only and are not a recommendation, offer to sell, or a solicitation of an offer to buy any security. Indexes are unmanaged, do not incur management fees, costs and expenses and cannot be invested in directly. **Past performance is no guarantee of future results.**\\n\\nSeveral dynamics have contributed to this shift in performance dominance, not least being valuation and earnings concerns (more on that below). Hedge funds have been actively reducing their holdings in the group, reflecting concerns about the merits of substantial investments in artificial intelligence (AI) and angst about the associated \\\"law\\\" of diminishing returns. As a result, there has been a shift in investors' attention toward more defensive sectors like Health Care, while Financials' strength over the past few months has been undisturbed. We have market perform ratings on Health Care and Consumer Staples, and an outperform rating on Financials (more on sectors below).\\n\\n## Tariffs taxing confidence\\n\\nMacro concerns have also led to shifting market leadership trends, including an epic level of uncertainty with regard to Trump Administration policies, including tariffs and DOGE spending cuts. Specific to the former, (fourth-quarter earnings season wound down with Nvidia's earnings release last week) mentions of tariffs on company conference calls has gone parabolic\\u2014surpassing levels during the 2018 trade war.\\n\\nThe economic backdrop has deteriorated as well, with GDPNow from the Atlanta Federal Reserve having\\u2026\\n\\n[Truncated preview: showing 366 words out of ~1451. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1451, \"snippet_word_count\": 366, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:53:12.487560\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_R3XrXBd2lWQLHNhHmSa2qRpj"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"snippet\": \"---\\ntitle: Dow tumbles more than 600 points, S&P 500 posts biggest loss since December as Trump says tariffs will proceed\\nauthor: Alex Harring; Yun Li\\nurl: https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\\nhostname: cnbc.com\\ndescription: Trump's plans to impose import duties on key U.S. trading partners this week loom over the stock market.\\nsitename: CNBC\\ndate: 2025-03-02\\ncategories: ['Markets']\\ntags: ['Ford Motor Co,General Motors Co,Russell 2000 Index,Super Micro Computer Inc,Broadcom Inc,Howard Lutnick,Economic events,Nasdaq Inc,NVIDIA Corp,Palantir Technologies Inc,Dow Jones Industrial Average,NASDAQ Composite,S&P 500 Index,Microstrategy Inc,Robinhood Markets Inc,Coinbase Global Inc,Canada,Tesla Inc,Morgan Stanley,China,Mexico,Donald Trump,NASDAQ 100 Fut (Mar23),S&P 500 Fut (Mar23),Dow Jones Fut (Mar23),Bitcoin/USD Coin Metrics,Donald J. Trump,Warren Buffett,United States,Markets,Stock markets,Breaking News: Major,Breaking News: Markets,business news', 'Ford Motor Co', 'General Motors Co', 'Russell 2000 Index', 'Super Micro Computer Inc', 'Broadcom Inc', 'Howard Lutnick', 'Economic events', 'Nasdaq Inc', 'NVIDIA Corp', 'Palantir Technologies Inc', 'Dow Jones Industrial Average', 'NASDAQ Composite', 'S&P 500 Index', 'Microstrategy Inc', 'Robinhood Markets Inc', 'Coinbase Global Inc', 'Canada', 'Tesla Inc', 'Morgan Stanley', 'China', 'Mexico', 'Donald Trump', 'NASDAQ 100 Fut (Mar23)', 'S&P 500 Fut (Mar23)', 'Dow Jones Fut (Mar23)', 'Bitcoin/USD Coin Metrics', 'Donald J. Trump', 'Warren Buffett', 'United States', 'Markets', 'Stock markets', 'Breaking News: Major', 'Breaking News: Markets']\\n---\\nThe [S&P 500](https://www.cnbc.com/quotes/.SPX/) retreated on Monday, extending February's rout and turning red for the year after President [Donald Trump](https://www.cnbc.com/donald-trump/)'s confirmation of forthcoming [tariffs](https://www.cnbc.com/2025/03/03/trump-dashes-hope-for-last-minute-canada-and-mexico-deal-ahead-of-25percent-tariffs.html).\\n\\nThe broad index fell 1.76% to end at 5,849.72, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%. The [Dow Jones Industrial Average](https://www.cnbc.com/quotes/.DJI/) dropped 649.67 points, or 1.48%, to finish at 43,191.24. The [Nasdaq Composite](https://www.cnbc.com/quotes/NVDA/) slid 2.64% to close at 18,350.19, [weighed down](https://www.cnbc.com#108110107-KllMfAKqK) by [Nvidia](htt\\u2026\\n\\n[Truncated preview: showing 268 words out of ~618. Full content available via `btf_extract_evidence`.]\", \"word_count\": 618, \"snippet_word_count\": 268, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T02:53:12.264362\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_MfeWCHilbxp5L7QRAVDm9A1b"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_lAX6MOGcXbF4bwFp3dL3vtqH",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"question\": \"Will the total market cap of the Magnificent Seven be greater than 18.5 trillion USD on March 28, 2025?\", \"background\": \"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\", \"resolution_criteria\": \"This question resolves as YES if the combined market capitalization of the following seven companies is greater than 18.5 trillion USD, according to CompaniesMarketCap.com when accessed by Metaculus after 4:00 PM Eastern on Friday March 28, 2025: Alphabet (Google), Amazon, Apple, Meta, Microsoft, Nvidia, Tesla\", \"present_date\": \"2025-03-19T18:44:43.714349\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        },
+        {
+          "id": "call_YDu3dsqaiVbtbSNGKnhI6nA7",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"question\": \"Will the total market cap of the Magnificent Seven be greater than 18.5 trillion USD on March 28, 2025?\", \"background\": \"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\", \"resolution_criteria\": \"This question resolves as YES if the combined market capitalization of the following seven companies is greater than 18.5 trillion USD, according to CompaniesMarketCap.com when accessed by Metaculus after 4:00 PM Eastern on Friday March 28, 2025: Alphabet (Google), Amazon, Apple, Meta, Microsoft, Nvidia, Tesla\", \"present_date\": \"2025-03-19T18:44:43.714349\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        },
+        {
+          "id": "call_huqjblfVgRRuQe4bUTGl8O6s",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"question\": \"Will the total market cap of the Magnificent Seven be greater than 18.5 trillion USD on March 28, 2025?\", \"background\": \"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\", \"resolution_criteria\": \"This question resolves as YES if the combined market capitalization of the following seven companies is greater than 18.5 trillion USD, according to CompaniesMarketCap.com when accessed by Metaculus after 4:00 PM Eastern on Friday March 28, 2025: Alphabet (Google), Amazon, Apple, Meta, Microsoft, Nvidia, Tesla\", \"present_date\": \"2025-03-19T18:44:43.714349\", \"date_cutoff_start\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"facts\": [{\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"The Magnificent Seven gained 63% in 2024, following a 75% rise the previous year, indicating strong recent performance.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"In 2025, growth is expected to broaden out, with the Magnificent Seven's share of S&P 500 earnings growth contracting to 33%, suggesting a potential slowdown in their dominance.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"Goldman Sachs analysts forecast the Magnificent Seven will collectively outperform the rest of the S&P 500 by 7 percentage points in 2025, the narrowest margin in seven years.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"Nvidia remains a top pick among Wall Street analysts, with strong demand for its next-generation chips expected to fuel growth in 2025.\"}, {\"title\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"url\": \"https://www.investopedia.com/what-to-expect-from-the-magnificent-seven-in-2025-nvidia-apple-microsoft-tesla-google-amazon-meta-8765203\", \"fact\": \"Tesla's outlook is uncertain due to potential policy changes, such as the expected end of federal tax credits for electric vehicles, which could impact its market performance.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_lAX6MOGcXbF4bwFp3dL3vtqH"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"facts\": [{\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"The Magnificent Seven have encountered notable challenges in early 2025, marking a departure from their previous market dominance.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"Hedge funds have been actively reducing their holdings in the Magnificent Seven, reflecting concerns about AI investments and diminishing returns.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"U.S. stocks have pulled back due to heightened economic uncertainty, though not yet in correction territory at the index level.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"Earnings growth for the Magnificent Seven in 2025 is expected to be lower than in 2024, while the rest of the S&P 500 is expected to see higher growth.\"}, {\"title\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"url\": \"https://www.schwab.com/learn/story/not-so-magnificent-seven\", \"fact\": \"Sector leadership has shifted towards more defensive areas like Health Care and Consumer Staples, away from the Magnificent Seven.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_YDu3dsqaiVbtbSNGKnhI6nA7"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0dfd6670-7cf4-54af-bbf6-f821a7f5aee7\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"facts\": [{\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"The S&P 500 fell 1.76% on March 2, 2025, marking its worst day since December and bringing its year-to-date performance to a loss of about 0.5%.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"The Nasdaq Composite, which includes many tech stocks, slid 2.64% on March 2, 2025, weighed down by Nvidia's decline of more than 8%.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"President Trump announced that 25% tariffs on imports from Mexico and Canada would go into effect on March 3, 2025, with additional tariffs on China to follow.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"The Nasdaq Composite recorded its worst month since April 2024 with a pullback of about 4% in February 2025.\"}, {\"title\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"url\": \"https://www.cnbc.com/2025/03/02/stock-futures-rise-slightly-in-overnight-trading-as-investors-await-tariff-news-live-updates.html\", \"fact\": \"Soft economic data for the manufacturing and construction sectors released on March 2, 2025, added to concerns about the state of the U.S. economy.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_huqjblfVgRRuQe4bUTGl8O6s"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here's a summary of the current situation regarding the Magnificent Seven and the broader market:\n\n1. **Recent Performance**: The Magnificent Seven experienced significant growth in 2024, gaining 63% after a 75% rise the previous year. However, in early 2025, they have encountered challenges, with hedge funds reducing their holdings due to concerns about AI investments and diminishing returns.\n\n2. **Economic and Market Conditions**: The broader market has faced heightened economic uncertainty, partly due to trade policies such as tariffs announced by President Trump. These tariffs have led to significant market volatility, with the S&P 500 and Nasdaq Composite experiencing notable declines.\n\n3. **Forecasts and Expectations**: While the Magnificent Seven are expected to outperform the rest of the S&P 500 by 7 percentage points in 2025, this is the narrowest margin in seven years, indicating a potential slowdown in their dominance. Additionally, earnings growth for the Magnificent Seven in 2025 is expected to be lower than in 2024.\n\n4. **Sector Shifts**: There has been a shift in investor focus towards more defensive sectors like Health Care and Consumer Staples, moving away from the Magnificent Seven.\n\nGiven these factors, the Magnificent Seven's market cap is currently at $17.72 trillion. For it to exceed $18.5 trillion by March 28, 2025, it would require a significant positive shift in market sentiment or performance, which seems challenging given the current economic and market conditions.\n\nFINAL PROBABILITY: 0.4"
+    }
+  ]
+}

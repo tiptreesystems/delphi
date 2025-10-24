@@ -1,0 +1,628 @@
+{
+  "question_id": "05be0331-902f-5ed5-acee-c870ce516a5f",
+  "question": "Will the total number of forecasters in the Q1 2025 Quarterly Cup be greater than 800 forecasters?",
+  "probability": 0.1,
+  "reasoning": "Based on the gathered evidence, here are the key points relevant to estimating the probability of the total number of forecasters in the Q1 2025 Quarterly Cup exceeding 800:\n\n1. **Current Participation and Predictions**:\n   - The current total number of forecasters for the Q1 2025 Quarterly Cup is 82.\n   - The community prediction for the total number of forecasters is 563, with a range from 466 to 676.\n   - The community assigns a 1.1% probability to the number of forecasters exceeding 1,200.\n\n2. **Historical Context**:\n   - In Q2 2024, the number of forecasters was 1002, but it dropped to 379 in Q4 2024, likely due to a site rewrite.\n   - Historically, the number of forecasters has fluctuated, with numbers like 842 in Q3 2023 and 838 in Q4 2023.\n\n3. **Recent Developments**:\n   - In early 2025, Metaculus launched several high-profile tournaments (ACX2025, Brazil Prediction Tournament, and Bridgewater Forecasting Contest), which led to a record number of 11,050 new user sign-ups in one week.\n   - Despite the increase in sign-ups, it is unclear how many of these new users will participate in the Quarterly Cup, as they might be more interested in the specific tournaments they signed up for.\n\n4. **Site Improvements**:\n   - The Metaculus site is described as improved in early 2025, which could potentially attract more users to participate in the Quarterly Cup.\n\nGiven these points, while there is a significant increase in user sign-ups and site improvements, the community prediction suggests a lower number of forecasters than 800. The historical trend and the current prediction both indicate that reaching over 800 forecasters is unlikely, despite the recent surge in user sign-ups.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Quarterly Cup Tournament: Q1 2025",
+      "url": "https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/",
+      "content": "Quarterly Cup Tournament: Q1 2025 by Anastasia • Jul 3, 2023 • Edited on Jan 10, 2025 • 2 min read 🏆 Quarterly Cup 🏆 Tags: Scotland, US House of Representatives..."
+    },
+    {
+      "title": "What will be the total number of forecasters in the Q1 2025 Quarterly Cup?",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "content": "Total Forecasters82 Community Prediction 563 forecasters (466 - 676) This question is closed for predictions, and is waiting to be resolved..."
+    },
+    {
+      "title": "🏆 Quarterly Cup 🏆",
+      "url": "https://www.metaculus.com/tournament/quarterly-cup/",
+      "content": "Welcome to the Quarterly Cup Tournament! Join us and make quick predictions on topical questions. Each week, a few new questions will be available to forecast on."
+    },
+    {
+      "title": "Retrospective: Metaculus Quarterly Cup",
+      "url": "https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html",
+      "content": "I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months..."
+    },
+    {
+      "title": "Findings From the White Hat Cyber Forecasting Tournament | Lawfare",
+      "url": "https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament",
+      "content": "The White Hat Cyber Forecasting Tournament partnered with Metaculus, an online forecasting platform, to explore crowd-sourced predictions on cybersecurity topics. The tournament asked 43 questions and ended on June 1, 2023..."
+    },
+    {
+      "title": "The State of Metaculus",
+      "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "content": "The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities..."
+    },
+    {
+      "title": "Metaculus",
+      "url": "https://www.metaculus.com/",
+      "content": "The State of Metaculus: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago..."
+    },
+    {
+      "title": "Forecasting Our World in Data: The Next 100 Years",
+      "url": "https://www.metaculus.com/notebooks/14965/forecasting-our-world-in-data-the-next-100-years/",
+      "content": "The following report presents Metaculus community forecasts and analyses on key measures of human progress developed by Our World in Data for the Forecasting Our World in Data Tournament."
+    },
+    {
+      "title": "Leaderboards | Metaculus",
+      "url": "https://www.metaculus.com/leaderboard/",
+      "content": "Explore the top forecasters on Metaculus and see how users rank by prediction accuracy and community participation. This is a live leaderboard; rankings may change on a daily basis..."
+    },
+    {
+      "title": "More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument",
+      "url": "https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus",
+      "content": "An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. This effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained."
+    },
+    {
+      "title": "Scores and medals: trade-offs and decisions (updated July 2024)",
+      "url": "https://www.metaculus.com/notebooks/20027/scores-and-medals-trade-offs-and-decisions/",
+      "content": "The provided content discusses Metaculus tournaments, scoring, and leaderboards, but does not contain information about the impact of new tournaments on Quarterly Cup participation."
+    },
+    {
+      "title": "What will be the total number of forecasters in the Q1 2025 Quarterly Cup?",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "content": "What will be the total number of forecasters in the Q1 2025 Quarterly Cup? Community Prediction: 563 forecasters (466 - 676). This question is closed for predictions..."
+    },
+    {
+      "title": "Retrospective: Metaculus Quarterly Cup",
+      "url": "https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html",
+      "content": "I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months and contains only short-fuse questions..."
+    },
+    {
+      "title": "Comparing Forecasting Track Records for AI Benchmarking and Beyond — EA Forum",
+      "url": "https://forum.effectivealtruism.org/posts/KaB73xdnknnH5jg7i/comparing-forecasting-track-records-for-ai-benchmarking-and",
+      "content": "We are running quarterly AI forecasting tournaments through mid-2025, each time using new questions including fresh topics, thereby avoiding the possibility of training a bot on a repeating set of questions."
+    },
+    {
+      "title": "Quarterly Cup Reflections - Jake Gloudemans",
+      "url": "https://blog.jakegloudemans.com/post/24-qc-reflections",
+      "content": "I’m now attempting to defend my crown in the 2nd Quarterly Cup which is already underway. Also, it’s not too late to join if you’re interested!"
+    },
+    {
+      "title": "Findings From the White Hat Cyber Forecasting Tournament | Lawfare",
+      "url": "https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament",
+      "content": "The provided content does not contain information about the impact of new Metaculus tournaments on Quarterly Cup participation."
+    },
+    {
+      "title": "https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/",
+      "url": "https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/",
+      "content": "---\ntitle: Quarterly Cup Tournament: Q1 2025\ndate: 2025-03-26\n---\nMetaculus\nM\nQuestions\nTournaments\nLeaderboards\nNews\nMore\ncreate\nLog in\na\n/\n文\nnotebook\nQuarterly Cup Tournament: Q1 2025\nby\nAnastasia\n•\nJul 3, 2023\n•\nEdited on Jan 10, 2025\n•\n2 min read\n26\nFollow\n60 comments\n🏆 Quarterly Cup 🏆\nTags:\nScotland\n,\nUS House of Representatives\n,\nKevin McCarthy (California politician)\n,\nStates General of the Netherlands\n,\nForth and Clyde Canal\n.\nComments\nLog in\n? comments\nrecent\nLoad more comments"
+    },
+    {
+      "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "content": "---\ntitle: What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\nsitename: Metaculus\ndate: 2025-02-01\n---\nQuestion\n\n# What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\n\nTotal Forecasters82\n\nCommunity Prediction\n\n563 forecasters\n\n(466 - 676)\n\n### Make a Prediction\n\nCDF\n\nThis question is closed for predictions, and is waiting to be resolved\n\n| Lower bound | community | My Prediction |\n| <200 | 1.2% | — |\n| Quartiles | ||\n| lower 25% | 466 | — |\n| median | 563 | — |\n| upper 75% | 675.6 | — |\n| Upper bound | ||\n| >1.2k | 1.1% | — |\n\nAuthors:\n\nOpened:Feb 1, 2025\n\nClosed:Mar 20, 2025\n\nScheduled resolution:Apr 6, 2025\n\nSpot Scoring Time:Feb 8, 2025\n\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Feb 1, 2025\n\nClosed:Mar 20, 2025\n\nScheduled resolution:Apr 6, 2025\n\nSpot Scoring Time:Feb 8, 2025\n\n[Learn more](/faq/#related-news)about Metaculus NewsMatch"
+    },
+    {
+      "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "content": "---\ntitle: The State of Metaculus\ndescription: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities — to sharpen thinking (yours and others'), to win prizes and job opportunities, and to contribute to public sense-making in turbulent times.\ndate: 2025-03-25\n---\nMetaculus\nM\nQuestions\nTournaments\nLeaderboards\nNews\nMore\ncreate\nLog in\na\n/\n文\nnotebook\nThe State of Metaculus\nby\nchristian\n•\nFeb 4, 2025\n•\nEdited on Feb 27, 2025\n•\n9 min read\n13\nFollow\n36 comments\nComments\nLog in\n? comments\nrecent\nLoad more comments"
+    },
+    {
+      "title": "https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus",
+      "url": "https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus",
+      "content": "---\ntitle: More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument\nauthor: Followtheargument\nurl: https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\nhostname: followtheargument.org\ndescription: A blog about interesting things, statistics and life. And also a bit more.\nsitename: Follow the Argument\ndate: 2023-02-21\ncategories: ['Forecasting', 'Statistics']\n---\n**TLDR**\n\n[Metaculus](http://www.metaculus.com)is a prediction platform that collects and aggregates predictions from users on a wide range of questions- An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. I believe this effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained.\n- That improvement of the Metaculus community prediction seems to be approximately logarithmic, meaning that doubling the number of forecasters seems to lead to a roughly constant (albeit probably diminishing) relative improvement in performance in terms of Brier Score: Going from 100 to 200 would give you a relative improvement in Brier score almost as large as when going from 10 to 20 (e.g. an improvement by x percent). Note though, that it is a bit unclear what “an improvement in Brier score by X” actually means in terms of forecast quality.\n- Increasing the number of forecasters on Metaculus seems to not only improve performance\n*on average*, but also seems to decrease the variability of predictions, making them more stable and reliable - This analysis complements\n[another existing one](https://forum.effectivealtruism.org/posts/xF8EWBouJRZpRgFgu/how-does-forecast-quantity-impact-forecast-quality-on-1)and comes to similar conclusions. Both analyses suffer from potential biases, but they are different ones.\n\nAll code used for this analysis can be found [here](https://github.com/nikosbosse/Metaculus-data-analyses).\n\n## Introduction\n\nOne of the central wisdoms in forecasting is that an ensemble of forecasts is more than the sum of its parts. Take a crowd of forecasters and average their predictions – the resulting ensemble will usually be more accurate than almost all of the individual forecasts.\n\nBut how does the performance of the ensemble change when you increase the number of forecasters? Are fifty forecasters ten times as good as five? Are five hundred even better? Charles Dillon [looked at this…\n\n[Truncated preview: showing 343 words out of ~3163. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "fact": "The current total number of forecasters for the Q1 2025 Quarterly Cup is 82."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "fact": "The community prediction for the total number of forecasters is 563, with a range from 466 to 676."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "fact": "The lower bound of the community prediction is 466 forecasters."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "fact": "The upper bound of the community prediction is 676 forecasters."
+    },
+    {
+      "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+      "fact": "The community assigns a 1.1% probability to the number of forecasters exceeding 1,200."
+    },
+    {
+      "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "fact": "Metaculus launched the ACX2025, Brazil Prediction Tournament, and Bridgewater Forecasting Contest in early 2025."
+    },
+    {
+      "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "fact": "A record number of 11,050 users signed up for Metaculus from January 27 to February 2, 2025."
+    },
+    {
+      "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "fact": "The weekly sign-up record in early 2025 was almost five times the previous record set in October 2024."
+    },
+    {
+      "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "fact": "The Metaculus site underwent a massive rewrite in early October 2024, which may have impacted user participation."
+    },
+    {
+      "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+      "fact": "The Metaculus of early 2025 is described as a different and better place, suggesting improvements that could attract more users."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.010000000000000002,
+  "weighted_brier_score": 0.005000000000000001,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "05be0331-902f-5ed5-acee-c870ce516a5f",
+        "queries": [
+          "Q1 2025 Metaculus Quarterly Cup participation statistics",
+          "Metaculus user engagement trends March 2025",
+          "Impact of new Metaculus tournaments on Quarterly Cup participation"
+        ]
+      },
+      "raw": "{\"question_id\": \"05be0331-902f-5ed5-acee-c870ce516a5f\", \"queries\": [\"Q1 2025 Metaculus Quarterly Cup participation statistics\", \"Metaculus user engagement trends March 2025\", \"Impact of new Metaculus tournaments on Quarterly Cup participation\"]}",
+      "tool_call_id": "call_rQv6wU505RIPbEWND7zTzOhO"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Q1 2025 Metaculus Quarterly Cup participation statistics",
+        "results": [
+          {
+            "title": "Quarterly Cup Tournament: Q1 2025",
+            "link": "https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/",
+            "position": 1,
+            "snippet": "Quarterly Cup Tournament: Q1 2025 by Anastasia • Jul 3, 2023 • Edited on Jan 10, 2025 • 2 min read 🏆 Quarterly Cup 🏆 Tags: Scotland, US House of Representatives...",
+            "date": null
+          },
+          {
+            "title": "What will be the total number of forecasters in the Q1 2025 Quarterly Cup?",
+            "link": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "position": 2,
+            "snippet": "Total Forecasters82 Community Prediction 563 forecasters (466 - 676) This question is closed for predictions, and is waiting to be resolved...",
+            "date": null
+          },
+          {
+            "title": "🏆 Quarterly Cup 🏆",
+            "link": "https://www.metaculus.com/tournament/quarterly-cup/",
+            "position": 4,
+            "snippet": "Welcome to the Quarterly Cup Tournament! Join us and make quick predictions on topical questions. Each week, a few new questions will be available to forecast on.",
+            "date": null
+          },
+          {
+            "title": "Retrospective: Metaculus Quarterly Cup",
+            "link": "https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html",
+            "position": 4,
+            "snippet": "I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months...",
+            "date": null
+          },
+          {
+            "title": "Findings From the White Hat Cyber Forecasting Tournament | Lawfare",
+            "link": "https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament",
+            "position": 5,
+            "snippet": "The White Hat Cyber Forecasting Tournament partnered with Metaculus, an online forecasting platform, to explore crowd-sourced predictions on cybersecurity topics. The tournament asked 43 questions and ended on June 1, 2023...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Q1 2025 Metaculus Quarterly Cup participation statistics\", \"results\": [{\"title\": \"Quarterly Cup Tournament: Q1 2025\", \"link\": \"https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/\", \"position\": 1, \"snippet\": \"Quarterly Cup Tournament: Q1 2025 by Anastasia \\u2022 Jul 3, 2023 \\u2022 Edited on Jan 10, 2025 \\u2022 2 min read \\ud83c\\udfc6 Quarterly Cup \\ud83c\\udfc6 Tags: Scotland, US House of Representatives...\", \"date\": null}, {\"title\": \"What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\", \"link\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"position\": 2, \"snippet\": \"Total Forecasters82 Community Prediction 563 forecasters (466 - 676) This question is closed for predictions, and is waiting to be resolved...\", \"date\": null}, {\"title\": \"\\ud83c\\udfc6 Quarterly Cup \\ud83c\\udfc6\", \"link\": \"https://www.metaculus.com/tournament/quarterly-cup/\", \"position\": 4, \"snippet\": \"Welcome to the Quarterly Cup Tournament! Join us and make quick predictions on topical questions. Each week, a few new questions will be available to forecast on.\", \"date\": null}, {\"title\": \"Retrospective: Metaculus Quarterly Cup\", \"link\": \"https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html\", \"position\": 4, \"snippet\": \"I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months...\", \"date\": null}, {\"title\": \"Findings From the White Hat Cyber Forecasting Tournament | Lawfare\", \"link\": \"https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament\", \"position\": 5, \"snippet\": \"The White Hat Cyber Forecasting Tournament partnered with Metaculus, an online forecasting platform, to explore crowd-sourced predictions on cybersecurity topics. The tournament asked 43 questions and ended on June 1, 2023...\", \"date\": null}]}",
+      "tool_call_id": "call_0yZ5RyfMZ2IjHsO2XBVkuR5n"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Metaculus user engagement trends March 2025",
+        "results": [
+          {
+            "title": "The State of Metaculus",
+            "link": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "position": 1,
+            "snippet": "The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities...",
+            "date": null
+          },
+          {
+            "title": "Metaculus",
+            "link": "https://www.metaculus.com/",
+            "position": 1,
+            "snippet": "The State of Metaculus: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago...",
+            "date": null
+          },
+          {
+            "title": "Forecasting Our World in Data: The Next 100 Years",
+            "link": "https://www.metaculus.com/notebooks/14965/forecasting-our-world-in-data-the-next-100-years/",
+            "position": 4,
+            "snippet": "The following report presents Metaculus community forecasts and analyses on key measures of human progress developed by Our World in Data for the Forecasting Our World in Data Tournament.",
+            "date": null
+          },
+          {
+            "title": "Leaderboards | Metaculus",
+            "link": "https://www.metaculus.com/leaderboard/",
+            "position": 1,
+            "snippet": "Explore the top forecasters on Metaculus and see how users rank by prediction accuracy and community participation. This is a live leaderboard; rankings may change on a daily basis...",
+            "date": null
+          },
+          {
+            "title": "More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument",
+            "link": "https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus",
+            "position": 5,
+            "snippet": "An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. This effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained.",
+            "date": "2023-02-21T08:43:28Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Metaculus user engagement trends March 2025\", \"results\": [{\"title\": \"The State of Metaculus\", \"link\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"position\": 1, \"snippet\": \"The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities...\", \"date\": null}, {\"title\": \"Metaculus\", \"link\": \"https://www.metaculus.com/\", \"position\": 1, \"snippet\": \"The State of Metaculus: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago...\", \"date\": null}, {\"title\": \"Forecasting Our World in Data: The Next 100 Years\", \"link\": \"https://www.metaculus.com/notebooks/14965/forecasting-our-world-in-data-the-next-100-years/\", \"position\": 4, \"snippet\": \"The following report presents Metaculus community forecasts and analyses on key measures of human progress developed by Our World in Data for the Forecasting Our World in Data Tournament.\", \"date\": null}, {\"title\": \"Leaderboards | Metaculus\", \"link\": \"https://www.metaculus.com/leaderboard/\", \"position\": 1, \"snippet\": \"Explore the top forecasters on Metaculus and see how users rank by prediction accuracy and community participation. This is a live leaderboard; rankings may change on a daily basis...\", \"date\": null}, {\"title\": \"More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument\", \"link\": \"https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\", \"position\": 5, \"snippet\": \"An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. This effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained.\", \"date\": \"2023-02-21T08:43:28Z\"}]}",
+      "tool_call_id": "call_10HejcolusMawdgB3t8BpKZc"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Impact of new Metaculus tournaments on Quarterly Cup participation",
+        "results": [
+          {
+            "title": "Scores and medals: trade-offs and decisions (updated July 2024)",
+            "link": "https://www.metaculus.com/notebooks/20027/scores-and-medals-trade-offs-and-decisions/",
+            "position": 1,
+            "snippet": "The provided content discusses Metaculus tournaments, scoring, and leaderboards, but does not contain information about the impact of new tournaments on Quarterly Cup participation.",
+            "date": null
+          },
+          {
+            "title": "What will be the total number of forecasters in the Q1 2025 Quarterly Cup?",
+            "link": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "position": 3,
+            "snippet": "What will be the total number of forecasters in the Q1 2025 Quarterly Cup? Community Prediction: 563 forecasters (466 - 676). This question is closed for predictions...",
+            "date": null
+          },
+          {
+            "title": "Retrospective: Metaculus Quarterly Cup",
+            "link": "https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html",
+            "position": 5,
+            "snippet": "I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months and contains only short-fuse questions...",
+            "date": null
+          },
+          {
+            "title": "Comparing Forecasting Track Records for AI Benchmarking and Beyond — EA Forum",
+            "link": "https://forum.effectivealtruism.org/posts/KaB73xdnknnH5jg7i/comparing-forecasting-track-records-for-ai-benchmarking-and",
+            "position": 1,
+            "snippet": "We are running quarterly AI forecasting tournaments through mid-2025, each time using new questions including fresh topics, thereby avoiding the possibility of training a bot on a repeating set of questions.",
+            "date": null
+          },
+          {
+            "title": "Quarterly Cup Reflections - Jake Gloudemans",
+            "link": "https://blog.jakegloudemans.com/post/24-qc-reflections",
+            "position": 3,
+            "snippet": "I’m now attempting to defend my crown in the 2nd Quarterly Cup which is already underway. Also, it’s not too late to join if you’re interested!",
+            "date": null
+          },
+          {
+            "title": "Findings From the White Hat Cyber Forecasting Tournament | Lawfare",
+            "link": "https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament",
+            "position": 4,
+            "snippet": "The provided content does not contain information about the impact of new Metaculus tournaments on Quarterly Cup participation.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Impact of new Metaculus tournaments on Quarterly Cup participation\", \"results\": [{\"title\": \"Scores and medals: trade-offs and decisions (updated July 2024)\", \"link\": \"https://www.metaculus.com/notebooks/20027/scores-and-medals-trade-offs-and-decisions/\", \"position\": 1, \"snippet\": \"The provided content discusses Metaculus tournaments, scoring, and leaderboards, but does not contain information about the impact of new tournaments on Quarterly Cup participation.\", \"date\": null}, {\"title\": \"What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\", \"link\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"position\": 3, \"snippet\": \"What will be the total number of forecasters in the Q1 2025 Quarterly Cup? Community Prediction: 563 forecasters (466 - 676). This question is closed for predictions...\", \"date\": null}, {\"title\": \"Retrospective: Metaculus Quarterly Cup\", \"link\": \"https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html\", \"position\": 5, \"snippet\": \"I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months and contains only short-fuse questions...\", \"date\": null}, {\"title\": \"Comparing Forecasting Track Records for AI Benchmarking and Beyond \\u2014 EA Forum\", \"link\": \"https://forum.effectivealtruism.org/posts/KaB73xdnknnH5jg7i/comparing-forecasting-track-records-for-ai-benchmarking-and\", \"position\": 1, \"snippet\": \"We are running quarterly AI forecasting tournaments through mid-2025, each time using new questions including fresh topics, thereby avoiding the possibility of training a bot on a repeating set of questions.\", \"date\": null}, {\"title\": \"Quarterly Cup Reflections - Jake Gloudemans\", \"link\": \"https://blog.jakegloudemans.com/post/24-qc-reflections\", \"position\": 3, \"snippet\": \"I\\u2019m now attempting to defend my crown in the 2nd Quarterly Cup which is already underway. Also, it\\u2019s not too late to join if you\\u2019re interested!\", \"date\": null}, {\"title\": \"Findings From the White Hat Cyber Forecasting Tournament | Lawfare\", \"link\": \"https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament\", \"position\": 4, \"snippet\": \"The provided content does not contain information about the impact of new Metaculus tournaments on Quarterly Cup participation.\", \"date\": null}]}",
+      "tool_call_id": "call_drTckoTcsRILLsoJiRo9IYKm"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/",
+        "snippet": "---\ntitle: Quarterly Cup Tournament: Q1 2025\ndate: 2025-03-26\n---\nMetaculus\nM\nQuestions\nTournaments\nLeaderboards\nNews\nMore\ncreate\nLog in\na\n/\n文\nnotebook\nQuarterly Cup Tournament: Q1 2025\nby\nAnastasia\n•\nJul 3, 2023\n•\nEdited on Jan 10, 2025\n•\n2 min read\n26\nFollow\n60 comments\n🏆 Quarterly Cup 🏆\nTags:\nScotland\n,\nUS House of Representatives\n,\nKevin McCarthy (California politician)\n,\nStates General of the Netherlands\n,\nForth and Clyde Canal\n.\nComments\nLog in\n? comments\nrecent\nLoad more comments",
+        "word_count": 86,
+        "snippet_word_count": 86,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-26T03:21:50.074755",
+        "date_cutoff_end": "2025-03-27T03:21:50.074755",
+        "cached_at": "2025-10-23T21:07:35.057550"
+      },
+      "raw": "{\"url\": \"https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/\", \"snippet\": \"---\\ntitle: Quarterly Cup Tournament: Q1 2025\\ndate: 2025-03-26\\n---\\nMetaculus\\nM\\nQuestions\\nTournaments\\nLeaderboards\\nNews\\nMore\\ncreate\\nLog in\\na\\n/\\n\\u6587\\nnotebook\\nQuarterly Cup Tournament: Q1 2025\\nby\\nAnastasia\\n\\u2022\\nJul 3, 2023\\n\\u2022\\nEdited on Jan 10, 2025\\n\\u2022\\n2 min read\\n26\\nFollow\\n60 comments\\n\\ud83c\\udfc6 Quarterly Cup \\ud83c\\udfc6\\nTags:\\nScotland\\n,\\nUS House of Representatives\\n,\\nKevin McCarthy (California politician)\\n,\\nStates General of the Netherlands\\n,\\nForth and Clyde Canal\\n.\\nComments\\nLog in\\n? comments\\nrecent\\nLoad more comments\", \"word_count\": 86, \"snippet_word_count\": 86, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:35.057550\"}",
+      "tool_call_id": "call_UPXBTCdDR0x2tIF2RfR7aqW8"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+        "snippet": "---\ntitle: What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\nsitename: Metaculus\ndate: 2025-02-01\n---\nQuestion\n\n# What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\n\nTotal Forecasters82\n\nCommunity Prediction\n\n563 forecasters\n\n(466 - 676)\n\n### Make a Prediction\n\nCDF\n\nThis question is closed for predictions, and is waiting to be resolved\n\n| Lower bound | community | My Prediction |\n| <200 | 1.2% | — |\n| Quartiles | ||\n| lower 25% | 466 | — |\n| median | 563 | — |\n| upper 75% | 675.6 | — |\n| Upper bound | ||\n| >1.2k | 1.1% | — |\n\nAuthors:\n\nOpened:Feb 1, 2025\n\nClosed:Mar 20, 2025\n\nScheduled resolution:Apr 6, 2025\n\nSpot Scoring Time:Feb 8, 2025\n\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\n\n## Comments\n\n? comments\n\nAuthors:\n\nOpened:Feb 1, 2025\n\nClosed:Mar 20, 2025\n\nScheduled resolution:Apr 6, 2025\n\nSpot Scoring Time:Feb 8, 2025\n\n[Learn more](/faq/#related-news)about Metaculus NewsMatch",
+        "word_count": 162,
+        "snippet_word_count": 162,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-26T03:21:50.074755",
+        "date_cutoff_end": "2025-03-27T03:21:50.074755",
+        "cached_at": "2025-10-23T21:07:35.611467"
+      },
+      "raw": "{\"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"snippet\": \"---\\ntitle: What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\\nsitename: Metaculus\\ndate: 2025-02-01\\n---\\nQuestion\\n\\n# What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\\n\\nTotal Forecasters82\\n\\nCommunity Prediction\\n\\n563 forecasters\\n\\n(466 - 676)\\n\\n### Make a Prediction\\n\\nCDF\\n\\nThis question is closed for predictions, and is waiting to be resolved\\n\\n| Lower bound | community | My Prediction |\\n| <200 | 1.2% | \\u2014 |\\n| Quartiles | ||\\n| lower 25% | 466 | \\u2014 |\\n| median | 563 | \\u2014 |\\n| upper 75% | 675.6 | \\u2014 |\\n| Upper bound | ||\\n| >1.2k | 1.1% | \\u2014 |\\n\\nAuthors:\\n\\nOpened:Feb 1, 2025\\n\\nClosed:Mar 20, 2025\\n\\nScheduled resolution:Apr 6, 2025\\n\\nSpot Scoring Time:Feb 8, 2025\\n\\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Feb 1, 2025\\n\\nClosed:Mar 20, 2025\\n\\nScheduled resolution:Apr 6, 2025\\n\\nSpot Scoring Time:Feb 8, 2025\\n\\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\", \"word_count\": 162, \"snippet_word_count\": 162, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:35.611467\"}",
+      "tool_call_id": "call_n93yUew00HTQCICoMX6mpFf4"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+        "snippet": "---\ntitle: The State of Metaculus\ndescription: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities — to sharpen thinking (yours and others'), to win prizes and job opportunities, and to contribute to public sense-making in turbulent times.\ndate: 2025-03-25\n---\nMetaculus\nM\nQuestions\nTournaments\nLeaderboards\nNews\nMore\ncreate\nLog in\na\n/\n文\nnotebook\nThe State of Metaculus\nby\nchristian\n•\nFeb 4, 2025\n•\nEdited on Feb 27, 2025\n•\n9 min read\n13\nFollow\n36 comments\nComments\nLog in\n? comments\nrecent\nLoad more comments",
+        "word_count": 116,
+        "snippet_word_count": 116,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-26T03:21:50.074755",
+        "date_cutoff_end": "2025-03-27T03:21:50.074755",
+        "cached_at": "2025-10-23T21:07:36.133545"
+      },
+      "raw": "{\"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"snippet\": \"---\\ntitle: The State of Metaculus\\ndescription: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities \\u2014 to sharpen thinking (yours and others'), to win prizes and job opportunities, and to contribute to public sense-making in turbulent times.\\ndate: 2025-03-25\\n---\\nMetaculus\\nM\\nQuestions\\nTournaments\\nLeaderboards\\nNews\\nMore\\ncreate\\nLog in\\na\\n/\\n\\u6587\\nnotebook\\nThe State of Metaculus\\nby\\nchristian\\n\\u2022\\nFeb 4, 2025\\n\\u2022\\nEdited on Feb 27, 2025\\n\\u2022\\n9 min read\\n13\\nFollow\\n36 comments\\nComments\\nLog in\\n? comments\\nrecent\\nLoad more comments\", \"word_count\": 116, \"snippet_word_count\": 116, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:36.133545\"}",
+      "tool_call_id": "call_3WGng7cykfbKY2cJz9tYD9jL"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus",
+        "snippet": "---\ntitle: More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument\nauthor: Followtheargument\nurl: https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\nhostname: followtheargument.org\ndescription: A blog about interesting things, statistics and life. And also a bit more.\nsitename: Follow the Argument\ndate: 2023-02-21\ncategories: ['Forecasting', 'Statistics']\n---\n**TLDR**\n\n[Metaculus](http://www.metaculus.com)is a prediction platform that collects and aggregates predictions from users on a wide range of questions- An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. I believe this effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained.\n- That improvement of the Metaculus community prediction seems to be approximately logarithmic, meaning that doubling the number of forecasters seems to lead to a roughly constant (albeit probably diminishing) relative improvement in performance in terms of Brier Score: Going from 100 to 200 would give you a relative improvement in Brier score almost as large as when going from 10 to 20 (e.g. an improvement by x percent). Note though, that it is a bit unclear what “an improvement in Brier score by X” actually means in terms of forecast quality.\n- Increasing the number of forecasters on Metaculus seems to not only improve performance\n*on average*, but also seems to decrease the variability of predictions, making them more stable and reliable - This analysis complements\n[another existing one](https://forum.effectivealtruism.org/posts/xF8EWBouJRZpRgFgu/how-does-forecast-quantity-impact-forecast-quality-on-1)and comes to similar conclusions. Both analyses suffer from potential biases, but they are different ones.\n\nAll code used for this analysis can be found [here](https://github.com/nikosbosse/Metaculus-data-analyses).\n\n## Introduction\n\nOne of the central wisdoms in forecasting is that an ensemble of forecasts is more than the sum of its parts. Take a crowd of forecasters and average their predictions – the resulting ensemble will usually be more accurate than almost all of the individual forecasts.\n\nBut how does the performance of the ensemble change when you increase the number of forecasters? Are fifty forecasters ten times as good as five? Are five hundred even better? Charles Dillon [looked at this…\n\n[Truncated preview: showing 343 words out of ~3163. Full content available via `btf_extract_evidence`.]",
+        "word_count": 3163,
+        "snippet_word_count": 343,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T03:21:50.074755",
+        "date_cutoff_end": "2025-03-27T03:21:50.074755",
+        "cached_at": "2025-10-23T21:07:36.816445"
+      },
+      "raw": "{\"url\": \"https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\", \"snippet\": \"---\\ntitle: More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument\\nauthor: Followtheargument\\nurl: https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\\nhostname: followtheargument.org\\ndescription: A blog about interesting things, statistics and life. And also a bit more.\\nsitename: Follow the Argument\\ndate: 2023-02-21\\ncategories: ['Forecasting', 'Statistics']\\n---\\n**TLDR**\\n\\n[Metaculus](http://www.metaculus.com)is a prediction platform that collects and aggregates predictions from users on a wide range of questions- An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. I believe this effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained.\\n- That improvement of the Metaculus community prediction seems to be approximately logarithmic, meaning that doubling the number of forecasters seems to lead to a roughly constant (albeit probably diminishing) relative improvement in performance in terms of Brier Score: Going from 100 to 200 would give you a relative improvement in Brier score almost as large as when going from 10 to 20 (e.g. an improvement by x percent). Note though, that it is a bit unclear what \\u201can improvement in Brier score by X\\u201d actually means in terms of forecast quality.\\n- Increasing the number of forecasters on Metaculus seems to not only improve performance\\n*on average*, but also seems to decrease the variability of predictions, making them more stable and reliable - This analysis complements\\n[another existing one](https://forum.effectivealtruism.org/posts/xF8EWBouJRZpRgFgu/how-does-forecast-quantity-impact-forecast-quality-on-1)and comes to similar conclusions. Both analyses suffer from potential biases, but they are different ones.\\n\\nAll code used for this analysis can be found [here](https://github.com/nikosbosse/Metaculus-data-analyses).\\n\\n## Introduction\\n\\nOne of the central wisdoms in forecasting is that an ensemble of forecasts is more than the sum of its parts. Take a crowd of forecasters and average their predictions \\u2013 the resulting ensemble will usually be more accurate than almost all of the individual forecasts.\\n\\nBut how does the performance of the ensemble change when you increase the number of forecasters? Are fifty forecasters ten times as good as five? Are five hundred even better? Charles Dillon [looked at this\\u2026\\n\\n[Truncated preview: showing 343 words out of ~3163. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3163, \"snippet_word_count\": 343, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:36.816445\"}",
+      "tool_call_id": "call_w8wszFFQmNuQHiZJZI3VFJ6R"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "05be0331-902f-5ed5-acee-c870ce516a5f",
+        "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+        "facts": [
+          {
+            "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "fact": "The current total number of forecasters for the Q1 2025 Quarterly Cup is 82."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "fact": "The community prediction for the total number of forecasters is 563, with a range from 466 to 676."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "fact": "The lower bound of the community prediction is 466 forecasters."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "fact": "The upper bound of the community prediction is 676 forecasters."
+          },
+          {
+            "title": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "url": "https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/",
+            "fact": "The community assigns a 1.1% probability to the number of forecasters exceeding 1,200."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"05be0331-902f-5ed5-acee-c870ce516a5f\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The current total number of forecasters for the Q1 2025 Quarterly Cup is 82.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The community prediction for the total number of forecasters is 563, with a range from 466 to 676.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The lower bound of the community prediction is 466 forecasters.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The upper bound of the community prediction is 676 forecasters.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The community assigns a 1.1% probability to the number of forecasters exceeding 1,200.\"}]}",
+      "tool_call_id": "call_7sE5g7cgQCbGtkkWSkPtO3vE"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "05be0331-902f-5ed5-acee-c870ce516a5f",
+        "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+        "facts": [
+          {
+            "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "fact": "Metaculus launched the ACX2025, Brazil Prediction Tournament, and Bridgewater Forecasting Contest in early 2025."
+          },
+          {
+            "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "fact": "A record number of 11,050 users signed up for Metaculus from January 27 to February 2, 2025."
+          },
+          {
+            "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "fact": "The weekly sign-up record in early 2025 was almost five times the previous record set in October 2024."
+          },
+          {
+            "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "fact": "The Metaculus site underwent a massive rewrite in early October 2024, which may have impacted user participation."
+          },
+          {
+            "title": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "url": "https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/",
+            "fact": "The Metaculus of early 2025 is described as a different and better place, suggesting improvements that could attract more users."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"05be0331-902f-5ed5-acee-c870ce516a5f\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"facts\": [{\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"Metaculus launched the ACX2025, Brazil Prediction Tournament, and Bridgewater Forecasting Contest in early 2025.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"A record number of 11,050 users signed up for Metaculus from January 27 to February 2, 2025.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"The weekly sign-up record in early 2025 was almost five times the previous record set in October 2024.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"The Metaculus site underwent a massive rewrite in early October 2024, which may have impacted user participation.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"The Metaculus of early 2025 is described as a different and better place, suggesting improvements that could attract more users.\"}]}",
+      "tool_call_id": "call_sELR20Gu7ClgWj0NGjZQQpZ3"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the total number of forecasters in the Q1 2025 Quarterly Cup be greater than 800 forecasters?\nBackground: Each quarter, Metaculus runs a short tournament called [the Quarterly Cup](https://www.metaculus.com/tournament/32630/), which consists of 40-50 questions on various topics. Quarterly Cups have been some of the most popular tournaments on the site with hundreds of users forecasting on at least one tournament question in each quarter. In the last quarter of 2024 participation dropped sharply, potentially as a result of users having to navigate the [massive site rewrite](https://www.metaculus.com/notebooks/28734/) that was published in early October.\n\nIn early 2025, Metaculus launched the [ACX2025](https://www.metaculus.com/tournament/ACX2025/), the [Brazil Prediction Tournament](https://www.metaculus.com/tournament/Brasil/), and the 2025 [Bridgewater Forecasting Contest](https://www.metaculus.com/tournament/32567/), leading to a record number of users signing up for the site (11,050 from January 27 to February 2, 2025, almost five times the previous weekly record of 2,348 in October 2024!). It is unclear, though, what percentage of these users might forecast on questions outside of these prized tournaments.\n\nThe total number of forecasters for past Quarterly Cups can be found below.\n\n| Quarter | Total forecasters |\n| ------- | ----------------- |\n| Q3 2023 | 842               |\n| Q4 2023 | 838               |\n| Q1 2024 | 709               |\n| Q2 2024 | 1002              |\n| Q3 2024 | 760               |\n| Q4 2024 | 379               |\nResolution criteria: This question will resolve as YES if the total number of forecasters that have submitted at least one forecast in any Q1 2025 Quarterly Cup question that has properly resolved (besides this one) is greater than 800 forecasters. The number will be found on the bottom of the relevant leaderboard after all questions besides this one have been resolved.\nFine print: * \"Properly resolved\" means that the question does not have an **Annulled** or **Ambiguous** resolution.\n* The total number of forecasters excludes Metaculus admins, but not Metaculus moderators.\npresent_date: 2025-03-26T03:21:50.074755\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_rQv6wU505RIPbEWND7zTzOhO",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question_id\":\"\",\"question\":\"Will the total number of forecasters in the Q1 2025 Quarterly Cup be greater than 800 forecasters?\",\"background\":\"Each quarter, Metaculus runs a short tournament called [the Quarterly Cup](https://www.metaculus.com/tournament/32630/), which consists of 40-50 questions on various topics. Quarterly Cups have been some of the most popular tournaments on the site with hundreds of users forecasting on at least one tournament question in each quarter. In the last quarter of 2024 participation dropped sharply, potentially as a result of users having to navigate the [massive site rewrite](https://www.metaculus.com/notebooks/28734/) that was published in early October.\\n\\nIn early 2025, Metaculus launched the [ACX2025](https://www.metaculus.com/tournament/ACX2025/), the [Brazil Prediction Tournament](https://www.metaculus.com/tournament/Brasil/), and the 2025 [Bridgewater Forecasting Contest](https://www.metaculus.com/tournament/32567/), leading to a record number of users signing up for the site (11,050 from January 27 to February 2, 2025, almost five times the previous weekly record of 2,348 in October 2024!). It is unclear, though, what percentage of these users might forecast on questions outside of these prized tournaments.\\n\\nThe total number of forecasters for past Quarterly Cups can be found below.\\n\\n| Quarter | Total forecasters |\\n| ------- | ----------------- |\\n| Q3 2023 | 842               |\\n| Q4 2023 | 838               |\\n| Q1 2024 | 709               |\\n| Q2 2024 | 1002              |\\n| Q3 2024 | 760               |\\n| Q4 2024 | 379               |\",\"resolution_criteria\":\"This question will resolve as YES if the total number of forecasters that have submitted at least one forecast in any Q1 2025 Quarterly Cup question that has properly resolved (besides this one) is greater than 800 forecasters. The number will be found on the bottom of the relevant leaderboard after all questions besides this one have been resolved.\",\"fine_print\":\"* \\\"Properly resolved\\\" means that the question does not have an **Annulled** or **Ambiguous** resolution.\\n* The total number of forecasters excludes Metaculus admins, but not Metaculus moderators.\",\"present_date\":\"2025-03-26T03:21:50.074755\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"05be0331-902f-5ed5-acee-c870ce516a5f\", \"queries\": [\"Q1 2025 Metaculus Quarterly Cup participation statistics\", \"Metaculus user engagement trends March 2025\", \"Impact of new Metaculus tournaments on Quarterly Cup participation\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_rQv6wU505RIPbEWND7zTzOhO"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_0yZ5RyfMZ2IjHsO2XBVkuR5n",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Q1 2025 Metaculus Quarterly Cup participation statistics\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_10HejcolusMawdgB3t8BpKZc",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Metaculus user engagement trends March 2025\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_drTckoTcsRILLsoJiRo9IYKm",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Impact of new Metaculus tournaments on Quarterly Cup participation\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Q1 2025 Metaculus Quarterly Cup participation statistics\", \"results\": [{\"title\": \"Quarterly Cup Tournament: Q1 2025\", \"link\": \"https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/\", \"position\": 1, \"snippet\": \"Quarterly Cup Tournament: Q1 2025 by Anastasia \\u2022 Jul 3, 2023 \\u2022 Edited on Jan 10, 2025 \\u2022 2 min read \\ud83c\\udfc6 Quarterly Cup \\ud83c\\udfc6 Tags: Scotland, US House of Representatives...\", \"date\": null}, {\"title\": \"What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\", \"link\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"position\": 2, \"snippet\": \"Total Forecasters82 Community Prediction 563 forecasters (466 - 676) This question is closed for predictions, and is waiting to be resolved...\", \"date\": null}, {\"title\": \"\\ud83c\\udfc6 Quarterly Cup \\ud83c\\udfc6\", \"link\": \"https://www.metaculus.com/tournament/quarterly-cup/\", \"position\": 4, \"snippet\": \"Welcome to the Quarterly Cup Tournament! Join us and make quick predictions on topical questions. Each week, a few new questions will be available to forecast on.\", \"date\": null}, {\"title\": \"Retrospective: Metaculus Quarterly Cup\", \"link\": \"https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html\", \"position\": 4, \"snippet\": \"I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months...\", \"date\": null}, {\"title\": \"Findings From the White Hat Cyber Forecasting Tournament | Lawfare\", \"link\": \"https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament\", \"position\": 5, \"snippet\": \"The White Hat Cyber Forecasting Tournament partnered with Metaculus, an online forecasting platform, to explore crowd-sourced predictions on cybersecurity topics. The tournament asked 43 questions and ended on June 1, 2023...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_0yZ5RyfMZ2IjHsO2XBVkuR5n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Metaculus user engagement trends March 2025\", \"results\": [{\"title\": \"The State of Metaculus\", \"link\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"position\": 1, \"snippet\": \"The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities...\", \"date\": null}, {\"title\": \"Metaculus\", \"link\": \"https://www.metaculus.com/\", \"position\": 1, \"snippet\": \"The State of Metaculus: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago...\", \"date\": null}, {\"title\": \"Forecasting Our World in Data: The Next 100 Years\", \"link\": \"https://www.metaculus.com/notebooks/14965/forecasting-our-world-in-data-the-next-100-years/\", \"position\": 4, \"snippet\": \"The following report presents Metaculus community forecasts and analyses on key measures of human progress developed by Our World in Data for the Forecasting Our World in Data Tournament.\", \"date\": null}, {\"title\": \"Leaderboards | Metaculus\", \"link\": \"https://www.metaculus.com/leaderboard/\", \"position\": 1, \"snippet\": \"Explore the top forecasters on Metaculus and see how users rank by prediction accuracy and community participation. This is a live leaderboard; rankings may change on a daily basis...\", \"date\": null}, {\"title\": \"More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument\", \"link\": \"https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\", \"position\": 5, \"snippet\": \"An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. This effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained.\", \"date\": \"2023-02-21T08:43:28Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_10HejcolusMawdgB3t8BpKZc"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Impact of new Metaculus tournaments on Quarterly Cup participation\", \"results\": [{\"title\": \"Scores and medals: trade-offs and decisions (updated July 2024)\", \"link\": \"https://www.metaculus.com/notebooks/20027/scores-and-medals-trade-offs-and-decisions/\", \"position\": 1, \"snippet\": \"The provided content discusses Metaculus tournaments, scoring, and leaderboards, but does not contain information about the impact of new tournaments on Quarterly Cup participation.\", \"date\": null}, {\"title\": \"What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\", \"link\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"position\": 3, \"snippet\": \"What will be the total number of forecasters in the Q1 2025 Quarterly Cup? Community Prediction: 563 forecasters (466 - 676). This question is closed for predictions...\", \"date\": null}, {\"title\": \"Retrospective: Metaculus Quarterly Cup\", \"link\": \"https://entropicthoughts.com/retrospective-metaculus-quarterly-cup.html\", \"position\": 5, \"snippet\": \"I have participated in the Metaculus Quarterly Cup these past three months. This is a tournament that runs over just three months and contains only short-fuse questions...\", \"date\": null}, {\"title\": \"Comparing Forecasting Track Records for AI Benchmarking and Beyond \\u2014 EA Forum\", \"link\": \"https://forum.effectivealtruism.org/posts/KaB73xdnknnH5jg7i/comparing-forecasting-track-records-for-ai-benchmarking-and\", \"position\": 1, \"snippet\": \"We are running quarterly AI forecasting tournaments through mid-2025, each time using new questions including fresh topics, thereby avoiding the possibility of training a bot on a repeating set of questions.\", \"date\": null}, {\"title\": \"Quarterly Cup Reflections - Jake Gloudemans\", \"link\": \"https://blog.jakegloudemans.com/post/24-qc-reflections\", \"position\": 3, \"snippet\": \"I\\u2019m now attempting to defend my crown in the 2nd Quarterly Cup which is already underway. Also, it\\u2019s not too late to join if you\\u2019re interested!\", \"date\": null}, {\"title\": \"Findings From the White Hat Cyber Forecasting Tournament | Lawfare\", \"link\": \"https://www.lawfaremedia.org/article/findings-from-the-white-hat-cyber-forecasting-tournament\", \"position\": 4, \"snippet\": \"The provided content does not contain information about the impact of new Metaculus tournaments on Quarterly Cup participation.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_drTckoTcsRILLsoJiRo9IYKm"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_UPXBTCdDR0x2tIF2RfR7aqW8",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/\"}"
+          }
+        },
+        {
+          "id": "call_n93yUew00HTQCICoMX6mpFf4",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\"}"
+          }
+        },
+        {
+          "id": "call_3WGng7cykfbKY2cJz9tYD9jL",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\"}"
+          }
+        },
+        {
+          "id": "call_w8wszFFQmNuQHiZJZI3VFJ6R",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.metaculus.com/notebooks/17700/quarterly-cup-tournament-q1-2025/\", \"snippet\": \"---\\ntitle: Quarterly Cup Tournament: Q1 2025\\ndate: 2025-03-26\\n---\\nMetaculus\\nM\\nQuestions\\nTournaments\\nLeaderboards\\nNews\\nMore\\ncreate\\nLog in\\na\\n/\\n\\u6587\\nnotebook\\nQuarterly Cup Tournament: Q1 2025\\nby\\nAnastasia\\n\\u2022\\nJul 3, 2023\\n\\u2022\\nEdited on Jan 10, 2025\\n\\u2022\\n2 min read\\n26\\nFollow\\n60 comments\\n\\ud83c\\udfc6 Quarterly Cup \\ud83c\\udfc6\\nTags:\\nScotland\\n,\\nUS House of Representatives\\n,\\nKevin McCarthy (California politician)\\n,\\nStates General of the Netherlands\\n,\\nForth and Clyde Canal\\n.\\nComments\\nLog in\\n? comments\\nrecent\\nLoad more comments\", \"word_count\": 86, \"snippet_word_count\": 86, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:35.057550\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_UPXBTCdDR0x2tIF2RfR7aqW8"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"snippet\": \"---\\ntitle: What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\\nsitename: Metaculus\\ndate: 2025-02-01\\n---\\nQuestion\\n\\n# What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\\n\\nTotal Forecasters82\\n\\nCommunity Prediction\\n\\n563 forecasters\\n\\n(466 - 676)\\n\\n### Make a Prediction\\n\\nCDF\\n\\nThis question is closed for predictions, and is waiting to be resolved\\n\\n| Lower bound | community | My Prediction |\\n| <200 | 1.2% | \\u2014 |\\n| Quartiles | ||\\n| lower 25% | 466 | \\u2014 |\\n| median | 563 | \\u2014 |\\n| upper 75% | 675.6 | \\u2014 |\\n| Upper bound | ||\\n| >1.2k | 1.1% | \\u2014 |\\n\\nAuthors:\\n\\nOpened:Feb 1, 2025\\n\\nClosed:Mar 20, 2025\\n\\nScheduled resolution:Apr 6, 2025\\n\\nSpot Scoring Time:Feb 8, 2025\\n\\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Feb 1, 2025\\n\\nClosed:Mar 20, 2025\\n\\nScheduled resolution:Apr 6, 2025\\n\\nSpot Scoring Time:Feb 8, 2025\\n\\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\", \"word_count\": 162, \"snippet_word_count\": 162, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:35.611467\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_n93yUew00HTQCICoMX6mpFf4"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"snippet\": \"---\\ntitle: The State of Metaculus\\ndescription: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities \\u2014 to sharpen thinking (yours and others'), to win prizes and job opportunities, and to contribute to public sense-making in turbulent times.\\ndate: 2025-03-25\\n---\\nMetaculus\\nM\\nQuestions\\nTournaments\\nLeaderboards\\nNews\\nMore\\ncreate\\nLog in\\na\\n/\\n\\u6587\\nnotebook\\nThe State of Metaculus\\nby\\nchristian\\n\\u2022\\nFeb 4, 2025\\n\\u2022\\nEdited on Feb 27, 2025\\n\\u2022\\n9 min read\\n13\\nFollow\\n36 comments\\nComments\\nLog in\\n? comments\\nrecent\\nLoad more comments\", \"word_count\": 116, \"snippet_word_count\": 116, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:36.133545\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_3WGng7cykfbKY2cJz9tYD9jL"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\", \"snippet\": \"---\\ntitle: More Is Probably More - Forecasting Accuracy and Number of Forecasters on Metaculus - Follow the Argument\\nauthor: Followtheargument\\nurl: https://followtheargument.org/more-is-probably-more-forecasting-accuracy-and-number-of-forecasters-on-metaculus\\nhostname: followtheargument.org\\ndescription: A blog about interesting things, statistics and life. And also a bit more.\\nsitename: Follow the Argument\\ndate: 2023-02-21\\ncategories: ['Forecasting', 'Statistics']\\n---\\n**TLDR**\\n\\n[Metaculus](http://www.metaculus.com)is a prediction platform that collects and aggregates predictions from users on a wide range of questions- An increase in the number of forecasters seems to lead to an improvement of the Metaculus community prediction. I believe this effect is real, but due to confounding effects, the analysis presented here might overestimate the improvement gained.\\n- That improvement of the Metaculus community prediction seems to be approximately logarithmic, meaning that doubling the number of forecasters seems to lead to a roughly constant (albeit probably diminishing) relative improvement in performance in terms of Brier Score: Going from 100 to 200 would give you a relative improvement in Brier score almost as large as when going from 10 to 20 (e.g. an improvement by x percent). Note though, that it is a bit unclear what \\u201can improvement in Brier score by X\\u201d actually means in terms of forecast quality.\\n- Increasing the number of forecasters on Metaculus seems to not only improve performance\\n*on average*, but also seems to decrease the variability of predictions, making them more stable and reliable - This analysis complements\\n[another existing one](https://forum.effectivealtruism.org/posts/xF8EWBouJRZpRgFgu/how-does-forecast-quantity-impact-forecast-quality-on-1)and comes to similar conclusions. Both analyses suffer from potential biases, but they are different ones.\\n\\nAll code used for this analysis can be found [here](https://github.com/nikosbosse/Metaculus-data-analyses).\\n\\n## Introduction\\n\\nOne of the central wisdoms in forecasting is that an ensemble of forecasts is more than the sum of its parts. Take a crowd of forecasters and average their predictions \\u2013 the resulting ensemble will usually be more accurate than almost all of the individual forecasts.\\n\\nBut how does the performance of the ensemble change when you increase the number of forecasters? Are fifty forecasters ten times as good as five? Are five hundred even better? Charles Dillon [looked at this\\u2026\\n\\n[Truncated preview: showing 343 words out of ~3163. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3163, \"snippet_word_count\": 343, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T03:21:50.074755\", \"date_cutoff_end\": \"2025-03-27T03:21:50.074755\", \"cached_at\": \"2025-10-23T21:07:36.816445\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_w8wszFFQmNuQHiZJZI3VFJ6R"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_7sE5g7cgQCbGtkkWSkPtO3vE",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"content\": \"---\\ntitle: What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\\nsitename: Metaculus\\ndate: 2025-02-01\\n---\\nQuestion\\n\\n# What will be the total number of forecasters in the Q1 2025 Quarterly Cup?\\n\\nTotal Forecasters82\\n\\nCommunity Prediction\\n\\n563 forecasters\\n\\n(466 - 676)\\n\\n### Make a Prediction\\n\\nCDF\\n\\nThis question is closed for predictions, and is waiting to be resolved\\n\\n| Lower bound | community | My Prediction |\\n| <200 | 1.2% | \\u0000 |\\n| Quartiles | ||\\n| lower 25% | 466 | \\u0000 |\\n| median | 563 | \\u0000 |\\n| upper 75% | 675.6 | \\u0000 |\\n| Upper bound | ||\\n| >1.2k | 1.1% | \\u0000 |\\n\\nAuthors:\\n\\nOpened:Feb 1, 2025\\n\\nClosed:Mar 20, 2025\\n\\nScheduled resolution:Apr 6, 2025\\n\\nSpot Scoring Time:Feb 8, 2025\\n\\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\\n\\n## Comments\\n\\n? comments\\n\\nAuthors:\\n\\nOpened:Feb 1, 2025\\n\\nClosed:Mar 20, 2025\\n\\nScheduled resolution:Apr 6, 2025\\n\\nSpot Scoring Time:Feb 8, 2025\\n\\n[Learn more](/faq/#related-news)about Metaculus NewsMatch\", \"question\": \"Will the total number of forecasters in the Q1 2025 Quarterly Cup be greater than 800 forecasters?\", \"background\": \"Each quarter, Metaculus runs a short tournament called [the Quarterly Cup](https://www.metaculus.com/tournament/32630/), which consists of 40-50 questions on various topics. Quarterly Cups have been some of the most popular tournaments on the site with hundreds of users forecasting on at least one tournament question in each quarter. In the last quarter of 2024 participation dropped sharply, potentially as a result of users having to navigate the [massive site rewrite](https://www.metaculus.com/notebooks/28734/) that was published in early October.\\n\\nIn early 2025, Metaculus launched the [ACX2025](https://www.metaculus.com/tournament/ACX2025/), the [Brazil Prediction Tournament](https://www.metaculus.com/tournament/Brasil/), and the 2025 [Bridgewater Forecasting Contest](https://www.metaculus.com/tournament/32567/), leading to a record number of users signing up for the site (11,050 from January 27 to February 2, 2025, almost five times the previous weekly record of 2,348 in October 2024!). It is unclear, though, what percentage of these users might forecast on questions outside of these prized tournaments.\\n\\nThe total number of forecasters for past Quarterly Cups can be found below.\\n\\n| Quarter | Total forecasters |\\n| ------- | ----------------- |\\n| Q3 2023 | 842               |\\n| Q4 2023 | 838               |\\n| Q1 2024 | 709               |\\n| Q2 2024 | 1002              |\\n| Q3 2024 | 760               |\\n| Q4 2024 | 379               |\", \"resolution_criteria\": \"This question will resolve as YES if the total number of forecasters that have submitted at least one forecast in any Q1 2025 Quarterly Cup question that has properly resolved (besides this one) is greater than 800 forecasters. The number will be found on the bottom of the relevant leaderboard after all questions besides this one have been resolved.\", \"fine_print\": \"* \\\"Properly resolved\\\" means that the question does not have an **Annulled** or **Ambiguous** resolution.\\n* The total number of forecasters excludes Metaculus admins, but not Metaculus moderators.\", \"present_date\": \"2025-03-26T03:21:50.074755\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_sELR20Gu7ClgWj0NGjZQQpZ3",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"content\": \"---\\ntitle: The State of Metaculus\\ndescription: The Metaculus of early 2025 is a different and better place in myriad ways than the Metaculus of a year ago. It can be easy to miss some of these changes and also some of the opportunities \\u0000 to sharpen thinking (yours and others'), to win prizes and job opportunities, and to contribute to public sense-making in turbulent times.\\ndate: 2025-03-25\\n---\\nMetaculus\\nM\\nQuestions\\nTournaments\\nLeaderboards\\nNews\\nMore\\ncreate\\nLog in\\na\\n/\\n\\u0000\\nnotebook\\nThe State of Metaculus\\nby\\nchristian\\n\\u0002\\nFeb 4, 2025\\n\\u0002\\nEdited on Feb 27, 2025\\n\\u0002\\n9 min read\\n13\\nFollow\\n36 comments\\nComments\\nLog in\\n? comments\\nrecent\\nLoad more comments\", \"question\": \"Will the total number of forecasters in the Q1 2025 Quarterly Cup be greater than 800 forecasters?\", \"background\": \"Each quarter, Metaculus runs a short tournament called [the Quarterly Cup](https://www.metaculus.com/tournament/32630/), which consists of 40-50 questions on various topics. Quarterly Cups have been some of the most popular tournaments on the site with hundreds of users forecasting on at least one tournament question in each quarter. In the last quarter of 2024 participation dropped sharply, potentially as a result of users having to navigate the [massive site rewrite](https://www.metaculus.com/notebooks/28734/) that was published in early October.\\n\\nIn early 2025, Metaculus launched the [ACX2025](https://www.metaculus.com/tournament/ACX2025/), the [Brazil Prediction Tournament](https://www.metaculus.com/tournament/Brasil/), and the 2025 [Bridgewater Forecasting Contest](https://www.metaculus.com/tournament/32567/), leading to a record number of users signing up for the site (11,050 from January 27 to February 2, 2025, almost five times the previous weekly record of 2,348 in October 2024!). It is unclear, though, what percentage of these users might forecast on questions outside of these prized tournaments.\\n\\nThe total number of forecasters for past Quarterly Cups can be found below.\\n\\n| Quarter | Total forecasters |\\n| ------- | ----------------- |\\n| Q3 2023 | 842               |\\n| Q4 2023 | 838               |\\n| Q1 2024 | 709               |\\n| Q2 2024 | 1002              |\\n| Q3 2024 | 760               |\\n| Q4 2024 | 379               |\", \"resolution_criteria\": \"This question will resolve as YES if the total number of forecasters that have submitted at least one forecast in any Q1 2025 Quarterly Cup question that has properly resolved (besides this one) is greater than 800 forecasters. The number will be found on the bottom of the relevant leaderboard after all questions besides this one have been resolved.\", \"fine_print\": \"* \\\"Properly resolved\\\" means that the question does not have an **Annulled** or **Ambiguous** resolution.\\n* The total number of forecasters excludes Metaculus admins, but not Metaculus moderators.\", \"present_date\": \"2025-03-26T03:21:50.074755\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"05be0331-902f-5ed5-acee-c870ce516a5f\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"facts\": [{\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The current total number of forecasters for the Q1 2025 Quarterly Cup is 82.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The community prediction for the total number of forecasters is 563, with a range from 466 to 676.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The lower bound of the community prediction is 466 forecasters.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The upper bound of the community prediction is 676 forecasters.\"}, {\"title\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"url\": \"https://www.metaculus.com/questions/34483/total-number-of-forecacsters-in-q1-2025-quarterly-cup/\", \"fact\": \"The community assigns a 1.1% probability to the number of forecasters exceeding 1,200.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_7sE5g7cgQCbGtkkWSkPtO3vE"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"05be0331-902f-5ed5-acee-c870ce516a5f\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"facts\": [{\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"Metaculus launched the ACX2025, Brazil Prediction Tournament, and Bridgewater Forecasting Contest in early 2025.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"A record number of 11,050 users signed up for Metaculus from January 27 to February 2, 2025.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"The weekly sign-up record in early 2025 was almost five times the previous record set in October 2024.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"The Metaculus site underwent a massive rewrite in early October 2024, which may have impacted user participation.\"}, {\"title\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"url\": \"https://www.metaculus.com/notebooks/34747/the-state-of-metaculus/\", \"fact\": \"The Metaculus of early 2025 is described as a different and better place, suggesting improvements that could attract more users.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_sELR20Gu7ClgWj0NGjZQQpZ3"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key points relevant to estimating the probability of the total number of forecasters in the Q1 2025 Quarterly Cup exceeding 800:\n\n1. **Current Participation and Predictions**:\n   - The current total number of forecasters for the Q1 2025 Quarterly Cup is 82.\n   - The community prediction for the total number of forecasters is 563, with a range from 466 to 676.\n   - The community assigns a 1.1% probability to the number of forecasters exceeding 1,200.\n\n2. **Historical Context**:\n   - In Q2 2024, the number of forecasters was 1002, but it dropped to 379 in Q4 2024, likely due to a site rewrite.\n   - Historically, the number of forecasters has fluctuated, with numbers like 842 in Q3 2023 and 838 in Q4 2023.\n\n3. **Recent Developments**:\n   - In early 2025, Metaculus launched several high-profile tournaments (ACX2025, Brazil Prediction Tournament, and Bridgewater Forecasting Contest), which led to a record number of 11,050 new user sign-ups in one week.\n   - Despite the increase in sign-ups, it is unclear how many of these new users will participate in the Quarterly Cup, as they might be more interested in the specific tournaments they signed up for.\n\n4. **Site Improvements**:\n   - The Metaculus site is described as improved in early 2025, which could potentially attract more users to participate in the Quarterly Cup.\n\nGiven these points, while there is a significant increase in user sign-ups and site improvements, the community prediction suggests a lower number of forecasters than 800. The historical trend and the current prediction both indicate that reaching over 800 forecasters is unlikely, despite the recent surge in user sign-ups.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

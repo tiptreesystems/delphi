@@ -1,0 +1,671 @@
+{
+  "question_id": "bddbeeae-8b50-576e-9a69-c14c2d2d3cb9",
+  "question": "Will the debt ceiling be raised or suspended in the US before March 17, 2025?",
+  "probability": 0.85,
+  "reasoning": "Based on the gathered evidence, here are the key points regarding the likelihood of the U.S. debt ceiling being raised or suspended before March 17, 2025:\n\n1. **Extraordinary Measures**: The U.S. Treasury has been using extraordinary measures since January 17, 2025, to avoid default. These measures are expected to last until March 14, 2025. This provides a short window for Congress to act before the government risks default.\n\n2. **Historical Precedent**: Historically, Congress has acted 78 times since 1960 to raise, temporarily extend, or revise the debt limit. This indicates a strong precedent for action to avoid default.\n\n3. **Political Context**: The current political situation involves a Republican-controlled Congress and a Democratic President, which historically has led to brinkmanship over the debt ceiling. This was evident in 2023 when similar brinkmanship led to a credit downgrade of U.S. debt.\n\n4. **Economic Consequences**: Failing to increase the debt limit would lead to catastrophic economic consequences, including a potential default on legal obligations and a financial crisis. This provides a strong incentive for Congress to act to prevent such outcomes.\n\n5. **Current Negotiations**: There is no specific information on the current state of negotiations, but the urgency of the situation and the historical precedent suggest that Congress is likely working towards a resolution.\n\nGiven these factors, while there is political tension, the historical precedent and severe consequences of inaction suggest a high probability that the debt ceiling will be raised or suspended before the deadline.\n\nFINAL PROBABILITY: 0.85",
+  "search_results": [
+    {
+      "title": "Debt Limit | U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "content": "2025 Daily Debt Subject to Limit Activity (02/28/2025) Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)..."
+    },
+    {
+      "title": "United States debt ceiling - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/United_States_debt_ceiling",
+      "content": "the debt ceiling suspension remained in effect until December 31, 2024."
+    },
+    {
+      "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "content": "After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default."
+    },
+    {
+      "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "content": "After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default."
+    },
+    {
+      "title": "Will the debt ceiling be raised or suspended in the US before March 17, 2025?",
+      "url": "https://www.metaculus.com/questions/34456/us-debt-ceiling-increased-before-march-17-2025/",
+      "content": "Will the debt ceiling be raised or suspended in the US before March 17, 2025? This question was opened on Jan 30, 2025, and closes Mar 16, 2025..."
+    },
+    {
+      "title": "Upcoming Congressional Fiscal Policy Deadlines-2025-01-09",
+      "url": "https://www.crfb.org/blogs/upcoming-congressional-fiscal-policy-deadlines",
+      "content": "The President signed a continuing resolution on December 21, 2024, that runs through March 14, 2025. Lawmakers will need to pass another CR or complete appropriations to avoid a government shutdown."
+    },
+    {
+      "title": "Debt Limit | U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "content": "Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed..."
+    },
+    {
+      "title": "The Debt Ceiling, Fiscal Responsibility Act of 2023, and the FY25 and FY26 Federal Budgets | ASTHO",
+      "url": "https://www.astho.org/communications/blog/2025/debt-ceiling-fiscal-responsibility-act-2023-fy25-fy26-federal-budgets/",
+      "content": "The federal government is operating under a continuing resolution through March 14, 2025, giving the incoming 119th Congress more time to complete the necessary appropriations bills for FY25."
+    },
+    {
+      "title": "Debt Limit | U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "content": "Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed..."
+    },
+    {
+      "title": "Debt Limit Analysis | Bipartisan Policy Center",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "content": "The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow. The first of several 2025 fiscal milestones for Congress is the X Date..."
+    },
+    {
+      "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "content": "After being suspended through January 1, 2025, the debt ceiling has been reinstated. Treasury announced it would begin extraordinary measures on January 21st to avoid default..."
+    },
+    {
+      "title": "Debt Limit | U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "content": "Description of Extraordinary Measures (01/17/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed on the Treasury website..."
+    },
+    {
+      "title": "Debt Limit Analysis | Bipartisan Policy Center",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "content": "When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on “extraordinary measures”—accounting maneuvers that allow the government to continue standard operations for a limited period."
+    },
+    {
+      "title": "Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit | U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/jy2798",
+      "content": "Treasury will begin using extraordinary measures on January 21. A “debt issuance suspension period” will begin on Tuesday, January 21, 2025, and last through Friday, March 14, 2025."
+    },
+    {
+      "title": "What is the federal debt ceiling?",
+      "url": "https://www.brookings.edu/articles/the-hutchins-center-explains-the-debt-limit/",
+      "content": "Treasury anticipated that it would delay implementing extraordinary measures until sometime between January 14 and January 23, 2025."
+    },
+    {
+      "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "content": "On January 17th, 2025, Treasury announced it would begin extraordinary measures on January 21st to avoid default."
+    },
+    {
+      "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "content": "---\ntitle: Debt Limit\nurl: https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\nhostname: treasury.gov\ndescription: The debt limit does not authorize new spending commitments. It simply allows the government to finance existing legal obligations that Congresses and presidents of both parties have made in the past.Failing to increase the debt limit would have catastrophic economic consequences. It would cause the government to default on its legal obligations – an unprecedented event in American history. That would precipitate another financial crisis and threaten the jobs and savings of everyday Americans – putting the United States right back in a deep economic hole, just as the country is recovering from the recent recession. Congress has always acted when called upon to raise the debt limit. Since 1960, Congress has acted 78 separate times to permanently raise, temporarily extend, or revise the definition of the debt limit – 49 times under Republican presidents and 29 times under Democratic presidents. Congressional leaders in both parties have recognized that this is necessary.2025Daily Debt Subject to Limit Activity (02/28/2025)Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)FAQs on the Government Securities Investment Fund (01/23/2025)Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (1/17/25)FAQs on the Civil Service Retirement and Disability Fund and Postal Service Retiree Health Benefits Fund (01/17/2025)Description of Extraordinary Measures (01/17/2025)2024Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (12/27/24)2023Assistant Secretary Davidson Sends Letter on Report on Fund Operations and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/23)Report to Congress on Fund Operation and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/2023)Assistant Secretary Davidson Sends Letter on Government Securities Investment Fund to Congress (6/29/23) Treasury Report on Fund Operations and Status (6/29/23)Daily Debt Subject to Limit Activity (06/02/2023)Description of Extraordinary Measures (5/31/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/26/23)Daily Debt Subject to Limit Activity (05/26/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/22/23) Daily Debt Subject to…\n\n[Truncated preview: showing 339 words out of ~3050. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "content": "---\ntitle: Debt Ceiling Explainer\nurl: http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\nhostname: house.gov\ndescription: Congress must responsibly address the debt ceiling so that Treasury can pay the nation’s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\nsitename: House Budget Committee Democrats\ndate: 2025-01-17\n---\n# Debt Ceiling Explainer\n\n## EXECUTIVE SUMMARY\n\nCongress must responsibly address the debt ceiling so that Treasury can pay the nation’s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\n\n### What is the debt ceiling?\n\nThe Constitution grants Congress the sole authority to borrow on behalf of the United States. It is the Executive Branch’s responsibility to execute that borrowing. The Debt Ceiling is the limit Congress has set up to which Treasury can borrow. It is a limit up to which Treasury can pay the bills and honor commitments that Congress has already made.\n\n### Why do we have a debt ceiling?\n\nThe debt ceiling is an accident of history. Before World War I, Congress had to authorize Treasury every time it had to issue debt to meet obligations. In 1917 legislation was passed to create an early debt ceiling that allowed the Treasury Secretary to have more flexibility in debt issuance for spending Congress had already authorized. Amendments to the 1917 through 1941 created the modern debt ceiling as we know it today. It was never intended to be an implement for Congress to reduce future spending or gain leverage in the negotiation of other legislation.\n\n\n## THE BASICS\n\n### How high is the debt ceiling?\n\nAfter being suspended by the [Fiscal Responsibility Act](https://www.congress.gov/bill/118th-congress/house-bill/3746) through January 1, 2025 the debt ceiling has been reinstated. On January 2nd, it was set to the level of obligations accrued during the suspension, or $36.1 trillion. On January 17th, 2025, Treasury [announced](https://home.treasury.gov/system/files/136/Debt-Limit-Letter-to-Congress-1-17-25.pdf) it would begin extraordinary measures on January 21st to avoid default.\n\n### What happens when we reach the debt ceiling?\n\nWhen the debt ceiling is reached, Congress must pass legislation to raise or suspend the limit. Failure to do so would lead to default and have catastrophic consequences for all Americans and the global economy.\n\nAfter the debt ceilin…\n\n[Truncated preview: showing 375 words out of ~1269. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://bipartisanpolicy.org/debt-limit/",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "content": "---\ntitle: Debt Limit Analysis | Bipartisan Policy Center\nurl: https://bipartisanpolicy.org/debt-limit/\nhostname: bipartisanpolicy.org\ndescription: The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow.\nsitename: bipartisanpolicy.org\ndate: 2025-01-01\n---\n# Debt Limit Analysis\n\n\nThe [debt limit](https://bipartisanpolicy.org/report/debt-limit-what-you-need-to-know/), set by law, restricts the total amount of money that the federal government can legally borrow. When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on “[extraordinary measures](https://bipartisanpolicy.org/report/extraordinary-measures-simplified-explainer/)”—accounting maneuvers that allow the government to continue standard operations for a limited period. Once those extraordinary measures and the Treasury’s cash reserves run out, the federal government would reach the “[X Date](https://bipartisanpolicy.org/explainer/bpcs-date-range/)”—the day on which the U.S. government is unable to meet all its obligations in full and on time.\n\nSince 2011, BPC has played a leading role in educating policymakers and the public about the X Date. Using publicly available data on government cash flows and changes in intragovernmental debt, BPC projects an X Date range—reflecting the inherent uncertainty—to help policymakers understand the period of time when the risk of inaction rises dramatically. Failure to extend the debt limit in a timely manner would likely have catastrophic [consequences](https://bipartisanpolicy.org/explainer/crossing-costs/) for global financial markets and Americans across the country.\n\n##### Share\n\n\n\n\n\n###### Read Next\n\n\n\n### Explaining the Debt Limit\n\n[\n](https://bipartisanpolicy.org/blog/debt-limit-2025-what-to-know/)\n\n#### Debt Limit 2025: What’s Ahead, and What to Know\n\n[\n](https://bipartisanpolicy.org/press-release/opportunity-debt-limit-dec-2024/)\n\n#### BPC: Congress Has the Opportunity to Avoid the Worst Consequences of the Debt Limit\n\n[\n](https://bipartisanpolicy.org/debt-limit-history/)\n\n#### Recent History of the Debt Limit\n\n[\n](https://bipartisanpolicy.org/explainer/bpcs-date-range/)\n\n#### Behind BPC’s X Date Range\n\n[\n](https://bipartisanpolicy.org/explainer/crossing-costs/)\n\n#### Costs of Crossing the X Date\n\n[\n](https://bipartisanpolicy.org/blog/debt-limit-101/)\n\n#### Debt Limit 101\n\n[\n](https://bipartisanpolicy.org/explainer/bpc-proposal-reform-de…\n\n[Truncated preview: showing 283 words out of ~1396. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "fact": "The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025."
+    },
+    {
+      "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "fact": "Outgoing Treasury Secretary Janet Yellen notified Congress on January 17, 2025, that the Treasury had begun taking extraordinary measures to avoid default."
+    },
+    {
+      "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "fact": "The extraordinary measures are specified to persist through March 14, 2025."
+    },
+    {
+      "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "fact": "Since 1960, Congress has acted 78 separate times to raise, temporarily extend, or revise the definition of the debt limit."
+    },
+    {
+      "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+      "fact": "Failing to increase the debt limit would cause the government to default on its legal obligations, which would have catastrophic economic consequences."
+    },
+    {
+      "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "fact": "The debt ceiling was last suspended by the Fiscal Responsibility Act until January 1, 2025, and has now been reinstated at $36.1 trillion."
+    },
+    {
+      "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "fact": "On January 17, 2025, the Treasury announced it would begin extraordinary measures to avoid default, which are expected to last until March 14, 2025."
+    },
+    {
+      "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "fact": "Historically, major debt ceiling crises have occurred when the president is a Democrat and one or more branches of Congress are controlled by Republicans."
+    },
+    {
+      "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "fact": "In 2023, Republican brinkmanship over the debt ceiling led to a credit downgrade of U.S. debt."
+    },
+    {
+      "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+      "fact": "Extraordinary measures are temporary and create headroom under the debt ceiling, but they come with costs and are not a long-term solution."
+    },
+    {
+      "title": "https://bipartisanpolicy.org/debt-limit/",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "fact": "The Treasury Department has begun taking extraordinary measures to avoid default, which are expected to last until March 14, 2025."
+    },
+    {
+      "title": "https://bipartisanpolicy.org/debt-limit/",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "fact": "The Bipartisan Policy Center (BPC) projects an 'X Date' range, which is the period when the U.S. government will be unable to meet all its obligations in full and on time."
+    },
+    {
+      "title": "https://bipartisanpolicy.org/debt-limit/",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "fact": "Failure to extend the debt limit in a timely manner would likely have catastrophic consequences for global financial markets and Americans across the country."
+    },
+    {
+      "title": "https://bipartisanpolicy.org/debt-limit/",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "fact": "The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025."
+    },
+    {
+      "title": "https://bipartisanpolicy.org/debt-limit/",
+      "url": "https://bipartisanpolicy.org/debt-limit/",
+      "fact": "The BPC has played a leading role in educating policymakers and the public about the X Date since 2011, indicating their expertise and influence in this area."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.7224999999999999,
+  "weighted_brier_score": 0.7224999999999999,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "bddbeeae-8b50-576e-9a69-c14c2d2d3cb9",
+        "queries": [
+          "title",
+          "type",
+          "string",
+          "content",
+          "To forecast whether the debt ceiling will be raised or suspended before March 17, 2025, it is essential to gather the latest information on legislative actions, political negotiations, and expert analyses. The selected queries aim to cover these aspects by targeting recent news articles, official government statements, and expert opinions. This approach ensures a comprehensive understanding of the current status and potential developments regarding the debt ceiling issue."
+        ]
+      },
+      "raw": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"queries\": [\"title\", \"type\", \"string\", \"content\", \"To forecast whether the debt ceiling will be raised or suspended before March 17, 2025, it is essential to gather the latest information on legislative actions, political negotiations, and expert analyses. The selected queries aim to cover these aspects by targeting recent news articles, official government statements, and expert opinions. This approach ensures a comprehensive understanding of the current status and potential developments regarding the debt ceiling issue.\"]}",
+      "tool_call_id": "call_X1zJNNBeQNExeJQaVOzgiFue"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US debt ceiling March 2025 raise suspend",
+        "results": [
+          {
+            "title": "Debt Limit | U.S. Department of the Treasury",
+            "link": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "position": 2,
+            "snippet": "2025 Daily Debt Subject to Limit Activity (02/28/2025) Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)...",
+            "date": null
+          },
+          {
+            "title": "United States debt ceiling - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/United_States_debt_ceiling",
+            "position": 3,
+            "snippet": "the debt ceiling suspension remained in effect until December 31, 2024.",
+            "date": null
+          },
+          {
+            "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+            "link": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "position": 5,
+            "snippet": "After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default.",
+            "date": null
+          },
+          {
+            "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+            "link": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "position": 1,
+            "snippet": "After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default.",
+            "date": null
+          },
+          {
+            "title": "Will the debt ceiling be raised or suspended in the US before March 17, 2025?",
+            "link": "https://www.metaculus.com/questions/34456/us-debt-ceiling-increased-before-march-17-2025/",
+            "position": 5,
+            "snippet": "Will the debt ceiling be raised or suspended in the US before March 17, 2025? This question was opened on Jan 30, 2025, and closes Mar 16, 2025...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US debt ceiling March 2025 raise suspend\", \"results\": [{\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 2, \"snippet\": \"2025 Daily Debt Subject to Limit Activity (02/28/2025) Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)...\", \"date\": null}, {\"title\": \"United States debt ceiling - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/United_States_debt_ceiling\", \"position\": 3, \"snippet\": \"the debt ceiling suspension remained in effect until December 31, 2024.\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 5, \"snippet\": \"After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default.\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 1, \"snippet\": \"After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default.\", \"date\": null}, {\"title\": \"Will the debt ceiling be raised or suspended in the US before March 17, 2025?\", \"link\": \"https://www.metaculus.com/questions/34456/us-debt-ceiling-increased-before-march-17-2025/\", \"position\": 5, \"snippet\": \"Will the debt ceiling be raised or suspended in the US before March 17, 2025? This question was opened on Jan 30, 2025, and closes Mar 16, 2025...\", \"date\": null}]}",
+      "tool_call_id": "call_xXdzWvavmoPlYOp6laeBxyjI"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US Congress debt ceiling negotiations March 2025",
+        "results": [
+          {
+            "title": "Upcoming Congressional Fiscal Policy Deadlines-2025-01-09",
+            "link": "https://www.crfb.org/blogs/upcoming-congressional-fiscal-policy-deadlines",
+            "position": 3,
+            "snippet": "The President signed a continuing resolution on December 21, 2024, that runs through March 14, 2025. Lawmakers will need to pass another CR or complete appropriations to avoid a government shutdown.",
+            "date": null
+          },
+          {
+            "title": "Debt Limit | U.S. Department of the Treasury",
+            "link": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "position": 4,
+            "snippet": "Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed...",
+            "date": null
+          },
+          {
+            "title": "The Debt Ceiling, Fiscal Responsibility Act of 2023, and the FY25 and FY26 Federal Budgets | ASTHO",
+            "link": "https://www.astho.org/communications/blog/2025/debt-ceiling-fiscal-responsibility-act-2023-fy25-fy26-federal-budgets/",
+            "position": 5,
+            "snippet": "The federal government is operating under a continuing resolution through March 14, 2025, giving the incoming 119th Congress more time to complete the necessary appropriations bills for FY25.",
+            "date": null
+          },
+          {
+            "title": "Debt Limit | U.S. Department of the Treasury",
+            "link": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "position": 1,
+            "snippet": "Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed...",
+            "date": null
+          },
+          {
+            "title": "Debt Limit Analysis | Bipartisan Policy Center",
+            "link": "https://bipartisanpolicy.org/debt-limit/",
+            "position": 4,
+            "snippet": "The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow. The first of several 2025 fiscal milestones for Congress is the X Date...",
+            "date": null
+          },
+          {
+            "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+            "link": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "position": 5,
+            "snippet": "After being suspended through January 1, 2025, the debt ceiling has been reinstated. Treasury announced it would begin extraordinary measures on January 21st to avoid default...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US Congress debt ceiling negotiations March 2025\", \"results\": [{\"title\": \"Upcoming Congressional Fiscal Policy Deadlines-2025-01-09\", \"link\": \"https://www.crfb.org/blogs/upcoming-congressional-fiscal-policy-deadlines\", \"position\": 3, \"snippet\": \"The President signed a continuing resolution on December 21, 2024, that runs through March 14, 2025. Lawmakers will need to pass another CR or complete appropriations to avoid a government shutdown.\", \"date\": null}, {\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 4, \"snippet\": \"Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed...\", \"date\": null}, {\"title\": \"The Debt Ceiling, Fiscal Responsibility Act of 2023, and the FY25 and FY26 Federal Budgets | ASTHO\", \"link\": \"https://www.astho.org/communications/blog/2025/debt-ceiling-fiscal-responsibility-act-2023-fy25-fy26-federal-budgets/\", \"position\": 5, \"snippet\": \"The federal government is operating under a continuing resolution through March 14, 2025, giving the incoming 119th Congress more time to complete the necessary appropriations bills for FY25.\", \"date\": null}, {\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 1, \"snippet\": \"Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed...\", \"date\": null}, {\"title\": \"Debt Limit Analysis | Bipartisan Policy Center\", \"link\": \"https://bipartisanpolicy.org/debt-limit/\", \"position\": 4, \"snippet\": \"The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow. The first of several 2025 fiscal milestones for Congress is the X Date...\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 5, \"snippet\": \"After being suspended through January 1, 2025, the debt ceiling has been reinstated. Treasury announced it would begin extraordinary measures on January 21st to avoid default...\", \"date\": null}]}",
+      "tool_call_id": "call_7EGHNJuzZJdPZI5zzyrRk3u3"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US Treasury extraordinary measures debt ceiling March 2025",
+        "results": [
+          {
+            "title": "Debt Limit | U.S. Department of the Treasury",
+            "link": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "position": 1,
+            "snippet": "Description of Extraordinary Measures (01/17/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed on the Treasury website...",
+            "date": null
+          },
+          {
+            "title": "Debt Limit Analysis | Bipartisan Policy Center",
+            "link": "https://bipartisanpolicy.org/debt-limit/",
+            "position": 4,
+            "snippet": "When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on “extraordinary measures”—accounting maneuvers that allow the government to continue standard operations for a limited period.",
+            "date": null
+          },
+          {
+            "title": "Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit | U.S. Department of the Treasury",
+            "link": "https://home.treasury.gov/news/press-releases/jy2798",
+            "position": 2,
+            "snippet": "Treasury will begin using extraordinary measures on January 21. A “debt issuance suspension period” will begin on Tuesday, January 21, 2025, and last through Friday, March 14, 2025.",
+            "date": null
+          },
+          {
+            "title": "What is the federal debt ceiling?",
+            "link": "https://www.brookings.edu/articles/the-hutchins-center-explains-the-debt-limit/",
+            "position": 4,
+            "snippet": "Treasury anticipated that it would delay implementing extraordinary measures until sometime between January 14 and January 23, 2025.",
+            "date": null
+          },
+          {
+            "title": "Debt Ceiling Explainer | House Budget Committee Democrats",
+            "link": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "position": 5,
+            "snippet": "On January 17th, 2025, Treasury announced it would begin extraordinary measures on January 21st to avoid default.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US Treasury extraordinary measures debt ceiling March 2025\", \"results\": [{\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 1, \"snippet\": \"Description of Extraordinary Measures (01/17/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed on the Treasury website...\", \"date\": null}, {\"title\": \"Debt Limit Analysis | Bipartisan Policy Center\", \"link\": \"https://bipartisanpolicy.org/debt-limit/\", \"position\": 4, \"snippet\": \"When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on \\u201cextraordinary measures\\u201d\\u2014accounting maneuvers that allow the government to continue standard operations for a limited period.\", \"date\": null}, {\"title\": \"Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/news/press-releases/jy2798\", \"position\": 2, \"snippet\": \"Treasury will begin using extraordinary measures on January 21. A \\u201cdebt issuance suspension period\\u201d will begin on Tuesday, January 21, 2025, and last through Friday, March 14, 2025.\", \"date\": null}, {\"title\": \"What is the federal debt ceiling?\", \"link\": \"https://www.brookings.edu/articles/the-hutchins-center-explains-the-debt-limit/\", \"position\": 4, \"snippet\": \"Treasury anticipated that it would delay implementing extraordinary measures until sometime between January 14 and January 23, 2025.\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 5, \"snippet\": \"On January 17th, 2025, Treasury announced it would begin extraordinary measures on January 21st to avoid default.\", \"date\": null}]}",
+      "tool_call_id": "call_IGCo33eu2vYt9V1tZuabMomH"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+        "snippet": "---\ntitle: Debt Limit\nurl: https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\nhostname: treasury.gov\ndescription: The debt limit does not authorize new spending commitments. It simply allows the government to finance existing legal obligations that Congresses and presidents of both parties have made in the past.Failing to increase the debt limit would have catastrophic economic consequences. It would cause the government to default on its legal obligations – an unprecedented event in American history. That would precipitate another financial crisis and threaten the jobs and savings of everyday Americans – putting the United States right back in a deep economic hole, just as the country is recovering from the recent recession. Congress has always acted when called upon to raise the debt limit. Since 1960, Congress has acted 78 separate times to permanently raise, temporarily extend, or revise the definition of the debt limit – 49 times under Republican presidents and 29 times under Democratic presidents. Congressional leaders in both parties have recognized that this is necessary.2025Daily Debt Subject to Limit Activity (02/28/2025)Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)FAQs on the Government Securities Investment Fund (01/23/2025)Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (1/17/25)FAQs on the Civil Service Retirement and Disability Fund and Postal Service Retiree Health Benefits Fund (01/17/2025)Description of Extraordinary Measures (01/17/2025)2024Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (12/27/24)2023Assistant Secretary Davidson Sends Letter on Report on Fund Operations and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/23)Report to Congress on Fund Operation and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/2023)Assistant Secretary Davidson Sends Letter on Government Securities Investment Fund to Congress (6/29/23) Treasury Report on Fund Operations and Status (6/29/23)Daily Debt Subject to Limit Activity (06/02/2023)Description of Extraordinary Measures (5/31/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/26/23)Daily Debt Subject to Limit Activity (05/26/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/22/23) Daily Debt Subject to…\n\n[Truncated preview: showing 339 words out of ~3050. Full content available via `btf_extract_evidence`.]",
+        "word_count": 3050,
+        "snippet_word_count": 339,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-01T11:26:31.016896",
+        "date_cutoff_end": "2025-03-02T11:26:31.016896",
+        "cached_at": "2025-10-24T14:06:27.676939"
+      },
+      "raw": "{\"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"snippet\": \"---\\ntitle: Debt Limit\\nurl: https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\\nhostname: treasury.gov\\ndescription: The debt limit does not authorize new spending commitments. It simply allows the government to finance existing legal obligations that Congresses and presidents of both parties have made in the past.Failing to increase the debt limit would have catastrophic economic consequences. It would cause the government to default on its legal obligations \\u2013 an unprecedented event in American history. That would precipitate another financial crisis and threaten the jobs and savings of everyday Americans \\u2013 putting the United States right back in a deep economic hole, just as the country is recovering from the recent recession. Congress has always acted when called upon to raise the debt limit. Since 1960, Congress has acted 78 separate times to permanently raise, temporarily extend, or revise the definition of the debt limit \\u2013 49 times under Republican presidents and 29 times under Democratic presidents. Congressional leaders in both parties have recognized that this is necessary.2025Daily Debt Subject to Limit Activity (02/28/2025)Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)FAQs on the Government Securities Investment Fund (01/23/2025)Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (1/17/25)FAQs on the Civil Service Retirement and Disability Fund and Postal Service Retiree Health Benefits Fund (01/17/2025)Description of Extraordinary Measures (01/17/2025)2024Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (12/27/24)2023Assistant Secretary Davidson Sends Letter on Report on Fund Operations and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/23)Report to Congress on Fund Operation and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/2023)Assistant Secretary Davidson Sends Letter on Government Securities Investment Fund to Congress (6/29/23) Treasury Report on Fund Operations and Status (6/29/23)Daily Debt Subject to Limit Activity (06/02/2023)Description of Extraordinary Measures (5/31/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/26/23)Daily Debt Subject to Limit Activity (05/26/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/22/23) Daily Debt Subject to\\u2026\\n\\n[Truncated preview: showing 339 words out of ~3050. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3050, \"snippet_word_count\": 339, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-01T11:26:31.016896\", \"date_cutoff_end\": \"2025-03-02T11:26:31.016896\", \"cached_at\": \"2025-10-24T14:06:27.676939\"}",
+      "tool_call_id": "call_A6IdD8W0XoIPdCvDMUk2si35"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+        "snippet": "---\ntitle: Debt Ceiling Explainer\nurl: http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\nhostname: house.gov\ndescription: Congress must responsibly address the debt ceiling so that Treasury can pay the nation’s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\nsitename: House Budget Committee Democrats\ndate: 2025-01-17\n---\n# Debt Ceiling Explainer\n\n## EXECUTIVE SUMMARY\n\nCongress must responsibly address the debt ceiling so that Treasury can pay the nation’s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\n\n### What is the debt ceiling?\n\nThe Constitution grants Congress the sole authority to borrow on behalf of the United States. It is the Executive Branch’s responsibility to execute that borrowing. The Debt Ceiling is the limit Congress has set up to which Treasury can borrow. It is a limit up to which Treasury can pay the bills and honor commitments that Congress has already made.\n\n### Why do we have a debt ceiling?\n\nThe debt ceiling is an accident of history. Before World War I, Congress had to authorize Treasury every time it had to issue debt to meet obligations. In 1917 legislation was passed to create an early debt ceiling that allowed the Treasury Secretary to have more flexibility in debt issuance for spending Congress had already authorized. Amendments to the 1917 through 1941 created the modern debt ceiling as we know it today. It was never intended to be an implement for Congress to reduce future spending or gain leverage in the negotiation of other legislation.\n\n\n## THE BASICS\n\n### How high is the debt ceiling?\n\nAfter being suspended by the [Fiscal Responsibility Act](https://www.congress.gov/bill/118th-congress/house-bill/3746) through January 1, 2025 the debt ceiling has been reinstated. On January 2nd, it was set to the level of obligations accrued during the suspension, or $36.1 trillion. On January 17th, 2025, Treasury [announced](https://home.treasury.gov/system/files/136/Debt-Limit-Letter-to-Congress-1-17-25.pdf) it would begin extraordinary measures on January 21st to avoid default.\n\n### What happens when we reach the debt ceiling?\n\nWhen the debt ceiling is reached, Congress must pass legislation to raise or suspend the limit. Failure to do so would lead to default and have catastrophic consequences for all Americans and the global economy.\n\nAfter the debt ceilin…\n\n[Truncated preview: showing 375 words out of ~1269. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1269,
+        "snippet_word_count": 375,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-01T11:26:31.016896",
+        "date_cutoff_end": "2025-03-02T11:26:31.016896",
+        "cached_at": "2025-10-24T14:06:28.298516"
+      },
+      "raw": "{\"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"snippet\": \"---\\ntitle: Debt Ceiling Explainer\\nurl: http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\\nhostname: house.gov\\ndescription: Congress must responsibly address the debt ceiling so that Treasury can pay the nation\\u2019s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\\nsitename: House Budget Committee Democrats\\ndate: 2025-01-17\\n---\\n# Debt Ceiling Explainer\\n\\n## EXECUTIVE SUMMARY\\n\\nCongress must responsibly address the debt ceiling so that Treasury can pay the nation\\u2019s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\\n\\n### What is the debt ceiling?\\n\\nThe Constitution grants Congress the sole authority to borrow on behalf of the United States. It is the Executive Branch\\u2019s responsibility to execute that borrowing. The Debt Ceiling is the limit Congress has set up to which Treasury can borrow. It is a limit up to which Treasury can pay the bills and honor commitments that Congress has already made.\\n\\n### Why do we have a debt ceiling?\\n\\nThe debt ceiling is an accident of history. Before World War I, Congress had to authorize Treasury every time it had to issue debt to meet obligations. In 1917 legislation was passed to create an early debt ceiling that allowed the Treasury Secretary to have more flexibility in debt issuance for spending Congress had already authorized. Amendments to the 1917 through 1941 created the modern debt ceiling as we know it today. It was never intended to be an implement for Congress to reduce future spending or gain leverage in the negotiation of other legislation.\\n\\n\\n## THE BASICS\\n\\n### How high is the debt ceiling?\\n\\nAfter being suspended by the [Fiscal Responsibility Act](https://www.congress.gov/bill/118th-congress/house-bill/3746) through January 1, 2025 the debt ceiling has been reinstated. On January 2nd, it was set to the level of obligations accrued during the suspension, or $36.1 trillion. On January 17th, 2025, Treasury [announced](https://home.treasury.gov/system/files/136/Debt-Limit-Letter-to-Congress-1-17-25.pdf) it would begin extraordinary measures on January 21st to avoid default.\\n\\n### What happens when we reach the debt ceiling?\\n\\nWhen the debt ceiling is reached, Congress must pass legislation to raise or suspend the limit. Failure to do so would lead to default and have catastrophic consequences for all Americans and the global economy.\\n\\nAfter the debt ceilin\\u2026\\n\\n[Truncated preview: showing 375 words out of ~1269. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1269, \"snippet_word_count\": 375, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-01T11:26:31.016896\", \"date_cutoff_end\": \"2025-03-02T11:26:31.016896\", \"cached_at\": \"2025-10-24T14:06:28.298516\"}",
+      "tool_call_id": "call_aqh68I0BlvqdvqHLLU7gwhNP"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://bipartisanpolicy.org/debt-limit/",
+        "snippet": "---\ntitle: Debt Limit Analysis | Bipartisan Policy Center\nurl: https://bipartisanpolicy.org/debt-limit/\nhostname: bipartisanpolicy.org\ndescription: The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow.\nsitename: bipartisanpolicy.org\ndate: 2025-01-01\n---\n# Debt Limit Analysis\n\n\nThe [debt limit](https://bipartisanpolicy.org/report/debt-limit-what-you-need-to-know/), set by law, restricts the total amount of money that the federal government can legally borrow. When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on “[extraordinary measures](https://bipartisanpolicy.org/report/extraordinary-measures-simplified-explainer/)”—accounting maneuvers that allow the government to continue standard operations for a limited period. Once those extraordinary measures and the Treasury’s cash reserves run out, the federal government would reach the “[X Date](https://bipartisanpolicy.org/explainer/bpcs-date-range/)”—the day on which the U.S. government is unable to meet all its obligations in full and on time.\n\nSince 2011, BPC has played a leading role in educating policymakers and the public about the X Date. Using publicly available data on government cash flows and changes in intragovernmental debt, BPC projects an X Date range—reflecting the inherent uncertainty—to help policymakers understand the period of time when the risk of inaction rises dramatically. Failure to extend the debt limit in a timely manner would likely have catastrophic [consequences](https://bipartisanpolicy.org/explainer/crossing-costs/) for global financial markets and Americans across the country.\n\n##### Share\n\n\n\n\n\n###### Read Next\n\n\n\n### Explaining the Debt Limit\n\n[\n](https://bipartisanpolicy.org/blog/debt-limit-2025-what-to-know/)\n\n#### Debt Limit 2025: What’s Ahead, and What to Know\n\n[\n](https://bipartisanpolicy.org/press-release/opportunity-debt-limit-dec-2024/)\n\n#### BPC: Congress Has the Opportunity to Avoid the Worst Consequences of the Debt Limit\n\n[\n](https://bipartisanpolicy.org/debt-limit-history/)\n\n#### Recent History of the Debt Limit\n\n[\n](https://bipartisanpolicy.org/explainer/bpcs-date-range/)\n\n#### Behind BPC’s X Date Range\n\n[\n](https://bipartisanpolicy.org/explainer/crossing-costs/)\n\n#### Costs of Crossing the X Date\n\n[\n](https://bipartisanpolicy.org/blog/debt-limit-101/)\n\n#### Debt Limit 101\n\n[\n](https://bipartisanpolicy.org/explainer/bpc-proposal-reform-de…\n\n[Truncated preview: showing 283 words out of ~1396. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1396,
+        "snippet_word_count": 283,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-01T11:26:31.016896",
+        "date_cutoff_end": "2025-03-02T11:26:31.016896",
+        "cached_at": "2025-10-24T14:06:28.825580"
+      },
+      "raw": "{\"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"snippet\": \"---\\ntitle: Debt Limit Analysis | Bipartisan Policy Center\\nurl: https://bipartisanpolicy.org/debt-limit/\\nhostname: bipartisanpolicy.org\\ndescription: The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow.\\nsitename: bipartisanpolicy.org\\ndate: 2025-01-01\\n---\\n# Debt Limit Analysis\\n\\n\\nThe [debt limit](https://bipartisanpolicy.org/report/debt-limit-what-you-need-to-know/), set by law, restricts the total amount of money that the federal government can legally borrow. When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on \\u201c[extraordinary measures](https://bipartisanpolicy.org/report/extraordinary-measures-simplified-explainer/)\\u201d\\u2014accounting maneuvers that allow the government to continue standard operations for a limited period. Once those extraordinary measures and the Treasury\\u2019s cash reserves run out, the federal government would reach the \\u201c[X Date](https://bipartisanpolicy.org/explainer/bpcs-date-range/)\\u201d\\u2014the day on which the U.S. government is unable to meet all its obligations in full and on time.\\n\\nSince 2011, BPC has played a leading role in educating policymakers and the public about the X Date. Using publicly available data on government cash flows and changes in intragovernmental debt, BPC projects an X Date range\\u2014reflecting the inherent uncertainty\\u2014to help policymakers understand the period of time when the risk of inaction rises dramatically. Failure to extend the debt limit in a timely manner would likely have catastrophic [consequences](https://bipartisanpolicy.org/explainer/crossing-costs/) for global financial markets and Americans across the country.\\n\\n##### Share\\n\\n\\n\\n\\n\\n###### Read Next\\n\\n\\n\\n### Explaining the Debt Limit\\n\\n[\\n](https://bipartisanpolicy.org/blog/debt-limit-2025-what-to-know/)\\n\\n#### Debt Limit 2025: What\\u2019s Ahead, and What to Know\\n\\n[\\n](https://bipartisanpolicy.org/press-release/opportunity-debt-limit-dec-2024/)\\n\\n#### BPC: Congress Has the Opportunity to Avoid the Worst Consequences of the Debt Limit\\n\\n[\\n](https://bipartisanpolicy.org/debt-limit-history/)\\n\\n#### Recent History of the Debt Limit\\n\\n[\\n](https://bipartisanpolicy.org/explainer/bpcs-date-range/)\\n\\n#### Behind BPC\\u2019s X Date Range\\n\\n[\\n](https://bipartisanpolicy.org/explainer/crossing-costs/)\\n\\n#### Costs of Crossing the X Date\\n\\n[\\n](https://bipartisanpolicy.org/blog/debt-limit-101/)\\n\\n#### Debt Limit 101\\n\\n[\\n](https://bipartisanpolicy.org/explainer/bpc-proposal-reform-de\\u2026\\n\\n[Truncated preview: showing 283 words out of ~1396. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1396, \"snippet_word_count\": 283, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-01T11:26:31.016896\", \"date_cutoff_end\": \"2025-03-02T11:26:31.016896\", \"cached_at\": \"2025-10-24T14:06:28.825580\"}",
+      "tool_call_id": "call_OoU50tIEC5oo1N2QaiikRpj1"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "bddbeeae-8b50-576e-9a69-c14c2d2d3cb9",
+        "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+        "facts": [
+          {
+            "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "fact": "The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025."
+          },
+          {
+            "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "fact": "Outgoing Treasury Secretary Janet Yellen notified Congress on January 17, 2025, that the Treasury had begun taking extraordinary measures to avoid default."
+          },
+          {
+            "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "fact": "The extraordinary measures are specified to persist through March 14, 2025."
+          },
+          {
+            "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "fact": "Since 1960, Congress has acted 78 separate times to raise, temporarily extend, or revise the definition of the debt limit."
+          },
+          {
+            "title": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit",
+            "fact": "Failing to increase the debt limit would cause the government to default on its legal obligations, which would have catastrophic economic consequences."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"facts\": [{\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"Outgoing Treasury Secretary Janet Yellen notified Congress on January 17, 2025, that the Treasury had begun taking extraordinary measures to avoid default.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"The extraordinary measures are specified to persist through March 14, 2025.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"Since 1960, Congress has acted 78 separate times to raise, temporarily extend, or revise the definition of the debt limit.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"Failing to increase the debt limit would cause the government to default on its legal obligations, which would have catastrophic economic consequences.\"}]}",
+      "tool_call_id": "call_pPJBzxirr0OvY5G6ckioVqDv"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "bddbeeae-8b50-576e-9a69-c14c2d2d3cb9",
+        "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+        "facts": [
+          {
+            "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "fact": "The debt ceiling was last suspended by the Fiscal Responsibility Act until January 1, 2025, and has now been reinstated at $36.1 trillion."
+          },
+          {
+            "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "fact": "On January 17, 2025, the Treasury announced it would begin extraordinary measures to avoid default, which are expected to last until March 14, 2025."
+          },
+          {
+            "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "fact": "Historically, major debt ceiling crises have occurred when the president is a Democrat and one or more branches of Congress are controlled by Republicans."
+          },
+          {
+            "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "fact": "In 2023, Republican brinkmanship over the debt ceiling led to a credit downgrade of U.S. debt."
+          },
+          {
+            "title": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "url": "http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer",
+            "fact": "Extraordinary measures are temporary and create headroom under the debt ceiling, but they come with costs and are not a long-term solution."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"facts\": [{\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"The debt ceiling was last suspended by the Fiscal Responsibility Act until January 1, 2025, and has now been reinstated at $36.1 trillion.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"On January 17, 2025, the Treasury announced it would begin extraordinary measures to avoid default, which are expected to last until March 14, 2025.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"Historically, major debt ceiling crises have occurred when the president is a Democrat and one or more branches of Congress are controlled by Republicans.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"In 2023, Republican brinkmanship over the debt ceiling led to a credit downgrade of U.S. debt.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"Extraordinary measures are temporary and create headroom under the debt ceiling, but they come with costs and are not a long-term solution.\"}]}",
+      "tool_call_id": "call_kh9v2LI3ZDkJybwMPm6IXTnr"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "bddbeeae-8b50-576e-9a69-c14c2d2d3cb9",
+        "url": "https://bipartisanpolicy.org/debt-limit/",
+        "facts": [
+          {
+            "title": "https://bipartisanpolicy.org/debt-limit/",
+            "url": "https://bipartisanpolicy.org/debt-limit/",
+            "fact": "The Treasury Department has begun taking extraordinary measures to avoid default, which are expected to last until March 14, 2025."
+          },
+          {
+            "title": "https://bipartisanpolicy.org/debt-limit/",
+            "url": "https://bipartisanpolicy.org/debt-limit/",
+            "fact": "The Bipartisan Policy Center (BPC) projects an 'X Date' range, which is the period when the U.S. government will be unable to meet all its obligations in full and on time."
+          },
+          {
+            "title": "https://bipartisanpolicy.org/debt-limit/",
+            "url": "https://bipartisanpolicy.org/debt-limit/",
+            "fact": "Failure to extend the debt limit in a timely manner would likely have catastrophic consequences for global financial markets and Americans across the country."
+          },
+          {
+            "title": "https://bipartisanpolicy.org/debt-limit/",
+            "url": "https://bipartisanpolicy.org/debt-limit/",
+            "fact": "The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025."
+          },
+          {
+            "title": "https://bipartisanpolicy.org/debt-limit/",
+            "url": "https://bipartisanpolicy.org/debt-limit/",
+            "fact": "The BPC has played a leading role in educating policymakers and the public about the X Date since 2011, indicating their expertise and influence in this area."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"facts\": [{\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The Treasury Department has begun taking extraordinary measures to avoid default, which are expected to last until March 14, 2025.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The Bipartisan Policy Center (BPC) projects an 'X Date' range, which is the period when the U.S. government will be unable to meet all its obligations in full and on time.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"Failure to extend the debt limit in a timely manner would likely have catastrophic consequences for global financial markets and Americans across the country.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The BPC has played a leading role in educating policymakers and the public about the X Date since 2011, indicating their expertise and influence in this area.\"}]}",
+      "tool_call_id": "call_EUDLxsMZfsM4IuJ1SP71yoUC"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the debt ceiling be raised or suspended in the US before March 17, 2025?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nThe [debt limit](https://www.crfb.org/papers/qa-everything-you-should-know-about-debt-ceiling) or debt ceiling in the United States, first established in 1917, sets a limit on the amount of money the US Treasury can borrow. As the US typically borrows to pay prior obligations, reaching the debt limit also limits the ability of the Treasury to fulfill debt obligations, risking default. When the debt limit is reached the Treasury will typically undertake [extraordinary measures](https://www.crfb.org/papers/qa-everything-you-should-know-about-debt-ceiling#what_are_extraordinary_measures) to avoid default as long as possible.\n\nThe debt ceiling was last suspended in June 2023, but the suspension [expired in January 2025](https://www.cnn.com/2025/01/17/business/debt-ceiling-limit-congress/index.html). On January 17, outgoing Treasury Secretary Janet Yellen [notified Congress](https://home.treasury.gov/news/press-releases/jy2798) that the Treasury had begun taking extraordinary measures to avoid default, including implementing a \"debt issuance suspension period\" on certain funds the government typically invests. This suspension period was specified to persist through March 14, 2025.\n\n[According to the Peter G. Peterson Foundation](https://www.pgpf.org/article/the-debt-ceiling-will-be-reinstated-on-january-1-heres-whats-at-stake/):\n\n> The extraordinary measures and cash balance typically can last up to a few months. Most recently, extraordinary measures enabled the government to continue meeting its obligations from January 2023 until lawmakers suspended the debt ceiling in June 2023 as part of the [Fiscal Responsibility Act](https://www.congress.gov/bill/118th-congress/house-bill/3746).\n>\n> If the available options are exhausted prior to legislation being enacted to adjust the debt ceiling, the United States would default on its debt.\n\nThe brinkmanship involved in the 2023 debt ceiling suspension was a contributing factor to the US' credit rating being [downgraded](https://www.pgpf.org/article/moodys-lowers-us-credit-rating-to-negative-citing-large-federal-deficits/) by two credit agencies, Fitch and Moody's, later in 2023.\n\nReaching an agreement to raise or suspend the debt ceiling [could be difficult](https://www.nbcnews.com/politics/congress/gop-ponders-raise-debt-ceiling-dozens-members-ve-always-held-rcna188824) for President Trump and Congress due to the Republicans' thin majority in the House of Representatives.\n\nFor additional resources, see a [tracker of the historical debt limit and debt subject to limit](https://www.ryanbeckauthor.com/forecasting/DebtLimit.html) and the Congressional Research Service report [*Debt Limit Policy Questions: How Long Do Extraordinary Measures Last?*](https://crsreports.congress.gov/product/pdf/IN/IN12147)\nResolution criteria: This resolves as **Yes** if, before March 17, 2025, Eastern Time, the United States enacts a law that increases the statutory debt limit, suspends it for any period of time, or abolishes it, according to reporting from [credible sources](https://www.metaculus.com/faq/#definitions).&#x20;\nFine print: * Any amount of increase to the debt limit qualifies.\n* Only an enacted law is sufficient. Attempts to increase, suspend, or abolish the debt limit by other means, such as by executive order, are immaterial.\npresent_date: 2025-03-01T11:26:31.016896\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_X1zJNNBeQNExeJQaVOzgiFue",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the debt ceiling be raised or suspended in the US before March 17, 2025?\",\"background\":\"The debt limit or debt ceiling in the United States, first established in 1917, sets a limit on the amount of money the US Treasury can borrow. As the US typically borrows to pay prior obligations, reaching the debt limit also limits the ability of the Treasury to fulfill debt obligations, risking default. When the debt limit is reached the Treasury will typically undertake extraordinary measures to avoid default as long as possible. The debt ceiling was last suspended in June 2023, but the suspension expired in January 2025. On January 17, outgoing Treasury Secretary Janet Yellen notified Congress that the Treasury had begun taking extraordinary measures to avoid default, including implementing a \\\"debt issuance suspension period\\\" on certain funds the government typically invests. This suspension period was specified to persist through March 14, 2025. The extraordinary measures and cash balance typically can last up to a few months. Most recently, extraordinary measures enabled the government to continue meeting its obligations from January 2023 until lawmakers suspended the debt ceiling in June 2023 as part of the Fiscal Responsibility Act. If the available options are exhausted prior to legislation being enacted to adjust the debt ceiling, the United States would default on its debt. The brinkmanship involved in the 2023 debt ceiling suspension was a contributing factor to the US' credit rating being downgraded by two credit agencies, Fitch and Moody's, later in 2023. Reaching an agreement to raise or suspend the debt ceiling could be difficult for President Trump and Congress due to the Republicans' thin majority in the House of Representatives.\",\"resolution_criteria\":\"This resolves as Yes if, before March 17, 2025, Eastern Time, the United States enacts a law that increases the statutory debt limit, suspends it for any period of time, or abolishes it, according to reporting from credible sources.\",\"present_date\":\"2025-03-01T11:26:31.016896\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"queries\": [\"title\", \"type\", \"string\", \"content\", \"To forecast whether the debt ceiling will be raised or suspended before March 17, 2025, it is essential to gather the latest information on legislative actions, political negotiations, and expert analyses. The selected queries aim to cover these aspects by targeting recent news articles, official government statements, and expert opinions. This approach ensures a comprehensive understanding of the current status and potential developments regarding the debt ceiling issue.\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_X1zJNNBeQNExeJQaVOzgiFue"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_xXdzWvavmoPlYOp6laeBxyjI",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US debt ceiling March 2025 raise suspend\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-03-01\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_7EGHNJuzZJdPZI5zzyrRk3u3",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US Congress debt ceiling negotiations March 2025\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-03-01\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_IGCo33eu2vYt9V1tZuabMomH",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US Treasury extraordinary measures debt ceiling March 2025\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-03-01\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US debt ceiling March 2025 raise suspend\", \"results\": [{\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 2, \"snippet\": \"2025 Daily Debt Subject to Limit Activity (02/28/2025) Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)...\", \"date\": null}, {\"title\": \"United States debt ceiling - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/United_States_debt_ceiling\", \"position\": 3, \"snippet\": \"the debt ceiling suspension remained in effect until December 31, 2024.\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 5, \"snippet\": \"After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default.\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 1, \"snippet\": \"After being suspended through January 1, 2025, the debt ceiling has been reinstated. Congress must pass legislation to raise or suspend the limit to avoid default.\", \"date\": null}, {\"title\": \"Will the debt ceiling be raised or suspended in the US before March 17, 2025?\", \"link\": \"https://www.metaculus.com/questions/34456/us-debt-ceiling-increased-before-march-17-2025/\", \"position\": 5, \"snippet\": \"Will the debt ceiling be raised or suspended in the US before March 17, 2025? This question was opened on Jan 30, 2025, and closes Mar 16, 2025...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_xXdzWvavmoPlYOp6laeBxyjI"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US Congress debt ceiling negotiations March 2025\", \"results\": [{\"title\": \"Upcoming Congressional Fiscal Policy Deadlines-2025-01-09\", \"link\": \"https://www.crfb.org/blogs/upcoming-congressional-fiscal-policy-deadlines\", \"position\": 3, \"snippet\": \"The President signed a continuing resolution on December 21, 2024, that runs through March 14, 2025. Lawmakers will need to pass another CR or complete appropriations to avoid a government shutdown.\", \"date\": null}, {\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 4, \"snippet\": \"Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed...\", \"date\": null}, {\"title\": \"The Debt Ceiling, Fiscal Responsibility Act of 2023, and the FY25 and FY26 Federal Budgets | ASTHO\", \"link\": \"https://www.astho.org/communications/blog/2025/debt-ceiling-fiscal-responsibility-act-2023-fy25-fy26-federal-budgets/\", \"position\": 5, \"snippet\": \"The federal government is operating under a continuing resolution through March 14, 2025, giving the incoming 119th Congress more time to complete the necessary appropriations bills for FY25.\", \"date\": null}, {\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 1, \"snippet\": \"Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed...\", \"date\": null}, {\"title\": \"Debt Limit Analysis | Bipartisan Policy Center\", \"link\": \"https://bipartisanpolicy.org/debt-limit/\", \"position\": 4, \"snippet\": \"The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow. The first of several 2025 fiscal milestones for Congress is the X Date...\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 5, \"snippet\": \"After being suspended through January 1, 2025, the debt ceiling has been reinstated. Treasury announced it would begin extraordinary measures on January 21st to avoid default...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_7EGHNJuzZJdPZI5zzyrRk3u3"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US Treasury extraordinary measures debt ceiling March 2025\", \"results\": [{\"title\": \"Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"position\": 1, \"snippet\": \"Description of Extraordinary Measures (01/17/2025) and 2025 Daily Debt Subject to Limit Activity (02/28/2025) are listed on the Treasury website...\", \"date\": null}, {\"title\": \"Debt Limit Analysis | Bipartisan Policy Center\", \"link\": \"https://bipartisanpolicy.org/debt-limit/\", \"position\": 4, \"snippet\": \"When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on \\u201cextraordinary measures\\u201d\\u2014accounting maneuvers that allow the government to continue standard operations for a limited period.\", \"date\": null}, {\"title\": \"Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit | U.S. Department of the Treasury\", \"link\": \"https://home.treasury.gov/news/press-releases/jy2798\", \"position\": 2, \"snippet\": \"Treasury will begin using extraordinary measures on January 21. A \\u201cdebt issuance suspension period\\u201d will begin on Tuesday, January 21, 2025, and last through Friday, March 14, 2025.\", \"date\": null}, {\"title\": \"What is the federal debt ceiling?\", \"link\": \"https://www.brookings.edu/articles/the-hutchins-center-explains-the-debt-limit/\", \"position\": 4, \"snippet\": \"Treasury anticipated that it would delay implementing extraordinary measures until sometime between January 14 and January 23, 2025.\", \"date\": null}, {\"title\": \"Debt Ceiling Explainer | House Budget Committee Democrats\", \"link\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"position\": 5, \"snippet\": \"On January 17th, 2025, Treasury announced it would begin extraordinary measures on January 21st to avoid default.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_IGCo33eu2vYt9V1tZuabMomH"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_A6IdD8W0XoIPdCvDMUk2si35",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\"}"
+          }
+        },
+        {
+          "id": "call_aqh68I0BlvqdvqHLLU7gwhNP",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\"}"
+          }
+        },
+        {
+          "id": "call_OoU50tIEC5oo1N2QaiikRpj1",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://bipartisanpolicy.org/debt-limit/\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"snippet\": \"---\\ntitle: Debt Limit\\nurl: https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\\nhostname: treasury.gov\\ndescription: The debt limit does not authorize new spending commitments. It simply allows the government to finance existing legal obligations that Congresses and presidents of both parties have made in the past.Failing to increase the debt limit would have catastrophic economic consequences. It would cause the government to default on its legal obligations \\u2013 an unprecedented event in American history. That would precipitate another financial crisis and threaten the jobs and savings of everyday Americans \\u2013 putting the United States right back in a deep economic hole, just as the country is recovering from the recent recession. Congress has always acted when called upon to raise the debt limit. Since 1960, Congress has acted 78 separate times to permanently raise, temporarily extend, or revise the definition of the debt limit \\u2013 49 times under Republican presidents and 29 times under Democratic presidents. Congressional leaders in both parties have recognized that this is necessary.2025Daily Debt Subject to Limit Activity (02/28/2025)Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)FAQs on the Government Securities Investment Fund (01/23/2025)Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (1/17/25)FAQs on the Civil Service Retirement and Disability Fund and Postal Service Retiree Health Benefits Fund (01/17/2025)Description of Extraordinary Measures (01/17/2025)2024Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (12/27/24)2023Assistant Secretary Davidson Sends Letter on Report on Fund Operations and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/23)Report to Congress on Fund Operation and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/2023)Assistant Secretary Davidson Sends Letter on Government Securities Investment Fund to Congress (6/29/23) Treasury Report on Fund Operations and Status (6/29/23)Daily Debt Subject to Limit Activity (06/02/2023)Description of Extraordinary Measures (5/31/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/26/23)Daily Debt Subject to Limit Activity (05/26/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/22/23) Daily Debt Subject to\\u2026\\n\\n[Truncated preview: showing 339 words out of ~3050. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3050, \"snippet_word_count\": 339, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-01T11:26:31.016896\", \"date_cutoff_end\": \"2025-03-02T11:26:31.016896\", \"cached_at\": \"2025-10-24T14:06:27.676939\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_A6IdD8W0XoIPdCvDMUk2si35"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"snippet\": \"---\\ntitle: Debt Ceiling Explainer\\nurl: http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\\nhostname: house.gov\\ndescription: Congress must responsibly address the debt ceiling so that Treasury can pay the nation\\u2019s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\\nsitename: House Budget Committee Democrats\\ndate: 2025-01-17\\n---\\n# Debt Ceiling Explainer\\n\\n## EXECUTIVE SUMMARY\\n\\nCongress must responsibly address the debt ceiling so that Treasury can pay the nation\\u2019s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy.\\n\\n### What is the debt ceiling?\\n\\nThe Constitution grants Congress the sole authority to borrow on behalf of the United States. It is the Executive Branch\\u2019s responsibility to execute that borrowing. The Debt Ceiling is the limit Congress has set up to which Treasury can borrow. It is a limit up to which Treasury can pay the bills and honor commitments that Congress has already made.\\n\\n### Why do we have a debt ceiling?\\n\\nThe debt ceiling is an accident of history. Before World War I, Congress had to authorize Treasury every time it had to issue debt to meet obligations. In 1917 legislation was passed to create an early debt ceiling that allowed the Treasury Secretary to have more flexibility in debt issuance for spending Congress had already authorized. Amendments to the 1917 through 1941 created the modern debt ceiling as we know it today. It was never intended to be an implement for Congress to reduce future spending or gain leverage in the negotiation of other legislation.\\n\\n\\n## THE BASICS\\n\\n### How high is the debt ceiling?\\n\\nAfter being suspended by the [Fiscal Responsibility Act](https://www.congress.gov/bill/118th-congress/house-bill/3746) through January 1, 2025 the debt ceiling has been reinstated. On January 2nd, it was set to the level of obligations accrued during the suspension, or $36.1 trillion. On January 17th, 2025, Treasury [announced](https://home.treasury.gov/system/files/136/Debt-Limit-Letter-to-Congress-1-17-25.pdf) it would begin extraordinary measures on January 21st to avoid default.\\n\\n### What happens when we reach the debt ceiling?\\n\\nWhen the debt ceiling is reached, Congress must pass legislation to raise or suspend the limit. Failure to do so would lead to default and have catastrophic consequences for all Americans and the global economy.\\n\\nAfter the debt ceilin\\u2026\\n\\n[Truncated preview: showing 375 words out of ~1269. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1269, \"snippet_word_count\": 375, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-01T11:26:31.016896\", \"date_cutoff_end\": \"2025-03-02T11:26:31.016896\", \"cached_at\": \"2025-10-24T14:06:28.298516\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_aqh68I0BlvqdvqHLLU7gwhNP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"snippet\": \"---\\ntitle: Debt Limit Analysis | Bipartisan Policy Center\\nurl: https://bipartisanpolicy.org/debt-limit/\\nhostname: bipartisanpolicy.org\\ndescription: The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow.\\nsitename: bipartisanpolicy.org\\ndate: 2025-01-01\\n---\\n# Debt Limit Analysis\\n\\n\\nThe [debt limit](https://bipartisanpolicy.org/report/debt-limit-what-you-need-to-know/), set by law, restricts the total amount of money that the federal government can legally borrow. When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on \\u201c[extraordinary measures](https://bipartisanpolicy.org/report/extraordinary-measures-simplified-explainer/)\\u201d\\u2014accounting maneuvers that allow the government to continue standard operations for a limited period. Once those extraordinary measures and the Treasury\\u2019s cash reserves run out, the federal government would reach the \\u201c[X Date](https://bipartisanpolicy.org/explainer/bpcs-date-range/)\\u201d\\u2014the day on which the U.S. government is unable to meet all its obligations in full and on time.\\n\\nSince 2011, BPC has played a leading role in educating policymakers and the public about the X Date. Using publicly available data on government cash flows and changes in intragovernmental debt, BPC projects an X Date range\\u2014reflecting the inherent uncertainty\\u2014to help policymakers understand the period of time when the risk of inaction rises dramatically. Failure to extend the debt limit in a timely manner would likely have catastrophic [consequences](https://bipartisanpolicy.org/explainer/crossing-costs/) for global financial markets and Americans across the country.\\n\\n##### Share\\n\\n\\n\\n\\n\\n###### Read Next\\n\\n\\n\\n### Explaining the Debt Limit\\n\\n[\\n](https://bipartisanpolicy.org/blog/debt-limit-2025-what-to-know/)\\n\\n#### Debt Limit 2025: What\\u2019s Ahead, and What to Know\\n\\n[\\n](https://bipartisanpolicy.org/press-release/opportunity-debt-limit-dec-2024/)\\n\\n#### BPC: Congress Has the Opportunity to Avoid the Worst Consequences of the Debt Limit\\n\\n[\\n](https://bipartisanpolicy.org/debt-limit-history/)\\n\\n#### Recent History of the Debt Limit\\n\\n[\\n](https://bipartisanpolicy.org/explainer/bpcs-date-range/)\\n\\n#### Behind BPC\\u2019s X Date Range\\n\\n[\\n](https://bipartisanpolicy.org/explainer/crossing-costs/)\\n\\n#### Costs of Crossing the X Date\\n\\n[\\n](https://bipartisanpolicy.org/blog/debt-limit-101/)\\n\\n#### Debt Limit 101\\n\\n[\\n](https://bipartisanpolicy.org/explainer/bpc-proposal-reform-de\\u2026\\n\\n[Truncated preview: showing 283 words out of ~1396. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1396, \"snippet_word_count\": 283, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-01T11:26:31.016896\", \"date_cutoff_end\": \"2025-03-02T11:26:31.016896\", \"cached_at\": \"2025-10-24T14:06:28.825580\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_OoU50tIEC5oo1N2QaiikRpj1"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_pPJBzxirr0OvY5G6ckioVqDv",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"content\": \"The debt limit does not authorize new spending commitments. It simply allows the government to finance existing legal obligations that Congresses and presidents of both parties have made in the past.Failing to increase the debt limit would have catastrophic economic consequences. It would cause the government to default on its legal obligations – an unprecedented event in American history. That would precipitate another financial crisis and threaten the jobs and savings of everyday Americans – putting the United States right back in a deep economic hole, just as the country is recovering from the recent recession. Congress has always acted when called upon to raise the debt limit. Since 1960, Congress has acted 78 separate times to permanently raise, temporarily extend, or revise the definition of the debt limit – 49 times under Republican presidents and 29 times under Democratic presidents. Congressional leaders in both parties have recognized that this is necessary.2025Daily Debt Subject to Limit Activity (02/28/2025)Acting Secretary of the Treasury David A. Lebryk Sends Letter to Congressional Leadership on the Debt Limit (1/23/2025)FAQs on the Government Securities Investment Fund (01/23/2025)Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (1/17/25)FAQs on the Civil Service Retirement and Disability Fund and Postal Service Retiree Health Benefits Fund (01/17/2025)Description of Extraordinary Measures (01/17/2025)2024Secretary of the Treasury Janet L. Yellen Sends Letter to Congressional Leadership on the Debt Limit (12/27/24)2023Assistant Secretary Davidson Sends Letter on Report on Fund Operations and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/23)Report to Congress on Fund Operation and Status of the CSRDF/PSRHBF under the DISP ending June 5, 2023 (7/28/2023)Assistant Secretary Davidson Sends Letter on Government Securities Investment Fund to Congress (6/29/23) Treasury Report on Fund Operations and Status (6/29/23)Daily Debt Subject to Limit Activity (06/02/2023)Description of Extraordinary Measures (5/31/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/26/23)Daily Debt Subject to Limit Activity (05/26/2023)Secretary Yellen Sends Debt Limit Letter to Congress (5/22/23) Daily Debt Subject to…\", \"question\": \"Will the debt ceiling be raised or suspended in the US before March 17, 2025?\", \"background\": \"The debt limit or debt ceiling in the United States, first established in 1917, sets a limit on the amount of money the US Treasury can borrow. As the US typically borrows to pay prior obligations, reaching the debt limit also limits the ability of the Treasury to fulfill debt obligations, risking default. When the debt limit is reached the Treasury will typically undertake extraordinary measures to avoid default as long as possible. The debt ceiling was last suspended in June 2023, but the suspension expired in January 2025. On January 17, outgoing Treasury Secretary Janet Yellen notified Congress that the Treasury had begun taking extraordinary measures to avoid default, including implementing a \\\"debt issuance suspension period\\\" on certain funds the government typically invests. This suspension period was specified to persist through March 14, 2025. The extraordinary measures and cash balance typically can last up to a few months. Most recently, extraordinary measures enabled the government to continue meeting its obligations from January 2023 until lawmakers suspended the debt ceiling in June 2023 as part of the Fiscal Responsibility Act. If the available options are exhausted prior to legislation being enacted to adjust the debt ceiling, the United States would default on its debt. The brinkmanship involved in the 2023 debt ceiling suspension was a contributing factor to the US' credit rating being downgraded by two credit agencies, Fitch and Moody's, later in 2023. Reaching an agreement to raise or suspend the debt ceiling could be difficult for President Trump and Congress due to the Republicans' thin majority in the House of Representatives.\", \"resolution_criteria\": \"This resolves as Yes if, before March 17, 2025, Eastern Time, the United States enacts a law that increases the statutory debt limit, suspends it for any period of time, or abolishes it, according to reporting from credible sources.\", \"present_date\": \"2025-03-01T11:26:31.016896\"}"
+          }
+        },
+        {
+          "id": "call_kh9v2LI3ZDkJybwMPm6IXTnr",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"content\": \"Congress must responsibly address the debt ceiling so that Treasury can pay the nation’s bills on time, but Republicans have historically used the debt ceiling as a weapon to force deep cuts and unpopular policy. The Constitution grants Congress the sole authority to borrow on behalf of the United States. It is the Executive Branch’s responsibility to execute that borrowing. The Debt Ceiling is the limit Congress has set up to which Treasury can borrow. It is a limit up to which Treasury can pay the bills and honor commitments that Congress has already made. The debt ceiling is an accident of history. Before World War I, Congress had to authorize Treasury every time it had to issue debt to meet obligations. In 1917 legislation was passed to create an early debt ceiling that allowed the Treasury Secretary to have more flexibility in debt issuance for spending Congress had already authorized. Amendments to the 1917 through 1941 created the modern debt ceiling as we know it today. It was never intended to be an implement for Congress to reduce future spending or gain leverage in the negotiation of other legislation. After being suspended by the Fiscal Responsibility Act through January 1, 2025 the debt ceiling has been reinstated. On January 2nd, it was set to the level of obligations accrued during the suspension, or $36.1 trillion. On January 17th, 2025, Treasury announced it would begin extraordinary measures on January 21st to avoid default. When the debt ceiling is reached, Congress must pass legislation to raise or suspend the limit. Failure to do so would lead to default and have catastrophic consequences for all Americans and the global economy.\", \"question\": \"Will the debt ceiling be raised or suspended in the US before March 17, 2025?\", \"background\": \"The debt limit or debt ceiling in the United States, first established in 1917, sets a limit on the amount of money the US Treasury can borrow. As the US typically borrows to pay prior obligations, reaching the debt limit also limits the ability of the Treasury to fulfill debt obligations, risking default. When the debt limit is reached the Treasury will typically undertake extraordinary measures to avoid default as long as possible. The debt ceiling was last suspended in June 2023, but the suspension expired in January 2025. On January 17, outgoing Treasury Secretary Janet Yellen notified Congress that the Treasury had begun taking extraordinary measures to avoid default, including implementing a \\\"debt issuance suspension period\\\" on certain funds the government typically invests. This suspension period was specified to persist through March 14, 2025. The extraordinary measures and cash balance typically can last up to a few months. Most recently, extraordinary measures enabled the government to continue meeting its obligations from January 2023 until lawmakers suspended the debt ceiling in June 2023 as part of the Fiscal Responsibility Act. If the available options are exhausted prior to legislation being enacted to adjust the debt ceiling, the United States would default on its debt. The brinkmanship involved in the 2023 debt ceiling suspension was a contributing factor to the US' credit rating being downgraded by two credit agencies, Fitch and Moody's, later in 2023. Reaching an agreement to raise or suspend the debt ceiling could be difficult for President Trump and Congress due to the Republicans' thin majority in the House of Representatives.\", \"resolution_criteria\": \"This resolves as Yes if, before March 17, 2025, Eastern Time, the United States enacts a law that increases the statutory debt limit, suspends it for any period of time, or abolishes it, according to reporting from credible sources.\", \"present_date\": \"2025-03-01T11:26:31.016896\"}"
+          }
+        },
+        {
+          "id": "call_EUDLxsMZfsM4IuJ1SP71yoUC",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"content\": \"The debt limit, set by law, restricts the total amount of money that the federal government can legally borrow. When reached, the Treasury Department can no longer borrow money to cover government operations. It can temporarily draw on “extraordinary measures”—accounting maneuvers that allow the government to continue standard operations for a limited period. Once those extraordinary measures and the Treasury’s cash reserves run out, the federal government would reach the “X Date”—the day on which the U.S. government is unable to meet all its obligations in full and on time. Since 2011, BPC has played a leading role in educating policymakers and the public about the X Date. Using publicly available data on government cash flows and changes in intragovernmental debt, BPC projects an X Date range—reflecting the inherent uncertainty—to help policymakers understand the period of time when the risk of inaction rises dramatically. Failure to extend the debt limit in a timely manner would likely have catastrophic consequences for global financial markets and Americans across the country.\", \"question\": \"Will the debt ceiling be raised or suspended in the US before March 17, 2025?\", \"background\": \"The debt limit or debt ceiling in the United States, first established in 1917, sets a limit on the amount of money the US Treasury can borrow. As the US typically borrows to pay prior obligations, reaching the debt limit also limits the ability of the Treasury to fulfill debt obligations, risking default. When the debt limit is reached the Treasury will typically undertake extraordinary measures to avoid default as long as possible. The debt ceiling was last suspended in June 2023, but the suspension expired in January 2025. On January 17, outgoing Treasury Secretary Janet Yellen notified Congress that the Treasury had begun taking extraordinary measures to avoid default, including implementing a \\\"debt issuance suspension period\\\" on certain funds the government typically invests. This suspension period was specified to persist through March 14, 2025. The extraordinary measures and cash balance typically can last up to a few months. Most recently, extraordinary measures enabled the government to continue meeting its obligations from January 2023 until lawmakers suspended the debt ceiling in June 2023 as part of the Fiscal Responsibility Act. If the available options are exhausted prior to legislation being enacted to adjust the debt ceiling, the United States would default on its debt. The brinkmanship involved in the 2023 debt ceiling suspension was a contributing factor to the US' credit rating being downgraded by two credit agencies, Fitch and Moody's, later in 2023. Reaching an agreement to raise or suspend the debt ceiling could be difficult for President Trump and Congress due to the Republicans' thin majority in the House of Representatives.\", \"resolution_criteria\": \"This resolves as Yes if, before March 17, 2025, Eastern Time, the United States enacts a law that increases the statutory debt limit, suspends it for any period of time, or abolishes it, according to reporting from credible sources.\", \"present_date\": \"2025-03-01T11:26:31.016896\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"facts\": [{\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"Outgoing Treasury Secretary Janet Yellen notified Congress on January 17, 2025, that the Treasury had begun taking extraordinary measures to avoid default.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"The extraordinary measures are specified to persist through March 14, 2025.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"Since 1960, Congress has acted 78 separate times to raise, temporarily extend, or revise the definition of the debt limit.\"}, {\"title\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"url\": \"https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit\", \"fact\": \"Failing to increase the debt limit would cause the government to default on its legal obligations, which would have catastrophic economic consequences.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_pPJBzxirr0OvY5G6ckioVqDv"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"facts\": [{\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"The debt ceiling was last suspended by the Fiscal Responsibility Act until January 1, 2025, and has now been reinstated at $36.1 trillion.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"On January 17, 2025, the Treasury announced it would begin extraordinary measures to avoid default, which are expected to last until March 14, 2025.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"Historically, major debt ceiling crises have occurred when the president is a Democrat and one or more branches of Congress are controlled by Republicans.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"In 2023, Republican brinkmanship over the debt ceiling led to a credit downgrade of U.S. debt.\"}, {\"title\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"url\": \"http://democrats-budget.house.gov/resources/fact-sheet/debt-ceiling-explainer\", \"fact\": \"Extraordinary measures are temporary and create headroom under the debt ceiling, but they come with costs and are not a long-term solution.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_kh9v2LI3ZDkJybwMPm6IXTnr"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"bddbeeae-8b50-576e-9a69-c14c2d2d3cb9\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"facts\": [{\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The Treasury Department has begun taking extraordinary measures to avoid default, which are expected to last until March 14, 2025.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The Bipartisan Policy Center (BPC) projects an 'X Date' range, which is the period when the U.S. government will be unable to meet all its obligations in full and on time.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"Failure to extend the debt limit in a timely manner would likely have catastrophic consequences for global financial markets and Americans across the country.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The debt ceiling was last suspended in June 2023 and the suspension expired in January 2025.\"}, {\"title\": \"https://bipartisanpolicy.org/debt-limit/\", \"url\": \"https://bipartisanpolicy.org/debt-limit/\", \"fact\": \"The BPC has played a leading role in educating policymakers and the public about the X Date since 2011, indicating their expertise and influence in this area.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_EUDLxsMZfsM4IuJ1SP71yoUC"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key points regarding the likelihood of the U.S. debt ceiling being raised or suspended before March 17, 2025:\n\n1. **Extraordinary Measures**: The U.S. Treasury has been using extraordinary measures since January 17, 2025, to avoid default. These measures are expected to last until March 14, 2025. This provides a short window for Congress to act before the government risks default.\n\n2. **Historical Precedent**: Historically, Congress has acted 78 times since 1960 to raise, temporarily extend, or revise the debt limit. This indicates a strong precedent for action to avoid default.\n\n3. **Political Context**: The current political situation involves a Republican-controlled Congress and a Democratic President, which historically has led to brinkmanship over the debt ceiling. This was evident in 2023 when similar brinkmanship led to a credit downgrade of U.S. debt.\n\n4. **Economic Consequences**: Failing to increase the debt limit would lead to catastrophic economic consequences, including a potential default on legal obligations and a financial crisis. This provides a strong incentive for Congress to act to prevent such outcomes.\n\n5. **Current Negotiations**: There is no specific information on the current state of negotiations, but the urgency of the situation and the historical precedent suggest that Congress is likely working towards a resolution.\n\nGiven these factors, while there is political tension, the historical precedent and severe consequences of inaction suggest a high probability that the debt ceiling will be raised or suspended before the deadline.\n\nFINAL PROBABILITY: 0.85"
+    }
+  ]
+}

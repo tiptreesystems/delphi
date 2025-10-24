@@ -1,0 +1,585 @@
+{
+  "question_id": "36a39d27-0245-52c8-b225-8ebc64f9732f",
+  "question": "Will Tesla's stock price be at least $420 a share on March 31, 2025?",
+  "probability": 0.1,
+  "reasoning": "Based on the gathered information, here are the key points regarding Tesla's stock price and its potential to reach $420 by March 31, 2025:\n\n1. **Current Stock Price**: As of February 27, 2025, Tesla's stock closed at $281.95, which is significantly below the $420 target. The stock has been on a downward trend since December 2024, with a high of $462.28 on December 24, 2024, and a low of $281.95 recently.\n\n2. **Forecasts**:\n   - **Long Forecast**: Predicts Tesla's stock price at the end of March 2025 to be $215, with a maximum of $295 and a minimum of $190. The average predicted price for March 2025 is $246.\n   - **Coin Price Forecast**: Suggests a potential rise to $308 by mid-2025, with an end-of-year forecast of $447. However, the current price is $281.95, showing a 30% decrease from the beginning of 2025.\n\n3. **Trends and Analysis**: The stock price has not reached $420 since January 21, 2025, and has consistently closed below $400 in February 2025. The highest closing price in February was $374.32.\n\nGiven these insights, the probability of Tesla's stock price reaching at least $420 by March 31, 2025, appears low. The current price is significantly below the target, and forecasts do not predict a rise to $420 by the end of March 2025.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "content": "Tesla, Inc. (TSLA) stock closed at $281.95 on February 27, 2025, with an after-hours price of $282.86."
+    },
+    {
+      "title": "TSLA Stock Quote Price and Forecast | CNN",
+      "url": "https://www.cnn.com/markets/stocks/TSLA",
+      "content": "Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush. Tesla’s (TSLA) Market Cap Sinks Below $1 Trillion, Here’s Why."
+    },
+    {
+      "title": "TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast",
+      "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "content": "Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%."
+    },
+    {
+      "title": "TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast",
+      "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "content": "Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%."
+    },
+    {
+      "title": "TESLA STOCK FORECAST 2025, 2026-2036",
+      "url": "https://coinpriceforecast.com/tesla",
+      "content": "The forecasted Tesla price at the end of 2025 is $447 - and the year to year change +11%. The rise from today to year-end: +59%. In the middle of 2025, we expect to see $308."
+    },
+    {
+      "title": "Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "content": "Tesla stock closed at $281.95 on February 27, 2025, down 3.04% for the day. After hours trading saw it at $282.86, up 0.32%."
+    },
+    {
+      "title": "TSLA: Tesla Inc - Stock Price, Quote and News - CNBC",
+      "url": "https://www.cnbc.com/quotes/TSLA",
+      "content": "Tesla Inc (TSLA:NASDAQ) stock data including Open, Day High, Day Low, Prev Close, 52 Week High/Low, Market Cap, and an estimated Earnings Date of 04/23/2025."
+    },
+    {
+      "title": "Tesla | TSLA - Stock Price | Live Quote | Historical Chart",
+      "url": "https://tradingeconomics.com/tsla:us",
+      "content": "Tesla traded at $281.92 this Thursday February 27th, decreasing $9.39 or 3.22 percent. Looking back, over the last four weeks, Tesla lost 29.20 percent."
+    },
+    {
+      "title": "TSLA Stock Price — Tesla Chart — TradingView",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/",
+      "content": "View live Tesla chart to track its stock's price action. Find market predictions, TSLA financials and market news."
+    },
+    {
+      "title": "TSLA Stock Quote Price and Forecast | CNN",
+      "url": "https://www.cnn.com/markets/stocks/TSLA",
+      "content": "Feb 25, 2025 2:29pm ET Tesla’s (TSLA) Market Cap Sinks Below $1 Trillion, Here’s Why"
+    },
+    {
+      "title": "Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "content": "Feb 27, 2025 | Open | High | Low | Close | Adj Close | Volume | 281.95 | 281.95 | 100,955,606"
+    },
+    {
+      "title": "Tesla, Inc. (TSLA) Historical Stock Price Data - Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/tsla/history/",
+      "content": "Tesla, Inc. (TSLA) stock data for March 3, 2025 shows an opening price of 300.34, a high of 303.94, a low of 277.30, and a closing price of 284.65."
+    },
+    {
+      "title": "TSLA Stock Quote Price and Forecast | CNN",
+      "url": "https://www.cnn.com/markets/stocks/TSLA",
+      "content": "Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush..."
+    },
+    {
+      "title": "Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics",
+      "url": "https://finance.yahoo.com/quote/TSLA/key-statistics/",
+      "content": "Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures."
+    },
+    {
+      "title": "Tesla, Inc. (TSLA) Stock Price, Quote & News",
+      "url": "https://stockanalysis.com/stocks/tsla/",
+      "content": "US union chief calls on fund managers to review Tesla's valuation as the electric carmaker's shares have slumped 30% so far this year."
+    },
+    {
+      "title": "TSLA Stock Price — Tesla Chart — TradingView",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/",
+      "content": "Tesla, Inc. engages in the design, development, manufacture, and sale of electric vehicles and energy generation and storage systems. The company operates through Automotive and Energy Generation and Storage."
+    },
+    {
+      "title": "Tesla Stock Price Forecast. Should You Buy TSLA?",
+      "url": "https://stockinvest.us/stock/TSLA",
+      "content": "Tesla stock price dropped by -3.04% on Feb 27, 2025, declining for 6 consecutive days. The stock is expected to fall -15.77% during the next 3 months."
+    },
+    {
+      "title": "Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics",
+      "url": "https://finance.yahoo.com/quote/TSLA/key-statistics/",
+      "content": "Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://finance.yahoo.com/quote/TSLA/history/",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "fact": "As of February 27, 2025, Tesla's stock closed at $281.95, which is significantly below the $420 target."
+    },
+    {
+      "title": "https://finance.yahoo.com/quote/TSLA/history/",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "fact": "Tesla's stock price has been on a downward trend since December 2024, with a high of $462.28 on December 24, 2024, and a low of $281.95 on February 27, 2025."
+    },
+    {
+      "title": "https://finance.yahoo.com/quote/TSLA/history/",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "fact": "The stock price has not reached $420 since January 21, 2025, when it closed at $424.07."
+    },
+    {
+      "title": "https://finance.yahoo.com/quote/TSLA/history/",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "fact": "In February 2025, the stock price has consistently closed below $400, indicating a persistent decline."
+    },
+    {
+      "title": "https://finance.yahoo.com/quote/TSLA/history/",
+      "url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "fact": "The highest closing price in February 2025 was $374.32 on February 6, 2025, which is still below the $420 target."
+    },
+    {
+      "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "fact": "The forecast for Tesla's stock price at the end of March 2025 is $215."
+    },
+    {
+      "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "fact": "The maximum predicted price for Tesla's stock in March 2025 is $295."
+    },
+    {
+      "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "fact": "The minimum predicted price for Tesla's stock in March 2025 is $190."
+    },
+    {
+      "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "fact": "The average predicted price for Tesla's stock in March 2025 is $246."
+    },
+    {
+      "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+      "fact": "The forecast for Tesla's stock price at the beginning of March 2025 is $282."
+    },
+    {
+      "title": "https://coinpriceforecast.com/tesla",
+      "url": "https://coinpriceforecast.com/tesla",
+      "fact": "Tesla's stock price is forecasted to be $447 by the end of 2025, indicating a potential rise above $420."
+    },
+    {
+      "title": "https://coinpriceforecast.com/tesla",
+      "url": "https://coinpriceforecast.com/tesla",
+      "fact": "The forecasted Tesla price at the end of 2025 shows an 11% year-to-year change from the beginning of the year."
+    },
+    {
+      "title": "https://coinpriceforecast.com/tesla",
+      "url": "https://coinpriceforecast.com/tesla",
+      "fact": "Tesla's stock price started in 2025 at $403.84, suggesting it was already close to the $420 target at the beginning of the year."
+    },
+    {
+      "title": "https://coinpriceforecast.com/tesla",
+      "url": "https://coinpriceforecast.com/tesla",
+      "fact": "As of the latest update, Tesla traded at $281.95, showing a decrease of 30% from the beginning of 2025."
+    },
+    {
+      "title": "https://coinpriceforecast.com/tesla",
+      "url": "https://coinpriceforecast.com/tesla",
+      "fact": "The forecast expects Tesla's stock price to rise to $308 by mid-2025, indicating a potential upward trend."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.010000000000000002,
+  "weighted_brier_score": 0.010000000000000002,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "36a39d27-0245-52c8-b225-8ebc64f9732f",
+        "queries": [
+          "Tesla stock price March 2025 forecast",
+          "Recent news on Tesla stock performance March 2025",
+          "Tesla stock analysis March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"queries\": [\"Tesla stock price March 2025 forecast\", \"Recent news on Tesla stock performance March 2025\", \"Tesla stock analysis March 2025\"]}",
+      "tool_call_id": "call_z6h6hKPPdXSwarecB0peB91T"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Tesla stock price March 2025 forecast",
+        "results": [
+          {
+            "title": "Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance",
+            "link": "https://finance.yahoo.com/quote/TSLA/history/",
+            "position": 3,
+            "snippet": "Tesla, Inc. (TSLA) stock closed at $281.95 on February 27, 2025, with an after-hours price of $282.86.",
+            "date": null
+          },
+          {
+            "title": "TSLA Stock Quote Price and Forecast | CNN",
+            "link": "https://www.cnn.com/markets/stocks/TSLA",
+            "position": 4,
+            "snippet": "Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush. Tesla’s (TSLA) Market Cap Sinks Below $1 Trillion, Here’s Why.",
+            "date": null
+          },
+          {
+            "title": "TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast",
+            "link": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "position": 5,
+            "snippet": "Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%.",
+            "date": null
+          },
+          {
+            "title": "TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast",
+            "link": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "position": 1,
+            "snippet": "Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%.",
+            "date": null
+          },
+          {
+            "title": "TESLA STOCK FORECAST 2025, 2026-2036",
+            "link": "https://coinpriceforecast.com/tesla",
+            "position": 4,
+            "snippet": "The forecasted Tesla price at the end of 2025 is $447 - and the year to year change +11%. The rise from today to year-end: +59%. In the middle of 2025, we expect to see $308.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Tesla stock price March 2025 forecast\", \"results\": [{\"title\": \"Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"position\": 3, \"snippet\": \"Tesla, Inc. (TSLA) stock closed at $281.95 on February 27, 2025, with an after-hours price of $282.86.\", \"date\": null}, {\"title\": \"TSLA Stock Quote Price and Forecast | CNN\", \"link\": \"https://www.cnn.com/markets/stocks/TSLA\", \"position\": 4, \"snippet\": \"Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush. Tesla\\u2019s (TSLA) Market Cap Sinks Below $1 Trillion, Here\\u2019s Why.\", \"date\": null}, {\"title\": \"TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast\", \"link\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"position\": 5, \"snippet\": \"Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%.\", \"date\": null}, {\"title\": \"TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast\", \"link\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"position\": 1, \"snippet\": \"Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%.\", \"date\": null}, {\"title\": \"TESLA STOCK FORECAST 2025, 2026-2036\", \"link\": \"https://coinpriceforecast.com/tesla\", \"position\": 4, \"snippet\": \"The forecasted Tesla price at the end of 2025 is $447 - and the year to year change +11%. The rise from today to year-end: +59%. In the middle of 2025, we expect to see $308.\", \"date\": null}]}",
+      "tool_call_id": "call_WgvZFTfIHUu4yUt8uqTM3Wgd"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Recent news on Tesla stock performance March 2025",
+        "results": [
+          {
+            "title": "Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance",
+            "link": "https://finance.yahoo.com/quote/TSLA/history/",
+            "position": 4,
+            "snippet": "Tesla stock closed at $281.95 on February 27, 2025, down 3.04% for the day. After hours trading saw it at $282.86, up 0.32%.",
+            "date": null
+          },
+          {
+            "title": "TSLA: Tesla Inc - Stock Price, Quote and News - CNBC",
+            "link": "https://www.cnbc.com/quotes/TSLA",
+            "position": 5,
+            "snippet": "Tesla Inc (TSLA:NASDAQ) stock data including Open, Day High, Day Low, Prev Close, 52 Week High/Low, Market Cap, and an estimated Earnings Date of 04/23/2025.",
+            "date": null
+          },
+          {
+            "title": "Tesla | TSLA - Stock Price | Live Quote | Historical Chart",
+            "link": "https://tradingeconomics.com/tsla:us",
+            "position": 3,
+            "snippet": "Tesla traded at $281.92 this Thursday February 27th, decreasing $9.39 or 3.22 percent. Looking back, over the last four weeks, Tesla lost 29.20 percent.",
+            "date": null
+          },
+          {
+            "title": "TSLA Stock Price — Tesla Chart — TradingView",
+            "link": "https://www.tradingview.com/symbols/NASDAQ-TSLA/",
+            "position": 3,
+            "snippet": "View live Tesla chart to track its stock's price action. Find market predictions, TSLA financials and market news.",
+            "date": null
+          },
+          {
+            "title": "TSLA Stock Quote Price and Forecast | CNN",
+            "link": "https://www.cnn.com/markets/stocks/TSLA",
+            "position": 5,
+            "snippet": "Feb 25, 2025 2:29pm ET Tesla’s (TSLA) Market Cap Sinks Below $1 Trillion, Here’s Why",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Recent news on Tesla stock performance March 2025\", \"results\": [{\"title\": \"Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"position\": 4, \"snippet\": \"Tesla stock closed at $281.95 on February 27, 2025, down 3.04% for the day. After hours trading saw it at $282.86, up 0.32%.\", \"date\": null}, {\"title\": \"TSLA: Tesla Inc - Stock Price, Quote and News - CNBC\", \"link\": \"https://www.cnbc.com/quotes/TSLA\", \"position\": 5, \"snippet\": \"Tesla Inc (TSLA:NASDAQ) stock data including Open, Day High, Day Low, Prev Close, 52 Week High/Low, Market Cap, and an estimated Earnings Date of 04/23/2025.\", \"date\": null}, {\"title\": \"Tesla | TSLA - Stock Price | Live Quote | Historical Chart\", \"link\": \"https://tradingeconomics.com/tsla:us\", \"position\": 3, \"snippet\": \"Tesla traded at $281.92 this Thursday February 27th, decreasing $9.39 or 3.22 percent. Looking back, over the last four weeks, Tesla lost 29.20 percent.\", \"date\": null}, {\"title\": \"TSLA Stock Price \\u2014 Tesla Chart \\u2014 TradingView\", \"link\": \"https://www.tradingview.com/symbols/NASDAQ-TSLA/\", \"position\": 3, \"snippet\": \"View live Tesla chart to track its stock's price action. Find market predictions, TSLA financials and market news.\", \"date\": null}, {\"title\": \"TSLA Stock Quote Price and Forecast | CNN\", \"link\": \"https://www.cnn.com/markets/stocks/TSLA\", \"position\": 5, \"snippet\": \"Feb 25, 2025 2:29pm ET Tesla\\u2019s (TSLA) Market Cap Sinks Below $1 Trillion, Here\\u2019s Why\", \"date\": null}]}",
+      "tool_call_id": "call_96vc5oKK9EtvsoFt8T4cb8yw"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Tesla stock analysis March 2025",
+        "results": [
+          {
+            "title": "Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance",
+            "link": "https://finance.yahoo.com/quote/TSLA/history/",
+            "position": 1,
+            "snippet": "Feb 27, 2025 | Open | High | Low | Close | Adj Close | Volume | 281.95 | 281.95 | 100,955,606",
+            "date": null
+          },
+          {
+            "title": "Tesla, Inc. (TSLA) Historical Stock Price Data - Stock Analysis",
+            "link": "https://stockanalysis.com/stocks/tsla/history/",
+            "position": 2,
+            "snippet": "Tesla, Inc. (TSLA) stock data for March 3, 2025 shows an opening price of 300.34, a high of 303.94, a low of 277.30, and a closing price of 284.65.",
+            "date": null
+          },
+          {
+            "title": "TSLA Stock Quote Price and Forecast | CNN",
+            "link": "https://www.cnn.com/markets/stocks/TSLA",
+            "position": 4,
+            "snippet": "Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush...",
+            "date": null
+          },
+          {
+            "title": "Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics",
+            "link": "https://finance.yahoo.com/quote/TSLA/key-statistics/",
+            "position": 2,
+            "snippet": "Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures.",
+            "date": null
+          },
+          {
+            "title": "Tesla, Inc. (TSLA) Stock Price, Quote & News",
+            "link": "https://stockanalysis.com/stocks/tsla/",
+            "position": 1,
+            "snippet": "US union chief calls on fund managers to review Tesla's valuation as the electric carmaker's shares have slumped 30% so far this year.",
+            "date": null
+          },
+          {
+            "title": "TSLA Stock Price — Tesla Chart — TradingView",
+            "link": "https://www.tradingview.com/symbols/NASDAQ-TSLA/",
+            "position": 3,
+            "snippet": "Tesla, Inc. engages in the design, development, manufacture, and sale of electric vehicles and energy generation and storage systems. The company operates through Automotive and Energy Generation and Storage.",
+            "date": null
+          },
+          {
+            "title": "Tesla Stock Price Forecast. Should You Buy TSLA?",
+            "link": "https://stockinvest.us/stock/TSLA",
+            "position": 4,
+            "snippet": "Tesla stock price dropped by -3.04% on Feb 27, 2025, declining for 6 consecutive days. The stock is expected to fall -15.77% during the next 3 months.",
+            "date": null
+          },
+          {
+            "title": "Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics",
+            "link": "https://finance.yahoo.com/quote/TSLA/key-statistics/",
+            "position": 5,
+            "snippet": "Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Tesla stock analysis March 2025\", \"results\": [{\"title\": \"Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"position\": 1, \"snippet\": \"Feb 27, 2025 | Open | High | Low | Close | Adj Close | Volume | 281.95 | 281.95 | 100,955,606\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Historical Stock Price Data - Stock Analysis\", \"link\": \"https://stockanalysis.com/stocks/tsla/history/\", \"position\": 2, \"snippet\": \"Tesla, Inc. (TSLA) stock data for March 3, 2025 shows an opening price of 300.34, a high of 303.94, a low of 277.30, and a closing price of 284.65.\", \"date\": null}, {\"title\": \"TSLA Stock Quote Price and Forecast | CNN\", \"link\": \"https://www.cnn.com/markets/stocks/TSLA\", \"position\": 4, \"snippet\": \"Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush...\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics\", \"link\": \"https://finance.yahoo.com/quote/TSLA/key-statistics/\", \"position\": 2, \"snippet\": \"Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures.\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Stock Price, Quote & News\", \"link\": \"https://stockanalysis.com/stocks/tsla/\", \"position\": 1, \"snippet\": \"US union chief calls on fund managers to review Tesla's valuation as the electric carmaker's shares have slumped 30% so far this year.\", \"date\": null}, {\"title\": \"TSLA Stock Price \\u2014 Tesla Chart \\u2014 TradingView\", \"link\": \"https://www.tradingview.com/symbols/NASDAQ-TSLA/\", \"position\": 3, \"snippet\": \"Tesla, Inc. engages in the design, development, manufacture, and sale of electric vehicles and energy generation and storage systems. The company operates through Automotive and Energy Generation and Storage.\", \"date\": null}, {\"title\": \"Tesla Stock Price Forecast. Should You Buy TSLA?\", \"link\": \"https://stockinvest.us/stock/TSLA\", \"position\": 4, \"snippet\": \"Tesla stock price dropped by -3.04% on Feb 27, 2025, declining for 6 consecutive days. The stock is expected to fall -15.77% during the next 3 months.\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics\", \"link\": \"https://finance.yahoo.com/quote/TSLA/key-statistics/\", \"position\": 5, \"snippet\": \"Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures.\", \"date\": null}]}",
+      "tool_call_id": "call_OnWhILHRY0hBmRotg4ogn6xq"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "36a39d27-0245-52c8-b225-8ebc64f9732f",
+        "url": "https://finance.yahoo.com/quote/TSLA/history/",
+        "facts": [
+          {
+            "title": "https://finance.yahoo.com/quote/TSLA/history/",
+            "url": "https://finance.yahoo.com/quote/TSLA/history/",
+            "fact": "As of February 27, 2025, Tesla's stock closed at $281.95, which is significantly below the $420 target."
+          },
+          {
+            "title": "https://finance.yahoo.com/quote/TSLA/history/",
+            "url": "https://finance.yahoo.com/quote/TSLA/history/",
+            "fact": "Tesla's stock price has been on a downward trend since December 2024, with a high of $462.28 on December 24, 2024, and a low of $281.95 on February 27, 2025."
+          },
+          {
+            "title": "https://finance.yahoo.com/quote/TSLA/history/",
+            "url": "https://finance.yahoo.com/quote/TSLA/history/",
+            "fact": "The stock price has not reached $420 since January 21, 2025, when it closed at $424.07."
+          },
+          {
+            "title": "https://finance.yahoo.com/quote/TSLA/history/",
+            "url": "https://finance.yahoo.com/quote/TSLA/history/",
+            "fact": "In February 2025, the stock price has consistently closed below $400, indicating a persistent decline."
+          },
+          {
+            "title": "https://finance.yahoo.com/quote/TSLA/history/",
+            "url": "https://finance.yahoo.com/quote/TSLA/history/",
+            "fact": "The highest closing price in February 2025 was $374.32 on February 6, 2025, which is still below the $420 target."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"facts\": [{\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"As of February 27, 2025, Tesla's stock closed at $281.95, which is significantly below the $420 target.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"Tesla's stock price has been on a downward trend since December 2024, with a high of $462.28 on December 24, 2024, and a low of $281.95 on February 27, 2025.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"The stock price has not reached $420 since January 21, 2025, when it closed at $424.07.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"In February 2025, the stock price has consistently closed below $400, indicating a persistent decline.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"The highest closing price in February 2025 was $374.32 on February 6, 2025, which is still below the $420 target.\"}]}",
+      "tool_call_id": "call_EygSblTWqJvgRp9TsQ3WiQAh"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "36a39d27-0245-52c8-b225-8ebc64f9732f",
+        "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+        "facts": [
+          {
+            "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "fact": "The forecast for Tesla's stock price at the end of March 2025 is $215."
+          },
+          {
+            "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "fact": "The maximum predicted price for Tesla's stock in March 2025 is $295."
+          },
+          {
+            "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "fact": "The minimum predicted price for Tesla's stock in March 2025 is $190."
+          },
+          {
+            "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "fact": "The average predicted price for Tesla's stock in March 2025 is $246."
+          },
+          {
+            "title": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "url": "https://longforecast.com/tesla-share-price-predictions-2017-2018-2019",
+            "fact": "The forecast for Tesla's stock price at the beginning of March 2025 is $282."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"facts\": [{\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The forecast for Tesla's stock price at the end of March 2025 is $215.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The maximum predicted price for Tesla's stock in March 2025 is $295.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The minimum predicted price for Tesla's stock in March 2025 is $190.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The average predicted price for Tesla's stock in March 2025 is $246.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The forecast for Tesla's stock price at the beginning of March 2025 is $282.\"}]}",
+      "tool_call_id": "call_Ai5clNMQWYMm7xgqHfr4fFsg"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "36a39d27-0245-52c8-b225-8ebc64f9732f",
+        "url": "https://coinpriceforecast.com/tesla",
+        "facts": [
+          {
+            "title": "https://coinpriceforecast.com/tesla",
+            "url": "https://coinpriceforecast.com/tesla",
+            "fact": "Tesla's stock price is forecasted to be $447 by the end of 2025, indicating a potential rise above $420."
+          },
+          {
+            "title": "https://coinpriceforecast.com/tesla",
+            "url": "https://coinpriceforecast.com/tesla",
+            "fact": "The forecasted Tesla price at the end of 2025 shows an 11% year-to-year change from the beginning of the year."
+          },
+          {
+            "title": "https://coinpriceforecast.com/tesla",
+            "url": "https://coinpriceforecast.com/tesla",
+            "fact": "Tesla's stock price started in 2025 at $403.84, suggesting it was already close to the $420 target at the beginning of the year."
+          },
+          {
+            "title": "https://coinpriceforecast.com/tesla",
+            "url": "https://coinpriceforecast.com/tesla",
+            "fact": "As of the latest update, Tesla traded at $281.95, showing a decrease of 30% from the beginning of 2025."
+          },
+          {
+            "title": "https://coinpriceforecast.com/tesla",
+            "url": "https://coinpriceforecast.com/tesla",
+            "fact": "The forecast expects Tesla's stock price to rise to $308 by mid-2025, indicating a potential upward trend."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"url\": \"https://coinpriceforecast.com/tesla\", \"facts\": [{\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"Tesla's stock price is forecasted to be $447 by the end of 2025, indicating a potential rise above $420.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"The forecasted Tesla price at the end of 2025 shows an 11% year-to-year change from the beginning of the year.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"Tesla's stock price started in 2025 at $403.84, suggesting it was already close to the $420 target at the beginning of the year.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"As of the latest update, Tesla traded at $281.95, showing a decrease of 30% from the beginning of 2025.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"The forecast expects Tesla's stock price to rise to $308 by mid-2025, indicating a potential upward trend.\"}]}",
+      "tool_call_id": "call_GL4URvCA8QwTsEDm8lLhFx11"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Tesla's stock price be at least $420 a share on March 31, 2025?\nBackground: New York Times December 27, 2024: [Tesla Investors Are Still Bullish. Can Elon Musk Deliver?](https://www.nytimes.com/2024/12/27/business/tesla-sales-stock-elon-musk.html)\nResolution criteria: This question resolves as **Yes** if according to [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/) the listed \"Close\" price for Tesla, Inc., is greater than or equal to $420.00 for March 31, 2025. If it is under that price, this question resolves as **No**.\nFine print: Forward or reverse stock splits will be immaterial for this question.\npresent_date: 2025-03-04T12:29:58.754842\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_z6h6hKPPdXSwarecB0peB91T",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Tesla's stock price be at least $420 a share on March 31, 2025?\",\"background\":\"New York Times December 27, 2024: [Tesla Investors Are Still Bullish. Can Elon Musk Deliver?](https://www.nytimes.com/2024/12/27/business/tesla-sales-stock-elon-musk.html)\",\"resolution_criteria\":\"This question resolves as **Yes** if according to [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/) the listed \\\"Close\\\" price for Tesla, Inc., is greater than or equal to $420.00 for March 31, 2025. If it is under that price, this question resolves as **No**.\",\"fine_print\":\"Forward or reverse stock splits will be immaterial for this question.\",\"present_date\":\"2025-03-04T12:29:58.754842\",\"date_cutoff_start\":null,\"date_cutoff_end\":\"2025-03-04T12:29:58.754842\",\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"queries\": [\"Tesla stock price March 2025 forecast\", \"Recent news on Tesla stock performance March 2025\", \"Tesla stock analysis March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_z6h6hKPPdXSwarecB0peB91T"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_WgvZFTfIHUu4yUt8uqTM3Wgd",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Tesla stock price March 2025 forecast\", \"date_cutoff_end\": \"2025-03-04T12:29:58.754842\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_96vc5oKK9EtvsoFt8T4cb8yw",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Recent news on Tesla stock performance March 2025\", \"date_cutoff_end\": \"2025-03-04T12:29:58.754842\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_OnWhILHRY0hBmRotg4ogn6xq",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Tesla stock analysis March 2025\", \"date_cutoff_end\": \"2025-03-04T12:29:58.754842\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Tesla stock price March 2025 forecast\", \"results\": [{\"title\": \"Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"position\": 3, \"snippet\": \"Tesla, Inc. (TSLA) stock closed at $281.95 on February 27, 2025, with an after-hours price of $282.86.\", \"date\": null}, {\"title\": \"TSLA Stock Quote Price and Forecast | CNN\", \"link\": \"https://www.cnn.com/markets/stocks/TSLA\", \"position\": 4, \"snippet\": \"Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush. Tesla\\u2019s (TSLA) Market Cap Sinks Below $1 Trillion, Here\\u2019s Why.\", \"date\": null}, {\"title\": \"TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast\", \"link\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"position\": 5, \"snippet\": \"Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%.\", \"date\": null}, {\"title\": \"TESLA STOCK PRICE PREDICTION 2025, 2026, 2027-2029 - Long Forecast\", \"link\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"position\": 1, \"snippet\": \"Tesla stock prediction for March 2025. The forecast for beginning 282 dollars. Maximum price 295, minimum 190. Averaged Tesla stock price for the month 246. At the end 215 dollars, change for March -23.8%.\", \"date\": null}, {\"title\": \"TESLA STOCK FORECAST 2025, 2026-2036\", \"link\": \"https://coinpriceforecast.com/tesla\", \"position\": 4, \"snippet\": \"The forecasted Tesla price at the end of 2025 is $447 - and the year to year change +11%. The rise from today to year-end: +59%. In the middle of 2025, we expect to see $308.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_WgvZFTfIHUu4yUt8uqTM3Wgd"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Recent news on Tesla stock performance March 2025\", \"results\": [{\"title\": \"Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"position\": 4, \"snippet\": \"Tesla stock closed at $281.95 on February 27, 2025, down 3.04% for the day. After hours trading saw it at $282.86, up 0.32%.\", \"date\": null}, {\"title\": \"TSLA: Tesla Inc - Stock Price, Quote and News - CNBC\", \"link\": \"https://www.cnbc.com/quotes/TSLA\", \"position\": 5, \"snippet\": \"Tesla Inc (TSLA:NASDAQ) stock data including Open, Day High, Day Low, Prev Close, 52 Week High/Low, Market Cap, and an estimated Earnings Date of 04/23/2025.\", \"date\": null}, {\"title\": \"Tesla | TSLA - Stock Price | Live Quote | Historical Chart\", \"link\": \"https://tradingeconomics.com/tsla:us\", \"position\": 3, \"snippet\": \"Tesla traded at $281.92 this Thursday February 27th, decreasing $9.39 or 3.22 percent. Looking back, over the last four weeks, Tesla lost 29.20 percent.\", \"date\": null}, {\"title\": \"TSLA Stock Price \\u2014 Tesla Chart \\u2014 TradingView\", \"link\": \"https://www.tradingview.com/symbols/NASDAQ-TSLA/\", \"position\": 3, \"snippet\": \"View live Tesla chart to track its stock's price action. Find market predictions, TSLA financials and market news.\", \"date\": null}, {\"title\": \"TSLA Stock Quote Price and Forecast | CNN\", \"link\": \"https://www.cnn.com/markets/stocks/TSLA\", \"position\": 5, \"snippet\": \"Feb 25, 2025 2:29pm ET Tesla\\u2019s (TSLA) Market Cap Sinks Below $1 Trillion, Here\\u2019s Why\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_96vc5oKK9EtvsoFt8T4cb8yw"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Tesla stock analysis March 2025\", \"results\": [{\"title\": \"Tesla, Inc. (TSLA) Stock Historical Prices & Data - Yahoo Finance\", \"link\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"position\": 1, \"snippet\": \"Feb 27, 2025 | Open | High | Low | Close | Adj Close | Volume | 281.95 | 281.95 | 100,955,606\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Historical Stock Price Data - Stock Analysis\", \"link\": \"https://stockanalysis.com/stocks/tsla/history/\", \"position\": 2, \"snippet\": \"Tesla, Inc. (TSLA) stock data for March 3, 2025 shows an opening price of 300.34, a high of 303.94, a low of 277.30, and a closing price of 284.65.\", \"date\": null}, {\"title\": \"TSLA Stock Quote Price and Forecast | CNN\", \"link\": \"https://www.cnn.com/markets/stocks/TSLA\", \"position\": 4, \"snippet\": \"Tesla Stock: Upcoming Catalysts Trump Negative Sentiment, Says Wedbush...\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics\", \"link\": \"https://finance.yahoo.com/quote/TSLA/key-statistics/\", \"position\": 2, \"snippet\": \"Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures.\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Stock Price, Quote & News\", \"link\": \"https://stockanalysis.com/stocks/tsla/\", \"position\": 1, \"snippet\": \"US union chief calls on fund managers to review Tesla's valuation as the electric carmaker's shares have slumped 30% so far this year.\", \"date\": null}, {\"title\": \"TSLA Stock Price \\u2014 Tesla Chart \\u2014 TradingView\", \"link\": \"https://www.tradingview.com/symbols/NASDAQ-TSLA/\", \"position\": 3, \"snippet\": \"Tesla, Inc. engages in the design, development, manufacture, and sale of electric vehicles and energy generation and storage systems. The company operates through Automotive and Energy Generation and Storage.\", \"date\": null}, {\"title\": \"Tesla Stock Price Forecast. Should You Buy TSLA?\", \"link\": \"https://stockinvest.us/stock/TSLA\", \"position\": 4, \"snippet\": \"Tesla stock price dropped by -3.04% on Feb 27, 2025, declining for 6 consecutive days. The stock is expected to fall -15.77% during the next 3 months.\", \"date\": null}, {\"title\": \"Tesla, Inc. (TSLA) Valuation Measures & Financial Statistics\", \"link\": \"https://finance.yahoo.com/quote/TSLA/key-statistics/\", \"position\": 5, \"snippet\": \"Find out all the key statistics for Tesla, Inc. (TSLA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more. Data includes 12/31/2024 and 3/31/2024 figures.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_OnWhILHRY0hBmRotg4ogn6xq"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_EygSblTWqJvgRp9TsQ3WiQAh",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"question\": \"Will Tesla's stock price be at least $420 a share on March 31, 2025?\", \"background\": \"New York Times December 27, 2024: [Tesla Investors Are Still Bullish. Can Elon Musk Deliver?](https://www.nytimes.com/2024/12/27/business/tesla-sales-stock-elon-musk.html)\", \"resolution_criteria\": \"This question resolves as **Yes** if according to [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/) the listed \\\"Close\\\" price for Tesla, Inc., is greater than or equal to $420.00 for March 31, 2025. If it is under that price, this question resolves as **No**.\", \"fine_print\": \"Forward or reverse stock splits will be immaterial for this question.\", \"present_date\": \"2025-03-04T12:29:58.754842\", \"date_cutoff_end\": \"2025-03-04T12:29:58.754842\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_Ai5clNMQWYMm7xgqHfr4fFsg",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"question\": \"Will Tesla's stock price be at least $420 a share on March 31, 2025?\", \"background\": \"New York Times December 27, 2024: [Tesla Investors Are Still Bullish. Can Elon Musk Deliver?](https://www.nytimes.com/2024/12/27/business/tesla-sales-stock-elon-musk.html)\", \"resolution_criteria\": \"This question resolves as **Yes** if according to [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/) the listed \\\"Close\\\" price for Tesla, Inc., is greater than or equal to $420.00 for March 31, 2025. If it is under that price, this question resolves as **No**.\", \"fine_print\": \"Forward or reverse stock splits will be immaterial for this question.\", \"present_date\": \"2025-03-04T12:29:58.754842\", \"date_cutoff_end\": \"2025-03-04T12:29:58.754842\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_GL4URvCA8QwTsEDm8lLhFx11",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://coinpriceforecast.com/tesla\", \"question\": \"Will Tesla's stock price be at least $420 a share on March 31, 2025?\", \"background\": \"New York Times December 27, 2024: [Tesla Investors Are Still Bullish. Can Elon Musk Deliver?](https://www.nytimes.com/2024/12/27/business/tesla-sales-stock-elon-musk.html)\", \"resolution_criteria\": \"This question resolves as **Yes** if according to [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/) the listed \\\"Close\\\" price for Tesla, Inc., is greater than or equal to $420.00 for March 31, 2025. If it is under that price, this question resolves as **No**.\", \"fine_print\": \"Forward or reverse stock splits will be immaterial for this question.\", \"present_date\": \"2025-03-04T12:29:58.754842\", \"date_cutoff_end\": \"2025-03-04T12:29:58.754842\", \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"facts\": [{\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"As of February 27, 2025, Tesla's stock closed at $281.95, which is significantly below the $420 target.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"Tesla's stock price has been on a downward trend since December 2024, with a high of $462.28 on December 24, 2024, and a low of $281.95 on February 27, 2025.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"The stock price has not reached $420 since January 21, 2025, when it closed at $424.07.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"In February 2025, the stock price has consistently closed below $400, indicating a persistent decline.\"}, {\"title\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"url\": \"https://finance.yahoo.com/quote/TSLA/history/\", \"fact\": \"The highest closing price in February 2025 was $374.32 on February 6, 2025, which is still below the $420 target.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_EygSblTWqJvgRp9TsQ3WiQAh"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"facts\": [{\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The forecast for Tesla's stock price at the end of March 2025 is $215.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The maximum predicted price for Tesla's stock in March 2025 is $295.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The minimum predicted price for Tesla's stock in March 2025 is $190.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The average predicted price for Tesla's stock in March 2025 is $246.\"}, {\"title\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"url\": \"https://longforecast.com/tesla-share-price-predictions-2017-2018-2019\", \"fact\": \"The forecast for Tesla's stock price at the beginning of March 2025 is $282.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_Ai5clNMQWYMm7xgqHfr4fFsg"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"36a39d27-0245-52c8-b225-8ebc64f9732f\", \"url\": \"https://coinpriceforecast.com/tesla\", \"facts\": [{\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"Tesla's stock price is forecasted to be $447 by the end of 2025, indicating a potential rise above $420.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"The forecasted Tesla price at the end of 2025 shows an 11% year-to-year change from the beginning of the year.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"Tesla's stock price started in 2025 at $403.84, suggesting it was already close to the $420 target at the beginning of the year.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"As of the latest update, Tesla traded at $281.95, showing a decrease of 30% from the beginning of 2025.\"}, {\"title\": \"https://coinpriceforecast.com/tesla\", \"url\": \"https://coinpriceforecast.com/tesla\", \"fact\": \"The forecast expects Tesla's stock price to rise to $308 by mid-2025, indicating a potential upward trend.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_GL4URvCA8QwTsEDm8lLhFx11"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered information, here are the key points regarding Tesla's stock price and its potential to reach $420 by March 31, 2025:\n\n1. **Current Stock Price**: As of February 27, 2025, Tesla's stock closed at $281.95, which is significantly below the $420 target. The stock has been on a downward trend since December 2024, with a high of $462.28 on December 24, 2024, and a low of $281.95 recently.\n\n2. **Forecasts**:\n   - **Long Forecast**: Predicts Tesla's stock price at the end of March 2025 to be $215, with a maximum of $295 and a minimum of $190. The average predicted price for March 2025 is $246.\n   - **Coin Price Forecast**: Suggests a potential rise to $308 by mid-2025, with an end-of-year forecast of $447. However, the current price is $281.95, showing a 30% decrease from the beginning of 2025.\n\n3. **Trends and Analysis**: The stock price has not reached $420 since January 21, 2025, and has consistently closed below $400 in February 2025. The highest closing price in February was $374.32.\n\nGiven these insights, the probability of Tesla's stock price reaching at least $420 by March 31, 2025, appears low. The current price is significantly below the target, and forecasts do not predict a rise to $420 by the end of March 2025.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

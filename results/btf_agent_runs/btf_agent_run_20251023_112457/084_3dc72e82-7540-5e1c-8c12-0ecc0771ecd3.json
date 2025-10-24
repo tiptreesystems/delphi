@@ -1,0 +1,935 @@
+{
+  "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+  "question": "Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?",
+  "probability": 0.85,
+  "reasoning": "Based on the gathered evidence, diplomatic tensions between the UK and Russia have been escalating, with recent expulsions and revocations of accreditation occurring in a tit-for-tat manner. The pattern of reciprocal diplomatic actions suggests a high likelihood of further expulsions or recalls before April 8, 2025. The UK and Russia have both demonstrated a willingness to respond to each other's actions with similar measures, and the current diplomatic climate is characterized by ongoing hostility and accusations.\n\nGiven the current situation and the historical pattern of interactions, it is reasonable to estimate a high probability of further diplomatic actions, such as expulsions or recalls, occurring before the specified date.\n\nFINAL PROBABILITY: 0.85",
+  "search_results": [
+    {
+      "title": "Russia expels two UK diplomats as it negotiates to restore US ties | Reuters",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "content": "Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe..."
+    },
+    {
+      "title": "Russia orders two people connected to British embassy to leave country | Russia | The Guardian",
+      "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "content": "Russia orders two people connected to the British embassy in Moscow to leave the country, accusing them of intelligence and subversive activities in a tit-for-tat expulsion."
+    },
+    {
+      "title": "UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions | Reuters",
+      "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "content": "Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close."
+    },
+    {
+      "title": "Russia expels two British diplomats for alleged spying | Politics News | Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2025/3/10/russia-expels-two-british-diplomats-for-alleged-spying",
+      "content": "Russia expels two British diplomats for alleged spying, with the UK rejecting accusations after FSB said it identified signs of intelligence and subversive work."
+    },
+    {
+      "title": "UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews",
+      "url": "https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow",
+      "content": "The Foreign, Commonwealth and Development Office has revoked accreditation for a Russian diplomat and a diplomatic spouse in retaliation for expulsions announced in Moscow this week."
+    },
+    {
+      "title": "UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city – as it happened | Politics | The Guardian",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "content": "Britain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats."
+    },
+    {
+      "title": "UK expels Russian diplomat as tensions with Moscow escalate | The Independent",
+      "url": "https://www.the-independent.com/news/uk/home-news/foreign-office-moscow-david-lammy-kremlin-red-square-b2713886.html",
+      "content": "The UK has expelled a Russian diplomat and a diplomatic spouse in response to an “increasingly aggressive and co-ordinated campaign of harassment” against British officials in Moscow."
+    },
+    {
+      "title": "Statement: Foreign Office summons Russian Ambassador - 12 March 2025 - GOV.UK",
+      "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "content": "The Foreign Office protests Russia's campaign of harassment against British diplomats. Russia’s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation."
+    },
+    {
+      "title": "PM statement to the House of Commons: 3 March 2025 - GOV.UK",
+      "url": "https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-3-march-2025",
+      "content": "The Prime Minister's statement to the House of Commons on Ukraine. \"Following Russia’s vile invasion of Ukraine... Keep increasing the economic pressure on Russia.\""
+    },
+    {
+      "title": "Diplomatic Expulsions Heighten Tensions between Russia, UK - Caspian News",
+      "url": "https://caspiannews.com/news-detail/diplomatic-expulsions-heighten-tensions-between-russia-uk-2025-3-13-40/",
+      "content": "Tensions between Russia and the United Kingdom escalated this week as the UK revoked the accreditation of a Russian diplomat in a tit-for-tat move. According to the British Foreign Office, Russia has been conducting \"an increasingly aggressive and coordinated campaign of harassment against British diplomats\"..."
+    },
+    {
+      "title": "UK Spat With Russia Escalates Over British Diplomat’s Expulsion - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2025-03-12/uk-spat-with-russia-escalates-over-british-diplomat-s-expulsion",
+      "content": "The UK said it’s revoking accreditation for a Russian diplomat and a diplomatic spouse in retaliation against Moscow’s expulsion of two Britons earlier in the week."
+    },
+    {
+      "title": "Foreign Office protests Russia's harassment of British diplomats | UK | News | Express.co.uk",
+      "url": "https://www.express.co.uk/news/uk/2026375/foreign-office-russia-ukraine-diplomats",
+      "content": "A Foreign Office spokesperson said it was \"increasingly clear\" that the Russian state was actively seeking to drive the British Embassy in Moscow towards closure..."
+    },
+    {
+      "title": "As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters",
+      "url": "https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/",
+      "content": "Russia's foreign intelligence service called Britain a \"warmonger\" and accused London of trying to derail peace efforts in Ukraine, leading to tit-for-tat expulsions of diplomats."
+    },
+    {
+      "title": "Putin boots out more British diplomats in spying row – POLITICO",
+      "url": "https://www.politico.eu/article/vladimir-putin-russia-boots-out-more-british-diplomats-in-spying-row/",
+      "content": "Russia’s FSB accuses pair of “intelligence and subversive work” – as Britain brands the claims “baseless.” Putin’s government expelled a British diplomat and the spouse of another after accusing them of spying."
+    },
+    {
+      "title": "Russia expels two UK diplomats as it negotiates to restore US ties | Reuters",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "content": "Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe..."
+    },
+    {
+      "title": "As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters",
+      "url": "https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/",
+      "content": "As the U.S. under Donald Trump seeks to reset ties with Moscow, Britain has been granted the status of Russia's public enemy number one, according to analysis from March 2025."
+    },
+    {
+      "title": "UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews",
+      "url": "https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow",
+      "content": "The UK has revoked accreditation for a Russian diplomat and a diplomatic spouse in a tit-for-tat response to the expulsion of two British embassy staff in Moscow this week."
+    },
+    {
+      "title": "Russia in Review, March 7-14, 2025 | Russia Matters",
+      "url": "https://www.russiamatters.org/news/russia-review/russia-review-march-7-14-2025",
+      "content": "High-level U.S. and Ukrainian delegations endorsed the West’s proposal for an immediate 30-day ceasefire in the Russian-Ukrainian conflict contingent on Russia's consent. Vladimir Putin’s chief foreign policy aide Yuri Ushakov spoke against it."
+    },
+    {
+      "title": "Russia’s Shadow War Against the West",
+      "url": "https://www.csis.org/analysis/russias-shadow-war-against-west",
+      "content": "Russia is conducting an escalating and violent campaign of sabotage and subversion against European and U.S. targets in Europe, according to a new CSIS database. The number of Russian attacks nearly tripled between 2023 and 2024."
+    },
+    {
+      "title": "UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city – as it happened | Politics | The Guardian",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "content": "UK to expel Russian diplomat and accuses Moscow of seeking to close British embassy in response to similar Russian measures earlier this week..."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "content": "---\ntitle: Russia expels two UK diplomats as it negotiates to restore US ties\nauthor: Andrew Osborn; Ksenia Orlova\nurl: https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\nhostname: reuters.com\ndescription: Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\nsitename: Reuters\ndate: 2025-03-10\ncategories: ['Europe']\ntags: ['CWP,DEF,DIP,GEN,INTAG,NATO,NEWS1,POL,SECUR,WAR,GB,CEEU,WEU,AMERS,US,EUROP,UA,RU,NASIA,NAMER,EMEA,ASXPAC,CISC,EMRG,ASIA,RULES:RUSSIA,DEST:OUKDNM,DEST:OUKTPM,POTUS,WASH,EEU,DEST:OUSTPM,DEST:OCATPM,DEST:OUSWDM,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN']\n---\n# Russia expels two UK diplomats as it negotiates to restore US ties\n\nMOSCOW, March 10 (Reuters) - Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\n\nBritain's Foreign Office rejected the allegations against its diplomats as \"baseless\".\n\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\n\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground and planes in the air in Ukraine as part of a potential peacekeeping force.\n\nThe expulsions also come days after three Bulgarians were\n\n[found guilty](https://www.reuters.com/world/europe/three-bulgarians-convicted-spying-russia-after-uk-trial-2025-03-07/)in a London court of being part of a Russian spy unit run by Wirecard fugitive Jan Marsalek to carry out surveillance on a U.S. military base and other individuals targeted by Moscow.The two Britons appear to be the first Western diplomats to be expelled from Russia since Moscow and Washington opened talks on restoring staff at their respective embassies that have been depleted by tit-for-tat expulsions, part of Donald Trump's rapprochement with the Kremlin that has alarmed European allies.\n\nSimilar expulsions have sharply curtailed the functioning of…\n\n[Truncated preview: showing 281 words out of ~557. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "content": "---\ntitle: Russia orders two people connected to British embassy to leave country\nauthor: Ben Quinn\nurl: https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\nhostname: theguardian.com\ndescription: Kremlin accuses individuals of ‘intelligence and subversive activities’ in what appears to be latest in tit-for-tat diplomatic expulsions\nsitename: The Guardian\ndate: 2025-03-10\ncategories: ['World news']\ntags: ['Russia,Europe,World news,UK news']\n---\nTwo people connected to the British embassy in Moscow have been ordered to leave the country by the Russian authorities, which claimed they had been performing intelligence work.\n\nThe British government hit back by accusing Russia of making “malicious and baseless accusations”.\n\nCiting Russia’s Federal Security Service (FSB), the state news agency Tass identified the two individuals who had been expelled as a second secretary of the British embassy and the spouse of another British diplomat.\n\nIt named the two people and accused them of deliberately declaring false information about themselves when entering the country.\n\nThey have been given two weeks to leave, according to the Russian government, which accused them of “intelligence and subversive activities”.\n\nThe FSB had uncovered what it called “signs of intelligence and sabotage work” by both that threatened Russia’s national security, Tass added.\n\nIt comes days after three Bulgarian nationals accused of spying for Russia [were found guilty ](https://www.theguardian.com/world/2025/mar/07/three-bulgarian-nationals-found-guilty-spying-russia-uk)of espionage charges in a trial that heard how they were involved in a string of plots around Europe directed by a fugitive based in Moscow.\n\nDowning Street said the latest expulsions were “what we have come to expect from President Putin and his regime” and “the allegations are no doubt baseless”.\n\nThe prime minister’s official spokesperson said: “It won’t distract us from our focus on supporting Ukraine and putting Ukraine in the strongest possible position over the days and weeks ahead.”\n\nThe Russian government posted a video on X on Monday morning showing what it said was a representative of the British embassy being summoned to the foreign affairs ministry.\n\nThe move appears to the latest in a series of tit-for-tat expulsions of diplomats by Russia and the UK.\n\nBritain expelled a Russian diplomat last month with the foreign secretary, David Lammy, saying th…\n\n[Truncated preview: showing 350 words out of ~675. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "content": "---\ntitle: UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\nauthor: Reuters\nurl: https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\nhostname: reuters.com\ndescription: Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.\nsitename: Reuters\ndate: 2025-03-12\ncategories: ['Europe']\ntags: ['CWP,DEF,DIP,ECO,GEN,MCE,PLCY,POL,WAR,GB,CEEU,WEU,EUROP,UA,RU,NASIA,EMEA,ASXPAC,CISC,EMRG,ASIA,EEU,RULES:RUSSIA,ECON,DEST:OUKTPM,DEST:OCATPM,DEST:OUSTPM,DEST:OUSWDM,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:OUKDNM']\n---\n# UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\n\nLONDON, March 12 (Reuters) - Britain revoked the accreditation of a Russian diplomat on Wednesday in response to\n\n[Russia's expulsion of](https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/)two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.The move is the latest in a series of tit-for-tat diplomatic sanctions after Russia accused two British diplomats on Monday of spying - allegations rejected by Britain as \"baseless\" - and gave them two weeks to leave the country.\n\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\n\n\"It is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this,\" a Foreign Office spokesperson said in a statement announcing the move.\n\nRussia's embassy in London did not immediately respond to a request for comment.\n\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force.\n\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the \"intimidation\" of its diplomats and embassy staff.\n\n\"We have drawn a line under this incident and demand Russia do the same,\" the Foreign Office spokesperson said. \"An…\n\n[Truncated preview: showing 292 words out of ~345. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "content": "---\ntitle: UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city – as it happened\nauthor: Tom Ambrose; Andrew Sparrow\nurl: https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\nhostname: theguardian.com\ndescription: Move is in response to similar Russian measures earlier this week\nsitename: The Guardian\ndate: 2025-03-12\ncategories: ['Politics']\ntags: ['Politics,UK news,PMQs,Keir Starmer,Kemi Badenoch,Labour,Conservatives,House of Commons,Welfare,Disability,Benefits,TUC,Farming,Nicola Sturgeon,Donald Trump,Trump administration,Liberal Democrats,Quangos,Trade policy,Israel,Gaza,Law,Sentencing,Equality and Human Rights Commission (EHRC),Scotland,Scottish politics,Russia,Planning policy,Angela Rayner,Local government']\n---\nUK to expel Russian diplomat and accuses Moscow of seeking to close British embassy\n\nBritain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats.\n\nA government spokesperson said in a statement that Russia’s accusations made against the British diplomats were “entirely false” and “fabricated in order to justify their increasing harassment of UK diplomats”.\n\nA Foreign Office spokesperson said:\n\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\n\nRussia’s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation.\n\nThe accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\n\nMoscow has been angered by Britain’s continued military support for Ukraine and by prime minister Keir Starmer’s recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force, Reuters reported.\n\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the “intimidation” of its diplomats and staff.\n\nThe spokesperson added:\n\nIt is clear that the Russian state is actively seeking to drive the British embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\n\nSummoning the Russian ambassador today, a senior Foreign Office offici…\n\n[Truncated preview: showing 318 words out of ~4350. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "content": "---\ntitle: Statement: Foreign Office summons Russian Ambassador - 12 March 2025\nurl: https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\nhostname: gov.uk\ndescription: The Foreign Office protests Russia's campaign of harassment against British diplomats.\nsitename: GOV.UK\ndate: 2025-03-12\nlicense: Open Government Licence v3.0\n---\n# Statement: Foreign Office summons Russian Ambassador - 12 March 2025\n\nThe Foreign Office protests Russia's campaign of harassment against British diplomats.\n\n### A Foreign Office spokesperson said:\n\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\n\nRussia’s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation. The accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\n\nIt is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\n\nSummoning the Russian Ambassador today, a senior Foreign Office official made clear that the UK will not stand for intimidation of British embassy staff and their families. Consequently, we are taking immediate reciprocal action, revoking accreditation for a Russian diplomat and a diplomatic spouse.\n\nWe do not take this decision lightly, but we have always made clear to Russia that if they escalate, we will take reciprocal action. The depths to which Russia sinks can only be met through strength.\n\nDespite the extremely difficult bilateral relations caused by Russia’s illegal invasion of Ukraine and long-running campaign of hostile action against the UK, the UK Government believes that maintaining diplomatic channels of communication, and our respective diplomatic missions, is important. It is deeply disappointing that this is continually made more difficult by unprovoked action from Russia.\n\nWe have drawn a line under this incident and demand Russia do the same. Any further action taken by Russia will be considered an escalation and responded to accordingly.\n\n\nMedia enquiries\n\nEmail [newsdesk@fcdo.gov.uk](mailto:newsdesk@fcdo.gov.uk)\n\nTelephone 020 7008 3100\n\nContact the FCDO Communication Team via email (monitored 24 hours a day) in the first instance, and we w…\n\n[Truncated preview: showing 351 words out of ~356. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "fact": "On March 10, 2025, Russia expelled two British diplomats, accusing them of spying."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "fact": "The UK Foreign Office rejected Russia's allegations against its diplomats as 'baseless'."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "fact": "Russia's Federal Security Service claimed the expelled diplomats provided false information and engaged in intelligence work."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "fact": "The expulsions are part of a broader pattern of deteriorating diplomatic relations between the UK and Russia, exacerbated by the UK's military support for Ukraine."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+      "fact": "Russia's Foreign Ministry warned it would 'respond in kind' if the UK escalates the situation further."
+    },
+    {
+      "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "fact": "On March 10, 2025, Russia ordered two people connected to the British embassy to leave the country, accusing them of intelligence and subversive activities."
+    },
+    {
+      "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "fact": "The UK government responded to the expulsions by accusing Russia of making malicious and baseless accusations."
+    },
+    {
+      "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "fact": "The expulsions are part of a series of tit-for-tat diplomatic actions between the UK and Russia."
+    },
+    {
+      "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "fact": "The Russian government posted a video showing a British embassy representative being summoned to the foreign affairs ministry, indicating formal diplomatic actions."
+    },
+    {
+      "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+      "fact": "The expulsions appear to be a reaction to recent espionage convictions in the UK, suggesting a pattern of retaliatory measures."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "fact": "On March 12, 2025, the UK revoked the accreditation of a Russian diplomat in response to Russia's expulsion of two British diplomats."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "fact": "Russia expelled two British diplomats on March 10, 2025, accusing them of spying."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "fact": "The UK Foreign Office accused Russia of trying to force the British Embassy in Moscow to close."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "fact": "The UK has stated that any further action by Russia will be considered an escalation and will be responded to accordingly."
+    },
+    {
+      "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+      "fact": "The UK had previously revoked the accreditation of another Russian diplomat in February 2025, indicating a pattern of reciprocal diplomatic actions."
+    },
+    {
+      "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "fact": "The UK expelled a Russian diplomat and revoked accreditation for a Russian diplomat and a diplomatic spouse in response to similar actions by Russia earlier in the week."
+    },
+    {
+      "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "fact": "Russia's recent expulsion of a British diplomat and diplomatic spouse was described as an escalation by the UK."
+    },
+    {
+      "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "fact": "The UK has accused Russia of seeking to drive the British embassy in Moscow towards closure, indicating heightened tensions."
+    },
+    {
+      "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "fact": "The UK summoned the Russian ambassador to express that it will not stand for the intimidation of its diplomats."
+    },
+    {
+      "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+      "fact": "The UK has taken immediate reciprocal action against Russia, highlighting the ongoing tit-for-tat nature of the diplomatic conflict."
+    },
+    {
+      "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "fact": "On March 12, 2025, the UK Foreign Office summoned the Russian Ambassador to protest Russia's campaign of harassment against British diplomats."
+    },
+    {
+      "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "fact": "The UK has revoked the accreditation of a Russian diplomat and a diplomatic spouse as a reciprocal action to Russia's recent expulsion of a British diplomat and diplomatic spouse."
+    },
+    {
+      "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "fact": "The UK Foreign Office stated that Russia's actions are driving the British Embassy in Moscow towards closure."
+    },
+    {
+      "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "fact": "The UK has made it clear that any further action by Russia will be considered an escalation and will be responded to accordingly."
+    },
+    {
+      "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+      "fact": "The UK government emphasizes the importance of maintaining diplomatic channels despite the difficult bilateral relations caused by Russia's actions."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.7224999999999999,
+  "weighted_brier_score": 0.7224999999999999,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+        "queries": [
+          "UK Russia diplomat expulsion March 2025 news",
+          "UK Russia diplomatic tensions March 2025 government statements",
+          "UK Russia diplomatic expert analysis March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"queries\": [\"UK Russia diplomat expulsion March 2025 news\", \"UK Russia diplomatic tensions March 2025 government statements\", \"UK Russia diplomatic expert analysis March 2025\"]}",
+      "tool_call_id": "call_eokaxu08B3SHHcbAyzFgFbnF"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "UK Russia diplomat expulsion March 2025 news",
+        "results": [
+          {
+            "title": "Russia expels two UK diplomats as it negotiates to restore US ties | Reuters",
+            "link": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "position": 1,
+            "snippet": "Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe...",
+            "date": null
+          },
+          {
+            "title": "Russia orders two people connected to British embassy to leave country | Russia | The Guardian",
+            "link": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "position": 2,
+            "snippet": "Russia orders two people connected to the British embassy in Moscow to leave the country, accusing them of intelligence and subversive activities in a tit-for-tat expulsion.",
+            "date": "2025-03-10T18:05:05Z"
+          },
+          {
+            "title": "UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions | Reuters",
+            "link": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "position": 3,
+            "snippet": "Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.",
+            "date": null
+          },
+          {
+            "title": "Russia expels two British diplomats for alleged spying | Politics News | Al Jazeera",
+            "link": "https://www.aljazeera.com/news/2025/3/10/russia-expels-two-british-diplomats-for-alleged-spying",
+            "position": 4,
+            "snippet": "Russia expels two British diplomats for alleged spying, with the UK rejecting accusations after FSB said it identified signs of intelligence and subversive work.",
+            "date": null
+          },
+          {
+            "title": "UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews",
+            "link": "https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow",
+            "position": 2,
+            "snippet": "The Foreign, Commonwealth and Development Office has revoked accreditation for a Russian diplomat and a diplomatic spouse in retaliation for expulsions announced in Moscow this week.",
+            "date": null
+          },
+          {
+            "title": "UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city – as it happened | Politics | The Guardian",
+            "link": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "position": 3,
+            "snippet": "Britain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats.",
+            "date": "2025-03-13T07:57:57Z"
+          },
+          {
+            "title": "UK expels Russian diplomat as tensions with Moscow escalate | The Independent",
+            "link": "https://www.the-independent.com/news/uk/home-news/foreign-office-moscow-david-lammy-kremlin-red-square-b2713886.html",
+            "position": 4,
+            "snippet": "The UK has expelled a Russian diplomat and a diplomatic spouse in response to an “increasingly aggressive and co-ordinated campaign of harassment” against British officials in Moscow.",
+            "date": "2025-03-12T19:43:00Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"UK Russia diplomat expulsion March 2025 news\", \"results\": [{\"title\": \"Russia expels two UK diplomats as it negotiates to restore US ties | Reuters\", \"link\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"position\": 1, \"snippet\": \"Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe...\", \"date\": null}, {\"title\": \"Russia orders two people connected to British embassy to leave country | Russia | The Guardian\", \"link\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"position\": 2, \"snippet\": \"Russia orders two people connected to the British embassy in Moscow to leave the country, accusing them of intelligence and subversive activities in a tit-for-tat expulsion.\", \"date\": \"2025-03-10T18:05:05Z\"}, {\"title\": \"UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions | Reuters\", \"link\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"position\": 3, \"snippet\": \"Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.\", \"date\": null}, {\"title\": \"Russia expels two British diplomats for alleged spying | Politics News | Al Jazeera\", \"link\": \"https://www.aljazeera.com/news/2025/3/10/russia-expels-two-british-diplomats-for-alleged-spying\", \"position\": 4, \"snippet\": \"Russia expels two British diplomats for alleged spying, with the UK rejecting accusations after FSB said it identified signs of intelligence and subversive work.\", \"date\": null}, {\"title\": \"UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews\", \"link\": \"https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow\", \"position\": 2, \"snippet\": \"The Foreign, Commonwealth and Development Office has revoked accreditation for a Russian diplomat and a diplomatic spouse in retaliation for expulsions announced in Moscow this week.\", \"date\": null}, {\"title\": \"UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city \\u2013 as it happened | Politics | The Guardian\", \"link\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"position\": 3, \"snippet\": \"Britain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats.\", \"date\": \"2025-03-13T07:57:57Z\"}, {\"title\": \"UK expels Russian diplomat as tensions with Moscow escalate | The Independent\", \"link\": \"https://www.the-independent.com/news/uk/home-news/foreign-office-moscow-david-lammy-kremlin-red-square-b2713886.html\", \"position\": 4, \"snippet\": \"The UK has expelled a Russian diplomat and a diplomatic spouse in response to an \\u201cincreasingly aggressive and co-ordinated campaign of harassment\\u201d against British officials in Moscow.\", \"date\": \"2025-03-12T19:43:00Z\"}]}",
+      "tool_call_id": "call_rKD32bywnM3UZbvIDP8KDXFz"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "UK Russia diplomatic tensions March 2025 government statements",
+        "results": [
+          {
+            "title": "Statement: Foreign Office summons Russian Ambassador - 12 March 2025 - GOV.UK",
+            "link": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "position": 1,
+            "snippet": "The Foreign Office protests Russia's campaign of harassment against British diplomats. Russia’s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation.",
+            "date": null
+          },
+          {
+            "title": "PM statement to the House of Commons: 3 March 2025 - GOV.UK",
+            "link": "https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-3-march-2025",
+            "position": 2,
+            "snippet": "The Prime Minister's statement to the House of Commons on Ukraine. \"Following Russia’s vile invasion of Ukraine... Keep increasing the economic pressure on Russia.\"",
+            "date": null
+          },
+          {
+            "title": "Diplomatic Expulsions Heighten Tensions between Russia, UK - Caspian News",
+            "link": "https://caspiannews.com/news-detail/diplomatic-expulsions-heighten-tensions-between-russia-uk-2025-3-13-40/",
+            "position": 3,
+            "snippet": "Tensions between Russia and the United Kingdom escalated this week as the UK revoked the accreditation of a Russian diplomat in a tit-for-tat move. According to the British Foreign Office, Russia has been conducting \"an increasingly aggressive and coordinated campaign of harassment against British diplomats\"...",
+            "date": null
+          },
+          {
+            "title": "UK Spat With Russia Escalates Over British Diplomat’s Expulsion - Bloomberg",
+            "link": "https://www.bloomberg.com/news/articles/2025-03-12/uk-spat-with-russia-escalates-over-british-diplomat-s-expulsion",
+            "position": 4,
+            "snippet": "The UK said it’s revoking accreditation for a Russian diplomat and a diplomatic spouse in retaliation against Moscow’s expulsion of two Britons earlier in the week.",
+            "date": null
+          },
+          {
+            "title": "Foreign Office protests Russia's harassment of British diplomats | UK | News | Express.co.uk",
+            "link": "https://www.express.co.uk/news/uk/2026375/foreign-office-russia-ukraine-diplomats",
+            "position": 2,
+            "snippet": "A Foreign Office spokesperson said it was \"increasingly clear\" that the Russian state was actively seeking to drive the British Embassy in Moscow towards closure...",
+            "date": "2025-03-12T17:30:00Z"
+          },
+          {
+            "title": "As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters",
+            "link": "https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/",
+            "position": 3,
+            "snippet": "Russia's foreign intelligence service called Britain a \"warmonger\" and accused London of trying to derail peace efforts in Ukraine, leading to tit-for-tat expulsions of diplomats.",
+            "date": null
+          },
+          {
+            "title": "Putin boots out more British diplomats in spying row – POLITICO",
+            "link": "https://www.politico.eu/article/vladimir-putin-russia-boots-out-more-british-diplomats-in-spying-row/",
+            "position": 4,
+            "snippet": "Russia’s FSB accuses pair of “intelligence and subversive work” – as Britain brands the claims “baseless.” Putin’s government expelled a British diplomat and the spouse of another after accusing them of spying.",
+            "date": "2025-03-10T09:59:39Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"UK Russia diplomatic tensions March 2025 government statements\", \"results\": [{\"title\": \"Statement: Foreign Office summons Russian Ambassador - 12 March 2025 - GOV.UK\", \"link\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"position\": 1, \"snippet\": \"The Foreign Office protests Russia's campaign of harassment against British diplomats. Russia\\u2019s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation.\", \"date\": null}, {\"title\": \"PM statement to the House of Commons: 3 March 2025 - GOV.UK\", \"link\": \"https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-3-march-2025\", \"position\": 2, \"snippet\": \"The Prime Minister's statement to the House of Commons on Ukraine. \\\"Following Russia\\u2019s vile invasion of Ukraine... Keep increasing the economic pressure on Russia.\\\"\", \"date\": null}, {\"title\": \"Diplomatic Expulsions Heighten Tensions between Russia, UK - Caspian News\", \"link\": \"https://caspiannews.com/news-detail/diplomatic-expulsions-heighten-tensions-between-russia-uk-2025-3-13-40/\", \"position\": 3, \"snippet\": \"Tensions between Russia and the United Kingdom escalated this week as the UK revoked the accreditation of a Russian diplomat in a tit-for-tat move. According to the British Foreign Office, Russia has been conducting \\\"an increasingly aggressive and coordinated campaign of harassment against British diplomats\\\"...\", \"date\": null}, {\"title\": \"UK Spat With Russia Escalates Over British Diplomat\\u2019s Expulsion - Bloomberg\", \"link\": \"https://www.bloomberg.com/news/articles/2025-03-12/uk-spat-with-russia-escalates-over-british-diplomat-s-expulsion\", \"position\": 4, \"snippet\": \"The UK said it\\u2019s revoking accreditation for a Russian diplomat and a diplomatic spouse in retaliation against Moscow\\u2019s expulsion of two Britons earlier in the week.\", \"date\": null}, {\"title\": \"Foreign Office protests Russia's harassment of British diplomats | UK | News | Express.co.uk\", \"link\": \"https://www.express.co.uk/news/uk/2026375/foreign-office-russia-ukraine-diplomats\", \"position\": 2, \"snippet\": \"A Foreign Office spokesperson said it was \\\"increasingly clear\\\" that the Russian state was actively seeking to drive the British Embassy in Moscow towards closure...\", \"date\": \"2025-03-12T17:30:00Z\"}, {\"title\": \"As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters\", \"link\": \"https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/\", \"position\": 3, \"snippet\": \"Russia's foreign intelligence service called Britain a \\\"warmonger\\\" and accused London of trying to derail peace efforts in Ukraine, leading to tit-for-tat expulsions of diplomats.\", \"date\": null}, {\"title\": \"Putin boots out more British diplomats in spying row \\u2013 POLITICO\", \"link\": \"https://www.politico.eu/article/vladimir-putin-russia-boots-out-more-british-diplomats-in-spying-row/\", \"position\": 4, \"snippet\": \"Russia\\u2019s FSB accuses pair of \\u201cintelligence and subversive work\\u201d \\u2013 as Britain brands the claims \\u201cbaseless.\\u201d Putin\\u2019s government expelled a British diplomat and the spouse of another after accusing them of spying.\", \"date\": \"2025-03-10T09:59:39Z\"}]}",
+      "tool_call_id": "call_DqoghQDBeNpXdSyCdmK8jnLV"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "UK Russia diplomatic expert analysis March 2025",
+        "results": [
+          {
+            "title": "Russia expels two UK diplomats as it negotiates to restore US ties | Reuters",
+            "link": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "position": 1,
+            "snippet": "Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe...",
+            "date": null
+          },
+          {
+            "title": "As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters",
+            "link": "https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/",
+            "position": 4,
+            "snippet": "As the U.S. under Donald Trump seeks to reset ties with Moscow, Britain has been granted the status of Russia's public enemy number one, according to analysis from March 2025.",
+            "date": null
+          },
+          {
+            "title": "UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews",
+            "link": "https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow",
+            "position": 1,
+            "snippet": "The UK has revoked accreditation for a Russian diplomat and a diplomatic spouse in a tit-for-tat response to the expulsion of two British embassy staff in Moscow this week.",
+            "date": null
+          },
+          {
+            "title": "Russia in Review, March 7-14, 2025 | Russia Matters",
+            "link": "https://www.russiamatters.org/news/russia-review/russia-review-march-7-14-2025",
+            "position": 3,
+            "snippet": "High-level U.S. and Ukrainian delegations endorsed the West’s proposal for an immediate 30-day ceasefire in the Russian-Ukrainian conflict contingent on Russia's consent. Vladimir Putin’s chief foreign policy aide Yuri Ushakov spoke against it.",
+            "date": null
+          },
+          {
+            "title": "Russia’s Shadow War Against the West",
+            "link": "https://www.csis.org/analysis/russias-shadow-war-against-west",
+            "position": 4,
+            "snippet": "Russia is conducting an escalating and violent campaign of sabotage and subversion against European and U.S. targets in Europe, according to a new CSIS database. The number of Russian attacks nearly tripled between 2023 and 2024.",
+            "date": null
+          },
+          {
+            "title": "UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city – as it happened | Politics | The Guardian",
+            "link": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "position": 5,
+            "snippet": "UK to expel Russian diplomat and accuses Moscow of seeking to close British embassy in response to similar Russian measures earlier this week...",
+            "date": "2025-03-13T07:57:57Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"UK Russia diplomatic expert analysis March 2025\", \"results\": [{\"title\": \"Russia expels two UK diplomats as it negotiates to restore US ties | Reuters\", \"link\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"position\": 1, \"snippet\": \"Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe...\", \"date\": null}, {\"title\": \"As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters\", \"link\": \"https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/\", \"position\": 4, \"snippet\": \"As the U.S. under Donald Trump seeks to reset ties with Moscow, Britain has been granted the status of Russia's public enemy number one, according to analysis from March 2025.\", \"date\": null}, {\"title\": \"UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews\", \"link\": \"https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow\", \"position\": 1, \"snippet\": \"The UK has revoked accreditation for a Russian diplomat and a diplomatic spouse in a tit-for-tat response to the expulsion of two British embassy staff in Moscow this week.\", \"date\": null}, {\"title\": \"Russia in Review, March 7-14, 2025 | Russia Matters\", \"link\": \"https://www.russiamatters.org/news/russia-review/russia-review-march-7-14-2025\", \"position\": 3, \"snippet\": \"High-level U.S. and Ukrainian delegations endorsed the West\\u2019s proposal for an immediate 30-day ceasefire in the Russian-Ukrainian conflict contingent on Russia's consent. Vladimir Putin\\u2019s chief foreign policy aide Yuri Ushakov spoke against it.\", \"date\": null}, {\"title\": \"Russia\\u2019s Shadow War Against the West\", \"link\": \"https://www.csis.org/analysis/russias-shadow-war-against-west\", \"position\": 4, \"snippet\": \"Russia is conducting an escalating and violent campaign of sabotage and subversion against European and U.S. targets in Europe, according to a new CSIS database. The number of Russian attacks nearly tripled between 2023 and 2024.\", \"date\": null}, {\"title\": \"UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city \\u2013 as it happened | Politics | The Guardian\", \"link\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"position\": 5, \"snippet\": \"UK to expel Russian diplomat and accuses Moscow of seeking to close British embassy in response to similar Russian measures earlier this week...\", \"date\": \"2025-03-13T07:57:57Z\"}]}",
+      "tool_call_id": "call_dPCeOhMJBngzWYKISSSirFrQ"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+        "snippet": "---\ntitle: Russia expels two UK diplomats as it negotiates to restore US ties\nauthor: Andrew Osborn; Ksenia Orlova\nurl: https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\nhostname: reuters.com\ndescription: Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\nsitename: Reuters\ndate: 2025-03-10\ncategories: ['Europe']\ntags: ['CWP,DEF,DIP,GEN,INTAG,NATO,NEWS1,POL,SECUR,WAR,GB,CEEU,WEU,AMERS,US,EUROP,UA,RU,NASIA,NAMER,EMEA,ASXPAC,CISC,EMRG,ASIA,RULES:RUSSIA,DEST:OUKDNM,DEST:OUKTPM,POTUS,WASH,EEU,DEST:OUSTPM,DEST:OCATPM,DEST:OUSWDM,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN']\n---\n# Russia expels two UK diplomats as it negotiates to restore US ties\n\nMOSCOW, March 10 (Reuters) - Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\n\nBritain's Foreign Office rejected the allegations against its diplomats as \"baseless\".\n\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\n\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground and planes in the air in Ukraine as part of a potential peacekeeping force.\n\nThe expulsions also come days after three Bulgarians were\n\n[found guilty](https://www.reuters.com/world/europe/three-bulgarians-convicted-spying-russia-after-uk-trial-2025-03-07/)in a London court of being part of a Russian spy unit run by Wirecard fugitive Jan Marsalek to carry out surveillance on a U.S. military base and other individuals targeted by Moscow.The two Britons appear to be the first Western diplomats to be expelled from Russia since Moscow and Washington opened talks on restoring staff at their respective embassies that have been depleted by tit-for-tat expulsions, part of Donald Trump's rapprochement with the Kremlin that has alarmed European allies.\n\nSimilar expulsions have sharply curtailed the functioning of…\n\n[Truncated preview: showing 281 words out of ~557. Full content available via `btf_extract_evidence`.]",
+        "word_count": 557,
+        "snippet_word_count": 281,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-27T09:26:06.924770",
+        "date_cutoff_end": "2025-03-28T09:26:06.924770",
+        "cached_at": "2025-10-24T04:12:49.221644"
+      },
+      "raw": "{\"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"snippet\": \"---\\ntitle: Russia expels two UK diplomats as it negotiates to restore US ties\\nauthor: Andrew Osborn; Ksenia Orlova\\nurl: https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\\nhostname: reuters.com\\ndescription: Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\\nsitename: Reuters\\ndate: 2025-03-10\\ncategories: ['Europe']\\ntags: ['CWP,DEF,DIP,GEN,INTAG,NATO,NEWS1,POL,SECUR,WAR,GB,CEEU,WEU,AMERS,US,EUROP,UA,RU,NASIA,NAMER,EMEA,ASXPAC,CISC,EMRG,ASIA,RULES:RUSSIA,DEST:OUKDNM,DEST:OUKTPM,POTUS,WASH,EEU,DEST:OUSTPM,DEST:OCATPM,DEST:OUSWDM,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN']\\n---\\n# Russia expels two UK diplomats as it negotiates to restore US ties\\n\\nMOSCOW, March 10 (Reuters) - Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\\n\\nBritain's Foreign Office rejected the allegations against its diplomats as \\\"baseless\\\".\\n\\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\\n\\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground and planes in the air in Ukraine as part of a potential peacekeeping force.\\n\\nThe expulsions also come days after three Bulgarians were\\n\\n[found guilty](https://www.reuters.com/world/europe/three-bulgarians-convicted-spying-russia-after-uk-trial-2025-03-07/)in a London court of being part of a Russian spy unit run by Wirecard fugitive Jan Marsalek to carry out surveillance on a U.S. military base and other individuals targeted by Moscow.The two Britons appear to be the first Western diplomats to be expelled from Russia since Moscow and Washington opened talks on restoring staff at their respective embassies that have been depleted by tit-for-tat expulsions, part of Donald Trump's rapprochement with the Kremlin that has alarmed European allies.\\n\\nSimilar expulsions have sharply curtailed the functioning of\\u2026\\n\\n[Truncated preview: showing 281 words out of ~557. Full content available via `btf_extract_evidence`.]\", \"word_count\": 557, \"snippet_word_count\": 281, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:49.221644\"}",
+      "tool_call_id": "call_DFpazVRPWjGSIoUmKSgDfKoF"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+        "snippet": "---\ntitle: Russia orders two people connected to British embassy to leave country\nauthor: Ben Quinn\nurl: https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\nhostname: theguardian.com\ndescription: Kremlin accuses individuals of ‘intelligence and subversive activities’ in what appears to be latest in tit-for-tat diplomatic expulsions\nsitename: The Guardian\ndate: 2025-03-10\ncategories: ['World news']\ntags: ['Russia,Europe,World news,UK news']\n---\nTwo people connected to the British embassy in Moscow have been ordered to leave the country by the Russian authorities, which claimed they had been performing intelligence work.\n\nThe British government hit back by accusing Russia of making “malicious and baseless accusations”.\n\nCiting Russia’s Federal Security Service (FSB), the state news agency Tass identified the two individuals who had been expelled as a second secretary of the British embassy and the spouse of another British diplomat.\n\nIt named the two people and accused them of deliberately declaring false information about themselves when entering the country.\n\nThey have been given two weeks to leave, according to the Russian government, which accused them of “intelligence and subversive activities”.\n\nThe FSB had uncovered what it called “signs of intelligence and sabotage work” by both that threatened Russia’s national security, Tass added.\n\nIt comes days after three Bulgarian nationals accused of spying for Russia [were found guilty ](https://www.theguardian.com/world/2025/mar/07/three-bulgarian-nationals-found-guilty-spying-russia-uk)of espionage charges in a trial that heard how they were involved in a string of plots around Europe directed by a fugitive based in Moscow.\n\nDowning Street said the latest expulsions were “what we have come to expect from President Putin and his regime” and “the allegations are no doubt baseless”.\n\nThe prime minister’s official spokesperson said: “It won’t distract us from our focus on supporting Ukraine and putting Ukraine in the strongest possible position over the days and weeks ahead.”\n\nThe Russian government posted a video on X on Monday morning showing what it said was a representative of the British embassy being summoned to the foreign affairs ministry.\n\nThe move appears to the latest in a series of tit-for-tat expulsions of diplomats by Russia and the UK.\n\nBritain expelled a Russian diplomat last month with the foreign secretary, David Lammy, saying th…\n\n[Truncated preview: showing 350 words out of ~675. Full content available via `btf_extract_evidence`.]",
+        "word_count": 675,
+        "snippet_word_count": 350,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-27T09:26:06.924770",
+        "date_cutoff_end": "2025-03-28T09:26:06.924770",
+        "cached_at": "2025-10-24T04:12:49.670978"
+      },
+      "raw": "{\"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"snippet\": \"---\\ntitle: Russia orders two people connected to British embassy to leave country\\nauthor: Ben Quinn\\nurl: https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\\nhostname: theguardian.com\\ndescription: Kremlin accuses individuals of \\u2018intelligence and subversive activities\\u2019 in what appears to be latest in tit-for-tat diplomatic expulsions\\nsitename: The Guardian\\ndate: 2025-03-10\\ncategories: ['World news']\\ntags: ['Russia,Europe,World news,UK news']\\n---\\nTwo people connected to the British embassy in Moscow have been ordered to leave the country by the Russian authorities, which claimed they had been performing intelligence work.\\n\\nThe British government hit back by accusing Russia of making \\u201cmalicious and baseless accusations\\u201d.\\n\\nCiting Russia\\u2019s Federal Security Service (FSB), the state news agency Tass identified the two individuals who had been expelled as a second secretary of the British embassy and the spouse of another British diplomat.\\n\\nIt named the two people and accused them of deliberately declaring false information about themselves when entering the country.\\n\\nThey have been given two weeks to leave, according to the Russian government, which accused them of \\u201cintelligence and subversive activities\\u201d.\\n\\nThe FSB had uncovered what it called \\u201csigns of intelligence and sabotage work\\u201d by both that threatened Russia\\u2019s national security, Tass added.\\n\\nIt comes days after three Bulgarian nationals accused of spying for Russia [were found guilty ](https://www.theguardian.com/world/2025/mar/07/three-bulgarian-nationals-found-guilty-spying-russia-uk)of espionage charges in a trial that heard how they were involved in a string of plots around Europe directed by a fugitive based in Moscow.\\n\\nDowning Street said the latest expulsions were \\u201cwhat we have come to expect from President Putin and his regime\\u201d and \\u201cthe allegations are no doubt baseless\\u201d.\\n\\nThe prime minister\\u2019s official spokesperson said: \\u201cIt won\\u2019t distract us from our focus on supporting Ukraine and putting Ukraine in the strongest possible position over the days and weeks ahead.\\u201d\\n\\nThe Russian government posted a video on X on Monday morning showing what it said was a representative of the British embassy being summoned to the foreign affairs ministry.\\n\\nThe move appears to the latest in a series of tit-for-tat expulsions of diplomats by Russia and the UK.\\n\\nBritain expelled a Russian diplomat last month with the foreign secretary, David Lammy, saying th\\u2026\\n\\n[Truncated preview: showing 350 words out of ~675. Full content available via `btf_extract_evidence`.]\", \"word_count\": 675, \"snippet_word_count\": 350, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:49.670978\"}",
+      "tool_call_id": "call_wbJoWOutQLSMVWGtMICtyzJw"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+        "snippet": "---\ntitle: UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\nauthor: Reuters\nurl: https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\nhostname: reuters.com\ndescription: Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.\nsitename: Reuters\ndate: 2025-03-12\ncategories: ['Europe']\ntags: ['CWP,DEF,DIP,ECO,GEN,MCE,PLCY,POL,WAR,GB,CEEU,WEU,EUROP,UA,RU,NASIA,EMEA,ASXPAC,CISC,EMRG,ASIA,EEU,RULES:RUSSIA,ECON,DEST:OUKTPM,DEST:OCATPM,DEST:OUSTPM,DEST:OUSWDM,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:OUKDNM']\n---\n# UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\n\nLONDON, March 12 (Reuters) - Britain revoked the accreditation of a Russian diplomat on Wednesday in response to\n\n[Russia's expulsion of](https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/)two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.The move is the latest in a series of tit-for-tat diplomatic sanctions after Russia accused two British diplomats on Monday of spying - allegations rejected by Britain as \"baseless\" - and gave them two weeks to leave the country.\n\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\n\n\"It is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this,\" a Foreign Office spokesperson said in a statement announcing the move.\n\nRussia's embassy in London did not immediately respond to a request for comment.\n\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force.\n\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the \"intimidation\" of its diplomats and embassy staff.\n\n\"We have drawn a line under this incident and demand Russia do the same,\" the Foreign Office spokesperson said. \"An…\n\n[Truncated preview: showing 292 words out of ~345. Full content available via `btf_extract_evidence`.]",
+        "word_count": 345,
+        "snippet_word_count": 292,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-27T09:26:06.924770",
+        "date_cutoff_end": "2025-03-28T09:26:06.924770",
+        "cached_at": "2025-10-24T04:12:50.144844"
+      },
+      "raw": "{\"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"snippet\": \"---\\ntitle: UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\\nauthor: Reuters\\nurl: https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\\nhostname: reuters.com\\ndescription: Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.\\nsitename: Reuters\\ndate: 2025-03-12\\ncategories: ['Europe']\\ntags: ['CWP,DEF,DIP,ECO,GEN,MCE,PLCY,POL,WAR,GB,CEEU,WEU,EUROP,UA,RU,NASIA,EMEA,ASXPAC,CISC,EMRG,ASIA,EEU,RULES:RUSSIA,ECON,DEST:OUKTPM,DEST:OCATPM,DEST:OUSTPM,DEST:OUSWDM,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:OUKDNM']\\n---\\n# UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\\n\\nLONDON, March 12 (Reuters) - Britain revoked the accreditation of a Russian diplomat on Wednesday in response to\\n\\n[Russia's expulsion of](https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/)two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.The move is the latest in a series of tit-for-tat diplomatic sanctions after Russia accused two British diplomats on Monday of spying - allegations rejected by Britain as \\\"baseless\\\" - and gave them two weeks to leave the country.\\n\\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\\n\\n\\\"It is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this,\\\" a Foreign Office spokesperson said in a statement announcing the move.\\n\\nRussia's embassy in London did not immediately respond to a request for comment.\\n\\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force.\\n\\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the \\\"intimidation\\\" of its diplomats and embassy staff.\\n\\n\\\"We have drawn a line under this incident and demand Russia do the same,\\\" the Foreign Office spokesperson said. \\\"An\\u2026\\n\\n[Truncated preview: showing 292 words out of ~345. Full content available via `btf_extract_evidence`.]\", \"word_count\": 345, \"snippet_word_count\": 292, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:50.144844\"}",
+      "tool_call_id": "call_bJLu2VYEfTZ0VOUUPCH3j7zr"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+        "snippet": "---\ntitle: UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city – as it happened\nauthor: Tom Ambrose; Andrew Sparrow\nurl: https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\nhostname: theguardian.com\ndescription: Move is in response to similar Russian measures earlier this week\nsitename: The Guardian\ndate: 2025-03-12\ncategories: ['Politics']\ntags: ['Politics,UK news,PMQs,Keir Starmer,Kemi Badenoch,Labour,Conservatives,House of Commons,Welfare,Disability,Benefits,TUC,Farming,Nicola Sturgeon,Donald Trump,Trump administration,Liberal Democrats,Quangos,Trade policy,Israel,Gaza,Law,Sentencing,Equality and Human Rights Commission (EHRC),Scotland,Scottish politics,Russia,Planning policy,Angela Rayner,Local government']\n---\nUK to expel Russian diplomat and accuses Moscow of seeking to close British embassy\n\nBritain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats.\n\nA government spokesperson said in a statement that Russia’s accusations made against the British diplomats were “entirely false” and “fabricated in order to justify their increasing harassment of UK diplomats”.\n\nA Foreign Office spokesperson said:\n\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\n\nRussia’s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation.\n\nThe accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\n\nMoscow has been angered by Britain’s continued military support for Ukraine and by prime minister Keir Starmer’s recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force, Reuters reported.\n\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the “intimidation” of its diplomats and staff.\n\nThe spokesperson added:\n\nIt is clear that the Russian state is actively seeking to drive the British embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\n\nSummoning the Russian ambassador today, a senior Foreign Office offici…\n\n[Truncated preview: showing 318 words out of ~4350. Full content available via `btf_extract_evidence`.]",
+        "word_count": 4350,
+        "snippet_word_count": 318,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-27T09:26:06.924770",
+        "date_cutoff_end": "2025-03-28T09:26:06.924770",
+        "cached_at": "2025-10-24T04:12:50.636873"
+      },
+      "raw": "{\"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"snippet\": \"---\\ntitle: UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city \\u2013 as it happened\\nauthor: Tom Ambrose; Andrew Sparrow\\nurl: https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\\nhostname: theguardian.com\\ndescription: Move is in response to similar Russian measures earlier this week\\nsitename: The Guardian\\ndate: 2025-03-12\\ncategories: ['Politics']\\ntags: ['Politics,UK news,PMQs,Keir Starmer,Kemi Badenoch,Labour,Conservatives,House of Commons,Welfare,Disability,Benefits,TUC,Farming,Nicola Sturgeon,Donald Trump,Trump administration,Liberal Democrats,Quangos,Trade policy,Israel,Gaza,Law,Sentencing,Equality and Human Rights Commission (EHRC),Scotland,Scottish politics,Russia,Planning policy,Angela Rayner,Local government']\\n---\\nUK to expel Russian diplomat and accuses Moscow of seeking to close British embassy\\n\\nBritain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats.\\n\\nA government spokesperson said in a statement that Russia\\u2019s accusations made against the British diplomats were \\u201centirely false\\u201d and \\u201cfabricated in order to justify their increasing harassment of UK diplomats\\u201d.\\n\\nA Foreign Office spokesperson said:\\n\\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\\n\\nRussia\\u2019s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation.\\n\\nThe accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\\n\\nMoscow has been angered by Britain\\u2019s continued military support for Ukraine and by prime minister Keir Starmer\\u2019s recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force, Reuters reported.\\n\\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the \\u201cintimidation\\u201d of its diplomats and staff.\\n\\nThe spokesperson added:\\n\\nIt is clear that the Russian state is actively seeking to drive the British embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\\n\\nSummoning the Russian ambassador today, a senior Foreign Office offici\\u2026\\n\\n[Truncated preview: showing 318 words out of ~4350. Full content available via `btf_extract_evidence`.]\", \"word_count\": 4350, \"snippet_word_count\": 318, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:50.636873\"}",
+      "tool_call_id": "call_Bx59rVVClyayeeCgDK3f3gn4"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+        "snippet": "---\ntitle: Statement: Foreign Office summons Russian Ambassador - 12 March 2025\nurl: https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\nhostname: gov.uk\ndescription: The Foreign Office protests Russia's campaign of harassment against British diplomats.\nsitename: GOV.UK\ndate: 2025-03-12\nlicense: Open Government Licence v3.0\n---\n# Statement: Foreign Office summons Russian Ambassador - 12 March 2025\n\nThe Foreign Office protests Russia's campaign of harassment against British diplomats.\n\n### A Foreign Office spokesperson said:\n\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\n\nRussia’s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation. The accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\n\nIt is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\n\nSummoning the Russian Ambassador today, a senior Foreign Office official made clear that the UK will not stand for intimidation of British embassy staff and their families. Consequently, we are taking immediate reciprocal action, revoking accreditation for a Russian diplomat and a diplomatic spouse.\n\nWe do not take this decision lightly, but we have always made clear to Russia that if they escalate, we will take reciprocal action. The depths to which Russia sinks can only be met through strength.\n\nDespite the extremely difficult bilateral relations caused by Russia’s illegal invasion of Ukraine and long-running campaign of hostile action against the UK, the UK Government believes that maintaining diplomatic channels of communication, and our respective diplomatic missions, is important. It is deeply disappointing that this is continually made more difficult by unprovoked action from Russia.\n\nWe have drawn a line under this incident and demand Russia do the same. Any further action taken by Russia will be considered an escalation and responded to accordingly.\n\n\nMedia enquiries\n\nEmail [newsdesk@fcdo.gov.uk](mailto:newsdesk@fcdo.gov.uk)\n\nTelephone 020 7008 3100\n\nContact the FCDO Communication Team via email (monitored 24 hours a day) in the first instance, and we w…\n\n[Truncated preview: showing 351 words out of ~356. Full content available via `btf_extract_evidence`.]",
+        "word_count": 356,
+        "snippet_word_count": 351,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-27T09:26:06.924770",
+        "date_cutoff_end": "2025-03-28T09:26:06.924770",
+        "cached_at": "2025-10-24T04:12:51.110180"
+      },
+      "raw": "{\"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"snippet\": \"---\\ntitle: Statement: Foreign Office summons Russian Ambassador - 12 March 2025\\nurl: https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\\nhostname: gov.uk\\ndescription: The Foreign Office protests Russia's campaign of harassment against British diplomats.\\nsitename: GOV.UK\\ndate: 2025-03-12\\nlicense: Open Government Licence v3.0\\n---\\n# Statement: Foreign Office summons Russian Ambassador - 12 March 2025\\n\\nThe Foreign Office protests Russia's campaign of harassment against British diplomats.\\n\\n### A Foreign Office spokesperson said:\\n\\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\\n\\nRussia\\u2019s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation. The accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\\n\\nIt is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\\n\\nSummoning the Russian Ambassador today, a senior Foreign Office official made clear that the UK will not stand for intimidation of British embassy staff and their families. Consequently, we are taking immediate reciprocal action, revoking accreditation for a Russian diplomat and a diplomatic spouse.\\n\\nWe do not take this decision lightly, but we have always made clear to Russia that if they escalate, we will take reciprocal action. The depths to which Russia sinks can only be met through strength.\\n\\nDespite the extremely difficult bilateral relations caused by Russia\\u2019s illegal invasion of Ukraine and long-running campaign of hostile action against the UK, the UK Government believes that maintaining diplomatic channels of communication, and our respective diplomatic missions, is important. It is deeply disappointing that this is continually made more difficult by unprovoked action from Russia.\\n\\nWe have drawn a line under this incident and demand Russia do the same. Any further action taken by Russia will be considered an escalation and responded to accordingly.\\n\\n\\nMedia enquiries\\n\\nEmail [newsdesk@fcdo.gov.uk](mailto:newsdesk@fcdo.gov.uk)\\n\\nTelephone 020 7008 3100\\n\\nContact the FCDO Communication Team via email (monitored 24 hours a day) in the first instance, and we w\\u2026\\n\\n[Truncated preview: showing 351 words out of ~356. Full content available via `btf_extract_evidence`.]\", \"word_count\": 356, \"snippet_word_count\": 351, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:51.110180\"}",
+      "tool_call_id": "call_K0VKxdjPVoSd7LLaB6gfVsDR"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+        "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+        "facts": [
+          {
+            "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "fact": "On March 10, 2025, Russia expelled two British diplomats, accusing them of spying."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "fact": "The UK Foreign Office rejected Russia's allegations against its diplomats as 'baseless'."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "fact": "Russia's Federal Security Service claimed the expelled diplomats provided false information and engaged in intelligence work."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "fact": "The expulsions are part of a broader pattern of deteriorating diplomatic relations between the UK and Russia, exacerbated by the UK's military support for Ukraine."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "url": "https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/",
+            "fact": "Russia's Foreign Ministry warned it would 'respond in kind' if the UK escalates the situation further."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"facts\": [{\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"On March 10, 2025, Russia expelled two British diplomats, accusing them of spying.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"The UK Foreign Office rejected Russia's allegations against its diplomats as 'baseless'.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"Russia's Federal Security Service claimed the expelled diplomats provided false information and engaged in intelligence work.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"The expulsions are part of a broader pattern of deteriorating diplomatic relations between the UK and Russia, exacerbated by the UK's military support for Ukraine.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"Russia's Foreign Ministry warned it would 'respond in kind' if the UK escalates the situation further.\"}]}",
+      "tool_call_id": "call_Ph7t8CWpca0rw8muW9x2OFw6"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+        "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+        "facts": [
+          {
+            "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "fact": "On March 10, 2025, Russia ordered two people connected to the British embassy to leave the country, accusing them of intelligence and subversive activities."
+          },
+          {
+            "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "fact": "The UK government responded to the expulsions by accusing Russia of making malicious and baseless accusations."
+          },
+          {
+            "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "fact": "The expulsions are part of a series of tit-for-tat diplomatic actions between the UK and Russia."
+          },
+          {
+            "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "fact": "The Russian government posted a video showing a British embassy representative being summoned to the foreign affairs ministry, indicating formal diplomatic actions."
+          },
+          {
+            "title": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "url": "https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country",
+            "fact": "The expulsions appear to be a reaction to recent espionage convictions in the UK, suggesting a pattern of retaliatory measures."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"facts\": [{\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"On March 10, 2025, Russia ordered two people connected to the British embassy to leave the country, accusing them of intelligence and subversive activities.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The UK government responded to the expulsions by accusing Russia of making malicious and baseless accusations.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The expulsions are part of a series of tit-for-tat diplomatic actions between the UK and Russia.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The Russian government posted a video showing a British embassy representative being summoned to the foreign affairs ministry, indicating formal diplomatic actions.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The expulsions appear to be a reaction to recent espionage convictions in the UK, suggesting a pattern of retaliatory measures.\"}]}",
+      "tool_call_id": "call_hI2q3DScOzujtKqQKJxEMAGI"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+        "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+        "facts": [
+          {
+            "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "fact": "On March 12, 2025, the UK revoked the accreditation of a Russian diplomat in response to Russia's expulsion of two British diplomats."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "fact": "Russia expelled two British diplomats on March 10, 2025, accusing them of spying."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "fact": "The UK Foreign Office accused Russia of trying to force the British Embassy in Moscow to close."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "fact": "The UK has stated that any further action by Russia will be considered an escalation and will be responded to accordingly."
+          },
+          {
+            "title": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "url": "https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/",
+            "fact": "The UK had previously revoked the accreditation of another Russian diplomat in February 2025, indicating a pattern of reciprocal diplomatic actions."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"facts\": [{\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"On March 12, 2025, the UK revoked the accreditation of a Russian diplomat in response to Russia's expulsion of two British diplomats.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"Russia expelled two British diplomats on March 10, 2025, accusing them of spying.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"The UK Foreign Office accused Russia of trying to force the British Embassy in Moscow to close.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"The UK has stated that any further action by Russia will be considered an escalation and will be responded to accordingly.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"The UK had previously revoked the accreditation of another Russian diplomat in February 2025, indicating a pattern of reciprocal diplomatic actions.\"}]}",
+      "tool_call_id": "call_mhKaIVpFEl6pviQh2pDdsbW4"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+        "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+        "facts": [
+          {
+            "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "fact": "The UK expelled a Russian diplomat and revoked accreditation for a Russian diplomat and a diplomatic spouse in response to similar actions by Russia earlier in the week."
+          },
+          {
+            "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "fact": "Russia's recent expulsion of a British diplomat and diplomatic spouse was described as an escalation by the UK."
+          },
+          {
+            "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "fact": "The UK has accused Russia of seeking to drive the British embassy in Moscow towards closure, indicating heightened tensions."
+          },
+          {
+            "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "fact": "The UK summoned the Russian ambassador to express that it will not stand for the intimidation of its diplomats."
+          },
+          {
+            "title": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "url": "https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news",
+            "fact": "The UK has taken immediate reciprocal action against Russia, highlighting the ongoing tit-for-tat nature of the diplomatic conflict."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"facts\": [{\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK expelled a Russian diplomat and revoked accreditation for a Russian diplomat and a diplomatic spouse in response to similar actions by Russia earlier in the week.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"Russia's recent expulsion of a British diplomat and diplomatic spouse was described as an escalation by the UK.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK has accused Russia of seeking to drive the British embassy in Moscow towards closure, indicating heightened tensions.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK summoned the Russian ambassador to express that it will not stand for the intimidation of its diplomats.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK has taken immediate reciprocal action against Russia, highlighting the ongoing tit-for-tat nature of the diplomatic conflict.\"}]}",
+      "tool_call_id": "call_5kbedFIyPDn6dkrU5BnJP57x"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+        "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+        "facts": [
+          {
+            "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "fact": "On March 12, 2025, the UK Foreign Office summoned the Russian Ambassador to protest Russia's campaign of harassment against British diplomats."
+          },
+          {
+            "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "fact": "The UK has revoked the accreditation of a Russian diplomat and a diplomatic spouse as a reciprocal action to Russia's recent expulsion of a British diplomat and diplomatic spouse."
+          },
+          {
+            "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "fact": "The UK Foreign Office stated that Russia's actions are driving the British Embassy in Moscow towards closure."
+          },
+          {
+            "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "fact": "The UK has made it clear that any further action by Russia will be considered an escalation and will be responded to accordingly."
+          },
+          {
+            "title": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "url": "https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025",
+            "fact": "The UK government emphasizes the importance of maintaining diplomatic channels despite the difficult bilateral relations caused by Russia's actions."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"facts\": [{\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"On March 12, 2025, the UK Foreign Office summoned the Russian Ambassador to protest Russia's campaign of harassment against British diplomats.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK has revoked the accreditation of a Russian diplomat and a diplomatic spouse as a reciprocal action to Russia's recent expulsion of a British diplomat and diplomatic spouse.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK Foreign Office stated that Russia's actions are driving the British Embassy in Moscow towards closure.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK has made it clear that any further action by Russia will be considered an escalation and will be responded to accordingly.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK government emphasizes the importance of maintaining diplomatic channels despite the difficult bilateral relations caused by Russia's actions.\"}]}",
+      "tool_call_id": "call_FnS6tLWrkegOYkBm1tQ2lkKv"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?\nBackground: Diplomatic tensions between Russia and the UK have been rising since 2024, with expulsions from both sides. In May 2024 the UK [expelled](https://www.theguardian.com/world/article/2024/may/08/uk-to-expel-russian-defence-attache-as-sanctions-escalate) Russia’s defence attache as an \"undeclared military intelligence officer\", removed diplomatic premises status from several Russian-owned properties, and imposed new restrictions on Russian diplomatic visas. Then, in September, Russia retaliated by [accusing](https://www.bbc.co.uk/news/articles/cpw8wp0w29vo) six UK diplomats for spying and revoked their accreditation, terminating their diplomatic status in Russia. This [was followed](https://www.bbc.co.uk/news/articles/c98dzyg8y3ro) by a UK diplomat expulsion in November, also accused of spying by Russia. The diplomatic standoff has continued into 2025, in a tit-for-tat fashion, with the UK [expelling](https://www.bbc.co.uk/news/articles/cn8xp5gg04do) one diplomat in February, Russia [responding](https://edition.cnn.com/2025/03/10/europe/russia-expels-british-diplomats-intl/index.html) with two expulsions in early March, and the UK promptly responding by [expelling](https://www.theguardian.com/politics/2025/mar/12/uk-accuses-russia-of-driving-its-moscow-embassy-towards-closure) one more diplomat.\nResolution criteria: This question will resolve as **Yes** if, before April 8, 2025, [credible sources](https://www.metaculus.com/faq/#definitions) have reported that any of the following has taken place between the UK and Russia after March 14, 2025:\n\n* The expulsion of at least one diplomat.\n* The recall of at least one diplomat.\n* The revocation of the accreditation of at least one diplomat.\nFine print: To resolve as **Yes**, the event has to involve an individual described as a diplomat by credible sources or an individual meeting the definition of a diplomatic agent [by LSData](https://www.lsd.law/define/diplomatic-agent):\n\n> ...a person who represents their country in another country. They can be an ambassador, envoy, minister, or chargé d'affaires. Their job is to communicate with the government of the country they are in and promote their own country's interests.\npresent_date: 2025-03-27T09:26:06.924770\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_eokaxu08B3SHHcbAyzFgFbnF",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?\",\"background\":\"Diplomatic tensions between Russia and the UK have been rising since 2024, with expulsions from both sides. In May 2024 the UK expelled Russia’s defence attache as an \\\"undeclared military intelligence officer\\\", removed diplomatic premises status from several Russian-owned properties, and imposed new restrictions on Russian diplomatic visas. Then, in September, Russia retaliated by accusing six UK diplomats for spying and revoked their accreditation, terminating their diplomatic status in Russia. This was followed by a UK diplomat expulsion in November, also accused of spying by Russia. The diplomatic standoff has continued into 2025, in a tit-for-tat fashion, with the UK expelling one diplomat in February, Russia responding with two expulsions in early March, and the UK promptly responding by expelling one more diplomat.\",\"resolution_criteria\":\"This question will resolve as Yes if, before April 8, 2025, credible sources have reported that any of the following has taken place between the UK and Russia after March 14, 2025: The expulsion of at least one diplomat. The recall of at least one diplomat. The revocation of the accreditation of at least one diplomat.\",\"fine_print\":\"To resolve as Yes, the event has to involve an individual described as a diplomat by credible sources or an individual meeting the definition of a diplomatic agent by LSData: ...a person who represents their country in another country. They can be an ambassador, envoy, minister, or chargé d'affaires. Their job is to communicate with the government of the country they are in and promote their own country's interests.\",\"present_date\":\"2025-03-27T09:26:06.924770\",\"date_cutoff_start\":\"2025-03-14\",\"max_queries\":3}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"queries\": [\"UK Russia diplomat expulsion March 2025 news\", \"UK Russia diplomatic tensions March 2025 government statements\", \"UK Russia diplomatic expert analysis March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_eokaxu08B3SHHcbAyzFgFbnF"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_rKD32bywnM3UZbvIDP8KDXFz",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"UK Russia diplomat expulsion March 2025 news\", \"date_cutoff_start\": \"2025-03-14\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_DqoghQDBeNpXdSyCdmK8jnLV",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"UK Russia diplomatic tensions March 2025 government statements\", \"date_cutoff_start\": \"2025-03-14\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_dPCeOhMJBngzWYKISSSirFrQ",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"UK Russia diplomatic expert analysis March 2025\", \"date_cutoff_start\": \"2025-03-14\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"UK Russia diplomat expulsion March 2025 news\", \"results\": [{\"title\": \"Russia expels two UK diplomats as it negotiates to restore US ties | Reuters\", \"link\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"position\": 1, \"snippet\": \"Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe...\", \"date\": null}, {\"title\": \"Russia orders two people connected to British embassy to leave country | Russia | The Guardian\", \"link\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"position\": 2, \"snippet\": \"Russia orders two people connected to the British embassy in Moscow to leave the country, accusing them of intelligence and subversive activities in a tit-for-tat expulsion.\", \"date\": \"2025-03-10T18:05:05Z\"}, {\"title\": \"UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions | Reuters\", \"link\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"position\": 3, \"snippet\": \"Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.\", \"date\": null}, {\"title\": \"Russia expels two British diplomats for alleged spying | Politics News | Al Jazeera\", \"link\": \"https://www.aljazeera.com/news/2025/3/10/russia-expels-two-british-diplomats-for-alleged-spying\", \"position\": 4, \"snippet\": \"Russia expels two British diplomats for alleged spying, with the UK rejecting accusations after FSB said it identified signs of intelligence and subversive work.\", \"date\": null}, {\"title\": \"UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews\", \"link\": \"https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow\", \"position\": 2, \"snippet\": \"The Foreign, Commonwealth and Development Office has revoked accreditation for a Russian diplomat and a diplomatic spouse in retaliation for expulsions announced in Moscow this week.\", \"date\": null}, {\"title\": \"UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city \\u2013 as it happened | Politics | The Guardian\", \"link\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"position\": 3, \"snippet\": \"Britain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats.\", \"date\": \"2025-03-13T07:57:57Z\"}, {\"title\": \"UK expels Russian diplomat as tensions with Moscow escalate | The Independent\", \"link\": \"https://www.the-independent.com/news/uk/home-news/foreign-office-moscow-david-lammy-kremlin-red-square-b2713886.html\", \"position\": 4, \"snippet\": \"The UK has expelled a Russian diplomat and a diplomatic spouse in response to an \\u201cincreasingly aggressive and co-ordinated campaign of harassment\\u201d against British officials in Moscow.\", \"date\": \"2025-03-12T19:43:00Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_rKD32bywnM3UZbvIDP8KDXFz"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"UK Russia diplomatic tensions March 2025 government statements\", \"results\": [{\"title\": \"Statement: Foreign Office summons Russian Ambassador - 12 March 2025 - GOV.UK\", \"link\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"position\": 1, \"snippet\": \"The Foreign Office protests Russia's campaign of harassment against British diplomats. Russia\\u2019s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation.\", \"date\": null}, {\"title\": \"PM statement to the House of Commons: 3 March 2025 - GOV.UK\", \"link\": \"https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-3-march-2025\", \"position\": 2, \"snippet\": \"The Prime Minister's statement to the House of Commons on Ukraine. \\\"Following Russia\\u2019s vile invasion of Ukraine... Keep increasing the economic pressure on Russia.\\\"\", \"date\": null}, {\"title\": \"Diplomatic Expulsions Heighten Tensions between Russia, UK - Caspian News\", \"link\": \"https://caspiannews.com/news-detail/diplomatic-expulsions-heighten-tensions-between-russia-uk-2025-3-13-40/\", \"position\": 3, \"snippet\": \"Tensions between Russia and the United Kingdom escalated this week as the UK revoked the accreditation of a Russian diplomat in a tit-for-tat move. According to the British Foreign Office, Russia has been conducting \\\"an increasingly aggressive and coordinated campaign of harassment against British diplomats\\\"...\", \"date\": null}, {\"title\": \"UK Spat With Russia Escalates Over British Diplomat\\u2019s Expulsion - Bloomberg\", \"link\": \"https://www.bloomberg.com/news/articles/2025-03-12/uk-spat-with-russia-escalates-over-british-diplomat-s-expulsion\", \"position\": 4, \"snippet\": \"The UK said it\\u2019s revoking accreditation for a Russian diplomat and a diplomatic spouse in retaliation against Moscow\\u2019s expulsion of two Britons earlier in the week.\", \"date\": null}, {\"title\": \"Foreign Office protests Russia's harassment of British diplomats | UK | News | Express.co.uk\", \"link\": \"https://www.express.co.uk/news/uk/2026375/foreign-office-russia-ukraine-diplomats\", \"position\": 2, \"snippet\": \"A Foreign Office spokesperson said it was \\\"increasingly clear\\\" that the Russian state was actively seeking to drive the British Embassy in Moscow towards closure...\", \"date\": \"2025-03-12T17:30:00Z\"}, {\"title\": \"As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters\", \"link\": \"https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/\", \"position\": 3, \"snippet\": \"Russia's foreign intelligence service called Britain a \\\"warmonger\\\" and accused London of trying to derail peace efforts in Ukraine, leading to tit-for-tat expulsions of diplomats.\", \"date\": null}, {\"title\": \"Putin boots out more British diplomats in spying row \\u2013 POLITICO\", \"link\": \"https://www.politico.eu/article/vladimir-putin-russia-boots-out-more-british-diplomats-in-spying-row/\", \"position\": 4, \"snippet\": \"Russia\\u2019s FSB accuses pair of \\u201cintelligence and subversive work\\u201d \\u2013 as Britain brands the claims \\u201cbaseless.\\u201d Putin\\u2019s government expelled a British diplomat and the spouse of another after accusing them of spying.\", \"date\": \"2025-03-10T09:59:39Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_DqoghQDBeNpXdSyCdmK8jnLV"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"UK Russia diplomatic expert analysis March 2025\", \"results\": [{\"title\": \"Russia expels two UK diplomats as it negotiates to restore US ties | Reuters\", \"link\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"position\": 1, \"snippet\": \"Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe...\", \"date\": null}, {\"title\": \"As Trump thaws ties, Russia has a new public enemy number one: Britain | Reuters\", \"link\": \"https://www.reuters.com/world/europe/trump-thaws-ties-russia-has-new-public-enemy-number-one-britain-2025-03-14/\", \"position\": 4, \"snippet\": \"As the U.S. under Donald Trump seeks to reset ties with Moscow, Britain has been granted the status of Russia's public enemy number one, according to analysis from March 2025.\", \"date\": null}, {\"title\": \"UK expels Russian diplomat and spouse in tit-for-tat move against Moscow | Euronews\", \"link\": \"https://www.euronews.com/2025/03/13/uk-expels-russian-diplomat-and-spouse-in-tit-for-tat-move-against-moscow\", \"position\": 1, \"snippet\": \"The UK has revoked accreditation for a Russian diplomat and a diplomatic spouse in a tit-for-tat response to the expulsion of two British embassy staff in Moscow this week.\", \"date\": null}, {\"title\": \"Russia in Review, March 7-14, 2025 | Russia Matters\", \"link\": \"https://www.russiamatters.org/news/russia-review/russia-review-march-7-14-2025\", \"position\": 3, \"snippet\": \"High-level U.S. and Ukrainian delegations endorsed the West\\u2019s proposal for an immediate 30-day ceasefire in the Russian-Ukrainian conflict contingent on Russia's consent. Vladimir Putin\\u2019s chief foreign policy aide Yuri Ushakov spoke against it.\", \"date\": null}, {\"title\": \"Russia\\u2019s Shadow War Against the West\", \"link\": \"https://www.csis.org/analysis/russias-shadow-war-against-west\", \"position\": 4, \"snippet\": \"Russia is conducting an escalating and violent campaign of sabotage and subversion against European and U.S. targets in Europe, according to a new CSIS database. The number of Russian attacks nearly tripled between 2023 and 2024.\", \"date\": null}, {\"title\": \"UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city \\u2013 as it happened | Politics | The Guardian\", \"link\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"position\": 5, \"snippet\": \"UK to expel Russian diplomat and accuses Moscow of seeking to close British embassy in response to similar Russian measures earlier this week...\", \"date\": \"2025-03-13T07:57:57Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_dPCeOhMJBngzWYKISSSirFrQ"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_DFpazVRPWjGSIoUmKSgDfKoF",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"date_cutoff_start\": \"2025-03-14\"}"
+          }
+        },
+        {
+          "id": "call_wbJoWOutQLSMVWGtMICtyzJw",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"date_cutoff_start\": \"2025-03-14\"}"
+          }
+        },
+        {
+          "id": "call_bJLu2VYEfTZ0VOUUPCH3j7zr",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"date_cutoff_start\": \"2025-03-14\"}"
+          }
+        },
+        {
+          "id": "call_Bx59rVVClyayeeCgDK3f3gn4",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"date_cutoff_start\": \"2025-03-14\"}"
+          }
+        },
+        {
+          "id": "call_K0VKxdjPVoSd7LLaB6gfVsDR",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"date_cutoff_start\": \"2025-03-14\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"snippet\": \"---\\ntitle: Russia expels two UK diplomats as it negotiates to restore US ties\\nauthor: Andrew Osborn; Ksenia Orlova\\nurl: https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\\nhostname: reuters.com\\ndescription: Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\\nsitename: Reuters\\ndate: 2025-03-10\\ncategories: ['Europe']\\ntags: ['CWP,DEF,DIP,GEN,INTAG,NATO,NEWS1,POL,SECUR,WAR,GB,CEEU,WEU,AMERS,US,EUROP,UA,RU,NASIA,NAMER,EMEA,ASXPAC,CISC,EMRG,ASIA,RULES:RUSSIA,DEST:OUKDNM,DEST:OUKTPM,POTUS,WASH,EEU,DEST:OUSTPM,DEST:OCATPM,DEST:OUSWDM,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN']\\n---\\n# Russia expels two UK diplomats as it negotiates to restore US ties\\n\\nMOSCOW, March 10 (Reuters) - Russia accused two British diplomats on Monday of spying and gave them two weeks to leave the country, reinforcing the downward trajectory of Moscow's diplomatic relations with Europe even as it negotiates to restore ties with the United States.\\n\\nBritain's Foreign Office rejected the allegations against its diplomats as \\\"baseless\\\".\\n\\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\\n\\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground and planes in the air in Ukraine as part of a potential peacekeeping force.\\n\\nThe expulsions also come days after three Bulgarians were\\n\\n[found guilty](https://www.reuters.com/world/europe/three-bulgarians-convicted-spying-russia-after-uk-trial-2025-03-07/)in a London court of being part of a Russian spy unit run by Wirecard fugitive Jan Marsalek to carry out surveillance on a U.S. military base and other individuals targeted by Moscow.The two Britons appear to be the first Western diplomats to be expelled from Russia since Moscow and Washington opened talks on restoring staff at their respective embassies that have been depleted by tit-for-tat expulsions, part of Donald Trump's rapprochement with the Kremlin that has alarmed European allies.\\n\\nSimilar expulsions have sharply curtailed the functioning of\\u2026\\n\\n[Truncated preview: showing 281 words out of ~557. Full content available via `btf_extract_evidence`.]\", \"word_count\": 557, \"snippet_word_count\": 281, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:49.221644\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_DFpazVRPWjGSIoUmKSgDfKoF"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"snippet\": \"---\\ntitle: Russia orders two people connected to British embassy to leave country\\nauthor: Ben Quinn\\nurl: https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\\nhostname: theguardian.com\\ndescription: Kremlin accuses individuals of \\u2018intelligence and subversive activities\\u2019 in what appears to be latest in tit-for-tat diplomatic expulsions\\nsitename: The Guardian\\ndate: 2025-03-10\\ncategories: ['World news']\\ntags: ['Russia,Europe,World news,UK news']\\n---\\nTwo people connected to the British embassy in Moscow have been ordered to leave the country by the Russian authorities, which claimed they had been performing intelligence work.\\n\\nThe British government hit back by accusing Russia of making \\u201cmalicious and baseless accusations\\u201d.\\n\\nCiting Russia\\u2019s Federal Security Service (FSB), the state news agency Tass identified the two individuals who had been expelled as a second secretary of the British embassy and the spouse of another British diplomat.\\n\\nIt named the two people and accused them of deliberately declaring false information about themselves when entering the country.\\n\\nThey have been given two weeks to leave, according to the Russian government, which accused them of \\u201cintelligence and subversive activities\\u201d.\\n\\nThe FSB had uncovered what it called \\u201csigns of intelligence and sabotage work\\u201d by both that threatened Russia\\u2019s national security, Tass added.\\n\\nIt comes days after three Bulgarian nationals accused of spying for Russia [were found guilty ](https://www.theguardian.com/world/2025/mar/07/three-bulgarian-nationals-found-guilty-spying-russia-uk)of espionage charges in a trial that heard how they were involved in a string of plots around Europe directed by a fugitive based in Moscow.\\n\\nDowning Street said the latest expulsions were \\u201cwhat we have come to expect from President Putin and his regime\\u201d and \\u201cthe allegations are no doubt baseless\\u201d.\\n\\nThe prime minister\\u2019s official spokesperson said: \\u201cIt won\\u2019t distract us from our focus on supporting Ukraine and putting Ukraine in the strongest possible position over the days and weeks ahead.\\u201d\\n\\nThe Russian government posted a video on X on Monday morning showing what it said was a representative of the British embassy being summoned to the foreign affairs ministry.\\n\\nThe move appears to the latest in a series of tit-for-tat expulsions of diplomats by Russia and the UK.\\n\\nBritain expelled a Russian diplomat last month with the foreign secretary, David Lammy, saying th\\u2026\\n\\n[Truncated preview: showing 350 words out of ~675. Full content available via `btf_extract_evidence`.]\", \"word_count\": 675, \"snippet_word_count\": 350, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:49.670978\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_wbJoWOutQLSMVWGtMICtyzJw"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"snippet\": \"---\\ntitle: UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\\nauthor: Reuters\\nurl: https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\\nhostname: reuters.com\\ndescription: Britain revoked the accreditation of a Russian diplomat on Wednesday in response to Russia's expulsion of two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.\\nsitename: Reuters\\ndate: 2025-03-12\\ncategories: ['Europe']\\ntags: ['CWP,DEF,DIP,ECO,GEN,MCE,PLCY,POL,WAR,GB,CEEU,WEU,EUROP,UA,RU,NASIA,EMEA,ASXPAC,CISC,EMRG,ASIA,EEU,RULES:RUSSIA,ECON,DEST:OUKTPM,DEST:OCATPM,DEST:OUSTPM,DEST:OUSWDM,DEST:CSA,DEST:LBY,DEST:REULB,DEST:G,DEST:RAST,DEST:PGE,DEST:RNP,DEST:UKI,DEST:AFA,DEST:PSC,DEST:DNP,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:RBN,PACKAGE:US-TOP-NEWS,PACKAGE:WORLD-NEWS,DEST:OUKDNM']\\n---\\n# UK revokes Russian diplomat's accreditation in retaliation for Moscow expulsions\\n\\nLONDON, March 12 (Reuters) - Britain revoked the accreditation of a Russian diplomat on Wednesday in response to\\n\\n[Russia's expulsion of](https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/)two British diplomats this week and it accused Russia of trying to force its embassy in Moscow to close.The move is the latest in a series of tit-for-tat diplomatic sanctions after Russia accused two British diplomats on Monday of spying - allegations rejected by Britain as \\\"baseless\\\" - and gave them two weeks to leave the country.\\n\\nSign up [here.](https://www.reuters.com/undefined?location=article-paragraph)\\n\\n\\\"It is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this,\\\" a Foreign Office spokesperson said in a statement announcing the move.\\n\\nRussia's embassy in London did not immediately respond to a request for comment.\\n\\nMoscow has been angered by Britain's continued military support for Ukraine and by Prime Minister Keir Starmer's recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force.\\n\\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the \\\"intimidation\\\" of its diplomats and embassy staff.\\n\\n\\\"We have drawn a line under this incident and demand Russia do the same,\\\" the Foreign Office spokesperson said. \\\"An\\u2026\\n\\n[Truncated preview: showing 292 words out of ~345. Full content available via `btf_extract_evidence`.]\", \"word_count\": 345, \"snippet_word_count\": 292, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:50.144844\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_bJLu2VYEfTZ0VOUUPCH3j7zr"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"snippet\": \"---\\ntitle: UK politics: UK expels Russian diplomat and says Moscow is seeking closure of British embassy in city \\u2013 as it happened\\nauthor: Tom Ambrose; Andrew Sparrow\\nurl: https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\\nhostname: theguardian.com\\ndescription: Move is in response to similar Russian measures earlier this week\\nsitename: The Guardian\\ndate: 2025-03-12\\ncategories: ['Politics']\\ntags: ['Politics,UK news,PMQs,Keir Starmer,Kemi Badenoch,Labour,Conservatives,House of Commons,Welfare,Disability,Benefits,TUC,Farming,Nicola Sturgeon,Donald Trump,Trump administration,Liberal Democrats,Quangos,Trade policy,Israel,Gaza,Law,Sentencing,Equality and Human Rights Commission (EHRC),Scotland,Scottish politics,Russia,Planning policy,Angela Rayner,Local government']\\n---\\nUK to expel Russian diplomat and accuses Moscow of seeking to close British embassy\\n\\nBritain said it would revoke accreditation for a Russian diplomat in response to a similar move by Russia earlier this week against British diplomats.\\n\\nA government spokesperson said in a statement that Russia\\u2019s accusations made against the British diplomats were \\u201centirely false\\u201d and \\u201cfabricated in order to justify their increasing harassment of UK diplomats\\u201d.\\n\\nA Foreign Office spokesperson said:\\n\\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\\n\\nRussia\\u2019s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation.\\n\\nThe accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\\n\\nMoscow has been angered by Britain\\u2019s continued military support for Ukraine and by prime minister Keir Starmer\\u2019s recent statements about putting British boots on the ground in Ukraine as part of a potential peacekeeping force, Reuters reported.\\n\\nBritain said it had summoned the Russian ambassador in London on Wednesday and made clear that it would not stand for the \\u201cintimidation\\u201d of its diplomats and staff.\\n\\nThe spokesperson added:\\n\\nIt is clear that the Russian state is actively seeking to drive the British embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\\n\\nSummoning the Russian ambassador today, a senior Foreign Office offici\\u2026\\n\\n[Truncated preview: showing 318 words out of ~4350. Full content available via `btf_extract_evidence`.]\", \"word_count\": 4350, \"snippet_word_count\": 318, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:50.636873\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_Bx59rVVClyayeeCgDK3f3gn4"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"snippet\": \"---\\ntitle: Statement: Foreign Office summons Russian Ambassador - 12 March 2025\\nurl: https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\\nhostname: gov.uk\\ndescription: The Foreign Office protests Russia's campaign of harassment against British diplomats.\\nsitename: GOV.UK\\ndate: 2025-03-12\\nlicense: Open Government Licence v3.0\\n---\\n# Statement: Foreign Office summons Russian Ambassador - 12 March 2025\\n\\nThe Foreign Office protests Russia's campaign of harassment against British diplomats.\\n\\n### A Foreign Office spokesperson said:\\n\\nDuring the past twelve months, Russia has pursued an increasingly aggressive and coordinated campaign of harassment against British diplomats, pumping out malicious and completely baseless accusations about their work.\\n\\nRussia\\u2019s expulsion this week of a British diplomat and diplomatic spouse is yet another escalation. The accusations made against these individuals are entirely false, fabricated in order to justify their increasing harassment of UK diplomats.\\n\\nIt is clear that the Russian state is actively seeking to drive the British Embassy in Moscow towards closure and has no regard for the dangerous escalatory impact of this.\\n\\nSummoning the Russian Ambassador today, a senior Foreign Office official made clear that the UK will not stand for intimidation of British embassy staff and their families. Consequently, we are taking immediate reciprocal action, revoking accreditation for a Russian diplomat and a diplomatic spouse.\\n\\nWe do not take this decision lightly, but we have always made clear to Russia that if they escalate, we will take reciprocal action. The depths to which Russia sinks can only be met through strength.\\n\\nDespite the extremely difficult bilateral relations caused by Russia\\u2019s illegal invasion of Ukraine and long-running campaign of hostile action against the UK, the UK Government believes that maintaining diplomatic channels of communication, and our respective diplomatic missions, is important. It is deeply disappointing that this is continually made more difficult by unprovoked action from Russia.\\n\\nWe have drawn a line under this incident and demand Russia do the same. Any further action taken by Russia will be considered an escalation and responded to accordingly.\\n\\n\\nMedia enquiries\\n\\nEmail [newsdesk@fcdo.gov.uk](mailto:newsdesk@fcdo.gov.uk)\\n\\nTelephone 020 7008 3100\\n\\nContact the FCDO Communication Team via email (monitored 24 hours a day) in the first instance, and we w\\u2026\\n\\n[Truncated preview: showing 351 words out of ~356. Full content available via `btf_extract_evidence`.]\", \"word_count\": 356, \"snippet_word_count\": 351, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-27T09:26:06.924770\", \"date_cutoff_end\": \"2025-03-28T09:26:06.924770\", \"cached_at\": \"2025-10-24T04:12:51.110180\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_K0VKxdjPVoSd7LLaB6gfVsDR"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Ph7t8CWpca0rw8muW9x2OFw6",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"question\": \"Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?\", \"background\": \"Diplomatic tensions between Russia and the UK have been rising since 2024, with expulsions from both sides. In May 2024 the UK expelled Russia’s defence attache as an \\\"undeclared military intelligence officer\\\", removed diplomatic premises status from several Russian-owned properties, and imposed new restrictions on Russian diplomatic visas. Then, in September, Russia retaliated by accusing six UK diplomats for spying and revoked their accreditation, terminating their diplomatic status in Russia. This was followed by a UK diplomat expulsion in November, also accused of spying by Russia. The diplomatic standoff has continued into 2025, in a tit-for-tat fashion, with the UK expelling one diplomat in February, Russia responding with two expulsions in early March, and the UK promptly responding by expelling one more diplomat.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 8, 2025, credible sources have reported that any of the following has taken place between the UK and Russia after March 14, 2025: The expulsion of at least one diplomat. The recall of at least one diplomat. The revocation of the accreditation of at least one diplomat.\", \"fine_print\": \"To resolve as Yes, the event has to involve an individual described as a diplomat by credible sources or an individual meeting the definition of a diplomatic agent by LSData: ...a person who represents their country in another country. They can be an ambassador, envoy, minister, or chargé d'affaires. Their job is to communicate with the government of the country they are in and promote their own country's interests.\", \"present_date\": \"2025-03-27T09:26:06.924770\", \"date_cutoff_start\": \"2025-03-14\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_hI2q3DScOzujtKqQKJxEMAGI",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"question\": \"Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?\", \"background\": \"Diplomatic tensions between Russia and the UK have been rising since 2024, with expulsions from both sides. In May 2024 the UK expelled Russia’s defence attache as an \\\"undeclared military intelligence officer\\\", removed diplomatic premises status from several Russian-owned properties, and imposed new restrictions on Russian diplomatic visas. Then, in September, Russia retaliated by accusing six UK diplomats for spying and revoked their accreditation, terminating their diplomatic status in Russia. This was followed by a UK diplomat expulsion in November, also accused of spying by Russia. The diplomatic standoff has continued into 2025, in a tit-for-tat fashion, with the UK expelling one diplomat in February, Russia responding with two expulsions in early March, and the UK promptly responding by expelling one more diplomat.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 8, 2025, credible sources have reported that any of the following has taken place between the UK and Russia after March 14, 2025: The expulsion of at least one diplomat. The recall of at least one diplomat. The revocation of the accreditation of at least one diplomat.\", \"fine_print\": \"To resolve as Yes, the event has to involve an individual described as a diplomat by credible sources or an individual meeting the definition of a diplomatic agent by LSData: ...a person who represents their country in another country. They can be an ambassador, envoy, minister, or chargé d'affaires. Their job is to communicate with the government of the country they are in and promote their own country's interests.\", \"present_date\": \"2025-03-27T09:26:06.924770\", \"date_cutoff_start\": \"2025-03-14\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_mhKaIVpFEl6pviQh2pDdsbW4",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"question\": \"Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?\", \"background\": \"Diplomatic tensions between Russia and the UK have been rising since 2024, with expulsions from both sides. In May 2024 the UK expelled Russia’s defence attache as an \\\"undeclared military intelligence officer\\\", removed diplomatic premises status from several Russian-owned properties, and imposed new restrictions on Russian diplomatic visas. Then, in September, Russia retaliated by accusing six UK diplomats for spying and revoked their accreditation, terminating their diplomatic status in Russia. This was followed by a UK diplomat expulsion in November, also accused of spying by Russia. The diplomatic standoff has continued into 2025, in a tit-for-tat fashion, with the UK expelling one diplomat in February, Russia responding with two expulsions in early March, and the UK promptly responding by expelling one more diplomat.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 8, 2025, credible sources have reported that any of the following has taken place between the UK and Russia after March 14, 2025: The expulsion of at least one diplomat. The recall of at least one diplomat. The revocation of the accreditation of at least one diplomat.\", \"fine_print\": \"To resolve as Yes, the event has to involve an individual described as a diplomat by credible sources or an individual meeting the definition of a diplomatic agent by LSData: ...a person who represents their country in another country. They can be an ambassador, envoy, minister, or chargé d'affaires. Their job is to communicate with the government of the country they are in and promote their own country's interests.\", \"present_date\": \"2025-03-27T09:26:06.924770\", \"date_cutoff_start\": \"2025-03-14\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_5kbedFIyPDn6dkrU5BnJP57x",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"question\": \"Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?\", \"background\": \"Diplomatic tensions between Russia and the UK have been rising since 2024, with expulsions from both sides. In May 2024 the UK expelled Russia’s defence attache as an \\\"undeclared military intelligence officer\\\", removed diplomatic premises status from several Russian-owned properties, and imposed new restrictions on Russian diplomatic visas. Then, in September, Russia retaliated by accusing six UK diplomats for spying and revoked their accreditation, terminating their diplomatic status in Russia. This was followed by a UK diplomat expulsion in November, also accused of spying by Russia. The diplomatic standoff has continued into 2025, in a tit-for-tat fashion, with the UK expelling one diplomat in February, Russia responding with two expulsions in early March, and the UK promptly responding by expelling one more diplomat.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 8, 2025, credible sources have reported that any of the following has taken place between the UK and Russia after March 14, 2025: The expulsion of at least one diplomat. The recall of at least one diplomat. The revocation of the accreditation of at least one diplomat.\", \"fine_print\": \"To resolve as Yes, the event has to involve an individual described as a diplomat by credible sources or an individual meeting the definition of a diplomatic agent by LSData: ...a person who represents their country in another country. They can be an ambassador, envoy, minister, or chargé d'affaires. Their job is to communicate with the government of the country they are in and promote their own country's interests.\", \"present_date\": \"2025-03-27T09:26:06.924770\", \"date_cutoff_start\": \"2025-03-14\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_FnS6tLWrkegOYkBm1tQ2lkKv",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"question\": \"Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?\", \"background\": \"Diplomatic tensions between Russia and the UK have been rising since 2024, with expulsions from both sides. In May 2024 the UK expelled Russia’s defence attache as an \\\"undeclared military intelligence officer\\\", removed diplomatic premises status from several Russian-owned properties, and imposed new restrictions on Russian diplomatic visas. Then, in September, Russia retaliated by accusing six UK diplomats for spying and revoked their accreditation, terminating their diplomatic status in Russia. This was followed by a UK diplomat expulsion in November, also accused of spying by Russia. The diplomatic standoff has continued into 2025, in a tit-for-tat fashion, with the UK expelling one diplomat in February, Russia responding with two expulsions in early March, and the UK promptly responding by expelling one more diplomat.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 8, 2025, credible sources have reported that any of the following has taken place between the UK and Russia after March 14, 2025: The expulsion of at least one diplomat. The recall of at least one diplomat. The revocation of the accreditation of at least one diplomat.\", \"fine_print\": \"To resolve as Yes, the event has to involve an individual described as a diplomat by credible sources or an individual meeting the definition of a diplomatic agent by LSData: ...a person who represents their country in another country. They can be an ambassador, envoy, minister, or chargé d'affaires. Their job is to communicate with the government of the country they are in and promote their own country's interests.\", \"present_date\": \"2025-03-27T09:26:06.924770\", \"date_cutoff_start\": \"2025-03-14\", \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"facts\": [{\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"On March 10, 2025, Russia expelled two British diplomats, accusing them of spying.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"The UK Foreign Office rejected Russia's allegations against its diplomats as 'baseless'.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"Russia's Federal Security Service claimed the expelled diplomats provided false information and engaged in intelligence work.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"The expulsions are part of a broader pattern of deteriorating diplomatic relations between the UK and Russia, exacerbated by the UK's military support for Ukraine.\"}, {\"title\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"url\": \"https://www.reuters.com/world/europe/russia-expels-british-diplomat-spouse-uk-diplomat-intelligence-work-tass-reports-2025-03-10/\", \"fact\": \"Russia's Foreign Ministry warned it would 'respond in kind' if the UK escalates the situation further.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_Ph7t8CWpca0rw8muW9x2OFw6"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"facts\": [{\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"On March 10, 2025, Russia ordered two people connected to the British embassy to leave the country, accusing them of intelligence and subversive activities.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The UK government responded to the expulsions by accusing Russia of making malicious and baseless accusations.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The expulsions are part of a series of tit-for-tat diplomatic actions between the UK and Russia.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The Russian government posted a video showing a British embassy representative being summoned to the foreign affairs ministry, indicating formal diplomatic actions.\"}, {\"title\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"url\": \"https://www.theguardian.com/world/2025/mar/10/russia-orders-two-people-connected-to-british-embassy-to-leave-country\", \"fact\": \"The expulsions appear to be a reaction to recent espionage convictions in the UK, suggesting a pattern of retaliatory measures.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_hI2q3DScOzujtKqQKJxEMAGI"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"facts\": [{\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"On March 12, 2025, the UK revoked the accreditation of a Russian diplomat in response to Russia's expulsion of two British diplomats.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"Russia expelled two British diplomats on March 10, 2025, accusing them of spying.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"The UK Foreign Office accused Russia of trying to force the British Embassy in Moscow to close.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"The UK has stated that any further action by Russia will be considered an escalation and will be responded to accordingly.\"}, {\"title\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"url\": \"https://www.reuters.com/world/europe/uk-revokes-accreditation-russian-diplomat-2025-03-12/\", \"fact\": \"The UK had previously revoked the accreditation of another Russian diplomat in February 2025, indicating a pattern of reciprocal diplomatic actions.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_mhKaIVpFEl6pviQh2pDdsbW4"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"facts\": [{\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK expelled a Russian diplomat and revoked accreditation for a Russian diplomat and a diplomatic spouse in response to similar actions by Russia earlier in the week.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"Russia's recent expulsion of a British diplomat and diplomatic spouse was described as an escalation by the UK.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK has accused Russia of seeking to drive the British embassy in Moscow towards closure, indicating heightened tensions.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK summoned the Russian ambassador to express that it will not stand for the intimidation of its diplomats.\"}, {\"title\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"url\": \"https://www.theguardian.com/politics/live/2025/mar/12/keir-starmer-kemi-badenoch-pmqs-welfare-cuts-benefits-disability-pip-uk-politics-live-news\", \"fact\": \"The UK has taken immediate reciprocal action against Russia, highlighting the ongoing tit-for-tat nature of the diplomatic conflict.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_5kbedFIyPDn6dkrU5BnJP57x"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"3dc72e82-7540-5e1c-8c12-0ecc0771ecd3\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"facts\": [{\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"On March 12, 2025, the UK Foreign Office summoned the Russian Ambassador to protest Russia's campaign of harassment against British diplomats.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK has revoked the accreditation of a Russian diplomat and a diplomatic spouse as a reciprocal action to Russia's recent expulsion of a British diplomat and diplomatic spouse.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK Foreign Office stated that Russia's actions are driving the British Embassy in Moscow towards closure.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK has made it clear that any further action by Russia will be considered an escalation and will be responded to accordingly.\"}, {\"title\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"url\": \"https://www.gov.uk/government/news/statement-foreign-office-summons-russian-ambassador-12-march-2025\", \"fact\": \"The UK government emphasizes the importance of maintaining diplomatic channels despite the difficult bilateral relations caused by Russia's actions.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_FnS6tLWrkegOYkBm1tQ2lkKv"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, diplomatic tensions between the UK and Russia have been escalating, with recent expulsions and revocations of accreditation occurring in a tit-for-tat manner. The pattern of reciprocal diplomatic actions suggests a high likelihood of further expulsions or recalls before April 8, 2025. The UK and Russia have both demonstrated a willingness to respond to each other's actions with similar measures, and the current diplomatic climate is characterized by ongoing hostility and accusations.\n\nGiven the current situation and the historical pattern of interactions, it is reasonable to estimate a high probability of further diplomatic actions, such as expulsions or recalls, occurring before the specified date.\n\nFINAL PROBABILITY: 0.85"
+    }
+  ]
+}

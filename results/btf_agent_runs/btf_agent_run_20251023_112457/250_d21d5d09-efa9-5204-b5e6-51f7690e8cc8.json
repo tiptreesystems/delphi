@@ -1,0 +1,581 @@
+{
+  "question_id": "d21d5d09-efa9-5204-b5e6-51f7690e8cc8",
+  "question": "Will the number of active US drilling rigs be 595 to 599 on March 28, 2025?",
+  "probability": 0.2,
+  "reasoning": "Based on the gathered evidence, here are the key points relevant to the probability estimation:\n\n1. **Current Rig Count**: As of March 14, 2025, the total number of active US drilling rigs is 592. The rig count has remained stable at 592 for two consecutive weeks.\n\n2. **Recent Trends**: The rig count showed minor fluctuations in February 2025, with a slight increase to 593 on February 28, 2025, before stabilizing at 592.\n\n3. **Oil Market Conditions**: Oil prices have declined by about $7/bbl in February and early March 2025, with Brent futures trading near three-year lows around $70/bbl. This decline in oil prices could reduce the economic incentives for increasing drilling activity.\n\n4. **Global Oil Supply**: Global oil supply rose by 240 kb/d in February 2025, and OPEC+ plans to start unwinding voluntary production cuts in April 2025. This could lead to increased global oil supply and further pressure on prices.\n\n5. **US Production Outlook**: The United States is currently producing at record highs and is forecast to be the largest source of supply growth in 2025. This suggests a potential increase in drilling activity, although the current rig count does not reflect this yet.\n\n6. **Policy Developments**: President Donald Trump signed a resolution that could impact offshore energy development, which may influence future drilling activity.\n\nGiven the current rig count of 592 and the stable trend observed, it seems unlikely that the rig count will increase to fall within the 595 to 599 range by March 28, 2025, especially considering the downward pressure on oil prices and the recent stability in rig counts.\n\nFINAL PROBABILITY: 0.2",
+  "search_results": [
+    {
+      "title": "U.S. Rig Count Data available from Baker Hughes",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "content": "Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100."
+    },
+    {
+      "title": "North America Rig Count | Baker Hughes Rig Count",
+      "url": "https://rigcount.bakerhughes.com/na-rig-count",
+      "content": "Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information."
+    },
+    {
+      "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+      "url": "https://rigcount.bakerhughes.com/",
+      "content": "The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025."
+    },
+    {
+      "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+      "url": "https://bakerhughesrigcount.gcs-web.com/",
+      "content": "The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025..."
+    },
+    {
+      "title": "US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts",
+      "url": "https://ycharts.com/indicators/us_gas_rotary_rigs",
+      "content": "The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data."
+    },
+    {
+      "title": "Oil Market Report - March 2025 – Analysis - IEA",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "content": "Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. The United States is currently producing at record highs and is forecast to be the largest source of supply..."
+    },
+    {
+      "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "content": "We expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025..."
+    },
+    {
+      "title": "U.S. drillers set to switch focus from oil to gas in 2025 – JKempEnergy.com",
+      "url": "https://jkempenergy.com/2025/03/12/u-s-drillers-set-to-switch-focus-from-oil-to-gas-in-2025/",
+      "content": "U.S. gas production is poised for significant growth even as oil languishes, reflected in a sharp adjustment in relative prices and a big divergence in speculative positioning in the futures markets."
+    },
+    {
+      "title": "Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council",
+      "url": "https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/",
+      "content": "The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints..."
+    },
+    {
+      "title": "Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council",
+      "url": "https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/",
+      "content": "The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints..."
+    },
+    {
+      "title": "Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior",
+      "url": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+      "content": "Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development. President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management’s rule..."
+    },
+    {
+      "title": "Trump’s ‘drill, baby, drill’ agenda could keep the world hooked on oil and gas | Donald Trump | The Guardian",
+      "url": "https://www.theguardian.com/us-news/2025/mar/12/trump-fossil-fuels-oil-and-gas",
+      "content": "Donald Trump’s ‘drill, baby, drill’ agenda aims to keep the world hooked on fossil fuels, with energy deals involving Japan, Ukraine, and Africa, even touting the resurrection of coal."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "content": "---\ntitle: U.S. Rig Count\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\ndate: 2025-03-19\n---\n\n# U.S. Rig Count\n\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\n\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\n\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\n\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\n\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\n\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\n\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\n\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\n\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\n\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\n\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\n\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\n\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\n\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\n\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\n\nData made available by Baker Hughes.\n\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\n\nTotal Rigs 2025\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nOil\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nGas\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nMisc.\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nRatio (%)\n\nOil/Gas/Misc.\n\nOil/Gas/Misc.\n\nTotal Rigs 2024\n\n03/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n0 592\n\nOil (Wk./Wk.)\n+1 (487)\n\nGas (Wk./Wk.)\n-1 (100)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n03/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n-1 592\n\nOil (Wk./Wk.)\n0 (486)\n\nGas (Wk./Wk.)\n-1 (101)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n622\n\n02/28/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+1 593\n\nOil (Wk./Wk.)\n-2 (486)\n\nGas (Wk./Wk.)\n+3 (102)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n02/21/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 592\n\nOil (Wk./Wk.)\n+7 (488)\n\nGas (Wk./Wk.)\n-2 (99)\n\nMisc. (Wk./Wk.)\n-1 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n626\n\n02/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+2 588\n\nOil (Wk./Wk.)\n+1 (481)\n\nGas (Wk./Wk.)\n+1 (101)\n\nMisc. (Wk./Wk.)\n0 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n621\n\n02/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 586\n\nOil (Wk./Wk.)\n+1 (480)\n\nGas (Wk./Wk.)\n+2 (100)\n\nMisc. (Wk./Wk.)\n+1 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 202…\n\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "content": "---\ntitle: Oil Market Report - March 2025 – Analysis - IEA\nurl: https://www.iea.org/reports/oil-market-report-march-2025\nhostname: iea.org\ndescription: Oil Market Report - March 2025 - Analysis and key findings. A report by the International Energy Agency.\nsitename: IEA\ndate: 2025-03-13\n---\n#### About this report\n\nThe IEA Oil Market Report (OMR) is one of the world's most authoritative and timely sources of data, forecasts and analysis on the global oil market – including detailed statistics and commentary on oil supply, demand, inventories, prices and refining activity, as well as oil trade for IEA and selected non-IEA countries.\n\n#### Highlights\n\n- Growth in global oil demand is set to accelerate to just over 1 mb/d this year, from 830 kb/d in 2024, reaching 103.9 mb/d. Asia accounts for almost 60% of gains, led by China where petrochemical feedstocks will provide the entirety of growth. Amid an unusually uncertain macroeconomic climate, recent delivery data have been below expectations, leading to slightly lower estimates for 4Q24 and 1Q25 growth at 1.2 mb/d y-o-y.\n- World oil supply rose by 240 kb/d in February to 103.3 mb/d, led by OPEC+. Kazakhstan pumped at an all-time high as Tengiz ramped up, while Iran and Venezuela boosted flows ahead of tighter sanctions. Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. Following a 770 kb/d output decline last year, OPEC+ output could hold steady in 2025 if voluntary cuts are maintained after April.\n- Global crude runs dropped by 570 kb/d m-o-m to 82.8 mb/d in February, extending their decline from December’s five-year high of 84.3 mb/d, on planned and unplanned outages. Throughputs are forecast to average 83.3 mb/d in 2025, up 570 kb/d y-o-y as lower OECD activity partly offsets a 930 kb/d annual increase in the non-OECD. Refining margins recovered in February, as falling crude prices lifted profitability in all regions.\n- Global observed oil stocks fell by 40.5 mb in January, of which 26.1 mb were products. Non‑OECD crude stocks plunged by 45.3 mb, dominated by China where imports declined. Total OECD stocks rose by 11.2 mb, boosted by a 25 mb build in industry crude inventories. Oil on water fell by 6.7 mb. However, preliminary data for February show total global oil stocks rebounded, lifted by an increase in oil on water.\n- Oil prices declined by about $7/bbl in February and early March as macro sentiment soured amid escalating trade tensions, clouding the outlook for oil demand…\n\n[Truncated preview: showing 411 words out of ~1344. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+      "url": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+      "content": "---\ntitle: Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior\nurl: https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\nhostname: doi.gov\ndescription: To revive offshore energy development efforts, President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management’s rule titled \"Protection of Marine Archaeological Resources\nsitename: U.S. Department of the Interior\ndate: 2025-03-15\n---\nAn official website of the United States government\n\nHere's how you know\n\nOfficial websites use .gov\nA .gov website belongs to an official government organization in the United States.\n\nSecure .gov websites use HTTPS\nA lock (\n) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "As of March 14, 2025, the total number of active US drilling rigs is 592."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The rig count has remained at 592 for two consecutive weeks as of March 14, 2025."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The oil rig count increased by 1 to 487, while the gas rig count decreased by 1 to 100 as of March 14, 2025."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The total rig count increased by 1 to 593 on February 28, 2025, before stabilizing at 592."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The rig count has shown minor fluctuations, with a recent increase of 4 rigs on February 21, 2025, followed by stabilization."
+    },
+    {
+      "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "fact": "Global oil supply rose by 240 kb/d in February 2025, indicating an increase in production capacity that could influence US drilling activity."
+    },
+    {
+      "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "fact": "Oil prices declined by about $7/bbl in February and early March 2025, with Brent futures trading near three-year lows around $70/bbl, potentially impacting the economic incentives for US drilling."
+    },
+    {
+      "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "fact": "OPEC+ plans to start unwinding voluntary production cuts in April 2025, which could lead to increased global oil supply and further pressure on prices."
+    },
+    {
+      "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "fact": "The United States is currently producing at record highs and is forecast to be the largest source of supply growth in 2025, suggesting a potential increase in drilling activity."
+    },
+    {
+      "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "fact": "Proposed US tariffs on Canada and Mexico, set to take effect on April 1, 2025, may impact crude oil flows and prices, influencing US drilling decisions."
+    },
+    {
+      "title": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+      "url": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+      "fact": "President Donald Trump signed S.J.Res.11, a joint resolution disapproving a rule by the Bureau of Ocean Energy Management, which could impact offshore energy development."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.3522138890491458,
+  "brier_score": 0.04000000000000001,
+  "weighted_brier_score": 0.014088555561965834,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "d21d5d09-efa9-5204-b5e6-51f7690e8cc8",
+        "queries": [
+          "Baker Hughes US rig count March 2025",
+          "US oil and gas industry trends March 2025",
+          "US drilling policy news March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"queries\": [\"Baker Hughes US rig count March 2025\", \"US oil and gas industry trends March 2025\", \"US drilling policy news March 2025\"]}",
+      "tool_call_id": "call_KIs4raGlUlbLa41vIkvZs1yh"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Baker Hughes US rig count March 2025",
+        "results": [
+          {
+            "title": "U.S. Rig Count Data available from Baker Hughes",
+            "link": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "position": 1,
+            "snippet": "Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100.",
+            "date": null
+          },
+          {
+            "title": "North America Rig Count | Baker Hughes Rig Count",
+            "link": "https://rigcount.bakerhughes.com/na-rig-count",
+            "position": 2,
+            "snippet": "Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information.",
+            "date": null
+          },
+          {
+            "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+            "link": "https://rigcount.bakerhughes.com/",
+            "position": 3,
+            "snippet": "The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025.",
+            "date": null
+          },
+          {
+            "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+            "link": "https://bakerhughesrigcount.gcs-web.com/",
+            "position": 4,
+            "snippet": "The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...",
+            "date": null
+          },
+          {
+            "title": "US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts",
+            "link": "https://ycharts.com/indicators/us_gas_rotary_rigs",
+            "position": 2,
+            "snippet": "The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Baker Hughes US rig count March 2025\", \"results\": [{\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 1, \"snippet\": \"Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100.\", \"date\": null}, {\"title\": \"North America Rig Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/na-rig-count\", \"position\": 2, \"snippet\": \"Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/\", \"position\": 3, \"snippet\": \"The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://bakerhughesrigcount.gcs-web.com/\", \"position\": 4, \"snippet\": \"The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...\", \"date\": null}, {\"title\": \"US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_gas_rotary_rigs\", \"position\": 2, \"snippet\": \"The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data.\", \"date\": null}]}",
+      "tool_call_id": "call_qcKOQqDZIJdARXxrpxRQnjnk"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US oil and gas industry trends March 2025",
+        "results": [
+          {
+            "title": "Oil Market Report - March 2025 – Analysis - IEA",
+            "link": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "position": 3,
+            "snippet": "Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. The United States is currently producing at record highs and is forecast to be the largest source of supply...",
+            "date": null
+          },
+          {
+            "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+            "link": "https://www.eia.gov/outlooks/steo/",
+            "position": 4,
+            "snippet": "We expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025...",
+            "date": null
+          },
+          {
+            "title": "U.S. drillers set to switch focus from oil to gas in 2025 – JKempEnergy.com",
+            "link": "https://jkempenergy.com/2025/03/12/u-s-drillers-set-to-switch-focus-from-oil-to-gas-in-2025/",
+            "position": 2,
+            "snippet": "U.S. gas production is poised for significant growth even as oil languishes, reflected in a sharp adjustment in relative prices and a big divergence in speculative positioning in the futures markets.",
+            "date": null
+          },
+          {
+            "title": "Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council",
+            "link": "https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/",
+            "position": 3,
+            "snippet": "The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints...",
+            "date": null
+          },
+          {
+            "title": "Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council",
+            "link": "https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/",
+            "position": 5,
+            "snippet": "The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US oil and gas industry trends March 2025\", \"results\": [{\"title\": \"Oil Market Report - March 2025 \\u2013 Analysis - IEA\", \"link\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"position\": 3, \"snippet\": \"Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. The United States is currently producing at record highs and is forecast to be the largest source of supply...\", \"date\": null}, {\"title\": \"Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/outlooks/steo/\", \"position\": 4, \"snippet\": \"We expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025...\", \"date\": null}, {\"title\": \"U.S. drillers set to switch focus from oil to gas in 2025 \\u2013 JKempEnergy.com\", \"link\": \"https://jkempenergy.com/2025/03/12/u-s-drillers-set-to-switch-focus-from-oil-to-gas-in-2025/\", \"position\": 2, \"snippet\": \"U.S. gas production is poised for significant growth even as oil languishes, reflected in a sharp adjustment in relative prices and a big divergence in speculative positioning in the futures markets.\", \"date\": null}, {\"title\": \"Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council\", \"link\": \"https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/\", \"position\": 3, \"snippet\": \"The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints...\", \"date\": null}, {\"title\": \"Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council\", \"link\": \"https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/\", \"position\": 5, \"snippet\": \"The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints...\", \"date\": null}]}",
+      "tool_call_id": "call_iPhJSnl9mZ6UfPrcLzHN5Izc"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US drilling policy news March 2025",
+        "results": [
+          {
+            "title": "Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior",
+            "link": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+            "position": 4,
+            "snippet": "Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development. President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management’s rule...",
+            "date": null
+          },
+          {
+            "title": "Trump’s ‘drill, baby, drill’ agenda could keep the world hooked on oil and gas | Donald Trump | The Guardian",
+            "link": "https://www.theguardian.com/us-news/2025/mar/12/trump-fossil-fuels-oil-and-gas",
+            "position": 4,
+            "snippet": "Donald Trump’s ‘drill, baby, drill’ agenda aims to keep the world hooked on fossil fuels, with energy deals involving Japan, Ukraine, and Africa, even touting the resurrection of coal.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US drilling policy news March 2025\", \"results\": [{\"title\": \"Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior\", \"link\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"position\": 4, \"snippet\": \"Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development. President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management\\u2019s rule...\", \"date\": null}, {\"title\": \"Trump\\u2019s \\u2018drill, baby, drill\\u2019 agenda could keep the world hooked on oil and gas | Donald Trump | The Guardian\", \"link\": \"https://www.theguardian.com/us-news/2025/mar/12/trump-fossil-fuels-oil-and-gas\", \"position\": 4, \"snippet\": \"Donald Trump\\u2019s \\u2018drill, baby, drill\\u2019 agenda aims to keep the world hooked on fossil fuels, with energy deals involving Japan, Ukraine, and Africa, even touting the resurrection of coal.\", \"date\": null}]}",
+      "tool_call_id": "call_9qQWVtpGuRDZ3DpznExiiWPi"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+        "snippet": "---\ntitle: U.S. Rig Count\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\ndate: 2025-03-19\n---\n\n# U.S. Rig Count\n\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\n\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\n\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\n\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\n\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\n\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\n\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\n\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\n\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\n\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\n\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\n\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\n\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\n\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\n\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\n\nData made available by Baker Hughes.\n\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\n\nTotal Rigs 2025\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nOil\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nGas\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nMisc.\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nRatio (%)\n\nOil/Gas/Misc.\n\nOil/Gas/Misc.\n\nTotal Rigs 2024\n\n03/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n0 592\n\nOil (Wk./Wk.)\n+1 (487)\n\nGas (Wk./Wk.)\n-1 (100)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n03/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n-1 592\n\nOil (Wk./Wk.)\n0 (486)\n\nGas (Wk./Wk.)\n-1 (101)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n622\n\n02/28/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+1 593\n\nOil (Wk./Wk.)\n-2 (486)\n\nGas (Wk./Wk.)\n+3 (102)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n02/21/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 592\n\nOil (Wk./Wk.)\n+7 (488)\n\nGas (Wk./Wk.)\n-2 (99)\n\nMisc. (Wk./Wk.)\n-1 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n626\n\n02/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+2 588\n\nOil (Wk./Wk.)\n+1 (481)\n\nGas (Wk./Wk.)\n+1 (101)\n\nMisc. (Wk./Wk.)\n0 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n621\n\n02/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 586\n\nOil (Wk./Wk.)\n+1 (480)\n\nGas (Wk./Wk.)\n+2 (100)\n\nMisc. (Wk./Wk.)\n+1 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 202…\n\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]",
+        "word_count": 418,
+        "snippet_word_count": 262,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T03:44:29.056473"
+      },
+      "raw": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"snippet\": \"---\\ntitle: U.S. Rig Count\\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\\ndate: 2025-03-19\\n---\\n\\n# U.S. Rig Count\\n\\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\\n\\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\\n\\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\\n\\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\\n\\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\\n\\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\\n\\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\\n\\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\\n\\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\\n\\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\\n\\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\\n\\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\\n\\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\\n\\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\\n\\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\\n\\nData made available by Baker Hughes.\\n\\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\\n\\nTotal Rigs 2025\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nOil\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nGas\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nMisc.\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nRatio (%)\\n\\nOil/Gas/Misc.\\n\\nOil/Gas/Misc.\\n\\nTotal Rigs 2024\\n\\n03/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n0 592\\n\\nOil (Wk./Wk.)\\n+1 (487)\\n\\nGas (Wk./Wk.)\\n-1 (100)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n03/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n-1 592\\n\\nOil (Wk./Wk.)\\n0 (486)\\n\\nGas (Wk./Wk.)\\n-1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n622\\n\\n02/28/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+1 593\\n\\nOil (Wk./Wk.)\\n-2 (486)\\n\\nGas (Wk./Wk.)\\n+3 (102)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n02/21/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 592\\n\\nOil (Wk./Wk.)\\n+7 (488)\\n\\nGas (Wk./Wk.)\\n-2 (99)\\n\\nMisc. (Wk./Wk.)\\n-1 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n626\\n\\n02/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+2 588\\n\\nOil (Wk./Wk.)\\n+1 (481)\\n\\nGas (Wk./Wk.)\\n+1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n621\\n\\n02/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 586\\n\\nOil (Wk./Wk.)\\n+1 (480)\\n\\nGas (Wk./Wk.)\\n+2 (100)\\n\\nMisc. (Wk./Wk.)\\n+1 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 202\\u2026\\n\\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]\", \"word_count\": 418, \"snippet_word_count\": 262, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T03:44:29.056473\"}",
+      "tool_call_id": "call_9uMvYtKZYeaFJwq91bAj9wwT"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+        "snippet": "---\ntitle: Oil Market Report - March 2025 – Analysis - IEA\nurl: https://www.iea.org/reports/oil-market-report-march-2025\nhostname: iea.org\ndescription: Oil Market Report - March 2025 - Analysis and key findings. A report by the International Energy Agency.\nsitename: IEA\ndate: 2025-03-13\n---\n#### About this report\n\nThe IEA Oil Market Report (OMR) is one of the world's most authoritative and timely sources of data, forecasts and analysis on the global oil market – including detailed statistics and commentary on oil supply, demand, inventories, prices and refining activity, as well as oil trade for IEA and selected non-IEA countries.\n\n#### Highlights\n\n- Growth in global oil demand is set to accelerate to just over 1 mb/d this year, from 830 kb/d in 2024, reaching 103.9 mb/d. Asia accounts for almost 60% of gains, led by China where petrochemical feedstocks will provide the entirety of growth. Amid an unusually uncertain macroeconomic climate, recent delivery data have been below expectations, leading to slightly lower estimates for 4Q24 and 1Q25 growth at 1.2 mb/d y-o-y.\n- World oil supply rose by 240 kb/d in February to 103.3 mb/d, led by OPEC+. Kazakhstan pumped at an all-time high as Tengiz ramped up, while Iran and Venezuela boosted flows ahead of tighter sanctions. Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. Following a 770 kb/d output decline last year, OPEC+ output could hold steady in 2025 if voluntary cuts are maintained after April.\n- Global crude runs dropped by 570 kb/d m-o-m to 82.8 mb/d in February, extending their decline from December’s five-year high of 84.3 mb/d, on planned and unplanned outages. Throughputs are forecast to average 83.3 mb/d in 2025, up 570 kb/d y-o-y as lower OECD activity partly offsets a 930 kb/d annual increase in the non-OECD. Refining margins recovered in February, as falling crude prices lifted profitability in all regions.\n- Global observed oil stocks fell by 40.5 mb in January, of which 26.1 mb were products. Non‑OECD crude stocks plunged by 45.3 mb, dominated by China where imports declined. Total OECD stocks rose by 11.2 mb, boosted by a 25 mb build in industry crude inventories. Oil on water fell by 6.7 mb. However, preliminary data for February show total global oil stocks rebounded, lifted by an increase in oil on water.\n- Oil prices declined by about $7/bbl in February and early March as macro sentiment soured amid escalating trade tensions, clouding the outlook for oil demand…\n\n[Truncated preview: showing 411 words out of ~1344. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1344,
+        "snippet_word_count": 411,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T03:44:39.696801"
+      },
+      "raw": "{\"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"snippet\": \"---\\ntitle: Oil Market Report - March 2025 \\u2013 Analysis - IEA\\nurl: https://www.iea.org/reports/oil-market-report-march-2025\\nhostname: iea.org\\ndescription: Oil Market Report - March 2025 - Analysis and key findings. A report by the International Energy Agency.\\nsitename: IEA\\ndate: 2025-03-13\\n---\\n#### About this report\\n\\nThe IEA Oil Market Report (OMR) is one of the world's most authoritative and timely sources of data, forecasts and analysis on the global oil market \\u2013 including detailed statistics and commentary on oil supply, demand, inventories, prices and refining activity, as well as oil trade for IEA and selected non-IEA countries.\\n\\n#### Highlights\\n\\n- Growth in global oil demand is set to accelerate to just over 1 mb/d this year, from 830 kb/d in 2024, reaching 103.9 mb/d. Asia accounts for almost 60% of gains, led by China where petrochemical feedstocks will provide the entirety of growth. Amid an unusually uncertain macroeconomic climate, recent delivery data have been below expectations, leading to slightly lower estimates for 4Q24 and 1Q25 growth at 1.2 mb/d y-o-y.\\n- World oil supply rose by 240 kb/d in February to 103.3 mb/d, led by OPEC+. Kazakhstan pumped at an all-time high as Tengiz ramped up, while Iran and Venezuela boosted flows ahead of tighter sanctions. Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. Following a 770 kb/d output decline last year, OPEC+ output could hold steady in 2025 if voluntary cuts are maintained after April.\\n- Global crude runs dropped by 570 kb/d m-o-m to 82.8 mb/d in February, extending their decline from December\\u2019s five-year high of 84.3 mb/d, on planned and unplanned outages. Throughputs are forecast to average 83.3 mb/d in 2025, up 570 kb/d y-o-y as lower OECD activity partly offsets a 930 kb/d annual increase in the non-OECD. Refining margins recovered in February, as falling crude prices lifted profitability in all regions.\\n- Global observed oil stocks fell by 40.5 mb in January, of which 26.1 mb were products. Non\\u2011OECD crude stocks plunged by 45.3 mb, dominated by China where imports declined. Total OECD stocks rose by 11.2 mb, boosted by a 25 mb build in industry crude inventories. Oil on water fell by 6.7 mb. However, preliminary data for February show total global oil stocks rebounded, lifted by an increase in oil on water.\\n- Oil prices declined by about $7/bbl in February and early March as macro sentiment soured amid escalating trade tensions, clouding the outlook for oil demand\\u2026\\n\\n[Truncated preview: showing 411 words out of ~1344. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1344, \"snippet_word_count\": 411, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T03:44:39.696801\"}",
+      "tool_call_id": "call_FevA5FVAP514bphBg9OEIwSN"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+        "snippet": "---\ntitle: Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior\nurl: https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\nhostname: doi.gov\ndescription: To revive offshore energy development efforts, President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management’s rule titled \"Protection of Marine Archaeological Resources\nsitename: U.S. Department of the Interior\ndate: 2025-03-15\n---\nAn official website of the United States government\n\nHere's how you know\n\nOfficial websites use .gov\nA .gov website belongs to an official government organization in the United States.\n\nSecure .gov websites use HTTPS\nA lock (\n) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+        "word_count": 120,
+        "snippet_word_count": 120,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T14:34:27.633378"
+      },
+      "raw": "{\"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"snippet\": \"---\\ntitle: Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior\\nurl: https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\\nhostname: doi.gov\\ndescription: To revive offshore energy development efforts, President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management\\u2019s rule titled \\\"Protection of Marine Archaeological Resources\\nsitename: U.S. Department of the Interior\\ndate: 2025-03-15\\n---\\nAn official website of the United States government\\n\\nHere's how you know\\n\\nOfficial websites use .gov\\nA .gov website belongs to an official government organization in the United States.\\n\\nSecure .gov websites use HTTPS\\nA lock (\\n) or https:// means you\\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\", \"word_count\": 120, \"snippet_word_count\": 120, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T14:34:27.633378\"}",
+      "tool_call_id": "call_oYm4LLIDN6TAUGusAAo1Of8x"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "d21d5d09-efa9-5204-b5e6-51f7690e8cc8",
+        "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+        "facts": [
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "As of March 14, 2025, the total number of active US drilling rigs is 592."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The rig count has remained at 592 for two consecutive weeks as of March 14, 2025."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The oil rig count increased by 1 to 487, while the gas rig count decreased by 1 to 100 as of March 14, 2025."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The total rig count increased by 1 to 593 on February 28, 2025, before stabilizing at 592."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The rig count has shown minor fluctuations, with a recent increase of 4 rigs on February 21, 2025, followed by stabilization."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"As of March 14, 2025, the total number of active US drilling rigs is 592.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has remained at 592 for two consecutive weeks as of March 14, 2025.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The oil rig count increased by 1 to 487, while the gas rig count decreased by 1 to 100 as of March 14, 2025.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The total rig count increased by 1 to 593 on February 28, 2025, before stabilizing at 592.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has shown minor fluctuations, with a recent increase of 4 rigs on February 21, 2025, followed by stabilization.\"}]}",
+      "tool_call_id": "call_7F8SiFDJ9J6wlOCnS4MBfTxv"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "d21d5d09-efa9-5204-b5e6-51f7690e8cc8",
+        "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+        "facts": [
+          {
+            "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "fact": "Global oil supply rose by 240 kb/d in February 2025, indicating an increase in production capacity that could influence US drilling activity."
+          },
+          {
+            "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "fact": "Oil prices declined by about $7/bbl in February and early March 2025, with Brent futures trading near three-year lows around $70/bbl, potentially impacting the economic incentives for US drilling."
+          },
+          {
+            "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "fact": "OPEC+ plans to start unwinding voluntary production cuts in April 2025, which could lead to increased global oil supply and further pressure on prices."
+          },
+          {
+            "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "fact": "The United States is currently producing at record highs and is forecast to be the largest source of supply growth in 2025, suggesting a potential increase in drilling activity."
+          },
+          {
+            "title": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "fact": "Proposed US tariffs on Canada and Mexico, set to take effect on April 1, 2025, may impact crude oil flows and prices, influencing US drilling decisions."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"facts\": [{\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"Global oil supply rose by 240 kb/d in February 2025, indicating an increase in production capacity that could influence US drilling activity.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"Oil prices declined by about $7/bbl in February and early March 2025, with Brent futures trading near three-year lows around $70/bbl, potentially impacting the economic incentives for US drilling.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"OPEC+ plans to start unwinding voluntary production cuts in April 2025, which could lead to increased global oil supply and further pressure on prices.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"The United States is currently producing at record highs and is forecast to be the largest source of supply growth in 2025, suggesting a potential increase in drilling activity.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"Proposed US tariffs on Canada and Mexico, set to take effect on April 1, 2025, may impact crude oil flows and prices, influencing US drilling decisions.\"}]}",
+      "tool_call_id": "call_peO7zLPFN842WdHhUwpiKZ1j"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "d21d5d09-efa9-5204-b5e6-51f7690e8cc8",
+        "url": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+        "facts": [
+          {
+            "title": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+            "url": "https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy",
+            "fact": "President Donald Trump signed S.J.Res.11, a joint resolution disapproving a rule by the Bureau of Ocean Energy Management, which could impact offshore energy development."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"facts\": [{\"title\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"fact\": \"President Donald Trump signed S.J.Res.11, a joint resolution disapproving a rule by the Bureau of Ocean Energy Management, which could impact offshore energy development.\"}]}",
+      "tool_call_id": "call_JxzcuQmn7KQpWsZqzthKNoCX"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the number of active US drilling rigs be 595 to 599 on March 28, 2025?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nIn his 2024 campaign, Donald Trump ran on a slogan of \"[Drill, baby, drill](https://www.npr.org/2024/11/13/nx-s1-5181963/trump-promises-more-drilling-in-the-u-s-to-boost-fossil-fuel-production),\" saying in September 2024, \"Starting on Day 1, I will approve new drilling, new pipelines, new refiners, new power plants, new reactors, and we will slash the red tape.\" Trump's nominee to be Treasury Secretary, Scott Bessent, has put forth what he calls a [3-3-3 plan](https://www.foxbusiness.com/politics/treasury-secretary-nominee-scott-bessents-3-3-3-plan-what-know), increasing US oil and gas production by the equivalent of 3 million barrels of oil a day. Additionally, Doug Bergum, Trump's nominee for Secretary of the Interior, [has promised](https://www.theguardian.com/us-news/ng-interactive/2024/dec/01/doug-burgum-trump-interior-secretary-drilling) to open up federally-protected lands to expedited oil and gas drilling permits.\n\nHowever, OilPrice.com [reports](https://oilprice.com/Energy/Crude-Oil/Exxon-Pours-Cold-Water-On-Trumps-Drill-Baby-Drill-Plans.html) that it might not be this simple, quoting Exxon’s Upstream President Liam Mallon  and TotalEnergies CEO Patrick Pouyanne as saying it is more likely that oil producers, due to a looming surplus of oil in 2025 combined with a need to maximize shareholder returns on capital, may throttle new production in order to avoid price destruction.\n\nAccording to the Financial Times ([‘Drill, baby, drill’ is not so simple](https://www.ft.com/content/90468253-0560-4cb2-a302-2e8636234265)), a key factor will be oil prices. A Kansas City Fed survey of energy firms found that a price of \\$89/barrel was needed for drilling to substantially increase, while oil prices as of January 2025 have been on a downswing:\n\n![Price history](https://metaculus-web-media.s3.amazonaws.com/user_uploaded/Screenshot_2024-12-05_at_2.40.51%C3%A2PM.png)\n\nAccording to Baker Hughes in its recent [annual report](https://www.sec.gov/Archives/edgar/data/1701605/000170160524000033/bkr-20231231.htm):\n\n> The Baker Hughes rig counts are an important business barometer for the drilling industry and its suppliers. When drilling rigs are active they consume products and services produced by the oil service industry. Rig count trends are driven by the exploration and development spending by oil and natural gas companies, which in turn is influenced by current and future price expectations for oil and natural gas. The counts may reflect the relative strength and stability of energy prices and overall market activity; however, these counts should not be solely relied on as other specific and pervasive conditions may exist that affect overall energy prices and market activity.\n\n> We have been providing rig counts to the public since 1944. We gather all relevant data through our field service personnel, who obtain the necessary data from routine visits to the various rigs, customers, contractors and other outside sources as necessary. We base the classification of a well as either oil or natural gas primarily upon filings made by operators in the relevant jurisdiction. This data is then compiled and distributed to various wire services and trade associations and is published on our website. We believe the counting process and resulting data is reliable; however, it is subject to our ability to obtain accurate and timely information. Rig counts are compiled weekly for the U.S. and Canada and monthly for all international rigs. Published international rig counts do not include rigs drilling in certain locations, such as onshore China because this information is not readily available.\n\n> Rigs in the U.S. and Canada are counted as active if, on the day the count is taken, the well being drilled has been started but drilling has not been completed and the well is anticipated to be of sufficient depth to be a potential consumer of our drill bits. In international areas, rigs are counted on a weekly basis and deemed active if drilling activities occurred during the majority of the week. The weekly results are then averaged for the month and published accordingly. The rig count does not include rigs that are in transit from one location to another, rigging up, being used in non-drilling activities including production testing, completion and workover, and are not expected to be significant consumers of drill bits.\n\nAccording to the rig count [FAQ](https://rigcount.bakerhughes.com/rig-count-faqs), data is published each Friday at noon central US time. Recent reports have found the following rig count numbers:\n\n| Date               | Value | Date              | Value |\n| ------------------ | ----- | ----------------- | ----- |\n| January 31, 2025   | 582   | July 5, 2024      | 585   |\n| January 24, 2025   | 576   | June 28, 2024     | 581   |\n| January 17, 2025   | 580   | June 21, 2024     | 588   |\n| January 10, 2025   | 584   | June 14, 2024     | 590   |\n| January 3, 2025    | 589   | June 7, 2024      | 594   |\n| December 27, 2024  | 589   | May 31, 2024      | 600   |\n| December 20, 2024  | 589   | May 24, 2024      | 600   |\n| December 13, 2024  | 589   | May 17, 2024      | 604   |\n| December 6, 2024   | 589   | May 10, 2024      | 603   |\n| November 27, 2024  | 582   | May 3, 2024       | 605   |\n| November 22, 2024  | 583   | April 26, 2024    | 613   |\n| November 15, 2024  | 584   | April 19, 2024    | 619   |\n| November 8, 2024   | 585   | April 12, 2024    | 617   |\n| November 1, 2024   | 585   | April 5, 2024     | 620   |\n| October 25, 2024   | 585   | March 28, 2024    | 621   |\n| October 18, 2024   | 585   | March 22, 2024    | 624   |\n| October 11, 2024   | 586   | March 15, 2024    | 629   |\n| October 4, 2024    | 585   | March 8, 2024     | 622   |\n| September 27, 2024 | 587   | March 1, 2024     | 629   |\n| September 20, 2024 | 588   | February 23, 2024 | 626   |\n| September 13, 2024 | 590   | February 16, 2024 | 621   |\n| September 6, 2024  | 582   | February 9, 2024  | 623   |\n| August 30, 2024    | 583   | February 2, 2024  | 619   |\n| August 23, 2024    | 585   | January 26, 2024  | 621   |\n| August 16, 2024    | 586   | January 19, 2024  | 620   |\n| August 9, 2024     | 588   | January 12, 2024  | 619   |\n| August 2, 2024     | 586   | January 5, 2024   | 621   |\n| July 26, 2024      | 589   | December 29, 2023 | 622   |\n| July 19, 2024      | 586   | December 21, 2023 | 620   |\n| July 12, 2024      | 584   |                   |       |\nResolution criteria: This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 595 to 599. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\nFine print: * If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be **annulled**.\npresent_date: 2025-03-19T18:44:43.714349\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_KIs4raGlUlbLa41vIkvZs1yh",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question_id\":\"bridgewater-forecasting-2025\",\"question\":\"Will the number of active US drilling rigs be 595 to 599 on March 28, 2025?\",\"background\":\"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\",\"resolution_criteria\":\"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 595 to 599. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\",\"fine_print\":\"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\",\"present_date\":\"2025-03-19T18:44:43.714349\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"queries\": [\"Baker Hughes US rig count March 2025\", \"US oil and gas industry trends March 2025\", \"US drilling policy news March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_KIs4raGlUlbLa41vIkvZs1yh"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_qcKOQqDZIJdARXxrpxRQnjnk",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Baker Hughes US rig count March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_iPhJSnl9mZ6UfPrcLzHN5Izc",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US oil and gas industry trends March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_9qQWVtpGuRDZ3DpznExiiWPi",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US drilling policy news March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Baker Hughes US rig count March 2025\", \"results\": [{\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 1, \"snippet\": \"Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100.\", \"date\": null}, {\"title\": \"North America Rig Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/na-rig-count\", \"position\": 2, \"snippet\": \"Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/\", \"position\": 3, \"snippet\": \"The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://bakerhughesrigcount.gcs-web.com/\", \"position\": 4, \"snippet\": \"The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...\", \"date\": null}, {\"title\": \"US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_gas_rotary_rigs\", \"position\": 2, \"snippet\": \"The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_qcKOQqDZIJdARXxrpxRQnjnk"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US oil and gas industry trends March 2025\", \"results\": [{\"title\": \"Oil Market Report - March 2025 \\u2013 Analysis - IEA\", \"link\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"position\": 3, \"snippet\": \"Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. The United States is currently producing at record highs and is forecast to be the largest source of supply...\", \"date\": null}, {\"title\": \"Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/outlooks/steo/\", \"position\": 4, \"snippet\": \"We expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025...\", \"date\": null}, {\"title\": \"U.S. drillers set to switch focus from oil to gas in 2025 \\u2013 JKempEnergy.com\", \"link\": \"https://jkempenergy.com/2025/03/12/u-s-drillers-set-to-switch-focus-from-oil-to-gas-in-2025/\", \"position\": 2, \"snippet\": \"U.S. gas production is poised for significant growth even as oil languishes, reflected in a sharp adjustment in relative prices and a big divergence in speculative positioning in the futures markets.\", \"date\": null}, {\"title\": \"Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council\", \"link\": \"https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/\", \"position\": 3, \"snippet\": \"The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints...\", \"date\": null}, {\"title\": \"Navigating the Future: Key Trends Shaping the Oil and Gas Industry in 2025 - Energy Workforce & Technology Council\", \"link\": \"https://www.energyworkforce.org/navigating-the-future-key-trends-shaping-the-oil-and-gas-industry-in-2025/\", \"position\": 5, \"snippet\": \"The Permian Basin remains vital to US oil and gas production, contributing significantly to the domestic crude oil and natural gas output. However, the region faces challenges related to natural gas takeaway capacity and infrastructure constraints...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_iPhJSnl9mZ6UfPrcLzHN5Izc"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US drilling policy news March 2025\", \"results\": [{\"title\": \"Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior\", \"link\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"position\": 4, \"snippet\": \"Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development. President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management\\u2019s rule...\", \"date\": null}, {\"title\": \"Trump\\u2019s \\u2018drill, baby, drill\\u2019 agenda could keep the world hooked on oil and gas | Donald Trump | The Guardian\", \"link\": \"https://www.theguardian.com/us-news/2025/mar/12/trump-fossil-fuels-oil-and-gas\", \"position\": 4, \"snippet\": \"Donald Trump\\u2019s \\u2018drill, baby, drill\\u2019 agenda aims to keep the world hooked on fossil fuels, with energy deals involving Japan, Ukraine, and Africa, even touting the resurrection of coal.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_9qQWVtpGuRDZ3DpznExiiWPi"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_9uMvYtKZYeaFJwq91bAj9wwT",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\"}"
+          }
+        },
+        {
+          "id": "call_FevA5FVAP514bphBg9OEIwSN",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\"}"
+          }
+        },
+        {
+          "id": "call_oYm4LLIDN6TAUGusAAo1Of8x",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"snippet\": \"---\\ntitle: U.S. Rig Count\\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\\ndate: 2025-03-19\\n---\\n\\n# U.S. Rig Count\\n\\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\\n\\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\\n\\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\\n\\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\\n\\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\\n\\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\\n\\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\\n\\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\\n\\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\\n\\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\\n\\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\\n\\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\\n\\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\\n\\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\\n\\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\\n\\nData made available by Baker Hughes.\\n\\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\\n\\nTotal Rigs 2025\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nOil\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nGas\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nMisc.\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nRatio (%)\\n\\nOil/Gas/Misc.\\n\\nOil/Gas/Misc.\\n\\nTotal Rigs 2024\\n\\n03/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n0 592\\n\\nOil (Wk./Wk.)\\n+1 (487)\\n\\nGas (Wk./Wk.)\\n-1 (100)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n03/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n-1 592\\n\\nOil (Wk./Wk.)\\n0 (486)\\n\\nGas (Wk./Wk.)\\n-1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n622\\n\\n02/28/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+1 593\\n\\nOil (Wk./Wk.)\\n-2 (486)\\n\\nGas (Wk./Wk.)\\n+3 (102)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n02/21/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 592\\n\\nOil (Wk./Wk.)\\n+7 (488)\\n\\nGas (Wk./Wk.)\\n-2 (99)\\n\\nMisc. (Wk./Wk.)\\n-1 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n626\\n\\n02/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+2 588\\n\\nOil (Wk./Wk.)\\n+1 (481)\\n\\nGas (Wk./Wk.)\\n+1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n621\\n\\n02/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 586\\n\\nOil (Wk./Wk.)\\n+1 (480)\\n\\nGas (Wk./Wk.)\\n+2 (100)\\n\\nMisc. (Wk./Wk.)\\n+1 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 202\\u2026\\n\\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]\", \"word_count\": 418, \"snippet_word_count\": 262, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T03:44:29.056473\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_9uMvYtKZYeaFJwq91bAj9wwT"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"snippet\": \"---\\ntitle: Oil Market Report - March 2025 \\u2013 Analysis - IEA\\nurl: https://www.iea.org/reports/oil-market-report-march-2025\\nhostname: iea.org\\ndescription: Oil Market Report - March 2025 - Analysis and key findings. A report by the International Energy Agency.\\nsitename: IEA\\ndate: 2025-03-13\\n---\\n#### About this report\\n\\nThe IEA Oil Market Report (OMR) is one of the world's most authoritative and timely sources of data, forecasts and analysis on the global oil market \\u2013 including detailed statistics and commentary on oil supply, demand, inventories, prices and refining activity, as well as oil trade for IEA and selected non-IEA countries.\\n\\n#### Highlights\\n\\n- Growth in global oil demand is set to accelerate to just over 1 mb/d this year, from 830 kb/d in 2024, reaching 103.9 mb/d. Asia accounts for almost 60% of gains, led by China where petrochemical feedstocks will provide the entirety of growth. Amid an unusually uncertain macroeconomic climate, recent delivery data have been below expectations, leading to slightly lower estimates for 4Q24 and 1Q25 growth at 1.2 mb/d y-o-y.\\n- World oil supply rose by 240 kb/d in February to 103.3 mb/d, led by OPEC+. Kazakhstan pumped at an all-time high as Tengiz ramped up, while Iran and Venezuela boosted flows ahead of tighter sanctions. Non-OPEC+ production is set to rise by 1.5 mb/d in 2025, led by the Americas. Following a 770 kb/d output decline last year, OPEC+ output could hold steady in 2025 if voluntary cuts are maintained after April.\\n- Global crude runs dropped by 570 kb/d m-o-m to 82.8 mb/d in February, extending their decline from December\\u2019s five-year high of 84.3 mb/d, on planned and unplanned outages. Throughputs are forecast to average 83.3 mb/d in 2025, up 570 kb/d y-o-y as lower OECD activity partly offsets a 930 kb/d annual increase in the non-OECD. Refining margins recovered in February, as falling crude prices lifted profitability in all regions.\\n- Global observed oil stocks fell by 40.5 mb in January, of which 26.1 mb were products. Non\\u2011OECD crude stocks plunged by 45.3 mb, dominated by China where imports declined. Total OECD stocks rose by 11.2 mb, boosted by a 25 mb build in industry crude inventories. Oil on water fell by 6.7 mb. However, preliminary data for February show total global oil stocks rebounded, lifted by an increase in oil on water.\\n- Oil prices declined by about $7/bbl in February and early March as macro sentiment soured amid escalating trade tensions, clouding the outlook for oil demand\\u2026\\n\\n[Truncated preview: showing 411 words out of ~1344. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1344, \"snippet_word_count\": 411, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T03:44:39.696801\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_FevA5FVAP514bphBg9OEIwSN"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"snippet\": \"---\\ntitle: Department of the Interior Secretary Applauds Congressional Action to Enhance Offshore Energy Development | U.S. Department of the Interior\\nurl: https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\\nhostname: doi.gov\\ndescription: To revive offshore energy development efforts, President Donald Trump today signed S.J.Res.11, a joint resolution disapproving the Bureau of Ocean Energy Management\\u2019s rule titled \\\"Protection of Marine Archaeological Resources\\nsitename: U.S. Department of the Interior\\ndate: 2025-03-15\\n---\\nAn official website of the United States government\\n\\nHere's how you know\\n\\nOfficial websites use .gov\\nA .gov website belongs to an official government organization in the United States.\\n\\nSecure .gov websites use HTTPS\\nA lock (\\n) or https:// means you\\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\", \"word_count\": 120, \"snippet_word_count\": 120, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T14:34:27.633378\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_oYm4LLIDN6TAUGusAAo1Of8x"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_7F8SiFDJ9J6wlOCnS4MBfTxv",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"question\": \"Will the number of active US drilling rigs be 595 to 599 on March 28, 2025?\", \"background\": \"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\", \"resolution_criteria\": \"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 595 to 599. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\", \"fine_print\": \"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\", \"present_date\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        },
+        {
+          "id": "call_peO7zLPFN842WdHhUwpiKZ1j",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"question\": \"Will the number of active US drilling rigs be 595 to 599 on March 28, 2025?\", \"background\": \"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\", \"resolution_criteria\": \"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 595 to 599. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\", \"fine_print\": \"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\", \"present_date\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        },
+        {
+          "id": "call_JxzcuQmn7KQpWsZqzthKNoCX",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"question\": \"Will the number of active US drilling rigs be 595 to 599 on March 28, 2025?\", \"background\": \"This question is part of the Bridgewater Forecasting Contest. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status here.\", \"resolution_criteria\": \"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 595 to 599. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\", \"fine_print\": \"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\", \"present_date\": \"2025-03-19T18:44:43.714349\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"As of March 14, 2025, the total number of active US drilling rigs is 592.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has remained at 592 for two consecutive weeks as of March 14, 2025.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The oil rig count increased by 1 to 487, while the gas rig count decreased by 1 to 100 as of March 14, 2025.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The total rig count increased by 1 to 593 on February 28, 2025, before stabilizing at 592.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has shown minor fluctuations, with a recent increase of 4 rigs on February 21, 2025, followed by stabilization.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_7F8SiFDJ9J6wlOCnS4MBfTxv"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"facts\": [{\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"Global oil supply rose by 240 kb/d in February 2025, indicating an increase in production capacity that could influence US drilling activity.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"Oil prices declined by about $7/bbl in February and early March 2025, with Brent futures trading near three-year lows around $70/bbl, potentially impacting the economic incentives for US drilling.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"OPEC+ plans to start unwinding voluntary production cuts in April 2025, which could lead to increased global oil supply and further pressure on prices.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"The United States is currently producing at record highs and is forecast to be the largest source of supply growth in 2025, suggesting a potential increase in drilling activity.\"}, {\"title\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"url\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"fact\": \"Proposed US tariffs on Canada and Mexico, set to take effect on April 1, 2025, may impact crude oil flows and prices, influencing US drilling decisions.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_peO7zLPFN842WdHhUwpiKZ1j"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d21d5d09-efa9-5204-b5e6-51f7690e8cc8\", \"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"facts\": [{\"title\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"url\": \"https://www.doi.gov/pressreleases/department-interior-secretary-applauds-congressional-action-enhance-offshore-energy\", \"fact\": \"President Donald Trump signed S.J.Res.11, a joint resolution disapproving a rule by the Bureau of Ocean Energy Management, which could impact offshore energy development.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_JxzcuQmn7KQpWsZqzthKNoCX"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key points relevant to the probability estimation:\n\n1. **Current Rig Count**: As of March 14, 2025, the total number of active US drilling rigs is 592. The rig count has remained stable at 592 for two consecutive weeks.\n\n2. **Recent Trends**: The rig count showed minor fluctuations in February 2025, with a slight increase to 593 on February 28, 2025, before stabilizing at 592.\n\n3. **Oil Market Conditions**: Oil prices have declined by about $7/bbl in February and early March 2025, with Brent futures trading near three-year lows around $70/bbl. This decline in oil prices could reduce the economic incentives for increasing drilling activity.\n\n4. **Global Oil Supply**: Global oil supply rose by 240 kb/d in February 2025, and OPEC+ plans to start unwinding voluntary production cuts in April 2025. This could lead to increased global oil supply and further pressure on prices.\n\n5. **US Production Outlook**: The United States is currently producing at record highs and is forecast to be the largest source of supply growth in 2025. This suggests a potential increase in drilling activity, although the current rig count does not reflect this yet.\n\n6. **Policy Developments**: President Donald Trump signed a resolution that could impact offshore energy development, which may influence future drilling activity.\n\nGiven the current rig count of 592 and the stable trend observed, it seems unlikely that the rig count will increase to fall within the 595 to 599 range by March 28, 2025, especially considering the downward pressure on oil prices and the recent stability in rig counts.\n\nFINAL PROBABILITY: 0.2"
+    }
+  ]
+}

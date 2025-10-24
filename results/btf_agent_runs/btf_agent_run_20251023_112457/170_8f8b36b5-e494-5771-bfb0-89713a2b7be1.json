@@ -1,0 +1,608 @@
+{
+  "question_id": "8f8b36b5-e494-5771-bfb0-89713a2b7be1",
+  "question": "Will the global surface air temperature on April 1, 2025 be greater than 14.7°C?",
+  "probability": 0.75,
+  "reasoning": "Based on the gathered evidence, here are the key points relevant to estimating the probability that the global surface air temperature on April 1, 2025, will be greater than 14.7°C:\n\n1. **Historical Context**: April 2024 was the warmest April on record globally, with an average ERA5 surface air temperature of 15.03°C. This suggests a strong warming trend that could continue into 2025.\n\n2. **ENSO Conditions**: Currently, La Niña conditions are present, with a transition to ENSO-neutral conditions expected during March-May 2025. La Niña typically has a cooling effect on global temperatures, but the transition to neutral conditions might mitigate this effect.\n\n3. **Climate Change Impact**: The ongoing increase in greenhouse gases is expected to continue pushing global temperatures towards new records, as noted by experts from the Copernicus Climate Change Service.\n\n4. **Temperature Trends**: The global-average temperature for the past 12 months (May 2023 – April 2024) was the highest on record, indicating a persistent warming trend.\n\n5. **Forecasts and Predictions**: The forecasts indicate a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025, which could lead to warmer conditions compared to a strong La Niña.\n\nConsidering these factors, the probability that the global surface air temperature on April 1, 2025, will be greater than 14.7°C is influenced by the strong warming trend observed in recent years, the expected transition to ENSO-neutral conditions, and the ongoing impact of climate change.\n\nFINAL PROBABILITY: 0.75",
+  "search_results": [
+    {
+      "title": "ENSO: Recent Evolution,",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "content": "La Niña conditions are expected to persist in the near-term, with a transition to ENSO-neutral likely during March-May 2025..."
+    },
+    {
+      "title": "IRI – International Research Institute for Climate and Society | March 2025 Quick Look",
+      "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "content": "La Niña conditions are expected to persist, with a transition to ENSO-neutral likely during March-May 2025 (66% chance)..."
+    },
+    {
+      "title": "El Niño & La Niña (El Niño-Southern Oscillation) | NOAA Climate.gov",
+      "url": "https://www.climate.gov/enso",
+      "content": "Forecasters expect ENSO-neutral conditions to develop in the next month and persist through the Northern Hemisphere summer. La Niña conditions persisted through February..."
+    },
+    {
+      "title": "El Niño in the Northwest: What Can We Expect? | USDA Climate Hubs",
+      "url": "http://www.climatehubs.usda.gov/hubs/northwest/topic/el-nino-northwest-what-can-we-expect",
+      "content": "In Idaho, Oregon, and Washington, fall and winter are usually warmer and drier during El Niño events, though specific April 2025 impacts are not detailed..."
+    },
+    {
+      "title": "El Nino Impacts along with other Climate Factors That May Influence our Winter Weather",
+      "url": "https://www.weather.gov/pah/ElNinoImpactsOnWinterWeather",
+      "content": "For the southern U.S, the risk of extreme cold increases and spreads northward heading into late winter and spring (Feb thru April timeframe). Here in our area the odds are fairly neutral for most of the period until we get into March and April when there is an increased risk of colder temperatures."
+    },
+    {
+      "title": "Climate Pulse",
+      "url": "https://pulse.climate.copernicus.eu/",
+      "content": "Near-real time updates of key global climate variables from the the Copernicus Climate Change Service (C3S)..."
+    },
+    {
+      "title": "Surface air temperature for April 2024 | Copernicus",
+      "url": "https://climate.copernicus.eu/surface-air-temperature-april-2024",
+      "content": "Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5."
+    },
+    {
+      "title": "April 2024 – 11th consecutive warmest month globally | Copernicus",
+      "url": "https://climate.copernicus.eu/april-2024-11th-consecutive-warmest-month-globally",
+      "content": "The global average surface air temperature last month was warmer than in any previous April in the ERA5 reanalysis dataset, going back to 1940. April 2024 is the eleventh consecutive month being the warmest for the respective month of the year."
+    },
+    {
+      "title": "Copernicus: Global temperature record streak continues – April 2024 was the hottest on record | Copernicus",
+      "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "content": "April 2024 was warmer globally than any previous April in the data record, with an average ERA5 surface air temperature of 15.03°C, 0.67°C above the 1991-2020 average for April..."
+    },
+    {
+      "title": "Copernicus",
+      "url": "https://climate.copernicus.eu/",
+      "content": "The provided content does not contain specific historical data for April temperatures from Copernicus Climate Pulse."
+    },
+    {
+      "title": "Monthly Climate Reports | National Centers for Environmental Information (NCEI)",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202404",
+      "content": "A collection of monthly summaries recapping climate-related occurrences on both a global and national scale, including temperature..."
+    },
+    {
+      "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "content": "ENSO: Recent Evolution, \nCurrent Status and Predictions \nUpdate prepared by:\nClimate Prediction Center / NCEP \n24 February 2025Outline\nSummary\nRecent Evolution and Current Conditions\nOceanic Niño Index (ONI) \nPacific SST Outlook\nU.S. Seasonal Precipitation and  Temperature Outlooks\nSummary Summary\n* Note: These statements are updated once a month (2nd Thursday of each month) in association \nwith the ENSO Diagnostics Discussion, which can be found by clicking here.\nENSO Alert System Status:  La Niña Advisory\nLa Niña conditions are present.*\nEquatorial sea surface temperatures (SSTs) are near-to-below average in the \ncentral and east-central Pacific Ocean. \nLa Niña conditions are expected to persist in the near-term, with a transition \nto ENSO-neutral likely during March-May 2025 (66% chance).Positive sea surface temperature (SST) \nanomalies persisted across most of the \neastern and central Pacific Ocean from \nthe beginning of the period until April \n2024. \nSince mid-March 2024, mostly near-to-\nbelow-average SSTs emerged in the \neastern Pacific and expanded \nwestward.\nSince early December 2024, below-\naverage SSTs persisted across the \ncentral Pacific Ocean.  Above average \nSSTs have periodically strengthened in \nthe eastern Pacific.\nRecent Evolution of \nEquatorial Pacific SST \nDepartures (\no\nC)\nNi\nño Region SST \nDepartures (\no\nC) Recent \nEvolution\nThe latest weekly \nSST departures are:\nNiño 4 -0.5ºC\nNiño 3.4 -0.3ºC\nNiño 3 0.2ºC\nNiño 1+2 1.0ºC\nSST Departures (\no\nC) in the Tropical Pacific During the Last \nFour Weeks\nIn the last four weeks, equatorial SSTs were above average in the far western Pacific \nOcean.  Below average SSTs were evident in the central and east-central Pacific Ocean, \nwith near-to-above average SSTs observed in the eastern Pacific Ocean.\n2630\nGlobal SST Departures (\no\nC) During the Last Four Weeks\nDuring the last four weeks, equatorial SSTs were above average in the far western Pacific Ocean and in \nmost of the Atlantic Ocean. Below-average SSTs were evident in the central and east-central Pacific Ocean \nand in the western Indian Ocean.\n263030\nWeekly SST Departures \nduring the Last Four \nWeeks\nDuring the last 4 weeks, below-average SSTs \npersisted in the central equatorial Pacific \nOcean.  Above-average SSTs strengthened in \nthe eastern Pacific Ocean.\nChange in Weekly SST Departures over the Last Four \nWeeks\nDuring the last four weeks, mostly positive SST anomaly changes were evident in the \ncentral and eastern equatorial Pacific Ocean.…\n\n[Truncated preview: showing 380 words out of ~1958. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "content": "---\ntitle: IRI – International Research Institute for Climate and Society\nurl: https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\nhostname: columbia.edu\nsitename: iri.columbia.edu\ndate: 2025-02-19\n---\n# IRI ENSO Forecast\n\n## IRI Technical ENSO Update\n\n#### Published: February 19, 2025\n\n**Note**: The SST anomalies cited below refer to the OISSTv2 SST data set, and not ERSSTv5. OISSTv2 is often used for real-time analysis and model initialization, while ERSSTv5 is used for retrospective official ENSO diagnosis because it is more homogeneous over time, allowing for more accurate comparisons among ENSO events that are years apart. These two products may differ, particularly during ENSO events. The difference between the two datasets may be as much as 0.5 °C. Additionally in some years, the ERSSTv5 may tend to be cooler than OISSTv2 in the context of warming trends, because ERSSTv5 is expressed relative to a base period that is updated every 5 years, while the base period of OISSTv2 is updated every 10 years. In February 2021, both datasets were updated to reflect the 1991-2020 climatology period.\n\n### Recent and Current Conditions\n\nThe SST anomaly in the NINO3.4 region during the Nov-Jan 2024 season was -0.50 °C, and for the month of January 2025 it was -0.71 °C. The most recent weekly average (week centered on 12 February 2025) of the NINO3.4 index was -0.3 °C. The latest seasonal and monthly values suggest that the tropical Pacific has been experiencing weak La Niña conditions. The IRI’s definition of El Niño, like NOAA/Climate Prediction Center’s, requires that the monthly SST anomaly in the NINO3.4 region (5S-5N; 170W-120W) exceed +0.5 °C. Similarly, for La Niña, the anomaly must be -0.5 °C or colder.\n\nBoth atmospheric and oceanic conditions across the tropical Pacific now exhibit characteristics indicative of La Niña. For instance, while the traditional Southern Oscillation Index (SOI) for January 2025 was +0.8, placing it within the ENSO-neutral range, the equatorial SOI for the same month was +1.8, falling within the La Niña range. The trade winds (at 850 hPa) were stronger than normal during January 2025, and, as of mid-February 2025, they continue to be above average, while the upper-level winds (at 200 hPa) are close to average over the equatorial Pacific. Atmospheric convection over the central Pacific is strongly below normal, while above normal cloudiness is observed over Indonesia. Below-average ocean temperatures persist at d…\n\n[Truncated preview: showing 386 words out of ~1341. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "content": "---\ntitle: Copernicus: Global temperature record streak continues – April 2024 was the hottest on record\nurl: https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\nhostname: copernicus.eu\ndescription: C3S routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables.\nsitename: CopernicusECMWF\ndate: 2024-05-07\n---\n**Newsflash**\n\nBonn, 08/05/2024\n\n*Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5. Credit: Copernicus Climate Change* Service/ECMWF.\n\n[DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/ftp-data/temperature/2024/04/ERA5_1991-2020/map_1month_anomaly_Global_ea_2t_202404_1991-2020_v02.1.pdf)\n\nThe [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/), implemented by the European Centre for Medium-Range Weather Forecasts on behalf of the European Commission with funding from the EU, routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables. All the reported findings are based on computer-generated analyses and according to ERA5 reanalysis dataset, using billions of measurements from satellites, ships, aircraft and weather stations around the world.\n\n*Monthly global surface air temperature anomalies (°C) relative to 1850–1900 from January 1940 to April 2024, plotted as time series for each year. 2024 is shown with a thick yellow line, 2023 with a thick red line, and all other years with thin lines shaded according to the decade, from blue (1940s) to brick red (2020s). Data source: ERA5. Credit: C3S/ECMWF.*\n\n[ACCESS TO DATA](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_1940-2024_allmonths.csv)[ ](https://climate.copernicus.eu/sites/default/files/custom-uploads/2403%20March%20CB/timeseries_era5_monthly_surface_temperature_anomalies_ref1850-1900_global_1940-2024_allmonths.pdf)| [DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_ref1850-1900_1940-2024_allmonths.pdf)\n\n## April 2024 – Surface air temperature and sea surface temperature highlights\n\n-\nApril 2024 was warmer gl…\n\n[Truncated preview: showing 246 words out of ~1674. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "fact": "La Niña conditions are currently present, with equatorial sea surface temperatures near-to-below average in the central and east-central Pacific Ocean."
+    },
+    {
+      "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "fact": "There is a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025."
+    },
+    {
+      "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "fact": "The most recent Oceanic Niño Index (ONI) value for November 2024 – January 2025 is -0.5°C, indicating La Niña conditions."
+    },
+    {
+      "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "fact": "Models predict equal chances of ENSO-neutral or La Niña in February-April 2025, with a favor towards ENSO-neutral in March-May 2025."
+    },
+    {
+      "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+      "fact": "The CFS.v2 ensemble mean indicates a transition from La Niña to ENSO-neutral in the next month, with ENSO-neutral favored to persist into Northern Hemisphere fall."
+    },
+    {
+      "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "fact": "The SST anomaly in the NINO3.4 region during January 2025 was -0.71°C, indicating weak La Niña conditions."
+    },
+    {
+      "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "fact": "The forecast indicates a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025."
+    },
+    {
+      "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "fact": "The probability of ENSO-neutral conditions is expected to increase to 70% for April-June 2025."
+    },
+    {
+      "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "fact": "The Multivariate ENSO-Index (MEI) registered -1.0°C during December-January 2025, indicating La Niña-like conditions."
+    },
+    {
+      "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+      "fact": "The forecast for February-April 2025 shows equal chances (50%) for La Niña and ENSO-neutral conditions."
+    },
+    {
+      "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "fact": "April 2024 was the warmest April on record globally, with an average ERA5 surface air temperature of 15.03°C."
+    },
+    {
+      "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "fact": "The global-average temperature for the past 12 months (May 2023 – April 2024) was the highest on record, at 0.73°C above the 1991-2020 average."
+    },
+    {
+      "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "fact": "April 2024 was 1.58°C warmer than the April average for the 1850-1900 pre-industrial period."
+    },
+    {
+      "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "fact": "The El Niño in the eastern equatorial Pacific was weakening towards neutral conditions, but marine air temperatures remained unusually high."
+    },
+    {
+      "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+      "fact": "According to Carlo Buontempo, Director of the Copernicus Climate Change Service, the extra energy trapped in the ocean and atmosphere by increasing greenhouse gases will continue to push global temperatures towards new records."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.5625,
+  "weighted_brier_score": 0.28125,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "8f8b36b5-e494-5771-bfb0-89713a2b7be1",
+        "queries": [
+          "April 2025 global temperature forecast",
+          "El Niño impact on April 2025 temperatures",
+          "Copernicus Climate Pulse historical data April temperatures"
+        ]
+      },
+      "raw": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"queries\": [\"April 2025 global temperature forecast\", \"El Ni\\u00f1o impact on April 2025 temperatures\", \"Copernicus Climate Pulse historical data April temperatures\"]}",
+      "tool_call_id": "call_lkj85y24ATQH90qEkDyFmx2P"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "April 2025 global temperature forecast",
+        "results": []
+      },
+      "raw": "{\"query\": \"April 2025 global temperature forecast\", \"results\": []}",
+      "tool_call_id": "call_e8r4QXSkbszqfepxajug3ppY"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "El Niño impact on April 2025 temperatures",
+        "results": [
+          {
+            "title": "ENSO: Recent Evolution,",
+            "link": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "position": 2,
+            "snippet": "La Niña conditions are expected to persist in the near-term, with a transition to ENSO-neutral likely during March-May 2025...",
+            "date": null
+          },
+          {
+            "title": "IRI – International Research Institute for Climate and Society | March 2025 Quick Look",
+            "link": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "position": 1,
+            "snippet": "La Niña conditions are expected to persist, with a transition to ENSO-neutral likely during March-May 2025 (66% chance)...",
+            "date": null
+          },
+          {
+            "title": "El Niño & La Niña (El Niño-Southern Oscillation) | NOAA Climate.gov",
+            "link": "https://www.climate.gov/enso",
+            "position": 2,
+            "snippet": "Forecasters expect ENSO-neutral conditions to develop in the next month and persist through the Northern Hemisphere summer. La Niña conditions persisted through February...",
+            "date": null
+          },
+          {
+            "title": "El Niño in the Northwest: What Can We Expect? | USDA Climate Hubs",
+            "link": "http://www.climatehubs.usda.gov/hubs/northwest/topic/el-nino-northwest-what-can-we-expect",
+            "position": 2,
+            "snippet": "In Idaho, Oregon, and Washington, fall and winter are usually warmer and drier during El Niño events, though specific April 2025 impacts are not detailed...",
+            "date": null
+          },
+          {
+            "title": "El Nino Impacts along with other Climate Factors That May Influence our Winter Weather",
+            "link": "https://www.weather.gov/pah/ElNinoImpactsOnWinterWeather",
+            "position": 4,
+            "snippet": "For the southern U.S, the risk of extreme cold increases and spreads northward heading into late winter and spring (Feb thru April timeframe). Here in our area the odds are fairly neutral for most of the period until we get into March and April when there is an increased risk of colder temperatures.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"El Ni\\u00f1o impact on April 2025 temperatures\", \"results\": [{\"title\": \"ENSO: Recent Evolution,\", \"link\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"position\": 2, \"snippet\": \"La Ni\\u00f1a conditions are expected to persist in the near-term, with a transition to ENSO-neutral likely during March-May 2025...\", \"date\": null}, {\"title\": \"IRI \\u2013 International Research Institute for Climate and Society | March 2025 Quick Look\", \"link\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"position\": 1, \"snippet\": \"La Ni\\u00f1a conditions are expected to persist, with a transition to ENSO-neutral likely during March-May 2025 (66% chance)...\", \"date\": null}, {\"title\": \"El Ni\\u00f1o & La Ni\\u00f1a (El Ni\\u00f1o-Southern Oscillation) | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/enso\", \"position\": 2, \"snippet\": \"Forecasters expect ENSO-neutral conditions to develop in the next month and persist through the Northern Hemisphere summer. La Ni\\u00f1a conditions persisted through February...\", \"date\": null}, {\"title\": \"El Ni\\u00f1o in the Northwest: What Can We Expect? | USDA Climate Hubs\", \"link\": \"http://www.climatehubs.usda.gov/hubs/northwest/topic/el-nino-northwest-what-can-we-expect\", \"position\": 2, \"snippet\": \"In Idaho, Oregon, and Washington, fall and winter are usually warmer and drier during El Ni\\u00f1o events, though specific April 2025 impacts are not detailed...\", \"date\": null}, {\"title\": \"El Nino Impacts along with other Climate Factors That May Influence our Winter Weather\", \"link\": \"https://www.weather.gov/pah/ElNinoImpactsOnWinterWeather\", \"position\": 4, \"snippet\": \"For the southern U.S, the risk of extreme cold increases and spreads northward heading into late winter and spring (Feb thru April timeframe). Here in our area the odds are fairly neutral for most of the period until we get into March and April when there is an increased risk of colder temperatures.\", \"date\": null}]}",
+      "tool_call_id": "call_bntU3UDmZrqEy5AOyunFx60n"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Copernicus Climate Pulse historical data April temperatures",
+        "results": [
+          {
+            "title": "Climate Pulse",
+            "link": "https://pulse.climate.copernicus.eu/",
+            "position": 2,
+            "snippet": "Near-real time updates of key global climate variables from the the Copernicus Climate Change Service (C3S)...",
+            "date": null
+          },
+          {
+            "title": "Surface air temperature for April 2024 | Copernicus",
+            "link": "https://climate.copernicus.eu/surface-air-temperature-april-2024",
+            "position": 4,
+            "snippet": "Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5.",
+            "date": null
+          },
+          {
+            "title": "April 2024 – 11th consecutive warmest month globally | Copernicus",
+            "link": "https://climate.copernicus.eu/april-2024-11th-consecutive-warmest-month-globally",
+            "position": 5,
+            "snippet": "The global average surface air temperature last month was warmer than in any previous April in the ERA5 reanalysis dataset, going back to 1940. April 2024 is the eleventh consecutive month being the warmest for the respective month of the year.",
+            "date": null
+          },
+          {
+            "title": "Copernicus: Global temperature record streak continues – April 2024 was the hottest on record | Copernicus",
+            "link": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "position": 2,
+            "snippet": "April 2024 was warmer globally than any previous April in the data record, with an average ERA5 surface air temperature of 15.03°C, 0.67°C above the 1991-2020 average for April...",
+            "date": null
+          },
+          {
+            "title": "Copernicus",
+            "link": "https://climate.copernicus.eu/",
+            "position": 1,
+            "snippet": "The provided content does not contain specific historical data for April temperatures from Copernicus Climate Pulse.",
+            "date": null
+          },
+          {
+            "title": "Monthly Climate Reports | National Centers for Environmental Information (NCEI)",
+            "link": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202404",
+            "position": 4,
+            "snippet": "A collection of monthly summaries recapping climate-related occurrences on both a global and national scale, including temperature...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Copernicus Climate Pulse historical data April temperatures\", \"results\": [{\"title\": \"Climate Pulse\", \"link\": \"https://pulse.climate.copernicus.eu/\", \"position\": 2, \"snippet\": \"Near-real time updates of key global climate variables from the the Copernicus Climate Change Service (C3S)...\", \"date\": null}, {\"title\": \"Surface air temperature for April 2024 | Copernicus\", \"link\": \"https://climate.copernicus.eu/surface-air-temperature-april-2024\", \"position\": 4, \"snippet\": \"Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5.\", \"date\": null}, {\"title\": \"April 2024 \\u2013 11th consecutive warmest month globally | Copernicus\", \"link\": \"https://climate.copernicus.eu/april-2024-11th-consecutive-warmest-month-globally\", \"position\": 5, \"snippet\": \"The global average surface air temperature last month was warmer than in any previous April in the ERA5 reanalysis dataset, going back to 1940. April 2024 is the eleventh consecutive month being the warmest for the respective month of the year.\", \"date\": null}, {\"title\": \"Copernicus: Global temperature record streak continues \\u2013 April 2024 was the hottest on record | Copernicus\", \"link\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"position\": 2, \"snippet\": \"April 2024 was warmer globally than any previous April in the data record, with an average ERA5 surface air temperature of 15.03\\u00b0C, 0.67\\u00b0C above the 1991-2020 average for April...\", \"date\": null}, {\"title\": \"Copernicus\", \"link\": \"https://climate.copernicus.eu/\", \"position\": 1, \"snippet\": \"The provided content does not contain specific historical data for April temperatures from Copernicus Climate Pulse.\", \"date\": null}, {\"title\": \"Monthly Climate Reports | National Centers for Environmental Information (NCEI)\", \"link\": \"https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202404\", \"position\": 4, \"snippet\": \"A collection of monthly summaries recapping climate-related occurrences on both a global and national scale, including temperature...\", \"date\": null}]}",
+      "tool_call_id": "call_cCgZe46FURqn2lKHXvyqYp5D"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+        "snippet": "ENSO: Recent Evolution, \nCurrent Status and Predictions \nUpdate prepared by:\nClimate Prediction Center / NCEP \n24 February 2025Outline\nSummary\nRecent Evolution and Current Conditions\nOceanic Niño Index (ONI) \nPacific SST Outlook\nU.S. Seasonal Precipitation and  Temperature Outlooks\nSummary Summary\n* Note: These statements are updated once a month (2nd Thursday of each month) in association \nwith the ENSO Diagnostics Discussion, which can be found by clicking here.\nENSO Alert System Status:  La Niña Advisory\nLa Niña conditions are present.*\nEquatorial sea surface temperatures (SSTs) are near-to-below average in the \ncentral and east-central Pacific Ocean. \nLa Niña conditions are expected to persist in the near-term, with a transition \nto ENSO-neutral likely during March-May 2025 (66% chance).Positive sea surface temperature (SST) \nanomalies persisted across most of the \neastern and central Pacific Ocean from \nthe beginning of the period until April \n2024. \nSince mid-March 2024, mostly near-to-\nbelow-average SSTs emerged in the \neastern Pacific and expanded \nwestward.\nSince early December 2024, below-\naverage SSTs persisted across the \ncentral Pacific Ocean.  Above average \nSSTs have periodically strengthened in \nthe eastern Pacific.\nRecent Evolution of \nEquatorial Pacific SST \nDepartures (\no\nC)\nNi\nño Region SST \nDepartures (\no\nC) Recent \nEvolution\nThe latest weekly \nSST departures are:\nNiño 4 -0.5ºC\nNiño 3.4 -0.3ºC\nNiño 3 0.2ºC\nNiño 1+2 1.0ºC\nSST Departures (\no\nC) in the Tropical Pacific During the Last \nFour Weeks\nIn the last four weeks, equatorial SSTs were above average in the far western Pacific \nOcean.  Below average SSTs were evident in the central and east-central Pacific Ocean, \nwith near-to-above average SSTs observed in the eastern Pacific Ocean.\n2630\nGlobal SST Departures (\no\nC) During the Last Four Weeks\nDuring the last four weeks, equatorial SSTs were above average in the far western Pacific Ocean and in \nmost of the Atlantic Ocean. Below-average SSTs were evident in the central and east-central Pacific Ocean \nand in the western Indian Ocean.\n263030\nWeekly SST Departures \nduring the Last Four \nWeeks\nDuring the last 4 weeks, below-average SSTs \npersisted in the central equatorial Pacific \nOcean.  Above-average SSTs strengthened in \nthe eastern Pacific Ocean.\nChange in Weekly SST Departures over the Last Four \nWeeks\nDuring the last four weeks, mostly positive SST anomaly changes were evident in the \ncentral and eastern equatorial Pacific Ocean.…\n\n[Truncated preview: showing 380 words out of ~1958. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1958,
+        "snippet_word_count": 380,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T00:49:02.064740",
+        "date_cutoff_end": "2025-03-27T00:49:02.064740",
+        "cached_at": "2025-10-24T04:46:15.987492"
+      },
+      "raw": "{\"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"snippet\": \"ENSO: Recent Evolution, \\nCurrent Status and Predictions \\nUpdate prepared by:\\nClimate Prediction Center / NCEP \\n24 February 2025Outline\\nSummary\\nRecent Evolution and Current Conditions\\nOceanic Ni\\u00f1o Index (ONI) \\nPacific SST Outlook\\nU.S. Seasonal Precipitation and  Temperature Outlooks\\nSummary Summary\\n* Note: These statements are updated once a month (2nd Thursday of each month) in association \\nwith the ENSO Diagnostics Discussion, which can be found by clicking here.\\nENSO Alert System Status:  La Ni\\u00f1a Advisory\\nLa Ni\\u00f1a conditions are present.*\\nEquatorial sea surface temperatures (SSTs) are near-to-below average in the \\ncentral and east-central Pacific Ocean. \\nLa Ni\\u00f1a conditions are expected to persist in the near-term, with a transition \\nto ENSO-neutral likely during March-May 2025 (66% chance).Positive sea surface temperature (SST) \\nanomalies persisted across most of the \\neastern and central Pacific Ocean from \\nthe beginning of the period until April \\n2024. \\nSince mid-March 2024, mostly near-to-\\nbelow-average SSTs emerged in the \\neastern Pacific and expanded \\nwestward.\\nSince early December 2024, below-\\naverage SSTs persisted across the \\ncentral Pacific Ocean.  Above average \\nSSTs have periodically strengthened in \\nthe eastern Pacific.\\nRecent Evolution of \\nEquatorial Pacific SST \\nDepartures (\\no\\nC)\\nNi\\n\\u00f1o Region SST \\nDepartures (\\no\\nC) Recent \\nEvolution\\nThe latest weekly \\nSST departures are:\\nNi\\u00f1o 4 -0.5\\u00baC\\nNi\\u00f1o 3.4 -0.3\\u00baC\\nNi\\u00f1o 3 0.2\\u00baC\\nNi\\u00f1o 1+2 1.0\\u00baC\\nSST Departures (\\no\\nC) in the Tropical Pacific During the Last \\nFour Weeks\\nIn the last four weeks, equatorial SSTs were above average in the far western Pacific \\nOcean.  Below average SSTs were evident in the central and east-central Pacific Ocean, \\nwith near-to-above average SSTs observed in the eastern Pacific Ocean.\\n2630\\nGlobal SST Departures (\\no\\nC) During the Last Four Weeks\\nDuring the last four weeks, equatorial SSTs were above average in the far western Pacific Ocean and in \\nmost of the Atlantic Ocean. Below-average SSTs were evident in the central and east-central Pacific Ocean \\nand in the western Indian Ocean.\\n263030\\nWeekly SST Departures \\nduring the Last Four \\nWeeks\\nDuring the last 4 weeks, below-average SSTs \\npersisted in the central equatorial Pacific \\nOcean.  Above-average SSTs strengthened in \\nthe eastern Pacific Ocean.\\nChange in Weekly SST Departures over the Last Four \\nWeeks\\nDuring the last four weeks, mostly positive SST anomaly changes were evident in the \\ncentral and eastern equatorial Pacific Ocean.\\u2026\\n\\n[Truncated preview: showing 380 words out of ~1958. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1958, \"snippet_word_count\": 380, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T00:49:02.064740\", \"date_cutoff_end\": \"2025-03-27T00:49:02.064740\", \"cached_at\": \"2025-10-24T04:46:15.987492\"}",
+      "tool_call_id": "call_UPhyEWLJEabfxlsSIPNuLmF5"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+        "snippet": "---\ntitle: IRI – International Research Institute for Climate and Society\nurl: https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\nhostname: columbia.edu\nsitename: iri.columbia.edu\ndate: 2025-02-19\n---\n# IRI ENSO Forecast\n\n## IRI Technical ENSO Update\n\n#### Published: February 19, 2025\n\n**Note**: The SST anomalies cited below refer to the OISSTv2 SST data set, and not ERSSTv5. OISSTv2 is often used for real-time analysis and model initialization, while ERSSTv5 is used for retrospective official ENSO diagnosis because it is more homogeneous over time, allowing for more accurate comparisons among ENSO events that are years apart. These two products may differ, particularly during ENSO events. The difference between the two datasets may be as much as 0.5 °C. Additionally in some years, the ERSSTv5 may tend to be cooler than OISSTv2 in the context of warming trends, because ERSSTv5 is expressed relative to a base period that is updated every 5 years, while the base period of OISSTv2 is updated every 10 years. In February 2021, both datasets were updated to reflect the 1991-2020 climatology period.\n\n### Recent and Current Conditions\n\nThe SST anomaly in the NINO3.4 region during the Nov-Jan 2024 season was -0.50 °C, and for the month of January 2025 it was -0.71 °C. The most recent weekly average (week centered on 12 February 2025) of the NINO3.4 index was -0.3 °C. The latest seasonal and monthly values suggest that the tropical Pacific has been experiencing weak La Niña conditions. The IRI’s definition of El Niño, like NOAA/Climate Prediction Center’s, requires that the monthly SST anomaly in the NINO3.4 region (5S-5N; 170W-120W) exceed +0.5 °C. Similarly, for La Niña, the anomaly must be -0.5 °C or colder.\n\nBoth atmospheric and oceanic conditions across the tropical Pacific now exhibit characteristics indicative of La Niña. For instance, while the traditional Southern Oscillation Index (SOI) for January 2025 was +0.8, placing it within the ENSO-neutral range, the equatorial SOI for the same month was +1.8, falling within the La Niña range. The trade winds (at 850 hPa) were stronger than normal during January 2025, and, as of mid-February 2025, they continue to be above average, while the upper-level winds (at 200 hPa) are close to average over the equatorial Pacific. Atmospheric convection over the central Pacific is strongly below normal, while above normal cloudiness is observed over Indonesia. Below-average ocean temperatures persist at d…\n\n[Truncated preview: showing 386 words out of ~1341. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1341,
+        "snippet_word_count": 386,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T00:49:02.064740",
+        "date_cutoff_end": "2025-03-27T00:49:02.064740",
+        "cached_at": "2025-10-24T04:46:17.023110"
+      },
+      "raw": "{\"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"snippet\": \"---\\ntitle: IRI \\u2013 International Research Institute for Climate and Society\\nurl: https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\\nhostname: columbia.edu\\nsitename: iri.columbia.edu\\ndate: 2025-02-19\\n---\\n# IRI ENSO Forecast\\n\\n## IRI Technical ENSO Update\\n\\n#### Published: February 19, 2025\\n\\n**Note**: The SST anomalies cited below refer to the OISSTv2 SST data set, and not ERSSTv5. OISSTv2 is often used for real-time analysis and model initialization, while ERSSTv5 is used for retrospective official ENSO diagnosis because it is more homogeneous over time, allowing for more accurate comparisons among ENSO events that are years apart. These two products may differ, particularly during ENSO events. The difference between the two datasets may be as much as 0.5 \\u00b0C. Additionally in some years, the ERSSTv5 may tend to be cooler than OISSTv2 in the context of warming trends, because ERSSTv5 is expressed relative to a base period that is updated every 5 years, while the base period of OISSTv2 is updated every 10 years. In February 2021, both datasets were updated to reflect the 1991-2020 climatology period.\\n\\n### Recent and Current Conditions\\n\\nThe SST anomaly in the NINO3.4 region during the Nov-Jan 2024 season was -0.50 \\u00b0C, and for the month of January 2025 it was -0.71 \\u00b0C. The most recent weekly average (week centered on 12 February 2025) of the NINO3.4 index was -0.3 \\u00b0C. The latest seasonal and monthly values suggest that the tropical Pacific has been experiencing weak La Ni\\u00f1a conditions. The IRI\\u2019s definition of El Ni\\u00f1o, like NOAA/Climate Prediction Center\\u2019s, requires that the monthly SST anomaly in the NINO3.4 region (5S-5N; 170W-120W) exceed +0.5 \\u00b0C. Similarly, for La Ni\\u00f1a, the anomaly must be -0.5 \\u00b0C or colder.\\n\\nBoth atmospheric and oceanic conditions across the tropical Pacific now exhibit characteristics indicative of La Ni\\u00f1a. For instance, while the traditional Southern Oscillation Index (SOI) for January 2025 was +0.8, placing it within the ENSO-neutral range, the equatorial SOI for the same month was +1.8, falling within the La Ni\\u00f1a range. The trade winds (at 850 hPa) were stronger than normal during January 2025, and, as of mid-February 2025, they continue to be above average, while the upper-level winds (at 200 hPa) are close to average over the equatorial Pacific. Atmospheric convection over the central Pacific is strongly below normal, while above normal cloudiness is observed over Indonesia. Below-average ocean temperatures persist at d\\u2026\\n\\n[Truncated preview: showing 386 words out of ~1341. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1341, \"snippet_word_count\": 386, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T00:49:02.064740\", \"date_cutoff_end\": \"2025-03-27T00:49:02.064740\", \"cached_at\": \"2025-10-24T04:46:17.023110\"}",
+      "tool_call_id": "call_rkBNw9Yqqd76FLIjGxPvBkJE"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+        "snippet": "---\ntitle: Copernicus: Global temperature record streak continues – April 2024 was the hottest on record\nurl: https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\nhostname: copernicus.eu\ndescription: C3S routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables.\nsitename: CopernicusECMWF\ndate: 2024-05-07\n---\n**Newsflash**\n\nBonn, 08/05/2024\n\n*Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5. Credit: Copernicus Climate Change* Service/ECMWF.\n\n[DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/ftp-data/temperature/2024/04/ERA5_1991-2020/map_1month_anomaly_Global_ea_2t_202404_1991-2020_v02.1.pdf)\n\nThe [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/), implemented by the European Centre for Medium-Range Weather Forecasts on behalf of the European Commission with funding from the EU, routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables. All the reported findings are based on computer-generated analyses and according to ERA5 reanalysis dataset, using billions of measurements from satellites, ships, aircraft and weather stations around the world.\n\n*Monthly global surface air temperature anomalies (°C) relative to 1850–1900 from January 1940 to April 2024, plotted as time series for each year. 2024 is shown with a thick yellow line, 2023 with a thick red line, and all other years with thin lines shaded according to the decade, from blue (1940s) to brick red (2020s). Data source: ERA5. Credit: C3S/ECMWF.*\n\n[ACCESS TO DATA](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_1940-2024_allmonths.csv)[ ](https://climate.copernicus.eu/sites/default/files/custom-uploads/2403%20March%20CB/timeseries_era5_monthly_surface_temperature_anomalies_ref1850-1900_global_1940-2024_allmonths.pdf)| [DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_ref1850-1900_1940-2024_allmonths.pdf)\n\n## April 2024 – Surface air temperature and sea surface temperature highlights\n\n-\nApril 2024 was warmer gl…\n\n[Truncated preview: showing 246 words out of ~1674. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1674,
+        "snippet_word_count": 246,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T00:49:02.064740",
+        "date_cutoff_end": "2025-03-27T00:49:02.064740",
+        "cached_at": "2025-10-24T06:16:12.690944"
+      },
+      "raw": "{\"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"snippet\": \"---\\ntitle: Copernicus: Global temperature record streak continues \\u2013 April 2024 was the hottest on record\\nurl: https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\\nhostname: copernicus.eu\\ndescription: C3S routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables.\\nsitename: CopernicusECMWF\\ndate: 2024-05-07\\n---\\n**Newsflash**\\n\\nBonn, 08/05/2024\\n\\n*Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5. Credit: Copernicus Climate Change* Service/ECMWF.\\n\\n[DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/ftp-data/temperature/2024/04/ERA5_1991-2020/map_1month_anomaly_Global_ea_2t_202404_1991-2020_v02.1.pdf)\\n\\nThe [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/), implemented by the European Centre for Medium-Range Weather Forecasts on behalf of the European Commission with funding from the EU, routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables. All the reported findings are based on computer-generated analyses and according to ERA5 reanalysis dataset, using billions of measurements from satellites, ships, aircraft and weather stations around the world.\\n\\n*Monthly global surface air temperature anomalies (\\u00b0C) relative to 1850\\u20131900 from January 1940 to April 2024, plotted as time series for each year. 2024 is shown with a thick yellow line, 2023 with a thick red line, and all other years with thin lines shaded according to the decade, from blue (1940s) to brick red (2020s). Data source: ERA5. Credit: C3S/ECMWF.*\\n\\n[ACCESS TO DATA](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_1940-2024_allmonths.csv)[ ](https://climate.copernicus.eu/sites/default/files/custom-uploads/2403%20March%20CB/timeseries_era5_monthly_surface_temperature_anomalies_ref1850-1900_global_1940-2024_allmonths.pdf)| [DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_ref1850-1900_1940-2024_allmonths.pdf)\\n\\n## April 2024 \\u2013 Surface air temperature and sea surface temperature highlights\\n\\n-\\nApril 2024 was warmer gl\\u2026\\n\\n[Truncated preview: showing 246 words out of ~1674. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1674, \"snippet_word_count\": 246, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T00:49:02.064740\", \"date_cutoff_end\": \"2025-03-27T00:49:02.064740\", \"cached_at\": \"2025-10-24T06:16:12.690944\"}",
+      "tool_call_id": "call_DZ4hPrFE5NB2A4QxuoHmy4HJ"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8f8b36b5-e494-5771-bfb0-89713a2b7be1",
+        "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+        "facts": [
+          {
+            "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "fact": "La Niña conditions are currently present, with equatorial sea surface temperatures near-to-below average in the central and east-central Pacific Ocean."
+          },
+          {
+            "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "fact": "There is a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025."
+          },
+          {
+            "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "fact": "The most recent Oceanic Niño Index (ONI) value for November 2024 – January 2025 is -0.5°C, indicating La Niña conditions."
+          },
+          {
+            "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "fact": "Models predict equal chances of ENSO-neutral or La Niña in February-April 2025, with a favor towards ENSO-neutral in March-May 2025."
+          },
+          {
+            "title": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+            "fact": "The CFS.v2 ensemble mean indicates a transition from La Niña to ENSO-neutral in the next month, with ENSO-neutral favored to persist into Northern Hemisphere fall."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"facts\": [{\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"La Ni\\u00f1a conditions are currently present, with equatorial sea surface temperatures near-to-below average in the central and east-central Pacific Ocean.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"There is a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"The most recent Oceanic Ni\\u00f1o Index (ONI) value for November 2024 \\u2013 January 2025 is -0.5\\u00b0C, indicating La Ni\\u00f1a conditions.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"Models predict equal chances of ENSO-neutral or La Ni\\u00f1a in February-April 2025, with a favor towards ENSO-neutral in March-May 2025.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"The CFS.v2 ensemble mean indicates a transition from La Ni\\u00f1a to ENSO-neutral in the next month, with ENSO-neutral favored to persist into Northern Hemisphere fall.\"}]}",
+      "tool_call_id": "call_mUIKsLCgp4ixMJEuzqxm4Z8U"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8f8b36b5-e494-5771-bfb0-89713a2b7be1",
+        "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+        "facts": [
+          {
+            "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "fact": "The SST anomaly in the NINO3.4 region during January 2025 was -0.71°C, indicating weak La Niña conditions."
+          },
+          {
+            "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "fact": "The forecast indicates a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025."
+          },
+          {
+            "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "fact": "The probability of ENSO-neutral conditions is expected to increase to 70% for April-June 2025."
+          },
+          {
+            "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "fact": "The Multivariate ENSO-Index (MEI) registered -1.0°C during December-January 2025, indicating La Niña-like conditions."
+          },
+          {
+            "title": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+            "fact": "The forecast for February-April 2025 shows equal chances (50%) for La Niña and ENSO-neutral conditions."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"facts\": [{\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The SST anomaly in the NINO3.4 region during January 2025 was -0.71\\u00b0C, indicating weak La Ni\\u00f1a conditions.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The forecast indicates a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The probability of ENSO-neutral conditions is expected to increase to 70% for April-June 2025.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The Multivariate ENSO-Index (MEI) registered -1.0\\u00b0C during December-January 2025, indicating La Ni\\u00f1a-like conditions.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The forecast for February-April 2025 shows equal chances (50%) for La Ni\\u00f1a and ENSO-neutral conditions.\"}]}",
+      "tool_call_id": "call_J6ZsbcAer5xzXNG0IexL4CY9"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8f8b36b5-e494-5771-bfb0-89713a2b7be1",
+        "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+        "facts": [
+          {
+            "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "fact": "April 2024 was the warmest April on record globally, with an average ERA5 surface air temperature of 15.03°C."
+          },
+          {
+            "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "fact": "The global-average temperature for the past 12 months (May 2023 – April 2024) was the highest on record, at 0.73°C above the 1991-2020 average."
+          },
+          {
+            "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "fact": "April 2024 was 1.58°C warmer than the April average for the 1850-1900 pre-industrial period."
+          },
+          {
+            "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "fact": "The El Niño in the eastern equatorial Pacific was weakening towards neutral conditions, but marine air temperatures remained unusually high."
+          },
+          {
+            "title": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "url": "https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record",
+            "fact": "According to Carlo Buontempo, Director of the Copernicus Climate Change Service, the extra energy trapped in the ocean and atmosphere by increasing greenhouse gases will continue to push global temperatures towards new records."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"facts\": [{\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"April 2024 was the warmest April on record globally, with an average ERA5 surface air temperature of 15.03\\u00b0C.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"The global-average temperature for the past 12 months (May 2023 \\u2013 April 2024) was the highest on record, at 0.73\\u00b0C above the 1991-2020 average.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"April 2024 was 1.58\\u00b0C warmer than the April average for the 1850-1900 pre-industrial period.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"The El Ni\\u00f1o in the eastern equatorial Pacific was weakening towards neutral conditions, but marine air temperatures remained unusually high.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"According to Carlo Buontempo, Director of the Copernicus Climate Change Service, the extra energy trapped in the ocean and atmosphere by increasing greenhouse gases will continue to push global temperatures towards new records.\"}]}",
+      "tool_call_id": "call_r0u3CAA3GY0PRcS1MET4ILgW"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the global surface air temperature on April 1, 2025 be greater than 14.7°C?\nBackground: In 2024, the global average temperature was 1.47°C higher than pre-industrial levels, [according to NASA](https://www.nasa.gov/news-release/temperatures-rising-nasa-confirms-2024-warmest-year-on-record/) and 1.6°C higher [according to the EU's Copernicus Climate Change Service](https://www.theguardian.com/environment/2025/jan/10/world-temperature-in-2024-exceeded-15c-for-first-time), marking the hottest year since records began in 1850. This warming trend has been linked to an increase in extreme weather events, including severe heatwaves, hurricanes, floods, and droughts.\n\nIn 2025, global temperatures are [projected to be](https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2024/2025-global-temperature-outlook) among the highest on record, continuing the trend of recent years. US's National Oceanic and Atmospheric Administration [forecasted a 7.1% chance](https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202501/page-2) that 2025 would be the warmest on record. Despite that, January's temperatures [surpassed all records](https://www.bbc.co.uk/weather/articles/cdxnpr8xwjno) for that month. The question asks whether the temperature on April 1, 2025 will be greater than 14.7°C.\nResolution criteria: This question will resolve as YES if the daily average global surface air temperature for April 1, 2025, in the ERA5 data, as reported by [Copernicus's Climate Pulse](https://pulse.climate.copernicus.eu/), is greater than 14.7°C.\nFine print: * To get the data, click the download button below the graph.\n* This question will resolve as the 2t value for 2025-04-01, when its status becomes FINAL.\n* If the resolution source ceases to report that data, Metaculus might consult additional sources, provided they use the same underlying dataset.\npresent_date: 2025-03-26T00:49:02.064740\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_lkj85y24ATQH90qEkDyFmx2P",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the global surface air temperature on April 1, 2025 be greater than 14.7°C?\",\"background\":\"In 2024, the global average temperature was 1.47°C higher than pre-industrial levels, according to NASA and 1.6°C higher according to the EU's Copernicus Climate Change Service, marking the hottest year since records began in 1850. This warming trend has been linked to an increase in extreme weather events, including severe heatwaves, hurricanes, floods, and droughts. In 2025, global temperatures are projected to be among the highest on record, continuing the trend of recent years. US's National Oceanic and Atmospheric Administration forecasted a 7.1% chance that 2025 would be the warmest on record. Despite that, January's temperatures surpassed all records for that month. The question asks whether the temperature on April 1, 2025 will be greater than 14.7°C.\",\"resolution_criteria\":\"This question will resolve as YES if the daily average global surface air temperature for April 1, 2025, in the ERA5 data, as reported by Copernicus's Climate Pulse, is greater than 14.7°C.\",\"fine_print\":\"* To get the data, click the download button below the graph. * This question will resolve as the 2t value for 2025-04-01, when its status becomes FINAL. * If the resolution source ceases to report that data, Metaculus might consult additional sources, provided they use the same underlying dataset.\",\"present_date\":\"2025-03-26T00:49:02.064740\",\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"queries\": [\"April 2025 global temperature forecast\", \"El Ni\\u00f1o impact on April 2025 temperatures\", \"Copernicus Climate Pulse historical data April temperatures\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_lkj85y24ATQH90qEkDyFmx2P"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_e8r4QXSkbszqfepxajug3ppY",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"April 2025 global temperature forecast\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_bntU3UDmZrqEy5AOyunFx60n",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"El Niño impact on April 2025 temperatures\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_cCgZe46FURqn2lKHXvyqYp5D",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Copernicus Climate Pulse historical data April temperatures\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"April 2025 global temperature forecast\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_e8r4QXSkbszqfepxajug3ppY"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"El Ni\\u00f1o impact on April 2025 temperatures\", \"results\": [{\"title\": \"ENSO: Recent Evolution,\", \"link\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"position\": 2, \"snippet\": \"La Ni\\u00f1a conditions are expected to persist in the near-term, with a transition to ENSO-neutral likely during March-May 2025...\", \"date\": null}, {\"title\": \"IRI \\u2013 International Research Institute for Climate and Society | March 2025 Quick Look\", \"link\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"position\": 1, \"snippet\": \"La Ni\\u00f1a conditions are expected to persist, with a transition to ENSO-neutral likely during March-May 2025 (66% chance)...\", \"date\": null}, {\"title\": \"El Ni\\u00f1o & La Ni\\u00f1a (El Ni\\u00f1o-Southern Oscillation) | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/enso\", \"position\": 2, \"snippet\": \"Forecasters expect ENSO-neutral conditions to develop in the next month and persist through the Northern Hemisphere summer. La Ni\\u00f1a conditions persisted through February...\", \"date\": null}, {\"title\": \"El Ni\\u00f1o in the Northwest: What Can We Expect? | USDA Climate Hubs\", \"link\": \"http://www.climatehubs.usda.gov/hubs/northwest/topic/el-nino-northwest-what-can-we-expect\", \"position\": 2, \"snippet\": \"In Idaho, Oregon, and Washington, fall and winter are usually warmer and drier during El Ni\\u00f1o events, though specific April 2025 impacts are not detailed...\", \"date\": null}, {\"title\": \"El Nino Impacts along with other Climate Factors That May Influence our Winter Weather\", \"link\": \"https://www.weather.gov/pah/ElNinoImpactsOnWinterWeather\", \"position\": 4, \"snippet\": \"For the southern U.S, the risk of extreme cold increases and spreads northward heading into late winter and spring (Feb thru April timeframe). Here in our area the odds are fairly neutral for most of the period until we get into March and April when there is an increased risk of colder temperatures.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_bntU3UDmZrqEy5AOyunFx60n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Copernicus Climate Pulse historical data April temperatures\", \"results\": [{\"title\": \"Climate Pulse\", \"link\": \"https://pulse.climate.copernicus.eu/\", \"position\": 2, \"snippet\": \"Near-real time updates of key global climate variables from the the Copernicus Climate Change Service (C3S)...\", \"date\": null}, {\"title\": \"Surface air temperature for April 2024 | Copernicus\", \"link\": \"https://climate.copernicus.eu/surface-air-temperature-april-2024\", \"position\": 4, \"snippet\": \"Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5.\", \"date\": null}, {\"title\": \"April 2024 \\u2013 11th consecutive warmest month globally | Copernicus\", \"link\": \"https://climate.copernicus.eu/april-2024-11th-consecutive-warmest-month-globally\", \"position\": 5, \"snippet\": \"The global average surface air temperature last month was warmer than in any previous April in the ERA5 reanalysis dataset, going back to 1940. April 2024 is the eleventh consecutive month being the warmest for the respective month of the year.\", \"date\": null}, {\"title\": \"Copernicus: Global temperature record streak continues \\u2013 April 2024 was the hottest on record | Copernicus\", \"link\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"position\": 2, \"snippet\": \"April 2024 was warmer globally than any previous April in the data record, with an average ERA5 surface air temperature of 15.03\\u00b0C, 0.67\\u00b0C above the 1991-2020 average for April...\", \"date\": null}, {\"title\": \"Copernicus\", \"link\": \"https://climate.copernicus.eu/\", \"position\": 1, \"snippet\": \"The provided content does not contain specific historical data for April temperatures from Copernicus Climate Pulse.\", \"date\": null}, {\"title\": \"Monthly Climate Reports | National Centers for Environmental Information (NCEI)\", \"link\": \"https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202404\", \"position\": 4, \"snippet\": \"A collection of monthly summaries recapping climate-related occurrences on both a global and national scale, including temperature...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_cCgZe46FURqn2lKHXvyqYp5D"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_UPhyEWLJEabfxlsSIPNuLmF5",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\"}"
+          }
+        },
+        {
+          "id": "call_rkBNw9Yqqd76FLIjGxPvBkJE",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\"}"
+          }
+        },
+        {
+          "id": "call_DZ4hPrFE5NB2A4QxuoHmy4HJ",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"snippet\": \"ENSO: Recent Evolution, \\nCurrent Status and Predictions \\nUpdate prepared by:\\nClimate Prediction Center / NCEP \\n24 February 2025Outline\\nSummary\\nRecent Evolution and Current Conditions\\nOceanic Ni\\u00f1o Index (ONI) \\nPacific SST Outlook\\nU.S. Seasonal Precipitation and  Temperature Outlooks\\nSummary Summary\\n* Note: These statements are updated once a month (2nd Thursday of each month) in association \\nwith the ENSO Diagnostics Discussion, which can be found by clicking here.\\nENSO Alert System Status:  La Ni\\u00f1a Advisory\\nLa Ni\\u00f1a conditions are present.*\\nEquatorial sea surface temperatures (SSTs) are near-to-below average in the \\ncentral and east-central Pacific Ocean. \\nLa Ni\\u00f1a conditions are expected to persist in the near-term, with a transition \\nto ENSO-neutral likely during March-May 2025 (66% chance).Positive sea surface temperature (SST) \\nanomalies persisted across most of the \\neastern and central Pacific Ocean from \\nthe beginning of the period until April \\n2024. \\nSince mid-March 2024, mostly near-to-\\nbelow-average SSTs emerged in the \\neastern Pacific and expanded \\nwestward.\\nSince early December 2024, below-\\naverage SSTs persisted across the \\ncentral Pacific Ocean.  Above average \\nSSTs have periodically strengthened in \\nthe eastern Pacific.\\nRecent Evolution of \\nEquatorial Pacific SST \\nDepartures (\\no\\nC)\\nNi\\n\\u00f1o Region SST \\nDepartures (\\no\\nC) Recent \\nEvolution\\nThe latest weekly \\nSST departures are:\\nNi\\u00f1o 4 -0.5\\u00baC\\nNi\\u00f1o 3.4 -0.3\\u00baC\\nNi\\u00f1o 3 0.2\\u00baC\\nNi\\u00f1o 1+2 1.0\\u00baC\\nSST Departures (\\no\\nC) in the Tropical Pacific During the Last \\nFour Weeks\\nIn the last four weeks, equatorial SSTs were above average in the far western Pacific \\nOcean.  Below average SSTs were evident in the central and east-central Pacific Ocean, \\nwith near-to-above average SSTs observed in the eastern Pacific Ocean.\\n2630\\nGlobal SST Departures (\\no\\nC) During the Last Four Weeks\\nDuring the last four weeks, equatorial SSTs were above average in the far western Pacific Ocean and in \\nmost of the Atlantic Ocean. Below-average SSTs were evident in the central and east-central Pacific Ocean \\nand in the western Indian Ocean.\\n263030\\nWeekly SST Departures \\nduring the Last Four \\nWeeks\\nDuring the last 4 weeks, below-average SSTs \\npersisted in the central equatorial Pacific \\nOcean.  Above-average SSTs strengthened in \\nthe eastern Pacific Ocean.\\nChange in Weekly SST Departures over the Last Four \\nWeeks\\nDuring the last four weeks, mostly positive SST anomaly changes were evident in the \\ncentral and eastern equatorial Pacific Ocean.\\u2026\\n\\n[Truncated preview: showing 380 words out of ~1958. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1958, \"snippet_word_count\": 380, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T00:49:02.064740\", \"date_cutoff_end\": \"2025-03-27T00:49:02.064740\", \"cached_at\": \"2025-10-24T04:46:15.987492\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_UPhyEWLJEabfxlsSIPNuLmF5"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"snippet\": \"---\\ntitle: IRI \\u2013 International Research Institute for Climate and Society\\nurl: https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\\nhostname: columbia.edu\\nsitename: iri.columbia.edu\\ndate: 2025-02-19\\n---\\n# IRI ENSO Forecast\\n\\n## IRI Technical ENSO Update\\n\\n#### Published: February 19, 2025\\n\\n**Note**: The SST anomalies cited below refer to the OISSTv2 SST data set, and not ERSSTv5. OISSTv2 is often used for real-time analysis and model initialization, while ERSSTv5 is used for retrospective official ENSO diagnosis because it is more homogeneous over time, allowing for more accurate comparisons among ENSO events that are years apart. These two products may differ, particularly during ENSO events. The difference between the two datasets may be as much as 0.5 \\u00b0C. Additionally in some years, the ERSSTv5 may tend to be cooler than OISSTv2 in the context of warming trends, because ERSSTv5 is expressed relative to a base period that is updated every 5 years, while the base period of OISSTv2 is updated every 10 years. In February 2021, both datasets were updated to reflect the 1991-2020 climatology period.\\n\\n### Recent and Current Conditions\\n\\nThe SST anomaly in the NINO3.4 region during the Nov-Jan 2024 season was -0.50 \\u00b0C, and for the month of January 2025 it was -0.71 \\u00b0C. The most recent weekly average (week centered on 12 February 2025) of the NINO3.4 index was -0.3 \\u00b0C. The latest seasonal and monthly values suggest that the tropical Pacific has been experiencing weak La Ni\\u00f1a conditions. The IRI\\u2019s definition of El Ni\\u00f1o, like NOAA/Climate Prediction Center\\u2019s, requires that the monthly SST anomaly in the NINO3.4 region (5S-5N; 170W-120W) exceed +0.5 \\u00b0C. Similarly, for La Ni\\u00f1a, the anomaly must be -0.5 \\u00b0C or colder.\\n\\nBoth atmospheric and oceanic conditions across the tropical Pacific now exhibit characteristics indicative of La Ni\\u00f1a. For instance, while the traditional Southern Oscillation Index (SOI) for January 2025 was +0.8, placing it within the ENSO-neutral range, the equatorial SOI for the same month was +1.8, falling within the La Ni\\u00f1a range. The trade winds (at 850 hPa) were stronger than normal during January 2025, and, as of mid-February 2025, they continue to be above average, while the upper-level winds (at 200 hPa) are close to average over the equatorial Pacific. Atmospheric convection over the central Pacific is strongly below normal, while above normal cloudiness is observed over Indonesia. Below-average ocean temperatures persist at d\\u2026\\n\\n[Truncated preview: showing 386 words out of ~1341. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1341, \"snippet_word_count\": 386, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T00:49:02.064740\", \"date_cutoff_end\": \"2025-03-27T00:49:02.064740\", \"cached_at\": \"2025-10-24T04:46:17.023110\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_rkBNw9Yqqd76FLIjGxPvBkJE"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"snippet\": \"---\\ntitle: Copernicus: Global temperature record streak continues \\u2013 April 2024 was the hottest on record\\nurl: https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\\nhostname: copernicus.eu\\ndescription: C3S routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables.\\nsitename: CopernicusECMWF\\ndate: 2024-05-07\\n---\\n**Newsflash**\\n\\nBonn, 08/05/2024\\n\\n*Surface air temperature anomaly for April 2024 relative to the April average for the period 1991-2020. Data source: ERA5. Credit: Copernicus Climate Change* Service/ECMWF.\\n\\n[DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/ftp-data/temperature/2024/04/ERA5_1991-2020/map_1month_anomaly_Global_ea_2t_202404_1991-2020_v02.1.pdf)\\n\\nThe [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/), implemented by the European Centre for Medium-Range Weather Forecasts on behalf of the European Commission with funding from the EU, routinely publishes monthly climate bulletins reporting on the changes observed in global surface air and sea temperatures, sea ice cover and hydrological variables. All the reported findings are based on computer-generated analyses and according to ERA5 reanalysis dataset, using billions of measurements from satellites, ships, aircraft and weather stations around the world.\\n\\n*Monthly global surface air temperature anomalies (\\u00b0C) relative to 1850\\u20131900 from January 1940 to April 2024, plotted as time series for each year. 2024 is shown with a thick yellow line, 2023 with a thick red line, and all other years with thin lines shaded according to the decade, from blue (1940s) to brick red (2020s). Data source: ERA5. Credit: C3S/ECMWF.*\\n\\n[ACCESS TO DATA](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_1940-2024_allmonths.csv)[ ](https://climate.copernicus.eu/sites/default/files/custom-uploads/2403%20March%20CB/timeseries_era5_monthly_surface_temperature_anomalies_ref1850-1900_global_1940-2024_allmonths.pdf)| [DOWNLOAD THE ORIGINAL IMAGE](https://climate.copernicus.eu/sites/default/files/custom-uploads/2404%20CB/timeseries_era5_monthly_global_surface_temperature_anomalies_ref1850-1900_1940-2024_allmonths.pdf)\\n\\n## April 2024 \\u2013 Surface air temperature and sea surface temperature highlights\\n\\n-\\nApril 2024 was warmer gl\\u2026\\n\\n[Truncated preview: showing 246 words out of ~1674. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1674, \"snippet_word_count\": 246, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T00:49:02.064740\", \"date_cutoff_end\": \"2025-03-27T00:49:02.064740\", \"cached_at\": \"2025-10-24T06:16:12.690944\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_DZ4hPrFE5NB2A4QxuoHmy4HJ"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_mUIKsLCgp4ixMJEuzqxm4Z8U",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"question\": \"Will the global surface air temperature on April 1, 2025 be greater than 14.7°C?\", \"background\": \"In 2024, the global average temperature was 1.47°C higher than pre-industrial levels, according to NASA and 1.6°C higher according to the EU's Copernicus Climate Change Service, marking the hottest year since records began in 1850. This warming trend has been linked to an increase in extreme weather events, including severe heatwaves, hurricanes, floods, and droughts. In 2025, global temperatures are projected to be among the highest on record, continuing the trend of recent years. US's National Oceanic and Atmospheric Administration forecasted a 7.1% chance that 2025 would be the warmest on record. Despite that, January's temperatures surpassed all records for that month. The question asks whether the temperature on April 1, 2025 will be greater than 14.7°C.\", \"resolution_criteria\": \"This question will resolve as YES if the daily average global surface air temperature for April 1, 2025, in the ERA5 data, as reported by Copernicus's Climate Pulse, is greater than 14.7°C.\", \"fine_print\": \"* To get the data, click the download button below the graph. * This question will resolve as the 2t value for 2025-04-01, when its status becomes FINAL. * If the resolution source ceases to report that data, Metaculus might consult additional sources, provided they use the same underlying dataset.\"}"
+          }
+        },
+        {
+          "id": "call_J6ZsbcAer5xzXNG0IexL4CY9",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"question\": \"Will the global surface air temperature on April 1, 2025 be greater than 14.7°C?\", \"background\": \"In 2024, the global average temperature was 1.47°C higher than pre-industrial levels, according to NASA and 1.6°C higher according to the EU's Copernicus Climate Change Service, marking the hottest year since records began in 1850. This warming trend has been linked to an increase in extreme weather events, including severe heatwaves, hurricanes, floods, and droughts. In 2025, global temperatures are projected to be among the highest on record, continuing the trend of recent years. US's National Oceanic and Atmospheric Administration forecasted a 7.1% chance that 2025 would be the warmest on record. Despite that, January's temperatures surpassed all records for that month. The question asks whether the temperature on April 1, 2025 will be greater than 14.7°C.\", \"resolution_criteria\": \"This question will resolve as YES if the daily average global surface air temperature for April 1, 2025, in the ERA5 data, as reported by Copernicus's Climate Pulse, is greater than 14.7°C.\", \"fine_print\": \"* To get the data, click the download button below the graph. * This question will resolve as the 2t value for 2025-04-01, when its status becomes FINAL. * If the resolution source ceases to report that data, Metaculus might consult additional sources, provided they use the same underlying dataset.\"}"
+          }
+        },
+        {
+          "id": "call_r0u3CAA3GY0PRcS1MET4ILgW",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"question\": \"Will the global surface air temperature on April 1, 2025 be greater than 14.7°C?\", \"background\": \"In 2024, the global average temperature was 1.47°C higher than pre-industrial levels, according to NASA and 1.6°C higher according to the EU's Copernicus Climate Change Service, marking the hottest year since records began in 1850. This warming trend has been linked to an increase in extreme weather events, including severe heatwaves, hurricanes, floods, and droughts. In 2025, global temperatures are projected to be among the highest on record, continuing the trend of recent years. US's National Oceanic and Atmospheric Administration forecasted a 7.1% chance that 2025 would be the warmest on record. Despite that, January's temperatures surpassed all records for that month. The question asks whether the temperature on April 1, 2025 will be greater than 14.7°C.\", \"resolution_criteria\": \"This question will resolve as YES if the daily average global surface air temperature for April 1, 2025, in the ERA5 data, as reported by Copernicus's Climate Pulse, is greater than 14.7°C.\", \"fine_print\": \"* To get the data, click the download button below the graph. * This question will resolve as the 2t value for 2025-04-01, when its status becomes FINAL. * If the resolution source ceases to report that data, Metaculus might consult additional sources, provided they use the same underlying dataset.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"facts\": [{\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"La Ni\\u00f1a conditions are currently present, with equatorial sea surface temperatures near-to-below average in the central and east-central Pacific Ocean.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"There is a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"The most recent Oceanic Ni\\u00f1o Index (ONI) value for November 2024 \\u2013 January 2025 is -0.5\\u00b0C, indicating La Ni\\u00f1a conditions.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"Models predict equal chances of ENSO-neutral or La Ni\\u00f1a in February-April 2025, with a favor towards ENSO-neutral in March-May 2025.\"}, {\"title\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"url\": \"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf\", \"fact\": \"The CFS.v2 ensemble mean indicates a transition from La Ni\\u00f1a to ENSO-neutral in the next month, with ENSO-neutral favored to persist into Northern Hemisphere fall.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_mUIKsLCgp4ixMJEuzqxm4Z8U"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"facts\": [{\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The SST anomaly in the NINO3.4 region during January 2025 was -0.71\\u00b0C, indicating weak La Ni\\u00f1a conditions.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The forecast indicates a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The probability of ENSO-neutral conditions is expected to increase to 70% for April-June 2025.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The Multivariate ENSO-Index (MEI) registered -1.0\\u00b0C during December-January 2025, indicating La Ni\\u00f1a-like conditions.\"}, {\"title\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"url\": \"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\", \"fact\": \"The forecast for February-April 2025 shows equal chances (50%) for La Ni\\u00f1a and ENSO-neutral conditions.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_J6ZsbcAer5xzXNG0IexL4CY9"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8f8b36b5-e494-5771-bfb0-89713a2b7be1\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"facts\": [{\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"April 2024 was the warmest April on record globally, with an average ERA5 surface air temperature of 15.03\\u00b0C.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"The global-average temperature for the past 12 months (May 2023 \\u2013 April 2024) was the highest on record, at 0.73\\u00b0C above the 1991-2020 average.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"April 2024 was 1.58\\u00b0C warmer than the April average for the 1850-1900 pre-industrial period.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"The El Ni\\u00f1o in the eastern equatorial Pacific was weakening towards neutral conditions, but marine air temperatures remained unusually high.\"}, {\"title\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"url\": \"https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record\", \"fact\": \"According to Carlo Buontempo, Director of the Copernicus Climate Change Service, the extra energy trapped in the ocean and atmosphere by increasing greenhouse gases will continue to push global temperatures towards new records.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_r0u3CAA3GY0PRcS1MET4ILgW"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key points relevant to estimating the probability that the global surface air temperature on April 1, 2025, will be greater than 14.7°C:\n\n1. **Historical Context**: April 2024 was the warmest April on record globally, with an average ERA5 surface air temperature of 15.03°C. This suggests a strong warming trend that could continue into 2025.\n\n2. **ENSO Conditions**: Currently, La Niña conditions are present, with a transition to ENSO-neutral conditions expected during March-May 2025. La Niña typically has a cooling effect on global temperatures, but the transition to neutral conditions might mitigate this effect.\n\n3. **Climate Change Impact**: The ongoing increase in greenhouse gases is expected to continue pushing global temperatures towards new records, as noted by experts from the Copernicus Climate Change Service.\n\n4. **Temperature Trends**: The global-average temperature for the past 12 months (May 2023 – April 2024) was the highest on record, indicating a persistent warming trend.\n\n5. **Forecasts and Predictions**: The forecasts indicate a 66% chance of transitioning to ENSO-neutral conditions during March-May 2025, which could lead to warmer conditions compared to a strong La Niña.\n\nConsidering these factors, the probability that the global surface air temperature on April 1, 2025, will be greater than 14.7°C is influenced by the strong warming trend observed in recent years, the expected transition to ENSO-neutral conditions, and the ongoing impact of climate change.\n\nFINAL PROBABILITY: 0.75"
+    }
+  ]
+}

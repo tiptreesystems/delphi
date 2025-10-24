@@ -1,0 +1,488 @@
+{
+  "question_id": "c30215be-6905-5933-a367-68a94fa67d52",
+  "question": "Will the US frac spread count for the week ending March 28, 2025 be less than 211?",
+  "probability": 0.4,
+  "reasoning": "Based on the information gathered:\n\n1. **Current Frac Spread Trends**: \n   - As of March 14, 2025, the total frac spread count was 212, which is slightly above the threshold of 211. The count has fluctuated around 210 since February 2025, with minor weekly changes.\n   - The week-over-week change for March 14, 2025, was an increase of 2 spreads, indicating a slight upward trend from the previous week where the count was 210.\n\n2. **Oil and Gas Market Outlook**:\n   - The EIA forecasts a decrease in Brent crude oil prices to average $74 a barrel in 2025, which could lead to reduced drilling activity. However, U.S. crude oil production is expected to increase to 13.5 million barrels per day in 2025, indicating continued drilling and completion activities.\n   - Natural gas demand is expected to grow more than supply in 2025, which could support continued drilling and completion activities for gas. This could sustain or increase frac spread activity.\n\n3. **Conclusion**:\n   - The current frac spread count is slightly above the threshold, and while there is a slight upward trend, the market conditions suggest a mixed outlook. The decrease in oil prices could dampen activity, but the increase in natural gas demand and production might counterbalance this effect.\n   - Given the recent fluctuations and the market outlook, the probability of the frac spread count dropping below 211 by March 28, 2025, seems moderate.\n\nFINAL PROBABILITY: 0.4",
+  "search_results": [
+    {
+      "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "content": "U.S. Frac Spread Count Data for March 2025 shows a total of 212 frac spreads for the week of March 14, a decrease of 57 year-over-year. The week of March 7 had 210 spreads, down 53 year-over-year."
+    },
+    {
+      "title": "U.S. Rig Count Data available from Baker Hughes",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "content": "March 14, 2025: Total Rigs 2025 saw a +1 change (592), with Oil rigs at +1 (487), Gas rigs at -1 (100), and Misc. rigs at 0 (5). The Oil/Gas/Misc. ratio was 82/17/1."
+    },
+    {
+      "title": "US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts",
+      "url": "https://ycharts.com/indicators/us_rotary_rigs",
+      "content": "US Rig Count is at a current level of 592.00, unchanged from 592.00 last week and down from 622.00 one year ago. Latest Period: Mar 14 2025."
+    },
+    {
+      "title": "frac spread count – Infill Thinking",
+      "url": "https://www.infillthinking.com/tag/frac-spread-count/",
+      "content": "If you are looking at the rig count going up every week and thinking that translates 1:1 to frac increases, think again… There’s a lot more to this story…"
+    },
+    {
+      "title": "Hydraulic Fracturing",
+      "url": "https://www.kimberliteresearch.com/blog/categories/hydraulic-fracturing",
+      "content": "The rig count in US land has increased by nearly 200 in 2022 while increases in frac spreads has trailed. The exhibit below highlights..."
+    },
+    {
+      "title": "Drilling Productivity Report - U.S. Energy Information Administration (EIA)",
+      "url": "https://www.eia.gov/petroleum/drilling/",
+      "content": "Information on US frac spread count trends for March 2025 is not available in the provided text. The content includes data up to April 2024 for drilled but uncompleted wells."
+    },
+    {
+      "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "content": "U.S. Frac Spread Count Data made available by Primary Vision shows Total Frac Spreads for 03/14/2025 at 212 / 210 (Week/Week) and -57 (269) (Year/Year)."
+    },
+    {
+      "title": "EIA Price Prognosis: Oil Down, Gas Up",
+      "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "content": "The U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase..."
+    },
+    {
+      "title": "US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro",
+      "url": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+      "content": "The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US..."
+    },
+    {
+      "title": "Fossil Fuel Subsidies: The $760 Billion Lie About 'Free Market' Energy | FracTracker Alliance",
+      "url": "https://www.fractracker.org/2025/03/fossil-fuel-subsidies-free-market-myth/",
+      "content": "Despite claims of free-market competition, the U.S. fossil fuel industry benefits from an estimated $760 billion annually through subsidies, tax breaks, and unpriced externalities, distorting energy markets..."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "content": "---\ntitle: U.S. Frac Spread Count\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\ndate: 2025-03-19\n---\nDate\n\nTotal Frac Spreads\n\nTotal Frac Spreads\n\n(Week/Week)\n\n(Week/Week)\n\nTotal Frac Spreads\n\n(Year/Year)\n\n(Year/Year)\n\n03/14/2025\n\nTotal Frac Spreads\n+2\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n212 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-57 (269)\n\n03/07/2025\n\nTotal Frac Spreads\n-4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 214\n\nTotal Frac Spreads 2025 (Year/Year)\n-53 (263)\n\n02/28/2025\n\nTotal Frac Spreads\n+4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n214 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-58 (272)\n\n02/21/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 203\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (270)\n\n02/14/2025\n\nTotal Frac Spreads\n+5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n203 / 198\n\nTotal Frac Spreads 2025 (Year/Year)\n-61 (264)\n\n02/07/2025\n\nTotal Frac Spreads\n+8\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n198 / 190\n\nTotal Frac Spreads 2025 (Year/Year)\n-62 (260)\n\n01/31/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n190 / 183\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (250)\n\n01/24/2025\n\nTotal Frac Spreads\n-5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n183 / 188\n\nTotal Frac Spreads 2025 (Year/Year)\n-59 (242)\n\n01/17/2025\n\nTotal Frac Spreads\n-7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n188 / 195\n\nTotal Frac Spreads 2025 (Year/Year)\n-47 (235)\n\n01/10/2025\n\nTotal Frac Spreads\n-6\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n195 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-39 (234)\n\n01/03/2025\n\nTotal Frac Spreads\n0\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n201 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-35 (236)"
+    },
+    {
+      "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "content": "---\ntitle: Web Exclusives\ndate: 2025-03-19\n---\n## EIA Price Prognosis: Oil Down, Gas Up\n\nWASHINGTON—In its first *Short-Term Energy Outlook* to include forecasts for 2026, the U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase as demand growth–led by liquefied natural gas exports–outpaces production growth and keeps inventories during the next two years at or below their previous five-year averages.\n\nMacroeconomic assumptions are a key driver in the forecast, the *Outlook* notes, with that forecast assuming U.S. gross national production grows by 2% in 2025 and 2026.\n\nUnder the EIA analysis, increasing global oil production will overshadow demand growth, leading to declining oil prices. The forecast sees Brent crude oil prices averaging $74 a barrel in 2025–an 8% drop from 2024 prices–with another 11% drop in 2026 to $66/bbl.\n\n“The unwinding of OPEC+ production cuts and strong growth in oil production outside of OPEC+ results in global oil production growing in our forecast,” the *Outlook* says. “We expect global oil production of liquid fuels will increase by 1.8 million barrels a day in 2025 and 1.5 MMbbl/d in 2026.”\n\nOPEC+ is likely to increase production, but the EIA predicts the cartel will produce less crude oil than stated in its most recent production target as it seeks to avoid significant inventory builds. It notes the OPEC+ target was completed before the United States issued additional sanctions targeting Russia’s oil sector on Jan. 10, which the EIA says has the potential to reduce Russia’s oil exports to the global market.\n\n**U.S. Oil Output**\n\nCrude oil production set an annual record of 13.2 MMbbl/d in the United States in 2024, and the *Outlook* expects it to increase again, hitting 13.5 MMbbl/d in 2025.\n\n“We expect crude oil production to grow less than 1% in 2026, averaging 13.6 MMbbl/d as operators slow activity due to price pressures,” the EIA explains. “In 2026, production growth begins to slow as drilling and completion activity is reduced in response to sustained lower crude oil prices and producers prioritizing value per barrel over production volume.”\n\nWest Texas Intermediate prices average $62 a barrel in 2026 in the *Outlook* forecast, down from $70 a barrel in 2025. The Permian region’s share of U.S. production will continue to increase, accounting for m…\n\n[Truncated preview: showing 400 words out of ~1218. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "As of March 14, 2025, the total frac spread count was 212."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "The week-over-week change for March 14, 2025, was an increase of 2 spreads."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269 the previous year."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "On March 7, 2025, the total frac spread count was 210, indicating a decrease of 4 spreads from the previous week."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+      "fact": "The total frac spread count has fluctuated around 210 since February 2025, with minor weekly changes."
+    },
+    {
+      "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "fact": "The EIA forecasts Brent crude oil prices to average $74 a barrel in 2025, an 8% drop from 2024 prices, which could lead to reduced drilling activity."
+    },
+    {
+      "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "fact": "U.S. crude oil production is expected to increase to 13.5 million barrels per day in 2025, indicating continued drilling and completion activities."
+    },
+    {
+      "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "fact": "The EIA expects natural gas demand to grow more than supply in 2025, which could support continued drilling and completion activities for gas."
+    },
+    {
+      "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "fact": "The Permian region's share of U.S. production will continue to increase, accounting for more than 50% of all U.S. crude oil production in 2026, suggesting ongoing activity in this key area."
+    },
+    {
+      "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+      "fact": "The EIA predicts that LNG exports will increase significantly, driving up natural gas demand, which could sustain or increase frac spread activity."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.430827083453526,
+  "brier_score": 0.36,
+  "weighted_brier_score": 0.15509775004326934,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "c30215be-6905-5933-a367-68a94fa67d52",
+        "queries": [
+          "US frac spread count March 2025 trends",
+          "US frac spread forecast March 2025 analysis",
+          "US oil industry news March 2025 frac spread impact"
+        ]
+      },
+      "raw": "{\"question_id\": \"c30215be-6905-5933-a367-68a94fa67d52\", \"queries\": [\"US frac spread count March 2025 trends\", \"US frac spread forecast March 2025 analysis\", \"US oil industry news March 2025 frac spread impact\"]}",
+      "tool_call_id": "call_wCeMrECvSYubDVgq1b82uYoi"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US frac spread count March 2025 trends",
+        "results": [
+          {
+            "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+            "link": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "position": 1,
+            "snippet": "U.S. Frac Spread Count Data for March 2025 shows a total of 212 frac spreads for the week of March 14, a decrease of 57 year-over-year. The week of March 7 had 210 spreads, down 53 year-over-year.",
+            "date": null
+          },
+          {
+            "title": "U.S. Rig Count Data available from Baker Hughes",
+            "link": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "position": 5,
+            "snippet": "March 14, 2025: Total Rigs 2025 saw a +1 change (592), with Oil rigs at +1 (487), Gas rigs at -1 (100), and Misc. rigs at 0 (5). The Oil/Gas/Misc. ratio was 82/17/1.",
+            "date": null
+          },
+          {
+            "title": "US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts",
+            "link": "https://ycharts.com/indicators/us_rotary_rigs",
+            "position": 1,
+            "snippet": "US Rig Count is at a current level of 592.00, unchanged from 592.00 last week and down from 622.00 one year ago. Latest Period: Mar 14 2025.",
+            "date": null
+          },
+          {
+            "title": "frac spread count – Infill Thinking",
+            "link": "https://www.infillthinking.com/tag/frac-spread-count/",
+            "position": 3,
+            "snippet": "If you are looking at the rig count going up every week and thinking that translates 1:1 to frac increases, think again… There’s a lot more to this story…",
+            "date": null
+          },
+          {
+            "title": "Hydraulic Fracturing",
+            "link": "https://www.kimberliteresearch.com/blog/categories/hydraulic-fracturing",
+            "position": 4,
+            "snippet": "The rig count in US land has increased by nearly 200 in 2022 while increases in frac spreads has trailed. The exhibit below highlights...",
+            "date": null
+          },
+          {
+            "title": "Drilling Productivity Report - U.S. Energy Information Administration (EIA)",
+            "link": "https://www.eia.gov/petroleum/drilling/",
+            "position": 5,
+            "snippet": "Information on US frac spread count trends for March 2025 is not available in the provided text. The content includes data up to April 2024 for drilled but uncompleted wells.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US frac spread count March 2025 trends\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 1, \"snippet\": \"U.S. Frac Spread Count Data for March 2025 shows a total of 212 frac spreads for the week of March 14, a decrease of 57 year-over-year. The week of March 7 had 210 spreads, down 53 year-over-year.\", \"date\": null}, {\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 5, \"snippet\": \"March 14, 2025: Total Rigs 2025 saw a +1 change (592), with Oil rigs at +1 (487), Gas rigs at -1 (100), and Misc. rigs at 0 (5). The Oil/Gas/Misc. ratio was 82/17/1.\", \"date\": null}, {\"title\": \"US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_rotary_rigs\", \"position\": 1, \"snippet\": \"US Rig Count is at a current level of 592.00, unchanged from 592.00 last week and down from 622.00 one year ago. Latest Period: Mar 14 2025.\", \"date\": null}, {\"title\": \"frac spread count \\u2013 Infill Thinking\", \"link\": \"https://www.infillthinking.com/tag/frac-spread-count/\", \"position\": 3, \"snippet\": \"If you are looking at the rig count going up every week and thinking that translates 1:1 to frac increases, think again\\u2026 There\\u2019s a lot more to this story\\u2026\", \"date\": null}, {\"title\": \"Hydraulic Fracturing\", \"link\": \"https://www.kimberliteresearch.com/blog/categories/hydraulic-fracturing\", \"position\": 4, \"snippet\": \"The rig count in US land has increased by nearly 200 in 2022 while increases in frac spreads has trailed. The exhibit below highlights...\", \"date\": null}, {\"title\": \"Drilling Productivity Report - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/petroleum/drilling/\", \"position\": 5, \"snippet\": \"Information on US frac spread count trends for March 2025 is not available in the provided text. The content includes data up to April 2024 for drilled but uncompleted wells.\", \"date\": null}]}",
+      "tool_call_id": "call_I7WaWWf2UUNK1Vd3iT4bVGkj"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US frac spread forecast March 2025 analysis",
+        "results": [
+          {
+            "title": "U.S. Frac Spread Count Data made available by Primary Vision",
+            "link": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "position": 5,
+            "snippet": "U.S. Frac Spread Count Data made available by Primary Vision shows Total Frac Spreads for 03/14/2025 at 212 / 210 (Week/Week) and -57 (269) (Year/Year).",
+            "date": null
+          },
+          {
+            "title": "EIA Price Prognosis: Oil Down, Gas Up",
+            "link": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "position": 1,
+            "snippet": "The U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase...",
+            "date": null
+          },
+          {
+            "title": "US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro",
+            "link": "https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count",
+            "position": 4,
+            "snippet": "The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US frac spread forecast March 2025 analysis\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 5, \"snippet\": \"U.S. Frac Spread Count Data made available by Primary Vision shows Total Frac Spreads for 03/14/2025 at 212 / 210 (Week/Week) and -57 (269) (Year/Year).\", \"date\": null}, {\"title\": \"EIA Price Prognosis: Oil Down, Gas Up\", \"link\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"position\": 1, \"snippet\": \"The U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase...\", \"date\": null}, {\"title\": \"US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\", \"link\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 4, \"snippet\": \"The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US...\", \"date\": null}]}",
+      "tool_call_id": "call_va9naUQJoKb5bxcY1VfLjaKe"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US oil industry news March 2025 frac spread impact",
+        "results": [
+          {
+            "title": "Fossil Fuel Subsidies: The $760 Billion Lie About 'Free Market' Energy | FracTracker Alliance",
+            "link": "https://www.fractracker.org/2025/03/fossil-fuel-subsidies-free-market-myth/",
+            "position": 1,
+            "snippet": "Despite claims of free-market competition, the U.S. fossil fuel industry benefits from an estimated $760 billion annually through subsidies, tax breaks, and unpriced externalities, distorting energy markets...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US oil industry news March 2025 frac spread impact\", \"results\": [{\"title\": \"Fossil Fuel Subsidies: The $760 Billion Lie About 'Free Market' Energy | FracTracker Alliance\", \"link\": \"https://www.fractracker.org/2025/03/fossil-fuel-subsidies-free-market-myth/\", \"position\": 1, \"snippet\": \"Despite claims of free-market competition, the U.S. fossil fuel industry benefits from an estimated $760 billion annually through subsidies, tax breaks, and unpriced externalities, distorting energy markets...\", \"date\": null}]}",
+      "tool_call_id": "call_46feSrnRMwb2vQ4soKP0lXRT"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+        "snippet": "---\ntitle: U.S. Frac Spread Count\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\ndate: 2025-03-19\n---\nDate\n\nTotal Frac Spreads\n\nTotal Frac Spreads\n\n(Week/Week)\n\n(Week/Week)\n\nTotal Frac Spreads\n\n(Year/Year)\n\n(Year/Year)\n\n03/14/2025\n\nTotal Frac Spreads\n+2\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n212 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-57 (269)\n\n03/07/2025\n\nTotal Frac Spreads\n-4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 214\n\nTotal Frac Spreads 2025 (Year/Year)\n-53 (263)\n\n02/28/2025\n\nTotal Frac Spreads\n+4\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n214 / 210\n\nTotal Frac Spreads 2025 (Year/Year)\n-58 (272)\n\n02/21/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n210 / 203\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (270)\n\n02/14/2025\n\nTotal Frac Spreads\n+5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n203 / 198\n\nTotal Frac Spreads 2025 (Year/Year)\n-61 (264)\n\n02/07/2025\n\nTotal Frac Spreads\n+8\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n198 / 190\n\nTotal Frac Spreads 2025 (Year/Year)\n-62 (260)\n\n01/31/2025\n\nTotal Frac Spreads\n+7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n190 / 183\n\nTotal Frac Spreads 2025 (Year/Year)\n-60 (250)\n\n01/24/2025\n\nTotal Frac Spreads\n-5\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n183 / 188\n\nTotal Frac Spreads 2025 (Year/Year)\n-59 (242)\n\n01/17/2025\n\nTotal Frac Spreads\n-7\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n188 / 195\n\nTotal Frac Spreads 2025 (Year/Year)\n-47 (235)\n\n01/10/2025\n\nTotal Frac Spreads\n-6\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n195 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-39 (234)\n\n01/03/2025\n\nTotal Frac Spreads\n0\n\nTotal Frac Spreads 2025 (Wk./Wk.)\n201 / 201\n\nTotal Frac Spreads 2025 (Year/Year)\n-35 (236)",
+        "word_count": 254,
+        "snippet_word_count": 254,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-21T19:42:33.739900",
+        "date_cutoff_end": "2025-03-22T19:42:33.739900",
+        "cached_at": "2025-10-23T19:50:47.158307"
+      },
+      "raw": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"snippet\": \"---\\ntitle: U.S. Frac Spread Count\\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\\ndate: 2025-03-19\\n---\\nDate\\n\\nTotal Frac Spreads\\n\\nTotal Frac Spreads\\n\\n(Week/Week)\\n\\n(Week/Week)\\n\\nTotal Frac Spreads\\n\\n(Year/Year)\\n\\n(Year/Year)\\n\\n03/14/2025\\n\\nTotal Frac Spreads\\n+2\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n212 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-57 (269)\\n\\n03/07/2025\\n\\nTotal Frac Spreads\\n-4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 214\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-53 (263)\\n\\n02/28/2025\\n\\nTotal Frac Spreads\\n+4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n214 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-58 (272)\\n\\n02/21/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 203\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (270)\\n\\n02/14/2025\\n\\nTotal Frac Spreads\\n+5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n203 / 198\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-61 (264)\\n\\n02/07/2025\\n\\nTotal Frac Spreads\\n+8\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n198 / 190\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-62 (260)\\n\\n01/31/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n190 / 183\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (250)\\n\\n01/24/2025\\n\\nTotal Frac Spreads\\n-5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n183 / 188\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-59 (242)\\n\\n01/17/2025\\n\\nTotal Frac Spreads\\n-7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n188 / 195\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-47 (235)\\n\\n01/10/2025\\n\\nTotal Frac Spreads\\n-6\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n195 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-39 (234)\\n\\n01/03/2025\\n\\nTotal Frac Spreads\\n0\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n201 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-35 (236)\", \"word_count\": 254, \"snippet_word_count\": 254, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-23T19:50:47.158307\"}",
+      "tool_call_id": "call_ds3Id3qgsHEL6X9s1qHLFVxm"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+        "snippet": "---\ntitle: Web Exclusives\ndate: 2025-03-19\n---\n## EIA Price Prognosis: Oil Down, Gas Up\n\nWASHINGTON—In its first *Short-Term Energy Outlook* to include forecasts for 2026, the U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase as demand growth–led by liquefied natural gas exports–outpaces production growth and keeps inventories during the next two years at or below their previous five-year averages.\n\nMacroeconomic assumptions are a key driver in the forecast, the *Outlook* notes, with that forecast assuming U.S. gross national production grows by 2% in 2025 and 2026.\n\nUnder the EIA analysis, increasing global oil production will overshadow demand growth, leading to declining oil prices. The forecast sees Brent crude oil prices averaging $74 a barrel in 2025–an 8% drop from 2024 prices–with another 11% drop in 2026 to $66/bbl.\n\n“The unwinding of OPEC+ production cuts and strong growth in oil production outside of OPEC+ results in global oil production growing in our forecast,” the *Outlook* says. “We expect global oil production of liquid fuels will increase by 1.8 million barrels a day in 2025 and 1.5 MMbbl/d in 2026.”\n\nOPEC+ is likely to increase production, but the EIA predicts the cartel will produce less crude oil than stated in its most recent production target as it seeks to avoid significant inventory builds. It notes the OPEC+ target was completed before the United States issued additional sanctions targeting Russia’s oil sector on Jan. 10, which the EIA says has the potential to reduce Russia’s oil exports to the global market.\n\n**U.S. Oil Output**\n\nCrude oil production set an annual record of 13.2 MMbbl/d in the United States in 2024, and the *Outlook* expects it to increase again, hitting 13.5 MMbbl/d in 2025.\n\n“We expect crude oil production to grow less than 1% in 2026, averaging 13.6 MMbbl/d as operators slow activity due to price pressures,” the EIA explains. “In 2026, production growth begins to slow as drilling and completion activity is reduced in response to sustained lower crude oil prices and producers prioritizing value per barrel over production volume.”\n\nWest Texas Intermediate prices average $62 a barrel in 2026 in the *Outlook* forecast, down from $70 a barrel in 2025. The Permian region’s share of U.S. production will continue to increase, accounting for m…\n\n[Truncated preview: showing 400 words out of ~1218. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1218,
+        "snippet_word_count": 400,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-21T19:42:33.739900",
+        "date_cutoff_end": "2025-03-22T19:42:33.739900",
+        "cached_at": "2025-10-24T14:13:15.013145"
+      },
+      "raw": "{\"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"snippet\": \"---\\ntitle: Web Exclusives\\ndate: 2025-03-19\\n---\\n## EIA Price Prognosis: Oil Down, Gas Up\\n\\nWASHINGTON\\u2014In its first *Short-Term Energy Outlook* to include forecasts for 2026, the U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase as demand growth\\u2013led by liquefied natural gas exports\\u2013outpaces production growth and keeps inventories during the next two years at or below their previous five-year averages.\\n\\nMacroeconomic assumptions are a key driver in the forecast, the *Outlook* notes, with that forecast assuming U.S. gross national production grows by 2% in 2025 and 2026.\\n\\nUnder the EIA analysis, increasing global oil production will overshadow demand growth, leading to declining oil prices. The forecast sees Brent crude oil prices averaging $74 a barrel in 2025\\u2013an 8% drop from 2024 prices\\u2013with another 11% drop in 2026 to $66/bbl.\\n\\n\\u201cThe unwinding of OPEC+ production cuts and strong growth in oil production outside of OPEC+ results in global oil production growing in our forecast,\\u201d the *Outlook* says. \\u201cWe expect global oil production of liquid fuels will increase by 1.8 million barrels a day in 2025 and 1.5 MMbbl/d in 2026.\\u201d\\n\\nOPEC+ is likely to increase production, but the EIA predicts the cartel will produce less crude oil than stated in its most recent production target as it seeks to avoid significant inventory builds. It notes the OPEC+ target was completed before the United States issued additional sanctions targeting Russia\\u2019s oil sector on Jan. 10, which the EIA says has the potential to reduce Russia\\u2019s oil exports to the global market.\\n\\n**U.S. Oil Output**\\n\\nCrude oil production set an annual record of 13.2 MMbbl/d in the United States in 2024, and the *Outlook* expects it to increase again, hitting 13.5 MMbbl/d in 2025.\\n\\n\\u201cWe expect crude oil production to grow less than 1% in 2026, averaging 13.6 MMbbl/d as operators slow activity due to price pressures,\\u201d the EIA explains. \\u201cIn 2026, production growth begins to slow as drilling and completion activity is reduced in response to sustained lower crude oil prices and producers prioritizing value per barrel over production volume.\\u201d\\n\\nWest Texas Intermediate prices average $62 a barrel in 2026 in the *Outlook* forecast, down from $70 a barrel in 2025. The Permian region\\u2019s share of U.S. production will continue to increase, accounting for m\\u2026\\n\\n[Truncated preview: showing 400 words out of ~1218. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1218, \"snippet_word_count\": 400, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-24T14:13:15.013145\"}",
+      "tool_call_id": "call_UuMDpueYWceCqlEtHWiDFxZK"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "c30215be-6905-5933-a367-68a94fa67d52",
+        "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+        "facts": [
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "As of March 14, 2025, the total frac spread count was 212."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "The week-over-week change for March 14, 2025, was an increase of 2 spreads."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269 the previous year."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "On March 7, 2025, the total frac spread count was 210, indicating a decrease of 4 spreads from the previous week."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "url": "https://www.aogr.com/web-exclusives/us-frac-spread-count",
+            "fact": "The total frac spread count has fluctuated around 210 since February 2025, with minor weekly changes."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"c30215be-6905-5933-a367-68a94fa67d52\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"As of March 14, 2025, the total frac spread count was 212.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The week-over-week change for March 14, 2025, was an increase of 2 spreads.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269 the previous year.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"On March 7, 2025, the total frac spread count was 210, indicating a decrease of 4 spreads from the previous week.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The total frac spread count has fluctuated around 210 since February 2025, with minor weekly changes.\"}]}",
+      "tool_call_id": "call_mibw0zeFBIIdCFX4wH7Xznuh"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "c30215be-6905-5933-a367-68a94fa67d52",
+        "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+        "facts": [
+          {
+            "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "fact": "The EIA forecasts Brent crude oil prices to average $74 a barrel in 2025, an 8% drop from 2024 prices, which could lead to reduced drilling activity."
+          },
+          {
+            "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "fact": "U.S. crude oil production is expected to increase to 13.5 million barrels per day in 2025, indicating continued drilling and completion activities."
+          },
+          {
+            "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "fact": "The EIA expects natural gas demand to grow more than supply in 2025, which could support continued drilling and completion activities for gas."
+          },
+          {
+            "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "fact": "The Permian region's share of U.S. production will continue to increase, accounting for more than 50% of all U.S. crude oil production in 2026, suggesting ongoing activity in this key area."
+          },
+          {
+            "title": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "url": "https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up",
+            "fact": "The EIA predicts that LNG exports will increase significantly, driving up natural gas demand, which could sustain or increase frac spread activity."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"c30215be-6905-5933-a367-68a94fa67d52\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"facts\": [{\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The EIA forecasts Brent crude oil prices to average $74 a barrel in 2025, an 8% drop from 2024 prices, which could lead to reduced drilling activity.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"U.S. crude oil production is expected to increase to 13.5 million barrels per day in 2025, indicating continued drilling and completion activities.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The EIA expects natural gas demand to grow more than supply in 2025, which could support continued drilling and completion activities for gas.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The Permian region's share of U.S. production will continue to increase, accounting for more than 50% of all U.S. crude oil production in 2026, suggesting ongoing activity in this key area.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The EIA predicts that LNG exports will increase significantly, driving up natural gas demand, which could sustain or increase frac spread activity.\"}]}",
+      "tool_call_id": "call_8EwqFJlDJct8R7xROccheh41"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the US frac spread count for the week ending March 28, 2025 be less than 211?\nBackground: For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\nResolution criteria: This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is less than 211. Otherwise, it resolves as 'No'.\nFine print: For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\npresent_date: 2025-03-21T19:42:33.739900\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_wCeMrECvSYubDVgq1b82uYoi",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the US frac spread count for the week ending March 28, 2025 be less than 211?\",\"background\":\"For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\",\"resolution_criteria\":\"This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is less than 211. Otherwise, it resolves as 'No'.\",\"fine_print\":\"For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\",\"present_date\":\"2025-03-21T19:42:33.739900\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c30215be-6905-5933-a367-68a94fa67d52\", \"queries\": [\"US frac spread count March 2025 trends\", \"US frac spread forecast March 2025 analysis\", \"US oil industry news March 2025 frac spread impact\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_wCeMrECvSYubDVgq1b82uYoi"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_I7WaWWf2UUNK1Vd3iT4bVGkj",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US frac spread count March 2025 trends\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_va9naUQJoKb5bxcY1VfLjaKe",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US frac spread forecast March 2025 analysis\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_46feSrnRMwb2vQ4soKP0lXRT",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US oil industry news March 2025 frac spread impact\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US frac spread count March 2025 trends\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 1, \"snippet\": \"U.S. Frac Spread Count Data for March 2025 shows a total of 212 frac spreads for the week of March 14, a decrease of 57 year-over-year. The week of March 7 had 210 spreads, down 53 year-over-year.\", \"date\": null}, {\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 5, \"snippet\": \"March 14, 2025: Total Rigs 2025 saw a +1 change (592), with Oil rigs at +1 (487), Gas rigs at -1 (100), and Misc. rigs at 0 (5). The Oil/Gas/Misc. ratio was 82/17/1.\", \"date\": null}, {\"title\": \"US Rig Count Weekly Analysis: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_rotary_rigs\", \"position\": 1, \"snippet\": \"US Rig Count is at a current level of 592.00, unchanged from 592.00 last week and down from 622.00 one year ago. Latest Period: Mar 14 2025.\", \"date\": null}, {\"title\": \"frac spread count \\u2013 Infill Thinking\", \"link\": \"https://www.infillthinking.com/tag/frac-spread-count/\", \"position\": 3, \"snippet\": \"If you are looking at the rig count going up every week and thinking that translates 1:1 to frac increases, think again\\u2026 There\\u2019s a lot more to this story\\u2026\", \"date\": null}, {\"title\": \"Hydraulic Fracturing\", \"link\": \"https://www.kimberliteresearch.com/blog/categories/hydraulic-fracturing\", \"position\": 4, \"snippet\": \"The rig count in US land has increased by nearly 200 in 2022 while increases in frac spreads has trailed. The exhibit below highlights...\", \"date\": null}, {\"title\": \"Drilling Productivity Report - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/petroleum/drilling/\", \"position\": 5, \"snippet\": \"Information on US frac spread count trends for March 2025 is not available in the provided text. The content includes data up to April 2024 for drilled but uncompleted wells.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_I7WaWWf2UUNK1Vd3iT4bVGkj"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US frac spread forecast March 2025 analysis\", \"results\": [{\"title\": \"U.S. Frac Spread Count Data made available by Primary Vision\", \"link\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"position\": 5, \"snippet\": \"U.S. Frac Spread Count Data made available by Primary Vision shows Total Frac Spreads for 03/14/2025 at 212 / 210 (Week/Week) and -57 (269) (Year/Year).\", \"date\": null}, {\"title\": \"EIA Price Prognosis: Oil Down, Gas Up\", \"link\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"position\": 1, \"snippet\": \"The U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase...\", \"date\": null}, {\"title\": \"US - Oil Rig Count vs. Frac Spread Count | Crude Oil | Collection | MacroMicro\", \"link\": \"https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count\", \"position\": 4, \"snippet\": \"The frac spread count, provided by energy consultancy Primary Vision, measures the number of crews actively performing hydraulic fracturing of shale in the US...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_va9naUQJoKb5bxcY1VfLjaKe"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US oil industry news March 2025 frac spread impact\", \"results\": [{\"title\": \"Fossil Fuel Subsidies: The $760 Billion Lie About 'Free Market' Energy | FracTracker Alliance\", \"link\": \"https://www.fractracker.org/2025/03/fossil-fuel-subsidies-free-market-myth/\", \"position\": 1, \"snippet\": \"Despite claims of free-market competition, the U.S. fossil fuel industry benefits from an estimated $760 billion annually through subsidies, tax breaks, and unpriced externalities, distorting energy markets...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_46feSrnRMwb2vQ4soKP0lXRT"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_ds3Id3qgsHEL6X9s1qHLFVxm",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        },
+        {
+          "id": "call_UuMDpueYWceCqlEtHWiDFxZK",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"snippet\": \"---\\ntitle: U.S. Frac Spread Count\\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\\ndate: 2025-03-19\\n---\\nDate\\n\\nTotal Frac Spreads\\n\\nTotal Frac Spreads\\n\\n(Week/Week)\\n\\n(Week/Week)\\n\\nTotal Frac Spreads\\n\\n(Year/Year)\\n\\n(Year/Year)\\n\\n03/14/2025\\n\\nTotal Frac Spreads\\n+2\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n212 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-57 (269)\\n\\n03/07/2025\\n\\nTotal Frac Spreads\\n-4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 214\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-53 (263)\\n\\n02/28/2025\\n\\nTotal Frac Spreads\\n+4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n214 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-58 (272)\\n\\n02/21/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 203\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (270)\\n\\n02/14/2025\\n\\nTotal Frac Spreads\\n+5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n203 / 198\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-61 (264)\\n\\n02/07/2025\\n\\nTotal Frac Spreads\\n+8\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n198 / 190\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-62 (260)\\n\\n01/31/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n190 / 183\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (250)\\n\\n01/24/2025\\n\\nTotal Frac Spreads\\n-5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n183 / 188\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-59 (242)\\n\\n01/17/2025\\n\\nTotal Frac Spreads\\n-7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n188 / 195\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-47 (235)\\n\\n01/10/2025\\n\\nTotal Frac Spreads\\n-6\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n195 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-39 (234)\\n\\n01/03/2025\\n\\nTotal Frac Spreads\\n0\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n201 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-35 (236)\", \"word_count\": 254, \"snippet_word_count\": 254, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-23T19:50:47.158307\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_ds3Id3qgsHEL6X9s1qHLFVxm"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"snippet\": \"---\\ntitle: Web Exclusives\\ndate: 2025-03-19\\n---\\n## EIA Price Prognosis: Oil Down, Gas Up\\n\\nWASHINGTON\\u2014In its first *Short-Term Energy Outlook* to include forecasts for 2026, the U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase as demand growth\\u2013led by liquefied natural gas exports\\u2013outpaces production growth and keeps inventories during the next two years at or below their previous five-year averages.\\n\\nMacroeconomic assumptions are a key driver in the forecast, the *Outlook* notes, with that forecast assuming U.S. gross national production grows by 2% in 2025 and 2026.\\n\\nUnder the EIA analysis, increasing global oil production will overshadow demand growth, leading to declining oil prices. The forecast sees Brent crude oil prices averaging $74 a barrel in 2025\\u2013an 8% drop from 2024 prices\\u2013with another 11% drop in 2026 to $66/bbl.\\n\\n\\u201cThe unwinding of OPEC+ production cuts and strong growth in oil production outside of OPEC+ results in global oil production growing in our forecast,\\u201d the *Outlook* says. \\u201cWe expect global oil production of liquid fuels will increase by 1.8 million barrels a day in 2025 and 1.5 MMbbl/d in 2026.\\u201d\\n\\nOPEC+ is likely to increase production, but the EIA predicts the cartel will produce less crude oil than stated in its most recent production target as it seeks to avoid significant inventory builds. It notes the OPEC+ target was completed before the United States issued additional sanctions targeting Russia\\u2019s oil sector on Jan. 10, which the EIA says has the potential to reduce Russia\\u2019s oil exports to the global market.\\n\\n**U.S. Oil Output**\\n\\nCrude oil production set an annual record of 13.2 MMbbl/d in the United States in 2024, and the *Outlook* expects it to increase again, hitting 13.5 MMbbl/d in 2025.\\n\\n\\u201cWe expect crude oil production to grow less than 1% in 2026, averaging 13.6 MMbbl/d as operators slow activity due to price pressures,\\u201d the EIA explains. \\u201cIn 2026, production growth begins to slow as drilling and completion activity is reduced in response to sustained lower crude oil prices and producers prioritizing value per barrel over production volume.\\u201d\\n\\nWest Texas Intermediate prices average $62 a barrel in 2026 in the *Outlook* forecast, down from $70 a barrel in 2025. The Permian region\\u2019s share of U.S. production will continue to increase, accounting for m\\u2026\\n\\n[Truncated preview: showing 400 words out of ~1218. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1218, \"snippet_word_count\": 400, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T19:42:33.739900\", \"date_cutoff_end\": \"2025-03-22T19:42:33.739900\", \"cached_at\": \"2025-10-24T14:13:15.013145\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_UuMDpueYWceCqlEtHWiDFxZK"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_mibw0zeFBIIdCFX4wH7Xznuh",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"content\": \"---\\ntitle: U.S. Frac Spread Count\\ndescription: U.S. Frac Spread Count Data made available by Primary Vision\\ndate: 2025-03-19\\n---\\nDate\\n\\nTotal Frac Spreads\\n\\nTotal Frac Spreads\\n\\n(Week/Week)\\n\\n(Week/Week)\\n\\nTotal Frac Spreads\\n\\n(Year/Year)\\n\\n(Year/Year)\\n\\n03/14/2025\\n\\nTotal Frac Spreads\\n+2\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n212 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-57 (269)\\n\\n03/07/2025\\n\\nTotal Frac Spreads\\n-4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 214\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-53 (263)\\n\\n02/28/2025\\n\\nTotal Frac Spreads\\n+4\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n214 / 210\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-58 (272)\\n\\n02/21/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n210 / 203\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (270)\\n\\n02/14/2025\\n\\nTotal Frac Spreads\\n+5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n203 / 198\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-61 (264)\\n\\n02/07/2025\\n\\nTotal Frac Spreads\\n+8\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n198 / 190\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-62 (260)\\n\\n01/31/2025\\n\\nTotal Frac Spreads\\n+7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n190 / 183\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-60 (250)\\n\\n01/24/2025\\n\\nTotal Frac Spreads\\n-5\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n183 / 188\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-59 (242)\\n\\n01/17/2025\\n\\nTotal Frac Spreads\\n-7\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n188 / 195\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-47 (235)\\n\\n01/10/2025\\n\\nTotal Frac Spreads\\n-6\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n195 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-39 (234)\\n\\n01/03/2025\\n\\nTotal Frac Spreads\\n0\\n\\nTotal Frac Spreads 2025 (Wk./Wk.)\\n201 / 201\\n\\nTotal Frac Spreads 2025 (Year/Year)\\n-35 (236)\", \"question\": \"Will the US frac spread count for the week ending March 28, 2025 be less than 211?\", \"background\": \"For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\", \"resolution_criteria\": \"This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is less than 211. Otherwise, it resolves as 'No'.\", \"fine_print\": \"For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\", \"present_date\": \"2025-03-21T19:42:33.739900\"}"
+          }
+        },
+        {
+          "id": "call_8EwqFJlDJct8R7xROccheh41",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"content\": \"---\\ntitle: Web Exclusives\\ndate: 2025-03-19\\n---\\n## EIA Price Prognosis: Oil Down, Gas Up\\n\\nWASHINGTON\\u0014In its first *Short-Term Energy Outlook* to include forecasts for 2026, the U.S. Energy Information Administration sees supply pressures pushing oil prices down over much of the next two years as global oil production grows more than global demand. Wholesale natural gas prices are predicted to increase as demand growth\\u0013led by liquefied natural gas exports\\u0013outpaces production growth and keeps inventories during the next two years at or below their previous five-year averages.\\n\\nMacroeconomic assumptions are a key driver in the forecast, the *Outlook* notes, with that forecast assuming U.S. gross national production grows by 2% in 2025 and 2026.\\n\\nUnder the EIA analysis, increasing global oil production will overshadow demand growth, leading to declining oil prices. The forecast sees Brent crude oil prices averaging $74 a barrel in 2025\\u0013an 8% drop from 2024 prices\\u0013with another 11% drop in 2026 to $66/bbl.\\n\\n\\u001cThe unwinding of OPEC+ production cuts and strong growth in oil production outside of OPEC+ results in global oil production growing in our forecast,\\u001d the *Outlook* says. \\u001cWe expect global oil production of liquid fuels will increase by 1.8 million barrels a day in 2025 and 1.5 MMbbl/d in 2026.\\u001d\\n\\nOPEC+ is likely to increase production, but the EIA predicts the cartel will produce less crude oil than stated in its most recent production target as it seeks to avoid significant inventory builds. It notes the OPEC+ target was completed before the United States issued additional sanctions targeting Russia\\u0019s oil sector on Jan. 10, which the EIA says has the potential to reduce Russia\\u0019s oil exports to the global market.\\n\\n**U.S. Oil Output**\\n\\nCrude oil production set an annual record of 13.2 MMbbl/d in the United States in 2024, and the *Outlook* expects it to increase again, hitting 13.5 MMbbl/d in 2025.\\n\\n\\u001cWe expect crude oil production to grow less than 1% in 2026, averaging 13.6 MMbbl/d as operators slow activity due to price pressures,\\u001d the EIA explains. \\u001cIn 2026, production growth begins to slow as drilling and completion activity is reduced in response to sustained lower crude oil prices and producers prioritizing value per barrel over production volume.\\u001d\\n\\nWest Texas Intermediate prices average $62 a barrel in 2026 in the *Outlook* forecast, down from $70 a barrel in 2025. The Permian region\\u0019s share of U.S. production will continue to increase, accounting for m\\u0013\\n\\n[Truncated preview: showing 400 words out of ~1218. Full content available via `btf_extract_evidence`.]\", \"question\": \"Will the US frac spread count for the week ending March 28, 2025 be less than 211?\", \"background\": \"For base rate information, see [US - Oil Rig Count vs. Frac Spread Count](https://en.macromicro.me/collections/19/mm-oil-price/34190/us-oil-rig-count-vs-frac-crew-spread-count)\", \"resolution_criteria\": \"This question resolves as 'Yes' if the Total Frac Spreads for the week ending March 28, 2025, according to the American Oil & Gas Reporter [tracking page](https://www.aogr.com/web-exclusives/us-frac-spread-count/2025), is less than 211. Otherwise, it resolves as 'No'.\", \"fine_print\": \"For reference, a recent count for the week ending February 28, 2025 was 214 frac spreads.\", \"present_date\": \"2025-03-21T19:42:33.739900\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c30215be-6905-5933-a367-68a94fa67d52\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"As of March 14, 2025, the total frac spread count was 212.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The week-over-week change for March 14, 2025, was an increase of 2 spreads.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The year-over-year change for March 14, 2025, shows a decrease of 57 spreads from 269 the previous year.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"On March 7, 2025, the total frac spread count was 210, indicating a decrease of 4 spreads from the previous week.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-frac-spread-count\", \"fact\": \"The total frac spread count has fluctuated around 210 since February 2025, with minor weekly changes.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_mibw0zeFBIIdCFX4wH7Xznuh"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c30215be-6905-5933-a367-68a94fa67d52\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"facts\": [{\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The EIA forecasts Brent crude oil prices to average $74 a barrel in 2025, an 8% drop from 2024 prices, which could lead to reduced drilling activity.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"U.S. crude oil production is expected to increase to 13.5 million barrels per day in 2025, indicating continued drilling and completion activities.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The EIA expects natural gas demand to grow more than supply in 2025, which could support continued drilling and completion activities for gas.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The Permian region's share of U.S. production will continue to increase, accounting for more than 50% of all U.S. crude oil production in 2026, suggesting ongoing activity in this key area.\"}, {\"title\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"url\": \"https://www.aogr.com/magazine/markets-analytics/eia-price-prognosis-oil-down-gas-up\", \"fact\": \"The EIA predicts that LNG exports will increase significantly, driving up natural gas demand, which could sustain or increase frac spread activity.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_8EwqFJlDJct8R7xROccheh41"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered:\n\n1. **Current Frac Spread Trends**: \n   - As of March 14, 2025, the total frac spread count was 212, which is slightly above the threshold of 211. The count has fluctuated around 210 since February 2025, with minor weekly changes.\n   - The week-over-week change for March 14, 2025, was an increase of 2 spreads, indicating a slight upward trend from the previous week where the count was 210.\n\n2. **Oil and Gas Market Outlook**:\n   - The EIA forecasts a decrease in Brent crude oil prices to average $74 a barrel in 2025, which could lead to reduced drilling activity. However, U.S. crude oil production is expected to increase to 13.5 million barrels per day in 2025, indicating continued drilling and completion activities.\n   - Natural gas demand is expected to grow more than supply in 2025, which could support continued drilling and completion activities for gas. This could sustain or increase frac spread activity.\n\n3. **Conclusion**:\n   - The current frac spread count is slightly above the threshold, and while there is a slight upward trend, the market conditions suggest a mixed outlook. The decrease in oil prices could dampen activity, but the increase in natural gas demand and production might counterbalance this effect.\n   - Given the recent fluctuations and the market outlook, the probability of the frac spread count dropping below 211 by March 28, 2025, seems moderate.\n\nFINAL PROBABILITY: 0.4"
+    }
+  ]
+}

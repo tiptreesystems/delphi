@@ -1,0 +1,531 @@
+{
+  "question_id": "4f35d9b2-ea54-543e-aad7-7cf976f54687",
+  "question": "Will the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) be less than 180.0% on March 28, 2025?",
+  "probability": 0.1,
+  "reasoning": "Based on the information gathered, here are the key points relevant to the question:\n\n1. **Current Buffett Indicator Value**: As of March 17, 2025, the Market Cap to GDP Ratio (Buffett Indicator) is reported to be 192.8% according to GuruFocus. This is significantly above the 180% threshold specified in the question.\n\n2. **Historical Context**: The Buffett Indicator has reached a record high of 209.7% and a record low of 31.2%, with a median value of 88.6%. The typical value range is from 124% to 180%.\n\n3. **Economic Trends**: The US GDP growth rate has been slowing, with a 2.3% increase in the fourth quarter of 2024. The economic outlook for early 2025 suggests weaker growth, which might not be sufficient to significantly reduce the Buffett Indicator below 180% by March 28, 2025.\n\nGiven the current value of the Buffett Indicator at 192.8%, which is above the 180% threshold, and the economic trends indicating slower growth, it seems unlikely that the Buffett Indicator will fall below 180% by March 28, 2025.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Buffett Indicator Valuation Model",
+      "url": "https://www.currentmarketvaluation.com/models/buffett-indicator.php",
+      "content": "As of December 31, 2024, the Buffett Indicator is 211%, which is 66.99% above its historical average, suggesting the stock market is strongly overvalued..."
+    },
+    {
+      "title": "The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends",
+      "url": "https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/",
+      "content": "The Buffett Indicator, also known as Market Cap to GDP, has gained prominence as a long-term valuation indicator for stocks, largely due to Warren Buffett's endorsement."
+    },
+    {
+      "title": "Search result",
+      "url": "https://www.gurufocus.com/stock-market-valuations.php",
+      "content": "The Buffett Indicator measures the overall valuation and potential stock market returns by comparing total market cap to the US Gross National Product."
+    },
+    {
+      "title": "US - Buffett Indicator | Series | MacroMicro",
+      "url": "https://en.macromicro.me/series/617/wilshire5000-to-gdp",
+      "content": "The US - Market Cap (% of GDP) data, commonly referred to as the Buffet Indicator, represents the ratio of the total market value of all publicly listed companies in the US stock market to the country's Gross Domestic Product (GDP)."
+    },
+    {
+      "title": "Buffett Indicator",
+      "url": "https://buffettindicator.net/",
+      "content": "According to the Buffett Indicator, the Stock Market is {valuation}. Based on today's updated data, the Market Cap to GDP Ratio is {autoRatio}%."
+    },
+    {
+      "title": "Wilshire Indexes Market Navigation Reports",
+      "url": "https://www.wilshireindexes.com/research/wilshire-market-navigation-reports",
+      "content": "Double-digit growth and significantly less Mag-7 distortion forecast for US EPS growth in 2025. Markets have continued to rein in expectations over the size and tempo of US rate cuts in 2025..."
+    },
+    {
+      "title": "The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends",
+      "url": "https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/",
+      "content": "The Wilshire 5000 to GDP ratio is a way to measure the stock market's valuation relative to the country's economic performance, comparing the total market capitalization of US equity securities to the GDP."
+    },
+    {
+      "title": "United States - Wilshire 5000 Total Market  - 2025 Data  2026 Forecast 1970-2024 Historical",
+      "url": "https://tradingeconomics.com/united-states/wilshire-5000-total-market-index-fed-data.html",
+      "content": "Trading Economics provides the current actual value, an historical data chart and related indicators for United States - Wilshire 5000 Total Market - last updated from the United States Federal Reserve on March of 2025."
+    },
+    {
+      "title": "Buffett Indicator Charts, Data",
+      "url": "https://www.gurufocus.com/economic_indicators/60/buffett-indicator",
+      "content": "The Buffett Indicator, or Ratio of Wilshire 5000 over GNP, was 1.928 as of March 17, 2025. This ratio gauges the stock market's valuation against the U.S. economic output..."
+    },
+    {
+      "title": "Search result",
+      "url": "https://www.gurufocus.com/stock-market-valuations.php",
+      "content": "The percentage of total market cap (TMC) relative to the US Gross National Product is used to measure the overall valuation and predict the potential returns of the stock market."
+    },
+    {
+      "title": "SCB, GDP & the Economy, March 2025",
+      "url": "https://apps.bea.gov/scb/issues/2025/03-march/0325-gdp-economy.htm",
+      "content": "Real gross domestic product (GDP) increased at an annual rate of 2.3 percent in the fourth quarter of 2024, according to the second estimate. Real GDP increased 2.8 percent in 2024..."
+    },
+    {
+      "title": "United States GDP Growth Rate",
+      "url": "https://tradingeconomics.com/united-states/gdp-growth",
+      "content": "The US economy expanded an annualized 2.3% in Q4 2024, the slowest growth in three quarters. United States GDP Growth Rate data, historical chart, forecasts and calendar of releases was last updated on March of 2025."
+    },
+    {
+      "title": "Global economic outlook: March 2025 | S&P Global",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/global-economic-outlook-march-2025",
+      "content": "Several recent US indicators have pointed to considerably weaker growth in the first quarter of 2025 than we had previously forecast. More federal layoffs and higher import tariffs than previously assumed are additional near-term headwinds to growth."
+    },
+    {
+      "title": "March 2025 U.S. Economic Outlook | Comerica",
+      "url": "https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html",
+      "content": "Economy hit an air pocket in January, lowering 2025’s growth prospects; Tariffs are likely to keep inflation above Fed’s target this year."
+    },
+    {
+      "title": "For release at 2:00 p.m., EDT, March 19, 2025",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20250319.pdf",
+      "content": "In March 2025, projections for the change in real GDP growth were a median of 1.7 percent, with a range of 1.0–2.4 percent..."
+    },
+    {
+      "title": "Our investment and economic outlook, March 2025 | Vanguard",
+      "url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/investment-economic-outlook-march-2025.html",
+      "content": "Uncertainty around tariffs, immigration, and other policy is likely to weigh on the economy in 2025. Real-time signals point to a material slowing of growth in the first quarter."
+    },
+    {
+      "title": "March 2025 U.S. Economic Outlook | Comerica",
+      "url": "https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html",
+      "content": "Economy hit an air pocket in January, lowering 2025’s growth prospects; Tariffs are likely to keep inflation above Fed’s target this year."
+    },
+    {
+      "title": "https://www.currentmarketvaluation.com/models/buffett-indicator.php",
+      "url": "https://www.currentmarketvaluation.com/models/buffett-indicator.php",
+      "content": "---\ntitle: Buffett Indicator Shows Stock Market is Strongly Overvalued\nauthor: December\nurl: https://www.currentmarketvaluation.com/models/buffett-indicator.php\nhostname: currentmarketvaluation.com\ndescription: The Buffett Indicator is currently 66.99% higher than its historical average, signifying that the stock market is Strongly Overvalued.\nsitename: Us_Market_Value\ndate: 2024-12-31\ntags: ['buffett indicator, buffet indicator, buffett indicator chart, buffett indicator graph, buffett index, market to gdp, wilshire 5000, stock market, crash, recession, overvalued, valuation, investing, investments']\n---\n## Overview\n\nThe Buffett Indicator (aka, Buffett Index, or Buffett Ratio) is the ratio of the total United States stock market to GDP.\n\nAs of December 31, 2024 the ratio values are:\n\nAnnualized GDP = $29.55T\n\n####\nBuffett Indicator =\n$62.29T\n/\n$29.55T\n=\n211%\n\nThis ratio fluctuates over time since the value of the stock market can be very volatile, but GDP tends to grow much more predictably. The current ratio of 211% is approximately 66.99% (or about 2.2 standard deviations) above the historical trend line, suggesting that the stock market is Strongly Overvalued relative to GDP.\n\n#### Why Does it Matter?\n\nThe Buffett Indicator expresses the value of the US stock market in terms of the size of the US economy. If the stock market value is growing much faster than the actual economy, then it may be in a bubble.\n\nFor much more analysis and information on the data sources, methodology, and counterpoints to this model, continue reading.\n\n\n## Theory & Data\n\nThe Buffett Indicator is the ratio of total US stock market value divided by GDP. Named after Warren Buffett, who called the ratio \"the best single measure of where valuations stand at any given moment\". (Buffett has since walked back those comments, hesitating to endorse any single measure as either comprehensive or consistent over time, but this ratio remains credited to his name). To calculate the ratio, we need to get data for both metrics: Total Market Value and GDP.\n\n##### Total Market Value\n\nThe most common measurement of the aggregate value of the US stock market is the Wilshire 5000. This is available directly from Wilshire (links to all data sources [below](https://www.currentmarketvaluation.com#data-sources-section)), with monthly data starting in 1971, and daily measures beginning in 1980. The Wilshire index was created such that a 1-point increase in the index corresponds to a $1 billion increase…\n\n[Truncated preview: showing 376 words out of ~1864. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://buffettindicator.net/",
+      "url": "https://buffettindicator.net/",
+      "content": "---\ntitle: Buffett Indicator\nurl: https://buffettindicator.net/\nhostname: buffettindicator.net\ndescription: The only Warren Buffett Indicator to determine current market valuation.\nsitename: Buffett Indicator\ndate: 2025-03-17\n---\nAccording to the Buffett Indicator, the Stock Market is\n**{valuation}**.\nBased on today's updated data, the Market Cap to GDP Ratio is\n**{autoRatio}%**.\n\nAs of today, the Total Market Index is at **$${autoTMC} billion**,\nwhich is about **{autoRatio}%** of the last reported GDP.\n\n| Ratio = Total Market Cap / GDP | Valuation |\n|---|---|\n| Ratio ≤ 85% | Significantly Undervalued |\n| 85% < Ratio ≤ 109% | Modestly Undervalued |\n| 109% < Ratio ≤ 133% | Fair Valued |\n| 133% < Ratio ≤ 158% | Modestly Overvalued |\n| Ratio > 158% | Significantly Overvalued |\nWhere are we today ({todayDate})? |\nRatio = {autoRatio}%, {valuation} |\n\n## Buffett Indicator Historical Chart\n\nMeanwhile, based on the historical ratio of newly introduced total market cap over GDP plus Total Asset of Federal Reserve Banks, the Stock Market is\n**{valuation}**.\nBased on today's updated data, the Market Cap to GDP Ratio with Fed Assets is\n**{autoTMCFED}%**.\n\nAs of today, the Total Market Index with Fed Assets is about **{autoTMCFED}%** of the summation of the last reported GDP and Total Assets of Fed.\n\n| Ratio = Total Market Cap / (GDP + Total Assets of Fed) | Valuation |\n|---|---|\n| Ratio ≤ 70% | Significantly Undervalued |\n| 70% < Ratio ≤ 90% | Modestly Undervalued |\n| 90% < Ratio ≤ 110% | Fair Valued |\n| 110% < Ratio ≤ 130% | Modestly Overvalued |\n| Ratio > 130% | Significantly Overvalued |\nWhere are we today ({todayDate})? |\nRatio = {autoTMCFED}%, {valuation2} |\n\nAs per latest data, the US GDP is **${gdpValue} trillion**. Where Total Assets Held by All Federal Reserve Banks is **${fedAssets} trillion**.\n\n### US GDP Chart\n\n### Total Assets Holding Chart\n\n## What is the Buffett Indicator?\n\nThe [Buffett Indicator](https://buffettindicator.net), named after the legendary investor Warren Buffett, is a widely used measure for assessing the overall valuation of a stock market. Officially known as the Market Capitalization-to-GDP ratio, it compares the total market capitalization of a country’s stock market to its Gross Domestic Product (GDP). This ratio offers a snapshot of how the market's valuation stacks up against the size of the economy.\n\nWhere:\n\n**Total Market Capitalization (TMC)**represents the combined market value of all publicly traded companies in a given stock…\n\n[Truncated preview: showing 405 words out of ~820. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.gurufocus.com/economic_indicators/60/buffett-indicator",
+      "url": "https://www.gurufocus.com/economic_indicators/60/buffett-indicator",
+      "content": "---\ntitle: Buffett Indicator Charts, Data\nurl: https://www.gurufocus.com/economic_indicators/60/buffett-indicator\nhostname: gurufocus.com\ndescription: Explore the Buffett Indicator, or Ratio of Wilshire 5000 over GNP, to gauge the stock market's valuation against the U.S. economic output\nsitename: Gurufocus\ndate: 2025-03-17\ntags: ['Buffett Indicator, Market Valuation, Wilshire 5000 over GNP']\n---\n#\nBuffett Indicator\n: 1.928 (As of 2025-03-17) NEW\n\nNEW\n\n## Basic Info\n\nThe Ratio of Wilshire 5000 over GNP compares the total market value of all publicly traded stocks in the Wilshire 5000 index to the Gross National Product of the United States. This ratio, essentially the Buffett Indicator provides an assessment of the stock market's valuation relative to the nation's economic output.\n\nBuffett Indicator was 1.928 as of 2025-03-17, according to GuruFocus. Historically, Buffett Indicator reached a record high of 2.097 and a record low of 0.312, the median value is 0.886. Typical value range is from 1.24 to 1.8. The Year-Over-Year growth is 6.37%. GuruFocus provides the current actual value, an historical data chart and related indicators for Buffett Indicator - last updated on 2025-03-17.\n\n| Category |\n|\n\n## Stats\n\n| Name | Value | ||\n|---|---|---|---|\n| Last Value | 1.928 | ||\n| Latest Period | 2025-03-17 | ||\n| Long Term Average | 1.52 | ||\n| Average Annualized Growth Rate | +1.74% | ||\n| Value from The Previous Market Day | 1.914 | ||\n| Change from The Previous Market Day | +0.73% | ||\n| Value from 1 year ago | 1.812 | ||\n| Change from 1 year ago | +6.4% | ||\n| Frequency | Daily | ||\n| Unit |"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://buffettindicator.net/",
+      "url": "https://buffettindicator.net/",
+      "fact": "As of March 17, 2025, the Market Cap to GDP Ratio is reported to be {autoRatio}%."
+    },
+    {
+      "title": "https://buffettindicator.net/",
+      "url": "https://buffettindicator.net/",
+      "fact": "The Total Market Index is valued at {autoTMC} billion, which is {autoRatio}% of the last reported GDP."
+    },
+    {
+      "title": "https://buffettindicator.net/",
+      "url": "https://buffettindicator.net/",
+      "fact": "The Buffett Indicator categorizes a ratio greater than 158% as significantly overvalued."
+    },
+    {
+      "title": "https://buffettindicator.net/",
+      "url": "https://buffettindicator.net/",
+      "fact": "The US GDP is reported to be ${gdpValue} trillion."
+    },
+    {
+      "title": "https://buffettindicator.net/",
+      "url": "https://buffettindicator.net/",
+      "fact": "The Total Assets Held by All Federal Reserve Banks is ${fedAssets} trillion."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.010000000000000002,
+  "weighted_brier_score": 0.005000000000000001,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "4f35d9b2-ea54-543e-aad7-7cf976f54687",
+        "queries": [
+          "current Warren Buffett Indicator March 2025",
+          "Wilshire 5000 to GDP ratio forecast March 2025",
+          "US stock market and GDP trends March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"4f35d9b2-ea54-543e-aad7-7cf976f54687\", \"queries\": [\"current Warren Buffett Indicator March 2025\", \"Wilshire 5000 to GDP ratio forecast March 2025\", \"US stock market and GDP trends March 2025\"]}",
+      "tool_call_id": "call_bAJXwrLnDkMM9Ln1k1BQrweC"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "current Warren Buffett Indicator March 2025",
+        "results": [
+          {
+            "title": "Buffett Indicator Valuation Model",
+            "link": "https://www.currentmarketvaluation.com/models/buffett-indicator.php",
+            "position": 1,
+            "snippet": "As of December 31, 2024, the Buffett Indicator is 211%, which is 66.99% above its historical average, suggesting the stock market is strongly overvalued...",
+            "date": null
+          },
+          {
+            "title": "The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends",
+            "link": "https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/",
+            "position": 2,
+            "snippet": "The Buffett Indicator, also known as Market Cap to GDP, has gained prominence as a long-term valuation indicator for stocks, largely due to Warren Buffett's endorsement.",
+            "date": null
+          },
+          {
+            "title": "",
+            "link": "https://www.gurufocus.com/stock-market-valuations.php",
+            "position": 3,
+            "snippet": "The Buffett Indicator measures the overall valuation and potential stock market returns by comparing total market cap to the US Gross National Product.",
+            "date": null
+          },
+          {
+            "title": "US - Buffett Indicator | Series | MacroMicro",
+            "link": "https://en.macromicro.me/series/617/wilshire5000-to-gdp",
+            "position": 4,
+            "snippet": "The US - Market Cap (% of GDP) data, commonly referred to as the Buffet Indicator, represents the ratio of the total market value of all publicly listed companies in the US stock market to the country's Gross Domestic Product (GDP).",
+            "date": null
+          },
+          {
+            "title": "Buffett Indicator",
+            "link": "https://buffettindicator.net/",
+            "position": 5,
+            "snippet": "According to the Buffett Indicator, the Stock Market is {valuation}. Based on today's updated data, the Market Cap to GDP Ratio is {autoRatio}%.",
+            "date": "2025-03-17T14:45:06Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"current Warren Buffett Indicator March 2025\", \"results\": [{\"title\": \"Buffett Indicator Valuation Model\", \"link\": \"https://www.currentmarketvaluation.com/models/buffett-indicator.php\", \"position\": 1, \"snippet\": \"As of December 31, 2024, the Buffett Indicator is 211%, which is 66.99% above its historical average, suggesting the stock market is strongly overvalued...\", \"date\": null}, {\"title\": \"The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends\", \"link\": \"https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/\", \"position\": 2, \"snippet\": \"The Buffett Indicator, also known as Market Cap to GDP, has gained prominence as a long-term valuation indicator for stocks, largely due to Warren Buffett's endorsement.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.gurufocus.com/stock-market-valuations.php\", \"position\": 3, \"snippet\": \"The Buffett Indicator measures the overall valuation and potential stock market returns by comparing total market cap to the US Gross National Product.\", \"date\": null}, {\"title\": \"US - Buffett Indicator | Series | MacroMicro\", \"link\": \"https://en.macromicro.me/series/617/wilshire5000-to-gdp\", \"position\": 4, \"snippet\": \"The US - Market Cap (% of GDP) data, commonly referred to as the Buffet Indicator, represents the ratio of the total market value of all publicly listed companies in the US stock market to the country's Gross Domestic Product (GDP).\", \"date\": null}, {\"title\": \"Buffett Indicator\", \"link\": \"https://buffettindicator.net/\", \"position\": 5, \"snippet\": \"According to the Buffett Indicator, the Stock Market is {valuation}. Based on today's updated data, the Market Cap to GDP Ratio is {autoRatio}%.\", \"date\": \"2025-03-17T14:45:06Z\"}]}",
+      "tool_call_id": "call_pCAUC93hzliIIWfCOHjiocyB"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Wilshire 5000 to GDP ratio forecast March 2025",
+        "results": [
+          {
+            "title": "Wilshire Indexes Market Navigation Reports",
+            "link": "https://www.wilshireindexes.com/research/wilshire-market-navigation-reports",
+            "position": 1,
+            "snippet": "Double-digit growth and significantly less Mag-7 distortion forecast for US EPS growth in 2025. Markets have continued to rein in expectations over the size and tempo of US rate cuts in 2025...",
+            "date": null
+          },
+          {
+            "title": "The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends",
+            "link": "https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/",
+            "position": 2,
+            "snippet": "The Wilshire 5000 to GDP ratio is a way to measure the stock market's valuation relative to the country's economic performance, comparing the total market capitalization of US equity securities to the GDP.",
+            "date": null
+          },
+          {
+            "title": "United States - Wilshire 5000 Total Market  - 2025 Data  2026 Forecast 1970-2024 Historical",
+            "link": "https://tradingeconomics.com/united-states/wilshire-5000-total-market-index-fed-data.html",
+            "position": 3,
+            "snippet": "Trading Economics provides the current actual value, an historical data chart and related indicators for United States - Wilshire 5000 Total Market - last updated from the United States Federal Reserve on March of 2025.",
+            "date": null
+          },
+          {
+            "title": "Buffett Indicator Charts, Data",
+            "link": "https://www.gurufocus.com/economic_indicators/60/buffett-indicator",
+            "position": 4,
+            "snippet": "The Buffett Indicator, or Ratio of Wilshire 5000 over GNP, was 1.928 as of March 17, 2025. This ratio gauges the stock market's valuation against the U.S. economic output...",
+            "date": null
+          },
+          {
+            "title": "",
+            "link": "https://www.gurufocus.com/stock-market-valuations.php",
+            "position": 5,
+            "snippet": "The percentage of total market cap (TMC) relative to the US Gross National Product is used to measure the overall valuation and predict the potential returns of the stock market.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Wilshire 5000 to GDP ratio forecast March 2025\", \"results\": [{\"title\": \"Wilshire Indexes Market Navigation Reports\", \"link\": \"https://www.wilshireindexes.com/research/wilshire-market-navigation-reports\", \"position\": 1, \"snippet\": \"Double-digit growth and significantly less Mag-7 distortion forecast for US EPS growth in 2025. Markets have continued to rein in expectations over the size and tempo of US rate cuts in 2025...\", \"date\": null}, {\"title\": \"The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends\", \"link\": \"https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/\", \"position\": 2, \"snippet\": \"The Wilshire 5000 to GDP ratio is a way to measure the stock market's valuation relative to the country's economic performance, comparing the total market capitalization of US equity securities to the GDP.\", \"date\": null}, {\"title\": \"United States - Wilshire 5000 Total Market  - 2025 Data  2026 Forecast 1970-2024 Historical\", \"link\": \"https://tradingeconomics.com/united-states/wilshire-5000-total-market-index-fed-data.html\", \"position\": 3, \"snippet\": \"Trading Economics provides the current actual value, an historical data chart and related indicators for United States - Wilshire 5000 Total Market - last updated from the United States Federal Reserve on March of 2025.\", \"date\": null}, {\"title\": \"Buffett Indicator Charts, Data\", \"link\": \"https://www.gurufocus.com/economic_indicators/60/buffett-indicator\", \"position\": 4, \"snippet\": \"The Buffett Indicator, or Ratio of Wilshire 5000 over GNP, was 1.928 as of March 17, 2025. This ratio gauges the stock market's valuation against the U.S. economic output...\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.gurufocus.com/stock-market-valuations.php\", \"position\": 5, \"snippet\": \"The percentage of total market cap (TMC) relative to the US Gross National Product is used to measure the overall valuation and predict the potential returns of the stock market.\", \"date\": null}]}",
+      "tool_call_id": "call_gxRNKVrPnbSvd78XN0ElJjL5"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US stock market and GDP trends March 2025",
+        "results": [
+          {
+            "title": "SCB, GDP & the Economy, March 2025",
+            "link": "https://apps.bea.gov/scb/issues/2025/03-march/0325-gdp-economy.htm",
+            "position": 3,
+            "snippet": "Real gross domestic product (GDP) increased at an annual rate of 2.3 percent in the fourth quarter of 2024, according to the second estimate. Real GDP increased 2.8 percent in 2024...",
+            "date": null
+          },
+          {
+            "title": "United States GDP Growth Rate",
+            "link": "https://tradingeconomics.com/united-states/gdp-growth",
+            "position": 1,
+            "snippet": "The US economy expanded an annualized 2.3% in Q4 2024, the slowest growth in three quarters. United States GDP Growth Rate data, historical chart, forecasts and calendar of releases was last updated on March of 2025.",
+            "date": null
+          },
+          {
+            "title": "Global economic outlook: March 2025 | S&P Global",
+            "link": "https://www.spglobal.com/market-intelligence/en/news-insights/research/global-economic-outlook-march-2025",
+            "position": 2,
+            "snippet": "Several recent US indicators have pointed to considerably weaker growth in the first quarter of 2025 than we had previously forecast. More federal layoffs and higher import tariffs than previously assumed are additional near-term headwinds to growth.",
+            "date": "2025-03-19T12:47:00Z"
+          },
+          {
+            "title": "March 2025 U.S. Economic Outlook | Comerica",
+            "link": "https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html",
+            "position": 4,
+            "snippet": "Economy hit an air pocket in January, lowering 2025’s growth prospects; Tariffs are likely to keep inflation above Fed’s target this year.",
+            "date": null
+          },
+          {
+            "title": "For release at 2:00 p.m., EDT, March 19, 2025",
+            "link": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20250319.pdf",
+            "position": 2,
+            "snippet": "In March 2025, projections for the change in real GDP growth were a median of 1.7 percent, with a range of 1.0–2.4 percent...",
+            "date": null
+          },
+          {
+            "title": "Our investment and economic outlook, March 2025 | Vanguard",
+            "link": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/investment-economic-outlook-march-2025.html",
+            "position": 3,
+            "snippet": "Uncertainty around tariffs, immigration, and other policy is likely to weigh on the economy in 2025. Real-time signals point to a material slowing of growth in the first quarter.",
+            "date": null
+          },
+          {
+            "title": "March 2025 U.S. Economic Outlook | Comerica",
+            "link": "https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html",
+            "position": 4,
+            "snippet": "Economy hit an air pocket in January, lowering 2025’s growth prospects; Tariffs are likely to keep inflation above Fed’s target this year.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US stock market and GDP trends March 2025\", \"results\": [{\"title\": \"SCB, GDP & the Economy, March 2025\", \"link\": \"https://apps.bea.gov/scb/issues/2025/03-march/0325-gdp-economy.htm\", \"position\": 3, \"snippet\": \"Real gross domestic product (GDP) increased at an annual rate of 2.3 percent in the fourth quarter of 2024, according to the second estimate. Real GDP increased 2.8 percent in 2024...\", \"date\": null}, {\"title\": \"United States GDP Growth Rate\", \"link\": \"https://tradingeconomics.com/united-states/gdp-growth\", \"position\": 1, \"snippet\": \"The US economy expanded an annualized 2.3% in Q4 2024, the slowest growth in three quarters. United States GDP Growth Rate data, historical chart, forecasts and calendar of releases was last updated on March of 2025.\", \"date\": null}, {\"title\": \"Global economic outlook: March 2025 | S&P Global\", \"link\": \"https://www.spglobal.com/market-intelligence/en/news-insights/research/global-economic-outlook-march-2025\", \"position\": 2, \"snippet\": \"Several recent US indicators have pointed to considerably weaker growth in the first quarter of 2025 than we had previously forecast. More federal layoffs and higher import tariffs than previously assumed are additional near-term headwinds to growth.\", \"date\": \"2025-03-19T12:47:00Z\"}, {\"title\": \"March 2025 U.S. Economic Outlook | Comerica\", \"link\": \"https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html\", \"position\": 4, \"snippet\": \"Economy hit an air pocket in January, lowering 2025\\u2019s growth prospects; Tariffs are likely to keep inflation above Fed\\u2019s target this year.\", \"date\": null}, {\"title\": \"For release at 2:00 p.m., EDT, March 19, 2025\", \"link\": \"https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20250319.pdf\", \"position\": 2, \"snippet\": \"In March 2025, projections for the change in real GDP growth were a median of 1.7 percent, with a range of 1.0\\u20132.4 percent...\", \"date\": null}, {\"title\": \"Our investment and economic outlook, March 2025 | Vanguard\", \"link\": \"https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/investment-economic-outlook-march-2025.html\", \"position\": 3, \"snippet\": \"Uncertainty around tariffs, immigration, and other policy is likely to weigh on the economy in 2025. Real-time signals point to a material slowing of growth in the first quarter.\", \"date\": null}, {\"title\": \"March 2025 U.S. Economic Outlook | Comerica\", \"link\": \"https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html\", \"position\": 4, \"snippet\": \"Economy hit an air pocket in January, lowering 2025\\u2019s growth prospects; Tariffs are likely to keep inflation above Fed\\u2019s target this year.\", \"date\": null}]}",
+      "tool_call_id": "call_VeqwjNOqUPfyfIrmuHXF3cZl"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.currentmarketvaluation.com/models/buffett-indicator.php",
+        "snippet": "---\ntitle: Buffett Indicator Shows Stock Market is Strongly Overvalued\nauthor: December\nurl: https://www.currentmarketvaluation.com/models/buffett-indicator.php\nhostname: currentmarketvaluation.com\ndescription: The Buffett Indicator is currently 66.99% higher than its historical average, signifying that the stock market is Strongly Overvalued.\nsitename: Us_Market_Value\ndate: 2024-12-31\ntags: ['buffett indicator, buffet indicator, buffett indicator chart, buffett indicator graph, buffett index, market to gdp, wilshire 5000, stock market, crash, recession, overvalued, valuation, investing, investments']\n---\n## Overview\n\nThe Buffett Indicator (aka, Buffett Index, or Buffett Ratio) is the ratio of the total United States stock market to GDP.\n\nAs of December 31, 2024 the ratio values are:\n\nAnnualized GDP = $29.55T\n\n####\nBuffett Indicator =\n$62.29T\n/\n$29.55T\n=\n211%\n\nThis ratio fluctuates over time since the value of the stock market can be very volatile, but GDP tends to grow much more predictably. The current ratio of 211% is approximately 66.99% (or about 2.2 standard deviations) above the historical trend line, suggesting that the stock market is Strongly Overvalued relative to GDP.\n\n#### Why Does it Matter?\n\nThe Buffett Indicator expresses the value of the US stock market in terms of the size of the US economy. If the stock market value is growing much faster than the actual economy, then it may be in a bubble.\n\nFor much more analysis and information on the data sources, methodology, and counterpoints to this model, continue reading.\n\n\n## Theory & Data\n\nThe Buffett Indicator is the ratio of total US stock market value divided by GDP. Named after Warren Buffett, who called the ratio \"the best single measure of where valuations stand at any given moment\". (Buffett has since walked back those comments, hesitating to endorse any single measure as either comprehensive or consistent over time, but this ratio remains credited to his name). To calculate the ratio, we need to get data for both metrics: Total Market Value and GDP.\n\n##### Total Market Value\n\nThe most common measurement of the aggregate value of the US stock market is the Wilshire 5000. This is available directly from Wilshire (links to all data sources [below](https://www.currentmarketvaluation.com#data-sources-section)), with monthly data starting in 1971, and daily measures beginning in 1980. The Wilshire index was created such that a 1-point increase in the index corresponds to a $1 billion increase…\n\n[Truncated preview: showing 376 words out of ~1864. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1864,
+        "snippet_word_count": 376,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-21T16:55:14.548598",
+        "date_cutoff_end": "2025-03-22T16:55:14.548598",
+        "cached_at": "2025-10-24T04:34:11.435139"
+      },
+      "raw": "{\"url\": \"https://www.currentmarketvaluation.com/models/buffett-indicator.php\", \"snippet\": \"---\\ntitle: Buffett Indicator Shows Stock Market is Strongly Overvalued\\nauthor: December\\nurl: https://www.currentmarketvaluation.com/models/buffett-indicator.php\\nhostname: currentmarketvaluation.com\\ndescription: The Buffett Indicator is currently 66.99% higher than its historical average, signifying that the stock market is Strongly Overvalued.\\nsitename: Us_Market_Value\\ndate: 2024-12-31\\ntags: ['buffett indicator, buffet indicator, buffett indicator chart, buffett indicator graph, buffett index, market to gdp, wilshire 5000, stock market, crash, recession, overvalued, valuation, investing, investments']\\n---\\n## Overview\\n\\nThe Buffett Indicator (aka, Buffett Index, or Buffett Ratio) is the ratio of the total United States stock market to GDP.\\n\\nAs of December 31, 2024 the ratio values are:\\n\\nAnnualized GDP = $29.55T\\n\\n####\\nBuffett Indicator =\\n$62.29T\\n/\\n$29.55T\\n=\\n211%\\n\\nThis ratio fluctuates over time since the value of the stock market can be very volatile, but GDP tends to grow much more predictably. The current ratio of 211% is approximately 66.99% (or about 2.2 standard deviations) above the historical trend line, suggesting that the stock market is Strongly Overvalued relative to GDP.\\n\\n#### Why Does it Matter?\\n\\nThe Buffett Indicator expresses the value of the US stock market in terms of the size of the US economy. If the stock market value is growing much faster than the actual economy, then it may be in a bubble.\\n\\nFor much more analysis and information on the data sources, methodology, and counterpoints to this model, continue reading.\\n\\n\\n## Theory & Data\\n\\nThe Buffett Indicator is the ratio of total US stock market value divided by GDP. Named after Warren Buffett, who called the ratio \\\"the best single measure of where valuations stand at any given moment\\\". (Buffett has since walked back those comments, hesitating to endorse any single measure as either comprehensive or consistent over time, but this ratio remains credited to his name). To calculate the ratio, we need to get data for both metrics: Total Market Value and GDP.\\n\\n##### Total Market Value\\n\\nThe most common measurement of the aggregate value of the US stock market is the Wilshire 5000. This is available directly from Wilshire (links to all data sources [below](https://www.currentmarketvaluation.com#data-sources-section)), with monthly data starting in 1971, and daily measures beginning in 1980. The Wilshire index was created such that a 1-point increase in the index corresponds to a $1 billion increase\\u2026\\n\\n[Truncated preview: showing 376 words out of ~1864. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1864, \"snippet_word_count\": 376, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T16:55:14.548598\", \"date_cutoff_end\": \"2025-03-22T16:55:14.548598\", \"cached_at\": \"2025-10-24T04:34:11.435139\"}",
+      "tool_call_id": "call_0zSYebTaHsurF790YjSxJo42"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://buffettindicator.net/",
+        "snippet": "---\ntitle: Buffett Indicator\nurl: https://buffettindicator.net/\nhostname: buffettindicator.net\ndescription: The only Warren Buffett Indicator to determine current market valuation.\nsitename: Buffett Indicator\ndate: 2025-03-17\n---\nAccording to the Buffett Indicator, the Stock Market is\n**{valuation}**.\nBased on today's updated data, the Market Cap to GDP Ratio is\n**{autoRatio}%**.\n\nAs of today, the Total Market Index is at **$${autoTMC} billion**,\nwhich is about **{autoRatio}%** of the last reported GDP.\n\n| Ratio = Total Market Cap / GDP | Valuation |\n|---|---|\n| Ratio ≤ 85% | Significantly Undervalued |\n| 85% < Ratio ≤ 109% | Modestly Undervalued |\n| 109% < Ratio ≤ 133% | Fair Valued |\n| 133% < Ratio ≤ 158% | Modestly Overvalued |\n| Ratio > 158% | Significantly Overvalued |\nWhere are we today ({todayDate})? |\nRatio = {autoRatio}%, {valuation} |\n\n## Buffett Indicator Historical Chart\n\nMeanwhile, based on the historical ratio of newly introduced total market cap over GDP plus Total Asset of Federal Reserve Banks, the Stock Market is\n**{valuation}**.\nBased on today's updated data, the Market Cap to GDP Ratio with Fed Assets is\n**{autoTMCFED}%**.\n\nAs of today, the Total Market Index with Fed Assets is about **{autoTMCFED}%** of the summation of the last reported GDP and Total Assets of Fed.\n\n| Ratio = Total Market Cap / (GDP + Total Assets of Fed) | Valuation |\n|---|---|\n| Ratio ≤ 70% | Significantly Undervalued |\n| 70% < Ratio ≤ 90% | Modestly Undervalued |\n| 90% < Ratio ≤ 110% | Fair Valued |\n| 110% < Ratio ≤ 130% | Modestly Overvalued |\n| Ratio > 130% | Significantly Overvalued |\nWhere are we today ({todayDate})? |\nRatio = {autoTMCFED}%, {valuation2} |\n\nAs per latest data, the US GDP is **${gdpValue} trillion**. Where Total Assets Held by All Federal Reserve Banks is **${fedAssets} trillion**.\n\n### US GDP Chart\n\n### Total Assets Holding Chart\n\n## What is the Buffett Indicator?\n\nThe [Buffett Indicator](https://buffettindicator.net), named after the legendary investor Warren Buffett, is a widely used measure for assessing the overall valuation of a stock market. Officially known as the Market Capitalization-to-GDP ratio, it compares the total market capitalization of a country’s stock market to its Gross Domestic Product (GDP). This ratio offers a snapshot of how the market's valuation stacks up against the size of the economy.\n\nWhere:\n\n**Total Market Capitalization (TMC)**represents the combined market value of all publicly traded companies in a given stock…\n\n[Truncated preview: showing 405 words out of ~820. Full content available via `btf_extract_evidence`.]",
+        "word_count": 820,
+        "snippet_word_count": 405,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-21T16:55:14.548598",
+        "date_cutoff_end": "2025-03-22T16:55:14.548598",
+        "cached_at": "2025-10-24T04:34:12.039910"
+      },
+      "raw": "{\"url\": \"https://buffettindicator.net/\", \"snippet\": \"---\\ntitle: Buffett Indicator\\nurl: https://buffettindicator.net/\\nhostname: buffettindicator.net\\ndescription: The only Warren Buffett Indicator to determine current market valuation.\\nsitename: Buffett Indicator\\ndate: 2025-03-17\\n---\\nAccording to the Buffett Indicator, the Stock Market is\\n**{valuation}**.\\nBased on today's updated data, the Market Cap to GDP Ratio is\\n**{autoRatio}%**.\\n\\nAs of today, the Total Market Index is at **$${autoTMC} billion**,\\nwhich is about **{autoRatio}%** of the last reported GDP.\\n\\n| Ratio = Total Market Cap / GDP | Valuation |\\n|---|---|\\n| Ratio \\u2264 85% | Significantly Undervalued |\\n| 85% < Ratio \\u2264 109% | Modestly Undervalued |\\n| 109% < Ratio \\u2264 133% | Fair Valued |\\n| 133% < Ratio \\u2264 158% | Modestly Overvalued |\\n| Ratio > 158% | Significantly Overvalued |\\nWhere are we today ({todayDate})? |\\nRatio = {autoRatio}%, {valuation} |\\n\\n## Buffett Indicator Historical Chart\\n\\nMeanwhile, based on the historical ratio of newly introduced total market cap over GDP plus Total Asset of Federal Reserve Banks, the Stock Market is\\n**{valuation}**.\\nBased on today's updated data, the Market Cap to GDP Ratio with Fed Assets is\\n**{autoTMCFED}%**.\\n\\nAs of today, the Total Market Index with Fed Assets is about **{autoTMCFED}%** of the summation of the last reported GDP and Total Assets of Fed.\\n\\n| Ratio = Total Market Cap / (GDP + Total Assets of Fed) | Valuation |\\n|---|---|\\n| Ratio \\u2264 70% | Significantly Undervalued |\\n| 70% < Ratio \\u2264 90% | Modestly Undervalued |\\n| 90% < Ratio \\u2264 110% | Fair Valued |\\n| 110% < Ratio \\u2264 130% | Modestly Overvalued |\\n| Ratio > 130% | Significantly Overvalued |\\nWhere are we today ({todayDate})? |\\nRatio = {autoTMCFED}%, {valuation2} |\\n\\nAs per latest data, the US GDP is **${gdpValue} trillion**. Where Total Assets Held by All Federal Reserve Banks is **${fedAssets} trillion**.\\n\\n### US GDP Chart\\n\\n### Total Assets Holding Chart\\n\\n## What is the Buffett Indicator?\\n\\nThe [Buffett Indicator](https://buffettindicator.net), named after the legendary investor Warren Buffett, is a widely used measure for assessing the overall valuation of a stock market. Officially known as the Market Capitalization-to-GDP ratio, it compares the total market capitalization of a country\\u2019s stock market to its Gross Domestic Product (GDP). This ratio offers a snapshot of how the market's valuation stacks up against the size of the economy.\\n\\nWhere:\\n\\n**Total Market Capitalization (TMC)**represents the combined market value of all publicly traded companies in a given stock\\u2026\\n\\n[Truncated preview: showing 405 words out of ~820. Full content available via `btf_extract_evidence`.]\", \"word_count\": 820, \"snippet_word_count\": 405, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T16:55:14.548598\", \"date_cutoff_end\": \"2025-03-22T16:55:14.548598\", \"cached_at\": \"2025-10-24T04:34:12.039910\"}",
+      "tool_call_id": "call_rUokdB6SOJ3Nf3w3exzmJlFG"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.gurufocus.com/economic_indicators/60/buffett-indicator",
+        "snippet": "---\ntitle: Buffett Indicator Charts, Data\nurl: https://www.gurufocus.com/economic_indicators/60/buffett-indicator\nhostname: gurufocus.com\ndescription: Explore the Buffett Indicator, or Ratio of Wilshire 5000 over GNP, to gauge the stock market's valuation against the U.S. economic output\nsitename: Gurufocus\ndate: 2025-03-17\ntags: ['Buffett Indicator, Market Valuation, Wilshire 5000 over GNP']\n---\n#\nBuffett Indicator\n: 1.928 (As of 2025-03-17) NEW\n\nNEW\n\n## Basic Info\n\nThe Ratio of Wilshire 5000 over GNP compares the total market value of all publicly traded stocks in the Wilshire 5000 index to the Gross National Product of the United States. This ratio, essentially the Buffett Indicator provides an assessment of the stock market's valuation relative to the nation's economic output.\n\nBuffett Indicator was 1.928 as of 2025-03-17, according to GuruFocus. Historically, Buffett Indicator reached a record high of 2.097 and a record low of 0.312, the median value is 0.886. Typical value range is from 1.24 to 1.8. The Year-Over-Year growth is 6.37%. GuruFocus provides the current actual value, an historical data chart and related indicators for Buffett Indicator - last updated on 2025-03-17.\n\n| Category |\n|\n\n## Stats\n\n| Name | Value | ||\n|---|---|---|---|\n| Last Value | 1.928 | ||\n| Latest Period | 2025-03-17 | ||\n| Long Term Average | 1.52 | ||\n| Average Annualized Growth Rate | +1.74% | ||\n| Value from The Previous Market Day | 1.914 | ||\n| Change from The Previous Market Day | +0.73% | ||\n| Value from 1 year ago | 1.812 | ||\n| Change from 1 year ago | +6.4% | ||\n| Frequency | Daily | ||\n| Unit |",
+        "word_count": 270,
+        "snippet_word_count": 270,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-21T16:55:14.548598",
+        "date_cutoff_end": "2025-03-22T16:55:14.548598",
+        "cached_at": "2025-10-24T04:34:12.478875"
+      },
+      "raw": "{\"url\": \"https://www.gurufocus.com/economic_indicators/60/buffett-indicator\", \"snippet\": \"---\\ntitle: Buffett Indicator Charts, Data\\nurl: https://www.gurufocus.com/economic_indicators/60/buffett-indicator\\nhostname: gurufocus.com\\ndescription: Explore the Buffett Indicator, or Ratio of Wilshire 5000 over GNP, to gauge the stock market's valuation against the U.S. economic output\\nsitename: Gurufocus\\ndate: 2025-03-17\\ntags: ['Buffett Indicator, Market Valuation, Wilshire 5000 over GNP']\\n---\\n#\\nBuffett Indicator\\n: 1.928 (As of 2025-03-17) NEW\\n\\nNEW\\n\\n## Basic Info\\n\\nThe Ratio of Wilshire 5000 over GNP compares the total market value of all publicly traded stocks in the Wilshire 5000 index to the Gross National Product of the United States. This ratio, essentially the Buffett Indicator provides an assessment of the stock market's valuation relative to the nation's economic output.\\n\\nBuffett Indicator was 1.928 as of 2025-03-17, according to GuruFocus. Historically, Buffett Indicator reached a record high of 2.097 and a record low of 0.312, the median value is 0.886. Typical value range is from 1.24 to 1.8. The Year-Over-Year growth is 6.37%. GuruFocus provides the current actual value, an historical data chart and related indicators for Buffett Indicator - last updated on 2025-03-17.\\n\\n| Category |\\n|\\n\\n## Stats\\n\\n| Name | Value | ||\\n|---|---|---|---|\\n| Last Value | 1.928 | ||\\n| Latest Period | 2025-03-17 | ||\\n| Long Term Average | 1.52 | ||\\n| Average Annualized Growth Rate | +1.74% | ||\\n| Value from The Previous Market Day | 1.914 | ||\\n| Change from The Previous Market Day | +0.73% | ||\\n| Value from 1 year ago | 1.812 | ||\\n| Change from 1 year ago | +6.4% | ||\\n| Frequency | Daily | ||\\n| Unit |\", \"word_count\": 270, \"snippet_word_count\": 270, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T16:55:14.548598\", \"date_cutoff_end\": \"2025-03-22T16:55:14.548598\", \"cached_at\": \"2025-10-24T04:34:12.478875\"}",
+      "tool_call_id": "call_TxUjcNCInrfKO7ljxuOgXGv2"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "4f35d9b2-ea54-543e-aad7-7cf976f54687",
+        "url": "https://buffettindicator.net/",
+        "facts": [
+          {
+            "title": "https://buffettindicator.net/",
+            "url": "https://buffettindicator.net/",
+            "fact": "As of March 17, 2025, the Market Cap to GDP Ratio is reported to be {autoRatio}%."
+          },
+          {
+            "title": "https://buffettindicator.net/",
+            "url": "https://buffettindicator.net/",
+            "fact": "The Total Market Index is valued at {autoTMC} billion, which is {autoRatio}% of the last reported GDP."
+          },
+          {
+            "title": "https://buffettindicator.net/",
+            "url": "https://buffettindicator.net/",
+            "fact": "The Buffett Indicator categorizes a ratio greater than 158% as significantly overvalued."
+          },
+          {
+            "title": "https://buffettindicator.net/",
+            "url": "https://buffettindicator.net/",
+            "fact": "The US GDP is reported to be ${gdpValue} trillion."
+          },
+          {
+            "title": "https://buffettindicator.net/",
+            "url": "https://buffettindicator.net/",
+            "fact": "The Total Assets Held by All Federal Reserve Banks is ${fedAssets} trillion."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"4f35d9b2-ea54-543e-aad7-7cf976f54687\", \"url\": \"https://buffettindicator.net/\", \"facts\": [{\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"As of March 17, 2025, the Market Cap to GDP Ratio is reported to be {autoRatio}%.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The Total Market Index is valued at {autoTMC} billion, which is {autoRatio}% of the last reported GDP.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The Buffett Indicator categorizes a ratio greater than 158% as significantly overvalued.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The US GDP is reported to be ${gdpValue} trillion.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The Total Assets Held by All Federal Reserve Banks is ${fedAssets} trillion.\"}]}",
+      "tool_call_id": "call_djpxLgIIT8qOJfSYlkkWJL2i"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) be less than 180.0% on March 28, 2025?\nBackground: In a 2001 article co-written with Fortune Magazine's Carol Loomis, Warren Buffett [said](https://web.archive.org/web/20141013162215/https://archive.fortune.com/magazines/fortune/fortune_archive/2001/12/10/314691/index.htm): \"The chart shows the market value of all publicly traded securities as a percentage of the country's business--that is, as a percentage of GNP. The ratio has certain limitations in telling you what you need to know. Still, it is probably the best single measure of where valuations stand at any given moment. And as you can see, nearly two years ago the ratio rose to an unprecedented level. That should have been a very strong warning signal. For investors to gain wealth at a rate that exceeds the growth of U.S. business, the percentage relationship line on the chart must keep going up and up. If GNP is going to grow 5% a year and you want market values to go up 10%, then you need to have the line go straight off the top of the chart. That won't happen. For me, the message of that chart is this: If the percentage relationship falls to the 70% or 80% area, buying stocks is likely to work very well for you. If the ratio approaches 200%--as it did in 1999 and a part of 2000--you are playing with fire. As you can see, the ratio was recently 133%.\"\nResolution criteria: This question resolves as YES if the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) is less than 180.0% on March 28, 2025, as reported at the [Longtermtrends website](https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/). The figures can be viewed either on the chart itself or by viewing the CSV, XLX, or data table.\nFine print: This resolves based on UTC time. Note that this means if one is in a UTC minus time zone (such as anywhere in the Western Hemisphere; e.g., the Eastern Time Zone, which is 4 or 5 hours behind UTC), the site may display one day sooner. So for example March 28, 2025 in UTC may display as March 27, 2025 for those in such time zones.\npresent_date: 2025-03-21T16:55:14.548598\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_bAJXwrLnDkMM9Ln1k1BQrweC",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question_id\":\"\",\"question\":\"Will the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) be less than 180.0% on March 28, 2025?\",\"background\":\"In a 2001 article co-written with Fortune Magazine's Carol Loomis, Warren Buffett said: \\\"The chart shows the market value of all publicly traded securities as a percentage of the country's business--that is, as a percentage of GNP. The ratio has certain limitations in telling you what you need to know. Still, it is probably the best single measure of where valuations stand at any given moment. And as you can see, nearly two years ago the ratio rose to an unprecedented level. That should have been a very strong warning signal. For investors to gain wealth at a rate that exceeds the growth of U.S. business, the percentage relationship line on the chart must keep going up and up. If GNP is going to grow 5% a year and you want market values to go up 10%, then you need to have the line go straight off the top of the chart. That won't happen. For me, the message of that chart is this: If the percentage relationship falls to the 70% or 80% area, buying stocks is likely to work very well for you. If the ratio approaches 200%--as it did in 1999 and a part of 2000--you are playing with fire. As you can see, the ratio was recently 133%.\\\"\",\"resolution_criteria\":\"This question resolves as YES if the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) is less than 180.0% on March 28, 2025, as reported at the Longtermtrends website. The figures can be viewed either on the chart itself or by viewing the CSV, XLX, or data table.\",\"fine_print\":\"This resolves based on UTC time. Note that this means if one is in a UTC minus time zone (such as anywhere in the Western Hemisphere; e.g., the Eastern Time Zone, which is 4 or 5 hours behind UTC), the site may display one day sooner. So for example March 28, 2025 in UTC may display as March 27, 2025 for those in such time zones.\",\"present_date\":\"2025-03-21T16:55:14.548598\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"4f35d9b2-ea54-543e-aad7-7cf976f54687\", \"queries\": [\"current Warren Buffett Indicator March 2025\", \"Wilshire 5000 to GDP ratio forecast March 2025\", \"US stock market and GDP trends March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_bAJXwrLnDkMM9Ln1k1BQrweC"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_pCAUC93hzliIIWfCOHjiocyB",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"current Warren Buffett Indicator March 2025\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_gxRNKVrPnbSvd78XN0ElJjL5",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Wilshire 5000 to GDP ratio forecast March 2025\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_VeqwjNOqUPfyfIrmuHXF3cZl",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US stock market and GDP trends March 2025\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"current Warren Buffett Indicator March 2025\", \"results\": [{\"title\": \"Buffett Indicator Valuation Model\", \"link\": \"https://www.currentmarketvaluation.com/models/buffett-indicator.php\", \"position\": 1, \"snippet\": \"As of December 31, 2024, the Buffett Indicator is 211%, which is 66.99% above its historical average, suggesting the stock market is strongly overvalued...\", \"date\": null}, {\"title\": \"The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends\", \"link\": \"https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/\", \"position\": 2, \"snippet\": \"The Buffett Indicator, also known as Market Cap to GDP, has gained prominence as a long-term valuation indicator for stocks, largely due to Warren Buffett's endorsement.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.gurufocus.com/stock-market-valuations.php\", \"position\": 3, \"snippet\": \"The Buffett Indicator measures the overall valuation and potential stock market returns by comparing total market cap to the US Gross National Product.\", \"date\": null}, {\"title\": \"US - Buffett Indicator | Series | MacroMicro\", \"link\": \"https://en.macromicro.me/series/617/wilshire5000-to-gdp\", \"position\": 4, \"snippet\": \"The US - Market Cap (% of GDP) data, commonly referred to as the Buffet Indicator, represents the ratio of the total market value of all publicly listed companies in the US stock market to the country's Gross Domestic Product (GDP).\", \"date\": null}, {\"title\": \"Buffett Indicator\", \"link\": \"https://buffettindicator.net/\", \"position\": 5, \"snippet\": \"According to the Buffett Indicator, the Stock Market is {valuation}. Based on today's updated data, the Market Cap to GDP Ratio is {autoRatio}%.\", \"date\": \"2025-03-17T14:45:06Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_pCAUC93hzliIIWfCOHjiocyB"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Wilshire 5000 to GDP ratio forecast March 2025\", \"results\": [{\"title\": \"Wilshire Indexes Market Navigation Reports\", \"link\": \"https://www.wilshireindexes.com/research/wilshire-market-navigation-reports\", \"position\": 1, \"snippet\": \"Double-digit growth and significantly less Mag-7 distortion forecast for US EPS growth in 2025. Markets have continued to rein in expectations over the size and tempo of US rate cuts in 2025...\", \"date\": null}, {\"title\": \"The Buffett Indicator: Market Cap to GDP - Updated Chart | Longtermtrends\", \"link\": \"https://www.longtermtrends.net/market-cap-to-gdp-the-buffett-indicator/\", \"position\": 2, \"snippet\": \"The Wilshire 5000 to GDP ratio is a way to measure the stock market's valuation relative to the country's economic performance, comparing the total market capitalization of US equity securities to the GDP.\", \"date\": null}, {\"title\": \"United States - Wilshire 5000 Total Market  - 2025 Data  2026 Forecast 1970-2024 Historical\", \"link\": \"https://tradingeconomics.com/united-states/wilshire-5000-total-market-index-fed-data.html\", \"position\": 3, \"snippet\": \"Trading Economics provides the current actual value, an historical data chart and related indicators for United States - Wilshire 5000 Total Market - last updated from the United States Federal Reserve on March of 2025.\", \"date\": null}, {\"title\": \"Buffett Indicator Charts, Data\", \"link\": \"https://www.gurufocus.com/economic_indicators/60/buffett-indicator\", \"position\": 4, \"snippet\": \"The Buffett Indicator, or Ratio of Wilshire 5000 over GNP, was 1.928 as of March 17, 2025. This ratio gauges the stock market's valuation against the U.S. economic output...\", \"date\": null}, {\"title\": \"\", \"link\": \"https://www.gurufocus.com/stock-market-valuations.php\", \"position\": 5, \"snippet\": \"The percentage of total market cap (TMC) relative to the US Gross National Product is used to measure the overall valuation and predict the potential returns of the stock market.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_gxRNKVrPnbSvd78XN0ElJjL5"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US stock market and GDP trends March 2025\", \"results\": [{\"title\": \"SCB, GDP & the Economy, March 2025\", \"link\": \"https://apps.bea.gov/scb/issues/2025/03-march/0325-gdp-economy.htm\", \"position\": 3, \"snippet\": \"Real gross domestic product (GDP) increased at an annual rate of 2.3 percent in the fourth quarter of 2024, according to the second estimate. Real GDP increased 2.8 percent in 2024...\", \"date\": null}, {\"title\": \"United States GDP Growth Rate\", \"link\": \"https://tradingeconomics.com/united-states/gdp-growth\", \"position\": 1, \"snippet\": \"The US economy expanded an annualized 2.3% in Q4 2024, the slowest growth in three quarters. United States GDP Growth Rate data, historical chart, forecasts and calendar of releases was last updated on March of 2025.\", \"date\": null}, {\"title\": \"Global economic outlook: March 2025 | S&P Global\", \"link\": \"https://www.spglobal.com/market-intelligence/en/news-insights/research/global-economic-outlook-march-2025\", \"position\": 2, \"snippet\": \"Several recent US indicators have pointed to considerably weaker growth in the first quarter of 2025 than we had previously forecast. More federal layoffs and higher import tariffs than previously assumed are additional near-term headwinds to growth.\", \"date\": \"2025-03-19T12:47:00Z\"}, {\"title\": \"March 2025 U.S. Economic Outlook | Comerica\", \"link\": \"https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html\", \"position\": 4, \"snippet\": \"Economy hit an air pocket in January, lowering 2025\\u2019s growth prospects; Tariffs are likely to keep inflation above Fed\\u2019s target this year.\", \"date\": null}, {\"title\": \"For release at 2:00 p.m., EDT, March 19, 2025\", \"link\": \"https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20250319.pdf\", \"position\": 2, \"snippet\": \"In March 2025, projections for the change in real GDP growth were a median of 1.7 percent, with a range of 1.0\\u20132.4 percent...\", \"date\": null}, {\"title\": \"Our investment and economic outlook, March 2025 | Vanguard\", \"link\": \"https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/investment-economic-outlook-march-2025.html\", \"position\": 3, \"snippet\": \"Uncertainty around tariffs, immigration, and other policy is likely to weigh on the economy in 2025. Real-time signals point to a material slowing of growth in the first quarter.\", \"date\": null}, {\"title\": \"March 2025 U.S. Economic Outlook | Comerica\", \"link\": \"https://www.comerica.com/insights/economic-insights/monthly-outlook/march-2025-us-economic-outlook.html\", \"position\": 4, \"snippet\": \"Economy hit an air pocket in January, lowering 2025\\u2019s growth prospects; Tariffs are likely to keep inflation above Fed\\u2019s target this year.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_VeqwjNOqUPfyfIrmuHXF3cZl"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_0zSYebTaHsurF790YjSxJo42",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.currentmarketvaluation.com/models/buffett-indicator.php\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        },
+        {
+          "id": "call_rUokdB6SOJ3Nf3w3exzmJlFG",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://buffettindicator.net/\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        },
+        {
+          "id": "call_TxUjcNCInrfKO7ljxuOgXGv2",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.gurufocus.com/economic_indicators/60/buffett-indicator\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.currentmarketvaluation.com/models/buffett-indicator.php\", \"snippet\": \"---\\ntitle: Buffett Indicator Shows Stock Market is Strongly Overvalued\\nauthor: December\\nurl: https://www.currentmarketvaluation.com/models/buffett-indicator.php\\nhostname: currentmarketvaluation.com\\ndescription: The Buffett Indicator is currently 66.99% higher than its historical average, signifying that the stock market is Strongly Overvalued.\\nsitename: Us_Market_Value\\ndate: 2024-12-31\\ntags: ['buffett indicator, buffet indicator, buffett indicator chart, buffett indicator graph, buffett index, market to gdp, wilshire 5000, stock market, crash, recession, overvalued, valuation, investing, investments']\\n---\\n## Overview\\n\\nThe Buffett Indicator (aka, Buffett Index, or Buffett Ratio) is the ratio of the total United States stock market to GDP.\\n\\nAs of December 31, 2024 the ratio values are:\\n\\nAnnualized GDP = $29.55T\\n\\n####\\nBuffett Indicator =\\n$62.29T\\n/\\n$29.55T\\n=\\n211%\\n\\nThis ratio fluctuates over time since the value of the stock market can be very volatile, but GDP tends to grow much more predictably. The current ratio of 211% is approximately 66.99% (or about 2.2 standard deviations) above the historical trend line, suggesting that the stock market is Strongly Overvalued relative to GDP.\\n\\n#### Why Does it Matter?\\n\\nThe Buffett Indicator expresses the value of the US stock market in terms of the size of the US economy. If the stock market value is growing much faster than the actual economy, then it may be in a bubble.\\n\\nFor much more analysis and information on the data sources, methodology, and counterpoints to this model, continue reading.\\n\\n\\n## Theory & Data\\n\\nThe Buffett Indicator is the ratio of total US stock market value divided by GDP. Named after Warren Buffett, who called the ratio \\\"the best single measure of where valuations stand at any given moment\\\". (Buffett has since walked back those comments, hesitating to endorse any single measure as either comprehensive or consistent over time, but this ratio remains credited to his name). To calculate the ratio, we need to get data for both metrics: Total Market Value and GDP.\\n\\n##### Total Market Value\\n\\nThe most common measurement of the aggregate value of the US stock market is the Wilshire 5000. This is available directly from Wilshire (links to all data sources [below](https://www.currentmarketvaluation.com#data-sources-section)), with monthly data starting in 1971, and daily measures beginning in 1980. The Wilshire index was created such that a 1-point increase in the index corresponds to a $1 billion increase\\u2026\\n\\n[Truncated preview: showing 376 words out of ~1864. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1864, \"snippet_word_count\": 376, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T16:55:14.548598\", \"date_cutoff_end\": \"2025-03-22T16:55:14.548598\", \"cached_at\": \"2025-10-24T04:34:11.435139\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_0zSYebTaHsurF790YjSxJo42"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://buffettindicator.net/\", \"snippet\": \"---\\ntitle: Buffett Indicator\\nurl: https://buffettindicator.net/\\nhostname: buffettindicator.net\\ndescription: The only Warren Buffett Indicator to determine current market valuation.\\nsitename: Buffett Indicator\\ndate: 2025-03-17\\n---\\nAccording to the Buffett Indicator, the Stock Market is\\n**{valuation}**.\\nBased on today's updated data, the Market Cap to GDP Ratio is\\n**{autoRatio}%**.\\n\\nAs of today, the Total Market Index is at **$${autoTMC} billion**,\\nwhich is about **{autoRatio}%** of the last reported GDP.\\n\\n| Ratio = Total Market Cap / GDP | Valuation |\\n|---|---|\\n| Ratio \\u2264 85% | Significantly Undervalued |\\n| 85% < Ratio \\u2264 109% | Modestly Undervalued |\\n| 109% < Ratio \\u2264 133% | Fair Valued |\\n| 133% < Ratio \\u2264 158% | Modestly Overvalued |\\n| Ratio > 158% | Significantly Overvalued |\\nWhere are we today ({todayDate})? |\\nRatio = {autoRatio}%, {valuation} |\\n\\n## Buffett Indicator Historical Chart\\n\\nMeanwhile, based on the historical ratio of newly introduced total market cap over GDP plus Total Asset of Federal Reserve Banks, the Stock Market is\\n**{valuation}**.\\nBased on today's updated data, the Market Cap to GDP Ratio with Fed Assets is\\n**{autoTMCFED}%**.\\n\\nAs of today, the Total Market Index with Fed Assets is about **{autoTMCFED}%** of the summation of the last reported GDP and Total Assets of Fed.\\n\\n| Ratio = Total Market Cap / (GDP + Total Assets of Fed) | Valuation |\\n|---|---|\\n| Ratio \\u2264 70% | Significantly Undervalued |\\n| 70% < Ratio \\u2264 90% | Modestly Undervalued |\\n| 90% < Ratio \\u2264 110% | Fair Valued |\\n| 110% < Ratio \\u2264 130% | Modestly Overvalued |\\n| Ratio > 130% | Significantly Overvalued |\\nWhere are we today ({todayDate})? |\\nRatio = {autoTMCFED}%, {valuation2} |\\n\\nAs per latest data, the US GDP is **${gdpValue} trillion**. Where Total Assets Held by All Federal Reserve Banks is **${fedAssets} trillion**.\\n\\n### US GDP Chart\\n\\n### Total Assets Holding Chart\\n\\n## What is the Buffett Indicator?\\n\\nThe [Buffett Indicator](https://buffettindicator.net), named after the legendary investor Warren Buffett, is a widely used measure for assessing the overall valuation of a stock market. Officially known as the Market Capitalization-to-GDP ratio, it compares the total market capitalization of a country\\u2019s stock market to its Gross Domestic Product (GDP). This ratio offers a snapshot of how the market's valuation stacks up against the size of the economy.\\n\\nWhere:\\n\\n**Total Market Capitalization (TMC)**represents the combined market value of all publicly traded companies in a given stock\\u2026\\n\\n[Truncated preview: showing 405 words out of ~820. Full content available via `btf_extract_evidence`.]\", \"word_count\": 820, \"snippet_word_count\": 405, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T16:55:14.548598\", \"date_cutoff_end\": \"2025-03-22T16:55:14.548598\", \"cached_at\": \"2025-10-24T04:34:12.039910\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_rUokdB6SOJ3Nf3w3exzmJlFG"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.gurufocus.com/economic_indicators/60/buffett-indicator\", \"snippet\": \"---\\ntitle: Buffett Indicator Charts, Data\\nurl: https://www.gurufocus.com/economic_indicators/60/buffett-indicator\\nhostname: gurufocus.com\\ndescription: Explore the Buffett Indicator, or Ratio of Wilshire 5000 over GNP, to gauge the stock market's valuation against the U.S. economic output\\nsitename: Gurufocus\\ndate: 2025-03-17\\ntags: ['Buffett Indicator, Market Valuation, Wilshire 5000 over GNP']\\n---\\n#\\nBuffett Indicator\\n: 1.928 (As of 2025-03-17) NEW\\n\\nNEW\\n\\n## Basic Info\\n\\nThe Ratio of Wilshire 5000 over GNP compares the total market value of all publicly traded stocks in the Wilshire 5000 index to the Gross National Product of the United States. This ratio, essentially the Buffett Indicator provides an assessment of the stock market's valuation relative to the nation's economic output.\\n\\nBuffett Indicator was 1.928 as of 2025-03-17, according to GuruFocus. Historically, Buffett Indicator reached a record high of 2.097 and a record low of 0.312, the median value is 0.886. Typical value range is from 1.24 to 1.8. The Year-Over-Year growth is 6.37%. GuruFocus provides the current actual value, an historical data chart and related indicators for Buffett Indicator - last updated on 2025-03-17.\\n\\n| Category |\\n|\\n\\n## Stats\\n\\n| Name | Value | ||\\n|---|---|---|---|\\n| Last Value | 1.928 | ||\\n| Latest Period | 2025-03-17 | ||\\n| Long Term Average | 1.52 | ||\\n| Average Annualized Growth Rate | +1.74% | ||\\n| Value from The Previous Market Day | 1.914 | ||\\n| Change from The Previous Market Day | +0.73% | ||\\n| Value from 1 year ago | 1.812 | ||\\n| Change from 1 year ago | +6.4% | ||\\n| Frequency | Daily | ||\\n| Unit |\", \"word_count\": 270, \"snippet_word_count\": 270, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T16:55:14.548598\", \"date_cutoff_end\": \"2025-03-22T16:55:14.548598\", \"cached_at\": \"2025-10-24T04:34:12.478875\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_TxUjcNCInrfKO7ljxuOgXGv2"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_djpxLgIIT8qOJfSYlkkWJL2i",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\":\"https://buffettindicator.net/\",\"content\":\"---\\ntitle: Buffett Indicator\\nurl: https://buffettindicator.net/\\nhostname: buffettindicator.net\\ndescription: The only Warren Buffett Indicator to determine current market valuation.\\nsitename: Buffett Indicator\\ndate: 2025-03-17\\n---\\nAccording to the Buffett Indicator, the Stock Market is\\n**{valuation}**.\\nBased on today's updated data, the Market Cap to GDP Ratio is\\n**{autoRatio}%**.\\n\\nAs of today, the Total Market Index is at **$${autoTMC} billion**,\\nwhich is about **{autoRatio}%** of the last reported GDP.\\n\\n| Ratio = Total Market Cap / GDP | Valuation |\\n|---|---|\\n| Ratio \\u0014 85% | Significantly Undervalued |\\n| 85% < Ratio \\u0014 109% | Modestly Undervalued |\\n| 109% < Ratio \\u0014 133% | Fair Valued |\\n| 133% < Ratio \\u0014 158% | Modestly Overvalued |\\n| Ratio > 158% | Significantly Overvalued |\\nWhere are we today ({todayDate})? |\\nRatio = {autoRatio}%, {valuation} |\\n\\n## Buffett Indicator Historical Chart\\n\\nMeanwhile, based on the historical ratio of newly introduced total market cap over GDP plus Total Asset of Federal Reserve Banks, the Stock Market is\\n**{valuation}**.\\nBased on today's updated data, the Market Cap to GDP Ratio with Fed Assets is\\n**{autoTMCFED}%**.\\n\\nAs of today, the Total Market Index with Fed Assets is about **{autoTMCFED}%** of the summation of the last reported GDP and Total Assets of Fed.\\n\\n| Ratio = Total Market Cap / (GDP + Total Assets of Fed) | Valuation |\\n|---|---|\\n| Ratio \\u0014 70% | Significantly Undervalued |\\n| 70% < Ratio \\u0014 90% | Modestly Undervalued |\\n| 90% < Ratio \\u0014 110% | Fair Valued |\\n| 110% < Ratio \\u0014 130% | Modestly Overvalued |\\n| Ratio > 130% | Significantly Overvalued |\\nWhere are we today ({todayDate})? |\\nRatio = {autoTMCFED}%, {valuation2} |\\n\\nAs per latest data, the US GDP is **${gdpValue} trillion**. Where Total Assets Held by All Federal Reserve Banks is **${fedAssets} trillion**.\\n\\n### US GDP Chart\\n\\n### Total Assets Holding Chart\\n\\n## What is the Buffett Indicator?\\n\\nThe [Buffett Indicator](https://buffettindicator.net), named after the legendary investor Warren Buffett, is a widely used measure for assessing the overall valuation of a stock market. Officially known as the Market Capitalization-to-GDP ratio, it compares the total market capitalization of a country\\u0019s stock market to its Gross Domestic Product (GDP). This ratio offers a snapshot of how the market's valuation stacks up against the size of the economy.\\n\\nWhere:\\n\\n**Total Market Capitalization (TMC)**represents the combined market value of all publicly traded companies in a given stock\\u0014\\n\\n[Truncated preview: showing 405 words out of ~820. Full content available via `btf_extract_evidence`.]\", \"question_id\":\"\",\"question\":\"Will the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) be less than 180.0% on March 28, 2025?\",\"background\":\"In a 2001 article co-written with Fortune Magazine's Carol Loomis, Warren Buffett said: \\\"The chart shows the market value of all publicly traded securities as a percentage of the country's business--that is, as a percentage of GNP. The ratio has certain limitations in telling you what you need to know. Still, it is probably the best single measure of where valuations stand at any given moment. And as you can see, nearly two years ago the ratio rose to an unprecedented level. That should have been a very strong warning signal. For investors to gain wealth at a rate that exceeds the growth of U.S. business, the percentage relationship line on the chart must keep going up and up. If GNP is going to grow 5% a year and you want market values to go up 10%, then you need to have the line go straight off the top of the chart. That won't happen. For me, the message of that chart is this: If the percentage relationship falls to the 70% or 80% area, buying stocks is likely to work very well for you. If the ratio approaches 200%--as it did in 1999 and a part of 2000--you are playing with fire. As you can see, the ratio was recently 133%.\\\"\",\"resolution_criteria\":\"This question resolves as YES if the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) is less than 180.0% on March 28, 2025, as reported at the Longtermtrends website. The figures can be viewed either on the chart itself or by viewing the CSV, XLX, or data table.\",\"fine_print\":\"This resolves based on UTC time. Note that this means if one is in a UTC minus time zone (such as anywhere in the Western Hemisphere; e.g., the Eastern Time Zone, which is 4 or 5 hours behind UTC), the site may display one day sooner. So for example March 28, 2025 in UTC may display as March 27, 2025 for those in such time zones.\",\"present_date\":\"2025-03-21T16:55:14.548598\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"4f35d9b2-ea54-543e-aad7-7cf976f54687\", \"url\": \"https://buffettindicator.net/\", \"facts\": [{\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"As of March 17, 2025, the Market Cap to GDP Ratio is reported to be {autoRatio}%.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The Total Market Index is valued at {autoTMC} billion, which is {autoRatio}% of the last reported GDP.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The Buffett Indicator categorizes a ratio greater than 158% as significantly overvalued.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The US GDP is reported to be ${gdpValue} trillion.\"}, {\"title\": \"https://buffettindicator.net/\", \"url\": \"https://buffettindicator.net/\", \"fact\": \"The Total Assets Held by All Federal Reserve Banks is ${fedAssets} trillion.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_djpxLgIIT8qOJfSYlkkWJL2i"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered, here are the key points relevant to the question:\n\n1. **Current Buffett Indicator Value**: As of March 17, 2025, the Market Cap to GDP Ratio (Buffett Indicator) is reported to be 192.8% according to GuruFocus. This is significantly above the 180% threshold specified in the question.\n\n2. **Historical Context**: The Buffett Indicator has reached a record high of 209.7% and a record low of 31.2%, with a median value of 88.6%. The typical value range is from 124% to 180%.\n\n3. **Economic Trends**: The US GDP growth rate has been slowing, with a 2.3% increase in the fourth quarter of 2024. The economic outlook for early 2025 suggests weaker growth, which might not be sufficient to significantly reduce the Buffett Indicator below 180% by March 28, 2025.\n\nGiven the current value of the Buffett Indicator at 192.8%, which is above the 180% threshold, and the economic trends indicating slower growth, it seems unlikely that the Buffett Indicator will fall below 180% by March 28, 2025.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

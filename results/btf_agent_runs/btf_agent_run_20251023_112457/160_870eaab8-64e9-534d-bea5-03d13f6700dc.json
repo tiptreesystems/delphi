@@ -1,0 +1,596 @@
+{
+  "question_id": "870eaab8-64e9-534d-bea5-03d13f6700dc",
+  "question": "Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 30 and 39 (inclusive)?",
+  "probability": 0.9,
+  "reasoning": "Based on the information extracted from the sources, here are the key points relevant to the question:\n\n1. **Hostage Releases**: As of February 26, 2025, a total of 33 hostages were released by Hamas as part of a phased agreement. This release included both living hostages and the return of bodies.\n\n2. **Resolution Criteria**: The question resolves as 'YES' if the total number of hostages released by Hamas after January 26, 2025, and before April 5, 2025, is between 30 and 39 (inclusive).\n\n3. **Current Status**: The 33 hostages released by February 26, 2025, fall within the specified range of 30 to 39 hostages.\n\n4. **Ceasefire and Negotiations**: The ceasefire agreement and negotiations have been ongoing, with further releases contingent on the implementation of the ceasefire deal. However, as of the present date, no additional hostages beyond the 33 have been reported released.\n\nGiven that the number of hostages released fits the criteria and no new developments suggest additional releases beyond this number, the probability that the question resolves as 'YES' is high.\n\nFINAL PROBABILITY: 0.9",
+  "search_results": [
+    {
+      "title": "Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates | AJC",
+      "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "content": "The first phase of the Israel-Hamas hostage and ceasefire deal includes the release of 33 hostages. The first group of three Israeli women was released on January 19, 2025, with more to follow..."
+    },
+    {
+      "title": "Gaza war hostage crisis - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "content": "As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal. Eight returned in the same 2025 prisoner exchange deal."
+    },
+    {
+      "title": "Debunking the False Equivalency Between Israeli Hostages and Palestinian Prisoners | AJC",
+      "url": "https://www.ajc.org/news/debunking-the-false-equivalency-between-israeli-hostages-and-palestinian-prisoners",
+      "content": "An agreement between Israel and the Palestinian terror group Hamas was reached on November 21 for the release of 50 Israeli hostages, who are among the over 200 taken by the terror group during the October 7 attack on Israel."
+    },
+    {
+      "title": "U.S. and Hamas hold direct talks on hostages, in policy shift : NPR",
+      "url": "https://www.npr.org/2025/03/05/nx-s1-5319096/hamas-hostages-us-talks-israel-gaza",
+      "content": "A Hamas official tells NPR that the United States held direct talks with the Palestinian militant group over the release of several American-Israeli dual citizens taken hostage during the Oct. 7, 2023 attacks in Israel."
+    },
+    {
+      "title": "Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented | AP News",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "content": "Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their ceasefire agreement, calling it an \"exceptional deal\" aimed at getting the truce back on track."
+    },
+    {
+      "title": "U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times",
+      "url": "https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html",
+      "content": "U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter."
+    },
+    {
+      "title": "Trump issues 'last warning' to Hamas over Israeli hostage release",
+      "url": "https://www.bbc.com/news/articles/c0mwln4p87do",
+      "content": "US President Donald Trump has issued what he called a \"last warning\" to Hamas to release the hostages being held in Gaza. The White House confirmed it was holding direct talks with Hamas over the remaining hostages."
+    },
+    {
+      "title": "Trump warns Hamas as US holds unprecedented talks for Gaza hostages | Reuters",
+      "url": "https://www.reuters.com/world/middle-east/us-holds-secret-talks-with-hamas-gaza-hostages-axios-reports-2025-03-05/",
+      "content": "The United States broke a longstanding diplomatic taboo by holding secret talks with Hamas on securing the release of U.S. hostages held in Gaza, sources told Reuters on Wednesday..."
+    },
+    {
+      "title": "U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times",
+      "url": "https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html",
+      "content": "U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter."
+    },
+    {
+      "title": "US rebuts Hamas’s ‘entirely impractical’ ceasefire demands | Israel-Gaza war | The Guardian",
+      "url": "https://www.theguardian.com/world/2025/mar/14/hamas-says-it-will-free-israeli-us-hostage-in-potential-breakthrough-in-ceasefire-talks",
+      "content": "The Trump administration has accused Hamas of making “entirely impractical” demands and stalling on a deal to release a US-Israeli hostage in exchange for an extension of the Gaza ceasefire."
+    },
+    {
+      "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "content": "---\ntitle: Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates\nurl: https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\nhostname: ajc.org\ndescription: When will the next hostages be released? Discover the details of the Israel-Hamas hostage and ceasefire deal, including the release of 33 hostages and ongoing negotiations for remaining captives. Learn about the phases of the agreement, the American hostages held by Hamas, and how families have endured months of advocacy and uncertainty. Stay updated on this pivotal development in the Israel-Gaza conflict\nsitename: AJC\ndate: 2025-01-30\ntags: ['Israel', 'History and Context: Israel-Hamas War', 'Update on Hamas-Israel War']\n---\nFebruary 27, 2025\n\nThe release of Israeli hostages by Hamas marks a significant turning point in the ongoing conflict that erupted following Hamas' massacre of Israelis on October 7, 2023. In the brutal assault, over 1,200 people were killed, and 251 individuals were taken hostage.\n\nAs part of the first phase [hostage release agreement of January 2025](https://www.ajc.org/news/israel-hamas-hostage-deal-what-you-need-to-know), 33 of the remaining hostages are slated to be freed in stages, with the first group of three Israeli women released on January 19, 2025.\n\nSince Hamas’ attack on October 7, [AJC has worked tirelessly alongside more than 50 hostage families](https://www.ajc.org/advocating-for-the-hostages), advocating globally to keep their stories front and center with officials, including over 200 members of Congress, diplomats, and faith leaders.\n\nHere is what to know about the hostage release schedule.\n\n*This explainer will continue to be updated as more information is released. AJC also breaks down what you need to know about the **Palestinian Prisoners Freed in the Hostage Agreement** and **What The Hostages Endured in Captivity*\n\n**When are the hostage releases happening? **\n\nThe first phase covers a span of six weeks and includes the release of 33 hostages, including 12 women and children, men aged 50 and above, and injured civilians, including two Americans.\n\nThree hostages were released on the first day, and four more released on the seventh day. After that, three hostages will be released every seven days, and the final 14 will be released in the final week of the first phase.\n\nIt is important to note that Hamas, a designated terror organization by multiple countries, is known for its use of psycho…\n\n[Truncated preview: showing 364 words out of ~2391. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "content": "---\ntitle: Gaza war hostage crisis - Wikipedia\nurl: https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\nhostname: wikipedia.org\nsitename: Wikimedia Foundation, Inc.\ndate: 2023-10-10\n---\n# Gaza war hostage crisis\n\n\n| Gaza war hostage crisis | |||||\n|---|---|---|---|---|---|\n| Part of the\n|\n\nPosters in Tel Aviv calling for the return of Israeli hostages in Gaza\n\n| Date | 7 October 2023 – present (1 year, 5 months, 1 week and 6 days) |\n|---|---|\n| Location |\n|\n\n**Involved in negotiations:**[Hamas](https://en.wikipedia.org/wiki/Hamas)[Palestinian Islamic Jihad](https://en.wikipedia.org/wiki/Palestinian_Islamic_Jihad)**Citizens held hostage**[Israel](https://en.wikipedia.org/wiki/Israel)[Thailand](https://en.wikipedia.org/wiki/Thailand)[Nepal](https://en.wikipedia.org/wiki/Nepal)[Philippines](https://en.wikipedia.org/wiki/Philippines)[United States](https://en.wikipedia.org/wiki/United_States)[Russia](https://en.wikipedia.org/wiki/Russia)[France](https://en.wikipedia.org/wiki/France)[Germany](https://en.wikipedia.org/wiki/Germany)[United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom)[Ireland](https://en.wikipedia.org/wiki/Republic_of_Ireland)[Argentina](https://en.wikipedia.org/wiki/Argentina)[Tanzania](https://en.wikipedia.org/wiki/Tanzania)[Yahya Sinwar](https://en.wikipedia.org/wiki/Yahya_Sinwar)**†****In negotiations**[Ismail Haniyeh](https://en.wikipedia.org/wiki/Ismail_Haniyeh)**X**[Khalil al-Hayya](https://en.wikipedia.org/wiki/Khalil_al-Hayya)[Basem Naim](https://en.wikipedia.org/wiki/Basem_Naim)[[1]](https://en.wikipedia.org#cite_note-1)[Osama Hamdan](https://en.wikipedia.org/wiki/Osama_Hamdan)[Benjamin Netanyahu](https://en.wikipedia.org/wiki/Benjamin_Netanyahu)**In negotiations**[David Barnea](https://en.wikipedia.org/wiki/David_Barnea)[Ronen Bar](https://en.wikipedia.org/wiki/Ronen_Bar)[Nitzan Alon](https://en.wikipedia.org/wiki/Nitzan_Alon)**Holding hostages:**[al-Qassam Brigades](https://en.wikipedia.org/wiki/Al-Qassam_Brigades)[Al-Quds Brigades](https://en.wikipedia.org/wiki/Al-Quds_Brigades)[Abu Ali Mustafa Brigades](https://en.wikipedia.org/wiki/Abu_Ali_Mustafa_Brigades)[Al-Nasser Salah al-Deen Brigades](https://en.wikipedia.org/wiki/Al-Nasser_Salah_al-Deen_Brigades)[Mujahideen Brigades](https://en.wikipedia.org/wiki/Mujahideen_Brigades)[Israel Defense Forces](https://en.wikipedia.org/wiki/Israel_Defense_Forces)[YAMAM](https://en.wikipedia.org/wiki/YAMAM)[Shin Bet](https://en.wikipedia.org/wiki/Shin_Bet)On 7 October 2023, as part of t…\n\n[Truncated preview: showing 113 words out of ~9564. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "content": "---\ntitle: Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\nauthor: Samy Magdy\nurl: https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\nhostname: apnews.com\ndescription: Head of emergency services in northern Gaza identified one of the dead as Mahmoud Islim, a local reporter who was operating a drone.\nsitename: AP News\ndate: 2025-03-15\ncategories: ['World News']\ntags: ['Middle East', 'Gaza Strip', 'Israel government', 'General news', 'Israel-Hamas war', 'Prisoner exchange', 'Military and defense', 'Hostage situations', 'War and unrest', 'Israel', 'Hamas', 'Benjamin Netanyahu', 'Israel-Hamas war, Benjamin Netanyahu, Israel government, Hamas, Israel, War and unrest, Hostage situations, Prisoner exchange, Gaza Strip, Middle East, Military and defense, General news, World news, Mahmoud Islim, Aerospace and defense industry, Edan Alexander, Steve Witkoff, Palestinian territories government, Ahmed al-Sufi']\n---\n# Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\n\n## Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\n\nCAIRO (AP) — Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their [ceasefire agreement](https://apnews.com/hub/israel-hamas-war), calling it an “exceptional deal” aimed at getting the truce back on track.\n\nIsraeli airstrikes meanwhile killed nine people in the Gaza Strip who the military identified as militants, allegations denied by a U.K.-based aid group that said eight of its workers were killed.\n\nA senior Hamas official said long-delayed talks over [the ceasefire’s second phase](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-hostages-witkoff-plan-46a639d66772915ba1ed0b43cd2728d8) would need to begin the day of the release and last no longer than 50 days. Israel also would need to stop [barring the entry of humanitarian aid](https://apnews.com/article/gaza-israel-hamas-palestinians-aid-explainer-ecc0e70d5ff1120a04bf36626dfd96f4) and withdraw from [a strategic corridor](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-egypt-gaza-corridor-ca9615f42004a47bafe969fef1377e04) along Gaza’s border with Egypt. [Israel has said](https://apnews.com/article/israel-palestinians-hamas-war-news-02-27-2025-cfcdd8786afe4bc73ae79b3e0e4ccb3b) it won’t pull out from t…\n\n[Truncated preview: showing 278 words out of ~1198. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "fact": "As of February 26, 2025, Israel has received all 33 hostages from the first phase of the hostage deal, with 25 returning alive."
+    },
+    {
+      "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "fact": "The first phase of the hostage release agreement includes the release of 33 hostages in stages over six weeks, starting January 19, 2025."
+    },
+    {
+      "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "fact": "Three hostages were released on January 19, four on January 25, three on January 30, three on February 1, three on February 8, three on February 15, and six on February 22."
+    },
+    {
+      "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "fact": "The release schedule indicates that the final 14 hostages of the first phase were released in the final week of the phase, which ended on February 26, 2025."
+    },
+    {
+      "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+      "fact": "The total number of hostages released by February 26, 2025, is 33, which includes both living hostages and bodies returned."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "fact": "As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "fact": "On 15 January 2025, it was announced that a hostage return agreement had been reached between Hamas and Israel, under which Hamas will release 33 out of 98 hostages in the first phase."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "fact": "The agreement for the release of 33 hostages includes infants, children, women, and elderly men, as well as younger men with injuries or health issues."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "fact": "In exchange for the release of 33 hostages, Israel released more than 1000 Palestinians being held in Israeli prisons."
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+      "fact": "There are 59 hostages remaining in captivity in the Gaza Strip, 58 of whom had been abducted on 7 October 2023, and the other hostage captured earlier."
+    },
+    {
+      "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "fact": "Hamas stated it will only release an American-Israeli hostage and the bodies of four others if Israel implements their ceasefire agreement."
+    },
+    {
+      "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "fact": "Hamas demands the release of more Palestinian prisoners in exchange for hostages."
+    },
+    {
+      "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "fact": "Israel has cast doubt on Hamas' offer, citing impractical demands made by Hamas in private negotiations."
+    },
+    {
+      "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "fact": "The first phase of the ceasefire saw the release of 25 Israeli hostages and the bodies of eight others in exchange for nearly 2,000 Palestinian prisoners."
+    },
+    {
+      "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+      "fact": "Hamas still holds 59 hostages, with 35 believed to be dead, and negotiations for the ceasefire's second phase have been delayed."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.4643856189774724,
+  "brier_score": 0.009999999999999995,
+  "weighted_brier_score": 0.004643856189774721,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "870eaab8-64e9-534d-bea5-03d13f6700dc",
+        "queries": [
+          "Hamas hostage releases March 2025",
+          "official statements on Hamas hostage release March 2025",
+          "Israel Hamas ceasefire March 2025 impact on hostage release"
+        ]
+      },
+      "raw": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"queries\": [\"Hamas hostage releases March 2025\", \"official statements on Hamas hostage release March 2025\", \"Israel Hamas ceasefire March 2025 impact on hostage release\"]}",
+      "tool_call_id": "call_Ed32ejh48JzSIaC27CnTXSgF"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Hamas hostage releases March 2025",
+        "results": [
+          {
+            "title": "Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates | AJC",
+            "link": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "position": 5,
+            "snippet": "The first phase of the Israel-Hamas hostage and ceasefire deal includes the release of 33 hostages. The first group of three Israeli women was released on January 19, 2025, with more to follow...",
+            "date": "2025-01-30T19:06:49Z"
+          },
+          {
+            "title": "Gaza war hostage crisis - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "position": 1,
+            "snippet": "As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal. Eight returned in the same 2025 prisoner exchange deal.",
+            "date": null
+          },
+          {
+            "title": "Debunking the False Equivalency Between Israeli Hostages and Palestinian Prisoners | AJC",
+            "link": "https://www.ajc.org/news/debunking-the-false-equivalency-between-israeli-hostages-and-palestinian-prisoners",
+            "position": 3,
+            "snippet": "An agreement between Israel and the Palestinian terror group Hamas was reached on November 21 for the release of 50 Israeli hostages, who are among the over 200 taken by the terror group during the October 7 attack on Israel.",
+            "date": "2023-11-28T20:41:22Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Hamas hostage releases March 2025\", \"results\": [{\"title\": \"Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates | AJC\", \"link\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"position\": 5, \"snippet\": \"The first phase of the Israel-Hamas hostage and ceasefire deal includes the release of 33 hostages. The first group of three Israeli women was released on January 19, 2025, with more to follow...\", \"date\": \"2025-01-30T19:06:49Z\"}, {\"title\": \"Gaza war hostage crisis - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"position\": 1, \"snippet\": \"As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal. Eight returned in the same 2025 prisoner exchange deal.\", \"date\": null}, {\"title\": \"Debunking the False Equivalency Between Israeli Hostages and Palestinian Prisoners | AJC\", \"link\": \"https://www.ajc.org/news/debunking-the-false-equivalency-between-israeli-hostages-and-palestinian-prisoners\", \"position\": 3, \"snippet\": \"An agreement between Israel and the Palestinian terror group Hamas was reached on November 21 for the release of 50 Israeli hostages, who are among the over 200 taken by the terror group during the October 7 attack on Israel.\", \"date\": \"2023-11-28T20:41:22Z\"}]}",
+      "tool_call_id": "call_PHGu69KofibQkDuklnUcM5Io"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "official statements on Hamas hostage release March 2025",
+        "results": [
+          {
+            "title": "U.S. and Hamas hold direct talks on hostages, in policy shift : NPR",
+            "link": "https://www.npr.org/2025/03/05/nx-s1-5319096/hamas-hostages-us-talks-israel-gaza",
+            "position": 1,
+            "snippet": "A Hamas official tells NPR that the United States held direct talks with the Palestinian militant group over the release of several American-Israeli dual citizens taken hostage during the Oct. 7, 2023 attacks in Israel.",
+            "date": null
+          },
+          {
+            "title": "Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented | AP News",
+            "link": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "position": 2,
+            "snippet": "Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their ceasefire agreement, calling it an \"exceptional deal\" aimed at getting the truce back on track.",
+            "date": "2025-03-15T07:13:24Z"
+          },
+          {
+            "title": "U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times",
+            "link": "https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html",
+            "position": 3,
+            "snippet": "U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter.",
+            "date": "2025-03-05T18:25:02Z"
+          },
+          {
+            "title": "Trump issues 'last warning' to Hamas over Israeli hostage release",
+            "link": "https://www.bbc.com/news/articles/c0mwln4p87do",
+            "position": 3,
+            "snippet": "US President Donald Trump has issued what he called a \"last warning\" to Hamas to release the hostages being held in Gaza. The White House confirmed it was holding direct talks with Hamas over the remaining hostages.",
+            "date": null
+          },
+          {
+            "title": "Trump warns Hamas as US holds unprecedented talks for Gaza hostages | Reuters",
+            "link": "https://www.reuters.com/world/middle-east/us-holds-secret-talks-with-hamas-gaza-hostages-axios-reports-2025-03-05/",
+            "position": 1,
+            "snippet": "The United States broke a longstanding diplomatic taboo by holding secret talks with Hamas on securing the release of U.S. hostages held in Gaza, sources told Reuters on Wednesday...",
+            "date": null
+          },
+          {
+            "title": "U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times",
+            "link": "https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html",
+            "position": 3,
+            "snippet": "U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter.",
+            "date": "2025-03-05T18:25:02Z"
+          },
+          {
+            "title": "US rebuts Hamas’s ‘entirely impractical’ ceasefire demands | Israel-Gaza war | The Guardian",
+            "link": "https://www.theguardian.com/world/2025/mar/14/hamas-says-it-will-free-israeli-us-hostage-in-potential-breakthrough-in-ceasefire-talks",
+            "position": 4,
+            "snippet": "The Trump administration has accused Hamas of making “entirely impractical” demands and stalling on a deal to release a US-Israeli hostage in exchange for an extension of the Gaza ceasefire.",
+            "date": "2025-03-14T19:01:03Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"official statements on Hamas hostage release March 2025\", \"results\": [{\"title\": \"U.S. and Hamas hold direct talks on hostages, in policy shift : NPR\", \"link\": \"https://www.npr.org/2025/03/05/nx-s1-5319096/hamas-hostages-us-talks-israel-gaza\", \"position\": 1, \"snippet\": \"A Hamas official tells NPR that the United States held direct talks with the Palestinian militant group over the release of several American-Israeli dual citizens taken hostage during the Oct. 7, 2023 attacks in Israel.\", \"date\": null}, {\"title\": \"Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented | AP News\", \"link\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"position\": 2, \"snippet\": \"Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their ceasefire agreement, calling it an \\\"exceptional deal\\\" aimed at getting the truce back on track.\", \"date\": \"2025-03-15T07:13:24Z\"}, {\"title\": \"U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times\", \"link\": \"https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html\", \"position\": 3, \"snippet\": \"U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter.\", \"date\": \"2025-03-05T18:25:02Z\"}, {\"title\": \"Trump issues 'last warning' to Hamas over Israeli hostage release\", \"link\": \"https://www.bbc.com/news/articles/c0mwln4p87do\", \"position\": 3, \"snippet\": \"US President Donald Trump has issued what he called a \\\"last warning\\\" to Hamas to release the hostages being held in Gaza. The White House confirmed it was holding direct talks with Hamas over the remaining hostages.\", \"date\": null}, {\"title\": \"Trump warns Hamas as US holds unprecedented talks for Gaza hostages | Reuters\", \"link\": \"https://www.reuters.com/world/middle-east/us-holds-secret-talks-with-hamas-gaza-hostages-axios-reports-2025-03-05/\", \"position\": 1, \"snippet\": \"The United States broke a longstanding diplomatic taboo by holding secret talks with Hamas on securing the release of U.S. hostages held in Gaza, sources told Reuters on Wednesday...\", \"date\": null}, {\"title\": \"U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times\", \"link\": \"https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html\", \"position\": 3, \"snippet\": \"U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter.\", \"date\": \"2025-03-05T18:25:02Z\"}, {\"title\": \"US rebuts Hamas\\u2019s \\u2018entirely impractical\\u2019 ceasefire demands | Israel-Gaza war | The Guardian\", \"link\": \"https://www.theguardian.com/world/2025/mar/14/hamas-says-it-will-free-israeli-us-hostage-in-potential-breakthrough-in-ceasefire-talks\", \"position\": 4, \"snippet\": \"The Trump administration has accused Hamas of making \\u201centirely impractical\\u201d demands and stalling on a deal to release a US-Israeli hostage in exchange for an extension of the Gaza ceasefire.\", \"date\": \"2025-03-14T19:01:03Z\"}]}",
+      "tool_call_id": "call_sZjESDgxIsZFiawqtGRJiH9l"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Israel Hamas ceasefire March 2025 impact on hostage release",
+        "results": []
+      },
+      "raw": "{\"query\": \"Israel Hamas ceasefire March 2025 impact on hostage release\", \"results\": []}",
+      "tool_call_id": "call_SaS75B48p2wTmuUjtJyzQ7eX"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+        "snippet": "---\ntitle: Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates\nurl: https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\nhostname: ajc.org\ndescription: When will the next hostages be released? Discover the details of the Israel-Hamas hostage and ceasefire deal, including the release of 33 hostages and ongoing negotiations for remaining captives. Learn about the phases of the agreement, the American hostages held by Hamas, and how families have endured months of advocacy and uncertainty. Stay updated on this pivotal development in the Israel-Gaza conflict\nsitename: AJC\ndate: 2025-01-30\ntags: ['Israel', 'History and Context: Israel-Hamas War', 'Update on Hamas-Israel War']\n---\nFebruary 27, 2025\n\nThe release of Israeli hostages by Hamas marks a significant turning point in the ongoing conflict that erupted following Hamas' massacre of Israelis on October 7, 2023. In the brutal assault, over 1,200 people were killed, and 251 individuals were taken hostage.\n\nAs part of the first phase [hostage release agreement of January 2025](https://www.ajc.org/news/israel-hamas-hostage-deal-what-you-need-to-know), 33 of the remaining hostages are slated to be freed in stages, with the first group of three Israeli women released on January 19, 2025.\n\nSince Hamas’ attack on October 7, [AJC has worked tirelessly alongside more than 50 hostage families](https://www.ajc.org/advocating-for-the-hostages), advocating globally to keep their stories front and center with officials, including over 200 members of Congress, diplomats, and faith leaders.\n\nHere is what to know about the hostage release schedule.\n\n*This explainer will continue to be updated as more information is released. AJC also breaks down what you need to know about the **Palestinian Prisoners Freed in the Hostage Agreement** and **What The Hostages Endured in Captivity*\n\n**When are the hostage releases happening? **\n\nThe first phase covers a span of six weeks and includes the release of 33 hostages, including 12 women and children, men aged 50 and above, and injured civilians, including two Americans.\n\nThree hostages were released on the first day, and four more released on the seventh day. After that, three hostages will be released every seven days, and the final 14 will be released in the final week of the first phase.\n\nIt is important to note that Hamas, a designated terror organization by multiple countries, is known for its use of psycho…\n\n[Truncated preview: showing 364 words out of ~2391. Full content available via `btf_extract_evidence`.]",
+        "word_count": 2391,
+        "snippet_word_count": 364,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-25T19:02:59.957346",
+        "date_cutoff_end": "2025-03-26T19:02:59.957346",
+        "cached_at": "2025-10-24T04:53:29.759090"
+      },
+      "raw": "{\"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"snippet\": \"---\\ntitle: Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates\\nurl: https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\\nhostname: ajc.org\\ndescription: When will the next hostages be released? Discover the details of the Israel-Hamas hostage and ceasefire deal, including the release of 33 hostages and ongoing negotiations for remaining captives. Learn about the phases of the agreement, the American hostages held by Hamas, and how families have endured months of advocacy and uncertainty. Stay updated on this pivotal development in the Israel-Gaza conflict\\nsitename: AJC\\ndate: 2025-01-30\\ntags: ['Israel', 'History and Context: Israel-Hamas War', 'Update on Hamas-Israel War']\\n---\\nFebruary 27, 2025\\n\\nThe release of Israeli hostages by Hamas marks a significant turning point in the ongoing conflict that erupted following Hamas' massacre of Israelis on October 7, 2023. In the brutal assault, over 1,200 people were killed, and 251 individuals were taken hostage.\\n\\nAs part of the first phase [hostage release agreement of January 2025](https://www.ajc.org/news/israel-hamas-hostage-deal-what-you-need-to-know), 33 of the remaining hostages are slated to be freed in stages, with the first group of three Israeli women released on January 19, 2025.\\n\\nSince Hamas\\u2019 attack on October 7, [AJC has worked tirelessly alongside more than 50 hostage families](https://www.ajc.org/advocating-for-the-hostages), advocating globally to keep their stories front and center with officials, including over 200 members of Congress, diplomats, and faith leaders.\\n\\nHere is what to know about the hostage release schedule.\\n\\n*This explainer will continue to be updated as more information is released. AJC also breaks down what you need to know about the **Palestinian Prisoners Freed in the Hostage Agreement** and **What The Hostages Endured in Captivity*\\n\\n**When are the hostage releases happening? **\\n\\nThe first phase covers a span of six weeks and includes the release of 33 hostages, including 12 women and children, men aged 50 and above, and injured civilians, including two Americans.\\n\\nThree hostages were released on the first day, and four more released on the seventh day. After that, three hostages will be released every seven days, and the final 14 will be released in the final week of the first phase.\\n\\nIt is important to note that Hamas, a designated terror organization by multiple countries, is known for its use of psycho\\u2026\\n\\n[Truncated preview: showing 364 words out of ~2391. Full content available via `btf_extract_evidence`.]\", \"word_count\": 2391, \"snippet_word_count\": 364, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T19:02:59.957346\", \"date_cutoff_end\": \"2025-03-26T19:02:59.957346\", \"cached_at\": \"2025-10-24T04:53:29.759090\"}",
+      "tool_call_id": "call_z0R8s3fKAEanlgRZCSex3YUn"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+        "snippet": "---\ntitle: Gaza war hostage crisis - Wikipedia\nurl: https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\nhostname: wikipedia.org\nsitename: Wikimedia Foundation, Inc.\ndate: 2023-10-10\n---\n# Gaza war hostage crisis\n\n\n| Gaza war hostage crisis | |||||\n|---|---|---|---|---|---|\n| Part of the\n|\n\nPosters in Tel Aviv calling for the return of Israeli hostages in Gaza\n\n| Date | 7 October 2023 – present (1 year, 5 months, 1 week and 6 days) |\n|---|---|\n| Location |\n|\n\n**Involved in negotiations:**[Hamas](https://en.wikipedia.org/wiki/Hamas)[Palestinian Islamic Jihad](https://en.wikipedia.org/wiki/Palestinian_Islamic_Jihad)**Citizens held hostage**[Israel](https://en.wikipedia.org/wiki/Israel)[Thailand](https://en.wikipedia.org/wiki/Thailand)[Nepal](https://en.wikipedia.org/wiki/Nepal)[Philippines](https://en.wikipedia.org/wiki/Philippines)[United States](https://en.wikipedia.org/wiki/United_States)[Russia](https://en.wikipedia.org/wiki/Russia)[France](https://en.wikipedia.org/wiki/France)[Germany](https://en.wikipedia.org/wiki/Germany)[United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom)[Ireland](https://en.wikipedia.org/wiki/Republic_of_Ireland)[Argentina](https://en.wikipedia.org/wiki/Argentina)[Tanzania](https://en.wikipedia.org/wiki/Tanzania)[Yahya Sinwar](https://en.wikipedia.org/wiki/Yahya_Sinwar)**†****In negotiations**[Ismail Haniyeh](https://en.wikipedia.org/wiki/Ismail_Haniyeh)**X**[Khalil al-Hayya](https://en.wikipedia.org/wiki/Khalil_al-Hayya)[Basem Naim](https://en.wikipedia.org/wiki/Basem_Naim)[[1]](https://en.wikipedia.org#cite_note-1)[Osama Hamdan](https://en.wikipedia.org/wiki/Osama_Hamdan)[Benjamin Netanyahu](https://en.wikipedia.org/wiki/Benjamin_Netanyahu)**In negotiations**[David Barnea](https://en.wikipedia.org/wiki/David_Barnea)[Ronen Bar](https://en.wikipedia.org/wiki/Ronen_Bar)[Nitzan Alon](https://en.wikipedia.org/wiki/Nitzan_Alon)**Holding hostages:**[al-Qassam Brigades](https://en.wikipedia.org/wiki/Al-Qassam_Brigades)[Al-Quds Brigades](https://en.wikipedia.org/wiki/Al-Quds_Brigades)[Abu Ali Mustafa Brigades](https://en.wikipedia.org/wiki/Abu_Ali_Mustafa_Brigades)[Al-Nasser Salah al-Deen Brigades](https://en.wikipedia.org/wiki/Al-Nasser_Salah_al-Deen_Brigades)[Mujahideen Brigades](https://en.wikipedia.org/wiki/Mujahideen_Brigades)[Israel Defense Forces](https://en.wikipedia.org/wiki/Israel_Defense_Forces)[YAMAM](https://en.wikipedia.org/wiki/YAMAM)[Shin Bet](https://en.wikipedia.org/wiki/Shin_Bet)On 7 October 2023, as part of t…\n\n[Truncated preview: showing 113 words out of ~9564. Full content available via `btf_extract_evidence`.]",
+        "word_count": 9564,
+        "snippet_word_count": 113,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-25T19:02:59.957346",
+        "date_cutoff_end": "2025-03-26T19:02:59.957346",
+        "cached_at": "2025-10-24T04:53:30.323203"
+      },
+      "raw": "{\"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"snippet\": \"---\\ntitle: Gaza war hostage crisis - Wikipedia\\nurl: https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\\nhostname: wikipedia.org\\nsitename: Wikimedia Foundation, Inc.\\ndate: 2023-10-10\\n---\\n# Gaza war hostage crisis\\n\\n\\n| Gaza war hostage crisis | |||||\\n|---|---|---|---|---|---|\\n| Part of the\\n|\\n\\nPosters in Tel Aviv calling for the return of Israeli hostages in Gaza\\n\\n| Date | 7 October 2023 \\u2013 present (1 year, 5 months, 1 week and 6 days) |\\n|---|---|\\n| Location |\\n|\\n\\n**Involved in negotiations:**[Hamas](https://en.wikipedia.org/wiki/Hamas)[Palestinian Islamic Jihad](https://en.wikipedia.org/wiki/Palestinian_Islamic_Jihad)**Citizens held hostage**[Israel](https://en.wikipedia.org/wiki/Israel)[Thailand](https://en.wikipedia.org/wiki/Thailand)[Nepal](https://en.wikipedia.org/wiki/Nepal)[Philippines](https://en.wikipedia.org/wiki/Philippines)[United States](https://en.wikipedia.org/wiki/United_States)[Russia](https://en.wikipedia.org/wiki/Russia)[France](https://en.wikipedia.org/wiki/France)[Germany](https://en.wikipedia.org/wiki/Germany)[United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom)[Ireland](https://en.wikipedia.org/wiki/Republic_of_Ireland)[Argentina](https://en.wikipedia.org/wiki/Argentina)[Tanzania](https://en.wikipedia.org/wiki/Tanzania)[Yahya Sinwar](https://en.wikipedia.org/wiki/Yahya_Sinwar)**\\u2020****In negotiations**[Ismail Haniyeh](https://en.wikipedia.org/wiki/Ismail_Haniyeh)**X**[Khalil al-Hayya](https://en.wikipedia.org/wiki/Khalil_al-Hayya)[Basem Naim](https://en.wikipedia.org/wiki/Basem_Naim)[[1]](https://en.wikipedia.org#cite_note-1)[Osama Hamdan](https://en.wikipedia.org/wiki/Osama_Hamdan)[Benjamin Netanyahu](https://en.wikipedia.org/wiki/Benjamin_Netanyahu)**In negotiations**[David Barnea](https://en.wikipedia.org/wiki/David_Barnea)[Ronen Bar](https://en.wikipedia.org/wiki/Ronen_Bar)[Nitzan Alon](https://en.wikipedia.org/wiki/Nitzan_Alon)**Holding hostages:**[al-Qassam Brigades](https://en.wikipedia.org/wiki/Al-Qassam_Brigades)[Al-Quds Brigades](https://en.wikipedia.org/wiki/Al-Quds_Brigades)[Abu Ali Mustafa Brigades](https://en.wikipedia.org/wiki/Abu_Ali_Mustafa_Brigades)[Al-Nasser Salah al-Deen Brigades](https://en.wikipedia.org/wiki/Al-Nasser_Salah_al-Deen_Brigades)[Mujahideen Brigades](https://en.wikipedia.org/wiki/Mujahideen_Brigades)[Israel Defense Forces](https://en.wikipedia.org/wiki/Israel_Defense_Forces)[YAMAM](https://en.wikipedia.org/wiki/YAMAM)[Shin Bet](https://en.wikipedia.org/wiki/Shin_Bet)On 7 October 2023, as part of t\\u2026\\n\\n[Truncated preview: showing 113 words out of ~9564. Full content available via `btf_extract_evidence`.]\", \"word_count\": 9564, \"snippet_word_count\": 113, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T19:02:59.957346\", \"date_cutoff_end\": \"2025-03-26T19:02:59.957346\", \"cached_at\": \"2025-10-24T04:53:30.323203\"}",
+      "tool_call_id": "call_lukPWn34IZHSac9RxrVyAxy2"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+        "snippet": "---\ntitle: Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\nauthor: Samy Magdy\nurl: https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\nhostname: apnews.com\ndescription: Head of emergency services in northern Gaza identified one of the dead as Mahmoud Islim, a local reporter who was operating a drone.\nsitename: AP News\ndate: 2025-03-15\ncategories: ['World News']\ntags: ['Middle East', 'Gaza Strip', 'Israel government', 'General news', 'Israel-Hamas war', 'Prisoner exchange', 'Military and defense', 'Hostage situations', 'War and unrest', 'Israel', 'Hamas', 'Benjamin Netanyahu', 'Israel-Hamas war, Benjamin Netanyahu, Israel government, Hamas, Israel, War and unrest, Hostage situations, Prisoner exchange, Gaza Strip, Middle East, Military and defense, General news, World news, Mahmoud Islim, Aerospace and defense industry, Edan Alexander, Steve Witkoff, Palestinian territories government, Ahmed al-Sufi']\n---\n# Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\n\n## Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\n\nCAIRO (AP) — Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their [ceasefire agreement](https://apnews.com/hub/israel-hamas-war), calling it an “exceptional deal” aimed at getting the truce back on track.\n\nIsraeli airstrikes meanwhile killed nine people in the Gaza Strip who the military identified as militants, allegations denied by a U.K.-based aid group that said eight of its workers were killed.\n\nA senior Hamas official said long-delayed talks over [the ceasefire’s second phase](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-hostages-witkoff-plan-46a639d66772915ba1ed0b43cd2728d8) would need to begin the day of the release and last no longer than 50 days. Israel also would need to stop [barring the entry of humanitarian aid](https://apnews.com/article/gaza-israel-hamas-palestinians-aid-explainer-ecc0e70d5ff1120a04bf36626dfd96f4) and withdraw from [a strategic corridor](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-egypt-gaza-corridor-ca9615f42004a47bafe969fef1377e04) along Gaza’s border with Egypt. [Israel has said](https://apnews.com/article/israel-palestinians-hamas-war-news-02-27-2025-cfcdd8786afe4bc73ae79b3e0e4ccb3b) it won’t pull out from t…\n\n[Truncated preview: showing 278 words out of ~1198. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1198,
+        "snippet_word_count": 278,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-25T19:02:59.957346",
+        "date_cutoff_end": "2025-03-26T19:02:59.957346",
+        "cached_at": "2025-10-24T05:17:22.726212"
+      },
+      "raw": "{\"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"snippet\": \"---\\ntitle: Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\\nauthor: Samy Magdy\\nurl: https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\\nhostname: apnews.com\\ndescription: Head of emergency services in northern Gaza identified one of the dead as Mahmoud Islim, a local reporter who was operating a drone.\\nsitename: AP News\\ndate: 2025-03-15\\ncategories: ['World News']\\ntags: ['Middle East', 'Gaza Strip', 'Israel government', 'General news', 'Israel-Hamas war', 'Prisoner exchange', 'Military and defense', 'Hostage situations', 'War and unrest', 'Israel', 'Hamas', 'Benjamin Netanyahu', 'Israel-Hamas war, Benjamin Netanyahu, Israel government, Hamas, Israel, War and unrest, Hostage situations, Prisoner exchange, Gaza Strip, Middle East, Military and defense, General news, World news, Mahmoud Islim, Aerospace and defense industry, Edan Alexander, Steve Witkoff, Palestinian territories government, Ahmed al-Sufi']\\n---\\n# Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\\n\\n## Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\\n\\nCAIRO (AP) \\u2014 Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their [ceasefire agreement](https://apnews.com/hub/israel-hamas-war), calling it an \\u201cexceptional deal\\u201d aimed at getting the truce back on track.\\n\\nIsraeli airstrikes meanwhile killed nine people in the Gaza Strip who the military identified as militants, allegations denied by a U.K.-based aid group that said eight of its workers were killed.\\n\\nA senior Hamas official said long-delayed talks over [the ceasefire\\u2019s second phase](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-hostages-witkoff-plan-46a639d66772915ba1ed0b43cd2728d8) would need to begin the day of the release and last no longer than 50 days. Israel also would need to stop [barring the entry of humanitarian aid](https://apnews.com/article/gaza-israel-hamas-palestinians-aid-explainer-ecc0e70d5ff1120a04bf36626dfd96f4) and withdraw from [a strategic corridor](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-egypt-gaza-corridor-ca9615f42004a47bafe969fef1377e04) along Gaza\\u2019s border with Egypt. [Israel has said](https://apnews.com/article/israel-palestinians-hamas-war-news-02-27-2025-cfcdd8786afe4bc73ae79b3e0e4ccb3b) it won\\u2019t pull out from t\\u2026\\n\\n[Truncated preview: showing 278 words out of ~1198. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1198, \"snippet_word_count\": 278, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T19:02:59.957346\", \"date_cutoff_end\": \"2025-03-26T19:02:59.957346\", \"cached_at\": \"2025-10-24T05:17:22.726212\"}",
+      "tool_call_id": "call_N8V3DY9RGM3ygkgt6R0Ls6U5"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "870eaab8-64e9-534d-bea5-03d13f6700dc",
+        "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+        "facts": [
+          {
+            "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "fact": "As of February 26, 2025, Israel has received all 33 hostages from the first phase of the hostage deal, with 25 returning alive."
+          },
+          {
+            "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "fact": "The first phase of the hostage release agreement includes the release of 33 hostages in stages over six weeks, starting January 19, 2025."
+          },
+          {
+            "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "fact": "Three hostages were released on January 19, four on January 25, three on January 30, three on February 1, three on February 8, three on February 15, and six on February 22."
+          },
+          {
+            "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "fact": "The release schedule indicates that the final 14 hostages of the first phase were released in the final week of the phase, which ended on February 26, 2025."
+          },
+          {
+            "title": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "url": "https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates",
+            "fact": "The total number of hostages released by February 26, 2025, is 33, which includes both living hostages and bodies returned."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"facts\": [{\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"As of February 26, 2025, Israel has received all 33 hostages from the first phase of the hostage deal, with 25 returning alive.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"The first phase of the hostage release agreement includes the release of 33 hostages in stages over six weeks, starting January 19, 2025.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"Three hostages were released on January 19, four on January 25, three on January 30, three on February 1, three on February 8, three on February 15, and six on February 22.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"The release schedule indicates that the final 14 hostages of the first phase were released in the final week of the phase, which ended on February 26, 2025.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"The total number of hostages released by February 26, 2025, is 33, which includes both living hostages and bodies returned.\"}]}",
+      "tool_call_id": "call_6GhQ5qlbd79qtzFTjxtoG5M1"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "870eaab8-64e9-534d-bea5-03d13f6700dc",
+        "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+        "facts": [
+          {
+            "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "fact": "As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "fact": "On 15 January 2025, it was announced that a hostage return agreement had been reached between Hamas and Israel, under which Hamas will release 33 out of 98 hostages in the first phase."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "fact": "The agreement for the release of 33 hostages includes infants, children, women, and elderly men, as well as younger men with injuries or health issues."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "fact": "In exchange for the release of 33 hostages, Israel released more than 1000 Palestinians being held in Israeli prisons."
+          },
+          {
+            "title": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "url": "https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis",
+            "fact": "There are 59 hostages remaining in captivity in the Gaza Strip, 58 of whom had been abducted on 7 October 2023, and the other hostage captured earlier."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"facts\": [{\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"On 15 January 2025, it was announced that a hostage return agreement had been reached between Hamas and Israel, under which Hamas will release 33 out of 98 hostages in the first phase.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"The agreement for the release of 33 hostages includes infants, children, women, and elderly men, as well as younger men with injuries or health issues.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"In exchange for the release of 33 hostages, Israel released more than 1000 Palestinians being held in Israeli prisons.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"There are 59 hostages remaining in captivity in the Gaza Strip, 58 of whom had been abducted on 7 October 2023, and the other hostage captured earlier.\"}]}",
+      "tool_call_id": "call_ru5GCINK4jRYSVDJ1kMHfMnK"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "870eaab8-64e9-534d-bea5-03d13f6700dc",
+        "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+        "facts": [
+          {
+            "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "fact": "Hamas stated it will only release an American-Israeli hostage and the bodies of four others if Israel implements their ceasefire agreement."
+          },
+          {
+            "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "fact": "Hamas demands the release of more Palestinian prisoners in exchange for hostages."
+          },
+          {
+            "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "fact": "Israel has cast doubt on Hamas' offer, citing impractical demands made by Hamas in private negotiations."
+          },
+          {
+            "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "fact": "The first phase of the ceasefire saw the release of 25 Israeli hostages and the bodies of eight others in exchange for nearly 2,000 Palestinian prisoners."
+          },
+          {
+            "title": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "url": "https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5",
+            "fact": "Hamas still holds 59 hostages, with 35 believed to be dead, and negotiations for the ceasefire's second phase have been delayed."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"facts\": [{\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Hamas stated it will only release an American-Israeli hostage and the bodies of four others if Israel implements their ceasefire agreement.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Hamas demands the release of more Palestinian prisoners in exchange for hostages.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Israel has cast doubt on Hamas' offer, citing impractical demands made by Hamas in private negotiations.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"The first phase of the ceasefire saw the release of 25 Israeli hostages and the bodies of eight others in exchange for nearly 2,000 Palestinian prisoners.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Hamas still holds 59 hostages, with 35 believed to be dead, and negotiations for the ceasefire's second phase have been delayed.\"}]}",
+      "tool_call_id": "call_mKwwpDT1xbsTCpP3DECvMvVp"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 30 and 39 (inclusive)?\nBackground: As of January 23, 2025, Israel and Hamas [are observing a ceasefire](https://www.bbc.co.uk/news/articles/cx25g41d8r8o) that began on January 19, 2025, following 15 months of intense conflict. Despite the ceasefire, tensions persist. Israeli forces [have conducted](https://apnews.com/article/israel-hamas-war-syria-lebanon-news-01-23-2025-44893a87c081bf5e59ee8fe66975f250) operations in the West Bank, resulting in casualties among Palestinian militants. Hamas [has reasserted](https://www.reuters.com/world/middle-east/hamas-tight-grip-gaza-complicates-plan-for-lasting-peace-2025-01-22/) control over Gaza, complicating efforts for lasting peace. While the ceasefire has halted large-scale hostilities, the situation remains fragile, with [both sides expressing skepticism](https://www.theguardian.com/world/2025/jan/19/gaza-ceasefire-will-israel-hamas-agreement-hold) about the truce's durability. Hamas has released 3 Israeli hostages and [is planning](https://www.reuters.com/world/middle-east/israeli-hostages-get-heartfelt-tribute-tel-aviv-drag-festival-2025-01-23/) to release some 30 more.\nResolution criteria: This question will resolve as 'YES' if the total number of hostages released by Hamas after January 26, 2025 and before April 5, 2025 is between 30 and 39 (inclusive), according to credible sources. Otherwise, it will resolve as 'NO'.\nFine print: \npresent_date: 2025-03-25T19:02:59.957346\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Ed32ejh48JzSIaC27CnTXSgF",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 30 and 39 (inclusive)?\",\"background\":\"As of January 23, 2025, Israel and Hamas are observing a ceasefire that began on January 19, 2025, following 15 months of intense conflict. Despite the ceasefire, tensions persist. Israeli forces have conducted operations in the West Bank, resulting in casualties among Palestinian militants. Hamas has reasserted control over Gaza, complicating efforts for lasting peace. While the ceasefire has halted large-scale hostilities, the situation remains fragile, with both sides expressing skepticism about the truce's durability. Hamas has released 3 Israeli hostages and is planning to release some 30 more.\",\"resolution_criteria\":\"This question will resolve as 'YES' if the total number of hostages released by Hamas after January 26, 2025 and before April 5, 2025 is between 30 and 39 (inclusive), according to credible sources. Otherwise, it will resolve as 'NO'.\",\"present_date\":\"2025-03-25T19:02:59.957346\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"queries\": [\"Hamas hostage releases March 2025\", \"official statements on Hamas hostage release March 2025\", \"Israel Hamas ceasefire March 2025 impact on hostage release\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_Ed32ejh48JzSIaC27CnTXSgF"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_PHGu69KofibQkDuklnUcM5Io",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Hamas hostage releases March 2025\", \"date_cutoff_start\": \"2025-01-26\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_sZjESDgxIsZFiawqtGRJiH9l",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"official statements on Hamas hostage release March 2025\", \"date_cutoff_start\": \"2025-01-26\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_SaS75B48p2wTmuUjtJyzQ7eX",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Israel Hamas ceasefire March 2025 impact on hostage release\", \"date_cutoff_start\": \"2025-01-26\", \"date_cutoff_end\": \"2025-03-25\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Hamas hostage releases March 2025\", \"results\": [{\"title\": \"Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates | AJC\", \"link\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"position\": 5, \"snippet\": \"The first phase of the Israel-Hamas hostage and ceasefire deal includes the release of 33 hostages. The first group of three Israeli women was released on January 19, 2025, with more to follow...\", \"date\": \"2025-01-30T19:06:49Z\"}, {\"title\": \"Gaza war hostage crisis - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"position\": 1, \"snippet\": \"As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal. Eight returned in the same 2025 prisoner exchange deal.\", \"date\": null}, {\"title\": \"Debunking the False Equivalency Between Israeli Hostages and Palestinian Prisoners | AJC\", \"link\": \"https://www.ajc.org/news/debunking-the-false-equivalency-between-israeli-hostages-and-palestinian-prisoners\", \"position\": 3, \"snippet\": \"An agreement between Israel and the Palestinian terror group Hamas was reached on November 21 for the release of 50 Israeli hostages, who are among the over 200 taken by the terror group during the October 7 attack on Israel.\", \"date\": \"2023-11-28T20:41:22Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_PHGu69KofibQkDuklnUcM5Io"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"official statements on Hamas hostage release March 2025\", \"results\": [{\"title\": \"U.S. and Hamas hold direct talks on hostages, in policy shift : NPR\", \"link\": \"https://www.npr.org/2025/03/05/nx-s1-5319096/hamas-hostages-us-talks-israel-gaza\", \"position\": 1, \"snippet\": \"A Hamas official tells NPR that the United States held direct talks with the Palestinian militant group over the release of several American-Israeli dual citizens taken hostage during the Oct. 7, 2023 attacks in Israel.\", \"date\": null}, {\"title\": \"Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented | AP News\", \"link\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"position\": 2, \"snippet\": \"Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their ceasefire agreement, calling it an \\\"exceptional deal\\\" aimed at getting the truce back on track.\", \"date\": \"2025-03-15T07:13:24Z\"}, {\"title\": \"U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times\", \"link\": \"https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html\", \"position\": 3, \"snippet\": \"U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter.\", \"date\": \"2025-03-05T18:25:02Z\"}, {\"title\": \"Trump issues 'last warning' to Hamas over Israeli hostage release\", \"link\": \"https://www.bbc.com/news/articles/c0mwln4p87do\", \"position\": 3, \"snippet\": \"US President Donald Trump has issued what he called a \\\"last warning\\\" to Hamas to release the hostages being held in Gaza. The White House confirmed it was holding direct talks with Hamas over the remaining hostages.\", \"date\": null}, {\"title\": \"Trump warns Hamas as US holds unprecedented talks for Gaza hostages | Reuters\", \"link\": \"https://www.reuters.com/world/middle-east/us-holds-secret-talks-with-hamas-gaza-hostages-axios-reports-2025-03-05/\", \"position\": 1, \"snippet\": \"The United States broke a longstanding diplomatic taboo by holding secret talks with Hamas on securing the release of U.S. hostages held in Gaza, sources told Reuters on Wednesday...\", \"date\": null}, {\"title\": \"U.S. and Hamas Hold Direct Talks on Hostages in Gaza, Officials Say - The New York Times\", \"link\": \"https://www.nytimes.com/2025/03/05/world/middleeast/us-hamas-hostage-talks-gaza.html\", \"position\": 3, \"snippet\": \"U.S. and Hamas officials have had talks in Qatar about hostages held in the Gaza Strip, according to two Israeli officials, a Western official and a diplomat briefed on the matter.\", \"date\": \"2025-03-05T18:25:02Z\"}, {\"title\": \"US rebuts Hamas\\u2019s \\u2018entirely impractical\\u2019 ceasefire demands | Israel-Gaza war | The Guardian\", \"link\": \"https://www.theguardian.com/world/2025/mar/14/hamas-says-it-will-free-israeli-us-hostage-in-potential-breakthrough-in-ceasefire-talks\", \"position\": 4, \"snippet\": \"The Trump administration has accused Hamas of making \\u201centirely impractical\\u201d demands and stalling on a deal to release a US-Israeli hostage in exchange for an extension of the Gaza ceasefire.\", \"date\": \"2025-03-14T19:01:03Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_sZjESDgxIsZFiawqtGRJiH9l"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Israel Hamas ceasefire March 2025 impact on hostage release\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_SaS75B48p2wTmuUjtJyzQ7eX"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_z0R8s3fKAEanlgRZCSex3YUn",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"date_cutoff_start\": \"2025-01-26\", \"date_cutoff_end\": \"2025-03-25\"}"
+          }
+        },
+        {
+          "id": "call_lukPWn34IZHSac9RxrVyAxy2",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"date_cutoff_start\": \"2025-01-26\", \"date_cutoff_end\": \"2025-03-25\"}"
+          }
+        },
+        {
+          "id": "call_N8V3DY9RGM3ygkgt6R0Ls6U5",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"date_cutoff_start\": \"2025-01-26\", \"date_cutoff_end\": \"2025-03-25\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"snippet\": \"---\\ntitle: Who Are the Israeli Hostages Being Released? Full Schedule and Latest Updates\\nurl: https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\\nhostname: ajc.org\\ndescription: When will the next hostages be released? Discover the details of the Israel-Hamas hostage and ceasefire deal, including the release of 33 hostages and ongoing negotiations for remaining captives. Learn about the phases of the agreement, the American hostages held by Hamas, and how families have endured months of advocacy and uncertainty. Stay updated on this pivotal development in the Israel-Gaza conflict\\nsitename: AJC\\ndate: 2025-01-30\\ntags: ['Israel', 'History and Context: Israel-Hamas War', 'Update on Hamas-Israel War']\\n---\\nFebruary 27, 2025\\n\\nThe release of Israeli hostages by Hamas marks a significant turning point in the ongoing conflict that erupted following Hamas' massacre of Israelis on October 7, 2023. In the brutal assault, over 1,200 people were killed, and 251 individuals were taken hostage.\\n\\nAs part of the first phase [hostage release agreement of January 2025](https://www.ajc.org/news/israel-hamas-hostage-deal-what-you-need-to-know), 33 of the remaining hostages are slated to be freed in stages, with the first group of three Israeli women released on January 19, 2025.\\n\\nSince Hamas\\u2019 attack on October 7, [AJC has worked tirelessly alongside more than 50 hostage families](https://www.ajc.org/advocating-for-the-hostages), advocating globally to keep their stories front and center with officials, including over 200 members of Congress, diplomats, and faith leaders.\\n\\nHere is what to know about the hostage release schedule.\\n\\n*This explainer will continue to be updated as more information is released. AJC also breaks down what you need to know about the **Palestinian Prisoners Freed in the Hostage Agreement** and **What The Hostages Endured in Captivity*\\n\\n**When are the hostage releases happening? **\\n\\nThe first phase covers a span of six weeks and includes the release of 33 hostages, including 12 women and children, men aged 50 and above, and injured civilians, including two Americans.\\n\\nThree hostages were released on the first day, and four more released on the seventh day. After that, three hostages will be released every seven days, and the final 14 will be released in the final week of the first phase.\\n\\nIt is important to note that Hamas, a designated terror organization by multiple countries, is known for its use of psycho\\u2026\\n\\n[Truncated preview: showing 364 words out of ~2391. Full content available via `btf_extract_evidence`.]\", \"word_count\": 2391, \"snippet_word_count\": 364, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T19:02:59.957346\", \"date_cutoff_end\": \"2025-03-26T19:02:59.957346\", \"cached_at\": \"2025-10-24T04:53:29.759090\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_z0R8s3fKAEanlgRZCSex3YUn"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"snippet\": \"---\\ntitle: Gaza war hostage crisis - Wikipedia\\nurl: https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\\nhostname: wikipedia.org\\nsitename: Wikimedia Foundation, Inc.\\ndate: 2023-10-10\\n---\\n# Gaza war hostage crisis\\n\\n\\n| Gaza war hostage crisis | |||||\\n|---|---|---|---|---|---|\\n| Part of the\\n|\\n\\nPosters in Tel Aviv calling for the return of Israeli hostages in Gaza\\n\\n| Date | 7 October 2023 \\u2013 present (1 year, 5 months, 1 week and 6 days) |\\n|---|---|\\n| Location |\\n|\\n\\n**Involved in negotiations:**[Hamas](https://en.wikipedia.org/wiki/Hamas)[Palestinian Islamic Jihad](https://en.wikipedia.org/wiki/Palestinian_Islamic_Jihad)**Citizens held hostage**[Israel](https://en.wikipedia.org/wiki/Israel)[Thailand](https://en.wikipedia.org/wiki/Thailand)[Nepal](https://en.wikipedia.org/wiki/Nepal)[Philippines](https://en.wikipedia.org/wiki/Philippines)[United States](https://en.wikipedia.org/wiki/United_States)[Russia](https://en.wikipedia.org/wiki/Russia)[France](https://en.wikipedia.org/wiki/France)[Germany](https://en.wikipedia.org/wiki/Germany)[United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom)[Ireland](https://en.wikipedia.org/wiki/Republic_of_Ireland)[Argentina](https://en.wikipedia.org/wiki/Argentina)[Tanzania](https://en.wikipedia.org/wiki/Tanzania)[Yahya Sinwar](https://en.wikipedia.org/wiki/Yahya_Sinwar)**\\u2020****In negotiations**[Ismail Haniyeh](https://en.wikipedia.org/wiki/Ismail_Haniyeh)**X**[Khalil al-Hayya](https://en.wikipedia.org/wiki/Khalil_al-Hayya)[Basem Naim](https://en.wikipedia.org/wiki/Basem_Naim)[[1]](https://en.wikipedia.org#cite_note-1)[Osama Hamdan](https://en.wikipedia.org/wiki/Osama_Hamdan)[Benjamin Netanyahu](https://en.wikipedia.org/wiki/Benjamin_Netanyahu)**In negotiations**[David Barnea](https://en.wikipedia.org/wiki/David_Barnea)[Ronen Bar](https://en.wikipedia.org/wiki/Ronen_Bar)[Nitzan Alon](https://en.wikipedia.org/wiki/Nitzan_Alon)**Holding hostages:**[al-Qassam Brigades](https://en.wikipedia.org/wiki/Al-Qassam_Brigades)[Al-Quds Brigades](https://en.wikipedia.org/wiki/Al-Quds_Brigades)[Abu Ali Mustafa Brigades](https://en.wikipedia.org/wiki/Abu_Ali_Mustafa_Brigades)[Al-Nasser Salah al-Deen Brigades](https://en.wikipedia.org/wiki/Al-Nasser_Salah_al-Deen_Brigades)[Mujahideen Brigades](https://en.wikipedia.org/wiki/Mujahideen_Brigades)[Israel Defense Forces](https://en.wikipedia.org/wiki/Israel_Defense_Forces)[YAMAM](https://en.wikipedia.org/wiki/YAMAM)[Shin Bet](https://en.wikipedia.org/wiki/Shin_Bet)On 7 October 2023, as part of t\\u2026\\n\\n[Truncated preview: showing 113 words out of ~9564. Full content available via `btf_extract_evidence`.]\", \"word_count\": 9564, \"snippet_word_count\": 113, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T19:02:59.957346\", \"date_cutoff_end\": \"2025-03-26T19:02:59.957346\", \"cached_at\": \"2025-10-24T04:53:30.323203\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_lukPWn34IZHSac9RxrVyAxy2"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"snippet\": \"---\\ntitle: Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\\nauthor: Samy Magdy\\nurl: https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\\nhostname: apnews.com\\ndescription: Head of emergency services in northern Gaza identified one of the dead as Mahmoud Islim, a local reporter who was operating a drone.\\nsitename: AP News\\ndate: 2025-03-15\\ncategories: ['World News']\\ntags: ['Middle East', 'Gaza Strip', 'Israel government', 'General news', 'Israel-Hamas war', 'Prisoner exchange', 'Military and defense', 'Hostage situations', 'War and unrest', 'Israel', 'Hamas', 'Benjamin Netanyahu', 'Israel-Hamas war, Benjamin Netanyahu, Israel government, Hamas, Israel, War and unrest, Hostage situations, Prisoner exchange, Gaza Strip, Middle East, Military and defense, General news, World news, Mahmoud Islim, Aerospace and defense industry, Edan Alexander, Steve Witkoff, Palestinian territories government, Ahmed al-Sufi']\\n---\\n# Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\\n\\n## Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented\\n\\nCAIRO (AP) \\u2014 Hamas said Saturday it will only release an American-Israeli and the bodies of four other hostages if Israel implements their [ceasefire agreement](https://apnews.com/hub/israel-hamas-war), calling it an \\u201cexceptional deal\\u201d aimed at getting the truce back on track.\\n\\nIsraeli airstrikes meanwhile killed nine people in the Gaza Strip who the military identified as militants, allegations denied by a U.K.-based aid group that said eight of its workers were killed.\\n\\nA senior Hamas official said long-delayed talks over [the ceasefire\\u2019s second phase](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-hostages-witkoff-plan-46a639d66772915ba1ed0b43cd2728d8) would need to begin the day of the release and last no longer than 50 days. Israel also would need to stop [barring the entry of humanitarian aid](https://apnews.com/article/gaza-israel-hamas-palestinians-aid-explainer-ecc0e70d5ff1120a04bf36626dfd96f4) and withdraw from [a strategic corridor](https://apnews.com/article/israel-palestinians-hamas-war-ceasefire-egypt-gaza-corridor-ca9615f42004a47bafe969fef1377e04) along Gaza\\u2019s border with Egypt. [Israel has said](https://apnews.com/article/israel-palestinians-hamas-war-news-02-27-2025-cfcdd8786afe4bc73ae79b3e0e4ccb3b) it won\\u2019t pull out from t\\u2026\\n\\n[Truncated preview: showing 278 words out of ~1198. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1198, \"snippet_word_count\": 278, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-25T19:02:59.957346\", \"date_cutoff_end\": \"2025-03-26T19:02:59.957346\", \"cached_at\": \"2025-10-24T05:17:22.726212\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_N8V3DY9RGM3ygkgt6R0Ls6U5"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_6GhQ5qlbd79qtzFTjxtoG5M1",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"question\": \"Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 30 and 39 (inclusive)?\", \"background\": \"As of January 23, 2025, Israel and Hamas are observing a ceasefire that began on January 19, 2025, following 15 months of intense conflict. Despite the ceasefire, tensions persist. Israeli forces have conducted operations in the West Bank, resulting in casualties among Palestinian militants. Hamas has reasserted control over Gaza, complicating efforts for lasting peace. While the ceasefire has halted large-scale hostilities, the situation remains fragile, with both sides expressing skepticism about the truce's durability. Hamas has released 3 Israeli hostages and is planning to release some 30 more.\", \"resolution_criteria\": \"This question will resolve as 'YES' if the total number of hostages released by Hamas after January 26, 2025 and before April 5, 2025 is between 30 and 39 (inclusive), according to credible sources.\", \"present_date\": \"2025-03-25T19:02:59.957346\"}"
+          }
+        },
+        {
+          "id": "call_ru5GCINK4jRYSVDJ1kMHfMnK",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"question\": \"Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 30 and 39 (inclusive)?\", \"background\": \"As of January 23, 2025, Israel and Hamas are observing a ceasefire that began on January 19, 2025, following 15 months of intense conflict. Despite the ceasefire, tensions persist. Israeli forces have conducted operations in the West Bank, resulting in casualties among Palestinian militants. Hamas has reasserted control over Gaza, complicating efforts for lasting peace. While the ceasefire has halted large-scale hostilities, the situation remains fragile, with both sides expressing skepticism about the truce's durability. Hamas has released 3 Israeli hostages and is planning to release some 30 more.\", \"resolution_criteria\": \"This question will resolve as 'YES' if the total number of hostages released by Hamas after January 26, 2025 and before April 5, 2025 is between 30 and 39 (inclusive), according to credible sources.\", \"present_date\": \"2025-03-25T19:02:59.957346\"}"
+          }
+        },
+        {
+          "id": "call_mKwwpDT1xbsTCpP3DECvMvVp",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"question\": \"Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 30 and 39 (inclusive)?\", \"background\": \"As of January 23, 2025, Israel and Hamas are observing a ceasefire that began on January 19, 2025, following 15 months of intense conflict. Despite the ceasefire, tensions persist. Israeli forces have conducted operations in the West Bank, resulting in casualties among Palestinian militants. Hamas has reasserted control over Gaza, complicating efforts for lasting peace. While the ceasefire has halted large-scale hostilities, the situation remains fragile, with both sides expressing skepticism about the truce's durability. Hamas has released 3 Israeli hostages and is planning to release some 30 more.\", \"resolution_criteria\": \"This question will resolve as 'YES' if the total number of hostages released by Hamas after January 26, 2025 and before April 5, 2025 is between 30 and 39 (inclusive), according to credible sources.\", \"present_date\": \"2025-03-25T19:02:59.957346\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"facts\": [{\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"As of February 26, 2025, Israel has received all 33 hostages from the first phase of the hostage deal, with 25 returning alive.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"The first phase of the hostage release agreement includes the release of 33 hostages in stages over six weeks, starting January 19, 2025.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"Three hostages were released on January 19, four on January 25, three on January 30, three on February 1, three on February 8, three on February 15, and six on February 22.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"The release schedule indicates that the final 14 hostages of the first phase were released in the final week of the phase, which ended on February 26, 2025.\"}, {\"title\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"url\": \"https://www.ajc.org/news/who-are-the-israeli-hostages-being-released-full-schedule-and-latest-updates\", \"fact\": \"The total number of hostages released by February 26, 2025, is 33, which includes both living hostages and bodies returned.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_6GhQ5qlbd79qtzFTjxtoG5M1"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"facts\": [{\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"As of 25 February 2025, 147 hostages had been returned alive to Israel, with 30 released during a 2025 prisoner exchange deal.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"On 15 January 2025, it was announced that a hostage return agreement had been reached between Hamas and Israel, under which Hamas will release 33 out of 98 hostages in the first phase.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"The agreement for the release of 33 hostages includes infants, children, women, and elderly men, as well as younger men with injuries or health issues.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"In exchange for the release of 33 hostages, Israel released more than 1000 Palestinians being held in Israeli prisons.\"}, {\"title\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"url\": \"https://en.wikipedia.org/wiki/Gaza_war_hostage_crisis\", \"fact\": \"There are 59 hostages remaining in captivity in the Gaza Strip, 58 of whom had been abducted on 7 October 2023, and the other hostage captured earlier.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_ru5GCINK4jRYSVDJ1kMHfMnK"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"870eaab8-64e9-534d-bea5-03d13f6700dc\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"facts\": [{\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Hamas stated it will only release an American-Israeli hostage and the bodies of four others if Israel implements their ceasefire agreement.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Hamas demands the release of more Palestinian prisoners in exchange for hostages.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Israel has cast doubt on Hamas' offer, citing impractical demands made by Hamas in private negotiations.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"The first phase of the ceasefire saw the release of 25 Israeli hostages and the bodies of eight others in exchange for nearly 2,000 Palestinian prisoners.\"}, {\"title\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"url\": \"https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-03-15-2025-b54c0c11c4d7f0ca52653edb033c70f5\", \"fact\": \"Hamas still holds 59 hostages, with 35 believed to be dead, and negotiations for the ceasefire's second phase have been delayed.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_mKwwpDT1xbsTCpP3DECvMvVp"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information extracted from the sources, here are the key points relevant to the question:\n\n1. **Hostage Releases**: As of February 26, 2025, a total of 33 hostages were released by Hamas as part of a phased agreement. This release included both living hostages and the return of bodies.\n\n2. **Resolution Criteria**: The question resolves as 'YES' if the total number of hostages released by Hamas after January 26, 2025, and before April 5, 2025, is between 30 and 39 (inclusive).\n\n3. **Current Status**: The 33 hostages released by February 26, 2025, fall within the specified range of 30 to 39 hostages.\n\n4. **Ceasefire and Negotiations**: The ceasefire agreement and negotiations have been ongoing, with further releases contingent on the implementation of the ceasefire deal. However, as of the present date, no additional hostages beyond the 33 have been reported released.\n\nGiven that the number of hostages released fits the criteria and no new developments suggest additional releases beyond this number, the probability that the question resolves as 'YES' is high.\n\nFINAL PROBABILITY: 0.9"
+    }
+  ]
+}

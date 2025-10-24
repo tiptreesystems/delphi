@@ -1,0 +1,693 @@
+{
+  "question_id": "5868f691-a20c-5629-9540-67c9f7202b5f",
+  "question": "Will the FAA report between 1.7 and 2.0 (inclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?",
+  "probability": 0.4,
+  "reasoning": "Based on the gathered information, here are some key points relevant to the probability estimation:\n\n1. **Historical Trends**: The FAA has reported a significant drop in unruly passenger incidents since their peak in 2021, with an 80% reduction. However, the number of incidents remains high, with 2,102 incidents reported in 2024 and nearly 240 incidents already reported in 2025 by early March.\n\n2. **Current Year Data**: As of early March 2025, the FAA has reported nearly 240 incidents. This suggests a continuing trend of high, albeit reduced, numbers of unruly passenger incidents.\n\n3. **Incidents per Flight**: To resolve the question as \"YES,\" the rate of incidents per 10,000 flights must fall between 1.7 and 2.0. Given the historical data, the number of incidents has been substantial, but the exact number of flights is crucial to determine the rate.\n\n4. **External Factors**: The post-pandemic travel surge, heightened anxiety, and altered social norms continue to contribute to the volatility in passenger behavior. This suggests that while the overall number of incidents might be controlled, spikes can occur due to these factors.\n\n5. **Regulatory and Enforcement Actions**: The FAA's zero-tolerance policy and collaboration with the FBI for serious cases indicate a strong regulatory environment, which might deter some incidents but not all.\n\nGiven these insights, the probability of the FAA reporting between 1.7 and 2.0 incidents per 10,000 flights for the week of March 23, 2025, is influenced by the continuing high number of incidents and the enforcement measures in place. However, without specific data on the number of flights, an exact probability is challenging to determine.\n\nFINAL PROBABILITY: 0.4",
+  "search_results": [
+    {
+      "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "content": "The FAA has referred 43 more unruly passenger cases to the FBI for criminal prosecution review. Incidents include attempts to breach the flight deck and assaults on crewmembers and passengers throughout 2023 and 2024..."
+    },
+    {
+      "title": "FAA General Statements | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/statements/general-statements",
+      "content": "The FAA is requiring SpaceX to perform a mishap investigation into the loss of the Starship vehicle during launch operations on March 6. During the event, the FAA activated a Debris Response Area and briefly slowed aircraft..."
+    },
+    {
+      "title": "FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi",
+      "content": "Information about FAA unruly passenger incidents in March 2025 is not available in the provided text."
+    },
+    {
+      "title": "Air Rage Still an Issue for Airlines - WorkersCompensation.com",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "content": "The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. So far this year, the FAA has recorded nearly 240 incidents, with a Florida couple arrested on March 2 for assaulting airport employees."
+    },
+    {
+      "title": "FAA: unruly passenger incidents down 80% since 2021",
+      "url": "https://aerospaceglobalnews.com/news/fight-or-flight-unruly-passenger-incidents-down-80-since-2021/",
+      "content": "Incidents of unruly passenger behaviour onboard aircraft are down by over 80% since “record highs” in early 2021, the Federal Aviation Authority (FAA) has revealed..."
+    },
+    {
+      "title": "FAA refers 43 reports of abusive, unruly plane passengers to FBI - Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2024-08-30/faa-refers-43-reports-abusive-unruly-plane-passengers-to-fbi",
+      "content": "The FAA has referred 43 cases of unruly passengers to the FBI during the past year, bringing the total to more than 310 since late 2021. Many cases involved assault..."
+    },
+    {
+      "title": "FAA Refers More Unruly Passenger Cases to FBI in 2023 | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-2023",
+      "content": "March 2023: Tried to open aircraft door and use a makeshift weapon to assault a flight attendant. The FAA has referred more than 250 of the most serious cases to the FBI since late 2021..."
+    },
+    {
+      "title": "Unruly Passengers | Federal Aviation Administration",
+      "url": "https://www.faa.gov/unruly",
+      "content": "The rate of unruly passenger incidents steadily dropped by over 80 percent since record highs in early 2021, but recent increases show there remains more work to do..."
+    },
+    {
+      "title": "Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine",
+      "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "content": "According to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years..."
+    },
+    {
+      "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "content": "The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur."
+    },
+    {
+      "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "content": "The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur."
+    },
+    {
+      "title": "2024 Saw A Rise In Unruly Passenger Incidents",
+      "url": "https://simpleflying.com/2024-unruly-passengers-rise/",
+      "content": "2024 was a difficult year for airlines, as they faced well over 1,000 unruly passenger incidents. This number is up 1% from 2023, where 2,076 were reported..."
+    },
+    {
+      "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "content": "The FAA pursues legal enforcement action against any passenger who assaults, threatens, intimidates, or interferes with airline crewmembers, and can propose civil penalties up to $37,000 per violation."
+    },
+    {
+      "title": "FAA General Statements | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/statements/general-statements",
+      "content": "No information found regarding FAA press releases on unruly passengers in March 2025."
+    },
+    {
+      "title": "FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi",
+      "content": "Information regarding FAA press releases on unruly passengers for March 2025 is not available in the provided text."
+    },
+    {
+      "title": "Unruly Passengers | Federal Aviation Administration",
+      "url": "https://www.faa.gov/unruly",
+      "content": "The FAA investigates unruly passenger incidents, and while the rate has dropped significantly, there remains more work to do to address disruptive behavior on flights..."
+    },
+    {
+      "title": "FAA Fines Against Unruly Passengers Reach $1M | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-fines-against-unruly-passengers-reach-1m",
+      "content": "No relevant information found for FAA press release on unruly passengers in March 2025."
+    },
+    {
+      "title": "Air Rage Still an Issue for Airlines - WorkersCompensation.com",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "content": "The FAA has reported hundreds of new incidents of unruly passengers. The FAA has a zero-tolerance policy on unruly passenger behavior, with hundreds of new incidents reported."
+    },
+    {
+      "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "content": "---\ntitle: FAA Refers More Unruly Passenger Cases to the FBI\nurl: https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\nhostname: faa.gov\ndescription: WASHINGTON — The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\nsitename: USDOT\ndate: 2023-04-20\n---\n# FAA Refers More Unruly Passenger Cases to the FBI\n\n**WASHINGTON** — The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\n\nThe FAA has now referred more than 310 of the most serious cases to the FBI since late 2021 [under a partnership](https://www.faa.gov/newsroom/fbi-faa-joint-statement-unruly-passengers) aimed at ensuring unruly airline passengers face criminal prosecution when warranted. When the FAA refers incidents to the FBI, the FBI works closely with law enforcement partners and appropriate agencies to conduct an investigation if applicable.\n\n“Dangerous passengers put everyone at risk—and the Biden-Harris Administration has been clear that those who disrupt flights will be held accountable,” said **U.S. Transportation Secretary Pete Buttigieg**. “Unruly travelers face stiff fines from the FAA and possible criminal prosecution too.”\n\n“There’s absolutely no excuse for unruly behavior,” said **FAA Administrator Mike Whitaker**. “It threatens the safety of everyone on board and we have zero tolerance for it.”\n\nThe new referrals include the following incidents:\n\n- March 3, 2024: Tried to breach the flight deck.\n- Feb. 18, 2024: Physically assaulted and was verbally aggressive toward a fellow passenger and crewmember.\n- Feb. 13, 2024: Exhibited sexually inappropriate behavior toward a crewmember.\n- Jan. 31, 2024: Physically assaulted a crewmember and exhibited disruptive behavior.\n- Jan. 13, 2024: Exhibited disruptive behavior.\n- Jan. 1, 2024: Physically assaulted his travel companion.\n- Dec. 30, 2023: Sexually assaulted and exhibited inappropriate behavior toward a fellow passenger.\n- Dec. 18, 2023: Physically assaulted a crewmember.\n- Dec. 1, 2023: Physically assaulted a fellow passenger.\n- Nov. 22, 2023: Physically assaulted a fellow passenger.\n- Nov. 9, 2023: Tried to breach the flight deck.\n- Oct. 15, 2023: Sexually assaulted a fellow passenger, exhibited aggressive behavior.\n- Aug. 11, 2023: Sexually assaulted a fellow passenger.\n- Aug. 2, 2023: Assa…\n\n[Truncated preview: showing 356 words out of ~763. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "content": "---\ntitle: Air Rage Still an Issue for Airlines - WorkersCompensation.com\nauthor: Liz Carey\nurl: https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\nhostname: workerscompensation.com\ndescription: Newark, NJ (WorkersCompensation.com) – Unruly passengers are still a danger for flight crews and passengers on air flights across the country. The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay | WorkersCompensation.com\nsitename: WorkersCompensation.com - Let's Simplify the Work of Workers' Compensation\ndate: 2025-03-09\ncategories: [\"Workers' Compensation Daily Headlines, air rage, aviation, Safety, worker safety\"]\n---\nShare This Article:\n\nNewark, NJ (WorkersCompensation.com) – Unruly passengers are still a danger for flight crews and passengers on air flights across the country.\n\nThe Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay high.\n\n“Incidents where airline passengers have disrupted flights with threatening or violent behavior are an ongoing problem and airlines have seen rapid growth in occurrences since 2021. The FAA has a zero-tolerance policy on unruly passenger behavior,” the FAA said.\n\nSo far this year, the FAA has recorded nearly 240 incidents. Last year, the FAA reported a total of 2,102, up from 2,072 incidents in 2022. In comparison, in 2017 the FAA only reported 544 unruly passenger incidents. There were only 889 incidents in 2018, 1,161 in 2019 and 1,009 in 2020.\n\nEarlier this month, a Florida couple was accused of assaulting airport employees who would not let them board a flight after they arrived late.\n\nThe Miami-Dade Sheriff Office said Rafael Seirafe-Novaes, 40 and Beatriz Rapoport De Campos Maia, 29 were arrested on March 2 for the incident.\n\nSurveillance video at Miami International Airport showed the couple arriving around 8:35 a.m., late for their American Airlines flight to Cancun. The couple then tried to force their way onto the flight. Both suspects ignored signs and verbal commands from ticket agents before pushing their way through staff into the restricted area to board the flight.\n\nVideo showed Seirafe-Novaes pushing two victims and Rapoport De Campos Maia…\n\n[Truncated preview: showing 364 words out of ~965. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "content": "---\ntitle: Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine\nauthor: Frederick Reitz\nurl: https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\nhostname: tsi-mag.com\ndescription: An “unruly passenger” is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and\nsitename: Transport Security International Magazine\ndate: 2025-02-06\ncategories: ['Aviation']\ntags: ['Featured Stories']\n---\nAn “unruly passenger” is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and well-being of passengers and crew. This behavior can manifest in various ways, including physical violence, verbal threats, refusal to comply with safety protocols, tampering with aircraft systems, or harassment of crew and fellow passengers. Unruly behavior is not limited to overt aggression; it also encompasses less obvious actions such as repeated refusal to wear a seatbelt or use of prohibited devices that interfere with flight operations.\n\nAccording to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years, with some incidents escalating to severe threats or physical altercations. This trend has been exacerbated by the post-pandemic travel surge, where heightened anxiety, altered social norms, and pent-up frustrations contribute to a volatile environment. Airlines have also observed spikes in incidents on longer-haul flights and during peak travel seasons.\n\nIn two separate recent incidents, passengers managed to bypass TSA security protocols and board an aircraft without presenting any form of identification or a boarding pass. These alarming breaches were only discovered due to the passengers’ unusual behavior, which drew the attention of flight attendants. While neither passenger exhibited disruptive conduct or carried prohibited items — having passed through TSA metal detectors — the incidents have prompted serious reviews by both TSA and the airline involved.\n\n\nInvestigations revealed security footage highlighting how easily the individuals circumvented standard procedures, underscoring vulnerabilities in the current system. This repeated lapse has raised concerns about the…\n\n[Truncated preview: showing 333 words out of ~1284. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "fact": "The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021."
+    },
+    {
+      "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "fact": "Airlines have reported more than 1,240 unruly passenger cases in 2024."
+    },
+    {
+      "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "fact": "The FAA has referred more than 310 of the most serious unruly passenger cases to the FBI since late 2021."
+    },
+    {
+      "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "fact": "The FAA can propose civil penalties up to $37,000 per violation for unruly passenger behavior."
+    },
+    {
+      "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+      "fact": "The FAA has a zero-tolerance policy for unruly behavior, which threatens the safety of everyone on board."
+    },
+    {
+      "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "fact": "The FAA has reported nearly 240 incidents of unruly passengers so far in 2025."
+    },
+    {
+      "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "fact": "In 2024, the FAA reported a total of 2,102 unruly passenger incidents."
+    },
+    {
+      "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "fact": "In 2023, the FAA reported 2,072 incidents of unruly passengers."
+    },
+    {
+      "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "fact": "The number of unruly passenger incidents reached nearly 6,000 in 2021 and has remained high since then."
+    },
+    {
+      "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+      "fact": "The FAA maintains a zero-tolerance policy on unruly passenger behavior."
+    },
+    {
+      "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "fact": "Unruly passenger incidents have been steadily increasing, with the International Air Transport Association (IATA) reporting over 10,000 cases annually in recent years."
+    },
+    {
+      "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "fact": "The post-pandemic travel surge has exacerbated the trend of unruly passenger incidents due to heightened anxiety and altered social norms."
+    },
+    {
+      "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "fact": "Airlines have observed spikes in unruly passenger incidents on longer-haul flights and during peak travel seasons."
+    },
+    {
+      "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "fact": "Recent security breaches, where passengers bypassed TSA protocols, highlight vulnerabilities that could contribute to unruly behavior if not addressed."
+    },
+    {
+      "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+      "fact": "The International Civil Aviation Organization (ICAO) and regional bodies like the FAA enforce mandatory reporting of unruly passenger incidents, which may affect the number of reported cases."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5283208335737187,
+  "brier_score": 0.16000000000000003,
+  "weighted_brier_score": 0.08453133337179501,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "5868f691-a20c-5629-9540-67c9f7202b5f",
+        "queries": [
+          "FAA unruly passenger incidents March 2025",
+          "unruly passenger incidents trend 2025",
+          "FAA press release unruly passengers March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"queries\": [\"FAA unruly passenger incidents March 2025\", \"unruly passenger incidents trend 2025\", \"FAA press release unruly passengers March 2025\"]}",
+      "tool_call_id": "call_856WlefQMqKpwniUL3SlgKv0"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "FAA unruly passenger incidents March 2025",
+        "results": [
+          {
+            "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "position": 1,
+            "snippet": "The FAA has referred 43 more unruly passenger cases to the FBI for criminal prosecution review. Incidents include attempts to breach the flight deck and assaults on crewmembers and passengers throughout 2023 and 2024...",
+            "date": null
+          },
+          {
+            "title": "FAA General Statements | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/statements/general-statements",
+            "position": 4,
+            "snippet": "The FAA is requiring SpaceX to perform a mishap investigation into the loss of the Starship vehicle during launch operations on March 6. During the event, the FAA activated a Debris Response Area and briefly slowed aircraft...",
+            "date": null
+          },
+          {
+            "title": "FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi",
+            "position": 3,
+            "snippet": "Information about FAA unruly passenger incidents in March 2025 is not available in the provided text.",
+            "date": null
+          },
+          {
+            "title": "Air Rage Still an Issue for Airlines - WorkersCompensation.com",
+            "link": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "position": 1,
+            "snippet": "The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. So far this year, the FAA has recorded nearly 240 incidents, with a Florida couple arrested on March 2 for assaulting airport employees.",
+            "date": "2025-03-09T23:56:58Z"
+          },
+          {
+            "title": "FAA: unruly passenger incidents down 80% since 2021",
+            "link": "https://aerospaceglobalnews.com/news/fight-or-flight-unruly-passenger-incidents-down-80-since-2021/",
+            "position": 3,
+            "snippet": "Incidents of unruly passenger behaviour onboard aircraft are down by over 80% since “record highs” in early 2021, the Federal Aviation Authority (FAA) has revealed...",
+            "date": "2024-08-22T11:32:40Z"
+          },
+          {
+            "title": "FAA refers 43 reports of abusive, unruly plane passengers to FBI - Los Angeles Times",
+            "link": "https://www.latimes.com/california/story/2024-08-30/faa-refers-43-reports-abusive-unruly-plane-passengers-to-fbi",
+            "position": 4,
+            "snippet": "The FAA has referred 43 cases of unruly passengers to the FBI during the past year, bringing the total to more than 310 since late 2021. Many cases involved assault...",
+            "date": "2024-08-30T10:00:25.029000Z"
+          },
+          {
+            "title": "FAA Refers More Unruly Passenger Cases to FBI in 2023 | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-2023",
+            "position": 5,
+            "snippet": "March 2023: Tried to open aircraft door and use a makeshift weapon to assault a flight attendant. The FAA has referred more than 250 of the most serious cases to the FBI since late 2021...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"FAA unruly passenger incidents March 2025\", \"results\": [{\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 1, \"snippet\": \"The FAA has referred 43 more unruly passenger cases to the FBI for criminal prosecution review. Incidents include attempts to breach the flight deck and assaults on crewmembers and passengers throughout 2023 and 2024...\", \"date\": null}, {\"title\": \"FAA General Statements | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/statements/general-statements\", \"position\": 4, \"snippet\": \"The FAA is requiring SpaceX to perform a mishap investigation into the loss of the Starship vehicle during launch operations on March 6. During the event, the FAA activated a Debris Response Area and briefly slowed aircraft...\", \"date\": null}, {\"title\": \"FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi\", \"position\": 3, \"snippet\": \"Information about FAA unruly passenger incidents in March 2025 is not available in the provided text.\", \"date\": null}, {\"title\": \"Air Rage Still an Issue for Airlines - WorkersCompensation.com\", \"link\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"position\": 1, \"snippet\": \"The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. So far this year, the FAA has recorded nearly 240 incidents, with a Florida couple arrested on March 2 for assaulting airport employees.\", \"date\": \"2025-03-09T23:56:58Z\"}, {\"title\": \"FAA: unruly passenger incidents down 80% since 2021\", \"link\": \"https://aerospaceglobalnews.com/news/fight-or-flight-unruly-passenger-incidents-down-80-since-2021/\", \"position\": 3, \"snippet\": \"Incidents of unruly passenger behaviour onboard aircraft are down by over 80% since \\u201crecord highs\\u201d in early 2021, the Federal Aviation Authority (FAA) has revealed...\", \"date\": \"2024-08-22T11:32:40Z\"}, {\"title\": \"FAA refers 43 reports of abusive, unruly plane passengers to FBI - Los Angeles Times\", \"link\": \"https://www.latimes.com/california/story/2024-08-30/faa-refers-43-reports-abusive-unruly-plane-passengers-to-fbi\", \"position\": 4, \"snippet\": \"The FAA has referred 43 cases of unruly passengers to the FBI during the past year, bringing the total to more than 310 since late 2021. Many cases involved assault...\", \"date\": \"2024-08-30T10:00:25.029000Z\"}, {\"title\": \"FAA Refers More Unruly Passenger Cases to FBI in 2023 | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-2023\", \"position\": 5, \"snippet\": \"March 2023: Tried to open aircraft door and use a makeshift weapon to assault a flight attendant. The FAA has referred more than 250 of the most serious cases to the FBI since late 2021...\", \"date\": null}]}",
+      "tool_call_id": "call_q7Xbzl5wKALLUi6rO2FUIJ30"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "unruly passenger incidents trend 2025",
+        "results": [
+          {
+            "title": "Unruly Passengers | Federal Aviation Administration",
+            "link": "https://www.faa.gov/unruly",
+            "position": 2,
+            "snippet": "The rate of unruly passenger incidents steadily dropped by over 80 percent since record highs in early 2021, but recent increases show there remains more work to do...",
+            "date": null
+          },
+          {
+            "title": "Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine",
+            "link": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "position": 3,
+            "snippet": "According to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years...",
+            "date": "2025-02-06T07:05:38Z"
+          },
+          {
+            "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "position": 4,
+            "snippet": "The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur.",
+            "date": null
+          },
+          {
+            "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "position": 3,
+            "snippet": "The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur.",
+            "date": null
+          },
+          {
+            "title": "2024 Saw A Rise In Unruly Passenger Incidents",
+            "link": "https://simpleflying.com/2024-unruly-passengers-rise/",
+            "position": 4,
+            "snippet": "2024 was a difficult year for airlines, as they faced well over 1,000 unruly passenger incidents. This number is up 1% from 2023, where 2,076 were reported...",
+            "date": "2025-02-09T09:31:14Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"unruly passenger incidents trend 2025\", \"results\": [{\"title\": \"Unruly Passengers | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/unruly\", \"position\": 2, \"snippet\": \"The rate of unruly passenger incidents steadily dropped by over 80 percent since record highs in early 2021, but recent increases show there remains more work to do...\", \"date\": null}, {\"title\": \"Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine\", \"link\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"position\": 3, \"snippet\": \"According to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years...\", \"date\": \"2025-02-06T07:05:38Z\"}, {\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 4, \"snippet\": \"The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur.\", \"date\": null}, {\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 3, \"snippet\": \"The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur.\", \"date\": null}, {\"title\": \"2024 Saw A Rise In Unruly Passenger Incidents\", \"link\": \"https://simpleflying.com/2024-unruly-passengers-rise/\", \"position\": 4, \"snippet\": \"2024 was a difficult year for airlines, as they faced well over 1,000 unruly passenger incidents. This number is up 1% from 2023, where 2,076 were reported...\", \"date\": \"2025-02-09T09:31:14Z\"}]}",
+      "tool_call_id": "call_aZis8JqcdE8o66wigs6m1F2B"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "FAA press release unruly passengers March 2025",
+        "results": [
+          {
+            "title": "FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "position": 1,
+            "snippet": "The FAA pursues legal enforcement action against any passenger who assaults, threatens, intimidates, or interferes with airline crewmembers, and can propose civil penalties up to $37,000 per violation.",
+            "date": null
+          },
+          {
+            "title": "FAA General Statements | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/statements/general-statements",
+            "position": 4,
+            "snippet": "No information found regarding FAA press releases on unruly passengers in March 2025.",
+            "date": null
+          },
+          {
+            "title": "FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi",
+            "position": 1,
+            "snippet": "Information regarding FAA press releases on unruly passengers for March 2025 is not available in the provided text.",
+            "date": null
+          },
+          {
+            "title": "Unruly Passengers | Federal Aviation Administration",
+            "link": "https://www.faa.gov/unruly",
+            "position": 2,
+            "snippet": "The FAA investigates unruly passenger incidents, and while the rate has dropped significantly, there remains more work to do to address disruptive behavior on flights...",
+            "date": null
+          },
+          {
+            "title": "FAA Fines Against Unruly Passengers Reach $1M | Federal Aviation Administration",
+            "link": "https://www.faa.gov/newsroom/faa-fines-against-unruly-passengers-reach-1m",
+            "position": 3,
+            "snippet": "No relevant information found for FAA press release on unruly passengers in March 2025.",
+            "date": null
+          },
+          {
+            "title": "Air Rage Still an Issue for Airlines - WorkersCompensation.com",
+            "link": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "position": 5,
+            "snippet": "The FAA has reported hundreds of new incidents of unruly passengers. The FAA has a zero-tolerance policy on unruly passenger behavior, with hundreds of new incidents reported.",
+            "date": "2025-03-09T23:56:58Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"FAA press release unruly passengers March 2025\", \"results\": [{\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 1, \"snippet\": \"The FAA pursues legal enforcement action against any passenger who assaults, threatens, intimidates, or interferes with airline crewmembers, and can propose civil penalties up to $37,000 per violation.\", \"date\": null}, {\"title\": \"FAA General Statements | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/statements/general-statements\", \"position\": 4, \"snippet\": \"No information found regarding FAA press releases on unruly passengers in March 2025.\", \"date\": null}, {\"title\": \"FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi\", \"position\": 1, \"snippet\": \"Information regarding FAA press releases on unruly passengers for March 2025 is not available in the provided text.\", \"date\": null}, {\"title\": \"Unruly Passengers | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/unruly\", \"position\": 2, \"snippet\": \"The FAA investigates unruly passenger incidents, and while the rate has dropped significantly, there remains more work to do to address disruptive behavior on flights...\", \"date\": null}, {\"title\": \"FAA Fines Against Unruly Passengers Reach $1M | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-fines-against-unruly-passengers-reach-1m\", \"position\": 3, \"snippet\": \"No relevant information found for FAA press release on unruly passengers in March 2025.\", \"date\": null}, {\"title\": \"Air Rage Still an Issue for Airlines - WorkersCompensation.com\", \"link\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"position\": 5, \"snippet\": \"The FAA has reported hundreds of new incidents of unruly passengers. The FAA has a zero-tolerance policy on unruly passenger behavior, with hundreds of new incidents reported.\", \"date\": \"2025-03-09T23:56:58Z\"}]}",
+      "tool_call_id": "call_H6KOZf8oYuk6BuyiPhJG9t6b"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+        "snippet": "---\ntitle: FAA Refers More Unruly Passenger Cases to the FBI\nurl: https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\nhostname: faa.gov\ndescription: WASHINGTON — The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\nsitename: USDOT\ndate: 2023-04-20\n---\n# FAA Refers More Unruly Passenger Cases to the FBI\n\n**WASHINGTON** — The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\n\nThe FAA has now referred more than 310 of the most serious cases to the FBI since late 2021 [under a partnership](https://www.faa.gov/newsroom/fbi-faa-joint-statement-unruly-passengers) aimed at ensuring unruly airline passengers face criminal prosecution when warranted. When the FAA refers incidents to the FBI, the FBI works closely with law enforcement partners and appropriate agencies to conduct an investigation if applicable.\n\n“Dangerous passengers put everyone at risk—and the Biden-Harris Administration has been clear that those who disrupt flights will be held accountable,” said **U.S. Transportation Secretary Pete Buttigieg**. “Unruly travelers face stiff fines from the FAA and possible criminal prosecution too.”\n\n“There’s absolutely no excuse for unruly behavior,” said **FAA Administrator Mike Whitaker**. “It threatens the safety of everyone on board and we have zero tolerance for it.”\n\nThe new referrals include the following incidents:\n\n- March 3, 2024: Tried to breach the flight deck.\n- Feb. 18, 2024: Physically assaulted and was verbally aggressive toward a fellow passenger and crewmember.\n- Feb. 13, 2024: Exhibited sexually inappropriate behavior toward a crewmember.\n- Jan. 31, 2024: Physically assaulted a crewmember and exhibited disruptive behavior.\n- Jan. 13, 2024: Exhibited disruptive behavior.\n- Jan. 1, 2024: Physically assaulted his travel companion.\n- Dec. 30, 2023: Sexually assaulted and exhibited inappropriate behavior toward a fellow passenger.\n- Dec. 18, 2023: Physically assaulted a crewmember.\n- Dec. 1, 2023: Physically assaulted a fellow passenger.\n- Nov. 22, 2023: Physically assaulted a fellow passenger.\n- Nov. 9, 2023: Tried to breach the flight deck.\n- Oct. 15, 2023: Sexually assaulted a fellow passenger, exhibited aggressive behavior.\n- Aug. 11, 2023: Sexually assaulted a fellow passenger.\n- Aug. 2, 2023: Assa…\n\n[Truncated preview: showing 356 words out of ~763. Full content available via `btf_extract_evidence`.]",
+        "word_count": 763,
+        "snippet_word_count": 356,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T08:36:23.008197",
+        "date_cutoff_end": "2025-03-20T08:36:23.008197",
+        "cached_at": "2025-10-24T04:42:08.894306"
+      },
+      "raw": "{\"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"snippet\": \"---\\ntitle: FAA Refers More Unruly Passenger Cases to the FBI\\nurl: https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\\nhostname: faa.gov\\ndescription: WASHINGTON \\u2014 The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\\nsitename: USDOT\\ndate: 2023-04-20\\n---\\n# FAA Refers More Unruly Passenger Cases to the FBI\\n\\n**WASHINGTON** \\u2014 The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\\n\\nThe FAA has now referred more than 310 of the most serious cases to the FBI since late 2021 [under a partnership](https://www.faa.gov/newsroom/fbi-faa-joint-statement-unruly-passengers) aimed at ensuring unruly airline passengers face criminal prosecution when warranted. When the FAA refers incidents to the FBI, the FBI works closely with law enforcement partners and appropriate agencies to conduct an investigation if applicable.\\n\\n\\u201cDangerous passengers put everyone at risk\\u2014and the Biden-Harris Administration has been clear that those who disrupt flights will be held accountable,\\u201d said **U.S. Transportation Secretary Pete Buttigieg**. \\u201cUnruly travelers face stiff fines from the FAA and possible criminal prosecution too.\\u201d\\n\\n\\u201cThere\\u2019s absolutely no excuse for unruly behavior,\\u201d said **FAA Administrator Mike Whitaker**. \\u201cIt threatens the safety of everyone on board and we have zero tolerance for it.\\u201d\\n\\nThe new referrals include the following incidents:\\n\\n- March 3, 2024: Tried to breach the flight deck.\\n- Feb. 18, 2024: Physically assaulted and was verbally aggressive toward a fellow passenger and crewmember.\\n- Feb. 13, 2024: Exhibited sexually inappropriate behavior toward a crewmember.\\n- Jan. 31, 2024: Physically assaulted a crewmember and exhibited disruptive behavior.\\n- Jan. 13, 2024: Exhibited disruptive behavior.\\n- Jan. 1, 2024: Physically assaulted his travel companion.\\n- Dec. 30, 2023: Sexually assaulted and exhibited inappropriate behavior toward a fellow passenger.\\n- Dec. 18, 2023: Physically assaulted a crewmember.\\n- Dec. 1, 2023: Physically assaulted a fellow passenger.\\n- Nov. 22, 2023: Physically assaulted a fellow passenger.\\n- Nov. 9, 2023: Tried to breach the flight deck.\\n- Oct. 15, 2023: Sexually assaulted a fellow passenger, exhibited aggressive behavior.\\n- Aug. 11, 2023: Sexually assaulted a fellow passenger.\\n- Aug. 2, 2023: Assa\\u2026\\n\\n[Truncated preview: showing 356 words out of ~763. Full content available via `btf_extract_evidence`.]\", \"word_count\": 763, \"snippet_word_count\": 356, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T08:36:23.008197\", \"date_cutoff_end\": \"2025-03-20T08:36:23.008197\", \"cached_at\": \"2025-10-24T04:42:08.894306\"}",
+      "tool_call_id": "call_oC5cNg774COeb0crL2hb1aj3"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+        "snippet": "---\ntitle: Air Rage Still an Issue for Airlines - WorkersCompensation.com\nauthor: Liz Carey\nurl: https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\nhostname: workerscompensation.com\ndescription: Newark, NJ (WorkersCompensation.com) – Unruly passengers are still a danger for flight crews and passengers on air flights across the country. The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay | WorkersCompensation.com\nsitename: WorkersCompensation.com - Let's Simplify the Work of Workers' Compensation\ndate: 2025-03-09\ncategories: [\"Workers' Compensation Daily Headlines, air rage, aviation, Safety, worker safety\"]\n---\nShare This Article:\n\nNewark, NJ (WorkersCompensation.com) – Unruly passengers are still a danger for flight crews and passengers on air flights across the country.\n\nThe Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay high.\n\n“Incidents where airline passengers have disrupted flights with threatening or violent behavior are an ongoing problem and airlines have seen rapid growth in occurrences since 2021. The FAA has a zero-tolerance policy on unruly passenger behavior,” the FAA said.\n\nSo far this year, the FAA has recorded nearly 240 incidents. Last year, the FAA reported a total of 2,102, up from 2,072 incidents in 2022. In comparison, in 2017 the FAA only reported 544 unruly passenger incidents. There were only 889 incidents in 2018, 1,161 in 2019 and 1,009 in 2020.\n\nEarlier this month, a Florida couple was accused of assaulting airport employees who would not let them board a flight after they arrived late.\n\nThe Miami-Dade Sheriff Office said Rafael Seirafe-Novaes, 40 and Beatriz Rapoport De Campos Maia, 29 were arrested on March 2 for the incident.\n\nSurveillance video at Miami International Airport showed the couple arriving around 8:35 a.m., late for their American Airlines flight to Cancun. The couple then tried to force their way onto the flight. Both suspects ignored signs and verbal commands from ticket agents before pushing their way through staff into the restricted area to board the flight.\n\nVideo showed Seirafe-Novaes pushing two victims and Rapoport De Campos Maia…\n\n[Truncated preview: showing 364 words out of ~965. Full content available via `btf_extract_evidence`.]",
+        "word_count": 965,
+        "snippet_word_count": 364,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T08:36:23.008197",
+        "date_cutoff_end": "2025-03-20T08:36:23.008197",
+        "cached_at": "2025-10-24T04:42:09.289349"
+      },
+      "raw": "{\"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"snippet\": \"---\\ntitle: Air Rage Still an Issue for Airlines - WorkersCompensation.com\\nauthor: Liz Carey\\nurl: https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\\nhostname: workerscompensation.com\\ndescription: Newark, NJ (WorkersCompensation.com) \\u2013 Unruly passengers are still a danger for flight crews and passengers on air flights across the country. The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay | WorkersCompensation.com\\nsitename: WorkersCompensation.com - Let's Simplify the Work of Workers' Compensation\\ndate: 2025-03-09\\ncategories: [\\\"Workers' Compensation Daily Headlines, air rage, aviation, Safety, worker safety\\\"]\\n---\\nShare This Article:\\n\\nNewark, NJ (WorkersCompensation.com) \\u2013 Unruly passengers are still a danger for flight crews and passengers on air flights across the country.\\n\\nThe Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay high.\\n\\n\\u201cIncidents where airline passengers have disrupted flights with threatening or violent behavior are an ongoing problem and airlines have seen rapid growth in occurrences since 2021. The FAA has a zero-tolerance policy on unruly passenger behavior,\\u201d the FAA said.\\n\\nSo far this year, the FAA has recorded nearly 240 incidents. Last year, the FAA reported a total of 2,102, up from 2,072 incidents in 2022. In comparison, in 2017 the FAA only reported 544 unruly passenger incidents. There were only 889 incidents in 2018, 1,161 in 2019 and 1,009 in 2020.\\n\\nEarlier this month, a Florida couple was accused of assaulting airport employees who would not let them board a flight after they arrived late.\\n\\nThe Miami-Dade Sheriff Office said Rafael Seirafe-Novaes, 40 and Beatriz Rapoport De Campos Maia, 29 were arrested on March 2 for the incident.\\n\\nSurveillance video at Miami International Airport showed the couple arriving around 8:35 a.m., late for their American Airlines flight to Cancun. The couple then tried to force their way onto the flight. Both suspects ignored signs and verbal commands from ticket agents before pushing their way through staff into the restricted area to board the flight.\\n\\nVideo showed Seirafe-Novaes pushing two victims and Rapoport De Campos Maia\\u2026\\n\\n[Truncated preview: showing 364 words out of ~965. Full content available via `btf_extract_evidence`.]\", \"word_count\": 965, \"snippet_word_count\": 364, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T08:36:23.008197\", \"date_cutoff_end\": \"2025-03-20T08:36:23.008197\", \"cached_at\": \"2025-10-24T04:42:09.289349\"}",
+      "tool_call_id": "call_iA0KHE4m86N0gKTqxgYQPxy8"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+        "snippet": "---\ntitle: Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine\nauthor: Frederick Reitz\nurl: https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\nhostname: tsi-mag.com\ndescription: An “unruly passenger” is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and\nsitename: Transport Security International Magazine\ndate: 2025-02-06\ncategories: ['Aviation']\ntags: ['Featured Stories']\n---\nAn “unruly passenger” is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and well-being of passengers and crew. This behavior can manifest in various ways, including physical violence, verbal threats, refusal to comply with safety protocols, tampering with aircraft systems, or harassment of crew and fellow passengers. Unruly behavior is not limited to overt aggression; it also encompasses less obvious actions such as repeated refusal to wear a seatbelt or use of prohibited devices that interfere with flight operations.\n\nAccording to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years, with some incidents escalating to severe threats or physical altercations. This trend has been exacerbated by the post-pandemic travel surge, where heightened anxiety, altered social norms, and pent-up frustrations contribute to a volatile environment. Airlines have also observed spikes in incidents on longer-haul flights and during peak travel seasons.\n\nIn two separate recent incidents, passengers managed to bypass TSA security protocols and board an aircraft without presenting any form of identification or a boarding pass. These alarming breaches were only discovered due to the passengers’ unusual behavior, which drew the attention of flight attendants. While neither passenger exhibited disruptive conduct or carried prohibited items — having passed through TSA metal detectors — the incidents have prompted serious reviews by both TSA and the airline involved.\n\n\nInvestigations revealed security footage highlighting how easily the individuals circumvented standard procedures, underscoring vulnerabilities in the current system. This repeated lapse has raised concerns about the…\n\n[Truncated preview: showing 333 words out of ~1284. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1284,
+        "snippet_word_count": 333,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T08:36:23.008197",
+        "date_cutoff_end": "2025-03-20T08:36:23.008197",
+        "cached_at": "2025-10-24T04:42:09.723203"
+      },
+      "raw": "{\"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"snippet\": \"---\\ntitle: Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine\\nauthor: Frederick Reitz\\nurl: https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\\nhostname: tsi-mag.com\\ndescription: An \\u201cunruly passenger\\u201d is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and\\nsitename: Transport Security International Magazine\\ndate: 2025-02-06\\ncategories: ['Aviation']\\ntags: ['Featured Stories']\\n---\\nAn \\u201cunruly passenger\\u201d is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and well-being of passengers and crew. This behavior can manifest in various ways, including physical violence, verbal threats, refusal to comply with safety protocols, tampering with aircraft systems, or harassment of crew and fellow passengers. Unruly behavior is not limited to overt aggression; it also encompasses less obvious actions such as repeated refusal to wear a seatbelt or use of prohibited devices that interfere with flight operations.\\n\\nAccording to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years, with some incidents escalating to severe threats or physical altercations. This trend has been exacerbated by the post-pandemic travel surge, where heightened anxiety, altered social norms, and pent-up frustrations contribute to a volatile environment. Airlines have also observed spikes in incidents on longer-haul flights and during peak travel seasons.\\n\\nIn two separate recent incidents, passengers managed to bypass TSA security protocols and board an aircraft without presenting any form of identification or a boarding pass. These alarming breaches were only discovered due to the passengers\\u2019 unusual behavior, which drew the attention of flight attendants. While neither passenger exhibited disruptive conduct or carried prohibited items \\u2014 having passed through TSA metal detectors \\u2014 the incidents have prompted serious reviews by both TSA and the airline involved.\\n\\n\\nInvestigations revealed security footage highlighting how easily the individuals circumvented standard procedures, underscoring vulnerabilities in the current system. This repeated lapse has raised concerns about the\\u2026\\n\\n[Truncated preview: showing 333 words out of ~1284. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1284, \"snippet_word_count\": 333, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T08:36:23.008197\", \"date_cutoff_end\": \"2025-03-20T08:36:23.008197\", \"cached_at\": \"2025-10-24T04:42:09.723203\"}",
+      "tool_call_id": "call_7ZepBe8sbLoU5vvGJbVylUx7"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "5868f691-a20c-5629-9540-67c9f7202b5f",
+        "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+        "facts": [
+          {
+            "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "fact": "The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021."
+          },
+          {
+            "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "fact": "Airlines have reported more than 1,240 unruly passenger cases in 2024."
+          },
+          {
+            "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "fact": "The FAA has referred more than 310 of the most serious unruly passenger cases to the FBI since late 2021."
+          },
+          {
+            "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "fact": "The FAA can propose civil penalties up to $37,000 per violation for unruly passenger behavior."
+          },
+          {
+            "title": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "url": "https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0",
+            "fact": "The FAA has a zero-tolerance policy for unruly behavior, which threatens the safety of everyone on board."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"facts\": [{\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"Airlines have reported more than 1,240 unruly passenger cases in 2024.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The FAA has referred more than 310 of the most serious unruly passenger cases to the FBI since late 2021.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The FAA can propose civil penalties up to $37,000 per violation for unruly passenger behavior.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The FAA has a zero-tolerance policy for unruly behavior, which threatens the safety of everyone on board.\"}]}",
+      "tool_call_id": "call_5DKUq49urPFb8c8OnyXFXtTC"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "5868f691-a20c-5629-9540-67c9f7202b5f",
+        "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+        "facts": [
+          {
+            "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "fact": "The FAA has reported nearly 240 incidents of unruly passengers so far in 2025."
+          },
+          {
+            "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "fact": "In 2024, the FAA reported a total of 2,102 unruly passenger incidents."
+          },
+          {
+            "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "fact": "In 2023, the FAA reported 2,072 incidents of unruly passengers."
+          },
+          {
+            "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "fact": "The number of unruly passenger incidents reached nearly 6,000 in 2021 and has remained high since then."
+          },
+          {
+            "title": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "url": "https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/",
+            "fact": "The FAA maintains a zero-tolerance policy on unruly passenger behavior."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"facts\": [{\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"The FAA has reported nearly 240 incidents of unruly passengers so far in 2025.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"In 2024, the FAA reported a total of 2,102 unruly passenger incidents.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"In 2023, the FAA reported 2,072 incidents of unruly passengers.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"The number of unruly passenger incidents reached nearly 6,000 in 2021 and has remained high since then.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"The FAA maintains a zero-tolerance policy on unruly passenger behavior.\"}]}",
+      "tool_call_id": "call_XeQLm2cjq1yYXQPNesTgu36S"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "5868f691-a20c-5629-9540-67c9f7202b5f",
+        "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+        "facts": [
+          {
+            "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "fact": "Unruly passenger incidents have been steadily increasing, with the International Air Transport Association (IATA) reporting over 10,000 cases annually in recent years."
+          },
+          {
+            "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "fact": "The post-pandemic travel surge has exacerbated the trend of unruly passenger incidents due to heightened anxiety and altered social norms."
+          },
+          {
+            "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "fact": "Airlines have observed spikes in unruly passenger incidents on longer-haul flights and during peak travel seasons."
+          },
+          {
+            "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "fact": "Recent security breaches, where passengers bypassed TSA protocols, highlight vulnerabilities that could contribute to unruly behavior if not addressed."
+          },
+          {
+            "title": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "url": "https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/",
+            "fact": "The International Civil Aviation Organization (ICAO) and regional bodies like the FAA enforce mandatory reporting of unruly passenger incidents, which may affect the number of reported cases."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"facts\": [{\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"Unruly passenger incidents have been steadily increasing, with the International Air Transport Association (IATA) reporting over 10,000 cases annually in recent years.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"The post-pandemic travel surge has exacerbated the trend of unruly passenger incidents due to heightened anxiety and altered social norms.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"Airlines have observed spikes in unruly passenger incidents on longer-haul flights and during peak travel seasons.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"Recent security breaches, where passengers bypassed TSA protocols, highlight vulnerabilities that could contribute to unruly behavior if not addressed.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"The International Civil Aviation Organization (ICAO) and regional bodies like the FAA enforce mandatory reporting of unruly passenger incidents, which may affect the number of reported cases.\"}]}",
+      "tool_call_id": "call_rOKllQqagjd92dK9F0X5syac"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the FAA report between 1.7 and 2.0 (inclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?\nBackground: Simple Flying: [2024 Saw A Rise In Unruly Passenger Incidents](https://simpleflying.com/2024-unruly-passengers-rise/)\nResolution criteria: This question resolves as YES if the number of Reported Incidents of unruly passengers per 10,000 flights for the week ending March 23, 2025 reported by the Federal Aviation Administration at [this link](https://www.faa.gov/unruly) is between 1.7 and 2.0 (inclusive), and NO otherwise.\nFine print: If FAA changes its ending weeks then question resolves for week ending closest to the date mentioned.\npresent_date: 2025-03-19T08:36:23.008197\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_856WlefQMqKpwniUL3SlgKv0",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question_id\":\"\",\"question\":\"Will the FAA report between 1.7 and 2.0 (inclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?\",\"background\":\"Simple Flying: [2024 Saw A Rise In Unruly Passenger Incidents](https://simpleflying.com/2024-unruly-passengers-rise/)\",\"resolution_criteria\":\"This question resolves as YES if the number of Reported Incidents of unruly passengers per 10,000 flights for the week ending March 23, 2025 reported by the Federal Aviation Administration at [this link](https://www.faa.gov/unruly) is between 1.7 and 2.0 (inclusive), and NO otherwise.\",\"fine_print\":\"If FAA changes its ending weeks then question resolves for week ending closest to the date mentioned.\",\"present_date\":\"2025-03-19T08:36:23.008197\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"queries\": [\"FAA unruly passenger incidents March 2025\", \"unruly passenger incidents trend 2025\", \"FAA press release unruly passengers March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_856WlefQMqKpwniUL3SlgKv0"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_q7Xbzl5wKALLUi6rO2FUIJ30",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"FAA unruly passenger incidents March 2025\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_aZis8JqcdE8o66wigs6m1F2B",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"unruly passenger incidents trend 2025\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_H6KOZf8oYuk6BuyiPhJG9t6b",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"FAA press release unruly passengers March 2025\", \"date_cutoff_end\": \"2025-03-19\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"FAA unruly passenger incidents March 2025\", \"results\": [{\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 1, \"snippet\": \"The FAA has referred 43 more unruly passenger cases to the FBI for criminal prosecution review. Incidents include attempts to breach the flight deck and assaults on crewmembers and passengers throughout 2023 and 2024...\", \"date\": null}, {\"title\": \"FAA General Statements | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/statements/general-statements\", \"position\": 4, \"snippet\": \"The FAA is requiring SpaceX to perform a mishap investigation into the loss of the Starship vehicle during launch operations on March 6. During the event, the FAA activated a Debris Response Area and briefly slowed aircraft...\", \"date\": null}, {\"title\": \"FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi\", \"position\": 3, \"snippet\": \"Information about FAA unruly passenger incidents in March 2025 is not available in the provided text.\", \"date\": null}, {\"title\": \"Air Rage Still an Issue for Airlines - WorkersCompensation.com\", \"link\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"position\": 1, \"snippet\": \"The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. So far this year, the FAA has recorded nearly 240 incidents, with a Florida couple arrested on March 2 for assaulting airport employees.\", \"date\": \"2025-03-09T23:56:58Z\"}, {\"title\": \"FAA: unruly passenger incidents down 80% since 2021\", \"link\": \"https://aerospaceglobalnews.com/news/fight-or-flight-unruly-passenger-incidents-down-80-since-2021/\", \"position\": 3, \"snippet\": \"Incidents of unruly passenger behaviour onboard aircraft are down by over 80% since \\u201crecord highs\\u201d in early 2021, the Federal Aviation Authority (FAA) has revealed...\", \"date\": \"2024-08-22T11:32:40Z\"}, {\"title\": \"FAA refers 43 reports of abusive, unruly plane passengers to FBI - Los Angeles Times\", \"link\": \"https://www.latimes.com/california/story/2024-08-30/faa-refers-43-reports-abusive-unruly-plane-passengers-to-fbi\", \"position\": 4, \"snippet\": \"The FAA has referred 43 cases of unruly passengers to the FBI during the past year, bringing the total to more than 310 since late 2021. Many cases involved assault...\", \"date\": \"2024-08-30T10:00:25.029000Z\"}, {\"title\": \"FAA Refers More Unruly Passenger Cases to FBI in 2023 | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-2023\", \"position\": 5, \"snippet\": \"March 2023: Tried to open aircraft door and use a makeshift weapon to assault a flight attendant. The FAA has referred more than 250 of the most serious cases to the FBI since late 2021...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_q7Xbzl5wKALLUi6rO2FUIJ30"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"unruly passenger incidents trend 2025\", \"results\": [{\"title\": \"Unruly Passengers | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/unruly\", \"position\": 2, \"snippet\": \"The rate of unruly passenger incidents steadily dropped by over 80 percent since record highs in early 2021, but recent increases show there remains more work to do...\", \"date\": null}, {\"title\": \"Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine\", \"link\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"position\": 3, \"snippet\": \"According to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years...\", \"date\": \"2025-02-06T07:05:38Z\"}, {\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 4, \"snippet\": \"The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur.\", \"date\": null}, {\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 3, \"snippet\": \"The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021 but unacceptable behavior continues to occur.\", \"date\": null}, {\"title\": \"2024 Saw A Rise In Unruly Passenger Incidents\", \"link\": \"https://simpleflying.com/2024-unruly-passengers-rise/\", \"position\": 4, \"snippet\": \"2024 was a difficult year for airlines, as they faced well over 1,000 unruly passenger incidents. This number is up 1% from 2023, where 2,076 were reported...\", \"date\": \"2025-02-09T09:31:14Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_aZis8JqcdE8o66wigs6m1F2B"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"FAA press release unruly passengers March 2025\", \"results\": [{\"title\": \"FAA Refers More Unruly Passenger Cases to the FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"position\": 1, \"snippet\": \"The FAA pursues legal enforcement action against any passenger who assaults, threatens, intimidates, or interferes with airline crewmembers, and can propose civil penalties up to $37,000 per violation.\", \"date\": null}, {\"title\": \"FAA General Statements | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/statements/general-statements\", \"position\": 4, \"snippet\": \"No information found regarding FAA press releases on unruly passengers in March 2025.\", \"date\": null}, {\"title\": \"FAA Refers More Unruly Passenger Cases to FBI | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi\", \"position\": 1, \"snippet\": \"Information regarding FAA press releases on unruly passengers for March 2025 is not available in the provided text.\", \"date\": null}, {\"title\": \"Unruly Passengers | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/unruly\", \"position\": 2, \"snippet\": \"The FAA investigates unruly passenger incidents, and while the rate has dropped significantly, there remains more work to do to address disruptive behavior on flights...\", \"date\": null}, {\"title\": \"FAA Fines Against Unruly Passengers Reach $1M | Federal Aviation Administration\", \"link\": \"https://www.faa.gov/newsroom/faa-fines-against-unruly-passengers-reach-1m\", \"position\": 3, \"snippet\": \"No relevant information found for FAA press release on unruly passengers in March 2025.\", \"date\": null}, {\"title\": \"Air Rage Still an Issue for Airlines - WorkersCompensation.com\", \"link\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"position\": 5, \"snippet\": \"The FAA has reported hundreds of new incidents of unruly passengers. The FAA has a zero-tolerance policy on unruly passenger behavior, with hundreds of new incidents reported.\", \"date\": \"2025-03-09T23:56:58Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_H6KOZf8oYuk6BuyiPhJG9t6b"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_oC5cNg774COeb0crL2hb1aj3",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"date_cutoff_end\": \"2025-03-19\"}"
+          }
+        },
+        {
+          "id": "call_iA0KHE4m86N0gKTqxgYQPxy8",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"date_cutoff_end\": \"2025-03-19\"}"
+          }
+        },
+        {
+          "id": "call_7ZepBe8sbLoU5vvGJbVylUx7",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"date_cutoff_end\": \"2025-03-19\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"snippet\": \"---\\ntitle: FAA Refers More Unruly Passenger Cases to the FBI\\nurl: https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\\nhostname: faa.gov\\ndescription: WASHINGTON \\u2014 The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\\nsitename: USDOT\\ndate: 2023-04-20\\n---\\n# FAA Refers More Unruly Passenger Cases to the FBI\\n\\n**WASHINGTON** \\u2014 The Federal Aviation Administration referred 43 more unruly passenger cases to the Federal Bureau of Investigation for criminal prosecution review during the past year.\\n\\nThe FAA has now referred more than 310 of the most serious cases to the FBI since late 2021 [under a partnership](https://www.faa.gov/newsroom/fbi-faa-joint-statement-unruly-passengers) aimed at ensuring unruly airline passengers face criminal prosecution when warranted. When the FAA refers incidents to the FBI, the FBI works closely with law enforcement partners and appropriate agencies to conduct an investigation if applicable.\\n\\n\\u201cDangerous passengers put everyone at risk\\u2014and the Biden-Harris Administration has been clear that those who disrupt flights will be held accountable,\\u201d said **U.S. Transportation Secretary Pete Buttigieg**. \\u201cUnruly travelers face stiff fines from the FAA and possible criminal prosecution too.\\u201d\\n\\n\\u201cThere\\u2019s absolutely no excuse for unruly behavior,\\u201d said **FAA Administrator Mike Whitaker**. \\u201cIt threatens the safety of everyone on board and we have zero tolerance for it.\\u201d\\n\\nThe new referrals include the following incidents:\\n\\n- March 3, 2024: Tried to breach the flight deck.\\n- Feb. 18, 2024: Physically assaulted and was verbally aggressive toward a fellow passenger and crewmember.\\n- Feb. 13, 2024: Exhibited sexually inappropriate behavior toward a crewmember.\\n- Jan. 31, 2024: Physically assaulted a crewmember and exhibited disruptive behavior.\\n- Jan. 13, 2024: Exhibited disruptive behavior.\\n- Jan. 1, 2024: Physically assaulted his travel companion.\\n- Dec. 30, 2023: Sexually assaulted and exhibited inappropriate behavior toward a fellow passenger.\\n- Dec. 18, 2023: Physically assaulted a crewmember.\\n- Dec. 1, 2023: Physically assaulted a fellow passenger.\\n- Nov. 22, 2023: Physically assaulted a fellow passenger.\\n- Nov. 9, 2023: Tried to breach the flight deck.\\n- Oct. 15, 2023: Sexually assaulted a fellow passenger, exhibited aggressive behavior.\\n- Aug. 11, 2023: Sexually assaulted a fellow passenger.\\n- Aug. 2, 2023: Assa\\u2026\\n\\n[Truncated preview: showing 356 words out of ~763. Full content available via `btf_extract_evidence`.]\", \"word_count\": 763, \"snippet_word_count\": 356, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T08:36:23.008197\", \"date_cutoff_end\": \"2025-03-20T08:36:23.008197\", \"cached_at\": \"2025-10-24T04:42:08.894306\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_oC5cNg774COeb0crL2hb1aj3"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"snippet\": \"---\\ntitle: Air Rage Still an Issue for Airlines - WorkersCompensation.com\\nauthor: Liz Carey\\nurl: https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\\nhostname: workerscompensation.com\\ndescription: Newark, NJ (WorkersCompensation.com) \\u2013 Unruly passengers are still a danger for flight crews and passengers on air flights across the country. The Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay | WorkersCompensation.com\\nsitename: WorkersCompensation.com - Let's Simplify the Work of Workers' Compensation\\ndate: 2025-03-09\\ncategories: [\\\"Workers' Compensation Daily Headlines, air rage, aviation, Safety, worker safety\\\"]\\n---\\nShare This Article:\\n\\nNewark, NJ (WorkersCompensation.com) \\u2013 Unruly passengers are still a danger for flight crews and passengers on air flights across the country.\\n\\nThe Federal Aviation Administration (FAA) has reported hundreds of new incidents of unruly passengers. Since reaching a high of nearly 6,000 incidents in 2021, the number of unruly passenger incidents has continued to stay high.\\n\\n\\u201cIncidents where airline passengers have disrupted flights with threatening or violent behavior are an ongoing problem and airlines have seen rapid growth in occurrences since 2021. The FAA has a zero-tolerance policy on unruly passenger behavior,\\u201d the FAA said.\\n\\nSo far this year, the FAA has recorded nearly 240 incidents. Last year, the FAA reported a total of 2,102, up from 2,072 incidents in 2022. In comparison, in 2017 the FAA only reported 544 unruly passenger incidents. There were only 889 incidents in 2018, 1,161 in 2019 and 1,009 in 2020.\\n\\nEarlier this month, a Florida couple was accused of assaulting airport employees who would not let them board a flight after they arrived late.\\n\\nThe Miami-Dade Sheriff Office said Rafael Seirafe-Novaes, 40 and Beatriz Rapoport De Campos Maia, 29 were arrested on March 2 for the incident.\\n\\nSurveillance video at Miami International Airport showed the couple arriving around 8:35 a.m., late for their American Airlines flight to Cancun. The couple then tried to force their way onto the flight. Both suspects ignored signs and verbal commands from ticket agents before pushing their way through staff into the restricted area to board the flight.\\n\\nVideo showed Seirafe-Novaes pushing two victims and Rapoport De Campos Maia\\u2026\\n\\n[Truncated preview: showing 364 words out of ~965. Full content available via `btf_extract_evidence`.]\", \"word_count\": 965, \"snippet_word_count\": 364, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T08:36:23.008197\", \"date_cutoff_end\": \"2025-03-20T08:36:23.008197\", \"cached_at\": \"2025-10-24T04:42:09.289349\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_iA0KHE4m86N0gKTqxgYQPxy8"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"snippet\": \"---\\ntitle: Unruly Passengers: The Growing Challenge for Airline Security Part one: Understanding the Problem | Transport Security International Magazine\\nauthor: Frederick Reitz\\nurl: https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\\nhostname: tsi-mag.com\\ndescription: An \\u201cunruly passenger\\u201d is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and\\nsitename: Transport Security International Magazine\\ndate: 2025-02-06\\ncategories: ['Aviation']\\ntags: ['Featured Stories']\\n---\\nAn \\u201cunruly passenger\\u201d is defined as an individual whose behavior on a flight disrupts the normal operation of the aircraft or compromises the safety and well-being of passengers and crew. This behavior can manifest in various ways, including physical violence, verbal threats, refusal to comply with safety protocols, tampering with aircraft systems, or harassment of crew and fellow passengers. Unruly behavior is not limited to overt aggression; it also encompasses less obvious actions such as repeated refusal to wear a seatbelt or use of prohibited devices that interfere with flight operations.\\n\\nAccording to global statistics, unruly passenger incidents have been steadily increasing. The International Air Transport Association (IATA) reported over 10,000 cases annually in recent years, with some incidents escalating to severe threats or physical altercations. This trend has been exacerbated by the post-pandemic travel surge, where heightened anxiety, altered social norms, and pent-up frustrations contribute to a volatile environment. Airlines have also observed spikes in incidents on longer-haul flights and during peak travel seasons.\\n\\nIn two separate recent incidents, passengers managed to bypass TSA security protocols and board an aircraft without presenting any form of identification or a boarding pass. These alarming breaches were only discovered due to the passengers\\u2019 unusual behavior, which drew the attention of flight attendants. While neither passenger exhibited disruptive conduct or carried prohibited items \\u2014 having passed through TSA metal detectors \\u2014 the incidents have prompted serious reviews by both TSA and the airline involved.\\n\\n\\nInvestigations revealed security footage highlighting how easily the individuals circumvented standard procedures, underscoring vulnerabilities in the current system. This repeated lapse has raised concerns about the\\u2026\\n\\n[Truncated preview: showing 333 words out of ~1284. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1284, \"snippet_word_count\": 333, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T08:36:23.008197\", \"date_cutoff_end\": \"2025-03-20T08:36:23.008197\", \"cached_at\": \"2025-10-24T04:42:09.723203\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_7ZepBe8sbLoU5vvGJbVylUx7"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_5DKUq49urPFb8c8OnyXFXtTC",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"question\": \"Will the FAA report between 1.7 and 2.0 (inclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?\", \"background\": \"Simple Flying: [2024 Saw A Rise In Unruly Passenger Incidents](https://simpleflying.com/2024-unruly-passengers-rise/)\", \"resolution_criteria\": \"This question resolves as YES if the number of Reported Incidents of unruly passengers per 10,000 flights for the week ending March 23, 2025 reported by the Federal Aviation Administration at [this link](https://www.faa.gov/unruly) is between 1.7 and 2.0 (inclusive), and NO otherwise.\", \"fine_print\": \"If FAA changes its ending weeks then question resolves for week ending closest to the date mentioned.\", \"present_date\": \"2025-03-19T08:36:23.008197\"}"
+          }
+        },
+        {
+          "id": "call_XeQLm2cjq1yYXQPNesTgu36S",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"question\": \"Will the FAA report between 1.7 and 2.0 (inclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?\", \"background\": \"Simple Flying: [2024 Saw A Rise In Unruly Passenger Incidents](https://simpleflying.com/2024-unruly-passengers-rise/)\", \"resolution_criteria\": \"This question resolves as YES if the number of Reported Incidents of unruly passengers per 10,000 flights for the week ending March 23, 2025 reported by the Federal Aviation Administration at [this link](https://www.faa.gov/unruly) is between 1.7 and 2.0 (inclusive), and NO otherwise.\", \"fine_print\": \"If FAA changes its ending weeks then question resolves for week ending closest to the date mentioned.\", \"present_date\": \"2025-03-19T08:36:23.008197\"}"
+          }
+        },
+        {
+          "id": "call_rOKllQqagjd92dK9F0X5syac",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"question\": \"Will the FAA report between 1.7 and 2.0 (inclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?\", \"background\": \"Simple Flying: [2024 Saw A Rise In Unruly Passenger Incidents](https://simpleflying.com/2024-unruly-passengers-rise/)\", \"resolution_criteria\": \"This question resolves as YES if the number of Reported Incidents of unruly passengers per 10,000 flights for the week ending March 23, 2025 reported by the Federal Aviation Administration at [this link](https://www.faa.gov/unruly) is between 1.7 and 2.0 (inclusive), and NO otherwise.\", \"fine_print\": \"If FAA changes its ending weeks then question resolves for week ending closest to the date mentioned.\", \"present_date\": \"2025-03-19T08:36:23.008197\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"facts\": [{\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The rate of unruly passenger incidents has dropped by over 80 percent since record-highs in early 2021.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"Airlines have reported more than 1,240 unruly passenger cases in 2024.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The FAA has referred more than 310 of the most serious unruly passenger cases to the FBI since late 2021.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The FAA can propose civil penalties up to $37,000 per violation for unruly passenger behavior.\"}, {\"title\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"url\": \"https://www.faa.gov/newsroom/faa-refers-more-unruly-passenger-cases-fbi-0\", \"fact\": \"The FAA has a zero-tolerance policy for unruly behavior, which threatens the safety of everyone on board.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_5DKUq49urPFb8c8OnyXFXtTC"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"facts\": [{\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"The FAA has reported nearly 240 incidents of unruly passengers so far in 2025.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"In 2024, the FAA reported a total of 2,102 unruly passenger incidents.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"In 2023, the FAA reported 2,072 incidents of unruly passengers.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"The number of unruly passenger incidents reached nearly 6,000 in 2021 and has remained high since then.\"}, {\"title\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"url\": \"https://www.workerscompensation.com/daily-headlines/air-rage-still-an-issue-for-airlines/\", \"fact\": \"The FAA maintains a zero-tolerance policy on unruly passenger behavior.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_XeQLm2cjq1yYXQPNesTgu36S"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"5868f691-a20c-5629-9540-67c9f7202b5f\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"facts\": [{\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"Unruly passenger incidents have been steadily increasing, with the International Air Transport Association (IATA) reporting over 10,000 cases annually in recent years.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"The post-pandemic travel surge has exacerbated the trend of unruly passenger incidents due to heightened anxiety and altered social norms.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"Airlines have observed spikes in unruly passenger incidents on longer-haul flights and during peak travel seasons.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"Recent security breaches, where passengers bypassed TSA protocols, highlight vulnerabilities that could contribute to unruly behavior if not addressed.\"}, {\"title\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"url\": \"https://tsi-mag.com/unruly-passengers-the-growing-challenge-for-airline-security-part-one-understanding-the-problem/\", \"fact\": \"The International Civil Aviation Organization (ICAO) and regional bodies like the FAA enforce mandatory reporting of unruly passenger incidents, which may affect the number of reported cases.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_rOKllQqagjd92dK9F0X5syac"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered information, here are some key points relevant to the probability estimation:\n\n1. **Historical Trends**: The FAA has reported a significant drop in unruly passenger incidents since their peak in 2021, with an 80% reduction. However, the number of incidents remains high, with 2,102 incidents reported in 2024 and nearly 240 incidents already reported in 2025 by early March.\n\n2. **Current Year Data**: As of early March 2025, the FAA has reported nearly 240 incidents. This suggests a continuing trend of high, albeit reduced, numbers of unruly passenger incidents.\n\n3. **Incidents per Flight**: To resolve the question as \"YES,\" the rate of incidents per 10,000 flights must fall between 1.7 and 2.0. Given the historical data, the number of incidents has been substantial, but the exact number of flights is crucial to determine the rate.\n\n4. **External Factors**: The post-pandemic travel surge, heightened anxiety, and altered social norms continue to contribute to the volatility in passenger behavior. This suggests that while the overall number of incidents might be controlled, spikes can occur due to these factors.\n\n5. **Regulatory and Enforcement Actions**: The FAA's zero-tolerance policy and collaboration with the FBI for serious cases indicate a strong regulatory environment, which might deter some incidents but not all.\n\nGiven these insights, the probability of the FAA reporting between 1.7 and 2.0 incidents per 10,000 flights for the week of March 23, 2025, is influenced by the continuing high number of incidents and the enforcement measures in place. However, without specific data on the number of flights, an exact probability is challenging to determine.\n\nFINAL PROBABILITY: 0.4"
+    }
+  ]
+}

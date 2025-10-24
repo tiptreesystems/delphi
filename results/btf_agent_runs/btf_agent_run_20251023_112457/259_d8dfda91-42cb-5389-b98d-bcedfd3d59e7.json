@@ -1,0 +1,633 @@
+{
+  "question_id": "d8dfda91-42cb-5389-b98d-bcedfd3d59e7",
+  "question": "Will Donald Trump's net worth, according to Forbes, be greater than or equal to $20 billion on March 31, 2025?",
+  "probability": 0.01,
+  "reasoning": "Based on the information gathered from various sources, here are the key points regarding Donald Trump's net worth as of March 2025:\n\n1. **Forbes Estimate**: As of early March 2025, Forbes estimates Donald Trump's net worth at approximately $4.5 billion. This is a decrease from $6 billion at the beginning of 2025, largely due to declines in the value of his real estate holdings and the Trump Media & Technology Group, which includes Truth Social.\n\n2. **Bloomberg Estimate**: Bloomberg estimated Trump's wealth at $7.08 billion in January 2025. However, this figure is significantly higher than the Forbes estimate and may include different valuation methods or assumptions.\n\n3. **Axios Estimate**: Axios temporarily estimated Trump's net worth to be $58 billion following the launch of his cryptocurrency, $Trump. This figure seems to be an outlier and likely reflects speculative valuations rather than tangible assets.\n\n4. **Legal Liabilities**: Trump has significant legal liabilities, including a court-ordered payment of $454 million due to accusations of inflating his net worth for business benefits.\n\n5. **Market Conditions**: The real estate market, where Trump has substantial investments, has been struggling due to high interest rates, impacting the overall valuation of his assets.\n\nGiven these facts, it seems highly unlikely that Donald Trump's net worth, as assessed by Forbes, will reach or exceed $20 billion by March 31, 2025. The current estimates are far below this threshold, and the market and legal challenges do not suggest a rapid enough increase to reach $20 billion within the next week.\n\nFINAL PROBABILITY: 0.01",
+  "search_results": [
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "content": "Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company."
+    },
+    {
+      "title": "Donald Trump",
+      "url": "https://www.forbes.com/profile/donald-trump/",
+      "content": "Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint—it's not Donald Trump."
+    },
+    {
+      "title": "What is Donald Trump's net worth? | The Week",
+      "url": "https://theweek.com/politics/donald-trump-net-worth",
+      "content": "According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024."
+    },
+    {
+      "title": "Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "content": "According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion..."
+    },
+    {
+      "title": "Trump's 2025 Executive Orders | Holland & Knight",
+      "url": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+      "content": "Holland & Knight is monitoring President Trump's executive orders from January 2025, including actions on energy, rescissions, free speech, regulatory freezes, hiring freezes, and price relief..."
+    },
+    {
+      "title": "Trump Tariffs: The Economic Impact of the Trump Trade War",
+      "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+      "content": "President Trump signed executive orders in February 2025 to impose 25 percent tariffs on Canada and Mexico and 10 percent on China, with further increases threatened."
+    },
+    {
+      "title": "Banks in 2025: Three Key Issues Under Trump’s Watch",
+      "url": "https://www.rmahq.org/blogs/2025/banks-in-2025-three-key-issues-under-trump-s-watch/",
+      "content": "2025 is shaping up to be a year of significant change, and the banking industry is bracing for impact. With Donald Trump returning to the White House, the Federal Reserve signaling caution on rate cuts, and trade policies about to take center stage, banks face a year of opportunity and uncertainty."
+    },
+    {
+      "title": "Tracking regulatory changes in the second Trump administration",
+      "url": "https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/",
+      "content": "This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more."
+    },
+    {
+      "title": "Stock Market Under the Trump Administration | U.S. Bank",
+      "url": "https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html",
+      "content": "The TCJA sunsets at the end of 2025. During the campaign, Trump emphasized his desire to extend the tax cut package, though legislative process complicates it."
+    },
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "content": "Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, which is $1.9 billion more than he was worth in 2016."
+    },
+    {
+      "title": "Donald Trump",
+      "url": "https://www.forbes.com/profile/donald-trump/",
+      "content": "Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint—it's not Donald Trump."
+    },
+    {
+      "title": "Wealth of Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "content": "For decades, Forbes has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025."
+    },
+    {
+      "title": "What is Donald Trump's net worth? | The Week",
+      "url": "https://theweek.com/politics/donald-trump-net-worth",
+      "content": "According to Forbes, President Trump was tied with six other people including Netflix co-founder Reed Hastings for the honor of being the 319th wealthiest person in the world in 2024."
+    },
+    {
+      "title": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "content": "---\ntitle: The Definitive Net Worth Of Donald Trump\nauthor: Dan Alexander\nurl: https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\nhostname: forbes.com\ndescription: What’s Donald Trump really worth? From Truth Social and real estate holdings to crypto, legal liabilities and cash — Forbes has the answer.\nsitename: Forbes\ndate: 2024-09-27\ncategories: ['Billionaires']\ntags: ['Definitive Net Worth,Donald Trump,Real Estate,Fortune,Rich,President,Trump,Net worth,Money,Wealth']\n---\n## W\n\n**hat’s Donald Trump really worth?**\n\nEveryone has an opinion, but *Forbes *has the answer: $5.6 billion, as of Nov. 4, one day before America heads to the polls. That’s $1.9 billion more than he was worth in 2016 and $3.1 billion more than in 2020. Rooted in real estate, the Trump fortune now depends on politics. His most valuable asset: a $3.5 billion stake in the publicly traded parent company to Truth Social, a right-wing Twitter knockoff that hemorrhages money and trades wildly. The value of that stake has fallen recently—from $6.3 billion last week, when Trump was worth an all-time high of $8.4 billion. But shares tend to surge when Trump’s campaign gets good news, meaning he could gain or lose billions on Election Day.\n\nBy Dan Alexander, Forbes Staff\n\nDan Alexander\n\n### 📱🌟\n\n## Truth Social’s Parent Company: **$3.5 billion**\n\nFORBES ESTIMATE AS OF NOVEMBER 4, 2024\n\n## Trump Media and Technology Group\n\n#### Net Value: **$3.5B**\n\nFrom a financial standpoint, Trump’s social-media venture is one of the most absurd businesses in America, generating sales of just $3.4 million in the 12 months through June and recording a net loss of $380 million. Revenues are down nearly 10 percent over the previous year, even while Trump dominates most news cycles. Yet Trump-loving traders bid up shares to head-scratching prices, boosting the value of Trump’s majority stake. If someone other than the former president were behind the company, investors would probably peg it near zero.\n\n### 🌭 🏢🗽\n\n## Trump’s Real Estate Investments **$1.1 billion**\n\nFORBES ESTIMATE AS OF AUGUST 2024\n\n## 1290 Avenue of the Americas\n\n#### Total Value: **$1.7B**\n\n#### Debt: **$950M**\n\n#### Net value: **$208M**\n\n#### What Trump owns: **30% stake in office and retail**\n\nThe former president has a stake in the Manhattan skyscraper that is five blocks south and one block west of Trump Tower, but he has no control over the building. It is overseen by Steven Roth, CEO of Vornado Realty…\n\n[Truncated preview: showing 385 words out of ~1964. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "content": "---\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\nauthor: Suzanne Blake\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\nhostname: newsweek.com\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\nsitename: Newsweek\ndate: 2025-03-11\ncategories: ['Politics']\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\n---\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\n\n## Why It Matters\n\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\n\n## What To Know\n\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\n\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\n\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\n\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\n\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\n\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\n\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\n\n## What People Are Saying\n\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \"The decline in Trump's net wor…\n\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "content": "---\ntitle: Wealth of Donald Trump - Wikipedia\nurl: https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\nhostname: wikipedia.org\nsitename: Wikimedia Foundation, Inc.\ndate: 2018-12-19\n---\n# Wealth of Donald Trump\n\n\n| ||\n|---|---|---|\n|\nBusiness and personal 45th and 47th President of the United States IncumbentTenure\nImpeachments Civil and criminal prosecutions |\n||\n\nThe [net worth](https://en.wikipedia.org/wiki/Net_worth) of American politician and businessman [Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump), who served as [45th and current 47th](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States) [president](https://en.wikipedia.org/wiki/President_of_the_United_States) of the [United States](https://en.wikipedia.org/wiki/United_States), is not publicly known. For decades, * Forbes* has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.\n\n\n[[2]](https://en.wikipedia.org#cite_note-2)Meanwhile,\n\n[[3]](https://en.wikipedia.org#cite_note-:9-3)[Bloomberg](https://en.wikipedia.org/wiki/Bloomberg_L.P.)estimated his wealth at $7.08 billion in January 2025,\n\nalthough Trump himself claims a much higher net worth. However, after the launch of\n\n[[4]](https://en.wikipedia.org#cite_note-bloomberg-4)[$Trump](https://en.wikipedia.org/wiki/$Trump), Trump's own\n\n[cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency),\n\n[Axios](https://en.wikipedia.org/wiki/Axios_(website))temporarily estimated his net worth to be $58 billion.\n\nHe received gifts, loans, and inheritance from his father, who was a real-estate developer and businessman. Donald Trump's primary business has been real estate ventures, including hotels, casinos, and golf courses. He also made money from Trump-branded products including\n\n[[5]](https://en.wikipedia.org#cite_note-5)[neckties](https://en.wikipedia.org/wiki/Necktie),\n\n[steaks](https://en.wikipedia.org/wiki/Trump_Steaks), and\n\n[urine tests](https://en.wikipedia.org/wiki/Urine_test).\n\nMoney received through political fundraisers is used to pay for guest stays at properties owned by\n\n[[6]](https://en.wikipedia.org#cite_note-6)[The Trump Organization](https://en.wikipedia.org/wiki/The_Trump_Organization)and to pay his and his allies' lawyers.\n\n\n[[7]](https://en.wikipedia.org#cite_note-:3-7)\n\n[[8]](https://en.wikipedia.org#cite_note-:4-8)\n\n[[9]](https://en.wikipedia.org#cite_note-:5-9)\n\n[[10]](https://en.wikipedia.org#cite_note-:6-10)## Gifts, loans, and other wealth from his father\n\nDrawing…\n\n[Truncated preview: showing 211 words out of ~9469. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "fact": "As of November 2024, Donald Trump's net worth is estimated at $5.6 billion."
+    },
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "fact": "Trump's most valuable asset is a $3.5 billion stake in the parent company of Truth Social, which has recently decreased in value."
+    },
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "fact": "Trump's real estate investments are valued at $1.1 billion as of August 2024."
+    },
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "fact": "Trump's golf clubs and resorts are valued at $1 billion as of August 2024."
+    },
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "fact": "Trump faces legal liabilities totaling $570 million as of August 2024."
+    },
+    {
+      "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion, down from $6 billion on January 1, 2025."
+    },
+    {
+      "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "Trump's net worth has been negatively impacted by the struggling real estate market due to high interest rates in the United States."
+    },
+    {
+      "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "Trump Media & Technology Group, which includes Truth Social, has seen a significant decline in value, with a 22.3 percent drop in a single day last year."
+    },
+    {
+      "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "A judge ordered Trump to pay $454 million due to legal issues related to accusations of inflating his net worth for business benefits."
+    },
+    {
+      "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "Experts suggest that Trump's net worth decline is partly due to market conditions and legal challenges, with some assets being illiquid and difficult to value accurately."
+    },
+    {
+      "title": "Wealth of Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "fact": "As of early March 2025, Forbes estimates Donald Trump's net worth at $4.6 billion."
+    },
+    {
+      "title": "Wealth of Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "fact": "Bloomberg estimated Trump's wealth at $7.08 billion in January 2025."
+    },
+    {
+      "title": "Wealth of Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "fact": "Axios temporarily estimated Trump's net worth to be $58 billion after the launch of his cryptocurrency, $Trump."
+    },
+    {
+      "title": "Wealth of Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "fact": "Trump was found liable for $355 million in disgorgement and roughly $100 million in interest in a 2024 court decision, with the total owed increasing to over $500 million by the end of 2024."
+    },
+    {
+      "title": "Wealth of Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+      "fact": "In March 2024, Trump's net worth increased by over $4 billion when Trump Media & Technology Group became a public company, but the value of the company decreased significantly by August 2024."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.430827083453526,
+  "brier_score": 0.0001,
+  "weighted_brier_score": 4.30827083453526e-05,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "d8dfda91-42cb-5389-b98d-bcedfd3d59e7",
+        "queries": [
+          "Donald Trump net worth Forbes March 2025",
+          "Donald Trump recent financial developments 2025",
+          "Forbes analysis Donald Trump net worth 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"queries\": [\"Donald Trump net worth Forbes March 2025\", \"Donald Trump recent financial developments 2025\", \"Forbes analysis Donald Trump net worth 2025\"]}",
+      "tool_call_id": "call_SREdZzu7T9ukCPaLXeKWDe6R"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Donald Trump net worth Forbes March 2025",
+        "results": [
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "link": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "position": 1,
+            "snippet": "Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company.",
+            "date": null
+          },
+          {
+            "title": "Donald Trump",
+            "link": "https://www.forbes.com/profile/donald-trump/",
+            "position": 2,
+            "snippet": "Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint—it's not Donald Trump.",
+            "date": null
+          },
+          {
+            "title": "What is Donald Trump's net worth? | The Week",
+            "link": "https://theweek.com/politics/donald-trump-net-worth",
+            "position": 4,
+            "snippet": "According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024.",
+            "date": null
+          },
+          {
+            "title": "Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek",
+            "link": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "position": 4,
+            "snippet": "According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Donald Trump net worth Forbes March 2025\", \"results\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"link\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"position\": 1, \"snippet\": \"Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company.\", \"date\": null}, {\"title\": \"Donald Trump\", \"link\": \"https://www.forbes.com/profile/donald-trump/\", \"position\": 2, \"snippet\": \"Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint\\u2014it's not Donald Trump.\", \"date\": null}, {\"title\": \"What is Donald Trump's net worth? | The Week\", \"link\": \"https://theweek.com/politics/donald-trump-net-worth\", \"position\": 4, \"snippet\": \"According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024.\", \"date\": null}, {\"title\": \"Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek\", \"link\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"position\": 4, \"snippet\": \"According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion...\", \"date\": null}]}",
+      "tool_call_id": "call_KQ2E6nrT03HrzJ3fvnQZExGP"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Donald Trump recent financial developments 2025",
+        "results": [
+          {
+            "title": "Trump's 2025 Executive Orders | Holland & Knight",
+            "link": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+            "position": 2,
+            "snippet": "Holland & Knight is monitoring President Trump's executive orders from January 2025, including actions on energy, rescissions, free speech, regulatory freezes, hiring freezes, and price relief...",
+            "date": null
+          },
+          {
+            "title": "Trump Tariffs: The Economic Impact of the Trump Trade War",
+            "link": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+            "position": 4,
+            "snippet": "President Trump signed executive orders in February 2025 to impose 25 percent tariffs on Canada and Mexico and 10 percent on China, with further increases threatened.",
+            "date": null
+          },
+          {
+            "title": "Banks in 2025: Three Key Issues Under Trump’s Watch",
+            "link": "https://www.rmahq.org/blogs/2025/banks-in-2025-three-key-issues-under-trump-s-watch/",
+            "position": 1,
+            "snippet": "2025 is shaping up to be a year of significant change, and the banking industry is bracing for impact. With Donald Trump returning to the White House, the Federal Reserve signaling caution on rate cuts, and trade policies about to take center stage, banks face a year of opportunity and uncertainty.",
+            "date": null
+          },
+          {
+            "title": "Tracking regulatory changes in the second Trump administration",
+            "link": "https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/",
+            "position": 3,
+            "snippet": "This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more.",
+            "date": null
+          },
+          {
+            "title": "Stock Market Under the Trump Administration | U.S. Bank",
+            "link": "https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html",
+            "position": 5,
+            "snippet": "The TCJA sunsets at the end of 2025. During the campaign, Trump emphasized his desire to extend the tax cut package, though legislative process complicates it.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Donald Trump recent financial developments 2025\", \"results\": [{\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 2, \"snippet\": \"Holland & Knight is monitoring President Trump's executive orders from January 2025, including actions on energy, rescissions, free speech, regulatory freezes, hiring freezes, and price relief...\", \"date\": null}, {\"title\": \"Trump Tariffs: The Economic Impact of the Trump Trade War\", \"link\": \"https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/\", \"position\": 4, \"snippet\": \"President Trump signed executive orders in February 2025 to impose 25 percent tariffs on Canada and Mexico and 10 percent on China, with further increases threatened.\", \"date\": null}, {\"title\": \"Banks in 2025: Three Key Issues Under Trump\\u2019s Watch\", \"link\": \"https://www.rmahq.org/blogs/2025/banks-in-2025-three-key-issues-under-trump-s-watch/\", \"position\": 1, \"snippet\": \"2025 is shaping up to be a year of significant change, and the banking industry is bracing for impact. With Donald Trump returning to the White House, the Federal Reserve signaling caution on rate cuts, and trade policies about to take center stage, banks face a year of opportunity and uncertainty.\", \"date\": null}, {\"title\": \"Tracking regulatory changes in the second Trump administration\", \"link\": \"https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/\", \"position\": 3, \"snippet\": \"This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more.\", \"date\": null}, {\"title\": \"Stock Market Under the Trump Administration | U.S. Bank\", \"link\": \"https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html\", \"position\": 5, \"snippet\": \"The TCJA sunsets at the end of 2025. During the campaign, Trump emphasized his desire to extend the tax cut package, though legislative process complicates it.\", \"date\": null}]}",
+      "tool_call_id": "call_pEpqOelj6k9MQN5lfV4LTx8M"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Forbes analysis Donald Trump net worth 2025",
+        "results": [
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "link": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "position": 1,
+            "snippet": "Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, which is $1.9 billion more than he was worth in 2016.",
+            "date": null
+          },
+          {
+            "title": "Donald Trump",
+            "link": "https://www.forbes.com/profile/donald-trump/",
+            "position": 4,
+            "snippet": "Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint—it's not Donald Trump.",
+            "date": null
+          },
+          {
+            "title": "Wealth of Donald Trump - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+            "position": 3,
+            "snippet": "For decades, Forbes has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.",
+            "date": null
+          },
+          {
+            "title": "What is Donald Trump's net worth? | The Week",
+            "link": "https://theweek.com/politics/donald-trump-net-worth",
+            "position": 4,
+            "snippet": "According to Forbes, President Trump was tied with six other people including Netflix co-founder Reed Hastings for the honor of being the 319th wealthiest person in the world in 2024.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Forbes analysis Donald Trump net worth 2025\", \"results\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"link\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"position\": 1, \"snippet\": \"Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, which is $1.9 billion more than he was worth in 2016.\", \"date\": null}, {\"title\": \"Donald Trump\", \"link\": \"https://www.forbes.com/profile/donald-trump/\", \"position\": 4, \"snippet\": \"Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint\\u2014it's not Donald Trump.\", \"date\": null}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"position\": 3, \"snippet\": \"For decades, Forbes has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.\", \"date\": null}, {\"title\": \"What is Donald Trump's net worth? | The Week\", \"link\": \"https://theweek.com/politics/donald-trump-net-worth\", \"position\": 4, \"snippet\": \"According to Forbes, President Trump was tied with six other people including Netflix co-founder Reed Hastings for the honor of being the 319th wealthiest person in the world in 2024.\", \"date\": null}]}",
+      "tool_call_id": "call_WU8GRI3RNzYAG1vJJnaxaORL"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+        "snippet": "---\ntitle: The Definitive Net Worth Of Donald Trump\nauthor: Dan Alexander\nurl: https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\nhostname: forbes.com\ndescription: What’s Donald Trump really worth? From Truth Social and real estate holdings to crypto, legal liabilities and cash — Forbes has the answer.\nsitename: Forbes\ndate: 2024-09-27\ncategories: ['Billionaires']\ntags: ['Definitive Net Worth,Donald Trump,Real Estate,Fortune,Rich,President,Trump,Net worth,Money,Wealth']\n---\n## W\n\n**hat’s Donald Trump really worth?**\n\nEveryone has an opinion, but *Forbes *has the answer: $5.6 billion, as of Nov. 4, one day before America heads to the polls. That’s $1.9 billion more than he was worth in 2016 and $3.1 billion more than in 2020. Rooted in real estate, the Trump fortune now depends on politics. His most valuable asset: a $3.5 billion stake in the publicly traded parent company to Truth Social, a right-wing Twitter knockoff that hemorrhages money and trades wildly. The value of that stake has fallen recently—from $6.3 billion last week, when Trump was worth an all-time high of $8.4 billion. But shares tend to surge when Trump’s campaign gets good news, meaning he could gain or lose billions on Election Day.\n\nBy Dan Alexander, Forbes Staff\n\nDan Alexander\n\n### 📱🌟\n\n## Truth Social’s Parent Company: **$3.5 billion**\n\nFORBES ESTIMATE AS OF NOVEMBER 4, 2024\n\n## Trump Media and Technology Group\n\n#### Net Value: **$3.5B**\n\nFrom a financial standpoint, Trump’s social-media venture is one of the most absurd businesses in America, generating sales of just $3.4 million in the 12 months through June and recording a net loss of $380 million. Revenues are down nearly 10 percent over the previous year, even while Trump dominates most news cycles. Yet Trump-loving traders bid up shares to head-scratching prices, boosting the value of Trump’s majority stake. If someone other than the former president were behind the company, investors would probably peg it near zero.\n\n### 🌭 🏢🗽\n\n## Trump’s Real Estate Investments **$1.1 billion**\n\nFORBES ESTIMATE AS OF AUGUST 2024\n\n## 1290 Avenue of the Americas\n\n#### Total Value: **$1.7B**\n\n#### Debt: **$950M**\n\n#### Net value: **$208M**\n\n#### What Trump owns: **30% stake in office and retail**\n\nThe former president has a stake in the Manhattan skyscraper that is five blocks south and one block west of Trump Tower, but he has no control over the building. It is overseen by Steven Roth, CEO of Vornado Realty…\n\n[Truncated preview: showing 385 words out of ~1964. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1964,
+        "snippet_word_count": 385,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T14:10:33.235909",
+        "date_cutoff_end": "2025-03-24T14:10:33.235909",
+        "cached_at": "2025-10-24T03:06:53.323304"
+      },
+      "raw": "{\"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"snippet\": \"---\\ntitle: The Definitive Net Worth Of Donald Trump\\nauthor: Dan Alexander\\nurl: https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\\nhostname: forbes.com\\ndescription: What\\u2019s Donald Trump really worth? From Truth Social and real estate holdings to crypto, legal liabilities and cash \\u2014 Forbes has the answer.\\nsitename: Forbes\\ndate: 2024-09-27\\ncategories: ['Billionaires']\\ntags: ['Definitive Net Worth,Donald Trump,Real Estate,Fortune,Rich,President,Trump,Net worth,Money,Wealth']\\n---\\n## W\\n\\n**hat\\u2019s Donald Trump really worth?**\\n\\nEveryone has an opinion, but *Forbes *has the answer: $5.6 billion, as of Nov. 4, one day before America heads to the polls. That\\u2019s $1.9 billion more than he was worth in 2016 and $3.1 billion more than in 2020. Rooted in real estate, the Trump fortune now depends on politics. His most valuable asset: a $3.5 billion stake in the publicly traded parent company to Truth Social, a right-wing Twitter knockoff that hemorrhages money and trades wildly. The value of that stake has fallen recently\\u2014from $6.3 billion last week, when Trump was worth an all-time high of $8.4 billion. But shares tend to surge when Trump\\u2019s campaign gets good news, meaning he could gain or lose billions on Election Day.\\n\\nBy Dan Alexander, Forbes Staff\\n\\nDan Alexander\\n\\n### \\ud83d\\udcf1\\ud83c\\udf1f\\n\\n## Truth Social\\u2019s Parent Company: **$3.5 billion**\\n\\nFORBES ESTIMATE AS OF NOVEMBER 4, 2024\\n\\n## Trump Media and Technology Group\\n\\n#### Net Value: **$3.5B**\\n\\nFrom a financial standpoint, Trump\\u2019s social-media venture is one of the most absurd businesses in America, generating sales of just $3.4 million in the 12 months through June and recording a net loss of $380 million. Revenues are down nearly 10 percent over the previous year, even while Trump dominates most news cycles. Yet Trump-loving traders bid up shares to head-scratching prices, boosting the value of Trump\\u2019s majority stake. If someone other than the former president were behind the company, investors would probably peg it near zero.\\n\\n### \\ud83c\\udf2d \\ud83c\\udfe2\\ud83d\\uddfd\\n\\n## Trump\\u2019s Real Estate Investments **$1.1 billion**\\n\\nFORBES ESTIMATE AS OF AUGUST 2024\\n\\n## 1290 Avenue of the Americas\\n\\n#### Total Value: **$1.7B**\\n\\n#### Debt: **$950M**\\n\\n#### Net value: **$208M**\\n\\n#### What Trump owns: **30% stake in office and retail**\\n\\nThe former president has a stake in the Manhattan skyscraper that is five blocks south and one block west of Trump Tower, but he has no control over the building. It is overseen by Steven Roth, CEO of Vornado Realty\\u2026\\n\\n[Truncated preview: showing 385 words out of ~1964. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1964, \"snippet_word_count\": 385, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T03:06:53.323304\"}",
+      "tool_call_id": "call_xfTxCkE3YTcdU5oUoVR5egcD"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+        "snippet": "---\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\nauthor: Suzanne Blake\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\nhostname: newsweek.com\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\nsitename: Newsweek\ndate: 2025-03-11\ncategories: ['Politics']\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\n---\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\n\n## Why It Matters\n\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\n\n## What To Know\n\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\n\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\n\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\n\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\n\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\n\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\n\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\n\n## What People Are Saying\n\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \"The decline in Trump's net wor…\n\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]",
+        "word_count": 773,
+        "snippet_word_count": 349,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T14:10:33.235909",
+        "date_cutoff_end": "2025-03-24T14:10:33.235909",
+        "cached_at": "2025-10-24T03:06:53.797051"
+      },
+      "raw": "{\"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"snippet\": \"---\\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\\nauthor: Suzanne Blake\\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\\nhostname: newsweek.com\\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\\nsitename: Newsweek\\ndate: 2025-03-11\\ncategories: ['Politics']\\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\\n---\\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\\n\\n## Why It Matters\\n\\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\\n\\n## What To Know\\n\\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\\n\\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\\n\\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\\n\\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\\n\\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\\n\\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\\n\\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\\n\\n## What People Are Saying\\n\\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \\\"The decline in Trump's net wor\\u2026\\n\\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]\", \"word_count\": 773, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T03:06:53.797051\"}",
+      "tool_call_id": "call_Yv5V4tvmzw0h1ZzQeEw6rIyt"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+        "snippet": "---\ntitle: Wealth of Donald Trump - Wikipedia\nurl: https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\nhostname: wikipedia.org\nsitename: Wikimedia Foundation, Inc.\ndate: 2018-12-19\n---\n# Wealth of Donald Trump\n\n\n| ||\n|---|---|---|\n|\nBusiness and personal 45th and 47th President of the United States IncumbentTenure\nImpeachments Civil and criminal prosecutions |\n||\n\nThe [net worth](https://en.wikipedia.org/wiki/Net_worth) of American politician and businessman [Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump), who served as [45th and current 47th](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States) [president](https://en.wikipedia.org/wiki/President_of_the_United_States) of the [United States](https://en.wikipedia.org/wiki/United_States), is not publicly known. For decades, * Forbes* has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.\n\n\n[[2]](https://en.wikipedia.org#cite_note-2)Meanwhile,\n\n[[3]](https://en.wikipedia.org#cite_note-:9-3)[Bloomberg](https://en.wikipedia.org/wiki/Bloomberg_L.P.)estimated his wealth at $7.08 billion in January 2025,\n\nalthough Trump himself claims a much higher net worth. However, after the launch of\n\n[[4]](https://en.wikipedia.org#cite_note-bloomberg-4)[$Trump](https://en.wikipedia.org/wiki/$Trump), Trump's own\n\n[cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency),\n\n[Axios](https://en.wikipedia.org/wiki/Axios_(website))temporarily estimated his net worth to be $58 billion.\n\nHe received gifts, loans, and inheritance from his father, who was a real-estate developer and businessman. Donald Trump's primary business has been real estate ventures, including hotels, casinos, and golf courses. He also made money from Trump-branded products including\n\n[[5]](https://en.wikipedia.org#cite_note-5)[neckties](https://en.wikipedia.org/wiki/Necktie),\n\n[steaks](https://en.wikipedia.org/wiki/Trump_Steaks), and\n\n[urine tests](https://en.wikipedia.org/wiki/Urine_test).\n\nMoney received through political fundraisers is used to pay for guest stays at properties owned by\n\n[[6]](https://en.wikipedia.org#cite_note-6)[The Trump Organization](https://en.wikipedia.org/wiki/The_Trump_Organization)and to pay his and his allies' lawyers.\n\n\n[[7]](https://en.wikipedia.org#cite_note-:3-7)\n\n[[8]](https://en.wikipedia.org#cite_note-:4-8)\n\n[[9]](https://en.wikipedia.org#cite_note-:5-9)\n\n[[10]](https://en.wikipedia.org#cite_note-:6-10)## Gifts, loans, and other wealth from his father\n\nDrawing…\n\n[Truncated preview: showing 211 words out of ~9469. Full content available via `btf_extract_evidence`.]",
+        "word_count": 9469,
+        "snippet_word_count": 211,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T14:10:33.235909",
+        "date_cutoff_end": "2025-03-24T14:10:33.235909",
+        "cached_at": "2025-10-24T05:31:57.270473"
+      },
+      "raw": "{\"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"snippet\": \"---\\ntitle: Wealth of Donald Trump - Wikipedia\\nurl: https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\\nhostname: wikipedia.org\\nsitename: Wikimedia Foundation, Inc.\\ndate: 2018-12-19\\n---\\n# Wealth of Donald Trump\\n\\n\\n| ||\\n|---|---|---|\\n|\\nBusiness and personal 45th and 47th President of the United States IncumbentTenure\\nImpeachments Civil and criminal prosecutions |\\n||\\n\\nThe [net worth](https://en.wikipedia.org/wiki/Net_worth) of American politician and businessman [Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump), who served as [45th and current 47th](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States) [president](https://en.wikipedia.org/wiki/President_of_the_United_States) of the [United States](https://en.wikipedia.org/wiki/United_States), is not publicly known. For decades, * Forbes* has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.\\n\\n\\n[[2]](https://en.wikipedia.org#cite_note-2)Meanwhile,\\n\\n[[3]](https://en.wikipedia.org#cite_note-:9-3)[Bloomberg](https://en.wikipedia.org/wiki/Bloomberg_L.P.)estimated his wealth at $7.08 billion in January 2025,\\n\\nalthough Trump himself claims a much higher net worth. However, after the launch of\\n\\n[[4]](https://en.wikipedia.org#cite_note-bloomberg-4)[$Trump](https://en.wikipedia.org/wiki/$Trump), Trump's own\\n\\n[cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency),\\n\\n[Axios](https://en.wikipedia.org/wiki/Axios_(website))temporarily estimated his net worth to be $58 billion.\\n\\nHe received gifts, loans, and inheritance from his father, who was a real-estate developer and businessman. Donald Trump's primary business has been real estate ventures, including hotels, casinos, and golf courses. He also made money from Trump-branded products including\\n\\n[[5]](https://en.wikipedia.org#cite_note-5)[neckties](https://en.wikipedia.org/wiki/Necktie),\\n\\n[steaks](https://en.wikipedia.org/wiki/Trump_Steaks), and\\n\\n[urine tests](https://en.wikipedia.org/wiki/Urine_test).\\n\\nMoney received through political fundraisers is used to pay for guest stays at properties owned by\\n\\n[[6]](https://en.wikipedia.org#cite_note-6)[The Trump Organization](https://en.wikipedia.org/wiki/The_Trump_Organization)and to pay his and his allies' lawyers.\\n\\n\\n[[7]](https://en.wikipedia.org#cite_note-:3-7)\\n\\n[[8]](https://en.wikipedia.org#cite_note-:4-8)\\n\\n[[9]](https://en.wikipedia.org#cite_note-:5-9)\\n\\n[[10]](https://en.wikipedia.org#cite_note-:6-10)## Gifts, loans, and other wealth from his father\\n\\nDrawing\\u2026\\n\\n[Truncated preview: showing 211 words out of ~9469. Full content available via `btf_extract_evidence`.]\", \"word_count\": 9469, \"snippet_word_count\": 211, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T05:31:57.270473\"}",
+      "tool_call_id": "call_I0cVrqLBDVu14uRVfLgf0YxY"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "d8dfda91-42cb-5389-b98d-bcedfd3d59e7",
+        "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+        "facts": [
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "fact": "As of November 2024, Donald Trump's net worth is estimated at $5.6 billion."
+          },
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "fact": "Trump's most valuable asset is a $3.5 billion stake in the parent company of Truth Social, which has recently decreased in value."
+          },
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "fact": "Trump's real estate investments are valued at $1.1 billion as of August 2024."
+          },
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "fact": "Trump's golf clubs and resorts are valued at $1 billion as of August 2024."
+          },
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "fact": "Trump faces legal liabilities totaling $570 million as of August 2024."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"facts\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"As of November 2024, Donald Trump's net worth is estimated at $5.6 billion.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump's most valuable asset is a $3.5 billion stake in the parent company of Truth Social, which has recently decreased in value.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump's real estate investments are valued at $1.1 billion as of August 2024.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump's golf clubs and resorts are valued at $1 billion as of August 2024.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump faces legal liabilities totaling $570 million as of August 2024.\"}]}",
+      "tool_call_id": "call_p6bzw1KRdQZ30CGBhH6B9jTa"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "d8dfda91-42cb-5389-b98d-bcedfd3d59e7",
+        "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+        "facts": [
+          {
+            "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion, down from $6 billion on January 1, 2025."
+          },
+          {
+            "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "Trump's net worth has been negatively impacted by the struggling real estate market due to high interest rates in the United States."
+          },
+          {
+            "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "Trump Media & Technology Group, which includes Truth Social, has seen a significant decline in value, with a 22.3 percent drop in a single day last year."
+          },
+          {
+            "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "A judge ordered Trump to pay $454 million due to legal issues related to accusations of inflating his net worth for business benefits."
+          },
+          {
+            "title": "Donald Trump's net worth has dropped $1.5 billion in 2025",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "Experts suggest that Trump's net worth decline is partly due to market conditions and legal challenges, with some assets being illiquid and difficult to value accurately."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"facts\": [{\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion, down from $6 billion on January 1, 2025.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump's net worth has been negatively impacted by the struggling real estate market due to high interest rates in the United States.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump Media & Technology Group, which includes Truth Social, has seen a significant decline in value, with a 22.3 percent drop in a single day last year.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"A judge ordered Trump to pay $454 million due to legal issues related to accusations of inflating his net worth for business benefits.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Experts suggest that Trump's net worth decline is partly due to market conditions and legal challenges, with some assets being illiquid and difficult to value accurately.\"}]}",
+      "tool_call_id": "call_IRMAKd2nwCVXFPOhnRWI0Hcq"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "d8dfda91-42cb-5389-b98d-bcedfd3d59e7",
+        "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+        "facts": [
+          {
+            "title": "Wealth of Donald Trump - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+            "fact": "As of early March 2025, Forbes estimates Donald Trump's net worth at $4.6 billion."
+          },
+          {
+            "title": "Wealth of Donald Trump - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+            "fact": "Bloomberg estimated Trump's wealth at $7.08 billion in January 2025."
+          },
+          {
+            "title": "Wealth of Donald Trump - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+            "fact": "Axios temporarily estimated Trump's net worth to be $58 billion after the launch of his cryptocurrency, $Trump."
+          },
+          {
+            "title": "Wealth of Donald Trump - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+            "fact": "Trump was found liable for $355 million in disgorgement and roughly $100 million in interest in a 2024 court decision, with the total owed increasing to over $500 million by the end of 2024."
+          },
+          {
+            "title": "Wealth of Donald Trump - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump",
+            "fact": "In March 2024, Trump's net worth increased by over $4 billion when Trump Media & Technology Group became a public company, but the value of the company decreased significantly by August 2024."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"facts\": [{\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"As of early March 2025, Forbes estimates Donald Trump's net worth at $4.6 billion.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"Bloomberg estimated Trump's wealth at $7.08 billion in January 2025.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"Axios temporarily estimated Trump's net worth to be $58 billion after the launch of his cryptocurrency, $Trump.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"Trump was found liable for $355 million in disgorgement and roughly $100 million in interest in a 2024 court decision, with the total owed increasing to over $500 million by the end of 2024.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"In March 2024, Trump's net worth increased by over $4 billion when Trump Media & Technology Group became a public company, but the value of the company decreased significantly by August 2024.\"}]}",
+      "tool_call_id": "call_7qrd4eCQBYsehzLr02yyYDE7"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Donald Trump's net worth, according to Forbes, be greater than or equal to $20 billion on March 31, 2025?\nBackground: Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\nResolution criteria: This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is greater than or equal to $20 billion, and NO otherwise.\nFine print: \npresent_date: 2025-03-23T14:10:33.235909\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_SREdZzu7T9ukCPaLXeKWDe6R",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Donald Trump's net worth, according to Forbes, be greater than or equal to $20 billion on March 31, 2025?\",\"background\":\"Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\",\"resolution_criteria\":\"This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is greater than or equal to $20 billion, and NO otherwise.\",\"fine_print\":\"\",\"present_date\":\"2025-03-23T14:10:33.235909\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"queries\": [\"Donald Trump net worth Forbes March 2025\", \"Donald Trump recent financial developments 2025\", \"Forbes analysis Donald Trump net worth 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_SREdZzu7T9ukCPaLXeKWDe6R"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_KQ2E6nrT03HrzJ3fvnQZExGP",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Donald Trump net worth Forbes March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_pEpqOelj6k9MQN5lfV4LTx8M",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Donald Trump recent financial developments 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_WU8GRI3RNzYAG1vJJnaxaORL",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Forbes analysis Donald Trump net worth 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Donald Trump net worth Forbes March 2025\", \"results\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"link\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"position\": 1, \"snippet\": \"Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company.\", \"date\": null}, {\"title\": \"Donald Trump\", \"link\": \"https://www.forbes.com/profile/donald-trump/\", \"position\": 2, \"snippet\": \"Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint\\u2014it's not Donald Trump.\", \"date\": null}, {\"title\": \"What is Donald Trump's net worth? | The Week\", \"link\": \"https://theweek.com/politics/donald-trump-net-worth\", \"position\": 4, \"snippet\": \"According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024.\", \"date\": null}, {\"title\": \"Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek\", \"link\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"position\": 4, \"snippet\": \"According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_KQ2E6nrT03HrzJ3fvnQZExGP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Donald Trump recent financial developments 2025\", \"results\": [{\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 2, \"snippet\": \"Holland & Knight is monitoring President Trump's executive orders from January 2025, including actions on energy, rescissions, free speech, regulatory freezes, hiring freezes, and price relief...\", \"date\": null}, {\"title\": \"Trump Tariffs: The Economic Impact of the Trump Trade War\", \"link\": \"https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/\", \"position\": 4, \"snippet\": \"President Trump signed executive orders in February 2025 to impose 25 percent tariffs on Canada and Mexico and 10 percent on China, with further increases threatened.\", \"date\": null}, {\"title\": \"Banks in 2025: Three Key Issues Under Trump\\u2019s Watch\", \"link\": \"https://www.rmahq.org/blogs/2025/banks-in-2025-three-key-issues-under-trump-s-watch/\", \"position\": 1, \"snippet\": \"2025 is shaping up to be a year of significant change, and the banking industry is bracing for impact. With Donald Trump returning to the White House, the Federal Reserve signaling caution on rate cuts, and trade policies about to take center stage, banks face a year of opportunity and uncertainty.\", \"date\": null}, {\"title\": \"Tracking regulatory changes in the second Trump administration\", \"link\": \"https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/\", \"position\": 3, \"snippet\": \"This tracker helps you monitor a selection of delayed, repealed, and new rules, notable guidance and policy implementations, and important court battles covering energy, health, labor, and more.\", \"date\": null}, {\"title\": \"Stock Market Under the Trump Administration | U.S. Bank\", \"link\": \"https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html\", \"position\": 5, \"snippet\": \"The TCJA sunsets at the end of 2025. During the campaign, Trump emphasized his desire to extend the tax cut package, though legislative process complicates it.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_pEpqOelj6k9MQN5lfV4LTx8M"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Forbes analysis Donald Trump net worth 2025\", \"results\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"link\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"position\": 1, \"snippet\": \"Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, which is $1.9 billion more than he was worth in 2016.\", \"date\": null}, {\"title\": \"Donald Trump\", \"link\": \"https://www.forbes.com/profile/donald-trump/\", \"position\": 4, \"snippet\": \"Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint\\u2014it's not Donald Trump.\", \"date\": null}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"position\": 3, \"snippet\": \"For decades, Forbes has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.\", \"date\": null}, {\"title\": \"What is Donald Trump's net worth? | The Week\", \"link\": \"https://theweek.com/politics/donald-trump-net-worth\", \"position\": 4, \"snippet\": \"According to Forbes, President Trump was tied with six other people including Netflix co-founder Reed Hastings for the honor of being the 319th wealthiest person in the world in 2024.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_WU8GRI3RNzYAG1vJJnaxaORL"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_xfTxCkE3YTcdU5oUoVR5egcD",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\"}"
+          }
+        },
+        {
+          "id": "call_Yv5V4tvmzw0h1ZzQeEw6rIyt",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\"}"
+          }
+        },
+        {
+          "id": "call_I0cVrqLBDVu14uRVfLgf0YxY",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"snippet\": \"---\\ntitle: The Definitive Net Worth Of Donald Trump\\nauthor: Dan Alexander\\nurl: https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\\nhostname: forbes.com\\ndescription: What\\u2019s Donald Trump really worth? From Truth Social and real estate holdings to crypto, legal liabilities and cash \\u2014 Forbes has the answer.\\nsitename: Forbes\\ndate: 2024-09-27\\ncategories: ['Billionaires']\\ntags: ['Definitive Net Worth,Donald Trump,Real Estate,Fortune,Rich,President,Trump,Net worth,Money,Wealth']\\n---\\n## W\\n\\n**hat\\u2019s Donald Trump really worth?**\\n\\nEveryone has an opinion, but *Forbes *has the answer: $5.6 billion, as of Nov. 4, one day before America heads to the polls. That\\u2019s $1.9 billion more than he was worth in 2016 and $3.1 billion more than in 2020. Rooted in real estate, the Trump fortune now depends on politics. His most valuable asset: a $3.5 billion stake in the publicly traded parent company to Truth Social, a right-wing Twitter knockoff that hemorrhages money and trades wildly. The value of that stake has fallen recently\\u2014from $6.3 billion last week, when Trump was worth an all-time high of $8.4 billion. But shares tend to surge when Trump\\u2019s campaign gets good news, meaning he could gain or lose billions on Election Day.\\n\\nBy Dan Alexander, Forbes Staff\\n\\nDan Alexander\\n\\n### \\ud83d\\udcf1\\ud83c\\udf1f\\n\\n## Truth Social\\u2019s Parent Company: **$3.5 billion**\\n\\nFORBES ESTIMATE AS OF NOVEMBER 4, 2024\\n\\n## Trump Media and Technology Group\\n\\n#### Net Value: **$3.5B**\\n\\nFrom a financial standpoint, Trump\\u2019s social-media venture is one of the most absurd businesses in America, generating sales of just $3.4 million in the 12 months through June and recording a net loss of $380 million. Revenues are down nearly 10 percent over the previous year, even while Trump dominates most news cycles. Yet Trump-loving traders bid up shares to head-scratching prices, boosting the value of Trump\\u2019s majority stake. If someone other than the former president were behind the company, investors would probably peg it near zero.\\n\\n### \\ud83c\\udf2d \\ud83c\\udfe2\\ud83d\\uddfd\\n\\n## Trump\\u2019s Real Estate Investments **$1.1 billion**\\n\\nFORBES ESTIMATE AS OF AUGUST 2024\\n\\n## 1290 Avenue of the Americas\\n\\n#### Total Value: **$1.7B**\\n\\n#### Debt: **$950M**\\n\\n#### Net value: **$208M**\\n\\n#### What Trump owns: **30% stake in office and retail**\\n\\nThe former president has a stake in the Manhattan skyscraper that is five blocks south and one block west of Trump Tower, but he has no control over the building. It is overseen by Steven Roth, CEO of Vornado Realty\\u2026\\n\\n[Truncated preview: showing 385 words out of ~1964. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1964, \"snippet_word_count\": 385, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T03:06:53.323304\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_xfTxCkE3YTcdU5oUoVR5egcD"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"snippet\": \"---\\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\\nauthor: Suzanne Blake\\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\\nhostname: newsweek.com\\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\\nsitename: Newsweek\\ndate: 2025-03-11\\ncategories: ['Politics']\\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\\n---\\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\\n\\n## Why It Matters\\n\\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\\n\\n## What To Know\\n\\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\\n\\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\\n\\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\\n\\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\\n\\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\\n\\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\\n\\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\\n\\n## What People Are Saying\\n\\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \\\"The decline in Trump's net wor\\u2026\\n\\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]\", \"word_count\": 773, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T03:06:53.797051\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_Yv5V4tvmzw0h1ZzQeEw6rIyt"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"snippet\": \"---\\ntitle: Wealth of Donald Trump - Wikipedia\\nurl: https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\\nhostname: wikipedia.org\\nsitename: Wikimedia Foundation, Inc.\\ndate: 2018-12-19\\n---\\n# Wealth of Donald Trump\\n\\n\\n| ||\\n|---|---|---|\\n|\\nBusiness and personal 45th and 47th President of the United States IncumbentTenure\\nImpeachments Civil and criminal prosecutions |\\n||\\n\\nThe [net worth](https://en.wikipedia.org/wiki/Net_worth) of American politician and businessman [Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump), who served as [45th and current 47th](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States) [president](https://en.wikipedia.org/wiki/President_of_the_United_States) of the [United States](https://en.wikipedia.org/wiki/United_States), is not publicly known. For decades, * Forbes* has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.\\n\\n\\n[[2]](https://en.wikipedia.org#cite_note-2)Meanwhile,\\n\\n[[3]](https://en.wikipedia.org#cite_note-:9-3)[Bloomberg](https://en.wikipedia.org/wiki/Bloomberg_L.P.)estimated his wealth at $7.08 billion in January 2025,\\n\\nalthough Trump himself claims a much higher net worth. However, after the launch of\\n\\n[[4]](https://en.wikipedia.org#cite_note-bloomberg-4)[$Trump](https://en.wikipedia.org/wiki/$Trump), Trump's own\\n\\n[cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency),\\n\\n[Axios](https://en.wikipedia.org/wiki/Axios_(website))temporarily estimated his net worth to be $58 billion.\\n\\nHe received gifts, loans, and inheritance from his father, who was a real-estate developer and businessman. Donald Trump's primary business has been real estate ventures, including hotels, casinos, and golf courses. He also made money from Trump-branded products including\\n\\n[[5]](https://en.wikipedia.org#cite_note-5)[neckties](https://en.wikipedia.org/wiki/Necktie),\\n\\n[steaks](https://en.wikipedia.org/wiki/Trump_Steaks), and\\n\\n[urine tests](https://en.wikipedia.org/wiki/Urine_test).\\n\\nMoney received through political fundraisers is used to pay for guest stays at properties owned by\\n\\n[[6]](https://en.wikipedia.org#cite_note-6)[The Trump Organization](https://en.wikipedia.org/wiki/The_Trump_Organization)and to pay his and his allies' lawyers.\\n\\n\\n[[7]](https://en.wikipedia.org#cite_note-:3-7)\\n\\n[[8]](https://en.wikipedia.org#cite_note-:4-8)\\n\\n[[9]](https://en.wikipedia.org#cite_note-:5-9)\\n\\n[[10]](https://en.wikipedia.org#cite_note-:6-10)## Gifts, loans, and other wealth from his father\\n\\nDrawing\\u2026\\n\\n[Truncated preview: showing 211 words out of ~9469. Full content available via `btf_extract_evidence`.]\", \"word_count\": 9469, \"snippet_word_count\": 211, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T05:31:57.270473\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_I0cVrqLBDVu14uRVfLgf0YxY"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_p6bzw1KRdQZ30CGBhH6B9jTa",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"content\": \"What\\u0019s Donald Trump really worth? From Truth Social and real estate holdings to crypto, legal liabilities and cash \\u0014 Forbes has the answer.\\n\\nForbes estimates Donald Trump's net worth at $5.6 billion as of Nov. 4, 2024, which is $1.9 billion more than he was worth in 2016 and $3.1 billion more than in 2020. Rooted in real estate, the Trump fortune now depends on politics. His most valuable asset: a $3.5 billion stake in the publicly traded parent company to Truth Social, a right-wing Twitter knockoff that hemorrhages money and trades wildly. The value of that stake has fallen recently\\u0014from $6.3 billion last week, when Trump was worth an all-time high of $8.4 billion. But shares tend to surge when Trump\\u0019s campaign gets good news, meaning he could gain or lose billions on Election Day.\\n\\nTruth Social\\u0019s Parent Company: $3.5 billion\\n\\nTrump Media and Technology Group\\n\\nNet Value: $3.5B\\n\\nFrom a financial standpoint, Trump\\u0019s social-media venture is one of the most absurd businesses in America, generating sales of just $3.4 million in the 12 months through June and recording a net loss of $380 million. Revenues are down nearly 10 percent over the previous year, even while Trump dominates most news cycles. Yet Trump-loving traders bid up shares to head-scratching prices, boosting the value of Trump\\u0019s majority stake. If someone other than the former president were behind the company, investors would probably peg it near zero.\\n\\nTrump\\u0019s Real Estate Investments $1.1 billion\\n\\nFORBES ESTIMATE AS OF AUGUST 2024\\n\\n1290 Avenue of the Americas\\n\\nTotal Value: $1.7B\\n\\nDebt: $950M\\n\\nNet value: $208M\\n\\nWhat Trump owns: 30% stake in office and retail\\n\\nThe former president has a stake in the Manhattan skyscraper that is five blocks south and one block west of Trump Tower, but he has no control over the building. It is overseen by Steven Roth, CEO of Vornado Realty\\u0014\", \"title\": \"The Definitive Net Worth Of Donald Trump\", \"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"question\": \"Will Donald Trump's net worth, according to Forbes, be greater than or equal to $20 billion on March 31, 2025?\", \"background\": \"Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\", \"resolution_criteria\": \"This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is greater than or equal to $20 billion, and NO otherwise.\", \"present_date\": \"2025-03-23T14:10:33.235909\"}"
+          }
+        },
+        {
+          "id": "call_IRMAKd2nwCVXFPOhnRWI0Hcq",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"content\": \"While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\\n\\nJust three months into 2025, President Donald Trump's net worth has dropped by $1.5 billion, according to Forbes estimates.\\n\\nWhy It Matters\\n\\nTrump has built his political career based on his business acumen from his ventures, primarily in real estate. However, not all of Trump's business dealings have led to success.\\n\\nWhat To Know\\n\\nAccording to Forbes, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\\n\\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid high interest rates in the United States.\\n\\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\\n\\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\\n\\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\\n\\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\\n\\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\", \"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"question\": \"Will Donald Trump's net worth, according to Forbes, be greater than or equal to $20 billion on March 31, 2025?\", \"background\": \"Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\", \"resolution_criteria\": \"This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is greater than or equal to $20 billion, and NO otherwise.\", \"present_date\": \"2025-03-23T14:10:33.235909\"}"
+          }
+        },
+        {
+          "id": "call_7qrd4eCQBYsehzLr02yyYDE7",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"content\": \"The net worth of American politician and businessman Donald Trump, who served as 45th and current 47th president of the United States, is not publicly known. For decades, Forbes has assessed his wealth, currently estimating it at $4.6 billion as of early-March 2025.\\n\\nMeanwhile, Bloomberg estimated his wealth at $7.08 billion in January 2025, although Trump himself claims a much higher net worth. However, after the launch of $Trump, Trump's own cryptocurrency, Axios temporarily estimated his net worth to be $58 billion.\\n\\nHe received gifts, loans, and inheritance from his father, who was a real-estate developer and businessman. Donald Trump's primary business has been real estate ventures, including hotels, casinos, and golf courses. He also made money from Trump-branded products including neckties, steaks, and urine tests. Money received through political fundraisers is used to pay for guest stays at properties owned by The Trump Organization and to pay his and his allies' lawyers.\", \"title\": \"Wealth of Donald Trump - Wikipedia\", \"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"question\": \"Will Donald Trump's net worth, according to Forbes, be greater than or equal to $20 billion on March 31, 2025?\", \"background\": \"Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\", \"resolution_criteria\": \"This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is greater than or equal to $20 billion, and NO otherwise.\", \"present_date\": \"2025-03-23T14:10:33.235909\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"facts\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"As of November 2024, Donald Trump's net worth is estimated at $5.6 billion.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump's most valuable asset is a $3.5 billion stake in the parent company of Truth Social, which has recently decreased in value.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump's real estate investments are valued at $1.1 billion as of August 2024.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump's golf clubs and resorts are valued at $1 billion as of August 2024.\"}, {\"title\": \"The Definitive Net Worth Of Donald Trump\", \"url\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"fact\": \"Trump faces legal liabilities totaling $570 million as of August 2024.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_p6bzw1KRdQZ30CGBhH6B9jTa"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"facts\": [{\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion, down from $6 billion on January 1, 2025.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump's net worth has been negatively impacted by the struggling real estate market due to high interest rates in the United States.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump Media & Technology Group, which includes Truth Social, has seen a significant decline in value, with a 22.3 percent drop in a single day last year.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"A judge ordered Trump to pay $454 million due to legal issues related to accusations of inflating his net worth for business benefits.\"}, {\"title\": \"Donald Trump's net worth has dropped $1.5 billion in 2025\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Experts suggest that Trump's net worth decline is partly due to market conditions and legal challenges, with some assets being illiquid and difficult to value accurately.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_IRMAKd2nwCVXFPOhnRWI0Hcq"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d8dfda91-42cb-5389-b98d-bcedfd3d59e7\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"facts\": [{\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"As of early March 2025, Forbes estimates Donald Trump's net worth at $4.6 billion.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"Bloomberg estimated Trump's wealth at $7.08 billion in January 2025.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"Axios temporarily estimated Trump's net worth to be $58 billion after the launch of his cryptocurrency, $Trump.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"Trump was found liable for $355 million in disgorgement and roughly $100 million in interest in a 2024 court decision, with the total owed increasing to over $500 million by the end of 2024.\"}, {\"title\": \"Wealth of Donald Trump - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/Wealth_of_Donald_Trump\", \"fact\": \"In March 2024, Trump's net worth increased by over $4 billion when Trump Media & Technology Group became a public company, but the value of the company decreased significantly by August 2024.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_7qrd4eCQBYsehzLr02yyYDE7"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered from various sources, here are the key points regarding Donald Trump's net worth as of March 2025:\n\n1. **Forbes Estimate**: As of early March 2025, Forbes estimates Donald Trump's net worth at approximately $4.5 billion. This is a decrease from $6 billion at the beginning of 2025, largely due to declines in the value of his real estate holdings and the Trump Media & Technology Group, which includes Truth Social.\n\n2. **Bloomberg Estimate**: Bloomberg estimated Trump's wealth at $7.08 billion in January 2025. However, this figure is significantly higher than the Forbes estimate and may include different valuation methods or assumptions.\n\n3. **Axios Estimate**: Axios temporarily estimated Trump's net worth to be $58 billion following the launch of his cryptocurrency, $Trump. This figure seems to be an outlier and likely reflects speculative valuations rather than tangible assets.\n\n4. **Legal Liabilities**: Trump has significant legal liabilities, including a court-ordered payment of $454 million due to accusations of inflating his net worth for business benefits.\n\n5. **Market Conditions**: The real estate market, where Trump has substantial investments, has been struggling due to high interest rates, impacting the overall valuation of his assets.\n\nGiven these facts, it seems highly unlikely that Donald Trump's net worth, as assessed by Forbes, will reach or exceed $20 billion by March 31, 2025. The current estimates are far below this threshold, and the market and legal challenges do not suggest a rapid enough increase to reach $20 billion within the next week.\n\nFINAL PROBABILITY: 0.01"
+    }
+  ]
+}

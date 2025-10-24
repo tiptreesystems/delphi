@@ -1,0 +1,330 @@
+{
+  "question_id": "d6340263-e413-5a6e-848a-e93a6e1a49c9",
+  "question": "Will Donald Trump's net worth, according to Forbes, be in the range of $0 to $6 billion, inclusive, on March 31, 2025?",
+  "probability": 0.9,
+  "reasoning": "Based on the information gathered:\n\n1. As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion.\n2. Trump's net worth decreased from roughly $6 billion to $4.5 billion between January 1 and March 11, 2025.\n3. High interest rates in the United States have negatively impacted the real estate market, a significant component of Trump's wealth.\n4. Trump Media & Technology Group's value has dropped significantly, affecting Trump's stake in the company.\n5. Trump has been ordered to pay $454 million due to legal issues, impacting his financial situation.\n\nGiven these facts, Donald Trump's net worth is currently estimated at $4.5 billion, which is within the range of $0 to $6 billion. There are no indications of significant positive changes expected before March 31, 2025, that could push his net worth above $6 billion. Therefore, it is highly likely that his net worth will remain within the specified range by the resolution date.\n\nFINAL PROBABILITY: 0.9",
+  "search_results": [
+    {
+      "title": "The Definitive Net Worth Of Donald Trump",
+      "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+      "content": "Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company."
+    },
+    {
+      "title": "Donald Trump",
+      "url": "https://www.forbes.com/profile/donald-trump/",
+      "content": "Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint—it's not Donald Trump."
+    },
+    {
+      "title": "What is Donald Trump's net worth? | The Week",
+      "url": "https://theweek.com/politics/donald-trump-net-worth",
+      "content": "According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024."
+    },
+    {
+      "title": "Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "content": "According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion..."
+    },
+    {
+      "title": "Trump Tariffs: The Economic Impact of the Trump Trade War",
+      "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+      "content": "On February 27, Trump said the tariffs on China would increase by another 10 percent beginning March 4. The tariffs on Canada received a 30-day suspension and took effect March 4."
+    },
+    {
+      "title": "Tracking the Trump Administration’s Harmful Executive Actions | Congressman Steve Cohen",
+      "url": "http://cohen.house.gov/TrumpAdminTracker",
+      "content": "Trump issued an executive order halting nearly all federal grants, including those funding public health, education, small businesses, and infrastructure..."
+    },
+    {
+      "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "content": "---\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\nauthor: Suzanne Blake\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\nhostname: newsweek.com\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\nsitename: Newsweek\ndate: 2025-03-11\ncategories: ['Politics']\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\n---\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\n\n## Why It Matters\n\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\n\n## What To Know\n\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\n\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\n\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\n\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\n\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\n\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\n\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\n\n## What People Are Saying\n\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \"The decline in Trump's net wor…\n\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion."
+    },
+    {
+      "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "Trump's net worth decreased from roughly $6 billion to $4.5 billion between January 1 and March 11, 2025."
+    },
+    {
+      "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "High interest rates in the United States have negatively impacted the real estate market, a significant component of Trump's wealth."
+    },
+    {
+      "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "Trump Media & Technology Group's value has dropped significantly, affecting Trump's stake in the company."
+    },
+    {
+      "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+      "fact": "Trump has been ordered to pay $454 million due to legal issues, impacting his financial situation."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 0.430827083453526,
+  "brier_score": 0.009999999999999995,
+  "weighted_brier_score": 0.004308270834535258,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "d6340263-e413-5a6e-848a-e93a6e1a49c9",
+        "queries": [
+          "Donald Trump net worth Forbes March 2025",
+          "Donald Trump recent financial news March 2025",
+          "Donald Trump cryptocurrency investments 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"d6340263-e413-5a6e-848a-e93a6e1a49c9\", \"queries\": [\"Donald Trump net worth Forbes March 2025\", \"Donald Trump recent financial news March 2025\", \"Donald Trump cryptocurrency investments 2025\"]}",
+      "tool_call_id": "call_Vkboy6lAoMrLp10zz8WiMda6"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Donald Trump net worth Forbes March 2025",
+        "results": [
+          {
+            "title": "The Definitive Net Worth Of Donald Trump",
+            "link": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/",
+            "position": 1,
+            "snippet": "Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company.",
+            "date": null
+          },
+          {
+            "title": "Donald Trump",
+            "link": "https://www.forbes.com/profile/donald-trump/",
+            "position": 2,
+            "snippet": "Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint—it's not Donald Trump.",
+            "date": null
+          },
+          {
+            "title": "What is Donald Trump's net worth? | The Week",
+            "link": "https://theweek.com/politics/donald-trump-net-worth",
+            "position": 4,
+            "snippet": "According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024.",
+            "date": null
+          },
+          {
+            "title": "Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek",
+            "link": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "position": 4,
+            "snippet": "According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Donald Trump net worth Forbes March 2025\", \"results\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"link\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"position\": 1, \"snippet\": \"Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company.\", \"date\": null}, {\"title\": \"Donald Trump\", \"link\": \"https://www.forbes.com/profile/donald-trump/\", \"position\": 2, \"snippet\": \"Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint\\u2014it's not Donald Trump.\", \"date\": null}, {\"title\": \"What is Donald Trump's net worth? | The Week\", \"link\": \"https://theweek.com/politics/donald-trump-net-worth\", \"position\": 4, \"snippet\": \"According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024.\", \"date\": null}, {\"title\": \"Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek\", \"link\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"position\": 4, \"snippet\": \"According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion...\", \"date\": null}]}",
+      "tool_call_id": "call_296qxMeMNciYpGotFWAisEMP"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Donald Trump recent financial news March 2025",
+        "results": [
+          {
+            "title": "Trump Tariffs: The Economic Impact of the Trump Trade War",
+            "link": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+            "position": 3,
+            "snippet": "On February 27, Trump said the tariffs on China would increase by another 10 percent beginning March 4. The tariffs on Canada received a 30-day suspension and took effect March 4.",
+            "date": null
+          },
+          {
+            "title": "Tracking the Trump Administration’s Harmful Executive Actions | Congressman Steve Cohen",
+            "link": "http://cohen.house.gov/TrumpAdminTracker",
+            "position": 4,
+            "snippet": "Trump issued an executive order halting nearly all federal grants, including those funding public health, education, small businesses, and infrastructure...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Donald Trump recent financial news March 2025\", \"results\": [{\"title\": \"Trump Tariffs: The Economic Impact of the Trump Trade War\", \"link\": \"https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/\", \"position\": 3, \"snippet\": \"On February 27, Trump said the tariffs on China would increase by another 10 percent beginning March 4. The tariffs on Canada received a 30-day suspension and took effect March 4.\", \"date\": null}, {\"title\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions | Congressman Steve Cohen\", \"link\": \"http://cohen.house.gov/TrumpAdminTracker\", \"position\": 4, \"snippet\": \"Trump issued an executive order halting nearly all federal grants, including those funding public health, education, small businesses, and infrastructure...\", \"date\": null}]}",
+      "tool_call_id": "call_RFDePNd8KDgsQr9Yp86SBBws"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Donald Trump cryptocurrency investments 2025",
+        "results": []
+      },
+      "raw": "{\"query\": \"Donald Trump cryptocurrency investments 2025\", \"results\": []}",
+      "tool_call_id": "call_bL4c5PvTeYIp3SCqCVhor3RV"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+        "snippet": "---\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\nauthor: Suzanne Blake\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\nhostname: newsweek.com\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\nsitename: Newsweek\ndate: 2025-03-11\ncategories: ['Politics']\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\n---\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\n\n## Why It Matters\n\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\n\n## What To Know\n\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\n\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\n\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\n\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\n\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\n\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\n\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\n\n## What People Are Saying\n\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \"The decline in Trump's net wor…\n\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]",
+        "word_count": 773,
+        "snippet_word_count": 349,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T14:10:33.235909",
+        "date_cutoff_end": "2025-03-24T14:10:33.235909",
+        "cached_at": "2025-10-24T03:06:53.797051"
+      },
+      "raw": "{\"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"snippet\": \"---\\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\\nauthor: Suzanne Blake\\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\\nhostname: newsweek.com\\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\\nsitename: Newsweek\\ndate: 2025-03-11\\ncategories: ['Politics']\\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\\n---\\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\\n\\n## Why It Matters\\n\\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\\n\\n## What To Know\\n\\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\\n\\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\\n\\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\\n\\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\\n\\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\\n\\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\\n\\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\\n\\n## What People Are Saying\\n\\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \\\"The decline in Trump's net wor\\u2026\\n\\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]\", \"word_count\": 773, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T03:06:53.797051\"}",
+      "tool_call_id": "call_kPG30mevCQ108R7TpayGzUMZ"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "d6340263-e413-5a6e-848a-e93a6e1a49c9",
+        "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+        "facts": [
+          {
+            "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion."
+          },
+          {
+            "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "Trump's net worth decreased from roughly $6 billion to $4.5 billion between January 1 and March 11, 2025."
+          },
+          {
+            "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "High interest rates in the United States have negatively impacted the real estate market, a significant component of Trump's wealth."
+          },
+          {
+            "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "Trump Media & Technology Group's value has dropped significantly, affecting Trump's stake in the company."
+          },
+          {
+            "title": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "url": "https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941",
+            "fact": "Trump has been ordered to pay $454 million due to legal issues, impacting his financial situation."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"d6340263-e413-5a6e-848a-e93a6e1a49c9\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"facts\": [{\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump's net worth decreased from roughly $6 billion to $4.5 billion between January 1 and March 11, 2025.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"High interest rates in the United States have negatively impacted the real estate market, a significant component of Trump's wealth.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump Media & Technology Group's value has dropped significantly, affecting Trump's stake in the company.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump has been ordered to pay $454 million due to legal issues, impacting his financial situation.\"}]}",
+      "tool_call_id": "call_cXZYBxdqCZ7CqMHGVI27Lpvp"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Donald Trump's net worth, according to Forbes, be in the range of $0 to $6 billion, inclusive, on March 31, 2025?\nBackground: Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\nResolution criteria: This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is in the range of $0 to $6 billion, inclusive, and NO otherwise.\nFine print: \npresent_date: 2025-03-23T14:10:33.235909\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Vkboy6lAoMrLp10zz8WiMda6",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Donald Trump's net worth, according to Forbes, be in the range of $0 to $6 billion, inclusive, on March 31, 2025?\",\"background\":\"Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\",\"resolution_criteria\":\"This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is in the range of $0 to $6 billion, inclusive, and NO otherwise.\",\"present_date\":\"2025-03-23T14:10:33.235909\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d6340263-e413-5a6e-848a-e93a6e1a49c9\", \"queries\": [\"Donald Trump net worth Forbes March 2025\", \"Donald Trump recent financial news March 2025\", \"Donald Trump cryptocurrency investments 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_Vkboy6lAoMrLp10zz8WiMda6"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_296qxMeMNciYpGotFWAisEMP",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Donald Trump net worth Forbes March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_RFDePNd8KDgsQr9Yp86SBBws",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Donald Trump recent financial news March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_bL4c5PvTeYIp3SCqCVhor3RV",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Donald Trump cryptocurrency investments 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Donald Trump net worth Forbes March 2025\", \"results\": [{\"title\": \"The Definitive Net Worth Of Donald Trump\", \"link\": \"https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/\", \"position\": 1, \"snippet\": \"Forbes estimates Donald Trump's net worth at $5.6 billion as of November 4, 2024, a significant increase from previous years, largely driven by his stake in Truth Social's parent company.\", \"date\": null}, {\"title\": \"Donald Trump\", \"link\": \"https://www.forbes.com/profile/donald-trump/\", \"position\": 2, \"snippet\": \"Forbes surveyed billionaires on their favorite president from American history. Here's who they picked, and hint\\u2014it's not Donald Trump.\", \"date\": null}, {\"title\": \"What is Donald Trump's net worth? | The Week\", \"link\": \"https://theweek.com/politics/donald-trump-net-worth\", \"position\": 4, \"snippet\": \"According to Forbes, President Trump was tied with six other people for the honor of being the 319th wealthiest person in the world in 2024.\", \"date\": null}, {\"title\": \"Donald Trump's Net Worth Has Dropped $1.5 Billion in 2025 - Newsweek\", \"link\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"position\": 4, \"snippet\": \"According to Forbes estimates, Donald Trump's net worth dropped by $1.5 billion from January 1 to March 11, 2025, decreasing from roughly $6 billion to $4.5 billion...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_296qxMeMNciYpGotFWAisEMP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Donald Trump recent financial news March 2025\", \"results\": [{\"title\": \"Trump Tariffs: The Economic Impact of the Trump Trade War\", \"link\": \"https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/\", \"position\": 3, \"snippet\": \"On February 27, Trump said the tariffs on China would increase by another 10 percent beginning March 4. The tariffs on Canada received a 30-day suspension and took effect March 4.\", \"date\": null}, {\"title\": \"Tracking the Trump Administration\\u2019s Harmful Executive Actions | Congressman Steve Cohen\", \"link\": \"http://cohen.house.gov/TrumpAdminTracker\", \"position\": 4, \"snippet\": \"Trump issued an executive order halting nearly all federal grants, including those funding public health, education, small businesses, and infrastructure...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_RFDePNd8KDgsQr9Yp86SBBws"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Donald Trump cryptocurrency investments 2025\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_bL4c5PvTeYIp3SCqCVhor3RV"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_kPG30mevCQ108R7TpayGzUMZ",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\":\"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\",\"date_cutoff_start\":\"2025-03-01\",\"date_cutoff_end\":\"2025-03-23\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"snippet\": \"---\\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\\nauthor: Suzanne Blake\\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\\nhostname: newsweek.com\\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\\nsitename: Newsweek\\ndate: 2025-03-11\\ncategories: ['Politics']\\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\\n---\\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\\n\\n## Why It Matters\\n\\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\\n\\n## What To Know\\n\\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\\n\\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\\n\\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\\n\\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\\n\\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\\n\\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\\n\\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\\n\\n## What People Are Saying\\n\\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \\\"The decline in Trump's net wor\\u2026\\n\\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]\", \"word_count\": 773, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T14:10:33.235909\", \"date_cutoff_end\": \"2025-03-24T14:10:33.235909\", \"cached_at\": \"2025-10-24T03:06:53.797051\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_kPG30mevCQ108R7TpayGzUMZ"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_cXZYBxdqCZ7CqMHGVI27Lpvp",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\":\"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\",\"content\":\"---\\ntitle: Donald Trump's net worth has dropped $1.5 billion in 2025\\nauthor: Suzanne Blake\\nurl: https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\\nhostname: newsweek.com\\ndescription: While Trump's net worth was calculated at $6 billion on January 1, Forbes currently estimates it at $4.5 billion.\\nsitename: Newsweek\\ndate: 2025-03-11\\ncategories: ['Politics']\\ntags: ['Donald Trump', 'Net worth', 'Money', 'Real estate']\\n---\\nJust three months into 2025, [President Donald Trump's net worth](https://www.newsweek.com/donald-trump-net-worth-takes-office-2017143) has dropped by $1.5 billion, according to* Forbes *estimates.\\n\\n## Why It Matters\\n\\nTrump has built his political career based on his business acumen from his ventures, primarily in [real estate](https://www.newsweek.com/donald-trump-real-estate-ban-fraud-trial-judge-arthur-engoron-letitia-james-1865366). However, not all of Trump's business dealings have led to success.\\n\\n## What To Know\\n\\nAccording to* Forbes*, Trump's net worth decreased from roughly $6 billion to $4.5 billion from January 1 to March 11, 2025.\\n\\nPart of the reason Trump's net worth has been declining in recent years is that real estate, where the president made most of his money, has struggled amid [high interest rates](https://www.newsweek.com/investing-expert-living-high-interest-rate-world-1811985) in the United States.\\n\\nCompanies are also less likely to invest in real estate properties for office space as remote work continues to be popular in the United States. Retailers are also reducing their footprints as online shopping reigns supreme for many.\\n\\nAfter his first presidency, Trump profited from selling Trump-branded items to his supporters, including NFTs, Bibles, clothing, and shares of his social media platform, Truth Social.\\n\\nTrump's fortune also comes from his golf courses, mansions, winery, and a 1991 Boeing 757 nicknamed Trump Force One.\\n\\nHowever, some money has been held up in Trump's legal troubles. After New York Attorney General Letitia James accused Trump of lying about his net worth for business benefits, a judge ordered Trump to pay $454 million.\\n\\nTrump Media & Technology Group has dropped significantly in value, with a 22.3 percent decline in a single day late last year. That knocked Trump's stake in the company from about $5.9 billion to $4.6 billion.\\n\\n## What People Are Saying\\n\\n**Kevin Thompson, a finance expert and the founder and CEO of 9i Capital Group, told Newsweek:** \\\"The decline in Trump's net wor…\\n\\n[Truncated preview: showing 349 words out of ~773. Full content available via `btf_extract_evidence`.]\", \"question\":\"Will Donald Trump's net worth, according to Forbes, be in the range of $0 to $6 billion, inclusive, on March 31, 2025?\",\"background\":\"Axios: [Donald Trump, crypto billionaire](https://www.axios.com/2025/01/19/donald-trump-crypto-billionaire)\",\"resolution_criteria\":\"This question resolves as YES if Donald Trump's net worth according to [Forbes](https://www.forbes.com/profile/donald-trump/) on March 31, 2025 is in the range of $0 to $6 billion, inclusive, and NO otherwise.\",\"present_date\":\"2025-03-23T14:10:33.235909\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"d6340263-e413-5a6e-848a-e93a6e1a49c9\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"facts\": [{\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump's net worth decreased from roughly $6 billion to $4.5 billion between January 1 and March 11, 2025.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"High interest rates in the United States have negatively impacted the real estate market, a significant component of Trump's wealth.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump Media & Technology Group's value has dropped significantly, affecting Trump's stake in the company.\"}, {\"title\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"url\": \"https://www.newsweek.com/donald-trump-net-worth-dropped-2025-2042941\", \"fact\": \"Trump has been ordered to pay $454 million due to legal issues, impacting his financial situation.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_cXZYBxdqCZ7CqMHGVI27Lpvp"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered:\n\n1. As of March 11, 2025, Forbes estimates Donald Trump's net worth at $4.5 billion.\n2. Trump's net worth decreased from roughly $6 billion to $4.5 billion between January 1 and March 11, 2025.\n3. High interest rates in the United States have negatively impacted the real estate market, a significant component of Trump's wealth.\n4. Trump Media & Technology Group's value has dropped significantly, affecting Trump's stake in the company.\n5. Trump has been ordered to pay $454 million due to legal issues, impacting his financial situation.\n\nGiven these facts, Donald Trump's net worth is currently estimated at $4.5 billion, which is within the range of $0 to $6 billion. There are no indications of significant positive changes expected before March 31, 2025, that could push his net worth above $6 billion. Therefore, it is highly likely that his net worth will remain within the specified range by the resolution date.\n\nFINAL PROBABILITY: 0.9"
+    }
+  ]
+}

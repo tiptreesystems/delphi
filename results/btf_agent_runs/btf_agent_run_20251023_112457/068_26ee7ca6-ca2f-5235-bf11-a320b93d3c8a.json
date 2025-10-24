@@ -1,0 +1,633 @@
+{
+  "question_id": "26ee7ca6-ca2f-5235-bf11-a320b93d3c8a",
+  "question": "Will PEPFAR funding be resumed before April 7, 2025?",
+  "probability": 0.3,
+  "reasoning": "Based on the gathered evidence, here are the key points regarding the resumption of PEPFAR funding:\n\n1. **Supreme Court Ruling**: The Supreme Court rejected a request by the Trump administration to continue freezing nearly $2 billion in foreign aid, including PEPFAR funding. However, the court's decision did not specify when the money must be released, allowing further disputes in lower courts. This indicates that while there is legal pressure to resume funding, the timeline remains uncertain.\n\n2. **Current Status of PEPFAR Programs**: As of March 2025, the vast majority of USAID-funded programs, including PEPFAR, have received termination notices despite a limited waiver for some activities. This waiver does not cover HIV prevention activities outside of vertical transmission, and the impact of the stop-work orders is expected to be severe.\n\n3. **Congressional Reauthorization**: PEPFAR's congressional reauthorization expired as of March 25, 2025, creating uncertainty about its future. While programs can continue under annual appropriations, the lack of a long-term legislative framework adds to the instability.\n\n4. **Impact on Global Health**: The World Health Organization warned of potential HIV medication shortages in eight countries due to USAID cuts, highlighting the critical impact of funding instability on global health programs.\n\n5. **Ongoing Review**: The Trump administration's 90-day review of foreign aid, including PEPFAR, is set to conclude by April 20, 2025. This review is expected to provide clarity on PEPFAR's future priorities and broader U.S. foreign aid strategy.\n\nGiven these points, the probability of PEPFAR funding resuming at least 50% of pre-pause levels before April 7, 2025, is uncertain. The legal and administrative processes are ongoing, and while there is some pressure to resume funding, significant obstacles remain.\n\nFINAL PROBABILITY: 0.3",
+  "search_results": [
+    {
+      "title": "Impact of US funding cuts on the global HIV response | UNAIDS",
+      "url": "https://www.unaids.org/en/impact-US-funding-cuts",
+      "content": "For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)..."
+    },
+    {
+      "title": "Reevaluating And Realigning United States Foreign Aid – The White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/",
+      "content": "Presidential order issued January 20, 2025, mandates a 90-day pause on all United States foreign development assistance for assessment of programmatic efficiencies and consistency with U.S. foreign policy..."
+    },
+    {
+      "title": "“Lift the Freeze”: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "content": "The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling."
+    },
+    {
+      "title": "“Lift the Freeze”: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "content": "The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling."
+    },
+    {
+      "title": "Executive and Regulatory Actions Under the Second Trump Administration | NAFSA",
+      "url": "https://www.nafsa.org/executive-and-regulatory-actions-trump2admin",
+      "content": "This NAFSA page links to select executive actions by the President and administrative actions by federal agencies that relate to international education, during the Trump-Vance administration (January 20, 2025 - January 20, 2029)."
+    },
+    {
+      "title": "Executive Order 14169 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Executive_Order_14169",
+      "content": "Executive Order 14169, signed by U.S. president Donald Trump, ordered a 90-day pause on all U.S. foreign development assistance programs in order to conduct a review."
+    },
+    {
+      "title": "Second preliminary injunction hits Trump admin funding freeze",
+      "url": "https://www.fiercehealthcare.com/regulatory/trump-admin-orders-temporary-pause-most-federal-financial-assistance",
+      "content": "Federal judge grants preliminary injunction against Trump administration's \"temporary pause\" of congressionally appropriated and obligated federal disbursements in March 2025."
+    },
+    {
+      "title": "Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch",
+      "url": "https://www.prepwatch.org/pepfar-stop-work/",
+      "content": "US President issued an executive order calling for a 90-day freeze on foreign aid, leading to stop work orders on all USAID-funded grants, halting significant HIV prevention research and delivery..."
+    },
+    {
+      "title": "About the impact of US funding cuts on the global HIV response | UNAIDS",
+      "url": "https://www.unaids.org/en/impact-US-funding-cuts/About",
+      "content": "On January 20, 2025, the U.S. Department of State announced an immediate 90-day pause for all U.S foreign assistance, including PEPFAR activities, for assessment. A waiver was later issued on February 1, 2025, allowing urgent life-saving HIV treatment services to continue."
+    },
+    {
+      "title": "Impact of US funding cuts on the global HIV response | UNAIDS",
+      "url": "https://www.unaids.org/en/impact-US-funding-cuts",
+      "content": "For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)..."
+    },
+    {
+      "title": "PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health",
+      "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "content": "As of March 25, 2025, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Congress appropriated funding through the end of September via a continuing resolution..."
+    },
+    {
+      "title": "Global Health Watch: NIH Challenges, PEPFAR uncertainty & the battle over foreign aid - AVAC",
+      "url": "https://avac.org/blog/global-health-watch-issue6/",
+      "content": "On Wednesday, in response to the US government’s request, the Supreme Court ruled that the administration must release up to $2 billion in frozen foreign aid funding for work completed before February 13."
+    },
+    {
+      "title": "By executive order: The likely deadly consequences associated with a 90‐day pause in PEPFAR funding - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11851316/",
+      "content": "President Trump issued a 90-day pause on foreign aid, including PEPFAR, on January 20, 2025. While a waiver was issued for life-saving HIV care, ongoing uncertainty has disrupted critical programs. PEPFAR has historically received bipartisan support in Congress..."
+    },
+    {
+      "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "content": "---\ntitle: “Lift the Freeze”: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts\nurl: https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\nhostname: democracynow.org\ndescription: The Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court’s three liberal justices in the majority. However, the court’s decision did not specify when the money must be released, allowing Trump’s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration’s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, “for no good reason and with no clear strategy,” was an unlawful “abuse of executive power,” says attorney Nicolas Sansone, who serves as counsel for the plaintiff. “People will die,” adds Mitchell Warren, the executive director of AVAC. Warren condemns the “willful ignorance” and “disregard of science” being promoted by Trump and his allies, many of whom are former supporters of bipartisan global health initiatives.\nsitename: Democracy Now!\ndate: 2025-03-06\n---\n##### Topics\n\n##### Guests\n\n[Nicolas Sansone](https://www.democracynow.org/appearances/nicolas_sansone)attorney at Public Citizen Litigation Group.[Mitchell Warren](https://www.democracynow.org/appearances/mitchell_warren)executive director of the AIDS Vaccine Advocacy Coalition.\n\nThe Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court’s three liberal justices in the majority. However, the court’s decision did not specify when the money must be released, allowing Trump’s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration’s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, “for no good reason and with no clear strategy,” was an unlawful “abuse of executive power,” says attorney Nicolas Sansone, who serves as counsel for the plaintiff. “People will die,” adds Mitchell War…\n\n[Truncated preview: showing 354 words out of ~3102. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.prepwatch.org/pepfar-stop-work/",
+      "url": "https://www.prepwatch.org/pepfar-stop-work/",
+      "content": "---\ntitle: Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch\nurl: https://www.prepwatch.org/pepfar-stop-work/\nhostname: prepwatch.org\nsitename: PrEPWatch\ndate: 2025-03-26\n---\n# Impact of PEPFAR Stop Work Orders on PrEP\n\n## Forthcoming Intro Text\n\nPok pok polaroid cardigan, cray keytar food truck meh raw denim leggings vinyl direct trade humblebrag. Mumblecore knausgaard four dollar toast raw denim, chia raclette semiotics sartorial jianbing wolf banjo. Marfa kickstarter flannel chambray. Messenger bag four loko DIY hella, prism tousled pok pok vape gentrify umami paleo cornhole biodiesel deep v put a bird on it. YOLO lomo chambray sustainable tofu DIY stumptown, cardigan narwhal. Viral brooklyn flannel blog. Cronut lomo humblebrag, snackwave schlitz helvetica pug fixie portland brooklyn meggings locavore tote bag.\n\nA downloadable PDF version of this section of the website is available. [Click here.](https://www.prepwatch.org/wp-content/uploads/2025/03/Impact-of-Stop-Work-Order-250325.pdf)\n\n## Programmatic Supply of Injectable PrEP\n\n*As of March 2025*\n\n## Botswana |\n|\n## Eswatini |\n|\n## Malawi |\n|\n## Mozambique |\n|\n## Namibia |\n|\n## South Africa |\n|\n## Ukraine |\n|\n## Zambia |\n|\n## Zimbabwe |\n|\n\n[→ Click here for full details on the impact to CAB rollout](https://www.prepwatch.org/cab-supply/)\n\n#### What Just Happened?\n\n**January 20:**US President issued an[executive order](https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/)calling for a 90-day freeze on foreign aid**January 27:**Stop work orders issued on all USAID-funded grants, halting significant proportion of HIV prevention research and delivery across the world**February 1:**[Limited waiver announced](https://www.unaids.org/sites/default/files/media_asset/GHSD_PEPFAR-Limited-Waiver-Approved-Activities.pdf)for PEPFAR activities, though it does not cover any HIV prevention activities outside of vertical transmission**February 26-28:**Despite waiver and a judicial[temporary restraining order](https://avac.org/press-release/critical-win-in-lawsuit/)against the freeze, the vast majority of USAID-funded programs received terminations; confusion remains\n\nImpact to date has already been significant, as quantified in the [PEPFAR Impact Tracker](https://pepfarimpact.vercel.app/) and documented by [PEPFAR Watch](https://pepfarwatch.org/wp-content/uploads/2025/02/Update-1-Deadly-Pause.pdf), [amfAR](https://www.amfar.org/wp-content/uploads/2025/02/Most…\n\n[Truncated preview: showing 285 words out of ~529. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "content": "---\ntitle: PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health\nurl: https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\nhostname: thinkglobalhealth.org\ndescription: The expiration of PEPFAR's authorization could mark a pivotal shift in the HIV/AIDS response\nsitename: Think Global Health\ndate: 2025-03-26\n---\nFor more than two decades, the President's Emergency Plan for AIDS Relief (PEPFAR) has been a global health success story, [credited with saving](https://www.state.gov/pepfar-latest-global-results-factsheet-dec-2024/) more than 26 million lives and providing HIV treatment for more than 20 million people.\n\nAs of March 25, 2025, however, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Prior to 2024, bipartisan support had secured five-year reauthorizations in 2008, 2013, and 2018. Last year, Congress allowed only a [one-year authorization](https://www.thinkglobalhealth.org/article/pepfar-hiv-program-gets-yearlong-lifeline-whats-next) as political strife engulfed PEPFAR.\n\nWithout reauthorization, PEPFAR sits in purgatory—even though Congress appropriated funding through the end of September via the continuing resolution that [passed this month](https://www.kff.org/global-health-policy/fact-sheet/congress-passes-full-year-continuing-resolution-bill-maintaining-global-health-funding-at-prior-year-levels/). The expiration of its authorization introduces deep uncertainty about its long-term future, meaning that officials could now terminate or significantly curtail PEPFAR at any time.\n\nHealth ministries, implementing partners, and community-based organizations across PEPFAR-supported countries must try to deliver lifesaving care without the stability that long-term U.S. commitments once provided. At the same time, structural questions remain about how the State Department will operate PEPFAR amid [reported](https://www.devex.com/news/memo-lays-out-plan-to-replace-usaid-with-new-humanitarian-agency-109685) proposals to create a new U.S. Agency for International Humanitarian Assistance. The question now is not just whether PEPFAR will continue, but also how it must evolve to remain effective in a drastically reshaped foreign aid landscape.\n\n#### A Moment of Political Paralysis and Global Consequences\n\nThe expiration of PEPFAR's authorization is a symptom of a broader shift in U.S. foreign assistance policy. For nearly 2…\n\n[Truncated preview: showing 280 words out of ~1483. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "fact": "The Supreme Court rejected a request by the Trump administration to continue freezing nearly $2 billion in foreign aid, including PEPFAR funding."
+    },
+    {
+      "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "fact": "The court's decision did not specify when the money must be released, allowing further disputes in lower courts."
+    },
+    {
+      "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "fact": "Judge Amir Ali has ordered the Trump administration to comply with a temporary restraining order to lift the foreign assistance freeze."
+    },
+    {
+      "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "fact": "The Trump administration has not yet taken steps to comply with the court order to resume funding."
+    },
+    {
+      "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+      "fact": "Mitchell Warren, executive director of the AIDS Vaccine Advocacy Coalition, emphasized the critical impact of the funding freeze on global health programs, including PEPFAR."
+    },
+    {
+      "title": "https://www.prepwatch.org/pepfar-stop-work/",
+      "url": "https://www.prepwatch.org/pepfar-stop-work/",
+      "fact": "As of March 2025, the vast majority of USAID-funded programs, including PEPFAR, have received termination notices despite a limited waiver for some activities."
+    },
+    {
+      "title": "https://www.prepwatch.org/pepfar-stop-work/",
+      "url": "https://www.prepwatch.org/pepfar-stop-work/",
+      "fact": "A limited waiver was announced for PEPFAR activities, but it does not cover any HIV prevention activities outside of vertical transmission."
+    },
+    {
+      "title": "https://www.prepwatch.org/pepfar-stop-work/",
+      "url": "https://www.prepwatch.org/pepfar-stop-work/",
+      "fact": "The impact of the PEPFAR stop-work orders on HIV prevention outcomes is expected to be severe, with potential increases in AIDS deaths and HIV incidence rates."
+    },
+    {
+      "title": "https://www.prepwatch.org/pepfar-stop-work/",
+      "url": "https://www.prepwatch.org/pepfar-stop-work/",
+      "fact": "84% of 65 implementing partners reported disruption to PrEP service delivery following the stop-work order."
+    },
+    {
+      "title": "https://www.prepwatch.org/pepfar-stop-work/",
+      "url": "https://www.prepwatch.org/pepfar-stop-work/",
+      "fact": "Organizations delivering HIV services not covered by the PEPFAR waiver are unlikely to survive the 90-day freeze, threatening the national and global HIV response."
+    },
+    {
+      "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "fact": "As of March 25, 2025, PEPFAR's congressional reauthorization has expired, creating uncertainty about its future."
+    },
+    {
+      "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "fact": "The Trump administration's Executive Order 14169, issued on January 20, 2025, paused all U.S. foreign assistance programs for a 90-day review, affecting PEPFAR."
+    },
+    {
+      "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "fact": "The expiration of PEPFAR's authorization means that its programs can continue under annual appropriations, but without a long-term legislative framework."
+    },
+    {
+      "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "fact": "The World Health Organization warned that eight countries could face potential HIV medication shortages due to USAID cuts, highlighting the impact of funding instability."
+    },
+    {
+      "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+      "fact": "The ongoing 90-day review by the Trump administration, set to conclude by April 20, 2025, is expected to provide clarity on PEPFAR's future priorities and broader U.S. foreign aid strategy."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.09,
+  "weighted_brier_score": 0.09,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "26ee7ca6-ca2f-5235-bf11-a320b93d3c8a",
+        "queries": [
+          "PEPFAR funding resumption news March 2025",
+          "Trump administration compliance court order PEPFAR March 2025",
+          "Congress response PEPFAR funding freeze March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"queries\": [\"PEPFAR funding resumption news March 2025\", \"Trump administration compliance court order PEPFAR March 2025\", \"Congress response PEPFAR funding freeze March 2025\"]}",
+      "tool_call_id": "call_bG8hPOmu3KNEpAx7lViWMNfW"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "PEPFAR funding resumption news March 2025",
+        "results": [
+          {
+            "title": "Impact of US funding cuts on the global HIV response | UNAIDS",
+            "link": "https://www.unaids.org/en/impact-US-funding-cuts",
+            "position": 3,
+            "snippet": "For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"PEPFAR funding resumption news March 2025\", \"results\": [{\"title\": \"Impact of US funding cuts on the global HIV response | UNAIDS\", \"link\": \"https://www.unaids.org/en/impact-US-funding-cuts\", \"position\": 3, \"snippet\": \"For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)...\", \"date\": null}]}",
+      "tool_call_id": "call_TJDh64Ul4hYGmvRUzrwzJq2s"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Trump administration compliance court order PEPFAR March 2025",
+        "results": [
+          {
+            "title": "Reevaluating And Realigning United States Foreign Aid – The White House",
+            "link": "https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/",
+            "position": 3,
+            "snippet": "Presidential order issued January 20, 2025, mandates a 90-day pause on all United States foreign development assistance for assessment of programmatic efficiencies and consistency with U.S. foreign policy...",
+            "date": "2025-01-21T01:43:20Z"
+          },
+          {
+            "title": "“Lift the Freeze”: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!",
+            "link": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "position": 5,
+            "snippet": "The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling.",
+            "date": null
+          },
+          {
+            "title": "“Lift the Freeze”: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!",
+            "link": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "position": 1,
+            "snippet": "The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling.",
+            "date": null
+          },
+          {
+            "title": "Executive and Regulatory Actions Under the Second Trump Administration | NAFSA",
+            "link": "https://www.nafsa.org/executive-and-regulatory-actions-trump2admin",
+            "position": 2,
+            "snippet": "This NAFSA page links to select executive actions by the President and administrative actions by federal agencies that relate to international education, during the Trump-Vance administration (January 20, 2025 - January 20, 2029).",
+            "date": null
+          },
+          {
+            "title": "Executive Order 14169 - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Executive_Order_14169",
+            "position": 3,
+            "snippet": "Executive Order 14169, signed by U.S. president Donald Trump, ordered a 90-day pause on all U.S. foreign development assistance programs in order to conduct a review.",
+            "date": null
+          },
+          {
+            "title": "Second preliminary injunction hits Trump admin funding freeze",
+            "link": "https://www.fiercehealthcare.com/regulatory/trump-admin-orders-temporary-pause-most-federal-financial-assistance",
+            "position": 5,
+            "snippet": "Federal judge grants preliminary injunction against Trump administration's \"temporary pause\" of congressionally appropriated and obligated federal disbursements in March 2025.",
+            "date": "2025-03-06T16:00:00Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Trump administration compliance court order PEPFAR March 2025\", \"results\": [{\"title\": \"Reevaluating And Realigning United States Foreign Aid \\u2013 The White House\", \"link\": \"https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/\", \"position\": 3, \"snippet\": \"Presidential order issued January 20, 2025, mandates a 90-day pause on all United States foreign development assistance for assessment of programmatic efficiencies and consistency with U.S. foreign policy...\", \"date\": \"2025-01-21T01:43:20Z\"}, {\"title\": \"\\u201cLift the Freeze\\u201d: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!\", \"link\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"position\": 5, \"snippet\": \"The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling.\", \"date\": null}, {\"title\": \"\\u201cLift the Freeze\\u201d: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!\", \"link\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"position\": 1, \"snippet\": \"The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling.\", \"date\": null}, {\"title\": \"Executive and Regulatory Actions Under the Second Trump Administration | NAFSA\", \"link\": \"https://www.nafsa.org/executive-and-regulatory-actions-trump2admin\", \"position\": 2, \"snippet\": \"This NAFSA page links to select executive actions by the President and administrative actions by federal agencies that relate to international education, during the Trump-Vance administration (January 20, 2025 - January 20, 2029).\", \"date\": null}, {\"title\": \"Executive Order 14169 - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Executive_Order_14169\", \"position\": 3, \"snippet\": \"Executive Order 14169, signed by U.S. president Donald Trump, ordered a 90-day pause on all U.S. foreign development assistance programs in order to conduct a review.\", \"date\": null}, {\"title\": \"Second preliminary injunction hits Trump admin funding freeze\", \"link\": \"https://www.fiercehealthcare.com/regulatory/trump-admin-orders-temporary-pause-most-federal-financial-assistance\", \"position\": 5, \"snippet\": \"Federal judge grants preliminary injunction against Trump administration's \\\"temporary pause\\\" of congressionally appropriated and obligated federal disbursements in March 2025.\", \"date\": \"2025-03-06T16:00:00Z\"}]}",
+      "tool_call_id": "call_u9nA44kRgxiQ4nSE0jDCGuPX"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Congress response PEPFAR funding freeze March 2025",
+        "results": [
+          {
+            "title": "Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch",
+            "link": "https://www.prepwatch.org/pepfar-stop-work/",
+            "position": 2,
+            "snippet": "US President issued an executive order calling for a 90-day freeze on foreign aid, leading to stop work orders on all USAID-funded grants, halting significant HIV prevention research and delivery...",
+            "date": "2025-03-26T18:44:46Z"
+          },
+          {
+            "title": "About the impact of US funding cuts on the global HIV response | UNAIDS",
+            "link": "https://www.unaids.org/en/impact-US-funding-cuts/About",
+            "position": 3,
+            "snippet": "On January 20, 2025, the U.S. Department of State announced an immediate 90-day pause for all U.S foreign assistance, including PEPFAR activities, for assessment. A waiver was later issued on February 1, 2025, allowing urgent life-saving HIV treatment services to continue.",
+            "date": null
+          },
+          {
+            "title": "Impact of US funding cuts on the global HIV response | UNAIDS",
+            "link": "https://www.unaids.org/en/impact-US-funding-cuts",
+            "position": 5,
+            "snippet": "For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)...",
+            "date": null
+          },
+          {
+            "title": "PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health",
+            "link": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "position": 1,
+            "snippet": "As of March 25, 2025, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Congress appropriated funding through the end of September via a continuing resolution...",
+            "date": null
+          },
+          {
+            "title": "Global Health Watch: NIH Challenges, PEPFAR uncertainty & the battle over foreign aid - AVAC",
+            "link": "https://avac.org/blog/global-health-watch-issue6/",
+            "position": 2,
+            "snippet": "On Wednesday, in response to the US government’s request, the Supreme Court ruled that the administration must release up to $2 billion in frozen foreign aid funding for work completed before February 13.",
+            "date": "2025-03-07T14:43:50Z"
+          },
+          {
+            "title": "By executive order: The likely deadly consequences associated with a 90‐day pause in PEPFAR funding - PMC",
+            "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11851316/",
+            "position": 4,
+            "snippet": "President Trump issued a 90-day pause on foreign aid, including PEPFAR, on January 20, 2025. While a waiver was issued for life-saving HIV care, ongoing uncertainty has disrupted critical programs. PEPFAR has historically received bipartisan support in Congress...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Congress response PEPFAR funding freeze March 2025\", \"results\": [{\"title\": \"Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch\", \"link\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"position\": 2, \"snippet\": \"US President issued an executive order calling for a 90-day freeze on foreign aid, leading to stop work orders on all USAID-funded grants, halting significant HIV prevention research and delivery...\", \"date\": \"2025-03-26T18:44:46Z\"}, {\"title\": \"About the impact of US funding cuts on the global HIV response | UNAIDS\", \"link\": \"https://www.unaids.org/en/impact-US-funding-cuts/About\", \"position\": 3, \"snippet\": \"On January 20, 2025, the U.S. Department of State announced an immediate 90-day pause for all U.S foreign assistance, including PEPFAR activities, for assessment. A waiver was later issued on February 1, 2025, allowing urgent life-saving HIV treatment services to continue.\", \"date\": null}, {\"title\": \"Impact of US funding cuts on the global HIV response | UNAIDS\", \"link\": \"https://www.unaids.org/en/impact-US-funding-cuts\", \"position\": 5, \"snippet\": \"For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)...\", \"date\": null}, {\"title\": \"PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health\", \"link\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"position\": 1, \"snippet\": \"As of March 25, 2025, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Congress appropriated funding through the end of September via a continuing resolution...\", \"date\": null}, {\"title\": \"Global Health Watch: NIH Challenges, PEPFAR uncertainty & the battle over foreign aid - AVAC\", \"link\": \"https://avac.org/blog/global-health-watch-issue6/\", \"position\": 2, \"snippet\": \"On Wednesday, in response to the US government\\u2019s request, the Supreme Court ruled that the administration must release up to $2 billion in frozen foreign aid funding for work completed before February 13.\", \"date\": \"2025-03-07T14:43:50Z\"}, {\"title\": \"By executive order: The likely deadly consequences associated with a 90\\u2010day pause in PEPFAR funding - PMC\", \"link\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11851316/\", \"position\": 4, \"snippet\": \"President Trump issued a 90-day pause on foreign aid, including PEPFAR, on January 20, 2025. While a waiver was issued for life-saving HIV care, ongoing uncertainty has disrupted critical programs. PEPFAR has historically received bipartisan support in Congress...\", \"date\": null}]}",
+      "tool_call_id": "call_5uaTYO4fOHid8rqVvEVCNf8P"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+        "snippet": "---\ntitle: “Lift the Freeze”: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts\nurl: https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\nhostname: democracynow.org\ndescription: The Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court’s three liberal justices in the majority. However, the court’s decision did not specify when the money must be released, allowing Trump’s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration’s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, “for no good reason and with no clear strategy,” was an unlawful “abuse of executive power,” says attorney Nicolas Sansone, who serves as counsel for the plaintiff. “People will die,” adds Mitchell Warren, the executive director of AVAC. Warren condemns the “willful ignorance” and “disregard of science” being promoted by Trump and his allies, many of whom are former supporters of bipartisan global health initiatives.\nsitename: Democracy Now!\ndate: 2025-03-06\n---\n##### Topics\n\n##### Guests\n\n[Nicolas Sansone](https://www.democracynow.org/appearances/nicolas_sansone)attorney at Public Citizen Litigation Group.[Mitchell Warren](https://www.democracynow.org/appearances/mitchell_warren)executive director of the AIDS Vaccine Advocacy Coalition.\n\nThe Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court’s three liberal justices in the majority. However, the court’s decision did not specify when the money must be released, allowing Trump’s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration’s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, “for no good reason and with no clear strategy,” was an unlawful “abuse of executive power,” says attorney Nicolas Sansone, who serves as counsel for the plaintiff. “People will die,” adds Mitchell War…\n\n[Truncated preview: showing 354 words out of ~3102. Full content available via `btf_extract_evidence`.]",
+        "word_count": 3102,
+        "snippet_word_count": 354,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T22:59:10.845374",
+        "date_cutoff_end": "2025-03-27T22:59:10.845374",
+        "cached_at": "2025-10-24T03:47:12.388323"
+      },
+      "raw": "{\"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"snippet\": \"---\\ntitle: \\u201cLift the Freeze\\u201d: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts\\nurl: https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\\nhostname: democracynow.org\\ndescription: The Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court\\u2019s three liberal justices in the majority. However, the court\\u2019s decision did not specify when the money must be released, allowing Trump\\u2019s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration\\u2019s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, \\u201cfor no good reason and with no clear strategy,\\u201d was an unlawful \\u201cabuse of executive power,\\u201d says attorney Nicolas Sansone, who serves as counsel for the plaintiff. \\u201cPeople will die,\\u201d adds Mitchell Warren, the executive director of AVAC. Warren condemns the \\u201cwillful ignorance\\u201d and \\u201cdisregard of science\\u201d being promoted by Trump and his allies, many of whom are former supporters of bipartisan global health initiatives.\\nsitename: Democracy Now!\\ndate: 2025-03-06\\n---\\n##### Topics\\n\\n##### Guests\\n\\n[Nicolas Sansone](https://www.democracynow.org/appearances/nicolas_sansone)attorney at Public Citizen Litigation Group.[Mitchell Warren](https://www.democracynow.org/appearances/mitchell_warren)executive director of the AIDS Vaccine Advocacy Coalition.\\n\\nThe Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court\\u2019s three liberal justices in the majority. However, the court\\u2019s decision did not specify when the money must be released, allowing Trump\\u2019s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration\\u2019s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, \\u201cfor no good reason and with no clear strategy,\\u201d was an unlawful \\u201cabuse of executive power,\\u201d says attorney Nicolas Sansone, who serves as counsel for the plaintiff. \\u201cPeople will die,\\u201d adds Mitchell War\\u2026\\n\\n[Truncated preview: showing 354 words out of ~3102. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3102, \"snippet_word_count\": 354, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T22:59:10.845374\", \"date_cutoff_end\": \"2025-03-27T22:59:10.845374\", \"cached_at\": \"2025-10-24T03:47:12.388323\"}",
+      "tool_call_id": "call_LRk2LWuULaLdFDFVg7FvdwqY"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.prepwatch.org/pepfar-stop-work/",
+        "snippet": "---\ntitle: Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch\nurl: https://www.prepwatch.org/pepfar-stop-work/\nhostname: prepwatch.org\nsitename: PrEPWatch\ndate: 2025-03-26\n---\n# Impact of PEPFAR Stop Work Orders on PrEP\n\n## Forthcoming Intro Text\n\nPok pok polaroid cardigan, cray keytar food truck meh raw denim leggings vinyl direct trade humblebrag. Mumblecore knausgaard four dollar toast raw denim, chia raclette semiotics sartorial jianbing wolf banjo. Marfa kickstarter flannel chambray. Messenger bag four loko DIY hella, prism tousled pok pok vape gentrify umami paleo cornhole biodiesel deep v put a bird on it. YOLO lomo chambray sustainable tofu DIY stumptown, cardigan narwhal. Viral brooklyn flannel blog. Cronut lomo humblebrag, snackwave schlitz helvetica pug fixie portland brooklyn meggings locavore tote bag.\n\nA downloadable PDF version of this section of the website is available. [Click here.](https://www.prepwatch.org/wp-content/uploads/2025/03/Impact-of-Stop-Work-Order-250325.pdf)\n\n## Programmatic Supply of Injectable PrEP\n\n*As of March 2025*\n\n## Botswana |\n|\n## Eswatini |\n|\n## Malawi |\n|\n## Mozambique |\n|\n## Namibia |\n|\n## South Africa |\n|\n## Ukraine |\n|\n## Zambia |\n|\n## Zimbabwe |\n|\n\n[→ Click here for full details on the impact to CAB rollout](https://www.prepwatch.org/cab-supply/)\n\n#### What Just Happened?\n\n**January 20:**US President issued an[executive order](https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/)calling for a 90-day freeze on foreign aid**January 27:**Stop work orders issued on all USAID-funded grants, halting significant proportion of HIV prevention research and delivery across the world**February 1:**[Limited waiver announced](https://www.unaids.org/sites/default/files/media_asset/GHSD_PEPFAR-Limited-Waiver-Approved-Activities.pdf)for PEPFAR activities, though it does not cover any HIV prevention activities outside of vertical transmission**February 26-28:**Despite waiver and a judicial[temporary restraining order](https://avac.org/press-release/critical-win-in-lawsuit/)against the freeze, the vast majority of USAID-funded programs received terminations; confusion remains\n\nImpact to date has already been significant, as quantified in the [PEPFAR Impact Tracker](https://pepfarimpact.vercel.app/) and documented by [PEPFAR Watch](https://pepfarwatch.org/wp-content/uploads/2025/02/Update-1-Deadly-Pause.pdf), [amfAR](https://www.amfar.org/wp-content/uploads/2025/02/Most…\n\n[Truncated preview: showing 285 words out of ~529. Full content available via `btf_extract_evidence`.]",
+        "word_count": 529,
+        "snippet_word_count": 285,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T22:59:10.845374",
+        "date_cutoff_end": "2025-03-27T22:59:10.845374",
+        "cached_at": "2025-10-24T03:47:12.911031"
+      },
+      "raw": "{\"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"snippet\": \"---\\ntitle: Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch\\nurl: https://www.prepwatch.org/pepfar-stop-work/\\nhostname: prepwatch.org\\nsitename: PrEPWatch\\ndate: 2025-03-26\\n---\\n# Impact of PEPFAR Stop Work Orders on PrEP\\n\\n## Forthcoming Intro Text\\n\\nPok pok polaroid cardigan, cray keytar food truck meh raw denim leggings vinyl direct trade humblebrag. Mumblecore knausgaard four dollar toast raw denim, chia raclette semiotics sartorial jianbing wolf banjo. Marfa kickstarter flannel chambray. Messenger bag four loko DIY hella, prism tousled pok pok vape gentrify umami paleo cornhole biodiesel deep v put a bird on it. YOLO lomo chambray sustainable tofu DIY stumptown, cardigan narwhal. Viral brooklyn flannel blog. Cronut lomo humblebrag, snackwave schlitz helvetica pug fixie portland brooklyn meggings locavore tote bag.\\n\\nA downloadable PDF version of this section of the website is available. [Click here.](https://www.prepwatch.org/wp-content/uploads/2025/03/Impact-of-Stop-Work-Order-250325.pdf)\\n\\n## Programmatic Supply of Injectable PrEP\\n\\n*As of March 2025*\\n\\n## Botswana |\\n|\\n## Eswatini |\\n|\\n## Malawi |\\n|\\n## Mozambique |\\n|\\n## Namibia |\\n|\\n## South Africa |\\n|\\n## Ukraine |\\n|\\n## Zambia |\\n|\\n## Zimbabwe |\\n|\\n\\n[\\u2192 Click here for full details on the impact to CAB rollout](https://www.prepwatch.org/cab-supply/)\\n\\n#### What Just Happened?\\n\\n**January 20:**US President issued an[executive order](https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/)calling for a 90-day freeze on foreign aid**January 27:**Stop work orders issued on all USAID-funded grants, halting significant proportion of HIV prevention research and delivery across the world**February 1:**[Limited waiver announced](https://www.unaids.org/sites/default/files/media_asset/GHSD_PEPFAR-Limited-Waiver-Approved-Activities.pdf)for PEPFAR activities, though it does not cover any HIV prevention activities outside of vertical transmission**February 26-28:**Despite waiver and a judicial[temporary restraining order](https://avac.org/press-release/critical-win-in-lawsuit/)against the freeze, the vast majority of USAID-funded programs received terminations; confusion remains\\n\\nImpact to date has already been significant, as quantified in the [PEPFAR Impact Tracker](https://pepfarimpact.vercel.app/) and documented by [PEPFAR Watch](https://pepfarwatch.org/wp-content/uploads/2025/02/Update-1-Deadly-Pause.pdf), [amfAR](https://www.amfar.org/wp-content/uploads/2025/02/Most\\u2026\\n\\n[Truncated preview: showing 285 words out of ~529. Full content available via `btf_extract_evidence`.]\", \"word_count\": 529, \"snippet_word_count\": 285, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T22:59:10.845374\", \"date_cutoff_end\": \"2025-03-27T22:59:10.845374\", \"cached_at\": \"2025-10-24T03:47:12.911031\"}",
+      "tool_call_id": "call_pxbK3VZh3sE81cpcr3PjQbGM"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+        "snippet": "---\ntitle: PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health\nurl: https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\nhostname: thinkglobalhealth.org\ndescription: The expiration of PEPFAR's authorization could mark a pivotal shift in the HIV/AIDS response\nsitename: Think Global Health\ndate: 2025-03-26\n---\nFor more than two decades, the President's Emergency Plan for AIDS Relief (PEPFAR) has been a global health success story, [credited with saving](https://www.state.gov/pepfar-latest-global-results-factsheet-dec-2024/) more than 26 million lives and providing HIV treatment for more than 20 million people.\n\nAs of March 25, 2025, however, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Prior to 2024, bipartisan support had secured five-year reauthorizations in 2008, 2013, and 2018. Last year, Congress allowed only a [one-year authorization](https://www.thinkglobalhealth.org/article/pepfar-hiv-program-gets-yearlong-lifeline-whats-next) as political strife engulfed PEPFAR.\n\nWithout reauthorization, PEPFAR sits in purgatory—even though Congress appropriated funding through the end of September via the continuing resolution that [passed this month](https://www.kff.org/global-health-policy/fact-sheet/congress-passes-full-year-continuing-resolution-bill-maintaining-global-health-funding-at-prior-year-levels/). The expiration of its authorization introduces deep uncertainty about its long-term future, meaning that officials could now terminate or significantly curtail PEPFAR at any time.\n\nHealth ministries, implementing partners, and community-based organizations across PEPFAR-supported countries must try to deliver lifesaving care without the stability that long-term U.S. commitments once provided. At the same time, structural questions remain about how the State Department will operate PEPFAR amid [reported](https://www.devex.com/news/memo-lays-out-plan-to-replace-usaid-with-new-humanitarian-agency-109685) proposals to create a new U.S. Agency for International Humanitarian Assistance. The question now is not just whether PEPFAR will continue, but also how it must evolve to remain effective in a drastically reshaped foreign aid landscape.\n\n#### A Moment of Political Paralysis and Global Consequences\n\nThe expiration of PEPFAR's authorization is a symptom of a broader shift in U.S. foreign assistance policy. For nearly 2…\n\n[Truncated preview: showing 280 words out of ~1483. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1483,
+        "snippet_word_count": 280,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-26T22:59:10.845374",
+        "date_cutoff_end": "2025-03-27T22:59:10.845374",
+        "cached_at": "2025-10-24T03:47:13.420778"
+      },
+      "raw": "{\"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"snippet\": \"---\\ntitle: PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health\\nurl: https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\\nhostname: thinkglobalhealth.org\\ndescription: The expiration of PEPFAR's authorization could mark a pivotal shift in the HIV/AIDS response\\nsitename: Think Global Health\\ndate: 2025-03-26\\n---\\nFor more than two decades, the President's Emergency Plan for AIDS Relief (PEPFAR) has been a global health success story, [credited with saving](https://www.state.gov/pepfar-latest-global-results-factsheet-dec-2024/) more than 26 million lives and providing HIV treatment for more than 20 million people.\\n\\nAs of March 25, 2025, however, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Prior to 2024, bipartisan support had secured five-year reauthorizations in 2008, 2013, and 2018. Last year, Congress allowed only a [one-year authorization](https://www.thinkglobalhealth.org/article/pepfar-hiv-program-gets-yearlong-lifeline-whats-next) as political strife engulfed PEPFAR.\\n\\nWithout reauthorization, PEPFAR sits in purgatory\\u2014even though Congress appropriated funding through the end of September via the continuing resolution that [passed this month](https://www.kff.org/global-health-policy/fact-sheet/congress-passes-full-year-continuing-resolution-bill-maintaining-global-health-funding-at-prior-year-levels/). The expiration of its authorization introduces deep uncertainty about its long-term future, meaning that officials could now terminate or significantly curtail PEPFAR at any time.\\n\\nHealth ministries, implementing partners, and community-based organizations across PEPFAR-supported countries must try to deliver lifesaving care without the stability that long-term U.S. commitments once provided. At the same time, structural questions remain about how the State Department will operate PEPFAR amid [reported](https://www.devex.com/news/memo-lays-out-plan-to-replace-usaid-with-new-humanitarian-agency-109685) proposals to create a new U.S. Agency for International Humanitarian Assistance. The question now is not just whether PEPFAR will continue, but also how it must evolve to remain effective in a drastically reshaped foreign aid landscape.\\n\\n#### A Moment of Political Paralysis and Global Consequences\\n\\nThe expiration of PEPFAR's authorization is a symptom of a broader shift in U.S. foreign assistance policy. For nearly 2\\u2026\\n\\n[Truncated preview: showing 280 words out of ~1483. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1483, \"snippet_word_count\": 280, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T22:59:10.845374\", \"date_cutoff_end\": \"2025-03-27T22:59:10.845374\", \"cached_at\": \"2025-10-24T03:47:13.420778\"}",
+      "tool_call_id": "call_lQ4sdrP5qp3hV4rFrJ0HgQY8"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "26ee7ca6-ca2f-5235-bf11-a320b93d3c8a",
+        "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+        "facts": [
+          {
+            "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "fact": "The Supreme Court rejected a request by the Trump administration to continue freezing nearly $2 billion in foreign aid, including PEPFAR funding."
+          },
+          {
+            "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "fact": "The court's decision did not specify when the money must be released, allowing further disputes in lower courts."
+          },
+          {
+            "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "fact": "Judge Amir Ali has ordered the Trump administration to comply with a temporary restraining order to lift the foreign assistance freeze."
+          },
+          {
+            "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "fact": "The Trump administration has not yet taken steps to comply with the court order to resume funding."
+          },
+          {
+            "title": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "url": "https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen",
+            "fact": "Mitchell Warren, executive director of the AIDS Vaccine Advocacy Coalition, emphasized the critical impact of the funding freeze on global health programs, including PEPFAR."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"facts\": [{\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"The Supreme Court rejected a request by the Trump administration to continue freezing nearly $2 billion in foreign aid, including PEPFAR funding.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"The court's decision did not specify when the money must be released, allowing further disputes in lower courts.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"Judge Amir Ali has ordered the Trump administration to comply with a temporary restraining order to lift the foreign assistance freeze.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"The Trump administration has not yet taken steps to comply with the court order to resume funding.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"Mitchell Warren, executive director of the AIDS Vaccine Advocacy Coalition, emphasized the critical impact of the funding freeze on global health programs, including PEPFAR.\"}]}",
+      "tool_call_id": "call_EvlLQxEnKHYWsIwfqaHdkg1q"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "26ee7ca6-ca2f-5235-bf11-a320b93d3c8a",
+        "url": "https://www.prepwatch.org/pepfar-stop-work/",
+        "facts": [
+          {
+            "title": "https://www.prepwatch.org/pepfar-stop-work/",
+            "url": "https://www.prepwatch.org/pepfar-stop-work/",
+            "fact": "As of March 2025, the vast majority of USAID-funded programs, including PEPFAR, have received termination notices despite a limited waiver for some activities."
+          },
+          {
+            "title": "https://www.prepwatch.org/pepfar-stop-work/",
+            "url": "https://www.prepwatch.org/pepfar-stop-work/",
+            "fact": "A limited waiver was announced for PEPFAR activities, but it does not cover any HIV prevention activities outside of vertical transmission."
+          },
+          {
+            "title": "https://www.prepwatch.org/pepfar-stop-work/",
+            "url": "https://www.prepwatch.org/pepfar-stop-work/",
+            "fact": "The impact of the PEPFAR stop-work orders on HIV prevention outcomes is expected to be severe, with potential increases in AIDS deaths and HIV incidence rates."
+          },
+          {
+            "title": "https://www.prepwatch.org/pepfar-stop-work/",
+            "url": "https://www.prepwatch.org/pepfar-stop-work/",
+            "fact": "84% of 65 implementing partners reported disruption to PrEP service delivery following the stop-work order."
+          },
+          {
+            "title": "https://www.prepwatch.org/pepfar-stop-work/",
+            "url": "https://www.prepwatch.org/pepfar-stop-work/",
+            "fact": "Organizations delivering HIV services not covered by the PEPFAR waiver are unlikely to survive the 90-day freeze, threatening the national and global HIV response."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"facts\": [{\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"As of March 2025, the vast majority of USAID-funded programs, including PEPFAR, have received termination notices despite a limited waiver for some activities.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"A limited waiver was announced for PEPFAR activities, but it does not cover any HIV prevention activities outside of vertical transmission.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"The impact of the PEPFAR stop-work orders on HIV prevention outcomes is expected to be severe, with potential increases in AIDS deaths and HIV incidence rates.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"84% of 65 implementing partners reported disruption to PrEP service delivery following the stop-work order.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"Organizations delivering HIV services not covered by the PEPFAR waiver are unlikely to survive the 90-day freeze, threatening the national and global HIV response.\"}]}",
+      "tool_call_id": "call_6wqpOrnxoWvS9VOrxmKwBJHr"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "26ee7ca6-ca2f-5235-bf11-a320b93d3c8a",
+        "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+        "facts": [
+          {
+            "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "fact": "As of March 25, 2025, PEPFAR's congressional reauthorization has expired, creating uncertainty about its future."
+          },
+          {
+            "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "fact": "The Trump administration's Executive Order 14169, issued on January 20, 2025, paused all U.S. foreign assistance programs for a 90-day review, affecting PEPFAR."
+          },
+          {
+            "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "fact": "The expiration of PEPFAR's authorization means that its programs can continue under annual appropriations, but without a long-term legislative framework."
+          },
+          {
+            "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "fact": "The World Health Organization warned that eight countries could face potential HIV medication shortages due to USAID cuts, highlighting the impact of funding instability."
+          },
+          {
+            "title": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "url": "https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight",
+            "fact": "The ongoing 90-day review by the Trump administration, set to conclude by April 20, 2025, is expected to provide clarity on PEPFAR's future priorities and broader U.S. foreign aid strategy."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"facts\": [{\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"As of March 25, 2025, PEPFAR's congressional reauthorization has expired, creating uncertainty about its future.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The Trump administration's Executive Order 14169, issued on January 20, 2025, paused all U.S. foreign assistance programs for a 90-day review, affecting PEPFAR.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The expiration of PEPFAR's authorization means that its programs can continue under annual appropriations, but without a long-term legislative framework.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The World Health Organization warned that eight countries could face potential HIV medication shortages due to USAID cuts, highlighting the impact of funding instability.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The ongoing 90-day review by the Trump administration, set to conclude by April 20, 2025, is expected to provide clarity on PEPFAR's future priorities and broader U.S. foreign aid strategy.\"}]}",
+      "tool_call_id": "call_mL1oWCKIbDAv2W89O4AV4l2Y"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will PEPFAR funding be resumed before April 7, 2025?\nBackground: PEPFAR, the President's Emergency Plan For AIDS Relief, is a United States governmental initiative to address the global HIV/AIDS epidemic. Launched by U.S. President George W. Bush in 2003, [as of April 2024](https://www.kff.org/global-health-policy/fact-sheet/the-u-s-presidents-emergency-plan-for-aids-relief-pepfar/) PEPFAR had provided about \\$120 billion in cumulative funding for HIV/AIDS treatment, prevention, and research since its inception, making it the largest global health program focused on a single disease in history until the COVID-19 pandemic. PEPFAR [has saved](https://theconversation.com/pepfar-funding-to-fight-hiv-aids-has-saved-26-million-lives-since-2003-how-cutting-it-will-hurt-africa-250413) over 26 million lives, primarily in Sub-Saharan Africa.\n\nOn January 20, 2025, President Donald J. Trump [signed](https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/) an executive order pausing for 90 days new foreign aid disbursements [including for the PEPFAR program](https://www.kff.org/policy-watch/the-status-of-president-trumps-pause-of-foreign-aid-and-implications-for-pepfar-and-other-global-health-programs/), pending a review of all foreign assistance programs. On February 13, 2025, federal judge Amir Ali [ordered](https://www.nbcnews.com/politics/politics-news/judge-orders-trump-administration-reinstate-foreign-aid-funding-now-rcna192168) the Trump Administration to resume foreign aid programs in place before Trump's inauguration. On February 20, 2025, Judge Ali [ruled](https://www.nbcnews.com/politics/trump-administration/trump-administration-not-complying-foreign-aid-amir-ali-rcna193092) that the Trump Administration was not fully in compliance with the order.\n\nAfter a long bipartisan consensus about the program's usefulness, in recent years PEPFAR has faced [increased opposition](https://rollcall.com/2023/09/21/pepfar-reauthorization-debate-highlights-splits-in-gop/) in the US Congress, particularly from members of the Republican Party. In 2024 PEPFAR [received](https://www.kff.org/policy-watch/pepfars-short-term-reauthorization-sets-an-uncertain-course-for-its-long-term-future/) temporary reauthorization from Congress amid the increasing opposition. See for example [this report](https://www.heritage.org/budget-and-spending/report/reassessing-americas-30-billion-global-aids-relief-program) from the Heritage Foundation.\n\nAccording to [The Conversation](https://theconversation.com/pepfar-funding-to-fight-hiv-aids-has-saved-26-million-lives-since-2003-how-cutting-it-will-hurt-africa-250413) on March 4, 2025:&#x20;\n\n> \\[A]s of this writing, despite a [court order](https://www.courtlistener.com/docket/69628254/21/global-health-council-v-donald-j-trump/) to resume funding, it remains entirely frozen, and most programmes are still shut down. The day after the court ordered the government to pay [nearly US\\$2 billion](https://www.washingtonpost.com/nation/2025/02/25/usaid-funding-trump-administration-court/) it owes organisations for work already done, the administration revealed that it had terminated the vast majority of foreign assistance awards, [including some for Pepfar](https://www.nytimes.com/2025/02/26/us/politics/trump-usaid-foreign-aid.html). Details have not been made public. Meanwhile, the [US Supreme Court put a short-term pause](https://www.nytimes.com/2025/02/26/us/politics/trump-usaid-foreign-aid.html) on the lower court’s order to immediately pay the money already owed.\nResolution criteria: This question will resolve as **Yes** if, before April 7, 2025, [credible sources](https://www.metaculus.com/faq/#definitions) report that funding for the United States President’s Emergency Plan for AIDS Relief (PEPFAR), which is frozen ([NYT](https://www.nytimes.com/2025/01/24/us/politics/trump-hiv-aids-pepfar.html), [JIAS](https://pmc.ncbi.nlm.nih.gov/articles/PMC11851316/), [Politico](https://www.politico.com/live-updates/2025/03/05/congress/graham-warns-trumps-budget-pick-about-going-too-far-with-funding-freeze-00213662)) at the time of this question, has resumed. If a partial resumption takes place, this question will resolve as **Yes** PEPFAR's funding levels are at least 50% of pre-pause funding.\nFine print: An announcement that funding *will* resume will only resolve this question if the date of the resumption is before April 7, 2025 and no credible sources as of that date suggest that funding remains paused.&#x20;\npresent_date: 2025-03-26T22:59:10.845374\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_bG8hPOmu3KNEpAx7lViWMNfW",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will PEPFAR funding be resumed before April 7, 2025?\",\"background\":\"PEPFAR, the President's Emergency Plan For AIDS Relief, is a United States governmental initiative to address the global HIV/AIDS epidemic. Launched by U.S. President George W. Bush in 2003, PEPFAR had provided about $120 billion in cumulative funding for HIV/AIDS treatment, prevention, and research since its inception, making it the largest global health program focused on a single disease in history until the COVID-19 pandemic. PEPFAR has saved over 26 million lives, primarily in Sub-Saharan Africa. On January 20, 2025, President Donald J. Trump signed an executive order pausing for 90 days new foreign aid disbursements including for the PEPFAR program, pending a review of all foreign assistance programs. On February 13, 2025, federal judge Amir Ali ordered the Trump Administration to resume foreign aid programs in place before Trump's inauguration. On February 20, 2025, Judge Ali ruled that the Trump Administration was not fully in compliance with the order. After a long bipartisan consensus about the program's usefulness, in recent years PEPFAR has faced increased opposition in the US Congress, particularly from members of the Republican Party. In 2024 PEPFAR received temporary reauthorization from Congress amid the increasing opposition.\",\"resolution_criteria\":\"This question will resolve as Yes if, before April 7, 2025, credible sources report that funding for the United States President’s Emergency Plan for AIDS Relief (PEPFAR), which is frozen at the time of this question, has resumed. If a partial resumption takes place, this question will resolve as Yes if PEPFAR's funding levels are at least 50% of pre-pause funding.\",\"fine_print\":\"An announcement that funding will resume will only resolve this question if the date of the resumption is before April 7, 2025 and no credible sources as of that date suggest that funding remains paused.\",\"present_date\":\"2025-03-26T22:59:10.845374\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"queries\": [\"PEPFAR funding resumption news March 2025\", \"Trump administration compliance court order PEPFAR March 2025\", \"Congress response PEPFAR funding freeze March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_bG8hPOmu3KNEpAx7lViWMNfW"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_TJDh64Ul4hYGmvRUzrwzJq2s",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"PEPFAR funding resumption news March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-26\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_u9nA44kRgxiQ4nSE0jDCGuPX",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Trump administration compliance court order PEPFAR March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-26\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_5uaTYO4fOHid8rqVvEVCNf8P",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Congress response PEPFAR funding freeze March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-26\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"PEPFAR funding resumption news March 2025\", \"results\": [{\"title\": \"Impact of US funding cuts on the global HIV response | UNAIDS\", \"link\": \"https://www.unaids.org/en/impact-US-funding-cuts\", \"position\": 3, \"snippet\": \"For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_TJDh64Ul4hYGmvRUzrwzJq2s"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Trump administration compliance court order PEPFAR March 2025\", \"results\": [{\"title\": \"Reevaluating And Realigning United States Foreign Aid \\u2013 The White House\", \"link\": \"https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/\", \"position\": 3, \"snippet\": \"Presidential order issued January 20, 2025, mandates a 90-day pause on all United States foreign development assistance for assessment of programmatic efficiencies and consistency with U.S. foreign policy...\", \"date\": \"2025-01-21T01:43:20Z\"}, {\"title\": \"\\u201cLift the Freeze\\u201d: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!\", \"link\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"position\": 5, \"snippet\": \"The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling.\", \"date\": null}, {\"title\": \"\\u201cLift the Freeze\\u201d: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts | Democracy Now!\", \"link\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"position\": 1, \"snippet\": \"The Supreme Court rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, in a March 2025 ruling.\", \"date\": null}, {\"title\": \"Executive and Regulatory Actions Under the Second Trump Administration | NAFSA\", \"link\": \"https://www.nafsa.org/executive-and-regulatory-actions-trump2admin\", \"position\": 2, \"snippet\": \"This NAFSA page links to select executive actions by the President and administrative actions by federal agencies that relate to international education, during the Trump-Vance administration (January 20, 2025 - January 20, 2029).\", \"date\": null}, {\"title\": \"Executive Order 14169 - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Executive_Order_14169\", \"position\": 3, \"snippet\": \"Executive Order 14169, signed by U.S. president Donald Trump, ordered a 90-day pause on all U.S. foreign development assistance programs in order to conduct a review.\", \"date\": null}, {\"title\": \"Second preliminary injunction hits Trump admin funding freeze\", \"link\": \"https://www.fiercehealthcare.com/regulatory/trump-admin-orders-temporary-pause-most-federal-financial-assistance\", \"position\": 5, \"snippet\": \"Federal judge grants preliminary injunction against Trump administration's \\\"temporary pause\\\" of congressionally appropriated and obligated federal disbursements in March 2025.\", \"date\": \"2025-03-06T16:00:00Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_u9nA44kRgxiQ4nSE0jDCGuPX"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Congress response PEPFAR funding freeze March 2025\", \"results\": [{\"title\": \"Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch\", \"link\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"position\": 2, \"snippet\": \"US President issued an executive order calling for a 90-day freeze on foreign aid, leading to stop work orders on all USAID-funded grants, halting significant HIV prevention research and delivery...\", \"date\": \"2025-03-26T18:44:46Z\"}, {\"title\": \"About the impact of US funding cuts on the global HIV response | UNAIDS\", \"link\": \"https://www.unaids.org/en/impact-US-funding-cuts/About\", \"position\": 3, \"snippet\": \"On January 20, 2025, the U.S. Department of State announced an immediate 90-day pause for all U.S foreign assistance, including PEPFAR activities, for assessment. A waiver was later issued on February 1, 2025, allowing urgent life-saving HIV treatment services to continue.\", \"date\": null}, {\"title\": \"Impact of US funding cuts on the global HIV response | UNAIDS\", \"link\": \"https://www.unaids.org/en/impact-US-funding-cuts\", \"position\": 5, \"snippet\": \"For more than two decades, the United States Government has been a steadfast leader in the global HIV response through the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)...\", \"date\": null}, {\"title\": \"PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health\", \"link\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"position\": 1, \"snippet\": \"As of March 25, 2025, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Congress appropriated funding through the end of September via a continuing resolution...\", \"date\": null}, {\"title\": \"Global Health Watch: NIH Challenges, PEPFAR uncertainty & the battle over foreign aid - AVAC\", \"link\": \"https://avac.org/blog/global-health-watch-issue6/\", \"position\": 2, \"snippet\": \"On Wednesday, in response to the US government\\u2019s request, the Supreme Court ruled that the administration must release up to $2 billion in frozen foreign aid funding for work completed before February 13.\", \"date\": \"2025-03-07T14:43:50Z\"}, {\"title\": \"By executive order: The likely deadly consequences associated with a 90\\u2010day pause in PEPFAR funding - PMC\", \"link\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11851316/\", \"position\": 4, \"snippet\": \"President Trump issued a 90-day pause on foreign aid, including PEPFAR, on January 20, 2025. While a waiver was issued for life-saving HIV care, ongoing uncertainty has disrupted critical programs. PEPFAR has historically received bipartisan support in Congress...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_5uaTYO4fOHid8rqVvEVCNf8P"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_LRk2LWuULaLdFDFVg7FvdwqY",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-26\"}"
+          }
+        },
+        {
+          "id": "call_pxbK3VZh3sE81cpcr3PjQbGM",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-26\"}"
+          }
+        },
+        {
+          "id": "call_lQ4sdrP5qp3hV4rFrJ0HgQY8",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-26\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"snippet\": \"---\\ntitle: \\u201cLift the Freeze\\u201d: HIV/AIDS Advocates Win Supreme Court Victory in Fight over Trump Foreign Aid Cuts\\nurl: https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\\nhostname: democracynow.org\\ndescription: The Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court\\u2019s three liberal justices in the majority. However, the court\\u2019s decision did not specify when the money must be released, allowing Trump\\u2019s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration\\u2019s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, \\u201cfor no good reason and with no clear strategy,\\u201d was an unlawful \\u201cabuse of executive power,\\u201d says attorney Nicolas Sansone, who serves as counsel for the plaintiff. \\u201cPeople will die,\\u201d adds Mitchell Warren, the executive director of AVAC. Warren condemns the \\u201cwillful ignorance\\u201d and \\u201cdisregard of science\\u201d being promoted by Trump and his allies, many of whom are former supporters of bipartisan global health initiatives.\\nsitename: Democracy Now!\\ndate: 2025-03-06\\n---\\n##### Topics\\n\\n##### Guests\\n\\n[Nicolas Sansone](https://www.democracynow.org/appearances/nicolas_sansone)attorney at Public Citizen Litigation Group.[Mitchell Warren](https://www.democracynow.org/appearances/mitchell_warren)executive director of the AIDS Vaccine Advocacy Coalition.\\n\\nThe Supreme Court has rejected a request by the Trump administration to continue refusing to pay out nearly $2 billion for work completed by USAID, with Chief Justice John Roberts and Justice Amy Coney Barrett joining the court\\u2019s three liberal justices in the majority. However, the court\\u2019s decision did not specify when the money must be released, allowing Trump\\u2019s team to further dispute the issue in lower courts. We speak to two people involved in the lawsuit brought by the AIDS Vaccine Advocacy Coalition, or AVAC. The Trump administration\\u2019s decision to unilaterally slash foreign assistance, including funding critical to stop the spread of HIV/AIDS, \\u201cfor no good reason and with no clear strategy,\\u201d was an unlawful \\u201cabuse of executive power,\\u201d says attorney Nicolas Sansone, who serves as counsel for the plaintiff. \\u201cPeople will die,\\u201d adds Mitchell War\\u2026\\n\\n[Truncated preview: showing 354 words out of ~3102. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3102, \"snippet_word_count\": 354, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T22:59:10.845374\", \"date_cutoff_end\": \"2025-03-27T22:59:10.845374\", \"cached_at\": \"2025-10-24T03:47:12.388323\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_LRk2LWuULaLdFDFVg7FvdwqY"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"snippet\": \"---\\ntitle: Impact of PEPFAR Stop Work Orders on PrEP - PrEPWatch\\nurl: https://www.prepwatch.org/pepfar-stop-work/\\nhostname: prepwatch.org\\nsitename: PrEPWatch\\ndate: 2025-03-26\\n---\\n# Impact of PEPFAR Stop Work Orders on PrEP\\n\\n## Forthcoming Intro Text\\n\\nPok pok polaroid cardigan, cray keytar food truck meh raw denim leggings vinyl direct trade humblebrag. Mumblecore knausgaard four dollar toast raw denim, chia raclette semiotics sartorial jianbing wolf banjo. Marfa kickstarter flannel chambray. Messenger bag four loko DIY hella, prism tousled pok pok vape gentrify umami paleo cornhole biodiesel deep v put a bird on it. YOLO lomo chambray sustainable tofu DIY stumptown, cardigan narwhal. Viral brooklyn flannel blog. Cronut lomo humblebrag, snackwave schlitz helvetica pug fixie portland brooklyn meggings locavore tote bag.\\n\\nA downloadable PDF version of this section of the website is available. [Click here.](https://www.prepwatch.org/wp-content/uploads/2025/03/Impact-of-Stop-Work-Order-250325.pdf)\\n\\n## Programmatic Supply of Injectable PrEP\\n\\n*As of March 2025*\\n\\n## Botswana |\\n|\\n## Eswatini |\\n|\\n## Malawi |\\n|\\n## Mozambique |\\n|\\n## Namibia |\\n|\\n## South Africa |\\n|\\n## Ukraine |\\n|\\n## Zambia |\\n|\\n## Zimbabwe |\\n|\\n\\n[\\u2192 Click here for full details on the impact to CAB rollout](https://www.prepwatch.org/cab-supply/)\\n\\n#### What Just Happened?\\n\\n**January 20:**US President issued an[executive order](https://www.whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/)calling for a 90-day freeze on foreign aid**January 27:**Stop work orders issued on all USAID-funded grants, halting significant proportion of HIV prevention research and delivery across the world**February 1:**[Limited waiver announced](https://www.unaids.org/sites/default/files/media_asset/GHSD_PEPFAR-Limited-Waiver-Approved-Activities.pdf)for PEPFAR activities, though it does not cover any HIV prevention activities outside of vertical transmission**February 26-28:**Despite waiver and a judicial[temporary restraining order](https://avac.org/press-release/critical-win-in-lawsuit/)against the freeze, the vast majority of USAID-funded programs received terminations; confusion remains\\n\\nImpact to date has already been significant, as quantified in the [PEPFAR Impact Tracker](https://pepfarimpact.vercel.app/) and documented by [PEPFAR Watch](https://pepfarwatch.org/wp-content/uploads/2025/02/Update-1-Deadly-Pause.pdf), [amfAR](https://www.amfar.org/wp-content/uploads/2025/02/Most\\u2026\\n\\n[Truncated preview: showing 285 words out of ~529. Full content available via `btf_extract_evidence`.]\", \"word_count\": 529, \"snippet_word_count\": 285, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T22:59:10.845374\", \"date_cutoff_end\": \"2025-03-27T22:59:10.845374\", \"cached_at\": \"2025-10-24T03:47:12.911031\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_pxbK3VZh3sE81cpcr3PjQbGM"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"snippet\": \"---\\ntitle: PEPFAR Misses Reauthorization Deadline: What's Next for Global HIV Fight? | Think Global Health\\nurl: https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\\nhostname: thinkglobalhealth.org\\ndescription: The expiration of PEPFAR's authorization could mark a pivotal shift in the HIV/AIDS response\\nsitename: Think Global Health\\ndate: 2025-03-26\\n---\\nFor more than two decades, the President's Emergency Plan for AIDS Relief (PEPFAR) has been a global health success story, [credited with saving](https://www.state.gov/pepfar-latest-global-results-factsheet-dec-2024/) more than 26 million lives and providing HIV treatment for more than 20 million people.\\n\\nAs of March 25, 2025, however, PEPFAR's congressional reauthorization has expired, raising key questions about its future. Prior to 2024, bipartisan support had secured five-year reauthorizations in 2008, 2013, and 2018. Last year, Congress allowed only a [one-year authorization](https://www.thinkglobalhealth.org/article/pepfar-hiv-program-gets-yearlong-lifeline-whats-next) as political strife engulfed PEPFAR.\\n\\nWithout reauthorization, PEPFAR sits in purgatory\\u2014even though Congress appropriated funding through the end of September via the continuing resolution that [passed this month](https://www.kff.org/global-health-policy/fact-sheet/congress-passes-full-year-continuing-resolution-bill-maintaining-global-health-funding-at-prior-year-levels/). The expiration of its authorization introduces deep uncertainty about its long-term future, meaning that officials could now terminate or significantly curtail PEPFAR at any time.\\n\\nHealth ministries, implementing partners, and community-based organizations across PEPFAR-supported countries must try to deliver lifesaving care without the stability that long-term U.S. commitments once provided. At the same time, structural questions remain about how the State Department will operate PEPFAR amid [reported](https://www.devex.com/news/memo-lays-out-plan-to-replace-usaid-with-new-humanitarian-agency-109685) proposals to create a new U.S. Agency for International Humanitarian Assistance. The question now is not just whether PEPFAR will continue, but also how it must evolve to remain effective in a drastically reshaped foreign aid landscape.\\n\\n#### A Moment of Political Paralysis and Global Consequences\\n\\nThe expiration of PEPFAR's authorization is a symptom of a broader shift in U.S. foreign assistance policy. For nearly 2\\u2026\\n\\n[Truncated preview: showing 280 words out of ~1483. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1483, \"snippet_word_count\": 280, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-26T22:59:10.845374\", \"date_cutoff_end\": \"2025-03-27T22:59:10.845374\", \"cached_at\": \"2025-10-24T03:47:13.420778\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_lQ4sdrP5qp3hV4rFrJ0HgQY8"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_EvlLQxEnKHYWsIwfqaHdkg1q",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"content\": null, \"question\": \"Will PEPFAR funding be resumed before April 7, 2025?\", \"background\": \"PEPFAR, the President's Emergency Plan For AIDS Relief, is a United States governmental initiative to address the global HIV/AIDS epidemic. Launched by U.S. President George W. Bush in 2003, PEPFAR had provided about $120 billion in cumulative funding for HIV/AIDS treatment, prevention, and research since its inception, making it the largest global health program focused on a single disease in history until the COVID-19 pandemic. PEPFAR has saved over 26 million lives, primarily in Sub-Saharan Africa. On January 20, 2025, President Donald J. Trump signed an executive order pausing for 90 days new foreign aid disbursements including for the PEPFAR program, pending a review of all foreign assistance programs. On February 13, 2025, federal judge Amir Ali ordered the Trump Administration to resume foreign aid programs in place before Trump's inauguration. On February 20, 2025, Judge Ali ruled that the Trump Administration was not fully in compliance with the order. After a long bipartisan consensus about the program's usefulness, in recent years PEPFAR has faced increased opposition in the US Congress, particularly from members of the Republican Party. In 2024 PEPFAR received temporary reauthorization from Congress amid the increasing opposition.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 7, 2025, credible sources report that funding for the United States President’s Emergency Plan for AIDS Relief (PEPFAR), which is frozen at the time of this question, has resumed. If a partial resumption takes place, this question will resolve as Yes if PEPFAR's funding levels are at least 50% of pre-pause funding.\", \"fine_print\": \"An announcement that funding will resume will only resolve this question if the date of the resumption is before April 7, 2025 and no credible sources as of that date suggest that funding remains paused.\", \"present_date\": \"2025-03-26T22:59:10.845374\"}"
+          }
+        },
+        {
+          "id": "call_6wqpOrnxoWvS9VOrxmKwBJHr",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"content\": null, \"question\": \"Will PEPFAR funding be resumed before April 7, 2025?\", \"background\": \"PEPFAR, the President's Emergency Plan For AIDS Relief, is a United States governmental initiative to address the global HIV/AIDS epidemic. Launched by U.S. President George W. Bush in 2003, PEPFAR had provided about $120 billion in cumulative funding for HIV/AIDS treatment, prevention, and research since its inception, making it the largest global health program focused on a single disease in history until the COVID-19 pandemic. PEPFAR has saved over 26 million lives, primarily in Sub-Saharan Africa. On January 20, 2025, President Donald J. Trump signed an executive order pausing for 90 days new foreign aid disbursements including for the PEPFAR program, pending a review of all foreign assistance programs. On February 13, 2025, federal judge Amir Ali ordered the Trump Administration to resume foreign aid programs in place before Trump's inauguration. On February 20, 2025, Judge Ali ruled that the Trump Administration was not fully in compliance with the order. After a long bipartisan consensus about the program's usefulness, in recent years PEPFAR has faced increased opposition in the US Congress, particularly from members of the Republican Party. In 2024 PEPFAR received temporary reauthorization from Congress amid the increasing opposition.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 7, 2025, credible sources report that funding for the United States President’s Emergency Plan for AIDS Relief (PEPFAR), which is frozen at the time of this question, has resumed. If a partial resumption takes place, this question will resolve as Yes if PEPFAR's funding levels are at least 50% of pre-pause funding.\", \"fine_print\": \"An announcement that funding will resume will only resolve this question if the date of the resumption is before April 7, 2025 and no credible sources as of that date suggest that funding remains paused.\", \"present_date\": \"2025-03-26T22:59:10.845374\"}"
+          }
+        },
+        {
+          "id": "call_mL1oWCKIbDAv2W89O4AV4l2Y",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"content\": null, \"question\": \"Will PEPFAR funding be resumed before April 7, 2025?\", \"background\": \"PEPFAR, the President's Emergency Plan For AIDS Relief, is a United States governmental initiative to address the global HIV/AIDS epidemic. Launched by U.S. President George W. Bush in 2003, PEPFAR had provided about $120 billion in cumulative funding for HIV/AIDS treatment, prevention, and research since its inception, making it the largest global health program focused on a single disease in history until the COVID-19 pandemic. PEPFAR has saved over 26 million lives, primarily in Sub-Saharan Africa. On January 20, 2025, President Donald J. Trump signed an executive order pausing for 90 days new foreign aid disbursements including for the PEPFAR program, pending a review of all foreign assistance programs. On February 13, 2025, federal judge Amir Ali ordered the Trump Administration to resume foreign aid programs in place before Trump's inauguration. On February 20, 2025, Judge Ali ruled that the Trump Administration was not fully in compliance with the order. After a long bipartisan consensus about the program's usefulness, in recent years PEPFAR has faced increased opposition in the US Congress, particularly from members of the Republican Party. In 2024 PEPFAR received temporary reauthorization from Congress amid the increasing opposition.\", \"resolution_criteria\": \"This question will resolve as Yes if, before April 7, 2025, credible sources report that funding for the United States President’s Emergency Plan for AIDS Relief (PEPFAR), which is frozen at the time of this question, has resumed. If a partial resumption takes place, this question will resolve as Yes if PEPFAR's funding levels are at least 50% of pre-pause funding.\", \"fine_print\": \"An announcement that funding will resume will only resolve this question if the date of the resumption is before April 7, 2025 and no credible sources as of that date suggest that funding remains paused.\", \"present_date\": \"2025-03-26T22:59:10.845374\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"facts\": [{\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"The Supreme Court rejected a request by the Trump administration to continue freezing nearly $2 billion in foreign aid, including PEPFAR funding.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"The court's decision did not specify when the money must be released, allowing further disputes in lower courts.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"Judge Amir Ali has ordered the Trump administration to comply with a temporary restraining order to lift the foreign assistance freeze.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"The Trump administration has not yet taken steps to comply with the court order to resume funding.\"}, {\"title\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"url\": \"https://www.democracynow.org/2025/3/6/usaid_supreme_court_foreign_aid_frozen\", \"fact\": \"Mitchell Warren, executive director of the AIDS Vaccine Advocacy Coalition, emphasized the critical impact of the funding freeze on global health programs, including PEPFAR.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_EvlLQxEnKHYWsIwfqaHdkg1q"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"facts\": [{\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"As of March 2025, the vast majority of USAID-funded programs, including PEPFAR, have received termination notices despite a limited waiver for some activities.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"A limited waiver was announced for PEPFAR activities, but it does not cover any HIV prevention activities outside of vertical transmission.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"The impact of the PEPFAR stop-work orders on HIV prevention outcomes is expected to be severe, with potential increases in AIDS deaths and HIV incidence rates.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"84% of 65 implementing partners reported disruption to PrEP service delivery following the stop-work order.\"}, {\"title\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"url\": \"https://www.prepwatch.org/pepfar-stop-work/\", \"fact\": \"Organizations delivering HIV services not covered by the PEPFAR waiver are unlikely to survive the 90-day freeze, threatening the national and global HIV response.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_6wqpOrnxoWvS9VOrxmKwBJHr"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"26ee7ca6-ca2f-5235-bf11-a320b93d3c8a\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"facts\": [{\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"As of March 25, 2025, PEPFAR's congressional reauthorization has expired, creating uncertainty about its future.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The Trump administration's Executive Order 14169, issued on January 20, 2025, paused all U.S. foreign assistance programs for a 90-day review, affecting PEPFAR.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The expiration of PEPFAR's authorization means that its programs can continue under annual appropriations, but without a long-term legislative framework.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The World Health Organization warned that eight countries could face potential HIV medication shortages due to USAID cuts, highlighting the impact of funding instability.\"}, {\"title\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"url\": \"https://www.thinkglobalhealth.org/article/pepfar-misses-reauthorization-deadline-whats-next-global-hiv-fight\", \"fact\": \"The ongoing 90-day review by the Trump administration, set to conclude by April 20, 2025, is expected to provide clarity on PEPFAR's future priorities and broader U.S. foreign aid strategy.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_mL1oWCKIbDAv2W89O4AV4l2Y"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key points regarding the resumption of PEPFAR funding:\n\n1. **Supreme Court Ruling**: The Supreme Court rejected a request by the Trump administration to continue freezing nearly $2 billion in foreign aid, including PEPFAR funding. However, the court's decision did not specify when the money must be released, allowing further disputes in lower courts. This indicates that while there is legal pressure to resume funding, the timeline remains uncertain.\n\n2. **Current Status of PEPFAR Programs**: As of March 2025, the vast majority of USAID-funded programs, including PEPFAR, have received termination notices despite a limited waiver for some activities. This waiver does not cover HIV prevention activities outside of vertical transmission, and the impact of the stop-work orders is expected to be severe.\n\n3. **Congressional Reauthorization**: PEPFAR's congressional reauthorization expired as of March 25, 2025, creating uncertainty about its future. While programs can continue under annual appropriations, the lack of a long-term legislative framework adds to the instability.\n\n4. **Impact on Global Health**: The World Health Organization warned of potential HIV medication shortages in eight countries due to USAID cuts, highlighting the critical impact of funding instability on global health programs.\n\n5. **Ongoing Review**: The Trump administration's 90-day review of foreign aid, including PEPFAR, is set to conclude by April 20, 2025. This review is expected to provide clarity on PEPFAR's future priorities and broader U.S. foreign aid strategy.\n\nGiven these points, the probability of PEPFAR funding resuming at least 50% of pre-pause levels before April 7, 2025, is uncertain. The legal and administrative processes are ongoing, and while there is some pressure to resume funding, significant obstacles remain.\n\nFINAL PROBABILITY: 0.3"
+    }
+  ]
+}

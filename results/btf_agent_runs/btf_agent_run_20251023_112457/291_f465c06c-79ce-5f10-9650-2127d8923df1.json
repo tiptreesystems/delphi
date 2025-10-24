@@ -1,0 +1,220 @@
+{
+  "question_id": "f465c06c-79ce-5f10-9650-2127d8923df1",
+  "question": "Before April 1, 2025, will Perplexity announce that it is planning an IPO?",
+  "probability": 0.1,
+  "reasoning": "Based on the search results, there is no indication that Perplexity AI has announced plans for an IPO as of March 17, 2025. The articles and snippets retrieved suggest that Perplexity AI has not made any public announcements regarding an IPO, and there are no reports of such plans. Additionally, the company seems to be focusing on raising private investments and expanding its business model without going public.\n\nGiven the lack of evidence for an impending IPO announcement and the focus on private funding, the probability that Perplexity AI will announce an IPO before April 1, 2025, appears low.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Perplexity AI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+      "content": "On January 18, 2025, Perplexity submitted a proposal for a merger with TikTok US, the day before the impending U.S. ban on the Chinese social media app."
+    },
+    {
+      "title": "How to Buy Perplexity Stock Pre-IPO | The Motley Fool",
+      "url": "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/",
+      "content": "Perplexity is not currently publicly traded. There have been no reports of Perplexity's plans to go public, and it could take at least a few more years for the company to go public."
+    },
+    {
+      "title": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "content": "I am sorry, but I cannot provide a snippet for Perplexity AI IPO news in March 2025 as the provided content does not contain this information."
+    },
+    {
+      "title": "How to Invest in Perplexity AI Stock in 2025",
+      "url": "https://stockanalysis.com/article/invest-in-perplexity-ai-stock/",
+      "content": "The company has not made any indication of a timeline to go public. And, if it can continue to attract funding from the private markets (which I expect it will), there's no reason for it to become publicly traded in the immediate future."
+    },
+    {
+      "title": "How to Buy Perplexity Stock Pre-IPO | The Motley Fool",
+      "url": "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/",
+      "content": "There have been no reports of Perplexity's plans to go public. It could take at least a few more years for the company to go public, even if everything goes right for it."
+    },
+    {
+      "title": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "content": "I am sorry, but I cannot provide a snippet about Perplexity AI's IPO plans as the provided content does not contain this information."
+    },
+    {
+      "title": "From $500m to $9bn: Charting Perplexity’s Soaring Valuation | AI Magazine",
+      "url": "https://aimagazine.com/articles/from-500m-to-9bn-charting-perplexitys-soaring-valuation",
+      "content": "Perplexity AI is reportedly raising new investment that would see its valuation soaring to an unprecedented US$9bn. Aravind has laid out a vision of Perplexity moving to make advertising revenue a part of their revenue model along with the pro versions."
+    }
+  ],
+  "extracted_facts": [],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.010000000000000002,
+  "weighted_brier_score": 0.010000000000000002,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "f465c06c-79ce-5f10-9650-2127d8923df1",
+        "queries": [
+          "site:perplexity.ai IPO announcement",
+          "Perplexity AI IPO news March 2025",
+          "Perplexity AI IPO plans analysis 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"f465c06c-79ce-5f10-9650-2127d8923df1\", \"queries\": [\"site:perplexity.ai IPO announcement\", \"Perplexity AI IPO news March 2025\", \"Perplexity AI IPO plans analysis 2025\"]}",
+      "tool_call_id": "call_99i0In3Co4pApJnUihH124mR"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "site:perplexity.ai IPO announcement",
+        "results": []
+      },
+      "raw": "{\"query\": \"site:perplexity.ai IPO announcement\", \"results\": []}",
+      "tool_call_id": "call_jGkfiamrez3O08vSaGuuA5Uu"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Perplexity AI IPO news March 2025",
+        "results": [
+          {
+            "title": "Perplexity AI - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Perplexity_AI",
+            "position": 3,
+            "snippet": "On January 18, 2025, Perplexity submitted a proposal for a merger with TikTok US, the day before the impending U.S. ban on the Chinese social media app.",
+            "date": null
+          },
+          {
+            "title": "How to Buy Perplexity Stock Pre-IPO | The Motley Fool",
+            "link": "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/",
+            "position": 2,
+            "snippet": "Perplexity is not currently publicly traded. There have been no reports of Perplexity's plans to go public, and it could take at least a few more years for the company to go public.",
+            "date": null
+          },
+          {
+            "title": "Perplexity",
+            "link": "https://www.perplexity.ai/",
+            "position": 5,
+            "snippet": "I am sorry, but I cannot provide a snippet for Perplexity AI IPO news in March 2025 as the provided content does not contain this information.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Perplexity AI IPO news March 2025\", \"results\": [{\"title\": \"Perplexity AI - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Perplexity_AI\", \"position\": 3, \"snippet\": \"On January 18, 2025, Perplexity submitted a proposal for a merger with TikTok US, the day before the impending U.S. ban on the Chinese social media app.\", \"date\": null}, {\"title\": \"How to Buy Perplexity Stock Pre-IPO | The Motley Fool\", \"link\": \"https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/\", \"position\": 2, \"snippet\": \"Perplexity is not currently publicly traded. There have been no reports of Perplexity's plans to go public, and it could take at least a few more years for the company to go public.\", \"date\": null}, {\"title\": \"Perplexity\", \"link\": \"https://www.perplexity.ai/\", \"position\": 5, \"snippet\": \"I am sorry, but I cannot provide a snippet for Perplexity AI IPO news in March 2025 as the provided content does not contain this information.\", \"date\": null}]}",
+      "tool_call_id": "call_50ZDNm6a4qegmVm5eXG304h7"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Perplexity AI IPO plans analysis 2025",
+        "results": [
+          {
+            "title": "How to Invest in Perplexity AI Stock in 2025",
+            "link": "https://stockanalysis.com/article/invest-in-perplexity-ai-stock/",
+            "position": 2,
+            "snippet": "The company has not made any indication of a timeline to go public. And, if it can continue to attract funding from the private markets (which I expect it will), there's no reason for it to become publicly traded in the immediate future.",
+            "date": null
+          },
+          {
+            "title": "How to Buy Perplexity Stock Pre-IPO | The Motley Fool",
+            "link": "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/",
+            "position": 3,
+            "snippet": "There have been no reports of Perplexity's plans to go public. It could take at least a few more years for the company to go public, even if everything goes right for it.",
+            "date": null
+          },
+          {
+            "title": "Perplexity",
+            "link": "https://www.perplexity.ai/",
+            "position": 2,
+            "snippet": "I am sorry, but I cannot provide a snippet about Perplexity AI's IPO plans as the provided content does not contain this information.",
+            "date": null
+          },
+          {
+            "title": "From $500m to $9bn: Charting Perplexity’s Soaring Valuation | AI Magazine",
+            "link": "https://aimagazine.com/articles/from-500m-to-9bn-charting-perplexitys-soaring-valuation",
+            "position": 1,
+            "snippet": "Perplexity AI is reportedly raising new investment that would see its valuation soaring to an unprecedented US$9bn. Aravind has laid out a vision of Perplexity moving to make advertising revenue a part of their revenue model along with the pro versions.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Perplexity AI IPO plans analysis 2025\", \"results\": [{\"title\": \"How to Invest in Perplexity AI Stock in 2025\", \"link\": \"https://stockanalysis.com/article/invest-in-perplexity-ai-stock/\", \"position\": 2, \"snippet\": \"The company has not made any indication of a timeline to go public. And, if it can continue to attract funding from the private markets (which I expect it will), there's no reason for it to become publicly traded in the immediate future.\", \"date\": null}, {\"title\": \"How to Buy Perplexity Stock Pre-IPO | The Motley Fool\", \"link\": \"https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/\", \"position\": 3, \"snippet\": \"There have been no reports of Perplexity's plans to go public. It could take at least a few more years for the company to go public, even if everything goes right for it.\", \"date\": null}, {\"title\": \"Perplexity\", \"link\": \"https://www.perplexity.ai/\", \"position\": 2, \"snippet\": \"I am sorry, but I cannot provide a snippet about Perplexity AI's IPO plans as the provided content does not contain this information.\", \"date\": null}, {\"title\": \"From $500m to $9bn: Charting Perplexity\\u2019s Soaring Valuation | AI Magazine\", \"link\": \"https://aimagazine.com/articles/from-500m-to-9bn-charting-perplexitys-soaring-valuation\", \"position\": 1, \"snippet\": \"Perplexity AI is reportedly raising new investment that would see its valuation soaring to an unprecedented US$9bn. Aravind has laid out a vision of Perplexity moving to make advertising revenue a part of their revenue model along with the pro versions.\", \"date\": null}]}",
+      "tool_call_id": "call_f0mBArl8K4H6ITGorGWNoTl1"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Before April 1, 2025, will Perplexity announce that it is planning an IPO?\nBackground: Observer: [A.I. Unicorns Have Good Reasons Not to Go Public](https://observer.com/2024/10/ai-unicorn-not-going-public/)\nResolution criteria: This question will resolve as **Yes** if Perplexity AI, Inc., announces before April 1, 2025, that it is planning an initial public offering. In order to streamline the resolution of this question, there are two resolution sources for the IPO announcement: 1) OpenAI filing an [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) or 2) An announcement at the [News](https://www.perplexity.ai/hub) section of its website. If there is no such announcement before that date, this question resolves as **No**.\nFine print: \npresent_date: 2025-03-17T19:44:28.157458\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_99i0In3Co4pApJnUihH124mR",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Before April 1, 2025, will Perplexity announce that it is planning an IPO?\",\"background\":\"Observer: [A.I. Unicorns Have Good Reasons Not to Go Public](https://observer.com/2024/10/ai-unicorn-not-going-public/)\",\"resolution_criteria\":\"This question will resolve as **Yes** if Perplexity AI, Inc., announces before April 1, 2025, that it is planning an initial public offering. In order to streamline the resolution of this question, there are two resolution sources for the IPO announcement: 1) OpenAI filing an [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) or 2) An announcement at the [News](https://www.perplexity.ai/hub) section of its website. If there is no such announcement before that date, this question resolves as **No**.\",\"present_date\":\"2025-03-17T19:44:28.157458\",\"date_cutoff_start\":null,\"date_cutoff_end\":\"2025-03-17T19:44:28.157458\",\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"f465c06c-79ce-5f10-9650-2127d8923df1\", \"queries\": [\"site:perplexity.ai IPO announcement\", \"Perplexity AI IPO news March 2025\", \"Perplexity AI IPO plans analysis 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_99i0In3Co4pApJnUihH124mR"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_jGkfiamrez3O08vSaGuuA5Uu",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"site:perplexity.ai IPO announcement\", \"date_cutoff_end\": \"2025-03-17T19:44:28.157458\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_50ZDNm6a4qegmVm5eXG304h7",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Perplexity AI IPO news March 2025\", \"date_cutoff_end\": \"2025-03-17T19:44:28.157458\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_f0mBArl8K4H6ITGorGWNoTl1",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Perplexity AI IPO plans analysis 2025\", \"date_cutoff_end\": \"2025-03-17T19:44:28.157458\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"site:perplexity.ai IPO announcement\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_jGkfiamrez3O08vSaGuuA5Uu"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Perplexity AI IPO news March 2025\", \"results\": [{\"title\": \"Perplexity AI - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/Perplexity_AI\", \"position\": 3, \"snippet\": \"On January 18, 2025, Perplexity submitted a proposal for a merger with TikTok US, the day before the impending U.S. ban on the Chinese social media app.\", \"date\": null}, {\"title\": \"How to Buy Perplexity Stock Pre-IPO | The Motley Fool\", \"link\": \"https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/\", \"position\": 2, \"snippet\": \"Perplexity is not currently publicly traded. There have been no reports of Perplexity's plans to go public, and it could take at least a few more years for the company to go public.\", \"date\": null}, {\"title\": \"Perplexity\", \"link\": \"https://www.perplexity.ai/\", \"position\": 5, \"snippet\": \"I am sorry, but I cannot provide a snippet for Perplexity AI IPO news in March 2025 as the provided content does not contain this information.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_50ZDNm6a4qegmVm5eXG304h7"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Perplexity AI IPO plans analysis 2025\", \"results\": [{\"title\": \"How to Invest in Perplexity AI Stock in 2025\", \"link\": \"https://stockanalysis.com/article/invest-in-perplexity-ai-stock/\", \"position\": 2, \"snippet\": \"The company has not made any indication of a timeline to go public. And, if it can continue to attract funding from the private markets (which I expect it will), there's no reason for it to become publicly traded in the immediate future.\", \"date\": null}, {\"title\": \"How to Buy Perplexity Stock Pre-IPO | The Motley Fool\", \"link\": \"https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-perplexity-stock/\", \"position\": 3, \"snippet\": \"There have been no reports of Perplexity's plans to go public. It could take at least a few more years for the company to go public, even if everything goes right for it.\", \"date\": null}, {\"title\": \"Perplexity\", \"link\": \"https://www.perplexity.ai/\", \"position\": 2, \"snippet\": \"I am sorry, but I cannot provide a snippet about Perplexity AI's IPO plans as the provided content does not contain this information.\", \"date\": null}, {\"title\": \"From $500m to $9bn: Charting Perplexity\\u2019s Soaring Valuation | AI Magazine\", \"link\": \"https://aimagazine.com/articles/from-500m-to-9bn-charting-perplexitys-soaring-valuation\", \"position\": 1, \"snippet\": \"Perplexity AI is reportedly raising new investment that would see its valuation soaring to an unprecedented US$9bn. Aravind has laid out a vision of Perplexity moving to make advertising revenue a part of their revenue model along with the pro versions.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_f0mBArl8K4H6ITGorGWNoTl1"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, there is no indication that Perplexity AI has announced plans for an IPO as of March 17, 2025. The articles and snippets retrieved suggest that Perplexity AI has not made any public announcements regarding an IPO, and there are no reports of such plans. Additionally, the company seems to be focusing on raising private investments and expanding its business model without going public.\n\nGiven the lack of evidence for an impending IPO announcement and the focus on private funding, the probability that Perplexity AI will announce an IPO before April 1, 2025, appears low.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

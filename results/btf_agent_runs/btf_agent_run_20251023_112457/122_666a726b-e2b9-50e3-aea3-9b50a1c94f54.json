@@ -1,0 +1,742 @@
+{
+  "question_id": "666a726b-e2b9-50e3-aea3-9b50a1c94f54",
+  "question": "Will the state of Delaware's Division of Corporations list OpenAI as an \"Exempt\" entity on March 31, 2025?",
+  "probability": 0.1,
+  "reasoning": "Based on the gathered information, here is the analysis:\n\n1. **OpenAI's Transition to For-Profit**: OpenAI is reportedly transitioning from its current structure, which includes a non-profit controlling entity, to a more traditional for-profit model. This includes restructuring as a for-profit public benefit corporation (PBC). This shift is driven by the need to attract investors and provide them with a clearer exit strategy and financial returns.\n\n2. **Impact on Non-Profit Status**: The transition to a for-profit PBC means that OpenAI will no longer be controlled by a non-profit board, and it will be subject to corporate taxes, losing the benefits it enjoyed as a non-profit. This indicates a significant move away from the non-profit structure.\n\n3. **Delaware Exempt Status**: For an entity to be listed as \"Exempt\" in Delaware, it typically needs to be a non-profit organization or meet specific criteria for exemption. Given OpenAI's shift towards a for-profit model, it is unlikely that it will qualify as an \"Exempt\" entity under Delaware's criteria by March 31, 2025.\n\n4. **Current Corporate Structure**: OpenAI's current structure involves a partnership between its original non-profit and a capped profit arm. However, the planned restructuring involves transforming the for-profit entity into a PBC, which will operate independently of the non-profit's control.\n\nConsidering these points, it seems improbable that OpenAI will be listed as an \"Exempt\" entity by Delaware's Division of Corporations on March 31, 2025, due to its transition to a for-profit structure.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Our structure | OpenAI",
+      "url": "https://openai.com/our-structure/",
+      "content": "We designed OpenAI’s structure—a partnership between our original Nonprofit and a new capped profit arm—as a chassis for OpenAI’s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity."
+    },
+    {
+      "title": "OpenAI reportedly restructuring as a for-profit company in 2025 | Mashable",
+      "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "content": "OpenAI may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation..."
+    },
+    {
+      "title": "OpenAI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "content": "In November 2023, OpenAI's board removed Sam Altman as CEO, but reinstated him five days later following a reconstruction of the board. Throughout 2024, roughly half of then-employed AI safety researchers left OpenAI."
+    },
+    {
+      "title": "Why OpenAI’s structure must evolve to advance our mission | OpenAI",
+      "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "content": "OpenAI’s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) benefits all of humanity..."
+    },
+    {
+      "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+      "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "content": "OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant."
+    },
+    {
+      "title": "Non-profit Corporations - Division of Revenue - State of Delaware",
+      "url": "https://revenue.delaware.gov/business-tax-forms/non-profit-corporations/",
+      "content": "Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax."
+    },
+    {
+      "title": "Business Tax Forms 2024-2025 - Division of Revenue - State of Delaware",
+      "url": "https://revenue.delaware.gov/business-tax-forms/",
+      "content": "View information about business tax and business tax forms for 2024-2025. Includes links for online filing, new business registration, and various tax credit applications..."
+    },
+    {
+      "title": "Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com",
+      "url": "https://www.harborcompliance.com/delaware-tax-exemption",
+      "content": "Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax."
+    },
+    {
+      "title": "Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com",
+      "url": "https://www.harborcompliance.com/delaware-tax-exemption",
+      "content": "Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax."
+    },
+    {
+      "title": "How to Form a Delaware Nonprofit Corporation",
+      "url": "https://www.nolo.com/legal-encyclopedia/forming-nonprofit-corporation-delaware-36056.html",
+      "content": "In Delaware, a nonprofit corporation is organized as a nonstock corporation, referred to as an \"exempt corporation.\" To form one, you file a Certificate of Incorporation for an Exempt Corporation with the DOS, which must include specific information."
+    },
+    {
+      "title": "How to Start a Nonprofit in Delaware - Foundation Group®",
+      "url": "https://www.501c3.org/state-nonprofit-guide/how-to-start-a-nonprofit-in-delaware/",
+      "content": "In 2025, the Beneficial Ownership Information (BOI) Report will be due within 30 days of incorporation for newly formed nonprofit corporations."
+    },
+    {
+      "title": "Delaware | Internal Revenue Service",
+      "url": "https://www.irs.gov/charities-non-profits/delaware",
+      "content": "In Delaware, no state statute specifically requires registration of charities. The Attorney General's office provides general oversight of charities, however."
+    },
+    {
+      "title": "OpenAI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "content": "The organization consists of the non-profit OpenAI, Inc., registered in Delaware, and its for-profit subsidiary introduced in 2019, OpenAI Global, LLC."
+    },
+    {
+      "title": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "content": "---\ntitle: OpenAI is reportedly going all-in as a for-profit company\nauthor: Chase DiBenedetto\nurl: https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\nhostname: mashable.com\ndescription: CEO Sam Altman could axe the \"unusual\" structure.\nsitename: Mashable\ndate: 2024-09-14\ncategories: ['Tech']\n---\n[OpenAI](https://mashable.com/category/openai) may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation as the AI leader veers down a similar [profit-seeking path](https://www.theinformation.com/articles/openai-makes-a-60-million-hardware-startup-bet?utm_source=twitter&utm_medium=cpc&utm_campaign=kd-AI_topics-20240627) to that of its Silicon Valley peers.\n\nThe news was first reported by [ Fortune](https://fortune.com/2024/09/13/sam-altman-openai-non-profit-structure-change-next-year/), based on comments made by CEO Sam Altman in a weekly OpenAI employee meeting. Altman gave employees little detail, but reiterated that OpenAI was \"set\" to move away from non-profit control as it had \"outgrown\" its founding arrangement.\n\nCurrently, OpenAI operates as a \"[capped](https://openai.com/our-structure/)\" for-profit LLC controlled by a non-profit. It was this structure that allowed OpenAI's board of directors, part of the non-profit parent structure, to [fire Altman as CEO](https://mashable.com/article/sam-altman-fired-openai-ceo) in Nov. 2023. The board accused Altman of [lying to and obstructing](https://mashable.com/article/open-ai-board-why-fired-sam-altman-helen-toner-podcast) the work of the non-profit board and OpenAI's safety measures, including omitting the nature of his ownership of the OpenAI startup fund. Altman was later reinstated and took leadership control of [OpenAI's revamped internal safety team](https://mashable.com/article/openai-new-ai-safety-security-committee-sam-altman).\n\n[Terms of Use](https://www.ziffdavis.com/terms-of-use)and\n\n[Privacy Policy](https://www.ziffdavis.com/ztg-privacy-policy).\n\nHeading into the new year, Altman and OpenAI's leadership are now navigating a growing, billion-dollar business. Last month, Apple was rumored to be [investing in the AI startup](https://mashable.com/article/apple-reportedly-investing-in-openai), joining other big backers like Microsoft in what would inform the more than $100 billion valuation. According to a *Reuters* report from the same day as the *Fortune* story, anonymous sources said investors…\n\n[Truncated preview: showing 269 words out of ~328. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "content": "---\ntitle: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\nauthor: Rob Robinson\nurl: https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\nhostname: complexdiscovery.com\ndescription: OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant.\nsitename: ComplexDiscovery\ndate: 2024-09-30\ncategories: ['Artificial Intelligence', 'eDiscovery', 'Industry']\n---\nEditor’s Note: OpenAI’s restructuring into a for-profit public benefit corporation marks a critical juncture for the company and its future in artificial intelligence. Initially founded as a nonprofit to ensure AI benefits humanity, OpenAI now shifts towards a model that balances profitability with societal impact. This move, sparked by over $13 billion in investments and internal leadership transitions, mirrors the strategies of competitors like Anthropic and xAI. For cybersecurity, information governance, and eDiscovery professionals, this structural change signals an evolving landscape where AI’s development is increasingly influenced by investor expectations, corporate governance, and competitive pressures.\n\n\n## Content Assessment: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\n\n##### Information - 92%\n\n##### Insight - 90%\n\n##### Relevance - 92%\n\n##### Objectivity - 91%\n\n##### Authority - 90%\n\n### 91%\n\n#### Excellent\n\nA short percentage-based assessment of the qualitative benefit expressed as a percentage of positive reception of the recent article from ComplexDiscovery OÜ titled, \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape.\"\n\n\nIndustry News – Artificial Intelligence Beat\n\n### OpenAI’s For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\n\n*ComplexDiscovery Staff*\n\nOpenAI, the prominent AI research organization initially founded as a non-profit, is undergoing significant structural changes to become a for-profit public benefit corporation. This shift, which includes awarding CEO Sam Altman a seven percent equity stake, has sparked conversations and speculations within the tech and business communities. Initially, OpenAI was set up in 2015 as a nonprofit with a mission to ensure that artificial general intelligence benefits all of humanity. H…\n\n[Truncated preview: showing 317 words out of ~961. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://openai.com/our-structure/",
+      "url": "https://openai.com/our-structure/",
+      "content": "---\ntitle: Our structure\nurl: https://openai.com/our-structure/\nhostname: openai.com\ndescription: We designed OpenAI’s structure—a partnership between our original Nonprofit and a new capped profit arm—as a chassis for OpenAI’s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\nsitename: OpenAI\ndate: 2024-05-21\n---\n# Our structure\n\nWe designed OpenAI’s structure—a partnership between our original Nonprofit and a new capped profit arm—as a chassis for OpenAI’s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\n\nWe [announced](https://openai.com/index/openai-lp/) our “capped profit” structure in 2019, about three years after [founding](https://openai.com/index/introducing-openai/) the original OpenAI Nonprofit.\n\nSince the beginning, we have believed that powerful AI, culminating in AGI—meaning a highly autonomous system that outperforms humans at most economically valuable work—has the potential to reshape society and bring tremendous benefits, along with risks that must be safely addressed. The increasing capabilities of present day systems mean it’s more important than ever for OpenAI and other AI companies to share the principles, economic mechanisms, and governance models that are core to our respective missions and operations.\n\n## Overview\n\nWe founded the OpenAI Nonprofit in late 2015 with the goal of building safe and beneficial artificial general intelligence for the benefit of humanity. A project like this might previously have been the provenance of one or multiple governments—a humanity-scale endeavor pursuing broad benefit for humankind.\n\nSeeing no clear path in the public sector, and given the success of other ambitious projects in private industry (e.g., SpaceX, Cruise, and others), we decided to pursue this project through private means bound by strong commitments to the public good. We initially believed a 501(c)(3) would be the most effective vehicle to direct the development of safe and broadly beneficial AGI while remaining unencumbered by profit incentives. We committed to publishing our research and data in cases where we felt it was safe to do so and would benefit the public.\n\nWe always suspected that our project would be capital intensive, which is why we launched with the goal of $1 billion in donation commitments. Yet over the years, OpenAI’s Nonprofit received approximately $130.5 million in total donations, which funded the Nonprofit’s op…\n\n[Truncated preview: showing 362 words out of ~1253. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "content": "---\ntitle: Why OpenAI’s structure must evolve to advance our mission\nurl: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\nhostname: openai.com\ndescription: A stronger non-profit supported by the for-profit’s success.\nsitename: OpenAI\ndate: 2024-12-27\n---\n# Why OpenAI’s structure must evolve to advance our mission\n\nA stronger non-profit supported by the for-profit’s success.\n\nOpenAI’s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) 1 benefits all of humanity, with three objectives:\n\n- Choose a non-profit / for-profit structure that is best for the long-term success of the mission.\n- Make the non-profit sustainable.\n- Equip each arm to do its part.\n\nWe have a non-profit and a for-profit today, and we will continue to have both, with the for-profit’s success enabling the non-profit to be well funded, better sustained, and in a stronger position for the mission.\n\nWe view this mission as the most important challenge of our time. It requires simultaneously advancing AI’s capability, safety, and positive impact in the world. In this post, we share the history of our current structure, why we think a change is necessary, and what specific change we are considering.\n\n## The past\n\nWe began in 2015 as a research lab with a vision that AGI might really happen, and we wanted to help it go as well as possible. In these early days, we thought that progress relied on key ideas produced by top researchers and that supercomputing clusters were less important.\n\nWe performed experiments ranging from [toolkits for game-playing AI](https://openai.com/index/universe/) to [robotics research](https://openai.com/index/ingredients-for-robotics-research/) and published papers. We had no products, no business, and no commercial revenue.\n\nOur [stated goal](https://openai.com/index/introducing-openai/) was “advancing digital intelligence in the way most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.” A non-profit structure seemed fitting, and we raised donations in various forms including cash ($137M, less than a third of which was from Elon) and compute credits and discounts ($1.8M from Amazon and $50M or more from each of Azure and Google Cloud).\n\nEventually, it became clear that the most [advanced AI](https://openai.com/index/openai-five/) would continuously use [more and more compute](https://openai.com/index/ai-…\n\n[Truncated preview: showing 356 words out of ~1217. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "OpenAI is reportedly going all-in as a for-profit company",
+      "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "fact": "OpenAI is reportedly planning to overhaul its nonprofit structure in favor of a traditional for-profit model in 2025."
+    },
+    {
+      "title": "OpenAI is reportedly going all-in as a for-profit company",
+      "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "fact": "CEO Sam Altman has indicated that OpenAI is 'set' to move away from non-profit control as it has 'outgrown' its founding arrangement."
+    },
+    {
+      "title": "OpenAI is reportedly going all-in as a for-profit company",
+      "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "fact": "OpenAI currently operates as a 'capped' for-profit LLC controlled by a non-profit, which is the structure that might change."
+    },
+    {
+      "title": "OpenAI is reportedly going all-in as a for-profit company",
+      "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "fact": "Investors are making capital injections contingent on OpenAI abandoning its profit cap, which may require changes to the non-profit controlling entity."
+    },
+    {
+      "title": "OpenAI is reportedly going all-in as a for-profit company",
+      "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+      "fact": "An OpenAI spokesperson stated that the company's non-profit arm is 'core to our mission and will continue to exist,' suggesting some form of non-profit structure might remain."
+    },
+    {
+      "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+      "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "fact": "OpenAI is transitioning from a non-profit to a for-profit public benefit corporation."
+    },
+    {
+      "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+      "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "fact": "The restructuring includes awarding CEO Sam Altman a seven percent equity stake."
+    },
+    {
+      "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+      "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "fact": "OpenAI's new structure will no longer be controlled by a non-profit board, with shareholders electing board members."
+    },
+    {
+      "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+      "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "fact": "Under the new framework, OpenAI will be subject to corporate taxes, losing benefits enjoyed as a non-profit."
+    },
+    {
+      "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+      "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+      "fact": "The transition is driven by investors' desires for a more straightforward exit strategy and substantial financial returns."
+    },
+    {
+      "title": "Our structure",
+      "url": "https://openai.com/our-structure/",
+      "fact": "OpenAI's structure is a partnership between its original Nonprofit and a new capped profit arm, designed to build AGI that is safe and benefits all of humanity."
+    },
+    {
+      "title": "Our structure",
+      "url": "https://openai.com/our-structure/",
+      "fact": "The OpenAI Nonprofit remains intact and is the overall governing body for all OpenAI activities, including the for-profit subsidiary."
+    },
+    {
+      "title": "Our structure",
+      "url": "https://openai.com/our-structure/",
+      "fact": "The for-profit subsidiary is fully controlled by the OpenAI Nonprofit, which owns and controls a manager entity (OpenAI GP LLC) that governs the for-profit subsidiary."
+    },
+    {
+      "title": "Our structure",
+      "url": "https://openai.com/our-structure/",
+      "fact": "The board of OpenAI is the board of the Nonprofit, and each director must perform their fiduciary duties in furtherance of its mission—safe AGI that is broadly beneficial."
+    },
+    {
+      "title": "Our structure",
+      "url": "https://openai.com/our-structure/",
+      "fact": "Profit allocated to investors and employees is capped, with all residual value created above the cap returned to the Nonprofit for the benefit of humanity."
+    },
+    {
+      "title": "Why OpenAI’s structure must evolve to advance our mission",
+      "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "fact": "OpenAI plans to transform its existing for-profit into a Delaware Public Benefit Corporation (PBC) with ordinary shares of stock."
+    },
+    {
+      "title": "Why OpenAI’s structure must evolve to advance our mission",
+      "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "fact": "The PBC structure requires the company to balance shareholder interests, stakeholder interests, and a public benefit interest in its decision-making."
+    },
+    {
+      "title": "Why OpenAI’s structure must evolve to advance our mission",
+      "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "fact": "The non-profit arm of OpenAI will hold shares in the PBC at a fair valuation determined by independent financial advisors."
+    },
+    {
+      "title": "Why OpenAI’s structure must evolve to advance our mission",
+      "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "fact": "The PBC will run and control OpenAI’s operations and business, while the non-profit will focus on charitable initiatives."
+    },
+    {
+      "title": "Why OpenAI’s structure must evolve to advance our mission",
+      "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+      "fact": "The transition to a PBC is intended to enable OpenAI to raise necessary capital with conventional terms like others in the AI space."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 1.0,
+  "brier_score": 0.81,
+  "weighted_brier_score": 0.81,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "666a726b-e2b9-50e3-aea3-9b50a1c94f54",
+        "queries": [
+          "OpenAI corporate structure changes 2025",
+          "Delaware Exempt entity criteria 2025",
+          "OpenAI Delaware corporation status March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"queries\": [\"OpenAI corporate structure changes 2025\", \"Delaware Exempt entity criteria 2025\", \"OpenAI Delaware corporation status March 2025\"]}",
+      "tool_call_id": "call_Lc5dnoSiwymP0kHljUAnBiHY"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "OpenAI corporate structure changes 2025",
+        "results": [
+          {
+            "title": "Our structure | OpenAI",
+            "link": "https://openai.com/our-structure/",
+            "position": 2,
+            "snippet": "We designed OpenAI’s structure—a partnership between our original Nonprofit and a new capped profit arm—as a chassis for OpenAI’s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.",
+            "date": null
+          },
+          {
+            "title": "OpenAI reportedly restructuring as a for-profit company in 2025 | Mashable",
+            "link": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+            "position": 3,
+            "snippet": "OpenAI may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation...",
+            "date": "2024-09-14T15:38:06Z"
+          },
+          {
+            "title": "OpenAI - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/OpenAI",
+            "position": 2,
+            "snippet": "In November 2023, OpenAI's board removed Sam Altman as CEO, but reinstated him five days later following a reconstruction of the board. Throughout 2024, roughly half of then-employed AI safety researchers left OpenAI.",
+            "date": null
+          },
+          {
+            "title": "Why OpenAI’s structure must evolve to advance our mission | OpenAI",
+            "link": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+            "position": 1,
+            "snippet": "OpenAI’s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) benefits all of humanity...",
+            "date": null
+          },
+          {
+            "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+            "link": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+            "position": 4,
+            "snippet": "OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant.",
+            "date": "2024-09-30T13:18:44Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"OpenAI corporate structure changes 2025\", \"results\": [{\"title\": \"Our structure | OpenAI\", \"link\": \"https://openai.com/our-structure/\", \"position\": 2, \"snippet\": \"We designed OpenAI\\u2019s structure\\u2014a partnership between our original Nonprofit and a new capped profit arm\\u2014as a chassis for OpenAI\\u2019s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\", \"date\": null}, {\"title\": \"OpenAI reportedly restructuring as a for-profit company in 2025 | Mashable\", \"link\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"position\": 3, \"snippet\": \"OpenAI may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation...\", \"date\": \"2024-09-14T15:38:06Z\"}, {\"title\": \"OpenAI - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/OpenAI\", \"position\": 2, \"snippet\": \"In November 2023, OpenAI's board removed Sam Altman as CEO, but reinstated him five days later following a reconstruction of the board. Throughout 2024, roughly half of then-employed AI safety researchers left OpenAI.\", \"date\": null}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission | OpenAI\", \"link\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"position\": 1, \"snippet\": \"OpenAI\\u2019s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) benefits all of humanity...\", \"date\": null}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"link\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"position\": 4, \"snippet\": \"OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant.\", \"date\": \"2024-09-30T13:18:44Z\"}]}",
+      "tool_call_id": "call_KP9EnKYWjH2Womu1Fht07qa0"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Delaware Exempt entity criteria 2025",
+        "results": [
+          {
+            "title": "Non-profit Corporations - Division of Revenue - State of Delaware",
+            "link": "https://revenue.delaware.gov/business-tax-forms/non-profit-corporations/",
+            "position": 2,
+            "snippet": "Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.",
+            "date": "2018-08-20T18:54:42Z"
+          },
+          {
+            "title": "Business Tax Forms 2024-2025 - Division of Revenue - State of Delaware",
+            "link": "https://revenue.delaware.gov/business-tax-forms/",
+            "position": 3,
+            "snippet": "View information about business tax and business tax forms for 2024-2025. Includes links for online filing, new business registration, and various tax credit applications...",
+            "date": "2025-03-04T18:05:59Z"
+          },
+          {
+            "title": "Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com",
+            "link": "https://www.harborcompliance.com/delaware-tax-exemption",
+            "position": 5,
+            "snippet": "Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.",
+            "date": null
+          },
+          {
+            "title": "Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com",
+            "link": "https://www.harborcompliance.com/delaware-tax-exemption",
+            "position": 1,
+            "snippet": "Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.",
+            "date": null
+          },
+          {
+            "title": "How to Form a Delaware Nonprofit Corporation",
+            "link": "https://www.nolo.com/legal-encyclopedia/forming-nonprofit-corporation-delaware-36056.html",
+            "position": 2,
+            "snippet": "In Delaware, a nonprofit corporation is organized as a nonstock corporation, referred to as an \"exempt corporation.\" To form one, you file a Certificate of Incorporation for an Exempt Corporation with the DOS, which must include specific information.",
+            "date": null
+          },
+          {
+            "title": "How to Start a Nonprofit in Delaware - Foundation Group®",
+            "link": "https://www.501c3.org/state-nonprofit-guide/how-to-start-a-nonprofit-in-delaware/",
+            "position": 4,
+            "snippet": "In 2025, the Beneficial Ownership Information (BOI) Report will be due within 30 days of incorporation for newly formed nonprofit corporations.",
+            "date": "2024-05-08T16:18:59Z"
+          },
+          {
+            "title": "Delaware | Internal Revenue Service",
+            "link": "https://www.irs.gov/charities-non-profits/delaware",
+            "position": 5,
+            "snippet": "In Delaware, no state statute specifically requires registration of charities. The Attorney General's office provides general oversight of charities, however.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Delaware Exempt entity criteria 2025\", \"results\": [{\"title\": \"Non-profit Corporations - Division of Revenue - State of Delaware\", \"link\": \"https://revenue.delaware.gov/business-tax-forms/non-profit-corporations/\", \"position\": 2, \"snippet\": \"Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.\", \"date\": \"2018-08-20T18:54:42Z\"}, {\"title\": \"Business Tax Forms 2024-2025 - Division of Revenue - State of Delaware\", \"link\": \"https://revenue.delaware.gov/business-tax-forms/\", \"position\": 3, \"snippet\": \"View information about business tax and business tax forms for 2024-2025. Includes links for online filing, new business registration, and various tax credit applications...\", \"date\": \"2025-03-04T18:05:59Z\"}, {\"title\": \"Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com\", \"link\": \"https://www.harborcompliance.com/delaware-tax-exemption\", \"position\": 5, \"snippet\": \"Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.\", \"date\": null}, {\"title\": \"Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com\", \"link\": \"https://www.harborcompliance.com/delaware-tax-exemption\", \"position\": 1, \"snippet\": \"Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.\", \"date\": null}, {\"title\": \"How to Form a Delaware Nonprofit Corporation\", \"link\": \"https://www.nolo.com/legal-encyclopedia/forming-nonprofit-corporation-delaware-36056.html\", \"position\": 2, \"snippet\": \"In Delaware, a nonprofit corporation is organized as a nonstock corporation, referred to as an \\\"exempt corporation.\\\" To form one, you file a Certificate of Incorporation for an Exempt Corporation with the DOS, which must include specific information.\", \"date\": null}, {\"title\": \"How to Start a Nonprofit in Delaware - Foundation Group\\u00ae\", \"link\": \"https://www.501c3.org/state-nonprofit-guide/how-to-start-a-nonprofit-in-delaware/\", \"position\": 4, \"snippet\": \"In 2025, the Beneficial Ownership Information (BOI) Report will be due within 30 days of incorporation for newly formed nonprofit corporations.\", \"date\": \"2024-05-08T16:18:59Z\"}, {\"title\": \"Delaware | Internal Revenue Service\", \"link\": \"https://www.irs.gov/charities-non-profits/delaware\", \"position\": 5, \"snippet\": \"In Delaware, no state statute specifically requires registration of charities. The Attorney General's office provides general oversight of charities, however.\", \"date\": null}]}",
+      "tool_call_id": "call_7g8pDyfGNjIELmiNDUuFb1c5"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "OpenAI Delaware corporation status March 2025",
+        "results": [
+          {
+            "title": "OpenAI - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/OpenAI",
+            "position": 3,
+            "snippet": "The organization consists of the non-profit OpenAI, Inc., registered in Delaware, and its for-profit subsidiary introduced in 2019, OpenAI Global, LLC.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"OpenAI Delaware corporation status March 2025\", \"results\": [{\"title\": \"OpenAI - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/OpenAI\", \"position\": 3, \"snippet\": \"The organization consists of the non-profit OpenAI, Inc., registered in Delaware, and its for-profit subsidiary introduced in 2019, OpenAI Global, LLC.\", \"date\": null}]}",
+      "tool_call_id": "call_VYw2veJyJnJd70DUsny4RVzs"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+        "snippet": "---\ntitle: OpenAI is reportedly going all-in as a for-profit company\nauthor: Chase DiBenedetto\nurl: https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\nhostname: mashable.com\ndescription: CEO Sam Altman could axe the \"unusual\" structure.\nsitename: Mashable\ndate: 2024-09-14\ncategories: ['Tech']\n---\n[OpenAI](https://mashable.com/category/openai) may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation as the AI leader veers down a similar [profit-seeking path](https://www.theinformation.com/articles/openai-makes-a-60-million-hardware-startup-bet?utm_source=twitter&utm_medium=cpc&utm_campaign=kd-AI_topics-20240627) to that of its Silicon Valley peers.\n\nThe news was first reported by [ Fortune](https://fortune.com/2024/09/13/sam-altman-openai-non-profit-structure-change-next-year/), based on comments made by CEO Sam Altman in a weekly OpenAI employee meeting. Altman gave employees little detail, but reiterated that OpenAI was \"set\" to move away from non-profit control as it had \"outgrown\" its founding arrangement.\n\nCurrently, OpenAI operates as a \"[capped](https://openai.com/our-structure/)\" for-profit LLC controlled by a non-profit. It was this structure that allowed OpenAI's board of directors, part of the non-profit parent structure, to [fire Altman as CEO](https://mashable.com/article/sam-altman-fired-openai-ceo) in Nov. 2023. The board accused Altman of [lying to and obstructing](https://mashable.com/article/open-ai-board-why-fired-sam-altman-helen-toner-podcast) the work of the non-profit board and OpenAI's safety measures, including omitting the nature of his ownership of the OpenAI startup fund. Altman was later reinstated and took leadership control of [OpenAI's revamped internal safety team](https://mashable.com/article/openai-new-ai-safety-security-committee-sam-altman).\n\n[Terms of Use](https://www.ziffdavis.com/terms-of-use)and\n\n[Privacy Policy](https://www.ziffdavis.com/ztg-privacy-policy).\n\nHeading into the new year, Altman and OpenAI's leadership are now navigating a growing, billion-dollar business. Last month, Apple was rumored to be [investing in the AI startup](https://mashable.com/article/apple-reportedly-investing-in-openai), joining other big backers like Microsoft in what would inform the more than $100 billion valuation. According to a *Reuters* report from the same day as the *Fortune* story, anonymous sources said investors…\n\n[Truncated preview: showing 269 words out of ~328. Full content available via `btf_extract_evidence`.]",
+        "word_count": 328,
+        "snippet_word_count": 269,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-05T11:47:56.263663",
+        "date_cutoff_end": "2025-03-06T11:47:56.263663",
+        "cached_at": "2025-10-24T05:03:22.720899"
+      },
+      "raw": "{\"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"snippet\": \"---\\ntitle: OpenAI is reportedly going all-in as a for-profit company\\nauthor: Chase DiBenedetto\\nurl: https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\\nhostname: mashable.com\\ndescription: CEO Sam Altman could axe the \\\"unusual\\\" structure.\\nsitename: Mashable\\ndate: 2024-09-14\\ncategories: ['Tech']\\n---\\n[OpenAI](https://mashable.com/category/openai) may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation as the AI leader veers down a similar [profit-seeking path](https://www.theinformation.com/articles/openai-makes-a-60-million-hardware-startup-bet?utm_source=twitter&utm_medium=cpc&utm_campaign=kd-AI_topics-20240627) to that of its Silicon Valley peers.\\n\\nThe news was first reported by [ Fortune](https://fortune.com/2024/09/13/sam-altman-openai-non-profit-structure-change-next-year/), based on comments made by CEO Sam Altman in a weekly OpenAI employee meeting. Altman gave employees little detail, but reiterated that OpenAI was \\\"set\\\" to move away from non-profit control as it had \\\"outgrown\\\" its founding arrangement.\\n\\nCurrently, OpenAI operates as a \\\"[capped](https://openai.com/our-structure/)\\\" for-profit LLC controlled by a non-profit. It was this structure that allowed OpenAI's board of directors, part of the non-profit parent structure, to [fire Altman as CEO](https://mashable.com/article/sam-altman-fired-openai-ceo) in Nov. 2023. The board accused Altman of [lying to and obstructing](https://mashable.com/article/open-ai-board-why-fired-sam-altman-helen-toner-podcast) the work of the non-profit board and OpenAI's safety measures, including omitting the nature of his ownership of the OpenAI startup fund. Altman was later reinstated and took leadership control of [OpenAI's revamped internal safety team](https://mashable.com/article/openai-new-ai-safety-security-committee-sam-altman).\\n\\n[Terms of Use](https://www.ziffdavis.com/terms-of-use)and\\n\\n[Privacy Policy](https://www.ziffdavis.com/ztg-privacy-policy).\\n\\nHeading into the new year, Altman and OpenAI's leadership are now navigating a growing, billion-dollar business. Last month, Apple was rumored to be [investing in the AI startup](https://mashable.com/article/apple-reportedly-investing-in-openai), joining other big backers like Microsoft in what would inform the more than $100 billion valuation. According to a *Reuters* report from the same day as the *Fortune* story, anonymous sources said investors\\u2026\\n\\n[Truncated preview: showing 269 words out of ~328. Full content available via `btf_extract_evidence`.]\", \"word_count\": 328, \"snippet_word_count\": 269, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:22.720899\"}",
+      "tool_call_id": "call_nl2P3CwF3owYHhwazwjEXvV5"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+        "snippet": "---\ntitle: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\nauthor: Rob Robinson\nurl: https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\nhostname: complexdiscovery.com\ndescription: OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant.\nsitename: ComplexDiscovery\ndate: 2024-09-30\ncategories: ['Artificial Intelligence', 'eDiscovery', 'Industry']\n---\nEditor’s Note: OpenAI’s restructuring into a for-profit public benefit corporation marks a critical juncture for the company and its future in artificial intelligence. Initially founded as a nonprofit to ensure AI benefits humanity, OpenAI now shifts towards a model that balances profitability with societal impact. This move, sparked by over $13 billion in investments and internal leadership transitions, mirrors the strategies of competitors like Anthropic and xAI. For cybersecurity, information governance, and eDiscovery professionals, this structural change signals an evolving landscape where AI’s development is increasingly influenced by investor expectations, corporate governance, and competitive pressures.\n\n\n## Content Assessment: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\n\n##### Information - 92%\n\n##### Insight - 90%\n\n##### Relevance - 92%\n\n##### Objectivity - 91%\n\n##### Authority - 90%\n\n### 91%\n\n#### Excellent\n\nA short percentage-based assessment of the qualitative benefit expressed as a percentage of positive reception of the recent article from ComplexDiscovery OÜ titled, \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape.\"\n\n\nIndustry News – Artificial Intelligence Beat\n\n### OpenAI’s For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\n\n*ComplexDiscovery Staff*\n\nOpenAI, the prominent AI research organization initially founded as a non-profit, is undergoing significant structural changes to become a for-profit public benefit corporation. This shift, which includes awarding CEO Sam Altman a seven percent equity stake, has sparked conversations and speculations within the tech and business communities. Initially, OpenAI was set up in 2015 as a nonprofit with a mission to ensure that artificial general intelligence benefits all of humanity. H…\n\n[Truncated preview: showing 317 words out of ~961. Full content available via `btf_extract_evidence`.]",
+        "word_count": 961,
+        "snippet_word_count": 317,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-05T11:47:56.263663",
+        "date_cutoff_end": "2025-03-06T11:47:56.263663",
+        "cached_at": "2025-10-24T05:03:23.205017"
+      },
+      "raw": "{\"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"snippet\": \"---\\ntitle: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\\nauthor: Rob Robinson\\nurl: https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\\nhostname: complexdiscovery.com\\ndescription: OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant.\\nsitename: ComplexDiscovery\\ndate: 2024-09-30\\ncategories: ['Artificial Intelligence', 'eDiscovery', 'Industry']\\n---\\nEditor\\u2019s Note: OpenAI\\u2019s restructuring into a for-profit public benefit corporation marks a critical juncture for the company and its future in artificial intelligence. Initially founded as a nonprofit to ensure AI benefits humanity, OpenAI now shifts towards a model that balances profitability with societal impact. This move, sparked by over $13 billion in investments and internal leadership transitions, mirrors the strategies of competitors like Anthropic and xAI. For cybersecurity, information governance, and eDiscovery professionals, this structural change signals an evolving landscape where AI\\u2019s development is increasingly influenced by investor expectations, corporate governance, and competitive pressures.\\n\\n\\n## Content Assessment: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\\n\\n##### Information - 92%\\n\\n##### Insight - 90%\\n\\n##### Relevance - 92%\\n\\n##### Objectivity - 91%\\n\\n##### Authority - 90%\\n\\n### 91%\\n\\n#### Excellent\\n\\nA short percentage-based assessment of the qualitative benefit expressed as a percentage of positive reception of the recent article from ComplexDiscovery O\\u00dc titled, \\\"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape.\\\"\\n\\n\\nIndustry News \\u2013 Artificial Intelligence Beat\\n\\n### OpenAI\\u2019s For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\\n\\n*ComplexDiscovery Staff*\\n\\nOpenAI, the prominent AI research organization initially founded as a non-profit, is undergoing significant structural changes to become a for-profit public benefit corporation. This shift, which includes awarding CEO Sam Altman a seven percent equity stake, has sparked conversations and speculations within the tech and business communities. Initially, OpenAI was set up in 2015 as a nonprofit with a mission to ensure that artificial general intelligence benefits all of humanity. H\\u2026\\n\\n[Truncated preview: showing 317 words out of ~961. Full content available via `btf_extract_evidence`.]\", \"word_count\": 961, \"snippet_word_count\": 317, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:23.205017\"}",
+      "tool_call_id": "call_isnk4KXlk5uvyjXvrIg8lKqP"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://openai.com/our-structure/",
+        "snippet": "---\ntitle: Our structure\nurl: https://openai.com/our-structure/\nhostname: openai.com\ndescription: We designed OpenAI’s structure—a partnership between our original Nonprofit and a new capped profit arm—as a chassis for OpenAI’s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\nsitename: OpenAI\ndate: 2024-05-21\n---\n# Our structure\n\nWe designed OpenAI’s structure—a partnership between our original Nonprofit and a new capped profit arm—as a chassis for OpenAI’s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\n\nWe [announced](https://openai.com/index/openai-lp/) our “capped profit” structure in 2019, about three years after [founding](https://openai.com/index/introducing-openai/) the original OpenAI Nonprofit.\n\nSince the beginning, we have believed that powerful AI, culminating in AGI—meaning a highly autonomous system that outperforms humans at most economically valuable work—has the potential to reshape society and bring tremendous benefits, along with risks that must be safely addressed. The increasing capabilities of present day systems mean it’s more important than ever for OpenAI and other AI companies to share the principles, economic mechanisms, and governance models that are core to our respective missions and operations.\n\n## Overview\n\nWe founded the OpenAI Nonprofit in late 2015 with the goal of building safe and beneficial artificial general intelligence for the benefit of humanity. A project like this might previously have been the provenance of one or multiple governments—a humanity-scale endeavor pursuing broad benefit for humankind.\n\nSeeing no clear path in the public sector, and given the success of other ambitious projects in private industry (e.g., SpaceX, Cruise, and others), we decided to pursue this project through private means bound by strong commitments to the public good. We initially believed a 501(c)(3) would be the most effective vehicle to direct the development of safe and broadly beneficial AGI while remaining unencumbered by profit incentives. We committed to publishing our research and data in cases where we felt it was safe to do so and would benefit the public.\n\nWe always suspected that our project would be capital intensive, which is why we launched with the goal of $1 billion in donation commitments. Yet over the years, OpenAI’s Nonprofit received approximately $130.5 million in total donations, which funded the Nonprofit’s op…\n\n[Truncated preview: showing 362 words out of ~1253. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1253,
+        "snippet_word_count": 362,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-05T11:47:56.263663",
+        "date_cutoff_end": "2025-03-06T11:47:56.263663",
+        "cached_at": "2025-10-24T05:03:23.690297"
+      },
+      "raw": "{\"url\": \"https://openai.com/our-structure/\", \"snippet\": \"---\\ntitle: Our structure\\nurl: https://openai.com/our-structure/\\nhostname: openai.com\\ndescription: We designed OpenAI\\u2019s structure\\u2014a partnership between our original Nonprofit and a new capped profit arm\\u2014as a chassis for OpenAI\\u2019s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\\nsitename: OpenAI\\ndate: 2024-05-21\\n---\\n# Our structure\\n\\nWe designed OpenAI\\u2019s structure\\u2014a partnership between our original Nonprofit and a new capped profit arm\\u2014as a chassis for OpenAI\\u2019s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\\n\\nWe [announced](https://openai.com/index/openai-lp/) our \\u201ccapped profit\\u201d structure in 2019, about three years after [founding](https://openai.com/index/introducing-openai/) the original OpenAI Nonprofit.\\n\\nSince the beginning, we have believed that powerful AI, culminating in AGI\\u2014meaning a highly autonomous system that outperforms humans at most economically valuable work\\u2014has the potential to reshape society and bring tremendous benefits, along with risks that must be safely addressed. The increasing capabilities of present day systems mean it\\u2019s more important than ever for OpenAI and other AI companies to share the principles, economic mechanisms, and governance models that are core to our respective missions and operations.\\n\\n## Overview\\n\\nWe founded the OpenAI Nonprofit in late 2015 with the goal of building safe and beneficial artificial general intelligence for the benefit of humanity. A project like this might previously have been the provenance of one or multiple governments\\u2014a humanity-scale endeavor pursuing broad benefit for humankind.\\n\\nSeeing no clear path in the public sector, and given the success of other ambitious projects in private industry (e.g., SpaceX, Cruise, and others), we decided to pursue this project through private means bound by strong commitments to the public good. We initially believed a 501(c)(3) would be the most effective vehicle to direct the development of safe and broadly beneficial AGI while remaining unencumbered by profit incentives. We committed to publishing our research and data in cases where we felt it was safe to do so and would benefit the public.\\n\\nWe always suspected that our project would be capital intensive, which is why we launched with the goal of $1 billion in donation commitments. Yet over the years, OpenAI\\u2019s Nonprofit received approximately $130.5 million in total donations, which funded the Nonprofit\\u2019s op\\u2026\\n\\n[Truncated preview: showing 362 words out of ~1253. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1253, \"snippet_word_count\": 362, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:23.690297\"}",
+      "tool_call_id": "call_wfGS0Ox1oZLRI8nPV91jrKoH"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+        "snippet": "---\ntitle: Why OpenAI’s structure must evolve to advance our mission\nurl: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\nhostname: openai.com\ndescription: A stronger non-profit supported by the for-profit’s success.\nsitename: OpenAI\ndate: 2024-12-27\n---\n# Why OpenAI’s structure must evolve to advance our mission\n\nA stronger non-profit supported by the for-profit’s success.\n\nOpenAI’s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) 1 benefits all of humanity, with three objectives:\n\n- Choose a non-profit / for-profit structure that is best for the long-term success of the mission.\n- Make the non-profit sustainable.\n- Equip each arm to do its part.\n\nWe have a non-profit and a for-profit today, and we will continue to have both, with the for-profit’s success enabling the non-profit to be well funded, better sustained, and in a stronger position for the mission.\n\nWe view this mission as the most important challenge of our time. It requires simultaneously advancing AI’s capability, safety, and positive impact in the world. In this post, we share the history of our current structure, why we think a change is necessary, and what specific change we are considering.\n\n## The past\n\nWe began in 2015 as a research lab with a vision that AGI might really happen, and we wanted to help it go as well as possible. In these early days, we thought that progress relied on key ideas produced by top researchers and that supercomputing clusters were less important.\n\nWe performed experiments ranging from [toolkits for game-playing AI](https://openai.com/index/universe/) to [robotics research](https://openai.com/index/ingredients-for-robotics-research/) and published papers. We had no products, no business, and no commercial revenue.\n\nOur [stated goal](https://openai.com/index/introducing-openai/) was “advancing digital intelligence in the way most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.” A non-profit structure seemed fitting, and we raised donations in various forms including cash ($137M, less than a third of which was from Elon) and compute credits and discounts ($1.8M from Amazon and $50M or more from each of Azure and Google Cloud).\n\nEventually, it became clear that the most [advanced AI](https://openai.com/index/openai-five/) would continuously use [more and more compute](https://openai.com/index/ai-…\n\n[Truncated preview: showing 356 words out of ~1217. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1217,
+        "snippet_word_count": 356,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-05T11:47:56.263663",
+        "date_cutoff_end": "2025-03-06T11:47:56.263663",
+        "cached_at": "2025-10-24T05:03:24.157656"
+      },
+      "raw": "{\"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"snippet\": \"---\\ntitle: Why OpenAI\\u2019s structure must evolve to advance our mission\\nurl: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\\nhostname: openai.com\\ndescription: A stronger non-profit supported by the for-profit\\u2019s success.\\nsitename: OpenAI\\ndate: 2024-12-27\\n---\\n# Why OpenAI\\u2019s structure must evolve to advance our mission\\n\\nA stronger non-profit supported by the for-profit\\u2019s success.\\n\\nOpenAI\\u2019s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) 1 benefits all of humanity, with three objectives:\\n\\n- Choose a non-profit / for-profit structure that is best for the long-term success of the mission.\\n- Make the non-profit sustainable.\\n- Equip each arm to do its part.\\n\\nWe have a non-profit and a for-profit today, and we will continue to have both, with the for-profit\\u2019s success enabling the non-profit to be well funded, better sustained, and in a stronger position for the mission.\\n\\nWe view this mission as the most important challenge of our time. It requires simultaneously advancing AI\\u2019s capability, safety, and positive impact in the world. In this post, we share the history of our current structure, why we think a change is necessary, and what specific change we are considering.\\n\\n## The past\\n\\nWe began in 2015 as a research lab with a vision that AGI might really happen, and we wanted to help it go as well as possible. In these early days, we thought that progress relied on key ideas produced by top researchers and that supercomputing clusters were less important.\\n\\nWe performed experiments ranging from [toolkits for game-playing AI](https://openai.com/index/universe/) to [robotics research](https://openai.com/index/ingredients-for-robotics-research/) and published papers. We had no products, no business, and no commercial revenue.\\n\\nOur [stated goal](https://openai.com/index/introducing-openai/) was \\u201cadvancing digital intelligence in the way most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.\\u201d A non-profit structure seemed fitting, and we raised donations in various forms including cash ($137M, less than a third of which was from Elon) and compute credits and discounts ($1.8M from Amazon and $50M or more from each of Azure and Google Cloud).\\n\\nEventually, it became clear that the most [advanced AI](https://openai.com/index/openai-five/) would continuously use [more and more compute](https://openai.com/index/ai-\\u2026\\n\\n[Truncated preview: showing 356 words out of ~1217. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1217, \"snippet_word_count\": 356, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:24.157656\"}",
+      "tool_call_id": "call_RqSyZfMhnXMyM2eNm90cdjIO"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "666a726b-e2b9-50e3-aea3-9b50a1c94f54",
+        "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+        "facts": [
+          {
+            "title": "OpenAI is reportedly going all-in as a for-profit company",
+            "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+            "fact": "OpenAI is reportedly planning to overhaul its nonprofit structure in favor of a traditional for-profit model in 2025."
+          },
+          {
+            "title": "OpenAI is reportedly going all-in as a for-profit company",
+            "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+            "fact": "CEO Sam Altman has indicated that OpenAI is 'set' to move away from non-profit control as it has 'outgrown' its founding arrangement."
+          },
+          {
+            "title": "OpenAI is reportedly going all-in as a for-profit company",
+            "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+            "fact": "OpenAI currently operates as a 'capped' for-profit LLC controlled by a non-profit, which is the structure that might change."
+          },
+          {
+            "title": "OpenAI is reportedly going all-in as a for-profit company",
+            "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+            "fact": "Investors are making capital injections contingent on OpenAI abandoning its profit cap, which may require changes to the non-profit controlling entity."
+          },
+          {
+            "title": "OpenAI is reportedly going all-in as a for-profit company",
+            "url": "https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit",
+            "fact": "An OpenAI spokesperson stated that the company's non-profit arm is 'core to our mission and will continue to exist,' suggesting some form of non-profit structure might remain."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"facts\": [{\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"OpenAI is reportedly planning to overhaul its nonprofit structure in favor of a traditional for-profit model in 2025.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"CEO Sam Altman has indicated that OpenAI is 'set' to move away from non-profit control as it has 'outgrown' its founding arrangement.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"OpenAI currently operates as a 'capped' for-profit LLC controlled by a non-profit, which is the structure that might change.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"Investors are making capital injections contingent on OpenAI abandoning its profit cap, which may require changes to the non-profit controlling entity.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"An OpenAI spokesperson stated that the company's non-profit arm is 'core to our mission and will continue to exist,' suggesting some form of non-profit structure might remain.\"}]}",
+      "tool_call_id": "call_p8lUgxDzzqmJxNneSn6QM1Mq"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "666a726b-e2b9-50e3-aea3-9b50a1c94f54",
+        "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+        "facts": [
+          {
+            "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+            "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+            "fact": "OpenAI is transitioning from a non-profit to a for-profit public benefit corporation."
+          },
+          {
+            "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+            "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+            "fact": "The restructuring includes awarding CEO Sam Altman a seven percent equity stake."
+          },
+          {
+            "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+            "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+            "fact": "OpenAI's new structure will no longer be controlled by a non-profit board, with shareholders electing board members."
+          },
+          {
+            "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+            "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+            "fact": "Under the new framework, OpenAI will be subject to corporate taxes, losing benefits enjoyed as a non-profit."
+          },
+          {
+            "title": "OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape",
+            "url": "https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/",
+            "fact": "The transition is driven by investors' desires for a more straightforward exit strategy and substantial financial returns."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"facts\": [{\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"OpenAI is transitioning from a non-profit to a for-profit public benefit corporation.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"The restructuring includes awarding CEO Sam Altman a seven percent equity stake.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"OpenAI's new structure will no longer be controlled by a non-profit board, with shareholders electing board members.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"Under the new framework, OpenAI will be subject to corporate taxes, losing benefits enjoyed as a non-profit.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"The transition is driven by investors' desires for a more straightforward exit strategy and substantial financial returns.\"}]}",
+      "tool_call_id": "call_lGukBcDFGIbwa8GTQh5mM1jP"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "666a726b-e2b9-50e3-aea3-9b50a1c94f54",
+        "url": "https://openai.com/our-structure/",
+        "facts": [
+          {
+            "title": "Our structure",
+            "url": "https://openai.com/our-structure/",
+            "fact": "OpenAI's structure is a partnership between its original Nonprofit and a new capped profit arm, designed to build AGI that is safe and benefits all of humanity."
+          },
+          {
+            "title": "Our structure",
+            "url": "https://openai.com/our-structure/",
+            "fact": "The OpenAI Nonprofit remains intact and is the overall governing body for all OpenAI activities, including the for-profit subsidiary."
+          },
+          {
+            "title": "Our structure",
+            "url": "https://openai.com/our-structure/",
+            "fact": "The for-profit subsidiary is fully controlled by the OpenAI Nonprofit, which owns and controls a manager entity (OpenAI GP LLC) that governs the for-profit subsidiary."
+          },
+          {
+            "title": "Our structure",
+            "url": "https://openai.com/our-structure/",
+            "fact": "The board of OpenAI is the board of the Nonprofit, and each director must perform their fiduciary duties in furtherance of its mission—safe AGI that is broadly beneficial."
+          },
+          {
+            "title": "Our structure",
+            "url": "https://openai.com/our-structure/",
+            "fact": "Profit allocated to investors and employees is capped, with all residual value created above the cap returned to the Nonprofit for the benefit of humanity."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://openai.com/our-structure/\", \"facts\": [{\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"OpenAI's structure is a partnership between its original Nonprofit and a new capped profit arm, designed to build AGI that is safe and benefits all of humanity.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"The OpenAI Nonprofit remains intact and is the overall governing body for all OpenAI activities, including the for-profit subsidiary.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"The for-profit subsidiary is fully controlled by the OpenAI Nonprofit, which owns and controls a manager entity (OpenAI GP LLC) that governs the for-profit subsidiary.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"The board of OpenAI is the board of the Nonprofit, and each director must perform their fiduciary duties in furtherance of its mission\\u2014safe AGI that is broadly beneficial.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"Profit allocated to investors and employees is capped, with all residual value created above the cap returned to the Nonprofit for the benefit of humanity.\"}]}",
+      "tool_call_id": "call_t1PGhM2RLhTC0vkIUHKZUpMI"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "666a726b-e2b9-50e3-aea3-9b50a1c94f54",
+        "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+        "facts": [
+          {
+            "title": "Why OpenAI’s structure must evolve to advance our mission",
+            "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+            "fact": "OpenAI plans to transform its existing for-profit into a Delaware Public Benefit Corporation (PBC) with ordinary shares of stock."
+          },
+          {
+            "title": "Why OpenAI’s structure must evolve to advance our mission",
+            "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+            "fact": "The PBC structure requires the company to balance shareholder interests, stakeholder interests, and a public benefit interest in its decision-making."
+          },
+          {
+            "title": "Why OpenAI’s structure must evolve to advance our mission",
+            "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+            "fact": "The non-profit arm of OpenAI will hold shares in the PBC at a fair valuation determined by independent financial advisors."
+          },
+          {
+            "title": "Why OpenAI’s structure must evolve to advance our mission",
+            "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+            "fact": "The PBC will run and control OpenAI’s operations and business, while the non-profit will focus on charitable initiatives."
+          },
+          {
+            "title": "Why OpenAI’s structure must evolve to advance our mission",
+            "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+            "fact": "The transition to a PBC is intended to enable OpenAI to raise necessary capital with conventional terms like others in the AI space."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"facts\": [{\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"OpenAI plans to transform its existing for-profit into a Delaware Public Benefit Corporation (PBC) with ordinary shares of stock.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The PBC structure requires the company to balance shareholder interests, stakeholder interests, and a public benefit interest in its decision-making.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The non-profit arm of OpenAI will hold shares in the PBC at a fair valuation determined by independent financial advisors.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The PBC will run and control OpenAI\\u2019s operations and business, while the non-profit will focus on charitable initiatives.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The transition to a PBC is intended to enable OpenAI to raise necessary capital with conventional terms like others in the AI space.\"}]}",
+      "tool_call_id": "call_VapMeRXLybMFRR4HfLTEZp0F"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the state of Delaware's Division of Corporations list OpenAI as an \"Exempt\" entity on March 31, 2025?\nBackground: [Exclusive: OpenAI to remove non-profit control and give Sam Altman equity](https://www.reuters.com/technology/artificial-intelligence/openai-remove-non-profit-control-give-sam-altman-equity-sources-say-2024-09-25/)\nResolution criteria: This question resolves as **Yes** if OpenAI is listed as \"Exempt\" by Delaware's Division of Corporations on March 31, 2025. To access the status page, go [here](https://icis.corp.delaware.gov/ecorp/entitysearch/NameSearch.aspx) and do a search for file number 5902936. If it shows \"Entity Type: Exempt\" then this question resolves as **Yes**.\nFine print: The specific link to the website of the resolution source is provided for convenience, but if the resolution data is at a different page at the resolution source, then that will be used for resolution.\npresent_date: 2025-03-05T11:47:56.263663\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Lc5dnoSiwymP0kHljUAnBiHY",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the state of Delaware's Division of Corporations list OpenAI as an 'Exempt' entity on March 31, 2025?\",\"background\":\"OpenAI to remove non-profit control and give Sam Altman equity\",\"resolution_criteria\":\"This question resolves as Yes if OpenAI is listed as 'Exempt' by Delaware's Division of Corporations on March 31, 2025. To access the status page, go here and do a search for file number 5902936. If it shows 'Entity Type: Exempt' then this question resolves as Yes.\",\"present_date\":\"2025-03-05T11:47:56.263663\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"queries\": [\"OpenAI corporate structure changes 2025\", \"Delaware Exempt entity criteria 2025\", \"OpenAI Delaware corporation status March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_Lc5dnoSiwymP0kHljUAnBiHY"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_KP9EnKYWjH2Womu1Fht07qa0",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"OpenAI corporate structure changes 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-05\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_7g8pDyfGNjIELmiNDUuFb1c5",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Delaware Exempt entity criteria 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-05\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_VYw2veJyJnJd70DUsny4RVzs",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"OpenAI Delaware corporation status March 2025\", \"date_cutoff_start\": \"2025-01-01\", \"date_cutoff_end\": \"2025-03-05\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"OpenAI corporate structure changes 2025\", \"results\": [{\"title\": \"Our structure | OpenAI\", \"link\": \"https://openai.com/our-structure/\", \"position\": 2, \"snippet\": \"We designed OpenAI\\u2019s structure\\u2014a partnership between our original Nonprofit and a new capped profit arm\\u2014as a chassis for OpenAI\\u2019s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\", \"date\": null}, {\"title\": \"OpenAI reportedly restructuring as a for-profit company in 2025 | Mashable\", \"link\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"position\": 3, \"snippet\": \"OpenAI may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation...\", \"date\": \"2024-09-14T15:38:06Z\"}, {\"title\": \"OpenAI - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/OpenAI\", \"position\": 2, \"snippet\": \"In November 2023, OpenAI's board removed Sam Altman as CEO, but reinstated him five days later following a reconstruction of the board. Throughout 2024, roughly half of then-employed AI safety researchers left OpenAI.\", \"date\": null}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission | OpenAI\", \"link\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"position\": 1, \"snippet\": \"OpenAI\\u2019s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) benefits all of humanity...\", \"date\": null}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"link\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"position\": 4, \"snippet\": \"OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant.\", \"date\": \"2024-09-30T13:18:44Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_KP9EnKYWjH2Womu1Fht07qa0"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Delaware Exempt entity criteria 2025\", \"results\": [{\"title\": \"Non-profit Corporations - Division of Revenue - State of Delaware\", \"link\": \"https://revenue.delaware.gov/business-tax-forms/non-profit-corporations/\", \"position\": 2, \"snippet\": \"Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.\", \"date\": \"2018-08-20T18:54:42Z\"}, {\"title\": \"Business Tax Forms 2024-2025 - Division of Revenue - State of Delaware\", \"link\": \"https://revenue.delaware.gov/business-tax-forms/\", \"position\": 3, \"snippet\": \"View information about business tax and business tax forms for 2024-2025. Includes links for online filing, new business registration, and various tax credit applications...\", \"date\": \"2025-03-04T18:05:59Z\"}, {\"title\": \"Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com\", \"link\": \"https://www.harborcompliance.com/delaware-tax-exemption\", \"position\": 5, \"snippet\": \"Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.\", \"date\": null}, {\"title\": \"Delaware Tax Exemption | Harbor Compliance | www.harborcompliance.com\", \"link\": \"https://www.harborcompliance.com/delaware-tax-exemption\", \"position\": 1, \"snippet\": \"Any corporation granted an exemption by the IRS as a non-profit organization under Section 501(c) is exempt from Delaware Corporate Income Tax.\", \"date\": null}, {\"title\": \"How to Form a Delaware Nonprofit Corporation\", \"link\": \"https://www.nolo.com/legal-encyclopedia/forming-nonprofit-corporation-delaware-36056.html\", \"position\": 2, \"snippet\": \"In Delaware, a nonprofit corporation is organized as a nonstock corporation, referred to as an \\\"exempt corporation.\\\" To form one, you file a Certificate of Incorporation for an Exempt Corporation with the DOS, which must include specific information.\", \"date\": null}, {\"title\": \"How to Start a Nonprofit in Delaware - Foundation Group\\u00ae\", \"link\": \"https://www.501c3.org/state-nonprofit-guide/how-to-start-a-nonprofit-in-delaware/\", \"position\": 4, \"snippet\": \"In 2025, the Beneficial Ownership Information (BOI) Report will be due within 30 days of incorporation for newly formed nonprofit corporations.\", \"date\": \"2024-05-08T16:18:59Z\"}, {\"title\": \"Delaware | Internal Revenue Service\", \"link\": \"https://www.irs.gov/charities-non-profits/delaware\", \"position\": 5, \"snippet\": \"In Delaware, no state statute specifically requires registration of charities. The Attorney General's office provides general oversight of charities, however.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_7g8pDyfGNjIELmiNDUuFb1c5"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"OpenAI Delaware corporation status March 2025\", \"results\": [{\"title\": \"OpenAI - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/OpenAI\", \"position\": 3, \"snippet\": \"The organization consists of the non-profit OpenAI, Inc., registered in Delaware, and its for-profit subsidiary introduced in 2019, OpenAI Global, LLC.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_VYw2veJyJnJd70DUsny4RVzs"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_nl2P3CwF3owYHhwazwjEXvV5",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\"}"
+          }
+        },
+        {
+          "id": "call_isnk4KXlk5uvyjXvrIg8lKqP",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\"}"
+          }
+        },
+        {
+          "id": "call_wfGS0Ox1oZLRI8nPV91jrKoH",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://openai.com/our-structure/\"}"
+          }
+        },
+        {
+          "id": "call_RqSyZfMhnXMyM2eNm90cdjIO",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"snippet\": \"---\\ntitle: OpenAI is reportedly going all-in as a for-profit company\\nauthor: Chase DiBenedetto\\nurl: https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\\nhostname: mashable.com\\ndescription: CEO Sam Altman could axe the \\\"unusual\\\" structure.\\nsitename: Mashable\\ndate: 2024-09-14\\ncategories: ['Tech']\\n---\\n[OpenAI](https://mashable.com/category/openai) may be overhauling its complex nonprofit structure in favor of a traditional for-profit push in 2025, the key to a potential $150 billion valuation as the AI leader veers down a similar [profit-seeking path](https://www.theinformation.com/articles/openai-makes-a-60-million-hardware-startup-bet?utm_source=twitter&utm_medium=cpc&utm_campaign=kd-AI_topics-20240627) to that of its Silicon Valley peers.\\n\\nThe news was first reported by [ Fortune](https://fortune.com/2024/09/13/sam-altman-openai-non-profit-structure-change-next-year/), based on comments made by CEO Sam Altman in a weekly OpenAI employee meeting. Altman gave employees little detail, but reiterated that OpenAI was \\\"set\\\" to move away from non-profit control as it had \\\"outgrown\\\" its founding arrangement.\\n\\nCurrently, OpenAI operates as a \\\"[capped](https://openai.com/our-structure/)\\\" for-profit LLC controlled by a non-profit. It was this structure that allowed OpenAI's board of directors, part of the non-profit parent structure, to [fire Altman as CEO](https://mashable.com/article/sam-altman-fired-openai-ceo) in Nov. 2023. The board accused Altman of [lying to and obstructing](https://mashable.com/article/open-ai-board-why-fired-sam-altman-helen-toner-podcast) the work of the non-profit board and OpenAI's safety measures, including omitting the nature of his ownership of the OpenAI startup fund. Altman was later reinstated and took leadership control of [OpenAI's revamped internal safety team](https://mashable.com/article/openai-new-ai-safety-security-committee-sam-altman).\\n\\n[Terms of Use](https://www.ziffdavis.com/terms-of-use)and\\n\\n[Privacy Policy](https://www.ziffdavis.com/ztg-privacy-policy).\\n\\nHeading into the new year, Altman and OpenAI's leadership are now navigating a growing, billion-dollar business. Last month, Apple was rumored to be [investing in the AI startup](https://mashable.com/article/apple-reportedly-investing-in-openai), joining other big backers like Microsoft in what would inform the more than $100 billion valuation. According to a *Reuters* report from the same day as the *Fortune* story, anonymous sources said investors\\u2026\\n\\n[Truncated preview: showing 269 words out of ~328. Full content available via `btf_extract_evidence`.]\", \"word_count\": 328, \"snippet_word_count\": 269, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:22.720899\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_nl2P3CwF3owYHhwazwjEXvV5"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"snippet\": \"---\\ntitle: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\\nauthor: Rob Robinson\\nurl: https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\\nhostname: complexdiscovery.com\\ndescription: OpenAI is transitioning to a for-profit public benefit corporation, sparking debate over its mission and investor expectations. Leadership changes and new governance structure mark a pivotal moment for the AI research giant.\\nsitename: ComplexDiscovery\\ndate: 2024-09-30\\ncategories: ['Artificial Intelligence', 'eDiscovery', 'Industry']\\n---\\nEditor\\u2019s Note: OpenAI\\u2019s restructuring into a for-profit public benefit corporation marks a critical juncture for the company and its future in artificial intelligence. Initially founded as a nonprofit to ensure AI benefits humanity, OpenAI now shifts towards a model that balances profitability with societal impact. This move, sparked by over $13 billion in investments and internal leadership transitions, mirrors the strategies of competitors like Anthropic and xAI. For cybersecurity, information governance, and eDiscovery professionals, this structural change signals an evolving landscape where AI\\u2019s development is increasingly influenced by investor expectations, corporate governance, and competitive pressures.\\n\\n\\n## Content Assessment: OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\\n\\n##### Information - 92%\\n\\n##### Insight - 90%\\n\\n##### Relevance - 92%\\n\\n##### Objectivity - 91%\\n\\n##### Authority - 90%\\n\\n### 91%\\n\\n#### Excellent\\n\\nA short percentage-based assessment of the qualitative benefit expressed as a percentage of positive reception of the recent article from ComplexDiscovery O\\u00dc titled, \\\"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape.\\\"\\n\\n\\nIndustry News \\u2013 Artificial Intelligence Beat\\n\\n### OpenAI\\u2019s For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\\n\\n*ComplexDiscovery Staff*\\n\\nOpenAI, the prominent AI research organization initially founded as a non-profit, is undergoing significant structural changes to become a for-profit public benefit corporation. This shift, which includes awarding CEO Sam Altman a seven percent equity stake, has sparked conversations and speculations within the tech and business communities. Initially, OpenAI was set up in 2015 as a nonprofit with a mission to ensure that artificial general intelligence benefits all of humanity. H\\u2026\\n\\n[Truncated preview: showing 317 words out of ~961. Full content available via `btf_extract_evidence`.]\", \"word_count\": 961, \"snippet_word_count\": 317, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:23.205017\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_isnk4KXlk5uvyjXvrIg8lKqP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://openai.com/our-structure/\", \"snippet\": \"---\\ntitle: Our structure\\nurl: https://openai.com/our-structure/\\nhostname: openai.com\\ndescription: We designed OpenAI\\u2019s structure\\u2014a partnership between our original Nonprofit and a new capped profit arm\\u2014as a chassis for OpenAI\\u2019s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\\nsitename: OpenAI\\ndate: 2024-05-21\\n---\\n# Our structure\\n\\nWe designed OpenAI\\u2019s structure\\u2014a partnership between our original Nonprofit and a new capped profit arm\\u2014as a chassis for OpenAI\\u2019s mission: to build artificial general intelligence (AGI) that is safe and benefits all of humanity.\\n\\nWe [announced](https://openai.com/index/openai-lp/) our \\u201ccapped profit\\u201d structure in 2019, about three years after [founding](https://openai.com/index/introducing-openai/) the original OpenAI Nonprofit.\\n\\nSince the beginning, we have believed that powerful AI, culminating in AGI\\u2014meaning a highly autonomous system that outperforms humans at most economically valuable work\\u2014has the potential to reshape society and bring tremendous benefits, along with risks that must be safely addressed. The increasing capabilities of present day systems mean it\\u2019s more important than ever for OpenAI and other AI companies to share the principles, economic mechanisms, and governance models that are core to our respective missions and operations.\\n\\n## Overview\\n\\nWe founded the OpenAI Nonprofit in late 2015 with the goal of building safe and beneficial artificial general intelligence for the benefit of humanity. A project like this might previously have been the provenance of one or multiple governments\\u2014a humanity-scale endeavor pursuing broad benefit for humankind.\\n\\nSeeing no clear path in the public sector, and given the success of other ambitious projects in private industry (e.g., SpaceX, Cruise, and others), we decided to pursue this project through private means bound by strong commitments to the public good. We initially believed a 501(c)(3) would be the most effective vehicle to direct the development of safe and broadly beneficial AGI while remaining unencumbered by profit incentives. We committed to publishing our research and data in cases where we felt it was safe to do so and would benefit the public.\\n\\nWe always suspected that our project would be capital intensive, which is why we launched with the goal of $1 billion in donation commitments. Yet over the years, OpenAI\\u2019s Nonprofit received approximately $130.5 million in total donations, which funded the Nonprofit\\u2019s op\\u2026\\n\\n[Truncated preview: showing 362 words out of ~1253. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1253, \"snippet_word_count\": 362, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:23.690297\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_wfGS0Ox1oZLRI8nPV91jrKoH"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"snippet\": \"---\\ntitle: Why OpenAI\\u2019s structure must evolve to advance our mission\\nurl: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\\nhostname: openai.com\\ndescription: A stronger non-profit supported by the for-profit\\u2019s success.\\nsitename: OpenAI\\ndate: 2024-12-27\\n---\\n# Why OpenAI\\u2019s structure must evolve to advance our mission\\n\\nA stronger non-profit supported by the for-profit\\u2019s success.\\n\\nOpenAI\\u2019s Board of Directors is evaluating our corporate structure in order to best support the mission of ensuring artificial general intelligence (AGI) 1 benefits all of humanity, with three objectives:\\n\\n- Choose a non-profit / for-profit structure that is best for the long-term success of the mission.\\n- Make the non-profit sustainable.\\n- Equip each arm to do its part.\\n\\nWe have a non-profit and a for-profit today, and we will continue to have both, with the for-profit\\u2019s success enabling the non-profit to be well funded, better sustained, and in a stronger position for the mission.\\n\\nWe view this mission as the most important challenge of our time. It requires simultaneously advancing AI\\u2019s capability, safety, and positive impact in the world. In this post, we share the history of our current structure, why we think a change is necessary, and what specific change we are considering.\\n\\n## The past\\n\\nWe began in 2015 as a research lab with a vision that AGI might really happen, and we wanted to help it go as well as possible. In these early days, we thought that progress relied on key ideas produced by top researchers and that supercomputing clusters were less important.\\n\\nWe performed experiments ranging from [toolkits for game-playing AI](https://openai.com/index/universe/) to [robotics research](https://openai.com/index/ingredients-for-robotics-research/) and published papers. We had no products, no business, and no commercial revenue.\\n\\nOur [stated goal](https://openai.com/index/introducing-openai/) was \\u201cadvancing digital intelligence in the way most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.\\u201d A non-profit structure seemed fitting, and we raised donations in various forms including cash ($137M, less than a third of which was from Elon) and compute credits and discounts ($1.8M from Amazon and $50M or more from each of Azure and Google Cloud).\\n\\nEventually, it became clear that the most [advanced AI](https://openai.com/index/openai-five/) would continuously use [more and more compute](https://openai.com/index/ai-\\u2026\\n\\n[Truncated preview: showing 356 words out of ~1217. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1217, \"snippet_word_count\": 356, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-05T11:47:56.263663\", \"date_cutoff_end\": \"2025-03-06T11:47:56.263663\", \"cached_at\": \"2025-10-24T05:03:24.157656\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_RqSyZfMhnXMyM2eNm90cdjIO"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_p8lUgxDzzqmJxNneSn6QM1Mq",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"content\": null, \"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"question\": \"Will the state of Delaware's Division of Corporations list OpenAI as an 'Exempt' entity on March 31, 2025?\", \"background\": \"OpenAI to remove non-profit control and give Sam Altman equity\", \"resolution_criteria\": \"This question resolves as Yes if OpenAI is listed as 'Exempt' by Delaware's Division of Corporations on March 31, 2025. To access the status page, go here and do a search for file number 5902936. If it shows 'Entity Type: Exempt' then this question resolves as Yes.\", \"present_date\": \"2025-03-05T11:47:56.263663\"}"
+          }
+        },
+        {
+          "id": "call_lGukBcDFGIbwa8GTQh5mM1jP",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"content\": null, \"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"question\": \"Will the state of Delaware's Division of Corporations list OpenAI as an 'Exempt' entity on March 31, 2025?\", \"background\": \"OpenAI to remove non-profit control and give Sam Altman equity\", \"resolution_criteria\": \"This question resolves as Yes if OpenAI is listed as 'Exempt' by Delaware's Division of Corporations on March 31, 2025. To access the status page, go here and do a search for file number 5902936. If it shows 'Entity Type: Exempt' then this question resolves as Yes.\", \"present_date\": \"2025-03-05T11:47:56.263663\"}"
+          }
+        },
+        {
+          "id": "call_t1PGhM2RLhTC0vkIUHKZUpMI",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://openai.com/our-structure/\", \"content\": null, \"title\": \"Our structure\", \"question\": \"Will the state of Delaware's Division of Corporations list OpenAI as an 'Exempt' entity on March 31, 2025?\", \"background\": \"OpenAI to remove non-profit control and give Sam Altman equity\", \"resolution_criteria\": \"This question resolves as Yes if OpenAI is listed as 'Exempt' by Delaware's Division of Corporations on March 31, 2025. To access the status page, go here and do a search for file number 5902936. If it shows 'Entity Type: Exempt' then this question resolves as Yes.\", \"present_date\": \"2025-03-05T11:47:56.263663\"}"
+          }
+        },
+        {
+          "id": "call_VapMeRXLybMFRR4HfLTEZp0F",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"content\": null, \"title\": \"Why OpenAI’s structure must evolve to advance our mission\", \"question\": \"Will the state of Delaware's Division of Corporations list OpenAI as an 'Exempt' entity on March 31, 2025?\", \"background\": \"OpenAI to remove non-profit control and give Sam Altman equity\", \"resolution_criteria\": \"This question resolves as Yes if OpenAI is listed as 'Exempt' by Delaware's Division of Corporations on March 31, 2025. To access the status page, go here and do a search for file number 5902936. If it shows 'Entity Type: Exempt' then this question resolves as Yes.\", \"present_date\": \"2025-03-05T11:47:56.263663\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"facts\": [{\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"OpenAI is reportedly planning to overhaul its nonprofit structure in favor of a traditional for-profit model in 2025.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"CEO Sam Altman has indicated that OpenAI is 'set' to move away from non-profit control as it has 'outgrown' its founding arrangement.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"OpenAI currently operates as a 'capped' for-profit LLC controlled by a non-profit, which is the structure that might change.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"Investors are making capital injections contingent on OpenAI abandoning its profit cap, which may require changes to the non-profit controlling entity.\"}, {\"title\": \"OpenAI is reportedly going all-in as a for-profit company\", \"url\": \"https://mashable.com/article/open-ai-moving-from-nonprofit-to-for-profit\", \"fact\": \"An OpenAI spokesperson stated that the company's non-profit arm is 'core to our mission and will continue to exist,' suggesting some form of non-profit structure might remain.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_p8lUgxDzzqmJxNneSn6QM1Mq"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"facts\": [{\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"OpenAI is transitioning from a non-profit to a for-profit public benefit corporation.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"The restructuring includes awarding CEO Sam Altman a seven percent equity stake.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"OpenAI's new structure will no longer be controlled by a non-profit board, with shareholders electing board members.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"Under the new framework, OpenAI will be subject to corporate taxes, losing benefits enjoyed as a non-profit.\"}, {\"title\": \"OpenAI's For-Profit Shift: Restructuring and Executive Movements Reshape AI Landscape\", \"url\": \"https://complexdiscovery.com/openais-for-profit-shift-restructuring-and-executive-movements-reshape-ai-landscape/\", \"fact\": \"The transition is driven by investors' desires for a more straightforward exit strategy and substantial financial returns.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_lGukBcDFGIbwa8GTQh5mM1jP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://openai.com/our-structure/\", \"facts\": [{\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"OpenAI's structure is a partnership between its original Nonprofit and a new capped profit arm, designed to build AGI that is safe and benefits all of humanity.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"The OpenAI Nonprofit remains intact and is the overall governing body for all OpenAI activities, including the for-profit subsidiary.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"The for-profit subsidiary is fully controlled by the OpenAI Nonprofit, which owns and controls a manager entity (OpenAI GP LLC) that governs the for-profit subsidiary.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"The board of OpenAI is the board of the Nonprofit, and each director must perform their fiduciary duties in furtherance of its mission\\u2014safe AGI that is broadly beneficial.\"}, {\"title\": \"Our structure\", \"url\": \"https://openai.com/our-structure/\", \"fact\": \"Profit allocated to investors and employees is capped, with all residual value created above the cap returned to the Nonprofit for the benefit of humanity.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_t1PGhM2RLhTC0vkIUHKZUpMI"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"666a726b-e2b9-50e3-aea3-9b50a1c94f54\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"facts\": [{\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"OpenAI plans to transform its existing for-profit into a Delaware Public Benefit Corporation (PBC) with ordinary shares of stock.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The PBC structure requires the company to balance shareholder interests, stakeholder interests, and a public benefit interest in its decision-making.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The non-profit arm of OpenAI will hold shares in the PBC at a fair valuation determined by independent financial advisors.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The PBC will run and control OpenAI\\u2019s operations and business, while the non-profit will focus on charitable initiatives.\"}, {\"title\": \"Why OpenAI\\u2019s structure must evolve to advance our mission\", \"url\": \"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\", \"fact\": \"The transition to a PBC is intended to enable OpenAI to raise necessary capital with conventional terms like others in the AI space.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_VapMeRXLybMFRR4HfLTEZp0F"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered information, here is the analysis:\n\n1. **OpenAI's Transition to For-Profit**: OpenAI is reportedly transitioning from its current structure, which includes a non-profit controlling entity, to a more traditional for-profit model. This includes restructuring as a for-profit public benefit corporation (PBC). This shift is driven by the need to attract investors and provide them with a clearer exit strategy and financial returns.\n\n2. **Impact on Non-Profit Status**: The transition to a for-profit PBC means that OpenAI will no longer be controlled by a non-profit board, and it will be subject to corporate taxes, losing the benefits it enjoyed as a non-profit. This indicates a significant move away from the non-profit structure.\n\n3. **Delaware Exempt Status**: For an entity to be listed as \"Exempt\" in Delaware, it typically needs to be a non-profit organization or meet specific criteria for exemption. Given OpenAI's shift towards a for-profit model, it is unlikely that it will qualify as an \"Exempt\" entity under Delaware's criteria by March 31, 2025.\n\n4. **Current Corporate Structure**: OpenAI's current structure involves a partnership between its original non-profit and a capped profit arm. However, the planned restructuring involves transforming the for-profit entity into a PBC, which will operate independently of the non-profit's control.\n\nConsidering these points, it seems improbable that OpenAI will be listed as an \"Exempt\" entity by Delaware's Division of Corporations on March 31, 2025, due to its transition to a for-profit structure.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

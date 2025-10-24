@@ -1,0 +1,196 @@
+{
+  "question_id": "1a41d1b8-191f-523a-8a38-57d03493e001",
+  "question": "Before April 1, 2025, will Stripe announce that it is planning an IPO?",
+  "probability": 0.3,
+  "reasoning": "Based on the search results, there is no recent announcement or filing indicating that Stripe has announced plans for an IPO as of February 2025. The search for news about Stripe's IPO plans in February 2025 yielded articles discussing the possibility of an IPO, but they do not confirm any official announcement. Additionally, there were no results from Stripe's newsroom indicating an IPO announcement, and no information about an SEC Form S-1 filing by Stripe was found.\n\nGiven this information, it seems unlikely that Stripe has announced plans for an IPO as of now. However, the situation could change before the deadline of April 1, 2025.\n\nFINAL PROBABILITY: 0.3",
+  "search_results": [
+    {
+      "title": "How to Invest in Stripe Stock in 2025",
+      "url": "https://stockanalysis.com/article/invest-in-stripe-stock/",
+      "content": "The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely."
+    },
+    {
+      "title": "How to Invest in Stripe Stock in 2025",
+      "url": "https://stockanalysis.com/article/invest-in-stripe-stock/",
+      "content": "The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely."
+    },
+    {
+      "title": "Stripe IPO: Investment Opportunities & Pre-IPO Valuations - Forge",
+      "url": "https://forgeglobal.com/stripe_ipo/",
+      "content": "Stripe has not officially endorsed a plan to go public, and these comments should not be interpreted to mean that the company is formally pursuing or foregoing an IPO."
+    },
+    {
+      "title": "Stripe IPO: Will Stripe Stock Begin Trading in 2025 (or ever)? - Access IPOs",
+      "url": "https://accessipos.com/stripe-ipo-stock/",
+      "content": "02/10/2025: Stripe in Talks for Staff Sales at $85 Billion-Plus Value..."
+    },
+    {
+      "title": "SEC Form S-1: What It Is, How to File It or Amend It",
+      "url": "https://www.investopedia.com/terms/s/sec-form-s-1.asp",
+      "content": "Information about Stripe's SEC Form S-1 filing in February 2025 is not available in the provided content."
+    }
+  ],
+  "extracted_facts": [],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.09,
+  "weighted_brier_score": 0.09,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "1a41d1b8-191f-523a-8a38-57d03493e001",
+        "queries": [
+          "Stripe IPO plans February 2025 news",
+          "Stripe SEC Form S-1 filing February 2025",
+          "site:stripe.com/newsroom Stripe IPO announcement"
+        ]
+      },
+      "raw": "{\"question_id\": \"1a41d1b8-191f-523a-8a38-57d03493e001\", \"queries\": [\"Stripe IPO plans February 2025 news\", \"Stripe SEC Form S-1 filing February 2025\", \"site:stripe.com/newsroom Stripe IPO announcement\"]}",
+      "tool_call_id": "call_Xi6QCMwxZ2QqXfz6YLHsraqy"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Stripe IPO plans February 2025 news",
+        "results": [
+          {
+            "title": "How to Invest in Stripe Stock in 2025",
+            "link": "https://stockanalysis.com/article/invest-in-stripe-stock/",
+            "position": 5,
+            "snippet": "The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely.",
+            "date": null
+          },
+          {
+            "title": "How to Invest in Stripe Stock in 2025",
+            "link": "https://stockanalysis.com/article/invest-in-stripe-stock/",
+            "position": 1,
+            "snippet": "The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely.",
+            "date": null
+          },
+          {
+            "title": "Stripe IPO: Investment Opportunities & Pre-IPO Valuations - Forge",
+            "link": "https://forgeglobal.com/stripe_ipo/",
+            "position": 4,
+            "snippet": "Stripe has not officially endorsed a plan to go public, and these comments should not be interpreted to mean that the company is formally pursuing or foregoing an IPO.",
+            "date": null
+          },
+          {
+            "title": "Stripe IPO: Will Stripe Stock Begin Trading in 2025 (or ever)? - Access IPOs",
+            "link": "https://accessipos.com/stripe-ipo-stock/",
+            "position": 5,
+            "snippet": "02/10/2025: Stripe in Talks for Staff Sales at $85 Billion-Plus Value...",
+            "date": "2024-10-15T23:30:48Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Stripe IPO plans February 2025 news\", \"results\": [{\"title\": \"How to Invest in Stripe Stock in 2025\", \"link\": \"https://stockanalysis.com/article/invest-in-stripe-stock/\", \"position\": 5, \"snippet\": \"The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely.\", \"date\": null}, {\"title\": \"How to Invest in Stripe Stock in 2025\", \"link\": \"https://stockanalysis.com/article/invest-in-stripe-stock/\", \"position\": 1, \"snippet\": \"The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely.\", \"date\": null}, {\"title\": \"Stripe IPO: Investment Opportunities & Pre-IPO Valuations - Forge\", \"link\": \"https://forgeglobal.com/stripe_ipo/\", \"position\": 4, \"snippet\": \"Stripe has not officially endorsed a plan to go public, and these comments should not be interpreted to mean that the company is formally pursuing or foregoing an IPO.\", \"date\": null}, {\"title\": \"Stripe IPO: Will Stripe Stock Begin Trading in 2025 (or ever)? - Access IPOs\", \"link\": \"https://accessipos.com/stripe-ipo-stock/\", \"position\": 5, \"snippet\": \"02/10/2025: Stripe in Talks for Staff Sales at $85 Billion-Plus Value...\", \"date\": \"2024-10-15T23:30:48Z\"}]}",
+      "tool_call_id": "call_9JdyBXRkkQtr1etSyAMVxztH"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Stripe SEC Form S-1 filing February 2025",
+        "results": [
+          {
+            "title": "SEC Form S-1: What It Is, How to File It or Amend It",
+            "link": "https://www.investopedia.com/terms/s/sec-form-s-1.asp",
+            "position": 4,
+            "snippet": "Information about Stripe's SEC Form S-1 filing in February 2025 is not available in the provided content.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Stripe SEC Form S-1 filing February 2025\", \"results\": [{\"title\": \"SEC Form S-1: What It Is, How to File It or Amend It\", \"link\": \"https://www.investopedia.com/terms/s/sec-form-s-1.asp\", \"position\": 4, \"snippet\": \"Information about Stripe's SEC Form S-1 filing in February 2025 is not available in the provided content.\", \"date\": null}]}",
+      "tool_call_id": "call_68vkEI0AkLjGY7taV77I2hvM"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "site:stripe.com/newsroom Stripe IPO announcement",
+        "results": []
+      },
+      "raw": "{\"query\": \"site:stripe.com/newsroom Stripe IPO announcement\", \"results\": []}",
+      "tool_call_id": "call_tf3bkrI0TweSiSEuIM7K7rc2"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Before April 1, 2025, will Stripe announce that it is planning an IPO?\nBackground: PaymentsDive: [Stripe shows signs of IPO, despite co-founder comments](https://www.paymentsdive.com/news/stripe-shows-signs-of-ipo-despite-co-founder-comments/727877/)\nResolution criteria: This question will resolve as **Yes** if Stripe, Inc., announces before April 1, 2025, that it is planning an initial public offering. In order to streamline the resolution of this question, there are two resolution sources for the IPO announcement: 1) Stripe filing an [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) or [F-1](https://www.investopedia.com/terms/s/sec-form-f-1.asp) or 2) An announcement at the [News](https://stripe.com/newsroom) section of its website. If there is no such announcement before that date, this question resolves as **No**.\nFine print: \npresent_date: 2025-02-24T17:41:51.456731\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Xi6QCMwxZ2QqXfz6YLHsraqy",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Before April 1, 2025, will Stripe announce that it is planning an IPO?\",\"background\":\"PaymentsDive: [Stripe shows signs of IPO, despite co-founder comments](https://www.paymentsdive.com/news/stripe-shows-signs-of-ipo-despite-co-founder-comments/727877/)\",\"resolution_criteria\":\"This question will resolve as **Yes** if Stripe, Inc., announces before April 1, 2025, that it is planning an initial public offering. In order to streamline the resolution of this question, there are two resolution sources for the IPO announcement: 1) Stripe filing an [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) or [F-1](https://www.investopedia.com/terms/s/sec-form-f-1.asp) or 2) An announcement at the [News](https://stripe.com/newsroom) section of its website. If there is no such announcement before that date, this question resolves as **No**.\",\"fine_print\":\"\",\"present_date\":\"2025-02-24T17:41:51.456731\",\"date_cutoff_start\":null,\"date_cutoff_end\":\"2025-04-01T00:00:00\",\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"1a41d1b8-191f-523a-8a38-57d03493e001\", \"queries\": [\"Stripe IPO plans February 2025 news\", \"Stripe SEC Form S-1 filing February 2025\", \"site:stripe.com/newsroom Stripe IPO announcement\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_Xi6QCMwxZ2QqXfz6YLHsraqy"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_9JdyBXRkkQtr1etSyAMVxztH",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Stripe IPO plans February 2025 news\", \"date_cutoff_end\": \"2025-04-01T00:00:00\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_68vkEI0AkLjGY7taV77I2hvM",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Stripe SEC Form S-1 filing February 2025\", \"date_cutoff_end\": \"2025-04-01T00:00:00\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_tf3bkrI0TweSiSEuIM7K7rc2",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"site:stripe.com/newsroom Stripe IPO announcement\", \"date_cutoff_end\": \"2025-04-01T00:00:00\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Stripe IPO plans February 2025 news\", \"results\": [{\"title\": \"How to Invest in Stripe Stock in 2025\", \"link\": \"https://stockanalysis.com/article/invest-in-stripe-stock/\", \"position\": 5, \"snippet\": \"The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely.\", \"date\": null}, {\"title\": \"How to Invest in Stripe Stock in 2025\", \"link\": \"https://stockanalysis.com/article/invest-in-stripe-stock/\", \"position\": 1, \"snippet\": \"The company may have its IPO in 2025, depending on market conditions. While it's possible Stripe will go public before the end of 2025, it looks unlikely.\", \"date\": null}, {\"title\": \"Stripe IPO: Investment Opportunities & Pre-IPO Valuations - Forge\", \"link\": \"https://forgeglobal.com/stripe_ipo/\", \"position\": 4, \"snippet\": \"Stripe has not officially endorsed a plan to go public, and these comments should not be interpreted to mean that the company is formally pursuing or foregoing an IPO.\", \"date\": null}, {\"title\": \"Stripe IPO: Will Stripe Stock Begin Trading in 2025 (or ever)? - Access IPOs\", \"link\": \"https://accessipos.com/stripe-ipo-stock/\", \"position\": 5, \"snippet\": \"02/10/2025: Stripe in Talks for Staff Sales at $85 Billion-Plus Value...\", \"date\": \"2024-10-15T23:30:48Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_9JdyBXRkkQtr1etSyAMVxztH"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Stripe SEC Form S-1 filing February 2025\", \"results\": [{\"title\": \"SEC Form S-1: What It Is, How to File It or Amend It\", \"link\": \"https://www.investopedia.com/terms/s/sec-form-s-1.asp\", \"position\": 4, \"snippet\": \"Information about Stripe's SEC Form S-1 filing in February 2025 is not available in the provided content.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_68vkEI0AkLjGY7taV77I2hvM"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"site:stripe.com/newsroom Stripe IPO announcement\", \"results\": []}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_tf3bkrI0TweSiSEuIM7K7rc2"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, there is no recent announcement or filing indicating that Stripe has announced plans for an IPO as of February 2025. The search for news about Stripe's IPO plans in February 2025 yielded articles discussing the possibility of an IPO, but they do not confirm any official announcement. Additionally, there were no results from Stripe's newsroom indicating an IPO announcement, and no information about an SEC Form S-1 filing by Stripe was found.\n\nGiven this information, it seems unlikely that Stripe has announced plans for an IPO as of now. However, the situation could change before the deadline of April 1, 2025.\n\nFINAL PROBABILITY: 0.3"
+    }
+  ]
+}

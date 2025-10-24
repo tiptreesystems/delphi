@@ -1,0 +1,2714 @@
+{
+  "run_id": "btf_agent_run_20251023_112457",
+  "created_at": "2025-10-23T15:34:16.834928",
+  "question_count": 299,
+  "source_csv": "/home/williaar/projects/delphi/dataset/btf_data/questions.csv",
+  "parameters": {
+    "limit": null,
+    "sample": false,
+    "model": "gpt-4o",
+    "provider": "openai",
+    "max_tool_iterations": 10,
+    "temperature": 0.3,
+    "max_tokens": 600
+  },
+  "design_choices": {
+    "agent_prompt_version": "v1",
+    "forecast_temperature": 0.3,
+    "forecast_max_tokens": 600,
+    "system_prompt": "You are a helpful assistant."
+  },
+  "forecasts": [
+    {
+      "question_id": "00454b2c-cc3d-5087-aa7a-c9299b5f3679",
+      "question": "Will Assassin's Creed Shadows rank 1st on Steam's Weekly Top Sellers chart for March 18 - 25, 2025?",
+      "file": "001_00454b2c-cc3d-5087-aa7a-c9299b5f3679.json",
+      "probability": 0.6,
+      "search_result_count": 15,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "01398c12-4984-5f79-b718-21493e6bce40",
+      "question": "Will the USDA-posted recall by Pork Dynasty Inc. of Ready-to-Eat Fried Pork Skin Products issued September 27, 2024 be closed before March 1, 2025?",
+      "file": "002_01398c12-4984-5f79-b718-21493e6bce40.json",
+      "probability": 0.4,
+      "search_result_count": 21,
+      "extracted_fact_count": 13,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "01c5ed37-2029-57be-8d10-65a40b835684",
+      "question": "Will the number of active US drilling rigs be 569 or fewer on March 28, 2025?",
+      "file": "003_01c5ed37-2029-57be-8d10-65a40b835684.json",
+      "probability": 0.2,
+      "search_result_count": 19,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "01d7598d-f906-5150-9f31-b9acc1cbb56e",
+      "question": "Will Mahmoud Khalil be deported before April 1, 2025?",
+      "file": "004_01d7598d-f906-5150-9f31-b9acc1cbb56e.json",
+      "probability": 0.1,
+      "search_result_count": 9,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "02036d69-34bd-59a9-ba9a-80b604bac3df",
+      "question": "Will the ISW warmap show Kursk as having been completely retaken by Russia on March 31, 2025?",
+      "file": "005_02036d69-34bd-59a9-ba9a-80b604bac3df.json",
+      "probability": 0.85,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "02259c7f-78ad-55d5-a7ce-9310a332c3d1",
+      "question": "Will NVIDIA's stock closing price be above $150.00 on March 28, 2025?",
+      "file": "006_02259c7f-78ad-55d5-a7ce-9310a332c3d1.json",
+      "probability": 0.1,
+      "search_result_count": 17,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0260ceb9-c1bd-5418-a461-7cd9c7d69e4f",
+      "question": "Will Assassin's Creed Shadows rank 2nd on Steam's Weekly Top Sellers chart for March 18 - 25, 2025?",
+      "file": "007_0260ceb9-c1bd-5418-a461-7cd9c7d69e4f.json",
+      "probability": 0.1,
+      "search_result_count": 13,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "026175d0-3351-5e46-aed1-56907e100c3b",
+      "question": "Will Bluesky have fewer than 800,000 unique posters on March 30, 2025?",
+      "file": "008_026175d0-3351-5e46-aed1-56907e100c3b.json",
+      "probability": 0.1,
+      "search_result_count": 16,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0309272e-d2c0-5627-ae4e-f552e33c51b8",
+      "question": "Will the total number of posts made on Bluesky on March 30, 2025 be less than 4 million?",
+      "file": "009_0309272e-d2c0-5627-ae4e-f552e33c51b8.json",
+      "probability": 0.4,
+      "search_result_count": 16,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "033a0b51-e9fd-5f32-b76c-a50070ccfaa4",
+      "question": "Will the US frac spread count for the week ending March 28, 2025 fall between 211 and 219 (inclusive)?",
+      "file": "010_033a0b51-e9fd-5f32-b76c-a50070ccfaa4.json",
+      "probability": 0.75,
+      "search_result_count": 19,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "04083810-12e8-57ea-be38-a012f2f4952d",
+      "question": "Will there be a new world record in the 2025 World Figure Skating Championships?",
+      "file": "011_04083810-12e8-57ea-be38-a012f2f4952d.json",
+      "probability": 0.65,
+      "search_result_count": 11,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "05ae8692-6bd3-505e-819d-b0d9c1055fc6",
+      "question": "Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than or equal to 41 and less than or equal to 50 on March 31, 2025?",
+      "file": "012_05ae8692-6bd3-505e-819d-b0d9c1055fc6.json",
+      "probability": 0.0,
+      "search_result_count": 16,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "05be0331-902f-5ed5-acee-c870ce516a5f",
+      "question": "Will the total number of forecasters in the Q1 2025 Quarterly Cup be greater than 800 forecasters?",
+      "file": "013_05be0331-902f-5ed5-acee-c870ce516a5f.json",
+      "probability": 0.1,
+      "search_result_count": 20,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "066a64ec-33dc-55a4-b185-0a71125c3b81",
+      "question": "Will S&P 500 recover half its drop by April 7, 2025?",
+      "file": "014_066a64ec-33dc-55a4-b185-0a71125c3b81.json",
+      "probability": 0.25,
+      "search_result_count": 20,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+      "question": "Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?",
+      "file": "015_071bdfe3-cfca-527a-907c-65de831dc57c.json",
+      "probability": 0.05,
+      "search_result_count": 21,
+      "extracted_fact_count": 21,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "075e7934-2dce-5763-9f25-ee48b5a5fc47",
+      "question": "Will Assassin's Creed Shadows rank between 4th and 5th on Steam's Weekly Top Sellers chart for March 18 - 25, 2025?",
+      "file": "016_075e7934-2dce-5763-9f25-ee48b5a5fc47.json",
+      "probability": 0.45,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "07a49a79-530d-5fe5-800b-ebc7240d8c5a",
+      "question": "Will \"Fitting In\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "017_07a49a79-530d-5fe5-800b-ebc7240d8c5a.json",
+      "probability": 0.3,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "08834b9e-15c4-536e-b8ae-01340655843d",
+      "question": "Will the DC cherry trees reach peak bloom on or after April 1 in 2025?",
+      "file": "018_08834b9e-15c4-536e-b8ae-01340655843d.json",
+      "probability": 0.2,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "093925a0-e387-5508-a2fa-97745eee9efa",
+      "question": "Will Elon Musk, Donald Trump, or JD Vance visit Fort Knox before April 1, 2025?",
+      "file": "019_093925a0-e387-5508-a2fa-97745eee9efa.json",
+      "probability": 0.6,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0a18524d-eec0-5374-afa9-7a5c6ee3a2cc",
+      "question": "Will NVIDIA's stock closing price be below $130.00 on March 28, 2025?",
+      "file": "020_0a18524d-eec0-5374-afa9-7a5c6ee3a2cc.json",
+      "probability": 0.75,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0a7dbb5b-7ae3-5ca5-b05c-a8803de56922",
+      "question": "Will Peter Navarro receive a pardon before April 1, 2025?",
+      "file": "021_0a7dbb5b-7ae3-5ca5-b05c-a8803de56922.json",
+      "probability": 0.4,
+      "search_result_count": 14,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0acc6f1d-f256-519b-b1da-0076b39fc6e6",
+      "question": "Will Amazon still list a 12-pack of Coca-Cola as \"SNAP EBT eligible\" on April 1, 2025?",
+      "file": "022_0acc6f1d-f256-519b-b1da-0076b39fc6e6.json",
+      "probability": 0.9,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0b2fc317-043d-566b-91f6-45938f37f2d1",
+      "question": "Will either metac-GPT4o or metac-o1 finish with a rank between 10 and 25 inclusive in the Q1 2025 Quarterly Cup?",
+      "file": "023_0b2fc317-043d-566b-91f6-45938f37f2d1.json",
+      "probability": 0.35,
+      "search_result_count": 10,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0b3dc0a2-dbb4-5797-98ca-f04122dd0623",
+      "question": "Will Finding Mr. Christmas win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "024_0b3dc0a2-dbb4-5797-98ca-f04122dd0623.json",
+      "probability": 0.4,
+      "search_result_count": 16,
+      "extracted_fact_count": 7,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0b4ac3de-956c-53b7-9df3-1c435903f29d",
+      "question": "Will the DC cherry trees reach peak bloom on or before March 27 in 2025?",
+      "file": "025_0b4ac3de-956c-53b7-9df3-1c435903f29d.json",
+      "probability": 0.1,
+      "search_result_count": 12,
+      "extracted_fact_count": 14,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0b579316-cf40-5e7f-bbc3-b8eb72673920",
+      "question": "Will Turkey and Syria announce the signing of a maritime demarcation agreement before April 1, 2025?",
+      "file": "026_0b579316-cf40-5e7f-bbc3-b8eb72673920.json",
+      "probability": 0.65,
+      "search_result_count": 10,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0bb29ea5-623d-5132-8f47-f8d3b5c02155",
+      "question": "Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be less than 429.0 ppm?",
+      "file": "027_0bb29ea5-623d-5132-8f47-f8d3b5c02155.json",
+      "probability": 0.0,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0bf73024-8305-5304-90bb-3a19a9b3b470",
+      "question": "Will the Trump administration impose new tariffs on the EU before April 7, 2025?",
+      "file": "028_0bf73024-8305-5304-90bb-3a19a9b3b470.json",
+      "probability": 0.65,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0c0be06b-695f-5fd6-a285-2c352a49ecfa",
+      "question": "Will S&P 500 recover half its drop by April 7, 2025?",
+      "file": "029_0c0be06b-695f-5fd6-a285-2c352a49ecfa.json",
+      "probability": 0.45,
+      "search_result_count": 13,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0d96b245-56d7-5d5b-a102-605fdcc552ac",
+      "question": "Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be between 429.0 and 430.5 ppm (inclusive)?",
+      "file": "030_0d96b245-56d7-5d5b-a102-605fdcc552ac.json",
+      "probability": 0.1,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0dfd6670-7cf4-54af-bbf6-f821a7f5aee7",
+      "question": "Will the total market cap of the Magnificent Seven be greater than 18.5 trillion USD on March 28, 2025?",
+      "file": "031_0dfd6670-7cf4-54af-bbf6-f821a7f5aee7.json",
+      "probability": 0.4,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0e203128-e7a6-5363-b844-711b6721d24d",
+      "question": "Will there be exactly 3 artists in the top 10 of the Billboard Artist 100 in the last week of March who are new to the top 10 that week?",
+      "file": "032_0e203128-e7a6-5363-b844-711b6721d24d.json",
+      "probability": 0.334,
+      "search_result_count": 12,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "0fb17f83-27cb-5a98-a8fb-3c1609e78571",
+      "question": "Will \"Backspot\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "033_0fb17f83-27cb-5a98-a8fb-3c1609e78571.json",
+      "probability": 0.6,
+      "search_result_count": 22,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1095ab84-c1bc-5548-9d97-9841ee86d949",
+      "question": "Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be less than 0.60 on March 31, 2025?",
+      "file": "034_1095ab84-c1bc-5548-9d97-9841ee86d949.json",
+      "probability": 0.2,
+      "search_result_count": 14,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "112d23a0-9aec-53cc-94e5-ff13b3ed6aa0",
+      "question": "Before April 1, 2025, will Donald Trump expresses his desire to run for a third term in 2028?",
+      "file": "035_112d23a0-9aec-53cc-94e5-ff13b3ed6aa0.json",
+      "probability": 0.3,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "11a2ed83-30bb-53a9-ad0a-2d8c647a0cc8",
+      "question": "Will the All-In podcast rank 41-50 on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "036_11a2ed83-30bb-53a9-ad0a-2d8c647a0cc8.json",
+      "probability": 0.3,
+      "search_result_count": 19,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "12b02181-78d9-5399-8311-18eea150a41b",
+      "question": "Will any rationalist, effective altruist, or AI safety researcher go on the Joe Rogan Experience before 2026?",
+      "file": "037_12b02181-78d9-5399-8311-18eea150a41b.json",
+      "probability": 0.4,
+      "search_result_count": 7,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "12e614dc-d278-5097-8418-f64c2e7f49a1",
+      "question": "Will the \"goodnews\" subreddit have more than 113,000 subscribers on March 30, 2025?",
+      "file": "038_12e614dc-d278-5097-8418-f64c2e7f49a1.json",
+      "probability": 0.7,
+      "search_result_count": 15,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1359e3ca-5cf5-598e-88ba-07c40824bfb7",
+      "question": "Will the USDA-posted recall by Nail Factory of Ineligible Frozen Siluriformes Fish Products Imported From Vietnam issued December 19, 2024, be closed before April 1, 2025?",
+      "file": "039_1359e3ca-5cf5-598e-88ba-07c40824bfb7.json",
+      "probability": 0.6,
+      "search_result_count": 13,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "13887595-5360-5cfa-86ba-30e3478c12cf",
+      "question": "Will Donald Trump's net worth, according to Forbes, be between $10 billion and $20 billion (exclusive) on March 31, 2025?",
+      "file": "040_13887595-5360-5cfa-86ba-30e3478c12cf.json",
+      "probability": 0.05,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "13c06e48-5acd-5511-93b4-417ae8d27532",
+      "question": "Will Javier Milei have a higher approval rating than Claudia Sheinbaum on March 30, 2025?",
+      "file": "041_13c06e48-5acd-5511-93b4-417ae8d27532.json",
+      "probability": 0.45,
+      "search_result_count": 5,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "141494fe-d2cd-54aa-90da-a7d7a1f67f24",
+      "question": "Will the winner of the rugby Men’s 2025 Six Nations Championship have at least 5 more total competition points than the second place?",
+      "file": "042_141494fe-d2cd-54aa-90da-a7d7a1f67f24.json",
+      "probability": 0.65,
+      "search_result_count": 26,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "14c05e9a-f557-51ae-b9f0-f92f1d5e215d",
+      "question": "Will Alphabet be the world's most valuable company by market cap on March 29, 2025?",
+      "file": "043_14c05e9a-f557-51ae-b9f0-f92f1d5e215d.json",
+      "probability": 0.1,
+      "search_result_count": 19,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "15aff63a-b7fb-5da1-979a-6853baa939ce",
+      "question": "Will Michael Jordan's net worth exceed that of Starbucks founder Howard Schultz on March 31, 2025? ",
+      "file": "044_15aff63a-b7fb-5da1-979a-6853baa939ce.json",
+      "probability": 0.95,
+      "search_result_count": 14,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "15ed7bc4-cf83-56f7-9a39-f286f019cbf0",
+      "question": "Will Elton John win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "045_15ed7bc4-cf83-56f7-9a39-f286f019cbf0.json",
+      "probability": 0.35,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "160d3ab0-b720-5c8d-933c-85534f378052",
+      "question": "Will Randy Fine win the special election for Florida's 6th Congressional District?",
+      "file": "046_160d3ab0-b720-5c8d-933c-85534f378052.json",
+      "probability": 0.85,
+      "search_result_count": 13,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "16ade500-f356-5589-8421-091d9fde545c",
+      "question": "Will Kali Uchis win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "047_16ade500-f356-5589-8421-091d9fde545c.json",
+      "probability": 0.25,
+      "search_result_count": 13,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "16cf8fb0-33f6-5259-9759-7df18cef304b",
+      "question": "Will \"Housekeeping for Beginners\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "048_16cf8fb0-33f6-5259-9759-7df18cef304b.json",
+      "probability": 0.2,
+      "search_result_count": 16,
+      "extracted_fact_count": 12,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1781c801-bce0-59b8-bc34-696c5eeb4bb6",
+      "question": "Will the DC cherry trees reach peak bloom on March 31 in 2025?",
+      "file": "049_1781c801-bce0-59b8-bc34-696c5eeb4bb6.json",
+      "probability": 0.7,
+      "search_result_count": 18,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "17c0af0b-0143-56e8-a9bb-abc60532e291",
+      "question": "Will the Great Lakes ice coverage be between 15.0% and 30.0% (inclusive) on March 30, 2025?",
+      "file": "050_17c0af0b-0143-56e8-a9bb-abc60532e291.json",
+      "probability": 0.75,
+      "search_result_count": 20,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1813609e-ee70-5c48-abb8-8cf9d897d1fb",
+      "question": "Will Hell's Kitchen: Head Chef's Only win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "051_1813609e-ee70-5c48-abb8-8cf9d897d1fb.json",
+      "probability": 0.01,
+      "search_result_count": 10,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1817bb0e-58e1-59a4-abeb-16420436ab6b",
+      "question": "Will Tesla's total vehicle deliveries for Q1 2025 be greater than 450,000 vehicles?",
+      "file": "052_1817bb0e-58e1-59a4-abeb-16420436ab6b.json",
+      "probability": 0.1,
+      "search_result_count": 11,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1a292996-53bf-5da5-8b5a-2daac996712c",
+      "question": "Will Bluesky have more than 1,400,000 unique posters on March 30, 2025?",
+      "file": "053_1a292996-53bf-5da5-8b5a-2daac996712c.json",
+      "probability": 0.85,
+      "search_result_count": 22,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1a41d1b8-191f-523a-8a38-57d03493e001",
+      "question": "Before April 1, 2025, will Stripe announce that it is planning an IPO?",
+      "file": "054_1a41d1b8-191f-523a-8a38-57d03493e001.json",
+      "probability": 0.3,
+      "search_result_count": 5,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1aa05cc0-9286-5894-bba2-b3b114471599",
+      "question": "Will 900,000 Russian personnel losses be reported before March 21, 2025?",
+      "file": "055_1aa05cc0-9286-5894-bba2-b3b114471599.json",
+      "probability": 0.95,
+      "search_result_count": 14,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1e20cfdf-1651-56f7-89c6-859bbb6b1542",
+      "question": "Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be between 0.60 and 0.70 (inclusive) on March 31, 2025?",
+      "file": "056_1e20cfdf-1651-56f7-89c6-859bbb6b1542.json",
+      "probability": 0.65,
+      "search_result_count": 16,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "1e77ad42-21d3-5c06-a328-56b634eb5874",
+      "question": "Will Eric Adams be Mayor of New York City on the 1st of April 2025?",
+      "file": "057_1e77ad42-21d3-5c06-a328-56b634eb5874.json",
+      "probability": 0.85,
+      "search_result_count": 15,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "20a6cc6b-ecad-524e-bd5a-684f20073e40",
+      "question": "Will 'She Ate a Poppy Seed Salad...' win the 2025 Goldsmith Prize for Investigative Reporting?",
+      "file": "058_20a6cc6b-ecad-524e-bd5a-684f20073e40.json",
+      "probability": 0.2,
+      "search_result_count": 10,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "21473145-9cc4-58c5-80d7-5e85133640bd",
+      "question": "Will Dune: Part Two win an Oscar in 2025?",
+      "file": "059_21473145-9cc4-58c5-80d7-5e85133640bd.json",
+      "probability": 0.85,
+      "search_result_count": 17,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "215065c7-8c06-5616-b213-5b8ac9bb3cc2",
+      "question": "Will Doge claim a total savings of $150 billion or more on April 1, 2025?",
+      "file": "060_215065c7-8c06-5616-b213-5b8ac9bb3cc2.json",
+      "probability": 0.2,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "229f260c-9c3e-5eca-a062-b274806e381c",
+      "question": "Will Walmart have a higher market cap than Tesla on March 29, 2025?",
+      "file": "061_229f260c-9c3e-5eca-a062-b274806e381c.json",
+      "probability": 0.45,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "230f94d8-7638-51c0-b8fb-b2b74f486f95",
+      "question": "Will the US frac spread count for the week ending March 28, 2025 fall between 220 and 227 (inclusive)?",
+      "file": "062_230f94d8-7638-51c0-b8fb-b2b74f486f95.json",
+      "probability": 0.6,
+      "search_result_count": 19,
+      "extracted_fact_count": 13,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "23702a4a-4c05-5b99-9a11-ea24951cd78c",
+      "question": "Will NVDA achieve the highest stock price growth among the world's five largest companies during February and March, 2025?",
+      "file": "063_23702a4a-4c05-5b99-9a11-ea24951cd78c.json",
+      "probability": 0.3,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "23c90397-4a4b-5207-a404-e05846f448ca",
+      "question": "Will Russia have control of Chasiv Yar on February 28, 2025?",
+      "file": "064_23c90397-4a4b-5207-a404-e05846f448ca.json",
+      "probability": 0.9,
+      "search_result_count": 11,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "246774fe-6d96-559b-a39b-26df35e2729c",
+      "question": "Will the number of active US drilling rigs be 575 to 579 on March 28, 2025?",
+      "file": "065_246774fe-6d96-559b-a39b-26df35e2729c.json",
+      "probability": 0.15,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2533292d-fdfe-5197-99f1-987f15f03e64",
+      "question": "Will Lockheed Martin's stock continuously remain below its all-time high until March 31, 2025?",
+      "file": "066_2533292d-fdfe-5197-99f1-987f15f03e64.json",
+      "probability": 0.85,
+      "search_result_count": 16,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2584a6ce-3886-5966-8e10-d05f005faaea",
+      "question": "Will OpenAI publicly release the full o3 model before March 28, 2025?",
+      "file": "067_2584a6ce-3886-5966-8e10-d05f005faaea.json",
+      "probability": 0.05,
+      "search_result_count": 16,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "26ee7ca6-ca2f-5235-bf11-a320b93d3c8a",
+      "question": "Will PEPFAR funding be resumed before April 7, 2025?",
+      "file": "068_26ee7ca6-ca2f-5235-bf11-a320b93d3c8a.json",
+      "probability": 0.3,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "273b938b-dc62-5759-ac58-6b720932e8ad",
+      "question": "Will Kalshi rank between 41st and 50th (inclusive) in the iPhone Top Free Finance Apps on March 31, 2025?",
+      "file": "069_273b938b-dc62-5759-ac58-6b720932e8ad.json",
+      "probability": 0.15,
+      "search_result_count": 14,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2b19ffbe-03ee-59f5-b519-98579dd54fd7",
+      "question": "Will the US frac spread count for the week ending March 28, 2025 be 235 or greater?",
+      "file": "070_2b19ffbe-03ee-59f5-b519-98579dd54fd7.json",
+      "probability": 0.2,
+      "search_result_count": 19,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2b288b6c-51eb-5d53-953b-e7418a4144b7",
+      "question": "Will the ratio of the price of 1 bitcoin to 1 troy ounce of gold be between 32.0 and 38.0 (inclusive) on March 30, 2025?",
+      "file": "071_2b288b6c-51eb-5d53-953b-e7418a4144b7.json",
+      "probability": 0.3,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2b792794-7759-566c-87fb-fda510fe8f38",
+      "question": "Will the total market cap of the Magnificent Seven be less than 17.0 trillion USD on March 28, 2025?",
+      "file": "072_2b792794-7759-566c-87fb-fda510fe8f38.json",
+      "probability": 0.2,
+      "search_result_count": 10,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2ba9a332-0ece-5855-8144-9458b46fbd3b",
+      "question": "Will Top Chef win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "073_2ba9a332-0ece-5855-8144-9458b46fbd3b.json",
+      "probability": 0.2,
+      "search_result_count": 12,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2d1e1a26-a581-5947-81e4-9504ecc2742b",
+      "question": "Will Sam Altman's net worth exceed $1.3 billion on the Forbes Real-Time Billionaires List on March 31, 2025?",
+      "file": "074_2d1e1a26-a581-5947-81e4-9504ecc2742b.json",
+      "probability": 0.6,
+      "search_result_count": 10,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2e98724c-4073-5311-b5d6-eafd4b301690",
+      "question": "Will 50% or more of respondents to to Gallup's 2025 survey express sympathies for the the Israelis?",
+      "file": "075_2e98724c-4073-5311-b5d6-eafd4b301690.json",
+      "probability": 0.65,
+      "search_result_count": 6,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "2f017e01-e164-525f-8594-24ac85714c54",
+      "question": "Will The Voice win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "076_2f017e01-e164-525f-8594-24ac85714c54.json",
+      "probability": 0.25,
+      "search_result_count": 17,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "31750179-e15b-5690-a710-f64f4844c9e3",
+      "question": "Will the \"environment\" subreddit have 1,552,000 or more subscribers on March 30, 2025?",
+      "file": "077_31750179-e15b-5690-a710-f64f4844c9e3.json",
+      "probability": 0.3,
+      "search_result_count": 14,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "36a39d27-0245-52c8-b225-8ebc64f9732f",
+      "question": "Will Tesla's stock price be at least $420 a share on March 31, 2025?",
+      "file": "078_36a39d27-0245-52c8-b225-8ebc64f9732f.json",
+      "probability": 0.1,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3812d723-6da2-5f97-a1a6-cf940b719b88",
+      "question": "Will the total number of posts made on Bluesky on March 30, 2025 fall between 4 and 7 million?",
+      "file": "079_3812d723-6da2-5f97-a1a6-cf940b719b88.json",
+      "probability": 0.7,
+      "search_result_count": 12,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3911b8e8-0187-58db-96ef-28a4ef673ce9",
+      "question": "Will Donald Trump's net worth, according to Forbes, be between $6 billion and $8 billion (exclusive) on March 31, 2025?",
+      "file": "080_3911b8e8-0187-58db-96ef-28a4ef673ce9.json",
+      "probability": 0.05,
+      "search_result_count": 8,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3aea92d7-9c14-54da-8ca8-611ac9d28877",
+      "question": "Will the DOGE Live Tracker report Savings Per Taxpayer between $500.00 and $750.00 on March 31, 2025?",
+      "file": "081_3aea92d7-9c14-54da-8ca8-611ac9d28877.json",
+      "probability": 0.2,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3b8e5234-a20e-5c28-9695-7e5598589015",
+      "question": "Will Victoria Monét win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "082_3b8e5234-a20e-5c28-9695-7e5598589015.json",
+      "probability": 0.15,
+      "search_result_count": 12,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3cf57971-ff34-5861-a284-b70271994e46",
+      "question": "Will Josh Weil win the special election for Florida's 6th Congressional District?",
+      "file": "083_3cf57971-ff34-5861-a284-b70271994e46.json",
+      "probability": 0.2,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3dc72e82-7540-5e1c-8c12-0ecc0771ecd3",
+      "question": "Will any more Russian or UK diplomats be expelled or recalled from UK or Russia, respectively, before April 8, 2025?",
+      "file": "084_3dc72e82-7540-5e1c-8c12-0ecc0771ecd3.json",
+      "probability": 0.85,
+      "search_result_count": 25,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3dd25db8-55e0-552c-92dc-c629ac13fd5d",
+      "question": "Will the lowest price of bitcoin fall between $65,000 and $75,000 (inclusive) during the rest of March 2025?",
+      "file": "085_3dd25db8-55e0-552c-92dc-c629ac13fd5d.json",
+      "probability": 0.1,
+      "search_result_count": 19,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3e9802e7-6d9a-5a82-a437-c6e0e553ed98",
+      "question": "Will the Joe Rogan Experience be ranked either 3rd or 4th on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "086_3e9802e7-6d9a-5a82-a437-c6e0e553ed98.json",
+      "probability": 0.65,
+      "search_result_count": 19,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "3fefb85a-0858-5f27-aa00-ca72f1cce591",
+      "question": "Will Orville Peck win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "087_3fefb85a-0858-5f27-aa00-ca72f1cce591.json",
+      "probability": 0.25,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "434098e6-aafe-5da7-b03c-0c85d4f686d6",
+      "question": "Will Nebraska have 1.7 million or more residents living in drought on March 28, 2025?",
+      "file": "088_434098e6-aafe-5da7-b03c-0c85d4f686d6.json",
+      "probability": 0.75,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "43457419-532f-5385-af02-d6da76895528",
+      "question": "Will GOOG achieve the highest stock price growth among the world's five largest companies during February and March, 2025?",
+      "file": "089_43457419-532f-5385-af02-d6da76895528.json",
+      "probability": 0.3,
+      "search_result_count": 12,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "43711c78-c626-5a29-a4bf-7237f3e29e28",
+      "question": "Will the lowest price of bitcoin be less than $65,000 during the rest of March 2025?",
+      "file": "090_43711c78-c626-5a29-a4bf-7237f3e29e28.json",
+      "probability": 0.15,
+      "search_result_count": 14,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "44aa14bf-85c0-5620-8bde-28ae320af75d",
+      "question": "Will the total number of likes made on Bluesky on March 30, 2025 be between 20 million and 35 million?",
+      "file": "091_44aa14bf-85c0-5620-8bde-28ae320af75d.json",
+      "probability": 0.75,
+      "search_result_count": 18,
+      "extracted_fact_count": 16,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "459aab03-aa29-5713-aa38-ed2985fa1b22",
+      "question": "Will China launch an antitrust investigation into Intel before April, 2025?",
+      "file": "092_459aab03-aa29-5713-aa38-ed2985fa1b22.json",
+      "probability": 0.65,
+      "search_result_count": 7,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "46a75286-7151-55af-a821-ba38b2c1c82d",
+      "question": "Will \"Big Boys\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "093_46a75286-7151-55af-a821-ba38b2c1c82d.json",
+      "probability": 0.2,
+      "search_result_count": 22,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "46bd36c0-7aae-5645-8e00-236bd8b45ecd",
+      "question": "Will \"Close to You\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "094_46bd36c0-7aae-5645-8e00-236bd8b45ecd.json",
+      "probability": 0.3,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "4c25422a-fa85-5c4d-ba6e-434d5e4c5536",
+      "question": "Will the Giggly Squad rank between positions 46 and 55 on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "095_4c25422a-fa85-5c4d-ba6e-434d5e4c5536.json",
+      "probability": 0.25,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "4e400340-ef00-5dc3-8ba8-449ff3ff9787",
+      "question": "Will Paper Mario: The Thousand-Year Door win the 2025 GLAAD Media Award for Outstanding Video Game?",
+      "file": "096_4e400340-ef00-5dc3-8ba8-449ff3ff9787.json",
+      "probability": 0.5,
+      "search_result_count": 22,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "4f35d9b2-ea54-543e-aad7-7cf976f54687",
+      "question": "Will the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) be less than 180.0% on March 28, 2025?",
+      "file": "097_4f35d9b2-ea54-543e-aad7-7cf976f54687.json",
+      "probability": 0.1,
+      "search_result_count": 20,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "50d91418-da40-5d44-b713-b559156a8fba",
+      "question": "Will the total number of forecasters in the Q1 2025 Quarterly Cup be less than 400 forecasters?",
+      "file": "098_50d91418-da40-5d44-b713-b559156a8fba.json",
+      "probability": 0.1,
+      "search_result_count": 16,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "50fb89de-60af-52e3-abd0-4c05bcb159e3",
+      "question": "Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be less than 5.0 on April 5, 2025?",
+      "file": "099_50fb89de-60af-52e3-abd0-4c05bcb159e3.json",
+      "probability": 0.1,
+      "search_result_count": 22,
+      "extracted_fact_count": 21,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5393fdbb-095b-5ac3-8b74-521d9454ed05",
+      "question": "Will there be more than 10 people in space on March 29, 2025, according to whoisinspace.com?",
+      "file": "100_5393fdbb-095b-5ac3-8b74-521d9454ed05.json",
+      "probability": 0.1,
+      "search_result_count": 18,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "55003b02-f67a-55ea-af06-9a97977cef72",
+      "question": "Will India's Gaganyaan-1 program launch a flight test before April 1, 2025?",
+      "file": "101_55003b02-f67a-55ea-af06-9a97977cef72.json",
+      "probability": 0.3,
+      "search_result_count": 0,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "55e951d3-3209-57cb-9b85-43f339250c36",
+      "question": "Will there be fewer than 10 people in space on March 29, 2025, according to whoisinspace.com?",
+      "file": "102_55e951d3-3209-57cb-9b85-43f339250c36.json",
+      "probability": 0.1,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "567f8f68-56e2-5a53-9823-48d0e4c4a391",
+      "question": "Will \"Crossing\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "103_567f8f68-56e2-5a53-9823-48d0e4c4a391.json",
+      "probability": 0.1,
+      "search_result_count": 14,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5755716c-07aa-5841-a342-f9ade501d119",
+      "question": "Will the Joe Rogan Experience be ranked 2nd on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "104_5755716c-07aa-5841-a342-f9ade501d119.json",
+      "probability": 0.25,
+      "search_result_count": 17,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5868f691-a20c-5629-9540-67c9f7202b5f",
+      "question": "Will the FAA report between 1.7 and 2.0 (inclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?",
+      "file": "105_5868f691-a20c-5629-9540-67c9f7202b5f.json",
+      "probability": 0.4,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5bc36171-1563-5892-8c26-a1f7d2da5806",
+      "question": "Will the total number of likes made on Bluesky on March 30, 2025 be less than 20 million?",
+      "file": "106_5bc36171-1563-5892-8c26-a1f7d2da5806.json",
+      "probability": 0.3,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5c81e934-d31f-50a1-8ee5-86610fddf69a",
+      "question": "Will Drive-Away Dolls win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "107_5c81e934-d31f-50a1-8ee5-86610fddf69a.json",
+      "probability": 0.35,
+      "search_result_count": 19,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5d117069-ed46-573d-b546-3324bef0587e",
+      "question": "Will the global surface air temperature on April 1, 2025 be less than 14.3°C?",
+      "file": "108_5d117069-ed46-573d-b546-3324bef0587e.json",
+      "probability": 0.25,
+      "search_result_count": 11,
+      "extracted_fact_count": 16,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5d1424d4-233e-5378-b39d-af48706b1c01",
+      "question": "Will the number of confirmed cases in the Texas measles outbreak exceed 500 by April 7, 2025?",
+      "file": "109_5d1424d4-233e-5378-b39d-af48706b1c01.json",
+      "probability": 0.75,
+      "search_result_count": 23,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5e030b86-bf3e-5717-863f-0aee2f35fd99",
+      "question": "Will the temperature in San Francisco, CA ever go below 40 degrees F in the entire month of February 2025?",
+      "file": "110_5e030b86-bf3e-5717-863f-0aee2f35fd99.json",
+      "probability": 0.05,
+      "search_result_count": 8,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5e21d488-d400-5446-870f-2d1366582780",
+      "question": "Will the Dallas Mavericks have between 4.6 and 4.8 million Instagram followers on March 30, 2025?",
+      "file": "111_5e21d488-d400-5446-870f-2d1366582780.json",
+      "probability": 0.85,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5e9b06f6-78ed-582f-9d6c-e54f1379172f",
+      "question": "Will Warren Buffett be ranked in the top 5 of the Forbes Real-Time Billionaires List on March 31, 2025?",
+      "file": "112_5e9b06f6-78ed-582f-9d6c-e54f1379172f.json",
+      "probability": 0.1,
+      "search_result_count": 15,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5ee29710-d953-5c21-b312-900c79140064",
+      "question": "Will Apple be the world's most valuable company by market cap on March 29, 2025?",
+      "file": "113_5ee29710-d953-5c21-b312-900c79140064.json",
+      "probability": 0.85,
+      "search_result_count": 17,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5f6400b4-51e1-5082-aaef-9711cf527c17",
+      "question": "Will Fast and Fatal win the 2025 Goldsmith Prize for Investigative Reporting?",
+      "file": "114_5f6400b4-51e1-5082-aaef-9711cf527c17.json",
+      "probability": 0.2,
+      "search_result_count": 17,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "5ff06d8a-864b-50aa-93c0-a0ad435c5789",
+      "question": "Will the number of hostages released by Hamas between January 26 and April 5, 2025 be 40 or more?",
+      "file": "115_5ff06d8a-864b-50aa-93c0-a0ad435c5789.json",
+      "probability": 0.2,
+      "search_result_count": 12,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "60418276-cc2c-5516-a7a3-3b2880499223",
+      "question": "Will Donald Trump grant executive clemency to more than 2 individuals in February 2025?",
+      "file": "116_60418276-cc2c-5516-a7a3-3b2880499223.json",
+      "probability": 0.1,
+      "search_result_count": 18,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "60d6532c-ea0a-5349-8511-eefca00c84c2",
+      "question": "Will \"High Tide\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "117_60d6532c-ea0a-5349-8511-eefca00c84c2.json",
+      "probability": 0.1,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "62c475bd-7ff2-5f94-b65d-b34b619f19e3",
+      "question": "Will Cuckoo win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "118_62c475bd-7ff2-5f94-b65d-b34b619f19e3.json",
+      "probability": 0.35,
+      "search_result_count": 22,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "63b44b8d-21e2-5355-aaa7-03320177ec40",
+      "question": "Will François Bayrou step down or be removed from his position as Prime Minister of France before March 31, 2025?",
+      "file": "119_63b44b8d-21e2-5355-aaa7-03320177ec40.json",
+      "probability": 0.4,
+      "search_result_count": 1,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "64936ce4-39b8-5435-bad1-1278a9d0fdac",
+      "question": "Will the number of active US drilling rigs be 600 or greater on March 28, 2025?",
+      "file": "120_64936ce4-39b8-5435-bad1-1278a9d0fdac.json",
+      "probability": 0.25,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "65e50af8-570f-5809-adcc-b25f324f414e",
+      "question": "Will the total number of forecasters in the Q1 2025 Quarterly Cup be between 400 and 800 forecasters (inclusive)?",
+      "file": "121_65e50af8-570f-5809-adcc-b25f324f414e.json",
+      "probability": 0.75,
+      "search_result_count": 20,
+      "extracted_fact_count": 17,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "666a726b-e2b9-50e3-aea3-9b50a1c94f54",
+      "question": "Will the state of Delaware's Division of Corporations list OpenAI as an \"Exempt\" entity on March 31, 2025?",
+      "file": "122_666a726b-e2b9-50e3-aea3-9b50a1c94f54.json",
+      "probability": 0.1,
+      "search_result_count": 17,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "67151600-4ece-5a64-833c-1f1ecb091c3b",
+      "question": "Will Tesla's total vehicle deliveries for Q1 2025 be less than 400,000 vehicles?",
+      "file": "123_67151600-4ece-5a64-833c-1f1ecb091c3b.json",
+      "probability": 0.7,
+      "search_result_count": 4,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6742a087-e9a8-5d74-92c3-02af89214422",
+      "question": "Will there be exactly 10 people in space on March 29, 2025, according to whoisinspace.com?",
+      "file": "124_6742a087-e9a8-5d74-92c3-02af89214422.json",
+      "probability": 0.9,
+      "search_result_count": 20,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "68015177-80c1-5989-8dad-ff2bcf562659",
+      "question": "Will the IMDb rating of Severance's second season finale be between 7.5 and 9.0 (inclusive)?",
+      "file": "125_68015177-80c1-5989-8dad-ff2bcf562659.json",
+      "probability": 0.85,
+      "search_result_count": 12,
+      "extracted_fact_count": 9,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "696c3014-c9b5-5aa9-8fbd-0b02da01436b",
+      "question": "Will the USDA-posted recall by Yu Shang Food, Inc. of Ready-To-Eat Meat and Poultry Products issued November 21, 2024 be closed before March 1, 2025?",
+      "file": "126_696c3014-c9b5-5aa9-8fbd-0b02da01436b.json",
+      "probability": 0.3,
+      "search_result_count": 19,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "69786036-1ff3-5de3-b03a-4b8643e6cebb",
+      "question": "Will Doechii win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "127_69786036-1ff3-5de3-b03a-4b8643e6cebb.json",
+      "probability": 0.25,
+      "search_result_count": 22,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "697d99ed-a8c0-5d3f-b592-ea6c48b562ca",
+      "question": "Will 900,000 Russian personnel losses be reported before March 21, 2025?",
+      "file": "128_697d99ed-a8c0-5d3f-b592-ea6c48b562ca.json",
+      "probability": 0.85,
+      "search_result_count": 2,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "69d28033-151e-5da0-b1f7-5ba6c350967a",
+      "question": "Will Omar Apollo win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "129_69d28033-151e-5da0-b1f7-5ba6c350967a.json",
+      "probability": 0.15,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "69fc8df8-e930-54f9-b2c5-c26e56e6ab60",
+      "question": "Will Texas have 15.0 million or more residents living in drought on March 28, 2025?",
+      "file": "130_69fc8df8-e930-54f9-b2c5-c26e56e6ab60.json",
+      "probability": 0.65,
+      "search_result_count": 17,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6a6f9ecb-95a4-5e1a-90a9-6fe5ab87a39c",
+      "question": "Will the government of Greenland officially announce a date for an independence referendum, before April 6, 2025?",
+      "file": "131_6a6f9ecb-95a4-5e1a-90a9-6fe5ab87a39c.json",
+      "probability": 0.6,
+      "search_result_count": 22,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6ad51ffb-3c82-5078-8e4d-95aa280e0230",
+      "question": "Will an Ivy League team make it to the Sweet Sixteen of the 2025 NCAA men's tournament (\"March Madness\")?",
+      "file": "132_6ad51ffb-3c82-5078-8e4d-95aa280e0230.json",
+      "probability": 0.15,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6b4d9f0f-584e-5ae9-b8e9-cfda943b00ee",
+      "question": "Will Queer win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "133_6b4d9f0f-584e-5ae9-b8e9-cfda943b00ee.json",
+      "probability": 0.35,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6c519d0b-5f25-5f7a-bc0a-813f903a8866",
+      "question": "Will Larry Ellison be ranked 2nd on the Forbes Real-Time Billionaires List on March 29, 2025?",
+      "file": "134_6c519d0b-5f25-5f7a-bc0a-813f903a8866.json",
+      "probability": 0.1,
+      "search_result_count": 10,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6ce5dc4d-2abb-5633-848d-c35a0afc33bc",
+      "question": "Will Mark Zuckerberg be ranked 2nd on the Forbes Real-Time Billionaires List on March 29, 2025?",
+      "file": "135_6ce5dc4d-2abb-5633-848d-c35a0afc33bc.json",
+      "probability": 0.8,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6d4f00a1-35ab-5ac2-8e95-b4d094292034",
+      "question": "Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 10 and 19 (inclusive)?",
+      "file": "136_6d4f00a1-35ab-5ac2-8e95-b4d094292034.json",
+      "probability": 0.1,
+      "search_result_count": 14,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6e4af32f-f442-56a6-a53b-6a3378bfd2c2",
+      "question": "Will the \"environment\" subreddit have fewer than 1,545,000 subscribers on March 30, 2025?",
+      "file": "137_6e4af32f-f442-56a6-a53b-6a3378bfd2c2.json",
+      "probability": 0.65,
+      "search_result_count": 15,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "6eb43d31-ae9e-5b2f-9e81-2ef5d1a3ec0e",
+      "question": "Will the Giggly Squad rank at position 56 or lower on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "138_6eb43d31-ae9e-5b2f-9e81-2ef5d1a3ec0e.json",
+      "probability": 0.75,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "716b2750-82db-5ff3-98bd-1a0fd5b1b8e6",
+      "question": "Will 'Right to Remain Secret' win the 2025 Goldsmith Prize for Investigative Reporting?",
+      "file": "139_716b2750-82db-5ff3-98bd-1a0fd5b1b8e6.json",
+      "probability": 0.35,
+      "search_result_count": 17,
+      "extracted_fact_count": 12,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "7297b027-d38a-508c-9c4c-87a231725d89",
+      "question": "Will there be exactly 4 artists in the top 10 of the Billboard Artist 100 in the last week of March who are new to the top 10 that week?",
+      "file": "140_7297b027-d38a-508c-9c4c-87a231725d89.json",
+      "probability": 0.119,
+      "search_result_count": 8,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "73885eb4-5ac2-58f7-8e17-a7be0197d136",
+      "question": "Will Tove Lo win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "141_73885eb4-5ac2-58f7-8e17-a7be0197d136.json",
+      "probability": 0.15,
+      "search_result_count": 15,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "73b3af17-1b9b-5b4b-ba7e-ac2d2738bcc9",
+      "question": "Will Kalshi rank between 11th and 20th (inclusive) in the iPhone Top Free Finance Apps on March 31, 2025?",
+      "file": "142_73b3af17-1b9b-5b4b-ba7e-ac2d2738bcc9.json",
+      "probability": 0.3,
+      "search_result_count": 13,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "73d6f1fe-5990-5fda-9268-43fa2f05b584",
+      "question": "Will the United States impose any new tariffs on India before April 1, 2025?",
+      "file": "143_73d6f1fe-5990-5fda-9268-43fa2f05b584.json",
+      "probability": 0.1,
+      "search_result_count": 4,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "7534c78d-f5fd-5e4e-9e2f-0bc20115be14",
+      "question": "Will Life is Strange: Double Exposure win the 2025 GLAAD Media Award for Outstanding Video Game?",
+      "file": "144_7534c78d-f5fd-5e4e-9e2f-0bc20115be14.json",
+      "probability": 0.05,
+      "search_result_count": 18,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "7785a050-cb9b-5f48-9174-084a4d0260c5",
+      "question": "Will the Giggly Squad rank between positions 26 and 45 on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "145_7785a050-cb9b-5f48-9174-084a4d0260c5.json",
+      "probability": 0.65,
+      "search_result_count": 22,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "788cee1f-33e0-56bf-b9c7-c9deb2b1e053",
+      "question": "Will the Great Lakes ice coverage be greater than 30.0% on March 30, 2025?",
+      "file": "146_788cee1f-33e0-56bf-b9c7-c9deb2b1e053.json",
+      "probability": 0.1,
+      "search_result_count": 20,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "78a88f0b-65d7-56a5-9775-6c0417eb09e5",
+      "question": "Will Donald Trump's net worth, according to Forbes, be greater than or equal to $8 billion and less than or equal to $10 billion (≥$8 billion and ≤$10 billion) on March 31, 2025?",
+      "file": "147_78a88f0b-65d7-56a5-9775-6c0417eb09e5.json",
+      "probability": 0.1,
+      "search_result_count": 17,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "793ad028-b949-5731-8713-16f7c4e1ee26",
+      "question": "Will Tesla's total vehicle deliveries for Q1 2025 be between 400,000 and 450,000 vehicles (inclusive)?",
+      "file": "148_793ad028-b949-5731-8713-16f7c4e1ee26.json",
+      "probability": 0.55,
+      "search_result_count": 19,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "7a1f5907-7c54-5e97-950f-0ccc6afe491b",
+      "question": "Will the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) be greater than 210.0% on March 28, 2025?",
+      "file": "149_7a1f5907-7c54-5e97-950f-0ccc6afe491b.json",
+      "probability": 0.85,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "7bda32e8-7bb8-570f-9a86-8e0def8493c3",
+      "question": "Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be greater than 15.0 on April 5, 2025?",
+      "file": "150_7bda32e8-7bb8-570f-9a86-8e0def8493c3.json",
+      "probability": 0.05,
+      "search_result_count": 16,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "7fab6b28-5f73-572d-8ac6-0560c7ff9fd1",
+      "question": "Will the total number of likes made on Bluesky on March 30, 2025 be greater than 35 million?",
+      "file": "151_7fab6b28-5f73-572d-8ac6-0560c7ff9fd1.json",
+      "probability": 0.7,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "7fc6f2fe-6af1-5346-8d6d-21839db23e4a",
+      "question": "In its March update, will Similarweb report chatgpt.com having a higher rank than wikipedia.org?",
+      "file": "152_7fc6f2fe-6af1-5346-8d6d-21839db23e4a.json",
+      "probability": 0.2,
+      "search_result_count": 13,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "83a43442-15a5-5bbf-8272-f9f0b7700709",
+      "question": "Will Donald Trump sign more than 90 executive orders in February and March 2025?",
+      "file": "153_83a43442-15a5-5bbf-8272-f9f0b7700709.json",
+      "probability": 0.8,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "83d662c3-172d-5694-8ec7-5cebf2ecb27e",
+      "question": "Will the USDA-posted recall by UP Products, LLC, DBA Meyer Wholesale of Ready-To-Eat and Raw Sausage Products issued January 13, 2025 be closed before April 1, 2025?",
+      "file": "154_83d662c3-172d-5694-8ec7-5cebf2ecb27e.json",
+      "probability": 0.6,
+      "search_result_count": 18,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8442c3a4-bdc3-5044-acea-a3a0fe15669a",
+      "question": "In its March update, will Similarweb report chatgpt.com having a higher rank than reddit.com?",
+      "file": "155_8442c3a4-bdc3-5044-acea-a3a0fe15669a.json",
+      "probability": 0.4,
+      "search_result_count": 18,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8532fd68-1c2a-5e60-a764-a057aa5045f9",
+      "question": "Will the Giggly Squad rank between positions 1 and 25 on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "156_8532fd68-1c2a-5e60-a764-a057aa5045f9.json",
+      "probability": 0.65,
+      "search_result_count": 16,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "85b79e45-0ecd-508e-b9ed-edb7bb0c7056",
+      "question": "Will Microsoft achieve the highest stock price growth among the world's five largest companies during February and March, 2025?",
+      "file": "157_85b79e45-0ecd-508e-b9ed-edb7bb0c7056.json",
+      "probability": 0.2,
+      "search_result_count": 14,
+      "extracted_fact_count": 13,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "85ea0144-12a7-5ed6-9ad3-7fc475b3a7a4",
+      "question": "Will the 500th richest person on Bloomberg's Billionaires Index have $6.5 billion or more on March 28, 2025?",
+      "file": "158_85ea0144-12a7-5ed6-9ad3-7fc475b3a7a4.json",
+      "probability": 0.75,
+      "search_result_count": 15,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "85fa305f-fa51-5619-bb75-2de257047c3b",
+      "question": "Will the median person on Bloomberg's Billionaires Index be from the United States on March 20, 2025?",
+      "file": "159_85fa305f-fa51-5619-bb75-2de257047c3b.json",
+      "probability": 0.75,
+      "search_result_count": 10,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "870eaab8-64e9-534d-bea5-03d13f6700dc",
+      "question": "Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 30 and 39 (inclusive)?",
+      "file": "160_870eaab8-64e9-534d-bea5-03d13f6700dc.json",
+      "probability": 0.9,
+      "search_result_count": 13,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "874329ab-a1a8-59fd-bae9-1bc254182acb",
+      "question": "Will Assassin's Creed Shadows rank between 6th and 7th on Steam's Weekly Top Sellers chart for March 18 - 25, 2025?",
+      "file": "161_874329ab-a1a8-59fd-bae9-1bc254182acb.json",
+      "probability": 0.4,
+      "search_result_count": 12,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "896aeebd-fa8c-5d4e-b74f-1378b1827c3f",
+      "question": "Will the S&P 500 index go up in February 2025?",
+      "file": "162_896aeebd-fa8c-5d4e-b74f-1378b1827c3f.json",
+      "probability": 0.7,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8a4804c4-14bd-5d32-a547-a16556a178d6",
+      "question": "Will the IMDb rating of Severance's second season finale be 9.0 or higher?",
+      "file": "163_8a4804c4-14bd-5d32-a547-a16556a178d6.json",
+      "probability": 0.3,
+      "search_result_count": 15,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8af83649-6b21-5571-90e7-11a2c6f91628",
+      "question": "Will Mean Girls win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "164_8af83649-6b21-5571-90e7-11a2c6f91628.json",
+      "probability": 0.35,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8b4f7498-fec3-54fa-8e2a-a6aa73051802",
+      "question": "Will The Tucker Carlson Show be ranked higher than its competitor on Spotify's podcast charts on March 31, 2025?",
+      "file": "165_8b4f7498-fec3-54fa-8e2a-a6aa73051802.json",
+      "probability": 0.6,
+      "search_result_count": 23,
+      "extracted_fact_count": 16,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+      "question": "In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?",
+      "file": "166_8bbb3ca2-8ea6-5764-9adc-ed9da4b77683.json",
+      "probability": 0.85,
+      "search_result_count": 21,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8bf74743-a31a-518a-b1f3-70afa2e8ae46",
+      "question": "Will Elon Musk's net worth be between $400 and $500 billion on March 31, 2025, according to Forbes?",
+      "file": "167_8bf74743-a31a-518a-b1f3-70afa2e8ae46.json",
+      "probability": 0.4,
+      "search_result_count": 11,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8ec4d2c6-e424-5752-ba52-ae8765a4cf6b",
+      "question": "Will the FAA report between 1.3 and 1.7 (exclusive) reported incidents of unruly passengers per 10,000 flights for the week of March 23, 2025?",
+      "file": "168_8ec4d2c6-e424-5752-ba52-ae8765a4cf6b.json",
+      "probability": 0.6,
+      "search_result_count": 19,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8ec9d966-080f-5105-8484-dccbc93a7ce7",
+      "question": "Will the All-In podcast rank 31-40 on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "169_8ec9d966-080f-5105-8484-dccbc93a7ce7.json",
+      "probability": 0.4,
+      "search_result_count": 19,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "8f8b36b5-e494-5771-bfb0-89713a2b7be1",
+      "question": "Will the global surface air temperature on April 1, 2025 be greater than 14.7°C?",
+      "file": "170_8f8b36b5-e494-5771-bfb0-89713a2b7be1.json",
+      "probability": 0.75,
+      "search_result_count": 14,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "912b0ea6-8c93-5ed1-943d-6a059a3f4e34",
+      "question": "Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be greater than 430.5 ppm?",
+      "file": "171_912b0ea6-8c93-5ed1-943d-6a059a3f4e34.json",
+      "probability": 0.95,
+      "search_result_count": 17,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "91d53d96-3df8-550c-9416-bd56e7611403",
+      "question": "Will the \"datascience\" subreddit have more than 2,750,000 subscribers on March 30, 2025?",
+      "file": "172_91d53d96-3df8-550c-9416-bd56e7611403.json",
+      "probability": 0.7,
+      "search_result_count": 15,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "93b5f546-30fa-55f9-9121-8867f5206c33",
+      "question": "Will Recovery Inc. win the 2025 Goldsmith Prize for Investigative Reporting?",
+      "file": "173_93b5f546-30fa-55f9-9121-8867f5206c33.json",
+      "probability": 0.2,
+      "search_result_count": 12,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "93b64c83-3264-559f-bb1e-e3a223b23762",
+      "question": "Will Amazon be the world's most valuable company by market cap on March 29, 2025?",
+      "file": "174_93b64c83-3264-559f-bb1e-e3a223b23762.json",
+      "probability": 0.05,
+      "search_result_count": 29,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "93ddceea-c753-5db8-94f4-046633a1e520",
+      "question": "Will Kalshi rank 51st or lower in the iPhone Top Free Finance Apps on March 31, 2025?",
+      "file": "175_93ddceea-c753-5db8-94f4-046633a1e520.json",
+      "probability": 0.8,
+      "search_result_count": 15,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "93f8e9c8-3ef1-5a21-b781-599858bd8b5f",
+      "question": "Will there be exactly 0 artists in the top 10 of the Billboard Artist 100 in the last week of March who are new to the top 10 that week?",
+      "file": "176_93f8e9c8-3ef1-5a21-b781-599858bd8b5f.json",
+      "probability": 0.021,
+      "search_result_count": 12,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "947d4a81-5c9f-5194-8b8b-8d3eba025e34",
+      "question": "Will Donald Trump sign between 60 and 90 (inclusive) executive orders in February and March 2025?",
+      "file": "177_947d4a81-5c9f-5194-8b8b-8d3eba025e34.json",
+      "probability": 0.95,
+      "search_result_count": 22,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "95801c9b-39fb-5751-9d37-3b71847aeb57",
+      "question": "Will someone other than Randy Fine or Josh Weil win the special election for Florida's 6th Congressional District?",
+      "file": "178_95801c9b-39fb-5751-9d37-3b71847aeb57.json",
+      "probability": 0.1,
+      "search_result_count": 15,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "95b5f875-7376-59ab-9084-30d2fad6f996",
+      "question": "Will the DC cherry trees reach peak bloom on March 29 in 2025?",
+      "file": "179_95b5f875-7376-59ab-9084-30d2fad6f996.json",
+      "probability": 0.25,
+      "search_result_count": 18,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "95f68c07-ae41-55ac-9921-6c41d4136edd",
+      "question": "Will a fourth person solve a Rubik's cube in less than 3.44 seconds before March 31, 2025?",
+      "file": "180_95f68c07-ae41-55ac-9921-6c41d4136edd.json",
+      "probability": 0.3,
+      "search_result_count": 0,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "98a092aa-d28b-55e6-831c-c99fe482100c",
+      "question": "Will I Kissed a Boy win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "181_98a092aa-d28b-55e6-831c-c99fe482100c.json",
+      "probability": 0.3,
+      "search_result_count": 5,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "99c62dc9-d0d0-5ca2-b6a9-903e5116df60",
+      "question": "Will Problemista win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "182_99c62dc9-d0d0-5ca2-b6a9-903e5116df60.json",
+      "probability": 0.35,
+      "search_result_count": 14,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "99e9983e-b0d0-5cc6-a2a3-470e43561401",
+      "question": "Will Bernard Arnault & family be ranked 2nd on the Forbes Real-Time Billionaires List on March 29, 2025?",
+      "file": "183_99e9983e-b0d0-5cc6-a2a3-470e43561401.json",
+      "probability": 0.1,
+      "search_result_count": 10,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9a45874f-e2a6-582b-9e88-af3309bc376e",
+      "question": "Will Kalshi rank between 1st and 10th (inclusive) in the iPhone Top Free Finance Apps on March 31, 2025?",
+      "file": "184_9a45874f-e2a6-582b-9e88-af3309bc376e.json",
+      "probability": 0.2,
+      "search_result_count": 12,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9aa675c3-dff1-5873-9aff-ca4968942bc5",
+      "question": "Will Elon Musk be the richest person in the world on March 31, 2025, according to Forbes?",
+      "file": "185_9aa675c3-dff1-5873-9aff-ca4968942bc5.json",
+      "probability": 0.85,
+      "search_result_count": 16,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9aed47af-75a4-5d22-8650-6830498969ac",
+      "question": "Will Wicked win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "186_9aed47af-75a4-5d22-8650-6830498969ac.json",
+      "probability": 0.25,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9cd4fb36-af06-50a2-9d58-9d08424eb3f6",
+      "question": "Will My Old Ass win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "187_9cd4fb36-af06-50a2-9d58-9d08424eb3f6.json",
+      "probability": 0.35,
+      "search_result_count": 16,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9cf08282-398d-5d1c-9694-e54903ac9886",
+      "question": "Will bluebird bio file for bankruptcy before April 1, 2025?",
+      "file": "188_9cf08282-398d-5d1c-9694-e54903ac9886.json",
+      "probability": 0.1,
+      "search_result_count": 12,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9cf9b427-a5b4-50dc-b9c3-e6ad1906e0b7",
+      "question": "Will the difference between the Arena Score of o3 and the next best model on Chatbot Arena be between 5.0 and 15.0 on April 5, 2025?",
+      "file": "189_9cf9b427-a5b4-50dc-b9c3-e6ad1906e0b7.json",
+      "probability": 0.1,
+      "search_result_count": 19,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9dcf6999-e0af-5c9e-bb50-cb566151f977",
+      "question": "Will The Amazing Race win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "190_9dcf6999-e0af-5c9e-bb50-cb566151f977.json",
+      "probability": 0.25,
+      "search_result_count": 6,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9f618f0f-d64a-54b6-882b-53ae85eead22",
+      "question": "Will Russia have control of Chasiv Yar on March 31, 2025?",
+      "file": "191_9f618f0f-d64a-54b6-882b-53ae85eead22.json",
+      "probability": 0.85,
+      "search_result_count": 11,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9f6f1e83-4529-5721-9a4f-50b1b130f396",
+      "question": "Will Joy Oladokun win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "192_9f6f1e83-4529-5721-9a4f-50b1b130f396.json",
+      "probability": 0.15,
+      "search_result_count": 16,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "9fcc4b4d-3d36-5189-9ccf-537b528fbb85",
+      "question": "Will Dragon Age: The Veilguard win the 2025 GLAAD Media Award for Outstanding Video Game?",
+      "file": "193_9fcc4b4d-3d36-5189-9ccf-537b528fbb85.json",
+      "probability": 0.65,
+      "search_result_count": 11,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "a17b5015-5545-5762-9de3-f42b9b6d3801",
+      "question": "Will Jeff Bezos be ranked 2nd on the Forbes Real-Time Billionaires List on March 29, 2025?",
+      "file": "194_a17b5015-5545-5762-9de3-f42b9b6d3801.json",
+      "probability": 0.3,
+      "search_result_count": 12,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "a33b29f2-4797-536f-b924-a8abc1041412",
+      "question": "Will the Great Lakes ice coverage be less than 15.0% on March 30, 2025?",
+      "file": "195_a33b29f2-4797-536f-b924-a8abc1041412.json",
+      "probability": 0.75,
+      "search_result_count": 19,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "a704139f-c356-52e2-a535-8c3656e0720e",
+      "question": "Will the DC cherry trees reach peak bloom on March 28 in 2025?",
+      "file": "196_a704139f-c356-52e2-a535-8c3656e0720e.json",
+      "probability": 0.4,
+      "search_result_count": 19,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "a77c8b67-2b38-5973-8e28-4ce9ca7d9315",
+      "question": "Will the lowest price of bitcoin be greater than $75,000 during the rest of March 2025?",
+      "file": "197_a77c8b67-2b38-5973-8e28-4ce9ca7d9315.json",
+      "probability": 0.85,
+      "search_result_count": 16,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "a7d88432-62e3-5e7c-aaec-78ae36fd1bee",
+      "question": "Will the eighth Starship integrated flight test reach an altitude of 160 kilometers before March 10, 2025?",
+      "file": "198_a7d88432-62e3-5e7c-aaec-78ae36fd1bee.json",
+      "probability": 0.8,
+      "search_result_count": 10,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "a84a81e9-ee86-5a4c-bc0c-f18c65aab1c2",
+      "question": "Will Donald Trump have a positive net favorability rate on February 28, 2025, according to 538?",
+      "file": "199_a84a81e9-ee86-5a4c-bc0c-f18c65aab1c2.json",
+      "probability": 0.55,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "a9814619-a0fb-50bf-8450-43a69cb3b386",
+      "question": "Will The Challenge 40: Battle of the Eras win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "200_a9814619-a0fb-50bf-8450-43a69cb3b386.json",
+      "probability": 0.15,
+      "search_result_count": 12,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "aaf76aff-178b-55b4-a7c8-f95c0d215db7",
+      "question": "Will Apple stock continuously remain above $200 through March 31, 2025?",
+      "file": "201_aaf76aff-178b-55b4-a7c8-f95c0d215db7.json",
+      "probability": 0.85,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ab38911c-4a08-5986-9a14-84dde70d63ad",
+      "question": "Will the DC cherry trees reach peak bloom on March 30 in 2025?",
+      "file": "202_ab38911c-4a08-5986-9a14-84dde70d63ad.json",
+      "probability": 0.4,
+      "search_result_count": 24,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ab590664-1938-56f1-a38f-046258a30220",
+      "question": "Will Nvidia be the world's most valuable company by market cap on March 29, 2025?",
+      "file": "203_ab590664-1938-56f1-a38f-046258a30220.json",
+      "probability": 0.4,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "abde3085-ed55-5aa3-bc52-198b4bcd3a2f",
+      "question": "Will the Warren Buffett Indicator (Wilshire 5000 to GDP Ratio) be between 180.0% and 210.0% on March 28, 2025?",
+      "file": "204_abde3085-ed55-5aa3-bc52-198b4bcd3a2f.json",
+      "probability": 0.2,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ac9ebd04-ebbc-5a78-8b7f-b7b46ca7f010",
+      "question": "Will Apple (AAPL) achieve the highest stock price growth among the world's five largest companies during February and March, 2025?",
+      "file": "205_ac9ebd04-ebbc-5a78-8b7f-b7b46ca7f010.json",
+      "probability": 0.2,
+      "search_result_count": 16,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ad863b6d-6a19-5ff9-a7e1-f17b5bfecac5",
+      "question": "Will the US frac spread count for the week ending March 28, 2025 fall between 228 and 234 (inclusive)?",
+      "file": "206_ad863b6d-6a19-5ff9-a7e1-f17b5bfecac5.json",
+      "probability": 0.1,
+      "search_result_count": 15,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "aed09225-fa20-53eb-97de-4881b86d73af",
+      "question": "Will The Boulet Brothers' Dragula win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "207_aed09225-fa20-53eb-97de-4881b86d73af.json",
+      "probability": 0.3,
+      "search_result_count": 12,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "aedd90ed-ab57-58b7-a265-917afec398aa",
+      "question": "Will \"20,000 Species of Bees\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "208_aedd90ed-ab57-58b7-a265-917afec398aa.json",
+      "probability": 0.6,
+      "search_result_count": 19,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "aede14a1-b923-57c0-bace-e02931d3d8c9",
+      "question": "Will the DOGE Live Tracker report Savings Per Taxpayer less than $500.00 on March 31, 2025?",
+      "file": "209_aede14a1-b923-57c0-bace-e02931d3d8c9.json",
+      "probability": 0.85,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "af8383de-09b2-5548-a21f-644b727e2f17",
+      "question": "Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than or equal to 36 and less than or equal to 40 on March 31, 2025?",
+      "file": "210_af8383de-09b2-5548-a21f-644b727e2f17.json",
+      "probability": 0.0,
+      "search_result_count": 17,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b0af5986-ce3f-5ef0-b4b6-42353bb8e4e8",
+      "question": "Will Medicare Inc.: How Giant Insurers Make Billions Off Seniors win the 2025 Goldsmith Prize for Investigative Reporting?",
+      "file": "211_b0af5986-ce3f-5ef0-b4b6-42353bb8e4e8.json",
+      "probability": 0.2,
+      "search_result_count": 14,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b230c686-96fb-5370-9d6b-f4e4829c684c",
+      "question": "Will Assassin's Creed Shadows rank between 8th and 9th on Steam's Weekly Top Sellers chart for March 18 - 25, 2025?",
+      "file": "212_b230c686-96fb-5370-9d6b-f4e4829c684c.json",
+      "probability": 0.3,
+      "search_result_count": 19,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b503bfd6-2b75-5c49-af1b-cfd219829a9b",
+      "question": "Will there be exactly 2 artists in the top 10 of the Billboard Artist 100 in the last week of March who are new to the top 10 that week?",
+      "file": "213_b503bfd6-2b75-5c49-af1b-cfd219829a9b.json",
+      "probability": 0.36,
+      "search_result_count": 14,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b5cc1945-2e2c-5b99-a9f8-b4792868ef85",
+      "question": "Will the \"goodnews\" subreddit have between 106,000 and 113,000 subscribers on March 30, 2025?",
+      "file": "214_b5cc1945-2e2c-5b99-a9f8-b4792868ef85.json",
+      "probability": 0.6,
+      "search_result_count": 20,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b63eabf1-95f9-5557-8555-86df88c9603c",
+      "question": "Will the number of active US drilling rigs be 585 to 589 on March 28, 2025?",
+      "file": "215_b63eabf1-95f9-5557-8555-86df88c9603c.json",
+      "probability": 0.4,
+      "search_result_count": 19,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b79c80de-21e4-5a1a-8a0b-792f302b1656",
+      "question": "Will Bluesky have between 800,000 and 1,400,000 unique posters on March 30, 2025?",
+      "file": "216_b79c80de-21e4-5a1a-8a0b-792f302b1656.json",
+      "probability": 0.75,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b7e1f8a2-2da0-5d85-98b7-9d068484ae46",
+      "question": "Will \"A Place of Our Own\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "217_b7e1f8a2-2da0-5d85-98b7-9d068484ae46.json",
+      "probability": 0.1,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b84fd675-a175-59a4-8924-eb3e72ea9e49",
+      "question": "Will the DOGE Live Tracker report Savings Per Taxpayer $750.00 or more on March 31, 2025?",
+      "file": "218_b84fd675-a175-59a4-8924-eb3e72ea9e49.json",
+      "probability": 0.2,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b88f2907-1e07-5d4d-a0e5-d04832acf516",
+      "question": "Will the United States accuse the People's Republic of China of invading Taiwan before April 1, 2025?",
+      "file": "219_b88f2907-1e07-5d4d-a0e5-d04832acf516.json",
+      "probability": 0.05,
+      "search_result_count": 1,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "b98bf0bb-a984-589c-8c7a-aaa32c5ae040",
+      "question": "Will Cathy Harris still be listed as chairing the Merit Systems Protection Board on March 31, 2025?",
+      "file": "220_b98bf0bb-a984-589c-8c7a-aaa32c5ae040.json",
+      "probability": 0.7,
+      "search_result_count": 4,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "bb367560-98d6-5051-a5ea-ecb5e7affe65",
+      "question": "Will the number of active US drilling rigs be 570 to 574 on March 28, 2025?",
+      "file": "221_bb367560-98d6-5051-a5ea-ecb5e7affe65.json",
+      "probability": 0.15,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "bd4c11cb-e705-52a4-8be7-a6a4f9527bbc",
+      "question": "Will the Federal Reserve cut interest rates before April 1, 2025?",
+      "file": "222_bd4c11cb-e705-52a4-8be7-a6a4f9527bbc.json",
+      "probability": 0.3,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "bddbeeae-8b50-576e-9a69-c14c2d2d3cb9",
+      "question": "Will the debt ceiling be raised or suspended in the US before March 17, 2025?",
+      "file": "223_bddbeeae-8b50-576e-9a69-c14c2d2d3cb9.json",
+      "probability": 0.85,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "be2ca4fd-6987-5926-9b2a-134ebb357e5c",
+      "question": "Will the \"goodnews\" subreddit have fewer than 106,000 subscribers on March 30, 2025?",
+      "file": "224_be2ca4fd-6987-5926-9b2a-134ebb357e5c.json",
+      "probability": 0.2,
+      "search_result_count": 17,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "be944366-ba6d-50a2-a123-02f7c153fc6a",
+      "question": "Will Northrop Grumman's stock continuously remain below its all-time high until March 31, 2025?",
+      "file": "225_be944366-ba6d-50a2-a123-02f7c153fc6a.json",
+      "probability": 0.85,
+      "search_result_count": 17,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "bec408bd-e2e0-5501-b661-c46393752988",
+      "question": "Will the Euro Area Inflation Rate be above 2.4% for February 2025?",
+      "file": "226_bec408bd-e2e0-5501-b661-c46393752988.json",
+      "probability": 0.3,
+      "search_result_count": 7,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "bf721a7f-3de9-5f4d-8bfb-2975fde17b8b",
+      "question": "Will Alabama have 1.5 million or more residents living in drought on March 28, 2025?",
+      "file": "227_bf721a7f-3de9-5f4d-8bfb-2975fde17b8b.json",
+      "probability": 0.6,
+      "search_result_count": 19,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "c007aa37-b849-5cec-9627-929d3bf7850e",
+      "question": "Will 'Our Troops' Wounded Brains' win the 2025 Goldsmith Prize for Investigative Reporting?",
+      "file": "228_c007aa37-b849-5cec-9627-929d3bf7850e.json",
+      "probability": 0.4,
+      "search_result_count": 11,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "c0583401-760f-581e-833c-b240e6fe173d",
+      "question": "Will the United Nations have exactly 193 member states on March 31, 2025?",
+      "file": "229_c0583401-760f-581e-833c-b240e6fe173d.json",
+      "probability": 0.95,
+      "search_result_count": 18,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "c30215be-6905-5933-a367-68a94fa67d52",
+      "question": "Will the US frac spread count for the week ending March 28, 2025 be less than 211?",
+      "file": "230_c30215be-6905-5933-a367-68a94fa67d52.json",
+      "probability": 0.4,
+      "search_result_count": 12,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "c43d6826-3ec0-5778-9427-0f5964e8f8ea",
+      "question": "Will Argentina's Chamber of Deputies impeach President Javier Milei before April 1, 2025?",
+      "file": "231_c43d6826-3ec0-5778-9427-0f5964e8f8ea.json",
+      "probability": 0.35,
+      "search_result_count": 19,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "c5e8531a-2d59-5fee-9396-d9bbd99770f0",
+      "question": "Will a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon be the world's most valuable company by market cap on March 29, 2025?",
+      "file": "232_c5e8531a-2d59-5fee-9396-d9bbd99770f0.json",
+      "probability": 0.1,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "c61287fd-021d-5408-9aac-53c545b6464e",
+      "question": "Will the \"environment\" subreddit have between 1,545,000 and 1,552,000 (inclusive) subscribers on March 30, 2025?",
+      "file": "233_c61287fd-021d-5408-9aac-53c545b6464e.json",
+      "probability": 0.4,
+      "search_result_count": 10,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "c6562be4-fe42-5d1a-81e8-2822ac6c0309",
+      "question": "Will there be exactly 1 artist in the top 10 of the Billboard Artist 100 in the last week of March who is new to the top 10 that week?",
+      "file": "234_c6562be4-fe42-5d1a-81e8-2822ac6c0309.json",
+      "probability": 0.15,
+      "search_result_count": 18,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "caf614fb-3694-5c18-8c2f-2908124e9676",
+      "question": "Will Israel lift the blockade to humanitarian aid into Gaza before April 7, 2025?",
+      "file": "235_caf614fb-3694-5c18-8c2f-2908124e9676.json",
+      "probability": 0.1,
+      "search_result_count": 14,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "cb3ed083-5fe4-52e4-b8fa-db6017549470",
+      "question": "Will Assassin's Creed Shadows rank 3rd on Steam's Weekly Top Sellers chart for March 18 - 25, 2025?",
+      "file": "236_cb3ed083-5fe4-52e4-b8fa-db6017549470.json",
+      "probability": 0.8,
+      "search_result_count": 13,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "cc19760e-f4e6-5b74-a53e-7adcdeb2ae67",
+      "question": "Will Elon Musk's net worth be less than $400 billion on March 31, 2025, according to Forbes?",
+      "file": "237_cc19760e-f4e6-5b74-a53e-7adcdeb2ae67.json",
+      "probability": 0.85,
+      "search_result_count": 17,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ccb8b2c5-070e-53c0-a9b6-a93e8b987e08",
+      "question": "Will NOAA's Climate.gov still be online on April 1, 2025?",
+      "file": "238_ccb8b2c5-070e-53c0-a9b6-a93e8b987e08.json",
+      "probability": 0.95,
+      "search_result_count": 14,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "cd836775-cd95-5bd7-b257-af9c6207b658",
+      "question": "Will the total market cap of the Magnificent Seven be between 17.0 and 18.5 trillion USD on March 28, 2025?",
+      "file": "239_cd836775-cd95-5bd7-b257-af9c6207b658.json",
+      "probability": 0.65,
+      "search_result_count": 10,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "cdc432b3-500f-5eaa-b14e-daac937f8a86",
+      "question": "Will the All-In podcast rank 1-15 on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "240_cdc432b3-500f-5eaa-b14e-daac937f8a86.json",
+      "probability": 0.4,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "cdde67cc-4d3d-5934-8de9-7ddfeab3749d",
+      "question": "Will ChargePoint file for bankruptcy before April 1, 2025?",
+      "file": "241_cdde67cc-4d3d-5934-8de9-7ddfeab3749d.json",
+      "probability": 0.2,
+      "search_result_count": 2,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ce1529be-8c18-5e8d-bb9c-b8d0496359ee",
+      "question": "Will I Kissed a Girl win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "242_ce1529be-8c18-5e8d-bb9c-b8d0496359ee.json",
+      "probability": 0.3,
+      "search_result_count": 13,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ce59e37e-f418-5c11-bfbc-5b308ee711ab",
+      "question": "Will the \"datascience\" subreddit have fewer than 2,685,000 subscribers on March 30, 2025?",
+      "file": "243_ce59e37e-f418-5c11-bfbc-5b308ee711ab.json",
+      "probability": 0.3,
+      "search_result_count": 15,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ce821a26-f4b5-50a5-950c-7b42e3303101",
+      "question": "Will the number of active US drilling rigs be 590 to 594 on March 28, 2025?",
+      "file": "244_ce821a26-f4b5-50a5-950c-7b42e3303101.json",
+      "probability": 0.75,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "cfa1b9a0-93d2-5521-b802-b9a0a8ce673d",
+      "question": "Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than 70 on March 31, 2025?",
+      "file": "245_cfa1b9a0-93d2-5521-b802-b9a0a8ce673d.json",
+      "probability": 1.0,
+      "search_result_count": 19,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "cff60baf-ed8d-5f1e-863c-2d8fa9dd319d",
+      "question": "Will the number of hostages released by Hamas between January 26 and April 5, 2025 be between 20 and 29 (inclusive)?",
+      "file": "246_cff60baf-ed8d-5f1e-863c-2d8fa9dd319d.json",
+      "probability": 0.8,
+      "search_result_count": 14,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d073fcd3-df58-5264-b846-f2d673a7e11c",
+      "question": "Will Microsoft stock continuously remain below its all-time high before January 1, 2025?",
+      "file": "247_d073fcd3-df58-5264-b846-f2d673a7e11c.json",
+      "probability": 0.4,
+      "search_result_count": 23,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d0e7493c-690d-5dd3-902f-97bf292be13d",
+      "question": "Will RuPaul's Drag Race win the 2025 GLAAD Media Award for Outstanding Reality Competition Program?",
+      "file": "248_d0e7493c-690d-5dd3-902f-97bf292be13d.json",
+      "probability": 0.75,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d1b47c1a-f13a-5a97-862f-7f7e5dfa03cf",
+      "question": "Will Microsoft be the world's most valuable company by market cap on March 29, 2025?",
+      "file": "249_d1b47c1a-f13a-5a97-862f-7f7e5dfa03cf.json",
+      "probability": 0.3,
+      "search_result_count": 17,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d21d5d09-efa9-5204-b5e6-51f7690e8cc8",
+      "question": "Will the number of active US drilling rigs be 595 to 599 on March 28, 2025?",
+      "file": "250_d21d5d09-efa9-5204-b5e6-51f7690e8cc8.json",
+      "probability": 0.2,
+      "search_result_count": 15,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d3acba6f-b6ff-5432-a79e-33becd884568",
+      "question": "Will Trump Media & Technology Group (the owner of Truth Social) stock continuously remain below its all-time high until March 31, 2025?",
+      "file": "251_d3acba6f-b6ff-5432-a79e-33becd884568.json",
+      "probability": 0.95,
+      "search_result_count": 22,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d435547a-416a-52cb-8160-a107ed429e8f",
+      "question": "Will Kalshi rank between 31st and 40th (inclusive) in the iPhone Top Free Finance Apps on March 31, 2025?",
+      "file": "252_d435547a-416a-52cb-8160-a107ed429e8f.json",
+      "probability": 0.4,
+      "search_result_count": 8,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d4a1b988-10c4-503f-aaa5-6cbb2c2664b5",
+      "question": "Will the Dallas Mavericks have fewer than 4.6 million Instagram followers on March 30, 2025?",
+      "file": "253_d4a1b988-10c4-503f-aaa5-6cbb2c2664b5.json",
+      "probability": 0.95,
+      "search_result_count": 9,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d56197ec-dae4-5733-be34-1b6bc145a5c3",
+      "question": "Will Adam Lambert win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "254_d56197ec-dae4-5733-be34-1b6bc145a5c3.json",
+      "probability": 0.25,
+      "search_result_count": 9,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d6128d43-58d5-5509-a2ab-c783f821fa84",
+      "question": "Will Billie Eilish win the 2025 GLAAD Media Award for Outstanding Music Artist?",
+      "file": "255_d6128d43-58d5-5509-a2ab-c783f821fa84.json",
+      "probability": 0.2,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d6340263-e413-5a6e-848a-e93a6e1a49c9",
+      "question": "Will Donald Trump's net worth, according to Forbes, be in the range of $0 to $6 billion, inclusive, on March 31, 2025?",
+      "file": "256_d6340263-e413-5a6e-848a-e93a6e1a49c9.json",
+      "probability": 0.9,
+      "search_result_count": 7,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d72b9998-8746-515c-a0c0-aff7147ec883",
+      "question": "Will Assassin's Creed Shadows rank tenth or lower on Steam's Weekly Top Sellers chart for March 18 - 25, 2025?",
+      "file": "257_d72b9998-8746-515c-a0c0-aff7147ec883.json",
+      "probability": 0.3,
+      "search_result_count": 18,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d7c5e957-628e-5266-b395-bf84c94c4e81",
+      "question": "Will the total number of posts made on Bluesky on March 30, 2025 exceed 7 million?",
+      "file": "258_d7c5e957-628e-5266-b395-bf84c94c4e81.json",
+      "probability": 0.75,
+      "search_result_count": 23,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d8dfda91-42cb-5389-b98d-bcedfd3d59e7",
+      "question": "Will Donald Trump's net worth, according to Forbes, be greater than or equal to $20 billion on March 31, 2025?",
+      "file": "259_d8dfda91-42cb-5389-b98d-bcedfd3d59e7.json",
+      "probability": 0.01,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "d95669bd-dc9f-587e-8f9d-bc252ad9b7f1",
+      "question": "Will Canada's petition to revoke Elon Musk's dual citizenship reach 1 million signatures before April 1, 2025?",
+      "file": "260_d95669bd-dc9f-587e-8f9d-bc252ad9b7f1.json",
+      "probability": 0.1,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "daf02c2b-8abc-598f-88bc-b8c2a85de991",
+      "question": "Will Kalshi rank between 21st and 30th (inclusive) in the iPhone Top Free Finance Apps on March 31, 2025?",
+      "file": "261_daf02c2b-8abc-598f-88bc-b8c2a85de991.json",
+      "probability": 0.15,
+      "search_result_count": 13,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "dc003ff5-8ce4-5e59-8f24-5f5ae8339db6",
+      "question": "Will the average allergy index for Atlanta, Georgia be greater than 8.0 for the 14-day period ending March 30, 2025?",
+      "file": "262_dc003ff5-8ce4-5e59-8f24-5f5ae8339db6.json",
+      "probability": 0.75,
+      "search_result_count": 13,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "df207496-7d73-5cf2-b0f3-957d4679ab87",
+      "question": "Will Julian Assange receive a pardon before April 1, 2025?",
+      "file": "263_df207496-7d73-5cf2-b0f3-957d4679ab87.json",
+      "probability": 0.3,
+      "search_result_count": 23,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e00414e4-c559-5f04-9a17-0769dee15f63",
+      "question": "Will Amazon (AMZN) achieve the highest stock price growth among the world's five largest companies during February and March, 2025?",
+      "file": "264_e00414e4-c559-5f04-9a17-0769dee15f63.json",
+      "probability": 0.2,
+      "search_result_count": 17,
+      "extracted_fact_count": 23,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e02a8122-90d3-535a-a2d7-4ac3cdb6d26d",
+      "question": "Will \"Before I Change My Mind\" win the 2025 GLAAD Media Award for Outstanding Film -- Limited Release?",
+      "file": "265_e02a8122-90d3-535a-a2d7-4ac3cdb6d26d.json",
+      "probability": 0.25,
+      "search_result_count": 20,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e169bc35-fd44-5a57-9443-cff17fedce7d",
+      "question": "Will the All-In podcast rank 16-30 on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "266_e169bc35-fd44-5a57-9443-cff17fedce7d.json",
+      "probability": 0.2,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e1923045-7b46-595a-84b9-94a68d2652e6",
+      "question": "Will Elon Musk's net worth be $500 billion or more on March 31, 2025, according to Forbes?",
+      "file": "267_e1923045-7b46-595a-84b9-94a68d2652e6.json",
+      "probability": 0.1,
+      "search_result_count": 13,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e2a4d3d3-2fbd-55e3-b9af-d303899460d3",
+      "question": "Will the global surface air temperature on April 1, 2025 be between 14.3°C and 14.7°C (inclusive)?",
+      "file": "268_e2a4d3d3-2fbd-55e3-b9af-d303899460d3.json",
+      "probability": 0.6,
+      "search_result_count": 3,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e3b43090-a4a1-54c9-a430-b5d9e478a03b",
+      "question": "Will Volodymyr Zelenskyy meet with Donald Trump again before April 7, 2025?",
+      "file": "269_e3b43090-a4a1-54c9-a430-b5d9e478a03b.json",
+      "probability": 0.1,
+      "search_result_count": 17,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e3ff5a1d-e5be-52e6-b900-f3886d7f59f8",
+      "question": "Will a Max show win the 2025 GLAAD Media Award for Outstanding Comedy Series?",
+      "file": "270_e3ff5a1d-e5be-52e6-b900-f3886d7f59f8.json",
+      "probability": 0.6,
+      "search_result_count": 13,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e5c7dd7c-7b95-5006-a736-56c51cffff95",
+      "question": "Will the average allergy index for Atlanta, Georgia be between 4.0 and 8.0 (inclusive) for the 14-day period ending March 30, 2025?",
+      "file": "271_e5c7dd7c-7b95-5006-a736-56c51cffff95.json",
+      "probability": 0.3,
+      "search_result_count": 18,
+      "extracted_fact_count": 1,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e5e417e2-6833-50ec-ae5b-dd40ffa4fda6",
+      "question": "Will the number of active US drilling rigs be 580 to 584 on March 28, 2025?",
+      "file": "272_e5e417e2-6833-50ec-ae5b-dd40ffa4fda6.json",
+      "probability": 0.1,
+      "search_result_count": 16,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e64951e1-54d1-5eee-8d6d-f4db86276b60",
+      "question": "Will the All-In podcast rank 51st or lower on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "273_e64951e1-54d1-5eee-8d6d-f4db86276b60.json",
+      "probability": 0.7,
+      "search_result_count": 16,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e69aef75-6c41-5939-8b2f-c7c32489866e",
+      "question": "Will the Joe Rogan Experience be ranked 5th or lower on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "274_e69aef75-6c41-5939-8b2f-c7c32489866e.json",
+      "probability": 0.4,
+      "search_result_count": 18,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "e974f63c-9ab6-5f7c-827f-d3ab442b5d08",
+      "question": "Will either metac-GPT4o or metac-o1 achieve a rank in the top 10 participants in the Q1 2025 Quarterly Cup?",
+      "file": "275_e974f63c-9ab6-5f7c-827f-d3ab442b5d08.json",
+      "probability": 0.25,
+      "search_result_count": 22,
+      "extracted_fact_count": 21,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "eb3d2891-117b-5d28-a80f-3311d1e6205e",
+      "question": "Will the ratio of the price of 1 bitcoin to 1 troy ounce of gold be greater than 38.0 on March 30, 2025?",
+      "file": "276_eb3d2891-117b-5d28-a80f-3311d1e6205e.json",
+      "probability": 0.2,
+      "search_result_count": 14,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "eb89b670-d101-5796-9be0-59ae06fbeee6",
+      "question": "Will Donald Trump say \"AI\" or \"artificial intelligence\" in an address before a joint session of the US Congress on March 4, 2025?",
+      "file": "277_eb89b670-d101-5796-9be0-59ae06fbeee6.json",
+      "probability": 0.6,
+      "search_result_count": 6,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ed607da6-cd86-5383-a45c-3b7d7898eed4",
+      "question": "Will the ratio of the price of 1 bitcoin to 1 troy ounce of gold be less than 32.0 on March 30, 2025?",
+      "file": "278_ed607da6-cd86-5383-a45c-3b7d7898eed4.json",
+      "probability": 0.65,
+      "search_result_count": 11,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ed69949c-b171-57e3-ae42-7ec4709b27ff",
+      "question": "Will the IMDb rating of Severance's second season finale be less than 7.5?",
+      "file": "279_ed69949c-b171-57e3-ae42-7ec4709b27ff.json",
+      "probability": 0.1,
+      "search_result_count": 13,
+      "extracted_fact_count": 11,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "edad36ea-515b-5db4-a7ec-efc66360d96d",
+      "question": "Will someone else be ranked 2nd on the Forbes Real-Time Billionaires List on March 29, 2025?",
+      "file": "280_edad36ea-515b-5db4-a7ec-efc66360d96d.json",
+      "probability": 0.4,
+      "search_result_count": 16,
+      "extracted_fact_count": 5,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ef4ef836-120d-5777-9db5-ebc6b9d3ae4c",
+      "question": "Will the \"datascience\" subreddit have between 2,685,000 and 2,750,000 subscribers on March 30, 2025?",
+      "file": "281_ef4ef836-120d-5777-9db5-ebc6b9d3ae4c.json",
+      "probability": 0.65,
+      "search_result_count": 15,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "efb85783-0fdc-505c-9aff-5b7fd4db6cea",
+      "question": "Before April 1, 2025, will Anthropic announce on the news section of its website that it is planning an IPO?",
+      "file": "282_efb85783-0fdc-505c-9aff-5b7fd4db6cea.json",
+      "probability": 0.1,
+      "search_result_count": 12,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "efeaa633-e4b9-57ab-b834-d9ae055a754f",
+      "question": "Will the highest average win rate shown at the Chatbot Arena LLM Leaderboard be greater than 0.70 on March 31, 2025?",
+      "file": "283_efeaa633-e4b9-57ab-b834-d9ae055a754f.json",
+      "probability": 0.75,
+      "search_result_count": 20,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f0ca12e9-e84d-5140-8153-01dc1714248c",
+      "question": "Will the number of lawsuits filed against the Trump Administration according to the JustSecurity tracker be greater than or equal to 51 and less than or equal to 70 on March 31, 2025?",
+      "file": "284_f0ca12e9-e84d-5140-8153-01dc1714248c.json",
+      "probability": 0.0,
+      "search_result_count": 16,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f0edbfe5-faf0-5da9-b8b8-06b1b41e7796",
+      "question": "Will there be 5 or more artists in the top 10 of the Billboard Artist 100 in the last week of March who are new to the top 10 that week?",
+      "file": "285_f0edbfe5-faf0-5da9-b8b8-06b1b41e7796.json",
+      "probability": 0.01,
+      "search_result_count": 15,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f13a2388-3e72-55db-b2b3-888eb93fdcc7",
+      "question": "Will Donald Trump sign fewer than 60 executive orders in February and March 2025?",
+      "file": "286_f13a2388-3e72-55db-b2b3-888eb93fdcc7.json",
+      "probability": 0.9,
+      "search_result_count": 21,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f18fb6d9-96b6-5e70-af56-8d5c12209e13",
+      "question": "Will a Netflix show win the 2025 GLAAD Media Award for Outstanding New Series?",
+      "file": "287_f18fb6d9-96b6-5e70-af56-8d5c12209e13.json",
+      "probability": 0.6,
+      "search_result_count": 13,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3",
+      "question": "Will Mike Johnson cease to be Speaker of the US House of Representatives before April 1, 2025?",
+      "file": "288_f1a967e6-b3e7-5ea1-b8fa-9eab7e23e6c3.json",
+      "probability": 0.4,
+      "search_result_count": 8,
+      "extracted_fact_count": 10,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f1e54feb-94e4-57e3-b89f-aa72d3c8a3cc",
+      "question": "Will the Joe Rogan Experience be ranked 1st on the Spotify Podcast Charts on March 31, 2025?",
+      "file": "289_f1e54feb-94e4-57e3-b89f-aa72d3c8a3cc.json",
+      "probability": 0.15,
+      "search_result_count": 13,
+      "extracted_fact_count": 12,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f326304d-95f5-5f43-821c-1ecddda4c38f",
+      "question": "Will Elon Musk be ranked 2nd on the Forbes Real-Time Billionaires List on March 29, 2025?",
+      "file": "290_f326304d-95f5-5f43-821c-1ecddda4c38f.json",
+      "probability": 0.05,
+      "search_result_count": 19,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f465c06c-79ce-5f10-9650-2127d8923df1",
+      "question": "Before April 1, 2025, will Perplexity announce that it is planning an IPO?",
+      "file": "291_f465c06c-79ce-5f10-9650-2127d8923df1.json",
+      "probability": 0.1,
+      "search_result_count": 7,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f50c3feb-da7f-5370-bc5f-6b24631e0516",
+      "question": "Will Love Lies Bleeding win the 2025 GLAAD Media Award for Outstanding Film -- Wide Release?",
+      "file": "292_f50c3feb-da7f-5370-bc5f-6b24631e0516.json",
+      "probability": 0.35,
+      "search_result_count": 16,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f9161501-6334-561e-8bf0-bc7c212463d1",
+      "question": "Will The New York Times Daily be ranked higher than its competitor on Spotify's podcast charts on March 31, 2025?",
+      "file": "293_f9161501-6334-561e-8bf0-bc7c212463d1.json",
+      "probability": 0.65,
+      "search_result_count": 16,
+      "extracted_fact_count": 22,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "f9321306-29cd-5f46-ba79-46227cc6a79b",
+      "question": "Will Donald Trump say \"Trudeau\" in an address before a joint session of the US Congress on March 4, 2025",
+      "file": "294_f9321306-29cd-5f46-ba79-46227cc6a79b.json",
+      "probability": 0.4,
+      "search_result_count": 13,
+      "extracted_fact_count": 25,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "fc810748-7015-58b1-b134-747d15ef1a7f",
+      "question": "Will Texas have 15.0 million or more residents living in drought on February 28, 2025?",
+      "file": "295_fc810748-7015-58b1-b134-747d15ef1a7f.json",
+      "probability": 0.75,
+      "search_result_count": 22,
+      "extracted_fact_count": 20,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "fd14feda-e55e-5c1c-a1f1-ccfa0a64cd0a",
+      "question": "Will the number of confirmed cases in the Texas measles outbreak be between 250 and 500 (inclusive) by April 7, 2025?",
+      "file": "296_fd14feda-e55e-5c1c-a1f1-ccfa0a64cd0a.json",
+      "probability": 0.7,
+      "search_result_count": 17,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "fd33d481-c748-575b-8ef6-6367762efd6f",
+      "question": "Will either metac-GPT4o or metac-o1 finish with a rank of 26 or lower in the Q1 2025 Quarterly Cup?",
+      "file": "297_fd33d481-c748-575b-8ef6-6367762efd6f.json",
+      "probability": 0.1,
+      "search_result_count": 22,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "ffbe9330-c251-5085-ab6e-219429a67b39",
+      "question": "Will the Dallas Mavericks have more than 4.8 million Instagram followers on March 30, 2025?",
+      "file": "298_ffbe9330-c251-5085-ab6e-219429a67b39.json",
+      "probability": 0.2,
+      "search_result_count": 12,
+      "extracted_fact_count": 0,
+      "fetched_url_content_count": 0
+    },
+    {
+      "question_id": "fffbb636-6598-5a91-83fa-474b0e862228",
+      "question": "Will NVIDIA's stock closing price be between $130.00 and $150.00 on March 28, 2025?",
+      "file": "299_fffbb636-6598-5a91-83fa-474b0e862228.json",
+      "probability": 0.15,
+      "search_result_count": 18,
+      "extracted_fact_count": 15,
+      "fetched_url_content_count": 0
+    }
+  ]
+}

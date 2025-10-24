@@ -1,0 +1,439 @@
+{
+  "question_id": "2584a6ce-3886-5966-8e10-d05f005faaea",
+  "question": "Will OpenAI publicly release the full o3 model before March 28, 2025?",
+  "probability": 0.05,
+  "reasoning": "Based on the information gathered, OpenAI has announced that it is restructuring its AI roadmap to focus on GPT-5, consolidating its efforts around this model while scrapping the previously planned o3 standalone release. This strategic shift aims to integrate multiple capabilities into a single model, thereby simplifying product offerings and enhancing user experience. Given this announcement, it is highly unlikely that OpenAI will release the full o3 model before March 28, 2025.\n\nFINAL PROBABILITY: 0.05",
+  "search_results": [
+    {
+      "title": "Model Release Notes | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "content": "We’re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science."
+    },
+    {
+      "title": "Will OpenAI publicly release the full o3 model before March 28, 2025?",
+      "url": "https://www.metaculus.com/questions/34454/openai-releases-full-o3-model-before-march-28-2025/",
+      "content": "Will OpenAI publicly release the full o3 model before March 28, 2025? The question was opened on Jan 30, 2025, and closes Mar 27, 2025..."
+    },
+    {
+      "title": "OpenAI News | OpenAI",
+      "url": "https://openai.com/news/",
+      "content": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity."
+    },
+    {
+      "title": "ChatGPT — Release Notes | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "content": "February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations."
+    },
+    {
+      "title": "ChatGPT — Release Notes | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "content": "February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations."
+    },
+    {
+      "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5 - InfoQ",
+      "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "content": "OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release."
+    },
+    {
+      "title": "Model Release Notes | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "content": "Introducing OpenAI o3-mini (January 31, 2025) - our newest cost-efficient reasoning model optimized for coding, math, and science. It offers adjustable reasoning efforts and works with search..."
+    },
+    {
+      "title": "ChatGPT — Release Notes | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "content": "February 21, 2025: Performance improvements: Improved model header loading behavior. Conversation history and GPTs show up faster. Bug fix for logged-out users..."
+    },
+    {
+      "title": "OpenAI News | OpenAI",
+      "url": "https://openai.com/news/",
+      "content": "Sharing the latest Model Spec. Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity."
+    },
+    {
+      "title": "OpenAI o3-mini | OpenAI",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "content": "We’re releasing OpenAI o3‑mini, the newest, most cost-efficient model in our reasoning series, available in both ChatGPT and the API today. This powerful and fast model advances the boundaries of what small models can achieve..."
+    },
+    {
+      "title": "OpenAI Research | Release | OpenAI",
+      "url": "https://openai.com/research/index/release/",
+      "content": "OpenAI o3-mini: Pushing the frontier of cost-effective reasoning. OpenAI o1-mini: Advancing cost-efficient reasoning. Introducing OpenAI o1, a new large language model trained with reinforcement learning..."
+    },
+    {
+      "title": "Day 12 of Shipmas: New frontier models o3 and o3-mini announcement - Community - OpenAI Developer Community",
+      "url": "https://community.openai.com/t/day-12-of-shipmas-new-frontier-models-o3-and-o3-mini-announcement/1061818",
+      "content": "OpenAI is currently prepping the next generation of its o1 reasoning model, and due to a potential copyright or trademark conflict with O2, OpenAI has considered calling the next update “o3” and skipping “o2.”"
+    },
+    {
+      "title": "Model Release Notes | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "content": "We’re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming."
+    },
+    {
+      "title": "Model Release Notes | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "content": "We’re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming."
+    },
+    {
+      "title": "OpenAI o3 Breakthrough High Score on ARC-AGI-Pub",
+      "url": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+      "content": "OpenAI's new o3 system has scored a breakthrough 75.7% on the ARC-AGI public leaderboard, showing novel task adaptation ability never seen before in GPT-family models."
+    },
+    {
+      "title": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "content": "---\ntitle: OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\nauthor: Andrew Hoblitzell\nurl: https://www.infoq.com/news/2025/02/openai-new-gpts/\nhostname: infoq.com\ndescription: OpenAI is restructuring its AI strategy to focus solely on GPT-5, consolidating capabilities like reasoning, voice synthesis, and deep research into one unified model. This shift aims to simplify product offerings and enhance user experience, with tiered subscription levels for varying intelligence. As competition heats up, the success of GPT-5 will be pivotal for OpenAI’s future.\nsitename: InfoQ\ndate: 2025-02-18\ntags: ['openai new gpts,Development,AI, ML & Data Engineering,OpenAI,Software Development,Artificial Intelligence,']\n---\nEarlier in the week, [OpenAI](http://openai.com) announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\n\nInitially, OpenAI had intended to roll out GPT-4.5 (code-named Orion) as an intermediary update, but internal reports suggested that its improvements over GPT-4 were marginal. Instead, CEO [Sam Altman](https://x.com/sama) confirmed that OpenAI will deliver a “unified intelligence” model with GPT-5, eliminating the need for users to select different versions within ChatGPT.\n\nAltman has said GPT-5 will be designed to integrate multiple capabilities—reasoning, voice synthesis, search, and deep research—into a single model. OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task. This move follows OpenAI’s increasing focus on reasoning models, which self-verify outputs for greater reliability at the cost of additional inference time. While OpenAI pioneered this approach with o1, competitors like DeepSeek have quickly closed the gap, prompting OpenAI to accelerate its release schedule to maintain its lead.\n\n\"We want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings... We want AI to just work for you; we realize how complicated our model and product offerings have gotten.\" -\n\n[Sam Altman]\n\nAltman outlined OpenAI’s planned subscription tiers for GPT-5, where free users will have access to a standard intelligence level, while ChatGPT Plus and Pro subscribers will receive progressively more advanced reasoning capabilities. This marks a shift in OpenAI’s monetization strategy, movi…\n\n[Truncated preview: showing 349 words out of ~629. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+      "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "fact": "OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release."
+    },
+    {
+      "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+      "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "fact": "OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task."
+    },
+    {
+      "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+      "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "fact": "Sam Altman confirmed that OpenAI will deliver a 'unified intelligence' model with GPT-5, eliminating the need for users to select different versions within ChatGPT."
+    },
+    {
+      "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+      "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "fact": "OpenAI's shift to focus on GPT-5 includes integrating multiple capabilities—reasoning, voice synthesis, search, and deep research—into a single model."
+    },
+    {
+      "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+      "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+      "fact": "The competition from open-source AI models and other companies like Anthropic is influencing OpenAI's strategy to merge its reasoning and traditional models into a single AI."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 1.0,
+  "brier_score": 0.0025000000000000005,
+  "weighted_brier_score": 0.0025000000000000005,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "2584a6ce-3886-5966-8e10-d05f005faaea",
+        "queries": [
+          "OpenAI o3 model release news March 2025",
+          "site:openai.com o3 model release update",
+          "OpenAI o3 model Twitter update March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"2584a6ce-3886-5966-8e10-d05f005faaea\", \"queries\": [\"OpenAI o3 model release news March 2025\", \"site:openai.com o3 model release update\", \"OpenAI o3 model Twitter update March 2025\"]}",
+      "tool_call_id": "call_FNcA0hwSh88o6jn4bd2rvXDy"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "OpenAI o3 model release news March 2025",
+        "results": [
+          {
+            "title": "Model Release Notes | OpenAI Help Center",
+            "link": "https://help.openai.com/en/articles/9624314-model-release-notes",
+            "position": 1,
+            "snippet": "We’re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science.",
+            "date": null
+          },
+          {
+            "title": "Will OpenAI publicly release the full o3 model before March 28, 2025?",
+            "link": "https://www.metaculus.com/questions/34454/openai-releases-full-o3-model-before-march-28-2025/",
+            "position": 2,
+            "snippet": "Will OpenAI publicly release the full o3 model before March 28, 2025? The question was opened on Jan 30, 2025, and closes Mar 27, 2025...",
+            "date": null
+          },
+          {
+            "title": "OpenAI News | OpenAI",
+            "link": "https://openai.com/news/",
+            "position": 4,
+            "snippet": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.",
+            "date": null
+          },
+          {
+            "title": "ChatGPT — Release Notes | OpenAI Help Center",
+            "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+            "position": 5,
+            "snippet": "February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations.",
+            "date": null
+          },
+          {
+            "title": "ChatGPT — Release Notes | OpenAI Help Center",
+            "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+            "position": 1,
+            "snippet": "February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations.",
+            "date": null
+          },
+          {
+            "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5 - InfoQ",
+            "link": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+            "position": 5,
+            "snippet": "OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"OpenAI o3 model release news March 2025\", \"results\": [{\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 1, \"snippet\": \"We\\u2019re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science.\", \"date\": null}, {\"title\": \"Will OpenAI publicly release the full o3 model before March 28, 2025?\", \"link\": \"https://www.metaculus.com/questions/34454/openai-releases-full-o3-model-before-march-28-2025/\", \"position\": 2, \"snippet\": \"Will OpenAI publicly release the full o3 model before March 28, 2025? The question was opened on Jan 30, 2025, and closes Mar 27, 2025...\", \"date\": null}, {\"title\": \"OpenAI News | OpenAI\", \"link\": \"https://openai.com/news/\", \"position\": 4, \"snippet\": \"Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.\", \"date\": null}, {\"title\": \"ChatGPT \\u2014 Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\", \"position\": 5, \"snippet\": \"February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations.\", \"date\": null}, {\"title\": \"ChatGPT \\u2014 Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\", \"position\": 1, \"snippet\": \"February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations.\", \"date\": null}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5 - InfoQ\", \"link\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"position\": 5, \"snippet\": \"OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\", \"date\": null}]}",
+      "tool_call_id": "call_GpTXXuk3HjOOKbcmn96hDp8h"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "site:openai.com o3 model release update",
+        "results": [
+          {
+            "title": "Model Release Notes | OpenAI Help Center",
+            "link": "https://help.openai.com/en/articles/9624314-model-release-notes",
+            "position": 1,
+            "snippet": "Introducing OpenAI o3-mini (January 31, 2025) - our newest cost-efficient reasoning model optimized for coding, math, and science. It offers adjustable reasoning efforts and works with search...",
+            "date": null
+          },
+          {
+            "title": "ChatGPT — Release Notes | OpenAI Help Center",
+            "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+            "position": 3,
+            "snippet": "February 21, 2025: Performance improvements: Improved model header loading behavior. Conversation history and GPTs show up faster. Bug fix for logged-out users...",
+            "date": null
+          },
+          {
+            "title": "OpenAI News | OpenAI",
+            "link": "https://openai.com/news/",
+            "position": 1,
+            "snippet": "Sharing the latest Model Spec. Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.",
+            "date": null
+          },
+          {
+            "title": "OpenAI o3-mini | OpenAI",
+            "link": "https://openai.com/index/openai-o3-mini/",
+            "position": 2,
+            "snippet": "We’re releasing OpenAI o3‑mini, the newest, most cost-efficient model in our reasoning series, available in both ChatGPT and the API today. This powerful and fast model advances the boundaries of what small models can achieve...",
+            "date": null
+          },
+          {
+            "title": "OpenAI Research | Release | OpenAI",
+            "link": "https://openai.com/research/index/release/",
+            "position": 3,
+            "snippet": "OpenAI o3-mini: Pushing the frontier of cost-effective reasoning. OpenAI o1-mini: Advancing cost-efficient reasoning. Introducing OpenAI o1, a new large language model trained with reinforcement learning...",
+            "date": null
+          },
+          {
+            "title": "Day 12 of Shipmas: New frontier models o3 and o3-mini announcement - Community - OpenAI Developer Community",
+            "link": "https://community.openai.com/t/day-12-of-shipmas-new-frontier-models-o3-and-o3-mini-announcement/1061818",
+            "position": 5,
+            "snippet": "OpenAI is currently prepping the next generation of its o1 reasoning model, and due to a potential copyright or trademark conflict with O2, OpenAI has considered calling the next update “o3” and skipping “o2.”",
+            "date": "2024-12-19T21:00:52Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"site:openai.com o3 model release update\", \"results\": [{\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 1, \"snippet\": \"Introducing OpenAI o3-mini (January 31, 2025) - our newest cost-efficient reasoning model optimized for coding, math, and science. It offers adjustable reasoning efforts and works with search...\", \"date\": null}, {\"title\": \"ChatGPT \\u2014 Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\", \"position\": 3, \"snippet\": \"February 21, 2025: Performance improvements: Improved model header loading behavior. Conversation history and GPTs show up faster. Bug fix for logged-out users...\", \"date\": null}, {\"title\": \"OpenAI News | OpenAI\", \"link\": \"https://openai.com/news/\", \"position\": 1, \"snippet\": \"Sharing the latest Model Spec. Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.\", \"date\": null}, {\"title\": \"OpenAI o3-mini | OpenAI\", \"link\": \"https://openai.com/index/openai-o3-mini/\", \"position\": 2, \"snippet\": \"We\\u2019re releasing OpenAI o3\\u2011mini, the newest, most cost-efficient model in our reasoning series, available in both ChatGPT and the API today. This powerful and fast model advances the boundaries of what small models can achieve...\", \"date\": null}, {\"title\": \"OpenAI Research | Release | OpenAI\", \"link\": \"https://openai.com/research/index/release/\", \"position\": 3, \"snippet\": \"OpenAI o3-mini: Pushing the frontier of cost-effective reasoning. OpenAI o1-mini: Advancing cost-efficient reasoning. Introducing OpenAI o1, a new large language model trained with reinforcement learning...\", \"date\": null}, {\"title\": \"Day 12 of Shipmas: New frontier models o3 and o3-mini announcement - Community - OpenAI Developer Community\", \"link\": \"https://community.openai.com/t/day-12-of-shipmas-new-frontier-models-o3-and-o3-mini-announcement/1061818\", \"position\": 5, \"snippet\": \"OpenAI is currently prepping the next generation of its o1 reasoning model, and due to a potential copyright or trademark conflict with O2, OpenAI has considered calling the next update \\u201co3\\u201d and skipping \\u201co2.\\u201d\", \"date\": \"2024-12-19T21:00:52Z\"}]}",
+      "tool_call_id": "call_hDK8jos88Yhu758TrFE1wkwR"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "OpenAI o3 model Twitter update March 2025",
+        "results": [
+          {
+            "title": "Model Release Notes | OpenAI Help Center",
+            "link": "https://help.openai.com/en/articles/9624314-model-release-notes",
+            "position": 5,
+            "snippet": "We’re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming.",
+            "date": null
+          },
+          {
+            "title": "Model Release Notes | OpenAI Help Center",
+            "link": "https://help.openai.com/en/articles/9624314-model-release-notes",
+            "position": 1,
+            "snippet": "We’re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming.",
+            "date": null
+          },
+          {
+            "title": "OpenAI o3 Breakthrough High Score on ARC-AGI-Pub",
+            "link": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+            "position": 1,
+            "snippet": "OpenAI's new o3 system has scored a breakthrough 75.7% on the ARC-AGI public leaderboard, showing novel task adaptation ability never seen before in GPT-family models.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"OpenAI o3 model Twitter update March 2025\", \"results\": [{\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 5, \"snippet\": \"We\\u2019re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming.\", \"date\": null}, {\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 1, \"snippet\": \"We\\u2019re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming.\", \"date\": null}, {\"title\": \"OpenAI o3 Breakthrough High Score on ARC-AGI-Pub\", \"link\": \"https://arcprize.org/blog/oai-o3-pub-breakthrough\", \"position\": 1, \"snippet\": \"OpenAI's new o3 system has scored a breakthrough 75.7% on the ARC-AGI public leaderboard, showing novel task adaptation ability never seen before in GPT-family models.\", \"date\": null}]}",
+      "tool_call_id": "call_f08x0rnh0hgPza0iExStojeG"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+        "snippet": "---\ntitle: OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\nauthor: Andrew Hoblitzell\nurl: https://www.infoq.com/news/2025/02/openai-new-gpts/\nhostname: infoq.com\ndescription: OpenAI is restructuring its AI strategy to focus solely on GPT-5, consolidating capabilities like reasoning, voice synthesis, and deep research into one unified model. This shift aims to simplify product offerings and enhance user experience, with tiered subscription levels for varying intelligence. As competition heats up, the success of GPT-5 will be pivotal for OpenAI’s future.\nsitename: InfoQ\ndate: 2025-02-18\ntags: ['openai new gpts,Development,AI, ML & Data Engineering,OpenAI,Software Development,Artificial Intelligence,']\n---\nEarlier in the week, [OpenAI](http://openai.com) announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\n\nInitially, OpenAI had intended to roll out GPT-4.5 (code-named Orion) as an intermediary update, but internal reports suggested that its improvements over GPT-4 were marginal. Instead, CEO [Sam Altman](https://x.com/sama) confirmed that OpenAI will deliver a “unified intelligence” model with GPT-5, eliminating the need for users to select different versions within ChatGPT.\n\nAltman has said GPT-5 will be designed to integrate multiple capabilities—reasoning, voice synthesis, search, and deep research—into a single model. OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task. This move follows OpenAI’s increasing focus on reasoning models, which self-verify outputs for greater reliability at the cost of additional inference time. While OpenAI pioneered this approach with o1, competitors like DeepSeek have quickly closed the gap, prompting OpenAI to accelerate its release schedule to maintain its lead.\n\n\"We want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings... We want AI to just work for you; we realize how complicated our model and product offerings have gotten.\" -\n\n[Sam Altman]\n\nAltman outlined OpenAI’s planned subscription tiers for GPT-5, where free users will have access to a standard intelligence level, while ChatGPT Plus and Pro subscribers will receive progressively more advanced reasoning capabilities. This marks a shift in OpenAI’s monetization strategy, movi…\n\n[Truncated preview: showing 349 words out of ~629. Full content available via `btf_extract_evidence`.]",
+        "word_count": 629,
+        "snippet_word_count": 349,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-02T18:51:00.111622",
+        "date_cutoff_end": "2025-03-03T18:51:00.111622",
+        "cached_at": "2025-10-24T03:46:13.462423"
+      },
+      "raw": "{\"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"snippet\": \"---\\ntitle: OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\\nauthor: Andrew Hoblitzell\\nurl: https://www.infoq.com/news/2025/02/openai-new-gpts/\\nhostname: infoq.com\\ndescription: OpenAI is restructuring its AI strategy to focus solely on GPT-5, consolidating capabilities like reasoning, voice synthesis, and deep research into one unified model. This shift aims to simplify product offerings and enhance user experience, with tiered subscription levels for varying intelligence. As competition heats up, the success of GPT-5 will be pivotal for OpenAI\\u2019s future.\\nsitename: InfoQ\\ndate: 2025-02-18\\ntags: ['openai new gpts,Development,AI, ML & Data Engineering,OpenAI,Software Development,Artificial Intelligence,']\\n---\\nEarlier in the week, [OpenAI](http://openai.com) announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\\n\\nInitially, OpenAI had intended to roll out GPT-4.5 (code-named Orion) as an intermediary update, but internal reports suggested that its improvements over GPT-4 were marginal. Instead, CEO [Sam Altman](https://x.com/sama) confirmed that OpenAI will deliver a \\u201cunified intelligence\\u201d model with GPT-5, eliminating the need for users to select different versions within ChatGPT.\\n\\nAltman has said GPT-5 will be designed to integrate multiple capabilities\\u2014reasoning, voice synthesis, search, and deep research\\u2014into a single model. OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task. This move follows OpenAI\\u2019s increasing focus on reasoning models, which self-verify outputs for greater reliability at the cost of additional inference time. While OpenAI pioneered this approach with o1, competitors like DeepSeek have quickly closed the gap, prompting OpenAI to accelerate its release schedule to maintain its lead.\\n\\n\\\"We want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings... We want AI to just work for you; we realize how complicated our model and product offerings have gotten.\\\" -\\n\\n[Sam Altman]\\n\\nAltman outlined OpenAI\\u2019s planned subscription tiers for GPT-5, where free users will have access to a standard intelligence level, while ChatGPT Plus and Pro subscribers will receive progressively more advanced reasoning capabilities. This marks a shift in OpenAI\\u2019s monetization strategy, movi\\u2026\\n\\n[Truncated preview: showing 349 words out of ~629. Full content available via `btf_extract_evidence`.]\", \"word_count\": 629, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-02T18:51:00.111622\", \"date_cutoff_end\": \"2025-03-03T18:51:00.111622\", \"cached_at\": \"2025-10-24T03:46:13.462423\"}",
+      "tool_call_id": "call_bu6crteGp5n9bSOkrvNtYvUQ"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "2584a6ce-3886-5966-8e10-d05f005faaea",
+        "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+        "facts": [
+          {
+            "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+            "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+            "fact": "OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release."
+          },
+          {
+            "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+            "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+            "fact": "OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task."
+          },
+          {
+            "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+            "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+            "fact": "Sam Altman confirmed that OpenAI will deliver a 'unified intelligence' model with GPT-5, eliminating the need for users to select different versions within ChatGPT."
+          },
+          {
+            "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+            "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+            "fact": "OpenAI's shift to focus on GPT-5 includes integrating multiple capabilities—reasoning, voice synthesis, search, and deep research—into a single model."
+          },
+          {
+            "title": "OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5",
+            "url": "https://www.infoq.com/news/2025/02/openai-new-gpts/",
+            "fact": "The competition from open-source AI models and other companies like Anthropic is influencing OpenAI's strategy to merge its reasoning and traditional models into a single AI."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"2584a6ce-3886-5966-8e10-d05f005faaea\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"facts\": [{\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"Sam Altman confirmed that OpenAI will deliver a 'unified intelligence' model with GPT-5, eliminating the need for users to select different versions within ChatGPT.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"OpenAI's shift to focus on GPT-5 includes integrating multiple capabilities\\u2014reasoning, voice synthesis, search, and deep research\\u2014into a single model.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"The competition from open-source AI models and other companies like Anthropic is influencing OpenAI's strategy to merge its reasoning and traditional models into a single AI.\"}]}",
+      "tool_call_id": "call_qq25WtvdrlTgBa4tJBXYtB2u"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will OpenAI publicly release the full o3 model before March 28, 2025?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nOpenAI announced its forthcoming o3 and o3-mini AI models in a [<u>livestream</u>](https://www.youtube.com/watch?v=SKBG1sqdyIU) on December 20, 2024. Described as a successor to o1 and skipping over o2, purportedly due to [<u>Telefonica’s O2</u>](https://en.wikipedia.org/wiki/O2_\\(UK\\)), OpenAI [<u>described</u>](https://finance.yahoo.com/news/openai-announces-o3-models-175657596.html) o3 as a significant breakthrough in AI reasoning. The model was reported to have significantly outperformed any previous AI system [<u>on coding and research-level math</u>](https://x.com/polynoamial/status/1870172996650053653?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1870172996650053653%7Ctwgr%5E16fa4771724238be9b30de71968a334c68bca7af%7Ctwcon%5Es1_\\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F12%2F20%2Fopenai-announces-new-o3-model%2F), and also [<u>exceeded previous performance</u>](https://arcprize.org/blog/oai-o3-pub-breakthrough) on the [<u>Abstract and Reasoning Corpus for Artificial General Intelligence</u>](https://arcprize.org/arc) (ARC-AGI) challenge by far, even reaching approximately human level. According to ARC-AGI:\n\n> Despite the significant cost per task, these numbers aren't just the result of applying brute force compute to the benchmark. OpenAI's new o3 model represents a significant leap forward in AI's ability to adapt to novel tasks. This is not merely incremental improvement, but a genuine breakthrough, marking a qualitative shift in AI capabilities compared to the prior limitations of LLMs. o3 is a system capable of adapting to tasks it has never encountered before, arguably approaching human-level performance in the ARC-AGI domain.\n>\n> Of course, such generality comes at a steep cost, and wouldn't quite be economical yet: you could pay a human to solve ARC-AGI tasks for roughly \\$5 per task (we know, we did that), while consuming mere cents in energy. Meanwhile o3 requires \\$17-20 per task in the low-compute mode. But cost-performance will likely improve quite dramatically over the next few months and years, so you should plan for these capabilities to become competitive with human work within a fairly short timeline.\n\nOpenAI also announced applicants could [<u>apply</u>](https://openai.com/index/early-access-for-safety-testing/) to help safety test forthcoming advanced models. In the announcement video, OpenAI CEO Sam Altman [<u>said</u>](https://www.youtube.com/live/SKBG1sqdyIU?si=_93eeXULrkrt8K_o\\&t=1293):\n\n> We plan to launch o3-mini around the end of January, and full o3 shortly after that, but . . . the more people can help us safety test the more we can make sure we hit that.\nResolution criteria: This question will resolve as **Yes** if, before March 28, 2025, Eastern Time, OpenAI has made the full version of its announced o3 model publicly available via web interface.\nFine print: * An o3 version will be considered to be the “full” version if it does not have any qualifiers in its name or description that suggest that the version is not the full version.\n* For example “o3-mini” would not count, and neither would a model named “o3-preview” or described in the announcement or model description as a preview or otherwise not yet the full o3. Stated intentions to continue developing and improving the o3 model will **not** on their own result in the model being considered to not yet be the full version of o3.\n* Names or descriptions that suggest a variant form of a “full” version will be sufficient to resolve the question as **Yes**. For example, o3-pro would be sufficient, while different versions with low and high compute times would also count, for example “o3-low” or “o3-high”, so long as Metaculus assesses that their descriptions are compatible with being a variant of o3 full.\n* It is immaterial if o3 is released with limited or restricted reasoning or compute times. For example, if o3 is released in a manner that satisfies these criteria but is only available in “low” compute mode or has similar restrictions, the question will still resolve as **Yes**.\n* In the event OpenAI renames o3 to be something other than o3, this question will still resolve as **Yes** if OpenAI states that the model is the one formerly announced as o3 and all other criteria have been met.\n* Metaculus will defer to statements made by OpenAI. For example, it will be immaterial if there is speculation that a released o3 model does not have the full capabilities described in previous announcements of o3.\n* Releases of other models are immaterial. For example if GPT-5 is released and it is not publicly described by OpenAI as being o3, that will not be sufficient.\n* The model will be considered publicly available via web interface if it is available on a webpage for users to interact and converse with, including if limited only to paid subscribers of a certain payment tier, and all of the following availability criteria also apply:\n* It must be available to users in the United States. Availability in other countries is not required.\n* It must not be subject to an invite-only waitlist, for example invite-only betas or testing periods are not sufficient.\n* In the event of a gradual or phased rollout, or in the event access and signups are disabled due to high demand, the question will resolve as **Yes** if at least two Metaculus admins are able to access o3, on separate accounts, as described in these criteria before the date in question. Metaculus admins will not make excessive effort to check for access or to try to get access (aside from completing any signup or subscription steps needed to access o3), and will simply check periodically whether they can access o3.\n* Rate limits or usage restrictions on the number of messages allowed are immaterial, so long as at least one message and response can be had.\n* Release of o3 via API without being released as a web interface is not sufficient.\npresent_date: 2025-03-02T18:51:00.111622\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_FNcA0hwSh88o6jn4bd2rvXDy",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question_id\":\"1\",\"question\":\"Will OpenAI publicly release the full o3 model before March 28, 2025?\",\"background\":\"OpenAI announced its forthcoming o3 and o3-mini AI models in a livestream on December 20, 2024. Described as a successor to o1 and skipping over o2, purportedly due to Telefonica’s O2, OpenAI described o3 as a significant breakthrough in AI reasoning. The model was reported to have significantly outperformed any previous AI system on coding and research-level math, and also exceeded previous performance on the Abstract and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) challenge by far, even reaching approximately human level.\",\"resolution_criteria\":\"This question will resolve as Yes if, before March 28, 2025, Eastern Time, OpenAI has made the full version of its announced o3 model publicly available via web interface.\",\"fine_print\":\"An o3 version will be considered to be the “full” version if it does not have any qualifiers in its name or description that suggest that the version is not the full version. For example “o3-mini” would not count, and neither would a model named “o3-preview” or described in the announcement or model description as a preview or otherwise not yet the full o3. Stated intentions to continue developing and improving the o3 model will not on their own result in the model being considered to not yet be the full version of o3. Names or descriptions that suggest a variant form of a “full” version will be sufficient to resolve the question as Yes. For example, o3-pro would be sufficient, while different versions with low and high compute times would also count, for example “o3-low” or “o3-high”, so long as Metaculus assesses that their descriptions are compatible with being a variant of o3 full. It is immaterial if o3 is released with limited or restricted reasoning or compute times. For example, if o3 is released in a manner that satisfies these criteria but is only available in “low” compute mode or has similar restrictions, the question will still resolve as Yes. In the event OpenAI renames o3 to be something other than o3, this question will still resolve as Yes if OpenAI states that the model is the one formerly announced as o3 and all other criteria have been met. Metaculus will defer to statements made by OpenAI. For example, it will be immaterial if there is speculation that a released o3 model does not have the full capabilities described in previous announcements of o3. Releases of other models are immaterial. For example if GPT-5 is released and it is not publicly described by OpenAI as being o3, that will not be sufficient. The model will be considered publicly available via web interface if it is available on a webpage for users to interact and converse with, including if limited only to paid subscribers of a certain payment tier, and all of the following availability criteria also apply: It must be available to users in the United States. Availability in other countries is not required. It must not be subject to an invite-only waitlist, for example invite-only betas or testing periods are not sufficient. In the event of a gradual or phased rollout, or in the event access and signups are disabled due to high demand, the question will resolve as Yes if at least two Metaculus admins are able to access o3, on separate accounts, as described in these criteria before the date in question. Metaculus admins will not make excessive effort to check for access or to try to get access (aside from completing any signup or subscription steps needed to access o3), and will simply check periodically whether they can access o3. Rate limits or usage restrictions on the number of messages allowed are immaterial, so long as at least one message and response can be had. Release of o3 via API without being released as a web interface is not sufficient.\",\"present_date\":\"2025-03-02T18:51:00.111622\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2584a6ce-3886-5966-8e10-d05f005faaea\", \"queries\": [\"OpenAI o3 model release news March 2025\", \"site:openai.com o3 model release update\", \"OpenAI o3 model Twitter update March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_FNcA0hwSh88o6jn4bd2rvXDy"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_GpTXXuk3HjOOKbcmn96hDp8h",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"OpenAI o3 model release news March 2025\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_hDK8jos88Yhu758TrFE1wkwR",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"site:openai.com o3 model release update\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_f08x0rnh0hgPza0iExStojeG",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"OpenAI o3 model Twitter update March 2025\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"OpenAI o3 model release news March 2025\", \"results\": [{\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 1, \"snippet\": \"We\\u2019re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science.\", \"date\": null}, {\"title\": \"Will OpenAI publicly release the full o3 model before March 28, 2025?\", \"link\": \"https://www.metaculus.com/questions/34454/openai-releases-full-o3-model-before-march-28-2025/\", \"position\": 2, \"snippet\": \"Will OpenAI publicly release the full o3 model before March 28, 2025? The question was opened on Jan 30, 2025, and closes Mar 27, 2025...\", \"date\": null}, {\"title\": \"OpenAI News | OpenAI\", \"link\": \"https://openai.com/news/\", \"position\": 4, \"snippet\": \"Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.\", \"date\": null}, {\"title\": \"ChatGPT \\u2014 Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\", \"position\": 5, \"snippet\": \"February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations.\", \"date\": null}, {\"title\": \"ChatGPT \\u2014 Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\", \"position\": 1, \"snippet\": \"February 21, 2025: iOS widget, text selection improvements, performance improvements, and bug fixes. February 14, 2025: Set ChatGPT as default search engine in Safari, confirmation dialog for logging out, improved Android conversation parsing performance, iOS performance fixes, and updated launch animations.\", \"date\": null}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5 - InfoQ\", \"link\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"position\": 5, \"snippet\": \"OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_GpTXXuk3HjOOKbcmn96hDp8h"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"site:openai.com o3 model release update\", \"results\": [{\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 1, \"snippet\": \"Introducing OpenAI o3-mini (January 31, 2025) - our newest cost-efficient reasoning model optimized for coding, math, and science. It offers adjustable reasoning efforts and works with search...\", \"date\": null}, {\"title\": \"ChatGPT \\u2014 Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\", \"position\": 3, \"snippet\": \"February 21, 2025: Performance improvements: Improved model header loading behavior. Conversation history and GPTs show up faster. Bug fix for logged-out users...\", \"date\": null}, {\"title\": \"OpenAI News | OpenAI\", \"link\": \"https://openai.com/news/\", \"position\": 1, \"snippet\": \"Sharing the latest Model Spec. Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.\", \"date\": null}, {\"title\": \"OpenAI o3-mini | OpenAI\", \"link\": \"https://openai.com/index/openai-o3-mini/\", \"position\": 2, \"snippet\": \"We\\u2019re releasing OpenAI o3\\u2011mini, the newest, most cost-efficient model in our reasoning series, available in both ChatGPT and the API today. This powerful and fast model advances the boundaries of what small models can achieve...\", \"date\": null}, {\"title\": \"OpenAI Research | Release | OpenAI\", \"link\": \"https://openai.com/research/index/release/\", \"position\": 3, \"snippet\": \"OpenAI o3-mini: Pushing the frontier of cost-effective reasoning. OpenAI o1-mini: Advancing cost-efficient reasoning. Introducing OpenAI o1, a new large language model trained with reinforcement learning...\", \"date\": null}, {\"title\": \"Day 12 of Shipmas: New frontier models o3 and o3-mini announcement - Community - OpenAI Developer Community\", \"link\": \"https://community.openai.com/t/day-12-of-shipmas-new-frontier-models-o3-and-o3-mini-announcement/1061818\", \"position\": 5, \"snippet\": \"OpenAI is currently prepping the next generation of its o1 reasoning model, and due to a potential copyright or trademark conflict with O2, OpenAI has considered calling the next update \\u201co3\\u201d and skipping \\u201co2.\\u201d\", \"date\": \"2024-12-19T21:00:52Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_hDK8jos88Yhu758TrFE1wkwR"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"OpenAI o3 model Twitter update March 2025\", \"results\": [{\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 5, \"snippet\": \"We\\u2019re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming.\", \"date\": null}, {\"title\": \"Model Release Notes | OpenAI Help Center\", \"link\": \"https://help.openai.com/en/articles/9624314-model-release-notes\", \"position\": 1, \"snippet\": \"We\\u2019re excited to release o3-mini, our newest cost-efficient reasoning model optimized for coding, math, and science. On the API, o3-mini supports Structured Outputs, function calling, developer messages, and streaming.\", \"date\": null}, {\"title\": \"OpenAI o3 Breakthrough High Score on ARC-AGI-Pub\", \"link\": \"https://arcprize.org/blog/oai-o3-pub-breakthrough\", \"position\": 1, \"snippet\": \"OpenAI's new o3 system has scored a breakthrough 75.7% on the ARC-AGI public leaderboard, showing novel task adaptation ability never seen before in GPT-family models.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_f08x0rnh0hgPza0iExStojeG"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_bu6crteGp5n9bSOkrvNtYvUQ",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\":\"https://www.infoq.com/news/2025/02/openai-new-gpts/\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"snippet\": \"---\\ntitle: OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\\nauthor: Andrew Hoblitzell\\nurl: https://www.infoq.com/news/2025/02/openai-new-gpts/\\nhostname: infoq.com\\ndescription: OpenAI is restructuring its AI strategy to focus solely on GPT-5, consolidating capabilities like reasoning, voice synthesis, and deep research into one unified model. This shift aims to simplify product offerings and enhance user experience, with tiered subscription levels for varying intelligence. As competition heats up, the success of GPT-5 will be pivotal for OpenAI\\u2019s future.\\nsitename: InfoQ\\ndate: 2025-02-18\\ntags: ['openai new gpts,Development,AI, ML & Data Engineering,OpenAI,Software Development,Artificial Intelligence,']\\n---\\nEarlier in the week, [OpenAI](http://openai.com) announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\\n\\nInitially, OpenAI had intended to roll out GPT-4.5 (code-named Orion) as an intermediary update, but internal reports suggested that its improvements over GPT-4 were marginal. Instead, CEO [Sam Altman](https://x.com/sama) confirmed that OpenAI will deliver a \\u201cunified intelligence\\u201d model with GPT-5, eliminating the need for users to select different versions within ChatGPT.\\n\\nAltman has said GPT-5 will be designed to integrate multiple capabilities\\u2014reasoning, voice synthesis, search, and deep research\\u2014into a single model. OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task. This move follows OpenAI\\u2019s increasing focus on reasoning models, which self-verify outputs for greater reliability at the cost of additional inference time. While OpenAI pioneered this approach with o1, competitors like DeepSeek have quickly closed the gap, prompting OpenAI to accelerate its release schedule to maintain its lead.\\n\\n\\\"We want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings... We want AI to just work for you; we realize how complicated our model and product offerings have gotten.\\\" -\\n\\n[Sam Altman]\\n\\nAltman outlined OpenAI\\u2019s planned subscription tiers for GPT-5, where free users will have access to a standard intelligence level, while ChatGPT Plus and Pro subscribers will receive progressively more advanced reasoning capabilities. This marks a shift in OpenAI\\u2019s monetization strategy, movi\\u2026\\n\\n[Truncated preview: showing 349 words out of ~629. Full content available via `btf_extract_evidence`.]\", \"word_count\": 629, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-02T18:51:00.111622\", \"date_cutoff_end\": \"2025-03-03T18:51:00.111622\", \"cached_at\": \"2025-10-24T03:46:13.462423\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_bu6crteGp5n9bSOkrvNtYvUQ"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_qq25WtvdrlTgBa4tJBXYtB2u",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\":\"https://www.infoq.com/news/2025/02/openai-new-gpts/\",\"content\":\"OpenAI is restructuring its AI strategy to focus solely on GPT-5, consolidating capabilities like reasoning, voice synthesis, and deep research into one unified model. This shift aims to simplify product offerings and enhance user experience, with tiered subscription levels for varying intelligence. As competition heats up, the success of GPT-5 will be pivotal for OpenAI’s future.\\n\\nEarlier in the week, OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\\n\\nInitially, OpenAI had intended to roll out GPT-4.5 (code-named Orion) as an intermediary update, but internal reports suggested that its improvements over GPT-4 were marginal. Instead, CEO Sam Altman confirmed that OpenAI will deliver a “unified intelligence” model with GPT-5, eliminating the need for users to select different versions within ChatGPT.\\n\\nAltman has said GPT-5 will be designed to integrate multiple capabilities—reasoning, voice synthesis, search, and deep research—into a single model. OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task. This move follows OpenAI’s increasing focus on reasoning models, which self-verify outputs for greater reliability at the cost of additional inference time. While OpenAI pioneered this approach with o1, competitors like DeepSeek have quickly closed the gap, prompting OpenAI to accelerate its release schedule to maintain its lead.\\n\\n\\\"We want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings... We want AI to just work for you; we realize how complicated our model and product offerings have gotten.\\\" - Sam Altman\\n\\nAltman outlined OpenAI’s planned subscription tiers for GPT-5, where free users will have access to a standard intelligence level, while ChatGPT Plus and Pro subscribers will receive progressively more advanced reasoning capabilities. This marks a shift in OpenAI’s monetization strategy, moving away from standalone models to a more integrated approach.\",\"title\":\"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\",\"question_id\":\"1\",\"question\":\"Will OpenAI publicly release the full o3 model before March 28, 2025?\",\"background\":\"OpenAI announced its forthcoming o3 and o3-mini AI models in a livestream on December 20, 2024. Described as a successor to o1 and skipping over o2, purportedly due to Telefonica’s O2, OpenAI described o3 as a significant breakthrough in AI reasoning. The model was reported to have significantly outperformed any previous AI system on coding and research-level math, and also exceeded previous performance on the Abstract and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) challenge by far, even reaching approximately human level.\",\"resolution_criteria\":\"This question will resolve as Yes if, before March 28, 2025, Eastern Time, OpenAI has made the full version of its announced o3 model publicly available via web interface.\",\"fine_print\":\"An o3 version will be considered to be the “full” version if it does not have any qualifiers in its name or description that suggest that the version is not the full version. For example “o3-mini” would not count, and neither would a model named “o3-preview” or described in the announcement or model description as a preview or otherwise not yet the full o3. Stated intentions to continue developing and improving the o3 model will not on their own result in the model being considered to not yet be the full version of o3. Names or descriptions that suggest a variant form of a “full” version will be sufficient to resolve the question as Yes. For example, o3-pro would be sufficient, while different versions with low and high compute times would also count, for example “o3-low” or “o3-high”, so long as Metaculus assesses that their descriptions are compatible with being a variant of o3 full. It is immaterial if o3 is released with limited or restricted reasoning or compute times. For example, if o3 is released in a manner that satisfies these criteria but is only available in “low” compute mode or has similar restrictions, the question will still resolve as Yes. In the event OpenAI renames o3 to be something other than o3, this question will still resolve as Yes if OpenAI states that the model is the one formerly announced as o3 and all other criteria have been met. Metaculus will defer to statements made by OpenAI. For example, it will be immaterial if there is speculation that a released o3 model does not have the full capabilities described in previous announcements of o3. Releases of other models are immaterial. For example if GPT-5 is released and it is not publicly described by OpenAI as being o3, that will not be sufficient. The model will be considered publicly available via web interface if it is available on a webpage for users to interact and converse with, including if limited only to paid subscribers of a certain payment tier, and all of the following availability criteria also apply: It must be available to users in the United States. Availability in other countries is not required. It must not be subject to an invite-only waitlist, for example invite-only betas or testing periods are not sufficient. In the event of a gradual or phased rollout, or in the event access and signups are disabled due to high demand, the question will resolve as Yes if at least two Metaculus admins are able to access o3, on separate accounts, as described in these criteria before the date in question. Metaculus admins will not make excessive effort to check for access or to try to get access (aside from completing any signup or subscription steps needed to access o3), and will simply check periodically whether they can access o3. Rate limits or usage restrictions on the number of messages allowed are immaterial, so long as at least one message and response can be had. Release of o3 via API without being released as a web interface is not sufficient.\",\"present_date\":\"2025-03-02T18:51:00.111622\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_facts\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"2584a6ce-3886-5966-8e10-d05f005faaea\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"facts\": [{\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"OpenAI announced it is restructuring its AI roadmap, consolidating its efforts around GPT-5 while scrapping the previously planned o3 standalone release.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"OpenAI aims to streamline its product lineup by removing the current model picker and letting the AI dynamically determine how much computational power is needed for a given task.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"Sam Altman confirmed that OpenAI will deliver a 'unified intelligence' model with GPT-5, eliminating the need for users to select different versions within ChatGPT.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"OpenAI's shift to focus on GPT-5 includes integrating multiple capabilities\\u2014reasoning, voice synthesis, search, and deep research\\u2014into a single model.\"}, {\"title\": \"OpenAI Cancels o3 Release and Announces Roadmap for GPT 4.5, 5\", \"url\": \"https://www.infoq.com/news/2025/02/openai-new-gpts/\", \"fact\": \"The competition from open-source AI models and other companies like Anthropic is influencing OpenAI's strategy to merge its reasoning and traditional models into a single AI.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_qq25WtvdrlTgBa4tJBXYtB2u"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered, OpenAI has announced that it is restructuring its AI roadmap to focus on GPT-5, consolidating its efforts around this model while scrapping the previously planned o3 standalone release. This strategic shift aims to integrate multiple capabilities into a single model, thereby simplifying product offerings and enhancing user experience. Given this announcement, it is highly unlikely that OpenAI will release the full o3 model before March 28, 2025.\n\nFINAL PROBABILITY: 0.05"
+    }
+  ]
+}

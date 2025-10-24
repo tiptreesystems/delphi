@@ -1,0 +1,669 @@
+{
+  "question_id": "64936ce4-39b8-5435-bad1-1278a9d0fdac",
+  "question": "Will the number of active US drilling rigs be 600 or greater on March 28, 2025?",
+  "probability": 0.25,
+  "reasoning": "Based on the gathered evidence, here is the analysis:\n\n1. **Current Rig Count**: As of March 14, 2025, the total number of active US drilling rigs is 592. This count has remained stable for the past two weeks, showing no significant upward trend towards 600 rigs. The rig count has fluctuated slightly in recent weeks but has not reached 600 since early 2024.\n\n2. **Oil Price Forecast**: The Energy Information Administration (EIA) forecasts that the Brent crude oil spot price will rise from about $70 per barrel to $75 per barrel by the third quarter of 2025. This increase might support drilling activities, but the current price is still below the $89 per barrel threshold identified as necessary for substantial drilling increases.\n\n3. **US Energy Policy**: The Trump administration has issued an executive order to encourage energy exploration and production on Federal lands and waters, potentially leading to increased drilling activity. However, the impact of these policy changes might not be immediate enough to affect the rig count by March 28, 2025.\n\n4. **Market Conditions**: Global oil inventories are expected to fall in the second quarter of 2025, which could support higher oil prices in the short term. However, the overall market conditions, including the need to maximize shareholder returns, may still lead producers to throttle new production.\n\nGiven the current rig count, oil price forecasts, and the potential but not immediate impact of policy changes, the probability of the number of active US drilling rigs reaching 600 or greater by March 28, 2025, appears low.\n\nFINAL PROBABILITY: 0.25",
+  "search_results": [
+    {
+      "title": "U.S. Rig Count Data available from Baker Hughes",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "content": "Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100."
+    },
+    {
+      "title": "North America Rig Count | Baker Hughes Rig Count",
+      "url": "https://rigcount.bakerhughes.com/na-rig-count",
+      "content": "Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information."
+    },
+    {
+      "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+      "url": "https://rigcount.bakerhughes.com/",
+      "content": "The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025."
+    },
+    {
+      "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+      "url": "https://bakerhughesrigcount.gcs-web.com/",
+      "content": "The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025..."
+    },
+    {
+      "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+      "url": "https://bakerhughesrigcount.gcs-web.com/",
+      "content": "The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025..."
+    },
+    {
+      "title": "US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts",
+      "url": "https://ycharts.com/indicators/us_gas_rotary_rigs",
+      "content": "The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data."
+    },
+    {
+      "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "content": "We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25."
+    },
+    {
+      "title": "Oil Market Report - March 2025 – Analysis - IEA",
+      "url": "https://www.iea.org/reports/oil-market-report-march-2025",
+      "content": "Oil prices declined by about $7/bbl in February and early March as macro sentiment soured... Brent futures were trading near three-year lows around $70/bbl at the time of writing."
+    },
+    {
+      "title": "The Forecast for Oil Prices | J.P. Morgan Research",
+      "url": "https://www.jpmorgan.com/insights/global-research/commodities/oil-price-forecast",
+      "content": "J.P. Morgan Commodities Research forecasts Brent could average $80/bbl in the fourth quarter of 2024 and $75/bbl in 2025."
+    },
+    {
+      "title": "Crude Oil - Price - Chart - Historical Data - News",
+      "url": "https://tradingeconomics.com/commodity/crude-oil",
+      "content": "Crude Oil is expected to trade at 67.46 USD/BBL by the end of this quarter, according to Trading Economics global macro models and analysts expectations. Crude Oil - values, historical data, forecasts and news - updated on March of 2025."
+    },
+    {
+      "title": "OIL PRICE FORECAST 2025, 2026, 2027 AND 2028 - Long Forecast",
+      "url": "https://longforecast.com/oil-price-today-forecast-2017-2018-2019-2020-2021-brent-wti",
+      "content": "Oil price forecast for March 2025. In the beginning at 73.04 dollars. High 76.20, low 67.17. The averaged price 71.94. At the end of the month 71.35, change for March -2.3%."
+    },
+    {
+      "title": "Unleashing American Energy – The White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "content": "It is thus in the national interest to unleash America’s affordable and reliable energy and natural resources. This will restore American prosperity and rebuild our Nation’s economic and military security."
+    },
+    {
+      "title": "Climate Action Campaign Trump's Climate and Clean Energy Rollback Tracker - Climate Action Campaign",
+      "url": "https://www.actonclimate.com/trumptracker/",
+      "content": "The Trump administration is making significant changes to US energy policy, including canceling environmental justice grants, rescinding regulatory authority, and issuing LNG export authorizations. EPA Administrator Lee Zeldin is recommending striking endangerment findings for climate pollutants."
+    },
+    {
+      "title": "Tracking regulatory changes in the second Trump administration",
+      "url": "https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/",
+      "content": "As the Trump administration returns to office for a second term with renewed deregulatory ambitions, the executive branch and its agencies are implementing significant policy changes..."
+    },
+    {
+      "title": "Trump's 2025 Executive Orders | Holland & Knight",
+      "url": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+      "content": "This executive order puts forth a federal energy policy agenda that seeks to establish American energy dominance through new policy actions and rescinding previous orders..."
+    },
+    {
+      "title": "Federal Register\n       :: \n      Executive Orders",
+      "url": "https://www.federalregister.gov/presidential-documents/executive-orders/donald-trump/2025",
+      "content": "Executive Orders and Memos signed by Donald Trump in January 2025 include EO 14134 through EO 14139, and several memos on January 3, 6, and 14, 2025..."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "content": "---\ntitle: U.S. Rig Count\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\ndate: 2025-03-19\n---\n\n# U.S. Rig Count\n\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\n\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\n\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\n\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\n\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\n\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\n\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\n\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\n\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\n\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\n\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\n\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\n\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\n\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\n\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\n\nData made available by Baker Hughes.\n\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\n\nTotal Rigs 2025\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nOil\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nGas\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nMisc.\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nRatio (%)\n\nOil/Gas/Misc.\n\nOil/Gas/Misc.\n\nTotal Rigs 2024\n\n03/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n0 592\n\nOil (Wk./Wk.)\n+1 (487)\n\nGas (Wk./Wk.)\n-1 (100)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n03/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n-1 592\n\nOil (Wk./Wk.)\n0 (486)\n\nGas (Wk./Wk.)\n-1 (101)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n622\n\n02/28/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+1 593\n\nOil (Wk./Wk.)\n-2 (486)\n\nGas (Wk./Wk.)\n+3 (102)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n02/21/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 592\n\nOil (Wk./Wk.)\n+7 (488)\n\nGas (Wk./Wk.)\n-2 (99)\n\nMisc. (Wk./Wk.)\n-1 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n626\n\n02/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+2 588\n\nOil (Wk./Wk.)\n+1 (481)\n\nGas (Wk./Wk.)\n+1 (101)\n\nMisc. (Wk./Wk.)\n0 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n621\n\n02/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 586\n\nOil (Wk./Wk.)\n+1 (480)\n\nGas (Wk./Wk.)\n+2 (100)\n\nMisc. (Wk./Wk.)\n+1 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 202…\n\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.eia.gov/outlooks/steo/",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "content": "---\ntitle: Short-Term Energy Outlook\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\nsitename: U.S. Energy Information Administration (EIA)\ndate: 2025-03-14\ncategories: ['official energy statistics, data, analysis and forecasting']\n---\n# Forecast overview\n\n**Global oil markets.**Global oil markets will remain relatively tight through the middle of 2025 before gradually shifting to oil inventory builds later this year. We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25. However, we expect oil inventories will build and place downward pressure on crude oil prices in late-2025 and through 2026 when we expect[OPEC+ unwinds production cuts](https://www.opec.org/opec_web/en/press_room/7477.htm)and[non-OPEC oil production grows](https://www.eia.gov/todayinenergy/detail.php?id=64565). As a result, we forecast the Brent crude oil price will fall to an average of $68/b in 2026.\n\n**Natural gas consumption and inventories.**Cold weather during January and February led to more consumption of natural gas and large withdrawals of natural gas from inventories. We now expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average and 6% less natural gas in storage than we had expected last month. We also increased our forecast for overall electricity generation over the next two years. As a result, we now expect the electric power sector will use more than 36 billion cubic feet per day of natural gas on average in 2025 and 2026, 2% and 1% more, respectively, than last month. Overall, we expect natural gas in storage to be 4% lower in 2025 and 3% lower in 2026 compared with what we had forecast last month.\n\n**Natural gas prices.**Because we now expect more consumption of natural gas in 2025 and 2026 and less natural gas in storge, we have raised our forecast Henry Hub spot price. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025, 11% more than last month’s forecast. We expect the annual average price in 2026 will be near $4.50/MMBtu, up 8% from last month.\n\n**Electricity consumption.**We expect total U.S. electricity sales will increase by 3% in 2025, led by strong growth in th…\n\n[Truncated preview: showing 391 words out of ~901. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "content": "---\ntitle: Unleashing American Energy\nurl: https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\nhostname: whitehouse.gov\ndescription: By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.\nsitename: The White House\ndate: 2025-01-21\ncategories: ['Presidential Actions']\n---\nBy the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered:\n\nSection 1. Background** .** America is blessed with an abundance of energy and natural resources that have historically powered our Nation’s economic prosperity. In recent years, burdensome and ideologically motivated regulations have impeded the development of these resources, limited the generation of reliable and affordable electricity, reduced job creation, and inflicted high energy costs upon our citizens. These high energy costs devastate American consumers by driving up the cost of transportation, heating, utilities, farming, and manufacturing, while weakening our national security.\n\nIt is thus in the national interest to unleash America’s affordable and reliable energy and natural resources. This will restore American prosperity —- including for those men and women who have been forgotten by our economy in recent years. It will also rebuild our Nation’s economic and military security, which will deliver peace through strength.\n\nSec. 2. Policy.* *It is the policy of the United States:\n\n(a) to encourage energy exploration and production on Federal lands and waters, including on the Outer Continental Shelf, in order to meet the needs of our citizens and solidify the United States as a global energy leader long into the future;\n\n(b) to establish our position as the leading producer and processor of non-fuel minerals, including rare earth minerals, which will create jobs and prosperity at home, strengthen supply chains for the United States and its allies, and reduce the global influence of malign and adversarial states;\n\n(c) to protect the United States’s economic and national security and military preparedness by ensuring that an abundant supply of reliable energy is readily accessible in every State and territory of the Nation;\n\n(d) to ensure that all regulatory requirements related to energy are grounded in clearly applicable law;\n\n(e) to eliminate the “electric vehicle (EV) mandate” and promote true consumer choice, which is essential…\n\n[Truncated preview: showing 369 words out of ~3511. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "As of March 14, 2025, the total number of active US drilling rigs is 592."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The rig count has remained stable at 592 for the weeks ending March 7 and March 14, 2025."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The rig count increased by 4 rigs to 592 on February 21, 2025, indicating some recent growth."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The rig count has fluctuated slightly in recent weeks, with minor increases and decreases, but has not reached 600 since early 2024."
+    },
+    {
+      "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+      "fact": "The current ratio of oil to gas rigs is 82% oil, 17% gas, and 1% miscellaneous, which may influence future changes in the total rig count."
+    },
+    {
+      "title": "https://www.eia.gov/outlooks/steo/",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "fact": "The EIA forecasts that the Brent crude oil spot price will rise from about $70 per barrel to $75 per barrel by the third quarter of 2025."
+    },
+    {
+      "title": "https://www.eia.gov/outlooks/steo/",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "fact": "Global oil inventories are expected to fall in the second quarter of 2025, which could support higher oil prices in the short term."
+    },
+    {
+      "title": "https://www.eia.gov/outlooks/steo/",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "fact": "The EIA has raised its forecast for the Henry Hub natural gas spot price to average around $4.20 per MMBtu in 2025, which is 11% more than last month's forecast."
+    },
+    {
+      "title": "https://www.eia.gov/outlooks/steo/",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "fact": "U.S. electricity sales are expected to increase by 3% in 2025, driven by strong growth in the residential and commercial sectors."
+    },
+    {
+      "title": "https://www.eia.gov/outlooks/steo/",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "fact": "The EIA expects the U.S. electric power sector to generate 3% more electricity in 2025 compared to 2024, with most of the additional generation supplied by natural gas."
+    },
+    {
+      "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "fact": "The executive order emphasizes encouraging energy exploration and production on Federal lands and waters to solidify the US as a global energy leader."
+    },
+    {
+      "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "fact": "The order mandates a review and potential rescission of regulations that impose undue burdens on domestic energy resource development, including oil and gas."
+    },
+    {
+      "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "fact": "The order calls for expedited and simplified permitting processes for energy projects, which could lead to increased drilling activity."
+    },
+    {
+      "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "fact": "The order revokes several previous executive orders related to climate change and environmental regulations, potentially easing restrictions on drilling."
+    },
+    {
+      "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+      "fact": "The order directs the Secretary of Energy to restart reviews of liquefied natural gas export projects, indicating a broader push for increased energy production."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.3522138890491458,
+  "brier_score": 0.0625,
+  "weighted_brier_score": 0.022013368065571613,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "64936ce4-39b8-5435-bad1-1278a9d0fdac",
+        "queries": [
+          "Baker Hughes US rig count March 2025",
+          "US oil price forecast March 2025",
+          "US energy policy changes 2025 Trump administration"
+        ]
+      },
+      "raw": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"queries\": [\"Baker Hughes US rig count March 2025\", \"US oil price forecast March 2025\", \"US energy policy changes 2025 Trump administration\"]}",
+      "tool_call_id": "call_3xavenlTpKXvq8MypHjsETGb"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Baker Hughes US rig count March 2025",
+        "results": [
+          {
+            "title": "U.S. Rig Count Data available from Baker Hughes",
+            "link": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "position": 1,
+            "snippet": "Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100.",
+            "date": null
+          },
+          {
+            "title": "North America Rig Count | Baker Hughes Rig Count",
+            "link": "https://rigcount.bakerhughes.com/na-rig-count",
+            "position": 2,
+            "snippet": "Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information.",
+            "date": null
+          },
+          {
+            "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+            "link": "https://rigcount.bakerhughes.com/",
+            "position": 3,
+            "snippet": "The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025.",
+            "date": null
+          },
+          {
+            "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+            "link": "https://bakerhughesrigcount.gcs-web.com/",
+            "position": 4,
+            "snippet": "The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...",
+            "date": null
+          },
+          {
+            "title": "Rig Count Overview & Summary Count | Baker Hughes Rig Count",
+            "link": "https://bakerhughesrigcount.gcs-web.com/",
+            "position": 1,
+            "snippet": "The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...",
+            "date": null
+          },
+          {
+            "title": "US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts",
+            "link": "https://ycharts.com/indicators/us_gas_rotary_rigs",
+            "position": 2,
+            "snippet": "The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Baker Hughes US rig count March 2025\", \"results\": [{\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 1, \"snippet\": \"Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100.\", \"date\": null}, {\"title\": \"North America Rig Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/na-rig-count\", \"position\": 2, \"snippet\": \"Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/\", \"position\": 3, \"snippet\": \"The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://bakerhughesrigcount.gcs-web.com/\", \"position\": 4, \"snippet\": \"The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://bakerhughesrigcount.gcs-web.com/\", \"position\": 1, \"snippet\": \"The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...\", \"date\": null}, {\"title\": \"US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_gas_rotary_rigs\", \"position\": 2, \"snippet\": \"The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data.\", \"date\": null}]}",
+      "tool_call_id": "call_phxwsQnfV7yN3JVCkAlpD9Jv"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US oil price forecast March 2025",
+        "results": [
+          {
+            "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+            "link": "https://www.eia.gov/outlooks/steo/",
+            "position": 1,
+            "snippet": "We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25.",
+            "date": null
+          },
+          {
+            "title": "Oil Market Report - March 2025 – Analysis - IEA",
+            "link": "https://www.iea.org/reports/oil-market-report-march-2025",
+            "position": 2,
+            "snippet": "Oil prices declined by about $7/bbl in February and early March as macro sentiment soured... Brent futures were trading near three-year lows around $70/bbl at the time of writing.",
+            "date": null
+          },
+          {
+            "title": "The Forecast for Oil Prices | J.P. Morgan Research",
+            "link": "https://www.jpmorgan.com/insights/global-research/commodities/oil-price-forecast",
+            "position": 4,
+            "snippet": "J.P. Morgan Commodities Research forecasts Brent could average $80/bbl in the fourth quarter of 2024 and $75/bbl in 2025.",
+            "date": null
+          },
+          {
+            "title": "Crude Oil - Price - Chart - Historical Data - News",
+            "link": "https://tradingeconomics.com/commodity/crude-oil",
+            "position": 1,
+            "snippet": "Crude Oil is expected to trade at 67.46 USD/BBL by the end of this quarter, according to Trading Economics global macro models and analysts expectations. Crude Oil - values, historical data, forecasts and news - updated on March of 2025.",
+            "date": null
+          },
+          {
+            "title": "OIL PRICE FORECAST 2025, 2026, 2027 AND 2028 - Long Forecast",
+            "link": "https://longforecast.com/oil-price-today-forecast-2017-2018-2019-2020-2021-brent-wti",
+            "position": 3,
+            "snippet": "Oil price forecast for March 2025. In the beginning at 73.04 dollars. High 76.20, low 67.17. The averaged price 71.94. At the end of the month 71.35, change for March -2.3%.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US oil price forecast March 2025\", \"results\": [{\"title\": \"Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/outlooks/steo/\", \"position\": 1, \"snippet\": \"We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25.\", \"date\": null}, {\"title\": \"Oil Market Report - March 2025 \\u2013 Analysis - IEA\", \"link\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"position\": 2, \"snippet\": \"Oil prices declined by about $7/bbl in February and early March as macro sentiment soured... Brent futures were trading near three-year lows around $70/bbl at the time of writing.\", \"date\": null}, {\"title\": \"The Forecast for Oil Prices | J.P. Morgan Research\", \"link\": \"https://www.jpmorgan.com/insights/global-research/commodities/oil-price-forecast\", \"position\": 4, \"snippet\": \"J.P. Morgan Commodities Research forecasts Brent could average $80/bbl in the fourth quarter of 2024 and $75/bbl in 2025.\", \"date\": null}, {\"title\": \"Crude Oil - Price - Chart - Historical Data - News\", \"link\": \"https://tradingeconomics.com/commodity/crude-oil\", \"position\": 1, \"snippet\": \"Crude Oil is expected to trade at 67.46 USD/BBL by the end of this quarter, according to Trading Economics global macro models and analysts expectations. Crude Oil - values, historical data, forecasts and news - updated on March of 2025.\", \"date\": null}, {\"title\": \"OIL PRICE FORECAST 2025, 2026, 2027 AND 2028 - Long Forecast\", \"link\": \"https://longforecast.com/oil-price-today-forecast-2017-2018-2019-2020-2021-brent-wti\", \"position\": 3, \"snippet\": \"Oil price forecast for March 2025. In the beginning at 73.04 dollars. High 76.20, low 67.17. The averaged price 71.94. At the end of the month 71.35, change for March -2.3%.\", \"date\": null}]}",
+      "tool_call_id": "call_Q82eveq9Y8YgDRZiLD7pUzEq"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "US energy policy changes 2025 Trump administration",
+        "results": [
+          {
+            "title": "Unleashing American Energy – The White House",
+            "link": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "position": 2,
+            "snippet": "It is thus in the national interest to unleash America’s affordable and reliable energy and natural resources. This will restore American prosperity and rebuild our Nation’s economic and military security.",
+            "date": "2025-01-21T01:34:55Z"
+          },
+          {
+            "title": "Climate Action Campaign Trump's Climate and Clean Energy Rollback Tracker - Climate Action Campaign",
+            "link": "https://www.actonclimate.com/trumptracker/",
+            "position": 4,
+            "snippet": "The Trump administration is making significant changes to US energy policy, including canceling environmental justice grants, rescinding regulatory authority, and issuing LNG export authorizations. EPA Administrator Lee Zeldin is recommending striking endangerment findings for climate pollutants.",
+            "date": "2025-01-28T22:38:07Z"
+          },
+          {
+            "title": "Tracking regulatory changes in the second Trump administration",
+            "link": "https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/",
+            "position": 2,
+            "snippet": "As the Trump administration returns to office for a second term with renewed deregulatory ambitions, the executive branch and its agencies are implementing significant policy changes...",
+            "date": "2025-02-20T19:50:27Z"
+          },
+          {
+            "title": "Trump's 2025 Executive Orders | Holland & Knight",
+            "link": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+            "position": 3,
+            "snippet": "This executive order puts forth a federal energy policy agenda that seeks to establish American energy dominance through new policy actions and rescinding previous orders...",
+            "date": null
+          },
+          {
+            "title": "Federal Register\n       :: \n      Executive Orders",
+            "link": "https://www.federalregister.gov/presidential-documents/executive-orders/donald-trump/2025",
+            "position": 5,
+            "snippet": "Executive Orders and Memos signed by Donald Trump in January 2025 include EO 14134 through EO 14139, and several memos on January 3, 6, and 14, 2025...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"US energy policy changes 2025 Trump administration\", \"results\": [{\"title\": \"Unleashing American Energy \\u2013 The White House\", \"link\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"position\": 2, \"snippet\": \"It is thus in the national interest to unleash America\\u2019s affordable and reliable energy and natural resources. This will restore American prosperity and rebuild our Nation\\u2019s economic and military security.\", \"date\": \"2025-01-21T01:34:55Z\"}, {\"title\": \"Climate Action Campaign Trump's Climate and Clean Energy Rollback Tracker - Climate Action Campaign\", \"link\": \"https://www.actonclimate.com/trumptracker/\", \"position\": 4, \"snippet\": \"The Trump administration is making significant changes to US energy policy, including canceling environmental justice grants, rescinding regulatory authority, and issuing LNG export authorizations. EPA Administrator Lee Zeldin is recommending striking endangerment findings for climate pollutants.\", \"date\": \"2025-01-28T22:38:07Z\"}, {\"title\": \"Tracking regulatory changes in the second Trump administration\", \"link\": \"https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/\", \"position\": 2, \"snippet\": \"As the Trump administration returns to office for a second term with renewed deregulatory ambitions, the executive branch and its agencies are implementing significant policy changes...\", \"date\": \"2025-02-20T19:50:27Z\"}, {\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 3, \"snippet\": \"This executive order puts forth a federal energy policy agenda that seeks to establish American energy dominance through new policy actions and rescinding previous orders...\", \"date\": null}, {\"title\": \"Federal Register\\n       :: \\n      Executive Orders\", \"link\": \"https://www.federalregister.gov/presidential-documents/executive-orders/donald-trump/2025\", \"position\": 5, \"snippet\": \"Executive Orders and Memos signed by Donald Trump in January 2025 include EO 14134 through EO 14139, and several memos on January 3, 6, and 14, 2025...\", \"date\": null}]}",
+      "tool_call_id": "call_4pVL3pp6PcZID9yRpjGCvAaB"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+        "snippet": "---\ntitle: U.S. Rig Count\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\ndate: 2025-03-19\n---\n\n# U.S. Rig Count\n\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\n\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\n\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\n\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\n\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\n\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\n\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\n\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\n\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\n\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\n\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\n\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\n\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\n\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\n\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\n\nData made available by Baker Hughes.\n\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\n\nTotal Rigs 2025\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nOil\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nGas\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nMisc.\n\n(Wk./Wk.)\n\n(Wk./Wk.)\n\nRatio (%)\n\nOil/Gas/Misc.\n\nOil/Gas/Misc.\n\nTotal Rigs 2024\n\n03/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n0 592\n\nOil (Wk./Wk.)\n+1 (487)\n\nGas (Wk./Wk.)\n-1 (100)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n03/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n-1 592\n\nOil (Wk./Wk.)\n0 (486)\n\nGas (Wk./Wk.)\n-1 (101)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n622\n\n02/28/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+1 593\n\nOil (Wk./Wk.)\n-2 (486)\n\nGas (Wk./Wk.)\n+3 (102)\n\nMisc. (Wk./Wk.)\n0 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n629\n\n02/21/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 592\n\nOil (Wk./Wk.)\n+7 (488)\n\nGas (Wk./Wk.)\n-2 (99)\n\nMisc. (Wk./Wk.)\n-1 (5)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n626\n\n02/14/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+2 588\n\nOil (Wk./Wk.)\n+1 (481)\n\nGas (Wk./Wk.)\n+1 (101)\n\nMisc. (Wk./Wk.)\n0 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 2024\n621\n\n02/07/2025\n\nTotal Rigs 2025 (Wk./Wk.)\n+4 586\n\nOil (Wk./Wk.)\n+1 (480)\n\nGas (Wk./Wk.)\n+2 (100)\n\nMisc. (Wk./Wk.)\n+1 (6)\n\nRatio (%) Oil/Gas/Misc.\n82 / 17 / 1\n\nTotal Rigs 202…\n\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]",
+        "word_count": 418,
+        "snippet_word_count": 262,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T03:44:29.056473"
+      },
+      "raw": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"snippet\": \"---\\ntitle: U.S. Rig Count\\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\\ndate: 2025-03-19\\n---\\n\\n# U.S. Rig Count\\n\\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\\n\\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\\n\\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\\n\\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\\n\\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\\n\\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\\n\\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\\n\\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\\n\\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\\n\\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\\n\\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\\n\\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\\n\\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\\n\\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\\n\\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\\n\\nData made available by Baker Hughes.\\n\\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\\n\\nTotal Rigs 2025\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nOil\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nGas\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nMisc.\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nRatio (%)\\n\\nOil/Gas/Misc.\\n\\nOil/Gas/Misc.\\n\\nTotal Rigs 2024\\n\\n03/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n0 592\\n\\nOil (Wk./Wk.)\\n+1 (487)\\n\\nGas (Wk./Wk.)\\n-1 (100)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n03/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n-1 592\\n\\nOil (Wk./Wk.)\\n0 (486)\\n\\nGas (Wk./Wk.)\\n-1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n622\\n\\n02/28/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+1 593\\n\\nOil (Wk./Wk.)\\n-2 (486)\\n\\nGas (Wk./Wk.)\\n+3 (102)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n02/21/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 592\\n\\nOil (Wk./Wk.)\\n+7 (488)\\n\\nGas (Wk./Wk.)\\n-2 (99)\\n\\nMisc. (Wk./Wk.)\\n-1 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n626\\n\\n02/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+2 588\\n\\nOil (Wk./Wk.)\\n+1 (481)\\n\\nGas (Wk./Wk.)\\n+1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n621\\n\\n02/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 586\\n\\nOil (Wk./Wk.)\\n+1 (480)\\n\\nGas (Wk./Wk.)\\n+2 (100)\\n\\nMisc. (Wk./Wk.)\\n+1 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 202\\u2026\\n\\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]\", \"word_count\": 418, \"snippet_word_count\": 262, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T03:44:29.056473\"}",
+      "tool_call_id": "call_fnjCkjYKoEUko1mScphN6dgW"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.eia.gov/outlooks/steo/",
+        "snippet": "---\ntitle: Short-Term Energy Outlook\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\nsitename: U.S. Energy Information Administration (EIA)\ndate: 2025-03-14\ncategories: ['official energy statistics, data, analysis and forecasting']\n---\n# Forecast overview\n\n**Global oil markets.**Global oil markets will remain relatively tight through the middle of 2025 before gradually shifting to oil inventory builds later this year. We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25. However, we expect oil inventories will build and place downward pressure on crude oil prices in late-2025 and through 2026 when we expect[OPEC+ unwinds production cuts](https://www.opec.org/opec_web/en/press_room/7477.htm)and[non-OPEC oil production grows](https://www.eia.gov/todayinenergy/detail.php?id=64565). As a result, we forecast the Brent crude oil price will fall to an average of $68/b in 2026.\n\n**Natural gas consumption and inventories.**Cold weather during January and February led to more consumption of natural gas and large withdrawals of natural gas from inventories. We now expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average and 6% less natural gas in storage than we had expected last month. We also increased our forecast for overall electricity generation over the next two years. As a result, we now expect the electric power sector will use more than 36 billion cubic feet per day of natural gas on average in 2025 and 2026, 2% and 1% more, respectively, than last month. Overall, we expect natural gas in storage to be 4% lower in 2025 and 3% lower in 2026 compared with what we had forecast last month.\n\n**Natural gas prices.**Because we now expect more consumption of natural gas in 2025 and 2026 and less natural gas in storge, we have raised our forecast Henry Hub spot price. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025, 11% more than last month’s forecast. We expect the annual average price in 2026 will be near $4.50/MMBtu, up 8% from last month.\n\n**Electricity consumption.**We expect total U.S. electricity sales will increase by 3% in 2025, led by strong growth in th…\n\n[Truncated preview: showing 391 words out of ~901. Full content available via `btf_extract_evidence`.]",
+        "word_count": 901,
+        "snippet_word_count": 391,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T04:59:34.908238"
+      },
+      "raw": "{\"url\": \"https://www.eia.gov/outlooks/steo/\", \"snippet\": \"---\\ntitle: Short-Term Energy Outlook\\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\\nsitename: U.S. Energy Information Administration (EIA)\\ndate: 2025-03-14\\ncategories: ['official energy statistics, data, analysis and forecasting']\\n---\\n# Forecast overview\\n\\n**Global oil markets.**Global oil markets will remain relatively tight through the middle of 2025 before gradually shifting to oil inventory builds later this year. We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25. However, we expect oil inventories will build and place downward pressure on crude oil prices in late-2025 and through 2026 when we expect[OPEC+ unwinds production cuts](https://www.opec.org/opec_web/en/press_room/7477.htm)and[non-OPEC oil production grows](https://www.eia.gov/todayinenergy/detail.php?id=64565). As a result, we forecast the Brent crude oil price will fall to an average of $68/b in 2026.\\n\\n**Natural gas consumption and inventories.**Cold weather during January and February led to more consumption of natural gas and large withdrawals of natural gas from inventories. We now expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average and 6% less natural gas in storage than we had expected last month. We also increased our forecast for overall electricity generation over the next two years. As a result, we now expect the electric power sector will use more than 36 billion cubic feet per day of natural gas on average in 2025 and 2026, 2% and 1% more, respectively, than last month. Overall, we expect natural gas in storage to be 4% lower in 2025 and 3% lower in 2026 compared with what we had forecast last month.\\n\\n**Natural gas prices.**Because we now expect more consumption of natural gas in 2025 and 2026 and less natural gas in storge, we have raised our forecast Henry Hub spot price. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025, 11% more than last month\\u2019s forecast. We expect the annual average price in 2026 will be near $4.50/MMBtu, up 8% from last month.\\n\\n**Electricity consumption.**We expect total U.S. electricity sales will increase by 3% in 2025, led by strong growth in th\\u2026\\n\\n[Truncated preview: showing 391 words out of ~901. Full content available via `btf_extract_evidence`.]\", \"word_count\": 901, \"snippet_word_count\": 391, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T04:59:34.908238\"}",
+      "tool_call_id": "call_fML9wHUg3Fh6xpziagmCagZ1"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+        "snippet": "---\ntitle: Unleashing American Energy\nurl: https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\nhostname: whitehouse.gov\ndescription: By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.\nsitename: The White House\ndate: 2025-01-21\ncategories: ['Presidential Actions']\n---\nBy the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered:\n\nSection 1. Background** .** America is blessed with an abundance of energy and natural resources that have historically powered our Nation’s economic prosperity. In recent years, burdensome and ideologically motivated regulations have impeded the development of these resources, limited the generation of reliable and affordable electricity, reduced job creation, and inflicted high energy costs upon our citizens. These high energy costs devastate American consumers by driving up the cost of transportation, heating, utilities, farming, and manufacturing, while weakening our national security.\n\nIt is thus in the national interest to unleash America’s affordable and reliable energy and natural resources. This will restore American prosperity —- including for those men and women who have been forgotten by our economy in recent years. It will also rebuild our Nation’s economic and military security, which will deliver peace through strength.\n\nSec. 2. Policy.* *It is the policy of the United States:\n\n(a) to encourage energy exploration and production on Federal lands and waters, including on the Outer Continental Shelf, in order to meet the needs of our citizens and solidify the United States as a global energy leader long into the future;\n\n(b) to establish our position as the leading producer and processor of non-fuel minerals, including rare earth minerals, which will create jobs and prosperity at home, strengthen supply chains for the United States and its allies, and reduce the global influence of malign and adversarial states;\n\n(c) to protect the United States’s economic and national security and military preparedness by ensuring that an abundant supply of reliable energy is readily accessible in every State and territory of the Nation;\n\n(d) to ensure that all regulatory requirements related to energy are grounded in clearly applicable law;\n\n(e) to eliminate the “electric vehicle (EV) mandate” and promote true consumer choice, which is essential…\n\n[Truncated preview: showing 369 words out of ~3511. Full content available via `btf_extract_evidence`.]",
+        "word_count": 3511,
+        "snippet_word_count": 369,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-19T18:44:43.714349",
+        "date_cutoff_end": "2025-03-20T18:44:43.714349",
+        "cached_at": "2025-10-24T04:59:35.479284"
+      },
+      "raw": "{\"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"snippet\": \"---\\ntitle: Unleashing American Energy\\nurl: https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\\nhostname: whitehouse.gov\\ndescription: By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.\\nsitename: The White House\\ndate: 2025-01-21\\ncategories: ['Presidential Actions']\\n---\\nBy the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered:\\n\\nSection 1. Background** .** America is blessed with an abundance of energy and natural resources that have historically powered our Nation\\u2019s economic prosperity. In recent years, burdensome and ideologically motivated regulations have impeded the development of these resources, limited the generation of reliable and affordable electricity, reduced job creation, and inflicted high energy costs upon our citizens. These high energy costs devastate American consumers by driving up the cost of transportation, heating, utilities, farming, and manufacturing, while weakening our national security.\\n\\nIt is thus in the national interest to unleash America\\u2019s affordable and reliable energy and natural resources. This will restore American prosperity \\u2014- including for those men and women who have been forgotten by our economy in recent years. It will also rebuild our Nation\\u2019s economic and military security, which will deliver peace through strength.\\n\\nSec. 2. Policy.* *It is the policy of the United States:\\n\\n(a) to encourage energy exploration and production on Federal lands and waters, including on the Outer Continental Shelf, in order to meet the needs of our citizens and solidify the United States as a global energy leader long into the future;\\n\\n(b) to establish our position as the leading producer and processor of non-fuel minerals, including rare earth minerals, which will create jobs and prosperity at home, strengthen supply chains for the United States and its allies, and reduce the global influence of malign and adversarial states;\\n\\n(c) to protect the United States\\u2019s economic and national security and military preparedness by ensuring that an abundant supply of reliable energy is readily accessible in every State and territory of the Nation;\\n\\n(d) to ensure that all regulatory requirements related to energy are grounded in clearly applicable law;\\n\\n(e) to eliminate the \\u201celectric vehicle (EV) mandate\\u201d and promote true consumer choice, which is essential\\u2026\\n\\n[Truncated preview: showing 369 words out of ~3511. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3511, \"snippet_word_count\": 369, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T04:59:35.479284\"}",
+      "tool_call_id": "call_KPTdKw13mikmXTOx6Hpv6Iw0"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "64936ce4-39b8-5435-bad1-1278a9d0fdac",
+        "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+        "facts": [
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "As of March 14, 2025, the total number of active US drilling rigs is 592."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The rig count has remained stable at 592 for the weeks ending March 7 and March 14, 2025."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The rig count increased by 4 rigs to 592 on February 21, 2025, indicating some recent growth."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The rig count has fluctuated slightly in recent weeks, with minor increases and decreases, but has not reached 600 since early 2024."
+          },
+          {
+            "title": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "url": "https://www.aogr.com/web-exclusives/us-rig-count",
+            "fact": "The current ratio of oil to gas rigs is 82% oil, 17% gas, and 1% miscellaneous, which may influence future changes in the total rig count."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"As of March 14, 2025, the total number of active US drilling rigs is 592.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has remained stable at 592 for the weeks ending March 7 and March 14, 2025.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count increased by 4 rigs to 592 on February 21, 2025, indicating some recent growth.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has fluctuated slightly in recent weeks, with minor increases and decreases, but has not reached 600 since early 2024.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The current ratio of oil to gas rigs is 82% oil, 17% gas, and 1% miscellaneous, which may influence future changes in the total rig count.\"}]}",
+      "tool_call_id": "call_V8sTfOVe6Bfifcgc3mdUYD0U"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "64936ce4-39b8-5435-bad1-1278a9d0fdac",
+        "url": "https://www.eia.gov/outlooks/steo/",
+        "facts": [
+          {
+            "title": "https://www.eia.gov/outlooks/steo/",
+            "url": "https://www.eia.gov/outlooks/steo/",
+            "fact": "The EIA forecasts that the Brent crude oil spot price will rise from about $70 per barrel to $75 per barrel by the third quarter of 2025."
+          },
+          {
+            "title": "https://www.eia.gov/outlooks/steo/",
+            "url": "https://www.eia.gov/outlooks/steo/",
+            "fact": "Global oil inventories are expected to fall in the second quarter of 2025, which could support higher oil prices in the short term."
+          },
+          {
+            "title": "https://www.eia.gov/outlooks/steo/",
+            "url": "https://www.eia.gov/outlooks/steo/",
+            "fact": "The EIA has raised its forecast for the Henry Hub natural gas spot price to average around $4.20 per MMBtu in 2025, which is 11% more than last month's forecast."
+          },
+          {
+            "title": "https://www.eia.gov/outlooks/steo/",
+            "url": "https://www.eia.gov/outlooks/steo/",
+            "fact": "U.S. electricity sales are expected to increase by 3% in 2025, driven by strong growth in the residential and commercial sectors."
+          },
+          {
+            "title": "https://www.eia.gov/outlooks/steo/",
+            "url": "https://www.eia.gov/outlooks/steo/",
+            "fact": "The EIA expects the U.S. electric power sector to generate 3% more electricity in 2025 compared to 2024, with most of the additional generation supplied by natural gas."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"facts\": [{\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"The EIA forecasts that the Brent crude oil spot price will rise from about $70 per barrel to $75 per barrel by the third quarter of 2025.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"Global oil inventories are expected to fall in the second quarter of 2025, which could support higher oil prices in the short term.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"The EIA has raised its forecast for the Henry Hub natural gas spot price to average around $4.20 per MMBtu in 2025, which is 11% more than last month's forecast.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"U.S. electricity sales are expected to increase by 3% in 2025, driven by strong growth in the residential and commercial sectors.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"The EIA expects the U.S. electric power sector to generate 3% more electricity in 2025 compared to 2024, with most of the additional generation supplied by natural gas.\"}]}",
+      "tool_call_id": "call_M9t59eJvSztItL61GaDDAzam"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "64936ce4-39b8-5435-bad1-1278a9d0fdac",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+        "facts": [
+          {
+            "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "fact": "The executive order emphasizes encouraging energy exploration and production on Federal lands and waters to solidify the US as a global energy leader."
+          },
+          {
+            "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "fact": "The order mandates a review and potential rescission of regulations that impose undue burdens on domestic energy resource development, including oil and gas."
+          },
+          {
+            "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "fact": "The order calls for expedited and simplified permitting processes for energy projects, which could lead to increased drilling activity."
+          },
+          {
+            "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "fact": "The order revokes several previous executive orders related to climate change and environmental regulations, potentially easing restrictions on drilling."
+          },
+          {
+            "title": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+            "fact": "The order directs the Secretary of Energy to restart reviews of liquefied natural gas export projects, indicating a broader push for increased energy production."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"facts\": [{\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The executive order emphasizes encouraging energy exploration and production on Federal lands and waters to solidify the US as a global energy leader.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order mandates a review and potential rescission of regulations that impose undue burdens on domestic energy resource development, including oil and gas.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order calls for expedited and simplified permitting processes for energy projects, which could lead to increased drilling activity.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order revokes several previous executive orders related to climate change and environmental regulations, potentially easing restrictions on drilling.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order directs the Secretary of Energy to restart reviews of liquefied natural gas export projects, indicating a broader push for increased energy production.\"}]}",
+      "tool_call_id": "call_gQjWlt5kzcwK7D11wfjSmIhM"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the number of active US drilling rigs be 600 or greater on March 28, 2025?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nIn his 2024 campaign, Donald Trump ran on a slogan of \"[Drill, baby, drill](https://www.npr.org/2024/11/13/nx-s1-5181963/trump-promises-more-drilling-in-the-u-s-to-boost-fossil-fuel-production),\" saying in September 2024, \"Starting on Day 1, I will approve new drilling, new pipelines, new refiners, new power plants, new reactors, and we will slash the red tape.\" Trump's nominee to be Treasury Secretary, Scott Bessent, has put forth what he calls a [3-3-3 plan](https://www.foxbusiness.com/politics/treasury-secretary-nominee-scott-bessents-3-3-3-plan-what-know), increasing US oil and gas production by the equivalent of 3 million barrels of oil a day. Additionally, Doug Bergum, Trump's nominee for Secretary of the Interior, [has promised](https://www.theguardian.com/us-news/ng-interactive/2024/dec/01/doug-burgum-trump-interior-secretary-drilling) to open up federally-protected lands to expedited oil and gas drilling permits.\n\nHowever, OilPrice.com [reports](https://oilprice.com/Energy/Crude-Oil/Exxon-Pours-Cold-Water-On-Trumps-Drill-Baby-Drill-Plans.html) that it might not be this simple, quoting Exxon’s Upstream President Liam Mallon  and TotalEnergies CEO Patrick Pouyanne as saying it is more likely that oil producers, due to a looming surplus of oil in 2025 combined with a need to maximize shareholder returns on capital, may throttle new production in order to avoid price destruction.\n\nAccording to the Financial Times ([‘Drill, baby, drill’ is not so simple](https://www.ft.com/content/90468253-0560-4cb2-a302-2e8636234265)), a key factor will be oil prices. A Kansas City Fed survey of energy firms found that a price of \\$89/barrel was needed for drilling to substantially increase, while oil prices as of January 2025 have been on a downswing:\n\n![Price history](https://metaculus-web-media.s3.amazonaws.com/user_uploaded/Screenshot_2024-12-05_at_2.40.51%C3%A2PM.png)\n\nAccording to Baker Hughes in its recent [annual report](https://www.sec.gov/Archives/edgar/data/1701605/000170160524000033/bkr-20231231.htm):\n\n> The Baker Hughes rig counts are an important business barometer for the drilling industry and its suppliers. When drilling rigs are active they consume products and services produced by the oil service industry. Rig count trends are driven by the exploration and development spending by oil and natural gas companies, which in turn is influenced by current and future price expectations for oil and natural gas. The counts may reflect the relative strength and stability of energy prices and overall market activity; however, these counts should not be solely relied on as other specific and pervasive conditions may exist that affect overall energy prices and market activity.\n\n> We have been providing rig counts to the public since 1944. We gather all relevant data through our field service personnel, who obtain the necessary data from routine visits to the various rigs, customers, contractors and other outside sources as necessary. We base the classification of a well as either oil or natural gas primarily upon filings made by operators in the relevant jurisdiction. This data is then compiled and distributed to various wire services and trade associations and is published on our website. We believe the counting process and resulting data is reliable; however, it is subject to our ability to obtain accurate and timely information. Rig counts are compiled weekly for the U.S. and Canada and monthly for all international rigs. Published international rig counts do not include rigs drilling in certain locations, such as onshore China because this information is not readily available.\n\n> Rigs in the U.S. and Canada are counted as active if, on the day the count is taken, the well being drilled has been started but drilling has not been completed and the well is anticipated to be of sufficient depth to be a potential consumer of our drill bits. In international areas, rigs are counted on a weekly basis and deemed active if drilling activities occurred during the majority of the week. The weekly results are then averaged for the month and published accordingly. The rig count does not include rigs that are in transit from one location to another, rigging up, being used in non-drilling activities including production testing, completion and workover, and are not expected to be significant consumers of drill bits.\n\nAccording to the rig count [FAQ](https://rigcount.bakerhughes.com/rig-count-faqs), data is published each Friday at noon central US time. Recent reports have found the following rig count numbers:\n\n| Date               | Value | Date              | Value |\n| ------------------ | ----- | ----------------- | ----- |\n| January 31, 2025   | 582   | July 5, 2024      | 585   |\n| January 24, 2025   | 576   | June 28, 2024     | 581   |\n| January 17, 2025   | 580   | June 21, 2024     | 588   |\n| January 10, 2025   | 584   | June 14, 2024     | 590   |\n| January 3, 2025    | 589   | June 7, 2024      | 594   |\n| December 27, 2024  | 589   | May 31, 2024      | 600   |\n| December 20, 2024  | 589   | May 24, 2024      | 600   |\n| December 13, 2024  | 589   | May 17, 2024      | 604   |\n| December 6, 2024   | 589   | May 10, 2024      | 603   |\n| November 27, 2024  | 582   | May 3, 2024       | 605   |\n| November 22, 2024  | 583   | April 26, 2024    | 613   |\n| November 15, 2024  | 584   | April 19, 2024    | 619   |\n| November 8, 2024   | 585   | April 12, 2024    | 617   |\n| November 1, 2024   | 585   | April 5, 2024     | 620   |\n| October 25, 2024   | 585   | March 28, 2024    | 621   |\n| October 18, 2024   | 585   | March 22, 2024    | 624   |\n| October 11, 2024   | 586   | March 15, 2024    | 629   |\n| October 4, 2024    | 585   | March 8, 2024     | 622   |\n| September 27, 2024 | 587   | March 1, 2024     | 629   |\n| September 20, 2024 | 588   | February 23, 2024 | 626   |\n| September 13, 2024 | 590   | February 16, 2024 | 621   |\n| September 6, 2024  | 582   | February 9, 2024  | 623   |\n| August 30, 2024    | 583   | February 2, 2024  | 619   |\n| August 23, 2024    | 585   | January 26, 2024  | 621   |\n| August 16, 2024    | 586   | January 19, 2024  | 620   |\n| August 9, 2024     | 588   | January 12, 2024  | 619   |\n| August 2, 2024     | 586   | January 5, 2024   | 621   |\n| July 26, 2024      | 589   | December 29, 2023 | 622   |\n| July 19, 2024      | 586   | December 21, 2023 | 620   |\n| July 12, 2024      | 584   |                   |       |\nResolution criteria: This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 600 or higher. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\nFine print: * If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be **annulled**.\npresent_date: 2025-03-19T18:44:43.714349\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_3xavenlTpKXvq8MypHjsETGb",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question_id\":\"1\",\"question\":\"Will the number of active US drilling rigs be 600 or greater on March 28, 2025?\",\"background\":\"In his 2024 campaign, Donald Trump ran on a slogan of \\\"Drill, baby, drill,\\\" saying in September 2024, \\\"Starting on Day 1, I will approve new drilling, new pipelines, new refiners, new power plants, new reactors, and we will slash the red tape.\\\" Trump's nominee to be Treasury Secretary, Scott Bessent, has put forth what he calls a 3-3-3 plan, increasing US oil and gas production by the equivalent of 3 million barrels of oil a day. Additionally, Doug Bergum, Trump's nominee for Secretary of the Interior, has promised to open up federally-protected lands to expedited oil and gas drilling permits. However, OilPrice.com reports that it might not be this simple, quoting Exxon’s Upstream President Liam Mallon and TotalEnergies CEO Patrick Pouyanne as saying it is more likely that oil producers, due to a looming surplus of oil in 2025 combined with a need to maximize shareholder returns on capital, may throttle new production in order to avoid price destruction. According to the Financial Times, a key factor will be oil prices. A Kansas City Fed survey of energy firms found that a price of $89/barrel was needed for drilling to substantially increase, while oil prices as of January 2025 have been on a downswing.\",\"resolution_criteria\":\"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 600 or higher. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\",\"fine_print\":\"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\",\"present_date\":\"2025-03-19T18:44:43.714349\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"queries\": [\"Baker Hughes US rig count March 2025\", \"US oil price forecast March 2025\", \"US energy policy changes 2025 Trump administration\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_3xavenlTpKXvq8MypHjsETGb"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_phxwsQnfV7yN3JVCkAlpD9Jv",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Baker Hughes US rig count March 2025\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_Q82eveq9Y8YgDRZiLD7pUzEq",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US oil price forecast March 2025\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_4pVL3pp6PcZID9yRpjGCvAaB",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"US energy policy changes 2025 Trump administration\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Baker Hughes US rig count March 2025\", \"results\": [{\"title\": \"U.S. Rig Count Data available from Baker Hughes\", \"link\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"position\": 1, \"snippet\": \"Baker Hughes reported the U.S. rig count for March 14, 2025, showing a total of 592 rigs, with oil rigs at 487 and gas rigs at 100.\", \"date\": null}, {\"title\": \"North America Rig Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/na-rig-count\", \"position\": 2, \"snippet\": \"Find the latest North America Rotary Rig Count data from Baker Hughes. Access historical data and connect with the rig count team for more information.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://rigcount.bakerhughes.com/\", \"position\": 3, \"snippet\": \"The U.S. rig count on 14 Mar 2025 was 592, with no change from the prior count on 07 Mar 2025.\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://bakerhughesrigcount.gcs-web.com/\", \"position\": 4, \"snippet\": \"The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...\", \"date\": null}, {\"title\": \"Rig Count Overview & Summary Count | Baker Hughes Rig Count\", \"link\": \"https://bakerhughesrigcount.gcs-web.com/\", \"position\": 1, \"snippet\": \"The U.S. rig count on March 14, 2025, was 592, showing no change from the prior count on March 7, 2025...\", \"date\": null}, {\"title\": \"US Natural Gas Rig Count Weekly Trends: Baker Hughes North American Rotary Rig Count | YCharts\", \"link\": \"https://ycharts.com/indicators/us_gas_rotary_rigs\", \"position\": 2, \"snippet\": \"The US Natural Gas Rig Count was 100.00 for the week of March 14, 2025, according to Baker Hughes data.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_phxwsQnfV7yN3JVCkAlpD9Jv"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US oil price forecast March 2025\", \"results\": [{\"title\": \"Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/outlooks/steo/\", \"position\": 1, \"snippet\": \"We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25.\", \"date\": null}, {\"title\": \"Oil Market Report - March 2025 \\u2013 Analysis - IEA\", \"link\": \"https://www.iea.org/reports/oil-market-report-march-2025\", \"position\": 2, \"snippet\": \"Oil prices declined by about $7/bbl in February and early March as macro sentiment soured... Brent futures were trading near three-year lows around $70/bbl at the time of writing.\", \"date\": null}, {\"title\": \"The Forecast for Oil Prices | J.P. Morgan Research\", \"link\": \"https://www.jpmorgan.com/insights/global-research/commodities/oil-price-forecast\", \"position\": 4, \"snippet\": \"J.P. Morgan Commodities Research forecasts Brent could average $80/bbl in the fourth quarter of 2024 and $75/bbl in 2025.\", \"date\": null}, {\"title\": \"Crude Oil - Price - Chart - Historical Data - News\", \"link\": \"https://tradingeconomics.com/commodity/crude-oil\", \"position\": 1, \"snippet\": \"Crude Oil is expected to trade at 67.46 USD/BBL by the end of this quarter, according to Trading Economics global macro models and analysts expectations. Crude Oil - values, historical data, forecasts and news - updated on March of 2025.\", \"date\": null}, {\"title\": \"OIL PRICE FORECAST 2025, 2026, 2027 AND 2028 - Long Forecast\", \"link\": \"https://longforecast.com/oil-price-today-forecast-2017-2018-2019-2020-2021-brent-wti\", \"position\": 3, \"snippet\": \"Oil price forecast for March 2025. In the beginning at 73.04 dollars. High 76.20, low 67.17. The averaged price 71.94. At the end of the month 71.35, change for March -2.3%.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_Q82eveq9Y8YgDRZiLD7pUzEq"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"US energy policy changes 2025 Trump administration\", \"results\": [{\"title\": \"Unleashing American Energy \\u2013 The White House\", \"link\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"position\": 2, \"snippet\": \"It is thus in the national interest to unleash America\\u2019s affordable and reliable energy and natural resources. This will restore American prosperity and rebuild our Nation\\u2019s economic and military security.\", \"date\": \"2025-01-21T01:34:55Z\"}, {\"title\": \"Climate Action Campaign Trump's Climate and Clean Energy Rollback Tracker - Climate Action Campaign\", \"link\": \"https://www.actonclimate.com/trumptracker/\", \"position\": 4, \"snippet\": \"The Trump administration is making significant changes to US energy policy, including canceling environmental justice grants, rescinding regulatory authority, and issuing LNG export authorizations. EPA Administrator Lee Zeldin is recommending striking endangerment findings for climate pollutants.\", \"date\": \"2025-01-28T22:38:07Z\"}, {\"title\": \"Tracking regulatory changes in the second Trump administration\", \"link\": \"https://www.brookings.edu/articles/tracking-regulatory-changes-in-the-second-trump-administration/\", \"position\": 2, \"snippet\": \"As the Trump administration returns to office for a second term with renewed deregulatory ambitions, the executive branch and its agencies are implementing significant policy changes...\", \"date\": \"2025-02-20T19:50:27Z\"}, {\"title\": \"Trump's 2025 Executive Orders | Holland & Knight\", \"link\": \"https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart\", \"position\": 3, \"snippet\": \"This executive order puts forth a federal energy policy agenda that seeks to establish American energy dominance through new policy actions and rescinding previous orders...\", \"date\": null}, {\"title\": \"Federal Register\\n       :: \\n      Executive Orders\", \"link\": \"https://www.federalregister.gov/presidential-documents/executive-orders/donald-trump/2025\", \"position\": 5, \"snippet\": \"Executive Orders and Memos signed by Donald Trump in January 2025 include EO 14134 through EO 14139, and several memos on January 3, 6, and 14, 2025...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_4pVL3pp6PcZID9yRpjGCvAaB"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_fnjCkjYKoEUko1mScphN6dgW",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\"}"
+          }
+        },
+        {
+          "id": "call_fML9wHUg3Fh6xpziagmCagZ1",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.eia.gov/outlooks/steo/\"}"
+          }
+        },
+        {
+          "id": "call_KPTdKw13mikmXTOx6Hpv6Iw0",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"snippet\": \"---\\ntitle: U.S. Rig Count\\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\\ndate: 2025-03-19\\n---\\n\\n# U.S. Rig Count\\n\\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\\n\\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\\n\\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\\n\\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\\n\\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\\n\\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\\n\\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\\n\\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\\n\\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\\n\\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\\n\\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\\n\\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\\n\\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\\n\\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\\n\\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\\n\\nData made available by Baker Hughes.\\n\\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\\n\\nTotal Rigs 2025\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nOil\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nGas\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nMisc.\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nRatio (%)\\n\\nOil/Gas/Misc.\\n\\nOil/Gas/Misc.\\n\\nTotal Rigs 2024\\n\\n03/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n0 592\\n\\nOil (Wk./Wk.)\\n+1 (487)\\n\\nGas (Wk./Wk.)\\n-1 (100)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n03/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n-1 592\\n\\nOil (Wk./Wk.)\\n0 (486)\\n\\nGas (Wk./Wk.)\\n-1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n622\\n\\n02/28/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+1 593\\n\\nOil (Wk./Wk.)\\n-2 (486)\\n\\nGas (Wk./Wk.)\\n+3 (102)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n02/21/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 592\\n\\nOil (Wk./Wk.)\\n+7 (488)\\n\\nGas (Wk./Wk.)\\n-2 (99)\\n\\nMisc. (Wk./Wk.)\\n-1 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n626\\n\\n02/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+2 588\\n\\nOil (Wk./Wk.)\\n+1 (481)\\n\\nGas (Wk./Wk.)\\n+1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n621\\n\\n02/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 586\\n\\nOil (Wk./Wk.)\\n+1 (480)\\n\\nGas (Wk./Wk.)\\n+2 (100)\\n\\nMisc. (Wk./Wk.)\\n+1 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 202\\u2026\\n\\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]\", \"word_count\": 418, \"snippet_word_count\": 262, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T03:44:29.056473\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_fnjCkjYKoEUko1mScphN6dgW"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.eia.gov/outlooks/steo/\", \"snippet\": \"---\\ntitle: Short-Term Energy Outlook\\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\\nsitename: U.S. Energy Information Administration (EIA)\\ndate: 2025-03-14\\ncategories: ['official energy statistics, data, analysis and forecasting']\\n---\\n# Forecast overview\\n\\n**Global oil markets.**Global oil markets will remain relatively tight through the middle of 2025 before gradually shifting to oil inventory builds later this year. We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25. However, we expect oil inventories will build and place downward pressure on crude oil prices in late-2025 and through 2026 when we expect[OPEC+ unwinds production cuts](https://www.opec.org/opec_web/en/press_room/7477.htm)and[non-OPEC oil production grows](https://www.eia.gov/todayinenergy/detail.php?id=64565). As a result, we forecast the Brent crude oil price will fall to an average of $68/b in 2026.\\n\\n**Natural gas consumption and inventories.**Cold weather during January and February led to more consumption of natural gas and large withdrawals of natural gas from inventories. We now expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average and 6% less natural gas in storage than we had expected last month. We also increased our forecast for overall electricity generation over the next two years. As a result, we now expect the electric power sector will use more than 36 billion cubic feet per day of natural gas on average in 2025 and 2026, 2% and 1% more, respectively, than last month. Overall, we expect natural gas in storage to be 4% lower in 2025 and 3% lower in 2026 compared with what we had forecast last month.\\n\\n**Natural gas prices.**Because we now expect more consumption of natural gas in 2025 and 2026 and less natural gas in storge, we have raised our forecast Henry Hub spot price. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025, 11% more than last month\\u2019s forecast. We expect the annual average price in 2026 will be near $4.50/MMBtu, up 8% from last month.\\n\\n**Electricity consumption.**We expect total U.S. electricity sales will increase by 3% in 2025, led by strong growth in th\\u2026\\n\\n[Truncated preview: showing 391 words out of ~901. Full content available via `btf_extract_evidence`.]\", \"word_count\": 901, \"snippet_word_count\": 391, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T04:59:34.908238\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_fML9wHUg3Fh6xpziagmCagZ1"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"snippet\": \"---\\ntitle: Unleashing American Energy\\nurl: https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\\nhostname: whitehouse.gov\\ndescription: By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.\\nsitename: The White House\\ndate: 2025-01-21\\ncategories: ['Presidential Actions']\\n---\\nBy the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered:\\n\\nSection 1. Background** .** America is blessed with an abundance of energy and natural resources that have historically powered our Nation\\u2019s economic prosperity. In recent years, burdensome and ideologically motivated regulations have impeded the development of these resources, limited the generation of reliable and affordable electricity, reduced job creation, and inflicted high energy costs upon our citizens. These high energy costs devastate American consumers by driving up the cost of transportation, heating, utilities, farming, and manufacturing, while weakening our national security.\\n\\nIt is thus in the national interest to unleash America\\u2019s affordable and reliable energy and natural resources. This will restore American prosperity \\u2014- including for those men and women who have been forgotten by our economy in recent years. It will also rebuild our Nation\\u2019s economic and military security, which will deliver peace through strength.\\n\\nSec. 2. Policy.* *It is the policy of the United States:\\n\\n(a) to encourage energy exploration and production on Federal lands and waters, including on the Outer Continental Shelf, in order to meet the needs of our citizens and solidify the United States as a global energy leader long into the future;\\n\\n(b) to establish our position as the leading producer and processor of non-fuel minerals, including rare earth minerals, which will create jobs and prosperity at home, strengthen supply chains for the United States and its allies, and reduce the global influence of malign and adversarial states;\\n\\n(c) to protect the United States\\u2019s economic and national security and military preparedness by ensuring that an abundant supply of reliable energy is readily accessible in every State and territory of the Nation;\\n\\n(d) to ensure that all regulatory requirements related to energy are grounded in clearly applicable law;\\n\\n(e) to eliminate the \\u201celectric vehicle (EV) mandate\\u201d and promote true consumer choice, which is essential\\u2026\\n\\n[Truncated preview: showing 369 words out of ~3511. Full content available via `btf_extract_evidence`.]\", \"word_count\": 3511, \"snippet_word_count\": 369, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-19T18:44:43.714349\", \"date_cutoff_end\": \"2025-03-20T18:44:43.714349\", \"cached_at\": \"2025-10-24T04:59:35.479284\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_KPTdKw13mikmXTOx6Hpv6Iw0"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_V8sTfOVe6Bfifcgc3mdUYD0U",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"content\": \"---\\ntitle: U.S. Rig Count\\ndescription: U.S. Rig Count current and historical data, updated every Friday. Data made available by Baker Hughes.\\ndate: 2025-03-19\\n---\\n\\n# U.S. Rig Count\\n\\n[2011](https://www.aogr.com/web-exclusives/us-rig-count/2011)|\\n\\n[2012](https://www.aogr.com/web-exclusives/us-rig-count/2012)|\\n\\n[2013](https://www.aogr.com/web-exclusives/us-rig-count/2013)|\\n\\n[2014](https://www.aogr.com/web-exclusives/us-rig-count/2014)|\\n\\n[2015](https://www.aogr.com/web-exclusives/us-rig-count/2015)|\\n\\n[2016](https://www.aogr.com/web-exclusives/us-rig-count/2016)|\\n\\n[2017](https://www.aogr.com/web-exclusives/us-rig-count/2017)|\\n\\n[2018](https://www.aogr.com/web-exclusives/us-rig-count/2018)|\\n\\n[2019](https://www.aogr.com/web-exclusives/us-rig-count/2019)|\\n\\n[2020](https://www.aogr.com/web-exclusives/us-rig-count/2020)|\\n\\n[2021](https://www.aogr.com/web-exclusives/us-rig-count/2021)|\\n\\n[2022](https://www.aogr.com/web-exclusives/us-rig-count/2022)|\\n\\n[2023](https://www.aogr.com/web-exclusives/us-rig-count/2023)|\\n\\n[2024](https://www.aogr.com/web-exclusives/us-rig-count/2024)|\\n\\n[2025](https://www.aogr.com/web-exclusives/us-rig-count/2025)\\n\\nData made available by Baker Hughes.\\n\\n[Click for U.S. Frac Spread Count.](https://www.aogr.com/web-exclusives/us-frac-spread-count)Date\\n\\nTotal Rigs 2025\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nOil\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nGas\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nMisc.\\n\\n(Wk./Wk.)\\n\\n(Wk./Wk.)\\n\\nRatio (%)\\n\\nOil/Gas/Misc.\\n\\nOil/Gas/Misc.\\n\\nTotal Rigs 2024\\n\\n03/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n0 592\\n\\nOil (Wk./Wk.)\\n+1 (487)\\n\\nGas (Wk./Wk.)\\n-1 (100)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n03/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n-1 592\\n\\nOil (Wk./Wk.)\\n0 (486)\\n\\nGas (Wk./Wk.)\\n-1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n622\\n\\n02/28/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+1 593\\n\\nOil (Wk./Wk.)\\n-2 (486)\\n\\nGas (Wk./Wk.)\\n+3 (102)\\n\\nMisc. (Wk./Wk.)\\n0 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n629\\n\\n02/21/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 592\\n\\nOil (Wk./Wk.)\\n+7 (488)\\n\\nGas (Wk./Wk.)\\n-2 (99)\\n\\nMisc. (Wk./Wk.)\\n-1 (5)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n626\\n\\n02/14/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+2 588\\n\\nOil (Wk./Wk.)\\n+1 (481)\\n\\nGas (Wk./Wk.)\\n+1 (101)\\n\\nMisc. (Wk./Wk.)\\n0 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 2024\\n621\\n\\n02/07/2025\\n\\nTotal Rigs 2025 (Wk./Wk.)\\n+4 586\\n\\nOil (Wk./Wk.)\\n+1 (480)\\n\\nGas (Wk./Wk.)\\n+2 (100)\\n\\nMisc. (Wk./Wk.)\\n+1 (6)\\n\\nRatio (%) Oil/Gas/Misc.\\n82 / 17 / 1\\n\\nTotal Rigs 202\\n\\n[Truncated preview: showing 262 words out of ~418. Full content available via `btf_extract_evidence`.]\", \"question_id\": \"1\", \"question\": \"Will the number of active US drilling rigs be 600 or greater on March 28, 2025?\", \"background\": \"In his 2024 campaign, Donald Trump ran on a slogan of \\\"Drill, baby, drill,\\\" saying in September 2024, \\\"Starting on Day 1, I will approve new drilling, new pipelines, new refiners, new power plants, new reactors, and we will slash the red tape.\\\" Trump's nominee to be Treasury Secretary, Scott Bessent, has put forth what he calls a 3-3-3 plan, increasing US oil and gas production by the equivalent of 3 million barrels of oil a day. Additionally, Doug Bergum, Trump's nominee for Secretary of the Interior, has promised to open up federally-protected lands to expedited oil and gas drilling permits. However, OilPrice.com reports that it might not be this simple, quoting Exxon’s Upstream President Liam Mallon and TotalEnergies CEO Patrick Pouyanne as saying it is more likely that oil producers, due to a looming surplus of oil in 2025 combined with a need to maximize shareholder returns on capital, may throttle new production in order to avoid price destruction. According to the Financial Times, a key factor will be oil prices. A Kansas City Fed survey of energy firms found that a price of $89/barrel was needed for drilling to substantially increase, while oil prices as of January 2025 have been on a downswing.\", \"resolution_criteria\": \"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 600 or higher. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\", \"fine_print\": \"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\", \"present_date\": \"2025-03-19T18:44:43.714349\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_M9t59eJvSztItL61GaDDAzam",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.eia.gov/outlooks/steo/\", \"content\": \"---\\ntitle: Short-Term Energy Outlook\\ndescription: Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government\\nsitename: U.S. Energy Information Administration (EIA)\\ndate: 2025-03-14\\ncategories: ['official energy statistics, data, analysis and forecasting']\\n---\\n# Forecast overview\\n\\n**Global oil markets.**Global oil markets will remain relatively tight through the middle of 2025 before gradually shifting to oil inventory builds later this year. We expect global oil inventories will fall in the second quarter of 2025 (2Q25) in part due to decreasing crude oil production in Iran and Venezuela. As a result, the Brent crude oil spot price in our forecast rises from about $70 per barrel (b) to $75/b by 3Q25. However, we expect oil inventories will build and place downward pressure on crude oil prices in late-2025 and through 2026 when we expect[OPEC+ unwinds production cuts](https://www.opec.org/opec_web/en/press_room/7477.htm)and[non-OPEC oil production grows](https://www.eia.gov/todayinenergy/detail.php?id=64565). As a result, we forecast the Brent crude oil price will fall to an average of $68/b in 2026.\\n\\n**Natural gas consumption and inventories.**Cold weather during January and February led to more consumption of natural gas and large withdrawals of natural gas from inventories. We now expect natural gas inventories to fall below 1.7 trillion cubic feet at the end of March, which is 10% below the previous five-year average and 6% less natural gas in storage than we had expected last month. We also increased our forecast for overall electricity generation over the next two years. As a result, we now expect the electric power sector will use more than 36 billion cubic feet per day of natural gas on average in 2025 and 2026, 2% and 1% more, respectively, than last month. Overall, we expect natural gas in storage to be 4% lower in 2025 and 3% lower in 2026 compared with what we had forecast last month.\\n\\n**Natural gas prices.**Because we now expect more consumption of natural gas in 2025 and 2026 and less natural gas in storge, we have raised our forecast Henry Hub spot price. We expect the Henry Hub price will average around $4.20 per million British thermal units (MMBtu) in 2025, 11% more than last months forecast. We expect the annual average price in 2026 will be near $4.50/MMBtu, up 8% from last month.\\n\\n**Electricity consumption.**We expect total U.S. electricity sales will increase by 3% in 2025, led by strong growth in th\\n\\n[Truncated preview: showing 391 words out of ~901. Full content available via `btf_extract_evidence`.]\", \"question_id\": \"1\", \"question\": \"Will the number of active US drilling rigs be 600 or greater on March 28, 2025?\", \"background\": \"In his 2024 campaign, Donald Trump ran on a slogan of \\\"Drill, baby, drill,\\\" saying in September 2024, \\\"Starting on Day 1, I will approve new drilling, new pipelines, new refiners, new power plants, new reactors, and we will slash the red tape.\\\" Trump's nominee to be Treasury Secretary, Scott Bessent, has put forth what he calls a 3-3-3 plan, increasing US oil and gas production by the equivalent of 3 million barrels of oil a day. Additionally, Doug Bergum, Trump's nominee for Secretary of the Interior, has promised to open up federally-protected lands to expedited oil and gas drilling permits. However, OilPrice.com reports that it might not be this simple, quoting Exxon’s Upstream President Liam Mallon and TotalEnergies CEO Patrick Pouyanne as saying it is more likely that oil producers, due to a looming surplus of oil in 2025 combined with a need to maximize shareholder returns on capital, may throttle new production in order to avoid price destruction. According to the Financial Times, a key factor will be oil prices. A Kansas City Fed survey of energy firms found that a price of $89/barrel was needed for drilling to substantially increase, while oil prices as of January 2025 have been on a downswing.\", \"resolution_criteria\": \"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 600 or higher. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\", \"fine_print\": \"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\", \"present_date\": \"2025-03-19T18:44:43.714349\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_gQjWlt5kzcwK7D11wfjSmIhM",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"content\": \"---\\ntitle: Unleashing American Energy\\nurl: https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\\nhostname: whitehouse.gov\\ndescription: By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.\\nsitename: The White House\\ndate: 2025-01-21\\ncategories: ['Presidential Actions']\\n---\\nBy the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered:\\n\\nSection 1. Background** .** America is blessed with an abundance of energy and natural resources that have historically powered our Nations economic prosperity. In recent years, burdensome and ideologically motivated regulations have impeded the development of these resources, limited the generation of reliable and affordable electricity, reduced job creation, and inflicted high energy costs upon our citizens. These high energy costs devastate American consumers by driving up the cost of transportation, heating, utilities, farming, and manufacturing, while weakening our national security.\\n\\nIt is thus in the national interest to unleash Americas affordable and reliable energy and natural resources. This will restore American prosperity  including for those men and women who have been forgotten by our economy in recent years. It will also rebuild our Nations economic and military security, which will deliver peace through strength.\\n\\nSec. 2. Policy.* *It is the policy of the United States:\\n\\n(a) to encourage energy exploration and production on Federal lands and waters, including on the Outer Continental Shelf, in order to meet the needs of our citizens and solidify the United States as a global energy leader long into the future;\\n\\n(b) to establish our position as the leading producer and processor of non-fuel minerals, including rare earth minerals, which will create jobs and prosperity at home, strengthen supply chains for the United States and its allies, and reduce the global influence of malign and adversarial states;\\n\\n(c) to protect the United Statess economic and national security and military preparedness by ensuring that an abundant supply of reliable energy is readily accessible in every State and territory of the Nation;\\n\\n(d) to ensure that all regulatory requirements related to energy are grounded in clearly applicable law;\\n\\n(e) to eliminate the electric vehicle (EV) mandate and promote true consumer choice, which is essential\\n\\n[Truncated preview: showing 369 words out of ~3511. Full content available via `btf_extract_evidence`.]\", \"question_id\": \"1\", \"question\": \"Will the number of active US drilling rigs be 600 or greater on March 28, 2025?\", \"background\": \"In his 2024 campaign, Donald Trump ran on a slogan of \\\"Drill, baby, drill,\\\" saying in September 2024, \\\"Starting on Day 1, I will approve new drilling, new pipelines, new refiners, new power plants, new reactors, and we will slash the red tape.\\\" Trump's nominee to be Treasury Secretary, Scott Bessent, has put forth what he calls a 3-3-3 plan, increasing US oil and gas production by the equivalent of 3 million barrels of oil a day. Additionally, Doug Bergum, Trump's nominee for Secretary of the Interior, has promised to open up federally-protected lands to expedited oil and gas drilling permits. However, OilPrice.com reports that it might not be this simple, quoting Exxon’s Upstream President Liam Mallon and TotalEnergies CEO Patrick Pouyanne as saying it is more likely that oil producers, due to a looming surplus of oil in 2025 combined with a need to maximize shareholder returns on capital, may throttle new production in order to avoid price destruction. According to the Financial Times, a key factor will be oil prices. A Kansas City Fed survey of energy firms found that a price of $89/barrel was needed for drilling to substantially increase, while oil prices as of January 2025 have been on a downswing.\", \"resolution_criteria\": \"This question resolves as YES if the last count of active US drilling rigs for the week ending March 28, 2025, according to the Baker Hughes North America Rig Count, is 600 or higher. Specifically, this will be based on the number listed as the United States Total for the most recent week in the March 28, 2025 North America Rig Count Report. This count includes the total of rigs classified as gas, oil and miscellaneous, in every US location including inland waters, land and offshore.\", \"fine_print\": \"If no report dated March 28, 2025, is released before March 31, 2025, Eastern Time, Metaculus may resolve this question using the most recent report available dated between March 21, 2025, and March 30, 2025, inclusive. If no such report exists, this question will be annulled.\", \"present_date\": \"2025-03-19T18:44:43.714349\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"facts\": [{\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"As of March 14, 2025, the total number of active US drilling rigs is 592.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has remained stable at 592 for the weeks ending March 7 and March 14, 2025.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count increased by 4 rigs to 592 on February 21, 2025, indicating some recent growth.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The rig count has fluctuated slightly in recent weeks, with minor increases and decreases, but has not reached 600 since early 2024.\"}, {\"title\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"url\": \"https://www.aogr.com/web-exclusives/us-rig-count\", \"fact\": \"The current ratio of oil to gas rigs is 82% oil, 17% gas, and 1% miscellaneous, which may influence future changes in the total rig count.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_V8sTfOVe6Bfifcgc3mdUYD0U"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"facts\": [{\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"The EIA forecasts that the Brent crude oil spot price will rise from about $70 per barrel to $75 per barrel by the third quarter of 2025.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"Global oil inventories are expected to fall in the second quarter of 2025, which could support higher oil prices in the short term.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"The EIA has raised its forecast for the Henry Hub natural gas spot price to average around $4.20 per MMBtu in 2025, which is 11% more than last month's forecast.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"U.S. electricity sales are expected to increase by 3% in 2025, driven by strong growth in the residential and commercial sectors.\"}, {\"title\": \"https://www.eia.gov/outlooks/steo/\", \"url\": \"https://www.eia.gov/outlooks/steo/\", \"fact\": \"The EIA expects the U.S. electric power sector to generate 3% more electricity in 2025 compared to 2024, with most of the additional generation supplied by natural gas.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_M9t59eJvSztItL61GaDDAzam"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"64936ce4-39b8-5435-bad1-1278a9d0fdac\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"facts\": [{\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The executive order emphasizes encouraging energy exploration and production on Federal lands and waters to solidify the US as a global energy leader.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order mandates a review and potential rescission of regulations that impose undue burdens on domestic energy resource development, including oil and gas.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order calls for expedited and simplified permitting processes for energy projects, which could lead to increased drilling activity.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order revokes several previous executive orders related to climate change and environmental regulations, potentially easing restrictions on drilling.\"}, {\"title\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"url\": \"https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/\", \"fact\": \"The order directs the Secretary of Energy to restart reviews of liquefied natural gas export projects, indicating a broader push for increased energy production.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_gQjWlt5kzcwK7D11wfjSmIhM"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here is the analysis:\n\n1. **Current Rig Count**: As of March 14, 2025, the total number of active US drilling rigs is 592. This count has remained stable for the past two weeks, showing no significant upward trend towards 600 rigs. The rig count has fluctuated slightly in recent weeks but has not reached 600 since early 2024.\n\n2. **Oil Price Forecast**: The Energy Information Administration (EIA) forecasts that the Brent crude oil spot price will rise from about $70 per barrel to $75 per barrel by the third quarter of 2025. This increase might support drilling activities, but the current price is still below the $89 per barrel threshold identified as necessary for substantial drilling increases.\n\n3. **US Energy Policy**: The Trump administration has issued an executive order to encourage energy exploration and production on Federal lands and waters, potentially leading to increased drilling activity. However, the impact of these policy changes might not be immediate enough to affect the rig count by March 28, 2025.\n\n4. **Market Conditions**: Global oil inventories are expected to fall in the second quarter of 2025, which could support higher oil prices in the short term. However, the overall market conditions, including the need to maximize shareholder returns, may still lead producers to throttle new production.\n\nGiven the current rig count, oil price forecasts, and the potential but not immediate impact of policy changes, the probability of the number of active US drilling rigs reaching 600 or greater by March 28, 2025, appears low.\n\nFINAL PROBABILITY: 0.25"
+    }
+  ]
+}

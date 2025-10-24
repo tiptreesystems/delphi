@@ -1,0 +1,531 @@
+{
+  "question_id": "17c0af0b-0143-56e8-a9bb-abc60532e291",
+  "question": "Will the Great Lakes ice coverage be between 15.0% and 30.0% (inclusive) on March 30, 2025?",
+  "probability": 0.75,
+  "reasoning": "Based on the information gathered, here are some key facts:\n\n1. As of March 15, 2025, the Great Lakes Consolidated Ice Coverage is 15.63%. This is within the target range of 15.0% to 30.0% for the resolution of the question.\n2. Individual ice coverage for the lakes as of March 15, 2025, are:\n   - Lake Superior: 11.54%\n   - Lake Michigan: 11.83%\n   - Lake Huron: 21.79%\n   - Lake Erie: 28.00%\n   - Lake Ontario: 11.94%\n\nThe current ice coverage is just above the lower threshold of 15.0%. Given that the present date is March 23, 2025, and the ice coverage is already within the desired range, it is likely that the ice coverage will remain within this range until March 30, 2025, unless there are significant weather changes.\n\nConsidering historical trends and current conditions, the probability that the Great Lakes ice coverage will be between 15.0% and 30.0% on March 30, 2025, is relatively high.\n\nFINAL PROBABILITY: 0.75",
+  "search_results": [
+    {
+      "title": "Great Lakes Ice Cover Database: NOAA GLERL",
+      "url": "https://www.glerl.noaa.gov/data/ice/glicd.php",
+      "content": "data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata"
+    },
+    {
+      "title": "Ice Cover: NOAA Great Lakes Environmental Research Laboratory\n            - Ann Arbor, MI, USA",
+      "url": "https://www.glerl.noaa.gov/data/ice/",
+      "content": "NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using ice products developed by the U.S. National Ice Center and the Canadian Ice Service."
+    },
+    {
+      "title": "Satellite Data - Coastwatch Great Lakes Node",
+      "url": "https://coastwatch.glerl.noaa.gov/satellite-data-products/",
+      "content": "Researchers and stakeholders use Synthetic Aperture Radar (SAR) data from the NOAA CoastWatch Great Lakes Node to monitor the ice conditions and ice cover classification..."
+    },
+    {
+      "title": "Great Lakes Ice Cover Database: NOAA GLERL",
+      "url": "https://www.glerl.noaa.gov/data/ice/glicd.php",
+      "content": "data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata"
+    },
+    {
+      "title": "Ice Cover: NOAA Great Lakes Environmental Research Laboratory\n            - Ann Arbor, MI, USA",
+      "url": "https://www.glerl.noaa.gov/data/ice/",
+      "content": "NOAA-GLERL scientists are observing long-term changes in ice cover as a result of global warming. Studying, monitoring, and predicting ice coverage on the Great Lakes plays an important role in determining climate patterns..."
+    },
+    {
+      "title": "Great Lakes Ice Analysis",
+      "url": "https://www.weather.gov/cle/GreatLakesIce_Analysis",
+      "content": "Great Lakes Ice Analysis: Great Lakes Ice Concentration and Thickness..."
+    },
+    {
+      "title": "“Icing On The Lake”: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground",
+      "url": "https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover",
+      "content": "The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year."
+    },
+    {
+      "title": "Daily Great Lakes Ice Cover Report — March 15, 2025 - Michigan News - Medium",
+      "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "content": "Daily Great Lakes Ice Cover Report — March 15, 2025. Lake Superior: 11.54%, Lake Michigan: 11.83%, Lake Huron: 21.79%, Lake Erie: 28.00%, Lake Ontario: 11.94%..."
+    },
+    {
+      "title": "Ice Cover: NOAA Great Lakes Environmental Research Laboratory\n            - Ann Arbor, MI, USA",
+      "url": "https://www.glerl.noaa.gov/data/ice/",
+      "content": "NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using the ice products developed by the U.S. National Ice Center and the Canadian Ice Service. Data files are available for the entire time period, 1973-present."
+    },
+    {
+      "title": "Great Lakes Ice Coverage | GLISA",
+      "url": "https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/",
+      "content": "The number of days per winter with lake ice coverage has declined since the start of record in 1973. The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to the 1990s..."
+    },
+    {
+      "title": "Climate Change Indicators: Great Lakes Ice Cover | US EPA",
+      "url": "https://www.epa.gov/climate-indicators/climate-change-indicators-great-lakes-ice-cover",
+      "content": "Years with much-lower-than-normal ice cover appear to have become more frequent during the past two decades, especially in lakes like Erie and Superior that have a history of freezing almost completely..."
+    },
+    {
+      "title": "Ice coverage nearly nonexistent across the Great Lakes, as the historical peak approaches | NOAA Climate.gov",
+      "url": "https://www.climate.gov/news-features/event-tracker/ice-coverage-nearly-nonexistent-across-great-lakes-historical-peak",
+      "content": "Records going back to 1973 show that the latest maximum ice coverage was March 27, 2017."
+    },
+    {
+      "title": "“Icing On The Lake”: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground",
+      "url": "https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover",
+      "content": "The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year. The average annual ice cover on the Great Lakes from 1973 through 2019 shows great variation."
+    },
+    {
+      "title": "Search result",
+      "url": "https://usicecenter.gov/hold/glSummary.htm",
+      "content": "The anomalously warm phase during the typical peak ice period for the Great Lakes saw the rapid disappearance of ice from southern Lake Michigan, western Lake Erie and Lake Huron. Lower than climatologically normal ice concentrations were now visible by mid-March across the Great Lakes excluding Lake Superior, Green Bay and the North Channel."
+    },
+    {
+      "title": "NOAA’s Great Lakes Ice Products and the Historically Low Ice Coverage Observed on the Lakes During Winter 2023-24",
+      "url": "https://www.weather.gov/news/242509-great-lakes-ice",
+      "content": "Typically, the Soo locks at Sault Ste. Marie close on January 15 and reopen on March 25. In 2024, low ice coverage allowed the locks to reopen early..."
+    },
+    {
+      "title": "Great Lakes Ice Coverage: A Historical Review and Seasonal Outlook — STM Weather - Full Service Forensic Meteorology Firm",
+      "url": "https://www.stmweather.com/blog/great-lakes-ice-coverage-a-historical-review-and-seasonal-outlook",
+      "content": "Ice coverage on the Great Lakes typically lasts from late December through early March, varying significantly year to year based on several factors..."
+    },
+    {
+      "title": "How warm winters and low ice may impact the Great Lakes | NOAA Climate.gov",
+      "url": "https://www.climate.gov/news-features/event-tracker/how-warm-winters-and-low-ice-may-impact-great-lakes",
+      "content": "Throughout the first half of March daily ice coverage across the Great Lakes continued to remain very low, dipping in and out of daily record-low territory."
+    },
+    {
+      "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "content": "---\ntitle: Daily Great Lakes Ice Cover Report — March 15, 2025\nauthor: Thumbwind Publications\nurl: https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\nhostname: medium.com\nsitename: Michigan News\ndate: 2025-03-15\n---\n# Daily Great Lakes Ice Cover Report — March 15, 2025\n\nWinter is now waning across the upper Great Lakes region. As ice cover is reduced, changes in weather patterns and lake activities will be seen. This daily Great Lakes ice cover report provides the latest updates on ice conditions across the lakes.\n\n**Lake Superior:** 11.54%\n\n**Lake Michigan:** 11.83%\n\n**Lake Huron:** 21.79%\n\n**Lake Erie:** 28.00%\n\n**Lake Ontario:** 11.94%\n\n**Lake St. Clair:** 14.50%\n\n**Great Lakes Consolidated Ice Coverage:** 15.63%\n\nData from GLERL.NOAA.GOV. Stay tuned for daily updates on Great Lakes ice cover as we monitor changing conditions throughout the season."
+    },
+    {
+      "title": "https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/",
+      "url": "https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/",
+      "content": "---\ntitle: Great Lakes Ice Coverage\nurl: https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\nhostname: umich.edu\nsitename: glisa.umich.edu\ndate: 2017-08-01\n---\n# Great Lakes Ice Coverage\n\n**NOTE: This page is no longer updated as of 2021, and more recently updated information is now available through GLISA’s Sustained Assessment of the Great Lakes and Great Lakes Retrospectives and Prospectives pages.**\n\n**Summary**\n\n- The number of days per winter with lake ice coverage has declined since the start of record in 1973.\n1 - In most areas, ice cover declines were a sudden shift as opposed to a gradual decline. For Lakes Michigan, Erie, and Ontario the shift occurred in the mid-1980s, but for Lakes Superior and Huron the shift occurred during the 1997/98 winter.\n23 - Ice cover has decreased the most in the north (i.e., Lake Superior, Northern Lake Michigan and Huron) and in coastal areas\n- Ice cover on the Great Lakes will likely continue to decrease in the future, however, these decreases are expected to be interrupted by high-ice winters associated with cold air outbreaks.\n- Reduced ice cover results in more winter lake-effect precipitation and increased winter wave activity.\n4\n\n**A more in-depth analysis of Great Lakes ice cover is available here from GLISA in our Sustained Assessment of the Lakes resource.**\n\n**Historical Trends**\n\nIce formation is influenced by the physical properties of the lakes (e.g., lake depth) and complex temperature-driven dynamics, which allows for large variability in ice conditions day-to-day, week-to-week, and year-to-year. Weekly variations in ice cover can be larger than the seasonal mean indicating large “swings” in ice conditions can occur on short time scales.[ 5](https://glisa.umich.edu#easy-footnote-bottom-5-918) These swings may be due to extreme weather events controlled by internal climate patterns such as Arctic Oscillation (AO) and ENSO.\n\n[On annual time scales, a winter with high ice cover can contribute to low ice cover the next year, and vice versa – a result of the complex relationship between ice cover, lake temperatures, and lake evaporation. This behavior speaks to the longer term “memory,” or heat capacity, of the lakes and how the effects of current conditions can carry over days, seasons, and years ahead.](https://glisa.umich.edu#easy-footnote-bottom-6-918)\n\n6The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to th…\n\n[Truncated preview: showing 374 words out of ~1869. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.weather.gov/cle/GreatLakesIce_Analysis",
+      "url": "https://www.weather.gov/cle/GreatLakesIce_Analysis",
+      "content": "---\ntitle: Great Lakes Ice Analysis\nauthor: US Department; NOAA; National Weather Service\ndescription: NWS Cleveland Great Lakes Ice Analysis\nsitename: NOAA's National Weather Service\ndate: 2025-02-13\n---\nCleveland, OH\n\nWeather Forecast Office\n\n|\nIce Analysis |\n\n\n|\nGreat Lakes Ice Analysis |\nGreat Lakes Ice Concentration and Thickness |\n|\nGreat Lakes Ice Concentration |\nGreat Lakes Ice Thickness |\n|\nGreat Lakes Ice Egg Chart - Western Great Lakes |\nGreat Lakes Ice Egg Chart - Eastern Great Lakes |\n\n\n\n\n\n\n\n[US Dept of Commerce](http://www.commerce.gov)\n\n[National Oceanic and Atmospheric Administration](http://www.noaa.gov)\n\n[National Weather Service](https://www.weather.gov)\n\nCleveland, OH\n\n925 Keynote Circle\n\nSuite 314\n\nBrooklyn Heights, OH 44131\n\n(216) 416-2900\n\n[Comments? Questions? Please Contact Us.](mailto:nwscle@noaa.gov)"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "fact": "As of March 15, 2025, the Great Lakes Consolidated Ice Coverage is 15.63%."
+    },
+    {
+      "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "fact": "Lake Superior has an ice coverage of 11.54%."
+    },
+    {
+      "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "fact": "Lake Michigan has an ice coverage of 11.83%."
+    },
+    {
+      "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "fact": "Lake Huron has an ice coverage of 21.79%."
+    },
+    {
+      "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+      "fact": "Lake Erie has an ice coverage of 28.00%."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.5625,
+  "weighted_brier_score": 0.28125,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "17c0af0b-0143-56e8-a9bb-abc60532e291",
+        "queries": [
+          "Great Lakes ice coverage March 2025 site:glerl.noaa.gov",
+          "Great Lakes weather forecast March 2025 ice coverage",
+          "historical Great Lakes ice coverage late March trends"
+        ]
+      },
+      "raw": "{\"question_id\": \"17c0af0b-0143-56e8-a9bb-abc60532e291\", \"queries\": [\"Great Lakes ice coverage March 2025 site:glerl.noaa.gov\", \"Great Lakes weather forecast March 2025 ice coverage\", \"historical Great Lakes ice coverage late March trends\"]}",
+      "tool_call_id": "call_W4nD25foQYd6rPYjimk7z6Hm"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Great Lakes ice coverage March 2025 site:glerl.noaa.gov",
+        "results": [
+          {
+            "title": "Great Lakes Ice Cover Database: NOAA GLERL",
+            "link": "https://www.glerl.noaa.gov/data/ice/glicd.php",
+            "position": 1,
+            "snippet": "data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata",
+            "date": null
+          },
+          {
+            "title": "Ice Cover: NOAA Great Lakes Environmental Research Laboratory\n            - Ann Arbor, MI, USA",
+            "link": "https://www.glerl.noaa.gov/data/ice/",
+            "position": 2,
+            "snippet": "NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using ice products developed by the U.S. National Ice Center and the Canadian Ice Service.",
+            "date": null
+          },
+          {
+            "title": "Satellite Data - Coastwatch Great Lakes Node",
+            "link": "https://coastwatch.glerl.noaa.gov/satellite-data-products/",
+            "position": 4,
+            "snippet": "Researchers and stakeholders use Synthetic Aperture Radar (SAR) data from the NOAA CoastWatch Great Lakes Node to monitor the ice conditions and ice cover classification...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Great Lakes ice coverage March 2025 site:glerl.noaa.gov\", \"results\": [{\"title\": \"Great Lakes Ice Cover Database: NOAA GLERL\", \"link\": \"https://www.glerl.noaa.gov/data/ice/glicd.php\", \"position\": 1, \"snippet\": \"data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata\", \"date\": null}, {\"title\": \"Ice Cover: NOAA Great Lakes Environmental Research Laboratory\\n            - Ann Arbor, MI, USA\", \"link\": \"https://www.glerl.noaa.gov/data/ice/\", \"position\": 2, \"snippet\": \"NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using ice products developed by the U.S. National Ice Center and the Canadian Ice Service.\", \"date\": null}, {\"title\": \"Satellite Data - Coastwatch Great Lakes Node\", \"link\": \"https://coastwatch.glerl.noaa.gov/satellite-data-products/\", \"position\": 4, \"snippet\": \"Researchers and stakeholders use Synthetic Aperture Radar (SAR) data from the NOAA CoastWatch Great Lakes Node to monitor the ice conditions and ice cover classification...\", \"date\": null}]}",
+      "tool_call_id": "call_NJL6Xc3lc8BfUSRtHD7TKcTM"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Great Lakes weather forecast March 2025 ice coverage",
+        "results": [
+          {
+            "title": "Great Lakes Ice Cover Database: NOAA GLERL",
+            "link": "https://www.glerl.noaa.gov/data/ice/glicd.php",
+            "position": 1,
+            "snippet": "data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata",
+            "date": null
+          },
+          {
+            "title": "Ice Cover: NOAA Great Lakes Environmental Research Laboratory\n            - Ann Arbor, MI, USA",
+            "link": "https://www.glerl.noaa.gov/data/ice/",
+            "position": 2,
+            "snippet": "NOAA-GLERL scientists are observing long-term changes in ice cover as a result of global warming. Studying, monitoring, and predicting ice coverage on the Great Lakes plays an important role in determining climate patterns...",
+            "date": null
+          },
+          {
+            "title": "Great Lakes Ice Analysis",
+            "link": "https://www.weather.gov/cle/GreatLakesIce_Analysis",
+            "position": 1,
+            "snippet": "Great Lakes Ice Analysis: Great Lakes Ice Concentration and Thickness...",
+            "date": null
+          },
+          {
+            "title": "“Icing On The Lake”: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground",
+            "link": "https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover",
+            "position": 4,
+            "snippet": "The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year.",
+            "date": null
+          },
+          {
+            "title": "Daily Great Lakes Ice Cover Report — March 15, 2025 - Michigan News - Medium",
+            "link": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "position": 5,
+            "snippet": "Daily Great Lakes Ice Cover Report — March 15, 2025. Lake Superior: 11.54%, Lake Michigan: 11.83%, Lake Huron: 21.79%, Lake Erie: 28.00%, Lake Ontario: 11.94%...",
+            "date": "2025-03-15T20:12:26.822000Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Great Lakes weather forecast March 2025 ice coverage\", \"results\": [{\"title\": \"Great Lakes Ice Cover Database: NOAA GLERL\", \"link\": \"https://www.glerl.noaa.gov/data/ice/glicd.php\", \"position\": 1, \"snippet\": \"data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata\", \"date\": null}, {\"title\": \"Ice Cover: NOAA Great Lakes Environmental Research Laboratory\\n            - Ann Arbor, MI, USA\", \"link\": \"https://www.glerl.noaa.gov/data/ice/\", \"position\": 2, \"snippet\": \"NOAA-GLERL scientists are observing long-term changes in ice cover as a result of global warming. Studying, monitoring, and predicting ice coverage on the Great Lakes plays an important role in determining climate patterns...\", \"date\": null}, {\"title\": \"Great Lakes Ice Analysis\", \"link\": \"https://www.weather.gov/cle/GreatLakesIce_Analysis\", \"position\": 1, \"snippet\": \"Great Lakes Ice Analysis: Great Lakes Ice Concentration and Thickness...\", \"date\": null}, {\"title\": \"\\u201cIcing On The Lake\\u201d: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground\", \"link\": \"https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover\", \"position\": 4, \"snippet\": \"The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year.\", \"date\": null}, {\"title\": \"Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025 - Michigan News - Medium\", \"link\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"position\": 5, \"snippet\": \"Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025. Lake Superior: 11.54%, Lake Michigan: 11.83%, Lake Huron: 21.79%, Lake Erie: 28.00%, Lake Ontario: 11.94%...\", \"date\": \"2025-03-15T20:12:26.822000Z\"}]}",
+      "tool_call_id": "call_MxHoAWosCDgQG4e8wL3oVGw2"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "historical Great Lakes ice coverage late March trends",
+        "results": [
+          {
+            "title": "Ice Cover: NOAA Great Lakes Environmental Research Laboratory\n            - Ann Arbor, MI, USA",
+            "link": "https://www.glerl.noaa.gov/data/ice/",
+            "position": 1,
+            "snippet": "NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using the ice products developed by the U.S. National Ice Center and the Canadian Ice Service. Data files are available for the entire time period, 1973-present.",
+            "date": null
+          },
+          {
+            "title": "Great Lakes Ice Coverage | GLISA",
+            "link": "https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/",
+            "position": 2,
+            "snippet": "The number of days per winter with lake ice coverage has declined since the start of record in 1973. The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to the 1990s...",
+            "date": null
+          },
+          {
+            "title": "Climate Change Indicators: Great Lakes Ice Cover | US EPA",
+            "link": "https://www.epa.gov/climate-indicators/climate-change-indicators-great-lakes-ice-cover",
+            "position": 3,
+            "snippet": "Years with much-lower-than-normal ice cover appear to have become more frequent during the past two decades, especially in lakes like Erie and Superior that have a history of freezing almost completely...",
+            "date": "2021-03-31T01:48:34Z"
+          },
+          {
+            "title": "Ice coverage nearly nonexistent across the Great Lakes, as the historical peak approaches | NOAA Climate.gov",
+            "link": "https://www.climate.gov/news-features/event-tracker/ice-coverage-nearly-nonexistent-across-great-lakes-historical-peak",
+            "position": 5,
+            "snippet": "Records going back to 1973 show that the latest maximum ice coverage was March 27, 2017.",
+            "date": "2024-02-16T12:00:00Z"
+          },
+          {
+            "title": "“Icing On The Lake”: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground",
+            "link": "https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover",
+            "position": 1,
+            "snippet": "The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year. The average annual ice cover on the Great Lakes from 1973 through 2019 shows great variation.",
+            "date": null
+          },
+          {
+            "title": "",
+            "link": "https://usicecenter.gov/hold/glSummary.htm",
+            "position": 2,
+            "snippet": "The anomalously warm phase during the typical peak ice period for the Great Lakes saw the rapid disappearance of ice from southern Lake Michigan, western Lake Erie and Lake Huron. Lower than climatologically normal ice concentrations were now visible by mid-March across the Great Lakes excluding Lake Superior, Green Bay and the North Channel.",
+            "date": null
+          },
+          {
+            "title": "NOAA’s Great Lakes Ice Products and the Historically Low Ice Coverage Observed on the Lakes During Winter 2023-24",
+            "link": "https://www.weather.gov/news/242509-great-lakes-ice",
+            "position": 3,
+            "snippet": "Typically, the Soo locks at Sault Ste. Marie close on January 15 and reopen on March 25. In 2024, low ice coverage allowed the locks to reopen early...",
+            "date": null
+          },
+          {
+            "title": "Great Lakes Ice Coverage: A Historical Review and Seasonal Outlook — STM Weather - Full Service Forensic Meteorology Firm",
+            "link": "https://www.stmweather.com/blog/great-lakes-ice-coverage-a-historical-review-and-seasonal-outlook",
+            "position": 4,
+            "snippet": "Ice coverage on the Great Lakes typically lasts from late December through early March, varying significantly year to year based on several factors...",
+            "date": null
+          },
+          {
+            "title": "How warm winters and low ice may impact the Great Lakes | NOAA Climate.gov",
+            "link": "https://www.climate.gov/news-features/event-tracker/how-warm-winters-and-low-ice-may-impact-great-lakes",
+            "position": 5,
+            "snippet": "Throughout the first half of March daily ice coverage across the Great Lakes continued to remain very low, dipping in and out of daily record-low territory.",
+            "date": "2024-03-18T12:00:00Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"historical Great Lakes ice coverage late March trends\", \"results\": [{\"title\": \"Ice Cover: NOAA Great Lakes Environmental Research Laboratory\\n            - Ann Arbor, MI, USA\", \"link\": \"https://www.glerl.noaa.gov/data/ice/\", \"position\": 1, \"snippet\": \"NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using the ice products developed by the U.S. National Ice Center and the Canadian Ice Service. Data files are available for the entire time period, 1973-present.\", \"date\": null}, {\"title\": \"Great Lakes Ice Coverage | GLISA\", \"link\": \"https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\", \"position\": 2, \"snippet\": \"The number of days per winter with lake ice coverage has declined since the start of record in 1973. The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to the 1990s...\", \"date\": null}, {\"title\": \"Climate Change Indicators: Great Lakes Ice Cover | US EPA\", \"link\": \"https://www.epa.gov/climate-indicators/climate-change-indicators-great-lakes-ice-cover\", \"position\": 3, \"snippet\": \"Years with much-lower-than-normal ice cover appear to have become more frequent during the past two decades, especially in lakes like Erie and Superior that have a history of freezing almost completely...\", \"date\": \"2021-03-31T01:48:34Z\"}, {\"title\": \"Ice coverage nearly nonexistent across the Great Lakes, as the historical peak approaches | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/event-tracker/ice-coverage-nearly-nonexistent-across-great-lakes-historical-peak\", \"position\": 5, \"snippet\": \"Records going back to 1973 show that the latest maximum ice coverage was March 27, 2017.\", \"date\": \"2024-02-16T12:00:00Z\"}, {\"title\": \"\\u201cIcing On The Lake\\u201d: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground\", \"link\": \"https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover\", \"position\": 1, \"snippet\": \"The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year. The average annual ice cover on the Great Lakes from 1973 through 2019 shows great variation.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://usicecenter.gov/hold/glSummary.htm\", \"position\": 2, \"snippet\": \"The anomalously warm phase during the typical peak ice period for the Great Lakes saw the rapid disappearance of ice from southern Lake Michigan, western Lake Erie and Lake Huron. Lower than climatologically normal ice concentrations were now visible by mid-March across the Great Lakes excluding Lake Superior, Green Bay and the North Channel.\", \"date\": null}, {\"title\": \"NOAA\\u2019s Great Lakes Ice Products and the Historically Low Ice Coverage Observed on the Lakes During Winter 2023-24\", \"link\": \"https://www.weather.gov/news/242509-great-lakes-ice\", \"position\": 3, \"snippet\": \"Typically, the Soo locks at Sault Ste. Marie close on January 15 and reopen on March 25. In 2024, low ice coverage allowed the locks to reopen early...\", \"date\": null}, {\"title\": \"Great Lakes Ice Coverage: A Historical Review and Seasonal Outlook \\u2014 STM Weather - Full Service Forensic Meteorology Firm\", \"link\": \"https://www.stmweather.com/blog/great-lakes-ice-coverage-a-historical-review-and-seasonal-outlook\", \"position\": 4, \"snippet\": \"Ice coverage on the Great Lakes typically lasts from late December through early March, varying significantly year to year based on several factors...\", \"date\": null}, {\"title\": \"How warm winters and low ice may impact the Great Lakes | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/event-tracker/how-warm-winters-and-low-ice-may-impact-great-lakes\", \"position\": 5, \"snippet\": \"Throughout the first half of March daily ice coverage across the Great Lakes continued to remain very low, dipping in and out of daily record-low territory.\", \"date\": \"2024-03-18T12:00:00Z\"}]}",
+      "tool_call_id": "call_PeOvQCaufiCGqOw4h2cCqGoM"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+        "snippet": "---\ntitle: Daily Great Lakes Ice Cover Report — March 15, 2025\nauthor: Thumbwind Publications\nurl: https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\nhostname: medium.com\nsitename: Michigan News\ndate: 2025-03-15\n---\n# Daily Great Lakes Ice Cover Report — March 15, 2025\n\nWinter is now waning across the upper Great Lakes region. As ice cover is reduced, changes in weather patterns and lake activities will be seen. This daily Great Lakes ice cover report provides the latest updates on ice conditions across the lakes.\n\n**Lake Superior:** 11.54%\n\n**Lake Michigan:** 11.83%\n\n**Lake Huron:** 21.79%\n\n**Lake Erie:** 28.00%\n\n**Lake Ontario:** 11.94%\n\n**Lake St. Clair:** 14.50%\n\n**Great Lakes Consolidated Ice Coverage:** 15.63%\n\nData from GLERL.NOAA.GOV. Stay tuned for daily updates on Great Lakes ice cover as we monitor changing conditions throughout the season.",
+        "word_count": 124,
+        "snippet_word_count": 124,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-23T08:38:42.125823",
+        "date_cutoff_end": "2025-03-24T08:38:42.125823",
+        "cached_at": "2025-10-24T03:20:37.702248"
+      },
+      "raw": "{\"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"snippet\": \"---\\ntitle: Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025\\nauthor: Thumbwind Publications\\nurl: https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\\nhostname: medium.com\\nsitename: Michigan News\\ndate: 2025-03-15\\n---\\n# Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025\\n\\nWinter is now waning across the upper Great Lakes region. As ice cover is reduced, changes in weather patterns and lake activities will be seen. This daily Great Lakes ice cover report provides the latest updates on ice conditions across the lakes.\\n\\n**Lake Superior:** 11.54%\\n\\n**Lake Michigan:** 11.83%\\n\\n**Lake Huron:** 21.79%\\n\\n**Lake Erie:** 28.00%\\n\\n**Lake Ontario:** 11.94%\\n\\n**Lake St. Clair:** 14.50%\\n\\n**Great Lakes Consolidated Ice Coverage:** 15.63%\\n\\nData from GLERL.NOAA.GOV. Stay tuned for daily updates on Great Lakes ice cover as we monitor changing conditions throughout the season.\", \"word_count\": 124, \"snippet_word_count\": 124, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-23T08:38:42.125823\", \"date_cutoff_end\": \"2025-03-24T08:38:42.125823\", \"cached_at\": \"2025-10-24T03:20:37.702248\"}",
+      "tool_call_id": "call_n4YOgW4CawPKpteii8V8f7JV"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/",
+        "snippet": "---\ntitle: Great Lakes Ice Coverage\nurl: https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\nhostname: umich.edu\nsitename: glisa.umich.edu\ndate: 2017-08-01\n---\n# Great Lakes Ice Coverage\n\n**NOTE: This page is no longer updated as of 2021, and more recently updated information is now available through GLISA’s Sustained Assessment of the Great Lakes and Great Lakes Retrospectives and Prospectives pages.**\n\n**Summary**\n\n- The number of days per winter with lake ice coverage has declined since the start of record in 1973.\n1 - In most areas, ice cover declines were a sudden shift as opposed to a gradual decline. For Lakes Michigan, Erie, and Ontario the shift occurred in the mid-1980s, but for Lakes Superior and Huron the shift occurred during the 1997/98 winter.\n23 - Ice cover has decreased the most in the north (i.e., Lake Superior, Northern Lake Michigan and Huron) and in coastal areas\n- Ice cover on the Great Lakes will likely continue to decrease in the future, however, these decreases are expected to be interrupted by high-ice winters associated with cold air outbreaks.\n- Reduced ice cover results in more winter lake-effect precipitation and increased winter wave activity.\n4\n\n**A more in-depth analysis of Great Lakes ice cover is available here from GLISA in our Sustained Assessment of the Lakes resource.**\n\n**Historical Trends**\n\nIce formation is influenced by the physical properties of the lakes (e.g., lake depth) and complex temperature-driven dynamics, which allows for large variability in ice conditions day-to-day, week-to-week, and year-to-year. Weekly variations in ice cover can be larger than the seasonal mean indicating large “swings” in ice conditions can occur on short time scales.[ 5](https://glisa.umich.edu#easy-footnote-bottom-5-918) These swings may be due to extreme weather events controlled by internal climate patterns such as Arctic Oscillation (AO) and ENSO.\n\n[On annual time scales, a winter with high ice cover can contribute to low ice cover the next year, and vice versa – a result of the complex relationship between ice cover, lake temperatures, and lake evaporation. This behavior speaks to the longer term “memory,” or heat capacity, of the lakes and how the effects of current conditions can carry over days, seasons, and years ahead.](https://glisa.umich.edu#easy-footnote-bottom-6-918)\n\n6The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to th…\n\n[Truncated preview: showing 374 words out of ~1869. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1869,
+        "snippet_word_count": 374,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-23T08:38:42.125823",
+        "date_cutoff_end": "2025-03-24T08:38:42.125823",
+        "cached_at": "2025-10-24T03:20:38.187332"
+      },
+      "raw": "{\"url\": \"https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\", \"snippet\": \"---\\ntitle: Great Lakes Ice Coverage\\nurl: https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\\nhostname: umich.edu\\nsitename: glisa.umich.edu\\ndate: 2017-08-01\\n---\\n# Great Lakes Ice Coverage\\n\\n**NOTE: This page is no longer updated as of 2021, and more recently updated information is now available through GLISA\\u2019s Sustained Assessment of the Great Lakes and Great Lakes Retrospectives and Prospectives pages.**\\n\\n**Summary**\\n\\n- The number of days per winter with lake ice coverage has declined since the start of record in 1973.\\n1 - In most areas, ice cover declines were a sudden shift as opposed to a gradual decline. For Lakes Michigan, Erie, and Ontario the shift occurred in the mid-1980s, but for Lakes Superior and Huron the shift occurred during the 1997/98 winter.\\n23 - Ice cover has decreased the most in the north (i.e., Lake Superior, Northern Lake Michigan and Huron) and in coastal areas\\n- Ice cover on the Great Lakes will likely continue to decrease in the future, however, these decreases are expected to be interrupted by high-ice winters associated with cold air outbreaks.\\n- Reduced ice cover results in more winter lake-effect precipitation and increased winter wave activity.\\n4\\n\\n**A more in-depth analysis of Great Lakes ice cover is available here from GLISA in our Sustained Assessment of the Lakes resource.**\\n\\n**Historical Trends**\\n\\nIce formation is influenced by the physical properties of the lakes (e.g., lake depth) and complex temperature-driven dynamics, which allows for large variability in ice conditions day-to-day, week-to-week, and year-to-year. Weekly variations in ice cover can be larger than the seasonal mean indicating large \\u201cswings\\u201d in ice conditions can occur on short time scales.[ 5](https://glisa.umich.edu#easy-footnote-bottom-5-918) These swings may be due to extreme weather events controlled by internal climate patterns such as Arctic Oscillation (AO) and ENSO.\\n\\n[On annual time scales, a winter with high ice cover can contribute to low ice cover the next year, and vice versa \\u2013 a result of the complex relationship between ice cover, lake temperatures, and lake evaporation. This behavior speaks to the longer term \\u201cmemory,\\u201d or heat capacity, of the lakes and how the effects of current conditions can carry over days, seasons, and years ahead.](https://glisa.umich.edu#easy-footnote-bottom-6-918)\\n\\n6The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to th\\u2026\\n\\n[Truncated preview: showing 374 words out of ~1869. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1869, \"snippet_word_count\": 374, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T08:38:42.125823\", \"date_cutoff_end\": \"2025-03-24T08:38:42.125823\", \"cached_at\": \"2025-10-24T03:20:38.187332\"}",
+      "tool_call_id": "call_ezWNSnkR1aDUVVhu51YRitGU"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.weather.gov/cle/GreatLakesIce_Analysis",
+        "snippet": "---\ntitle: Great Lakes Ice Analysis\nauthor: US Department; NOAA; National Weather Service\ndescription: NWS Cleveland Great Lakes Ice Analysis\nsitename: NOAA's National Weather Service\ndate: 2025-02-13\n---\nCleveland, OH\n\nWeather Forecast Office\n\n|\nIce Analysis |\n\n\n|\nGreat Lakes Ice Analysis |\nGreat Lakes Ice Concentration and Thickness |\n|\nGreat Lakes Ice Concentration |\nGreat Lakes Ice Thickness |\n|\nGreat Lakes Ice Egg Chart - Western Great Lakes |\nGreat Lakes Ice Egg Chart - Eastern Great Lakes |\n\n\n\n\n\n\n\n[US Dept of Commerce](http://www.commerce.gov)\n\n[National Oceanic and Atmospheric Administration](http://www.noaa.gov)\n\n[National Weather Service](https://www.weather.gov)\n\nCleveland, OH\n\n925 Keynote Circle\n\nSuite 314\n\nBrooklyn Heights, OH 44131\n\n(216) 416-2900\n\n[Comments? Questions? Please Contact Us.](mailto:nwscle@noaa.gov)",
+        "word_count": 112,
+        "snippet_word_count": 112,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-23T08:38:42.125823",
+        "date_cutoff_end": "2025-03-24T08:38:42.125823",
+        "cached_at": "2025-10-24T03:20:38.698278"
+      },
+      "raw": "{\"url\": \"https://www.weather.gov/cle/GreatLakesIce_Analysis\", \"snippet\": \"---\\ntitle: Great Lakes Ice Analysis\\nauthor: US Department; NOAA; National Weather Service\\ndescription: NWS Cleveland Great Lakes Ice Analysis\\nsitename: NOAA's National Weather Service\\ndate: 2025-02-13\\n---\\nCleveland, OH\\n\\nWeather Forecast Office\\n\\n|\\nIce Analysis |\\n\\n\\n|\\nGreat Lakes Ice Analysis |\\nGreat Lakes Ice Concentration and Thickness |\\n|\\nGreat Lakes Ice Concentration |\\nGreat Lakes Ice Thickness |\\n|\\nGreat Lakes Ice Egg Chart - Western Great Lakes |\\nGreat Lakes Ice Egg Chart - Eastern Great Lakes |\\n\\n\\n\\n\\n\\n\\n\\n[US Dept of Commerce](http://www.commerce.gov)\\n\\n[National Oceanic and Atmospheric Administration](http://www.noaa.gov)\\n\\n[National Weather Service](https://www.weather.gov)\\n\\nCleveland, OH\\n\\n925 Keynote Circle\\n\\nSuite 314\\n\\nBrooklyn Heights, OH 44131\\n\\n(216) 416-2900\\n\\n[Comments? Questions? Please Contact Us.](mailto:nwscle@noaa.gov)\", \"word_count\": 112, \"snippet_word_count\": 112, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-23T08:38:42.125823\", \"date_cutoff_end\": \"2025-03-24T08:38:42.125823\", \"cached_at\": \"2025-10-24T03:20:38.698278\"}",
+      "tool_call_id": "call_18cDXaWArUiGXyQaPh95RfOk"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "17c0af0b-0143-56e8-a9bb-abc60532e291",
+        "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+        "facts": [
+          {
+            "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "fact": "As of March 15, 2025, the Great Lakes Consolidated Ice Coverage is 15.63%."
+          },
+          {
+            "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "fact": "Lake Superior has an ice coverage of 11.54%."
+          },
+          {
+            "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "fact": "Lake Michigan has an ice coverage of 11.83%."
+          },
+          {
+            "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "fact": "Lake Huron has an ice coverage of 21.79%."
+          },
+          {
+            "title": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "url": "https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d",
+            "fact": "Lake Erie has an ice coverage of 28.00%."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"17c0af0b-0143-56e8-a9bb-abc60532e291\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"facts\": [{\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"As of March 15, 2025, the Great Lakes Consolidated Ice Coverage is 15.63%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Superior has an ice coverage of 11.54%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Michigan has an ice coverage of 11.83%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Huron has an ice coverage of 21.79%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Erie has an ice coverage of 28.00%.\"}]}",
+      "tool_call_id": "call_Z56G64whzBfqQT0xFwJUiwV1"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the Great Lakes ice coverage be between 15.0% and 30.0% (inclusive) on March 30, 2025?\nBackground: Please see the resources by the Great Lakes Environmental Research Laboratory [here](https://www.glerl.noaa.gov/data/ice/#currentConditions).\nResolution criteria: This question resolves as YES if the 'GL Total' figure for Great Lakes average ice concentration according to [this data set](https://apps.glerl.noaa.gov/coastwatch/webdata/statistic/ice/dat/g2024_2025_ice.dat) for the 89th day of 2025 is greater than or equal to 15.0% and less than or equal to 30.0%. Otherwise, it resolves as NO.\nFine print: If the resolution source fails to update before the end of this tournament, then the most recent day preceding day 89 will be used to resolve the question.\npresent_date: 2025-03-23T08:38:42.125823\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_W4nD25foQYd6rPYjimk7z6Hm",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the Great Lakes ice coverage be between 15.0% and 30.0% (inclusive) on March 30, 2025?\",\"background\":\"Please see the resources by the Great Lakes Environmental Research Laboratory [here](https://www.glerl.noaa.gov/data/ice/#currentConditions).\",\"resolution_criteria\":\"This question resolves as YES if the 'GL Total' figure for Great Lakes average ice concentration according to [this data set](https://apps.glerl.noaa.gov/coastwatch/webdata/statistic/ice/dat/g2024_2025_ice.dat) for the 89th day of 2025 is greater than or equal to 15.0% and less than or equal to 30.0%. Otherwise, it resolves as NO.\",\"fine_print\":\"If the resolution source fails to update before the end of this tournament, then the most recent day preceding day 89 will be used to resolve the question.\",\"present_date\":\"2025-03-23T08:38:42.125823\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"17c0af0b-0143-56e8-a9bb-abc60532e291\", \"queries\": [\"Great Lakes ice coverage March 2025 site:glerl.noaa.gov\", \"Great Lakes weather forecast March 2025 ice coverage\", \"historical Great Lakes ice coverage late March trends\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_W4nD25foQYd6rPYjimk7z6Hm"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_NJL6Xc3lc8BfUSRtHD7TKcTM",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Great Lakes ice coverage March 2025 site:glerl.noaa.gov\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_MxHoAWosCDgQG4e8wL3oVGw2",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Great Lakes weather forecast March 2025 ice coverage\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_PeOvQCaufiCGqOw4h2cCqGoM",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"historical Great Lakes ice coverage late March trends\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-23\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Great Lakes ice coverage March 2025 site:glerl.noaa.gov\", \"results\": [{\"title\": \"Great Lakes Ice Cover Database: NOAA GLERL\", \"link\": \"https://www.glerl.noaa.gov/data/ice/glicd.php\", \"position\": 1, \"snippet\": \"data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata\", \"date\": null}, {\"title\": \"Ice Cover: NOAA Great Lakes Environmental Research Laboratory\\n            - Ann Arbor, MI, USA\", \"link\": \"https://www.glerl.noaa.gov/data/ice/\", \"position\": 2, \"snippet\": \"NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using ice products developed by the U.S. National Ice Center and the Canadian Ice Service.\", \"date\": null}, {\"title\": \"Satellite Data - Coastwatch Great Lakes Node\", \"link\": \"https://coastwatch.glerl.noaa.gov/satellite-data-products/\", \"position\": 4, \"snippet\": \"Researchers and stakeholders use Synthetic Aperture Radar (SAR) data from the NOAA CoastWatch Great Lakes Node to monitor the ice conditions and ice cover classification...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_NJL6Xc3lc8BfUSRtHD7TKcTM"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Great Lakes weather forecast March 2025 ice coverage\", \"results\": [{\"title\": \"Great Lakes Ice Cover Database: NOAA GLERL\", \"link\": \"https://www.glerl.noaa.gov/data/ice/glicd.php\", \"position\": 1, \"snippet\": \"data download for 2025: Shapefiles | ASCII files | JPG images geographic metadata\", \"date\": null}, {\"title\": \"Ice Cover: NOAA Great Lakes Environmental Research Laboratory\\n            - Ann Arbor, MI, USA\", \"link\": \"https://www.glerl.noaa.gov/data/ice/\", \"position\": 2, \"snippet\": \"NOAA-GLERL scientists are observing long-term changes in ice cover as a result of global warming. Studying, monitoring, and predicting ice coverage on the Great Lakes plays an important role in determining climate patterns...\", \"date\": null}, {\"title\": \"Great Lakes Ice Analysis\", \"link\": \"https://www.weather.gov/cle/GreatLakesIce_Analysis\", \"position\": 1, \"snippet\": \"Great Lakes Ice Analysis: Great Lakes Ice Concentration and Thickness...\", \"date\": null}, {\"title\": \"\\u201cIcing On The Lake\\u201d: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground\", \"link\": \"https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover\", \"position\": 4, \"snippet\": \"The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year.\", \"date\": null}, {\"title\": \"Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025 - Michigan News - Medium\", \"link\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"position\": 5, \"snippet\": \"Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025. Lake Superior: 11.54%, Lake Michigan: 11.83%, Lake Huron: 21.79%, Lake Erie: 28.00%, Lake Ontario: 11.94%...\", \"date\": \"2025-03-15T20:12:26.822000Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_MxHoAWosCDgQG4e8wL3oVGw2"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"historical Great Lakes ice coverage late March trends\", \"results\": [{\"title\": \"Ice Cover: NOAA Great Lakes Environmental Research Laboratory\\n            - Ann Arbor, MI, USA\", \"link\": \"https://www.glerl.noaa.gov/data/ice/\", \"position\": 1, \"snippet\": \"NOAA/GLERL has been monitoring and documenting Great Lakes ice cover since the early 1970's using the ice products developed by the U.S. National Ice Center and the Canadian Ice Service. Data files are available for the entire time period, 1973-present.\", \"date\": null}, {\"title\": \"Great Lakes Ice Coverage | GLISA\", \"link\": \"https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\", \"position\": 2, \"snippet\": \"The number of days per winter with lake ice coverage has declined since the start of record in 1973. The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to the 1990s...\", \"date\": null}, {\"title\": \"Climate Change Indicators: Great Lakes Ice Cover | US EPA\", \"link\": \"https://www.epa.gov/climate-indicators/climate-change-indicators-great-lakes-ice-cover\", \"position\": 3, \"snippet\": \"Years with much-lower-than-normal ice cover appear to have become more frequent during the past two decades, especially in lakes like Erie and Superior that have a history of freezing almost completely...\", \"date\": \"2021-03-31T01:48:34Z\"}, {\"title\": \"Ice coverage nearly nonexistent across the Great Lakes, as the historical peak approaches | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/event-tracker/ice-coverage-nearly-nonexistent-across-great-lakes-historical-peak\", \"position\": 5, \"snippet\": \"Records going back to 1973 show that the latest maximum ice coverage was March 27, 2017.\", \"date\": \"2024-02-16T12:00:00Z\"}, {\"title\": \"\\u201cIcing On The Lake\\u201d: That Time Of The Season For Great Lakes Ice Cover  | Weather Underground\", \"link\": \"https://www.wunderground.com/cat6/Icing-Lake-Time-Season-Great-Lakes-Ice-Cover\", \"position\": 1, \"snippet\": \"The Great Lakes are typically in freeze-over mode right now, but there are big variations from year to year. The average annual ice cover on the Great Lakes from 1973 through 2019 shows great variation.\", \"date\": null}, {\"title\": \"\", \"link\": \"https://usicecenter.gov/hold/glSummary.htm\", \"position\": 2, \"snippet\": \"The anomalously warm phase during the typical peak ice period for the Great Lakes saw the rapid disappearance of ice from southern Lake Michigan, western Lake Erie and Lake Huron. Lower than climatologically normal ice concentrations were now visible by mid-March across the Great Lakes excluding Lake Superior, Green Bay and the North Channel.\", \"date\": null}, {\"title\": \"NOAA\\u2019s Great Lakes Ice Products and the Historically Low Ice Coverage Observed on the Lakes During Winter 2023-24\", \"link\": \"https://www.weather.gov/news/242509-great-lakes-ice\", \"position\": 3, \"snippet\": \"Typically, the Soo locks at Sault Ste. Marie close on January 15 and reopen on March 25. In 2024, low ice coverage allowed the locks to reopen early...\", \"date\": null}, {\"title\": \"Great Lakes Ice Coverage: A Historical Review and Seasonal Outlook \\u2014 STM Weather - Full Service Forensic Meteorology Firm\", \"link\": \"https://www.stmweather.com/blog/great-lakes-ice-coverage-a-historical-review-and-seasonal-outlook\", \"position\": 4, \"snippet\": \"Ice coverage on the Great Lakes typically lasts from late December through early March, varying significantly year to year based on several factors...\", \"date\": null}, {\"title\": \"How warm winters and low ice may impact the Great Lakes | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/event-tracker/how-warm-winters-and-low-ice-may-impact-great-lakes\", \"position\": 5, \"snippet\": \"Throughout the first half of March daily ice coverage across the Great Lakes continued to remain very low, dipping in and out of daily record-low territory.\", \"date\": \"2024-03-18T12:00:00Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_PeOvQCaufiCGqOw4h2cCqGoM"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_n4YOgW4CawPKpteii8V8f7JV",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\"}"
+          }
+        },
+        {
+          "id": "call_ezWNSnkR1aDUVVhu51YRitGU",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\", \"date_cutoff_start\": null, \"date_cutoff_end\": \"2025-03-23\"}"
+          }
+        },
+        {
+          "id": "call_18cDXaWArUiGXyQaPh95RfOk",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.weather.gov/cle/GreatLakesIce_Analysis\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-23\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"snippet\": \"---\\ntitle: Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025\\nauthor: Thumbwind Publications\\nurl: https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\\nhostname: medium.com\\nsitename: Michigan News\\ndate: 2025-03-15\\n---\\n# Daily Great Lakes Ice Cover Report \\u2014 March 15, 2025\\n\\nWinter is now waning across the upper Great Lakes region. As ice cover is reduced, changes in weather patterns and lake activities will be seen. This daily Great Lakes ice cover report provides the latest updates on ice conditions across the lakes.\\n\\n**Lake Superior:** 11.54%\\n\\n**Lake Michigan:** 11.83%\\n\\n**Lake Huron:** 21.79%\\n\\n**Lake Erie:** 28.00%\\n\\n**Lake Ontario:** 11.94%\\n\\n**Lake St. Clair:** 14.50%\\n\\n**Great Lakes Consolidated Ice Coverage:** 15.63%\\n\\nData from GLERL.NOAA.GOV. Stay tuned for daily updates on Great Lakes ice cover as we monitor changing conditions throughout the season.\", \"word_count\": 124, \"snippet_word_count\": 124, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-23T08:38:42.125823\", \"date_cutoff_end\": \"2025-03-24T08:38:42.125823\", \"cached_at\": \"2025-10-24T03:20:37.702248\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_n4YOgW4CawPKpteii8V8f7JV"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\", \"snippet\": \"---\\ntitle: Great Lakes Ice Coverage\\nurl: https://glisa.umich.edu/resources-tools/climate-impacts/great-lakes-ice-coverage/\\nhostname: umich.edu\\nsitename: glisa.umich.edu\\ndate: 2017-08-01\\n---\\n# Great Lakes Ice Coverage\\n\\n**NOTE: This page is no longer updated as of 2021, and more recently updated information is now available through GLISA\\u2019s Sustained Assessment of the Great Lakes and Great Lakes Retrospectives and Prospectives pages.**\\n\\n**Summary**\\n\\n- The number of days per winter with lake ice coverage has declined since the start of record in 1973.\\n1 - In most areas, ice cover declines were a sudden shift as opposed to a gradual decline. For Lakes Michigan, Erie, and Ontario the shift occurred in the mid-1980s, but for Lakes Superior and Huron the shift occurred during the 1997/98 winter.\\n23 - Ice cover has decreased the most in the north (i.e., Lake Superior, Northern Lake Michigan and Huron) and in coastal areas\\n- Ice cover on the Great Lakes will likely continue to decrease in the future, however, these decreases are expected to be interrupted by high-ice winters associated with cold air outbreaks.\\n- Reduced ice cover results in more winter lake-effect precipitation and increased winter wave activity.\\n4\\n\\n**A more in-depth analysis of Great Lakes ice cover is available here from GLISA in our Sustained Assessment of the Lakes resource.**\\n\\n**Historical Trends**\\n\\nIce formation is influenced by the physical properties of the lakes (e.g., lake depth) and complex temperature-driven dynamics, which allows for large variability in ice conditions day-to-day, week-to-week, and year-to-year. Weekly variations in ice cover can be larger than the seasonal mean indicating large \\u201cswings\\u201d in ice conditions can occur on short time scales.[ 5](https://glisa.umich.edu#easy-footnote-bottom-5-918) These swings may be due to extreme weather events controlled by internal climate patterns such as Arctic Oscillation (AO) and ENSO.\\n\\n[On annual time scales, a winter with high ice cover can contribute to low ice cover the next year, and vice versa \\u2013 a result of the complex relationship between ice cover, lake temperatures, and lake evaporation. This behavior speaks to the longer term \\u201cmemory,\\u201d or heat capacity, of the lakes and how the effects of current conditions can carry over days, seasons, and years ahead.](https://glisa.umich.edu#easy-footnote-bottom-6-918)\\n\\n6The lakes have experienced less ice cover on average during the last 20-30 years compared to earlier years, prior to th\\u2026\\n\\n[Truncated preview: showing 374 words out of ~1869. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1869, \"snippet_word_count\": 374, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-23T08:38:42.125823\", \"date_cutoff_end\": \"2025-03-24T08:38:42.125823\", \"cached_at\": \"2025-10-24T03:20:38.187332\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_ezWNSnkR1aDUVVhu51YRitGU"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.weather.gov/cle/GreatLakesIce_Analysis\", \"snippet\": \"---\\ntitle: Great Lakes Ice Analysis\\nauthor: US Department; NOAA; National Weather Service\\ndescription: NWS Cleveland Great Lakes Ice Analysis\\nsitename: NOAA's National Weather Service\\ndate: 2025-02-13\\n---\\nCleveland, OH\\n\\nWeather Forecast Office\\n\\n|\\nIce Analysis |\\n\\n\\n|\\nGreat Lakes Ice Analysis |\\nGreat Lakes Ice Concentration and Thickness |\\n|\\nGreat Lakes Ice Concentration |\\nGreat Lakes Ice Thickness |\\n|\\nGreat Lakes Ice Egg Chart - Western Great Lakes |\\nGreat Lakes Ice Egg Chart - Eastern Great Lakes |\\n\\n\\n\\n\\n\\n\\n\\n[US Dept of Commerce](http://www.commerce.gov)\\n\\n[National Oceanic and Atmospheric Administration](http://www.noaa.gov)\\n\\n[National Weather Service](https://www.weather.gov)\\n\\nCleveland, OH\\n\\n925 Keynote Circle\\n\\nSuite 314\\n\\nBrooklyn Heights, OH 44131\\n\\n(216) 416-2900\\n\\n[Comments? Questions? Please Contact Us.](mailto:nwscle@noaa.gov)\", \"word_count\": 112, \"snippet_word_count\": 112, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-23T08:38:42.125823\", \"date_cutoff_end\": \"2025-03-24T08:38:42.125823\", \"cached_at\": \"2025-10-24T03:20:38.698278\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_18cDXaWArUiGXyQaPh95RfOk"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Z56G64whzBfqQT0xFwJUiwV1",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\":\"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\",\"content\":\"---\\ntitle: Daily Great Lakes Ice Cover Report \\u0014 March 15, 2025\\nauthor: Thumbwind Publications\\nurl: https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\\nhostname: medium.com\\nsitename: Michigan News\\ndate: 2025-03-15\\n---\\n# Daily Great Lakes Ice Cover Report \\u0014 March 15, 2025\\n\\nWinter is now waning across the upper Great Lakes region. As ice cover is reduced, changes in weather patterns and lake activities will be seen. This daily Great Lakes ice cover report provides the latest updates on ice conditions across the lakes.\\n\\n**Lake Superior:** 11.54%\\n\\n**Lake Michigan:** 11.83%\\n\\n**Lake Huron:** 21.79%\\n\\n**Lake Erie:** 28.00%\\n\\n**Lake Ontario:** 11.94%\\n\\n**Lake St. Clair:** 14.50%\\n\\n**Great Lakes Consolidated Ice Coverage:** 15.63%\\n\\nData from GLERL.NOAA.GOV. Stay tuned for daily updates on Great Lakes ice cover as we monitor changing conditions throughout the season.\",\"question\":\"Will the Great Lakes ice coverage be between 15.0% and 30.0% (inclusive) on March 30, 2025?\",\"resolution_criteria\":\"This question resolves as YES if the 'GL Total' figure for Great Lakes average ice concentration according to [this data set](https://apps.glerl.noaa.gov/coastwatch/webdata/statistic/ice/dat/g2024_2025_ice.dat) for the 89th day of 2025 is greater than or equal to 15.0% and less than or equal to 30.0%. Otherwise, it resolves as NO.\",\"present_date\":\"2025-03-23T08:38:42.125823\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"17c0af0b-0143-56e8-a9bb-abc60532e291\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"facts\": [{\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"As of March 15, 2025, the Great Lakes Consolidated Ice Coverage is 15.63%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Superior has an ice coverage of 11.54%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Michigan has an ice coverage of 11.83%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Huron has an ice coverage of 21.79%.\"}, {\"title\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"url\": \"https://medium.com/michigan-news/daily-great-lakes-ice-cover-report-march-15-2025-c658096ce57d\", \"fact\": \"Lake Erie has an ice coverage of 28.00%.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_Z56G64whzBfqQT0xFwJUiwV1"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information gathered, here are some key facts:\n\n1. As of March 15, 2025, the Great Lakes Consolidated Ice Coverage is 15.63%. This is within the target range of 15.0% to 30.0% for the resolution of the question.\n2. Individual ice coverage for the lakes as of March 15, 2025, are:\n   - Lake Superior: 11.54%\n   - Lake Michigan: 11.83%\n   - Lake Huron: 21.79%\n   - Lake Erie: 28.00%\n   - Lake Ontario: 11.94%\n\nThe current ice coverage is just above the lower threshold of 15.0%. Given that the present date is March 23, 2025, and the ice coverage is already within the desired range, it is likely that the ice coverage will remain within this range until March 30, 2025, unless there are significant weather changes.\n\nConsidering historical trends and current conditions, the probability that the Great Lakes ice coverage will be between 15.0% and 30.0% on March 30, 2025, is relatively high.\n\nFINAL PROBABILITY: 0.75"
+    }
+  ]
+}

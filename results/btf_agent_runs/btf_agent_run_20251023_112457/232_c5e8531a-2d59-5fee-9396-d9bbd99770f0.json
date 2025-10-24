@@ -1,0 +1,693 @@
+{
+  "question_id": "c5e8531a-2d59-5fee-9396-d9bbd99770f0",
+  "question": "Will a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon be the world's most valuable company by market cap on March 29, 2025?",
+  "probability": 0.1,
+  "reasoning": "Based on the gathered evidence, here is the current situation regarding the market capitalization of the world's largest companies as of March 2025:\n\n1. **Apple Inc.** consistently appears as the world's most valuable company, with market caps reported around $3.63 trillion to $3.9 trillion.\n2. **Nvidia Corporation** follows closely, with market caps ranging from $2.92 trillion to $3.4 trillion, having experienced significant growth due to the AI boom.\n3. **Microsoft Corporation** is also a major player, with market caps reported around $2.89 trillion to $2.95 trillion.\n4. **Amazon.com, Inc.** and **Alphabet Inc.** have market caps in the range of $2.02 trillion to $2.25 trillion.\n5. **Saudi Aramco** is the largest company outside the top five, with a market cap of approximately $1.79 trillion, but it is heavily dependent on oil prices.\n\nGiven this information, the top five companies (Apple, Nvidia, Microsoft, Amazon, and Alphabet) still dominate the market capitalization rankings. The likelihood of another company surpassing all five by March 29, 2025, seems low, especially considering the substantial lead Apple and Nvidia have over other competitors.\n\nConsidering the current market dynamics and the dominance of these tech giants, the probability that a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon will be the world's most valuable company by market cap on March 29, 2025, is quite low.\n\nFINAL PROBABILITY: 0.1",
+  "search_results": [
+    {
+      "title": "Companies ranked by Market Cap - CompaniesMarketCap.com",
+      "url": "https://companiesmarketcap.com/",
+      "content": "This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies."
+    },
+    {
+      "title": "Largest Companies by Market Cap in 2025 | AlphaSense",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "content": "Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies."
+    },
+    {
+      "title": "List of public corporations by market capitalization - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
+      "content": "The list includes companies like Nvidia, Microsoft, Saudi Aramco, Amazon, Alphabet, Meta, Tesla, PetroChina, Broadcom, TSMC, and Berkshire Hathaway that have had market caps exceeding $1 trillion. This list is updated as of December 2024..."
+    },
+    {
+      "title": "Largest Companies In The World - Global Finance Magazine",
+      "url": "https://gfmag.com/data/biggest-company-in-the-world/",
+      "content": "As of September 3, 2024, Apple was still the king of the stock exchanges, closely followed by Microsoft. Incidentally, that was also the day when, amid a stock selloff, Nvidia lost $279 billion in market value..."
+    },
+    {
+      "title": "Captcha",
+      "url": "https://www.financecharts.com/screener/biggest",
+      "content": "I am sorry, but I cannot provide a snippet for this query as the content does not contain relevant information about companies by market cap."
+    },
+    {
+      "title": "The Largest Companies by Market Cap in 2025 | The Motley Fool",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "content": "Apple and Nvidia top the list of the biggest companies by market capitalization. Read on to see the 20 most valuable companies and where they stand as of March 2025."
+    },
+    {
+      "title": "Companies ranked by Market Cap - CompaniesMarketCap.com",
+      "url": "https://companiesmarketcap.com/",
+      "content": "I am sorry, but I cannot provide a snippet for this query as the provided content is outdated and does not contain the requested information."
+    },
+    {
+      "title": "Largest Companies by Market Cap in 2025 | AlphaSense",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "content": "Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies."
+    },
+    {
+      "title": "Global Top 100 public companies by market capitalisation - PwC UK",
+      "url": "https://www.pwc.co.uk/services/audit/insights/global-top-100-companies.html",
+      "content": "The Top 100 have already experienced this effect, rising to an all time high of $40tn by 31 March 2024, now standing at almost double the value of the Top 100 at 31 March 2019..."
+    },
+    {
+      "title": "List of public corporations by market capitalization - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
+      "content": "Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares. The list below includes companies that have had a market capitalization in excess of $1 trillion, updated as of December 31, 2024."
+    },
+    {
+      "title": "The Largest Companies by Market Cap in 2025 | The Motley Fool",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "content": "Apple and Nvidia top the list of the biggest companies by market capitalization. Apple currently tops the list of the largest companies in the world."
+    },
+    {
+      "title": "Companies ranked by Market Cap - CompaniesMarketCap.com",
+      "url": "https://companiesmarketcap.com/",
+      "content": "This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies."
+    },
+    {
+      "title": "Largest Companies by Market Cap in 2025 | AlphaSense",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "content": "Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies."
+    },
+    {
+      "title": "Top 10 Largest US Companies (2023) - Hantec Markets",
+      "url": "https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/",
+      "content": "The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)..."
+    },
+    {
+      "title": "Top 10 Largest US Companies (2023) - Hantec Markets",
+      "url": "https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/",
+      "content": "The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)..."
+    },
+    {
+      "title": "List of public corporations by market capitalization - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
+      "content": "Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares on that day. The list is expressed in USD millions, using exchange rates from the selected day to convert other currencies."
+    },
+    {
+      "title": "The 10 Most Valuable Companies in the World By Market Cap | Investing | U.S. News",
+      "url": "https://money.usnews.com/investing/articles/most-valuable-companies-in-the-world-by-market-cap",
+      "content": "Apple and Microsoft continue to fight for the top spot while artificial intelligence explodes valuations. Here are 2024's 10 most valuable companies in the world by market capitalization..."
+    },
+    {
+      "title": "Top Large Cap Stocks to Watch in 2025 | IG International",
+      "url": "https://www.ig.com/en/trading-strategies/best-large-cap-stocks-to-watch-in-2025-250115",
+      "content": "Apple is the world’s most valuable company by market capitalisation, and for good reason. It enjoys a global presence, selling high quality hardware including the iPhone, iPad, and Mac computers..."
+    },
+    {
+      "title": "https://companiesmarketcap.com/",
+      "url": "https://companiesmarketcap.com/",
+      "content": "---\ntitle: Companies ranked by Market Cap - CompaniesMarketCap.com\nurl: https://companiesmarketcap.com/\nhostname: companiesmarketcap.com\ndescription: Ranking the world's top companies by market cap, market value, revenue and many more metrics\nsitename: CompaniesMarketCap.com\ndate: 2024-01-01\n---\nThis is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies. Private companies are not included in our lists as it is difficult to calculate their market value and know their financials."
+    },
+    {
+      "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "content": "---\ntitle: Largest Companies by Market Cap in 2025 | AlphaSense\nauthor: Jwalker\nurl: https://www.alpha-sense.com/largest-companies-by-market-cap/\nhostname: alpha-sense.com\ndescription: Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies.\nsitename: AlphaSense\ndate: 2024-12-04\n---\n| Company Name | Market Cap | Revenue | Net Income | EPS | Employees | Sentiment |\n|---|---|---|---|---|---|---|\nLATAM Airlines Group S.A.LTM |\n9.60 B | 12.83 B | 903.72 M | 0.001495 | 38,663 | 39+0 |\nTaiwan Semiconductor Manufacturing Company LimitedTSM |\n763.31 B | 2.89 T | 1.17 T | 45.25 | 76,478 | -6+5 |\nBanco Santander-ChileBSAC |\n10.89 B | 2.60 T | 852.96 B | 4.526 | 8,757 | 24-9 |\nApple Inc.AAPL |\n3.21 T | 395.76 B | 93.74 B | 6.08 | 164,000 | 40-1 |\nBanco de ChileBCH |\n14.14 B | 3.04 T | 1.21 T | 11.95 | 11,614 | 36-63 |\nNVIDIA CorporationNVDA |\n2.92 T | 130.50 B | 72.88 B | 2.94 | 36,000 | 26-10 |\nMicrosoft CorporationMSFT |\n2.89 T | 261.80 B | 88.14 B | 11.8 | 228,000 | 26-16 |\nAlibaba Group Holding LimitedBABA |\n331.23 B | 981.77 B | 80.01 B | 3.91 | 194,320 | 92+39 |\nToyota Motor CorporationTM |\n242.65 B | 46.75 T | 4.94 T | 365.94 | 380,793 | -40-8 |\nAmazon.com, Inc.AMZN |\n2.07 T | 637.96 B | 59.25 B | 5.53 | 1,556,000 | 63-23 |\nAlphabet Inc.GOOGL |\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\nAlphabet Inc.GOOG |\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\nMeta Platforms, Inc.META |\n1.53 T | 164.50 B | 62.36 B | 23.86 | 74,067 | 4-52 |\nPerusahaan Perseroan (Persero) PT Telekomunikasi Indonesia TbkTLK |\n14.68 B | 150.20 T | 24.43 T | 246.58 | 19,456 | -14-29 |\nBerkshire Hathaway Inc.BRK-B |\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\nBerkshire Hathaway Inc.BRK-A |\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\nHSBC Holdings plcHSBC |\n200.44 B | 67.40 B | 23.98 B | 1.24 | 211,000 | -9-24 |\nBroadcom Inc.AVGO |\n914.53 B | 54.53 B | 5.90 B | 1.23 | 37,000 | -8-20 |\nAmérica Móvil, S.A.B. de C.V.AMX |\n43.71 B | 869.22 B | 28.31 B | 0.464066 | 176,083 | -23-12 |\nEli Lilly and CompanyLLY |\n740.77 B | 45.04 B | 10.59 B | 11.71 | 47,000 | 13-14 |\nTesla, Inc.TSLA |\n765.56 B | 97.69 B | 7.13 B | 2.04 | 125,665 | -40-31 |\nPDD Holdings Inc.PDD |\n179.01 B | 372.11 B | 60.03 B | -6.04 | 17,403 | -7+42 |\nWalmart Inc.WMT |\n701.15 B | 680.99 B | 19.44 B | 2.41 | 2,100,000 | 94+37 |\nJPMorgan Chase & Co.JPM |\n654.09 B | 169.44 B | 58.47 B | 19.75 | 317,233…\n\n[Truncated preview: showing 521 words out of ~1866. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "content": "---\ntitle: The Largest Companies by Market Cap in 2025 | The Motley Fool\nauthor: Lyle Daly\nurl: https://www.fool.com/research/largest-companies-by-market-cap/\nhostname: fool.com\ndescription: Apple and Nvidia top the list of the biggest companies by market capitalization.\nsitename: The Motley Fool\ndate: 2023-04-06\n---\n**Apple** ([NASDAQ:AAPL](https://www.fool.com/quote/nasdaq/aapl/)) currently tops the list of the largest companies in the world. **Nvidia** ([NASDAQ:NVDA](https://www.fool.com/quote/nasdaq/nvda/)), the hottest company of 2024, is currently second after seeing its value skyrocket last year.\n\nEight of the largest companies have a [market cap](https://www.fool.com/investing/how-to-invest/stocks/what-is-market-cap/) of at least $1 trillion. While tech companies dominate the top of the [stock market](https://www.fool.com/investing/stock-market/), there are other sectors represented, including oil, insurance, [medical companies](https://www.fool.com/investing/stock-market/market-sectors/healthcare/medical-device-stocks/), and financial services. Read on to see the 20 most valuable companies and where they stand as of March 2025.\n\n## Largest companies by market cap\n\n## Largest companies by market cap\n\n| Name and ticker | Market cap | Current price | Sector |\n|---|---|---|---|\n|\n\n[Nvidia (NASDAQ:NVDA)](https://www.fool.com/quote/nasdaq/nvda/)[Microsoft (NASDAQ:MSFT)](https://www.fool.com/quote/nasdaq/msft/)[Amazon (NASDAQ:AMZN)](https://www.fool.com/quote/nasdaq/amzn/)[Alphabet (NASDAQ:GOOG)](https://www.fool.com/quote/nasdaq/goog/)[Meta Platforms (NASDAQ:META)](https://www.fool.com/quote/nasdaq/meta/)[Berkshire Hathaway (NYSE:BRK.A)](https://www.fool.com/quote/nyse/brk.a/)[Tesla (NASDAQ:TSLA)](https://www.fool.com/quote/nasdaq/tsla/)[Taiwan Semiconductor Manufacturing (NYSE:TSM)](https://www.fool.com/quote/nyse/tsm/)[Broadcom (NASDAQ:AVGO)](https://www.fool.com/quote/nasdaq/avgo/)[Eli Lilly (NYSE:LLY)](https://www.fool.com/quote/nyse/lly/)[Walmart (NYSE:WMT)](https://www.fool.com/quote/nyse/wmt/)[JPMorgan Chase (NYSE:JPM)](https://www.fool.com/quote/nyse/jpm/)[Visa (NYSE:V)](https://www.fool.com/quote/nyse/v/)[Tencent (OTC:TCEHY)](https://www.fool.com/quote/otc/tcehy/)[Mastercard (NYSE:MA)](https://www.fool.com/quote/nyse/ma/)[ExxonMobil (NYSE:XOM)](https://www.fool.com/quote/nyse/xom/)[Costco Wholesale (NASDAQ:COST)](https://www.fool.com/quote/nasdaq/cost/)[Oracle (NYSE:ORCL)](https://www.fool.com/quote/nyse/orcl/)## Companies 1-5\n\n## 1. Apple\n\n\n**…\n\n[Truncated preview: showing 185 words out of ~2482. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://companiesmarketcap.com/",
+      "url": "https://companiesmarketcap.com/",
+      "fact": "Apple is currently the world's most valuable company with a market cap of $3.9 trillion."
+    },
+    {
+      "title": "https://companiesmarketcap.com/",
+      "url": "https://companiesmarketcap.com/",
+      "fact": "Nvidia is the second most valuable company with a market cap of $3.4 trillion."
+    },
+    {
+      "title": "https://companiesmarketcap.com/",
+      "url": "https://companiesmarketcap.com/",
+      "fact": "The CompaniesMarketCap website ranks companies based on their market capitalization, which is the key metric for resolving the question."
+    },
+    {
+      "title": "https://companiesmarketcap.com/",
+      "url": "https://companiesmarketcap.com/",
+      "fact": "The list on CompaniesMarketCap.com does not include private companies, focusing solely on public companies."
+    },
+    {
+      "title": "https://companiesmarketcap.com/",
+      "url": "https://companiesmarketcap.com/",
+      "fact": "The rankings reflect completed stock market trading, which will be relevant for determining the market cap on March 28, 2025."
+    },
+    {
+      "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "fact": "Apple Inc. has a market cap of $3.21 trillion, leading the current rankings."
+    },
+    {
+      "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "fact": "Nvidia Corporation follows with a market cap of $2.92 trillion."
+    },
+    {
+      "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "fact": "Microsoft Corporation has a market cap of $2.89 trillion."
+    },
+    {
+      "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "fact": "Alphabet Inc. has a market cap of $2.02 trillion."
+    },
+    {
+      "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+      "fact": "Amazon.com, Inc. has a market cap of $2.07 trillion."
+    },
+    {
+      "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "fact": "As of March 3, 2025, Apple has a market cap of $3.63 trillion, making it the largest company by market cap."
+    },
+    {
+      "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "fact": "Nvidia, with a market cap of $3.05 trillion as of March 3, 2025, has experienced significant growth due to the AI boom, although it recently faced a large one-day loss."
+    },
+    {
+      "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "fact": "Microsoft has a market cap of $2.95 trillion as of March 3, 2025, and is heavily investing in AI technology, including an $80 billion investment in AI-enabled data centers."
+    },
+    {
+      "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "fact": "Amazon's market cap is $2.25 trillion as of March 3, 2025, and it is currently dealing with an ongoing antitrust lawsuit."
+    },
+    {
+      "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+      "fact": "Saudi Arabian Oil (Saudi Aramco) is the largest company outside the top five, with a market cap of $1.79 trillion as of February 3, 2025, but it is heavily dependent on oil prices."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.4010507031510863,
+  "brier_score": 0.010000000000000002,
+  "weighted_brier_score": 0.004010507031510864,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "c5e8531a-2d59-5fee-9396-d9bbd99770f0",
+        "queries": [
+          "current largest companies by market cap March 2025",
+          "recent news about top market cap companies March 2025",
+          "predictions for most valuable company by market cap 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"queries\": [\"current largest companies by market cap March 2025\", \"recent news about top market cap companies March 2025\", \"predictions for most valuable company by market cap 2025\"]}",
+      "tool_call_id": "call_f0yfbbPfD9y1ClEdawnMTQkf"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "current largest companies by market cap March 2025",
+        "results": [
+          {
+            "title": "Companies ranked by Market Cap - CompaniesMarketCap.com",
+            "link": "https://companiesmarketcap.com/",
+            "position": 1,
+            "snippet": "This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies.",
+            "date": null
+          },
+          {
+            "title": "Largest Companies by Market Cap in 2025 | AlphaSense",
+            "link": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "position": 2,
+            "snippet": "Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies.",
+            "date": null
+          },
+          {
+            "title": "List of public corporations by market capitalization - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
+            "position": 3,
+            "snippet": "The list includes companies like Nvidia, Microsoft, Saudi Aramco, Amazon, Alphabet, Meta, Tesla, PetroChina, Broadcom, TSMC, and Berkshire Hathaway that have had market caps exceeding $1 trillion. This list is updated as of December 2024...",
+            "date": null
+          },
+          {
+            "title": "Largest Companies In The World - Global Finance Magazine",
+            "link": "https://gfmag.com/data/biggest-company-in-the-world/",
+            "position": 4,
+            "snippet": "As of September 3, 2024, Apple was still the king of the stock exchanges, closely followed by Microsoft. Incidentally, that was also the day when, amid a stock selloff, Nvidia lost $279 billion in market value...",
+            "date": null
+          },
+          {
+            "title": "Captcha",
+            "link": "https://www.financecharts.com/screener/biggest",
+            "position": 5,
+            "snippet": "I am sorry, but I cannot provide a snippet for this query as the content does not contain relevant information about companies by market cap.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"current largest companies by market cap March 2025\", \"results\": [{\"title\": \"Companies ranked by Market Cap - CompaniesMarketCap.com\", \"link\": \"https://companiesmarketcap.com/\", \"position\": 1, \"snippet\": \"This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies.\", \"date\": null}, {\"title\": \"Largest Companies by Market Cap in 2025 | AlphaSense\", \"link\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"position\": 2, \"snippet\": \"Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\", \"date\": null}, {\"title\": \"List of public corporations by market capitalization - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization\", \"position\": 3, \"snippet\": \"The list includes companies like Nvidia, Microsoft, Saudi Aramco, Amazon, Alphabet, Meta, Tesla, PetroChina, Broadcom, TSMC, and Berkshire Hathaway that have had market caps exceeding $1 trillion. This list is updated as of December 2024...\", \"date\": null}, {\"title\": \"Largest Companies In The World - Global Finance Magazine\", \"link\": \"https://gfmag.com/data/biggest-company-in-the-world/\", \"position\": 4, \"snippet\": \"As of September 3, 2024, Apple was still the king of the stock exchanges, closely followed by Microsoft. Incidentally, that was also the day when, amid a stock selloff, Nvidia lost $279 billion in market value...\", \"date\": null}, {\"title\": \"Captcha\", \"link\": \"https://www.financecharts.com/screener/biggest\", \"position\": 5, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the content does not contain relevant information about companies by market cap.\", \"date\": null}]}",
+      "tool_call_id": "call_a421FQyoInaQXkulUZNwaeV6"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "recent news about top market cap companies March 2025",
+        "results": [
+          {
+            "title": "The Largest Companies by Market Cap in 2025 | The Motley Fool",
+            "link": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "position": 2,
+            "snippet": "Apple and Nvidia top the list of the biggest companies by market capitalization. Read on to see the 20 most valuable companies and where they stand as of March 2025.",
+            "date": null
+          },
+          {
+            "title": "Companies ranked by Market Cap - CompaniesMarketCap.com",
+            "link": "https://companiesmarketcap.com/",
+            "position": 3,
+            "snippet": "I am sorry, but I cannot provide a snippet for this query as the provided content is outdated and does not contain the requested information.",
+            "date": null
+          },
+          {
+            "title": "Largest Companies by Market Cap in 2025 | AlphaSense",
+            "link": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "position": 5,
+            "snippet": "Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies.",
+            "date": null
+          },
+          {
+            "title": "Global Top 100 public companies by market capitalisation - PwC UK",
+            "link": "https://www.pwc.co.uk/services/audit/insights/global-top-100-companies.html",
+            "position": 2,
+            "snippet": "The Top 100 have already experienced this effect, rising to an all time high of $40tn by 31 March 2024, now standing at almost double the value of the Top 100 at 31 March 2019...",
+            "date": null
+          },
+          {
+            "title": "List of public corporations by market capitalization - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
+            "position": 3,
+            "snippet": "Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares. The list below includes companies that have had a market capitalization in excess of $1 trillion, updated as of December 31, 2024.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"recent news about top market cap companies March 2025\", \"results\": [{\"title\": \"The Largest Companies by Market Cap in 2025 | The Motley Fool\", \"link\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"position\": 2, \"snippet\": \"Apple and Nvidia top the list of the biggest companies by market capitalization. Read on to see the 20 most valuable companies and where they stand as of March 2025.\", \"date\": null}, {\"title\": \"Companies ranked by Market Cap - CompaniesMarketCap.com\", \"link\": \"https://companiesmarketcap.com/\", \"position\": 3, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the provided content is outdated and does not contain the requested information.\", \"date\": null}, {\"title\": \"Largest Companies by Market Cap in 2025 | AlphaSense\", \"link\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"position\": 5, \"snippet\": \"Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\", \"date\": null}, {\"title\": \"Global Top 100 public companies by market capitalisation - PwC UK\", \"link\": \"https://www.pwc.co.uk/services/audit/insights/global-top-100-companies.html\", \"position\": 2, \"snippet\": \"The Top 100 have already experienced this effect, rising to an all time high of $40tn by 31 March 2024, now standing at almost double the value of the Top 100 at 31 March 2019...\", \"date\": null}, {\"title\": \"List of public corporations by market capitalization - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization\", \"position\": 3, \"snippet\": \"Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares. The list below includes companies that have had a market capitalization in excess of $1 trillion, updated as of December 31, 2024.\", \"date\": null}]}",
+      "tool_call_id": "call_OZIVtFX8aLTqFOT2ILiGpF0A"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "predictions for most valuable company by market cap 2025",
+        "results": [
+          {
+            "title": "The Largest Companies by Market Cap in 2025 | The Motley Fool",
+            "link": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "position": 1,
+            "snippet": "Apple and Nvidia top the list of the biggest companies by market capitalization. Apple currently tops the list of the largest companies in the world.",
+            "date": null
+          },
+          {
+            "title": "Companies ranked by Market Cap - CompaniesMarketCap.com",
+            "link": "https://companiesmarketcap.com/",
+            "position": 3,
+            "snippet": "This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies.",
+            "date": null
+          },
+          {
+            "title": "Largest Companies by Market Cap in 2025 | AlphaSense",
+            "link": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "position": 4,
+            "snippet": "Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies.",
+            "date": null
+          },
+          {
+            "title": "Top 10 Largest US Companies (2023) - Hantec Markets",
+            "link": "https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/",
+            "position": 5,
+            "snippet": "The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)...",
+            "date": null
+          },
+          {
+            "title": "Top 10 Largest US Companies (2023) - Hantec Markets",
+            "link": "https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/",
+            "position": 1,
+            "snippet": "The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)...",
+            "date": null
+          },
+          {
+            "title": "List of public corporations by market capitalization - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
+            "position": 3,
+            "snippet": "Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares on that day. The list is expressed in USD millions, using exchange rates from the selected day to convert other currencies.",
+            "date": null
+          },
+          {
+            "title": "The 10 Most Valuable Companies in the World By Market Cap | Investing | U.S. News",
+            "link": "https://money.usnews.com/investing/articles/most-valuable-companies-in-the-world-by-market-cap",
+            "position": 4,
+            "snippet": "Apple and Microsoft continue to fight for the top spot while artificial intelligence explodes valuations. Here are 2024's 10 most valuable companies in the world by market capitalization...",
+            "date": null
+          },
+          {
+            "title": "Top Large Cap Stocks to Watch in 2025 | IG International",
+            "link": "https://www.ig.com/en/trading-strategies/best-large-cap-stocks-to-watch-in-2025-250115",
+            "position": 5,
+            "snippet": "Apple is the world’s most valuable company by market capitalisation, and for good reason. It enjoys a global presence, selling high quality hardware including the iPhone, iPad, and Mac computers...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"predictions for most valuable company by market cap 2025\", \"results\": [{\"title\": \"The Largest Companies by Market Cap in 2025 | The Motley Fool\", \"link\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"position\": 1, \"snippet\": \"Apple and Nvidia top the list of the biggest companies by market capitalization. Apple currently tops the list of the largest companies in the world.\", \"date\": null}, {\"title\": \"Companies ranked by Market Cap - CompaniesMarketCap.com\", \"link\": \"https://companiesmarketcap.com/\", \"position\": 3, \"snippet\": \"This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies.\", \"date\": null}, {\"title\": \"Largest Companies by Market Cap in 2025 | AlphaSense\", \"link\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"position\": 4, \"snippet\": \"Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\", \"date\": null}, {\"title\": \"Top 10 Largest US Companies (2023) - Hantec Markets\", \"link\": \"https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/\", \"position\": 5, \"snippet\": \"The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)...\", \"date\": null}, {\"title\": \"Top 10 Largest US Companies (2023) - Hantec Markets\", \"link\": \"https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/\", \"position\": 1, \"snippet\": \"The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)...\", \"date\": null}, {\"title\": \"List of public corporations by market capitalization - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization\", \"position\": 3, \"snippet\": \"Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares on that day. The list is expressed in USD millions, using exchange rates from the selected day to convert other currencies.\", \"date\": null}, {\"title\": \"The 10 Most Valuable Companies in the World By Market Cap | Investing | U.S. News\", \"link\": \"https://money.usnews.com/investing/articles/most-valuable-companies-in-the-world-by-market-cap\", \"position\": 4, \"snippet\": \"Apple and Microsoft continue to fight for the top spot while artificial intelligence explodes valuations. Here are 2024's 10 most valuable companies in the world by market capitalization...\", \"date\": null}, {\"title\": \"Top Large Cap Stocks to Watch in 2025 | IG International\", \"link\": \"https://www.ig.com/en/trading-strategies/best-large-cap-stocks-to-watch-in-2025-250115\", \"position\": 5, \"snippet\": \"Apple is the world\\u2019s most valuable company by market capitalisation, and for good reason. It enjoys a global presence, selling high quality hardware including the iPhone, iPad, and Mac computers...\", \"date\": null}]}",
+      "tool_call_id": "call_Yt13dJDyQ726Vr1AcjS6ReRl"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://companiesmarketcap.com/",
+        "snippet": "---\ntitle: Companies ranked by Market Cap - CompaniesMarketCap.com\nurl: https://companiesmarketcap.com/\nhostname: companiesmarketcap.com\ndescription: Ranking the world's top companies by market cap, market value, revenue and many more metrics\nsitename: CompaniesMarketCap.com\ndate: 2024-01-01\n---\nThis is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies. Private companies are not included in our lists as it is difficult to calculate their market value and know their financials.",
+        "word_count": 74,
+        "snippet_word_count": 74,
+        "snippet_truncated": false,
+        "date_cutoff_start": "2025-02-21T14:26:33.726845",
+        "date_cutoff_end": "2025-03-22T14:26:33.726845",
+        "cached_at": "2025-10-24T14:15:30.095775"
+      },
+      "raw": "{\"url\": \"https://companiesmarketcap.com/\", \"snippet\": \"---\\ntitle: Companies ranked by Market Cap - CompaniesMarketCap.com\\nurl: https://companiesmarketcap.com/\\nhostname: companiesmarketcap.com\\ndescription: Ranking the world's top companies by market cap, market value, revenue and many more metrics\\nsitename: CompaniesMarketCap.com\\ndate: 2024-01-01\\n---\\nThis is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies. Private companies are not included in our lists as it is difficult to calculate their market value and know their financials.\", \"word_count\": 74, \"snippet_word_count\": 74, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T14:26:33.726845\", \"date_cutoff_end\": \"2025-03-22T14:26:33.726845\", \"cached_at\": \"2025-10-24T14:15:30.095775\"}",
+      "tool_call_id": "call_KwUINMVvE0sx0jS5JPhT1FmD"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+        "snippet": "---\ntitle: Largest Companies by Market Cap in 2025 | AlphaSense\nauthor: Jwalker\nurl: https://www.alpha-sense.com/largest-companies-by-market-cap/\nhostname: alpha-sense.com\ndescription: Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world’s biggest companies.\nsitename: AlphaSense\ndate: 2024-12-04\n---\n| Company Name | Market Cap | Revenue | Net Income | EPS | Employees | Sentiment |\n|---|---|---|---|---|---|---|\nLATAM Airlines Group S.A.LTM |\n9.60 B | 12.83 B | 903.72 M | 0.001495 | 38,663 | 39+0 |\nTaiwan Semiconductor Manufacturing Company LimitedTSM |\n763.31 B | 2.89 T | 1.17 T | 45.25 | 76,478 | -6+5 |\nBanco Santander-ChileBSAC |\n10.89 B | 2.60 T | 852.96 B | 4.526 | 8,757 | 24-9 |\nApple Inc.AAPL |\n3.21 T | 395.76 B | 93.74 B | 6.08 | 164,000 | 40-1 |\nBanco de ChileBCH |\n14.14 B | 3.04 T | 1.21 T | 11.95 | 11,614 | 36-63 |\nNVIDIA CorporationNVDA |\n2.92 T | 130.50 B | 72.88 B | 2.94 | 36,000 | 26-10 |\nMicrosoft CorporationMSFT |\n2.89 T | 261.80 B | 88.14 B | 11.8 | 228,000 | 26-16 |\nAlibaba Group Holding LimitedBABA |\n331.23 B | 981.77 B | 80.01 B | 3.91 | 194,320 | 92+39 |\nToyota Motor CorporationTM |\n242.65 B | 46.75 T | 4.94 T | 365.94 | 380,793 | -40-8 |\nAmazon.com, Inc.AMZN |\n2.07 T | 637.96 B | 59.25 B | 5.53 | 1,556,000 | 63-23 |\nAlphabet Inc.GOOGL |\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\nAlphabet Inc.GOOG |\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\nMeta Platforms, Inc.META |\n1.53 T | 164.50 B | 62.36 B | 23.86 | 74,067 | 4-52 |\nPerusahaan Perseroan (Persero) PT Telekomunikasi Indonesia TbkTLK |\n14.68 B | 150.20 T | 24.43 T | 246.58 | 19,456 | -14-29 |\nBerkshire Hathaway Inc.BRK-B |\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\nBerkshire Hathaway Inc.BRK-A |\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\nHSBC Holdings plcHSBC |\n200.44 B | 67.40 B | 23.98 B | 1.24 | 211,000 | -9-24 |\nBroadcom Inc.AVGO |\n914.53 B | 54.53 B | 5.90 B | 1.23 | 37,000 | -8-20 |\nAmérica Móvil, S.A.B. de C.V.AMX |\n43.71 B | 869.22 B | 28.31 B | 0.464066 | 176,083 | -23-12 |\nEli Lilly and CompanyLLY |\n740.77 B | 45.04 B | 10.59 B | 11.71 | 47,000 | 13-14 |\nTesla, Inc.TSLA |\n765.56 B | 97.69 B | 7.13 B | 2.04 | 125,665 | -40-31 |\nPDD Holdings Inc.PDD |\n179.01 B | 372.11 B | 60.03 B | -6.04 | 17,403 | -7+42 |\nWalmart Inc.WMT |\n701.15 B | 680.99 B | 19.44 B | 2.41 | 2,100,000 | 94+37 |\nJPMorgan Chase & Co.JPM |\n654.09 B | 169.44 B | 58.47 B | 19.75 | 317,233…\n\n[Truncated preview: showing 521 words out of ~1866. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1866,
+        "snippet_word_count": 521,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-21T14:26:33.726845",
+        "date_cutoff_end": "2025-03-22T14:26:33.726845",
+        "cached_at": "2025-10-24T14:15:30.661401"
+      },
+      "raw": "{\"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"snippet\": \"---\\ntitle: Largest Companies by Market Cap in 2025 | AlphaSense\\nauthor: Jwalker\\nurl: https://www.alpha-sense.com/largest-companies-by-market-cap/\\nhostname: alpha-sense.com\\ndescription: Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\\nsitename: AlphaSense\\ndate: 2024-12-04\\n---\\n| Company Name | Market Cap | Revenue | Net Income | EPS | Employees | Sentiment |\\n|---|---|---|---|---|---|---|\\nLATAM Airlines Group S.A.LTM |\\n9.60 B | 12.83 B | 903.72 M | 0.001495 | 38,663 | 39+0 |\\nTaiwan Semiconductor Manufacturing Company LimitedTSM |\\n763.31 B | 2.89 T | 1.17 T | 45.25 | 76,478 | -6+5 |\\nBanco Santander-ChileBSAC |\\n10.89 B | 2.60 T | 852.96 B | 4.526 | 8,757 | 24-9 |\\nApple Inc.AAPL |\\n3.21 T | 395.76 B | 93.74 B | 6.08 | 164,000 | 40-1 |\\nBanco de ChileBCH |\\n14.14 B | 3.04 T | 1.21 T | 11.95 | 11,614 | 36-63 |\\nNVIDIA CorporationNVDA |\\n2.92 T | 130.50 B | 72.88 B | 2.94 | 36,000 | 26-10 |\\nMicrosoft CorporationMSFT |\\n2.89 T | 261.80 B | 88.14 B | 11.8 | 228,000 | 26-16 |\\nAlibaba Group Holding LimitedBABA |\\n331.23 B | 981.77 B | 80.01 B | 3.91 | 194,320 | 92+39 |\\nToyota Motor CorporationTM |\\n242.65 B | 46.75 T | 4.94 T | 365.94 | 380,793 | -40-8 |\\nAmazon.com, Inc.AMZN |\\n2.07 T | 637.96 B | 59.25 B | 5.53 | 1,556,000 | 63-23 |\\nAlphabet Inc.GOOGL |\\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\\nAlphabet Inc.GOOG |\\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\\nMeta Platforms, Inc.META |\\n1.53 T | 164.50 B | 62.36 B | 23.86 | 74,067 | 4-52 |\\nPerusahaan Perseroan (Persero) PT Telekomunikasi Indonesia TbkTLK |\\n14.68 B | 150.20 T | 24.43 T | 246.58 | 19,456 | -14-29 |\\nBerkshire Hathaway Inc.BRK-B |\\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\\nBerkshire Hathaway Inc.BRK-A |\\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\\nHSBC Holdings plcHSBC |\\n200.44 B | 67.40 B | 23.98 B | 1.24 | 211,000 | -9-24 |\\nBroadcom Inc.AVGO |\\n914.53 B | 54.53 B | 5.90 B | 1.23 | 37,000 | -8-20 |\\nAm\\u00e9rica M\\u00f3vil, S.A.B. de C.V.AMX |\\n43.71 B | 869.22 B | 28.31 B | 0.464066 | 176,083 | -23-12 |\\nEli Lilly and CompanyLLY |\\n740.77 B | 45.04 B | 10.59 B | 11.71 | 47,000 | 13-14 |\\nTesla, Inc.TSLA |\\n765.56 B | 97.69 B | 7.13 B | 2.04 | 125,665 | -40-31 |\\nPDD Holdings Inc.PDD |\\n179.01 B | 372.11 B | 60.03 B | -6.04 | 17,403 | -7+42 |\\nWalmart Inc.WMT |\\n701.15 B | 680.99 B | 19.44 B | 2.41 | 2,100,000 | 94+37 |\\nJPMorgan Chase & Co.JPM |\\n654.09 B | 169.44 B | 58.47 B | 19.75 | 317,233\\u2026\\n\\n[Truncated preview: showing 521 words out of ~1866. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1866, \"snippet_word_count\": 521, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T14:26:33.726845\", \"date_cutoff_end\": \"2025-03-22T14:26:33.726845\", \"cached_at\": \"2025-10-24T14:15:30.661401\"}",
+      "tool_call_id": "call_Sra8AsITmQNZPU13wM9ChBTP"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+        "snippet": "---\ntitle: The Largest Companies by Market Cap in 2025 | The Motley Fool\nauthor: Lyle Daly\nurl: https://www.fool.com/research/largest-companies-by-market-cap/\nhostname: fool.com\ndescription: Apple and Nvidia top the list of the biggest companies by market capitalization.\nsitename: The Motley Fool\ndate: 2023-04-06\n---\n**Apple** ([NASDAQ:AAPL](https://www.fool.com/quote/nasdaq/aapl/)) currently tops the list of the largest companies in the world. **Nvidia** ([NASDAQ:NVDA](https://www.fool.com/quote/nasdaq/nvda/)), the hottest company of 2024, is currently second after seeing its value skyrocket last year.\n\nEight of the largest companies have a [market cap](https://www.fool.com/investing/how-to-invest/stocks/what-is-market-cap/) of at least $1 trillion. While tech companies dominate the top of the [stock market](https://www.fool.com/investing/stock-market/), there are other sectors represented, including oil, insurance, [medical companies](https://www.fool.com/investing/stock-market/market-sectors/healthcare/medical-device-stocks/), and financial services. Read on to see the 20 most valuable companies and where they stand as of March 2025.\n\n## Largest companies by market cap\n\n## Largest companies by market cap\n\n| Name and ticker | Market cap | Current price | Sector |\n|---|---|---|---|\n|\n\n[Nvidia (NASDAQ:NVDA)](https://www.fool.com/quote/nasdaq/nvda/)[Microsoft (NASDAQ:MSFT)](https://www.fool.com/quote/nasdaq/msft/)[Amazon (NASDAQ:AMZN)](https://www.fool.com/quote/nasdaq/amzn/)[Alphabet (NASDAQ:GOOG)](https://www.fool.com/quote/nasdaq/goog/)[Meta Platforms (NASDAQ:META)](https://www.fool.com/quote/nasdaq/meta/)[Berkshire Hathaway (NYSE:BRK.A)](https://www.fool.com/quote/nyse/brk.a/)[Tesla (NASDAQ:TSLA)](https://www.fool.com/quote/nasdaq/tsla/)[Taiwan Semiconductor Manufacturing (NYSE:TSM)](https://www.fool.com/quote/nyse/tsm/)[Broadcom (NASDAQ:AVGO)](https://www.fool.com/quote/nasdaq/avgo/)[Eli Lilly (NYSE:LLY)](https://www.fool.com/quote/nyse/lly/)[Walmart (NYSE:WMT)](https://www.fool.com/quote/nyse/wmt/)[JPMorgan Chase (NYSE:JPM)](https://www.fool.com/quote/nyse/jpm/)[Visa (NYSE:V)](https://www.fool.com/quote/nyse/v/)[Tencent (OTC:TCEHY)](https://www.fool.com/quote/otc/tcehy/)[Mastercard (NYSE:MA)](https://www.fool.com/quote/nyse/ma/)[ExxonMobil (NYSE:XOM)](https://www.fool.com/quote/nyse/xom/)[Costco Wholesale (NASDAQ:COST)](https://www.fool.com/quote/nasdaq/cost/)[Oracle (NYSE:ORCL)](https://www.fool.com/quote/nyse/orcl/)## Companies 1-5\n\n## 1. Apple\n\n\n**…\n\n[Truncated preview: showing 185 words out of ~2482. Full content available via `btf_extract_evidence`.]",
+        "word_count": 2482,
+        "snippet_word_count": 185,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-21T14:26:33.726845",
+        "date_cutoff_end": "2025-03-22T14:26:33.726845",
+        "cached_at": "2025-10-24T03:11:28.748140"
+      },
+      "raw": "{\"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"snippet\": \"---\\ntitle: The Largest Companies by Market Cap in 2025 | The Motley Fool\\nauthor: Lyle Daly\\nurl: https://www.fool.com/research/largest-companies-by-market-cap/\\nhostname: fool.com\\ndescription: Apple and Nvidia top the list of the biggest companies by market capitalization.\\nsitename: The Motley Fool\\ndate: 2023-04-06\\n---\\n**Apple** ([NASDAQ:AAPL](https://www.fool.com/quote/nasdaq/aapl/)) currently tops the list of the largest companies in the world. **Nvidia** ([NASDAQ:NVDA](https://www.fool.com/quote/nasdaq/nvda/)), the hottest company of 2024, is currently second after seeing its value skyrocket last year.\\n\\nEight of the largest companies have a [market cap](https://www.fool.com/investing/how-to-invest/stocks/what-is-market-cap/) of at least $1 trillion. While tech companies dominate the top of the [stock market](https://www.fool.com/investing/stock-market/), there are other sectors represented, including oil, insurance, [medical companies](https://www.fool.com/investing/stock-market/market-sectors/healthcare/medical-device-stocks/), and financial services. Read on to see the 20 most valuable companies and where they stand as of March 2025.\\n\\n## Largest companies by market cap\\n\\n## Largest companies by market cap\\n\\n| Name and ticker | Market cap | Current price | Sector |\\n|---|---|---|---|\\n|\\n\\n[Nvidia (NASDAQ:NVDA)](https://www.fool.com/quote/nasdaq/nvda/)[Microsoft (NASDAQ:MSFT)](https://www.fool.com/quote/nasdaq/msft/)[Amazon (NASDAQ:AMZN)](https://www.fool.com/quote/nasdaq/amzn/)[Alphabet (NASDAQ:GOOG)](https://www.fool.com/quote/nasdaq/goog/)[Meta Platforms (NASDAQ:META)](https://www.fool.com/quote/nasdaq/meta/)[Berkshire Hathaway (NYSE:BRK.A)](https://www.fool.com/quote/nyse/brk.a/)[Tesla (NASDAQ:TSLA)](https://www.fool.com/quote/nasdaq/tsla/)[Taiwan Semiconductor Manufacturing (NYSE:TSM)](https://www.fool.com/quote/nyse/tsm/)[Broadcom (NASDAQ:AVGO)](https://www.fool.com/quote/nasdaq/avgo/)[Eli Lilly (NYSE:LLY)](https://www.fool.com/quote/nyse/lly/)[Walmart (NYSE:WMT)](https://www.fool.com/quote/nyse/wmt/)[JPMorgan Chase (NYSE:JPM)](https://www.fool.com/quote/nyse/jpm/)[Visa (NYSE:V)](https://www.fool.com/quote/nyse/v/)[Tencent (OTC:TCEHY)](https://www.fool.com/quote/otc/tcehy/)[Mastercard (NYSE:MA)](https://www.fool.com/quote/nyse/ma/)[ExxonMobil (NYSE:XOM)](https://www.fool.com/quote/nyse/xom/)[Costco Wholesale (NASDAQ:COST)](https://www.fool.com/quote/nasdaq/cost/)[Oracle (NYSE:ORCL)](https://www.fool.com/quote/nyse/orcl/)## Companies 1-5\\n\\n## 1. Apple\\n\\n\\n**\\u2026\\n\\n[Truncated preview: showing 185 words out of ~2482. Full content available via `btf_extract_evidence`.]\", \"word_count\": 2482, \"snippet_word_count\": 185, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T14:26:33.726845\", \"date_cutoff_end\": \"2025-03-22T14:26:33.726845\", \"cached_at\": \"2025-10-24T03:11:28.748140\"}",
+      "tool_call_id": "call_INuhAy6hUwD36njzqbUvhZrR"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "c5e8531a-2d59-5fee-9396-d9bbd99770f0",
+        "url": "https://companiesmarketcap.com/",
+        "facts": [
+          {
+            "title": "https://companiesmarketcap.com/",
+            "url": "https://companiesmarketcap.com/",
+            "fact": "Apple is currently the world's most valuable company with a market cap of $3.9 trillion."
+          },
+          {
+            "title": "https://companiesmarketcap.com/",
+            "url": "https://companiesmarketcap.com/",
+            "fact": "Nvidia is the second most valuable company with a market cap of $3.4 trillion."
+          },
+          {
+            "title": "https://companiesmarketcap.com/",
+            "url": "https://companiesmarketcap.com/",
+            "fact": "The CompaniesMarketCap website ranks companies based on their market capitalization, which is the key metric for resolving the question."
+          },
+          {
+            "title": "https://companiesmarketcap.com/",
+            "url": "https://companiesmarketcap.com/",
+            "fact": "The list on CompaniesMarketCap.com does not include private companies, focusing solely on public companies."
+          },
+          {
+            "title": "https://companiesmarketcap.com/",
+            "url": "https://companiesmarketcap.com/",
+            "fact": "The rankings reflect completed stock market trading, which will be relevant for determining the market cap on March 28, 2025."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"url\": \"https://companiesmarketcap.com/\", \"facts\": [{\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"Apple is currently the world's most valuable company with a market cap of $3.9 trillion.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"Nvidia is the second most valuable company with a market cap of $3.4 trillion.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"The CompaniesMarketCap website ranks companies based on their market capitalization, which is the key metric for resolving the question.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"The list on CompaniesMarketCap.com does not include private companies, focusing solely on public companies.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"The rankings reflect completed stock market trading, which will be relevant for determining the market cap on March 28, 2025.\"}]}",
+      "tool_call_id": "call_gMfgQXDHTFjQ9GNER0PvyGrr"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "c5e8531a-2d59-5fee-9396-d9bbd99770f0",
+        "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+        "facts": [
+          {
+            "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "fact": "Apple Inc. has a market cap of $3.21 trillion, leading the current rankings."
+          },
+          {
+            "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "fact": "Nvidia Corporation follows with a market cap of $2.92 trillion."
+          },
+          {
+            "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "fact": "Microsoft Corporation has a market cap of $2.89 trillion."
+          },
+          {
+            "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "fact": "Alphabet Inc. has a market cap of $2.02 trillion."
+          },
+          {
+            "title": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "url": "https://www.alpha-sense.com/largest-companies-by-market-cap/",
+            "fact": "Amazon.com, Inc. has a market cap of $2.07 trillion."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"facts\": [{\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Apple Inc. has a market cap of $3.21 trillion, leading the current rankings.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Nvidia Corporation follows with a market cap of $2.92 trillion.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Microsoft Corporation has a market cap of $2.89 trillion.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Alphabet Inc. has a market cap of $2.02 trillion.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Amazon.com, Inc. has a market cap of $2.07 trillion.\"}]}",
+      "tool_call_id": "call_OgBbQ2OEKPlH9ROnf7m6HMgj"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "c5e8531a-2d59-5fee-9396-d9bbd99770f0",
+        "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+        "facts": [
+          {
+            "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "fact": "As of March 3, 2025, Apple has a market cap of $3.63 trillion, making it the largest company by market cap."
+          },
+          {
+            "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "fact": "Nvidia, with a market cap of $3.05 trillion as of March 3, 2025, has experienced significant growth due to the AI boom, although it recently faced a large one-day loss."
+          },
+          {
+            "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "fact": "Microsoft has a market cap of $2.95 trillion as of March 3, 2025, and is heavily investing in AI technology, including an $80 billion investment in AI-enabled data centers."
+          },
+          {
+            "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "fact": "Amazon's market cap is $2.25 trillion as of March 3, 2025, and it is currently dealing with an ongoing antitrust lawsuit."
+          },
+          {
+            "title": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "url": "https://www.fool.com/research/largest-companies-by-market-cap/",
+            "fact": "Saudi Arabian Oil (Saudi Aramco) is the largest company outside the top five, with a market cap of $1.79 trillion as of February 3, 2025, but it is heavily dependent on oil prices."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"facts\": [{\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"As of March 3, 2025, Apple has a market cap of $3.63 trillion, making it the largest company by market cap.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Nvidia, with a market cap of $3.05 trillion as of March 3, 2025, has experienced significant growth due to the AI boom, although it recently faced a large one-day loss.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Microsoft has a market cap of $2.95 trillion as of March 3, 2025, and is heavily investing in AI technology, including an $80 billion investment in AI-enabled data centers.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Amazon's market cap is $2.25 trillion as of March 3, 2025, and it is currently dealing with an ongoing antitrust lawsuit.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Saudi Arabian Oil (Saudi Aramco) is the largest company outside the top five, with a market cap of $1.79 trillion as of February 3, 2025, but it is heavily dependent on oil prices.\"}]}",
+      "tool_call_id": "call_ZrsfPoKfwcISWxFXlBKZv0pH"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon be the world's most valuable company by market cap on March 29, 2025?\nBackground: At the time of this question, the world's most valuable companies by market capitalization are led by Apple ($3.9 trillion), followed by Nvidia ($3.4 trillion), with Microsoft, Alphabet, and Amazon rounding out the top ranks. While these companies currently dominate, market dynamics could allow another company to rise to the top position. On March 29, 2025 (a Saturday), market caps will likely reflect completed stock market trading on March 28, 2025.\nResolution criteria: This question resolves as YES if any company OTHER than Apple, Microsoft, Nvidia, Alphabet, or Amazon has the highest market capitalization shown by the CompaniesMarketCap website on March 29, 2025. It resolves as NO if any of these five named companies has the highest market capitalization on that date.\nFine print: In theory a company's market capitalization [is defined](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) as the stock price multiplied by the number of outstanding shares. However, in practice the market cap figure can vary based on the source (typically due to disagreement over the number of outstanding shares). Therefore, the primary resolution source for this question will be https://companiesmarketcap.com/ regardless of what is shown at other sources. In the event of the primary source being down, the secondary source will be a manual calculation by multiplying the stock price by the number of outstanding shares shown on the most recent 10-Q or 10-K filing.\npresent_date: 2025-03-21T14:26:33.726845\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_f0yfbbPfD9y1ClEdawnMTQkf",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon be the world's most valuable company by market cap on March 29, 2025?\",\"background\":\"At the time of this question, the world's most valuable companies by market capitalization are led by Apple ($3.9 trillion), followed by Nvidia ($3.4 trillion), with Microsoft, Alphabet, and Amazon rounding out the top ranks. While these companies currently dominate, market dynamics could allow another company to rise to the top position. On March 29, 2025 (a Saturday), market caps will likely reflect completed stock market trading on March 28, 2025.\",\"resolution_criteria\":\"This question resolves as YES if any company OTHER than Apple, Microsoft, Nvidia, Alphabet, or Amazon has the highest market capitalization shown by the CompaniesMarketCap website on March 29, 2025. It resolves as NO if any of these five named companies has the highest market capitalization on that date.\",\"fine_print\":\"In theory a company's market capitalization [is defined](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) as the stock price multiplied by the number of outstanding shares. However, in practice the market cap figure can vary based on the source (typically due to disagreement over the number of outstanding shares). Therefore, the primary resolution source for this question will be https://companiesmarketcap.com/ regardless of what is shown at other sources. In the event of the primary source being down, the secondary source will be a manual calculation by multiplying the stock price by the number of outstanding shares shown on the most recent 10-Q or 10-K filing.\",\"present_date\":\"2025-03-21T14:26:33.726845\",\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"queries\": [\"current largest companies by market cap March 2025\", \"recent news about top market cap companies March 2025\", \"predictions for most valuable company by market cap 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_f0yfbbPfD9y1ClEdawnMTQkf"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_a421FQyoInaQXkulUZNwaeV6",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"current largest companies by market cap March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_OZIVtFX8aLTqFOT2ILiGpF0A",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"recent news about top market cap companies March 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_Yt13dJDyQ726Vr1AcjS6ReRl",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"predictions for most valuable company by market cap 2025\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"current largest companies by market cap March 2025\", \"results\": [{\"title\": \"Companies ranked by Market Cap - CompaniesMarketCap.com\", \"link\": \"https://companiesmarketcap.com/\", \"position\": 1, \"snippet\": \"This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies.\", \"date\": null}, {\"title\": \"Largest Companies by Market Cap in 2025 | AlphaSense\", \"link\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"position\": 2, \"snippet\": \"Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\", \"date\": null}, {\"title\": \"List of public corporations by market capitalization - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization\", \"position\": 3, \"snippet\": \"The list includes companies like Nvidia, Microsoft, Saudi Aramco, Amazon, Alphabet, Meta, Tesla, PetroChina, Broadcom, TSMC, and Berkshire Hathaway that have had market caps exceeding $1 trillion. This list is updated as of December 2024...\", \"date\": null}, {\"title\": \"Largest Companies In The World - Global Finance Magazine\", \"link\": \"https://gfmag.com/data/biggest-company-in-the-world/\", \"position\": 4, \"snippet\": \"As of September 3, 2024, Apple was still the king of the stock exchanges, closely followed by Microsoft. Incidentally, that was also the day when, amid a stock selloff, Nvidia lost $279 billion in market value...\", \"date\": null}, {\"title\": \"Captcha\", \"link\": \"https://www.financecharts.com/screener/biggest\", \"position\": 5, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the content does not contain relevant information about companies by market cap.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_a421FQyoInaQXkulUZNwaeV6"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"recent news about top market cap companies March 2025\", \"results\": [{\"title\": \"The Largest Companies by Market Cap in 2025 | The Motley Fool\", \"link\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"position\": 2, \"snippet\": \"Apple and Nvidia top the list of the biggest companies by market capitalization. Read on to see the 20 most valuable companies and where they stand as of March 2025.\", \"date\": null}, {\"title\": \"Companies ranked by Market Cap - CompaniesMarketCap.com\", \"link\": \"https://companiesmarketcap.com/\", \"position\": 3, \"snippet\": \"I am sorry, but I cannot provide a snippet for this query as the provided content is outdated and does not contain the requested information.\", \"date\": null}, {\"title\": \"Largest Companies by Market Cap in 2025 | AlphaSense\", \"link\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"position\": 5, \"snippet\": \"Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\", \"date\": null}, {\"title\": \"Global Top 100 public companies by market capitalisation - PwC UK\", \"link\": \"https://www.pwc.co.uk/services/audit/insights/global-top-100-companies.html\", \"position\": 2, \"snippet\": \"The Top 100 have already experienced this effect, rising to an all time high of $40tn by 31 March 2024, now standing at almost double the value of the Top 100 at 31 March 2019...\", \"date\": null}, {\"title\": \"List of public corporations by market capitalization - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization\", \"position\": 3, \"snippet\": \"Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares. The list below includes companies that have had a market capitalization in excess of $1 trillion, updated as of December 31, 2024.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_OZIVtFX8aLTqFOT2ILiGpF0A"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"predictions for most valuable company by market cap 2025\", \"results\": [{\"title\": \"The Largest Companies by Market Cap in 2025 | The Motley Fool\", \"link\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"position\": 1, \"snippet\": \"Apple and Nvidia top the list of the biggest companies by market capitalization. Apple currently tops the list of the largest companies in the world.\", \"date\": null}, {\"title\": \"Companies ranked by Market Cap - CompaniesMarketCap.com\", \"link\": \"https://companiesmarketcap.com/\", \"position\": 3, \"snippet\": \"This is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies.\", \"date\": null}, {\"title\": \"Largest Companies by Market Cap in 2025 | AlphaSense\", \"link\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"position\": 4, \"snippet\": \"Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\", \"date\": null}, {\"title\": \"Top 10 Largest US Companies (2023) - Hantec Markets\", \"link\": \"https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/\", \"position\": 5, \"snippet\": \"The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)...\", \"date\": null}, {\"title\": \"Top 10 Largest US Companies (2023) - Hantec Markets\", \"link\": \"https://hmarkets.com/blog/top-10-largest-us-companies-by-market-capitalisation/\", \"position\": 1, \"snippet\": \"The ten largest US companies by market capitalization as of June 2023 are Apple ($2908 billion) and Microsoft ($2577 billion)...\", \"date\": null}, {\"title\": \"List of public corporations by market capitalization - Wikipedia\", \"link\": \"https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization\", \"position\": 3, \"snippet\": \"Market capitalization is calculated by multiplying the share price on a selected day and the number of outstanding shares on that day. The list is expressed in USD millions, using exchange rates from the selected day to convert other currencies.\", \"date\": null}, {\"title\": \"The 10 Most Valuable Companies in the World By Market Cap | Investing | U.S. News\", \"link\": \"https://money.usnews.com/investing/articles/most-valuable-companies-in-the-world-by-market-cap\", \"position\": 4, \"snippet\": \"Apple and Microsoft continue to fight for the top spot while artificial intelligence explodes valuations. Here are 2024's 10 most valuable companies in the world by market capitalization...\", \"date\": null}, {\"title\": \"Top Large Cap Stocks to Watch in 2025 | IG International\", \"link\": \"https://www.ig.com/en/trading-strategies/best-large-cap-stocks-to-watch-in-2025-250115\", \"position\": 5, \"snippet\": \"Apple is the world\\u2019s most valuable company by market capitalisation, and for good reason. It enjoys a global presence, selling high quality hardware including the iPhone, iPad, and Mac computers...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_Yt13dJDyQ726Vr1AcjS6ReRl"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_KwUINMVvE0sx0jS5JPhT1FmD",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://companiesmarketcap.com/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        },
+        {
+          "id": "call_Sra8AsITmQNZPU13wM9ChBTP",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        },
+        {
+          "id": "call_INuhAy6hUwD36njzqbUvhZrR",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://companiesmarketcap.com/\", \"snippet\": \"---\\ntitle: Companies ranked by Market Cap - CompaniesMarketCap.com\\nurl: https://companiesmarketcap.com/\\nhostname: companiesmarketcap.com\\ndescription: Ranking the world's top companies by market cap, market value, revenue and many more metrics\\nsitename: CompaniesMarketCap.com\\ndate: 2024-01-01\\n---\\nThis is the list of the world's biggest companies by market capitalization. It ranks the most valuable public companies. Private companies are not included in our lists as it is difficult to calculate their market value and know their financials.\", \"word_count\": 74, \"snippet_word_count\": 74, \"snippet_truncated\": false, \"date_cutoff_start\": \"2025-02-21T14:26:33.726845\", \"date_cutoff_end\": \"2025-03-22T14:26:33.726845\", \"cached_at\": \"2025-10-24T14:15:30.095775\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_KwUINMVvE0sx0jS5JPhT1FmD"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"snippet\": \"---\\ntitle: Largest Companies by Market Cap in 2025 | AlphaSense\\nauthor: Jwalker\\nurl: https://www.alpha-sense.com/largest-companies-by-market-cap/\\nhostname: alpha-sense.com\\ndescription: Discover the top companies by market cap, led by giants like Nvidia, Apple and Microsoft. Get daily updated rankings of the world\\u2019s biggest companies.\\nsitename: AlphaSense\\ndate: 2024-12-04\\n---\\n| Company Name | Market Cap | Revenue | Net Income | EPS | Employees | Sentiment |\\n|---|---|---|---|---|---|---|\\nLATAM Airlines Group S.A.LTM |\\n9.60 B | 12.83 B | 903.72 M | 0.001495 | 38,663 | 39+0 |\\nTaiwan Semiconductor Manufacturing Company LimitedTSM |\\n763.31 B | 2.89 T | 1.17 T | 45.25 | 76,478 | -6+5 |\\nBanco Santander-ChileBSAC |\\n10.89 B | 2.60 T | 852.96 B | 4.526 | 8,757 | 24-9 |\\nApple Inc.AAPL |\\n3.21 T | 395.76 B | 93.74 B | 6.08 | 164,000 | 40-1 |\\nBanco de ChileBCH |\\n14.14 B | 3.04 T | 1.21 T | 11.95 | 11,614 | 36-63 |\\nNVIDIA CorporationNVDA |\\n2.92 T | 130.50 B | 72.88 B | 2.94 | 36,000 | 26-10 |\\nMicrosoft CorporationMSFT |\\n2.89 T | 261.80 B | 88.14 B | 11.8 | 228,000 | 26-16 |\\nAlibaba Group Holding LimitedBABA |\\n331.23 B | 981.77 B | 80.01 B | 3.91 | 194,320 | 92+39 |\\nToyota Motor CorporationTM |\\n242.65 B | 46.75 T | 4.94 T | 365.94 | 380,793 | -40-8 |\\nAmazon.com, Inc.AMZN |\\n2.07 T | 637.96 B | 59.25 B | 5.53 | 1,556,000 | 63-23 |\\nAlphabet Inc.GOOGL |\\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\\nAlphabet Inc.GOOG |\\n2.02 T | 350.02 B | 100.12 B | 8.04 | 183,323 | 55+8 |\\nMeta Platforms, Inc.META |\\n1.53 T | 164.50 B | 62.36 B | 23.86 | 74,067 | 4-52 |\\nPerusahaan Perseroan (Persero) PT Telekomunikasi Indonesia TbkTLK |\\n14.68 B | 150.20 T | 24.43 T | 246.58 | 19,456 | -14-29 |\\nBerkshire Hathaway Inc.BRK-B |\\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\\nBerkshire Hathaway Inc.BRK-A |\\n1.13 T | 424.23 B | 89.00 B | 61900 | 392,400 | 0+0 |\\nHSBC Holdings plcHSBC |\\n200.44 B | 67.40 B | 23.98 B | 1.24 | 211,000 | -9-24 |\\nBroadcom Inc.AVGO |\\n914.53 B | 54.53 B | 5.90 B | 1.23 | 37,000 | -8-20 |\\nAm\\u00e9rica M\\u00f3vil, S.A.B. de C.V.AMX |\\n43.71 B | 869.22 B | 28.31 B | 0.464066 | 176,083 | -23-12 |\\nEli Lilly and CompanyLLY |\\n740.77 B | 45.04 B | 10.59 B | 11.71 | 47,000 | 13-14 |\\nTesla, Inc.TSLA |\\n765.56 B | 97.69 B | 7.13 B | 2.04 | 125,665 | -40-31 |\\nPDD Holdings Inc.PDD |\\n179.01 B | 372.11 B | 60.03 B | -6.04 | 17,403 | -7+42 |\\nWalmart Inc.WMT |\\n701.15 B | 680.99 B | 19.44 B | 2.41 | 2,100,000 | 94+37 |\\nJPMorgan Chase & Co.JPM |\\n654.09 B | 169.44 B | 58.47 B | 19.75 | 317,233\\u2026\\n\\n[Truncated preview: showing 521 words out of ~1866. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1866, \"snippet_word_count\": 521, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T14:26:33.726845\", \"date_cutoff_end\": \"2025-03-22T14:26:33.726845\", \"cached_at\": \"2025-10-24T14:15:30.661401\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_Sra8AsITmQNZPU13wM9ChBTP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"snippet\": \"---\\ntitle: The Largest Companies by Market Cap in 2025 | The Motley Fool\\nauthor: Lyle Daly\\nurl: https://www.fool.com/research/largest-companies-by-market-cap/\\nhostname: fool.com\\ndescription: Apple and Nvidia top the list of the biggest companies by market capitalization.\\nsitename: The Motley Fool\\ndate: 2023-04-06\\n---\\n**Apple** ([NASDAQ:AAPL](https://www.fool.com/quote/nasdaq/aapl/)) currently tops the list of the largest companies in the world. **Nvidia** ([NASDAQ:NVDA](https://www.fool.com/quote/nasdaq/nvda/)), the hottest company of 2024, is currently second after seeing its value skyrocket last year.\\n\\nEight of the largest companies have a [market cap](https://www.fool.com/investing/how-to-invest/stocks/what-is-market-cap/) of at least $1 trillion. While tech companies dominate the top of the [stock market](https://www.fool.com/investing/stock-market/), there are other sectors represented, including oil, insurance, [medical companies](https://www.fool.com/investing/stock-market/market-sectors/healthcare/medical-device-stocks/), and financial services. Read on to see the 20 most valuable companies and where they stand as of March 2025.\\n\\n## Largest companies by market cap\\n\\n## Largest companies by market cap\\n\\n| Name and ticker | Market cap | Current price | Sector |\\n|---|---|---|---|\\n|\\n\\n[Nvidia (NASDAQ:NVDA)](https://www.fool.com/quote/nasdaq/nvda/)[Microsoft (NASDAQ:MSFT)](https://www.fool.com/quote/nasdaq/msft/)[Amazon (NASDAQ:AMZN)](https://www.fool.com/quote/nasdaq/amzn/)[Alphabet (NASDAQ:GOOG)](https://www.fool.com/quote/nasdaq/goog/)[Meta Platforms (NASDAQ:META)](https://www.fool.com/quote/nasdaq/meta/)[Berkshire Hathaway (NYSE:BRK.A)](https://www.fool.com/quote/nyse/brk.a/)[Tesla (NASDAQ:TSLA)](https://www.fool.com/quote/nasdaq/tsla/)[Taiwan Semiconductor Manufacturing (NYSE:TSM)](https://www.fool.com/quote/nyse/tsm/)[Broadcom (NASDAQ:AVGO)](https://www.fool.com/quote/nasdaq/avgo/)[Eli Lilly (NYSE:LLY)](https://www.fool.com/quote/nyse/lly/)[Walmart (NYSE:WMT)](https://www.fool.com/quote/nyse/wmt/)[JPMorgan Chase (NYSE:JPM)](https://www.fool.com/quote/nyse/jpm/)[Visa (NYSE:V)](https://www.fool.com/quote/nyse/v/)[Tencent (OTC:TCEHY)](https://www.fool.com/quote/otc/tcehy/)[Mastercard (NYSE:MA)](https://www.fool.com/quote/nyse/ma/)[ExxonMobil (NYSE:XOM)](https://www.fool.com/quote/nyse/xom/)[Costco Wholesale (NASDAQ:COST)](https://www.fool.com/quote/nasdaq/cost/)[Oracle (NYSE:ORCL)](https://www.fool.com/quote/nyse/orcl/)## Companies 1-5\\n\\n## 1. Apple\\n\\n\\n**\\u2026\\n\\n[Truncated preview: showing 185 words out of ~2482. Full content available via `btf_extract_evidence`.]\", \"word_count\": 2482, \"snippet_word_count\": 185, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-21T14:26:33.726845\", \"date_cutoff_end\": \"2025-03-22T14:26:33.726845\", \"cached_at\": \"2025-10-24T03:11:28.748140\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_INuhAy6hUwD36njzqbUvhZrR"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_gMfgQXDHTFjQ9GNER0PvyGrr",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://companiesmarketcap.com/\", \"question\": \"Will a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon be the world's most valuable company by market cap on March 29, 2025?\", \"background\": \"At the time of this question, the world's most valuable companies by market capitalization are led by Apple ($3.9 trillion), followed by Nvidia ($3.4 trillion), with Microsoft, Alphabet, and Amazon rounding out the top ranks. While these companies currently dominate, market dynamics could allow another company to rise to the top position. On March 29, 2025 (a Saturday), market caps will likely reflect completed stock market trading on March 28, 2025.\", \"resolution_criteria\": \"This question resolves as YES if any company OTHER than Apple, Microsoft, Nvidia, Alphabet, or Amazon has the highest market capitalization shown by the CompaniesMarketCap website on March 29, 2025. It resolves as NO if any of these five named companies has the highest market capitalization on that date.\", \"fine_print\": \"In theory a company's market capitalization [is defined](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) as the stock price multiplied by the number of outstanding shares. However, in practice the market cap figure can vary based on the source (typically due to disagreement over the number of outstanding shares). Therefore, the primary resolution source for this question will be https://companiesmarketcap.com/ regardless of what is shown at other sources. In the event of the primary source being down, the secondary source will be a manual calculation by multiplying the stock price by the number of outstanding shares shown on the most recent 10-Q or 10-K filing.\", \"present_date\": \"2025-03-21T14:26:33.726845\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_OgBbQ2OEKPlH9ROnf7m6HMgj",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"question\": \"Will a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon be the world's most valuable company by market cap on March 29, 2025?\", \"background\": \"At the time of this question, the world's most valuable companies by market capitalization are led by Apple ($3.9 trillion), followed by Nvidia ($3.4 trillion), with Microsoft, Alphabet, and Amazon rounding out the top ranks. While these companies currently dominate, market dynamics could allow another company to rise to the top position. On March 29, 2025 (a Saturday), market caps will likely reflect completed stock market trading on March 28, 2025.\", \"resolution_criteria\": \"This question resolves as YES if any company OTHER than Apple, Microsoft, Nvidia, Alphabet, or Amazon has the highest market capitalization shown by the CompaniesMarketCap website on March 29, 2025. It resolves as NO if any of these five named companies has the highest market capitalization on that date.\", \"fine_print\": \"In theory a company's market capitalization [is defined](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) as the stock price multiplied by the number of outstanding shares. However, in practice the market cap figure can vary based on the source (typically due to disagreement over the number of outstanding shares). Therefore, the primary resolution source for this question will be https://companiesmarketcap.com/ regardless of what is shown at other sources. In the event of the primary source being down, the secondary source will be a manual calculation by multiplying the stock price by the number of outstanding shares shown on the most recent 10-Q or 10-K filing.\", \"present_date\": \"2025-03-21T14:26:33.726845\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_ZrsfPoKfwcISWxFXlBKZv0pH",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"question\": \"Will a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon be the world's most valuable company by market cap on March 29, 2025?\", \"background\": \"At the time of this question, the world's most valuable companies by market capitalization are led by Apple ($3.9 trillion), followed by Nvidia ($3.4 trillion), with Microsoft, Alphabet, and Amazon rounding out the top ranks. While these companies currently dominate, market dynamics could allow another company to rise to the top position. On March 29, 2025 (a Saturday), market caps will likely reflect completed stock market trading on March 28, 2025.\", \"resolution_criteria\": \"This question resolves as YES if any company OTHER than Apple, Microsoft, Nvidia, Alphabet, or Amazon has the highest market capitalization shown by the CompaniesMarketCap website on March 29, 2025. It resolves as NO if any of these five named companies has the highest market capitalization on that date.\", \"fine_print\": \"In theory a company's market capitalization [is defined](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) as the stock price multiplied by the number of outstanding shares. However, in practice the market cap figure can vary based on the source (typically due to disagreement over the number of outstanding shares). Therefore, the primary resolution source for this question will be https://companiesmarketcap.com/ regardless of what is shown at other sources. In the event of the primary source being down, the secondary source will be a manual calculation by multiplying the stock price by the number of outstanding shares shown on the most recent 10-Q or 10-K filing.\", \"present_date\": \"2025-03-21T14:26:33.726845\", \"date_cutoff_start\": \"2025-03-01\", \"date_cutoff_end\": \"2025-03-21\", \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"url\": \"https://companiesmarketcap.com/\", \"facts\": [{\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"Apple is currently the world's most valuable company with a market cap of $3.9 trillion.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"Nvidia is the second most valuable company with a market cap of $3.4 trillion.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"The CompaniesMarketCap website ranks companies based on their market capitalization, which is the key metric for resolving the question.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"The list on CompaniesMarketCap.com does not include private companies, focusing solely on public companies.\"}, {\"title\": \"https://companiesmarketcap.com/\", \"url\": \"https://companiesmarketcap.com/\", \"fact\": \"The rankings reflect completed stock market trading, which will be relevant for determining the market cap on March 28, 2025.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_gMfgQXDHTFjQ9GNER0PvyGrr"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"facts\": [{\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Apple Inc. has a market cap of $3.21 trillion, leading the current rankings.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Nvidia Corporation follows with a market cap of $2.92 trillion.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Microsoft Corporation has a market cap of $2.89 trillion.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Alphabet Inc. has a market cap of $2.02 trillion.\"}, {\"title\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"url\": \"https://www.alpha-sense.com/largest-companies-by-market-cap/\", \"fact\": \"Amazon.com, Inc. has a market cap of $2.07 trillion.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_OgBbQ2OEKPlH9ROnf7m6HMgj"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"c5e8531a-2d59-5fee-9396-d9bbd99770f0\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"facts\": [{\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"As of March 3, 2025, Apple has a market cap of $3.63 trillion, making it the largest company by market cap.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Nvidia, with a market cap of $3.05 trillion as of March 3, 2025, has experienced significant growth due to the AI boom, although it recently faced a large one-day loss.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Microsoft has a market cap of $2.95 trillion as of March 3, 2025, and is heavily investing in AI technology, including an $80 billion investment in AI-enabled data centers.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Amazon's market cap is $2.25 trillion as of March 3, 2025, and it is currently dealing with an ongoing antitrust lawsuit.\"}, {\"title\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"url\": \"https://www.fool.com/research/largest-companies-by-market-cap/\", \"fact\": \"Saudi Arabian Oil (Saudi Aramco) is the largest company outside the top five, with a market cap of $1.79 trillion as of February 3, 2025, but it is heavily dependent on oil prices.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_ZrsfPoKfwcISWxFXlBKZv0pH"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here is the current situation regarding the market capitalization of the world's largest companies as of March 2025:\n\n1. **Apple Inc.** consistently appears as the world's most valuable company, with market caps reported around $3.63 trillion to $3.9 trillion.\n2. **Nvidia Corporation** follows closely, with market caps ranging from $2.92 trillion to $3.4 trillion, having experienced significant growth due to the AI boom.\n3. **Microsoft Corporation** is also a major player, with market caps reported around $2.89 trillion to $2.95 trillion.\n4. **Amazon.com, Inc.** and **Alphabet Inc.** have market caps in the range of $2.02 trillion to $2.25 trillion.\n5. **Saudi Aramco** is the largest company outside the top five, with a market cap of approximately $1.79 trillion, but it is heavily dependent on oil prices.\n\nGiven this information, the top five companies (Apple, Nvidia, Microsoft, Amazon, and Alphabet) still dominate the market capitalization rankings. The likelihood of another company surpassing all five by March 29, 2025, seems low, especially considering the substantial lead Apple and Nvidia have over other competitors.\n\nConsidering the current market dynamics and the dominance of these tech giants, the probability that a company other than Apple, Microsoft, Nvidia, Alphabet, or Amazon will be the world's most valuable company by market cap on March 29, 2025, is quite low.\n\nFINAL PROBABILITY: 0.1"
+    }
+  ]
+}

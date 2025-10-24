@@ -1,0 +1,609 @@
+{
+  "question_id": "0acc6f1d-f256-519b-b1da-0076b39fc6e6",
+  "question": "Will Amazon still list a 12-pack of Coca-Cola as \"SNAP EBT eligible\" on April 1, 2025?",
+  "probability": 0.9,
+  "reasoning": "Based on the extracted evidence, here are the key points relevant to the question:\n\n1. **Amazon's Commitment to SNAP EBT**: Amazon has been actively participating in the USDA's SNAP Online Purchasing Pilot since 2016 and has expanded SNAP EBT acceptance to nearly every state in the U.S. They have waived the Prime membership requirement for SNAP customers, indicating a strong commitment to supporting SNAP beneficiaries.\n\n2. **SNAP EBT Eligibility Label**: SNAP-eligible food items on Amazon are clearly labeled as \"SNAP EBT eligible\" once a SNAP participant adds their EBT card to their Amazon account. This labeling is crucial for identifying eligible products.\n\n3. **No Recent Policy Changes Detected**: There are no indications of recent policy changes that would affect the SNAP EBT eligibility of Coca-Cola or similar products on Amazon. The focus has been on expanding access and increasing benefits rather than restricting eligibility.\n\n4. **Stability in SNAP Benefits**: The USDA has increased maximum allotments for SNAP benefits for the fiscal year 2025, which could enhance purchasing power but does not directly impact eligibility criteria for specific products like Coca-Cola.\n\nGiven Amazon's ongoing commitment to supporting SNAP beneficiaries and the absence of any recent policy changes that would affect the eligibility of Coca-Cola, it is likely that the product will remain listed as \"SNAP EBT eligible\" on April 1, 2025.\n\nFINAL PROBABILITY: 0.9",
+  "search_results": [
+    {
+      "title": "SNAP Benefits | dhs",
+      "url": "https://dhs.dc.gov/service/snap-benefits",
+      "content": "SNAP benefits are placed on an Electronic Benefits Transfer (EBT) card and can be used to purchase food at local and participating online retailers. Maximum monthly allotment levels are set by the Federal government and are subject to change each October 1."
+    },
+    {
+      "title": "Help & Contact Us - Amazon Customer Service",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3",
+      "content": "I am sorry, but I cannot find any information about Amazon SNAP EBT eligibility policy changes for 2025 in the provided text."
+    },
+    {
+      "title": "Food Stamps: 4 Major Changes to SNAP in 2025",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "content": "The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories."
+    },
+    {
+      "title": "Supplemental Nutrition Assistance Program (SNAP) | OTDA",
+      "url": "https://otda.ny.gov/programs/snap/",
+      "content": "SNAP eligibility and benefit levels are based on household size, income and other factors. Chart information is based upon SNAP Standards effective October 1, 2024."
+    },
+    {
+      "title": "Food Stamps: 4 Major Changes to SNAP in 2025",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "content": "The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories."
+    },
+    {
+      "title": "Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News",
+      "url": "https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/",
+      "content": "Customers with a valid SNAP EBT card can use their SNAP benefits to shop for groceries on Amazon Fresh and Amazon.com groceries in 45 states plus the District of Columbia."
+    },
+    {
+      "title": "Will Amazon still list a 12-pack of Coca-Cola as \"SNAP EBT eligible\" on April 1, 2025?",
+      "url": "https://www.metaculus.com/questions/35690/will-amazon-still-list-a-12-pack-of-coca-cola-as-snap-ebt-eligible-on-april-1-2025/",
+      "content": "Will Amazon still list a 12-pack of Coca-Cola as \"SNAP EBT eligible\" on April 1, 2025? This question was opened and closed on March 6, 2025..."
+    },
+    {
+      "title": "Stores Accepting SNAP Online | Food and Nutrition Service",
+      "url": "https://www.fns.usda.gov/snap/online",
+      "content": "All retailers, including internet retailers, must abide by the FNS retailer stocking requirements to be authorized. SNAP-eligible retailers who want to add online shopping must meet online purchasing requirements..."
+    },
+    {
+      "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "content": "SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states."
+    },
+    {
+      "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "content": "SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states."
+    },
+    {
+      "title": "Help & Contact Us - Amazon Customer Service",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3",
+      "content": "I am sorry, but I cannot provide a snippet as the provided content does not contain information relevant to your query about Coca-Cola SNAP EBT eligibility on Amazon."
+    },
+    {
+      "title": "What Can SNAP Buy? | Food and Nutrition Service",
+      "url": "https://www.fns.usda.gov/snap/eligible-food-items",
+      "content": "Other foods such as snack foods and non-alcoholic beverages are eligible for purchase with SNAP benefits."
+    },
+    {
+      "title": "A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities",
+      "url": "https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits",
+      "content": "This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024."
+    },
+    {
+      "title": "Frequently Asked Questions about SNAP Online Shopping | VirginiaNavigator",
+      "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "content": "SNAP-eligible food items have a special label “SNAP EBT eligible.” This label appears after a SNAP participant adds their SNAP EBT card to their Amazon account. Only items shipped and sold by Amazon.com are eligible for purchasing with SNAP benefits."
+    },
+    {
+      "title": "Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News",
+      "url": "https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/",
+      "content": "Amazon.com is now accepting SNAP EBT benefits from 45 states. Free delivery is available with a minimum purchase, and no membership is required for these benefits."
+    },
+    {
+      "title": "Stores Accepting SNAP Online | Food and Nutrition Service",
+      "url": "https://www.fns.usda.gov/snap/online",
+      "content": "SNAP online is currently available in all 50 states and the District of Columbia. Watch this page for updated information on additional states or retailers."
+    },
+    {
+      "title": "Food Stamps: 4 Major Changes to SNAP in 2025",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "content": "In 2025, these work requirements expanded to age 52, and requirements will expand to age 54 as of October 2024, according to the USDA. However, there are some exemptions to the ABAWD work requirements."
+    },
+    {
+      "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "content": "Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S...."
+    },
+    {
+      "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "content": "Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S...."
+    },
+    {
+      "title": "A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities",
+      "url": "https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits",
+      "content": "This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024. To be eligible for benefits, a household’s income and resources must meet three tests."
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "fact": "The USDA adjusts SNAP maximum allotments, deductions, and income eligibility standards at the beginning of each federal fiscal year, with the fiscal year for 2025 beginning on October 1, 2024."
+    },
+    {
+      "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "fact": "For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories, which could affect the purchasing power of SNAP benefits."
+    },
+    {
+      "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "fact": "The maximum allotment for a family of four in the 48 states and D.C. will be $975, indicating an increase in benefits that could influence the range of products eligible for SNAP EBT."
+    },
+    {
+      "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "fact": "The minimum benefit for the 48 states and D.C. will remain the same at $23, suggesting stability in the baseline SNAP benefits."
+    },
+    {
+      "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+      "fact": "The USDA gradually increases the age of 'able-bodied adults without dependents' (ABAWD) subject to work requirements, which could affect the number of people eligible for SNAP benefits."
+    },
+    {
+      "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "fact": "Amazon has been working closely with the USDA to expand access to online grocery shopping for SNAP beneficiaries, reaching 48 states plus the District of Columbia."
+    },
+    {
+      "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "fact": "Amazon volunteered to participate in the USDA’s SNAP Online Purchasing Pilot in 2016, indicating a long-term commitment to the program."
+    },
+    {
+      "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "fact": "Amazon has waived the Prime membership requirement for SNAP customers to access Amazon Fresh, reducing barriers to online grocery shopping."
+    },
+    {
+      "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "fact": "Amazon provides more than 99% of SNAP households with the ability to use their SNAP benefits online."
+    },
+    {
+      "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+      "fact": "Amazon is committed to making food accessible through online grocery shopping, offering convenience, time savings, and low prices."
+    },
+    {
+      "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "fact": "SNAP-eligible food items on Amazon have a special label 'SNAP EBT eligible' that appears after a SNAP participant adds their SNAP EBT card to their Amazon account."
+    },
+    {
+      "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "fact": "Only items shipped and sold by Amazon.com, including Amazon Pantry and Amazon Fresh, are eligible for purchasing with SNAP benefits."
+    },
+    {
+      "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "fact": "USDA requires all SNAP authorized retailers, including authorized online retailers like Amazon, to ensure SNAP benefits are used to purchase eligible food items."
+    },
+    {
+      "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "fact": "Amazon allows third parties to sell items in the Amazon store, but only the offers that are 'Shipped and Sold by Amazon' are eligible for purchase with SNAP EBT."
+    },
+    {
+      "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+      "fact": "Amazon is participating in a government pilot program to accept SNAP EBT benefits online, and government requirements determine which zip codes are eligible for delivery."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 1.0,
+  "brier_score": 0.009999999999999995,
+  "weighted_brier_score": 0.009999999999999995,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "0acc6f1d-f256-519b-b1da-0076b39fc6e6",
+        "queries": [
+          "Amazon SNAP EBT eligibility policy changes 2025",
+          "Coca-Cola SNAP EBT eligibility Amazon March 2025",
+          "Amazon SNAP EBT eligibility news March 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"queries\": [\"Amazon SNAP EBT eligibility policy changes 2025\", \"Coca-Cola SNAP EBT eligibility Amazon March 2025\", \"Amazon SNAP EBT eligibility news March 2025\"]}",
+      "tool_call_id": "call_0grHfYUX18rw90CIlp8OLbOo"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Amazon SNAP EBT eligibility policy changes 2025",
+        "results": [
+          {
+            "title": "SNAP Benefits | dhs",
+            "link": "https://dhs.dc.gov/service/snap-benefits",
+            "position": 2,
+            "snippet": "SNAP benefits are placed on an Electronic Benefits Transfer (EBT) card and can be used to purchase food at local and participating online retailers. Maximum monthly allotment levels are set by the Federal government and are subject to change each October 1.",
+            "date": null
+          },
+          {
+            "title": "Help & Contact Us - Amazon Customer Service",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3",
+            "position": 4,
+            "snippet": "I am sorry, but I cannot find any information about Amazon SNAP EBT eligibility policy changes for 2025 in the provided text.",
+            "date": null
+          },
+          {
+            "title": "Food Stamps: 4 Major Changes to SNAP in 2025",
+            "link": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "position": 5,
+            "snippet": "The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories.",
+            "date": null
+          },
+          {
+            "title": "Supplemental Nutrition Assistance Program (SNAP) | OTDA",
+            "link": "https://otda.ny.gov/programs/snap/",
+            "position": 4,
+            "snippet": "SNAP eligibility and benefit levels are based on household size, income and other factors. Chart information is based upon SNAP Standards effective October 1, 2024.",
+            "date": null
+          },
+          {
+            "title": "Food Stamps: 4 Major Changes to SNAP in 2025",
+            "link": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "position": 5,
+            "snippet": "The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Amazon SNAP EBT eligibility policy changes 2025\", \"results\": [{\"title\": \"SNAP Benefits | dhs\", \"link\": \"https://dhs.dc.gov/service/snap-benefits\", \"position\": 2, \"snippet\": \"SNAP benefits are placed on an Electronic Benefits Transfer (EBT) card and can be used to purchase food at local and participating online retailers. Maximum monthly allotment levels are set by the Federal government and are subject to change each October 1.\", \"date\": null}, {\"title\": \"Help & Contact Us - Amazon Customer Service\", \"link\": \"https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3\", \"position\": 4, \"snippet\": \"I am sorry, but I cannot find any information about Amazon SNAP EBT eligibility policy changes for 2025 in the provided text.\", \"date\": null}, {\"title\": \"Food Stamps: 4 Major Changes to SNAP in 2025\", \"link\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"position\": 5, \"snippet\": \"The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories.\", \"date\": null}, {\"title\": \"Supplemental Nutrition Assistance Program (SNAP) | OTDA\", \"link\": \"https://otda.ny.gov/programs/snap/\", \"position\": 4, \"snippet\": \"SNAP eligibility and benefit levels are based on household size, income and other factors. Chart information is based upon SNAP Standards effective October 1, 2024.\", \"date\": null}, {\"title\": \"Food Stamps: 4 Major Changes to SNAP in 2025\", \"link\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"position\": 5, \"snippet\": \"The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories.\", \"date\": null}]}",
+      "tool_call_id": "call_fbzeSCBzTweXEXKLClLlQ7fV"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Coca-Cola SNAP EBT eligibility Amazon March 2025",
+        "results": [
+          {
+            "title": "Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News",
+            "link": "https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/",
+            "position": 5,
+            "snippet": "Customers with a valid SNAP EBT card can use their SNAP benefits to shop for groceries on Amazon Fresh and Amazon.com groceries in 45 states plus the District of Columbia.",
+            "date": "2021-03-01T19:00:45Z"
+          },
+          {
+            "title": "Will Amazon still list a 12-pack of Coca-Cola as \"SNAP EBT eligible\" on April 1, 2025?",
+            "link": "https://www.metaculus.com/questions/35690/will-amazon-still-list-a-12-pack-of-coca-cola-as-snap-ebt-eligible-on-april-1-2025/",
+            "position": 1,
+            "snippet": "Will Amazon still list a 12-pack of Coca-Cola as \"SNAP EBT eligible\" on April 1, 2025? This question was opened and closed on March 6, 2025...",
+            "date": null
+          },
+          {
+            "title": "Stores Accepting SNAP Online | Food and Nutrition Service",
+            "link": "https://www.fns.usda.gov/snap/online",
+            "position": 3,
+            "snippet": "All retailers, including internet retailers, must abide by the FNS retailer stocking requirements to be authorized. SNAP-eligible retailers who want to add online shopping must meet online purchasing requirements...",
+            "date": null
+          },
+          {
+            "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+            "link": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "position": 4,
+            "snippet": "SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states.",
+            "date": "2020-06-17T18:06:49.148000Z"
+          },
+          {
+            "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+            "link": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "position": 1,
+            "snippet": "SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states.",
+            "date": "2020-06-17T18:06:49.148000Z"
+          },
+          {
+            "title": "Help & Contact Us - Amazon Customer Service",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3",
+            "position": 2,
+            "snippet": "I am sorry, but I cannot provide a snippet as the provided content does not contain information relevant to your query about Coca-Cola SNAP EBT eligibility on Amazon.",
+            "date": null
+          },
+          {
+            "title": "What Can SNAP Buy? | Food and Nutrition Service",
+            "link": "https://www.fns.usda.gov/snap/eligible-food-items",
+            "position": 3,
+            "snippet": "Other foods such as snack foods and non-alcoholic beverages are eligible for purchase with SNAP benefits.",
+            "date": null
+          },
+          {
+            "title": "A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities",
+            "link": "https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits",
+            "position": 4,
+            "snippet": "This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024.",
+            "date": null
+          },
+          {
+            "title": "Frequently Asked Questions about SNAP Online Shopping | VirginiaNavigator",
+            "link": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "position": 5,
+            "snippet": "SNAP-eligible food items have a special label “SNAP EBT eligible.” This label appears after a SNAP participant adds their SNAP EBT card to their Amazon account. Only items shipped and sold by Amazon.com are eligible for purchasing with SNAP benefits.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Coca-Cola SNAP EBT eligibility Amazon March 2025\", \"results\": [{\"title\": \"Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News\", \"link\": \"https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/\", \"position\": 5, \"snippet\": \"Customers with a valid SNAP EBT card can use their SNAP benefits to shop for groceries on Amazon Fresh and Amazon.com groceries in 45 states plus the District of Columbia.\", \"date\": \"2021-03-01T19:00:45Z\"}, {\"title\": \"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025?\", \"link\": \"https://www.metaculus.com/questions/35690/will-amazon-still-list-a-12-pack-of-coca-cola-as-snap-ebt-eligible-on-april-1-2025/\", \"position\": 1, \"snippet\": \"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025? This question was opened and closed on March 6, 2025...\", \"date\": null}, {\"title\": \"Stores Accepting SNAP Online | Food and Nutrition Service\", \"link\": \"https://www.fns.usda.gov/snap/online\", \"position\": 3, \"snippet\": \"All retailers, including internet retailers, must abide by the FNS retailer stocking requirements to be authorized. SNAP-eligible retailers who want to add online shopping must meet online purchasing requirements...\", \"date\": null}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 4, \"snippet\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states.\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 1, \"snippet\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states.\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"Help & Contact Us - Amazon Customer Service\", \"link\": \"https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3\", \"position\": 2, \"snippet\": \"I am sorry, but I cannot provide a snippet as the provided content does not contain information relevant to your query about Coca-Cola SNAP EBT eligibility on Amazon.\", \"date\": null}, {\"title\": \"What Can SNAP Buy? | Food and Nutrition Service\", \"link\": \"https://www.fns.usda.gov/snap/eligible-food-items\", \"position\": 3, \"snippet\": \"Other foods such as snack foods and non-alcoholic beverages are eligible for purchase with SNAP benefits.\", \"date\": null}, {\"title\": \"A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities\", \"link\": \"https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits\", \"position\": 4, \"snippet\": \"This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024.\", \"date\": null}, {\"title\": \"Frequently Asked Questions about SNAP Online Shopping | VirginiaNavigator\", \"link\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"position\": 5, \"snippet\": \"SNAP-eligible food items have a special label \\u201cSNAP EBT eligible.\\u201d This label appears after a SNAP participant adds their SNAP EBT card to their Amazon account. Only items shipped and sold by Amazon.com are eligible for purchasing with SNAP benefits.\", \"date\": null}]}",
+      "tool_call_id": "call_3S19R1t1I8Epj893WlDP4fBh"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Amazon SNAP EBT eligibility news March 2025",
+        "results": [
+          {
+            "title": "Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News",
+            "link": "https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/",
+            "position": 1,
+            "snippet": "Amazon.com is now accepting SNAP EBT benefits from 45 states. Free delivery is available with a minimum purchase, and no membership is required for these benefits.",
+            "date": "2021-03-01T19:00:45Z"
+          },
+          {
+            "title": "Stores Accepting SNAP Online | Food and Nutrition Service",
+            "link": "https://www.fns.usda.gov/snap/online",
+            "position": 3,
+            "snippet": "SNAP online is currently available in all 50 states and the District of Columbia. Watch this page for updated information on additional states or retailers.",
+            "date": null
+          },
+          {
+            "title": "Food Stamps: 4 Major Changes to SNAP in 2025",
+            "link": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "position": 4,
+            "snippet": "In 2025, these work requirements expanded to age 52, and requirements will expand to age 54 as of October 2024, according to the USDA. However, there are some exemptions to the ABAWD work requirements.",
+            "date": null
+          },
+          {
+            "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+            "link": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "position": 4,
+            "snippet": "Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S....",
+            "date": "2020-06-17T18:06:49.148000Z"
+          },
+          {
+            "title": "SNAP benefits can be used by Amazon customers in nearly every U.S. state",
+            "link": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "position": 1,
+            "snippet": "Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S....",
+            "date": "2020-06-17T18:06:49.148000Z"
+          },
+          {
+            "title": "A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities",
+            "link": "https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits",
+            "position": 4,
+            "snippet": "This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024. To be eligible for benefits, a household’s income and resources must meet three tests.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Amazon SNAP EBT eligibility news March 2025\", \"results\": [{\"title\": \"Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News\", \"link\": \"https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/\", \"position\": 1, \"snippet\": \"Amazon.com is now accepting SNAP EBT benefits from 45 states. Free delivery is available with a minimum purchase, and no membership is required for these benefits.\", \"date\": \"2021-03-01T19:00:45Z\"}, {\"title\": \"Stores Accepting SNAP Online | Food and Nutrition Service\", \"link\": \"https://www.fns.usda.gov/snap/online\", \"position\": 3, \"snippet\": \"SNAP online is currently available in all 50 states and the District of Columbia. Watch this page for updated information on additional states or retailers.\", \"date\": null}, {\"title\": \"Food Stamps: 4 Major Changes to SNAP in 2025\", \"link\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"position\": 4, \"snippet\": \"In 2025, these work requirements expanded to age 52, and requirements will expand to age 54 as of October 2024, according to the USDA. However, there are some exemptions to the ABAWD work requirements.\", \"date\": null}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 4, \"snippet\": \"Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S....\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 1, \"snippet\": \"Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S....\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities\", \"link\": \"https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits\", \"position\": 4, \"snippet\": \"This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024. To be eligible for benefits, a household\\u2019s income and resources must meet three tests.\", \"date\": null}]}",
+      "tool_call_id": "call_JQZ2OWrgBHOoyw6AAepaaoVc"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0acc6f1d-f256-519b-b1da-0076b39fc6e6",
+        "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+        "facts": [
+          {
+            "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "fact": "The USDA adjusts SNAP maximum allotments, deductions, and income eligibility standards at the beginning of each federal fiscal year, with the fiscal year for 2025 beginning on October 1, 2024."
+          },
+          {
+            "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "fact": "For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories, which could affect the purchasing power of SNAP benefits."
+          },
+          {
+            "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "fact": "The maximum allotment for a family of four in the 48 states and D.C. will be $975, indicating an increase in benefits that could influence the range of products eligible for SNAP EBT."
+          },
+          {
+            "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "fact": "The minimum benefit for the 48 states and D.C. will remain the same at $23, suggesting stability in the baseline SNAP benefits."
+          },
+          {
+            "title": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "url": "https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html",
+            "fact": "The USDA gradually increases the age of 'able-bodied adults without dependents' (ABAWD) subject to work requirements, which could affect the number of people eligible for SNAP benefits."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"facts\": [{\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The USDA adjusts SNAP maximum allotments, deductions, and income eligibility standards at the beginning of each federal fiscal year, with the fiscal year for 2025 beginning on October 1, 2024.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories, which could affect the purchasing power of SNAP benefits.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The maximum allotment for a family of four in the 48 states and D.C. will be $975, indicating an increase in benefits that could influence the range of products eligible for SNAP EBT.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The minimum benefit for the 48 states and D.C. will remain the same at $23, suggesting stability in the baseline SNAP benefits.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The USDA gradually increases the age of 'able-bodied adults without dependents' (ABAWD) subject to work requirements, which could affect the number of people eligible for SNAP benefits.\"}]}",
+      "tool_call_id": "call_HMJ9UkLPMv6VNCP6Wyv0OLm2"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0acc6f1d-f256-519b-b1da-0076b39fc6e6",
+        "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+        "facts": [
+          {
+            "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "fact": "Amazon has been working closely with the USDA to expand access to online grocery shopping for SNAP beneficiaries, reaching 48 states plus the District of Columbia."
+          },
+          {
+            "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "fact": "Amazon volunteered to participate in the USDA’s SNAP Online Purchasing Pilot in 2016, indicating a long-term commitment to the program."
+          },
+          {
+            "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "fact": "Amazon has waived the Prime membership requirement for SNAP customers to access Amazon Fresh, reducing barriers to online grocery shopping."
+          },
+          {
+            "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "fact": "Amazon provides more than 99% of SNAP households with the ability to use their SNAP benefits online."
+          },
+          {
+            "title": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "url": "https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon",
+            "fact": "Amazon is committed to making food accessible through online grocery shopping, offering convenience, time savings, and low prices."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"facts\": [{\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon has been working closely with the USDA to expand access to online grocery shopping for SNAP beneficiaries, reaching 48 states plus the District of Columbia.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon volunteered to participate in the USDA\\u2019s SNAP Online Purchasing Pilot in 2016, indicating a long-term commitment to the program.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon has waived the Prime membership requirement for SNAP customers to access Amazon Fresh, reducing barriers to online grocery shopping.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon provides more than 99% of SNAP households with the ability to use their SNAP benefits online.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon is committed to making food accessible through online grocery shopping, offering convenience, time savings, and low prices.\"}]}",
+      "tool_call_id": "call_QuunaZo9ptj0l87iL8BjcOir"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0acc6f1d-f256-519b-b1da-0076b39fc6e6",
+        "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+        "facts": [
+          {
+            "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "fact": "SNAP-eligible food items on Amazon have a special label 'SNAP EBT eligible' that appears after a SNAP participant adds their SNAP EBT card to their Amazon account."
+          },
+          {
+            "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "fact": "Only items shipped and sold by Amazon.com, including Amazon Pantry and Amazon Fresh, are eligible for purchasing with SNAP benefits."
+          },
+          {
+            "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "fact": "USDA requires all SNAP authorized retailers, including authorized online retailers like Amazon, to ensure SNAP benefits are used to purchase eligible food items."
+          },
+          {
+            "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "fact": "Amazon allows third parties to sell items in the Amazon store, but only the offers that are 'Shipped and Sold by Amazon' are eligible for purchase with SNAP EBT."
+          },
+          {
+            "title": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "url": "https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping",
+            "fact": "Amazon is participating in a government pilot program to accept SNAP EBT benefits online, and government requirements determine which zip codes are eligible for delivery."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"facts\": [{\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"SNAP-eligible food items on Amazon have a special label 'SNAP EBT eligible' that appears after a SNAP participant adds their SNAP EBT card to their Amazon account.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"Only items shipped and sold by Amazon.com, including Amazon Pantry and Amazon Fresh, are eligible for purchasing with SNAP benefits.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"USDA requires all SNAP authorized retailers, including authorized online retailers like Amazon, to ensure SNAP benefits are used to purchase eligible food items.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"Amazon allows third parties to sell items in the Amazon store, but only the offers that are 'Shipped and Sold by Amazon' are eligible for purchase with SNAP EBT.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"Amazon is participating in a government pilot program to accept SNAP EBT benefits online, and government requirements determine which zip codes are eligible for delivery.\"}]}",
+      "tool_call_id": "call_kR078cacNBE5nRTDkTjhtH6T"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will Amazon still list a 12-pack of Coca-Cola as \"SNAP EBT eligible\" on April 1, 2025?\nBackground: \nResolution criteria: This question resolves as **Yes** if a 12-page of Coca-Cola at [this link](https://www.amazon.com/Coca-Cola-Soda-Soft-Drink-Pack/dp/B000T9WLTK?ref_=ast_sto_dp&th=1), when accessed by Metaculus from the United States on or after April 1, 2025, is listed using the exact phrase \"SNAP EBT eligible\"(forecasters please note that it *is* listed as such on February 19, 2025). If it is *not* listed as SNAP EBT eligible when checked by Metataculus on or after April 1, 2025, this resolves as **No**.\nFine print: The link in the resolution criteria is provided for convenience, but if Amazon's primary listing for a 12-pack of canned Coca-Cola appears elsewhere, then that will be used for resolution. In order to streamline resolution, synonyms or rephrasings will not count; the phrase must specifically be \"SNAP EBT eligible\".\npresent_date: 2025-03-24T22:25:27.466570\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_0grHfYUX18rw90CIlp8OLbOo",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025?\",\"background\":\"\",\"resolution_criteria\":\"This question resolves as **Yes** if a 12-page of Coca-Cola at [this link](https://www.amazon.com/Coca-Cola-Soda-Soft-Drink-Pack/dp/B000T9WLTK?ref_=ast_sto_dp&th=1), when accessed by Metaculus from the United States on or after April 1, 2025, is listed using the exact phrase \\\"SNAP EBT eligible\\\"(forecasters please note that it *is* listed as such on February 19, 2025). If it is *not* listed as SNAP EBT eligible when checked by Metataculus on or after April 1, 2025, this resolves as **No**.\",\"fine_print\":\"The link in the resolution criteria is provided for convenience, but if Amazon's primary listing for a 12-pack of canned Coca-Cola appears elsewhere, then that will be used for resolution. In order to streamline resolution, synonyms or rephrasings will not count; the phrase must specifically be \\\"SNAP EBT eligible\\\".\",\"present_date\":\"2025-03-24T22:25:27.466570\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"queries\": [\"Amazon SNAP EBT eligibility policy changes 2025\", \"Coca-Cola SNAP EBT eligibility Amazon March 2025\", \"Amazon SNAP EBT eligibility news March 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_0grHfYUX18rw90CIlp8OLbOo"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_fbzeSCBzTweXEXKLClLlQ7fV",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Amazon SNAP EBT eligibility policy changes 2025\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_3S19R1t1I8Epj893WlDP4fBh",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Coca-Cola SNAP EBT eligibility Amazon March 2025\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_JQZ2OWrgBHOoyw6AAepaaoVc",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Amazon SNAP EBT eligibility news March 2025\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Amazon SNAP EBT eligibility policy changes 2025\", \"results\": [{\"title\": \"SNAP Benefits | dhs\", \"link\": \"https://dhs.dc.gov/service/snap-benefits\", \"position\": 2, \"snippet\": \"SNAP benefits are placed on an Electronic Benefits Transfer (EBT) card and can be used to purchase food at local and participating online retailers. Maximum monthly allotment levels are set by the Federal government and are subject to change each October 1.\", \"date\": null}, {\"title\": \"Help & Contact Us - Amazon Customer Service\", \"link\": \"https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3\", \"position\": 4, \"snippet\": \"I am sorry, but I cannot find any information about Amazon SNAP EBT eligibility policy changes for 2025 in the provided text.\", \"date\": null}, {\"title\": \"Food Stamps: 4 Major Changes to SNAP in 2025\", \"link\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"position\": 5, \"snippet\": \"The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories.\", \"date\": null}, {\"title\": \"Supplemental Nutrition Assistance Program (SNAP) | OTDA\", \"link\": \"https://otda.ny.gov/programs/snap/\", \"position\": 4, \"snippet\": \"SNAP eligibility and benefit levels are based on household size, income and other factors. Chart information is based upon SNAP Standards effective October 1, 2024.\", \"date\": null}, {\"title\": \"Food Stamps: 4 Major Changes to SNAP in 2025\", \"link\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"position\": 5, \"snippet\": \"The USDA adjusts SNAP maximum allotments, deductions and income eligibility standards at the beginning of each federal fiscal year. For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_fbzeSCBzTweXEXKLClLlQ7fV"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Coca-Cola SNAP EBT eligibility Amazon March 2025\", \"results\": [{\"title\": \"Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News\", \"link\": \"https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/\", \"position\": 5, \"snippet\": \"Customers with a valid SNAP EBT card can use their SNAP benefits to shop for groceries on Amazon Fresh and Amazon.com groceries in 45 states plus the District of Columbia.\", \"date\": \"2021-03-01T19:00:45Z\"}, {\"title\": \"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025?\", \"link\": \"https://www.metaculus.com/questions/35690/will-amazon-still-list-a-12-pack-of-coca-cola-as-snap-ebt-eligible-on-april-1-2025/\", \"position\": 1, \"snippet\": \"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025? This question was opened and closed on March 6, 2025...\", \"date\": null}, {\"title\": \"Stores Accepting SNAP Online | Food and Nutrition Service\", \"link\": \"https://www.fns.usda.gov/snap/online\", \"position\": 3, \"snippet\": \"All retailers, including internet retailers, must abide by the FNS retailer stocking requirements to be authorized. SNAP-eligible retailers who want to add online shopping must meet online purchasing requirements...\", \"date\": null}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 4, \"snippet\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states.\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 1, \"snippet\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state to purchase groceries online, with Amazon working to expand access to additional states.\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"Help & Contact Us - Amazon Customer Service\", \"link\": \"https://www.amazon.com/gp/help/customer/display.html?nodeId=GRT2YNE98NUVKPM3\", \"position\": 2, \"snippet\": \"I am sorry, but I cannot provide a snippet as the provided content does not contain information relevant to your query about Coca-Cola SNAP EBT eligibility on Amazon.\", \"date\": null}, {\"title\": \"What Can SNAP Buy? | Food and Nutrition Service\", \"link\": \"https://www.fns.usda.gov/snap/eligible-food-items\", \"position\": 3, \"snippet\": \"Other foods such as snack foods and non-alcoholic beverages are eligible for purchase with SNAP benefits.\", \"date\": null}, {\"title\": \"A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities\", \"link\": \"https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits\", \"position\": 4, \"snippet\": \"This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024.\", \"date\": null}, {\"title\": \"Frequently Asked Questions about SNAP Online Shopping | VirginiaNavigator\", \"link\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"position\": 5, \"snippet\": \"SNAP-eligible food items have a special label \\u201cSNAP EBT eligible.\\u201d This label appears after a SNAP participant adds their SNAP EBT card to their Amazon account. Only items shipped and sold by Amazon.com are eligible for purchasing with SNAP benefits.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_3S19R1t1I8Epj893WlDP4fBh"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Amazon SNAP EBT eligibility news March 2025\", \"results\": [{\"title\": \"Register your SNAP EBT card on Amazon for exclusive benefits and discounts - VA News\", \"link\": \"https://news.va.gov/85034/register-snap-ebt-card-amazon-exclusive-benefits-discounts/\", \"position\": 1, \"snippet\": \"Amazon.com is now accepting SNAP EBT benefits from 45 states. Free delivery is available with a minimum purchase, and no membership is required for these benefits.\", \"date\": \"2021-03-01T19:00:45Z\"}, {\"title\": \"Stores Accepting SNAP Online | Food and Nutrition Service\", \"link\": \"https://www.fns.usda.gov/snap/online\", \"position\": 3, \"snippet\": \"SNAP online is currently available in all 50 states and the District of Columbia. Watch this page for updated information on additional states or retailers.\", \"date\": null}, {\"title\": \"Food Stamps: 4 Major Changes to SNAP in 2025\", \"link\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"position\": 4, \"snippet\": \"In 2025, these work requirements expanded to age 52, and requirements will expand to age 54 as of October 2024, according to the USDA. However, there are some exemptions to the ABAWD work requirements.\", \"date\": null}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 4, \"snippet\": \"Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S....\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"SNAP benefits can be used by Amazon customers in nearly every U.S. state\", \"link\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"position\": 1, \"snippet\": \"Amazon has expanded SNAP EBT acceptance to beneficiaries in nearly every state, making online grocery shopping more accessible. This program, which began as a pilot, now serves over 99% of SNAP households across the U.S....\", \"date\": \"2020-06-17T18:06:49.148000Z\"}, {\"title\": \"A Quick Guide to SNAP Eligibility and Benefits | Center on Budget and Policy Priorities\", \"link\": \"https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits\", \"position\": 4, \"snippet\": \"This paper provides a short summary of SNAP eligibility and benefit calculation rules that are in effect for federal fiscal year 2025, which began in October 2024. To be eligible for benefits, a household\\u2019s income and resources must meet three tests.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_JQZ2OWrgBHOoyw6AAepaaoVc"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I will now extract relevant information to determine if there have been any recent changes or updates regarding the SNAP EBT eligibility of Coca-Cola on Amazon. This will help assess the likelihood of the product being listed as \"SNAP EBT eligible\" on April 1, 2025.",
+      "tool_calls": [
+        {
+          "id": "call_HMJ9UkLPMv6VNCP6Wyv0OLm2",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"question\": \"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025?\", \"resolution_criteria\": \"This question resolves as **Yes** if a 12-page of Coca-Cola at [this link](https://www.amazon.com/Coca-Cola-Soda-Soft-Drink-Pack/dp/B000T9WLTK?ref_=ast_sto_dp&th=1), when accessed by Metaculus from the United States on or after April 1, 2025, is listed using the exact phrase \\\"SNAP EBT eligible\\\".\", \"present_date\": \"2025-03-24T22:25:27.466570\"}"
+          }
+        },
+        {
+          "id": "call_QuunaZo9ptj0l87iL8BjcOir",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"question\": \"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025?\", \"resolution_criteria\": \"This question resolves as **Yes** if a 12-page of Coca-Cola at [this link](https://www.amazon.com/Coca-Cola-Soda-Soft-Drink-Pack/dp/B000T9WLTK?ref_=ast_sto_dp&th=1), when accessed by Metaculus from the United States on or after April 1, 2025, is listed using the exact phrase \\\"SNAP EBT eligible\\\".\", \"present_date\": \"2025-03-24T22:25:27.466570\"}"
+          }
+        },
+        {
+          "id": "call_kR078cacNBE5nRTDkTjhtH6T",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"question\": \"Will Amazon still list a 12-pack of Coca-Cola as \\\"SNAP EBT eligible\\\" on April 1, 2025?\", \"resolution_criteria\": \"This question resolves as **Yes** if a 12-page of Coca-Cola at [this link](https://www.amazon.com/Coca-Cola-Soda-Soft-Drink-Pack/dp/B000T9WLTK?ref_=ast_sto_dp&th=1), when accessed by Metaculus from the United States on or after April 1, 2025, is listed using the exact phrase \\\"SNAP EBT eligible\\\".\", \"present_date\": \"2025-03-24T22:25:27.466570\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"facts\": [{\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The USDA adjusts SNAP maximum allotments, deductions, and income eligibility standards at the beginning of each federal fiscal year, with the fiscal year for 2025 beginning on October 1, 2024.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"For fiscal year 2025, the FNS increased maximum allotments and shelter caps for most U.S. states and territories, which could affect the purchasing power of SNAP benefits.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The maximum allotment for a family of four in the 48 states and D.C. will be $975, indicating an increase in benefits that could influence the range of products eligible for SNAP EBT.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The minimum benefit for the 48 states and D.C. will remain the same at $23, suggesting stability in the baseline SNAP benefits.\"}, {\"title\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"url\": \"https://www.yahoo.com/news/food-stamps-4-major-changes-120021102.html\", \"fact\": \"The USDA gradually increases the age of 'able-bodied adults without dependents' (ABAWD) subject to work requirements, which could affect the number of people eligible for SNAP benefits.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_HMJ9UkLPMv6VNCP6Wyv0OLm2"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"facts\": [{\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon has been working closely with the USDA to expand access to online grocery shopping for SNAP beneficiaries, reaching 48 states plus the District of Columbia.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon volunteered to participate in the USDA\\u2019s SNAP Online Purchasing Pilot in 2016, indicating a long-term commitment to the program.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon has waived the Prime membership requirement for SNAP customers to access Amazon Fresh, reducing barriers to online grocery shopping.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon provides more than 99% of SNAP households with the ability to use their SNAP benefits online.\"}, {\"title\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"url\": \"https://www.aboutamazon.com/news/retail/nearly-every-snap-household-in-the-u-s-can-pay-with-snap-ebt-on-amazon\", \"fact\": \"Amazon is committed to making food accessible through online grocery shopping, offering convenience, time savings, and low prices.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_QuunaZo9ptj0l87iL8BjcOir"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0acc6f1d-f256-519b-b1da-0076b39fc6e6\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"facts\": [{\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"SNAP-eligible food items on Amazon have a special label 'SNAP EBT eligible' that appears after a SNAP participant adds their SNAP EBT card to their Amazon account.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"Only items shipped and sold by Amazon.com, including Amazon Pantry and Amazon Fresh, are eligible for purchasing with SNAP benefits.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"USDA requires all SNAP authorized retailers, including authorized online retailers like Amazon, to ensure SNAP benefits are used to purchase eligible food items.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"Amazon allows third parties to sell items in the Amazon store, but only the offers that are 'Shipped and Sold by Amazon' are eligible for purchase with SNAP EBT.\"}, {\"title\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"url\": \"https://seniornavigator.org/article/74670/frequently-asked-questions-about-snap-online-shopping\", \"fact\": \"Amazon is participating in a government pilot program to accept SNAP EBT benefits online, and government requirements determine which zip codes are eligible for delivery.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_kR078cacNBE5nRTDkTjhtH6T"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the extracted evidence, here are the key points relevant to the question:\n\n1. **Amazon's Commitment to SNAP EBT**: Amazon has been actively participating in the USDA's SNAP Online Purchasing Pilot since 2016 and has expanded SNAP EBT acceptance to nearly every state in the U.S. They have waived the Prime membership requirement for SNAP customers, indicating a strong commitment to supporting SNAP beneficiaries.\n\n2. **SNAP EBT Eligibility Label**: SNAP-eligible food items on Amazon are clearly labeled as \"SNAP EBT eligible\" once a SNAP participant adds their EBT card to their Amazon account. This labeling is crucial for identifying eligible products.\n\n3. **No Recent Policy Changes Detected**: There are no indications of recent policy changes that would affect the SNAP EBT eligibility of Coca-Cola or similar products on Amazon. The focus has been on expanding access and increasing benefits rather than restricting eligibility.\n\n4. **Stability in SNAP Benefits**: The USDA has increased maximum allotments for SNAP benefits for the fiscal year 2025, which could enhance purchasing power but does not directly impact eligibility criteria for specific products like Coca-Cola.\n\nGiven Amazon's ongoing commitment to supporting SNAP beneficiaries and the absence of any recent policy changes that would affect the eligibility of Coca-Cola, it is likely that the product will remain listed as \"SNAP EBT eligible\" on April 1, 2025.\n\nFINAL PROBABILITY: 0.9"
+    }
+  ]
+}

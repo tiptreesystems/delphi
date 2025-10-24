@@ -1,0 +1,887 @@
+{
+  "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+  "question": "In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?",
+  "probability": 0.85,
+  "reasoning": "Based on the gathered evidence, here are the key points regarding DeepSeek's potential to be ranked in the top 50 globally by Similarweb in March 2025:\n\n1. **Traffic and Popularity**: DeepSeek has experienced explosive growth in traffic. It had 277.9 million monthly visits as of January 2025, making it the second most popular AI search engine after ChatGPT. This level of traffic is significant and suggests a strong potential for high global ranking.\n\n2. **Growth Trends**: DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025. Analysts predict that DeepSeek will reach 20 million daily visits by mid-2025. This rapid growth trajectory indicates a strong upward trend in user engagement.\n\n3. **Market Presence**: DeepSeek is the #1 most downloaded app in the App Store in over 156 countries and has been integrated into products by major Chinese tech companies like Lenovo, Baidu, and Tencent. It has also caught the favor of the Chinese government, further boosting its visibility and adoption.\n\n4. **Competitive Edge**: DeepSeek's AI models are significantly cheaper than competitors, which could drive higher adoption rates. Its disruptive impact has been highlighted by triggering a $1 trillion-plus sell-off in global equities markets.\n\n5. **Global Reach**: DeepSeek's largest markets are China, India, and Indonesia, accounting for 51.24% of its monthly active users. Its global launch and strategic partnerships have contributed to its increased visibility and traffic.\n\nGiven these factors, DeepSeek's rapid growth, high traffic volume, and strategic market positioning strongly suggest that it could be ranked in the top 50 globally by Similarweb in March 2025.\n\nFINAL PROBABILITY: 0.85",
+  "search_results": [
+    {
+      "title": "DeepSeek AI Usage Stats for 2025",
+      "url": "https://backlinko.com/deepseek-stats",
+      "content": "As of January 2025, DeepSeek had 33.7 million monthly active users and 22.15 million daily active users. The website saw 15.9 million unique visitors from January 20-26, 2025."
+    },
+    {
+      "title": "DeepSeek Explosive Growth: Daily Visits Double in 48 Hours",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "content": "DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic. By February 2025, DeepSeek accounted for 8% of global AI search traffic..."
+    },
+    {
+      "title": "DeepSeek AI Statistics of 2025 (Users & Revenue)",
+      "url": "https://www.demandsage.com/deepseek-statistics/",
+      "content": "DeepSeek had 97,193 average daily visitors in February 2025, with a traffic value of $103,459. This data is partial, covering only the first week of February."
+    },
+    {
+      "title": "DeepSeek AI - Statistics & Facts (2025): Users and Growth Trends | Futurism",
+      "url": "https://vocal.media/futurism/deep-seek-ai-statistics-and-facts-2025-users-and-growth-trends",
+      "content": "As of January 20-26, 2025, DeepSeek’s website received 15.9 million unique visitors, marking a sharp increase from 5.1 million unique visitors the previous week."
+    },
+    {
+      "title": "DeepSeek rushes to launch new AI model as China goes all in | Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "content": "DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model..."
+    },
+    {
+      "title": "Which countries have banned DeepSeek and why? | Business and Economy News | Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2025/2/6/which-countries-have-banned-deepseek-and-why",
+      "content": "DeepSeek is banned on government devices in South Korea, Australia and Taiwan. More countries might follow suit, citing security concerns about the Chinese technology."
+    },
+    {
+      "title": "DeepSeek shakes up AI sector – and other digital tech stories you need to know | World Economic Forum",
+      "url": "https://www.weforum.org/stories/2025/02/china-deepseek-shakes-up-ai-tech-stories/",
+      "content": "Chinese tech firm DeepSeek shakes up AI industry, surpassing ChatGPT to become the top-rated free app on the US Apple App Store in late January 2025."
+    },
+    {
+      "title": "DeepSeek is now a global force. But it’s just one player in China’s booming AI industry",
+      "url": "https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry",
+      "content": "When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community."
+    },
+    {
+      "title": "How Deepseek is Changing the AI Landscape - Georgia State University News - Press Releases, Robinson College of Business -",
+      "url": "https://news.gsu.edu/2025/02/04/how-deepseek-is-changing-the-a-i-landscape/",
+      "content": "On Monday January 27, a little known Chinese start-up called Deepseek sent shockwaves and panic through Silicon Valley and the global stock market with the launch of their generative artificial intelligence(AI) model..."
+    },
+    {
+      "title": "DeepSeek is now a global force. But it’s just one player in China’s booming AI industry",
+      "url": "https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry",
+      "content": "When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community."
+    },
+    {
+      "title": "🚀 Introducing DeepSeek-V3 | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news1226",
+      "content": "From Feb 8 onwards: Input (cache miss) $0.27/M tokens, Input (cache hit) $0.07/M tokens, Output $1.10/M tokens. Still the best value in the market!..."
+    },
+    {
+      "title": "Search result",
+      "url": "https://www.similarweb.com/website/deepseek.com/",
+      "content": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+    },
+    {
+      "title": "DeepSeek Sees Huge Surge to Become Second Most Popular AI Chatbot",
+      "url": "https://www.yahoo.com/tech/deepseek-sees-huge-surge-become-183909218.html",
+      "content": "In terms of daily visits, DeepSeek.com has quickly surpassed other chatbots, such as Google's Gemini and Character.AI, according to Similarweb."
+    },
+    {
+      "title": "Top 10 AI Search Engines For 2025 (Ranked By Popularity)",
+      "url": "https://www.reliablesoft.net/ai-search-engines/",
+      "content": "The most popular AI search engine to date is ChatGPT, with 3.8 billion monthly visits, followed by DeepSeek, with 277.9 million visits, and Google Gemini, with 267.70 million visits. Looking at the actual numbers (provided by SimilarWeb for January 2025)..."
+    },
+    {
+      "title": "Discover Latest DeepSeek Statistics (2025) | StatsUp",
+      "url": "https://analyzify.com/statsup/deepseek",
+      "content": "I am sorry, but I cannot find any information about the Similarweb ranking history for deepseek.com in the provided content."
+    },
+    {
+      "title": "DeepSeek Explosive Growth: Daily Visits Double in 48 Hours",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "content": "DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic according to Similarweb..."
+    },
+    {
+      "title": "https://backlinko.com/deepseek-stats",
+      "url": "https://backlinko.com/deepseek-stats",
+      "content": "---\ntitle: DeepSeek AI Usage Stats for 2025\nauthor: Backlinko Team\nurl: https://backlinko.com/deepseek-stats\nhostname: backlinko.com\ndescription: DeepSeek, a Chinese AI startup founded in 2023, built a cost-efficient chatbot rivaling ChatGPT with 4.3M+ global downloads.\nsitename: Backlinko\ndate: 2025-02-05\n---\n# DeepSeek AI Usage Stats\n\nWritten by [Backlinko Team](https://backlinko.com/blog/authors/backlinko-team)\n\nFounded in 2023, DeepSeek is a Chinese AI startup known for its new chatbot beating many existing models and rivaling dominance of [ChatGPT](https://backlinko.com/chatgpt-stats).\n\nSince the public release of DeepSeek-R1 on January 20, the startup attracted worldwide attention thanks to its reported cost-efficient model outpacing leading US-based AI chatbots.\n\nToday, DeepSeek ranks as the #1 most downloaded app in the App Store in over 156 countries and has an average of 22.15 million daily active users worldwide.\n\nAI chatbot by DeepSeek is currently one of the fastest-growing tech products but as a private company, they don’t disclose many details. We plan to update this page as more information is available.\n\n## Key DeepSeek Stats\n\n- As of January 2025, DeepSeek had\n**33.7 million**monthly active users worldwide. - As of January 2025, DeepSeek reached an average of\n**22.15 million**daily active users globally. - China, India and Indonesia are the largest markets for DeepSeek accounting for\n**51.24%**of DeepSeek monthly active users in January 2025. - DeekSeek website unique visitors per week amounted to\n**15.9 million**.\n\n## DeepSeek Monthly Active Users\n\nIn January 2025, DeepSeek had **33.7 million** monthly active users across the world, which makes it the #4 [most popular AI app](https://backlinko.com/most-popular-ai-apps) worldwide by active user base.\n\n**Source:** [Aicpb.com](http://Aicpb.com)\n\n## DeepSeek Daily Active Users\n\nIn January 2025, DeepSeek had **22.15 million** daily active users across the world.\n\n**Source:** [Aicpb.com](http://Aicpb.com)\n\n## DeepSeek Monthly Active Users by Country\n\nAccording to latest data, the top 3 markets of DeepSeek are China, India and Indonesia, combined accounting for **51.24%** of monthly active users worldwide.\n\nHere’s a detailed breakdown of top 5 countries with the largest share of monthly active users as of January 2025:\n\n| Country | Share of DeepSeek MAUs (January 2025) |\n|---|---|\n| China | 30.71% |\n| India | 13.59% |\n| Indonesia | 6.94% |\n| The United States | 4.34% |\n| France | 3.21% |\n\n**Sou…\n\n[Truncated preview: showing 364 words out of ~794. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "content": "---\ntitle: DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\nauthor: Bernzweig Michael\nurl: https://softwareoasis.com/deepseek-explosive-growth/\nhostname: softwareoasis.com\ndescription: Discover how DeepSeek's daily visits skyrocketed from 6.2M to 12.4M in just 48 hours by on Jan 26 '25. What's behind the DeepSeek Explosive Growth trajectory?\nsitename: Software Oasis\ndate: 2025-02-10\ncategories: ['Consulting Statistics']\ntags: ['AI search platform statistics', 'AI search trends 2025', 'AI-driven search optimization', 'AI-powered precision search', 'DeepSeek daily visits', 'DeepSeek market share', 'DeepSeek traffic growth', 'DeepSeek user growth']\n---\n# DeepSeek Explosive Growth Statistics: Doubling Daily Visits in 48 Hours\n\n## DeepSeek Explosive Growth\n\nDeepSeek, an emerging AI-powered search platform, has stunned the tech world with its unprecedented growth. By January 26, 2025, DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours, doubling its traffic and cementing its position as a rising star in the AI search landscape ([Similarweb](https://www.similarweb.com/blog/insights/ai-news/deepseek-daily-visits-double), February 2025). This explosive growth highlights the increasing demand for AI-driven search tools that prioritize precision, personalization, and efficiency over traditional search engines.\n\n**Unprecedented Traffic Surge**\n\nDeepSeek’s rapid growth is unparalleled in the AI search market. The platform initially gained traction in late 2024, averaging around **4 million daily visits**. However, by January 24, 2025, it had reached **6.2 million daily visits**, and within just two days, this number doubled to **12.4 million** (TechRadar Insights, February 2025). This remarkable surge represents a **100% increase in traffic over 48 hours**, a feat rarely seen even among major tech platforms.\n\n### Key Metrics:\n\n**6.2 million daily visits**on January 24, 2025.**12.4 million daily visits**on January 26, 2025.**100% growth in just two days**, setting a new benchmark for AI-powered platforms.\n\n**Why DeepSeek is Growing So Rapidly**\n\nSeveral factors are driving DeepSeek's explosive growth:\n\n**AI-Powered Precision Search**\n\nDeepSeek leverages advanced AI algorithms to deliver hyper-personalized search results. Unlike traditional engines that rely on keyword matching, DeepSeek understands user intent and context, providing more accurate and relevant results (TechCrunch AI Report, February 2025).**User-Centric Features**…\n\n[Truncated preview: showing 324 words out of ~722. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.demandsage.com/deepseek-statistics/",
+      "url": "https://www.demandsage.com/deepseek-statistics/",
+      "content": "---\ntitle: DeepSeek AI Statistics of 2025 (Users & Revenue)\nauthor: Naveen Kumar\nurl: https://www.demandsage.com/deepseek-statistics/\nhostname: demandsage.com\ndescription: DeepSeek has over 10 million downloads, but the recent bans are also concerning. Find Deepseek statistics about its users & growth inside.\nsitename: DemandSage\ndate: 2025-02-20\ncategories: ['Data Statistics']\n---\nDeepSeek R-1 Release in January 2025 took the internet by storm, possibly hinting towards a replacement of ChatGPT sooner with this Chinese AI app.\n\nDespite operating on a limited budget, Deepseek AI has positioned itself as a crucial tool and the top-ranked app in 2025 on the App Store and Play Store.\n\nHowever, due to reported cyberattacks, DeepSeek is restricting new registrations, indicating potential security challenges, yet their rapid growth will blow your mind.\n\nIn this DeepSeek Statistics article, let’s check out the latest statistics, trends, and projections related to DeepSeek AI and help you understand where this platform is headed in 2025.\n\n**Top DeepSeek AI Statistics**\n\n- DeepSeek had about 7,475 visitors per day in August 2024. By February 2025, this grew to 100,776 visitors daily. That’s 12 times more people visiting their website. (Semrush)\n- DeepSeek AI is trained on 14.8 trillion tokens. (\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - It took 2.788 million H800 GPU hours to train DeepSeek. (\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - DeepSeek used around 2,000 Nvidia H800 chips to train its models, showcasing substantial computational power. (\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - The third version of DeepSeek (DeepSeek-V3) costs $5.5 million to create, which is only about 1/18th the cost of building OpenAI’s GPT-4. (\n[Bussiness of Apps](https://www.businessofapps.com/data/deepseek-statistics/)) - Deepseek can remember up to 128,000 tokens at once, allowing it to process long pieces of text. In response, it can generate 8,000 tokens in one response.\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948)) - DeepSeek-R1 outperforms OpenAI-o1-1217 in 2 out of 5 coding benchmarks (40%), leading in LiveCodeBench (65.9% vs. 63.4%) and SWE Verified (49.2% vs. 48.9%).\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948))\n\n**How Many Users On DeepSeek AI?**\n\n- DeepSeek has amassed 2.4 million downloads on Google Play and 1.9 million downloads on the App Store, showcasing its strong presence across both platforms. (Backlinko)\n- DeepSeek has over 10 millio…\n\n[Truncated preview: showing 345 words out of ~1859. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "content": "---\ntitle: DeepSeek rushes to launch new AI model as China goes all in\nauthor: Eduardo Baptista; Julie Zhu; Fanny Potkin\nurl: https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\nhostname: reuters.com\ndescription: DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model.\nsitename: Reuters\ndate: 2025-02-25\ncategories: ['Artificial Intelligence']\ntags: ['RSBI:DATA-PRIVACY,RULES:COMPANY-DEEPSEEK,INSGHT,EREP,ANLINS,ARTI,BACT,BISV,BISV08,BIZ,CHIP,CHIP1,CIV,CMPELC,CMPNY,COMP08,CPROD,DAT,DIP,ECOMMA,FIN,FINS,FINS08,GEN,HARW,HARW1,HEDGE,INVBIS,INVM,INVS08,ITSE,ITSE08,NETSV,NETSV1,NEWS1,POL,PRDLCH,PUBL,REGS,SCI,SEMI,SRCHEN,SWIT,TECH,TECH08,TEEQ,TEEQ08,TMT,TRD,TRDEMB,WEU,EASIA,AMERS,US,EUROP,HK,EZC,NAMER,EMEA,ASXPAC,EMRG,CN,ASIA,FR,DEST:CSA,DEST:LBY,DEST:REULB,DEST:ABX,DEST:G,DEST:RAST,DEST:SOF,DEST:M,DEST:PGE,DEST:Z,DEST:PTD,DEST:RNP,DEST:E,DEST:C,DEST:PCU,DEST:ABN,DEST:AFA,DEST:BNX,DEST:GRO,DEST:PSC,DEST:U,DEST:O,DEST:DNP,DEST:MTL,DEST:FUN,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:PCO,DEST:D,DEST:NAT,DEST:RBN,DEST:OIL,TOPNWS,SUSTAINABLE-BUSINESS,DEST:OUKBSM,DEST:OUSBSM,DEST:OCABSM,DEST:SEABS,DEST:OUSTCM,LEGAL,REUTERS-LEGAL,DEST:LITA,DEST:ODAT,TOPCMB']\n---\n# DeepSeek rushes to launch new AI model as China goes all in\n\nBEIJING/HONG KONG/SINGAPORE, Feb 25 (Reuters) - DeepSeek is looking to press home its advantage.\n\nThe Chinese startup triggered a $1 trillion-plus sell-off in global equities markets last month with a cut-price AI reasoning model that outperformed many Western competitors.\n\nNow, the\n\n[Hangzhou-based firm](https://www.reuters.com/technology/deepseek/)is accelerating the launch of the successor to January's R1 model, according to three people familiar with the company.Deepseek had planned to release R2 in early May but now wants it out as early as possible, two of them said, without providing specifics.\n\nThe company says it hopes the new model will produce better coding and be able to reason in languages beyond English. Details of the accelerated timeline for R2's release have not been previously reported.\n\nDeepSeek did not respond to a request for comment for this story.\n\nRivals are still digesting the implications of R1, which was built with less-powerful Nvidia chips but is competitive with those developed at the costs of hundreds of billions of dollars by U.S. tech giants.\n\n\"The launch of DeepSeek…\n\n[Truncated preview: showing 240 words out of ~1705. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.reliablesoft.net/ai-search-engines/",
+      "url": "https://www.reliablesoft.net/ai-search-engines/",
+      "content": "---\ntitle: Top 10 AI Search Engines For 2025 (Ranked By Popularity)\nauthor: Alex Chris\nurl: https://www.reliablesoft.net/ai-search-engines/\nhostname: reliablesoft.net\ndescription: These are the best AI search engines users prefer in 2025, ranked by monthly website visits.\nsitename: Reliablesoft Academy\ndate: 2025-02-11\ncategories: ['Digital Marketing']\n---\nUntil recently, Google was the go-to source for all things search, but that is no longer the case. Google may not have lost significant market share for traditional searches, but when it comes to AI search engines, there is a new king in town.\n\nTo determine which AI search engines are gaining the most traction, we analyzed monthly website visits as a measure of popularity. While website traffic doesn’t necessarily reflect the number of unique users or the actual purpose of visiting the website, it provides a strong indication of where people are turning for AI-driven search experiences.\n\nThe most popular AI search engine to date is **ChatGPT,** with **3.8 billion** monthly visits, followed by **DeepSeek,** with **277.9 **million visits, and **Google Gemini**, with **267.70** million visits.\n\n\nLooking at the actual numbers (provided by SimilarWeb for January 2025), it's clear that ChatGPT is the leader in the AI space.\n\nDeepSeek appeared in February 2025 and quickly grabbed users' attention to check what the Chinese AI can do. However, while it has gained traction, it poses no real threat (yet) to ChatGPT’s dominance.\n\nRank |\nSearch Engine |\nUsers (Millions) |\n|---|---|---|\n| 1 | ChatGPT | 3800.00 |\n| 2 | DeepSeek | 277.90 |\n| 3 | Google Gemini | 267.70 |\n| 4 | Perplexity AI | 99.50 |\n| 5 | Claude AI | 76.80 |\n| 6 | Microsoft CoPilot | 67.30 |\n| 7 | You.com | 5.50 |\n| 8 | Phind | 1.30 |\n| 9 | Andi Search | 0.60 |\n| 10 | Komo.ai | 0.20 |\n\nOther notable AI search engines include Google Gemini, which, despite Google's vast share in traditional [ search engines](https://www.reliablesoft.net/top-10-search-engines-in-the-world/), is still not widely adopted by users.\n\nPerplexity AI gained popularity for providing real-time citations and is used mainly by professionals and students.\n\nClaude AI, developed by Anthropic, has been growing steadily but remains more of a research assistant than a direct competitor in AI-powered search.\n\nThe list does not include Google AI Overviews (reportedly shown for [ 47% ](https://www.searchenginejournal.com/study-google-ai-overviews-appear-in-47-of-search-results/535096/)of sear…\n\n[Truncated preview: showing 390 words out of ~1484. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://backlinko.com/deepseek-stats",
+      "url": "https://backlinko.com/deepseek-stats",
+      "fact": "DeepSeek had 33.7 million monthly active users worldwide as of January 2025."
+    },
+    {
+      "title": "https://backlinko.com/deepseek-stats",
+      "url": "https://backlinko.com/deepseek-stats",
+      "fact": "DeepSeek's website had 15.9 million unique visitors in the week of January 20-26, 2025."
+    },
+    {
+      "title": "https://backlinko.com/deepseek-stats",
+      "url": "https://backlinko.com/deepseek-stats",
+      "fact": "DeepSeek is the #1 most downloaded app in the App Store in over 156 countries."
+    },
+    {
+      "title": "https://backlinko.com/deepseek-stats",
+      "url": "https://backlinko.com/deepseek-stats",
+      "fact": "DeepSeek's largest markets are China, India, and Indonesia, accounting for 51.24% of its monthly active users."
+    },
+    {
+      "title": "https://backlinko.com/deepseek-stats",
+      "url": "https://backlinko.com/deepseek-stats",
+      "fact": "The DeepSeek AI app has been downloaded over 21.66 million times worldwide as of February 5, 2025."
+    },
+    {
+      "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "fact": "DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025."
+    },
+    {
+      "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "fact": "DeepSeek accounted for 8% of global AI search traffic by February 2025, up from 3% six months earlier."
+    },
+    {
+      "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "fact": "Analysts predict that DeepSeek will reach 20 million daily visits by mid-2025."
+    },
+    {
+      "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "fact": "DeepSeek's market share is projected to climb to 15% by early 2026."
+    },
+    {
+      "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+      "fact": "DeepSeek's rapid growth is reshaping the competitive landscape of AI-powered search tools."
+    },
+    {
+      "title": "https://www.demandsage.com/deepseek-statistics/",
+      "url": "https://www.demandsage.com/deepseek-statistics/",
+      "fact": "DeepSeek had about 7,475 visitors per day in August 2024, which grew to 100,776 visitors daily by February 2025, indicating a significant increase in web traffic."
+    },
+    {
+      "title": "https://www.demandsage.com/deepseek-statistics/",
+      "url": "https://www.demandsage.com/deepseek-statistics/",
+      "fact": "DeepSeek's R-1 release in January 2025 led to a dramatic growth in traffic, with a 312% increase in January compared to December 2024."
+    },
+    {
+      "title": "https://www.demandsage.com/deepseek-statistics/",
+      "url": "https://www.demandsage.com/deepseek-statistics/",
+      "fact": "DeepSeek has over 10 million downloads as of January 2025, with significant traction in countries like China and the United States."
+    },
+    {
+      "title": "https://www.demandsage.com/deepseek-statistics/",
+      "url": "https://www.demandsage.com/deepseek-statistics/",
+      "fact": "DeepSeek is the top-ranked app in 2025 on the App Store and Play Store, suggesting strong user engagement and popularity."
+    },
+    {
+      "title": "https://www.demandsage.com/deepseek-statistics/",
+      "url": "https://www.demandsage.com/deepseek-statistics/",
+      "fact": "DeepSeek's global launch occurred on January 20, 2025, which may contribute to its increased visibility and traffic."
+    },
+    {
+      "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "fact": "DeepSeek is accelerating the launch of its R2 model, which was initially planned for May, indicating a strategic push to capitalize on its recent success."
+    },
+    {
+      "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "fact": "DeepSeek's R1 model has been integrated into products by major Chinese tech companies like Lenovo, Baidu, and Tencent, suggesting widespread adoption and increased visibility."
+    },
+    {
+      "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "fact": "The company has caught the favor of the Chinese government, with DeepSeek models being deployed by at least 13 Chinese city governments and 10 state-owned energy companies."
+    },
+    {
+      "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "fact": "DeepSeek's AI models are significantly cheaper than competitors, with pricing estimated to be 20 to 40 times less than OpenAI's equivalent models, which could drive higher adoption rates."
+    },
+    {
+      "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+      "fact": "DeepSeek's R1 model has triggered a $1 trillion-plus sell-off in global equities markets, highlighting its disruptive impact and potential to attract significant attention and traffic."
+    },
+    {
+      "title": "https://www.reliablesoft.net/ai-search-engines/",
+      "url": "https://www.reliablesoft.net/ai-search-engines/",
+      "fact": "DeepSeek has 277.9 million monthly visits as of January 2025, making it the second most popular AI search engine after ChatGPT."
+    },
+    {
+      "title": "https://www.reliablesoft.net/ai-search-engines/",
+      "url": "https://www.reliablesoft.net/ai-search-engines/",
+      "fact": "DeepSeek appeared in February 2025 and quickly gained attention, indicating rapid growth and user interest."
+    },
+    {
+      "title": "https://www.reliablesoft.net/ai-search-engines/",
+      "url": "https://www.reliablesoft.net/ai-search-engines/",
+      "fact": "DeepSeek's AI Assistant, powered by the DeepSeek-V3 model, was released in January 2025, contributing to its recent popularity."
+    },
+    {
+      "title": "https://www.reliablesoft.net/ai-search-engines/",
+      "url": "https://www.reliablesoft.net/ai-search-engines/",
+      "fact": "DeepSeek became the top-rated free application on Apple's App Store shortly after its release."
+    },
+    {
+      "title": "https://www.reliablesoft.net/ai-search-engines/",
+      "url": "https://www.reliablesoft.net/ai-search-engines/",
+      "fact": "DeepSeek's website has been downloaded over 21.66 million times worldwide across Google Play and the App Store as of February 2025."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "yes",
+  "scoring_weight": 1.0,
+  "brier_score": 0.022500000000000006,
+  "weighted_brier_score": 0.022500000000000006,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+        "queries": [
+          "deepseek.com site traffic analysis February 2025",
+          "deepseek.com news February 2025",
+          "deepseek.com Similarweb ranking history"
+        ]
+      },
+      "raw": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"queries\": [\"deepseek.com site traffic analysis February 2025\", \"deepseek.com news February 2025\", \"deepseek.com Similarweb ranking history\"]}",
+      "tool_call_id": "call_7QygeWjJfpFTtk0iQmBzigtF"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "deepseek.com site traffic analysis February 2025",
+        "results": [
+          {
+            "title": "DeepSeek AI Usage Stats for 2025",
+            "link": "https://backlinko.com/deepseek-stats",
+            "position": 1,
+            "snippet": "As of January 2025, DeepSeek had 33.7 million monthly active users and 22.15 million daily active users. The website saw 15.9 million unique visitors from January 20-26, 2025.",
+            "date": "2025-02-06T00:57:33Z"
+          },
+          {
+            "title": "DeepSeek Explosive Growth: Daily Visits Double in 48 Hours",
+            "link": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "position": 2,
+            "snippet": "DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic. By February 2025, DeepSeek accounted for 8% of global AI search traffic...",
+            "date": "2025-02-11T00:26:24Z"
+          },
+          {
+            "title": "DeepSeek AI Statistics of 2025 (Users & Revenue)",
+            "link": "https://www.demandsage.com/deepseek-statistics/",
+            "position": 3,
+            "snippet": "DeepSeek had 97,193 average daily visitors in February 2025, with a traffic value of $103,459. This data is partial, covering only the first week of February.",
+            "date": "2025-02-20T08:59:53Z"
+          },
+          {
+            "title": "DeepSeek AI - Statistics & Facts (2025): Users and Growth Trends | Futurism",
+            "link": "https://vocal.media/futurism/deep-seek-ai-statistics-and-facts-2025-users-and-growth-trends",
+            "position": 5,
+            "snippet": "As of January 20-26, 2025, DeepSeek’s website received 15.9 million unique visitors, marking a sharp increase from 5.1 million unique visitors the previous week.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"deepseek.com site traffic analysis February 2025\", \"results\": [{\"title\": \"DeepSeek AI Usage Stats for 2025\", \"link\": \"https://backlinko.com/deepseek-stats\", \"position\": 1, \"snippet\": \"As of January 2025, DeepSeek had 33.7 million monthly active users and 22.15 million daily active users. The website saw 15.9 million unique visitors from January 20-26, 2025.\", \"date\": \"2025-02-06T00:57:33Z\"}, {\"title\": \"DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\", \"link\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"position\": 2, \"snippet\": \"DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic. By February 2025, DeepSeek accounted for 8% of global AI search traffic...\", \"date\": \"2025-02-11T00:26:24Z\"}, {\"title\": \"DeepSeek AI Statistics of 2025 (Users & Revenue)\", \"link\": \"https://www.demandsage.com/deepseek-statistics/\", \"position\": 3, \"snippet\": \"DeepSeek had 97,193 average daily visitors in February 2025, with a traffic value of $103,459. This data is partial, covering only the first week of February.\", \"date\": \"2025-02-20T08:59:53Z\"}, {\"title\": \"DeepSeek AI - Statistics & Facts (2025): Users and Growth Trends | Futurism\", \"link\": \"https://vocal.media/futurism/deep-seek-ai-statistics-and-facts-2025-users-and-growth-trends\", \"position\": 5, \"snippet\": \"As of January 20-26, 2025, DeepSeek\\u2019s website received 15.9 million unique visitors, marking a sharp increase from 5.1 million unique visitors the previous week.\", \"date\": null}]}",
+      "tool_call_id": "call_9XoUKYQ7DflvzD6rnSVvpN5v"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "deepseek.com news February 2025",
+        "results": [
+          {
+            "title": "DeepSeek rushes to launch new AI model as China goes all in | Reuters",
+            "link": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "position": 1,
+            "snippet": "DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model...",
+            "date": null
+          },
+          {
+            "title": "Which countries have banned DeepSeek and why? | Business and Economy News | Al Jazeera",
+            "link": "https://www.aljazeera.com/news/2025/2/6/which-countries-have-banned-deepseek-and-why",
+            "position": 3,
+            "snippet": "DeepSeek is banned on government devices in South Korea, Australia and Taiwan. More countries might follow suit, citing security concerns about the Chinese technology.",
+            "date": null
+          },
+          {
+            "title": "DeepSeek shakes up AI sector – and other digital tech stories you need to know | World Economic Forum",
+            "link": "https://www.weforum.org/stories/2025/02/china-deepseek-shakes-up-ai-tech-stories/",
+            "position": 4,
+            "snippet": "Chinese tech firm DeepSeek shakes up AI industry, surpassing ChatGPT to become the top-rated free app on the US Apple App Store in late January 2025.",
+            "date": null
+          },
+          {
+            "title": "DeepSeek is now a global force. But it’s just one player in China’s booming AI industry",
+            "link": "https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry",
+            "position": 5,
+            "snippet": "When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community.",
+            "date": null
+          },
+          {
+            "title": "How Deepseek is Changing the AI Landscape - Georgia State University News - Press Releases, Robinson College of Business -",
+            "link": "https://news.gsu.edu/2025/02/04/how-deepseek-is-changing-the-a-i-landscape/",
+            "position": 1,
+            "snippet": "On Monday January 27, a little known Chinese start-up called Deepseek sent shockwaves and panic through Silicon Valley and the global stock market with the launch of their generative artificial intelligence(AI) model...",
+            "date": "2025-02-04T20:39:00Z"
+          },
+          {
+            "title": "DeepSeek is now a global force. But it’s just one player in China’s booming AI industry",
+            "link": "https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry",
+            "position": 2,
+            "snippet": "When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community.",
+            "date": null
+          },
+          {
+            "title": "🚀 Introducing DeepSeek-V3 | DeepSeek API Docs",
+            "link": "https://api-docs.deepseek.com/news/news1226",
+            "position": 3,
+            "snippet": "From Feb 8 onwards: Input (cache miss) $0.27/M tokens, Input (cache hit) $0.07/M tokens, Output $1.10/M tokens. Still the best value in the market!...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"deepseek.com news February 2025\", \"results\": [{\"title\": \"DeepSeek rushes to launch new AI model as China goes all in | Reuters\", \"link\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"position\": 1, \"snippet\": \"DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model...\", \"date\": null}, {\"title\": \"Which countries have banned DeepSeek and why? | Business and Economy News | Al Jazeera\", \"link\": \"https://www.aljazeera.com/news/2025/2/6/which-countries-have-banned-deepseek-and-why\", \"position\": 3, \"snippet\": \"DeepSeek is banned on government devices in South Korea, Australia and Taiwan. More countries might follow suit, citing security concerns about the Chinese technology.\", \"date\": null}, {\"title\": \"DeepSeek shakes up AI sector \\u2013 and other digital tech stories you need to know | World Economic Forum\", \"link\": \"https://www.weforum.org/stories/2025/02/china-deepseek-shakes-up-ai-tech-stories/\", \"position\": 4, \"snippet\": \"Chinese tech firm DeepSeek shakes up AI industry, surpassing ChatGPT to become the top-rated free app on the US Apple App Store in late January 2025.\", \"date\": null}, {\"title\": \"DeepSeek is now a global force. But it\\u2019s just one player in China\\u2019s booming AI industry\", \"link\": \"https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry\", \"position\": 5, \"snippet\": \"When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community.\", \"date\": null}, {\"title\": \"How Deepseek is Changing the AI Landscape - Georgia State University News - Press Releases, Robinson College of Business -\", \"link\": \"https://news.gsu.edu/2025/02/04/how-deepseek-is-changing-the-a-i-landscape/\", \"position\": 1, \"snippet\": \"On Monday January 27, a little known Chinese start-up called Deepseek sent shockwaves and panic through Silicon Valley and the global stock market with the launch of their generative artificial intelligence(AI) model...\", \"date\": \"2025-02-04T20:39:00Z\"}, {\"title\": \"DeepSeek is now a global force. But it\\u2019s just one player in China\\u2019s booming AI industry\", \"link\": \"https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry\", \"position\": 2, \"snippet\": \"When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community.\", \"date\": null}, {\"title\": \"\\ud83d\\ude80 Introducing DeepSeek-V3 | DeepSeek API Docs\", \"link\": \"https://api-docs.deepseek.com/news/news1226\", \"position\": 3, \"snippet\": \"From Feb 8 onwards: Input (cache miss) $0.27/M tokens, Input (cache hit) $0.07/M tokens, Output $1.10/M tokens. Still the best value in the market!...\", \"date\": null}]}",
+      "tool_call_id": "call_hgFANiHnSL8OsV7JmGjYAIV8"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "deepseek.com Similarweb ranking history",
+        "results": [
+          {
+            "title": "",
+            "link": "https://www.similarweb.com/website/deepseek.com/",
+            "position": 1,
+            "snippet": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+            "date": null
+          },
+          {
+            "title": "DeepSeek Sees Huge Surge to Become Second Most Popular AI Chatbot",
+            "link": "https://www.yahoo.com/tech/deepseek-sees-huge-surge-become-183909218.html",
+            "position": 4,
+            "snippet": "In terms of daily visits, DeepSeek.com has quickly surpassed other chatbots, such as Google's Gemini and Character.AI, according to Similarweb.",
+            "date": null
+          },
+          {
+            "title": "Top 10 AI Search Engines For 2025 (Ranked By Popularity)",
+            "link": "https://www.reliablesoft.net/ai-search-engines/",
+            "position": 5,
+            "snippet": "The most popular AI search engine to date is ChatGPT, with 3.8 billion monthly visits, followed by DeepSeek, with 277.9 million visits, and Google Gemini, with 267.70 million visits. Looking at the actual numbers (provided by SimilarWeb for January 2025)...",
+            "date": "2025-02-11T10:27:57Z"
+          },
+          {
+            "title": "Discover Latest DeepSeek Statistics (2025) | StatsUp",
+            "link": "https://analyzify.com/statsup/deepseek",
+            "position": 3,
+            "snippet": "I am sorry, but I cannot find any information about the Similarweb ranking history for deepseek.com in the provided content.",
+            "date": null
+          },
+          {
+            "title": "DeepSeek Explosive Growth: Daily Visits Double in 48 Hours",
+            "link": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "position": 4,
+            "snippet": "DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic according to Similarweb...",
+            "date": "2025-02-11T00:26:24Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"deepseek.com Similarweb ranking history\", \"results\": [{\"title\": \"\", \"link\": \"https://www.similarweb.com/website/deepseek.com/\", \"position\": 1, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"DeepSeek Sees Huge Surge to Become Second Most Popular AI Chatbot\", \"link\": \"https://www.yahoo.com/tech/deepseek-sees-huge-surge-become-183909218.html\", \"position\": 4, \"snippet\": \"In terms of daily visits, DeepSeek.com has quickly surpassed other chatbots, such as Google's Gemini and Character.AI, according to Similarweb.\", \"date\": null}, {\"title\": \"Top 10 AI Search Engines For 2025 (Ranked By Popularity)\", \"link\": \"https://www.reliablesoft.net/ai-search-engines/\", \"position\": 5, \"snippet\": \"The most popular AI search engine to date is ChatGPT, with 3.8 billion monthly visits, followed by DeepSeek, with 277.9 million visits, and Google Gemini, with 267.70 million visits. Looking at the actual numbers (provided by SimilarWeb for January 2025)...\", \"date\": \"2025-02-11T10:27:57Z\"}, {\"title\": \"Discover Latest DeepSeek Statistics (2025) | StatsUp\", \"link\": \"https://analyzify.com/statsup/deepseek\", \"position\": 3, \"snippet\": \"I am sorry, but I cannot find any information about the Similarweb ranking history for deepseek.com in the provided content.\", \"date\": null}, {\"title\": \"DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\", \"link\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"position\": 4, \"snippet\": \"DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic according to Similarweb...\", \"date\": \"2025-02-11T00:26:24Z\"}]}",
+      "tool_call_id": "call_KeSTqhXUCzaRXywBRX4pO39m"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://backlinko.com/deepseek-stats",
+        "snippet": "---\ntitle: DeepSeek AI Usage Stats for 2025\nauthor: Backlinko Team\nurl: https://backlinko.com/deepseek-stats\nhostname: backlinko.com\ndescription: DeepSeek, a Chinese AI startup founded in 2023, built a cost-efficient chatbot rivaling ChatGPT with 4.3M+ global downloads.\nsitename: Backlinko\ndate: 2025-02-05\n---\n# DeepSeek AI Usage Stats\n\nWritten by [Backlinko Team](https://backlinko.com/blog/authors/backlinko-team)\n\nFounded in 2023, DeepSeek is a Chinese AI startup known for its new chatbot beating many existing models and rivaling dominance of [ChatGPT](https://backlinko.com/chatgpt-stats).\n\nSince the public release of DeepSeek-R1 on January 20, the startup attracted worldwide attention thanks to its reported cost-efficient model outpacing leading US-based AI chatbots.\n\nToday, DeepSeek ranks as the #1 most downloaded app in the App Store in over 156 countries and has an average of 22.15 million daily active users worldwide.\n\nAI chatbot by DeepSeek is currently one of the fastest-growing tech products but as a private company, they don’t disclose many details. We plan to update this page as more information is available.\n\n## Key DeepSeek Stats\n\n- As of January 2025, DeepSeek had\n**33.7 million**monthly active users worldwide. - As of January 2025, DeepSeek reached an average of\n**22.15 million**daily active users globally. - China, India and Indonesia are the largest markets for DeepSeek accounting for\n**51.24%**of DeepSeek monthly active users in January 2025. - DeekSeek website unique visitors per week amounted to\n**15.9 million**.\n\n## DeepSeek Monthly Active Users\n\nIn January 2025, DeepSeek had **33.7 million** monthly active users across the world, which makes it the #4 [most popular AI app](https://backlinko.com/most-popular-ai-apps) worldwide by active user base.\n\n**Source:** [Aicpb.com](http://Aicpb.com)\n\n## DeepSeek Daily Active Users\n\nIn January 2025, DeepSeek had **22.15 million** daily active users across the world.\n\n**Source:** [Aicpb.com](http://Aicpb.com)\n\n## DeepSeek Monthly Active Users by Country\n\nAccording to latest data, the top 3 markets of DeepSeek are China, India and Indonesia, combined accounting for **51.24%** of monthly active users worldwide.\n\nHere’s a detailed breakdown of top 5 countries with the largest share of monthly active users as of January 2025:\n\n| Country | Share of DeepSeek MAUs (January 2025) |\n|---|---|\n| China | 30.71% |\n| India | 13.59% |\n| Indonesia | 6.94% |\n| The United States | 4.34% |\n| France | 3.21% |\n\n**Sou…\n\n[Truncated preview: showing 364 words out of ~794. Full content available via `btf_extract_evidence`.]",
+        "word_count": 794,
+        "snippet_word_count": 364,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-01-31T11:21:50.495191",
+        "date_cutoff_end": "2025-03-01T11:21:50.495191",
+        "cached_at": "2025-10-24T06:12:01.378601"
+      },
+      "raw": "{\"url\": \"https://backlinko.com/deepseek-stats\", \"snippet\": \"---\\ntitle: DeepSeek AI Usage Stats for 2025\\nauthor: Backlinko Team\\nurl: https://backlinko.com/deepseek-stats\\nhostname: backlinko.com\\ndescription: DeepSeek, a Chinese AI startup founded in 2023, built a cost-efficient chatbot rivaling ChatGPT with 4.3M+ global downloads.\\nsitename: Backlinko\\ndate: 2025-02-05\\n---\\n# DeepSeek AI Usage Stats\\n\\nWritten by [Backlinko Team](https://backlinko.com/blog/authors/backlinko-team)\\n\\nFounded in 2023, DeepSeek is a Chinese AI startup known for its new chatbot beating many existing models and rivaling dominance of [ChatGPT](https://backlinko.com/chatgpt-stats).\\n\\nSince the public release of DeepSeek-R1 on January 20, the startup attracted worldwide attention thanks to its reported cost-efficient model outpacing leading US-based AI chatbots.\\n\\nToday, DeepSeek ranks as the #1 most downloaded app in the App Store in over 156 countries and has an average of 22.15 million daily active users worldwide.\\n\\nAI chatbot by DeepSeek is currently one of the fastest-growing tech products but as a private company, they don\\u2019t disclose many details. We plan to update this page as more information is available.\\n\\n## Key DeepSeek Stats\\n\\n- As of January 2025, DeepSeek had\\n**33.7 million**monthly active users worldwide. - As of January 2025, DeepSeek reached an average of\\n**22.15 million**daily active users globally. - China, India and Indonesia are the largest markets for DeepSeek accounting for\\n**51.24%**of DeepSeek monthly active users in January 2025. - DeekSeek website unique visitors per week amounted to\\n**15.9 million**.\\n\\n## DeepSeek Monthly Active Users\\n\\nIn January 2025, DeepSeek had **33.7 million** monthly active users across the world, which makes it the #4 [most popular AI app](https://backlinko.com/most-popular-ai-apps) worldwide by active user base.\\n\\n**Source:** [Aicpb.com](http://Aicpb.com)\\n\\n## DeepSeek Daily Active Users\\n\\nIn January 2025, DeepSeek had **22.15 million** daily active users across the world.\\n\\n**Source:** [Aicpb.com](http://Aicpb.com)\\n\\n## DeepSeek Monthly Active Users by Country\\n\\nAccording to latest data, the top 3 markets of DeepSeek are China, India and Indonesia, combined accounting for **51.24%** of monthly active users worldwide.\\n\\nHere\\u2019s a detailed breakdown of top 5 countries with the largest share of monthly active users as of January 2025:\\n\\n| Country | Share of DeepSeek MAUs (January 2025) |\\n|---|---|\\n| China | 30.71% |\\n| India | 13.59% |\\n| Indonesia | 6.94% |\\n| The United States | 4.34% |\\n| France | 3.21% |\\n\\n**Sou\\u2026\\n\\n[Truncated preview: showing 364 words out of ~794. Full content available via `btf_extract_evidence`.]\", \"word_count\": 794, \"snippet_word_count\": 364, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:01.378601\"}",
+      "tool_call_id": "call_cXbhjHzBdqTXsUmK0CR6XkQ8"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+        "snippet": "---\ntitle: DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\nauthor: Bernzweig Michael\nurl: https://softwareoasis.com/deepseek-explosive-growth/\nhostname: softwareoasis.com\ndescription: Discover how DeepSeek's daily visits skyrocketed from 6.2M to 12.4M in just 48 hours by on Jan 26 '25. What's behind the DeepSeek Explosive Growth trajectory?\nsitename: Software Oasis\ndate: 2025-02-10\ncategories: ['Consulting Statistics']\ntags: ['AI search platform statistics', 'AI search trends 2025', 'AI-driven search optimization', 'AI-powered precision search', 'DeepSeek daily visits', 'DeepSeek market share', 'DeepSeek traffic growth', 'DeepSeek user growth']\n---\n# DeepSeek Explosive Growth Statistics: Doubling Daily Visits in 48 Hours\n\n## DeepSeek Explosive Growth\n\nDeepSeek, an emerging AI-powered search platform, has stunned the tech world with its unprecedented growth. By January 26, 2025, DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours, doubling its traffic and cementing its position as a rising star in the AI search landscape ([Similarweb](https://www.similarweb.com/blog/insights/ai-news/deepseek-daily-visits-double), February 2025). This explosive growth highlights the increasing demand for AI-driven search tools that prioritize precision, personalization, and efficiency over traditional search engines.\n\n**Unprecedented Traffic Surge**\n\nDeepSeek’s rapid growth is unparalleled in the AI search market. The platform initially gained traction in late 2024, averaging around **4 million daily visits**. However, by January 24, 2025, it had reached **6.2 million daily visits**, and within just two days, this number doubled to **12.4 million** (TechRadar Insights, February 2025). This remarkable surge represents a **100% increase in traffic over 48 hours**, a feat rarely seen even among major tech platforms.\n\n### Key Metrics:\n\n**6.2 million daily visits**on January 24, 2025.**12.4 million daily visits**on January 26, 2025.**100% growth in just two days**, setting a new benchmark for AI-powered platforms.\n\n**Why DeepSeek is Growing So Rapidly**\n\nSeveral factors are driving DeepSeek's explosive growth:\n\n**AI-Powered Precision Search**\n\nDeepSeek leverages advanced AI algorithms to deliver hyper-personalized search results. Unlike traditional engines that rely on keyword matching, DeepSeek understands user intent and context, providing more accurate and relevant results (TechCrunch AI Report, February 2025).**User-Centric Features**…\n\n[Truncated preview: showing 324 words out of ~722. Full content available via `btf_extract_evidence`.]",
+        "word_count": 722,
+        "snippet_word_count": 324,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-01-31T11:21:50.495191",
+        "date_cutoff_end": "2025-03-01T11:21:50.495191",
+        "cached_at": "2025-10-24T06:12:01.834614"
+      },
+      "raw": "{\"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"snippet\": \"---\\ntitle: DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\\nauthor: Bernzweig Michael\\nurl: https://softwareoasis.com/deepseek-explosive-growth/\\nhostname: softwareoasis.com\\ndescription: Discover how DeepSeek's daily visits skyrocketed from 6.2M to 12.4M in just 48 hours by on Jan 26 '25. What's behind the DeepSeek Explosive Growth trajectory?\\nsitename: Software Oasis\\ndate: 2025-02-10\\ncategories: ['Consulting Statistics']\\ntags: ['AI search platform statistics', 'AI search trends 2025', 'AI-driven search optimization', 'AI-powered precision search', 'DeepSeek daily visits', 'DeepSeek market share', 'DeepSeek traffic growth', 'DeepSeek user growth']\\n---\\n# DeepSeek Explosive Growth Statistics: Doubling Daily Visits in 48 Hours\\n\\n## DeepSeek Explosive Growth\\n\\nDeepSeek, an emerging AI-powered search platform, has stunned the tech world with its unprecedented growth. By January 26, 2025, DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours, doubling its traffic and cementing its position as a rising star in the AI search landscape ([Similarweb](https://www.similarweb.com/blog/insights/ai-news/deepseek-daily-visits-double), February 2025). This explosive growth highlights the increasing demand for AI-driven search tools that prioritize precision, personalization, and efficiency over traditional search engines.\\n\\n**Unprecedented Traffic Surge**\\n\\nDeepSeek\\u2019s rapid growth is unparalleled in the AI search market. The platform initially gained traction in late 2024, averaging around **4 million daily visits**. However, by January 24, 2025, it had reached **6.2 million daily visits**, and within just two days, this number doubled to **12.4 million** (TechRadar Insights, February 2025). This remarkable surge represents a **100% increase in traffic over 48 hours**, a feat rarely seen even among major tech platforms.\\n\\n### Key Metrics:\\n\\n**6.2 million daily visits**on January 24, 2025.**12.4 million daily visits**on January 26, 2025.**100% growth in just two days**, setting a new benchmark for AI-powered platforms.\\n\\n**Why DeepSeek is Growing So Rapidly**\\n\\nSeveral factors are driving DeepSeek's explosive growth:\\n\\n**AI-Powered Precision Search**\\n\\nDeepSeek leverages advanced AI algorithms to deliver hyper-personalized search results. Unlike traditional engines that rely on keyword matching, DeepSeek understands user intent and context, providing more accurate and relevant results (TechCrunch AI Report, February 2025).**User-Centric Features**\\u2026\\n\\n[Truncated preview: showing 324 words out of ~722. Full content available via `btf_extract_evidence`.]\", \"word_count\": 722, \"snippet_word_count\": 324, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:01.834614\"}",
+      "tool_call_id": "call_yMoiYQL2YdDHDI2lmePDr9N2"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.demandsage.com/deepseek-statistics/",
+        "snippet": "---\ntitle: DeepSeek AI Statistics of 2025 (Users & Revenue)\nauthor: Naveen Kumar\nurl: https://www.demandsage.com/deepseek-statistics/\nhostname: demandsage.com\ndescription: DeepSeek has over 10 million downloads, but the recent bans are also concerning. Find Deepseek statistics about its users & growth inside.\nsitename: DemandSage\ndate: 2025-02-20\ncategories: ['Data Statistics']\n---\nDeepSeek R-1 Release in January 2025 took the internet by storm, possibly hinting towards a replacement of ChatGPT sooner with this Chinese AI app.\n\nDespite operating on a limited budget, Deepseek AI has positioned itself as a crucial tool and the top-ranked app in 2025 on the App Store and Play Store.\n\nHowever, due to reported cyberattacks, DeepSeek is restricting new registrations, indicating potential security challenges, yet their rapid growth will blow your mind.\n\nIn this DeepSeek Statistics article, let’s check out the latest statistics, trends, and projections related to DeepSeek AI and help you understand where this platform is headed in 2025.\n\n**Top DeepSeek AI Statistics**\n\n- DeepSeek had about 7,475 visitors per day in August 2024. By February 2025, this grew to 100,776 visitors daily. That’s 12 times more people visiting their website. (Semrush)\n- DeepSeek AI is trained on 14.8 trillion tokens. (\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - It took 2.788 million H800 GPU hours to train DeepSeek. (\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - DeepSeek used around 2,000 Nvidia H800 chips to train its models, showcasing substantial computational power. (\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - The third version of DeepSeek (DeepSeek-V3) costs $5.5 million to create, which is only about 1/18th the cost of building OpenAI’s GPT-4. (\n[Bussiness of Apps](https://www.businessofapps.com/data/deepseek-statistics/)) - Deepseek can remember up to 128,000 tokens at once, allowing it to process long pieces of text. In response, it can generate 8,000 tokens in one response.\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948)) - DeepSeek-R1 outperforms OpenAI-o1-1217 in 2 out of 5 coding benchmarks (40%), leading in LiveCodeBench (65.9% vs. 63.4%) and SWE Verified (49.2% vs. 48.9%).\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948))\n\n**How Many Users On DeepSeek AI?**\n\n- DeepSeek has amassed 2.4 million downloads on Google Play and 1.9 million downloads on the App Store, showcasing its strong presence across both platforms. (Backlinko)\n- DeepSeek has over 10 millio…\n\n[Truncated preview: showing 345 words out of ~1859. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1859,
+        "snippet_word_count": 345,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-01-31T11:21:50.495191",
+        "date_cutoff_end": "2025-03-01T11:21:50.495191",
+        "cached_at": "2025-10-24T06:12:02.397618"
+      },
+      "raw": "{\"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"snippet\": \"---\\ntitle: DeepSeek AI Statistics of 2025 (Users & Revenue)\\nauthor: Naveen Kumar\\nurl: https://www.demandsage.com/deepseek-statistics/\\nhostname: demandsage.com\\ndescription: DeepSeek has over 10 million downloads, but the recent bans are also concerning. Find Deepseek statistics about its users & growth inside.\\nsitename: DemandSage\\ndate: 2025-02-20\\ncategories: ['Data Statistics']\\n---\\nDeepSeek R-1 Release in January 2025 took the internet by storm, possibly hinting towards a replacement of ChatGPT sooner with this Chinese AI app.\\n\\nDespite operating on a limited budget, Deepseek AI has positioned itself as a crucial tool and the top-ranked app in 2025 on the App Store and Play Store.\\n\\nHowever, due to reported cyberattacks, DeepSeek is restricting new registrations, indicating potential security challenges, yet their rapid growth will blow your mind.\\n\\nIn this DeepSeek Statistics article, let\\u2019s check out the latest statistics, trends, and projections related to DeepSeek AI and help you understand where this platform is headed in 2025.\\n\\n**Top DeepSeek AI Statistics**\\n\\n- DeepSeek had about 7,475 visitors per day in August 2024. By February 2025, this grew to 100,776 visitors daily. That\\u2019s 12 times more people visiting their website. (Semrush)\\n- DeepSeek AI is trained on 14.8 trillion tokens. (\\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - It took 2.788 million H800 GPU hours to train DeepSeek. (\\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - DeepSeek used around 2,000 Nvidia H800 chips to train its models, showcasing substantial computational power. (\\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - The third version of DeepSeek (DeepSeek-V3) costs $5.5 million to create, which is only about 1/18th the cost of building OpenAI\\u2019s GPT-4. (\\n[Bussiness of Apps](https://www.businessofapps.com/data/deepseek-statistics/)) - Deepseek can remember up to 128,000 tokens at once, allowing it to process long pieces of text. In response, it can generate 8,000 tokens in one response.\\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948)) - DeepSeek-R1 outperforms OpenAI-o1-1217 in 2 out of 5 coding benchmarks (40%), leading in LiveCodeBench (65.9% vs. 63.4%) and SWE Verified (49.2% vs. 48.9%).\\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948))\\n\\n**How Many Users On DeepSeek AI?**\\n\\n- DeepSeek has amassed 2.4 million downloads on Google Play and 1.9 million downloads on the App Store, showcasing its strong presence across both platforms. (Backlinko)\\n- DeepSeek has over 10 millio\\u2026\\n\\n[Truncated preview: showing 345 words out of ~1859. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1859, \"snippet_word_count\": 345, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:02.397618\"}",
+      "tool_call_id": "call_I8CxcneFiQfYFZjR1EyurD85"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+        "snippet": "---\ntitle: DeepSeek rushes to launch new AI model as China goes all in\nauthor: Eduardo Baptista; Julie Zhu; Fanny Potkin\nurl: https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\nhostname: reuters.com\ndescription: DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model.\nsitename: Reuters\ndate: 2025-02-25\ncategories: ['Artificial Intelligence']\ntags: ['RSBI:DATA-PRIVACY,RULES:COMPANY-DEEPSEEK,INSGHT,EREP,ANLINS,ARTI,BACT,BISV,BISV08,BIZ,CHIP,CHIP1,CIV,CMPELC,CMPNY,COMP08,CPROD,DAT,DIP,ECOMMA,FIN,FINS,FINS08,GEN,HARW,HARW1,HEDGE,INVBIS,INVM,INVS08,ITSE,ITSE08,NETSV,NETSV1,NEWS1,POL,PRDLCH,PUBL,REGS,SCI,SEMI,SRCHEN,SWIT,TECH,TECH08,TEEQ,TEEQ08,TMT,TRD,TRDEMB,WEU,EASIA,AMERS,US,EUROP,HK,EZC,NAMER,EMEA,ASXPAC,EMRG,CN,ASIA,FR,DEST:CSA,DEST:LBY,DEST:REULB,DEST:ABX,DEST:G,DEST:RAST,DEST:SOF,DEST:M,DEST:PGE,DEST:Z,DEST:PTD,DEST:RNP,DEST:E,DEST:C,DEST:PCU,DEST:ABN,DEST:AFA,DEST:BNX,DEST:GRO,DEST:PSC,DEST:U,DEST:O,DEST:DNP,DEST:MTL,DEST:FUN,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:PCO,DEST:D,DEST:NAT,DEST:RBN,DEST:OIL,TOPNWS,SUSTAINABLE-BUSINESS,DEST:OUKBSM,DEST:OUSBSM,DEST:OCABSM,DEST:SEABS,DEST:OUSTCM,LEGAL,REUTERS-LEGAL,DEST:LITA,DEST:ODAT,TOPCMB']\n---\n# DeepSeek rushes to launch new AI model as China goes all in\n\nBEIJING/HONG KONG/SINGAPORE, Feb 25 (Reuters) - DeepSeek is looking to press home its advantage.\n\nThe Chinese startup triggered a $1 trillion-plus sell-off in global equities markets last month with a cut-price AI reasoning model that outperformed many Western competitors.\n\nNow, the\n\n[Hangzhou-based firm](https://www.reuters.com/technology/deepseek/)is accelerating the launch of the successor to January's R1 model, according to three people familiar with the company.Deepseek had planned to release R2 in early May but now wants it out as early as possible, two of them said, without providing specifics.\n\nThe company says it hopes the new model will produce better coding and be able to reason in languages beyond English. Details of the accelerated timeline for R2's release have not been previously reported.\n\nDeepSeek did not respond to a request for comment for this story.\n\nRivals are still digesting the implications of R1, which was built with less-powerful Nvidia chips but is competitive with those developed at the costs of hundreds of billions of dollars by U.S. tech giants.\n\n\"The launch of DeepSeek…\n\n[Truncated preview: showing 240 words out of ~1705. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1705,
+        "snippet_word_count": 240,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-01-31T11:21:50.495191",
+        "date_cutoff_end": "2025-03-01T11:21:50.495191",
+        "cached_at": "2025-10-24T06:12:02.886309"
+      },
+      "raw": "{\"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"snippet\": \"---\\ntitle: DeepSeek rushes to launch new AI model as China goes all in\\nauthor: Eduardo Baptista; Julie Zhu; Fanny Potkin\\nurl: https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\\nhostname: reuters.com\\ndescription: DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model.\\nsitename: Reuters\\ndate: 2025-02-25\\ncategories: ['Artificial Intelligence']\\ntags: ['RSBI:DATA-PRIVACY,RULES:COMPANY-DEEPSEEK,INSGHT,EREP,ANLINS,ARTI,BACT,BISV,BISV08,BIZ,CHIP,CHIP1,CIV,CMPELC,CMPNY,COMP08,CPROD,DAT,DIP,ECOMMA,FIN,FINS,FINS08,GEN,HARW,HARW1,HEDGE,INVBIS,INVM,INVS08,ITSE,ITSE08,NETSV,NETSV1,NEWS1,POL,PRDLCH,PUBL,REGS,SCI,SEMI,SRCHEN,SWIT,TECH,TECH08,TEEQ,TEEQ08,TMT,TRD,TRDEMB,WEU,EASIA,AMERS,US,EUROP,HK,EZC,NAMER,EMEA,ASXPAC,EMRG,CN,ASIA,FR,DEST:CSA,DEST:LBY,DEST:REULB,DEST:ABX,DEST:G,DEST:RAST,DEST:SOF,DEST:M,DEST:PGE,DEST:Z,DEST:PTD,DEST:RNP,DEST:E,DEST:C,DEST:PCU,DEST:ABN,DEST:AFA,DEST:BNX,DEST:GRO,DEST:PSC,DEST:U,DEST:O,DEST:DNP,DEST:MTL,DEST:FUN,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:PCO,DEST:D,DEST:NAT,DEST:RBN,DEST:OIL,TOPNWS,SUSTAINABLE-BUSINESS,DEST:OUKBSM,DEST:OUSBSM,DEST:OCABSM,DEST:SEABS,DEST:OUSTCM,LEGAL,REUTERS-LEGAL,DEST:LITA,DEST:ODAT,TOPCMB']\\n---\\n# DeepSeek rushes to launch new AI model as China goes all in\\n\\nBEIJING/HONG KONG/SINGAPORE, Feb 25 (Reuters) - DeepSeek is looking to press home its advantage.\\n\\nThe Chinese startup triggered a $1 trillion-plus sell-off in global equities markets last month with a cut-price AI reasoning model that outperformed many Western competitors.\\n\\nNow, the\\n\\n[Hangzhou-based firm](https://www.reuters.com/technology/deepseek/)is accelerating the launch of the successor to January's R1 model, according to three people familiar with the company.Deepseek had planned to release R2 in early May but now wants it out as early as possible, two of them said, without providing specifics.\\n\\nThe company says it hopes the new model will produce better coding and be able to reason in languages beyond English. Details of the accelerated timeline for R2's release have not been previously reported.\\n\\nDeepSeek did not respond to a request for comment for this story.\\n\\nRivals are still digesting the implications of R1, which was built with less-powerful Nvidia chips but is competitive with those developed at the costs of hundreds of billions of dollars by U.S. tech giants.\\n\\n\\\"The launch of DeepSeek\\u2026\\n\\n[Truncated preview: showing 240 words out of ~1705. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1705, \"snippet_word_count\": 240, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:02.886309\"}",
+      "tool_call_id": "call_KvTTr2MWHWrqLcrPOET936GF"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.reliablesoft.net/ai-search-engines/",
+        "snippet": "---\ntitle: Top 10 AI Search Engines For 2025 (Ranked By Popularity)\nauthor: Alex Chris\nurl: https://www.reliablesoft.net/ai-search-engines/\nhostname: reliablesoft.net\ndescription: These are the best AI search engines users prefer in 2025, ranked by monthly website visits.\nsitename: Reliablesoft Academy\ndate: 2025-02-11\ncategories: ['Digital Marketing']\n---\nUntil recently, Google was the go-to source for all things search, but that is no longer the case. Google may not have lost significant market share for traditional searches, but when it comes to AI search engines, there is a new king in town.\n\nTo determine which AI search engines are gaining the most traction, we analyzed monthly website visits as a measure of popularity. While website traffic doesn’t necessarily reflect the number of unique users or the actual purpose of visiting the website, it provides a strong indication of where people are turning for AI-driven search experiences.\n\nThe most popular AI search engine to date is **ChatGPT,** with **3.8 billion** monthly visits, followed by **DeepSeek,** with **277.9 **million visits, and **Google Gemini**, with **267.70** million visits.\n\n\nLooking at the actual numbers (provided by SimilarWeb for January 2025), it's clear that ChatGPT is the leader in the AI space.\n\nDeepSeek appeared in February 2025 and quickly grabbed users' attention to check what the Chinese AI can do. However, while it has gained traction, it poses no real threat (yet) to ChatGPT’s dominance.\n\nRank |\nSearch Engine |\nUsers (Millions) |\n|---|---|---|\n| 1 | ChatGPT | 3800.00 |\n| 2 | DeepSeek | 277.90 |\n| 3 | Google Gemini | 267.70 |\n| 4 | Perplexity AI | 99.50 |\n| 5 | Claude AI | 76.80 |\n| 6 | Microsoft CoPilot | 67.30 |\n| 7 | You.com | 5.50 |\n| 8 | Phind | 1.30 |\n| 9 | Andi Search | 0.60 |\n| 10 | Komo.ai | 0.20 |\n\nOther notable AI search engines include Google Gemini, which, despite Google's vast share in traditional [ search engines](https://www.reliablesoft.net/top-10-search-engines-in-the-world/), is still not widely adopted by users.\n\nPerplexity AI gained popularity for providing real-time citations and is used mainly by professionals and students.\n\nClaude AI, developed by Anthropic, has been growing steadily but remains more of a research assistant than a direct competitor in AI-powered search.\n\nThe list does not include Google AI Overviews (reportedly shown for [ 47% ](https://www.searchenginejournal.com/study-google-ai-overviews-appear-in-47-of-search-results/535096/)of sear…\n\n[Truncated preview: showing 390 words out of ~1484. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1484,
+        "snippet_word_count": 390,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-01-31T11:21:50.495191",
+        "date_cutoff_end": "2025-03-01T11:21:50.495191",
+        "cached_at": "2025-10-24T06:12:03.335974"
+      },
+      "raw": "{\"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"snippet\": \"---\\ntitle: Top 10 AI Search Engines For 2025 (Ranked By Popularity)\\nauthor: Alex Chris\\nurl: https://www.reliablesoft.net/ai-search-engines/\\nhostname: reliablesoft.net\\ndescription: These are the best AI search engines users prefer in 2025, ranked by monthly website visits.\\nsitename: Reliablesoft Academy\\ndate: 2025-02-11\\ncategories: ['Digital Marketing']\\n---\\nUntil recently, Google was the go-to source for all things search, but that is no longer the case. Google may not have lost significant market share for traditional searches, but when it comes to AI search engines, there is a new king in town.\\n\\nTo determine which AI search engines are gaining the most traction, we analyzed monthly website visits as a measure of popularity. While website traffic doesn\\u2019t necessarily reflect the number of unique users or the actual purpose of visiting the website, it provides a strong indication of where people are turning for AI-driven search experiences.\\n\\nThe most popular AI search engine to date is **ChatGPT,** with **3.8 billion** monthly visits, followed by **DeepSeek,** with **277.9 **million visits, and **Google Gemini**, with **267.70** million visits.\\n\\n\\nLooking at the actual numbers (provided by SimilarWeb for January 2025), it's clear that ChatGPT is the leader in the AI space.\\n\\nDeepSeek appeared in February 2025 and quickly grabbed users' attention to check what the Chinese AI can do. However, while it has gained traction, it poses no real threat (yet) to ChatGPT\\u2019s dominance.\\n\\nRank |\\nSearch Engine |\\nUsers (Millions) |\\n|---|---|---|\\n| 1 | ChatGPT | 3800.00 |\\n| 2 | DeepSeek | 277.90 |\\n| 3 | Google Gemini | 267.70 |\\n| 4 | Perplexity AI | 99.50 |\\n| 5 | Claude AI | 76.80 |\\n| 6 | Microsoft CoPilot | 67.30 |\\n| 7 | You.com | 5.50 |\\n| 8 | Phind | 1.30 |\\n| 9 | Andi Search | 0.60 |\\n| 10 | Komo.ai | 0.20 |\\n\\nOther notable AI search engines include Google Gemini, which, despite Google's vast share in traditional [ search engines](https://www.reliablesoft.net/top-10-search-engines-in-the-world/), is still not widely adopted by users.\\n\\nPerplexity AI gained popularity for providing real-time citations and is used mainly by professionals and students.\\n\\nClaude AI, developed by Anthropic, has been growing steadily but remains more of a research assistant than a direct competitor in AI-powered search.\\n\\nThe list does not include Google AI Overviews (reportedly shown for [ 47% ](https://www.searchenginejournal.com/study-google-ai-overviews-appear-in-47-of-search-results/535096/)of sear\\u2026\\n\\n[Truncated preview: showing 390 words out of ~1484. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1484, \"snippet_word_count\": 390, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:03.335974\"}",
+      "tool_call_id": "call_RcXOi9nXeYKTdWQWE5xLGXSV"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+        "url": "https://backlinko.com/deepseek-stats",
+        "facts": [
+          {
+            "title": "https://backlinko.com/deepseek-stats",
+            "url": "https://backlinko.com/deepseek-stats",
+            "fact": "DeepSeek had 33.7 million monthly active users worldwide as of January 2025."
+          },
+          {
+            "title": "https://backlinko.com/deepseek-stats",
+            "url": "https://backlinko.com/deepseek-stats",
+            "fact": "DeepSeek's website had 15.9 million unique visitors in the week of January 20-26, 2025."
+          },
+          {
+            "title": "https://backlinko.com/deepseek-stats",
+            "url": "https://backlinko.com/deepseek-stats",
+            "fact": "DeepSeek is the #1 most downloaded app in the App Store in over 156 countries."
+          },
+          {
+            "title": "https://backlinko.com/deepseek-stats",
+            "url": "https://backlinko.com/deepseek-stats",
+            "fact": "DeepSeek's largest markets are China, India, and Indonesia, accounting for 51.24% of its monthly active users."
+          },
+          {
+            "title": "https://backlinko.com/deepseek-stats",
+            "url": "https://backlinko.com/deepseek-stats",
+            "fact": "The DeepSeek AI app has been downloaded over 21.66 million times worldwide as of February 5, 2025."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://backlinko.com/deepseek-stats\", \"facts\": [{\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek had 33.7 million monthly active users worldwide as of January 2025.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek's website had 15.9 million unique visitors in the week of January 20-26, 2025.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek is the #1 most downloaded app in the App Store in over 156 countries.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek's largest markets are China, India, and Indonesia, accounting for 51.24% of its monthly active users.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"The DeepSeek AI app has been downloaded over 21.66 million times worldwide as of February 5, 2025.\"}]}",
+      "tool_call_id": "call_KUYUQ6A4RZwFhHvIGspUGWSt"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+        "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+        "facts": [
+          {
+            "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "fact": "DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025."
+          },
+          {
+            "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "fact": "DeepSeek accounted for 8% of global AI search traffic by February 2025, up from 3% six months earlier."
+          },
+          {
+            "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "fact": "Analysts predict that DeepSeek will reach 20 million daily visits by mid-2025."
+          },
+          {
+            "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "fact": "DeepSeek's market share is projected to climb to 15% by early 2026."
+          },
+          {
+            "title": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "url": "https://softwareoasis.com/deepseek-explosive-growth/",
+            "fact": "DeepSeek's rapid growth is reshaping the competitive landscape of AI-powered search tools."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"facts\": [{\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek accounted for 8% of global AI search traffic by February 2025, up from 3% six months earlier.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"Analysts predict that DeepSeek will reach 20 million daily visits by mid-2025.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek's market share is projected to climb to 15% by early 2026.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek's rapid growth is reshaping the competitive landscape of AI-powered search tools.\"}]}",
+      "tool_call_id": "call_ycOepYoOiG5WZGdqmIgEXUCk"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+        "url": "https://www.demandsage.com/deepseek-statistics/",
+        "facts": [
+          {
+            "title": "https://www.demandsage.com/deepseek-statistics/",
+            "url": "https://www.demandsage.com/deepseek-statistics/",
+            "fact": "DeepSeek had about 7,475 visitors per day in August 2024, which grew to 100,776 visitors daily by February 2025, indicating a significant increase in web traffic."
+          },
+          {
+            "title": "https://www.demandsage.com/deepseek-statistics/",
+            "url": "https://www.demandsage.com/deepseek-statistics/",
+            "fact": "DeepSeek's R-1 release in January 2025 led to a dramatic growth in traffic, with a 312% increase in January compared to December 2024."
+          },
+          {
+            "title": "https://www.demandsage.com/deepseek-statistics/",
+            "url": "https://www.demandsage.com/deepseek-statistics/",
+            "fact": "DeepSeek has over 10 million downloads as of January 2025, with significant traction in countries like China and the United States."
+          },
+          {
+            "title": "https://www.demandsage.com/deepseek-statistics/",
+            "url": "https://www.demandsage.com/deepseek-statistics/",
+            "fact": "DeepSeek is the top-ranked app in 2025 on the App Store and Play Store, suggesting strong user engagement and popularity."
+          },
+          {
+            "title": "https://www.demandsage.com/deepseek-statistics/",
+            "url": "https://www.demandsage.com/deepseek-statistics/",
+            "fact": "DeepSeek's global launch occurred on January 20, 2025, which may contribute to its increased visibility and traffic."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"facts\": [{\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek had about 7,475 visitors per day in August 2024, which grew to 100,776 visitors daily by February 2025, indicating a significant increase in web traffic.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek's R-1 release in January 2025 led to a dramatic growth in traffic, with a 312% increase in January compared to December 2024.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek has over 10 million downloads as of January 2025, with significant traction in countries like China and the United States.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek is the top-ranked app in 2025 on the App Store and Play Store, suggesting strong user engagement and popularity.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek's global launch occurred on January 20, 2025, which may contribute to its increased visibility and traffic.\"}]}",
+      "tool_call_id": "call_RoLnHhjxAPgt5n6QITHLr09K"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+        "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+        "facts": [
+          {
+            "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "fact": "DeepSeek is accelerating the launch of its R2 model, which was initially planned for May, indicating a strategic push to capitalize on its recent success."
+          },
+          {
+            "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "fact": "DeepSeek's R1 model has been integrated into products by major Chinese tech companies like Lenovo, Baidu, and Tencent, suggesting widespread adoption and increased visibility."
+          },
+          {
+            "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "fact": "The company has caught the favor of the Chinese government, with DeepSeek models being deployed by at least 13 Chinese city governments and 10 state-owned energy companies."
+          },
+          {
+            "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "fact": "DeepSeek's AI models are significantly cheaper than competitors, with pricing estimated to be 20 to 40 times less than OpenAI's equivalent models, which could drive higher adoption rates."
+          },
+          {
+            "title": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/",
+            "fact": "DeepSeek's R1 model has triggered a $1 trillion-plus sell-off in global equities markets, highlighting its disruptive impact and potential to attract significant attention and traffic."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"facts\": [{\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek is accelerating the launch of its R2 model, which was initially planned for May, indicating a strategic push to capitalize on its recent success.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek's R1 model has been integrated into products by major Chinese tech companies like Lenovo, Baidu, and Tencent, suggesting widespread adoption and increased visibility.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"The company has caught the favor of the Chinese government, with DeepSeek models being deployed by at least 13 Chinese city governments and 10 state-owned energy companies.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek's AI models are significantly cheaper than competitors, with pricing estimated to be 20 to 40 times less than OpenAI's equivalent models, which could drive higher adoption rates.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek's R1 model has triggered a $1 trillion-plus sell-off in global equities markets, highlighting its disruptive impact and potential to attract significant attention and traffic.\"}]}",
+      "tool_call_id": "call_3Hgjqij7RN8LJ1DEu4nkMzLr"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "8bbb3ca2-8ea6-5764-9adc-ed9da4b77683",
+        "url": "https://www.reliablesoft.net/ai-search-engines/",
+        "facts": [
+          {
+            "title": "https://www.reliablesoft.net/ai-search-engines/",
+            "url": "https://www.reliablesoft.net/ai-search-engines/",
+            "fact": "DeepSeek has 277.9 million monthly visits as of January 2025, making it the second most popular AI search engine after ChatGPT."
+          },
+          {
+            "title": "https://www.reliablesoft.net/ai-search-engines/",
+            "url": "https://www.reliablesoft.net/ai-search-engines/",
+            "fact": "DeepSeek appeared in February 2025 and quickly gained attention, indicating rapid growth and user interest."
+          },
+          {
+            "title": "https://www.reliablesoft.net/ai-search-engines/",
+            "url": "https://www.reliablesoft.net/ai-search-engines/",
+            "fact": "DeepSeek's AI Assistant, powered by the DeepSeek-V3 model, was released in January 2025, contributing to its recent popularity."
+          },
+          {
+            "title": "https://www.reliablesoft.net/ai-search-engines/",
+            "url": "https://www.reliablesoft.net/ai-search-engines/",
+            "fact": "DeepSeek became the top-rated free application on Apple's App Store shortly after its release."
+          },
+          {
+            "title": "https://www.reliablesoft.net/ai-search-engines/",
+            "url": "https://www.reliablesoft.net/ai-search-engines/",
+            "fact": "DeepSeek's website has been downloaded over 21.66 million times worldwide across Google Play and the App Store as of February 2025."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"facts\": [{\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek has 277.9 million monthly visits as of January 2025, making it the second most popular AI search engine after ChatGPT.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek appeared in February 2025 and quickly gained attention, indicating rapid growth and user interest.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek's AI Assistant, powered by the DeepSeek-V3 model, was released in January 2025, contributing to its recent popularity.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek became the top-rated free application on Apple's App Store shortly after its release.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek's website has been downloaded over 21.66 million times worldwide across Google Play and the App Store as of February 2025.\"}]}",
+      "tool_call_id": "call_vJMGUo7zYW6Y0eqFBQEoMEhs"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?\nBackground: [ChatGPT website traffic hits a new high, ranking sixth in the world](https://www.panewslab.com/en/articledetails/m015gje2.html)\nResolution criteria: This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, deepseek appears in the top 50 at the [Similarweb Top Websites Ranking](https://www.similarweb.com/top-websites/).\nFine print: When accessing the rankings, ensure it is set to All Categories and Worldwide.\npresent_date: 2025-02-28T11:21:50.495191\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_7QygeWjJfpFTtk0iQmBzigtF",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?\",\"background\":\"ChatGPT website traffic hits a new high, ranking sixth in the world\",\"resolution_criteria\":\"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, deepseek appears in the top 50 at the Similarweb Top Websites Ranking.\",\"fine_print\":\"When accessing the rankings, ensure it is set to All Categories and Worldwide.\",\"present_date\":\"2025-02-28T11:21:50.495191\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"queries\": [\"deepseek.com site traffic analysis February 2025\", \"deepseek.com news February 2025\", \"deepseek.com Similarweb ranking history\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_7QygeWjJfpFTtk0iQmBzigtF"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_9XoUKYQ7DflvzD6rnSVvpN5v",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"deepseek.com site traffic analysis February 2025\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_hgFANiHnSL8OsV7JmGjYAIV8",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"deepseek.com news February 2025\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_KeSTqhXUCzaRXywBRX4pO39m",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"deepseek.com Similarweb ranking history\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"deepseek.com site traffic analysis February 2025\", \"results\": [{\"title\": \"DeepSeek AI Usage Stats for 2025\", \"link\": \"https://backlinko.com/deepseek-stats\", \"position\": 1, \"snippet\": \"As of January 2025, DeepSeek had 33.7 million monthly active users and 22.15 million daily active users. The website saw 15.9 million unique visitors from January 20-26, 2025.\", \"date\": \"2025-02-06T00:57:33Z\"}, {\"title\": \"DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\", \"link\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"position\": 2, \"snippet\": \"DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic. By February 2025, DeepSeek accounted for 8% of global AI search traffic...\", \"date\": \"2025-02-11T00:26:24Z\"}, {\"title\": \"DeepSeek AI Statistics of 2025 (Users & Revenue)\", \"link\": \"https://www.demandsage.com/deepseek-statistics/\", \"position\": 3, \"snippet\": \"DeepSeek had 97,193 average daily visitors in February 2025, with a traffic value of $103,459. This data is partial, covering only the first week of February.\", \"date\": \"2025-02-20T08:59:53Z\"}, {\"title\": \"DeepSeek AI - Statistics & Facts (2025): Users and Growth Trends | Futurism\", \"link\": \"https://vocal.media/futurism/deep-seek-ai-statistics-and-facts-2025-users-and-growth-trends\", \"position\": 5, \"snippet\": \"As of January 20-26, 2025, DeepSeek\\u2019s website received 15.9 million unique visitors, marking a sharp increase from 5.1 million unique visitors the previous week.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_9XoUKYQ7DflvzD6rnSVvpN5v"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"deepseek.com news February 2025\", \"results\": [{\"title\": \"DeepSeek rushes to launch new AI model as China goes all in | Reuters\", \"link\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"position\": 1, \"snippet\": \"DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model...\", \"date\": null}, {\"title\": \"Which countries have banned DeepSeek and why? | Business and Economy News | Al Jazeera\", \"link\": \"https://www.aljazeera.com/news/2025/2/6/which-countries-have-banned-deepseek-and-why\", \"position\": 3, \"snippet\": \"DeepSeek is banned on government devices in South Korea, Australia and Taiwan. More countries might follow suit, citing security concerns about the Chinese technology.\", \"date\": null}, {\"title\": \"DeepSeek shakes up AI sector \\u2013 and other digital tech stories you need to know | World Economic Forum\", \"link\": \"https://www.weforum.org/stories/2025/02/china-deepseek-shakes-up-ai-tech-stories/\", \"position\": 4, \"snippet\": \"Chinese tech firm DeepSeek shakes up AI industry, surpassing ChatGPT to become the top-rated free app on the US Apple App Store in late January 2025.\", \"date\": null}, {\"title\": \"DeepSeek is now a global force. But it\\u2019s just one player in China\\u2019s booming AI industry\", \"link\": \"https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry\", \"position\": 5, \"snippet\": \"When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community.\", \"date\": null}, {\"title\": \"How Deepseek is Changing the AI Landscape - Georgia State University News - Press Releases, Robinson College of Business -\", \"link\": \"https://news.gsu.edu/2025/02/04/how-deepseek-is-changing-the-a-i-landscape/\", \"position\": 1, \"snippet\": \"On Monday January 27, a little known Chinese start-up called Deepseek sent shockwaves and panic through Silicon Valley and the global stock market with the launch of their generative artificial intelligence(AI) model...\", \"date\": \"2025-02-04T20:39:00Z\"}, {\"title\": \"DeepSeek is now a global force. But it\\u2019s just one player in China\\u2019s booming AI industry\", \"link\": \"https://www.unsw.edu.au/newsroom/news/2025/02/deepseek-global-force-Chinas-AI-industry\", \"position\": 2, \"snippet\": \"When small Chinese artificial intelligence (AI) company DeepSeek released a family of extremely efficient and highly competitive AI models last month, it rocked the global tech community.\", \"date\": null}, {\"title\": \"\\ud83d\\ude80 Introducing DeepSeek-V3 | DeepSeek API Docs\", \"link\": \"https://api-docs.deepseek.com/news/news1226\", \"position\": 3, \"snippet\": \"From Feb 8 onwards: Input (cache miss) $0.27/M tokens, Input (cache hit) $0.07/M tokens, Output $1.10/M tokens. Still the best value in the market!...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_hgFANiHnSL8OsV7JmGjYAIV8"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"deepseek.com Similarweb ranking history\", \"results\": [{\"title\": \"\", \"link\": \"https://www.similarweb.com/website/deepseek.com/\", \"position\": 1, \"snippet\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\", \"date\": null}, {\"title\": \"DeepSeek Sees Huge Surge to Become Second Most Popular AI Chatbot\", \"link\": \"https://www.yahoo.com/tech/deepseek-sees-huge-surge-become-183909218.html\", \"position\": 4, \"snippet\": \"In terms of daily visits, DeepSeek.com has quickly surpassed other chatbots, such as Google's Gemini and Character.AI, according to Similarweb.\", \"date\": null}, {\"title\": \"Top 10 AI Search Engines For 2025 (Ranked By Popularity)\", \"link\": \"https://www.reliablesoft.net/ai-search-engines/\", \"position\": 5, \"snippet\": \"The most popular AI search engine to date is ChatGPT, with 3.8 billion monthly visits, followed by DeepSeek, with 277.9 million visits, and Google Gemini, with 267.70 million visits. Looking at the actual numbers (provided by SimilarWeb for January 2025)...\", \"date\": \"2025-02-11T10:27:57Z\"}, {\"title\": \"Discover Latest DeepSeek Statistics (2025) | StatsUp\", \"link\": \"https://analyzify.com/statsup/deepseek\", \"position\": 3, \"snippet\": \"I am sorry, but I cannot find any information about the Similarweb ranking history for deepseek.com in the provided content.\", \"date\": null}, {\"title\": \"DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\", \"link\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"position\": 4, \"snippet\": \"DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025, doubling its traffic according to Similarweb...\", \"date\": \"2025-02-11T00:26:24Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_KeSTqhXUCzaRXywBRX4pO39m"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_cXbhjHzBdqTXsUmK0CR6XkQ8",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://backlinko.com/deepseek-stats\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        },
+        {
+          "id": "call_yMoiYQL2YdDHDI2lmePDr9N2",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        },
+        {
+          "id": "call_I8CxcneFiQfYFZjR1EyurD85",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        },
+        {
+          "id": "call_KvTTr2MWHWrqLcrPOET936GF",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        },
+        {
+          "id": "call_RcXOi9nXeYKTdWQWE5xLGXSV",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"date_cutoff_start\": \"2025-02-01\", \"date_cutoff_end\": \"2025-02-28\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://backlinko.com/deepseek-stats\", \"snippet\": \"---\\ntitle: DeepSeek AI Usage Stats for 2025\\nauthor: Backlinko Team\\nurl: https://backlinko.com/deepseek-stats\\nhostname: backlinko.com\\ndescription: DeepSeek, a Chinese AI startup founded in 2023, built a cost-efficient chatbot rivaling ChatGPT with 4.3M+ global downloads.\\nsitename: Backlinko\\ndate: 2025-02-05\\n---\\n# DeepSeek AI Usage Stats\\n\\nWritten by [Backlinko Team](https://backlinko.com/blog/authors/backlinko-team)\\n\\nFounded in 2023, DeepSeek is a Chinese AI startup known for its new chatbot beating many existing models and rivaling dominance of [ChatGPT](https://backlinko.com/chatgpt-stats).\\n\\nSince the public release of DeepSeek-R1 on January 20, the startup attracted worldwide attention thanks to its reported cost-efficient model outpacing leading US-based AI chatbots.\\n\\nToday, DeepSeek ranks as the #1 most downloaded app in the App Store in over 156 countries and has an average of 22.15 million daily active users worldwide.\\n\\nAI chatbot by DeepSeek is currently one of the fastest-growing tech products but as a private company, they don\\u2019t disclose many details. We plan to update this page as more information is available.\\n\\n## Key DeepSeek Stats\\n\\n- As of January 2025, DeepSeek had\\n**33.7 million**monthly active users worldwide. - As of January 2025, DeepSeek reached an average of\\n**22.15 million**daily active users globally. - China, India and Indonesia are the largest markets for DeepSeek accounting for\\n**51.24%**of DeepSeek monthly active users in January 2025. - DeekSeek website unique visitors per week amounted to\\n**15.9 million**.\\n\\n## DeepSeek Monthly Active Users\\n\\nIn January 2025, DeepSeek had **33.7 million** monthly active users across the world, which makes it the #4 [most popular AI app](https://backlinko.com/most-popular-ai-apps) worldwide by active user base.\\n\\n**Source:** [Aicpb.com](http://Aicpb.com)\\n\\n## DeepSeek Daily Active Users\\n\\nIn January 2025, DeepSeek had **22.15 million** daily active users across the world.\\n\\n**Source:** [Aicpb.com](http://Aicpb.com)\\n\\n## DeepSeek Monthly Active Users by Country\\n\\nAccording to latest data, the top 3 markets of DeepSeek are China, India and Indonesia, combined accounting for **51.24%** of monthly active users worldwide.\\n\\nHere\\u2019s a detailed breakdown of top 5 countries with the largest share of monthly active users as of January 2025:\\n\\n| Country | Share of DeepSeek MAUs (January 2025) |\\n|---|---|\\n| China | 30.71% |\\n| India | 13.59% |\\n| Indonesia | 6.94% |\\n| The United States | 4.34% |\\n| France | 3.21% |\\n\\n**Sou\\u2026\\n\\n[Truncated preview: showing 364 words out of ~794. Full content available via `btf_extract_evidence`.]\", \"word_count\": 794, \"snippet_word_count\": 364, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:01.378601\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_cXbhjHzBdqTXsUmK0CR6XkQ8"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"snippet\": \"---\\ntitle: DeepSeek Explosive Growth: Daily Visits Double in 48 Hours\\nauthor: Bernzweig Michael\\nurl: https://softwareoasis.com/deepseek-explosive-growth/\\nhostname: softwareoasis.com\\ndescription: Discover how DeepSeek's daily visits skyrocketed from 6.2M to 12.4M in just 48 hours by on Jan 26 '25. What's behind the DeepSeek Explosive Growth trajectory?\\nsitename: Software Oasis\\ndate: 2025-02-10\\ncategories: ['Consulting Statistics']\\ntags: ['AI search platform statistics', 'AI search trends 2025', 'AI-driven search optimization', 'AI-powered precision search', 'DeepSeek daily visits', 'DeepSeek market share', 'DeepSeek traffic growth', 'DeepSeek user growth']\\n---\\n# DeepSeek Explosive Growth Statistics: Doubling Daily Visits in 48 Hours\\n\\n## DeepSeek Explosive Growth\\n\\nDeepSeek, an emerging AI-powered search platform, has stunned the tech world with its unprecedented growth. By January 26, 2025, DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours, doubling its traffic and cementing its position as a rising star in the AI search landscape ([Similarweb](https://www.similarweb.com/blog/insights/ai-news/deepseek-daily-visits-double), February 2025). This explosive growth highlights the increasing demand for AI-driven search tools that prioritize precision, personalization, and efficiency over traditional search engines.\\n\\n**Unprecedented Traffic Surge**\\n\\nDeepSeek\\u2019s rapid growth is unparalleled in the AI search market. The platform initially gained traction in late 2024, averaging around **4 million daily visits**. However, by January 24, 2025, it had reached **6.2 million daily visits**, and within just two days, this number doubled to **12.4 million** (TechRadar Insights, February 2025). This remarkable surge represents a **100% increase in traffic over 48 hours**, a feat rarely seen even among major tech platforms.\\n\\n### Key Metrics:\\n\\n**6.2 million daily visits**on January 24, 2025.**12.4 million daily visits**on January 26, 2025.**100% growth in just two days**, setting a new benchmark for AI-powered platforms.\\n\\n**Why DeepSeek is Growing So Rapidly**\\n\\nSeveral factors are driving DeepSeek's explosive growth:\\n\\n**AI-Powered Precision Search**\\n\\nDeepSeek leverages advanced AI algorithms to deliver hyper-personalized search results. Unlike traditional engines that rely on keyword matching, DeepSeek understands user intent and context, providing more accurate and relevant results (TechCrunch AI Report, February 2025).**User-Centric Features**\\u2026\\n\\n[Truncated preview: showing 324 words out of ~722. Full content available via `btf_extract_evidence`.]\", \"word_count\": 722, \"snippet_word_count\": 324, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:01.834614\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_yMoiYQL2YdDHDI2lmePDr9N2"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"snippet\": \"---\\ntitle: DeepSeek AI Statistics of 2025 (Users & Revenue)\\nauthor: Naveen Kumar\\nurl: https://www.demandsage.com/deepseek-statistics/\\nhostname: demandsage.com\\ndescription: DeepSeek has over 10 million downloads, but the recent bans are also concerning. Find Deepseek statistics about its users & growth inside.\\nsitename: DemandSage\\ndate: 2025-02-20\\ncategories: ['Data Statistics']\\n---\\nDeepSeek R-1 Release in January 2025 took the internet by storm, possibly hinting towards a replacement of ChatGPT sooner with this Chinese AI app.\\n\\nDespite operating on a limited budget, Deepseek AI has positioned itself as a crucial tool and the top-ranked app in 2025 on the App Store and Play Store.\\n\\nHowever, due to reported cyberattacks, DeepSeek is restricting new registrations, indicating potential security challenges, yet their rapid growth will blow your mind.\\n\\nIn this DeepSeek Statistics article, let\\u2019s check out the latest statistics, trends, and projections related to DeepSeek AI and help you understand where this platform is headed in 2025.\\n\\n**Top DeepSeek AI Statistics**\\n\\n- DeepSeek had about 7,475 visitors per day in August 2024. By February 2025, this grew to 100,776 visitors daily. That\\u2019s 12 times more people visiting their website. (Semrush)\\n- DeepSeek AI is trained on 14.8 trillion tokens. (\\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - It took 2.788 million H800 GPU hours to train DeepSeek. (\\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - DeepSeek used around 2,000 Nvidia H800 chips to train its models, showcasing substantial computational power. (\\n[DocsBot](https://docsbot.ai/models/deepseek-v3)) - The third version of DeepSeek (DeepSeek-V3) costs $5.5 million to create, which is only about 1/18th the cost of building OpenAI\\u2019s GPT-4. (\\n[Bussiness of Apps](https://www.businessofapps.com/data/deepseek-statistics/)) - Deepseek can remember up to 128,000 tokens at once, allowing it to process long pieces of text. In response, it can generate 8,000 tokens in one response.\\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948)) - DeepSeek-R1 outperforms OpenAI-o1-1217 in 2 out of 5 coding benchmarks (40%), leading in LiveCodeBench (65.9% vs. 63.4%) and SWE Verified (49.2% vs. 48.9%).\\n**(**[Arxiv](https://arxiv.org/pdf/2501.12948))\\n\\n**How Many Users On DeepSeek AI?**\\n\\n- DeepSeek has amassed 2.4 million downloads on Google Play and 1.9 million downloads on the App Store, showcasing its strong presence across both platforms. (Backlinko)\\n- DeepSeek has over 10 millio\\u2026\\n\\n[Truncated preview: showing 345 words out of ~1859. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1859, \"snippet_word_count\": 345, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:02.397618\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_I8CxcneFiQfYFZjR1EyurD85"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"snippet\": \"---\\ntitle: DeepSeek rushes to launch new AI model as China goes all in\\nauthor: Eduardo Baptista; Julie Zhu; Fanny Potkin\\nurl: https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\\nhostname: reuters.com\\ndescription: DeepSeek is looking to press home its advantage. The Hangzhou-based firm is accelerating the launch of the successor to January's R1 model.\\nsitename: Reuters\\ndate: 2025-02-25\\ncategories: ['Artificial Intelligence']\\ntags: ['RSBI:DATA-PRIVACY,RULES:COMPANY-DEEPSEEK,INSGHT,EREP,ANLINS,ARTI,BACT,BISV,BISV08,BIZ,CHIP,CHIP1,CIV,CMPELC,CMPNY,COMP08,CPROD,DAT,DIP,ECOMMA,FIN,FINS,FINS08,GEN,HARW,HARW1,HEDGE,INVBIS,INVM,INVS08,ITSE,ITSE08,NETSV,NETSV1,NEWS1,POL,PRDLCH,PUBL,REGS,SCI,SEMI,SRCHEN,SWIT,TECH,TECH08,TEEQ,TEEQ08,TMT,TRD,TRDEMB,WEU,EASIA,AMERS,US,EUROP,HK,EZC,NAMER,EMEA,ASXPAC,EMRG,CN,ASIA,FR,DEST:CSA,DEST:LBY,DEST:REULB,DEST:ABX,DEST:G,DEST:RAST,DEST:SOF,DEST:M,DEST:PGE,DEST:Z,DEST:PTD,DEST:RNP,DEST:E,DEST:C,DEST:PCU,DEST:ABN,DEST:AFA,DEST:BNX,DEST:GRO,DEST:PSC,DEST:U,DEST:O,DEST:DNP,DEST:MTL,DEST:FUN,DEST:UCDPTEST,DEST:RWSA,DEST:GNS,DEST:RWS,DEST:PCO,DEST:D,DEST:NAT,DEST:RBN,DEST:OIL,TOPNWS,SUSTAINABLE-BUSINESS,DEST:OUKBSM,DEST:OUSBSM,DEST:OCABSM,DEST:SEABS,DEST:OUSTCM,LEGAL,REUTERS-LEGAL,DEST:LITA,DEST:ODAT,TOPCMB']\\n---\\n# DeepSeek rushes to launch new AI model as China goes all in\\n\\nBEIJING/HONG KONG/SINGAPORE, Feb 25 (Reuters) - DeepSeek is looking to press home its advantage.\\n\\nThe Chinese startup triggered a $1 trillion-plus sell-off in global equities markets last month with a cut-price AI reasoning model that outperformed many Western competitors.\\n\\nNow, the\\n\\n[Hangzhou-based firm](https://www.reuters.com/technology/deepseek/)is accelerating the launch of the successor to January's R1 model, according to three people familiar with the company.Deepseek had planned to release R2 in early May but now wants it out as early as possible, two of them said, without providing specifics.\\n\\nThe company says it hopes the new model will produce better coding and be able to reason in languages beyond English. Details of the accelerated timeline for R2's release have not been previously reported.\\n\\nDeepSeek did not respond to a request for comment for this story.\\n\\nRivals are still digesting the implications of R1, which was built with less-powerful Nvidia chips but is competitive with those developed at the costs of hundreds of billions of dollars by U.S. tech giants.\\n\\n\\\"The launch of DeepSeek\\u2026\\n\\n[Truncated preview: showing 240 words out of ~1705. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1705, \"snippet_word_count\": 240, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:02.886309\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_KvTTr2MWHWrqLcrPOET936GF"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"snippet\": \"---\\ntitle: Top 10 AI Search Engines For 2025 (Ranked By Popularity)\\nauthor: Alex Chris\\nurl: https://www.reliablesoft.net/ai-search-engines/\\nhostname: reliablesoft.net\\ndescription: These are the best AI search engines users prefer in 2025, ranked by monthly website visits.\\nsitename: Reliablesoft Academy\\ndate: 2025-02-11\\ncategories: ['Digital Marketing']\\n---\\nUntil recently, Google was the go-to source for all things search, but that is no longer the case. Google may not have lost significant market share for traditional searches, but when it comes to AI search engines, there is a new king in town.\\n\\nTo determine which AI search engines are gaining the most traction, we analyzed monthly website visits as a measure of popularity. While website traffic doesn\\u2019t necessarily reflect the number of unique users or the actual purpose of visiting the website, it provides a strong indication of where people are turning for AI-driven search experiences.\\n\\nThe most popular AI search engine to date is **ChatGPT,** with **3.8 billion** monthly visits, followed by **DeepSeek,** with **277.9 **million visits, and **Google Gemini**, with **267.70** million visits.\\n\\n\\nLooking at the actual numbers (provided by SimilarWeb for January 2025), it's clear that ChatGPT is the leader in the AI space.\\n\\nDeepSeek appeared in February 2025 and quickly grabbed users' attention to check what the Chinese AI can do. However, while it has gained traction, it poses no real threat (yet) to ChatGPT\\u2019s dominance.\\n\\nRank |\\nSearch Engine |\\nUsers (Millions) |\\n|---|---|---|\\n| 1 | ChatGPT | 3800.00 |\\n| 2 | DeepSeek | 277.90 |\\n| 3 | Google Gemini | 267.70 |\\n| 4 | Perplexity AI | 99.50 |\\n| 5 | Claude AI | 76.80 |\\n| 6 | Microsoft CoPilot | 67.30 |\\n| 7 | You.com | 5.50 |\\n| 8 | Phind | 1.30 |\\n| 9 | Andi Search | 0.60 |\\n| 10 | Komo.ai | 0.20 |\\n\\nOther notable AI search engines include Google Gemini, which, despite Google's vast share in traditional [ search engines](https://www.reliablesoft.net/top-10-search-engines-in-the-world/), is still not widely adopted by users.\\n\\nPerplexity AI gained popularity for providing real-time citations and is used mainly by professionals and students.\\n\\nClaude AI, developed by Anthropic, has been growing steadily but remains more of a research assistant than a direct competitor in AI-powered search.\\n\\nThe list does not include Google AI Overviews (reportedly shown for [ 47% ](https://www.searchenginejournal.com/study-google-ai-overviews-appear-in-47-of-search-results/535096/)of sear\\u2026\\n\\n[Truncated preview: showing 390 words out of ~1484. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1484, \"snippet_word_count\": 390, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-01-31T11:21:50.495191\", \"date_cutoff_end\": \"2025-03-01T11:21:50.495191\", \"cached_at\": \"2025-10-24T06:12:03.335974\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_RcXOi9nXeYKTdWQWE5xLGXSV"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_KUYUQ6A4RZwFhHvIGspUGWSt",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://backlinko.com/deepseek-stats\", \"question\": \"In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?\", \"background\": \"ChatGPT website traffic hits a new high, ranking sixth in the world\", \"resolution_criteria\": \"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, deepseek appears in the top 50 at the Similarweb Top Websites Ranking.\", \"fine_print\": \"When accessing the rankings, ensure it is set to All Categories and Worldwide.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        },
+        {
+          "id": "call_ycOepYoOiG5WZGdqmIgEXUCk",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"question\": \"In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?\", \"background\": \"ChatGPT website traffic hits a new high, ranking sixth in the world\", \"resolution_criteria\": \"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, deepseek appears in the top 50 at the Similarweb Top Websites Ranking.\", \"fine_print\": \"When accessing the rankings, ensure it is set to All Categories and Worldwide.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        },
+        {
+          "id": "call_RoLnHhjxAPgt5n6QITHLr09K",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"question\": \"In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?\", \"background\": \"ChatGPT website traffic hits a new high, ranking sixth in the world\", \"resolution_criteria\": \"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, deepseek appears in the top 50 at the Similarweb Top Websites Ranking.\", \"fine_print\": \"When accessing the rankings, ensure it is set to All Categories and Worldwide.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        },
+        {
+          "id": "call_3Hgjqij7RN8LJ1DEu4nkMzLr",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"question\": \"In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?\", \"background\": \"ChatGPT website traffic hits a new high, ranking sixth in the world\", \"resolution_criteria\": \"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, deepseek appears in the top 50 at the Similarweb Top Websites Ranking.\", \"fine_print\": \"When accessing the rankings, ensure it is set to All Categories and Worldwide.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        },
+        {
+          "id": "call_vJMGUo7zYW6Y0eqFBQEoMEhs",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"question\": \"In its March update, will Similarweb report deepseek.com being ranked in the top 50 globally?\", \"background\": \"ChatGPT website traffic hits a new high, ranking sixth in the world\", \"resolution_criteria\": \"This question resolves as **Yes** if, in its update timestamped in March 2025, which will be accessed by Metaculus on or after March 1, 2025, deepseek appears in the top 50 at the Similarweb Top Websites Ranking.\", \"fine_print\": \"When accessing the rankings, ensure it is set to All Categories and Worldwide.\", \"present_date\": \"2025-02-28T11:21:50.495191\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://backlinko.com/deepseek-stats\", \"facts\": [{\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek had 33.7 million monthly active users worldwide as of January 2025.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek's website had 15.9 million unique visitors in the week of January 20-26, 2025.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek is the #1 most downloaded app in the App Store in over 156 countries.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"DeepSeek's largest markets are China, India, and Indonesia, accounting for 51.24% of its monthly active users.\"}, {\"title\": \"https://backlinko.com/deepseek-stats\", \"url\": \"https://backlinko.com/deepseek-stats\", \"fact\": \"The DeepSeek AI app has been downloaded over 21.66 million times worldwide as of February 5, 2025.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_KUYUQ6A4RZwFhHvIGspUGWSt"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"facts\": [{\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek accounted for 8% of global AI search traffic by February 2025, up from 3% six months earlier.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"Analysts predict that DeepSeek will reach 20 million daily visits by mid-2025.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek's market share is projected to climb to 15% by early 2026.\"}, {\"title\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"url\": \"https://softwareoasis.com/deepseek-explosive-growth/\", \"fact\": \"DeepSeek's rapid growth is reshaping the competitive landscape of AI-powered search tools.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_ycOepYoOiG5WZGdqmIgEXUCk"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"facts\": [{\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek had about 7,475 visitors per day in August 2024, which grew to 100,776 visitors daily by February 2025, indicating a significant increase in web traffic.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek's R-1 release in January 2025 led to a dramatic growth in traffic, with a 312% increase in January compared to December 2024.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek has over 10 million downloads as of January 2025, with significant traction in countries like China and the United States.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek is the top-ranked app in 2025 on the App Store and Play Store, suggesting strong user engagement and popularity.\"}, {\"title\": \"https://www.demandsage.com/deepseek-statistics/\", \"url\": \"https://www.demandsage.com/deepseek-statistics/\", \"fact\": \"DeepSeek's global launch occurred on January 20, 2025, which may contribute to its increased visibility and traffic.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_RoLnHhjxAPgt5n6QITHLr09K"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"facts\": [{\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek is accelerating the launch of its R2 model, which was initially planned for May, indicating a strategic push to capitalize on its recent success.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek's R1 model has been integrated into products by major Chinese tech companies like Lenovo, Baidu, and Tencent, suggesting widespread adoption and increased visibility.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"The company has caught the favor of the Chinese government, with DeepSeek models being deployed by at least 13 Chinese city governments and 10 state-owned energy companies.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek's AI models are significantly cheaper than competitors, with pricing estimated to be 20 to 40 times less than OpenAI's equivalent models, which could drive higher adoption rates.\"}, {\"title\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"url\": \"https://www.reuters.com/technology/artificial-intelligence/deepseek-rushes-launch-new-ai-model-china-goes-all-2025-02-25/\", \"fact\": \"DeepSeek's R1 model has triggered a $1 trillion-plus sell-off in global equities markets, highlighting its disruptive impact and potential to attract significant attention and traffic.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_3Hgjqij7RN8LJ1DEu4nkMzLr"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"8bbb3ca2-8ea6-5764-9adc-ed9da4b77683\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"facts\": [{\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek has 277.9 million monthly visits as of January 2025, making it the second most popular AI search engine after ChatGPT.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek appeared in February 2025 and quickly gained attention, indicating rapid growth and user interest.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek's AI Assistant, powered by the DeepSeek-V3 model, was released in January 2025, contributing to its recent popularity.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek became the top-rated free application on Apple's App Store shortly after its release.\"}, {\"title\": \"https://www.reliablesoft.net/ai-search-engines/\", \"url\": \"https://www.reliablesoft.net/ai-search-engines/\", \"fact\": \"DeepSeek's website has been downloaded over 21.66 million times worldwide across Google Play and the App Store as of February 2025.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_vJMGUo7zYW6Y0eqFBQEoMEhs"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key points regarding DeepSeek's potential to be ranked in the top 50 globally by Similarweb in March 2025:\n\n1. **Traffic and Popularity**: DeepSeek has experienced explosive growth in traffic. It had 277.9 million monthly visits as of January 2025, making it the second most popular AI search engine after ChatGPT. This level of traffic is significant and suggests a strong potential for high global ranking.\n\n2. **Growth Trends**: DeepSeek's daily visits surged from 6.2 million to 12.4 million in just 48 hours by January 26, 2025. Analysts predict that DeepSeek will reach 20 million daily visits by mid-2025. This rapid growth trajectory indicates a strong upward trend in user engagement.\n\n3. **Market Presence**: DeepSeek is the #1 most downloaded app in the App Store in over 156 countries and has been integrated into products by major Chinese tech companies like Lenovo, Baidu, and Tencent. It has also caught the favor of the Chinese government, further boosting its visibility and adoption.\n\n4. **Competitive Edge**: DeepSeek's AI models are significantly cheaper than competitors, which could drive higher adoption rates. Its disruptive impact has been highlighted by triggering a $1 trillion-plus sell-off in global equities markets.\n\n5. **Global Reach**: DeepSeek's largest markets are China, India, and Indonesia, accounting for 51.24% of its monthly active users. Its global launch and strategic partnerships have contributed to its increased visibility and traffic.\n\nGiven these factors, DeepSeek's rapid growth, high traffic volume, and strategic market positioning strongly suggest that it could be ranked in the top 50 globally by Similarweb in March 2025.\n\nFINAL PROBABILITY: 0.85"
+    }
+  ]
+}

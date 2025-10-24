@@ -1,0 +1,849 @@
+{
+  "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+  "question": "Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?",
+  "probability": 0.05,
+  "reasoning": "Based on the gathered evidence, here is the analysis regarding the probability of the average allergy index for Atlanta, Georgia being less than 4.0 for the 14-day period ending March 30, 2025:\n\n1. **Current Pollen Levels**: The pollen levels in Atlanta are currently very high. Reports indicate that tree pollen has reached high to extreme levels, with recent counts hitting 1,551, which is significantly above the threshold for high pollen levels.\n\n2. **Weather Conditions**: The weather conditions are contributing to high pollen levels. Dry, windy weather is prevalent, which prevents pollen from being washed away. Additionally, a warm winter and spring have intensified the pollen season, leading to higher concentrations of pollen.\n\n3. **Historical Context**: The pollen season in Atlanta typically peaks in late March, which aligns with the forecast period. This is supported by historical data indicating that pollen counts are highest between mid-March and mid-April.\n\n4. **Expert Opinions**: Experts have described this as the worst pollen season in at least the last 15 years, suggesting that the current conditions are severe and unlikely to result in a low average allergy index.\n\n5. **Resolution Criteria**: For the question to resolve as \"YES,\" the average allergy index must be less than 4.0. Given the current high pollen levels and the weather conditions that are likely to sustain these levels, it is improbable that the average will fall below this threshold.\n\nConsidering all the evidence, it is highly unlikely that the average allergy index will be less than 4.0 for the specified period.\n\nFINAL PROBABILITY: 0.05",
+  "search_results": [
+    {
+      "title": "Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma",
+      "url": "https://www.atlantaallergy.com/pollen_counts",
+      "content": "Atlanta’s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau."
+    },
+    {
+      "title": "Pollen Count | Board Certified Allergists in Atlanta",
+      "url": "https://www.caageorgia.com/pollen-count",
+      "content": "In Atlanta, pollen counts are highest between mid-March and mid-April. Tree pollen is emitted from late February through May, making this a peak time for allergies in the city."
+    },
+    {
+      "title": "Weather in Atlanta in March 2025 (Georgia)  - Detailed Weather Forecast for a Month",
+      "url": "https://world-weather.info/forecast/usa/atlanta_1/march-2025/",
+      "content": "Atlanta Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. Here are the daily temperatures: March 1st +70°/+54°, March 2nd +52°/+45°, March 3rd +59°/+41°..."
+    },
+    {
+      "title": "Atlanta, GA Monthly Weather | AccuWeather",
+      "url": "https://www.accuweather.com/en/us/atlanta/30303/march-weather/348181",
+      "content": "Atlanta, GA monthly weather forecast for March 2025 shows highs in the 70s and 80s with lows in the 40s and 50s..."
+    },
+    {
+      "title": "Weather Atlanta in March 2025: Temperature & Climate",
+      "url": "https://en.climate-data.org/north-america/united-states-of-america/georgia/atlanta-1607/t/march-3/",
+      "content": "Atlanta weather in March features average temperatures around 53.2°F (11.8°C), with highs reaching 63.9°F (17.7°C) and lows around 44.4°F (6.9°C). Expect about 7.5 hours of sunshine daily."
+    },
+    {
+      "title": "Atlanta weather in March 2025 | Georgia, USA: How hot?",
+      "url": "https://www.weather2travel.com/georgia-usa/atlanta/march/",
+      "content": "Expect daytime maximum temperatures of 18°C in Atlanta, Georgia (USA) in March based on long-term weather averages. There are 7 hours of sunshine per day on average with 11 days with some rainfall..."
+    },
+    {
+      "title": "60-Day Extended Weather Forecast for Atlanta, GA | Almanac.com",
+      "url": "https://www.almanac.com/weather/longrange/ga/atlanta",
+      "content": "March 2025 in Atlanta: Rain, heavy at times; warm, then chilly Mar 1-6. Sunny, cool Mar 7-9. Rainy periods, mild Mar 10-23. Isolated showers, warm Mar 24-31. Temperature 57° (1° above avg.) precipitation 7.5\" (3\" above avg.)..."
+    },
+    {
+      "title": "Weather in Country in March 2025 (Georgia)  - Detailed Weather Forecast for a Month",
+      "url": "https://world-weather.info/forecast/usa/country_lake/march-2025/",
+      "content": "Country Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. March 1+68° +48°..."
+    },
+    {
+      "title": "Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma",
+      "url": "https://www.atlantaallergy.com/pollen_counts",
+      "content": "Atlanta Allergy & Asthma’s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB."
+    },
+    {
+      "title": "Experts weigh in as pollen season triggers uptick in allergy cases",
+      "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "content": "Pollen is everywhere, and experts say this is the worst pollen season yet. Pollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days."
+    },
+    {
+      "title": "Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "content": "Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations..."
+    },
+    {
+      "title": "How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies",
+      "url": "https://aafa.org/asthma-allergy-research/allergy-capitals/",
+      "content": "Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January."
+    },
+    {
+      "title": "Longer Growing Season, Longer Allergy Season in 172 U.S. Cities | Climate Central",
+      "url": "https://www.climatecentral.org/climate-matters/2025-allergy-season",
+      "content": "Warming trends are leading to longer allergy seasons, with the first spring leaves unfolding early in parts of the south, including Atlanta, Georgia."
+    },
+    {
+      "title": "How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies",
+      "url": "https://aafa.org/asthma-allergy-research/allergy-capitals/",
+      "content": "Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January."
+    },
+    {
+      "title": "Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "content": "Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations..."
+    },
+    {
+      "title": "Atlanta Pollen Count Hits High This Spring",
+      "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "content": "Atlanta's pollen count has skyrocketed, recently hitting an alarming 1,551. Experts are urging individuals with allergies to take action and start their allergy medications immediately for relief."
+    },
+    {
+      "title": "https://www.atlantaallergy.com/pollen_counts",
+      "url": "https://www.atlantaallergy.com/pollen_counts",
+      "content": "---\ntitle: Today’s Pollen Count\ndescription: Atlanta’s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\ndate: 2025-03-22\n---\n# Today’s Pollen Count\n\nAtlanta Allergy & Asthma’s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\n\n#### Previous Months\n\nDo you think you might be struggling with allergies?\n\n## Allergy Diagnosis\n\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\n\n## Allergy Testing\n\nIdentifying the cause of your symptoms through allergy testing allows your\nallergist to effectively treat you. An\n[allergy skin test](/patient-information/allergy-skin-testing) is\nthe gold standard for identifying allergic triggers. This simple in-office\nprocedure introduces a very small amount of a specific allergen or allergens\nselected by the allergist based on your medical history (such as pollens,\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\nthrough an indention or “prick” on the surface of the skin. Following the\nskin prick test, some patients may also receive intradermal skin testing.\nThe results are available within minutes allowing your allergist to develop\na treatment plan during your visit. When indicated, our allergists may also\nemploy blood tests or oral challenges.\n\n## Allergy Treatments\n\nOnce the source of your symptoms have been accurately identified, the\nspecialists at Atlanta Allergy & Asthma will develop a customized\ntreatment plan which may include\n[environmental control\nmeasures](/files/allergy-avoidance-brochure.pdf),\nover-the-counter and prescription medications, or\n[allergy immunotherapy](/what-we-treat/immunotherapy).\n\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma…\n\n[Truncated preview: showing 365 words out of ~386. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.caageorgia.com/pollen-count",
+      "url": "https://www.caageorgia.com/pollen-count",
+      "content": "---\ntitle: Pollen Count | Board Certified Allergists in Atlanta\nurl: https://www.caageorgia.com/pollen-count\nhostname: caageorgia.com\ndescription: Seeking treatment for nasal polyps? Turn to the Center for Allergy and Asthma of Georgia to help you find relief. Call today to book an appointment.\nsitename: caageorgia.com\ndate: 2025-01-01\n---\n# Pollen Count in the Atlanta Area\n\n## Advanced & Board-Certified Allergy Specialists\n\nDo you feel like your pollen allergy has gotten worse in recent years? It’s not just your imagination. In fact, recent peer-reviewed research has shown that[pollen season has extended worldwide while the potency of the allergen has also increased](https://www.sciencedirect.com/science/article/pii/S2542519619300154?via%3Dihub&for-guid=a3a12ea2-bd65-e711-b65f-90b11c343abd&utm_source=usatoday-Climate%20Point&utm_medium=email&utm_campaign=narrative&utm_term=article_body).\n\nWhile there’s clearly nothing you can do to prevent contact with microscopic specks of pollen if you go outdoors, you can find relief from a pollen allergy by checking daily pollen counts so you can avoid unnecessary exposure. Knowing the current pollen count (the amount of pollen in the air) and what to do to limit contact with pollen can help mitigate your symptoms.\n\n### What Is a Pollen Allergy?\n\nA pollen allergy is usually called **hay fever****, **medically known as allergic rhinitis. Those who suffer from the affliction, also called seasonal [allergies](https://www.caageorgia.com/services/allergy-testing), often are sensitive to other allergens, such as dust mites, feathers, animal dander, and mold. Symptoms specific to a pollen allergy are a runny and irritated nose; itchy eyes, ears, and mouth; sneezing; coughing; wheezing; swelling around the eyes and sinus infections.\n\n### When Is Pollen Season?\n\nIn the southeast, spring allergy season can start as early as February and last until May. Pollen counts will be highest between mid-March and mid-April. However, different pollen types prevail during different months of the year. There are actually several ‘pollen seasons’.\n\n**The following pollen types are emitted during these months:**\n\n**Tree Pollen:**Late February - May**Grass Pollen:**Late April - June**Weed Pollen:**August - November\n\nSince Atlanta is widely known as the “city in the forest”, allergies hit Georgians hard. Pollen from trees, grasses, and weeds is airborne and can travel hundreds of miles, especially on dry, windy days. Pollen grains easily find t…\n\n[Truncated preview: showing 340 words out of ~829. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "content": "---\ntitle: Experts weigh in as pollen season triggers uptick in allergy cases\nauthor: Lenah Allen\nurl: https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\nhostname: walb.com\ndescription: Pollen is everywhere, and experts say this is the worst pollen season yet.\nsitename: WALB\ndate: 2025-03-18\ncategories: ['Dougherty County News']\ntags: ['pollen,albany,spring,pollen season,allergies,allergy season,shanti akers,phoebe,walb,chris zelman']\n---\n# Experts weigh in as pollen season triggers uptick in allergy cases\n\n##### Experts say this is the worst pollen season yet\n\nALBANY, Ga. (WALB) - Spring is just around the corner, but a high pollen season is already causing an uptick in allergy cases here in South Georgia.\n\nPollen is everywhere, and experts say this is the worst pollen season yet.\n\n“It is as bad as it’s been. At least in the last 15 years or so. It’s about as bad as I’ve seen it,” said WALB First Alert Meteorologist Chris Zelman.\n\nZelman said that right now, the pollen count in South Georgia is in a high range of 10 plus. That’s because all the trees and plants are pollinating at the same time.\n\n“Usually we have again a delay. Some things will bloom out and bud out and then we’ll have another period but this is all happening at one time so it’s almost like an explosion all at once,” said Zelman.\n\nAnd with this amount of pollen in the air, that can lead to severe allergy flare-ups. Right now, a third of 20 to 25 Phoebe patients are mentioning allergy symptoms.\n\n“Some people are finding it a bit of a nuisance. It’s a spectrum but definitely, the cases are picking up,” said Dr. Shanti Akers, Phoebe Pulmonary critical care doctor.\n\nDr. Akers says a lot of patients don’t know their insurance will cover allergy resources like nasal steroids which is why a lot of people try to tough out pollen season. However, 40% of people with allergies may also have asthma.\n\n“The pollen allergies are readily treatable. There’s no reason for people to suffer just because it’s this time of year and people are used to it. There’s definitely things we can do to help,” said Dr. Akers.\n\nPollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days.\n\n*Have a news tip or see an error that needs correction? **Let us know.** Please include the article’s headline in your message.*\n\n*To stay up to date on all the latest news as it develops, follow WALB on **Facebook** and **X…\n\n[Truncated preview: showing 417 words out of ~442. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "content": "---\ntitle: Pollen reaches high to extreme levels across southern US as season reaches full throttle\nauthor: Andrew Wulfeck\nurl: https://www.foxweather.com/earth-space/south-weeds-trees-greens\nhostname: foxweather.com\ndescription: Pollen season is affecting of the southern tied of the country, with tree pollen reaching high and even extreme levels, particularly in cities like Atlanta and Houston. Dry, windy weather is contributing to the spread of pollen, aggravating allergy symptoms, while a warm winter and spring have intensified the season, leading to longer periods of high pollen concentrations.\nsitename: Fox Weather\ndate: 2025-03-21\ncategories: ['Air Quality', 'Earth & Space', 'Nature', 'Outdoors', 'Southeast', 'Health', 'Georgia', 'Texas', 'Alabama', 'Mississippi', 'Florida', 'Spring']\n---\n# Pollen reaches high to extreme levels across southern US as season reaches full throttle\n\n## NOAA’s spring weather outlook predicts a dry, warm season, which will prevent rain from washing away the pollen, further aggravating allergies. The Pacific Northwest and Great Lakes may see cooler, wetter conditions, but increased moisture could lead to mold growth, adding to the allergen burden.\n\n**ATLANTA –** Signs of itchy throats and watery eyes are becoming all too familiar as pollen season sweeps across a large portion of the Lower 48.\n\nAccording to experts, tree pollen, which typically kicks off the season, has reached high and even extreme levels, especially in areas already several weeks into the annual event.\n\nCommunities around [Atlanta](https://www.foxweather.com/local-weather/georgia/atlanta) are reporting some of their highest pollen counts of the year, while [Houston](https://www.foxweather.com/local-weather/texas/houston) recently recorded its highest-ever pollen level for the month of March.\n\n[According to data from the Houston Health Department](https://www.houstonhealth.org/services/pollen-mold/houston-pollen-mold-count-thursday-march-20-2025), these extreme levels were triggered by a combination of trees, including Pine, Mulberry, Ash, Cedar, Hackberry, Sycamore and Oak.\n\nThe FOX Forecast Center points to dry, windy weather as a significant factor in how much pollen is circulating in the air, exacerbating symptoms for allergy sufferers.\n\nAllergy specialists explain that the pollen cycle typically begins with trees, followed by grasses and finally weeds into the [summer](https://www.foxweather.com/category/summer) months.\n\nThe recent warm winter and spri…\n\n[Truncated preview: showing 327 words out of ~760. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "content": "---\ntitle: Atlanta Pollen Count Hits High This Spring\nauthor: HERE Atlanta\nurl: https://www.hereatlanta.com/atlanta-pollen-count/\nhostname: hereatlanta.com\ndescription: Atlanta's pollen count has reached alarming levels this spring, affecting allergy sufferers across the city. Learn management strategies for relief.\nsitename: HERE Atlanta\ndate: 2025-03-22\ncategories: ['Breaking News']\ntags: ['atlanta ga', 'weather atlanta ga']\n---\n*News Summary*\n\nAtlanta is currently facing its peak pollen season, with counts recently reaching 1,551, causing discomfort for many allergy sufferers. This year’s pollen levels are significantly higher compared to last year, prompting experts to recommend immediate allergy medication for relief. The article highlights strategies for managing allergy symptoms, the best times for outdoor activities, and the growing impact of climate change on allergy seasons. With over 100 million Americans affected, it’s crucial for residents to take proactive measures during this challenging season.\n\n### Atlanta Experiences Peak Pollen Season as Allergy Sufferers Brace for High Counts\n\nAs spring settles in, **Atlanta** is no stranger to the seasonal unrest that accompanies peak pollen levels. The city’s pollen count has skyrocketed, recently hitting an alarming **1,551**, marking the first extreme reading of the 2023 pollening season. People across the region are grappling with the discomfort this brings.\n\n#### Comparing This Year to Last\n\nThe current pollen situation starkly contrasts with the previous year. Many residents, including visitors in beloved green spaces like Piedmont Park, have noticed the impact of a much more intense pollen season. In recent weeks, counts have fluctuated, moving from the **orange range** of high levels to the more severe red, making outdoor activities a struggle for allergy sufferers.\n\n#### Expert Guidance on Managing Allergies\n\nWith pollen levels hitting new heights, experts are urging individuals with allergies to take action. It is recommended that those who haven’t started their allergy medications should do so immediately. Initial relief can often be found with over-the-counter options, but professional testing is also vital for many individuals.\n\nConsulting board-certified allergists can pinpoint specific allergens that trigger symptoms, unlocking paths to more effective management strategies. For long-term relief, options such as **allergy immunotherapy** and **allergy shots** may provide solutions that go…\n\n[Truncated preview: showing 349 words out of ~659. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "https://www.atlantaallergy.com/pollen_counts",
+      "url": "https://www.atlantaallergy.com/pollen_counts",
+      "fact": "---\ntitle: Today’s Pollen Count\ndescription: Atlanta’s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\ndate: 2025-03-22\n---\n# Today’s Pollen Count\n\nAtlanta Allergy & Asthma’s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\n\n#### Previous Months\n\nDo you think you might be struggling with allergies?\n\n## Allergy Diagnosis\n\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\n\n## Allergy Testing\n\nIdentifying the cause of your symptoms through allergy testing allows your\nallergist to effectively treat you. An\n[allergy skin test](/patient-information/allergy-skin-testing) is\nthe gold standard for identifying allergic triggers. This simple in-office\nprocedure introduces a very small amount of a specific allergen or allergens\nselected by the allergist based on your medical history (such as pollens,\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\nthrough an indention or “prick” on the surface of the skin. Following the\nskin prick test, some patients may also receive intradermal skin testing.\nThe results are available within minutes allowing your allergist to develop\na treatment plan during your visit. When indicated, our allergists may also\nemploy blood tests or oral challenges.\n\n## Allergy Treatments\n\nOnce the source of your symptoms have been accurately identified, the\nspecialists at Atlanta Allergy & Asthma will develop a customized\ntreatment plan which may include\n[environmental control\nmeasures](/files/allergy-avoidance-brochure.pdf),\nover-the-counter and prescription medications, or\n[allergy immunotherapy](/what-we-treat/immunotherapy).\n\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma exacerbations. Taking control of your allergies can significantly improve your quality of life!\n\n[Schedule with One of Our Allergy Experts Today](/about-us/appointments/index)"
+    },
+    {
+      "title": "https://www.caageorgia.com/pollen-count",
+      "url": "https://www.caageorgia.com/pollen-count",
+      "fact": "Pollen counts in Atlanta are highest between mid-March and mid-April, which overlaps with the forecast period ending March 30, 2025."
+    },
+    {
+      "title": "https://www.caageorgia.com/pollen-count",
+      "url": "https://www.caageorgia.com/pollen-count",
+      "fact": "Tree pollen, which is prevalent from late February to May, is a major contributor to pollen counts during the forecast period."
+    },
+    {
+      "title": "https://www.caageorgia.com/pollen-count",
+      "url": "https://www.caageorgia.com/pollen-count",
+      "fact": "Dry, windy days can cause pollen counts to spike, while rain can reduce them, except during thunderstorms which can increase counts."
+    },
+    {
+      "title": "https://www.caageorgia.com/pollen-count",
+      "url": "https://www.caageorgia.com/pollen-count",
+      "fact": "The trees that contribute most to pollen allergies in Atlanta include oak, pine, hickory, pecan, elm, alder, and birch."
+    },
+    {
+      "title": "https://www.caageorgia.com/pollen-count",
+      "url": "https://www.caageorgia.com/pollen-count",
+      "fact": "Pollen counts are measured on a 12-point scale, with low levels under 2.4 and high levels above 9.7, which helps in understanding the potential range of the allergy index."
+    },
+    {
+      "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "fact": "Experts say this is the worst pollen season in at least the last 15 years."
+    },
+    {
+      "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "fact": "The pollen count in South Georgia is currently in a high range of 10 plus."
+    },
+    {
+      "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "fact": "All trees and plants are pollinating at the same time, causing a high pollen count."
+    },
+    {
+      "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "fact": "High levels of pollen are expected to continue for the next couple of days."
+    },
+    {
+      "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+      "fact": "Pollen season is expected to subside by the end of March."
+    },
+    {
+      "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "fact": "Tree pollen has reached high and even extreme levels in Atlanta, contributing to significant allergy symptoms."
+    },
+    {
+      "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "fact": "Dry, windy weather is a significant factor in the high pollen levels, as it prevents pollen from being washed away."
+    },
+    {
+      "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "fact": "A warm winter and spring have intensified the pollen season, leading to higher concentrations of pollen."
+    },
+    {
+      "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "fact": "NOAA's spring weather outlook predicts a dry, warm season, which will not reduce current pollen activity."
+    },
+    {
+      "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+      "fact": "Communities around Atlanta are reporting some of their highest pollen counts of the year."
+    },
+    {
+      "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "fact": "Atlanta's pollen count recently reached 1,551, indicating a high level of pollen in the area."
+    },
+    {
+      "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "fact": "This year's pollen levels are significantly higher compared to last year, suggesting an upward trend in pollen counts."
+    },
+    {
+      "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "fact": "Experts recommend immediate allergy medication due to the high pollen levels, indicating that the current conditions are severe for allergy sufferers."
+    },
+    {
+      "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "fact": "The tree pollen season in Atlanta typically stretches from late February to June, with peak levels expected around this time."
+    },
+    {
+      "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+      "fact": "Climate change is extending allergy seasons and increasing pollen production, which could contribute to higher pollen counts in the future."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.0025000000000000005,
+  "weighted_brier_score": 0.0012500000000000002,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+        "queries": [
+          "current pollen count Atlanta March 2025",
+          "Atlanta weather forecast March 2025",
+          "Atlanta pollen forecast March 2025 expert analysis"
+        ]
+      },
+      "raw": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"queries\": [\"current pollen count Atlanta March 2025\", \"Atlanta weather forecast March 2025\", \"Atlanta pollen forecast March 2025 expert analysis\"]}",
+      "tool_call_id": "call_44NWR3VfMvunG9X74qosOfBn"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "current pollen count Atlanta March 2025",
+        "results": [
+          {
+            "title": "Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma",
+            "link": "https://www.atlantaallergy.com/pollen_counts",
+            "position": 1,
+            "snippet": "Atlanta’s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.",
+            "date": null
+          },
+          {
+            "title": "Pollen Count | Board Certified Allergists in Atlanta",
+            "link": "https://www.caageorgia.com/pollen-count",
+            "position": 3,
+            "snippet": "In Atlanta, pollen counts are highest between mid-March and mid-April. Tree pollen is emitted from late February through May, making this a peak time for allergies in the city.",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"current pollen count Atlanta March 2025\", \"results\": [{\"title\": \"Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma\", \"link\": \"https://www.atlantaallergy.com/pollen_counts\", \"position\": 1, \"snippet\": \"Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\", \"date\": null}, {\"title\": \"Pollen Count | Board Certified Allergists in Atlanta\", \"link\": \"https://www.caageorgia.com/pollen-count\", \"position\": 3, \"snippet\": \"In Atlanta, pollen counts are highest between mid-March and mid-April. Tree pollen is emitted from late February through May, making this a peak time for allergies in the city.\", \"date\": null}]}",
+      "tool_call_id": "call_B4qjD5sKeG3n9TSRrKEsjzlX"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Atlanta weather forecast March 2025",
+        "results": [
+          {
+            "title": "Weather in Atlanta in March 2025 (Georgia)  - Detailed Weather Forecast for a Month",
+            "link": "https://world-weather.info/forecast/usa/atlanta_1/march-2025/",
+            "position": 1,
+            "snippet": "Atlanta Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. Here are the daily temperatures: March 1st +70°/+54°, March 2nd +52°/+45°, March 3rd +59°/+41°...",
+            "date": null
+          },
+          {
+            "title": "Atlanta, GA Monthly Weather | AccuWeather",
+            "link": "https://www.accuweather.com/en/us/atlanta/30303/march-weather/348181",
+            "position": 2,
+            "snippet": "Atlanta, GA monthly weather forecast for March 2025 shows highs in the 70s and 80s with lows in the 40s and 50s...",
+            "date": null
+          },
+          {
+            "title": "Weather Atlanta in March 2025: Temperature & Climate",
+            "link": "https://en.climate-data.org/north-america/united-states-of-america/georgia/atlanta-1607/t/march-3/",
+            "position": 5,
+            "snippet": "Atlanta weather in March features average temperatures around 53.2°F (11.8°C), with highs reaching 63.9°F (17.7°C) and lows around 44.4°F (6.9°C). Expect about 7.5 hours of sunshine daily.",
+            "date": null
+          },
+          {
+            "title": "Atlanta weather in March 2025 | Georgia, USA: How hot?",
+            "link": "https://www.weather2travel.com/georgia-usa/atlanta/march/",
+            "position": 1,
+            "snippet": "Expect daytime maximum temperatures of 18°C in Atlanta, Georgia (USA) in March based on long-term weather averages. There are 7 hours of sunshine per day on average with 11 days with some rainfall...",
+            "date": null
+          },
+          {
+            "title": "60-Day Extended Weather Forecast for Atlanta, GA | Almanac.com",
+            "link": "https://www.almanac.com/weather/longrange/ga/atlanta",
+            "position": 3,
+            "snippet": "March 2025 in Atlanta: Rain, heavy at times; warm, then chilly Mar 1-6. Sunny, cool Mar 7-9. Rainy periods, mild Mar 10-23. Isolated showers, warm Mar 24-31. Temperature 57° (1° above avg.) precipitation 7.5\" (3\" above avg.)...",
+            "date": null
+          },
+          {
+            "title": "Weather in Country in March 2025 (Georgia)  - Detailed Weather Forecast for a Month",
+            "link": "https://world-weather.info/forecast/usa/country_lake/march-2025/",
+            "position": 5,
+            "snippet": "Country Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. March 1+68° +48°...",
+            "date": null
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Atlanta weather forecast March 2025\", \"results\": [{\"title\": \"Weather in Atlanta in March 2025 (Georgia)  - Detailed Weather Forecast for a Month\", \"link\": \"https://world-weather.info/forecast/usa/atlanta_1/march-2025/\", \"position\": 1, \"snippet\": \"Atlanta Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. Here are the daily temperatures: March 1st +70\\u00b0/+54\\u00b0, March 2nd +52\\u00b0/+45\\u00b0, March 3rd +59\\u00b0/+41\\u00b0...\", \"date\": null}, {\"title\": \"Atlanta, GA Monthly Weather | AccuWeather\", \"link\": \"https://www.accuweather.com/en/us/atlanta/30303/march-weather/348181\", \"position\": 2, \"snippet\": \"Atlanta, GA monthly weather forecast for March 2025 shows highs in the 70s and 80s with lows in the 40s and 50s...\", \"date\": null}, {\"title\": \"Weather Atlanta in March 2025: Temperature & Climate\", \"link\": \"https://en.climate-data.org/north-america/united-states-of-america/georgia/atlanta-1607/t/march-3/\", \"position\": 5, \"snippet\": \"Atlanta weather in March features average temperatures around 53.2\\u00b0F (11.8\\u00b0C), with highs reaching 63.9\\u00b0F (17.7\\u00b0C) and lows around 44.4\\u00b0F (6.9\\u00b0C). Expect about 7.5 hours of sunshine daily.\", \"date\": null}, {\"title\": \"Atlanta weather in March 2025 | Georgia, USA: How hot?\", \"link\": \"https://www.weather2travel.com/georgia-usa/atlanta/march/\", \"position\": 1, \"snippet\": \"Expect daytime maximum temperatures of 18\\u00b0C in Atlanta, Georgia (USA) in March based on long-term weather averages. There are 7 hours of sunshine per day on average with 11 days with some rainfall...\", \"date\": null}, {\"title\": \"60-Day Extended Weather Forecast for Atlanta, GA | Almanac.com\", \"link\": \"https://www.almanac.com/weather/longrange/ga/atlanta\", \"position\": 3, \"snippet\": \"March 2025 in Atlanta: Rain, heavy at times; warm, then chilly Mar 1-6. Sunny, cool Mar 7-9. Rainy periods, mild Mar 10-23. Isolated showers, warm Mar 24-31. Temperature 57\\u00b0 (1\\u00b0 above avg.) precipitation 7.5\\\" (3\\\" above avg.)...\", \"date\": null}, {\"title\": \"Weather in Country in March 2025 (Georgia)  - Detailed Weather Forecast for a Month\", \"link\": \"https://world-weather.info/forecast/usa/country_lake/march-2025/\", \"position\": 5, \"snippet\": \"Country Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. March 1+68\\u00b0 +48\\u00b0...\", \"date\": null}]}",
+      "tool_call_id": "call_NmPr40udtae5IUhNIYYn7Q8D"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Atlanta pollen forecast March 2025 expert analysis",
+        "results": [
+          {
+            "title": "Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma",
+            "link": "https://www.atlantaallergy.com/pollen_counts",
+            "position": 3,
+            "snippet": "Atlanta Allergy & Asthma’s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB.",
+            "date": null
+          },
+          {
+            "title": "Experts weigh in as pollen season triggers uptick in allergy cases",
+            "link": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "position": 2,
+            "snippet": "Pollen is everywhere, and experts say this is the worst pollen season yet. Pollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days.",
+            "date": "2025-03-18T20:06:41.030000Z"
+          },
+          {
+            "title": "Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather",
+            "link": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "position": 4,
+            "snippet": "Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations...",
+            "date": null
+          },
+          {
+            "title": "How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies",
+            "link": "https://aafa.org/asthma-allergy-research/allergy-capitals/",
+            "position": 5,
+            "snippet": "Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January.",
+            "date": "2025-03-20T20:23:18Z"
+          },
+          {
+            "title": "Longer Growing Season, Longer Allergy Season in 172 U.S. Cities | Climate Central",
+            "link": "https://www.climatecentral.org/climate-matters/2025-allergy-season",
+            "position": 1,
+            "snippet": "Warming trends are leading to longer allergy seasons, with the first spring leaves unfolding early in parts of the south, including Atlanta, Georgia.",
+            "date": null
+          },
+          {
+            "title": "How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies",
+            "link": "https://aafa.org/asthma-allergy-research/allergy-capitals/",
+            "position": 2,
+            "snippet": "Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January.",
+            "date": "2025-03-20T20:23:18Z"
+          },
+          {
+            "title": "Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather",
+            "link": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "position": 3,
+            "snippet": "Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations...",
+            "date": null
+          },
+          {
+            "title": "Atlanta Pollen Count Hits High This Spring",
+            "link": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "position": 5,
+            "snippet": "Atlanta's pollen count has skyrocketed, recently hitting an alarming 1,551. Experts are urging individuals with allergies to take action and start their allergy medications immediately for relief.",
+            "date": "2025-03-22T03:02:34Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Atlanta pollen forecast March 2025 expert analysis\", \"results\": [{\"title\": \"Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma\", \"link\": \"https://www.atlantaallergy.com/pollen_counts\", \"position\": 3, \"snippet\": \"Atlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB.\", \"date\": null}, {\"title\": \"Experts weigh in as pollen season triggers uptick in allergy cases\", \"link\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"position\": 2, \"snippet\": \"Pollen is everywhere, and experts say this is the worst pollen season yet. Pollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days.\", \"date\": \"2025-03-18T20:06:41.030000Z\"}, {\"title\": \"Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather\", \"link\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"position\": 4, \"snippet\": \"Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations...\", \"date\": null}, {\"title\": \"How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies\", \"link\": \"https://aafa.org/asthma-allergy-research/allergy-capitals/\", \"position\": 5, \"snippet\": \"Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January.\", \"date\": \"2025-03-20T20:23:18Z\"}, {\"title\": \"Longer Growing Season, Longer Allergy Season in 172 U.S. Cities | Climate Central\", \"link\": \"https://www.climatecentral.org/climate-matters/2025-allergy-season\", \"position\": 1, \"snippet\": \"Warming trends are leading to longer allergy seasons, with the first spring leaves unfolding early in parts of the south, including Atlanta, Georgia.\", \"date\": null}, {\"title\": \"How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies\", \"link\": \"https://aafa.org/asthma-allergy-research/allergy-capitals/\", \"position\": 2, \"snippet\": \"Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January.\", \"date\": \"2025-03-20T20:23:18Z\"}, {\"title\": \"Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather\", \"link\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"position\": 3, \"snippet\": \"Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations...\", \"date\": null}, {\"title\": \"Atlanta Pollen Count Hits High This Spring\", \"link\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"position\": 5, \"snippet\": \"Atlanta's pollen count has skyrocketed, recently hitting an alarming 1,551. Experts are urging individuals with allergies to take action and start their allergy medications immediately for relief.\", \"date\": \"2025-03-22T03:02:34Z\"}]}",
+      "tool_call_id": "call_b6iWppoF2z9AJm1ZvF1onhf9"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.atlantaallergy.com/pollen_counts",
+        "snippet": "---\ntitle: Today’s Pollen Count\ndescription: Atlanta’s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\ndate: 2025-03-22\n---\n# Today’s Pollen Count\n\nAtlanta Allergy & Asthma’s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\n\n#### Previous Months\n\nDo you think you might be struggling with allergies?\n\n## Allergy Diagnosis\n\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\n\n## Allergy Testing\n\nIdentifying the cause of your symptoms through allergy testing allows your\nallergist to effectively treat you. An\n[allergy skin test](/patient-information/allergy-skin-testing) is\nthe gold standard for identifying allergic triggers. This simple in-office\nprocedure introduces a very small amount of a specific allergen or allergens\nselected by the allergist based on your medical history (such as pollens,\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\nthrough an indention or “prick” on the surface of the skin. Following the\nskin prick test, some patients may also receive intradermal skin testing.\nThe results are available within minutes allowing your allergist to develop\na treatment plan during your visit. When indicated, our allergists may also\nemploy blood tests or oral challenges.\n\n## Allergy Treatments\n\nOnce the source of your symptoms have been accurately identified, the\nspecialists at Atlanta Allergy & Asthma will develop a customized\ntreatment plan which may include\n[environmental control\nmeasures](/files/allergy-avoidance-brochure.pdf),\nover-the-counter and prescription medications, or\n[allergy immunotherapy](/what-we-treat/immunotherapy).\n\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma…\n\n[Truncated preview: showing 365 words out of ~386. Full content available via `btf_extract_evidence`.]",
+        "word_count": 386,
+        "snippet_word_count": 365,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-22T14:22:58.013513",
+        "date_cutoff_end": "2025-03-23T14:22:58.013513",
+        "cached_at": "2025-10-23T21:10:16.739427"
+      },
+      "raw": "{\"url\": \"https://www.atlantaallergy.com/pollen_counts\", \"snippet\": \"---\\ntitle: Today\\u2019s Pollen Count\\ndescription: Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\\ndate: 2025-03-22\\n---\\n# Today\\u2019s Pollen Count\\n\\nAtlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\\n\\n#### Previous Months\\n\\nDo you think you might be struggling with allergies?\\n\\n## Allergy Diagnosis\\n\\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\\n\\n## Allergy Testing\\n\\nIdentifying the cause of your symptoms through allergy testing allows your\\nallergist to effectively treat you. An\\n[allergy skin test](/patient-information/allergy-skin-testing) is\\nthe gold standard for identifying allergic triggers. This simple in-office\\nprocedure introduces a very small amount of a specific allergen or allergens\\nselected by the allergist based on your medical history (such as pollens,\\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\\nthrough an indention or \\u201cprick\\u201d on the surface of the skin. Following the\\nskin prick test, some patients may also receive intradermal skin testing.\\nThe results are available within minutes allowing your allergist to develop\\na treatment plan during your visit. When indicated, our allergists may also\\nemploy blood tests or oral challenges.\\n\\n## Allergy Treatments\\n\\nOnce the source of your symptoms have been accurately identified, the\\nspecialists at Atlanta Allergy & Asthma will develop a customized\\ntreatment plan which may include\\n[environmental control\\nmeasures](/files/allergy-avoidance-brochure.pdf),\\nover-the-counter and prescription medications, or\\n[allergy immunotherapy](/what-we-treat/immunotherapy).\\n\\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma\\u2026\\n\\n[Truncated preview: showing 365 words out of ~386. Full content available via `btf_extract_evidence`.]\", \"word_count\": 386, \"snippet_word_count\": 365, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:16.739427\"}",
+      "tool_call_id": "call_yZO5Dfds1Rb4zyjYfsGPElQb"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.caageorgia.com/pollen-count",
+        "snippet": "---\ntitle: Pollen Count | Board Certified Allergists in Atlanta\nurl: https://www.caageorgia.com/pollen-count\nhostname: caageorgia.com\ndescription: Seeking treatment for nasal polyps? Turn to the Center for Allergy and Asthma of Georgia to help you find relief. Call today to book an appointment.\nsitename: caageorgia.com\ndate: 2025-01-01\n---\n# Pollen Count in the Atlanta Area\n\n## Advanced & Board-Certified Allergy Specialists\n\nDo you feel like your pollen allergy has gotten worse in recent years? It’s not just your imagination. In fact, recent peer-reviewed research has shown that[pollen season has extended worldwide while the potency of the allergen has also increased](https://www.sciencedirect.com/science/article/pii/S2542519619300154?via%3Dihub&for-guid=a3a12ea2-bd65-e711-b65f-90b11c343abd&utm_source=usatoday-Climate%20Point&utm_medium=email&utm_campaign=narrative&utm_term=article_body).\n\nWhile there’s clearly nothing you can do to prevent contact with microscopic specks of pollen if you go outdoors, you can find relief from a pollen allergy by checking daily pollen counts so you can avoid unnecessary exposure. Knowing the current pollen count (the amount of pollen in the air) and what to do to limit contact with pollen can help mitigate your symptoms.\n\n### What Is a Pollen Allergy?\n\nA pollen allergy is usually called **hay fever****, **medically known as allergic rhinitis. Those who suffer from the affliction, also called seasonal [allergies](https://www.caageorgia.com/services/allergy-testing), often are sensitive to other allergens, such as dust mites, feathers, animal dander, and mold. Symptoms specific to a pollen allergy are a runny and irritated nose; itchy eyes, ears, and mouth; sneezing; coughing; wheezing; swelling around the eyes and sinus infections.\n\n### When Is Pollen Season?\n\nIn the southeast, spring allergy season can start as early as February and last until May. Pollen counts will be highest between mid-March and mid-April. However, different pollen types prevail during different months of the year. There are actually several ‘pollen seasons’.\n\n**The following pollen types are emitted during these months:**\n\n**Tree Pollen:**Late February - May**Grass Pollen:**Late April - June**Weed Pollen:**August - November\n\nSince Atlanta is widely known as the “city in the forest”, allergies hit Georgians hard. Pollen from trees, grasses, and weeds is airborne and can travel hundreds of miles, especially on dry, windy days. Pollen grains easily find t…\n\n[Truncated preview: showing 340 words out of ~829. Full content available via `btf_extract_evidence`.]",
+        "word_count": 829,
+        "snippet_word_count": 340,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-22T14:22:58.013513",
+        "date_cutoff_end": "2025-03-23T14:22:58.013513",
+        "cached_at": "2025-10-23T21:10:17.260200"
+      },
+      "raw": "{\"url\": \"https://www.caageorgia.com/pollen-count\", \"snippet\": \"---\\ntitle: Pollen Count | Board Certified Allergists in Atlanta\\nurl: https://www.caageorgia.com/pollen-count\\nhostname: caageorgia.com\\ndescription: Seeking treatment for nasal polyps? Turn to the Center for Allergy and Asthma of Georgia to help you find relief. Call today to book an appointment.\\nsitename: caageorgia.com\\ndate: 2025-01-01\\n---\\n# Pollen Count in the Atlanta Area\\n\\n## Advanced & Board-Certified Allergy Specialists\\n\\nDo you feel like your pollen allergy has gotten worse in recent years? It\\u2019s not just your imagination. In fact, recent peer-reviewed research has shown that[pollen season has extended worldwide while the potency of the allergen has also increased](https://www.sciencedirect.com/science/article/pii/S2542519619300154?via%3Dihub&for-guid=a3a12ea2-bd65-e711-b65f-90b11c343abd&utm_source=usatoday-Climate%20Point&utm_medium=email&utm_campaign=narrative&utm_term=article_body).\\n\\nWhile there\\u2019s clearly nothing you can do to prevent contact with microscopic specks of pollen if you go outdoors, you can find relief from a pollen allergy by checking daily pollen counts so you can avoid unnecessary exposure. Knowing the current pollen count (the amount of pollen in the air) and what to do to limit contact with pollen can help mitigate your symptoms.\\n\\n### What Is a Pollen Allergy?\\n\\nA pollen allergy is usually called **hay fever****, **medically known as allergic rhinitis. Those who suffer from the affliction, also called seasonal [allergies](https://www.caageorgia.com/services/allergy-testing), often are sensitive to other allergens, such as dust mites, feathers, animal dander, and mold. Symptoms specific to a pollen allergy are a runny and irritated nose; itchy eyes, ears, and mouth; sneezing; coughing; wheezing; swelling around the eyes and sinus infections.\\n\\n### When Is Pollen Season?\\n\\nIn the southeast, spring allergy season can start as early as February and last until May. Pollen counts will be highest between mid-March and mid-April. However, different pollen types prevail during different months of the year. There are actually several \\u2018pollen seasons\\u2019.\\n\\n**The following pollen types are emitted during these months:**\\n\\n**Tree Pollen:**Late February - May**Grass Pollen:**Late April - June**Weed Pollen:**August - November\\n\\nSince Atlanta is widely known as the \\u201ccity in the forest\\u201d, allergies hit Georgians hard. Pollen from trees, grasses, and weeds is airborne and can travel hundreds of miles, especially on dry, windy days. Pollen grains easily find t\\u2026\\n\\n[Truncated preview: showing 340 words out of ~829. Full content available via `btf_extract_evidence`.]\", \"word_count\": 829, \"snippet_word_count\": 340, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:17.260200\"}",
+      "tool_call_id": "call_lfRNBCSrtfTw7eIz974nOwf4"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+        "snippet": "---\ntitle: Experts weigh in as pollen season triggers uptick in allergy cases\nauthor: Lenah Allen\nurl: https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\nhostname: walb.com\ndescription: Pollen is everywhere, and experts say this is the worst pollen season yet.\nsitename: WALB\ndate: 2025-03-18\ncategories: ['Dougherty County News']\ntags: ['pollen,albany,spring,pollen season,allergies,allergy season,shanti akers,phoebe,walb,chris zelman']\n---\n# Experts weigh in as pollen season triggers uptick in allergy cases\n\n##### Experts say this is the worst pollen season yet\n\nALBANY, Ga. (WALB) - Spring is just around the corner, but a high pollen season is already causing an uptick in allergy cases here in South Georgia.\n\nPollen is everywhere, and experts say this is the worst pollen season yet.\n\n“It is as bad as it’s been. At least in the last 15 years or so. It’s about as bad as I’ve seen it,” said WALB First Alert Meteorologist Chris Zelman.\n\nZelman said that right now, the pollen count in South Georgia is in a high range of 10 plus. That’s because all the trees and plants are pollinating at the same time.\n\n“Usually we have again a delay. Some things will bloom out and bud out and then we’ll have another period but this is all happening at one time so it’s almost like an explosion all at once,” said Zelman.\n\nAnd with this amount of pollen in the air, that can lead to severe allergy flare-ups. Right now, a third of 20 to 25 Phoebe patients are mentioning allergy symptoms.\n\n“Some people are finding it a bit of a nuisance. It’s a spectrum but definitely, the cases are picking up,” said Dr. Shanti Akers, Phoebe Pulmonary critical care doctor.\n\nDr. Akers says a lot of patients don’t know their insurance will cover allergy resources like nasal steroids which is why a lot of people try to tough out pollen season. However, 40% of people with allergies may also have asthma.\n\n“The pollen allergies are readily treatable. There’s no reason for people to suffer just because it’s this time of year and people are used to it. There’s definitely things we can do to help,” said Dr. Akers.\n\nPollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days.\n\n*Have a news tip or see an error that needs correction? **Let us know.** Please include the article’s headline in your message.*\n\n*To stay up to date on all the latest news as it develops, follow WALB on **Facebook** and **X…\n\n[Truncated preview: showing 417 words out of ~442. Full content available via `btf_extract_evidence`.]",
+        "word_count": 442,
+        "snippet_word_count": 417,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-22T14:22:58.013513",
+        "date_cutoff_end": "2025-03-23T14:22:58.013513",
+        "cached_at": "2025-10-23T21:10:17.751243"
+      },
+      "raw": "{\"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"snippet\": \"---\\ntitle: Experts weigh in as pollen season triggers uptick in allergy cases\\nauthor: Lenah Allen\\nurl: https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\\nhostname: walb.com\\ndescription: Pollen is everywhere, and experts say this is the worst pollen season yet.\\nsitename: WALB\\ndate: 2025-03-18\\ncategories: ['Dougherty County News']\\ntags: ['pollen,albany,spring,pollen season,allergies,allergy season,shanti akers,phoebe,walb,chris zelman']\\n---\\n# Experts weigh in as pollen season triggers uptick in allergy cases\\n\\n##### Experts say this is the worst pollen season yet\\n\\nALBANY, Ga. (WALB) - Spring is just around the corner, but a high pollen season is already causing an uptick in allergy cases here in South Georgia.\\n\\nPollen is everywhere, and experts say this is the worst pollen season yet.\\n\\n\\u201cIt is as bad as it\\u2019s been. At least in the last 15 years or so. It\\u2019s about as bad as I\\u2019ve seen it,\\u201d said WALB First Alert Meteorologist Chris Zelman.\\n\\nZelman said that right now, the pollen count in South Georgia is in a high range of 10 plus. That\\u2019s because all the trees and plants are pollinating at the same time.\\n\\n\\u201cUsually we have again a delay. Some things will bloom out and bud out and then we\\u2019ll have another period but this is all happening at one time so it\\u2019s almost like an explosion all at once,\\u201d said Zelman.\\n\\nAnd with this amount of pollen in the air, that can lead to severe allergy flare-ups. Right now, a third of 20 to 25 Phoebe patients are mentioning allergy symptoms.\\n\\n\\u201cSome people are finding it a bit of a nuisance. It\\u2019s a spectrum but definitely, the cases are picking up,\\u201d said Dr. Shanti Akers, Phoebe Pulmonary critical care doctor.\\n\\nDr. Akers says a lot of patients don\\u2019t know their insurance will cover allergy resources like nasal steroids which is why a lot of people try to tough out pollen season. However, 40% of people with allergies may also have asthma.\\n\\n\\u201cThe pollen allergies are readily treatable. There\\u2019s no reason for people to suffer just because it\\u2019s this time of year and people are used to it. There\\u2019s definitely things we can do to help,\\u201d said Dr. Akers.\\n\\nPollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days.\\n\\n*Have a news tip or see an error that needs correction? **Let us know.** Please include the article\\u2019s headline in your message.*\\n\\n*To stay up to date on all the latest news as it develops, follow WALB on **Facebook** and **X\\u2026\\n\\n[Truncated preview: showing 417 words out of ~442. Full content available via `btf_extract_evidence`.]\", \"word_count\": 442, \"snippet_word_count\": 417, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:17.751243\"}",
+      "tool_call_id": "call_umfinJz5lzyPFyHxaLC0loUI"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+        "snippet": "---\ntitle: Pollen reaches high to extreme levels across southern US as season reaches full throttle\nauthor: Andrew Wulfeck\nurl: https://www.foxweather.com/earth-space/south-weeds-trees-greens\nhostname: foxweather.com\ndescription: Pollen season is affecting of the southern tied of the country, with tree pollen reaching high and even extreme levels, particularly in cities like Atlanta and Houston. Dry, windy weather is contributing to the spread of pollen, aggravating allergy symptoms, while a warm winter and spring have intensified the season, leading to longer periods of high pollen concentrations.\nsitename: Fox Weather\ndate: 2025-03-21\ncategories: ['Air Quality', 'Earth & Space', 'Nature', 'Outdoors', 'Southeast', 'Health', 'Georgia', 'Texas', 'Alabama', 'Mississippi', 'Florida', 'Spring']\n---\n# Pollen reaches high to extreme levels across southern US as season reaches full throttle\n\n## NOAA’s spring weather outlook predicts a dry, warm season, which will prevent rain from washing away the pollen, further aggravating allergies. The Pacific Northwest and Great Lakes may see cooler, wetter conditions, but increased moisture could lead to mold growth, adding to the allergen burden.\n\n**ATLANTA –** Signs of itchy throats and watery eyes are becoming all too familiar as pollen season sweeps across a large portion of the Lower 48.\n\nAccording to experts, tree pollen, which typically kicks off the season, has reached high and even extreme levels, especially in areas already several weeks into the annual event.\n\nCommunities around [Atlanta](https://www.foxweather.com/local-weather/georgia/atlanta) are reporting some of their highest pollen counts of the year, while [Houston](https://www.foxweather.com/local-weather/texas/houston) recently recorded its highest-ever pollen level for the month of March.\n\n[According to data from the Houston Health Department](https://www.houstonhealth.org/services/pollen-mold/houston-pollen-mold-count-thursday-march-20-2025), these extreme levels were triggered by a combination of trees, including Pine, Mulberry, Ash, Cedar, Hackberry, Sycamore and Oak.\n\nThe FOX Forecast Center points to dry, windy weather as a significant factor in how much pollen is circulating in the air, exacerbating symptoms for allergy sufferers.\n\nAllergy specialists explain that the pollen cycle typically begins with trees, followed by grasses and finally weeds into the [summer](https://www.foxweather.com/category/summer) months.\n\nThe recent warm winter and spri…\n\n[Truncated preview: showing 327 words out of ~760. Full content available via `btf_extract_evidence`.]",
+        "word_count": 760,
+        "snippet_word_count": 327,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-22T14:22:58.013513",
+        "date_cutoff_end": "2025-03-23T14:22:58.013513",
+        "cached_at": "2025-10-23T21:10:18.251916"
+      },
+      "raw": "{\"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"snippet\": \"---\\ntitle: Pollen reaches high to extreme levels across southern US as season reaches full throttle\\nauthor: Andrew Wulfeck\\nurl: https://www.foxweather.com/earth-space/south-weeds-trees-greens\\nhostname: foxweather.com\\ndescription: Pollen season is affecting of the southern tied of the country, with tree pollen reaching high and even extreme levels, particularly in cities like Atlanta and Houston. Dry, windy weather is contributing to the spread of pollen, aggravating allergy symptoms, while a warm winter and spring have intensified the season, leading to longer periods of high pollen concentrations.\\nsitename: Fox Weather\\ndate: 2025-03-21\\ncategories: ['Air Quality', 'Earth & Space', 'Nature', 'Outdoors', 'Southeast', 'Health', 'Georgia', 'Texas', 'Alabama', 'Mississippi', 'Florida', 'Spring']\\n---\\n# Pollen reaches high to extreme levels across southern US as season reaches full throttle\\n\\n## NOAA\\u2019s spring weather outlook predicts a dry, warm season, which will prevent rain from washing away the pollen, further aggravating allergies. The Pacific Northwest and Great Lakes may see cooler, wetter conditions, but increased moisture could lead to mold growth, adding to the allergen burden.\\n\\n**ATLANTA \\u2013** Signs of itchy throats and watery eyes are becoming all too familiar as pollen season sweeps across a large portion of the Lower 48.\\n\\nAccording to experts, tree pollen, which typically kicks off the season, has reached high and even extreme levels, especially in areas already several weeks into the annual event.\\n\\nCommunities around [Atlanta](https://www.foxweather.com/local-weather/georgia/atlanta) are reporting some of their highest pollen counts of the year, while [Houston](https://www.foxweather.com/local-weather/texas/houston) recently recorded its highest-ever pollen level for the month of March.\\n\\n[According to data from the Houston Health Department](https://www.houstonhealth.org/services/pollen-mold/houston-pollen-mold-count-thursday-march-20-2025), these extreme levels were triggered by a combination of trees, including Pine, Mulberry, Ash, Cedar, Hackberry, Sycamore and Oak.\\n\\nThe FOX Forecast Center points to dry, windy weather as a significant factor in how much pollen is circulating in the air, exacerbating symptoms for allergy sufferers.\\n\\nAllergy specialists explain that the pollen cycle typically begins with trees, followed by grasses and finally weeds into the [summer](https://www.foxweather.com/category/summer) months.\\n\\nThe recent warm winter and spri\\u2026\\n\\n[Truncated preview: showing 327 words out of ~760. Full content available via `btf_extract_evidence`.]\", \"word_count\": 760, \"snippet_word_count\": 327, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:18.251916\"}",
+      "tool_call_id": "call_htcCfC65c7651K2k3D2yganM"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+        "snippet": "---\ntitle: Atlanta Pollen Count Hits High This Spring\nauthor: HERE Atlanta\nurl: https://www.hereatlanta.com/atlanta-pollen-count/\nhostname: hereatlanta.com\ndescription: Atlanta's pollen count has reached alarming levels this spring, affecting allergy sufferers across the city. Learn management strategies for relief.\nsitename: HERE Atlanta\ndate: 2025-03-22\ncategories: ['Breaking News']\ntags: ['atlanta ga', 'weather atlanta ga']\n---\n*News Summary*\n\nAtlanta is currently facing its peak pollen season, with counts recently reaching 1,551, causing discomfort for many allergy sufferers. This year’s pollen levels are significantly higher compared to last year, prompting experts to recommend immediate allergy medication for relief. The article highlights strategies for managing allergy symptoms, the best times for outdoor activities, and the growing impact of climate change on allergy seasons. With over 100 million Americans affected, it’s crucial for residents to take proactive measures during this challenging season.\n\n### Atlanta Experiences Peak Pollen Season as Allergy Sufferers Brace for High Counts\n\nAs spring settles in, **Atlanta** is no stranger to the seasonal unrest that accompanies peak pollen levels. The city’s pollen count has skyrocketed, recently hitting an alarming **1,551**, marking the first extreme reading of the 2023 pollening season. People across the region are grappling with the discomfort this brings.\n\n#### Comparing This Year to Last\n\nThe current pollen situation starkly contrasts with the previous year. Many residents, including visitors in beloved green spaces like Piedmont Park, have noticed the impact of a much more intense pollen season. In recent weeks, counts have fluctuated, moving from the **orange range** of high levels to the more severe red, making outdoor activities a struggle for allergy sufferers.\n\n#### Expert Guidance on Managing Allergies\n\nWith pollen levels hitting new heights, experts are urging individuals with allergies to take action. It is recommended that those who haven’t started their allergy medications should do so immediately. Initial relief can often be found with over-the-counter options, but professional testing is also vital for many individuals.\n\nConsulting board-certified allergists can pinpoint specific allergens that trigger symptoms, unlocking paths to more effective management strategies. For long-term relief, options such as **allergy immunotherapy** and **allergy shots** may provide solutions that go…\n\n[Truncated preview: showing 349 words out of ~659. Full content available via `btf_extract_evidence`.]",
+        "word_count": 659,
+        "snippet_word_count": 349,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-22T14:22:58.013513",
+        "date_cutoff_end": "2025-03-23T14:22:58.013513",
+        "cached_at": "2025-10-23T21:10:18.693304"
+      },
+      "raw": "{\"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"snippet\": \"---\\ntitle: Atlanta Pollen Count Hits High This Spring\\nauthor: HERE Atlanta\\nurl: https://www.hereatlanta.com/atlanta-pollen-count/\\nhostname: hereatlanta.com\\ndescription: Atlanta's pollen count has reached alarming levels this spring, affecting allergy sufferers across the city. Learn management strategies for relief.\\nsitename: HERE Atlanta\\ndate: 2025-03-22\\ncategories: ['Breaking News']\\ntags: ['atlanta ga', 'weather atlanta ga']\\n---\\n*News Summary*\\n\\nAtlanta is currently facing its peak pollen season, with counts recently reaching 1,551, causing discomfort for many allergy sufferers. This year\\u2019s pollen levels are significantly higher compared to last year, prompting experts to recommend immediate allergy medication for relief. The article highlights strategies for managing allergy symptoms, the best times for outdoor activities, and the growing impact of climate change on allergy seasons. With over 100 million Americans affected, it\\u2019s crucial for residents to take proactive measures during this challenging season.\\n\\n### Atlanta Experiences Peak Pollen Season as Allergy Sufferers Brace for High Counts\\n\\nAs spring settles in, **Atlanta** is no stranger to the seasonal unrest that accompanies peak pollen levels. The city\\u2019s pollen count has skyrocketed, recently hitting an alarming **1,551**, marking the first extreme reading of the 2023 pollening season. People across the region are grappling with the discomfort this brings.\\n\\n#### Comparing This Year to Last\\n\\nThe current pollen situation starkly contrasts with the previous year. Many residents, including visitors in beloved green spaces like Piedmont Park, have noticed the impact of a much more intense pollen season. In recent weeks, counts have fluctuated, moving from the **orange range** of high levels to the more severe red, making outdoor activities a struggle for allergy sufferers.\\n\\n#### Expert Guidance on Managing Allergies\\n\\nWith pollen levels hitting new heights, experts are urging individuals with allergies to take action. It is recommended that those who haven\\u2019t started their allergy medications should do so immediately. Initial relief can often be found with over-the-counter options, but professional testing is also vital for many individuals.\\n\\nConsulting board-certified allergists can pinpoint specific allergens that trigger symptoms, unlocking paths to more effective management strategies. For long-term relief, options such as **allergy immunotherapy** and **allergy shots** may provide solutions that go\\u2026\\n\\n[Truncated preview: showing 349 words out of ~659. Full content available via `btf_extract_evidence`.]\", \"word_count\": 659, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:18.693304\"}",
+      "tool_call_id": "call_2qaL0NtffTavNO1oOyPYPoY5"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+        "url": "https://www.atlantaallergy.com/pollen_counts",
+        "facts": [
+          {
+            "title": "https://www.atlantaallergy.com/pollen_counts",
+            "url": "https://www.atlantaallergy.com/pollen_counts",
+            "content": "---\ntitle: Today’s Pollen Count\ndescription: Atlanta’s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\ndate: 2025-03-22\n---\n# Today’s Pollen Count\n\nAtlanta Allergy & Asthma’s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\n\n#### Previous Months\n\nDo you think you might be struggling with allergies?\n\n## Allergy Diagnosis\n\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\n\n## Allergy Testing\n\nIdentifying the cause of your symptoms through allergy testing allows your\nallergist to effectively treat you. An\n[allergy skin test](/patient-information/allergy-skin-testing) is\nthe gold standard for identifying allergic triggers. This simple in-office\nprocedure introduces a very small amount of a specific allergen or allergens\nselected by the allergist based on your medical history (such as pollens,\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\nthrough an indention or “prick” on the surface of the skin. Following the\nskin prick test, some patients may also receive intradermal skin testing.\nThe results are available within minutes allowing your allergist to develop\na treatment plan during your visit. When indicated, our allergists may also\nemploy blood tests or oral challenges.\n\n## Allergy Treatments\n\nOnce the source of your symptoms have been accurately identified, the\nspecialists at Atlanta Allergy & Asthma will develop a customized\ntreatment plan which may include\n[environmental control\nmeasures](/files/allergy-avoidance-brochure.pdf),\nover-the-counter and prescription medications, or\n[allergy immunotherapy](/what-we-treat/immunotherapy).\n\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma exacerbations. Taking control of your allergies can significantly improve your quality of life!\n\n[Schedule with One of Our Allergy Experts Today](/about-us/appointments/index)",
+            "fact": "---\ntitle: Today’s Pollen Count\ndescription: Atlanta’s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\ndate: 2025-03-22\n---\n# Today’s Pollen Count\n\nAtlanta Allergy & Asthma’s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\n\n#### Previous Months\n\nDo you think you might be struggling with allergies?\n\n## Allergy Diagnosis\n\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\n\n## Allergy Testing\n\nIdentifying the cause of your symptoms through allergy testing allows your\nallergist to effectively treat you. An\n[allergy skin test](/patient-information/allergy-skin-testing) is\nthe gold standard for identifying allergic triggers. This simple in-office\nprocedure introduces a very small amount of a specific allergen or allergens\nselected by the allergist based on your medical history (such as pollens,\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\nthrough an indention or “prick” on the surface of the skin. Following the\nskin prick test, some patients may also receive intradermal skin testing.\nThe results are available within minutes allowing your allergist to develop\na treatment plan during your visit. When indicated, our allergists may also\nemploy blood tests or oral challenges.\n\n## Allergy Treatments\n\nOnce the source of your symptoms have been accurately identified, the\nspecialists at Atlanta Allergy & Asthma will develop a customized\ntreatment plan which may include\n[environmental control\nmeasures](/files/allergy-avoidance-brochure.pdf),\nover-the-counter and prescription medications, or\n[allergy immunotherapy](/what-we-treat/immunotherapy).\n\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma exacerbations. Taking control of your allergies can significantly improve your quality of life!\n\n[Schedule with One of Our Allergy Experts Today](/about-us/appointments/index)",
+            "type": "search_result"
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.atlantaallergy.com/pollen_counts\", \"facts\": [{\"title\": \"https://www.atlantaallergy.com/pollen_counts\", \"url\": \"https://www.atlantaallergy.com/pollen_counts\", \"content\": \"---\\ntitle: Today\\u2019s Pollen Count\\ndescription: Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\\ndate: 2025-03-22\\n---\\n# Today\\u2019s Pollen Count\\n\\nAtlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\\n\\n#### Previous Months\\n\\nDo you think you might be struggling with allergies?\\n\\n## Allergy Diagnosis\\n\\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\\n\\n## Allergy Testing\\n\\nIdentifying the cause of your symptoms through allergy testing allows your\\nallergist to effectively treat you. An\\n[allergy skin test](/patient-information/allergy-skin-testing) is\\nthe gold standard for identifying allergic triggers. This simple in-office\\nprocedure introduces a very small amount of a specific allergen or allergens\\nselected by the allergist based on your medical history (such as pollens,\\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\\nthrough an indention or \\u201cprick\\u201d on the surface of the skin. Following the\\nskin prick test, some patients may also receive intradermal skin testing.\\nThe results are available within minutes allowing your allergist to develop\\na treatment plan during your visit. When indicated, our allergists may also\\nemploy blood tests or oral challenges.\\n\\n## Allergy Treatments\\n\\nOnce the source of your symptoms have been accurately identified, the\\nspecialists at Atlanta Allergy & Asthma will develop a customized\\ntreatment plan which may include\\n[environmental control\\nmeasures](/files/allergy-avoidance-brochure.pdf),\\nover-the-counter and prescription medications, or\\n[allergy immunotherapy](/what-we-treat/immunotherapy).\\n\\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma exacerbations. Taking control of your allergies can significantly improve your quality of life!\\n\\n[Schedule with One of Our Allergy Experts Today](/about-us/appointments/index)\", \"fact\": \"---\\ntitle: Today\\u2019s Pollen Count\\ndescription: Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\\ndate: 2025-03-22\\n---\\n# Today\\u2019s Pollen Count\\n\\nAtlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\\n\\n#### Previous Months\\n\\nDo you think you might be struggling with allergies?\\n\\n## Allergy Diagnosis\\n\\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\\n\\n## Allergy Testing\\n\\nIdentifying the cause of your symptoms through allergy testing allows your\\nallergist to effectively treat you. An\\n[allergy skin test](/patient-information/allergy-skin-testing) is\\nthe gold standard for identifying allergic triggers. This simple in-office\\nprocedure introduces a very small amount of a specific allergen or allergens\\nselected by the allergist based on your medical history (such as pollens,\\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\\nthrough an indention or \\u201cprick\\u201d on the surface of the skin. Following the\\nskin prick test, some patients may also receive intradermal skin testing.\\nThe results are available within minutes allowing your allergist to develop\\na treatment plan during your visit. When indicated, our allergists may also\\nemploy blood tests or oral challenges.\\n\\n## Allergy Treatments\\n\\nOnce the source of your symptoms have been accurately identified, the\\nspecialists at Atlanta Allergy & Asthma will develop a customized\\ntreatment plan which may include\\n[environmental control\\nmeasures](/files/allergy-avoidance-brochure.pdf),\\nover-the-counter and prescription medications, or\\n[allergy immunotherapy](/what-we-treat/immunotherapy).\\n\\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma exacerbations. Taking control of your allergies can significantly improve your quality of life!\\n\\n[Schedule with One of Our Allergy Experts Today](/about-us/appointments/index)\", \"type\": \"search_result\"}]}",
+      "tool_call_id": "call_GLNZylmQoIwbXjzNfKz6FXFG"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+        "url": "https://www.caageorgia.com/pollen-count",
+        "facts": [
+          {
+            "title": "https://www.caageorgia.com/pollen-count",
+            "url": "https://www.caageorgia.com/pollen-count",
+            "fact": "Pollen counts in Atlanta are highest between mid-March and mid-April, which overlaps with the forecast period ending March 30, 2025."
+          },
+          {
+            "title": "https://www.caageorgia.com/pollen-count",
+            "url": "https://www.caageorgia.com/pollen-count",
+            "fact": "Tree pollen, which is prevalent from late February to May, is a major contributor to pollen counts during the forecast period."
+          },
+          {
+            "title": "https://www.caageorgia.com/pollen-count",
+            "url": "https://www.caageorgia.com/pollen-count",
+            "fact": "Dry, windy days can cause pollen counts to spike, while rain can reduce them, except during thunderstorms which can increase counts."
+          },
+          {
+            "title": "https://www.caageorgia.com/pollen-count",
+            "url": "https://www.caageorgia.com/pollen-count",
+            "fact": "The trees that contribute most to pollen allergies in Atlanta include oak, pine, hickory, pecan, elm, alder, and birch."
+          },
+          {
+            "title": "https://www.caageorgia.com/pollen-count",
+            "url": "https://www.caageorgia.com/pollen-count",
+            "fact": "Pollen counts are measured on a 12-point scale, with low levels under 2.4 and high levels above 9.7, which helps in understanding the potential range of the allergy index."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"facts\": [{\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Pollen counts in Atlanta are highest between mid-March and mid-April, which overlaps with the forecast period ending March 30, 2025.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Tree pollen, which is prevalent from late February to May, is a major contributor to pollen counts during the forecast period.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Dry, windy days can cause pollen counts to spike, while rain can reduce them, except during thunderstorms which can increase counts.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"The trees that contribute most to pollen allergies in Atlanta include oak, pine, hickory, pecan, elm, alder, and birch.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Pollen counts are measured on a 12-point scale, with low levels under 2.4 and high levels above 9.7, which helps in understanding the potential range of the allergy index.\"}]}",
+      "tool_call_id": "call_yJdAVk12TWJuaXtsefsyxLiM"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+        "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+        "facts": [
+          {
+            "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "fact": "Experts say this is the worst pollen season in at least the last 15 years."
+          },
+          {
+            "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "fact": "The pollen count in South Georgia is currently in a high range of 10 plus."
+          },
+          {
+            "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "fact": "All trees and plants are pollinating at the same time, causing a high pollen count."
+          },
+          {
+            "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "fact": "High levels of pollen are expected to continue for the next couple of days."
+          },
+          {
+            "title": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "url": "https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/",
+            "fact": "Pollen season is expected to subside by the end of March."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"facts\": [{\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"Experts say this is the worst pollen season in at least the last 15 years.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"The pollen count in South Georgia is currently in a high range of 10 plus.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"All trees and plants are pollinating at the same time, causing a high pollen count.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"High levels of pollen are expected to continue for the next couple of days.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"Pollen season is expected to subside by the end of March.\"}]}",
+      "tool_call_id": "call_brsqCyKROqqpcL5DIZ4V8y7E"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+        "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+        "facts": [
+          {
+            "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "fact": "Tree pollen has reached high and even extreme levels in Atlanta, contributing to significant allergy symptoms."
+          },
+          {
+            "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "fact": "Dry, windy weather is a significant factor in the high pollen levels, as it prevents pollen from being washed away."
+          },
+          {
+            "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "fact": "A warm winter and spring have intensified the pollen season, leading to higher concentrations of pollen."
+          },
+          {
+            "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "fact": "NOAA's spring weather outlook predicts a dry, warm season, which will not reduce current pollen activity."
+          },
+          {
+            "title": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "url": "https://www.foxweather.com/earth-space/south-weeds-trees-greens",
+            "fact": "Communities around Atlanta are reporting some of their highest pollen counts of the year."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"facts\": [{\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"Tree pollen has reached high and even extreme levels in Atlanta, contributing to significant allergy symptoms.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"Dry, windy weather is a significant factor in the high pollen levels, as it prevents pollen from being washed away.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"A warm winter and spring have intensified the pollen season, leading to higher concentrations of pollen.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"NOAA's spring weather outlook predicts a dry, warm season, which will not reduce current pollen activity.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"Communities around Atlanta are reporting some of their highest pollen counts of the year.\"}]}",
+      "tool_call_id": "call_ZNVr9Wg07pB3zBZVIMPMYwuO"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "071bdfe3-cfca-527a-907c-65de831dc57c",
+        "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+        "facts": [
+          {
+            "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "fact": "Atlanta's pollen count recently reached 1,551, indicating a high level of pollen in the area."
+          },
+          {
+            "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "fact": "This year's pollen levels are significantly higher compared to last year, suggesting an upward trend in pollen counts."
+          },
+          {
+            "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "fact": "Experts recommend immediate allergy medication due to the high pollen levels, indicating that the current conditions are severe for allergy sufferers."
+          },
+          {
+            "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "fact": "The tree pollen season in Atlanta typically stretches from late February to June, with peak levels expected around this time."
+          },
+          {
+            "title": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "url": "https://www.hereatlanta.com/atlanta-pollen-count/",
+            "fact": "Climate change is extending allergy seasons and increasing pollen production, which could contribute to higher pollen counts in the future."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"facts\": [{\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"Atlanta's pollen count recently reached 1,551, indicating a high level of pollen in the area.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"This year's pollen levels are significantly higher compared to last year, suggesting an upward trend in pollen counts.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"Experts recommend immediate allergy medication due to the high pollen levels, indicating that the current conditions are severe for allergy sufferers.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"The tree pollen season in Atlanta typically stretches from late February to June, with peak levels expected around this time.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"Climate change is extending allergy seasons and increasing pollen production, which could contribute to higher pollen counts in the future.\"}]}",
+      "tool_call_id": "call_yJzM3BN2AKtkD0ngs99MwajL"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nPollen.com [scores](https://www.pollen.com/help/faq) pollen counts on a scale of 0 to 12:&#x20;\n\n> Our pollen levels are on a scale of 12. Low is 0-2.4, Low-Medium is 2.5-4.8, Medium is 4.9-7.2, High-Medium is 7.3-9.6, and High is 9.7-12.0. These levels take into account how much pollen the allergy sufferer is likely to be exposed to for that given period.\n\nThe site is owned by medical information provider IQVIA and uses the Rotorod sampler at its stations to measure airborne concentrations of allergens in cities such as Atlanta, combining them into proprietary models to produce its Allergy Index for a given area.&#x20;\n\nPollen is a trigger for [hay fever](https://www.mayoclinic.org/diseases-conditions/hay-fever/symptoms-causes/syc-20373039), which affects a quarter of US adults [according to CDC](https://www.cdc.gov/nchs/products/databriefs/db460.htm) and has an estimated annual impact in the US in the billions of dollars ([pdf study](https://www.jacionline.org/article/S0091-6749\\(97\\)80042-5/pdf)). Atlanta in 2024 [had](https://www.axios.com/local/atlanta/2024/04/24/atlanta-allergies-pollen-count) its [third highest](https://www.fox5atlanta.com/weather/atlantas-pollen-count-on-monday-breaks-into-top-10-but-not-an-all-time-record) pollen count since record-keeping began in 1991, with an 8,740 pollen count recorded on April 2, 2024, far above the threshold of 90 that can trigger allergies. Comedian Lavar Walker [broke down](https://www.instagram.com/lavarwalker/reel/C7cvnf5OpLG/) what a typical hay fever sufferer experienced in Atlanta at the time.&#x20;\n\nIn the area, pollen season [typically begins](https://www.allermi.com/blogs/allergy-101/allergy-season-in-georgia?pb=0) in late February, with tree pollen contributing the most at that time of year, usually peaking in late March or early April. Recent historical information can be found at [Atlanta Allergy & Asthma](https://www.atlantaallergy.com/pollen_counts/index/2024/03). According to Pollen.com's [Seasonal Allergy Report](https://www.pollen.com/research/30301) on Atlanta, in the latter half of March the main allergens are tree allergens, with major offenders in the area being the [oak tree](https://www.pollen.com/research/genus/Quercus) and the [Chinese privet](https://www.pollen.com/research/genus/Ligustrum).&#x20;\n\nA big factor from a predictive standpoint is weather. Dry windy days [can cause](https://www.allermi.com/blogs/allergy-101/allergy-season-in-georgia?pb=0) pollen to spike. Rain can reduce counts, with the exception of thunderstorms which can case them to rise. Additionally, warmer temperatures than average can cause trees to pollinate earlier.&#x20;\n\nSee Also\n\n* 11Alive: [Here's a look at Atlanta's record pollen count and how it's determined](https://www.11alive.com/article/weather/pollen-count-atlanta/85-d05062a0-ec0d-437c-a480-cbcc971c23c3)\n* [Long-term pollen trends and associations between pollen phenology and seasonal climate in Atlanta, Georgia (1992-2018)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9936553/)\nResolution criteria: This question resolves as YES if the average allergy index for Atlanta, Georgia for the 14-day period ending March 30, 2025 is less than 4.0, and NO otherwise.\n\nThe index will be calculated from the daily values reported on Pollen.com's forecast page for Atlanta.\nFine print: Specifically, the number for each of the 14 days from March 17, 2025 to March 30, 2025 (inclusive) displayed by Pollen.com will be averaged when accessed by Metaculus on March 31, 2025. The relevant data can be accessed by clicking the \"History\" option. If pollen.com data are not available for the period in question before 5 PM Eastern Time on March 31, 2025, this question will be **annulled**.\n\nThe dates and times for this question will be the dates and times reported by Pollen.com. No adjustments based on timezones will be made. Later updates or revisions to the data after the question resolves are immaterial.\npresent_date: 2025-03-22T14:22:58.013513\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_44NWR3VfMvunG9X74qosOfBn",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question\":\"Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?\",\"background\":\"Pollen.com scores pollen counts on a scale of 0 to 12. Low is 0-2.4, Low-Medium is 2.5-4.8, Medium is 4.9-7.2, High-Medium is 7.3-9.6, and High is 9.7-12.0. These levels take into account how much pollen the allergy sufferer is likely to be exposed to for that given period. The site is owned by medical information provider IQVIA and uses the Rotorod sampler at its stations to measure airborne concentrations of allergens in cities such as Atlanta, combining them into proprietary models to produce its Allergy Index for a given area. Pollen is a trigger for hay fever, which affects a quarter of US adults according to CDC and has an estimated annual impact in the US in the billions of dollars. Atlanta in 2024 had its third highest pollen count since record-keeping began in 1991, with an 8,740 pollen count recorded on April 2, 2024, far above the threshold of 90 that can trigger allergies. In the area, pollen season typically begins in late February, with tree pollen contributing the most at that time of year, usually peaking in late March or early April. Recent historical information can be found at Atlanta Allergy & Asthma. According to Pollen.com's Seasonal Allergy Report on Atlanta, in the latter half of March the main allergens are tree allergens, with major offenders in the area being the oak tree and the Chinese privet. A big factor from a predictive standpoint is weather. Dry windy days can cause pollen to spike. Rain can reduce counts, with the exception of thunderstorms which can case them to rise. Additionally, warmer temperatures than average can cause trees to pollinate earlier.\",\"resolution_criteria\":\"This question resolves as YES if the average allergy index for Atlanta, Georgia for the 14-day period ending March 30, 2025 is less than 4.0, and NO otherwise. The index will be calculated from the daily values reported on Pollen.com's forecast page for Atlanta.\",\"fine_print\":\"Specifically, the number for each of the 14 days from March 17, 2025 to March 30, 2025 (inclusive) displayed by Pollen.com will be averaged when accessed by Metaculus on March 31, 2025. The relevant data can be accessed by clicking the \\\"History\\\" option. If pollen.com data are not available for the period in question before 5 PM Eastern Time on March 31, 2025, this question will be annulled.\",\"present_date\":\"2025-03-22T14:22:58.013513\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"queries\": [\"current pollen count Atlanta March 2025\", \"Atlanta weather forecast March 2025\", \"Atlanta pollen forecast March 2025 expert analysis\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_44NWR3VfMvunG9X74qosOfBn"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_B4qjD5sKeG3n9TSRrKEsjzlX",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"current pollen count Atlanta March 2025\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_NmPr40udtae5IUhNIYYn7Q8D",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Atlanta weather forecast March 2025\", \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_b6iWppoF2z9AJm1ZvF1onhf9",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Atlanta pollen forecast March 2025 expert analysis\", \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"current pollen count Atlanta March 2025\", \"results\": [{\"title\": \"Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma\", \"link\": \"https://www.atlantaallergy.com/pollen_counts\", \"position\": 1, \"snippet\": \"Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\", \"date\": null}, {\"title\": \"Pollen Count | Board Certified Allergists in Atlanta\", \"link\": \"https://www.caageorgia.com/pollen-count\", \"position\": 3, \"snippet\": \"In Atlanta, pollen counts are highest between mid-March and mid-April. Tree pollen is emitted from late February through May, making this a peak time for allergies in the city.\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_B4qjD5sKeG3n9TSRrKEsjzlX"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Atlanta weather forecast March 2025\", \"results\": [{\"title\": \"Weather in Atlanta in March 2025 (Georgia)  - Detailed Weather Forecast for a Month\", \"link\": \"https://world-weather.info/forecast/usa/atlanta_1/march-2025/\", \"position\": 1, \"snippet\": \"Atlanta Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. Here are the daily temperatures: March 1st +70\\u00b0/+54\\u00b0, March 2nd +52\\u00b0/+45\\u00b0, March 3rd +59\\u00b0/+41\\u00b0...\", \"date\": null}, {\"title\": \"Atlanta, GA Monthly Weather | AccuWeather\", \"link\": \"https://www.accuweather.com/en/us/atlanta/30303/march-weather/348181\", \"position\": 2, \"snippet\": \"Atlanta, GA monthly weather forecast for March 2025 shows highs in the 70s and 80s with lows in the 40s and 50s...\", \"date\": null}, {\"title\": \"Weather Atlanta in March 2025: Temperature & Climate\", \"link\": \"https://en.climate-data.org/north-america/united-states-of-america/georgia/atlanta-1607/t/march-3/\", \"position\": 5, \"snippet\": \"Atlanta weather in March features average temperatures around 53.2\\u00b0F (11.8\\u00b0C), with highs reaching 63.9\\u00b0F (17.7\\u00b0C) and lows around 44.4\\u00b0F (6.9\\u00b0C). Expect about 7.5 hours of sunshine daily.\", \"date\": null}, {\"title\": \"Atlanta weather in March 2025 | Georgia, USA: How hot?\", \"link\": \"https://www.weather2travel.com/georgia-usa/atlanta/march/\", \"position\": 1, \"snippet\": \"Expect daytime maximum temperatures of 18\\u00b0C in Atlanta, Georgia (USA) in March based on long-term weather averages. There are 7 hours of sunshine per day on average with 11 days with some rainfall...\", \"date\": null}, {\"title\": \"60-Day Extended Weather Forecast for Atlanta, GA | Almanac.com\", \"link\": \"https://www.almanac.com/weather/longrange/ga/atlanta\", \"position\": 3, \"snippet\": \"March 2025 in Atlanta: Rain, heavy at times; warm, then chilly Mar 1-6. Sunny, cool Mar 7-9. Rainy periods, mild Mar 10-23. Isolated showers, warm Mar 24-31. Temperature 57\\u00b0 (1\\u00b0 above avg.) precipitation 7.5\\\" (3\\\" above avg.)...\", \"date\": null}, {\"title\": \"Weather in Country in March 2025 (Georgia)  - Detailed Weather Forecast for a Month\", \"link\": \"https://world-weather.info/forecast/usa/country_lake/march-2025/\", \"position\": 5, \"snippet\": \"Country Weather Forecast for March 2025 is based on long term prognosis and previous years' statistical data. March 1+68\\u00b0 +48\\u00b0...\", \"date\": null}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_NmPr40udtae5IUhNIYYn7Q8D"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Atlanta pollen forecast March 2025 expert analysis\", \"results\": [{\"title\": \"Pollen Count on 2025-03-22 | Atlanta Allergy & Asthma\", \"link\": \"https://www.atlantaallergy.com/pollen_counts\", \"position\": 3, \"snippet\": \"Atlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB.\", \"date\": null}, {\"title\": \"Experts weigh in as pollen season triggers uptick in allergy cases\", \"link\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"position\": 2, \"snippet\": \"Pollen is everywhere, and experts say this is the worst pollen season yet. Pollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days.\", \"date\": \"2025-03-18T20:06:41.030000Z\"}, {\"title\": \"Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather\", \"link\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"position\": 4, \"snippet\": \"Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations...\", \"date\": null}, {\"title\": \"How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies\", \"link\": \"https://aafa.org/asthma-allergy-research/allergy-capitals/\", \"position\": 5, \"snippet\": \"Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January.\", \"date\": \"2025-03-20T20:23:18Z\"}, {\"title\": \"Longer Growing Season, Longer Allergy Season in 172 U.S. Cities | Climate Central\", \"link\": \"https://www.climatecentral.org/climate-matters/2025-allergy-season\", \"position\": 1, \"snippet\": \"Warming trends are leading to longer allergy seasons, with the first spring leaves unfolding early in parts of the south, including Atlanta, Georgia.\", \"date\": null}, {\"title\": \"How the Top 100 U.S. Cities Rank for Seasonal Pollen Allergies\", \"link\": \"https://aafa.org/asthma-allergy-research/allergy-capitals/\", \"position\": 2, \"snippet\": \"Tree pollen is the first pollen to appear each year in the U.S. Trees produce the most pollen from February through April. And in some regions, such as the South, trees may produce pollen as early as December or January.\", \"date\": \"2025-03-20T20:23:18Z\"}, {\"title\": \"Pollen reaches high to extreme levels across southern US as season reaches full throttle  | Fox Weather\", \"link\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"position\": 3, \"snippet\": \"Atlanta is experiencing high to extreme pollen levels, especially from trees, due to dry, windy weather and a warm winter/spring intensifying the season. Experts note this leads to longer periods of high pollen concentrations...\", \"date\": null}, {\"title\": \"Atlanta Pollen Count Hits High This Spring\", \"link\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"position\": 5, \"snippet\": \"Atlanta's pollen count has skyrocketed, recently hitting an alarming 1,551. Experts are urging individuals with allergies to take action and start their allergy medications immediately for relief.\", \"date\": \"2025-03-22T03:02:34Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_b6iWppoF2z9AJm1ZvF1onhf9"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_yZO5Dfds1Rb4zyjYfsGPElQb",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.atlantaallergy.com/pollen_counts\"}"
+          }
+        },
+        {
+          "id": "call_lfRNBCSrtfTw7eIz974nOwf4",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.caageorgia.com/pollen-count\"}"
+          }
+        },
+        {
+          "id": "call_umfinJz5lzyPFyHxaLC0loUI",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\"}"
+          }
+        },
+        {
+          "id": "call_htcCfC65c7651K2k3D2yganM",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\"}"
+          }
+        },
+        {
+          "id": "call_2qaL0NtffTavNO1oOyPYPoY5",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.atlantaallergy.com/pollen_counts\", \"snippet\": \"---\\ntitle: Today\\u2019s Pollen Count\\ndescription: Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\\ndate: 2025-03-22\\n---\\n# Today\\u2019s Pollen Count\\n\\nAtlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\\n\\n#### Previous Months\\n\\nDo you think you might be struggling with allergies?\\n\\n## Allergy Diagnosis\\n\\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\\n\\n## Allergy Testing\\n\\nIdentifying the cause of your symptoms through allergy testing allows your\\nallergist to effectively treat you. An\\n[allergy skin test](/patient-information/allergy-skin-testing) is\\nthe gold standard for identifying allergic triggers. This simple in-office\\nprocedure introduces a very small amount of a specific allergen or allergens\\nselected by the allergist based on your medical history (such as pollens,\\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\\nthrough an indention or \\u201cprick\\u201d on the surface of the skin. Following the\\nskin prick test, some patients may also receive intradermal skin testing.\\nThe results are available within minutes allowing your allergist to develop\\na treatment plan during your visit. When indicated, our allergists may also\\nemploy blood tests or oral challenges.\\n\\n## Allergy Treatments\\n\\nOnce the source of your symptoms have been accurately identified, the\\nspecialists at Atlanta Allergy & Asthma will develop a customized\\ntreatment plan which may include\\n[environmental control\\nmeasures](/files/allergy-avoidance-brochure.pdf),\\nover-the-counter and prescription medications, or\\n[allergy immunotherapy](/what-we-treat/immunotherapy).\\n\\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma\\u2026\\n\\n[Truncated preview: showing 365 words out of ~386. Full content available via `btf_extract_evidence`.]\", \"word_count\": 386, \"snippet_word_count\": 365, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:16.739427\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_yZO5Dfds1Rb4zyjYfsGPElQb"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.caageorgia.com/pollen-count\", \"snippet\": \"---\\ntitle: Pollen Count | Board Certified Allergists in Atlanta\\nurl: https://www.caageorgia.com/pollen-count\\nhostname: caageorgia.com\\ndescription: Seeking treatment for nasal polyps? Turn to the Center for Allergy and Asthma of Georgia to help you find relief. Call today to book an appointment.\\nsitename: caageorgia.com\\ndate: 2025-01-01\\n---\\n# Pollen Count in the Atlanta Area\\n\\n## Advanced & Board-Certified Allergy Specialists\\n\\nDo you feel like your pollen allergy has gotten worse in recent years? It\\u2019s not just your imagination. In fact, recent peer-reviewed research has shown that[pollen season has extended worldwide while the potency of the allergen has also increased](https://www.sciencedirect.com/science/article/pii/S2542519619300154?via%3Dihub&for-guid=a3a12ea2-bd65-e711-b65f-90b11c343abd&utm_source=usatoday-Climate%20Point&utm_medium=email&utm_campaign=narrative&utm_term=article_body).\\n\\nWhile there\\u2019s clearly nothing you can do to prevent contact with microscopic specks of pollen if you go outdoors, you can find relief from a pollen allergy by checking daily pollen counts so you can avoid unnecessary exposure. Knowing the current pollen count (the amount of pollen in the air) and what to do to limit contact with pollen can help mitigate your symptoms.\\n\\n### What Is a Pollen Allergy?\\n\\nA pollen allergy is usually called **hay fever****, **medically known as allergic rhinitis. Those who suffer from the affliction, also called seasonal [allergies](https://www.caageorgia.com/services/allergy-testing), often are sensitive to other allergens, such as dust mites, feathers, animal dander, and mold. Symptoms specific to a pollen allergy are a runny and irritated nose; itchy eyes, ears, and mouth; sneezing; coughing; wheezing; swelling around the eyes and sinus infections.\\n\\n### When Is Pollen Season?\\n\\nIn the southeast, spring allergy season can start as early as February and last until May. Pollen counts will be highest between mid-March and mid-April. However, different pollen types prevail during different months of the year. There are actually several \\u2018pollen seasons\\u2019.\\n\\n**The following pollen types are emitted during these months:**\\n\\n**Tree Pollen:**Late February - May**Grass Pollen:**Late April - June**Weed Pollen:**August - November\\n\\nSince Atlanta is widely known as the \\u201ccity in the forest\\u201d, allergies hit Georgians hard. Pollen from trees, grasses, and weeds is airborne and can travel hundreds of miles, especially on dry, windy days. Pollen grains easily find t\\u2026\\n\\n[Truncated preview: showing 340 words out of ~829. Full content available via `btf_extract_evidence`.]\", \"word_count\": 829, \"snippet_word_count\": 340, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:17.260200\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_lfRNBCSrtfTw7eIz974nOwf4"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"snippet\": \"---\\ntitle: Experts weigh in as pollen season triggers uptick in allergy cases\\nauthor: Lenah Allen\\nurl: https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\\nhostname: walb.com\\ndescription: Pollen is everywhere, and experts say this is the worst pollen season yet.\\nsitename: WALB\\ndate: 2025-03-18\\ncategories: ['Dougherty County News']\\ntags: ['pollen,albany,spring,pollen season,allergies,allergy season,shanti akers,phoebe,walb,chris zelman']\\n---\\n# Experts weigh in as pollen season triggers uptick in allergy cases\\n\\n##### Experts say this is the worst pollen season yet\\n\\nALBANY, Ga. (WALB) - Spring is just around the corner, but a high pollen season is already causing an uptick in allergy cases here in South Georgia.\\n\\nPollen is everywhere, and experts say this is the worst pollen season yet.\\n\\n\\u201cIt is as bad as it\\u2019s been. At least in the last 15 years or so. It\\u2019s about as bad as I\\u2019ve seen it,\\u201d said WALB First Alert Meteorologist Chris Zelman.\\n\\nZelman said that right now, the pollen count in South Georgia is in a high range of 10 plus. That\\u2019s because all the trees and plants are pollinating at the same time.\\n\\n\\u201cUsually we have again a delay. Some things will bloom out and bud out and then we\\u2019ll have another period but this is all happening at one time so it\\u2019s almost like an explosion all at once,\\u201d said Zelman.\\n\\nAnd with this amount of pollen in the air, that can lead to severe allergy flare-ups. Right now, a third of 20 to 25 Phoebe patients are mentioning allergy symptoms.\\n\\n\\u201cSome people are finding it a bit of a nuisance. It\\u2019s a spectrum but definitely, the cases are picking up,\\u201d said Dr. Shanti Akers, Phoebe Pulmonary critical care doctor.\\n\\nDr. Akers says a lot of patients don\\u2019t know their insurance will cover allergy resources like nasal steroids which is why a lot of people try to tough out pollen season. However, 40% of people with allergies may also have asthma.\\n\\n\\u201cThe pollen allergies are readily treatable. There\\u2019s no reason for people to suffer just because it\\u2019s this time of year and people are used to it. There\\u2019s definitely things we can do to help,\\u201d said Dr. Akers.\\n\\nPollen season is expected to subside by the end of March but until then high levels of pollen will continue for the next couple of days.\\n\\n*Have a news tip or see an error that needs correction? **Let us know.** Please include the article\\u2019s headline in your message.*\\n\\n*To stay up to date on all the latest news as it develops, follow WALB on **Facebook** and **X\\u2026\\n\\n[Truncated preview: showing 417 words out of ~442. Full content available via `btf_extract_evidence`.]\", \"word_count\": 442, \"snippet_word_count\": 417, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:17.751243\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_umfinJz5lzyPFyHxaLC0loUI"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"snippet\": \"---\\ntitle: Pollen reaches high to extreme levels across southern US as season reaches full throttle\\nauthor: Andrew Wulfeck\\nurl: https://www.foxweather.com/earth-space/south-weeds-trees-greens\\nhostname: foxweather.com\\ndescription: Pollen season is affecting of the southern tied of the country, with tree pollen reaching high and even extreme levels, particularly in cities like Atlanta and Houston. Dry, windy weather is contributing to the spread of pollen, aggravating allergy symptoms, while a warm winter and spring have intensified the season, leading to longer periods of high pollen concentrations.\\nsitename: Fox Weather\\ndate: 2025-03-21\\ncategories: ['Air Quality', 'Earth & Space', 'Nature', 'Outdoors', 'Southeast', 'Health', 'Georgia', 'Texas', 'Alabama', 'Mississippi', 'Florida', 'Spring']\\n---\\n# Pollen reaches high to extreme levels across southern US as season reaches full throttle\\n\\n## NOAA\\u2019s spring weather outlook predicts a dry, warm season, which will prevent rain from washing away the pollen, further aggravating allergies. The Pacific Northwest and Great Lakes may see cooler, wetter conditions, but increased moisture could lead to mold growth, adding to the allergen burden.\\n\\n**ATLANTA \\u2013** Signs of itchy throats and watery eyes are becoming all too familiar as pollen season sweeps across a large portion of the Lower 48.\\n\\nAccording to experts, tree pollen, which typically kicks off the season, has reached high and even extreme levels, especially in areas already several weeks into the annual event.\\n\\nCommunities around [Atlanta](https://www.foxweather.com/local-weather/georgia/atlanta) are reporting some of their highest pollen counts of the year, while [Houston](https://www.foxweather.com/local-weather/texas/houston) recently recorded its highest-ever pollen level for the month of March.\\n\\n[According to data from the Houston Health Department](https://www.houstonhealth.org/services/pollen-mold/houston-pollen-mold-count-thursday-march-20-2025), these extreme levels were triggered by a combination of trees, including Pine, Mulberry, Ash, Cedar, Hackberry, Sycamore and Oak.\\n\\nThe FOX Forecast Center points to dry, windy weather as a significant factor in how much pollen is circulating in the air, exacerbating symptoms for allergy sufferers.\\n\\nAllergy specialists explain that the pollen cycle typically begins with trees, followed by grasses and finally weeds into the [summer](https://www.foxweather.com/category/summer) months.\\n\\nThe recent warm winter and spri\\u2026\\n\\n[Truncated preview: showing 327 words out of ~760. Full content available via `btf_extract_evidence`.]\", \"word_count\": 760, \"snippet_word_count\": 327, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:18.251916\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_htcCfC65c7651K2k3D2yganM"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"snippet\": \"---\\ntitle: Atlanta Pollen Count Hits High This Spring\\nauthor: HERE Atlanta\\nurl: https://www.hereatlanta.com/atlanta-pollen-count/\\nhostname: hereatlanta.com\\ndescription: Atlanta's pollen count has reached alarming levels this spring, affecting allergy sufferers across the city. Learn management strategies for relief.\\nsitename: HERE Atlanta\\ndate: 2025-03-22\\ncategories: ['Breaking News']\\ntags: ['atlanta ga', 'weather atlanta ga']\\n---\\n*News Summary*\\n\\nAtlanta is currently facing its peak pollen season, with counts recently reaching 1,551, causing discomfort for many allergy sufferers. This year\\u2019s pollen levels are significantly higher compared to last year, prompting experts to recommend immediate allergy medication for relief. The article highlights strategies for managing allergy symptoms, the best times for outdoor activities, and the growing impact of climate change on allergy seasons. With over 100 million Americans affected, it\\u2019s crucial for residents to take proactive measures during this challenging season.\\n\\n### Atlanta Experiences Peak Pollen Season as Allergy Sufferers Brace for High Counts\\n\\nAs spring settles in, **Atlanta** is no stranger to the seasonal unrest that accompanies peak pollen levels. The city\\u2019s pollen count has skyrocketed, recently hitting an alarming **1,551**, marking the first extreme reading of the 2023 pollening season. People across the region are grappling with the discomfort this brings.\\n\\n#### Comparing This Year to Last\\n\\nThe current pollen situation starkly contrasts with the previous year. Many residents, including visitors in beloved green spaces like Piedmont Park, have noticed the impact of a much more intense pollen season. In recent weeks, counts have fluctuated, moving from the **orange range** of high levels to the more severe red, making outdoor activities a struggle for allergy sufferers.\\n\\n#### Expert Guidance on Managing Allergies\\n\\nWith pollen levels hitting new heights, experts are urging individuals with allergies to take action. It is recommended that those who haven\\u2019t started their allergy medications should do so immediately. Initial relief can often be found with over-the-counter options, but professional testing is also vital for many individuals.\\n\\nConsulting board-certified allergists can pinpoint specific allergens that trigger symptoms, unlocking paths to more effective management strategies. For long-term relief, options such as **allergy immunotherapy** and **allergy shots** may provide solutions that go\\u2026\\n\\n[Truncated preview: showing 349 words out of ~659. Full content available via `btf_extract_evidence`.]\", \"word_count\": 659, \"snippet_word_count\": 349, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-22T14:22:58.013513\", \"date_cutoff_end\": \"2025-03-23T14:22:58.013513\", \"cached_at\": \"2025-10-23T21:10:18.693304\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_2qaL0NtffTavNO1oOyPYPoY5"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_GLNZylmQoIwbXjzNfKz6FXFG",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.atlantaallergy.com/pollen_counts\", \"question\": \"Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?\", \"background\": \"Pollen.com scores pollen counts on a scale of 0 to 12. Low is 0-2.4, Low-Medium is 2.5-4.8, Medium is 4.9-7.2, High-Medium is 7.3-9.6, and High is 9.7-12.0. These levels take into account how much pollen the allergy sufferer is likely to be exposed to for that given period. The site is owned by medical information provider IQVIA and uses the Rotorod sampler at its stations to measure airborne concentrations of allergens in cities such as Atlanta, combining them into proprietary models to produce its Allergy Index for a given area. Pollen is a trigger for hay fever, which affects a quarter of US adults according to CDC and has an estimated annual impact in the US in the billions of dollars. Atlanta in 2024 had its third highest pollen count since record-keeping began in 1991, with an 8,740 pollen count recorded on April 2, 2024, far above the threshold of 90 that can trigger allergies. In the area, pollen season typically begins in late February, with tree pollen contributing the most at that time of year, usually peaking in late March or early April. Recent historical information can be found at Atlanta Allergy & Asthma. According to Pollen.com's Seasonal Allergy Report on Atlanta, in the latter half of March the main allergens are tree allergens, with major offenders in the area being the oak tree and the Chinese privet. A big factor from a predictive standpoint is weather. Dry windy days can cause pollen to spike. Rain can reduce counts, with the exception of thunderstorms which can case them to rise. Additionally, warmer temperatures than average can cause trees to pollinate earlier.\", \"resolution_criteria\": \"This question resolves as YES if the average allergy index for Atlanta, Georgia for the 14-day period ending March 30, 2025 is less than 4.0, and NO otherwise. The index will be calculated from the daily values reported on Pollen.com's forecast page for Atlanta.\", \"fine_print\": \"Specifically, the number for each of the 14 days from March 17, 2025 to March 30, 2025 (inclusive) displayed by Pollen.com will be averaged when accessed by Metaculus on March 31, 2025. The relevant data can be accessed by clicking the \\\"History\\\" option. If pollen.com data are not available for the period in question before 5 PM Eastern Time on March 31, 2025, this question will be annulled.\", \"present_date\": \"2025-03-22T14:22:58.013513\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_yJdAVk12TWJuaXtsefsyxLiM",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.caageorgia.com/pollen-count\", \"question\": \"Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?\", \"background\": \"Pollen.com scores pollen counts on a scale of 0 to 12. Low is 0-2.4, Low-Medium is 2.5-4.8, Medium is 4.9-7.2, High-Medium is 7.3-9.6, and High is 9.7-12.0. These levels take into account how much pollen the allergy sufferer is likely to be exposed to for that given period. The site is owned by medical information provider IQVIA and uses the Rotorod sampler at its stations to measure airborne concentrations of allergens in cities such as Atlanta, combining them into proprietary models to produce its Allergy Index for a given area. Pollen is a trigger for hay fever, which affects a quarter of US adults according to CDC and has an estimated annual impact in the US in the billions of dollars. Atlanta in 2024 had its third highest pollen count since record-keeping began in 1991, with an 8,740 pollen count recorded on April 2, 2024, far above the threshold of 90 that can trigger allergies. In the area, pollen season typically begins in late February, with tree pollen contributing the most at that time of year, usually peaking in late March or early April. Recent historical information can be found at Atlanta Allergy & Asthma. According to Pollen.com's Seasonal Allergy Report on Atlanta, in the latter half of March the main allergens are tree allergens, with major offenders in the area being the oak tree and the Chinese privet. A big factor from a predictive standpoint is weather. Dry windy days can cause pollen to spike. Rain can reduce counts, with the exception of thunderstorms which can case them to rise. Additionally, warmer temperatures than average can cause trees to pollinate earlier.\", \"resolution_criteria\": \"This question resolves as YES if the average allergy index for Atlanta, Georgia for the 14-day period ending March 30, 2025 is less than 4.0, and NO otherwise. The index will be calculated from the daily values reported on Pollen.com's forecast page for Atlanta.\", \"fine_print\": \"Specifically, the number for each of the 14 days from March 17, 2025 to March 30, 2025 (inclusive) displayed by Pollen.com will be averaged when accessed by Metaculus on March 31, 2025. The relevant data can be accessed by clicking the \\\"History\\\" option. If pollen.com data are not available for the period in question before 5 PM Eastern Time on March 31, 2025, this question will be annulled.\", \"present_date\": \"2025-03-22T14:22:58.013513\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_brsqCyKROqqpcL5DIZ4V8y7E",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"question\": \"Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?\", \"background\": \"Pollen.com scores pollen counts on a scale of 0 to 12. Low is 0-2.4, Low-Medium is 2.5-4.8, Medium is 4.9-7.2, High-Medium is 7.3-9.6, and High is 9.7-12.0. These levels take into account how much pollen the allergy sufferer is likely to be exposed to for that given period. The site is owned by medical information provider IQVIA and uses the Rotorod sampler at its stations to measure airborne concentrations of allergens in cities such as Atlanta, combining them into proprietary models to produce its Allergy Index for a given area. Pollen is a trigger for hay fever, which affects a quarter of US adults according to CDC and has an estimated annual impact in the US in the billions of dollars. Atlanta in 2024 had its third highest pollen count since record-keeping began in 1991, with an 8,740 pollen count recorded on April 2, 2024, far above the threshold of 90 that can trigger allergies. In the area, pollen season typically begins in late February, with tree pollen contributing the most at that time of year, usually peaking in late March or early April. Recent historical information can be found at Atlanta Allergy & Asthma. According to Pollen.com's Seasonal Allergy Report on Atlanta, in the latter half of March the main allergens are tree allergens, with major offenders in the area being the oak tree and the Chinese privet. A big factor from a predictive standpoint is weather. Dry windy days can cause pollen to spike. Rain can reduce counts, with the exception of thunderstorms which can case them to rise. Additionally, warmer temperatures than average can cause trees to pollinate earlier.\", \"resolution_criteria\": \"This question resolves as YES if the average allergy index for Atlanta, Georgia for the 14-day period ending March 30, 2025 is less than 4.0, and NO otherwise. The index will be calculated from the daily values reported on Pollen.com's forecast page for Atlanta.\", \"fine_print\": \"Specifically, the number for each of the 14 days from March 17, 2025 to March 30, 2025 (inclusive) displayed by Pollen.com will be averaged when accessed by Metaculus on March 31, 2025. The relevant data can be accessed by clicking the \\\"History\\\" option. If pollen.com data are not available for the period in question before 5 PM Eastern Time on March 31, 2025, this question will be annulled.\", \"present_date\": \"2025-03-22T14:22:58.013513\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_ZNVr9Wg07pB3zBZVIMPMYwuO",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"question\": \"Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?\", \"background\": \"Pollen.com scores pollen counts on a scale of 0 to 12. Low is 0-2.4, Low-Medium is 2.5-4.8, Medium is 4.9-7.2, High-Medium is 7.3-9.6, and High is 9.7-12.0. These levels take into account how much pollen the allergy sufferer is likely to be exposed to for that given period. The site is owned by medical information provider IQVIA and uses the Rotorod sampler at its stations to measure airborne concentrations of allergens in cities such as Atlanta, combining them into proprietary models to produce its Allergy Index for a given area. Pollen is a trigger for hay fever, which affects a quarter of US adults according to CDC and has an estimated annual impact in the US in the billions of dollars. Atlanta in 2024 had its third highest pollen count since record-keeping began in 1991, with an 8,740 pollen count recorded on April 2, 2024, far above the threshold of 90 that can trigger allergies. In the area, pollen season typically begins in late February, with tree pollen contributing the most at that time of year, usually peaking in late March or early April. Recent historical information can be found at Atlanta Allergy & Asthma. According to Pollen.com's Seasonal Allergy Report on Atlanta, in the latter half of March the main allergens are tree allergens, with major offenders in the area being the oak tree and the Chinese privet. A big factor from a predictive standpoint is weather. Dry windy days can cause pollen to spike. Rain can reduce counts, with the exception of thunderstorms which can case them to rise. Additionally, warmer temperatures than average can cause trees to pollinate earlier.\", \"resolution_criteria\": \"This question resolves as YES if the average allergy index for Atlanta, Georgia for the 14-day period ending March 30, 2025 is less than 4.0, and NO otherwise. The index will be calculated from the daily values reported on Pollen.com's forecast page for Atlanta.\", \"fine_print\": \"Specifically, the number for each of the 14 days from March 17, 2025 to March 30, 2025 (inclusive) displayed by Pollen.com will be averaged when accessed by Metaculus on March 31, 2025. The relevant data can be accessed by clicking the \\\"History\\\" option. If pollen.com data are not available for the period in question before 5 PM Eastern Time on March 31, 2025, this question will be annulled.\", \"present_date\": \"2025-03-22T14:22:58.013513\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_yJzM3BN2AKtkD0ngs99MwajL",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"question\": \"Will the average allergy index for Atlanta, Georgia be less than 4.0 for the 14-day period ending March 30, 2025?\", \"background\": \"Pollen.com scores pollen counts on a scale of 0 to 12. Low is 0-2.4, Low-Medium is 2.5-4.8, Medium is 4.9-7.2, High-Medium is 7.3-9.6, and High is 9.7-12.0. These levels take into account how much pollen the allergy sufferer is likely to be exposed to for that given period. The site is owned by medical information provider IQVIA and uses the Rotorod sampler at its stations to measure airborne concentrations of allergens in cities such as Atlanta, combining them into proprietary models to produce its Allergy Index for a given area. Pollen is a trigger for hay fever, which affects a quarter of US adults according to CDC and has an estimated annual impact in the US in the billions of dollars. Atlanta in 2024 had its third highest pollen count since record-keeping began in 1991, with an 8,740 pollen count recorded on April 2, 2024, far above the threshold of 90 that can trigger allergies. In the area, pollen season typically begins in late February, with tree pollen contributing the most at that time of year, usually peaking in late March or early April. Recent historical information can be found at Atlanta Allergy & Asthma. According to Pollen.com's Seasonal Allergy Report on Atlanta, in the latter half of March the main allergens are tree allergens, with major offenders in the area being the oak tree and the Chinese privet. A big factor from a predictive standpoint is weather. Dry windy days can cause pollen to spike. Rain can reduce counts, with the exception of thunderstorms which can case them to rise. Additionally, warmer temperatures than average can cause trees to pollinate earlier.\", \"resolution_criteria\": \"This question resolves as YES if the average allergy index for Atlanta, Georgia for the 14-day period ending March 30, 2025 is less than 4.0, and NO otherwise. The index will be calculated from the daily values reported on Pollen.com's forecast page for Atlanta.\", \"fine_print\": \"Specifically, the number for each of the 14 days from March 17, 2025 to March 30, 2025 (inclusive) displayed by Pollen.com will be averaged when accessed by Metaculus on March 31, 2025. The relevant data can be accessed by clicking the \\\"History\\\" option. If pollen.com data are not available for the period in question before 5 PM Eastern Time on March 31, 2025, this question will be annulled.\", \"present_date\": \"2025-03-22T14:22:58.013513\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.atlantaallergy.com/pollen_counts\", \"facts\": [{\"title\": \"https://www.atlantaallergy.com/pollen_counts\", \"url\": \"https://www.atlantaallergy.com/pollen_counts\", \"content\": \"---\\ntitle: Today\\u2019s Pollen Count\\ndescription: Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\\ndate: 2025-03-22\\n---\\n# Today\\u2019s Pollen Count\\n\\nAtlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\\n\\n#### Previous Months\\n\\nDo you think you might be struggling with allergies?\\n\\n## Allergy Diagnosis\\n\\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\\n\\n## Allergy Testing\\n\\nIdentifying the cause of your symptoms through allergy testing allows your\\nallergist to effectively treat you. An\\n[allergy skin test](/patient-information/allergy-skin-testing) is\\nthe gold standard for identifying allergic triggers. This simple in-office\\nprocedure introduces a very small amount of a specific allergen or allergens\\nselected by the allergist based on your medical history (such as pollens,\\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\\nthrough an indention or \\u201cprick\\u201d on the surface of the skin. Following the\\nskin prick test, some patients may also receive intradermal skin testing.\\nThe results are available within minutes allowing your allergist to develop\\na treatment plan during your visit. When indicated, our allergists may also\\nemploy blood tests or oral challenges.\\n\\n## Allergy Treatments\\n\\nOnce the source of your symptoms have been accurately identified, the\\nspecialists at Atlanta Allergy & Asthma will develop a customized\\ntreatment plan which may include\\n[environmental control\\nmeasures](/files/allergy-avoidance-brochure.pdf),\\nover-the-counter and prescription medications, or\\n[allergy immunotherapy](/what-we-treat/immunotherapy).\\n\\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma exacerbations. Taking control of your allergies can significantly improve your quality of life!\\n\\n[Schedule with One of Our Allergy Experts Today](/about-us/appointments/index)\", \"fact\": \"---\\ntitle: Today\\u2019s Pollen Count\\ndescription: Atlanta\\u2019s pollen count and mold activity for 2025-03-22. This is the only pollen-counting station in the Atlanta area certified by the National Allergy Bureau.\\ndate: 2025-03-22\\n---\\n# Today\\u2019s Pollen Count\\n\\nAtlanta Allergy & Asthma\\u2019s Pollen Counting Station is certified by the National Allergy Bureau. This is the only pollen counting station in the Atlanta area certified by the NAB. The daily pollen count represents the number of pollen grains in a cubic meter of air over the previous 24-hours.\\n\\n#### Previous Months\\n\\nDo you think you might be struggling with allergies?\\n\\n## Allergy Diagnosis\\n\\nThe first step in treating allergies is an accurate diagnosis. If you have symptoms when you are outdoors, you might have a pollen allergy (allergic to tree, grass and/or weed pollen), or airborne mold spores. If your symptoms are worse when indoors, you might be allergic to dust mites, pet dander, or cockroaches. Many people have both indoor and outdoor allergies. Your allergists will take a thorough medical and symptom history, perform a physical exam, and suggest appropriate testing.\\n\\n## Allergy Testing\\n\\nIdentifying the cause of your symptoms through allergy testing allows your\\nallergist to effectively treat you. An\\n[allergy skin test](/patient-information/allergy-skin-testing) is\\nthe gold standard for identifying allergic triggers. This simple in-office\\nprocedure introduces a very small amount of a specific allergen or allergens\\nselected by the allergist based on your medical history (such as pollens,\\ndust mite, animal dander, mold, and/or foods). The allergen is introduced\\nthrough an indention or \\u201cprick\\u201d on the surface of the skin. Following the\\nskin prick test, some patients may also receive intradermal skin testing.\\nThe results are available within minutes allowing your allergist to develop\\na treatment plan during your visit. When indicated, our allergists may also\\nemploy blood tests or oral challenges.\\n\\n## Allergy Treatments\\n\\nOnce the source of your symptoms have been accurately identified, the\\nspecialists at Atlanta Allergy & Asthma will develop a customized\\ntreatment plan which may include\\n[environmental control\\nmeasures](/files/allergy-avoidance-brochure.pdf),\\nover-the-counter and prescription medications, or\\n[allergy immunotherapy](/what-we-treat/immunotherapy).\\n\\nIdentifying and treating your allergies not only allows you to breathe easier, it can also improve sleep quality, mitigate sinus issues, and reduce asthma exacerbations. Taking control of your allergies can significantly improve your quality of life!\\n\\n[Schedule with One of Our Allergy Experts Today](/about-us/appointments/index)\", \"type\": \"search_result\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_GLNZylmQoIwbXjzNfKz6FXFG"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"facts\": [{\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Pollen counts in Atlanta are highest between mid-March and mid-April, which overlaps with the forecast period ending March 30, 2025.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Tree pollen, which is prevalent from late February to May, is a major contributor to pollen counts during the forecast period.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Dry, windy days can cause pollen counts to spike, while rain can reduce them, except during thunderstorms which can increase counts.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"The trees that contribute most to pollen allergies in Atlanta include oak, pine, hickory, pecan, elm, alder, and birch.\"}, {\"title\": \"https://www.caageorgia.com/pollen-count\", \"url\": \"https://www.caageorgia.com/pollen-count\", \"fact\": \"Pollen counts are measured on a 12-point scale, with low levels under 2.4 and high levels above 9.7, which helps in understanding the potential range of the allergy index.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_yJdAVk12TWJuaXtsefsyxLiM"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"facts\": [{\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"Experts say this is the worst pollen season in at least the last 15 years.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"The pollen count in South Georgia is currently in a high range of 10 plus.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"All trees and plants are pollinating at the same time, causing a high pollen count.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"High levels of pollen are expected to continue for the next couple of days.\"}, {\"title\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"url\": \"https://www.walb.com/2025/03/18/experts-weigh-pollen-season-triggers-uptick-allergy-cases/\", \"fact\": \"Pollen season is expected to subside by the end of March.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_brsqCyKROqqpcL5DIZ4V8y7E"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"facts\": [{\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"Tree pollen has reached high and even extreme levels in Atlanta, contributing to significant allergy symptoms.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"Dry, windy weather is a significant factor in the high pollen levels, as it prevents pollen from being washed away.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"A warm winter and spring have intensified the pollen season, leading to higher concentrations of pollen.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"NOAA's spring weather outlook predicts a dry, warm season, which will not reduce current pollen activity.\"}, {\"title\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"url\": \"https://www.foxweather.com/earth-space/south-weeds-trees-greens\", \"fact\": \"Communities around Atlanta are reporting some of their highest pollen counts of the year.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_ZNVr9Wg07pB3zBZVIMPMYwuO"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"071bdfe3-cfca-527a-907c-65de831dc57c\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"facts\": [{\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"Atlanta's pollen count recently reached 1,551, indicating a high level of pollen in the area.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"This year's pollen levels are significantly higher compared to last year, suggesting an upward trend in pollen counts.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"Experts recommend immediate allergy medication due to the high pollen levels, indicating that the current conditions are severe for allergy sufferers.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"The tree pollen season in Atlanta typically stretches from late February to June, with peak levels expected around this time.\"}, {\"title\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"url\": \"https://www.hereatlanta.com/atlanta-pollen-count/\", \"fact\": \"Climate change is extending allergy seasons and increasing pollen production, which could contribute to higher pollen counts in the future.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_yJzM3BN2AKtkD0ngs99MwajL"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here is the analysis regarding the probability of the average allergy index for Atlanta, Georgia being less than 4.0 for the 14-day period ending March 30, 2025:\n\n1. **Current Pollen Levels**: The pollen levels in Atlanta are currently very high. Reports indicate that tree pollen has reached high to extreme levels, with recent counts hitting 1,551, which is significantly above the threshold for high pollen levels.\n\n2. **Weather Conditions**: The weather conditions are contributing to high pollen levels. Dry, windy weather is prevalent, which prevents pollen from being washed away. Additionally, a warm winter and spring have intensified the pollen season, leading to higher concentrations of pollen.\n\n3. **Historical Context**: The pollen season in Atlanta typically peaks in late March, which aligns with the forecast period. This is supported by historical data indicating that pollen counts are highest between mid-March and mid-April.\n\n4. **Expert Opinions**: Experts have described this as the worst pollen season in at least the last 15 years, suggesting that the current conditions are severe and unlikely to result in a low average allergy index.\n\n5. **Resolution Criteria**: For the question to resolve as \"YES,\" the average allergy index must be less than 4.0. Given the current high pollen levels and the weather conditions that are likely to sustain these levels, it is improbable that the average will fall below this threshold.\n\nConsidering all the evidence, it is highly unlikely that the average allergy index will be less than 4.0 for the specified period.\n\nFINAL PROBABILITY: 0.05"
+    }
+  ]
+}

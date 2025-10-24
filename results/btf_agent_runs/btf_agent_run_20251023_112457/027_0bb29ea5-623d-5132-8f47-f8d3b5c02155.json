@@ -1,0 +1,657 @@
+{
+  "question_id": "0bb29ea5-623d-5132-8f47-f8d3b5c02155",
+  "question": "Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be less than 429.0 ppm?",
+  "probability": 0.0,
+  "reasoning": "Based on the gathered evidence, here are the key points relevant to estimating the probability of the maximum daily average CO₂ level being less than 429.0 ppm for March 1-25, 2025:\n\n1. **Recent CO₂ Levels**: As of February 2025, the monthly average CO₂ level at Mauna Loa was 427.09 ppm. The most recent reading from February 6, 2025, was 428.6 ppm.\n\n2. **Historical Trends**: Historically, each March has had a higher monthly mean CO₂ level than the previous year's March. The period from late September through May is typically a time of rising CO₂ levels due to the Northern Hemisphere's fall and winter.\n\n3. **Current Year Observations**: On March 7, 2025, the daily CO₂ level at Mauna Loa reached 430.60 ppm, setting a new all-time high. This indicates that the CO₂ levels have already surpassed the 429.0 ppm threshold during the period in question.\n\nGiven these observations, it is highly unlikely that the maximum daily average CO₂ level for March 1-25, 2025, will be less than 429.0 ppm. The trend of increasing CO₂ levels, combined with the recent record high, suggests that levels will remain above the threshold.\n\nFINAL PROBABILITY: 0.0",
+  "search_results": [
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "content": "Monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii for February 2025 was 427.09 ppm. The last year of data are still preliminary..."
+    },
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/gr.html",
+      "content": "The annual mean growth rate for the previous year is finalized in March, using the average of the most recent November-February months..."
+    },
+    {
+      "title": "Daily CO2",
+      "url": "https://www.co2.earth/daily-co2",
+      "content": "CO2.Earth provides continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii, featuring NOAA MLO data and charts..."
+    },
+    {
+      "title": "CO2 Records",
+      "url": "https://www.co2.earth/co2-records",
+      "content": "Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa..."
+    },
+    {
+      "title": "CO2 Records",
+      "url": "https://www.co2.earth/co2-records",
+      "content": "Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa..."
+    },
+    {
+      "title": "Hawaiian Observatory Clocks Highest Annual Jump in Atmospheric Carbon Dioxide Since Its Records Began 67 Years Ago | Smithsonian",
+      "url": "https://www.smithsonianmag.com/smart-news/hawaiian-observatory-clocks-highest-annual-jump-in-atmospheric-carbon-dioxide-since-its-records-began-67-years-ago-180985868/",
+      "content": "The Mauna Loa Observatory recorded the largest annual increase in atmospheric carbon dioxide in 67 years, reaching 427 ppm in 2024..."
+    },
+    {
+      "title": "During year of extremes, carbon dioxide levels surge faster than ever | University of California",
+      "url": "https://www.universityofcalifornia.edu/news/during-year-extremes-carbon-dioxide-levels-surge-faster-ever",
+      "content": "From January through April, NOAA and Scripps scientists said CO2 concentrations increased more rapidly than they have in the first four months of any other year."
+    },
+    {
+      "title": "NASA SVS | Concentration Increase of Atmospheric Carbon Dioxide (CO₂)",
+      "url": "https://svs.gsfc.nasa.gov/4962/",
+      "content": "Using the complete record of Mauna Loa CO 2 monthly mean data, the timeplot displays monthly average atmospheric CO2 concentration values, showing seasonal cycles and steady increases up to December 2021."
+    },
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "content": "Monthly average CO2 measured at Mauna Loa Observatory, Hawaii: February 2025 was 427.09 ppm. The Mauna Loa data is the longest record of direct atmospheric CO2 measurements..."
+    },
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/gr.html",
+      "content": "We finalize our estimate for the annual mean growth rate of the previous year in March, by using the average of the most recent November-February months, corrected for the average seasonal cycle..."
+    },
+    {
+      "title": "Daily CO2",
+      "url": "https://www.co2.earth/daily-co2",
+      "content": "Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data."
+    },
+    {
+      "title": "Monthly CO2",
+      "url": "https://www.co2.earth/monthly-co2",
+      "content": "427.09 ppm CO2 in atmosphere in February 2025 at the Mauna Loa Observatory. Monthly comparison of CO2 levels measured by NOAA & Scripps at Mauna Loa."
+    },
+    {
+      "title": "Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "content": "In 2023, the annual average carbon dioxide at Mauna Loa Observatory was 419.3 parts per million, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm..."
+    },
+    {
+      "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+      "url": "https://www.eia.gov/outlooks/steo/report/total.php",
+      "content": "We forecast U.S. energy-related carbon dioxide (CO2) emissions to increase by 2% in 2025 and to decrease by 1% in 2026."
+    },
+    {
+      "title": "Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "content": "Global average atmospheric carbon dioxide was 419.3 parts per million in 2023, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm."
+    },
+    {
+      "title": "https://gml.noaa.gov/ccgg/trends/",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "content": "---\ntitle: Trends in CO2 - NOAA Global Monitoring Laboratory\nauthor: GML Web Team\nurl: https://gml.noaa.gov/ccgg/trends/index.html\nhostname: noaa.gov\ndescription: GML conducts research on greenhouse gas and carbon cycle feedbacks, changes in aerosols, and surface radiation, and recovery of stratospheric ozone.\nsitename: gml.noaa.gov\ndate: 2025-03-14\ntags: ['carbon doxide, co2, co2 increase, carbon dioxide increase, global co2 increase, co2 trend, co2 growth rate, trends in carbon dioxide, global network, trends in co2, mauna loa, mauna loa co2, dave keeling, keeling, pieter tans, greenhouse gases, NOAA, CMDL, GMD']\n---\n# Trends in CO2, CH4, N2O, SF6\n\n\n## Trends in Atmospheric Carbon Dioxide (CO2)\n\n### Monthly Average Mauna Loa CO2\n\n| February 2025: | 427.09 ppm |\n| February 2024: | 424.55 ppm |\n\nThe graphs show monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii.\nThe carbon dioxide data on Mauna\nLoa constitute the longest record of direct measurements of CO2 in the\natmosphere. They were started by C. David Keeling of the Scripps Institution\nof Oceanography in March of 1958 at a facility of the National Oceanic and\nAtmospheric Administration *[Keeling, 1976]*. NOAA started its own CO2\nmeasurements in May of 1974, and they have run in parallel with those made by\nScripps since then *[Thoning, 1989]*.\n\nThe last five complete years of the Mauna Loa CO2 record plus the current year\nare shown in the first graph. The full record of combined Scripps data and NOAA data is shown in the second graph.\nEvery monthly mean is the average of daily means, which are in\nturn based on hourly averages, but only for those hours during which “background” conditions\nprevail (see [gml.noaa.gov/ccgg/about/co2_measurements.html](https://gml.noaa.gov/ccgg/about/co2_measurements.html) for more information).\n\nThe **red** lines and symbols represent the monthly mean values,\ncentered on the middle of each month. The **black** lines and symbols represent the same,\nafter correction for the average seasonal cycle. The latter is determined as a moving average of\nSEVEN adjacent seasonal cycles centered on the month to be corrected, except for the first and\nlast THREE and one-half years of the record, where the seasonal cycle has been averaged over the\nfirst and last SEVEN years, respectively.\n\nThe vertical bars on the **black** lines of the first graph show the uncertainty\nof each monthly mean based on the observed variability of CO2 in different weather\nsystems as they go pa…\n\n[Truncated preview: showing 388 words out of ~578. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.co2.earth/daily-co2",
+      "url": "https://www.co2.earth/daily-co2",
+      "content": "---\ntitle: CO2.Earth\nauthor: Michael McGee\nurl: https://www.co2.earth/daily-co2\nhostname: co2.earth\ndescription: Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data.\nsitename: co2.earth\ndate: 2015-08-29\ntags: ['2022, 2023, daily co2, mauna loa, noaa, scripps, keeling']\n---\n\n\n| loading... | loading... |\n| loading... | loading... |\n| 1 Year Change | loading... ppm (loading...) |\n\n\nLast CO2 Earth update: loading... on loading..., Hawaii local time (UTC -10)\n\n[Data source: NOAA GML (Mauna Loa Observatory)](https://gml.noaa.gov/ccgg/trends/monthly.html)\n\nUnits: parts per million (ppm)\n\n\nThis table presents the latest, daily average reading for atmospheric CO2 on the planet. Updates happen once a day with few exceptions.\n\n\n**CO2 Is The Number to Watch**\n\nWhen the trend for atmospheric CO2 trend begins to falter and fall, we can expect global average temperature to follow. For those who care about the sustainability of the planet, and who want it to remain a place where people can flourish, the measured CO2 levels in the atmosphere serve as the single best, real-time signal of whether the world as a whole is on track to a safe future, or needing to do more to get on track.\n\n\n\n|\n|\n\n\n\nExplore the info under the tabs below for more info and daily CO2 readings.\n\n\n[COMPARE](javascript:void(0);)-\n**Daily CO**2Comparisons [NOAA](javascript:void(0);)-\n**NOAA Daily CO**2**Recent Daily Average CO2 at Mauna Loa**(last 31 days)\n\n**Source Graphic**:[NOAA Daily Average MLO CO2](https://www.esrl.noaa.gov/gmd/ccgg/trends/monthly.html)**More NOAA****CO**: Daily / Weekly / Monthly2**Source Graphic**:[NOAA Weekly Mauna Loa Web Page](http://www.esrl.noaa.gov/gmd/ccgg/trends/weekly.html)The NOAA CO2 averages use colour codes as follows:\n\n**daily CO**2**= black dots****weekly CO**(Sunday to Saturday)2= red lines**monthly CO**.2= blue lines\n\n**Related Links****CO2 Earth**[Weekly CO2](https://www.co2.earth/weekly-co2) [Scripps](javascript:void(0);)-\n**Scripps Hourly & Daily CO**2Daily CO2 readings from the Scripps Institution of Oceanography are posted on the Scripps UCSD\n\n[Keeling Curve website](https://keelingcurve.ucsd.edu)and tweeted from the Scripps[@Keeling_Curve](https://twitter.com/Keeling_curve)account.[One Week](https://keelingcurve.ucsd.edu)|[One Month](https://scripps.ucsd.edu/programs/keelingcurve/wp-content/plugins/sio-bluemoon/graphs/mlo_one_month.png)|…\n\n[Truncated preview: showing 308 words out of ~1054. Full content available via `btf_extract_evidence`.]"
+    },
+    {
+      "title": "https://www.co2.earth/co2-records",
+      "url": "https://www.co2.earth/co2-records",
+      "content": "---\ntitle: CO2.Earth\nauthor: Michael McGee\nurl: https://www.co2.earth/co2-records\nhostname: co2.earth\ndescription: 430.60 ppm is the all-time daily high for daily CO2 levels at the world famous Mauna Loa Observatory. View the details and records for atmospheric CO2 on daily, weekly and monthly time scales.\nsitename: co2.earth\ndate: 2019-11-23\ntags: ['daily CO2, weekly CO2, monthly CO2, yearly CO2, record, records, CO2 records, record high CO2']\n---\n\n|\n|\n|\n|\n|---|---|---|\nCO2 |\n\n**430.60 ppm**\n\nMar 7 2025\n\n**428.63 ppm**\n\nApr 26 2024\n\nCO2\n\n**427.94 ppm**\n\nApr 21 -27 2024\n\n**TBD****\n\n[data](https://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/weekly/weekly_in_situ_co2_mlo.csv)[Monthly](https://www.co2.earth/monthly-co2)\n\nCO2CO2\n\n**426.91 ppm**\n\nJun 2024\n\n**425.22 ppm****\n\nMar 2024\n\n[Yearly](https://www.co2.earth/annual-co2)\n\nCO2CO2\n\n** 418.56 ppm**\n\n2022\n\n** 416.45 ppm**\n\n2021\n\n** Mauna Loa record includes CO2 measurments at Maunakea site in 2022-2023 ** Record high for the institution, not for CO2 measurements at Mauna Loa*\n\n\nMarking the latest CO2 records is not an act of celebration, but of bearing witness.\n\nThe achievements are a sobering reminder of the chemical changes that we humans are collectively making to the atmosphere--changes with disruptive impacts that affect every living being in the biosphere. When a new record is reached, it is is marked here with an invitation for people to take notice, reflect on the transformation that is going in the wrong direction, and resolve to reverse these trends.\n\nReversing the trend is not something that any one person can achieve on their own. But individuals and groups can build on this CO2 Earth initiative by taking steps that help make the CO2 indicator for planetary health as ubiqutious as our stock market updates and weather reports. Consider sharing the CO2 Earth updates and records with people and groups that are part of your information-sharing circle.\n\n\n\n**A New Daily High Each Year**\n\nThe graphic below from [Teem Earth partner @NumberLens](https://partner.teem.earth/numberlens/) presents NOAA CO2 readings from1999 to 2020 to show the progression of the seasonal peak for daily CO2 readings at Mauna Loa. It shows that CO2 levels usually peak in April or May, a phenomena discovered by Charles David Keeling in the late 1950s and early 1960s when he began what became the world's longest-running, high preceision record of direct measurements of CO2 in background air. Read about this in…\n\n[Truncated preview: showing 367 words out of ~1778. Full content available via `btf_extract_evidence`.]"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "fact": "As of February 2025, the monthly average CO₂ level at Mauna Loa was 427.09 ppm."
+    },
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "fact": "The February 2024 CO₂ level was 424.55 ppm, indicating a year-over-year increase of approximately 2.54 ppm."
+    },
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "fact": "Historically, each March has had a higher monthly mean CO₂ level than the previous year's March."
+    },
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "fact": "The February 2025 CO₂ level of 427.09 ppm is already close to the 429.0 ppm threshold."
+    },
+    {
+      "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "fact": "The period from late September through May is typically a time of rising CO₂ levels due to the Northern Hemisphere's fall and winter."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/daily-co2",
+      "fact": "The most recent CO2 reading from February 6, 2025, is 428.6 ppm."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/daily-co2",
+      "fact": "CO2 levels have shown a consistent year-over-year increase, with the March 2024 level at 425.38 ppm, a 1.04% increase from the previous year."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/daily-co2",
+      "fact": "The period from late September through May is typically a time of rising CO2 levels due to the Northern Hemisphere's fall and winter."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/daily-co2",
+      "fact": "Each March since records began has had a higher monthly mean CO2 level than the previous year's March."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/daily-co2",
+      "fact": "The Mauna Loa Observatory is the primary source for real-time CO2 measurements, providing direct observations rather than estimates or projections."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/co2-records",
+      "fact": "As of March 7, 2025, the daily CO₂ level at Mauna Loa reached 430.60 ppm, setting a new all-time high."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/co2-records",
+      "fact": "The CO₂ level for March 2024 was 425.38 ppm, showing a significant year-over-year increase."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/co2-records",
+      "fact": "The CO₂ level for April 2024 was 426.57 ppm, indicating a continued upward trend."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/co2-records",
+      "fact": "The CO₂ level for May 2024 was 426.90 ppm, further confirming the rising trend."
+    },
+    {
+      "title": "CO2.Earth",
+      "url": "https://www.co2.earth/co2-records",
+      "fact": "The CO₂ level for June 2024 was 426.91 ppm, maintaining the pattern of increasing levels."
+    }
+  ],
+  "fetched_url_content_count": 0,
+  "resolution": "no",
+  "scoring_weight": 0.5,
+  "brier_score": 0.0,
+  "weighted_brier_score": 0.0,
+  "tool_outputs": [
+    {
+      "name": "btf_generate_search_queries",
+      "content": {
+        "question_id": "0bb29ea5-623d-5132-8f47-f8d3b5c02155",
+        "queries": [
+          "Mauna Loa Observatory CO2 levels March 2025",
+          "CO2 level forecast March 2025 Mauna Loa",
+          "recent studies on CO2 emissions 2025"
+        ]
+      },
+      "raw": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"queries\": [\"Mauna Loa Observatory CO2 levels March 2025\", \"CO2 level forecast March 2025 Mauna Loa\", \"recent studies on CO2 emissions 2025\"]}",
+      "tool_call_id": "call_tar1lIQBtqP4RpXEDbMnL3VB"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "Mauna Loa Observatory CO2 levels March 2025",
+        "results": [
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "link": "https://gml.noaa.gov/ccgg/trends/",
+            "position": 1,
+            "snippet": "Monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii for February 2025 was 427.09 ppm. The last year of data are still preliminary...",
+            "date": null
+          },
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "link": "https://gml.noaa.gov/ccgg/trends/gr.html",
+            "position": 2,
+            "snippet": "The annual mean growth rate for the previous year is finalized in March, using the average of the most recent November-February months...",
+            "date": null
+          },
+          {
+            "title": "Daily CO2",
+            "link": "https://www.co2.earth/daily-co2",
+            "position": 4,
+            "snippet": "CO2.Earth provides continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii, featuring NOAA MLO data and charts...",
+            "date": null
+          },
+          {
+            "title": "CO2 Records",
+            "link": "https://www.co2.earth/co2-records",
+            "position": 5,
+            "snippet": "Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa...",
+            "date": null
+          },
+          {
+            "title": "CO2 Records",
+            "link": "https://www.co2.earth/co2-records",
+            "position": 1,
+            "snippet": "Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa...",
+            "date": null
+          },
+          {
+            "title": "Hawaiian Observatory Clocks Highest Annual Jump in Atmospheric Carbon Dioxide Since Its Records Began 67 Years Ago | Smithsonian",
+            "link": "https://www.smithsonianmag.com/smart-news/hawaiian-observatory-clocks-highest-annual-jump-in-atmospheric-carbon-dioxide-since-its-records-began-67-years-ago-180985868/",
+            "position": 3,
+            "snippet": "The Mauna Loa Observatory recorded the largest annual increase in atmospheric carbon dioxide in 67 years, reaching 427 ppm in 2024...",
+            "date": null
+          },
+          {
+            "title": "During year of extremes, carbon dioxide levels surge faster than ever | University of California",
+            "link": "https://www.universityofcalifornia.edu/news/during-year-extremes-carbon-dioxide-levels-surge-faster-ever",
+            "position": 4,
+            "snippet": "From January through April, NOAA and Scripps scientists said CO2 concentrations increased more rapidly than they have in the first four months of any other year.",
+            "date": "2024-06-06T22:44:42Z"
+          },
+          {
+            "title": "NASA SVS | Concentration Increase of Atmospheric Carbon Dioxide (CO₂)",
+            "link": "https://svs.gsfc.nasa.gov/4962/",
+            "position": 5,
+            "snippet": "Using the complete record of Mauna Loa CO 2 monthly mean data, the timeplot displays monthly average atmospheric CO2 concentration values, showing seasonal cycles and steady increases up to December 2021.",
+            "date": "2022-01-12T05:00:00Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"Mauna Loa Observatory CO2 levels March 2025\", \"results\": [{\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/\", \"position\": 1, \"snippet\": \"Monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii for February 2025 was 427.09 ppm. The last year of data are still preliminary...\", \"date\": null}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/gr.html\", \"position\": 2, \"snippet\": \"The annual mean growth rate for the previous year is finalized in March, using the average of the most recent November-February months...\", \"date\": null}, {\"title\": \"Daily CO2\", \"link\": \"https://www.co2.earth/daily-co2\", \"position\": 4, \"snippet\": \"CO2.Earth provides continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii, featuring NOAA MLO data and charts...\", \"date\": null}, {\"title\": \"CO2 Records\", \"link\": \"https://www.co2.earth/co2-records\", \"position\": 5, \"snippet\": \"Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa...\", \"date\": null}, {\"title\": \"CO2 Records\", \"link\": \"https://www.co2.earth/co2-records\", \"position\": 1, \"snippet\": \"Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa...\", \"date\": null}, {\"title\": \"Hawaiian Observatory Clocks Highest Annual Jump in Atmospheric Carbon Dioxide Since Its Records Began 67 Years Ago | Smithsonian\", \"link\": \"https://www.smithsonianmag.com/smart-news/hawaiian-observatory-clocks-highest-annual-jump-in-atmospheric-carbon-dioxide-since-its-records-began-67-years-ago-180985868/\", \"position\": 3, \"snippet\": \"The Mauna Loa Observatory recorded the largest annual increase in atmospheric carbon dioxide in 67 years, reaching 427 ppm in 2024...\", \"date\": null}, {\"title\": \"During year of extremes, carbon dioxide levels surge faster than ever | University of California\", \"link\": \"https://www.universityofcalifornia.edu/news/during-year-extremes-carbon-dioxide-levels-surge-faster-ever\", \"position\": 4, \"snippet\": \"From January through April, NOAA and Scripps scientists said CO2 concentrations increased more rapidly than they have in the first four months of any other year.\", \"date\": \"2024-06-06T22:44:42Z\"}, {\"title\": \"NASA SVS | Concentration Increase of Atmospheric Carbon Dioxide (CO\\u2082)\", \"link\": \"https://svs.gsfc.nasa.gov/4962/\", \"position\": 5, \"snippet\": \"Using the complete record of Mauna Loa CO 2 monthly mean data, the timeplot displays monthly average atmospheric CO2 concentration values, showing seasonal cycles and steady increases up to December 2021.\", \"date\": \"2022-01-12T05:00:00Z\"}]}",
+      "tool_call_id": "call_wYS4H72R8f6MGRYcQlctjqmU"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "CO2 level forecast March 2025 Mauna Loa",
+        "results": [
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "link": "https://gml.noaa.gov/ccgg/trends/",
+            "position": 1,
+            "snippet": "Monthly average CO2 measured at Mauna Loa Observatory, Hawaii: February 2025 was 427.09 ppm. The Mauna Loa data is the longest record of direct atmospheric CO2 measurements...",
+            "date": null
+          },
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "link": "https://gml.noaa.gov/ccgg/trends/gr.html",
+            "position": 2,
+            "snippet": "We finalize our estimate for the annual mean growth rate of the previous year in March, by using the average of the most recent November-February months, corrected for the average seasonal cycle...",
+            "date": null
+          },
+          {
+            "title": "Daily CO2",
+            "link": "https://www.co2.earth/daily-co2",
+            "position": 4,
+            "snippet": "Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data.",
+            "date": null
+          },
+          {
+            "title": "Monthly CO2",
+            "link": "https://www.co2.earth/monthly-co2",
+            "position": 5,
+            "snippet": "427.09 ppm CO2 in atmosphere in February 2025 at the Mauna Loa Observatory. Monthly comparison of CO2 levels measured by NOAA & Scripps at Mauna Loa.",
+            "date": null
+          },
+          {
+            "title": "Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov",
+            "link": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+            "position": 3,
+            "snippet": "In 2023, the annual average carbon dioxide at Mauna Loa Observatory was 419.3 parts per million, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm...",
+            "date": "2024-04-09T12:00:00Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"CO2 level forecast March 2025 Mauna Loa\", \"results\": [{\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/\", \"position\": 1, \"snippet\": \"Monthly average CO2 measured at Mauna Loa Observatory, Hawaii: February 2025 was 427.09 ppm. The Mauna Loa data is the longest record of direct atmospheric CO2 measurements...\", \"date\": null}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/gr.html\", \"position\": 2, \"snippet\": \"We finalize our estimate for the annual mean growth rate of the previous year in March, by using the average of the most recent November-February months, corrected for the average seasonal cycle...\", \"date\": null}, {\"title\": \"Daily CO2\", \"link\": \"https://www.co2.earth/daily-co2\", \"position\": 4, \"snippet\": \"Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data.\", \"date\": null}, {\"title\": \"Monthly CO2\", \"link\": \"https://www.co2.earth/monthly-co2\", \"position\": 5, \"snippet\": \"427.09 ppm CO2 in atmosphere in February 2025 at the Mauna Loa Observatory. Monthly comparison of CO2 levels measured by NOAA & Scripps at Mauna Loa.\", \"date\": null}, {\"title\": \"Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide\", \"position\": 3, \"snippet\": \"In 2023, the annual average carbon dioxide at Mauna Loa Observatory was 419.3 parts per million, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm...\", \"date\": \"2024-04-09T12:00:00Z\"}]}",
+      "tool_call_id": "call_cz5xBB9pxKxEMTSaYJbwVswe"
+    },
+    {
+      "name": "btf_retro_search_urls",
+      "content": {
+        "query": "recent studies on CO2 emissions 2025",
+        "results": [
+          {
+            "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+            "link": "https://www.eia.gov/outlooks/steo/report/total.php",
+            "position": 4,
+            "snippet": "We forecast U.S. energy-related carbon dioxide (CO2) emissions to increase by 2% in 2025 and to decrease by 1% in 2026.",
+            "date": null
+          },
+          {
+            "title": "Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov",
+            "link": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+            "position": 1,
+            "snippet": "Global average atmospheric carbon dioxide was 419.3 parts per million in 2023, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm.",
+            "date": "2024-04-09T12:00:00Z"
+          }
+        ]
+      },
+      "raw": "{\"query\": \"recent studies on CO2 emissions 2025\", \"results\": [{\"title\": \"Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/outlooks/steo/report/total.php\", \"position\": 4, \"snippet\": \"We forecast U.S. energy-related carbon dioxide (CO2) emissions to increase by 2% in 2025 and to decrease by 1% in 2026.\", \"date\": null}, {\"title\": \"Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide\", \"position\": 1, \"snippet\": \"Global average atmospheric carbon dioxide was 419.3 parts per million in 2023, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm.\", \"date\": \"2024-04-09T12:00:00Z\"}]}",
+      "tool_call_id": "call_JjkSadGyoM8ak2QbCeRxT7Oo"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://gml.noaa.gov/ccgg/trends/",
+        "snippet": "---\ntitle: Trends in CO2 - NOAA Global Monitoring Laboratory\nauthor: GML Web Team\nurl: https://gml.noaa.gov/ccgg/trends/index.html\nhostname: noaa.gov\ndescription: GML conducts research on greenhouse gas and carbon cycle feedbacks, changes in aerosols, and surface radiation, and recovery of stratospheric ozone.\nsitename: gml.noaa.gov\ndate: 2025-03-14\ntags: ['carbon doxide, co2, co2 increase, carbon dioxide increase, global co2 increase, co2 trend, co2 growth rate, trends in carbon dioxide, global network, trends in co2, mauna loa, mauna loa co2, dave keeling, keeling, pieter tans, greenhouse gases, NOAA, CMDL, GMD']\n---\n# Trends in CO2, CH4, N2O, SF6\n\n\n## Trends in Atmospheric Carbon Dioxide (CO2)\n\n### Monthly Average Mauna Loa CO2\n\n| February 2025: | 427.09 ppm |\n| February 2024: | 424.55 ppm |\n\nThe graphs show monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii.\nThe carbon dioxide data on Mauna\nLoa constitute the longest record of direct measurements of CO2 in the\natmosphere. They were started by C. David Keeling of the Scripps Institution\nof Oceanography in March of 1958 at a facility of the National Oceanic and\nAtmospheric Administration *[Keeling, 1976]*. NOAA started its own CO2\nmeasurements in May of 1974, and they have run in parallel with those made by\nScripps since then *[Thoning, 1989]*.\n\nThe last five complete years of the Mauna Loa CO2 record plus the current year\nare shown in the first graph. The full record of combined Scripps data and NOAA data is shown in the second graph.\nEvery monthly mean is the average of daily means, which are in\nturn based on hourly averages, but only for those hours during which “background” conditions\nprevail (see [gml.noaa.gov/ccgg/about/co2_measurements.html](https://gml.noaa.gov/ccgg/about/co2_measurements.html) for more information).\n\nThe **red** lines and symbols represent the monthly mean values,\ncentered on the middle of each month. The **black** lines and symbols represent the same,\nafter correction for the average seasonal cycle. The latter is determined as a moving average of\nSEVEN adjacent seasonal cycles centered on the month to be corrected, except for the first and\nlast THREE and one-half years of the record, where the seasonal cycle has been averaged over the\nfirst and last SEVEN years, respectively.\n\nThe vertical bars on the **black** lines of the first graph show the uncertainty\nof each monthly mean based on the observed variability of CO2 in different weather\nsystems as they go pa…\n\n[Truncated preview: showing 388 words out of ~578. Full content available via `btf_extract_evidence`.]",
+        "word_count": 578,
+        "snippet_word_count": 388,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-20T15:43:34.430131",
+        "date_cutoff_end": "2025-03-21T15:43:34.430131",
+        "cached_at": "2025-10-23T21:24:39.414890"
+      },
+      "raw": "{\"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"snippet\": \"---\\ntitle: Trends in CO2 - NOAA Global Monitoring Laboratory\\nauthor: GML Web Team\\nurl: https://gml.noaa.gov/ccgg/trends/index.html\\nhostname: noaa.gov\\ndescription: GML conducts research on greenhouse gas and carbon cycle feedbacks, changes in aerosols, and surface radiation, and recovery of stratospheric ozone.\\nsitename: gml.noaa.gov\\ndate: 2025-03-14\\ntags: ['carbon doxide, co2, co2 increase, carbon dioxide increase, global co2 increase, co2 trend, co2 growth rate, trends in carbon dioxide, global network, trends in co2, mauna loa, mauna loa co2, dave keeling, keeling, pieter tans, greenhouse gases, NOAA, CMDL, GMD']\\n---\\n# Trends in CO2, CH4, N2O, SF6\\n\\n\\n## Trends in Atmospheric Carbon Dioxide (CO2)\\n\\n### Monthly Average Mauna Loa CO2\\n\\n| February 2025: | 427.09 ppm |\\n| February 2024: | 424.55 ppm |\\n\\nThe graphs show monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii.\\nThe carbon dioxide data on Mauna\\nLoa constitute the longest record of direct measurements of CO2 in the\\natmosphere. They were started by C. David Keeling of the Scripps Institution\\nof Oceanography in March of 1958 at a facility of the National Oceanic and\\nAtmospheric Administration *[Keeling, 1976]*. NOAA started its own CO2\\nmeasurements in May of 1974, and they have run in parallel with those made by\\nScripps since then *[Thoning, 1989]*.\\n\\nThe last five complete years of the Mauna Loa CO2 record plus the current year\\nare shown in the first graph. The full record of combined Scripps data and NOAA data is shown in the second graph.\\nEvery monthly mean is the average of daily means, which are in\\nturn based on hourly averages, but only for those hours during which \\u201cbackground\\u201d conditions\\nprevail (see [gml.noaa.gov/ccgg/about/co2_measurements.html](https://gml.noaa.gov/ccgg/about/co2_measurements.html) for more information).\\n\\nThe **red** lines and symbols represent the monthly mean values,\\ncentered on the middle of each month. The **black** lines and symbols represent the same,\\nafter correction for the average seasonal cycle. The latter is determined as a moving average of\\nSEVEN adjacent seasonal cycles centered on the month to be corrected, except for the first and\\nlast THREE and one-half years of the record, where the seasonal cycle has been averaged over the\\nfirst and last SEVEN years, respectively.\\n\\nThe vertical bars on the **black** lines of the first graph show the uncertainty\\nof each monthly mean based on the observed variability of CO2 in different weather\\nsystems as they go pa\\u2026\\n\\n[Truncated preview: showing 388 words out of ~578. Full content available via `btf_extract_evidence`.]\", \"word_count\": 578, \"snippet_word_count\": 388, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-20T15:43:34.430131\", \"date_cutoff_end\": \"2025-03-21T15:43:34.430131\", \"cached_at\": \"2025-10-23T21:24:39.414890\"}",
+      "tool_call_id": "call_I54EUo1LNTFJOZZ1smXQ6mxK"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.co2.earth/daily-co2",
+        "snippet": "---\ntitle: CO2.Earth\nauthor: Michael McGee\nurl: https://www.co2.earth/daily-co2\nhostname: co2.earth\ndescription: Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data.\nsitename: co2.earth\ndate: 2015-08-29\ntags: ['2022, 2023, daily co2, mauna loa, noaa, scripps, keeling']\n---\n\n\n| loading... | loading... |\n| loading... | loading... |\n| 1 Year Change | loading... ppm (loading...) |\n\n\nLast CO2 Earth update: loading... on loading..., Hawaii local time (UTC -10)\n\n[Data source: NOAA GML (Mauna Loa Observatory)](https://gml.noaa.gov/ccgg/trends/monthly.html)\n\nUnits: parts per million (ppm)\n\n\nThis table presents the latest, daily average reading for atmospheric CO2 on the planet. Updates happen once a day with few exceptions.\n\n\n**CO2 Is The Number to Watch**\n\nWhen the trend for atmospheric CO2 trend begins to falter and fall, we can expect global average temperature to follow. For those who care about the sustainability of the planet, and who want it to remain a place where people can flourish, the measured CO2 levels in the atmosphere serve as the single best, real-time signal of whether the world as a whole is on track to a safe future, or needing to do more to get on track.\n\n\n\n|\n|\n\n\n\nExplore the info under the tabs below for more info and daily CO2 readings.\n\n\n[COMPARE](javascript:void(0);)-\n**Daily CO**2Comparisons [NOAA](javascript:void(0);)-\n**NOAA Daily CO**2**Recent Daily Average CO2 at Mauna Loa**(last 31 days)\n\n**Source Graphic**:[NOAA Daily Average MLO CO2](https://www.esrl.noaa.gov/gmd/ccgg/trends/monthly.html)**More NOAA****CO**: Daily / Weekly / Monthly2**Source Graphic**:[NOAA Weekly Mauna Loa Web Page](http://www.esrl.noaa.gov/gmd/ccgg/trends/weekly.html)The NOAA CO2 averages use colour codes as follows:\n\n**daily CO**2**= black dots****weekly CO**(Sunday to Saturday)2= red lines**monthly CO**.2= blue lines\n\n**Related Links****CO2 Earth**[Weekly CO2](https://www.co2.earth/weekly-co2) [Scripps](javascript:void(0);)-\n**Scripps Hourly & Daily CO**2Daily CO2 readings from the Scripps Institution of Oceanography are posted on the Scripps UCSD\n\n[Keeling Curve website](https://keelingcurve.ucsd.edu)and tweeted from the Scripps[@Keeling_Curve](https://twitter.com/Keeling_curve)account.[One Week](https://keelingcurve.ucsd.edu)|[One Month](https://scripps.ucsd.edu/programs/keelingcurve/wp-content/plugins/sio-bluemoon/graphs/mlo_one_month.png)|…\n\n[Truncated preview: showing 308 words out of ~1054. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1054,
+        "snippet_word_count": 308,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-20T15:43:34.430131",
+        "date_cutoff_end": "2025-03-21T15:43:34.430131",
+        "cached_at": "2025-10-23T21:24:39.884469"
+      },
+      "raw": "{\"url\": \"https://www.co2.earth/daily-co2\", \"snippet\": \"---\\ntitle: CO2.Earth\\nauthor: Michael McGee\\nurl: https://www.co2.earth/daily-co2\\nhostname: co2.earth\\ndescription: Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data.\\nsitename: co2.earth\\ndate: 2015-08-29\\ntags: ['2022, 2023, daily co2, mauna loa, noaa, scripps, keeling']\\n---\\n\\n\\n| loading... | loading... |\\n| loading... | loading... |\\n| 1 Year Change | loading... ppm (loading...) |\\n\\n\\nLast CO2 Earth update: loading... on loading..., Hawaii local time (UTC -10)\\n\\n[Data source: NOAA GML (Mauna Loa Observatory)](https://gml.noaa.gov/ccgg/trends/monthly.html)\\n\\nUnits: parts per million (ppm)\\n\\n\\nThis table presents the latest, daily average reading for atmospheric CO2 on the planet. Updates happen once a day with few exceptions.\\n\\n\\n**CO2 Is The Number to Watch**\\n\\nWhen the trend for atmospheric CO2 trend begins to falter and fall, we can expect global average temperature to follow. For those who care about the sustainability of the planet, and who want it to remain a place where people can flourish, the measured CO2 levels in the atmosphere serve as the single best, real-time signal of whether the world as a whole is on track to a safe future, or needing to do more to get on track.\\n\\n\\n\\n|\\n|\\n\\n\\n\\nExplore the info under the tabs below for more info and daily CO2 readings.\\n\\n\\n[COMPARE](javascript:void(0);)-\\n**Daily CO**2Comparisons [NOAA](javascript:void(0);)-\\n**NOAA Daily CO**2**Recent Daily Average CO2 at Mauna Loa**(last 31 days)\\n\\n**Source Graphic**:[NOAA Daily Average MLO CO2](https://www.esrl.noaa.gov/gmd/ccgg/trends/monthly.html)**More NOAA****CO**: Daily / Weekly / Monthly2**Source Graphic**:[NOAA Weekly Mauna Loa Web Page](http://www.esrl.noaa.gov/gmd/ccgg/trends/weekly.html)The NOAA CO2 averages use colour codes as follows:\\n\\n**daily CO**2**= black dots****weekly CO**(Sunday to Saturday)2= red lines**monthly CO**.2= blue lines\\n\\n**Related Links****CO2 Earth**[Weekly CO2](https://www.co2.earth/weekly-co2) [Scripps](javascript:void(0);)-\\n**Scripps Hourly & Daily CO**2Daily CO2 readings from the Scripps Institution of Oceanography are posted on the Scripps UCSD\\n\\n[Keeling Curve website](https://keelingcurve.ucsd.edu)and tweeted from the Scripps[@Keeling_Curve](https://twitter.com/Keeling_curve)account.[One Week](https://keelingcurve.ucsd.edu)|[One Month](https://scripps.ucsd.edu/programs/keelingcurve/wp-content/plugins/sio-bluemoon/graphs/mlo_one_month.png)|\\u2026\\n\\n[Truncated preview: showing 308 words out of ~1054. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1054, \"snippet_word_count\": 308, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-20T15:43:34.430131\", \"date_cutoff_end\": \"2025-03-21T15:43:34.430131\", \"cached_at\": \"2025-10-23T21:24:39.884469\"}",
+      "tool_call_id": "call_JrJiWXj0FW26sq0rSDlVT7Nk"
+    },
+    {
+      "name": "btf_fetch_url_content",
+      "content": {
+        "url": "https://www.co2.earth/co2-records",
+        "snippet": "---\ntitle: CO2.Earth\nauthor: Michael McGee\nurl: https://www.co2.earth/co2-records\nhostname: co2.earth\ndescription: 430.60 ppm is the all-time daily high for daily CO2 levels at the world famous Mauna Loa Observatory. View the details and records for atmospheric CO2 on daily, weekly and monthly time scales.\nsitename: co2.earth\ndate: 2019-11-23\ntags: ['daily CO2, weekly CO2, monthly CO2, yearly CO2, record, records, CO2 records, record high CO2']\n---\n\n|\n|\n|\n|\n|---|---|---|\nCO2 |\n\n**430.60 ppm**\n\nMar 7 2025\n\n**428.63 ppm**\n\nApr 26 2024\n\nCO2\n\n**427.94 ppm**\n\nApr 21 -27 2024\n\n**TBD****\n\n[data](https://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/weekly/weekly_in_situ_co2_mlo.csv)[Monthly](https://www.co2.earth/monthly-co2)\n\nCO2CO2\n\n**426.91 ppm**\n\nJun 2024\n\n**425.22 ppm****\n\nMar 2024\n\n[Yearly](https://www.co2.earth/annual-co2)\n\nCO2CO2\n\n** 418.56 ppm**\n\n2022\n\n** 416.45 ppm**\n\n2021\n\n** Mauna Loa record includes CO2 measurments at Maunakea site in 2022-2023 ** Record high for the institution, not for CO2 measurements at Mauna Loa*\n\n\nMarking the latest CO2 records is not an act of celebration, but of bearing witness.\n\nThe achievements are a sobering reminder of the chemical changes that we humans are collectively making to the atmosphere--changes with disruptive impacts that affect every living being in the biosphere. When a new record is reached, it is is marked here with an invitation for people to take notice, reflect on the transformation that is going in the wrong direction, and resolve to reverse these trends.\n\nReversing the trend is not something that any one person can achieve on their own. But individuals and groups can build on this CO2 Earth initiative by taking steps that help make the CO2 indicator for planetary health as ubiqutious as our stock market updates and weather reports. Consider sharing the CO2 Earth updates and records with people and groups that are part of your information-sharing circle.\n\n\n\n**A New Daily High Each Year**\n\nThe graphic below from [Teem Earth partner @NumberLens](https://partner.teem.earth/numberlens/) presents NOAA CO2 readings from1999 to 2020 to show the progression of the seasonal peak for daily CO2 readings at Mauna Loa. It shows that CO2 levels usually peak in April or May, a phenomena discovered by Charles David Keeling in the late 1950s and early 1960s when he began what became the world's longest-running, high preceision record of direct measurements of CO2 in background air. Read about this in…\n\n[Truncated preview: showing 367 words out of ~1778. Full content available via `btf_extract_evidence`.]",
+        "word_count": 1778,
+        "snippet_word_count": 367,
+        "snippet_truncated": true,
+        "date_cutoff_start": "2025-02-20T15:43:34.430131",
+        "date_cutoff_end": "2025-03-21T15:43:34.430131",
+        "cached_at": "2025-10-23T21:24:40.335084"
+      },
+      "raw": "{\"url\": \"https://www.co2.earth/co2-records\", \"snippet\": \"---\\ntitle: CO2.Earth\\nauthor: Michael McGee\\nurl: https://www.co2.earth/co2-records\\nhostname: co2.earth\\ndescription: 430.60 ppm is the all-time daily high for daily CO2 levels at the world famous Mauna Loa Observatory. View the details and records for atmospheric CO2 on daily, weekly and monthly time scales.\\nsitename: co2.earth\\ndate: 2019-11-23\\ntags: ['daily CO2, weekly CO2, monthly CO2, yearly CO2, record, records, CO2 records, record high CO2']\\n---\\n\\n|\\n|\\n|\\n|\\n|---|---|---|\\nCO2 |\\n\\n**430.60 ppm**\\n\\nMar 7 2025\\n\\n**428.63 ppm**\\n\\nApr 26 2024\\n\\nCO2\\n\\n**427.94 ppm**\\n\\nApr 21 -27 2024\\n\\n**TBD****\\n\\n[data](https://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/weekly/weekly_in_situ_co2_mlo.csv)[Monthly](https://www.co2.earth/monthly-co2)\\n\\nCO2CO2\\n\\n**426.91 ppm**\\n\\nJun 2024\\n\\n**425.22 ppm****\\n\\nMar 2024\\n\\n[Yearly](https://www.co2.earth/annual-co2)\\n\\nCO2CO2\\n\\n** 418.56 ppm**\\n\\n2022\\n\\n** 416.45 ppm**\\n\\n2021\\n\\n** Mauna Loa record includes CO2 measurments at Maunakea site in 2022-2023 ** Record high for the institution, not for CO2 measurements at Mauna Loa*\\n\\n\\nMarking the latest CO2 records is not an act of celebration, but of bearing witness.\\n\\nThe achievements are a sobering reminder of the chemical changes that we humans are collectively making to the atmosphere--changes with disruptive impacts that affect every living being in the biosphere. When a new record is reached, it is is marked here with an invitation for people to take notice, reflect on the transformation that is going in the wrong direction, and resolve to reverse these trends.\\n\\nReversing the trend is not something that any one person can achieve on their own. But individuals and groups can build on this CO2 Earth initiative by taking steps that help make the CO2 indicator for planetary health as ubiqutious as our stock market updates and weather reports. Consider sharing the CO2 Earth updates and records with people and groups that are part of your information-sharing circle.\\n\\n\\n\\n**A New Daily High Each Year**\\n\\nThe graphic below from [Teem Earth partner @NumberLens](https://partner.teem.earth/numberlens/) presents NOAA CO2 readings from1999 to 2020 to show the progression of the seasonal peak for daily CO2 readings at Mauna Loa. It shows that CO2 levels usually peak in April or May, a phenomena discovered by Charles David Keeling in the late 1950s and early 1960s when he began what became the world's longest-running, high preceision record of direct measurements of CO2 in background air. Read about this in\\u2026\\n\\n[Truncated preview: showing 367 words out of ~1778. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1778, \"snippet_word_count\": 367, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-20T15:43:34.430131\", \"date_cutoff_end\": \"2025-03-21T15:43:34.430131\", \"cached_at\": \"2025-10-23T21:24:40.335084\"}",
+      "tool_call_id": "call_TFXv5Yxp6PoA9lOsN89cRRbp"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0bb29ea5-623d-5132-8f47-f8d3b5c02155",
+        "url": "https://gml.noaa.gov/ccgg/trends/",
+        "facts": [
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "url": "https://gml.noaa.gov/ccgg/trends/",
+            "fact": "As of February 2025, the monthly average CO₂ level at Mauna Loa was 427.09 ppm."
+          },
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "url": "https://gml.noaa.gov/ccgg/trends/",
+            "fact": "The February 2024 CO₂ level was 424.55 ppm, indicating a year-over-year increase of approximately 2.54 ppm."
+          },
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "url": "https://gml.noaa.gov/ccgg/trends/",
+            "fact": "Historically, each March has had a higher monthly mean CO₂ level than the previous year's March."
+          },
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "url": "https://gml.noaa.gov/ccgg/trends/",
+            "fact": "The February 2025 CO₂ level of 427.09 ppm is already close to the 429.0 ppm threshold."
+          },
+          {
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "url": "https://gml.noaa.gov/ccgg/trends/",
+            "fact": "The period from late September through May is typically a time of rising CO₂ levels due to the Northern Hemisphere's fall and winter."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"facts\": [{\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"As of February 2025, the monthly average CO\\u2082 level at Mauna Loa was 427.09 ppm.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"The February 2024 CO\\u2082 level was 424.55 ppm, indicating a year-over-year increase of approximately 2.54 ppm.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"Historically, each March has had a higher monthly mean CO\\u2082 level than the previous year's March.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"The February 2025 CO\\u2082 level of 427.09 ppm is already close to the 429.0 ppm threshold.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"The period from late September through May is typically a time of rising CO\\u2082 levels due to the Northern Hemisphere's fall and winter.\"}]}",
+      "tool_call_id": "call_aQxl13t9Um888RcWSpfzLGfO"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0bb29ea5-623d-5132-8f47-f8d3b5c02155",
+        "url": "https://www.co2.earth/daily-co2",
+        "facts": [
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/daily-co2",
+            "fact": "The most recent CO2 reading from February 6, 2025, is 428.6 ppm."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/daily-co2",
+            "fact": "CO2 levels have shown a consistent year-over-year increase, with the March 2024 level at 425.38 ppm, a 1.04% increase from the previous year."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/daily-co2",
+            "fact": "The period from late September through May is typically a time of rising CO2 levels due to the Northern Hemisphere's fall and winter."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/daily-co2",
+            "fact": "Each March since records began has had a higher monthly mean CO2 level than the previous year's March."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/daily-co2",
+            "fact": "The Mauna Loa Observatory is the primary source for real-time CO2 measurements, providing direct observations rather than estimates or projections."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"url\": \"https://www.co2.earth/daily-co2\", \"facts\": [{\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"The most recent CO2 reading from February 6, 2025, is 428.6 ppm.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"CO2 levels have shown a consistent year-over-year increase, with the March 2024 level at 425.38 ppm, a 1.04% increase from the previous year.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"The period from late September through May is typically a time of rising CO2 levels due to the Northern Hemisphere's fall and winter.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"Each March since records began has had a higher monthly mean CO2 level than the previous year's March.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"The Mauna Loa Observatory is the primary source for real-time CO2 measurements, providing direct observations rather than estimates or projections.\"}]}",
+      "tool_call_id": "call_iavtTYSCx5q6HfrhBgvi2HBP"
+    },
+    {
+      "name": "btf_extract_evidence",
+      "content": {
+        "question_id": "0bb29ea5-623d-5132-8f47-f8d3b5c02155",
+        "url": "https://www.co2.earth/co2-records",
+        "facts": [
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/co2-records",
+            "fact": "As of March 7, 2025, the daily CO₂ level at Mauna Loa reached 430.60 ppm, setting a new all-time high."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/co2-records",
+            "fact": "The CO₂ level for March 2024 was 425.38 ppm, showing a significant year-over-year increase."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/co2-records",
+            "fact": "The CO₂ level for April 2024 was 426.57 ppm, indicating a continued upward trend."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/co2-records",
+            "fact": "The CO₂ level for May 2024 was 426.90 ppm, further confirming the rising trend."
+          },
+          {
+            "title": "CO2.Earth",
+            "url": "https://www.co2.earth/co2-records",
+            "fact": "The CO₂ level for June 2024 was 426.91 ppm, maintaining the pattern of increasing levels."
+          }
+        ]
+      },
+      "raw": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"url\": \"https://www.co2.earth/co2-records\", \"facts\": [{\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"As of March 7, 2025, the daily CO\\u2082 level at Mauna Loa reached 430.60 ppm, setting a new all-time high.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for March 2024 was 425.38 ppm, showing a significant year-over-year increase.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for April 2024 was 426.57 ppm, indicating a continued upward trend.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for May 2024 was 426.90 ppm, further confirming the rising trend.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for June 2024 was 426.91 ppm, maintaining the pattern of increasing levels.\"}]}",
+      "tool_call_id": "call_OhMTLRsE1kw6KFk3OOWFwQTd"
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Based on the following question, analyze it carefully and provide your probability estimate.\n\nQuestion: Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be less than 429.0 ppm?\nBackground: *This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nThe [Mauna Loa Observatory](https://gml.noaa.gov/obop/mlo/), located over 11,000 feet (\\~3,400 meters) above sea level on the main island of Hawaii, has been recording atmospheric CO₂ since 1958. In that time, [measured background CO2](https://gml.noaa.gov/ccgg/about/co2_measurements.html) has risen from 313 parts per million (ppm) to the most recent (February 6, 2025) reading of 428.6 ppm, a 37% increase and a phenomenon known as the [Keeling Curve](https://www.acs.org/education/whatischemistry/landmarks/keeling-curve.html):&#x20;\n\n![](https://gml.noaa.gov/webdata/ccgg/trends/co2_data_mlo.png)\n\nCO₂ levels have seasonal fluctuations [due to](https://www.universityofcalifornia.edu/news/during-year-extremes-carbon-dioxide-levels-surge-faster-ever) the growing season in the Northern Hemisphere, with the period of late September through May being a period of rising CO₂ coinciding with the northern fall and winter. Since records have been kept at Mauna Loa, each March has had a higher [monthly mean](https://gml.noaa.gov/ccgg/trends/data.html) level of CO₂ than the previous year's March, with the past decade as follows:\n\n| Year | CO₂ ppm | YoY increase |\n| ---- | ------- | ------------ |\n| 2010 | 391.37  | 0.60%        |\n| 2011 | 392.8   | 0.37%        |\n| 2012 | 394.59  | 0.46%        |\n| 2013 | 397.66  | 0.78%        |\n| 2014 | 399.91  | 0.57%        |\n| 2015 | 401.74  | 0.46%        |\n| 2016 | 405.06  | 0.83%        |\n| 2017 | 407.54  | 0.61%        |\n| 2018 | 409.59  | 0.50%        |\n| 2019 | 412.18  | 0.63%        |\n| 2020 | 414.72  | 0.62%        |\n| 2021 | 417.61  | 0.70%        |\n| 2022 | 418.76  | 0.28%        |\n| 2023 | 420.99  | 0.53%        |\n| 2024 | 425.38  | 1.04%        |\n\nCO₂ is a [greenhouse gas](https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide), with a [high correlation](https://www.nature.com/articles/srep21691) between rising CO₂ levels and increased surface temperatures.\nResolution criteria: This question resolves as YES if the maximum daily average carbon dioxide (CO₂) level for the time period March 1, 2025 to March 25, 2025 (inclusive) is less than 429.0 ppm, according to data reported by the Mauna Loa Observatory of the National Oceanic and Atmospheric Administration's Global Monitoring Laboratory. (See Fine Print for detailed instructions on accessing the data.)\n\nThe question will resolve when the data is assessed by Metaculus on March 28, 2025. Later updates or revisions to the data after the question has resolved are immaterial.\nFine print: If a daily mean for any of the dates is missing on March 28, 2025, resolution will wait until March 31, 2025 for the data to become complete. If at that time 13 or more of the daily means are available, then the question will resolve based on that data. If fewer than 13 daily means for the period in question are available before 5 PM Eastern Time on March 31, 2025, then this question will be **annulled**.\n\nDETAILED INSTRUCTIONS TO ACCESS DATA:\n\n1. Go to \"Trends in Atmospheric Carbon Dioxide (CO₂)\" for Mauna Loa, Hawaii [here](https://gml.noaa.gov/ccgg/trends/data.html) and access the \"Data\" tab.\n2. Download the \"Mauna Loa CO₂ daily means\" CSV file.\n3. Column A corresponds to the year, Column B corresponds to the month number (March is 3), and Column C corresponds to the date.\n4. Column E is the CO₂ reading for each date.\n5. Resolution amount will be the maximum CO₂ reading for the dates March 1, 2025 through March 25, 2025. The Excel/Google Sheets command is MAX, so for example if the data appears in rows 15610 through 15634, the formula is =max(E15610:E15634).\npresent_date: 2025-03-20T15:43:34.430131\n\n\nMake sure to use the tools at your disposal to gather relevant information before providing your final probability estimate.\n\nYou may reason through the problem, but you MUST end your response with:\nFINAL PROBABILITY: [your decimal number between 0 and 1]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_tar1lIQBtqP4RpXEDbMnL3VB",
+          "type": "function",
+          "function": {
+            "name": "btf_generate_search_queries",
+            "arguments": "{\"question_id\":\"\",\"question\":\"Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be less than 429.0 ppm?\",\"background\":\"The Mauna Loa Observatory, located over 11,000 feet (~3,400 meters) above sea level on the main island of Hawaii, has been recording atmospheric CO₂ since 1958. In that time, measured background CO2 has risen from 313 parts per million (ppm) to the most recent (February 6, 2025) reading of 428.6 ppm, a 37% increase and a phenomenon known as the Keeling Curve. CO₂ levels have seasonal fluctuations due to the growing season in the Northern Hemisphere, with the period of late September through May being a period of rising CO₂ coinciding with the northern fall and winter. Since records have been kept at Mauna Loa, each March has had a higher monthly mean level of CO₂ than the previous year's March. CO₂ is a greenhouse gas, with a high correlation between rising CO₂ levels and increased surface temperatures.\",\"resolution_criteria\":\"This question resolves as YES if the maximum daily average carbon dioxide (CO₂) level for the time period March 1, 2025 to March 25, 2025 (inclusive) is less than 429.0 ppm, according to data reported by the Mauna Loa Observatory of the National Oceanic and Atmospheric Administration's Global Monitoring Laboratory.\",\"fine_print\":\"If a daily mean for any of the dates is missing on March 28, 2025, resolution will wait until March 31, 2025 for the data to become complete. If at that time 13 or more of the daily means are available, then the question will resolve based on that data. If fewer than 13 daily means for the period in question are available before 5 PM Eastern Time on March 31, 2025, then this question will be annulled.\",\"present_date\":\"2025-03-20T15:43:34.430131\",\"date_cutoff_start\":null,\"date_cutoff_end\":null,\"scoring_weight\":1.0,\"resolution\":\"unknown\",\"resolved_at\":null,\"max_queries\":5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"queries\": [\"Mauna Loa Observatory CO2 levels March 2025\", \"CO2 level forecast March 2025 Mauna Loa\", \"recent studies on CO2 emissions 2025\"]}",
+      "name": "btf_generate_search_queries",
+      "tool_call_id": "call_tar1lIQBtqP4RpXEDbMnL3VB"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_wYS4H72R8f6MGRYcQlctjqmU",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"Mauna Loa Observatory CO2 levels March 2025\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_cz5xBB9pxKxEMTSaYJbwVswe",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"CO2 level forecast March 2025 Mauna Loa\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"max_results\": 5}"
+          }
+        },
+        {
+          "id": "call_JjkSadGyoM8ak2QbCeRxT7Oo",
+          "type": "function",
+          "function": {
+            "name": "btf_retro_search_urls",
+            "arguments": "{\"query\": \"recent studies on CO2 emissions 2025\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"max_results\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"Mauna Loa Observatory CO2 levels March 2025\", \"results\": [{\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/\", \"position\": 1, \"snippet\": \"Monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii for February 2025 was 427.09 ppm. The last year of data are still preliminary...\", \"date\": null}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/gr.html\", \"position\": 2, \"snippet\": \"The annual mean growth rate for the previous year is finalized in March, using the average of the most recent November-February months...\", \"date\": null}, {\"title\": \"Daily CO2\", \"link\": \"https://www.co2.earth/daily-co2\", \"position\": 4, \"snippet\": \"CO2.Earth provides continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii, featuring NOAA MLO data and charts...\", \"date\": null}, {\"title\": \"CO2 Records\", \"link\": \"https://www.co2.earth/co2-records\", \"position\": 5, \"snippet\": \"Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa...\", \"date\": null}, {\"title\": \"CO2 Records\", \"link\": \"https://www.co2.earth/co2-records\", \"position\": 1, \"snippet\": \"Mar 7 2025 - NOAA | CO2 Earth: 430.60 ppm. New all-time daily highs reached in 2025 for CO2 levels recorded at the Mauna Loa...\", \"date\": null}, {\"title\": \"Hawaiian Observatory Clocks Highest Annual Jump in Atmospheric Carbon Dioxide Since Its Records Began 67 Years Ago | Smithsonian\", \"link\": \"https://www.smithsonianmag.com/smart-news/hawaiian-observatory-clocks-highest-annual-jump-in-atmospheric-carbon-dioxide-since-its-records-began-67-years-ago-180985868/\", \"position\": 3, \"snippet\": \"The Mauna Loa Observatory recorded the largest annual increase in atmospheric carbon dioxide in 67 years, reaching 427 ppm in 2024...\", \"date\": null}, {\"title\": \"During year of extremes, carbon dioxide levels surge faster than ever | University of California\", \"link\": \"https://www.universityofcalifornia.edu/news/during-year-extremes-carbon-dioxide-levels-surge-faster-ever\", \"position\": 4, \"snippet\": \"From January through April, NOAA and Scripps scientists said CO2 concentrations increased more rapidly than they have in the first four months of any other year.\", \"date\": \"2024-06-06T22:44:42Z\"}, {\"title\": \"NASA SVS | Concentration Increase of Atmospheric Carbon Dioxide (CO\\u2082)\", \"link\": \"https://svs.gsfc.nasa.gov/4962/\", \"position\": 5, \"snippet\": \"Using the complete record of Mauna Loa CO 2 monthly mean data, the timeplot displays monthly average atmospheric CO2 concentration values, showing seasonal cycles and steady increases up to December 2021.\", \"date\": \"2022-01-12T05:00:00Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_wYS4H72R8f6MGRYcQlctjqmU"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"CO2 level forecast March 2025 Mauna Loa\", \"results\": [{\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/\", \"position\": 1, \"snippet\": \"Monthly average CO2 measured at Mauna Loa Observatory, Hawaii: February 2025 was 427.09 ppm. The Mauna Loa data is the longest record of direct atmospheric CO2 measurements...\", \"date\": null}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"link\": \"https://gml.noaa.gov/ccgg/trends/gr.html\", \"position\": 2, \"snippet\": \"We finalize our estimate for the annual mean growth rate of the previous year in March, by using the average of the most recent November-February months, corrected for the average seasonal cycle...\", \"date\": null}, {\"title\": \"Daily CO2\", \"link\": \"https://www.co2.earth/daily-co2\", \"position\": 4, \"snippet\": \"Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data.\", \"date\": null}, {\"title\": \"Monthly CO2\", \"link\": \"https://www.co2.earth/monthly-co2\", \"position\": 5, \"snippet\": \"427.09 ppm CO2 in atmosphere in February 2025 at the Mauna Loa Observatory. Monthly comparison of CO2 levels measured by NOAA & Scripps at Mauna Loa.\", \"date\": null}, {\"title\": \"Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide\", \"position\": 3, \"snippet\": \"In 2023, the annual average carbon dioxide at Mauna Loa Observatory was 419.3 parts per million, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm...\", \"date\": \"2024-04-09T12:00:00Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_cz5xBB9pxKxEMTSaYJbwVswe"
+    },
+    {
+      "role": "tool",
+      "content": "{\"query\": \"recent studies on CO2 emissions 2025\", \"results\": [{\"title\": \"Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)\", \"link\": \"https://www.eia.gov/outlooks/steo/report/total.php\", \"position\": 4, \"snippet\": \"We forecast U.S. energy-related carbon dioxide (CO2) emissions to increase by 2% in 2025 and to decrease by 1% in 2026.\", \"date\": null}, {\"title\": \"Climate Change: Atmospheric Carbon Dioxide | NOAA Climate.gov\", \"link\": \"https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide\", \"position\": 1, \"snippet\": \"Global average atmospheric carbon dioxide was 419.3 parts per million in 2023, setting a new record high. The increase between 2022 and 2023 was 2.8 ppm.\", \"date\": \"2024-04-09T12:00:00Z\"}]}",
+      "name": "btf_retro_search_urls",
+      "tool_call_id": "call_JjkSadGyoM8ak2QbCeRxT7Oo"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_I54EUo1LNTFJOZZ1smXQ6mxK",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://gml.noaa.gov/ccgg/trends/\"}"
+          }
+        },
+        {
+          "id": "call_JrJiWXj0FW26sq0rSDlVT7Nk",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.co2.earth/daily-co2\"}"
+          }
+        },
+        {
+          "id": "call_TFXv5Yxp6PoA9lOsN89cRRbp",
+          "type": "function",
+          "function": {
+            "name": "btf_fetch_url_content",
+            "arguments": "{\"url\": \"https://www.co2.earth/co2-records\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"snippet\": \"---\\ntitle: Trends in CO2 - NOAA Global Monitoring Laboratory\\nauthor: GML Web Team\\nurl: https://gml.noaa.gov/ccgg/trends/index.html\\nhostname: noaa.gov\\ndescription: GML conducts research on greenhouse gas and carbon cycle feedbacks, changes in aerosols, and surface radiation, and recovery of stratospheric ozone.\\nsitename: gml.noaa.gov\\ndate: 2025-03-14\\ntags: ['carbon doxide, co2, co2 increase, carbon dioxide increase, global co2 increase, co2 trend, co2 growth rate, trends in carbon dioxide, global network, trends in co2, mauna loa, mauna loa co2, dave keeling, keeling, pieter tans, greenhouse gases, NOAA, CMDL, GMD']\\n---\\n# Trends in CO2, CH4, N2O, SF6\\n\\n\\n## Trends in Atmospheric Carbon Dioxide (CO2)\\n\\n### Monthly Average Mauna Loa CO2\\n\\n| February 2025: | 427.09 ppm |\\n| February 2024: | 424.55 ppm |\\n\\nThe graphs show monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii.\\nThe carbon dioxide data on Mauna\\nLoa constitute the longest record of direct measurements of CO2 in the\\natmosphere. They were started by C. David Keeling of the Scripps Institution\\nof Oceanography in March of 1958 at a facility of the National Oceanic and\\nAtmospheric Administration *[Keeling, 1976]*. NOAA started its own CO2\\nmeasurements in May of 1974, and they have run in parallel with those made by\\nScripps since then *[Thoning, 1989]*.\\n\\nThe last five complete years of the Mauna Loa CO2 record plus the current year\\nare shown in the first graph. The full record of combined Scripps data and NOAA data is shown in the second graph.\\nEvery monthly mean is the average of daily means, which are in\\nturn based on hourly averages, but only for those hours during which \\u201cbackground\\u201d conditions\\nprevail (see [gml.noaa.gov/ccgg/about/co2_measurements.html](https://gml.noaa.gov/ccgg/about/co2_measurements.html) for more information).\\n\\nThe **red** lines and symbols represent the monthly mean values,\\ncentered on the middle of each month. The **black** lines and symbols represent the same,\\nafter correction for the average seasonal cycle. The latter is determined as a moving average of\\nSEVEN adjacent seasonal cycles centered on the month to be corrected, except for the first and\\nlast THREE and one-half years of the record, where the seasonal cycle has been averaged over the\\nfirst and last SEVEN years, respectively.\\n\\nThe vertical bars on the **black** lines of the first graph show the uncertainty\\nof each monthly mean based on the observed variability of CO2 in different weather\\nsystems as they go pa\\u2026\\n\\n[Truncated preview: showing 388 words out of ~578. Full content available via `btf_extract_evidence`.]\", \"word_count\": 578, \"snippet_word_count\": 388, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-20T15:43:34.430131\", \"date_cutoff_end\": \"2025-03-21T15:43:34.430131\", \"cached_at\": \"2025-10-23T21:24:39.414890\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_I54EUo1LNTFJOZZ1smXQ6mxK"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.co2.earth/daily-co2\", \"snippet\": \"---\\ntitle: CO2.Earth\\nauthor: Michael McGee\\nurl: https://www.co2.earth/daily-co2\\nhostname: co2.earth\\ndescription: Continual updates of daily CO2 levels recorded at the Mauna Loa Observatory in Hawaii. The page features NOAA MLO data and charts with charts and links for Scripps MLO data.\\nsitename: co2.earth\\ndate: 2015-08-29\\ntags: ['2022, 2023, daily co2, mauna loa, noaa, scripps, keeling']\\n---\\n\\n\\n| loading... | loading... |\\n| loading... | loading... |\\n| 1 Year Change | loading... ppm (loading...) |\\n\\n\\nLast CO2 Earth update: loading... on loading..., Hawaii local time (UTC -10)\\n\\n[Data source: NOAA GML (Mauna Loa Observatory)](https://gml.noaa.gov/ccgg/trends/monthly.html)\\n\\nUnits: parts per million (ppm)\\n\\n\\nThis table presents the latest, daily average reading for atmospheric CO2 on the planet. Updates happen once a day with few exceptions.\\n\\n\\n**CO2 Is The Number to Watch**\\n\\nWhen the trend for atmospheric CO2 trend begins to falter and fall, we can expect global average temperature to follow. For those who care about the sustainability of the planet, and who want it to remain a place where people can flourish, the measured CO2 levels in the atmosphere serve as the single best, real-time signal of whether the world as a whole is on track to a safe future, or needing to do more to get on track.\\n\\n\\n\\n|\\n|\\n\\n\\n\\nExplore the info under the tabs below for more info and daily CO2 readings.\\n\\n\\n[COMPARE](javascript:void(0);)-\\n**Daily CO**2Comparisons [NOAA](javascript:void(0);)-\\n**NOAA Daily CO**2**Recent Daily Average CO2 at Mauna Loa**(last 31 days)\\n\\n**Source Graphic**:[NOAA Daily Average MLO CO2](https://www.esrl.noaa.gov/gmd/ccgg/trends/monthly.html)**More NOAA****CO**: Daily / Weekly / Monthly2**Source Graphic**:[NOAA Weekly Mauna Loa Web Page](http://www.esrl.noaa.gov/gmd/ccgg/trends/weekly.html)The NOAA CO2 averages use colour codes as follows:\\n\\n**daily CO**2**= black dots****weekly CO**(Sunday to Saturday)2= red lines**monthly CO**.2= blue lines\\n\\n**Related Links****CO2 Earth**[Weekly CO2](https://www.co2.earth/weekly-co2) [Scripps](javascript:void(0);)-\\n**Scripps Hourly & Daily CO**2Daily CO2 readings from the Scripps Institution of Oceanography are posted on the Scripps UCSD\\n\\n[Keeling Curve website](https://keelingcurve.ucsd.edu)and tweeted from the Scripps[@Keeling_Curve](https://twitter.com/Keeling_curve)account.[One Week](https://keelingcurve.ucsd.edu)|[One Month](https://scripps.ucsd.edu/programs/keelingcurve/wp-content/plugins/sio-bluemoon/graphs/mlo_one_month.png)|\\u2026\\n\\n[Truncated preview: showing 308 words out of ~1054. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1054, \"snippet_word_count\": 308, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-20T15:43:34.430131\", \"date_cutoff_end\": \"2025-03-21T15:43:34.430131\", \"cached_at\": \"2025-10-23T21:24:39.884469\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_JrJiWXj0FW26sq0rSDlVT7Nk"
+    },
+    {
+      "role": "tool",
+      "content": "{\"url\": \"https://www.co2.earth/co2-records\", \"snippet\": \"---\\ntitle: CO2.Earth\\nauthor: Michael McGee\\nurl: https://www.co2.earth/co2-records\\nhostname: co2.earth\\ndescription: 430.60 ppm is the all-time daily high for daily CO2 levels at the world famous Mauna Loa Observatory. View the details and records for atmospheric CO2 on daily, weekly and monthly time scales.\\nsitename: co2.earth\\ndate: 2019-11-23\\ntags: ['daily CO2, weekly CO2, monthly CO2, yearly CO2, record, records, CO2 records, record high CO2']\\n---\\n\\n|\\n|\\n|\\n|\\n|---|---|---|\\nCO2 |\\n\\n**430.60 ppm**\\n\\nMar 7 2025\\n\\n**428.63 ppm**\\n\\nApr 26 2024\\n\\nCO2\\n\\n**427.94 ppm**\\n\\nApr 21 -27 2024\\n\\n**TBD****\\n\\n[data](https://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/weekly/weekly_in_situ_co2_mlo.csv)[Monthly](https://www.co2.earth/monthly-co2)\\n\\nCO2CO2\\n\\n**426.91 ppm**\\n\\nJun 2024\\n\\n**425.22 ppm****\\n\\nMar 2024\\n\\n[Yearly](https://www.co2.earth/annual-co2)\\n\\nCO2CO2\\n\\n** 418.56 ppm**\\n\\n2022\\n\\n** 416.45 ppm**\\n\\n2021\\n\\n** Mauna Loa record includes CO2 measurments at Maunakea site in 2022-2023 ** Record high for the institution, not for CO2 measurements at Mauna Loa*\\n\\n\\nMarking the latest CO2 records is not an act of celebration, but of bearing witness.\\n\\nThe achievements are a sobering reminder of the chemical changes that we humans are collectively making to the atmosphere--changes with disruptive impacts that affect every living being in the biosphere. When a new record is reached, it is is marked here with an invitation for people to take notice, reflect on the transformation that is going in the wrong direction, and resolve to reverse these trends.\\n\\nReversing the trend is not something that any one person can achieve on their own. But individuals and groups can build on this CO2 Earth initiative by taking steps that help make the CO2 indicator for planetary health as ubiqutious as our stock market updates and weather reports. Consider sharing the CO2 Earth updates and records with people and groups that are part of your information-sharing circle.\\n\\n\\n\\n**A New Daily High Each Year**\\n\\nThe graphic below from [Teem Earth partner @NumberLens](https://partner.teem.earth/numberlens/) presents NOAA CO2 readings from1999 to 2020 to show the progression of the seasonal peak for daily CO2 readings at Mauna Loa. It shows that CO2 levels usually peak in April or May, a phenomena discovered by Charles David Keeling in the late 1950s and early 1960s when he began what became the world's longest-running, high preceision record of direct measurements of CO2 in background air. Read about this in\\u2026\\n\\n[Truncated preview: showing 367 words out of ~1778. Full content available via `btf_extract_evidence`.]\", \"word_count\": 1778, \"snippet_word_count\": 367, \"snippet_truncated\": true, \"date_cutoff_start\": \"2025-02-20T15:43:34.430131\", \"date_cutoff_end\": \"2025-03-21T15:43:34.430131\", \"cached_at\": \"2025-10-23T21:24:40.335084\"}",
+      "name": "btf_fetch_url_content",
+      "tool_call_id": "call_TFXv5Yxp6PoA9lOsN89cRRbp"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_aQxl13t9Um888RcWSpfzLGfO",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"content\": null, \"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"question_id\": \"\", \"question\": \"Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be less than 429.0 ppm?\", \"background\": \"The Mauna Loa Observatory, located over 11,000 feet (~3,400 meters) above sea level on the main island of Hawaii, has been recording atmospheric CO₂ since 1958. In that time, measured background CO2 has risen from 313 parts per million (ppm) to the most recent (February 6, 2025) reading of 428.6 ppm, a 37% increase and a phenomenon known as the Keeling Curve. CO₂ levels have seasonal fluctuations due to the growing season in the Northern Hemisphere, with the period of late September through May being a period of rising CO₂ coinciding with the northern fall and winter. Since records have been kept at Mauna Loa, each March has had a higher monthly mean level of CO₂ than the previous year's March. CO₂ is a greenhouse gas, with a high correlation between rising CO₂ levels and increased surface temperatures.\", \"resolution_criteria\": \"This question resolves as YES if the maximum daily average carbon dioxide (CO₂) level for the time period March 1, 2025 to March 25, 2025 (inclusive) is less than 429.0 ppm, according to data reported by the Mauna Loa Observatory of the National Oceanic and Atmospheric Administration's Global Monitoring Laboratory.\", \"fine_print\": \"If a daily mean for any of the dates is missing on March 28, 2025, resolution will wait until March 31, 2025 for the data to become complete. If at that time 13 or more of the daily means are available, then the question will resolve based on that data. If fewer than 13 daily means for the period in question are available before 5 PM Eastern Time on March 31, 2025, then this question will be annulled.\", \"present_date\": \"2025-03-20T15:43:34.430131\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_iavtTYSCx5q6HfrhBgvi2HBP",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.co2.earth/daily-co2\", \"content\": null, \"title\": \"CO2.Earth\", \"question_id\": \"\", \"question\": \"Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be less than 429.0 ppm?\", \"background\": \"The Mauna Loa Observatory, located over 11,000 feet (~3,400 meters) above sea level on the main island of Hawaii, has been recording atmospheric CO₂ since 1958. In that time, measured background CO2 has risen from 313 parts per million (ppm) to the most recent (February 6, 2025) reading of 428.6 ppm, a 37% increase and a phenomenon known as the Keeling Curve. CO₂ levels have seasonal fluctuations due to the growing season in the Northern Hemisphere, with the period of late September through May being a period of rising CO₂ coinciding with the northern fall and winter. Since records have been kept at Mauna Loa, each March has had a higher monthly mean level of CO₂ than the previous year's March. CO₂ is a greenhouse gas, with a high correlation between rising CO₂ levels and increased surface temperatures.\", \"resolution_criteria\": \"This question resolves as YES if the maximum daily average carbon dioxide (CO₂) level for the time period March 1, 2025 to March 25, 2025 (inclusive) is less than 429.0 ppm, according to data reported by the Mauna Loa Observatory of the National Oceanic and Atmospheric Administration's Global Monitoring Laboratory.\", \"fine_print\": \"If a daily mean for any of the dates is missing on March 28, 2025, resolution will wait until March 31, 2025 for the data to become complete. If at that time 13 or more of the daily means are available, then the question will resolve based on that data. If fewer than 13 daily means for the period in question are available before 5 PM Eastern Time on March 31, 2025, then this question will be annulled.\", \"present_date\": \"2025-03-20T15:43:34.430131\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        },
+        {
+          "id": "call_OhMTLRsE1kw6KFk3OOWFwQTd",
+          "type": "function",
+          "function": {
+            "name": "btf_extract_evidence",
+            "arguments": "{\"url\": \"https://www.co2.earth/co2-records\", \"content\": null, \"title\": \"CO2.Earth\", \"question_id\": \"\", \"question\": \"Will the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025 be less than 429.0 ppm?\", \"background\": \"The Mauna Loa Observatory, located over 11,000 feet (~3,400 meters) above sea level on the main island of Hawaii, has been recording atmospheric CO₂ since 1958. In that time, measured background CO2 has risen from 313 parts per million (ppm) to the most recent (February 6, 2025) reading of 428.6 ppm, a 37% increase and a phenomenon known as the Keeling Curve. CO₂ levels have seasonal fluctuations due to the growing season in the Northern Hemisphere, with the period of late September through May being a period of rising CO₂ coinciding with the northern fall and winter. Since records have been kept at Mauna Loa, each March has had a higher monthly mean level of CO₂ than the previous year's March. CO₂ is a greenhouse gas, with a high correlation between rising CO₂ levels and increased surface temperatures.\", \"resolution_criteria\": \"This question resolves as YES if the maximum daily average carbon dioxide (CO₂) level for the time period March 1, 2025 to March 25, 2025 (inclusive) is less than 429.0 ppm, according to data reported by the Mauna Loa Observatory of the National Oceanic and Atmospheric Administration's Global Monitoring Laboratory.\", \"fine_print\": \"If a daily mean for any of the dates is missing on March 28, 2025, resolution will wait until March 31, 2025 for the data to become complete. If at that time 13 or more of the daily means are available, then the question will resolve based on that data. If fewer than 13 daily means for the period in question are available before 5 PM Eastern Time on March 31, 2025, then this question will be annulled.\", \"present_date\": \"2025-03-20T15:43:34.430131\", \"date_cutoff_start\": null, \"date_cutoff_end\": null, \"scoring_weight\": 1.0, \"resolution\": \"unknown\", \"resolved_at\": null, \"max_facts\": 5}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"facts\": [{\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"As of February 2025, the monthly average CO\\u2082 level at Mauna Loa was 427.09 ppm.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"The February 2024 CO\\u2082 level was 424.55 ppm, indicating a year-over-year increase of approximately 2.54 ppm.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"Historically, each March has had a higher monthly mean CO\\u2082 level than the previous year's March.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"The February 2025 CO\\u2082 level of 427.09 ppm is already close to the 429.0 ppm threshold.\"}, {\"title\": \"Trends in CO2 - NOAA Global Monitoring Laboratory\", \"url\": \"https://gml.noaa.gov/ccgg/trends/\", \"fact\": \"The period from late September through May is typically a time of rising CO\\u2082 levels due to the Northern Hemisphere's fall and winter.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_aQxl13t9Um888RcWSpfzLGfO"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"url\": \"https://www.co2.earth/daily-co2\", \"facts\": [{\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"The most recent CO2 reading from February 6, 2025, is 428.6 ppm.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"CO2 levels have shown a consistent year-over-year increase, with the March 2024 level at 425.38 ppm, a 1.04% increase from the previous year.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"The period from late September through May is typically a time of rising CO2 levels due to the Northern Hemisphere's fall and winter.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"Each March since records began has had a higher monthly mean CO2 level than the previous year's March.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/daily-co2\", \"fact\": \"The Mauna Loa Observatory is the primary source for real-time CO2 measurements, providing direct observations rather than estimates or projections.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_iavtTYSCx5q6HfrhBgvi2HBP"
+    },
+    {
+      "role": "tool",
+      "content": "{\"question_id\": \"0bb29ea5-623d-5132-8f47-f8d3b5c02155\", \"url\": \"https://www.co2.earth/co2-records\", \"facts\": [{\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"As of March 7, 2025, the daily CO\\u2082 level at Mauna Loa reached 430.60 ppm, setting a new all-time high.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for March 2024 was 425.38 ppm, showing a significant year-over-year increase.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for April 2024 was 426.57 ppm, indicating a continued upward trend.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for May 2024 was 426.90 ppm, further confirming the rising trend.\"}, {\"title\": \"CO2.Earth\", \"url\": \"https://www.co2.earth/co2-records\", \"fact\": \"The CO\\u2082 level for June 2024 was 426.91 ppm, maintaining the pattern of increasing levels.\"}]}",
+      "name": "btf_extract_evidence",
+      "tool_call_id": "call_OhMTLRsE1kw6KFk3OOWFwQTd"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the gathered evidence, here are the key points relevant to estimating the probability of the maximum daily average CO₂ level being less than 429.0 ppm for March 1-25, 2025:\n\n1. **Recent CO₂ Levels**: As of February 2025, the monthly average CO₂ level at Mauna Loa was 427.09 ppm. The most recent reading from February 6, 2025, was 428.6 ppm.\n\n2. **Historical Trends**: Historically, each March has had a higher monthly mean CO₂ level than the previous year's March. The period from late September through May is typically a time of rising CO₂ levels due to the Northern Hemisphere's fall and winter.\n\n3. **Current Year Observations**: On March 7, 2025, the daily CO₂ level at Mauna Loa reached 430.60 ppm, setting a new all-time high. This indicates that the CO₂ levels have already surpassed the 429.0 ppm threshold during the period in question.\n\nGiven these observations, it is highly unlikely that the maximum daily average CO₂ level for March 1-25, 2025, will be less than 429.0 ppm. The trend of increasing CO₂ levels, combined with the recent record high, suggests that levels will remain above the threshold.\n\nFINAL PROBABILITY: 0.0"
+    }
+  ]
+}
